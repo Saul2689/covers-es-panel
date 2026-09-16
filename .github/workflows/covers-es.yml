@@ -1,0 +1,38 @@
+# Secrets necesarios en el repo:
+#   SINGIT_PROD_TOKEN     el admin_token de la cookie
+#   CLOUDFLARE_API_TOKEN  token de Cloudflare con permiso "Cloudflare Pages: Edit"
+#   CLOUDFLARE_ACCOUNT_ID id de la cuenta
+name: Panel covers es
+
+on:
+  schedule:
+    - cron: '0 5 * * *'   # 05:00 UTC = 07:00 en Madrid (06:00 en horario de invierno)
+  workflow_dispatch:       # y a mano desde la pestana Actions
+
+concurrency:
+  group: covers-es
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Regenerar el panel
+        env:
+          SINGIT_PROD_BASE: https://api.singit.io
+          SINGIT_PROD_TOKEN: ${{ secrets.SINGIT_PROD_TOKEN }}
+        run: python refresh.py --out dist
+
+      - name: Publicar en Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name covers-es-v2 --branch main

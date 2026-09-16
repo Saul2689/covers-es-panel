@@ -1,0 +1,345 @@
+<title>Covers ES sin calificar</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Karla:wght@400;500;600&family=Roboto+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#EDF0F4; --surface:#FFFFFF; --surface-2:#F6F8FB;
+  --ink:#0F161E; --ink-2:#4B5A66; --ink-3:#7C8A98;
+  --rule:#D6DEE7; --rule-soft:#E7ECF2;
+  --accent:#1746C4; --accent-ink:#FFFFFF; --accent-soft:#E1E8FA;
+  --ok:#186A45; --ok-soft:#DEEFE6;
+  --warn:#8A5312; --warn-soft:#F7E9D3;
+  --mute:#5D6975; --mute-soft:#E6EAEF;
+  --shadow:0 1px 2px rgba(15,22,30,.06),0 8px 22px -14px rgba(15,22,30,.28);
+  --q1:#C4302B; --q2:#D9642B; --q3:#C9A227; --q4:#7BB33A; --q5:#1E9E5A;
+  --q-off:rgba(128,128,128,.35);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#0C1117; --surface:#141B23; --surface-2:#1A232C;
+    --ink:#E9EFF5; --ink-2:#A4B2BF; --ink-3:#72818F;
+    --rule:#26313C; --rule-soft:#1D262F;
+    --accent:#8DACFF; --accent-ink:#0C1117; --accent-soft:#1B2947;
+    --ok:#6FC79A; --ok-soft:#132C21;
+    --warn:#DCAC61; --warn-soft:#2C2213;
+    --mute:#92A0AD; --mute-soft:#1D262E;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 26px -16px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0C1117; --surface:#141B23; --surface-2:#1A232C;
+  --ink:#E9EFF5; --ink-2:#A4B2BF; --ink-3:#72818F;
+  --rule:#26313C; --rule-soft:#1D262F;
+  --accent:#8DACFF; --accent-ink:#0C1117; --accent-soft:#1B2947;
+  --ok:#6FC79A; --ok-soft:#132C21;
+  --warn:#DCAC61; --warn-soft:#2C2213;
+  --mute:#92A0AD; --mute-soft:#1D262E;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 26px -16px rgba(0,0,0,.8);
+}
+*{box-sizing:border-box}
+body{
+  margin:0;background:var(--ground);color:var(--ink);
+  font-family:"Karla",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px;padding-block:34px 80px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+a{color:var(--accent)}
+h1,h2,h3{font-family:"Archivo",system-ui,sans-serif;margin:0;text-wrap:balance}
+.mono{font-family:"Roboto Mono",ui-monospace,SFMono-Regular,monospace;font-variant-numeric:tabular-nums}
+
+.eyebrow{font-family:"Roboto Mono",monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin:0 0 12px}
+h1{font-weight:700;font-size:clamp(28px,4.6vw,40px);line-height:1.05;letter-spacing:-.02em}
+.lede{margin:12px 0 0;max-width:66ch;color:var(--ink-2);font-size:16px}
+.lede b{color:var(--ink);font-weight:600}
+
+.cifras{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:1px;background:var(--rule);
+  border:1px solid var(--rule);border-radius:8px;overflow:hidden;margin-top:26px}
+.cifra{background:var(--surface);padding:15px 17px}
+.cifra .n{font-family:"Archivo",sans-serif;font-weight:700;font-size:26px;line-height:1.1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.cifra .l{font-family:"Roboto Mono",monospace;font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);margin-top:5px}
+.cifra.is-ok .n{color:var(--ok)}
+.cifra.is-warn .n{color:var(--warn)}
+
+.reparto{margin-top:26px}
+.reparto .pista{display:flex;height:30px;border:1px solid var(--rule);overflow:hidden;background:var(--surface)}
+.reparto .seg{display:flex;align-items:center;justify-content:center;min-width:0;
+  font-family:"Roboto Mono",monospace;font-size:11.5px;font-variant-numeric:tabular-nums;
+  border-right:1px solid var(--surface);overflow:hidden;white-space:nowrap}
+.reparto .seg:last-child{border-right:0}
+.reparto .seg.s-con{background:var(--ok);color:var(--surface)}
+.reparto .seg.s-sin{background:var(--mute);color:var(--surface)}
+.reparto .seg.s-cal{background:var(--accent);color:var(--accent-ink)}
+.reparto .leyenda{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:9px;
+  font-family:"Roboto Mono",monospace;font-size:11px;color:var(--ink-3)}
+.reparto .leyenda span{display:flex;align-items:center;gap:6px}
+.reparto .leyenda i{width:10px;height:10px;display:inline-block}
+.reparto .leyenda i.s-con{background:var(--ok)}
+.reparto .leyenda i.s-sin{background:var(--mute)}
+.reparto .leyenda i.s-cal{background:var(--accent)}
+
+.subreparto{margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule)}
+.subreparto .titulo{font-family:"Roboto Mono",monospace;font-size:10.5px;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--ink-3);margin-bottom:7px}
+.subreparto .pista{height:24px}
+.subreparto .seg.qs1{background:var(--q1)} .subreparto .seg.qs2{background:var(--q2)}
+.subreparto .seg.qs3{background:var(--q3)} .subreparto .seg.qs4{background:var(--q4)}
+.subreparto .seg.qs5{background:var(--q5)}
+.subreparto .seg{color:#FFFFFF}
+.subreparto .leyenda i.qs1{background:var(--q1)} .subreparto .leyenda i.qs2{background:var(--q2)}
+.subreparto .leyenda i.qs3{background:var(--q3)} .subreparto .leyenda i.qs4{background:var(--q4)}
+.subreparto .leyenda i.qs5{background:var(--q5)}
+
+.estrellas{display:inline-flex;align-items:center;gap:1px;line-height:1;font-size:13px}
+.estrellas .off{color:var(--q-off)}
+.qlbl{font-family:"Roboto Mono",monospace;font-size:10.5px;font-weight:500;margin-left:6px;white-space:nowrap}
+.q1{color:var(--q1)} .q2{color:var(--q2)} .q3{color:var(--q3)} .q4{color:var(--q4)} .q5{color:var(--q5)}
+
+.barra{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:22px;
+  position:sticky;top:0;z-index:5;background:var(--ground);padding-block:12px}
+.tabs{display:flex;border:1px solid var(--rule);border-radius:7px;overflow:hidden;background:var(--surface)}
+.tab{font:inherit;cursor:pointer;background:none;border:0;padding:9px 15px;color:var(--ink-2);
+  border-right:1px solid var(--rule);display:flex;gap:8px;align-items:baseline}
+.tab:last-child{border-right:0}
+.tab b{font-family:"Archivo",sans-serif;font-weight:600;font-size:14px}
+.tab span{font-family:"Roboto Mono",monospace;font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.tab[aria-selected="true"]{background:var(--accent);color:var(--accent-ink)}
+.tab[aria-selected="true"] span{color:var(--accent-ink);opacity:.72}
+.tab:hover:not([aria-selected="true"]){background:var(--surface-2)}
+input[type="search"]{flex:1 1 230px;min-width:0;font:inherit;color:var(--ink);background:var(--surface);
+  border:1px solid var(--rule);border-radius:7px;padding:9px 13px}
+input[type="search"]::placeholder{color:var(--ink-3)}
+.cuenta{font-family:"Roboto Mono",monospace;font-size:12px;color:var(--ink-3);white-space:nowrap}
+
+.rejilla{display:grid;grid-template-columns:1fr;gap:22px;margin-top:6px;align-items:start}
+@media(min-width:980px){.rejilla{grid-template-columns:232px 1fr;gap:30px}}
+
+.indice{border:1px solid var(--rule);border-radius:8px;background:var(--surface);overflow:hidden}
+@media(min-width:980px){.indice{position:sticky;top:72px;max-height:calc(100vh - 104px);display:flex;flex-direction:column}}
+.indice h2{font-size:12px;font-family:"Roboto Mono",monospace;font-weight:500;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-3);padding:12px 14px;border-bottom:1px solid var(--rule-soft)}
+.indice ol{list-style:none;margin:0;padding:6px;overflow-y:auto;max-height:320px}
+@media(min-width:980px){.indice ol{max-height:none}}
+.indice button{font:inherit;width:100%;text-align:left;background:none;border:0;cursor:pointer;color:var(--ink-2);
+  padding:5px 8px;border-radius:5px;display:flex;justify-content:space-between;gap:8px;align-items:baseline;font-size:13.5px}
+.indice button:hover{background:var(--surface-2);color:var(--ink)}
+.indice button em{font-family:"Roboto Mono",monospace;font-style:normal;font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.indice .vacio{padding:12px 14px;color:var(--ink-3);font-size:13px}
+
+.grupo{margin-bottom:24px;scroll-margin-top:80px}
+.grupo h3{display:flex;align-items:baseline;gap:9px;font-size:18px;font-weight:600;letter-spacing:-.01em;
+  padding-bottom:7px;border-bottom:2px solid var(--ink)}
+.grupo h3 em{font-family:"Roboto Mono",monospace;font-style:normal;font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.fila{display:grid;grid-template-columns:46px 1fr auto;gap:10px 12px;align-items:center;
+  padding:9px 2px;border-bottom:1px solid var(--rule-soft)}
+.fila:hover{background:var(--surface-2)}
+.pos{font-family:"Roboto Mono",monospace;font-size:11.5px;color:var(--ink-3);font-variant-numeric:tabular-nums;text-align:right}
+.tit{font-weight:500;min-width:0;overflow-wrap:anywhere}
+.tit a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.tit a:hover{border-bottom-color:var(--accent);color:var(--accent)}
+.tit .lote{font-family:"Roboto Mono",monospace;font-size:10.5px;color:var(--ink-3);margin-left:8px;white-space:nowrap}
+.acc{display:flex;gap:7px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.chip{font-family:"Roboto Mono",monospace;font-size:10.5px;letter-spacing:.04em;padding:3px 8px;border-radius:99px;white-space:nowrap}
+.chip.ok{background:var(--ok-soft);color:var(--ok)}
+.chip.warn{background:var(--warn-soft);color:var(--warn)}
+.chip.mute{background:var(--mute-soft);color:var(--mute)}
+.enl{font-family:"Roboto Mono",monospace;font-size:11px;text-decoration:none;color:var(--accent);
+  border:1px solid var(--rule);border-radius:5px;padding:3px 9px;background:var(--surface)}
+.enl:hover{border-color:var(--accent);background:var(--accent-soft)}
+.idbtn{font:inherit;font-family:"Roboto Mono",monospace;font-size:10.5px;cursor:pointer;background:none;border:0;
+  color:var(--ink-3);padding:3px 2px}
+.idbtn:hover{color:var(--accent)}
+@media(max-width:560px){
+  .fila{grid-template-columns:36px 1fr;gap:6px 10px}
+  .acc{grid-column:2;justify-content:flex-start}
+}
+.nada{padding:40px 4px;color:var(--ink-3)}
+.pie{margin-top:36px;padding-top:18px;border-top:1px solid var(--rule);color:var(--ink-3);font-size:13px;max-width:70ch}
+.pie code{font-family:"Roboto Mono",monospace;font-size:12px;color:var(--ink-2)}
+.pie b{color:var(--ink-2)}
+#toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:var(--ink);color:var(--ground);
+  font-family:"Roboto Mono",monospace;font-size:12px;padding:9px 15px;border-radius:7px;box-shadow:var(--shadow);opacity:0;
+  pointer-events:none;transition:opacity .18s}
+#toast.on{opacity:1}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">CrossClear · catalogo espanol · actualizado el __FECHA__</p>
+  <h1>Covers en espanol pendientes de calificar</h1>
+  <p class="lede">Los <b id="lede-n">__TOTAL__ covers archivados</b> que todavia no tienen estrellas, partidos por lo que
+  suena de verdad al pulsar play: los que arrancan con la <b>voz del artista</b> y los que dejan el reproductor a
+  <b>0:00</b>. Dentro de cada grupo van agrupados por artista.</p>
+
+  <div class="reparto" id="reparto"></div>
+  <div class="reparto subreparto" id="subreparto" hidden></div>
+
+  <div class="cifras" id="cifras"></div>
+
+  <div class="barra">
+    <div class="tabs" role="tablist" aria-label="Grupo">
+      <button class="tab" id="tab-con" role="tab" aria-selected="true" data-g="con"><b>Con FULL SONG</b><span></span></button>
+      <button class="tab" id="tab-sin" role="tab" aria-selected="false" data-g="sin"><b>Sin audio utilizable</b><span></span></button>
+      <button class="tab" id="tab-cal" role="tab" aria-selected="false" data-g="cal"><b>Ya calificadas</b><span></span></button>
+    </div>
+    <input type="search" id="q" placeholder="Buscar cancion o artista" autocomplete="off" aria-label="Buscar cancion o artista">
+    <span class="cuenta" id="cuenta"></span>
+  </div>
+
+  <div class="rejilla">
+    <nav class="indice" aria-label="Indice de artistas">
+      <h2>Artistas</h2>
+      <ol id="idx"></ol>
+    </nav>
+    <div id="lista"></div>
+  </div>
+
+  <p class="pie">Filtro aplicado: <code>language=es</code>, <code>isArchived=true</code> y sin
+  <code>coverReview.quality</code>; las canciones que ya tienen estrellas no salen aqui. El grupo se decide probando el
+  audio una por una, no por la etiqueta del proveedor: en <b>Con FULL SONG</b> estan solo las que responden al pedir la
+  pista con voz. En el otro grupo, <b>solo karaoke</b> son las que nunca tuvieron voz y <b>0:00</b> las que tienen el
+  fichero en el proveedor pero no llegan a sonar. La etiqueta <b>L07</b> dice en que lote de 50 cae cada cancion. Los
+  enlaces a la ficha y al audio necesitan sesion de admin en SingIt.</p>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script id="payload" type="application/json">/*__PAYLOAD__*/</script>
+<script>
+(function(){
+  var P=JSON.parse(document.getElementById('payload').textContent);
+  var DATA=P.data, M=P.meta, BASE='https://api.singit.io';
+  var nf=new Intl.NumberFormat('es-ES');
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+
+  document.getElementById('cifras').innerHTML=[
+    ['Sin calificar',M.total,''],
+    ['Con full song',M.con,'is-ok'],
+    ['Sin audio utilizable',M.sin,''],
+    ['De esas, con fichero pero mudas',M.mudas,'is-warn'],
+    ['Ya calificadas',M.calificadas,'']
+  ].map(function(c){
+    return '<div class="cifra '+c[2]+'"><div class="n">'+nf.format(c[1])+'</div><div class="l">'+c[0]+'</div></div>';
+  }).join('');
+  document.querySelector('#tab-con span').textContent=nf.format(M.con);
+  document.querySelector('#tab-sin span').textContent=nf.format(M.sin);
+  document.querySelector('#tab-cal span').textContent=nf.format(M.cal);
+
+  var partes=[['s-con','Con full song',M.con],['s-sin','Sin audio utilizable',M.sin],['s-cal','Ya calificadas',M.cal]];
+  var suma=partes.reduce(function(a,p){return a+p[2]},0);
+  function pct(n){return Math.round(n/suma*1000)/10;}
+  document.getElementById('reparto').innerHTML=
+    '<div class="pista">'+partes.map(function(p){
+      var v=pct(p[2]);
+      return '<div class="seg '+p[0]+'" style="width:'+v+'%" title="'+p[1]+': '+nf.format(p[2])+' ('+v+'%)">'+(v>=6?v+'%':'')+'</div>';
+    }).join('')+'</div>'+
+    '<div class="leyenda">'+partes.map(function(p){
+      return '<span><i class="'+p[0]+'"></i>'+p[1]+' · '+nf.format(p[2])+' · '+pct(p[2])+'%</span>';
+    }).join('')+'</div>';
+
+  var QLBL={1:'Poor',2:'Weak',3:'Acceptable',4:'Good',5:'Excellent'};
+  var sub=document.getElementById('subreparto');
+  (function(){
+    var tot=M.cal||1;
+    var niveles=[1,2,3,4,5].map(function(n){return {n:n,v:M.q[String(n)]||0};});
+    function p2(v){return Math.round(v/tot*1000)/10;}
+    sub.innerHTML='<div class="titulo">Calidad de las '+nf.format(M.cal)+' calificadas</div>'+
+      '<div class="pista">'+niveles.filter(function(x){return x.v;}).map(function(x){
+        var v=p2(x.v);
+        return '<div class="seg qs'+x.n+'" style="width:'+v+'%" title="'+x.n+'/5 '+QLBL[x.n]+': '+nf.format(x.v)+' ('+v+'%)">'+(v>=7?v+'%':'')+'</div>';
+      }).join('')+'</div>'+
+      '<div class="leyenda">'+niveles.map(function(x){
+        return '<span><i class="qs'+x.n+'"></i>'+x.n+'/5 '+QLBL[x.n]+' · '+nf.format(x.v)+' · '+p2(x.v)+'%</span>';
+      }).join('')+'</div>';
+  })();
+  function estrellas(q){
+    var s='';
+    for(var i=1;i<=5;i++){s+=i<=q?'★':'<span class="off">★</span>';}
+    return '<span class="estrellas q'+q+'">'+s+'<span class="qlbl">'+q+'/5 '+QLBL[q]+'</span></span>';
+  }
+
+  var estado={g:'con',q:''};
+  var lista=document.getElementById('lista'), idx=document.getElementById('idx'), cuenta=document.getElementById('cuenta');
+  var grupos=[], pintados=0, io=null;
+
+  function agrupa(){
+    var q=estado.q.toLowerCase().trim();
+    var filas=DATA[estado.g].filter(function(r){
+      return !q || r[0].toLowerCase().indexOf(q)>=0 || r[1].toLowerCase().indexOf(q)>=0;
+    });
+    var mapa=new Map();
+    filas.forEach(function(r){ if(!mapa.has(r[1])){mapa.set(r[1],[]);} mapa.get(r[1]).push(r); });
+    grupos=Array.from(mapa,function(e){return {artista:e[0],filas:e[1]};});
+    var n=filas.length;
+    cuenta.textContent=nf.format(n)+(n===1?' cancion':' canciones')+' · '+nf.format(grupos.length)+(grupos.length===1?' artista':' artistas');
+    idx.innerHTML=grupos.length?grupos.map(function(g,i){
+      return '<li><button type="button" data-i="'+i+'">'+esc(g.artista)+' <em>'+g.filas.length+'</em></button></li>';
+    }).join(''):'<li class="vacio">Sin coincidencias</li>';
+  }
+
+  function bloque(g,i){
+    if(estado.g==='cal'){
+      var fcal=g.filas.map(function(r){
+        return '<div class="fila"><div class="pos"></div>'+
+          '<div class="tit"><a href="'+BASE+'/admin/tracks/'+r[2]+'" target="_blank" rel="noopener">'+esc(r[0])+'</a>'+
+          (r[4]===1?'<span class="lote">archivada</span>':'')+'</div>'+
+          '<div class="acc">'+estrellas(r[3])+'<button class="idbtn" type="button" data-id="'+r[2]+'" title="Copiar trackId">'+r[2].slice(-6)+'</button></div></div>';
+      }).join('');
+      return '<section class="grupo" id="g'+i+'"><h3>'+esc(g.artista)+' <em>'+g.filas.length+'</em></h3>'+fcal+'</section>';
+    }
+    var filas=g.filas.map(function(r){
+      var suena=r[4]===1, lote='L'+String(Math.ceil(r[5]/50));
+      if(lote.length<3){lote='L0'+lote.slice(1);}
+      var chip=suena?'<span class="chip ok">suena</span>'
+        :(r[6]===1?'<span class="chip warn">0:00</span>':'<span class="chip mute">solo karaoke</span>');
+      var oir=suena?'<a class="enl" href="'+BASE+'/admin/api/cross-clear/migration/songs/'+r[3]+'/audio" target="_blank" rel="noopener">oir</a>':'';
+      return '<div class="fila"><div class="pos">'+r[5]+'</div>'+
+        '<div class="tit"><a href="'+BASE+'/admin/tracks/'+r[2]+'" target="_blank" rel="noopener">'+esc(r[0])+'</a>'+
+        '<span class="lote">'+lote+'</span></div>'+
+        '<div class="acc">'+chip+'<button class="idbtn" type="button" data-id="'+r[2]+'" title="Copiar trackId">'+r[2].slice(-6)+'</button>'+oir+'</div></div>';
+    }).join('');
+    return '<section class="grupo" id="g'+i+'"><h3>'+esc(g.artista)+' <em>'+g.filas.length+'</em></h3>'+filas+'</section>';
+  }
+
+  function pinta(reset){
+    if(reset){lista.innerHTML='';pintados=0;if(io){io.disconnect();io=null;}}
+    if(!grupos.length){lista.innerHTML='<p class="nada">No hay ninguna cancion que encaje con la busqueda.</p>';return;}
+    var hasta=Math.min(pintados+45,grupos.length), trozo='';
+    for(var i=pintados;i<hasta;i++){trozo+=bloque(grupos[i],i);}
+    var cent=document.getElementById('cent'); if(cent){cent.remove();}
+    lista.insertAdjacentHTML('beforeend',trozo);
+    pintados=hasta;
+    if(pintados<grupos.length){
+      lista.insertAdjacentHTML('beforeend','<div id="cent" style="height:1px"></div>');
+      if(!io){io=new IntersectionObserver(function(en){if(en[0].isIntersecting){pinta(false);}},{rootMargin:'700px'});}
+      io.observe(document.getElementById('cent'));
+    }
+  }
+
+  function refresca(){agrupa();pinta(true);}
+
+  document.querySelectorAll('.tab').forEach(function(b){
+    b.addEventListener('click',function(){
+      document.querySelectorAll('.tab').forEach(function(o){o.setAttribute('aria-selected',String(o===b));});
+      estado.g=b.dataset.g;sub.hidden=estado.g!=='cal';refresca();window.scrollTo(0,0);
+    });
+  });
+  var t;
+  document.getElementById('q').addEventListener('input',function(e){
+    clearTimeout(t);var v=e.target.value;t=setTimeout(function(){estado.q=v;refresca();},120);
+  });
+  idx.addEventListener('click',function(e){
+    var b=e.target.closest('button[data-i]'); if(!b){return;}
+    var i=+b.dataset.i;
+    while(pintados<=i && pintados<grupos.length){pinta(false);}
+    var el=document.getElementById('g'+i); if(el){el.scrollIntoView({behavior:'smooth',block:'start'});}
+  });
+  var tm;
+  lista.addEventListener('click',function(e){
+    var b=e.target.closest('.idbtn'); if(!b){return;}
+    var out=document.getElementById('toast');
+    function ok(){out.textContent='trackId copiado: '+b.dataset.id;out.classList.add('on');clearTimeout(tm);tm=setTimeout(function(){out.classList.remove('on');},1600);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(b.dataset.id).then(ok,function(){});}
+    else{var ta=document.createElement('textarea');ta.value=b.dataset.id;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');ok();}catch(err){}ta.remove();}
+  });
+  refresca();
+})();
+</script>

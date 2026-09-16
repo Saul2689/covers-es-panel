@@ -1,0 +1,14 @@
+{
+  "name": "covers-es-panel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Panel de covers es de CrossClear: regenera el HTML desde la admin y lo publica en Cloudflare Pages",
+  "scripts": {
+    "build": "python refresh.py --out dist",
+    "deploy": "python refresh.py --out dist && wrangler pages deploy dist --project-name covers-es-v2 --branch main --commit-dirty=true",
+    "publish-only": "wrangler pages deploy dist --project-name covers-es-v2 --branch main --commit-dirty=true"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
+}
