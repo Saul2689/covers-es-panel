@@ -25,7 +25,9 @@ python refresh.py --env ../../tokens.env --out dist
 
 ## Desatendido
 
-`.github-workflow.yml` va a `.github/workflows/covers-es.yml` del repo. Corre **cada hora en punto** y
+`.github/workflows/covers-es.yml`. Corre **cada hora en punto de 9:00 a 18:00 hora de
+Madrid** (el cron va en UTC de 7 a 17 y un primer paso descarta las horas que caen
+fuera de la franja, para que el horario de verano no lo desplace) y
 también a mano desde la pestaña Actions. Necesita tres secrets:
 
 | Secret | Qué es |

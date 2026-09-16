@@ -6,7 +6,9 @@ name: Panel covers es
 
 on:
   schedule:
-    - cron: '0 * * * *'    # cada hora en punto (hora UTC)
+    # La franja ancha cubre 09:00-18:00 de Madrid tanto en verano (UTC+2)
+    # como en invierno (UTC+1); el paso "horario" recorta lo que sobra.
+    - cron: '0 7-17 * * *'
   workflow_dispatch:       # y a mano desde la pestana Actions
 
 concurrency:
@@ -18,19 +20,39 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
+      - name: Mirar la hora en Madrid
+        id: horario
+        run: |
+          H=$(TZ=Europe/Madrid date +%H)
+          H=$((10#$H))
+          echo "En Madrid son las $H h."
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "Lanzado a mano: se actualiza igual."
+            echo "toca=si" >> "$GITHUB_OUTPUT"
+          elif [ "$H" -ge 9 ] && [ "$H" -le 18 ]; then
+            echo "toca=si" >> "$GITHUB_OUTPUT"
+          else
+            echo "Fuera de la franja 9-18: no se actualiza."
+            echo "toca=no" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/checkout@v4
+        if: steps.horario.outputs.toca == 'si'
 
       - uses: actions/setup-python@v5
+        if: steps.horario.outputs.toca == 'si'
         with:
           python-version: '3.12'
 
       - name: Regenerar el panel
+        if: steps.horario.outputs.toca == 'si'
         env:
           SINGIT_PROD_BASE: https://api.singit.io
           SINGIT_PROD_TOKEN: ${{ secrets.SINGIT_PROD_TOKEN }}
         run: python refresh.py --out dist
 
       - name: Publicar en Cloudflare Pages
+        if: steps.horario.outputs.toca == 'si'
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
