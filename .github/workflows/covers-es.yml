@@ -6,7 +6,7 @@ name: Panel covers es
 
 on:
   schedule:
-    - cron: '0 5 * * *'   # 05:00 UTC = 07:00 en Madrid (06:00 en horario de invierno)
+    - cron: '0 * * * *'    # cada hora en punto (hora UTC)
   workflow_dispatch:       # y a mano desde la pestana Actions
 
 concurrency:

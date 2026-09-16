@@ -25,8 +25,8 @@ python refresh.py --env ../../tokens.env --out dist
 
 ## Desatendido
 
-`.github-workflow.yml` va a `.github/workflows/covers-es.yml` del repo. Corre a
-las 05:00 UTC y también a mano desde la pestaña Actions. Necesita tres secrets:
+`.github-workflow.yml` va a `.github/workflows/covers-es.yml` del repo. Corre **cada hora en punto** y
+también a mano desde la pestaña Actions. Necesita tres secrets:
 
 | Secret | Qué es |
 |---|---|
