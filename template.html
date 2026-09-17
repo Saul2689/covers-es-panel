@@ -56,8 +56,13 @@ h1,h2,h3{font-family:"Archivo",system-ui,sans-serif;margin:0;text-wrap:balance}
 .refrescar:hover:not(:disabled){background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .refrescar:disabled{cursor:not-allowed;opacity:.45}
 .aviso-refresco{margin:0;font-family:"Roboto Mono",monospace;font-size:10.5px;letter-spacing:.04em;
-  color:var(--ink-3);text-align:right;max-width:34ch}
+  color:var(--ink-3);text-align:right;max-width:52ch;line-height:1.5}
 .aviso-refresco.agotado{color:var(--warn)}
+@media(max-width:820px){
+  .cabecera{flex-direction:column;gap:0}
+  .refresco{align-items:flex-start}
+  .aviso-refresco{text-align:left}
+}
 .progreso{margin:0 0 22px;padding:14px 16px;border:1px solid var(--rule);border-radius:10px;background:var(--surface)}
 .progreso .linea{display:flex;justify-content:space-between;gap:12px;font-family:"Roboto Mono",monospace;
   font-size:11.5px;color:var(--ink-2);margin-bottom:9px}
