@@ -7,6 +7,9 @@
 
 const REPO = 'Saul2689/covers-es-panel';
 const TOPE_DIARIO = 5;
+// Solo cuentan las vueltas que pidio ESTE boton: el workflow se llama a si mismo
+// "... boton" cuando llega con origen=boton, y las lanzadas desde la terminal
+// llevan otro nombre y no gastan cupo de nadie.
 
 // El dia se corta a medianoche de Madrid, no de Londres.
 function hoyEnMadrid(iso) {
@@ -62,7 +65,9 @@ export async function onRequestGet({ env }) {
       : 600;
 
     const gastadas = vueltas.filter(
-      (v) => v.event === 'workflow_dispatch' && hoyEnMadrid(v.created_at) === hoy).length;
+      (v) => v.event === 'workflow_dispatch'
+        && /boton/.test(v.display_title || '')
+        && hoyEnMadrid(v.created_at) === hoy).length;
 
     return new Response(JSON.stringify({
       ok: true,

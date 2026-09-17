@@ -5,6 +5,10 @@
 #   SLACK_WEBHOOK_URL     webhook de Slack para el aviso (opcional)
 name: Panel covers es
 
+# El nombre de cada vuelta dice de donde salio. Es lo que mira el contador del
+# boton para no cobrarse las que lanzamos desde la terminal.
+run-name: Panel covers es · ${{ inputs.origen || github.event_name }}
+
 on:
   schedule:
     # La franja ancha cubre 09:00-18:00 de Madrid tanto en verano (UTC+2)
@@ -13,6 +17,13 @@ on:
     # de GitHub y se saltan citas. El paso "horario" recorta la franja real.
     - cron: '25 7-17 * * *'
   workflow_dispatch:       # y a mano desde la pestana Actions
+    inputs:
+      origen:
+        description: 'quien la pide'
+        required: false
+        default: terminal
+        type: choice
+        options: [terminal, boton]
 
 concurrency:
   group: covers-es

@@ -10,6 +10,9 @@ const REPO = 'Saul2689/covers-es-panel';
 const FICHERO = 'covers-es.yml';
 const RAMA = 'master';
 const TOPE_DIARIO = 5;
+// Solo cuentan las vueltas que pidio ESTE boton: el workflow se llama a si mismo
+// "... boton" cuando llega con origen=boton, y las lanzadas desde la terminal
+// llevan otro nombre y no gastan cupo de nadie.
 
 function hoyEnMadrid(iso) {
   const f = new Intl.DateTimeFormat('sv-SE', {
@@ -52,7 +55,9 @@ export async function onRequestPost({ env }) {
     }
 
     const gastadas = vueltas.filter(
-      (v) => v.event === 'workflow_dispatch' && hoyEnMadrid(v.created_at) === hoy).length;
+      (v) => v.event === 'workflow_dispatch'
+        && /boton/.test(v.display_title || '')
+        && hoyEnMadrid(v.created_at) === hoy).length;
     if (gastadas >= TOPE_DIARIO) {
       return responde({ ok: false, motivo: 'tope', restantes: 0, tope: TOPE_DIARIO }, 429);
     }
@@ -60,7 +65,7 @@ export async function onRequestPost({ env }) {
     const lanzada = await github(
       '/repos/' + REPO + '/actions/workflows/' + FICHERO + '/dispatches',
       env.GH_TOKEN,
-      { method: 'POST', body: JSON.stringify({ ref: RAMA }) },
+      { method: 'POST', body: JSON.stringify({ ref: RAMA, inputs: { origen: 'boton' } }) },
     );
     if (!lanzada.ok) {
       return responde({ ok: false, motivo: 'no-arranca-' + lanzada.status }, 502);
