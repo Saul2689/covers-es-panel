@@ -80,8 +80,6 @@ h1,h2,h3{font-family:"Archivo",system-ui,sans-serif;margin:0;text-wrap:balance}
   transition:width .9s linear}
 .progreso.listo .relleno{background:var(--ok)}
 h1{font-weight:700;font-size:clamp(28px,4.6vw,40px);line-height:1.05;letter-spacing:-.02em}
-.lede{margin:12px 0 0;max-width:66ch;color:var(--ink-2);font-size:16px}
-.lede b{color:var(--ink);font-weight:600}
 
 .cifras{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:1px;background:var(--rule);
   border:1px solid var(--rule);border-radius:8px;overflow:hidden;margin-top:26px}
@@ -216,7 +214,6 @@ input[type="search"]::placeholder{color:var(--ink-3)}
   </div>
 
   <h1 id="h1"></h1>
-  <p class="lede" id="lede"></p>
 
   <div class="reparto" id="reparto"></div>
   <div class="reparto subreparto" id="subreparto" hidden></div>
@@ -262,7 +259,6 @@ input[type="search"]::placeholder{color:var(--ink-3)}
       titulo:'Spanish covers to rate · SingIt',
       eyebrow:'CrossClear · Spanish catalogue · updated {fecha}',
       h1:'Spanish covers to rate',
-      lede:'The <b>{n} archived covers</b> with no stars yet, split by what actually plays when you hit play: the ones that start with the <b>artist’s voice</b> and the ones that leave the player at <b>0:00</b>. Inside each group they are sorted by artist.',
       btn:'↻ Refresh now',
       comprobando:'checking…',
       quedan:'{n} of {t} manual refreshes left today · takes {tiempo}',
@@ -294,8 +290,7 @@ input[type="search"]::placeholder{color:var(--ink-3)}
       loc:'es-ES',
       titulo:'Covers ES sin calificar · SingIt',
       eyebrow:'CrossClear · catálogo español · actualizado el {fecha}',
-      h1:'Covers en español pendientes de calificar',
-      lede:'Los <b>{n} covers archivados</b> que todavía no tienen estrellas, partidos por lo que suena de verdad al pulsar play: los que arrancan con la <b>voz del artista</b> y los que dejan el reproductor a <b>0:00</b>. Dentro de cada grupo van agrupados por artista.',
+      h1:'Covers en español para calificar',
       btn:'↻ Actualizar ahora',
       comprobando:'comprobando…',
       quedan:'{n} de {t} actualizaciones manuales disponibles hoy · tarda {tiempo}',
@@ -451,7 +446,6 @@ input[type="search"]::placeholder{color:var(--ink-3)}
     document.title=t('titulo');
     document.getElementById('eyebrow').textContent=t('eyebrow',{fecha:fecha()});
     document.getElementById('h1').textContent=t('h1');
-    document.getElementById('lede').innerHTML=t('lede',{n:nf.format(M.total)});
     document.getElementById('pie').innerHTML=t('pie');
     document.getElementById('h-artistas').textContent=t('artistas');
     document.getElementById('indice').setAttribute('aria-label',t('indiceAria'));
