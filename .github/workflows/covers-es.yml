@@ -2,6 +2,7 @@
 #   SINGIT_PROD_TOKEN     el admin_token de la cookie
 #   CLOUDFLARE_API_TOKEN  token de Cloudflare con permiso "Cloudflare Pages: Edit"
 #   CLOUDFLARE_ACCOUNT_ID id de la cuenta
+#   SLACK_WEBHOOK_URL     webhook de Slack para el aviso (opcional)
 name: Panel covers es
 
 on:
@@ -21,6 +22,10 @@ jobs:
   publicar:
     runs-on: ubuntu-latest
     timeout-minutes: 90
+    env:
+      GANCHO: ${{ secrets.SLACK_WEBHOOK_URL }}
+      DISPARO: ${{ github.event_name }}
+      ENLACE: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
     steps:
       - name: Mirar la hora en Madrid
         id: horario
@@ -60,3 +65,13 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy dist --project-name covers-es-v2 --branch main
+
+      - name: Avisar por Slack
+        if: steps.horario.outputs.toca == 'si' && env.GANCHO != ''
+        run: python aviso_slack.py
+
+      - name: Avisar por Slack de un fallo
+        if: failure() && steps.horario.outputs.toca == 'si' && env.GANCHO != ''
+        env:
+          FALLO: '1'
+        run: python aviso_slack.py

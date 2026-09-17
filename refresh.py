@@ -16,7 +16,7 @@ Solo biblioteca estandar. Tres fases:
     2. fichas  GET /admin/api/tracks/{trackId}          (isArchived + estrellas)
     3. audio   GET .../migration/songs/{songId}/audio   (Range: bytes=0-1)
 """
-import argparse, json, os, sys, time, urllib.request, urllib.error, collections
+import argparse, json, os, shutil, sys, time, urllib.request, urllib.error, collections
 from concurrent.futures import ThreadPoolExecutor
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -183,6 +183,20 @@ def render(datos, plantilla, salida, fecha):
     os.makedirs(salida, exist_ok=True)
     with open(os.path.join(salida, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(html)
+
+    # Resumen suelto: lo lee el aviso de Slack y el boton de la pagina.
+    meta = dict(payload['meta'], fecha=fecha)
+    with open(os.path.join(salida, 'meta.json'), 'w', encoding='utf-8') as f:
+        json.dump(meta, f, ensure_ascii=False)
+
+    # Las funciones del boton viajan dentro de lo que se publica.
+    fuente = os.path.join(AQUI, 'functions')
+    if os.path.isdir(fuente):
+        destino = os.path.join(salida, 'functions')
+        if os.path.isdir(destino):
+            shutil.rmtree(destino)
+        shutil.copytree(fuente, destino)
+
     return payload['meta']
 
 

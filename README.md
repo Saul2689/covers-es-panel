@@ -35,6 +35,34 @@ también a mano desde la pestaña Actions. Necesita tres secrets:
 | `SINGIT_PROD_TOKEN` | el valor de la cookie `admin_token` |
 | `CLOUDFLARE_API_TOKEN` | token de Cloudflare con permiso *Cloudflare Pages: Edit* |
 | `CLOUDFLARE_ACCOUNT_ID` | id de la cuenta |
+| `SLACK_WEBHOOK_URL` | webhook de Slack para el aviso de cada vuelta (opcional: sin el, los dos pasos de aviso se saltan) |
+
+## El boton de actualizar a mano
+
+La pagina lleva un boton publico que dispara una vuelta. El freno vive en el
+servidor, no en el navegador, porque la pagina la ve cualquiera:
+
+- `functions/api/refrescar.js` (POST) cuenta las vueltas `workflow_dispatch` del
+  dia **en hora de Madrid** y se niega a partir de **5**; tambien se niega si ya
+  hay una corriendo. Si pasa el filtro, llama a la API de GitHub para lanzarla.
+- `functions/api/estado.js` (GET) dice si hay una en marcha, cuando arranco y
+  cuanto tardan de media las ultimas (descartando las que duran segundos porque
+  se saltaron por horario). Con eso la pagina pinta el contador.
+
+`refresh.py` copia `functions/` dentro de `dist/` en cada build, asi que viajan
+con la publicacion. Las dos funciones necesitan una variable **en el proyecto de
+Cloudflare Pages** (no en GitHub):
+
+| Variable | Que es |
+|---|---|
+| `GH_TOKEN` | token de GitHub con permiso de **escritura sobre Actions** en este repo |
+
+```bash
+npx wrangler pages secret put GH_TOKEN --project-name covers-es-v2
+```
+
+Sin esa variable las funciones devuelven `sin-token`, el boton sale apagado y la
+pagina sigue funcionando igual: los datos van dentro del HTML.
 
 ## De dónde salen los datos
 
