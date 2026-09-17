@@ -173,6 +173,9 @@ def render(datos, plantilla, salida, fecha):
             'artSin': len({x['artist'] for x in sin}),
             'cal': len(cal), 'artCal': len({x['artist'] for x in cal}),
             'q': {str(n): sum(1 for x in cal if x['q'] == n) for n in (1, 2, 3, 4, 5)},
+            # La pagina escribe la fecha en el idioma que elija cada visitante,
+            # asi que va cruda y se formatea alli.
+            'iso': time.strftime('%Y-%m-%d'),
         },
     }
     html = open(plantilla, encoding='utf-8').read()

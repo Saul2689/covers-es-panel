@@ -37,6 +37,19 @@ también a mano desde la pestaña Actions. Necesita tres secrets:
 | `CLOUDFLARE_ACCOUNT_ID` | id de la cuenta |
 | `SLACK_WEBHOOK_URL` | webhook de Slack para el aviso de cada vuelta (opcional: sin el, los dos pasos de aviso se saltan) |
 
+## Ingles y espanol
+
+La pagina se comparte fuera del equipo, asi que **arranca en ingles**; el
+interruptor EN/ES de la cabecera cambia todo el texto y la eleccion se guarda en
+el navegador de cada visitante. Las etiquetas de estrella (Poor, Weak,
+Acceptable, Good, Excellent) **no se traducen**: son las del admin de SingIt y
+hay que poder cotejarlas.
+
+Los dos idiomas viven en el objeto `TXT` del script, arriba del todo. La fecha
+viaja cruda (`meta.iso`) y se formatea en el navegador con el idioma elegido.
+
+El aviso de Slack sigue en espanol: ese lo lees tu, no se comparte.
+
 ## El boton de actualizar a mano
 
 La pagina lleva un boton publico que dispara una vuelta. El freno vive en el

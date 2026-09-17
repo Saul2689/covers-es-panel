@@ -1,3 +1,5 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Covers ES sin calificar</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Karla:wght@400;500;600&family=Roboto+Mono:wght@400;500&display=swap">
 <style>
@@ -50,6 +52,12 @@ h1,h2,h3{font-family:"Archivo",system-ui,sans-serif;margin:0;text-wrap:balance}
 .eyebrow{font-family:"Roboto Mono",monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin:0 0 12px}
 .cabecera{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;flex-wrap:wrap}
 .refresco{display:flex;flex-direction:column;align-items:flex-end;gap:5px;margin-bottom:12px}
+.fila-acciones{display:flex;align-items:center;gap:9px}
+.idiomas{display:flex;border:1px solid var(--rule);border-radius:999px;overflow:hidden;background:var(--surface)}
+.idioma{font:inherit;font-family:"Roboto Mono",monospace;font-size:11px;letter-spacing:.08em;cursor:pointer;
+  background:none;border:0;padding:9px 13px;color:var(--ink-3);transition:background .15s,color .15s}
+.idioma:hover:not([aria-pressed="true"]){background:var(--surface-2);color:var(--ink-2)}
+.idioma[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
 .refrescar{font-family:"Roboto Mono",monospace;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;
   cursor:pointer;color:var(--accent);background:var(--surface);border:1px solid var(--rule);
   border-radius:999px;padding:9px 20px;white-space:nowrap;transition:background .15s,color .15s,border-color .15s}
@@ -188,22 +196,27 @@ input[type="search"]::placeholder{color:var(--ink-3)}
 
 <div class="wrap">
   <div class="cabecera">
-    <p class="eyebrow">CrossClear · catalogo espanol · actualizado el __FECHA__</p>
+    <p class="eyebrow" id="eyebrow"></p>
     <div class="refresco">
-      <button class="refrescar" id="refrescar" type="button" disabled>↻ Actualizar ahora</button>
-      <p class="aviso-refresco" id="aviso-refresco">comprobando…</p>
+      <div class="fila-acciones">
+        <div class="idiomas" role="group" id="idiomas">
+          <button class="idioma" type="button" data-l="en" aria-pressed="true">EN</button>
+          <button class="idioma" type="button" data-l="es" aria-pressed="false">ES</button>
+        </div>
+        <button class="refrescar" id="refrescar" type="button" disabled></button>
+      </div>
+      <p class="aviso-refresco" id="aviso-refresco"></p>
     </div>
   </div>
 
   <div class="progreso" id="progreso" hidden>
-    <div class="linea"><span id="progreso-texto">Pidiendo la actualizacion…</span>
+    <div class="linea"><span id="progreso-texto"></span>
       <span class="reloj" id="progreso-reloj">0:00</span></div>
     <div class="carril"><div class="relleno" id="progreso-relleno"></div></div>
   </div>
-  <h1>Covers en espanol pendientes de calificar</h1>
-  <p class="lede">Los <b id="lede-n">__TOTAL__ covers archivados</b> que todavia no tienen estrellas, partidos por lo que
-  suena de verdad al pulsar play: los que arrancan con la <b>voz del artista</b> y los que dejan el reproductor a
-  <b>0:00</b>. Dentro de cada grupo van agrupados por artista.</p>
+
+  <h1 id="h1"></h1>
+  <p class="lede" id="lede"></p>
 
   <div class="reparto" id="reparto"></div>
   <div class="reparto subreparto" id="subreparto" hidden></div>
@@ -211,210 +224,276 @@ input[type="search"]::placeholder{color:var(--ink-3)}
   <div class="cifras" id="cifras"></div>
 
   <div class="barra">
-    <div class="tabs" role="tablist" aria-label="Grupo">
-      <button class="tab" id="tab-con" role="tab" aria-selected="true" data-g="con"><b>Con FULL SONG</b><span></span></button>
-      <button class="tab" id="tab-sin" role="tab" aria-selected="false" data-g="sin"><b>Sin audio utilizable</b><span></span></button>
-      <button class="tab" id="tab-cal" role="tab" aria-selected="false" data-g="cal"><b>Ya calificadas</b><span></span></button>
+    <div class="tabs" role="tablist" id="tablist">
+      <button class="tab" id="tab-con" role="tab" aria-selected="true" data-g="con"><b></b><span></span></button>
+      <button class="tab" id="tab-sin" role="tab" aria-selected="false" data-g="sin"><b></b><span></span></button>
+      <button class="tab" id="tab-cal" role="tab" aria-selected="false" data-g="cal"><b></b><span></span></button>
     </div>
-    <input type="search" id="q" placeholder="Buscar cancion o artista" autocomplete="off" aria-label="Buscar cancion o artista">
+    <input type="search" id="q" autocomplete="off">
     <span class="cuenta" id="cuenta"></span>
   </div>
 
   <div class="rejilla">
-    <nav class="indice" aria-label="Indice de artistas">
-      <h2>Artistas</h2>
+    <nav class="indice" id="indice">
+      <h2 id="h-artistas"></h2>
       <ol id="idx"></ol>
     </nav>
     <div id="lista"></div>
   </div>
 
-  <p class="pie">Filtro aplicado: <code>language=es</code>, <code>isArchived=true</code> y sin
-  <code>coverReview.quality</code>; las canciones que ya tienen estrellas no salen aqui. El grupo se decide probando el
-  audio una por una, no por la etiqueta del proveedor: en <b>Con FULL SONG</b> estan solo las que responden al pedir la
-  pista con voz. En el otro grupo, <b>solo karaoke</b> son las que nunca tuvieron voz y <b>0:00</b> las que tienen el
-  fichero en el proveedor pero no llegan a sonar. La etiqueta <b>L07</b> dice en que lote de 50 cae cada cancion. Los
-  enlaces a la ficha y al audio necesitan sesion de admin en SingIt.</p>
+  <p class="pie" id="pie"></p>
 </div>
 <div id="toast" role="status" aria-live="polite"></div>
 
 <script id="payload" type="application/json">/*__PAYLOAD__*/</script>
 <script>
 (function(){
-  /* ---- Boton de actualizar a mano -------------------------------------
-     El tope de 5 al dia lo impone el servidor (functions/api/refrescar.js);
-     esto de aqui solo lo cuenta y lo ensena. Una vuelta tarda unos minutos,
-     asi que mientras corre se ve un contador con lo que lleva y lo que suele
-     tardar, y al terminar la pagina se recarga sola con los datos nuevos. */
-  (function(){
-    var boton=document.getElementById('refrescar'),
-        aviso=document.getElementById('aviso-refresco'),
-        caja=document.getElementById('progreso'),
-        texto=document.getElementById('progreso-texto'),
-        reloj=document.getElementById('progreso-reloj'),
-        relleno=document.getElementById('progreso-relleno');
-    if(!boton) return;
-
-    var media=600, arranque=null, fase='parado', tic=null, sonda=null, espera=0;
-
-    function mmss(seg){
-      seg=Math.max(0,Math.round(seg));
-      return Math.floor(seg/60)+':'+String(seg%60).padStart(2,'0');
-    }
-    function comoDe(seg){
-      var m=Math.round(seg/60);
-      return m<=1?'un minuto':('unos '+m+' minutos');
-    }
-    function pinta(texto2, agotado){
-      aviso.textContent=texto2;
-      aviso.classList.toggle('agotado',!!agotado);
-    }
-
-    function leerEstado(){
-      return fetch('/api/estado',{cache:'no-store'})
-        .then(function(r){return r.json();});
-    }
-
-    function ponerAlDia(d){
-      if(!d||!d.ok){
-        boton.disabled=true;
-        pinta('el boton no esta disponible ahora mismo',true);
-        return;
-      }
-      media=d.media||600;
-      if(d.corriendo){
-        arranque=d.arranque?new Date(d.arranque).getTime():Date.now();
-        arrancarVista('Actualizando los datos…');
-        fase='corriendo';
-        return;
-      }
-      if(fase==='parado'){
-        boton.disabled=d.restantes<=0;
-        pinta(d.restantes>0
-          ? d.restantes+' de '+d.tope+' actualizaciones manuales disponibles hoy · tarda '+comoDe(media)
-          : 'se han gastado las '+d.tope+' actualizaciones de hoy · vuelve manana',
-          d.restantes<=0);
-      }
-    }
-
-    function arrancarVista(msg){
-      caja.hidden=false;
-      caja.classList.remove('listo');
-      texto.textContent=msg;
-      boton.disabled=true;
-      if(tic) return;
-      tic=setInterval(function(){
-        var seg=arranque?(Date.now()-arranque)/1000:0;
-        reloj.textContent=mmss(seg)+' de ~'+mmss(media);
-        relleno.style.width=Math.min(97,(seg/media)*100)+'%';
-      },1000);
-    }
-
-    function terminar(){
-      clearInterval(tic); clearInterval(sonda); tic=null; sonda=null;
-      caja.classList.add('listo');
-      relleno.style.width='100%';
-      texto.textContent='Listo. Cargando los datos nuevos…';
-      setTimeout(function(){location.reload();},1200);
-    }
-
-    function vigilar(){
-      if(sonda) return;
-      sonda=setInterval(function(){
-        leerEstado().then(function(d){
-          if(!d||!d.ok) return;
-          media=d.media||media;
-          if(d.corriendo){
-            fase='corriendo';
-            if(d.arranque) arranque=new Date(d.arranque).getTime();
-            texto.textContent='Actualizando los datos…';
-            return;
-          }
-          if(fase==='corriendo'){ terminar(); return; }
-          /* Todavia no aparece en GitHub: le damos un minuto de cortesia. */
-          espera+=1;
-          if(espera>8) terminar();
-        });
-      },8000);
-    }
-
-    boton.addEventListener('click',function(){
-      arranque=Date.now(); fase='lanzando'; espera=0;
-      arrancarVista('Pidiendo la actualizacion…');
-      fetch('/api/refrescar',{method:'POST'})
-        .then(function(r){return r.json().then(function(d){return {s:r.status,d:d};});})
-        .then(function(x){
-          if(x.d&&x.d.ok){
-            pinta(x.d.restantes+' de '+x.d.tope+' actualizaciones manuales disponibles hoy');
-            vigilar();
-            return;
-          }
-          var motivo=x.d&&x.d.motivo;
-          if(motivo==='ya-corriendo'){
-            texto.textContent='Ya hay una actualizacion en marcha…';
-            vigilar();
-            return;
-          }
-          clearInterval(tic); tic=null;
-          caja.hidden=true;
-          boton.disabled=true;
-          pinta(motivo==='tope'
-            ? 'se han gastado las 5 actualizaciones de hoy · vuelve manana'
-            : 'no se ha podido lanzar la actualizacion',true);
-        })
-        .catch(function(){
-          clearInterval(tic); tic=null;
-          caja.hidden=true;
-          boton.disabled=false;
-          pinta('no se ha podido lanzar la actualizacion',true);
-        });
-    });
-
-    leerEstado().then(function(d){
-      ponerAlDia(d);
-      if(d&&d.ok&&d.corriendo) vigilar();
-    }).catch(function(){
-      boton.disabled=true;
-      pinta('el boton no esta disponible ahora mismo',true);
-    });
-  })();
-
   var P=JSON.parse(document.getElementById('payload').textContent);
   var DATA=P.data, M=P.meta, BASE='https://api.singit.io';
-  var nf=new Intl.NumberFormat('es-ES');
+
+  /* ---- Los dos idiomas -------------------------------------------------
+     La pagina se comparte fuera del equipo, asi que arranca en ingles y
+     quien quiera castellano lo cambia; su eleccion se queda en su navegador.
+     Las etiquetas de estrella (Poor..Excellent) no se traducen: son las que
+     pone el admin de SingIt y hay que poder cotejarlas. */
+  var TXT={
+    en:{
+      loc:'en-US',
+      titulo:'Spanish covers to rate · SingIt',
+      eyebrow:'CrossClear · Spanish catalogue · updated {fecha}',
+      h1:'Spanish covers awaiting a rating',
+      lede:'The <b>{n} archived covers</b> with no stars yet, split by what actually plays when you hit play: the ones that start with the <b>artist’s voice</b> and the ones that leave the player at <b>0:00</b>. Inside each group they are sorted by artist.',
+      btn:'↻ Refresh now',
+      comprobando:'checking…',
+      quedan:'{n} of {t} manual refreshes left today · takes {tiempo}',
+      agotado:'today’s {t} refreshes are used up · come back tomorrow',
+      noDisp:'the button is not available right now',
+      noArranca:'the refresh could not be started',
+      unMin:'a minute',
+      variosMin:'about {m} minutes',
+      pidiendo:'Requesting the refresh…',
+      actualizando:'Refreshing the data…',
+      yaCorriendo:'A refresh is already running…',
+      listo:'Done. Loading the new data…',
+      de:'of',
+      tabCon:'With FULL SONG', tabSin:'No usable audio', tabCal:'Already rated',
+      grupoAria:'Group', buscar:'Search song or artist',
+      artistas:'Artists', indiceAria:'Artist index',
+      cSin:'Unrated', cCon:'With full song', cNo:'No usable audio',
+      cMudas:'Of those, file there but silent', cCal:'Already rated',
+      calidad:'Quality of the {n} rated',
+      cancion:'song', canciones:'songs', artista:'artist', artistasN:'artists',
+      sinCoincidencias:'No matches',
+      nada:'No song matches your search.',
+      suena:'plays', karaoke:'karaoke only', archivada:'archived',
+      oir:'listen', copiar:'Copy trackId', copiado:'trackId copied: ',
+      pie:'Filter applied: <code>language=es</code>, <code>isArchived=true</code> and no <code>coverReview.quality</code>; covers that already have stars are not listed here. The group is decided by testing the audio one by one, not by the vendor’s flag: <b>With FULL SONG</b> holds only the ones that answer when the voiced track is requested. In the other group, <b>karaoke only</b> never had a voice and <b>0:00</b> means the vendor holds the file but it never plays. The <b>L07</b> tag says which batch of 50 each song falls in. The links to the track and the audio need an admin session in SingIt.'
+    },
+    es:{
+      loc:'es-ES',
+      titulo:'Covers ES sin calificar · SingIt',
+      eyebrow:'CrossClear · catálogo español · actualizado el {fecha}',
+      h1:'Covers en español pendientes de calificar',
+      lede:'Los <b>{n} covers archivados</b> que todavía no tienen estrellas, partidos por lo que suena de verdad al pulsar play: los que arrancan con la <b>voz del artista</b> y los que dejan el reproductor a <b>0:00</b>. Dentro de cada grupo van agrupados por artista.',
+      btn:'↻ Actualizar ahora',
+      comprobando:'comprobando…',
+      quedan:'{n} de {t} actualizaciones manuales disponibles hoy · tarda {tiempo}',
+      agotado:'se han gastado las {t} actualizaciones de hoy · vuelve mañana',
+      noDisp:'el botón no está disponible ahora mismo',
+      noArranca:'no se ha podido lanzar la actualización',
+      unMin:'un minuto',
+      variosMin:'unos {m} minutos',
+      pidiendo:'Pidiendo la actualización…',
+      actualizando:'Actualizando los datos…',
+      yaCorriendo:'Ya hay una actualización en marcha…',
+      listo:'Listo. Cargando los datos nuevos…',
+      de:'de',
+      tabCon:'Con FULL SONG', tabSin:'Sin audio utilizable', tabCal:'Ya calificadas',
+      grupoAria:'Grupo', buscar:'Buscar canción o artista',
+      artistas:'Artistas', indiceAria:'Índice de artistas',
+      cSin:'Sin calificar', cCon:'Con full song', cNo:'Sin audio utilizable',
+      cMudas:'De esas, con fichero pero mudas', cCal:'Ya calificadas',
+      calidad:'Calidad de las {n} calificadas',
+      cancion:'canción', canciones:'canciones', artista:'artista', artistasN:'artistas',
+      sinCoincidencias:'Sin coincidencias',
+      nada:'No hay ninguna canción que encaje con la búsqueda.',
+      suena:'suena', karaoke:'solo karaoke', archivada:'archivada',
+      oir:'oír', copiar:'Copiar trackId', copiado:'trackId copiado: ',
+      pie:'Filtro aplicado: <code>language=es</code>, <code>isArchived=true</code> y sin <code>coverReview.quality</code>; las canciones que ya tienen estrellas no salen aquí. El grupo se decide probando el audio una por una, no por la etiqueta del proveedor: en <b>Con FULL SONG</b> están solo las que responden al pedir la pista con voz. En el otro grupo, <b>solo karaoke</b> son las que nunca tuvieron voz y <b>0:00</b> las que tienen el fichero en el proveedor pero no llegan a sonar. La etiqueta <b>L07</b> dice en qué lote de 50 cae cada canción. Los enlaces a la ficha y al audio necesitan sesión de admin en SingIt.'
+    }
+  };
+
+  var L='en';
+  try{ var g=localStorage.getItem('covers-es-idioma'); if(g==='es'||g==='en'){L=g;} }catch(e){}
+  var nf=new Intl.NumberFormat(TXT[L].loc);
+
+  function t(k,vals){
+    var s=TXT[L][k]!==undefined?TXT[L][k]:TXT.en[k];
+    if(vals){ Object.keys(vals).forEach(function(c){ s=s.split('{'+c+'}').join(vals[c]); }); }
+    return s;
+  }
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function fecha(){
+    if(!M.iso) return '';
+    var d=new Date(M.iso+'T12:00:00');
+    return new Intl.DateTimeFormat(TXT[L].loc,{day:'numeric',month:'short',year:'numeric'}).format(d);
+  }
 
-  document.getElementById('cifras').innerHTML=[
-    ['Sin calificar',M.total,''],
-    ['Con full song',M.con,'is-ok'],
-    ['Sin audio utilizable',M.sin,''],
-    ['De esas, con fichero pero mudas',M.mudas,'is-warn'],
-    ['Ya calificadas',M.calificadas,'']
-  ].map(function(c){
-    return '<div class="cifra '+c[2]+'"><div class="n">'+nf.format(c[1])+'</div><div class="l">'+c[0]+'</div></div>';
-  }).join('');
-  document.querySelector('#tab-con span').textContent=nf.format(M.con);
-  document.querySelector('#tab-sin span').textContent=nf.format(M.sin);
-  document.querySelector('#tab-cal span').textContent=nf.format(M.cal);
+  /* ---- Boton de actualizar a mano -------------------------------------
+     El tope diario lo impone el servidor (functions/api/refrescar.js); esto
+     de aqui solo lo cuenta y lo ensena. Mientras corre se ve un contador con
+     lo que lleva y lo que suele tardar, y al terminar la pagina se recarga. */
+  var boton=document.getElementById('refrescar'),
+      aviso=document.getElementById('aviso-refresco'),
+      caja=document.getElementById('progreso'),
+      ptexto=document.getElementById('progreso-texto'),
+      preloj=document.getElementById('progreso-reloj'),
+      prelleno=document.getElementById('progreso-relleno');
+  var media=600, arranque=null, fase='parado', tic=null, sonda=null, espera=0, ultimo=null;
 
-  var partes=[['s-con','Con full song',M.con],['s-sin','Sin audio utilizable',M.sin],['s-cal','Ya calificadas',M.cal]];
-  var suma=partes.reduce(function(a,p){return a+p[2]},0);
-  function pct(n){return Math.round(n/suma*1000)/10;}
-  document.getElementById('reparto').innerHTML=
-    '<div class="pista">'+partes.map(function(p){
-      var v=pct(p[2]);
-      return '<div class="seg '+p[0]+'" style="width:'+v+'%" title="'+p[1]+': '+nf.format(p[2])+' ('+v+'%)">'+(v>=6?v+'%':'')+'</div>';
-    }).join('')+'</div>'+
-    '<div class="leyenda">'+partes.map(function(p){
-      return '<span><i class="'+p[0]+'"></i>'+p[1]+' · '+nf.format(p[2])+' · '+pct(p[2])+'%</span>';
-    }).join('')+'</div>';
+  function mmss(seg){
+    seg=Math.max(0,Math.round(seg));
+    return Math.floor(seg/60)+':'+String(seg%60).padStart(2,'0');
+  }
+  function comoDe(seg){
+    var m=Math.round(seg/60);
+    return m<=1?t('unMin'):t('variosMin',{m:m});
+  }
+  function pintaAviso(){
+    if(!ultimo||!ultimo.ok){
+      boton.disabled=true;
+      aviso.textContent=t('noDisp');
+      aviso.classList.add('agotado');
+      return;
+    }
+    var hay=ultimo.restantes>0;
+    boton.disabled=!hay||fase!=='parado';
+    aviso.textContent=hay
+      ? t('quedan',{n:ultimo.restantes,t:ultimo.tope,tiempo:comoDe(media)})
+      : t('agotado',{t:ultimo.tope});
+    aviso.classList.toggle('agotado',!hay);
+  }
+  function leerEstado(){
+    return fetch('/api/estado',{cache:'no-store'}).then(function(r){return r.json();});
+  }
+  function arrancarVista(clave){
+    caja.hidden=false;
+    caja.classList.remove('listo');
+    ptexto.textContent=t(clave);
+    ptexto.dataset.k=clave;
+    boton.disabled=true;
+    if(tic) return;
+    tic=setInterval(function(){
+      var seg=arranque?(Date.now()-arranque)/1000:0;
+      preloj.textContent=mmss(seg)+' '+t('de')+' ~'+mmss(media);
+      prelleno.style.width=Math.min(97,(seg/media)*100)+'%';
+    },1000);
+  }
+  function terminar(){
+    clearInterval(tic); clearInterval(sonda); tic=null; sonda=null;
+    caja.classList.add('listo');
+    prelleno.style.width='100%';
+    ptexto.textContent=t('listo'); ptexto.dataset.k='listo';
+    setTimeout(function(){location.reload();},1200);
+  }
+  function vigilar(){
+    if(sonda) return;
+    sonda=setInterval(function(){
+      leerEstado().then(function(d){
+        if(!d||!d.ok) return;
+        ultimo=d; media=d.media||media;
+        if(d.corriendo){
+          fase='corriendo';
+          if(d.arranque) arranque=new Date(d.arranque).getTime();
+          ptexto.textContent=t('actualizando'); ptexto.dataset.k='actualizando';
+          return;
+        }
+        if(fase==='corriendo'){ terminar(); return; }
+        espera+=1;
+        if(espera>8) terminar();
+      });
+    },8000);
+  }
+  boton.addEventListener('click',function(){
+    arranque=Date.now(); fase='lanzando'; espera=0;
+    arrancarVista('pidiendo');
+    fetch('/api/refrescar',{method:'POST'})
+      .then(function(r){return r.json();})
+      .then(function(d){
+        if(d&&d.ok){ ultimo=d; vigilar(); return; }
+        if(d&&d.motivo==='ya-corriendo'){
+          ptexto.textContent=t('yaCorriendo'); ptexto.dataset.k='yaCorriendo';
+          vigilar(); return;
+        }
+        clearInterval(tic); tic=null; caja.hidden=true; fase='parado';
+        boton.disabled=true;
+        aviso.textContent=d&&d.motivo==='tope'?t('agotado',{t:5}):t('noArranca');
+        aviso.classList.add('agotado');
+      })
+      .catch(function(){
+        clearInterval(tic); tic=null; caja.hidden=true; fase='parado';
+        aviso.textContent=t('noArranca'); aviso.classList.add('agotado');
+      });
+  });
 
+  /* ---- Contenido -------------------------------------------------------- */
   var QLBL={1:'Poor',2:'Weak',3:'Acceptable',4:'Good',5:'Excellent'};
-  var sub=document.getElementById('subreparto');
-  (function(){
+  var estado={g:'con',q:''};
+  var lista=document.getElementById('lista'), idx=document.getElementById('idx'),
+      cuenta=document.getElementById('cuenta'), sub=document.getElementById('subreparto');
+  var grupos=[], pintados=0, io=null;
+
+  function cabeceras(){
+    document.documentElement.lang=L;
+    document.title=t('titulo');
+    document.getElementById('eyebrow').textContent=t('eyebrow',{fecha:fecha()});
+    document.getElementById('h1').textContent=t('h1');
+    document.getElementById('lede').innerHTML=t('lede',{n:nf.format(M.total)});
+    document.getElementById('pie').innerHTML=t('pie');
+    document.getElementById('h-artistas').textContent=t('artistas');
+    document.getElementById('indice').setAttribute('aria-label',t('indiceAria'));
+    document.getElementById('tablist').setAttribute('aria-label',t('grupoAria'));
+    var q=document.getElementById('q');
+    q.placeholder=t('buscar'); q.setAttribute('aria-label',t('buscar'));
+    boton.textContent=t('btn');
+    document.querySelector('#tab-con b').textContent=t('tabCon');
+    document.querySelector('#tab-sin b').textContent=t('tabSin');
+    document.querySelector('#tab-cal b').textContent=t('tabCal');
+    document.querySelector('#tab-con span').textContent=nf.format(M.con);
+    document.querySelector('#tab-sin span').textContent=nf.format(M.sin);
+    document.querySelector('#tab-cal span').textContent=nf.format(M.cal);
+    if(ptexto.dataset.k){ ptexto.textContent=t(ptexto.dataset.k); }
+  }
+
+  function cifras(){
+    document.getElementById('cifras').innerHTML=[
+      [t('cSin'),M.total,''],
+      [t('cCon'),M.con,'is-ok'],
+      [t('cNo'),M.sin,''],
+      [t('cMudas'),M.mudas,'is-warn'],
+      [t('cCal'),M.calificadas,'']
+    ].map(function(c){
+      return '<div class="cifra '+c[2]+'"><div class="n">'+nf.format(c[1])+'</div><div class="l">'+c[0]+'</div></div>';
+    }).join('');
+  }
+
+  function barras(){
+    var partes=[['s-con',t('cCon'),M.con],['s-sin',t('cNo'),M.sin],['s-cal',t('cCal'),M.cal]];
+    var suma=partes.reduce(function(a,p){return a+p[2];},0)||1;
+    function pct(n){return Math.round(n/suma*1000)/10;}
+    document.getElementById('reparto').innerHTML=
+      '<div class="pista">'+partes.map(function(p){
+        var v=pct(p[2]);
+        return '<div class="seg '+p[0]+'" style="width:'+v+'%" title="'+esc(p[1])+': '+nf.format(p[2])+' ('+v+'%)">'+(v>=6?v+'%':'')+'</div>';
+      }).join('')+'</div>'+
+      '<div class="leyenda">'+partes.map(function(p){
+        return '<span><i class="'+p[0]+'"></i>'+esc(p[1])+' · '+nf.format(p[2])+' · '+pct(p[2])+'%</span>';
+      }).join('')+'</div>';
+
     var tot=M.cal||1;
     var niveles=[1,2,3,4,5].map(function(n){return {n:n,v:M.q[String(n)]||0};});
     function p2(v){return Math.round(v/tot*1000)/10;}
-    sub.innerHTML='<div class="titulo">Calidad de las '+nf.format(M.cal)+' calificadas</div>'+
+    sub.innerHTML='<div class="titulo">'+t('calidad',{n:nf.format(M.cal)})+'</div>'+
       '<div class="pista">'+niveles.filter(function(x){return x.v;}).map(function(x){
         var v=p2(x.v);
         return '<div class="seg qs'+x.n+'" style="width:'+v+'%" title="'+x.n+'/5 '+QLBL[x.n]+': '+nf.format(x.v)+' ('+v+'%)">'+(v>=7?v+'%':'')+'</div>';
@@ -422,16 +501,13 @@ input[type="search"]::placeholder{color:var(--ink-3)}
       '<div class="leyenda">'+niveles.map(function(x){
         return '<span><i class="qs'+x.n+'"></i>'+x.n+'/5 '+QLBL[x.n]+' · '+nf.format(x.v)+' · '+p2(x.v)+'%</span>';
       }).join('')+'</div>';
-  })();
+  }
+
   function estrellas(q){
     var s='';
     for(var i=1;i<=5;i++){s+=i<=q?'★':'<span class="off">★</span>';}
     return '<span class="estrellas q'+q+'">'+s+'<span class="qlbl">'+q+'/5 '+QLBL[q]+'</span></span>';
   }
-
-  var estado={g:'con',q:''};
-  var lista=document.getElementById('lista'), idx=document.getElementById('idx'), cuenta=document.getElementById('cuenta');
-  var grupos=[], pintados=0, io=null;
 
   function agrupa(){
     var q=estado.q.toLowerCase().trim();
@@ -442,10 +518,11 @@ input[type="search"]::placeholder{color:var(--ink-3)}
     filas.forEach(function(r){ if(!mapa.has(r[1])){mapa.set(r[1],[]);} mapa.get(r[1]).push(r); });
     grupos=Array.from(mapa,function(e){return {artista:e[0],filas:e[1]};});
     var n=filas.length;
-    cuenta.textContent=nf.format(n)+(n===1?' cancion':' canciones')+' · '+nf.format(grupos.length)+(grupos.length===1?' artista':' artistas');
+    cuenta.textContent=nf.format(n)+' '+(n===1?t('cancion'):t('canciones'))+' · '+
+      nf.format(grupos.length)+' '+(grupos.length===1?t('artista'):t('artistasN'));
     idx.innerHTML=grupos.length?grupos.map(function(g,i){
       return '<li><button type="button" data-i="'+i+'">'+esc(g.artista)+' <em>'+g.filas.length+'</em></button></li>';
-    }).join(''):'<li class="vacio">Sin coincidencias</li>';
+    }).join(''):'<li class="vacio">'+t('sinCoincidencias')+'</li>';
   }
 
   function bloque(g,i){
@@ -453,28 +530,28 @@ input[type="search"]::placeholder{color:var(--ink-3)}
       var fcal=g.filas.map(function(r){
         return '<div class="fila"><div class="pos"></div>'+
           '<div class="tit"><a href="'+BASE+'/admin/tracks/'+r[2]+'" target="_blank" rel="noopener">'+esc(r[0])+'</a>'+
-          (r[4]===1?'<span class="lote">archivada</span>':'')+'</div>'+
-          '<div class="acc">'+estrellas(r[3])+'<button class="idbtn" type="button" data-id="'+r[2]+'" title="Copiar trackId">'+r[2].slice(-6)+'</button></div></div>';
+          (r[4]===1?'<span class="lote">'+t('archivada')+'</span>':'')+'</div>'+
+          '<div class="acc">'+estrellas(r[3])+'<button class="idbtn" type="button" data-id="'+r[2]+'" title="'+t('copiar')+'">'+r[2].slice(-6)+'</button></div></div>';
       }).join('');
       return '<section class="grupo" id="g'+i+'"><h3>'+esc(g.artista)+' <em>'+g.filas.length+'</em></h3>'+fcal+'</section>';
     }
     var filas=g.filas.map(function(r){
       var suena=r[4]===1, lote='L'+String(Math.ceil(r[5]/50));
       if(lote.length<3){lote='L0'+lote.slice(1);}
-      var chip=suena?'<span class="chip ok">suena</span>'
-        :(r[6]===1?'<span class="chip warn">0:00</span>':'<span class="chip mute">solo karaoke</span>');
-      var oir=suena?'<a class="enl" href="'+BASE+'/admin/api/cross-clear/migration/songs/'+r[3]+'/audio" target="_blank" rel="noopener">oir</a>':'';
+      var chip=suena?'<span class="chip ok">'+t('suena')+'</span>'
+        :(r[6]===1?'<span class="chip warn">0:00</span>':'<span class="chip mute">'+t('karaoke')+'</span>');
+      var oir=suena?'<a class="enl" href="'+BASE+'/admin/api/cross-clear/migration/songs/'+r[3]+'/audio" target="_blank" rel="noopener">'+t('oir')+'</a>':'';
       return '<div class="fila"><div class="pos">'+r[5]+'</div>'+
         '<div class="tit"><a href="'+BASE+'/admin/tracks/'+r[2]+'" target="_blank" rel="noopener">'+esc(r[0])+'</a>'+
         '<span class="lote">'+lote+'</span></div>'+
-        '<div class="acc">'+chip+'<button class="idbtn" type="button" data-id="'+r[2]+'" title="Copiar trackId">'+r[2].slice(-6)+'</button>'+oir+'</div></div>';
+        '<div class="acc">'+chip+'<button class="idbtn" type="button" data-id="'+r[2]+'" title="'+t('copiar')+'">'+r[2].slice(-6)+'</button>'+oir+'</div></div>';
     }).join('');
     return '<section class="grupo" id="g'+i+'"><h3>'+esc(g.artista)+' <em>'+g.filas.length+'</em></h3>'+filas+'</section>';
   }
 
   function pinta(reset){
     if(reset){lista.innerHTML='';pintados=0;if(io){io.disconnect();io=null;}}
-    if(!grupos.length){lista.innerHTML='<p class="nada">No hay ninguna cancion que encaje con la busqueda.</p>';return;}
+    if(!grupos.length){lista.innerHTML='<p class="nada">'+t('nada')+'</p>';return;}
     var hasta=Math.min(pintados+45,grupos.length), trozo='';
     for(var i=pintados;i<hasta;i++){trozo+=bloque(grupos[i],i);}
     var cent=document.getElementById('cent'); if(cent){cent.remove();}
@@ -489,15 +566,30 @@ input[type="search"]::placeholder{color:var(--ink-3)}
 
   function refresca(){agrupa();pinta(true);}
 
+  function aplicaIdioma(){
+    nf=new Intl.NumberFormat(TXT[L].loc);
+    document.querySelectorAll('.idioma').forEach(function(b){
+      b.setAttribute('aria-pressed',String(b.dataset.l===L));
+    });
+    cabeceras(); cifras(); barras(); pintaAviso(); refresca();
+  }
+
+  document.getElementById('idiomas').addEventListener('click',function(e){
+    var b=e.target.closest('.idioma'); if(!b||b.dataset.l===L){return;}
+    L=b.dataset.l;
+    try{ localStorage.setItem('covers-es-idioma',L); }catch(err){}
+    aplicaIdioma();
+  });
+
   document.querySelectorAll('.tab').forEach(function(b){
     b.addEventListener('click',function(){
       document.querySelectorAll('.tab').forEach(function(o){o.setAttribute('aria-selected',String(o===b));});
       estado.g=b.dataset.g;sub.hidden=estado.g!=='cal';refresca();window.scrollTo(0,0);
     });
   });
-  var t;
+  var tmr;
   document.getElementById('q').addEventListener('input',function(e){
-    clearTimeout(t);var v=e.target.value;t=setTimeout(function(){estado.q=v;refresca();},120);
+    clearTimeout(tmr);var v=e.target.value;tmr=setTimeout(function(){estado.q=v;refresca();},120);
   });
   idx.addEventListener('click',function(e){
     var b=e.target.closest('button[data-i]'); if(!b){return;}
@@ -509,10 +601,22 @@ input[type="search"]::placeholder{color:var(--ink-3)}
   lista.addEventListener('click',function(e){
     var b=e.target.closest('.idbtn'); if(!b){return;}
     var out=document.getElementById('toast');
-    function ok(){out.textContent='trackId copiado: '+b.dataset.id;out.classList.add('on');clearTimeout(tm);tm=setTimeout(function(){out.classList.remove('on');},1600);}
+    function ok(){out.textContent=t('copiado')+b.dataset.id;out.classList.add('on');clearTimeout(tm);tm=setTimeout(function(){out.classList.remove('on');},1600);}
     if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(b.dataset.id).then(ok,function(){});}
     else{var ta=document.createElement('textarea');ta.value=b.dataset.id;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');ok();}catch(err){}ta.remove();}
   });
-  refresca();
+
+  aviso.textContent=t('comprobando');
+  aplicaIdioma();
+  leerEstado().then(function(d){
+    ultimo=d; if(d&&d.ok){media=d.media||600;}
+    pintaAviso();
+    if(d&&d.ok&&d.corriendo){
+      arranque=d.arranque?new Date(d.arranque).getTime():Date.now();
+      fase='corriendo';
+      arrancarVista('actualizando');
+      vigilar();
+    }
+  }).catch(function(){ ultimo=null; pintaAviso(); });
 })();
 </script>
