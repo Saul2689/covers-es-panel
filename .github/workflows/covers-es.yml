@@ -8,7 +8,9 @@ on:
   schedule:
     # La franja ancha cubre 09:00-18:00 de Madrid tanto en verano (UTC+2)
     # como en invierno (UTC+1); el paso "horario" recorta lo que sobra.
-    - cron: '0 7-17 * * *'
+    # El minuto 25 a proposito: en punto es cuando se atasca el planificador
+    # de GitHub y se saltan citas. El paso "horario" recorta la franja real.
+    - cron: '25 7-17 * * *'
   workflow_dispatch:       # y a mano desde la pestana Actions
 
 concurrency:
