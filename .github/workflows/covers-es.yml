@@ -9,21 +9,18 @@ name: Panel covers es
 # boton para no cobrarse las que lanzamos desde la terminal.
 run-name: Panel covers es · ${{ inputs.origen || github.event_name }}
 
+# Sin cron: el planificador de GitHub no despierta este proceso a su hora (una
+# vuelta de las doce que tocaban entre el 16 y el 17 de septiembre de 2026), asi
+# que el reloj se mudo a Cloudflare -> reloj/, que llama aqui con origen=reloj.
 on:
-  schedule:
-    # La franja ancha cubre 09:00-18:00 de Madrid tanto en verano (UTC+2)
-    # como en invierno (UTC+1); el paso "horario" recorta lo que sobra.
-    # El minuto 25 a proposito: en punto es cuando se atasca el planificador
-    # de GitHub y se saltan citas. El paso "horario" recorta la franja real.
-    - cron: '25 7-17 * * *'
-  workflow_dispatch:       # y a mano desde la pestana Actions
+  workflow_dispatch:
     inputs:
       origen:
         description: 'quien la pide'
         required: false
         default: terminal
         type: choice
-        options: [terminal, boton]
+        options: [terminal, boton, reloj]
 
 concurrency:
   group: covers-es
@@ -35,7 +32,7 @@ jobs:
     timeout-minutes: 90
     env:
       GANCHO: ${{ secrets.SLACK_WEBHOOK_URL }}
-      DISPARO: ${{ github.event_name }}
+      ORIGEN: ${{ inputs.origen || 'terminal' }}
       ENLACE: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
     steps:
       - name: Mirar la hora en Madrid
@@ -43,9 +40,9 @@ jobs:
         run: |
           H=$(TZ=Europe/Madrid date +%H)
           H=$((10#$H))
-          echo "En Madrid son las $H h."
-          if [ "${{ github.event_name }}" != "schedule" ]; then
-            echo "Lanzado a mano: se actualiza igual."
+          echo "En Madrid son las $H h. Origen: $ORIGEN."
+          if [ "$ORIGEN" != "reloj" ]; then
+            echo "Pedida por una persona: se actualiza a la hora que sea."
             echo "toca=si" >> "$GITHUB_OUTPUT"
           elif [ "$H" -ge 9 ] && [ "$H" -le 18 ]; then
             echo "toca=si" >> "$GITHUB_OUTPUT"

@@ -1,0 +1,9 @@
+name = "covers-es-reloj"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+
+# Hora universal. La franja ancha (07-17 UTC) cubre las 09-18 de Madrid tanto en
+# verano (UTC+2) como en invierno (UTC+1); el propio worker descarta las horas
+# que se salen de la franja real.
+[triggers]
+crons = ["0 7-17 * * *"]

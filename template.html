@@ -273,6 +273,7 @@ input[type="search"]::placeholder{color:var(--ink-3)}
       variosMin:'about {m} minutes',
       pidiendo:'Requesting the refresh…',
       actualizando:'Refreshing the data…',
+      enMarcha:'Someone is already refreshing — this page will reload when it finishes',
       yaCorriendo:'A refresh is already running…',
       listo:'Done. Loading the new data…',
       de:'of',
@@ -305,6 +306,7 @@ input[type="search"]::placeholder{color:var(--ink-3)}
       variosMin:'unos {m} minutos',
       pidiendo:'Pidiendo la actualización…',
       actualizando:'Actualizando los datos…',
+      enMarcha:'Hay una actualización en marcha — esta página se recargará al terminar',
       yaCorriendo:'Ya hay una actualización en marcha…',
       listo:'Listo. Cargando los datos nuevos…',
       de:'de',
@@ -405,7 +407,8 @@ input[type="search"]::placeholder{color:var(--ink-3)}
         if(d.corriendo){
           fase='corriendo';
           if(d.arranque) arranque=new Date(d.arranque).getTime();
-          ptexto.textContent=t('actualizando'); ptexto.dataset.k='actualizando';
+          var k=ptexto.dataset.k==='enMarcha'?'enMarcha':'actualizando';
+          ptexto.textContent=t(k); ptexto.dataset.k=k;
           return;
         }
         if(fase==='corriendo'){ terminar(); return; }
@@ -614,7 +617,8 @@ input[type="search"]::placeholder{color:var(--ink-3)}
     if(d&&d.ok&&d.corriendo){
       arranque=d.arranque?new Date(d.arranque).getTime():Date.now();
       fase='corriendo';
-      arrancarVista('actualizando');
+      /* Nadie ha pulsado nada: solo estamos informando de una vuelta ajena. */
+      arrancarVista('enMarcha');
       vigilar();
     }
   }).catch(function(){ ultimo=null; pintaAviso(); });

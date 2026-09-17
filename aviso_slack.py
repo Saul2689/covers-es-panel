@@ -3,7 +3,8 @@
 
 Lee las variables de entorno que le pone el workflow:
     GANCHO   la URL del webhook de Slack (obligatoria; sin ella no hace nada)
-    DISPARO  'schedule' si fue automatica, otra cosa si la lanzo alguien
+    ORIGEN   'reloj' si la pidio el reloj de Cloudflare, 'boton' si alguien
+             pulso el boton de la pagina, 'terminal' si salio de una consola
     ENLACE   la direccion de esta vuelta en GitHub Actions
     FALLO    '1' cuando se llama desde el paso de error
 
@@ -41,8 +42,10 @@ def manda(texto):
 
 def main():
     enlace = os.environ.get('ENLACE', '')
-    automatica = os.environ.get('DISPARO') == 'schedule'
-    como = 'automatica' if automatica else 'lanzada a mano'
+    como = {
+        'reloj': 'automatica',
+        'boton': 'pedida desde el boton de la pagina',
+    }.get(os.environ.get('ORIGEN'), 'lanzada a mano')
 
     if os.environ.get('FALLO') == '1':
         manda(':rotating_light: *El panel de covers es NO se ha actualizado* '

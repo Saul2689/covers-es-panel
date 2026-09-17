@@ -23,6 +23,29 @@ Si `refresh.py` no encuentra el token en el entorno, pásale el fichero:
 python refresh.py --env ../../tokens.env --out dist
 ```
 
+## El reloj vive en Cloudflare, no en GitHub
+
+El workflow **ya no tiene `schedule`**. El planificador de GitHub no despierta
+este proceso a su hora: entre el 16 y el 17 de septiembre de 2026 salto **una
+vez** de la docena larga que tocaba, con el cron en punto y tambien movido al
+minuto 25. No es el horario ni el minuto, sencillamente no dispara.
+
+Asi que el despertador esta en `reloj/`: un worker de Cloudflare con cron
+trigger que a cada hora mira que hora es en Madrid y, si cae en la franja,
+llama al `workflow_dispatch` con `origen=reloj`. GitHub sigue haciendo el
+trabajo pesado, solo le hemos quitado el reloj.
+
+```bash
+cd reloj
+npx wrangler deploy
+npx wrangler secret put GH_TOKEN     # el mismo token que usa el boton
+curl https://covers-es-reloj.<subdominio>.workers.dev/   # ver si esta vivo
+```
+
+El `origen` de cada vuelta (`reloj`, `boton`, `terminal`) decide tres cosas: si
+gasta cupo del boton, si el paso del horario aplica la franja, y como se
+presenta el aviso de Slack.
+
 ## Desatendido
 
 `.github/workflows/covers-es.yml`. Corre **cada hora en punto de 9:00 a 18:00 hora de
