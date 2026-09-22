@@ -194,6 +194,15 @@ input[type="search"]::placeholder{color:var(--ink-3)}
   .acc{grid-column:2;justify-content:flex-start}
 }
 .nada{padding:40px 4px;color:var(--ink-3)}
+.guia{margin-top:15px;border:1px solid var(--rule);border-radius:9px;background:var(--surface);max-width:80ch}
+.guia>summary{cursor:pointer;list-style:none;padding:11px 14px;font-size:13.5px;font-weight:600;color:var(--ink-2);display:flex;align-items:center;gap:9px}
+.guia>summary::-webkit-details-marker{display:none}
+.guia>summary::before{content:"?";flex:0 0 auto;width:17px;height:17px;border-radius:99px;border:1px solid var(--rule);font-size:11px;line-height:15px;text-align:center;color:var(--ink-3)}
+.guia>summary:hover{color:var(--ink)}
+.guia[open]>summary{border-bottom:1px solid var(--rule)}
+.guia .cuerpo{padding:2px 14px 14px;color:var(--ink-2);font-size:13.5px;line-height:1.62}
+.guia .cuerpo p{margin:11px 0 0}
+.guia .cuerpo b{color:var(--ink)}
 .pie{margin-top:36px;padding-top:18px;border-top:1px solid var(--rule);color:var(--ink-3);font-size:13px;max-width:70ch}
 .pie code{font-family:"Roboto Mono",monospace;font-size:12px;color:var(--ink-2)}
 .pie b{color:var(--ink-2)}
@@ -226,6 +235,11 @@ input[type="search"]::placeholder{color:var(--ink-3)}
   </div>
 
   <h1 id="h1"></h1>
+
+  <details class="guia" id="guia">
+    <summary id="guia-sum"></summary>
+    <div class="cuerpo" id="guia-cuerpo"></div>
+  </details>
 
   <div class="reparto" id="reparto"></div>
   <div class="reparto subreparto" id="subreparto" hidden></div>
@@ -286,6 +300,9 @@ input[type="search"]::placeholder{color:var(--ink-3)}
       yaCorriendo:'A refresh is already running…',
       listo:'Done. Loading the new data…',
       de:'of',
+      guiaSum:'How to read this page',
+      guiaCuerpo:'<p><b>What this is.</b> Every Spanish-language CrossClear cover in SingIt, read straight from the admin each time this page is rebuilt. It is here so the ones worth keeping can be found and rated.</p><p><b>The four tabs.</b> <b>With FULL SONG</b> and <b>No usable audio</b> are the covers still waiting for stars, split by what actually comes out of the player when you press play. <b>Carry</b> follows the songs going through the Spanish production line, grouped by the step each one is on, with anything stopped shown first. <b>Already rated</b> are the ones that already have stars.</p><p><b>Getting around.</b> The search box filters by song or by artist. The list on the left jumps to an artist &mdash; or, in Carry, to a step. On each row the title opens the track in the SingIt admin, <b>listen</b> opens the audio, and the little button with six characters copies the trackId. Those links need you to be signed in to SingIt.</p><p><b>The refresh button.</b> The page rebuilds itself every hour between 9:00 and 18:00 Madrid time, so normally you do not have to do anything. If you need it sooner, press <b>Refresh now</b>: it takes about twelve minutes and the page reloads on its own when it finishes. There are five manual refreshes a day shared by everyone who visits, and they come back at midnight Madrid time.</p>',
+      
       tabCon:'With FULL SONG', tabSin:'No usable audio', tabCal:'Already rated',
       tabLinea:'Carry',
       lineaTitulo:'Where the {n} songs stand',
@@ -328,6 +345,9 @@ input[type="search"]::placeholder{color:var(--ink-3)}
       yaCorriendo:'Ya hay una actualización en marcha…',
       listo:'Listo. Cargando los datos nuevos…',
       de:'de',
+      guiaSum:'Cómo se lee esta página',
+      guiaCuerpo:'<p><b>Qué es esto.</b> Todos los covers en español de CrossClear que hay en SingIt, leídos del admin cada vez que se regenera la página. Está para poder encontrar y calificar los que merecen la pena.</p><p><b>Las cuatro pestañas.</b> <b>Con FULL SONG</b> y <b>Sin audio utilizable</b> son los covers que todavía no tienen estrellas, separados por lo que suena de verdad al darle al play. <b>Carry</b> sigue las canciones que pasan por la línea de producción española, agrupadas por el paso en el que está cada una y con lo parado arriba del todo. <b>Ya calificadas</b> son las que ya tienen estrellas.</p><p><b>Cómo moverse.</b> El buscador filtra por canción o por artista. La lista de la izquierda salta a un artista &mdash; o, en Carry, a un paso. En cada fila el título abre la canción en el admin de SingIt, <b>oír</b> abre el audio y el botoncito de seis caracteres copia el trackId. Esos enlaces necesitan que hayas iniciado sesión en SingIt.</p><p><b>El botón de actualizar.</b> La página se regenera sola cada hora de 9:00 a 18:00 hora de Madrid, así que normalmente no hay que hacer nada. Si lo necesitas antes, pulsa <b>Actualizar ahora</b>: tarda unos doce minutos y la página se recarga sola al terminar. Hay cinco actualizaciones manuales al día compartidas entre todo el que entre, y se renuevan a las 00:00 de Madrid.</p>',
+      
       tabCon:'Con FULL SONG', tabSin:'Sin audio utilizable', tabCal:'Ya calificadas',
       tabLinea:'Carry',
       lineaTitulo:'En qué paso están las {n} canciones',
@@ -494,6 +514,8 @@ input[type="search"]::placeholder{color:var(--ink-3)}
     document.getElementById('eyebrow').textContent=t('eyebrow',{fecha:fecha()});
     document.getElementById('h1').textContent=t('h1');
     document.getElementById('pie').innerHTML=t('pie');
+    document.getElementById('guia-sum').textContent=t('guiaSum');
+    document.getElementById('guia-cuerpo').innerHTML=t('guiaCuerpo');
     document.getElementById('h-artistas').textContent=t('artistas');
     document.getElementById('indice').setAttribute('aria-label',t('indiceAria'));
     document.getElementById('tablist').setAttribute('aria-label',t('grupoAria'));
