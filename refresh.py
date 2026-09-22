@@ -23,6 +23,13 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun',
          'jul', 'ago', 'sep', 'oct', 'nov', 'dic']
 
+# El parte de la linea ES. Lo escribe OTRO hilo de trabajo y lo commitea al
+# repo; aqui solo se lee. Puede no existir, llegar a medias o venir mal: pase
+# lo que pase la build tiene que terminar, porque el panel no es suyo.
+COLA = os.path.join(AQUI, 'cola_carry.json')
+ESTADOS = ['parada', 'correccion', 'revision', 'carry',
+           'traduccion', 'cola', 'hecha']
+
 
 def carga_env(ruta):
     """tokens.env sin 'export': KEY=valor por linea."""
@@ -145,13 +152,74 @@ def audios(api, filas, log, hilos=8):
     return filas
 
 
-def render(datos, plantilla, salida, fecha):
+def parte_linea(datos, log):
+    """Lee cola_carry.json y lo cruza con lo que ya sabemos de la admin.
+
+    El parte solo aporta en que paso va cada cancion; las estrellas, si esta
+    archivada y si el audio suena salen del barrido de esta misma vuelta, asi
+    que no se le pregunta nada a nadie dos veces.
+    """
+    vacio = {'filas': [], 'generado': None, 'fallo': None,
+             'cuenta': {e: 0 for e in ESTADOS}}
+    if not os.path.exists(COLA):
+        log('linea ES: todavia no hay parte (%s)' % os.path.basename(COLA))
+        return vacio
+    try:
+        d = json.load(open(COLA, encoding='utf-8'))
+        canciones = d.get('canciones')
+        if not isinstance(canciones, list):
+            raise ValueError('falta la lista "canciones"')
+    except Exception as e:
+        log('linea ES: el parte no se puede leer (%s); la pestana saldra vacia' % e)
+        return dict(vacio, fallo=str(e))
+
+    por_track = {x['track']: x for x in datos if x.get('track')}
+    por_song = {x['song']: x for x in datos if x.get('song')}
+    filas = []
+    for c in canciones:
+        if not isinstance(c, dict):
+            continue
+        adm = por_track.get(c.get('coverTrackId')) or por_song.get(c.get('songId')) or {}
+        estado = str(c.get('estado') or 'cola').strip().lower()
+        if estado not in ESTADOS:
+            estado = 'cola'
+        try:
+            vueltas = int(c.get('vueltas') or 0)
+        except (TypeError, ValueError):
+            vueltas = 0
+        filas.append([
+            str(c.get('titulo') or adm.get('title') or '(sin titulo)').strip(),
+            str(c.get('artista') or adm.get('artist') or '(sin artista)').strip(),
+            str(c.get('coverTrackId') or adm.get('track') or ''),
+            str(c.get('songId') or adm.get('song') or ''),
+            estado,
+            vueltas,
+            str(c.get('actualizado') or '')[:19],
+            str(c.get('motivo') or '').strip() if estado == 'parada' else '',
+            # -1 = no lo hemos probado esta vuelta (solo se sondean las pendientes)
+            (1 if adm.get('ok') else 0) if 'ok' in adm else -1,
+            adm.get('q') or 0,
+            1 if adm.get('arch') else 0,
+        ])
+
+    orden = {e: i for i, e in enumerate(ESTADOS)}
+    filas.sort(key=lambda f: (orden[f[4]], f[1].lower(), f[0].lower()))
+    cuenta = collections.Counter(f[4] for f in filas)
+    log('linea ES: %d canciones  %s' % (len(filas), dict(cuenta)))
+    return {'filas': filas,
+            'generado': str(d.get('generado') or '')[:19] or None,
+            'fallo': None,
+            'cuenta': {e: cuenta.get(e, 0) for e in ESTADOS}}
+
+
+def render(datos, plantilla, salida, fecha, log):
     es = [x for x in datos if x['arch'] is not None]
     pend = [x for x in es if x['arch'] and x['q'] is None]
     orden = lambda x: (x['artist'].lower(), x['title'].lower())
     con = sorted([x for x in pend if x.get('ok')], key=orden)
     sin = sorted([x for x in pend if not x.get('ok')], key=orden)
     cal = sorted([x for x in es if x['q'] is not None], key=orden)
+    linea = parte_linea(datos, log)
 
     def pack(items):
         return [[x['title'], x['artist'], x['track'], x['song'],
@@ -164,6 +232,7 @@ def render(datos, plantilla, salida, fecha):
             'sin': pack(sin),
             'cal': [[x['title'], x['artist'], x['track'], x['q'], 1 if x['arch'] else 0]
                     for x in cal],
+            'linea': linea['filas'],
         },
         'meta': {
             'total': len(pend), 'con': len(con), 'sin': len(sin),
@@ -176,6 +245,8 @@ def render(datos, plantilla, salida, fecha):
             # La pagina escribe la fecha en el idioma que elija cada visitante,
             # asi que va cruda y se formatea alli.
             'iso': time.strftime('%Y-%m-%d'),
+            'linea': {'total': len(linea['filas']), 'cuenta': linea['cuenta'],
+                      'generado': linea['generado'], 'fallo': linea['fallo']},
         },
     }
     html = open(plantilla, encoding='utf-8').read()
@@ -245,13 +316,14 @@ def main():
 
     hoy = time.localtime()
     fecha = '%d %s %d' % (hoy.tm_mday, MESES[hoy.tm_mon - 1], hoy.tm_year)
-    meta = render(datos, os.path.join(AQUI, 'template.html'), args.out, fecha)
+    meta = render(datos, os.path.join(AQUI, 'template.html'), args.out, fecha, log)
 
     log('')
     log('index.html escrito en %s' % args.out)
     log('  pendientes %d  (con full song %d / sin audio %d)'
         % (meta['total'], meta['con'], meta['sin']))
     log('  calificadas %d  %s' % (meta['cal'], meta['q']))
+    log('  linea ES %d  %s' % (meta['linea']['total'], meta['linea']['cuenta']))
     log('  llamadas fallidas: %d | %d min' % (api.fallos, round((time.time() - t0) / 60)))
 
 

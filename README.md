@@ -100,6 +100,44 @@ npx wrangler pages secret put GH_TOKEN --project-name covers-es-v2
 Sin esa variable las funciones devuelven `sin-token`, el boton sale apagado y la
 pagina sigue funcionando igual: los datos van dentro del HTML.
 
+## La pestaña de la línea ES
+
+La cuarta pestaña enseña por dónde va la línea de producción de covers en
+español (el hilo que usa la skill `singit-carry-line-es`: un agente hace el
+content carry, otro lo revisa, y la traducción se entrega al Second Brain).
+
+Ese hilo **no toca el panel**. Escribe un único fichero en la raíz de este
+repo y lo commitea; la vuelta horaria lo recoge sola:
+
+    cola_carry.json
+
+    {
+      "generado": "2026-09-22T14:00:00Z",
+      "hilo": "...",
+      "canciones": [
+        {"coverTrackId": "...", "songId": "...", "titulo": "...",
+         "artista": "...", "estado": "cola", "vueltas": 0,
+         "motivo": "", "actualizado": "2026-09-22T13:55:00Z"}
+      ]
+    }
+
+`estado` es uno de `cola` · `carry` · `revision` · `correccion` ·
+`traduccion` · `hecha` · `parada`. `motivo` solo se rellena en `parada`, en
+una frase y **sin texto de letra** (números de línea sí, palabras cantadas no).
+
+Reglas de esta pestaña:
+
+- **El fichero no puede tumbar la build.** Si no existe, está a medias o viene
+  mal, `parte_linea()` devuelve la lista vacía, el panel se publica igual y la
+  pestaña enseña un cartel explicándolo. Hoy es lo que pasa: todavía no existe.
+- **No se le pregunta nada nuevo a la admin.** Las estrellas, si está archivada
+  y si el audio suena salen del barrido de esa misma vuelta, cruzados por
+  `coverTrackId` y, si falla, por `songId`. El parte solo aporta el paso.
+- **Las paradas van arriba.** Aquí se agrupa por paso, no por artista, porque
+  lo único que pide que alguien actúe son las paradas.
+- Si el parte nombra una canción que no está en el censo, sale igual con lo que
+  él mismo diga; simplemente no llevará estrellas ni chip de audio.
+
 ## De dónde salen los datos
 
 No hay un endpoint que devuelva la tabla hecha. Son tres llamadas distintas:

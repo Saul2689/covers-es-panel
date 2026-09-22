@@ -117,6 +117,17 @@ h1{font-weight:700;font-size:clamp(28px,4.6vw,40px);line-height:1.05;letter-spac
 .subreparto .leyenda i.qs1{background:var(--q1)} .subreparto .leyenda i.qs2{background:var(--q2)}
 .subreparto .leyenda i.qs3{background:var(--q3)} .subreparto .leyenda i.qs4{background:var(--q4)}
 .subreparto .leyenda i.qs5{background:var(--q5)}
+/* Colores de los pasos de la linea ES. Se usan igual en la barra, en la
+   leyenda, en el punto del titulo de cada bloque y en el chip de cada fila. */
+.c-parada{background:var(--q1)} .c-correccion{background:var(--q2)}
+.c-revision{background:var(--q3)} .c-carry{background:var(--accent)}
+.c-traduccion{background:var(--q4)} .c-cola{background:var(--mute)}
+.c-hecha{background:var(--q5)}
+.punto{width:9px;height:9px;border-radius:99px;display:inline-block;flex:0 0 auto}
+.chip.st{background:var(--mute-soft);color:var(--ink);display:inline-flex;align-items:center;gap:6px}
+.chip.st i{width:8px;height:8px;border-radius:99px;display:inline-block}
+.motivo{grid-column:2/-1;margin-top:2px;color:var(--warn);font-size:12.5px;line-height:1.45}
+.parte-vacio{color:var(--ink-2);font-size:13.5px;line-height:1.5;margin:0}
 
 .estrellas{display:inline-flex;align-items:center;gap:1px;line-height:1;font-size:13px}
 .estrellas .off{color:var(--q-off)}
@@ -153,6 +164,7 @@ input[type="search"]::placeholder{color:var(--ink-3)}
 .indice button:hover{background:var(--surface-2);color:var(--ink)}
 .indice button em{font-family:"Roboto Mono",monospace;font-style:normal;font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums}
 .indice .vacio{padding:12px 14px;color:var(--ink-3);font-size:13px}
+.indice[hidden]{display:none}
 
 .grupo{margin-bottom:24px;scroll-margin-top:80px}
 .grupo h3{display:flex;align-items:baseline;gap:9px;font-size:18px;font-weight:600;letter-spacing:-.01em;
@@ -225,6 +237,7 @@ input[type="search"]::placeholder{color:var(--ink-3)}
       <button class="tab" id="tab-con" role="tab" aria-selected="true" data-g="con"><b></b><span></span></button>
       <button class="tab" id="tab-sin" role="tab" aria-selected="false" data-g="sin"><b></b><span></span></button>
       <button class="tab" id="tab-cal" role="tab" aria-selected="false" data-g="cal"><b></b><span></span></button>
+      <button class="tab" id="tab-linea" role="tab" aria-selected="false" data-g="linea"><b></b><span></span></button>
     </div>
     <input type="search" id="q" autocomplete="off">
     <span class="cuenta" id="cuenta"></span>
@@ -274,6 +287,16 @@ input[type="search"]::placeholder{color:var(--ink-3)}
       listo:'Done. Loading the new data…',
       de:'of',
       tabCon:'With FULL SONG', tabSin:'No usable audio', tabCal:'Already rated',
+      tabLinea:'ES line',
+      lineaTitulo:'Where the {n} songs stand',
+      lineaParte:'report from {fecha}',
+      lineaVacia:'The ES line has not filed a report yet. Once it starts working, every song it touches shows up here.',
+      lineaRota:'The line’s report could not be read, so nothing is shown rather than something wrong.',
+      e_cola:'Queued', e_carry:'Carry', e_revision:'Under review',
+      e_correccion:'Being fixed', e_traduccion:'Translating',
+      e_hecha:'Done', e_parada:'Stopped',
+      vueltas1:'1 pass', vueltasN:'{n} passes',
+      pasos:'Steps', pasosAria:'Step index',
       grupoAria:'Group', buscar:'Search song or artist',
       artistas:'Artists', indiceAria:'Artist index',
       cSin:'Unrated', cCon:'With full song', cNo:'No usable audio',
@@ -306,6 +329,16 @@ input[type="search"]::placeholder{color:var(--ink-3)}
       listo:'Listo. Cargando los datos nuevos…',
       de:'de',
       tabCon:'Con FULL SONG', tabSin:'Sin audio utilizable', tabCal:'Ya calificadas',
+      tabLinea:'Línea ES',
+      lineaTitulo:'En qué paso están las {n} canciones',
+      lineaParte:'parte del {fecha}',
+      lineaVacia:'La línea ES todavía no ha dejado ningún parte. En cuanto empiece a trabajar, aquí aparecerá cada canción por la que pase.',
+      lineaRota:'No se ha podido leer el parte de la línea, así que no se enseña nada en vez de enseñar algo equivocado.',
+      e_cola:'En cola', e_carry:'Carry', e_revision:'En revisión',
+      e_correccion:'Corrigiendo', e_traduccion:'Traduciendo',
+      e_hecha:'Hecha', e_parada:'Parada',
+      vueltas1:'1 vuelta', vueltasN:'{n} vueltas',
+      pasos:'Pasos', pasosAria:'Índice de pasos',
       grupoAria:'Grupo', buscar:'Buscar canción o artista',
       artistas:'Artistas', indiceAria:'Índice de artistas',
       cSin:'Sin calificar', cCon:'Con full song', cNo:'Sin audio utilizable',
@@ -436,6 +469,20 @@ input[type="search"]::placeholder{color:var(--ink-3)}
 
   /* ---- Contenido -------------------------------------------------------- */
   var QLBL={1:'Poor',2:'Weak',3:'Acceptable',4:'Good',5:'Excellent'};
+  /* Los pasos de la linea ES, en el orden en que se ensenan: lo que requiere
+     que alguien haga algo (parada) va primero y lo terminado al final. */
+  var ESTADOS=['parada','correccion','revision','carry','traduccion','cola','hecha'];
+  var LIN=M.linea||{total:0,cuenta:{},generado:null,fallo:null};
+  function cuando(iso){
+    if(!iso) return '';
+    var v=String(iso);
+    if(v.length>10 && !/[Zz]|[+-]\d\d:?\d\d$/.test(v)){ v+='Z'; }
+    var d=new Date(v.length<=10?v+'T12:00:00Z':v);
+    if(isNaN(d.getTime())) return '';
+    return new Intl.DateTimeFormat(TXT[L].loc,
+      {day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}).format(d);
+  }
+  function vueltasTxt(n){ return n===1?t('vueltas1'):t('vueltasN',{n:n}); }
   var estado={g:'con',q:''};
   var lista=document.getElementById('lista'), idx=document.getElementById('idx'),
       cuenta=document.getElementById('cuenta'), sub=document.getElementById('subreparto');
@@ -456,9 +503,11 @@ input[type="search"]::placeholder{color:var(--ink-3)}
     document.querySelector('#tab-con b').textContent=t('tabCon');
     document.querySelector('#tab-sin b').textContent=t('tabSin');
     document.querySelector('#tab-cal b').textContent=t('tabCal');
+    document.querySelector('#tab-linea b').textContent=t('tabLinea');
     document.querySelector('#tab-con span').textContent=nf.format(M.con);
     document.querySelector('#tab-sin span').textContent=nf.format(M.sin);
     document.querySelector('#tab-cal span').textContent=nf.format(M.cal);
+    document.querySelector('#tab-linea span').textContent=nf.format(LIN.total||0);
     if(ptexto.dataset.k){ ptexto.textContent=t(ptexto.dataset.k); }
   }
 
@@ -487,6 +536,33 @@ input[type="search"]::placeholder{color:var(--ink-3)}
         return '<span><i class="'+p[0]+'"></i>'+esc(p[1])+' · '+nf.format(p[2])+' · '+pct(p[2])+'%</span>';
       }).join('')+'</div>';
 
+  }
+
+  /* La barra de debajo cambia segun la pestana: calidad en "ya calificadas",
+     reparto por pasos en la linea ES, y nada en las demas. */
+  function subBarra(){
+    sub.hidden=!(estado.g==='cal'||estado.g==='linea');
+    if(sub.hidden) return;
+    if(estado.g==='linea'){
+      var tl=LIN.total||0;
+      if(!tl){
+        sub.innerHTML='<p class="parte-vacio">'+t(LIN.fallo?'lineaRota':'lineaVacia')+'</p>';
+        return;
+      }
+      var C=LIN.cuenta||{};
+      var ns=ESTADOS.map(function(e){return {e:e,v:C[e]||0};});
+      var p3=function(v){return Math.round(v/tl*1000)/10;};
+      var sello=LIN.generado?' · '+t('lineaParte',{fecha:cuando(LIN.generado)}):'';
+      sub.innerHTML='<div class="titulo">'+esc(t('lineaTitulo',{n:nf.format(tl)})+sello)+'</div>'+
+        '<div class="pista">'+ns.filter(function(x){return x.v;}).map(function(x){
+          var v=p3(x.v);
+          return '<div class="seg c-'+x.e+'" style="width:'+v+'%" title="'+esc(t('e_'+x.e))+': '+nf.format(x.v)+'">'+(v>=7?v+'%':'')+'</div>';
+        }).join('')+'</div>'+
+        '<div class="leyenda">'+ns.map(function(x){
+          return '<span><i class="c-'+x.e+'"></i>'+esc(t('e_'+x.e))+' · '+nf.format(x.v)+'</span>';
+        }).join('')+'</div>';
+      return;
+    }
     var tot=M.cal||1;
     var niveles=[1,2,3,4,5].map(function(n){return {n:n,v:M.q[String(n)]||0};});
     function p2(v){return Math.round(v/tot*1000)/10;}
@@ -511,18 +587,49 @@ input[type="search"]::placeholder{color:var(--ink-3)}
     var filas=DATA[estado.g].filter(function(r){
       return !q || r[0].toLowerCase().indexOf(q)>=0 || r[1].toLowerCase().indexOf(q)>=0;
     });
-    var mapa=new Map();
-    filas.forEach(function(r){ if(!mapa.has(r[1])){mapa.set(r[1],[]);} mapa.get(r[1]).push(r); });
-    grupos=Array.from(mapa,function(e){return {artista:e[0],filas:e[1]};});
     var n=filas.length;
-    cuenta.textContent=nf.format(n)+' '+(n===1?t('cancion'):t('canciones'))+' · '+
-      nf.format(grupos.length)+' '+(grupos.length===1?t('artista'):t('artistasN'));
+    if(estado.g==='linea'){
+      /* Aqui lo util no es el artista sino en que paso va cada cancion, y las
+         paradas van arriba porque son las unicas que piden que alguien actue. */
+      var porPaso=new Map();
+      ESTADOS.forEach(function(e){porPaso.set(e,[]);});
+      filas.forEach(function(r){ (porPaso.get(r[4])||porPaso.get('cola')).push(r); });
+      grupos=ESTADOS.filter(function(e){return porPaso.get(e).length;})
+        .map(function(e){return {artista:t('e_'+e),clave:e,filas:porPaso.get(e)};});
+      var par=porPaso.get('parada').length;
+      cuenta.textContent=nf.format(n)+' '+(n===1?t('cancion'):t('canciones'))+
+        (par?' · '+nf.format(par)+' '+t('e_parada').toLowerCase():'');
+    }else{
+      var mapa=new Map();
+      filas.forEach(function(r){ if(!mapa.has(r[1])){mapa.set(r[1],[]);} mapa.get(r[1]).push(r); });
+      grupos=Array.from(mapa,function(e){return {artista:e[0],filas:e[1]};});
+      cuenta.textContent=nf.format(n)+' '+(n===1?t('cancion'):t('canciones'))+' · '+
+        nf.format(grupos.length)+' '+(grupos.length===1?t('artista'):t('artistasN'));
+    }
     idx.innerHTML=grupos.length?grupos.map(function(g,i){
       return '<li><button type="button" data-i="'+i+'">'+esc(g.artista)+' <em>'+g.filas.length+'</em></button></li>';
     }).join(''):'<li class="vacio">'+t('sinCoincidencias')+'</li>';
   }
 
   function bloque(g,i){
+    if(estado.g==='linea'){
+      var flin=g.filas.map(function(r){
+        var ficha=r[2]?'<a href="'+BASE+'/admin/tracks/'+r[2]+'" target="_blank" rel="noopener">'+esc(r[0])+'</a>':esc(r[0]);
+        var audio=r[8]===1?'<span class="chip ok">'+t('suena')+'</span>'
+          :(r[8]===0?'<span class="chip mute">'+t('karaoke')+'</span>':'');
+        var motivo=r[7]?'<div class="motivo">'+esc(r[7])+'</div>':'';
+        return '<div class="fila"><div class="pos"></div>'+
+          '<div class="tit">'+ficha+'<span class="lote">'+esc(r[1])+'</span>'+
+          (r[6]?'<span class="lote">'+esc(cuando(r[6]))+'</span>':'')+'</div>'+
+          '<div class="acc"><span class="chip st"><i class="c-'+r[4]+'"></i>'+esc(t('e_'+r[4]))+'</span>'+
+          (r[5]>0?'<span class="chip mute">'+esc(vueltasTxt(r[5]))+'</span>':'')+
+          audio+(r[9]?estrellas(r[9]):'')+
+          (r[2]?'<button class="idbtn" type="button" data-id="'+r[2]+'" title="'+t('copiar')+'">'+r[2].slice(-6)+'</button>':'')+
+          '</div>'+motivo+'</div>';
+      }).join('');
+      return '<section class="grupo" id="g'+i+'"><h3><i class="punto c-'+g.clave+'"></i>'+
+        esc(g.artista)+' <em>'+g.filas.length+'</em></h3>'+flin+'</section>';
+    }
     if(estado.g==='cal'){
       var fcal=g.filas.map(function(r){
         return '<div class="fila"><div class="pos"></div>'+
@@ -546,9 +653,18 @@ input[type="search"]::placeholder{color:var(--ink-3)}
     return '<section class="grupo" id="g'+i+'"><h3>'+esc(g.artista)+' <em>'+g.filas.length+'</em></h3>'+filas+'</section>';
   }
 
+  /* La linea ES sin parte no es "no hay coincidencias": es que todavia no hay
+     nada de que informar, y eso ya lo explica el cartel de arriba. */
+  function lineaSinParte(){
+    return estado.g==='linea' && !((DATA.linea||[]).length);
+  }
+
   function pinta(reset){
     if(reset){lista.innerHTML='';pintados=0;if(io){io.disconnect();io=null;}}
-    if(!grupos.length){lista.innerHTML='<p class="nada">'+t('nada')+'</p>';return;}
+    if(!grupos.length){
+      lista.innerHTML=lineaSinParte()?'':'<p class="nada">'+t('nada')+'</p>';
+      return;
+    }
     var hasta=Math.min(pintados+45,grupos.length), trozo='';
     for(var i=pintados;i<hasta;i++){trozo+=bloque(grupos[i],i);}
     var cent=document.getElementById('cent'); if(cent){cent.remove();}
@@ -561,7 +677,13 @@ input[type="search"]::placeholder{color:var(--ink-3)}
     }
   }
 
-  function refresca(){agrupa();pinta(true);}
+  function refresca(){
+    var lin=estado.g==='linea';
+    document.getElementById('h-artistas').textContent=t(lin?'pasos':'artistas');
+    document.getElementById('indice').setAttribute('aria-label',t(lin?'pasosAria':'indiceAria'));
+    document.getElementById('indice').hidden=lineaSinParte();
+    subBarra();agrupa();pinta(true);
+  }
 
   function aplicaIdioma(){
     nf=new Intl.NumberFormat(TXT[L].loc);
@@ -581,7 +703,7 @@ input[type="search"]::placeholder{color:var(--ink-3)}
   document.querySelectorAll('.tab').forEach(function(b){
     b.addEventListener('click',function(){
       document.querySelectorAll('.tab').forEach(function(o){o.setAttribute('aria-selected',String(o===b));});
-      estado.g=b.dataset.g;sub.hidden=estado.g!=='cal';refresca();window.scrollTo(0,0);
+      estado.g=b.dataset.g;refresca();window.scrollTo(0,0);
     });
   });
   var tmr;
