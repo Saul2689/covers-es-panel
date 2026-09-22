@@ -122,6 +122,7 @@ h1{font-weight:700;font-size:clamp(28px,4.6vw,40px);line-height:1.05;letter-spac
 .c-parada{background:var(--q1)} .c-correccion{background:var(--q2)}
 .c-revision{background:var(--q3)} .c-carry{background:var(--accent)}
 .c-traduccion{background:var(--q4)} .c-cola{background:var(--mute)}
+.c-sinorig{background:var(--ink-3)}
 .c-hecha{background:var(--q5)}
 .punto{width:9px;height:9px;border-radius:99px;display:inline-block;flex:0 0 auto}
 .chip.st{background:var(--mute-soft);color:var(--ink);display:inline-flex;align-items:center;gap:6px}
@@ -294,7 +295,7 @@ input[type="search"]::placeholder{color:var(--ink-3)}
       lineaRota:'The line’s report could not be read, so nothing is shown rather than something wrong.',
       e_cola:'Queued', e_carry:'Carry', e_revision:'Under review',
       e_correccion:'Being fixed', e_traduccion:'Translating',
-      e_hecha:'Done', e_parada:'Stopped',
+      e_hecha:'Done', e_parada:'Stopped', e_sinorig:'No original linked',
       vueltas1:'1 pass', vueltasN:'{n} passes',
       pasos:'Steps', pasosAria:'Step index',
       grupoAria:'Group', buscar:'Search song or artist',
@@ -336,7 +337,7 @@ input[type="search"]::placeholder{color:var(--ink-3)}
       lineaRota:'No se ha podido leer el parte de la línea, así que no se enseña nada en vez de enseñar algo equivocado.',
       e_cola:'En cola', e_carry:'Carry', e_revision:'En revisión',
       e_correccion:'Corrigiendo', e_traduccion:'Traduciendo',
-      e_hecha:'Hecha', e_parada:'Parada',
+      e_hecha:'Hecha', e_parada:'Parada', e_sinorig:'Sin original',
       vueltas1:'1 vuelta', vueltasN:'{n} vueltas',
       pasos:'Pasos', pasosAria:'Índice de pasos',
       grupoAria:'Grupo', buscar:'Buscar canción o artista',
@@ -471,7 +472,7 @@ input[type="search"]::placeholder{color:var(--ink-3)}
   var QLBL={1:'Poor',2:'Weak',3:'Acceptable',4:'Good',5:'Excellent'};
   /* Los pasos de la linea ES, en el orden en que se ensenan: lo que requiere
      que alguien haga algo (parada) va primero y lo terminado al final. */
-  var ESTADOS=['parada','correccion','revision','carry','traduccion','cola','hecha'];
+  var ESTADOS=['parada','correccion','revision','carry','traduccion','cola','sinorig','hecha'];
   var LIN=M.linea||{total:0,cuenta:{},generado:null,fallo:null};
   function cuando(iso){
     if(!iso) return '';

@@ -28,7 +28,7 @@ MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun',
 # lo que pase la build tiene que terminar, porque el panel no es suyo.
 COLA = os.path.join(AQUI, 'cola_carry.json')
 ESTADOS = ['parada', 'correccion', 'revision', 'carry',
-           'traduccion', 'cola', 'hecha']
+           'traduccion', 'cola', 'sinorig', 'hecha']
 
 
 def carga_env(ruta):
@@ -183,6 +183,11 @@ def parte_linea(datos, log):
         estado = str(c.get('estado') or 'cola').strip().lower()
         if estado not in ESTADOS:
             estado = 'cola'
+        # Sin original enlazado no hay nada que carrear: no es cola, es un
+        # atasco en otro sitio (aprobar el candidato del matcher). Se separa
+        # para que la cola diga cuantas se pueden trabajar de verdad.
+        if estado in ('cola', 'carry') and not str(c.get('originalTrackId') or '').strip():
+            estado = 'sinorig'
         try:
             vueltas = int(c.get('vueltas') or 0)
         except (TypeError, ValueError):
