@@ -236,8 +236,8 @@ input[type="search"]::placeholder{color:var(--ink-3)}
     <div class="tabs" role="tablist" id="tablist">
       <button class="tab" id="tab-con" role="tab" aria-selected="true" data-g="con"><b></b><span></span></button>
       <button class="tab" id="tab-sin" role="tab" aria-selected="false" data-g="sin"><b></b><span></span></button>
-      <button class="tab" id="tab-cal" role="tab" aria-selected="false" data-g="cal"><b></b><span></span></button>
       <button class="tab" id="tab-linea" role="tab" aria-selected="false" data-g="linea"><b></b><span></span></button>
+      <button class="tab" id="tab-cal" role="tab" aria-selected="false" data-g="cal"><b></b><span></span></button>
     </div>
     <input type="search" id="q" autocomplete="off">
     <span class="cuenta" id="cuenta"></span>
@@ -287,7 +287,7 @@ input[type="search"]::placeholder{color:var(--ink-3)}
       listo:'Done. Loading the new data…',
       de:'of',
       tabCon:'With FULL SONG', tabSin:'No usable audio', tabCal:'Already rated',
-      tabLinea:'ES line',
+      tabLinea:'Carry',
       lineaTitulo:'Where the {n} songs stand',
       lineaParte:'report from {fecha}',
       lineaVacia:'The ES line has not filed a report yet. Once it starts working, every song it touches shows up here.',
@@ -329,7 +329,7 @@ input[type="search"]::placeholder{color:var(--ink-3)}
       listo:'Listo. Cargando los datos nuevos…',
       de:'de',
       tabCon:'Con FULL SONG', tabSin:'Sin audio utilizable', tabCal:'Ya calificadas',
-      tabLinea:'Línea ES',
+      tabLinea:'Carry',
       lineaTitulo:'En qué paso están las {n} canciones',
       lineaParte:'parte del {fecha}',
       lineaVacia:'La línea ES todavía no ha dejado ningún parte. En cuanto empiece a trabajar, aquí aparecerá cada canción por la que pase.',
@@ -502,12 +502,12 @@ input[type="search"]::placeholder{color:var(--ink-3)}
     boton.textContent=t('btn');
     document.querySelector('#tab-con b').textContent=t('tabCon');
     document.querySelector('#tab-sin b').textContent=t('tabSin');
-    document.querySelector('#tab-cal b').textContent=t('tabCal');
     document.querySelector('#tab-linea b').textContent=t('tabLinea');
+    document.querySelector('#tab-cal b').textContent=t('tabCal');
     document.querySelector('#tab-con span').textContent=nf.format(M.con);
     document.querySelector('#tab-sin span').textContent=nf.format(M.sin);
-    document.querySelector('#tab-cal span').textContent=nf.format(M.cal);
     document.querySelector('#tab-linea span').textContent=nf.format(LIN.total||0);
+    document.querySelector('#tab-cal span').textContent=nf.format(M.cal);
     if(ptexto.dataset.k){ ptexto.textContent=t(ptexto.dataset.k); }
   }
 
