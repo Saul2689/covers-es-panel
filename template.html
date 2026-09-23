@@ -1,430 +1,720 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Covers ES sin calificar</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Karla:wght@400;500;600&family=Roboto+Mono:wght@400;500&display=swap">
-<style>
-:root{
-  --ground:#EDF0F4; --surface:#FFFFFF; --surface-2:#F6F8FB;
-  --ink:#0F161E; --ink-2:#4B5A66; --ink-3:#7C8A98;
-  --rule:#D6DEE7; --rule-soft:#E7ECF2;
-  --accent:#1746C4; --accent-ink:#FFFFFF; --accent-soft:#E1E8FA;
-  --ok:#186A45; --ok-soft:#DEEFE6;
-  --warn:#8A5312; --warn-soft:#F7E9D3;
-  --mute:#5D6975; --mute-soft:#E6EAEF;
-  --shadow:0 1px 2px rgba(15,22,30,.06),0 8px 22px -14px rgba(15,22,30,.28);
-  --q1:#C4302B; --q2:#D9642B; --q3:#C9A227; --q4:#7BB33A; --q5:#1E9E5A;
-  --q-off:rgba(128,128,128,.35);
-}
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){
-    --ground:#0C1117; --surface:#141B23; --surface-2:#1A232C;
-    --ink:#E9EFF5; --ink-2:#A4B2BF; --ink-3:#72818F;
-    --rule:#26313C; --rule-soft:#1D262F;
-    --accent:#8DACFF; --accent-ink:#0C1117; --accent-soft:#1B2947;
-    --ok:#6FC79A; --ok-soft:#132C21;
-    --warn:#DCAC61; --warn-soft:#2C2213;
-    --mute:#92A0AD; --mute-soft:#1D262E;
-    --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 26px -16px rgba(0,0,0,.8);
+<title>Covers en español</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config={theme:{extend:{
+  fontFamily:{
+    display:['"Inter Tight"','Inter','system-ui','sans-serif'],
+    sans:['Inter','system-ui','sans-serif'],
+    mono:['"IBM Plex Mono"','ui-monospace','SFMono-Regular','monospace']
+  },
+  colors:{
+    ground:'#09090B', surface:'#131317', raised:'#1A1A20',
+    line:'#2A2A31', accent:'#7C3AED', accentsoft:'#A78BFA',
+    q1:'#E11D48', q2:'#F97316', q3:'#EAB308', q4:'#84CC16', q5:'#22C55E'
   }
-}
-:root[data-theme="dark"]{
-  --ground:#0C1117; --surface:#141B23; --surface-2:#1A232C;
-  --ink:#E9EFF5; --ink-2:#A4B2BF; --ink-3:#72818F;
-  --rule:#26313C; --rule-soft:#1D262F;
-  --accent:#8DACFF; --accent-ink:#0C1117; --accent-soft:#1B2947;
-  --ok:#6FC79A; --ok-soft:#132C21;
-  --warn:#DCAC61; --warn-soft:#2C2213;
-  --mute:#92A0AD; --mute-soft:#1D262E;
-  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 26px -16px rgba(0,0,0,.8);
-}
-*{box-sizing:border-box}
-body{
-  margin:0;background:var(--ground);color:var(--ink);
-  font-family:"Karla",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px;line-height:1.5;
-  -webkit-font-smoothing:antialiased;
-}
-.wrap{max-width:1180px;margin:0 auto;padding-inline:20px;padding-block:34px 80px}
-:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
-a{color:var(--accent)}
-h1,h2,h3{font-family:"Archivo",system-ui,sans-serif;margin:0;text-wrap:balance}
-.mono{font-family:"Roboto Mono",ui-monospace,SFMono-Regular,monospace;font-variant-numeric:tabular-nums}
+}}};
+</script>
+<style>
+  :root{color-scheme:dark}
+  body{background:#09090B;color:#FAFAFA;font-family:Inter,system-ui,sans-serif;margin:0}
+  ::selection{background:#7C3AED;color:#fff}
+  .scroll-thin{scrollbar-width:thin;scrollbar-color:#2A2A31 transparent}
+  .scroll-thin::-webkit-scrollbar{width:6px;height:6px}
+  .scroll-thin::-webkit-scrollbar-thumb{background:#2A2A31;border-radius:99px}
+  :focus-visible{outline:2px solid #A78BFA;outline-offset:2px;border-radius:6px}
+  @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+  .fade-in{animation:fi .4s ease both}
+  @keyframes fi{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
 
-.eyebrow{font-family:"Roboto Mono",monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin:0 0 12px}
-.cabecera{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;flex-wrap:wrap}
-.refresco{display:flex;flex-direction:column;align-items:flex-end;gap:5px;margin-bottom:12px}
-.fila-acciones{display:flex;align-items:center;gap:9px}
-.idiomas{display:flex;border:1px solid var(--rule);border-radius:999px;overflow:hidden;background:var(--surface)}
-.idioma{font:inherit;font-family:"Roboto Mono",monospace;font-size:11px;letter-spacing:.08em;cursor:pointer;
-  background:none;border:0;padding:9px 13px;color:var(--ink-3);transition:background .15s,color .15s}
-.idioma:hover:not([aria-pressed="true"]){background:var(--surface-2);color:var(--ink-2)}
-.idioma[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
-.refrescar{font-family:"Roboto Mono",monospace;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;
-  cursor:pointer;color:var(--accent);background:var(--surface);border:1px solid var(--rule);
-  border-radius:999px;padding:9px 20px;white-space:nowrap;transition:background .15s,color .15s,border-color .15s}
-.refrescar:hover:not(:disabled){background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
-.refrescar:disabled{cursor:not-allowed;opacity:.45}
-.aviso-refresco{margin:0;font-family:"Roboto Mono",monospace;font-size:10.5px;letter-spacing:.04em;
-  color:var(--ink-3);text-align:right;max-width:52ch;line-height:1.5}
-.aviso-refresco.agotado{color:var(--warn)}
-@media(max-width:820px){
-  .cabecera{flex-direction:column;gap:0}
-  .refresco{align-items:flex-start}
-  .aviso-refresco{text-align:left}
-}
-.progreso{margin:0 0 22px;padding:14px 16px;border:1px solid var(--rule);border-radius:10px;background:var(--surface)}
-.progreso .linea{display:flex;justify-content:space-between;gap:12px;font-family:"Roboto Mono",monospace;
-  font-size:11.5px;color:var(--ink-2);margin-bottom:9px}
-.progreso .linea .reloj{font-variant-numeric:tabular-nums;color:var(--ink-3)}
-.progreso .carril{height:7px;border-radius:99px;background:var(--surface-2);overflow:hidden}
-.progreso .relleno{height:100%;width:0;border-radius:99px;background:var(--accent);
-  transition:width .9s linear}
-.progreso.listo .relleno{background:var(--ok)}
-h1{font-weight:700;font-size:clamp(28px,4.6vw,40px);line-height:1.05;letter-spacing:-.02em}
+  /* Buscador: un filo de 1px por el que gira un destello violeta. El anillo es
+     un círculo mayor que la caja; el interior opaco deja ver solo el borde. */
+  .brillo{position:relative;padding:1px;overflow:hidden;background:#2A2A31;
+          box-shadow:0 0 0 1px rgba(124,58,237,.14);transition:box-shadow .2s ease}
+  .brillo::before{content:"";position:absolute;left:50%;top:50%;width:230%;aspect-ratio:1;
+    border-radius:50%;transform:translate(-50%,-50%) rotate(0deg);
+    background:conic-gradient(from 0deg,
+      rgba(124,58,237,0) 0deg, rgba(124,58,237,0) 232deg,
+      rgba(124,58,237,.5) 292deg, #C4B5FD 324deg, rgba(124,58,237,.5) 352deg,
+      rgba(124,58,237,0) 360deg);
+    animation:girar 4.5s linear infinite}
+  .brillo>*{position:relative}
+  .brillo:focus-within{box-shadow:0 0 0 1px rgba(124,58,237,.45),0 0 26px -6px rgba(124,58,237,.55)}
+  @keyframes girar{to{transform:translate(-50%,-50%) rotate(360deg)}}
 
-.cifras{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:1px;background:var(--rule);
-  border:1px solid var(--rule);border-radius:8px;overflow:hidden;margin-top:26px}
-.cifra{background:var(--surface);padding:15px 17px}
-.cifra .n{font-family:"Archivo",sans-serif;font-weight:700;font-size:26px;line-height:1.1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
-.cifra .l{font-family:"Roboto Mono",monospace;font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);margin-top:5px}
-.cifra.is-ok .n{color:var(--ok)}
-.cifra.is-warn .n{color:var(--warn)}
-
-.reparto{margin-top:26px}
-.reparto .pista{display:flex;height:30px;border:1px solid var(--rule);overflow:hidden;background:var(--surface)}
-.reparto .seg{display:flex;align-items:center;justify-content:center;min-width:0;
-  font-family:"Roboto Mono",monospace;font-size:11.5px;font-variant-numeric:tabular-nums;
-  border-right:1px solid var(--surface);overflow:hidden;white-space:nowrap}
-.reparto .seg:last-child{border-right:0}
-.reparto .seg.s-con{background:var(--ok);color:var(--surface)}
-.reparto .seg.s-sin{background:var(--mute);color:var(--surface)}
-.reparto .seg.s-cal{background:var(--accent);color:var(--accent-ink)}
-.reparto .leyenda{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:9px;
-  font-family:"Roboto Mono",monospace;font-size:11px;color:var(--ink-3)}
-.reparto .leyenda span{display:flex;align-items:center;gap:6px}
-.reparto .leyenda i{width:10px;height:10px;display:inline-block}
-.reparto .leyenda i.s-con{background:var(--ok)}
-.reparto .leyenda i.s-sin{background:var(--mute)}
-.reparto .leyenda i.s-cal{background:var(--accent)}
-
-.subreparto{margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule)}
-.subreparto .titulo{font-family:"Roboto Mono",monospace;font-size:10.5px;letter-spacing:.09em;
-  text-transform:uppercase;color:var(--ink-3);margin-bottom:7px}
-.subreparto .pista{height:24px}
-.subreparto .seg.qs1{background:var(--q1)} .subreparto .seg.qs2{background:var(--q2)}
-.subreparto .seg.qs3{background:var(--q3)} .subreparto .seg.qs4{background:var(--q4)}
-.subreparto .seg.qs5{background:var(--q5)}
-.subreparto .seg{color:#FFFFFF}
-.subreparto .leyenda i.qs1{background:var(--q1)} .subreparto .leyenda i.qs2{background:var(--q2)}
-.subreparto .leyenda i.qs3{background:var(--q3)} .subreparto .leyenda i.qs4{background:var(--q4)}
-.subreparto .leyenda i.qs5{background:var(--q5)}
-/* Colores de los pasos de la linea ES. Se usan igual en la barra, en la
-   leyenda, en el punto del titulo de cada bloque y en el chip de cada fila. */
-.c-parada{background:var(--q1)} .c-correccion{background:var(--q2)}
-.c-revision{background:var(--q3)} .c-carry{background:var(--accent)}
-.c-traduccion{background:var(--q4)} .c-cola{background:var(--mute)}
-.c-sinorig{background:var(--ink-3)}
-.c-hecha{background:var(--q5)}
-.punto{width:9px;height:9px;border-radius:99px;display:inline-block;flex:0 0 auto}
-.chip.st{background:var(--mute-soft);color:var(--ink);display:inline-flex;align-items:center;gap:6px}
-.chip.st i{width:8px;height:8px;border-radius:99px;display:inline-block}
-.motivo{grid-column:2/-1;margin-top:2px;color:var(--warn);font-size:12.5px;line-height:1.45}
-.parte-vacio{color:var(--ink-2);font-size:13.5px;line-height:1.5;margin:0}
-
-.estrellas{display:inline-flex;align-items:center;gap:1px;line-height:1;font-size:13px}
-.estrellas .off{color:var(--q-off)}
-.qlbl{font-family:"Roboto Mono",monospace;font-size:10.5px;font-weight:500;margin-left:6px;white-space:nowrap}
-.q1{color:var(--q1)} .q2{color:var(--q2)} .q3{color:var(--q3)} .q4{color:var(--q4)} .q5{color:var(--q5)}
-
-.barra{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:22px;
-  position:sticky;top:0;z-index:5;background:var(--ground);padding-block:12px}
-.tabs{display:flex;border:1px solid var(--rule);border-radius:7px;overflow:hidden;background:var(--surface)}
-.tab{font:inherit;cursor:pointer;background:none;border:0;padding:9px 15px;color:var(--ink-2);
-  border-right:1px solid var(--rule);display:flex;gap:8px;align-items:baseline}
-.tab:last-child{border-right:0}
-.tab b{font-family:"Archivo",sans-serif;font-weight:600;font-size:14px}
-.tab span{font-family:"Roboto Mono",monospace;font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums}
-.tab[aria-selected="true"]{background:var(--accent);color:var(--accent-ink)}
-.tab[aria-selected="true"] span{color:var(--accent-ink);opacity:.72}
-.tab:hover:not([aria-selected="true"]){background:var(--surface-2)}
-input[type="search"]{flex:1 1 230px;min-width:0;font:inherit;color:var(--ink);background:var(--surface);
-  border:1px solid var(--rule);border-radius:7px;padding:9px 13px}
-input[type="search"]::placeholder{color:var(--ink-3)}
-.cuenta{font-family:"Roboto Mono",monospace;font-size:12px;color:var(--ink-3);white-space:nowrap}
-
-.rejilla{display:grid;grid-template-columns:1fr;gap:22px;margin-top:6px;align-items:start}
-@media(min-width:980px){.rejilla{grid-template-columns:232px 1fr;gap:30px}}
-
-.indice{border:1px solid var(--rule);border-radius:8px;background:var(--surface);overflow:hidden}
-@media(min-width:980px){.indice{position:sticky;top:72px;max-height:calc(100vh - 104px);display:flex;flex-direction:column}}
-.indice h2{font-size:12px;font-family:"Roboto Mono",monospace;font-weight:500;letter-spacing:.1em;text-transform:uppercase;
-  color:var(--ink-3);padding:12px 14px;border-bottom:1px solid var(--rule-soft)}
-.indice ol{list-style:none;margin:0;padding:6px;overflow-y:auto;max-height:320px}
-@media(min-width:980px){.indice ol{max-height:none}}
-.indice button{font:inherit;width:100%;text-align:left;background:none;border:0;cursor:pointer;color:var(--ink-2);
-  padding:5px 8px;border-radius:5px;display:flex;justify-content:space-between;gap:8px;align-items:baseline;font-size:13.5px}
-.indice button:hover{background:var(--surface-2);color:var(--ink)}
-.indice button em{font-family:"Roboto Mono",monospace;font-style:normal;font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums}
-.indice .vacio{padding:12px 14px;color:var(--ink-3);font-size:13px}
-.indice[hidden]{display:none}
-
-.grupo{margin-bottom:24px;scroll-margin-top:80px}
-.grupo h3{display:flex;align-items:baseline;gap:9px;font-size:18px;font-weight:600;letter-spacing:-.01em;
-  padding-bottom:7px;border-bottom:2px solid var(--ink)}
-.grupo h3 em{font-family:"Roboto Mono",monospace;font-style:normal;font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums}
-.fila{display:grid;grid-template-columns:46px 1fr auto;gap:10px 12px;align-items:center;
-  padding:9px 2px;border-bottom:1px solid var(--rule-soft)}
-.fila:hover{background:var(--surface-2)}
-.pos{font-family:"Roboto Mono",monospace;font-size:11.5px;color:var(--ink-3);font-variant-numeric:tabular-nums;text-align:right}
-.tit{font-weight:500;min-width:0;overflow-wrap:anywhere}
-.tit a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
-.tit a:hover{border-bottom-color:var(--accent);color:var(--accent)}
-.tit .lote{font-family:"Roboto Mono",monospace;font-size:10.5px;color:var(--ink-3);margin-left:8px;white-space:nowrap}
-.acc{display:flex;gap:7px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
-.chip{font-family:"Roboto Mono",monospace;font-size:10.5px;letter-spacing:.04em;padding:3px 8px;border-radius:99px;white-space:nowrap}
-.chip.ok{background:var(--ok-soft);color:var(--ok)}
-.chip.warn{background:var(--warn-soft);color:var(--warn)}
-.chip.mute{background:var(--mute-soft);color:var(--mute)}
-.enl{font-family:"Roboto Mono",monospace;font-size:11px;text-decoration:none;color:var(--accent);
-  border:1px solid var(--rule);border-radius:5px;padding:3px 9px;background:var(--surface)}
-.enl:hover{border-color:var(--accent);background:var(--accent-soft)}
-.idbtn{font:inherit;font-family:"Roboto Mono",monospace;font-size:10.5px;cursor:pointer;background:none;border:0;
-  color:var(--ink-3);padding:3px 2px}
-.idbtn:hover{color:var(--accent)}
-@media(max-width:560px){
-  .fila{grid-template-columns:36px 1fr;gap:6px 10px}
-  .acc{grid-column:2;justify-content:flex-start}
-}
-.nada{padding:40px 4px;color:var(--ink-3)}
-.pie{margin-top:36px;padding-top:18px;border-top:1px solid var(--rule);color:var(--ink-3);font-size:13px;max-width:70ch}
-.pie code{font-family:"Roboto Mono",monospace;font-size:12px;color:var(--ink-2)}
-.pie b{color:var(--ink-2)}
-#toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:var(--ink);color:var(--ground);
-  font-family:"Roboto Mono",monospace;font-size:12px;padding:9px 15px;border-radius:7px;box-shadow:var(--shadow);opacity:0;
-  pointer-events:none;transition:opacity .18s}
-#toast.on{opacity:1}
-@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+  /* Secciones plegables: fuera el triangulo del navegador, el chevron gira. */
+  summary::-webkit-details-marker{display:none}
+  details[open]>summary .chevron{transform:rotate(90deg)}
 </style>
 
-<div class="wrap">
-  <div class="cabecera">
-    <p class="eyebrow" id="eyebrow"></p>
-    <div class="refresco">
-      <div class="fila-acciones">
-        <div class="idiomas" role="group" id="idiomas">
-          <button class="idioma" type="button" data-l="en" aria-pressed="true">EN</button>
-          <button class="idioma" type="button" data-l="es" aria-pressed="false">ES</button>
-        </div>
-        <button class="refrescar" id="refrescar" type="button" disabled></button>
+<div class="min-h-screen">
+
+  <!-- ══ barra superior ══ -->
+  <header class="sticky z-30 backdrop-blur-md bg-ground/70 border-b border-line/60"
+          style="top:env(safe-area-inset-top,0px)">
+    <div class="mx-auto max-w-[1180px] px-4 sm:px-6 py-3 flex items-center gap-4 flex-wrap">
+      <div class="flex items-center gap-2.5 mr-auto">
+        <span class="h-6 w-6 rounded-lg bg-accent/15 border border-accent/30 grid place-items-center">
+          <span class="h-1.5 w-1.5 rounded-full bg-accentsoft"></span>
+        </span>
+        <span class="font-display font-semibold tracking-tight text-[15px]">SingIt</span>
+        <span class="text-zinc-600">/</span>
+        <span class="text-[13px] text-zinc-400" id="x-eyebrow"></span>
       </div>
-      <p class="aviso-refresco" id="aviso-refresco"></p>
+
+      <div class="flex items-center gap-1 rounded-xl border border-line/70 bg-surface p-0.5" id="x-langs">
+        <button data-l="es" class="px-2.5 py-1 rounded-lg text-[12px] font-medium transition-all duration-200">ES</button>
+        <button data-l="en" class="px-2.5 py-1 rounded-lg text-[12px] font-medium transition-all duration-200">EN</button>
+      </div>
+
+      <button id="x-refrescar" type="button"
+              class="rounded-xl border border-violet-400/50 bg-gradient-to-b from-violet-500 to-accent
+                     px-3.5 py-1.5 text-[12.5px] font-semibold text-white shadow-lg shadow-accent/35
+                     transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-accent/50
+                     disabled:cursor-not-allowed disabled:opacity-40 disabled:shadow-none
+                     disabled:hover:translate-y-0 disabled:hover:shadow-none"></button>
+    </div>
+  </header>
+
+  <!-- ══ aviso de cupo + progreso de la actualización ══ -->
+  <div class="mx-auto max-w-[1180px] px-4 sm:px-6">
+    <p class="pt-2.5 text-right text-[11.5px] leading-relaxed text-zinc-500" id="x-aviso"></p>
+    <div id="x-progreso" hidden
+         class="mt-3 rounded-2xl border border-accent/25 bg-accent/[0.07] px-4 py-3 backdrop-blur-md">
+      <div class="flex items-center justify-between gap-4">
+        <span class="text-[12.5px] font-medium text-accentsoft" id="x-progreso-texto"></span>
+        <span class="font-mono text-[11.5px] text-zinc-400" id="x-progreso-reloj">0:00</span>
+      </div>
+      <div class="mt-2.5 h-1 w-full overflow-hidden rounded-full bg-raised">
+        <div class="h-full w-0 rounded-full bg-gradient-to-r from-violet-500 to-accentsoft
+                    transition-all duration-700" id="x-progreso-relleno"></div>
+      </div>
     </div>
   </div>
 
-  <div class="progreso" id="progreso" hidden>
-    <div class="linea"><span id="progreso-texto"></span>
-      <span class="reloj" id="progreso-reloj">0:00</span></div>
-    <div class="carril"><div class="relleno" id="progreso-relleno"></div></div>
-  </div>
+  <main class="mx-auto max-w-[1180px] px-4 sm:px-6 pb-24">
 
-  <h1 id="h1"></h1>
+    <!-- ══ tesis ══ -->
+    <section class="pt-10 sm:pt-14 pb-8">
+      <div class="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-3 py-1 mb-6">
+        <span class="h-1.5 w-1.5 rounded-full bg-accentsoft"></span>
+        <span class="text-[11.5px] font-medium tracking-wide text-accentsoft" id="x-propuesta"></span>
+      </div>
 
-  <div class="reparto" id="reparto"></div>
-  <div class="reparto subreparto" id="subreparto" hidden></div>
+      <h1 class="font-display font-semibold tracking-tight text-[38px] sm:text-[52px] leading-[1.02] text-zinc-50"
+          id="x-h1" style="text-wrap:balance"></h1>
 
-  <div class="cifras" id="cifras"></div>
+      <p class="mt-4 max-w-[62ch] text-[16px] sm:text-[17px] leading-relaxed text-zinc-400" id="x-tesis"></p>
 
-  <div class="barra">
-    <div class="tabs" role="tablist" id="tablist">
-      <button class="tab" id="tab-con" role="tab" aria-selected="true" data-g="con"><b></b><span></span></button>
-      <button class="tab" id="tab-sin" role="tab" aria-selected="false" data-g="sin"><b></b><span></span></button>
-      <button class="tab" id="tab-linea" role="tab" aria-selected="false" data-g="linea"><b></b><span></span></button>
-      <button class="tab" id="tab-cal" role="tab" aria-selected="false" data-g="cal"><b></b><span></span></button>
+      <!-- reparto del catálogo -->
+      <div class="mt-8">
+        <div class="flex h-9 w-full overflow-hidden rounded-xl border border-white/10 bg-raised" id="x-reparto"></div>
+        <div class="mt-3 flex flex-wrap gap-x-6 gap-y-2" id="x-reparto-leyenda"></div>
+      </div>
+
+      <p class="mt-6 text-[13px] text-zinc-500 max-w-[62ch]" id="x-sub"></p>
+    </section>
+
+    <!-- ══ cifras ══ -->
+    <section class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4" id="x-cifras"></section>
+
+    <!-- ══ pestañas ══ -->
+    <div class="mt-10 flex flex-col lg:flex-row lg:items-center gap-3">
+      <div class="flex flex-wrap gap-1 rounded-2xl border border-line/60 bg-surface p-1 shadow-sm" id="x-tabs" role="tablist"></div>
+      <div class="flex-1 flex items-center gap-3">
+        <div class="brillo flex-1 min-w-0 rounded-2xl">
+          <div class="rounded-[15px] bg-surface">
+            <svg class="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-zinc-500"
+                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.2-3.2"></path>
+            </svg>
+            <input id="x-q" type="search" autocomplete="off"
+                   class="w-full rounded-[15px] bg-transparent pl-10 pr-4 py-2.5 text-[14px] text-zinc-100
+                          placeholder:text-zinc-500 focus:outline-none">
+          </div>
+        </div>
+        <span class="font-mono text-[12px] text-zinc-500 whitespace-nowrap" id="x-cuenta"></span>
+      </div>
     </div>
-    <input type="search" id="q" autocomplete="off">
-    <span class="cuenta" id="cuenta"></span>
-  </div>
 
-  <div class="rejilla">
-    <nav class="indice" id="indice">
-      <h2 id="h-artistas"></h2>
-      <ol id="idx"></ol>
-    </nav>
-    <div id="lista"></div>
-  </div>
+    <!-- ══ firma: el riel de la línea (solo pestaña Carry) ══ -->
+    <section id="x-linea" hidden class="mt-6">
+      <div class="rounded-2xl border border-line/60 bg-surface p-6 sm:p-8 shadow-sm">
+        <div class="flex items-baseline justify-between gap-4 flex-wrap">
+          <h2 class="font-display font-semibold tracking-tight text-[19px] text-zinc-100" id="x-linea-tit"></h2>
+          <span class="font-mono text-[11.5px] text-zinc-500" id="x-linea-sello"></span>
+        </div>
+        <p class="mt-1.5 text-[13.5px] text-zinc-400 max-w-[62ch]" id="x-linea-sub"></p>
+        <div id="x-parada" hidden class="mt-5 flex items-start gap-3 rounded-xl border border-q1/30 bg-q1/5 px-4 py-3">
+          <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-q1"></span>
+          <p class="text-[13.5px] text-zinc-300" id="x-parada-txt"></p>
+        </div>
+        <div class="mt-6 flex h-8 w-full overflow-hidden rounded-xl border border-white/10 bg-raised" id="x-linea-barra"></div>
+        <div class="mt-3 flex flex-wrap gap-x-5 gap-y-2" id="x-linea-leyenda"></div>
+        <ol class="mt-6 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-2" id="x-rail"></ol>
+      </div>
+    </section>
 
-  <p class="pie" id="pie"></p>
+    <!-- ══ reparto de notas (solo pestaña calificadas) ══ -->
+    <section id="x-calidad" hidden class="mt-6">
+      <div class="rounded-2xl border border-line/60 bg-surface p-6 sm:p-8 shadow-sm">
+        <h2 class="font-display font-semibold tracking-tight text-[19px] text-zinc-100" id="x-cal-tit"></h2>
+        <div class="mt-5 flex h-8 w-full overflow-hidden rounded-xl border border-white/10 bg-raised" id="x-cal-barra"></div>
+        <div class="mt-3 flex flex-wrap gap-x-5 gap-y-2" id="x-cal-leyenda"></div>
+      </div>
+    </section>
+
+    <!-- ══ lista ══ -->
+    <div id="x-rejilla" class="mt-6 grid md:grid-cols-[210px_minmax(0,1fr)] gap-5 lg:gap-6">
+      <div id="x-indice-caja" class="hidden md:block">
+        <nav id="x-indice" class="sticky top-24 rounded-2xl border border-line/60 bg-surface p-4 shadow-sm">
+          <h2 class="font-mono text-[10.5px] uppercase tracking-[0.12em] text-zinc-500 px-1" id="x-indice-tit"></h2>
+          <ol class="mt-3 max-h-[62vh] overflow-y-auto scroll-thin pr-1" id="x-idx"></ol>
+        </nav>
+      </div>
+      <div id="x-lista" class="min-w-0"></div>
+    </div>
+  </main>
+
+  <div id="x-toast" class="pointer-events-none fixed left-1/2 -translate-x-1/2 z-50 opacity-0 transition-opacity duration-200
+              rounded-xl bg-zinc-100 px-4 py-2 font-mono text-[12px] text-zinc-900 shadow-lg"
+       style="bottom:calc(24px + env(safe-area-inset-bottom,0px))" role="status" aria-live="polite"></div>
 </div>
-<div id="toast" role="status" aria-live="polite"></div>
 
 <script id="payload" type="application/json">/*__PAYLOAD__*/</script>
 <script>
 (function(){
   var P=JSON.parse(document.getElementById('payload').textContent);
-  var DATA=P.data, M=P.meta, BASE='https://api.singit.io';
+  var D=P.data, M=P.meta, LIN=M.linea||{cuenta:{},total:0};
+  var BASE='https://api.singit.io';
+  var QL={1:'Poor',2:'Weak',3:'Acceptable',4:'Good',5:'Excellent'};
+  var QC={1:'#E11D48',2:'#F97316',3:'#EAB308',4:'#84CC16',5:'#22C55E'};
+  /* Primero lo que se está trabajando (carry, revisión, corrección,
+     traducción), luego lo que espera (en cola), luego lo terminado (hecha), y
+     al final "sin original": no es un paso de la línea sino un atasco de otro
+     trabajo, y se lleva el 94% de las canciones. */
+  var PASOS=['carry','revision','correccion','traduccion','cola','hecha','sinorig'];
 
-  /* ---- Los dos idiomas -------------------------------------------------
-     La pagina se comparte fuera del equipo, asi que arranca en ingles y
-     quien quiera castellano lo cambia; su eleccion se queda en su navegador.
-     Las etiquetas de estrella (Poor..Excellent) no se traducen: son las que
-     pone el admin de SingIt y hay que poder cotejarlas. */
-  var TXT={
-    en:{
-      loc:'en-US',
-      titulo:'Spanish covers to rate · SingIt',
-      eyebrow:'CrossClear · Spanish catalogue · updated {fecha}',
-      h1:'Spanish covers',
-      btn:'↻ Refresh now',
-      comprobando:'checking…',
-      quedan:'{n} of {t} manual refreshes left today · takes {tiempo}',
-      agotado:'today’s {t} refreshes are used up · come back tomorrow',
-      noDisp:'the button is not available right now',
-      noArranca:'the refresh could not be started',
-      unMin:'a minute',
-      variosMin:'about {m} minutes',
-      pidiendo:'Requesting the refresh…',
-      actualizando:'Refreshing the data…',
-      enMarcha:'Someone is already refreshing — this page will reload when it finishes',
-      yaCorriendo:'A refresh is already running…',
-      listo:'Done. Loading the new data…',
-      de:'of',
-      tabCon:'With FULL SONG', tabSin:'No usable audio', tabCal:'Already rated',
-      tabLinea:'Carry',
-      lineaTitulo:'Where the {n} songs stand',
-      lineaParte:'report from {fecha}',
-      lineaVacia:'The ES line has not filed a report yet. Once it starts working, every song it touches shows up here.',
-      lineaRota:'The line’s report could not be read, so nothing is shown rather than something wrong.',
-      e_cola:'Queued', e_carry:'Carry', e_revision:'Under review',
-      e_correccion:'Being fixed', e_traduccion:'Translating',
-      e_hecha:'Done', e_parada:'Stopped', e_sinorig:'No original linked',
-      vueltas1:'1 pass', vueltasN:'{n} passes',
-      pasos:'Steps', pasosAria:'Step index',
-      grupoAria:'Group', buscar:'Search song or artist',
-      artistas:'Artists', indiceAria:'Artist index',
-      cSin:'Unrated', cCon:'With full song', cNo:'No usable audio',
-      cMudas:'Of those, file there but silent', cCal:'Already rated',
-      calidad:'Quality of the {n} rated',
-      cancion:'song', canciones:'songs', artista:'artist', artistasN:'artists',
-      sinCoincidencias:'No matches',
-      nada:'No song matches your search.',
-      suena:'plays', karaoke:'karaoke only', archivada:'archived',
-      oir:'listen', copiar:'Copy trackId', copiado:'trackId copied: ',
-      pie:'Filter applied: <code>language=es</code>, <code>isArchived=true</code> and no <code>coverReview.quality</code>; covers that already have stars are not listed here. The group is decided by testing the audio one by one, not by the vendor’s flag: <b>With FULL SONG</b> holds only the ones that answer when the voiced track is requested. In the other group, <b>karaoke only</b> never had a voice and <b>0:00</b> means the vendor holds the file but it never plays. The <b>L07</b> tag says which batch of 50 each song falls in. The links to the track and the audio need an admin session in SingIt.'
-    },
-    es:{
-      loc:'es-ES',
-      titulo:'Covers ES sin calificar · SingIt',
-      eyebrow:'CrossClear · catálogo español · actualizado el {fecha}',
+  var T={
+    es:{loc:'es-ES',
+      eyebrow:'Covers de CrossClear',
+      propuesta:'Barrido del {fecha}',
       h1:'Covers en español',
+      tesis:'Quedan {pend} covers por escuchar. {cal} ya tienen nota.',
+      rCon:'Con full song', rNo:'Sin audio utilizable', rCal:'Ya calificadas',
+      sub:'La página se actualiza sola cada hora, de 9:00 a 18:00 (hora de Madrid). Cada canción abre su ficha en el admin, que es donde se ponen las estrellas.',
+      kSin:'Sin calificar', kSinPie:'covers esperando nota',
+      kCon:'Con voz', kConPie:'suenan al darle al play',
+      kNo:'Sin audio', kNoPie:'karaoke o 0:00',
+      kCal:'Calificadas', kCalPie:'ya tienen estrellas',
+      tCon:'Con FULL SONG', tSin:'Sin audio utilizable', tLin:'Carry', tCal:'Ya calificadas',
+      buscar:'Buscar canción o artista',
+      cancion:'canción', canciones:'canciones',
+      artistas:'Artistas', pasos:'Pasos',
+      nada:'Ninguna canción coincide con la búsqueda.',
+      mas:'Ver {n} artistas más',
+      oir:'oír', copiado:'trackId copiado',
+      suena:'suena', karaoke:'karaoke', cero:'0:00', archivada:'archivada',
+      lineaTit:'La línea, paso a paso',
+      lineaSub:'{n} canciones en la línea de producción española. El orden de abajo es el que siguen de verdad.',
+      lineaSello:'parte del {fecha}',
+      paradaTxt:'{n} parada: alguien tiene que mirarla antes de que siga.',
+      paradasTxt:'{n} paradas: alguien tiene que mirarlas antes de que sigan.',
+      calTit:'Reparto de notas',
+      e_sinorig:'Sin original', e_cola:'En cola', e_carry:'Carry', e_traduccion:'Traduciendo',
+      e_revision:'En revisión', e_correccion:'Corrigiendo', e_hecha:'Hecha', e_parada:'Parada',
+      vuelta:'1 vuelta', vueltas:'{n} vueltas',
+      gRate:'Calificadas', gLock:'Calificadas y bloqueadas',
+      bloqueada:'bloqueada', desplegar:'Desplegar', plegar:'Plegar',
       btn:'↻ Actualizar ahora',
-      comprobando:'comprobando…',
       quedan:'{n} de {t} actualizaciones manuales disponibles hoy · tarda {tiempo}',
       agotado:'se han gastado las {t} actualizaciones de hoy · vuelve mañana',
       noDisp:'el botón no está disponible ahora mismo',
       noArranca:'no se ha podido lanzar la actualización',
-      unMin:'un minuto',
-      variosMin:'unos {m} minutos',
+      previa:'El botón no está disponible ahora mismo.',
+      previaClic:'El botón no responde ahora mismo; vuelve a intentarlo en un rato.',
+      unMin:'un minuto', variosMin:'unos {m} minutos',
       pidiendo:'Pidiendo la actualización…',
       actualizando:'Actualizando los datos…',
       enMarcha:'Hay una actualización en marcha — esta página se recargará al terminar',
       yaCorriendo:'Ya hay una actualización en marcha…',
       listo:'Listo. Cargando los datos nuevos…',
-      de:'de',
-      tabCon:'Con FULL SONG', tabSin:'Sin audio utilizable', tabCal:'Ya calificadas',
-      tabLinea:'Carry',
-      lineaTitulo:'En qué paso están las {n} canciones',
-      lineaParte:'parte del {fecha}',
-      lineaVacia:'La línea ES todavía no ha dejado ningún parte. En cuanto empiece a trabajar, aquí aparecerá cada canción por la que pase.',
-      lineaRota:'No se ha podido leer el parte de la línea, así que no se enseña nada en vez de enseñar algo equivocado.',
-      e_cola:'En cola', e_carry:'Carry', e_revision:'En revisión',
-      e_correccion:'Corrigiendo', e_traduccion:'Traduciendo',
-      e_hecha:'Hecha', e_parada:'Parada', e_sinorig:'Sin original',
-      vueltas1:'1 vuelta', vueltasN:'{n} vueltas',
-      pasos:'Pasos', pasosAria:'Índice de pasos',
-      grupoAria:'Grupo', buscar:'Buscar canción o artista',
-      artistas:'Artistas', indiceAria:'Índice de artistas',
-      cSin:'Sin calificar', cCon:'Con full song', cNo:'Sin audio utilizable',
-      cMudas:'De esas, con fichero pero mudas', cCal:'Ya calificadas',
-      calidad:'Calidad de las {n} calificadas',
-      cancion:'canción', canciones:'canciones', artista:'artista', artistasN:'artistas',
-      sinCoincidencias:'Sin coincidencias',
-      nada:'No hay ninguna canción que encaje con la búsqueda.',
-      suena:'suena', karaoke:'solo karaoke', archivada:'archivada',
-      oir:'oír', copiar:'Copiar trackId', copiado:'trackId copiado: ',
-      pie:'Filtro aplicado: <code>language=es</code>, <code>isArchived=true</code> y sin <code>coverReview.quality</code>; las canciones que ya tienen estrellas no salen aquí. El grupo se decide probando el audio una por una, no por la etiqueta del proveedor: en <b>Con FULL SONG</b> están solo las que responden al pedir la pista con voz. En el otro grupo, <b>solo karaoke</b> son las que nunca tuvieron voz y <b>0:00</b> las que tienen el fichero en el proveedor pero no llegan a sonar. La etiqueta <b>L07</b> dice en qué lote de 50 cae cada canción. Los enlaces a la ficha y al audio necesitan sesión de admin en SingIt.'
-    }
+      de:'de'},
+    en:{loc:'en-GB',
+      eyebrow:'CrossClear covers',
+      propuesta:'Swept on {fecha}',
+      h1:'Spanish covers',
+      tesis:'{pend} covers still need listening to. {cal} are rated.',
+      rCon:'With full song', rNo:'No usable audio', rCal:'Already rated',
+      sub:'The page refreshes itself every hour, 9:00 to 18:00 Madrid time. Each song opens its card in the admin, which is where the stars are set.',
+      kSin:'Unrated', kSinPie:'covers awaiting a rating',
+      kCon:'With voice', kConPie:'play when you hit play',
+      kNo:'No audio', kNoPie:'karaoke or 0:00',
+      kCal:'Rated', kCalPie:'already have stars',
+      tCon:'With FULL SONG', tSin:'No usable audio', tLin:'Carry', tCal:'Rated & Locked',
+      buscar:'Search song or artist',
+      cancion:'song', canciones:'songs',
+      artistas:'Artists', pasos:'Steps',
+      nada:'No song matches your search.',
+      mas:'Show {n} more artists',
+      oir:'listen', copiado:'trackId copied',
+      suena:'plays', karaoke:'karaoke', cero:'0:00', archivada:'archived',
+      lineaTit:'The line, step by step',
+      lineaSub:'{n} songs in the Spanish production line. The order below is the one they actually follow.',
+      lineaSello:'report from {fecha}',
+      paradaTxt:'{n} stopped: someone has to look at it before it moves on.',
+      paradasTxt:'{n} stopped: someone has to look at them before they move on.',
+      calTit:'How the ratings fall',
+      e_sinorig:'No original', e_cola:'Queued', e_carry:'Carry', e_traduccion:'Translating',
+      e_revision:'Under review', e_correccion:'Being fixed', e_hecha:'Done', e_parada:'Stopped',
+      vuelta:'1 pass', vueltas:'{n} passes',
+      gRate:'Rated', gLock:'Rated & locked',
+      bloqueada:'locked', desplegar:'Expand', plegar:'Collapse',
+      btn:'↻ Refresh now',
+      quedan:'{n} of {t} manual refreshes left today · takes {tiempo}',
+      agotado:'today’s {t} refreshes are used up · come back tomorrow',
+      noDisp:'the button is not available right now',
+      noArranca:'the refresh could not be started',
+      previa:'The button is not available right now.',
+      previaClic:'The button is not responding right now; try again in a little while.',
+      unMin:'a minute', variosMin:'about {m} minutes',
+      pidiendo:'Requesting the refresh…',
+      actualizando:'Refreshing the data…',
+      enMarcha:'Someone is already refreshing — this page will reload when it finishes',
+      yaCorriendo:'A refresh is already running…',
+      listo:'Done. Loading the new data…',
+      de:'of'}
   };
 
-  var L='en';
+  var L='en', nf=new Intl.NumberFormat('en-GB');
   try{ var g=localStorage.getItem('covers-es-idioma'); if(g==='es'||g==='en'){L=g;} }catch(e){}
-  var nf=new Intl.NumberFormat(TXT[L].loc);
-
-  function t(k,vals){
-    var s=TXT[L][k]!==undefined?TXT[L][k]:TXT.en[k];
-    if(vals){ Object.keys(vals).forEach(function(c){ s=s.split('{'+c+'}').join(vals[c]); }); }
-    return s;
-  }
-  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
-  function fecha(){
-    if(!M.iso) return '';
-    var d=new Date(M.iso+'T12:00:00');
-    return new Intl.DateTimeFormat(TXT[L].loc,{day:'numeric',month:'short',year:'numeric'}).format(d);
+  function t(k,v){var s=(T[L][k]||k);if(v)for(var a in v)s=s.split('{'+a+'}').join(v[a]);return s;}
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function fecha(iso){
+    if(!iso) return '';
+    var d=new Date(iso.length<=10?iso+'T12:00:00Z':(/[Zz]$/.test(iso)?iso:iso+'Z'));
+    if(isNaN(d)) return '';
+    return new Intl.DateTimeFormat(T[L].loc,{day:'numeric',month:'short'}).format(d);
   }
 
-  /* ---- Boton de actualizar a mano -------------------------------------
-     El tope diario lo impone el servidor (functions/api/refrescar.js); esto
-     de aqui solo lo cuenta y lo ensena. Mientras corre se ve un contador con
-     lo que lleva y lo que suele tardar, y al terminar la pagina se recarga. */
-  var boton=document.getElementById('refrescar'),
-      aviso=document.getElementById('aviso-refresco'),
-      caja=document.getElementById('progreso'),
-      ptexto=document.getElementById('progreso-texto'),
-      preloj=document.getElementById('progreso-reloj'),
-      prelleno=document.getElementById('progreso-relleno');
-  var media=600, arranque=null, fase='parado', tic=null, sonda=null, espera=0, ultimo=null;
+  /* ── estado ── */
+  var vista='con', q='', tope=40;
 
-  function mmss(seg){
-    seg=Math.max(0,Math.round(seg));
-    return Math.floor(seg/60)+':'+String(seg%60).padStart(2,'0');
+  /* ── toast ── */
+  var toast=document.getElementById('x-toast'), tt;
+  function avisa(msg){
+    toast.textContent=msg; toast.style.opacity='1';
+    clearTimeout(tt); tt=setTimeout(function(){toast.style.opacity='0';},1800);
   }
-  function comoDe(seg){
-    var m=Math.round(seg/60);
-    return m<=1?t('unMin'):t('variosMin',{m:m});
+
+  /* ── piezas ── */
+  function estrellas(n){
+    var o='<span class="inline-flex items-center gap-1.5">';
+    o+='<span class="inline-flex gap-px" aria-hidden="true">';
+    for(var i=1;i<=5;i++){
+      o+='<span class="h-1.5 w-1.5 rounded-full" style="background:'+(i<=n?QC[n]:'#2A2A31')+'"></span>';
+    }
+    o+='</span><span class="font-mono text-[11px]" style="color:'+QC[n]+'">'+n+'/5 '+QL[n]+'</span></span>';
+    return o;
   }
-  function pintaAviso(){
-    if(!ultimo||!ultimo.ok){
-      boton.disabled=true;
-      aviso.textContent=t('noDisp');
-      aviso.classList.add('agotado');
+  function chip(txt,tono,extra,sm){
+    var c={ok:'border-q5/30 bg-q5/10 text-q5',
+           bad:'border-q1/40 bg-q1/10 text-q1',
+           warn:'border-q2/30 bg-q2/10 text-q2',
+           mute:'border-line/70 bg-raised text-zinc-500',
+           accent:'border-accent/30 bg-accent/10 text-accentsoft'}[tono]||'';
+    /* sm = la version compacta que usa la columna de estado. Se cambia el
+       tamano aqui y no con clases sueltas porque dos utilidades del mismo
+       grupo (px-2 y px-1.5) se pisan en un orden que Tailwind decide. */
+    var d=sm?'gap-1 rounded-md px-1.5 py-px text-[10px]':'gap-1.5 rounded-lg px-2 py-0.5 text-[11px]';
+    return '<span class="inline-flex items-center border font-medium '+d+' '+
+      c+' '+(extra||'')+'">'+txt+'</span>';
+  }
+  function idbtn(id){
+    return '<button type="button" data-id="'+id+'" title="'+esc(id)+'" '+
+      'class="rounded-lg border border-line/70 bg-raised px-2 py-0.5 font-mono text-[11px] text-zinc-500 '+
+      'transition-all duration-200 hover:border-accent/50 hover:text-accentsoft">'+id.slice(-6)+'</button>';
+  }
+  function titulo(tit,id){
+    return '<a href="'+BASE+'/admin/tracks/'+id+'" target="_blank" rel="noopener" '+
+      'class="font-medium text-[14.5px] text-zinc-100 transition-colors duration-200 hover:text-accentsoft">'+esc(tit)+'</a>';
+  }
+
+  /* ── filas por vista ── */
+  function fila(r){
+    var acc='', meta='';
+    /* Sin etiqueta de estado en la fila: la seccion en la que esta ya lo dice,
+       y repetirlo en cada linea solo quita sitio al titulo. */
+    if(vista==='cal'){
+      acc=estrellas(r[3])+idbtn(r[2]);
+      if(r[4]===1) meta=chip(t('archivada'),'mute');
+    }else if(vista==='linea'){
+      if(r[5]>0) acc+=chip(r[5]===1?t('vuelta'):t('vueltas',{n:r[5]}),'mute');
+      if(r[9]) acc+=estrellas(r[9]);
+      acc+=idbtn(r[2]);
+      if(r[6]) meta='<span class="font-mono text-[11px] text-zinc-600">'+esc(fechaHora(r[6]))+'</span>';
+    }else{
+      var suena=r[4]===1;
+      acc=chip(suena?t('suena'):(r[6]===1?t('cero'):t('karaoke')), suena?'ok':(r[6]===1?'warn':'mute'));
+      acc+=idbtn(r[2]);
+      if(suena) acc+='<a href="'+BASE+'/admin/api/cross-clear/migration/songs/'+r[3]+'/audio" target="_blank" rel="noopener" '+
+        'class="rounded-lg border border-line/70 bg-raised px-2 py-0.5 text-[11px] font-medium text-zinc-400 '+
+        'transition-all duration-200 hover:border-accent/50 hover:text-accentsoft">'+t('oir')+'</a>';
+    }
+    var motivo = (vista==='linea' && r[7])
+      /* El motivo lo escribe el agente en español; si el parte trae ademas la
+         version inglesa (indice 11) se usa esa cuando el panel esta en EN. */
+      ? '<p class="mt-2 text-[12.5px] leading-relaxed max-w-[80ch]" style="color:#CDB765">'+
+        esc((L==='en'&&r[11])?r[11]:r[7])+'</p>' : '';
+    return '<div class="group rounded-xl border border-transparent px-3 py-2.5 transition-all duration-200 '+
+      'hover:border-line/60 hover:bg-raised">'+
+      '<div class="flex flex-wrap items-center gap-x-3 gap-y-2">'+
+      '<div class="min-w-0 flex-1 flex flex-wrap items-center gap-x-2.5 gap-y-1">'+titulo(r[0],r[2])+meta+'</div>'+
+      '<div class="flex flex-wrap items-center gap-2">'+acc+'</div></div>'+motivo+'</div>';
+  }
+  function fechaHora(iso){
+    var d=new Date(/[Zz]$/.test(iso)?iso:iso+'Z');
+    if(isNaN(d)) return '';
+    return new Intl.DateTimeFormat(T[L].loc,{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}).format(d);
+  }
+  function colorPaso(e){
+    return {parada:'#E11D48',correccion:'#F97316',revision:'#EAB308',carry:'#7C3AED',
+            traduccion:'#84CC16',cola:'#A1A1AA',sinorig:'#52525B',hecha:'#22C55E'}[e]||'#52525B';
+  }
+
+  /* ── agrupar ── */
+  var abierto={};
+  function fuente(){return D[vista]||[];}
+  function filtra(){
+    var s=q.trim().toLowerCase();
+    if(!s) return fuente();
+    return fuente().filter(function(r){
+      return (r[0]+' '+r[1]).toLowerCase().indexOf(s)>-1;
+    });
+  }
+  function agrupa(filas){
+    if(vista==='linea'){
+      var orden=['parada'].concat(PASOS), bolsa={};
+      orden.forEach(function(e){bolsa[e]=[];});
+      filas.forEach(function(r){(bolsa[r[4]]||bolsa.cola).push(r);});
+      return orden.filter(function(e){return bolsa[e].length;})
+        .map(function(e){return {clave:e,nombre:t('e_'+e),color:colorPaso(e),filas:bolsa[e]};});
+    }
+    if(vista==='cal'){
+      /* Dos bloques: calificada a secas, y calificada + bloqueada (el candado
+         lo pone una persona cuando da la canción por cerrada). */
+      var sol=[], amb=[];
+      filas.forEach(function(r){ (r[5]?amb:sol).push(r); });
+      /* De mejor a peor nota: lo bueno arriba, y dentro de cada nota por titulo. */
+      var porNota=function(a,b){return (b[3]||0)-(a[3]||0) || a[0].localeCompare(b[0],'es');};
+      sol.sort(porNota); amb.sort(porNota);
+      return [{clave:'rate',nombre:t('gRate'),color:'#EAB308',filas:sol},
+              {clave:'lock',nombre:t('gLock'),color:'#22C55E',filas:amb}]
+        .filter(function(g){return g.filas.length;});
+    }
+    var m=new Map();
+    filas.forEach(function(r){ if(!m.has(r[1])) m.set(r[1],[]); m.get(r[1]).push(r); });
+    return Array.from(m.entries()).sort(function(a,b){return a[0].localeCompare(b[0],'es');})
+      .map(function(p){return {clave:p[0],nombre:p[0],color:null,filas:p[1]};});
+  }
+
+  /* ── pintar ── */
+  function pinta(){
+    var filas=filtra(), grupos=agrupa(filas), lista=document.getElementById('x-lista');
+    document.getElementById('x-cuenta').textContent=
+      nf.format(filas.length)+' '+(filas.length===1?t('cancion'):t('canciones'));
+
+    if(!grupos.length){
+      lista.innerHTML='<div class="rounded-2xl border border-line/60 bg-surface p-8 text-center text-[14px] text-zinc-500">'+t('nada')+'</div>';
+      document.getElementById('x-idx').innerHTML='';
       return;
     }
+    var muestra=grupos.slice(0,tope);
+    /* Carry y calificadas se pliegan: son pocas secciones y muy largas. Los
+       artistas no, porque son cientos de bloques de dos o tres canciones. */
+    var plegable=(vista==='linea'||vista==='cal');
+    lista.innerHTML=muestra.map(function(g,i){
+      /* Cada sección se viste de su color: el punto, el nombre y el borde de la
+         tarjeta. Los grupos por artista no tienen color y se quedan neutros. */
+      var c=g.color;
+      var punto=c?'<span class="h-2 w-2 shrink-0 rounded-full" style="background:'+c+'"></span>':'';
+      var cab='<span class="font-display font-semibold tracking-tight text-[15px]'+(c?'':' text-zinc-200')+'"'+
+              (c?' style="color:'+c+'"':'')+'>'+esc(g.nombre)+'</span>'+
+              '<span class="font-mono text-[11.5px] text-zinc-600">'+nf.format(g.filas.length)+'</span>';
+      var caja='class="scroll-mt-24 mb-4 rounded-2xl border bg-surface p-4 sm:p-5 shadow-sm '+
+               'transition-all duration-200 '+(c?'':'border-line/60 hover:border-line')+'"'+
+               (c?' style="border-color:'+c+'59"':'')+'>';
+      if(!plegable)
+        return '<section id="g'+i+'" data-clave="'+esc(g.clave)+'" '+caja+
+          '<h3 class="mb-2 flex items-center gap-2.5 px-1">'+punto+cab+'</h3>'+
+          g.filas.map(fila).join('')+'</section>';
+      /* Las secciones muy largas arrancan plegadas para que la página no abra
+         con dos mil filas de golpe. */
+      var abre=abierto[g.clave]!==undefined?abierto[g.clave]:(g.filas.length<=150);
+      return '<details id="g'+i+'" data-clave="'+esc(g.clave)+'" '+(abre?'open ':'')+caja+
+        '<summary class="-mx-1 flex cursor-pointer list-none items-center gap-2.5 rounded-xl px-1 py-1 '+
+        'transition-colors duration-200 hover:bg-raised/60">'+
+        '<svg class="chevron h-3.5 w-3.5 shrink-0 transition-transform duration-200" '+
+        'style="color:'+(c||'#71717A')+'" viewBox="0 0 24 24" fill="none" stroke="currentColor" '+
+        'stroke-width="2.5" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>'+punto+cab+'</summary>'+
+        '<div class="mt-2">'+g.filas.map(fila).join('')+'</div></details>';
+    }).join('')+(grupos.length>tope
+      ? '<button id="x-mas" class="w-full rounded-2xl border border-line/60 bg-surface px-4 py-3.5 text-[13.5px] '+
+        'font-medium text-zinc-400 transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/50 '+
+        'hover:text-white hover:shadow-lg hover:shadow-accent/10">'+t('mas',{n:nf.format(grupos.length-tope)})+'</button>'
+      : '');
+
+    var mas=document.getElementById('x-mas');
+    if(mas) mas.addEventListener('click',function(){tope+=40;pinta();});
+
+    document.getElementById('x-idx').innerHTML=muestra.map(function(g,i){
+      var punto=g.color?'<span class="h-1.5 w-1.5 shrink-0 rounded-full" style="background:'+g.color+'"></span>':'';
+      return '<li><button data-i="'+i+'" class="flex w-full items-center gap-2 rounded-lg px-2 py-1.5 text-left '+
+        'text-[12.5px] text-zinc-400 transition-colors duration-200 hover:bg-raised hover:text-zinc-100">'+punto+
+        '<span class="truncate">'+esc(g.nombre)+'</span>'+
+        '<span class="ml-auto font-mono text-[11px] text-zinc-600">'+g.filas.length+'</span></button></li>';
+    }).join('');
+  }
+
+  /* ── cabecera, cifras, riel ── */
+  function cifras(){
+    var c=[['kSin','kSinPie',M.total,'text-zinc-50','rgba(255,255,255,.10)'],
+           ['kCon','kConPie',M.con,'text-q5','rgba(34,197,94,.14)'],
+           ['kNo','kNoPie',M.sin,'text-zinc-50','rgba(255,255,255,.10)'],
+           ['kCal','kCalPie',M.calificadas,'text-accentsoft','rgba(124,58,237,.18)']];
+    document.getElementById('x-cifras').innerHTML=c.map(function(x){
+      return '<div class="relative overflow-hidden rounded-2xl border border-white/10 '+
+        'bg-gradient-to-b from-white/[0.09] via-white/[0.035] to-white/[0.015] p-5 sm:p-6 '+
+        'shadow-lg shadow-black/40 backdrop-blur-xl">'+
+        '<span class="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/45 to-transparent"></span>'+
+        '<span class="pointer-events-none absolute -right-8 -top-14 h-28 w-28 rounded-full blur-2xl opacity-80" '+
+        'style="background:'+x[4]+'"></span>'+
+        '<span class="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/[0.06]"></span>'+
+        '<div class="relative font-display font-semibold tracking-tight text-[30px] leading-none '+x[3]+'" '+
+        'style="font-variant-numeric:tabular-nums">'+nf.format(x[2])+'</div>'+
+        '<div class="relative mt-2.5 text-[13px] font-medium text-zinc-200">'+t(x[0])+'</div>'+
+        '<div class="relative mt-0.5 text-[12px] text-zinc-400">'+t(x[1])+'</div></div>';
+    }).join('');
+  }
+
+  /* Una sola receta para las tres barras apiladas: el mismo brillo, el mismo
+     sitio para el porcentaje y la misma leyenda debajo. */
+  function pct1(v,tot){return Math.round(v/(tot||1)*1000)/10;}
+  var OSCURO={'#EAB308':1,'#84CC16':1,'#22C55E':1,'#A1A1AA':1,'#F97316':1};
+  function barraApilada(dst,leyenda,seg,tot,minTxt){
+    minTxt=minTxt||6;
+    document.getElementById(dst).innerHTML=seg.filter(function(s){return s.n>0;}).map(function(s){
+      var p=s.n/tot*100;
+      return '<div class="relative grid place-items-center overflow-hidden transition-all duration-700" '+
+        'style="width:'+p+'%;background:'+s.color+'" title="'+esc(s.label)+': '+nf.format(s.n)+'">'+
+        '<span class="pointer-events-none absolute inset-x-0 top-0 h-1/2 bg-gradient-to-b from-white/25 to-transparent"></span>'+
+        (p>=minTxt?'<span class="relative font-mono text-[11.5px] font-medium" style="color:'+
+          (OSCURO[s.color]?'#0A0A0B':'#FFFFFF')+'">'+nf.format(pct1(s.n,tot))+'%</span>':'')+
+        '</div>';
+    }).join('');
+    document.getElementById(leyenda).innerHTML=seg.map(function(s){
+      var apagado=!s.n;
+      return '<span class="inline-flex items-center gap-2 text-[12.5px] '+(apagado?'text-zinc-600':'text-zinc-400')+'">'+
+        '<span class="h-2.5 w-2.5 rounded-[4px]" style="background:'+s.color+';opacity:'+(apagado?.35:1)+'"></span>'+
+        esc(s.label)+
+        '<span class="font-mono text-[11.5px] '+(apagado?'text-zinc-700':'text-zinc-500')+'">'+
+        nf.format(s.n)+' · '+nf.format(pct1(s.n,tot))+'%</span></span>';
+    }).join('');
+  }
+
+  function reparto(){
+    var tot=M.censo||((M.con||0)+(M.sin||0)+(M.calificadas||0))||1;
+    barraApilada('x-reparto','x-reparto-leyenda',[
+      {label:t('rCon'),n:M.con||0,color:'#22C55E'},
+      {label:t('rNo'), n:M.sin||0,color:'#71717A'},
+      {label:t('rCal'),n:M.calificadas||0,color:'#7C3AED'}
+    ],tot);
+  }
+
+  function riel(){
+    var cu=LIN.cuenta||{};
+    document.getElementById('x-linea-tit').textContent=t('lineaTit');
+    document.getElementById('x-linea-sub').textContent=t('lineaSub',{n:nf.format(LIN.total||0)});
+    document.getElementById('x-linea-sello').textContent=LIN.generado?t('lineaSello',{fecha:fecha(LIN.generado)}):'';
+
+    var par=cu.parada||0, box=document.getElementById('x-parada');
+    box.hidden=!par;
+    if(par) document.getElementById('x-parada-txt').textContent=
+      (par===1?t('paradaTxt',{n:par}):t('paradasTxt',{n:nf.format(par)}));
+
+    var orden=['parada'].concat(PASOS), totL=0;
+    orden.forEach(function(e){totL+=(cu[e]||0);});
+    barraApilada('x-linea-barra','x-linea-leyenda',orden.map(function(e){
+      return {label:t('e_'+e),n:cu[e]||0,color:colorPaso(e)};
+    }),totL||1,5);
+
+    var max=Math.max.apply(null,PASOS.map(function(e){return cu[e]||0;}))||1;
+    document.getElementById('x-rail').innerHTML=PASOS.map(function(e,i){
+      var n=cu[e]||0, w=Math.max(3,Math.round((n/max)*100));
+      return '<li><button type="button" data-paso="'+e+'"'+(n?'':' disabled')+
+        ' class="w-full text-left rounded-xl border border-line/60 bg-surface p-4 transition-all duration-200 '+
+        (n?'cursor-pointer hover:-translate-y-0.5 hover:border-accent/50 hover:bg-raised hover:shadow-lg hover:shadow-accent/10'
+          :'cursor-default opacity-60')+'">'+
+        '<div class="flex items-center gap-2">'+
+        '<span class="h-1.5 w-1.5 rounded-full" style="background:'+colorPaso(e)+';opacity:'+(n?1:.3)+'"></span>'+
+        '<span class="font-mono text-[10px] text-zinc-600">'+(i+1)+'</span></div>'+
+        '<div class="mt-2 font-display font-semibold tracking-tight text-[22px] leading-none '+
+        (n?'text-zinc-100':'text-zinc-700')+'" style="font-variant-numeric:tabular-nums">'+nf.format(n)+'</div>'+
+        '<div class="mt-1.5 text-[12px] '+(n?'text-zinc-400':'text-zinc-600')+'">'+t('e_'+e)+'</div>'+
+        '<div class="mt-2.5 h-0.5 w-full rounded-full bg-line/60 overflow-hidden">'+
+        '<div class="h-full rounded-full transition-all duration-700" style="width:'+(n?w:0)+'%;background:'+colorPaso(e)+'"></div>'+
+        '</div></button></li>';
+    }).join('');
+  }
+
+  function calidad(){
+    document.getElementById('x-cal-tit').textContent=t('calTit');
+    var tot=M.calificadas||1;
+    barraApilada('x-cal-barra','x-cal-leyenda',[1,2,3,4,5].map(function(n){
+      return {label:n+'/5 '+QL[n],n:(M.q||{})[n]||0,color:QC[n]};
+    }),tot,5);
+  }
+
+  function tabs(){
+    var defs=[['con','tCon',M.con],['sin','tSin',M.sin],['linea','tLin',LIN.total||0],['cal','tCal',M.calificadas]];
+    document.getElementById('x-tabs').innerHTML=defs.map(function(d){
+      var on=d[0]===vista;
+      return '<button role="tab" data-g="'+d[0]+'" aria-selected="'+on+'" '+
+        'class="flex items-center gap-2 rounded-xl px-3.5 py-2 text-[13px] font-medium transition-all duration-200 '+
+        (on?'bg-accent text-white shadow-md shadow-accent/20':'text-zinc-400 hover:bg-raised hover:text-zinc-100')+'">'+
+        t(d[1])+'<span class="font-mono text-[11px] '+(on?'text-white/70':'text-zinc-600')+'">'+nf.format(d[2])+'</span></button>';
+    }).join('');
+  }
+
+  function cabecera(){
+    nf=new Intl.NumberFormat(T[L].loc);
+    document.documentElement.lang=L;
+    document.getElementById('x-eyebrow').textContent=t('eyebrow');
+    document.getElementById('x-propuesta').textContent=t('propuesta',{fecha:fecha(M.iso)});
+    document.getElementById('x-h1').textContent=t('h1');
+    document.getElementById('x-tesis').textContent=t('tesis',{pend:nf.format(M.total),cal:nf.format(M.calificadas)});
+    document.getElementById('x-sub').textContent=t('sub');
+    document.getElementById('x-refrescar').textContent=t('btn');
+    pintaAviso();
+    document.getElementById('x-q').placeholder=t('buscar');
+    document.getElementById('x-q').setAttribute('aria-label',t('buscar'));
+    document.getElementById('x-indice-tit').textContent=t(vista==='linea'?'pasos':'artistas');
+    Array.prototype.forEach.call(document.querySelectorAll('#x-langs button'),function(b){
+      var on=b.dataset.l===L;
+      b.className='px-2.5 py-1 rounded-lg text-[12px] font-medium transition-all duration-200 '+
+        (on?'bg-accent text-white':'text-zinc-500 hover:text-zinc-200');
+      b.setAttribute('aria-pressed',String(on));
+    });
+  }
+
+  function todo(){
+    cabecera(); cifras(); reparto(); tabs(); riel(); calidad();
+    var lin=(vista==='linea');
+    document.getElementById('x-linea').hidden=!lin;
+    document.getElementById('x-calidad').hidden=(vista!=='cal');
+    /* En Carry el índice sobra: la tira de pasos ya lleva a cada bloque. */
+    document.getElementById('x-indice-caja').className=lin?'hidden':'hidden md:block';
+    document.getElementById('x-rejilla').className='mt-6 grid gap-5 lg:gap-6'+
+      (lin?'':' md:grid-cols-[210px_minmax(0,1fr)]');
+    pinta();
+  }
+
+  /* ── eventos ── */
+  document.getElementById('x-tabs').addEventListener('click',function(e){
+    var b=e.target.closest('button[data-g]'); if(!b) return;
+    vista=b.dataset.g; tope=40; todo();
+    document.getElementById('x-lista').classList.add('fade-in');
+    setTimeout(function(){document.getElementById('x-lista').classList.remove('fade-in');},420);
+  });
+  document.getElementById('x-langs').addEventListener('click',function(e){
+    var b=e.target.closest('button[data-l]'); if(!b) return;
+    L=b.dataset.l;
+    try{ localStorage.setItem('covers-es-idioma',L); }catch(err){}
+    todo();
+  });
+  /* Lo que el usuario pliega o despliega se recuerda mientras dure la visita. */
+  document.getElementById('x-lista').addEventListener('toggle',function(e){
+    var d=e.target; if(d.tagName==='DETAILS'&&d.dataset.clave) abierto[d.dataset.clave]=d.open;
+  },true);
+  var deb; document.getElementById('x-q').addEventListener('input',function(e){
+    clearTimeout(deb); var v=e.target.value;
+    deb=setTimeout(function(){q=v; tope=40; pinta();},120);
+  });
+  document.getElementById('x-idx').addEventListener('click',function(e){
+    var b=e.target.closest('button[data-i]'); if(!b) return;
+    lleva(document.getElementById('g'+b.dataset.i));
+  });
+  /* La tira de pasos lleva a su bloque de la lista, igual que el índice. */
+  document.getElementById('x-rail').addEventListener('click',function(e){
+    var b=e.target.closest('button[data-paso]'); if(!b||b.disabled) return;
+    lleva(document.querySelector('#x-lista [data-clave="'+b.dataset.paso+'"]'));
+  });
+  function lleva(s){
+    if(!s) return;
+    if(s.tagName==='DETAILS'&&!s.open){ s.open=true; abierto[s.dataset.clave]=true; }
+    s.scrollIntoView({behavior:'smooth',block:'start'});
+    s.animate([{boxShadow:'0 0 0 0 rgba(124,58,237,.55)'},{boxShadow:'0 0 0 6px rgba(124,58,237,0)'}],
+      {duration:800,easing:'ease-out'});
+  }
+  document.getElementById('x-lista').addEventListener('click',function(e){
+    var b=e.target.closest('button[data-id]'); if(!b) return;
+    var id=b.dataset.id;
+    if(navigator.clipboard) navigator.clipboard.writeText(id).then(function(){avisa(t('copiado')+' · '+id.slice(-6));});
+  });
+
+  /* ---- Botón de actualizar a mano -------------------------------------
+     El tope diario lo pone el servidor (functions/api/refrescar.js); aquí solo
+     se enseña lo que queda y se sigue el progreso. Fuera del panel real no hay
+     /api/estado: entonces el botón se queda en modo maqueta y no llama a nada,
+     para no gastar ninguno de los intentos que comparten los usuarios. */
+  var bot=document.getElementById('x-refrescar'),
+      avi=document.getElementById('x-aviso'),
+      caja=document.getElementById('x-progreso'),
+      ptxt=document.getElementById('x-progreso-texto'),
+      prel=document.getElementById('x-progreso-reloj'),
+      pbar=document.getElementById('x-progreso-relleno');
+  var media=600, arranque=null, fase='parado', tic=null, sonda=null, espera=0,
+      ultimo=null, maqueta=false, sondeado=false;
+
+  function mmss(sg){sg=Math.max(0,Math.round(sg));
+    return Math.floor(sg/60)+':'+String(sg%60).padStart(2,'0');}
+  function comoDe(sg){var m=Math.round(sg/60); return m<=1?t('unMin'):t('variosMin',{m:m});}
+
+  function pintaAviso(){
+    /* Hasta que la sonda conteste no se sabe si hay cupo: mejor callado que
+       enseñar un aviso rojo que se desmiente medio segundo despues. */
+    if(!sondeado){ bot.disabled=true; avi.textContent=''; return; }
+    if(maqueta){ bot.disabled=false; avi.textContent=t('previa');
+                 avi.className='pt-2.5 text-right text-[11.5px] leading-relaxed text-zinc-500'; return; }
+    if(!ultimo||!ultimo.ok){ bot.disabled=true; avi.textContent=t('noDisp');
+                 avi.className='pt-2.5 text-right text-[11.5px] leading-relaxed text-q2'; return; }
     var hay=ultimo.restantes>0;
-    boton.disabled=!hay||fase!=='parado';
-    aviso.textContent=hay
-      ? t('quedan',{n:ultimo.restantes,t:ultimo.tope,tiempo:comoDe(media)})
-      : t('agotado',{t:ultimo.tope});
-    aviso.classList.toggle('agotado',!hay);
+    bot.disabled=!hay||fase!=='parado';
+    avi.textContent=hay?t('quedan',{n:ultimo.restantes,t:ultimo.tope,tiempo:comoDe(media)})
+                       :t('agotado',{t:ultimo.tope});
+    avi.className='pt-2.5 text-right text-[11.5px] leading-relaxed '+(hay?'text-zinc-500':'text-q2');
   }
   function leerEstado(){
-    return fetch('/api/estado',{cache:'no-store'}).then(function(r){return r.json();});
+    return fetch('/api/estado',{cache:'no-store'}).then(function(r){
+      if(!r.ok) throw 0; return r.json();
+    });
   }
-  function arrancarVista(clave){
-    caja.hidden=false;
-    caja.classList.remove('listo');
-    ptexto.textContent=t(clave);
-    ptexto.dataset.k=clave;
-    boton.disabled=true;
+  function arrancarVista(k){
+    caja.hidden=false; ptxt.textContent=t(k); ptxt.dataset.k=k; bot.disabled=true;
     if(tic) return;
     tic=setInterval(function(){
-      var seg=arranque?(Date.now()-arranque)/1000:0;
-      preloj.textContent=mmss(seg)+' '+t('de')+' ~'+mmss(media);
-      prelleno.style.width=Math.min(97,(seg/media)*100)+'%';
+      var sg=arranque?(Date.now()-arranque)/1000:0;
+      prel.textContent=mmss(sg)+' '+t('de')+' ~'+mmss(media);
+      pbar.style.width=Math.min(97,(sg/media)*100)+'%';
     },1000);
   }
   function terminar(){
     clearInterval(tic); clearInterval(sonda); tic=null; sonda=null;
-    caja.classList.add('listo');
-    prelleno.style.width='100%';
-    ptexto.textContent=t('listo'); ptexto.dataset.k='listo';
+    pbar.style.width='100%';
+    ptxt.textContent=t('listo'); ptxt.dataset.k='listo';
     setTimeout(function(){location.reload();},1200);
   }
   function vigilar(){
@@ -436,17 +726,16 @@ input[type="search"]::placeholder{color:var(--ink-3)}
         if(d.corriendo){
           fase='corriendo';
           if(d.arranque) arranque=new Date(d.arranque).getTime();
-          var k=ptexto.dataset.k==='enMarcha'?'enMarcha':'actualizando';
-          ptexto.textContent=t(k); ptexto.dataset.k=k;
-          return;
+          var k=ptxt.dataset.k==='enMarcha'?'enMarcha':'actualizando';
+          ptxt.textContent=t(k); ptxt.dataset.k=k; return;
         }
         if(fase==='corriendo'){ terminar(); return; }
-        espera+=1;
-        if(espera>8) terminar();
-      });
+        espera+=1; if(espera>8) terminar();
+      }).catch(function(){});
     },8000);
   }
-  boton.addEventListener('click',function(){
+  bot.addEventListener('click',function(){
+    if(maqueta){ avisa(t('previaClic')); return; }
     arranque=Date.now(); fase='lanzando'; espera=0;
     arrancarVista('pidiendo');
     fetch('/api/refrescar',{method:'POST'})
@@ -454,290 +743,28 @@ input[type="search"]::placeholder{color:var(--ink-3)}
       .then(function(d){
         if(d&&d.ok){ ultimo=d; vigilar(); return; }
         if(d&&d.motivo==='ya-corriendo'){
-          ptexto.textContent=t('yaCorriendo'); ptexto.dataset.k='yaCorriendo';
-          vigilar(); return;
+          ptxt.textContent=t('yaCorriendo'); ptxt.dataset.k='yaCorriendo'; vigilar(); return;
         }
-        clearInterval(tic); tic=null; caja.hidden=true; fase='parado';
-        boton.disabled=true;
-        aviso.textContent=d&&d.motivo==='tope'?t('agotado',{t:5}):t('noArranca');
-        aviso.classList.add('agotado');
+        clearInterval(tic); tic=null; caja.hidden=true; fase='parado'; bot.disabled=true;
+        avi.textContent=d&&d.motivo==='tope'?t('agotado',{t:5}):t('noArranca');
+        avi.className='pt-2.5 text-right text-[11.5px] leading-relaxed text-q2';
       })
       .catch(function(){
         clearInterval(tic); tic=null; caja.hidden=true; fase='parado';
-        aviso.textContent=t('noArranca'); aviso.classList.add('agotado');
+        avi.textContent=t('noArranca');
+        avi.className='pt-2.5 text-right text-[11.5px] leading-relaxed text-q2';
       });
   });
 
-  /* ---- Contenido -------------------------------------------------------- */
-  var QLBL={1:'Poor',2:'Weak',3:'Acceptable',4:'Good',5:'Excellent'};
-  /* Los pasos de la linea ES, en el orden en que se ensenan: lo que requiere
-     que alguien haga algo (parada) va primero y lo terminado al final. */
-  var ESTADOS=['parada','correccion','revision','carry','traduccion','cola','sinorig','hecha'];
-  var LIN=M.linea||{total:0,cuenta:{},generado:null,fallo:null};
-  function cuando(iso){
-    if(!iso) return '';
-    var v=String(iso);
-    if(v.length>10 && !/[Zz]|[+-]\d\d:?\d\d$/.test(v)){ v+='Z'; }
-    var d=new Date(v.length<=10?v+'T12:00:00Z':v);
-    if(isNaN(d.getTime())) return '';
-    return new Intl.DateTimeFormat(TXT[L].loc,
-      {day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}).format(d);
-  }
-  function vueltasTxt(n){ return n===1?t('vueltas1'):t('vueltasN',{n:n}); }
-  var estado={g:'con',q:''};
-  var lista=document.getElementById('lista'), idx=document.getElementById('idx'),
-      cuenta=document.getElementById('cuenta'), sub=document.getElementById('subreparto');
-  var grupos=[], pintados=0, io=null;
+  todo();
 
-  function cabeceras(){
-    document.documentElement.lang=L;
-    document.title=t('titulo');
-    document.getElementById('eyebrow').textContent=t('eyebrow',{fecha:fecha()});
-    document.getElementById('h1').textContent=t('h1');
-    document.getElementById('pie').innerHTML=t('pie');
-    document.getElementById('h-artistas').textContent=t('artistas');
-    document.getElementById('indice').setAttribute('aria-label',t('indiceAria'));
-    document.getElementById('tablist').setAttribute('aria-label',t('grupoAria'));
-    var q=document.getElementById('q');
-    q.placeholder=t('buscar'); q.setAttribute('aria-label',t('buscar'));
-    boton.textContent=t('btn');
-    document.querySelector('#tab-con b').textContent=t('tabCon');
-    document.querySelector('#tab-sin b').textContent=t('tabSin');
-    document.querySelector('#tab-linea b').textContent=t('tabLinea');
-    document.querySelector('#tab-cal b').textContent=t('tabCal');
-    document.querySelector('#tab-con span').textContent=nf.format(M.con);
-    document.querySelector('#tab-sin span').textContent=nf.format(M.sin);
-    document.querySelector('#tab-linea span').textContent=nf.format(LIN.total||0);
-    document.querySelector('#tab-cal span').textContent=nf.format(M.cal);
-    if(ptexto.dataset.k){ ptexto.textContent=t(ptexto.dataset.k); }
-  }
-
-  function cifras(){
-    document.getElementById('cifras').innerHTML=[
-      [t('cSin'),M.total,''],
-      [t('cCon'),M.con,'is-ok'],
-      [t('cNo'),M.sin,''],
-      [t('cMudas'),M.mudas,'is-warn'],
-      [t('cCal'),M.calificadas,'']
-    ].map(function(c){
-      return '<div class="cifra '+c[2]+'"><div class="n">'+nf.format(c[1])+'</div><div class="l">'+c[0]+'</div></div>';
-    }).join('');
-  }
-
-  function barras(){
-    var partes=[['s-con',t('cCon'),M.con],['s-sin',t('cNo'),M.sin],['s-cal',t('cCal'),M.cal]];
-    var suma=partes.reduce(function(a,p){return a+p[2];},0)||1;
-    function pct(n){return Math.round(n/suma*1000)/10;}
-    document.getElementById('reparto').innerHTML=
-      '<div class="pista">'+partes.map(function(p){
-        var v=pct(p[2]);
-        return '<div class="seg '+p[0]+'" style="width:'+v+'%" title="'+esc(p[1])+': '+nf.format(p[2])+' ('+v+'%)">'+(v>=6?v+'%':'')+'</div>';
-      }).join('')+'</div>'+
-      '<div class="leyenda">'+partes.map(function(p){
-        return '<span><i class="'+p[0]+'"></i>'+esc(p[1])+' · '+nf.format(p[2])+' · '+pct(p[2])+'%</span>';
-      }).join('')+'</div>';
-
-  }
-
-  /* La barra de debajo cambia segun la pestana: calidad en "ya calificadas",
-     reparto por pasos en la linea ES, y nada en las demas. */
-  function subBarra(){
-    sub.hidden=!(estado.g==='cal'||estado.g==='linea');
-    if(sub.hidden) return;
-    if(estado.g==='linea'){
-      var tl=LIN.total||0;
-      if(!tl){
-        sub.innerHTML='<p class="parte-vacio">'+t(LIN.fallo?'lineaRota':'lineaVacia')+'</p>';
-        return;
-      }
-      var C=LIN.cuenta||{};
-      var ns=ESTADOS.map(function(e){return {e:e,v:C[e]||0};});
-      var p3=function(v){return Math.round(v/tl*1000)/10;};
-      var sello=LIN.generado?' · '+t('lineaParte',{fecha:cuando(LIN.generado)}):'';
-      sub.innerHTML='<div class="titulo">'+esc(t('lineaTitulo',{n:nf.format(tl)})+sello)+'</div>'+
-        '<div class="pista">'+ns.filter(function(x){return x.v;}).map(function(x){
-          var v=p3(x.v);
-          return '<div class="seg c-'+x.e+'" style="width:'+v+'%" title="'+esc(t('e_'+x.e))+': '+nf.format(x.v)+'">'+(v>=7?v+'%':'')+'</div>';
-        }).join('')+'</div>'+
-        '<div class="leyenda">'+ns.map(function(x){
-          return '<span><i class="c-'+x.e+'"></i>'+esc(t('e_'+x.e))+' · '+nf.format(x.v)+'</span>';
-        }).join('')+'</div>';
-      return;
-    }
-    var tot=M.cal||1;
-    var niveles=[1,2,3,4,5].map(function(n){return {n:n,v:M.q[String(n)]||0};});
-    function p2(v){return Math.round(v/tot*1000)/10;}
-    sub.innerHTML='<div class="titulo">'+t('calidad',{n:nf.format(M.cal)})+'</div>'+
-      '<div class="pista">'+niveles.filter(function(x){return x.v;}).map(function(x){
-        var v=p2(x.v);
-        return '<div class="seg qs'+x.n+'" style="width:'+v+'%" title="'+x.n+'/5 '+QLBL[x.n]+': '+nf.format(x.v)+' ('+v+'%)">'+(v>=7?v+'%':'')+'</div>';
-      }).join('')+'</div>'+
-      '<div class="leyenda">'+niveles.map(function(x){
-        return '<span><i class="qs'+x.n+'"></i>'+x.n+'/5 '+QLBL[x.n]+' · '+nf.format(x.v)+' · '+p2(x.v)+'%</span>';
-      }).join('')+'</div>';
-  }
-
-  function estrellas(q){
-    var s='';
-    for(var i=1;i<=5;i++){s+=i<=q?'★':'<span class="off">★</span>';}
-    return '<span class="estrellas q'+q+'">'+s+'<span class="qlbl">'+q+'/5 '+QLBL[q]+'</span></span>';
-  }
-
-  function agrupa(){
-    var q=estado.q.toLowerCase().trim();
-    var filas=DATA[estado.g].filter(function(r){
-      return !q || r[0].toLowerCase().indexOf(q)>=0 || r[1].toLowerCase().indexOf(q)>=0;
-    });
-    var n=filas.length;
-    if(estado.g==='linea'){
-      /* Aqui lo util no es el artista sino en que paso va cada cancion, y las
-         paradas van arriba porque son las unicas que piden que alguien actue. */
-      var porPaso=new Map();
-      ESTADOS.forEach(function(e){porPaso.set(e,[]);});
-      filas.forEach(function(r){ (porPaso.get(r[4])||porPaso.get('cola')).push(r); });
-      grupos=ESTADOS.filter(function(e){return porPaso.get(e).length;})
-        .map(function(e){return {artista:t('e_'+e),clave:e,filas:porPaso.get(e)};});
-      var par=porPaso.get('parada').length;
-      cuenta.textContent=nf.format(n)+' '+(n===1?t('cancion'):t('canciones'))+
-        (par?' · '+nf.format(par)+' '+t('e_parada').toLowerCase():'');
-    }else{
-      var mapa=new Map();
-      filas.forEach(function(r){ if(!mapa.has(r[1])){mapa.set(r[1],[]);} mapa.get(r[1]).push(r); });
-      grupos=Array.from(mapa,function(e){return {artista:e[0],filas:e[1]};});
-      cuenta.textContent=nf.format(n)+' '+(n===1?t('cancion'):t('canciones'))+' · '+
-        nf.format(grupos.length)+' '+(grupos.length===1?t('artista'):t('artistasN'));
-    }
-    idx.innerHTML=grupos.length?grupos.map(function(g,i){
-      return '<li><button type="button" data-i="'+i+'">'+esc(g.artista)+' <em>'+g.filas.length+'</em></button></li>';
-    }).join(''):'<li class="vacio">'+t('sinCoincidencias')+'</li>';
-  }
-
-  function bloque(g,i){
-    if(estado.g==='linea'){
-      var flin=g.filas.map(function(r){
-        var ficha=r[2]?'<a href="'+BASE+'/admin/tracks/'+r[2]+'" target="_blank" rel="noopener">'+esc(r[0])+'</a>':esc(r[0]);
-        var audio=r[8]===1?'<span class="chip ok">'+t('suena')+'</span>'
-          :(r[8]===0?'<span class="chip mute">'+t('karaoke')+'</span>':'');
-        var motivo=r[7]?'<div class="motivo">'+esc(r[7])+'</div>':'';
-        return '<div class="fila"><div class="pos"></div>'+
-          '<div class="tit">'+ficha+'<span class="lote">'+esc(r[1])+'</span>'+
-          (r[6]?'<span class="lote">'+esc(cuando(r[6]))+'</span>':'')+'</div>'+
-          '<div class="acc"><span class="chip st"><i class="c-'+r[4]+'"></i>'+esc(t('e_'+r[4]))+'</span>'+
-          (r[5]>0?'<span class="chip mute">'+esc(vueltasTxt(r[5]))+'</span>':'')+
-          audio+(r[9]?estrellas(r[9]):'')+
-          (r[2]?'<button class="idbtn" type="button" data-id="'+r[2]+'" title="'+t('copiar')+'">'+r[2].slice(-6)+'</button>':'')+
-          '</div>'+motivo+'</div>';
-      }).join('');
-      return '<section class="grupo" id="g'+i+'"><h3><i class="punto c-'+g.clave+'"></i>'+
-        esc(g.artista)+' <em>'+g.filas.length+'</em></h3>'+flin+'</section>';
-    }
-    if(estado.g==='cal'){
-      var fcal=g.filas.map(function(r){
-        return '<div class="fila"><div class="pos"></div>'+
-          '<div class="tit"><a href="'+BASE+'/admin/tracks/'+r[2]+'" target="_blank" rel="noopener">'+esc(r[0])+'</a>'+
-          (r[4]===1?'<span class="lote">'+t('archivada')+'</span>':'')+'</div>'+
-          '<div class="acc">'+estrellas(r[3])+'<button class="idbtn" type="button" data-id="'+r[2]+'" title="'+t('copiar')+'">'+r[2].slice(-6)+'</button></div></div>';
-      }).join('');
-      return '<section class="grupo" id="g'+i+'"><h3>'+esc(g.artista)+' <em>'+g.filas.length+'</em></h3>'+fcal+'</section>';
-    }
-    var filas=g.filas.map(function(r){
-      var suena=r[4]===1, lote='L'+String(Math.ceil(r[5]/50));
-      if(lote.length<3){lote='L0'+lote.slice(1);}
-      var chip=suena?'<span class="chip ok">'+t('suena')+'</span>'
-        :(r[6]===1?'<span class="chip warn">0:00</span>':'<span class="chip mute">'+t('karaoke')+'</span>');
-      var oir=suena?'<a class="enl" href="'+BASE+'/admin/api/cross-clear/migration/songs/'+r[3]+'/audio" target="_blank" rel="noopener">'+t('oir')+'</a>':'';
-      return '<div class="fila"><div class="pos">'+r[5]+'</div>'+
-        '<div class="tit"><a href="'+BASE+'/admin/tracks/'+r[2]+'" target="_blank" rel="noopener">'+esc(r[0])+'</a>'+
-        '<span class="lote">'+lote+'</span></div>'+
-        '<div class="acc">'+chip+'<button class="idbtn" type="button" data-id="'+r[2]+'" title="'+t('copiar')+'">'+r[2].slice(-6)+'</button>'+oir+'</div></div>';
-    }).join('');
-    return '<section class="grupo" id="g'+i+'"><h3>'+esc(g.artista)+' <em>'+g.filas.length+'</em></h3>'+filas+'</section>';
-  }
-
-  /* La linea ES sin parte no es "no hay coincidencias": es que todavia no hay
-     nada de que informar, y eso ya lo explica el cartel de arriba. */
-  function lineaSinParte(){
-    return estado.g==='linea' && !((DATA.linea||[]).length);
-  }
-
-  function pinta(reset){
-    if(reset){lista.innerHTML='';pintados=0;if(io){io.disconnect();io=null;}}
-    if(!grupos.length){
-      lista.innerHTML=lineaSinParte()?'':'<p class="nada">'+t('nada')+'</p>';
-      return;
-    }
-    var hasta=Math.min(pintados+45,grupos.length), trozo='';
-    for(var i=pintados;i<hasta;i++){trozo+=bloque(grupos[i],i);}
-    var cent=document.getElementById('cent'); if(cent){cent.remove();}
-    lista.insertAdjacentHTML('beforeend',trozo);
-    pintados=hasta;
-    if(pintados<grupos.length){
-      lista.insertAdjacentHTML('beforeend','<div id="cent" style="height:1px"></div>');
-      if(!io){io=new IntersectionObserver(function(en){if(en[0].isIntersecting){pinta(false);}},{rootMargin:'700px'});}
-      io.observe(document.getElementById('cent'));
-    }
-  }
-
-  function refresca(){
-    var lin=estado.g==='linea';
-    document.getElementById('h-artistas').textContent=t(lin?'pasos':'artistas');
-    document.getElementById('indice').setAttribute('aria-label',t(lin?'pasosAria':'indiceAria'));
-    document.getElementById('indice').hidden=lineaSinParte();
-    subBarra();agrupa();pinta(true);
-  }
-
-  function aplicaIdioma(){
-    nf=new Intl.NumberFormat(TXT[L].loc);
-    document.querySelectorAll('.idioma').forEach(function(b){
-      b.setAttribute('aria-pressed',String(b.dataset.l===L));
-    });
-    cabeceras(); cifras(); barras(); pintaAviso(); refresca();
-  }
-
-  document.getElementById('idiomas').addEventListener('click',function(e){
-    var b=e.target.closest('.idioma'); if(!b||b.dataset.l===L){return;}
-    L=b.dataset.l;
-    try{ localStorage.setItem('covers-es-idioma',L); }catch(err){}
-    aplicaIdioma();
-  });
-
-  document.querySelectorAll('.tab').forEach(function(b){
-    b.addEventListener('click',function(){
-      document.querySelectorAll('.tab').forEach(function(o){o.setAttribute('aria-selected',String(o===b));});
-      estado.g=b.dataset.g;refresca();window.scrollTo(0,0);
-    });
-  });
-  var tmr;
-  document.getElementById('q').addEventListener('input',function(e){
-    clearTimeout(tmr);var v=e.target.value;tmr=setTimeout(function(){estado.q=v;refresca();},120);
-  });
-  idx.addEventListener('click',function(e){
-    var b=e.target.closest('button[data-i]'); if(!b){return;}
-    var i=+b.dataset.i;
-    while(pintados<=i && pintados<grupos.length){pinta(false);}
-    var el=document.getElementById('g'+i); if(el){el.scrollIntoView({behavior:'smooth',block:'start'});}
-  });
-  var tm;
-  lista.addEventListener('click',function(e){
-    var b=e.target.closest('.idbtn'); if(!b){return;}
-    var out=document.getElementById('toast');
-    function ok(){out.textContent=t('copiado')+b.dataset.id;out.classList.add('on');clearTimeout(tm);tm=setTimeout(function(){out.classList.remove('on');},1600);}
-    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(b.dataset.id).then(ok,function(){});}
-    else{var ta=document.createElement('textarea');ta.value=b.dataset.id;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');ok();}catch(err){}ta.remove();}
-  });
-
-  aviso.textContent=t('comprobando');
-  aplicaIdioma();
+  /* Una sola sonda al cargar: decide si esto es el panel real o la maqueta. */
   leerEstado().then(function(d){
-    ultimo=d; if(d&&d.ok){media=d.media||600;}
-    pintaAviso();
-    if(d&&d.ok&&d.corriendo){
-      arranque=d.arranque?new Date(d.arranque).getTime():Date.now();
-      fase='corriendo';
-      /* Nadie ha pulsado nada: solo estamos informando de una vuelta ajena. */
-      arrancarVista('enMarcha');
-      vigilar();
-    }
-  }).catch(function(){ ultimo=null; pintaAviso(); });
+    if(!d||!d.ok) throw 0;
+    ultimo=d; media=d.media||media;
+    sondeado=true; pintaAviso();
+    if(d.corriendo){ arranque=d.arranque?new Date(d.arranque).getTime():Date.now();
+                     fase='corriendo'; arrancarVista('enMarcha'); vigilar(); }
+  }).catch(function(){ maqueta=true; sondeado=true; pintaAviso(); });
 })();
 </script>

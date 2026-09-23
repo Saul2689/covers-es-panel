@@ -124,7 +124,8 @@ def fichas(api, canciones, log, hilos=12):
         fila = {'track': tid, 'song': c['_id'],
                 'title': (c.get('name') or '').strip() or '(sin titulo)',
                 'artist': (c.get('inStyleOf') or '').strip() or '(sin artista)',
-                'fullSong': bool(a.get('fullSong')), 'q': None, 'arch': None}
+                'fullSong': bool(a.get('fullSong')), 'q': None, 'arch': None,
+                'lock': False}
         d = api.json('/admin/api/tracks/%s' % tid)
         hechas[0] += 1
         if hechas[0] % 250 == 0:
@@ -134,6 +135,8 @@ def fichas(api, canciones, log, hilos=12):
         t = d.get('track') or {}
         cr = t.get('coverReview') or {}
         fila['q'] = cr.get('quality')
+        # El candado lo echa una persona cuando da la cancion por cerrada.
+        fila['lock'] = bool(cr.get('locked'))
         fila['arch'] = bool(t.get('isArchived'))
         if t.get('title'):
             fila['title'] = t['title'].strip()
@@ -205,6 +208,9 @@ def parte_linea(datos, log):
             (1 if adm.get('ok') else 0) if 'ok' in adm else -1,
             adm.get('q') or 0,
             1 if adm.get('arch') else 0,
+            # El agente escribe el motivo en espanol; si ademas deja la version
+            # inglesa, la pagina la usa cuando el visitante esta en EN.
+            str(c.get('motivo_en') or '').strip() if estado == 'parada' else '',
         ])
 
     orden = {e: i for i, e in enumerate(ESTADOS)}
@@ -223,7 +229,7 @@ def render(datos, plantilla, salida, fecha, log):
     orden = lambda x: (x['artist'].lower(), x['title'].lower())
     con = sorted([x for x in pend if x.get('ok')], key=orden)
     sin = sorted([x for x in pend if not x.get('ok')], key=orden)
-    cal = sorted([x for x in es if x['q'] is not None], key=orden)
+    cal = sorted([x for x in es if x['q'] is not None or x['lock']], key=orden)
     linea = parte_linea(datos, log)
 
     def pack(items):
@@ -235,7 +241,8 @@ def render(datos, plantilla, salida, fecha, log):
         'data': {
             'con': pack(con),
             'sin': pack(sin),
-            'cal': [[x['title'], x['artist'], x['track'], x['q'], 1 if x['arch'] else 0]
+            'cal': [[x['title'], x['artist'], x['track'], x['q'],
+                     1 if x['arch'] else 0, 1 if x['lock'] else 0]
                     for x in cal],
             'linea': linea['filas'],
         },
@@ -246,6 +253,7 @@ def render(datos, plantilla, salida, fecha, log):
             'artCon': len({x['artist'] for x in con}),
             'artSin': len({x['artist'] for x in sin}),
             'cal': len(cal), 'artCal': len({x['artist'] for x in cal}),
+            'lock': sum(1 for x in cal if x['lock']),
             'q': {str(n): sum(1 for x in cal if x['q'] == n) for n in (1, 2, 3, 4, 5)},
             # La pagina escribe la fecha en el idioma que elija cada visitante,
             # asi que va cruda y se formatea alli.
