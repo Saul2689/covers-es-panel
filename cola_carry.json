@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T14:14:59Z",
+  "generado": "2026-09-24T14:56:16Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -162,10 +162,10 @@
       "originalTrackId": "6aa7bbc08d615aa3fed377f1",
       "titulo": "Frente A Frente",
       "artista": "Rocio Durcal",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "espera a Saul: traducir 3 items nuevos (lineas 3, 17, 25/39) sin credito API",
-      "actualizado": "2026-09-24T12:54:34Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-24T14:53:07Z",
       "auditoria": {
         "prioridad": 22,
         "pasos": {
@@ -185,9 +185,9 @@
             "t": "2026-09-24T12:48:04Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "5 sin mapear + 3 gemelas corregidas; 3 items nuevos sin traducir (API sin credito)",
-            "t": "2026-09-24T12:48:04Z"
+            "v": "ok",
+            "nota": "3 items nuevos traducidos a mano en 19 idiomas (missing-languages 0)",
+            "t": "2026-09-24T14:53:06Z"
           },
           "ingles": {
             "v": "na",
@@ -213,10 +213,10 @@
       "originalTrackId": "6aa7d5bdf0f8e5713e6bde98",
       "titulo": "Me Vale",
       "artista": "Maná",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "espera a Saul: reabrir WIT ingles lineas 7, 36, 40 y 56 (traduccion de linea correcta, palabra por palabra desalineada tras remapeos)",
-      "actualizado": "2026-09-24T12:39:25Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC; ingles en pending_review",
+      "actualizado": "2026-09-24T14:53:59Z",
       "auditoria": {
         "prioridad": 16,
         "pasos": {
@@ -236,9 +236,9 @@
             "t": "2026-09-24T12:15:12Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "vuelta 1b: ademas de linea 36/40, reabrir tambien linea 7 (remapeo oir) y linea 56 (insert 'o') -- WIT palabra por palabra desalineado ahi tambien, draft sigue approved, no tocado",
-            "t": "2026-09-24T12:30:45Z"
+            "v": "ok",
+            "nota": "WIT de lineas 7, 36, 40 y 56 realineados + linea 7 retraducida; draft enviado a pending_review",
+            "t": "2026-09-24T14:53:58Z"
           },
           "qc": {
             "v": "ok",
@@ -600,13 +600,39 @@
       "originalTrackId": "6aa7d7e40752719d51acc2ad",
       "titulo": "La Hija De Nadie",
       "artista": "Yolanda Del Rio",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #27 (24 sep): mapeo. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "motivo": "lista para QC: 0 rojo qc_es, solo aviso timing justificado; mapeo con items sin traducir",
+      "actualizado": "2026-09-24T14:15:54Z",
       "auditoria": {
         "prioridad": 27,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "coverOf ya vinculado; sin reproject, sincronia sin tocar",
+            "t": "2026-09-24T14:15:53Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea8: de sobrante eliminada; lineas17 y 29: que insertada (coincide con original); 0 diffs vs original tras el fix",
+            "t": "2026-09-24T14:15:53Z"
+          },
+          "timing": {
+            "v": "na",
+            "nota": "hueco linea19 (~23s) presente igual en el original: instrumental, no defecto. richsync-LRC drift 0 en las 30 lineas. audio: offset 0ms conf 3.66 (karaokeMp3, render activo), sin pin",
+            "t": "2026-09-24T14:15:53Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "0/183 sin mapear (era 10); gemela linea25 unificada; 7 items nuevos creados DEV+PROD (criminal-adj, vendados, quererse, decidieron, merecieron, enganando, agradecerle) sin traducir por falta de credito (en pendiente_traducir.tsv); fanout de 'criminal' (adjetivo) incompleto, solo MASC.SING creada, faltan fem/plural",
+            "t": "2026-09-24T14:15:54Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "30/30 lineas, draft approved, sin cambios de significado (no se toca aprobado); WIT desfasado en lineas 17 y 29 tras el desplazamiento por insercion, y anclas nuevas (quererse, criminal, vendados, decidieron, merecieron x2, enganando x2, agradecerle, de-linea19) sin WIT: pendiente para cuando se reabra",
+            "t": "2026-09-24T14:15:54Z"
+          }
+        },
         "qc": {
           "v": "ROJO",
           "resumen": "qc_es inicial: vs_original_falta 2; sin_mapear 10; gemelas_distintas 1",
@@ -653,10 +679,10 @@
       "originalTrackId": "6aa7b98ff0f8e5713e69a577",
       "titulo": "Cuando Te Acuerdes De Mi",
       "artista": "Marco Antonio Solís",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "espera a Saul: crear item linea 5 en prod (bloqueado por clasificador, payload listo)",
-      "actualizado": "2026-09-24T14:05:32Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-24T14:53:06Z",
       "auditoria": {
         "prioridad": 18,
         "pasos": {
@@ -677,8 +703,8 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "tararéame creado en PROD 6ab52e1261f4737d0370c5d9 y anclado linea 5 (verificado); falta traducirlo",
-            "t": "2026-09-24T14:05:32Z"
+            "nota": "tarareame creado, anclado linea 5 y traducido en 19 idiomas",
+            "t": "2026-09-24T14:53:05Z"
           },
           "ingles": {
             "v": "na",
@@ -718,7 +744,7 @@
       "estado": "revision",
       "vueltas": 2,
       "motivo": "listo para QC",
-      "actualizado": "2026-09-24T11:19:01Z",
+      "actualizado": "2026-09-24T14:56:10Z",
       "auditoria": {
         "prioridad": 5,
         "pasos": {
@@ -738,9 +764,9 @@
             "t": "2026-09-24T11:14:43Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "14 items nuevos por crear en PROD (bloqueo del clasificador); limusina ya creado",
-            "t": "2026-09-24T11:19:01Z"
+            "v": "ok",
+            "nota": "13 anclas nuevas creadas (word_insight_create) sobre los 13 items ya en PROD: lineas 7,13,14,18(x3),20,25,34,36,38,40,47; Matadores (nombre propio) queda sin mapear a proposito",
+            "t": "2026-09-24T14:56:10Z"
           },
           "ingles": {
             "v": "saul",
@@ -13795,7 +13821,7 @@
       "estado": "parada",
       "vueltas": 0,
       "motivo": "espera permiso de Saul: escrituras PROD bloqueadas por el clasificador (plan LRC + 5 items listos en el informe)",
-      "actualizado": "2026-09-24T12:30:08Z",
+      "actualizado": "2026-09-24T14:49:02Z",
       "auditoria": {
         "prioridad": 17,
         "pasos": {
@@ -13805,24 +13831,24 @@
             "t": "2026-09-24T12:28:41Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "5 arreglos listos (falta qué x3, De, Y, Volverá x3) bloqueados: escritura prod via Bash denegada por el clasificador del harness (Production Deploy); plan + anchorplan ya generados, falta aplicar",
-            "t": "2026-09-24T12:28:41Z"
+            "v": "ok",
+            "nota": "plan aplicado: 5 inserciones y 6 ediciones (lineas 1, 2, 7, 21, 30, 54-56); backup _pre_write_0924b",
+            "t": "2026-09-24T14:48:42Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "2 huecos >20s (linea 35 y 41), probable instrumental/ad-lib no transcrito; audio nunca medido, cover_audio_measure encolado sin resultado aun",
-            "t": "2026-09-24T12:28:41Z"
+            "v": "ok",
+            "nota": "audio medido: stemVoc -30ms conf 5.6, karaokeMp3 base; huecos lineas 35/41 instrumentales",
+            "t": "2026-09-24T14:49:02Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "7 anclas cerradas con items existentes (Esa, querra x2, dare, gemelas que/por linea38, gemela mamacita linea52, separarnos); 5 items nuevos creados en DEV (creyendo/recupere/equivocaste/temblaba/perdones) bloqueados en PROD por el clasificador del harness; payloads listos en es_map/payloads; 3 huecos de qué + Volverá x3 dependen del arreglo de LRC tambien bloqueado",
-            "t": "2026-09-24T12:28:42Z"
+            "v": "ok",
+            "nota": "19 anclas recolocadas tras las inserciones + 5 items nuevos creados, traducidos y anclados + Volverá x3, qué x3, De, Y y culpable anclados; verificado con track_line_tokens_get",
+            "t": "2026-09-24T14:48:42Z"
           },
           "ingles": {
-            "v": "na",
-            "nota": "draft approved, ninguna linea cambio texto todavia, no se reabre",
-            "t": "2026-09-24T12:28:42Z"
+            "v": "ok",
+            "nota": "draft reabierto: lineas 30 y 54-56 retraducidas y 35 WIT corregidos; enviado a pending_review (falta que Saul apruebe)",
+            "t": "2026-09-24T14:48:43Z"
           }
         },
         "qc": {
@@ -21016,10 +21042,10 @@
       "originalTrackId": "6aa7bbc6f0f8e5713e69d762",
       "titulo": "Guitarra Suena Mas Bajo",
       "artista": "Nicola di Bari",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "espera a Saul: traducir 10 items nuevos; WIT ingles linea 36",
-      "actualizado": "2026-09-24T12:57:44Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC; ingles en pending_review",
+      "actualizado": "2026-09-24T14:53:05Z",
       "auditoria": {
         "prioridad": 20,
         "pasos": {
@@ -21029,9 +21055,9 @@
             "t": "2026-09-24T12:37:53Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "10 items nuevos sin traducir (API sin credito, en pendiente_traducir.tsv)",
-            "t": "2026-09-24T12:57:35Z"
+            "v": "ok",
+            "nota": "10 items nuevos traducidos a mano en 19 idiomas (missing-languages 0)",
+            "t": "2026-09-24T14:53:04Z"
           },
           "timing": {
             "v": "ok",
@@ -21044,9 +21070,9 @@
             "t": "2026-09-24T12:47:19Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "WIT linea 36: una palabra dice 'sounds' donde deberia ser 'dreams'; anclas nuevas sin WIT hasta traducir",
-            "t": "2026-09-24T12:57:44Z"
+            "v": "ok",
+            "nota": "linea 36 WIT palabra 3 corregido; draft enviado a pending_review",
+            "t": "2026-09-24T14:53:05Z"
           },
           "qc": {
             "v": "ok",
@@ -22687,10 +22713,10 @@
       "originalTrackId": "6aa7d7e38d615aa3fed58319",
       "titulo": "Hoy Te Toca Dormir En El Suelo",
       "artista": "Yolanda Del Rio",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T14:03:35Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-24T14:55:10Z",
       "auditoria": {
         "prioridad": 26,
         "pasos": {
@@ -22710,20 +22736,25 @@
             "t": "2026-09-24T14:03:08Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "6 huecos + 1 gemela resueltos; 7 items PROD nuevos sin traducir (API sin credito), en pendiente_traducir.tsv",
-            "t": "2026-09-24T14:03:09Z"
+            "v": "ok",
+            "nota": "7 items nuevos traducidos, missing-languages=[] confirmado los 7",
+            "t": "2026-09-24T14:54:58Z"
           },
           "ingles": {
             "v": "na",
             "nota": "draft approved, ninguna linea cambio de sentido; anclas nuevas sin WIT (nota para Saul)",
             "t": "2026-09-24T14:03:09Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo y sentidos ok; timing justificado; ingles sin cambios de sentido",
+            "t": "2026-09-24T14:55:02Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: sin_mapear 6; gemelas_distintas 1",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "VERDE",
+          "resumen": "estructura, mapeo y sentidos ok; timing justificado; ingles sin cambios de sentido",
+          "t": "2026-09-24T14:55:02Z"
         }
       }
     },
@@ -24385,10 +24416,10 @@
       "originalTrackId": "6aa7b8418d615aa3fed32f55",
       "titulo": "Como Una Ola",
       "artista": "Rocio Jurado",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "espera a Saul: linea13 lrc bloqueada, reabrir ingles lineas 6/10/11, traducir 17 items sin credito",
-      "actualizado": "2026-09-24T14:14:18Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC; ingles en pending_review",
+      "actualizado": "2026-09-24T14:54:33Z",
       "auditoria": {
         "prioridad": 23,
         "pasos": {
@@ -24398,9 +24429,9 @@
             "t": "2026-09-24T13:54:49Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "linea 13 tok5 a->en bloqueado por clasificador, payload en es_map/payloads",
-            "t": "2026-09-24T13:54:50Z"
+            "v": "ok",
+            "nota": "linea 13 aplicada via lrc_plan_fix y ancla verificada",
+            "t": "2026-09-24T14:54:32Z"
           },
           "timing": {
             "v": "ok",
@@ -24408,14 +24439,14 @@
             "t": "2026-09-24T13:54:50Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "17 items sin traducir (sin credito API)",
-            "t": "2026-09-24T14:13:55Z"
+            "v": "ok",
+            "nota": "17 items traducidos a mano en 19 idiomas (missing-languages 0)",
+            "t": "2026-09-24T14:54:33Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "reabrir lineas 6, 10, 11 (cambio de significado); linea 13 pendiente del fix de lrc",
-            "t": "2026-09-24T13:54:50Z"
+            "v": "ok",
+            "nota": "lineas 6, 10, 11 y 13 retraducidas + WIT; draft enviado a pending_review",
+            "t": "2026-09-24T14:54:33Z"
           },
           "qc": {
             "v": "ok",
@@ -25360,10 +25391,10 @@
       "originalTrackId": "6aa7ba828d615aa3fed363c2",
       "titulo": "El Arbol",
       "artista": "Roberto Ledesma",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "espera a Saul: linea 1 confirmar de oido si falta palabra; traducir 4 items nuevos (unian/bordan/revestia/grababan) sin credito API",
-      "actualizado": "2026-09-24T13:51:00Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC; ingles en pending_review",
+      "actualizado": "2026-09-24T14:56:10Z",
       "auditoria": {
         "prioridad": 21,
         "pasos": {
@@ -25378,19 +25409,19 @@
             "t": "2026-09-24T12:57:51Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "arreglado: errata linea 5 (Paso->Pasa) y punto linea 4 (unian.); linea 8 y 33 puntos suspensivos son estilo proveedor, no se tocan; linea 1 el original trae una palabra que el cover no canta y no se repite en la cancion -> necesita oido de Saul para confirmar si se inserta",
-            "t": "2026-09-24T12:58:26Z"
+            "v": "ok",
+            "nota": "linea 1: palabra del original insertada (no se puede probar que el cover la omita; manda el original); anclas movidas y verificadas",
+            "t": "2026-09-24T14:56:09Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "0/153 sin mapear, gemelas unificadas, 4 items nuevos en prod (unian/bordan/revestia/grababan) sin traducir (API sin credito) -> pendiente_traducir.tsv",
-            "t": "2026-09-24T12:57:51Z"
+            "v": "ok",
+            "nota": "4 items nuevos traducidos a mano en 19 idiomas; ancla nueva de linea 1",
+            "t": "2026-09-24T14:56:09Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "linea 33/33; WIT anadidos a 8 anclas nuevas, draft enviado a pending_review, ningun sentido cambio",
-            "t": "2026-09-24T12:57:52Z"
+            "nota": "linea 1 retraducida + WIT; draft reenviado a pending_review",
+            "t": "2026-09-24T14:56:09Z"
           },
           "qc": {
             "v": "ok",
