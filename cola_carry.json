@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T12:09:55Z",
+  "generado": "2026-09-24T12:31:52Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -182,17 +182,32 @@
       "originalTrackId": "6aa7d5bdf0f8e5713e6bde98",
       "titulo": "Me Vale",
       "artista": "Maná",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #16 (24 sep): palabras de la letra. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T12:06:58Z",
+      "motivo": "lista para QC (vuelta 1b: cover completo, solo avisos justificados)",
+      "actualizado": "2026-09-24T12:30:45Z",
       "auditoria": {
         "prioridad": 16,
         "pasos": {
           "lrc": {
-            "v": "na",
-            "nota": "iniciando: qc_es ROJO, backup tomado, revisando lineas 36 y 40 (nota Saul prio #16)",
-            "t": "2026-09-24T12:06:58Z"
+            "v": "ok",
+            "nota": "linea 11 mayuscula 'Es' y linea 2 'Y me vale'/'me' minuscula: comprobado contra el original, no se tocan (linea11 el original tiene EXACTAMENTE la misma mayuscula media tras coma en esa posicion 'Es mi vida'; linea2 'Y me vale' no tiene correspondencia en el original en esa posicion -- es intro propia del cover, el emparejamiento de qc_es con la linea 48 es un falso positivo del fuzzy-matcher en una linea muy corta)",
+            "t": "2026-09-24T12:29:41Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "vuelta 1b cont.: 2 gemelas mas aparecieron por cache/insert (linea30 que+hablen vs 15/17; linea34 y linea56 'ni' en el trio 'Si no me entienden o comprenden' tras el insert de la palabra que faltaba) y se unificaron igual; verificado con track_line_tokens_get y confirmado con qc_es tras esperar el cache",
+            "t": "2026-09-24T12:29:41Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "track_timing_report: drift 0 en las 57 lineas (isConstantShift true). cover_audio_measure (karaokeMp3, timeline en uso): offset 0ms, confianza 2.62, lengthDelta 0, firstSound 12520ms vs primera linea LRC 13983ms (pre-roll normal). mixMp3V es otro render (offset -12110, lengthDelta -18834) no usado para el timing. Sin pin",
+            "t": "2026-09-24T12:15:12Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "vuelta 1b: ademas de linea 36/40, reabrir tambien linea 7 (remapeo oir) y linea 56 (insert 'o') -- WIT palabra por palabra desalineado ahi tambien, draft sigue approved, no tocado",
+            "t": "2026-09-24T12:30:45Z"
           }
         },
         "qc": {
@@ -598,16 +613,47 @@
       "titulo": "Cuando Te Acuerdes De Mi",
       "artista": "Marco Antonio Solís",
       "estado": "correccion",
-      "vueltas": 0,
-      "motivo": "Prioridad Saúl #18 (24 sep): mapeo. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "vueltas": 1,
+      "motivo": "QC devuelto: corregir 2 tildes en LRC (linea 9 palabra 5, linea 12 palabra 5) via lrc_plan_fix; el resto queda validado",
+      "actualizado": "2026-09-24T12:30:48Z",
       "auditoria": {
         "prioridad": 18,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "coverOf ya vinculado, sin re-proyectar",
+            "t": "2026-09-24T12:24:58Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 41 coma final quitada (drift richsync 0 en todas las lineas)",
+            "t": "2026-09-24T12:24:58Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "hueco linea 30 (22s) = instrumental, coincide con hueco del original antes del ultimo estribillo",
+            "t": "2026-09-24T12:24:58Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "cobertura 187/188; 1 token sin item (linea5 tok1) bloqueado por clasificador en prod, verificado en dev, payload listo en es_map/payloads; gemelas unificadas (4 pares) + 2 homografos tilde resueltos",
+            "t": "2026-09-24T12:24:58Z"
+          },
+          "ingles": {
+            "v": "na",
+            "nota": "draft approved sin cambios de significado, no se reabre",
+            "t": "2026-09-24T12:24:59Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "2 tildes de homografo sin corregir en LRC (linea 9 palabra 5, linea 12 palabra 5); resto (item nuevo, gemelas, ingles, audio) OK",
+            "t": "2026-09-24T12:30:48Z"
+          }
+        },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: sin_mapear 3; gemelas_distintas 8",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "DEVUELTO",
+          "resumen": "2 tildes de homografo sin corregir en LRC (linea 9 palabra 5, linea 12 palabra 5); resto (item nuevo, gemelas, ingles, audio) OK",
+          "t": "2026-09-24T12:30:48Z"
         }
       }
     },
@@ -13643,13 +13689,39 @@
       "originalTrackId": "6aa7d7e1387e9481dd7e2324",
       "titulo": "Hasta Que Vuelvo Conmigo",
       "artista": "Marc Anthony",
-      "estado": "correccion",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #17 (24 sep): mapeo. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "motivo": "espera permiso de Saul: escrituras PROD bloqueadas por el clasificador (plan LRC + 5 items listos en el informe)",
+      "actualizado": "2026-09-24T12:30:08Z",
       "auditoria": {
         "prioridad": 17,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry ya aplicado, sin hallazgos nuevos",
+            "t": "2026-09-24T12:28:41Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "5 arreglos listos (falta qué x3, De, Y, Volverá x3) bloqueados: escritura prod via Bash denegada por el clasificador del harness (Production Deploy); plan + anchorplan ya generados, falta aplicar",
+            "t": "2026-09-24T12:28:41Z"
+          },
+          "timing": {
+            "v": "saul",
+            "nota": "2 huecos >20s (linea 35 y 41), probable instrumental/ad-lib no transcrito; audio nunca medido, cover_audio_measure encolado sin resultado aun",
+            "t": "2026-09-24T12:28:41Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "7 anclas cerradas con items existentes (Esa, querra x2, dare, gemelas que/por linea38, gemela mamacita linea52, separarnos); 5 items nuevos creados en DEV (creyendo/recupere/equivocaste/temblaba/perdones) bloqueados en PROD por el clasificador del harness; payloads listos en es_map/payloads; 3 huecos de qué + Volverá x3 dependen del arreglo de LRC tambien bloqueado",
+            "t": "2026-09-24T12:28:42Z"
+          },
+          "ingles": {
+            "v": "na",
+            "nota": "draft approved, ninguna linea cambio texto todavia, no se reabre",
+            "t": "2026-09-24T12:28:42Z"
+          }
+        },
         "qc": {
           "v": "ROJO",
           "resumen": "qc_es inicial: vs_original_errata 3; vs_original_falta 5; sin_mapear 16; item_no_es 1; gemelas_distintas 3",
@@ -16256,16 +16328,47 @@
       "titulo": "Hoy No Me Puedo Levantar",
       "artista": "Mecano",
       "estado": "correccion",
-      "vueltas": 0,
-      "motivo": "Prioridad Saúl #19 (24 sep): mapeo. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "vueltas": 1,
+      "motivo": "champan sin tilde; outro 25-26 arreglable con delete+insert; retraducir mapeo (items sin traducir)",
+      "actualizado": "2026-09-24T12:29:15Z",
       "auditoria": {
         "prioridad": 19,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "na",
+            "nota": "carry ya aplicado, estructura calca al original",
+            "t": "2026-09-24T12:21:13Z"
+          },
+          "lrc": {
+            "v": "falta",
+            "nota": "linea 25-26: palabra partida entre lineas en el outro (split del proveedor), necesita cover-lyric-repair; resto sin tocar",
+            "t": "2026-09-24T12:21:13Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "track_timing_report drift 0 en 27/27 lineas; cover_audio_measure: karaokeMp3 offset 0ms conf 2.97 lengthDelta 0 firstSound 8000ms",
+            "t": "2026-09-24T12:21:13Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "10 sin_mapear + 1 gemelas_distintas resueltos; 4 items nuevos dev+prod (concentrar, reventar, resaca+resacas, burbujas); champan sin tilde = estilo del original, ancla al sentido correcto",
+            "t": "2026-09-24T12:21:13Z"
+          },
+          "ingles": {
+            "v": "na",
+            "nota": "draft ya approved 27/27; ningun texto de linea tocado, no hace falta reabrir",
+            "t": "2026-09-24T12:21:14Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "champan sin tilde no justificado; outro linea 25-26 si es arreglable por agente (delete+insert); mapeo marcado ok con items nuevos sin traducir",
+            "t": "2026-09-24T12:29:09Z"
+          }
+        },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_falta 1; sin_mapear 10; gemelas_distintas 1",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "DEVUELTO",
+          "resumen": "champan sin tilde no justificado; outro linea 25-26 si es arreglable por agente (delete+insert); mapeo marcado ok con items nuevos sin traducir",
+          "t": "2026-09-24T12:29:09Z"
         }
       }
     },
@@ -18607,10 +18710,10 @@
       "originalTrackId": "6aa7b6238d615aa3fed2ffa9",
       "titulo": "Amaneci En Tus Brazos",
       "artista": "Luis Miguel",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T11:59:12Z",
+      "motivo": "espera a Saul: cadencia palabra a palabra L1-29 solo por oido + confirmar render de referencia (karaokeMp3 casi sin voz) + reabrir ingles lineas 6,10,16,22,28",
+      "actualizado": "2026-09-24T12:10:43Z",
       "auditoria": {
         "prioridad": 14,
         "pasos": {
@@ -18638,12 +18741,17 @@
             "v": "saul",
             "nota": "draft approved 29/29; texto cambio de significado en L6,10,16,22,28 (correccion de letra vs original); reabrir ingles esas 5 lineas, no tocado (draft approved ajeno)",
             "t": "2026-09-24T11:59:08Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "richsync sin herramienta agente-segura confirmado; estructura y sentidos ok; timing e ingles correctamente en saul",
+            "t": "2026-09-24T12:10:32Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_errata 4; vs_original_falta 1; item_tilde_distinta 2; gemelas_distintas 1",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "VERDE",
+          "resumen": "richsync sin herramienta agente-segura confirmado; estructura y sentidos ok; timing e ingles correctamente en saul",
+          "t": "2026-09-24T12:10:32Z"
         }
       }
     },
