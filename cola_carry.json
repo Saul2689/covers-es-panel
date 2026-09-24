@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T10:24:52Z",
+  "generado": "2026-09-24T10:44:56Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -257,17 +257,48 @@
       "originalTrackId": "6a5505db45ecd800e9ff7fed",
       "titulo": "Ingrata",
       "artista": "Café Tacvba",
-      "estado": "correccion",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #2 (24 sep): phrase item. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "motivo": "espera a Saul: aprobar draft ingles pendiente desde 22 sep; al reabrirlo alinear linea 21 y anadir PIT de linea 24",
+      "actualizado": "2026-09-24T10:44:13Z",
       "auditoria": {
         "prioridad": 2,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "Ya aplicado por Saul 14 sep (98% match); no se reproyecta",
+            "t": "2026-09-24T10:35:56Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "1 linea con puntuacion corregida (falta ¡!); resto justificado (verso distinto al original, confirmado por nota de Saul)",
+            "t": "2026-09-24T10:35:58Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "track_timing_report: drift 0ms en las 67 lineas",
+            "t": "2026-09-24T10:35:59Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "phrase item de la locucion reutilizado y anclado en las 3 posiciones de su unica aparicion",
+            "t": "2026-09-24T10:36:01Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "draft en ya pending_review (de Saul, 22 sep), no tocado; 1 linea con texto cambiado por mi + PIT nueva a agregar quedan anotadas para el review",
+            "t": "2026-09-24T10:36:01Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "carry/lrc/timing/mapeo ok, encargo de Saul (PIT de una vez) verificado; ingles pending_review ajeno",
+            "t": "2026-09-24T10:44:02Z"
+          }
+        },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_errata 1; sin_mapear 1",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "VERDE",
+          "resumen": "carry/lrc/timing/mapeo ok, encargo de Saul (PIT de una vez) verificado; ingles pending_review ajeno",
+          "t": "2026-09-24T10:44:02Z"
         }
       }
     },
@@ -332,13 +363,39 @@
       "originalTrackId": "6aa7d7dc0752719d51acc22e",
       "titulo": "Jamas",
       "artista": "Camilo Sesto",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #3 (24 sep): mapeo. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "motivo": "listo para QC",
+      "actualizado": "2026-09-24T10:35:33Z",
       "auditoria": {
         "prioridad": 3,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry ya aplicado antes; 174/176 tokens calzan con el original, sin re-proyeccion",
+            "t": "2026-09-24T10:35:22Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "arregladas 2 mayusculas a mitad; quedan 2 lineas (17,28) con una palabra de mas vs original, no se puede decidir sin oir el audio",
+            "t": "2026-09-24T10:35:24Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "track_timing_report drift=0 en las 28 lineas; los 3 avisos son notas sostenidas al final del estribillo, sin hueco raro",
+            "t": "2026-09-24T10:35:24Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "gemelas_distintas unificado; quedan 2 tokens (lineas 5 y 27) que necesitan item nuevo y el token DEV esta caducado (401), bloqueado por regla DEV-first",
+            "t": "2026-09-24T10:35:26Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "28/28 lineas con ingles, draft ya approved de antes, no se toca",
+            "t": "2026-09-24T10:35:27Z"
+          }
+        },
         "qc": {
           "v": "ROJO",
           "resumen": "qc_es inicial: sin_mapear 2; gemelas_distintas 1",
@@ -394,13 +451,39 @@
       "originalTrackId": "6aa7d7dd387e9481dd7e22e0",
       "titulo": "La Bomba",
       "artista": "Azul Azul",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #1 (24 sep): mapeo. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "motivo": "listo para QC",
+      "actualizado": "2026-09-24T10:39:40Z",
       "auditoria": {
         "prioridad": 1,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "na",
+            "nota": "carry ya aplicado antes de esta auditoria, estructura alineada con el original",
+            "t": "2026-09-24T10:39:30Z"
+          },
+          "lrc": {
+            "v": "falta",
+            "nota": "arreglado: 1 sobra borrada, tildes restauradas linea 8-9, coma linea 36; pendiente Saul: linea 1/23 posible palabra inicial ausente, linea 34 frase sobrante dudosa, linea 8 orden de palabras distinto del original",
+            "t": "2026-09-24T10:39:32Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "track_timing_report: drift 0ms en las 38 lineas, sin huecos",
+            "t": "2026-09-24T10:39:33Z"
+          },
+          "mapeo": {
+            "v": "falta",
+            "nota": "14 anclas corregidas (7 gemelas unificadas, 5 huecos rellenados, 2 nombre de banda borradas); pendiente: 4 ocurrencias de una forma verbal nueva bloqueadas por token DEV caducado (401), nombre de banda intencionadamente sin mapear (2 lineas)",
+            "t": "2026-09-24T10:39:34Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft reabierto, 5 WIT nuevas fijadas para las anclas creadas, submit hecho -> pending_review (no aprobado)",
+            "t": "2026-09-24T10:39:35Z"
+          }
+        },
         "qc": {
           "v": "ROJO",
           "resumen": "qc_es inicial: vs_original_tilde 1; vs_original_errata 2; vs_original_falta 2; sin_mapear 11; gemelas_distintas 7",
