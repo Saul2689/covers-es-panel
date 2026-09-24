@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T16:04:23Z",
+  "generado": "2026-09-24T16:05:59Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -18888,9 +18888,9 @@
       "titulo": "Amaneci En Tus Brazos",
       "artista": "Luis Miguel",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T15:55:30Z",
+      "vueltas": 1,
+      "motivo": "lista para QC: solo línea 23",
+      "actualizado": "2026-09-24T16:05:59Z",
       "auditoria": {
         "prioridad": 14,
         "pasos": {
@@ -18901,13 +18901,13 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "4 erratas + 1 insercion (Y linea28) + 1 puntuacion arregladas via lrc_plan_fix; anclas movidas ok",
-            "t": "2026-09-24T11:57:06Z"
+            "nota": "línea 23: errata heredada del original (tilde de más) corregida a la preposición, como su gemela línea 2; tiempos y anclas intactos",
+            "t": "2026-09-24T16:05:58Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "7 anclas remapeadas a sentido correcto (tus/manos/tu/cuando/amanecer/entre-entre/me); gemelas_distintas restante (l23/l2 entre-entre) es falso positivo: palabras distintas sin tilde, justificado",
-            "t": "2026-09-24T11:57:06Z"
+            "nota": "línea 23 tok 1: ancla al item de la preposición, igual que la línea 2 (upsert, mismo id)",
+            "t": "2026-09-24T16:05:59Z"
           },
           "timing": {
             "v": "saul",
@@ -18920,15 +18920,15 @@
             "t": "2026-09-24T15:55:30Z"
           },
           "qc": {
-            "v": "ok",
-            "nota": "richsync sin herramienta agente-segura confirmado; estructura y sentidos ok; timing e ingles correctamente en saul",
-            "t": "2026-09-24T12:10:32Z"
+            "v": "falta",
+            "nota": "L23 (entre) WIT y linea en ingles sin actualizar tras el remapeo del verbo, resto ok",
+            "t": "2026-09-24T16:04:38Z"
           }
         },
         "qc": {
-          "v": "VERDE",
-          "resumen": "richsync sin herramienta agente-segura confirmado; estructura y sentidos ok; timing e ingles correctamente en saul",
-          "t": "2026-09-24T12:10:32Z"
+          "v": "DEVUELTO",
+          "resumen": "L23 (entre) WIT y linea en ingles sin actualizar tras el remapeo del verbo, resto ok",
+          "t": "2026-09-24T16:04:38Z"
         }
       }
     },
