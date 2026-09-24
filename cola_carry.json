@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T15:19:27Z",
+  "generado": "2026-09-24T15:24:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -426,9 +426,9 @@
       "titulo": "Jamas",
       "artista": "Camilo Sesto",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T15:12:03Z",
+      "vueltas": 4,
+      "motivo": "timing de lineas 17/28 arreglado por la sesion principal; lista para QC",
+      "actualizado": "2026-09-24T15:22:38Z",
       "auditoria": {
         "prioridad": 3,
         "pasos": {
@@ -444,8 +444,8 @@
           },
           "timing": {
             "v": "ok",
-            "nota": "track_timing_report drift=0 en las 28 lineas; los 3 avisos son notas sostenidas al final del estribillo, sin hueco raro",
-            "t": "2026-09-24T10:35:24Z"
+            "nota": "tras borrar la 1a palabra de lineas 17 y 28, inicio de linea movido a la nueva 1a palabra (+250/+274 ms, lrc_update_timings); drift 0 en las 28",
+            "t": "2026-09-24T15:22:37Z"
           },
           "mapeo": {
             "v": "ok",
@@ -458,15 +458,15 @@
             "t": "2026-09-24T15:12:03Z"
           },
           "qc": {
-            "v": "ok",
-            "nota": "vuelta 3 + fix ni linea 3 en sesion principal",
-            "t": "2026-09-24T11:25:25Z"
+            "v": "falta",
+            "nota": "vuelta 4: desfase timing nuevo (250-274ms) en las 2 lineas editadas, resto de la pista en 0ms; no listado en el informe",
+            "t": "2026-09-24T15:20:57Z"
           }
         },
         "qc": {
-          "v": "VERDE",
-          "resumen": "vuelta 3 + fix ni linea 3 en sesion principal",
-          "t": "2026-09-24T11:25:25Z"
+          "v": "DEVUELTO",
+          "resumen": "vuelta 4: desfase timing nuevo (250-274ms) en las 2 lineas editadas, resto de la pista en 0ms; no listado en el informe",
+          "t": "2026-09-24T15:20:57Z"
         }
       }
     },
@@ -980,17 +980,17 @@
       "originalTrackId": "6aa7bbc70752719d51aa6a9b",
       "titulo": "Hablas De Mi",
       "artista": "Gloria Estefan",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "espera a Saul: pin de audio mixMp3V a oido, linea 6 (oido + ingles)",
-      "actualizado": "2026-09-24T11:39:07Z",
+      "motivo": "linea 6, audio e ingles cerrados por la sesion principal; lista para QC",
+      "actualizado": "2026-09-24T15:21:00Z",
       "auditoria": {
         "prioridad": 8,
         "pasos": {
           "lrc": {
-            "v": "saul",
-            "nota": "linea 6: confirmar de oido la palabra cambiada",
-            "t": "2026-09-24T11:39:07Z"
+            "v": "ok",
+            "nota": "linea 6 con el texto del original (regla: manda el original); faltas = ad-libs (ah) justificados",
+            "t": "2026-09-24T15:20:59Z"
           },
           "mapeo": {
             "v": "ok",
@@ -1003,14 +1003,14 @@
             "t": "2026-09-24T11:28:35Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "mixMp3V -1810ms conf 2.48 pero lengthDelta -2325 (0,5 s sin cuadrar): pin a oido",
-            "t": "2026-09-24T11:39:07Z"
+            "v": "ok",
+            "nota": "karaokeMp3 referencia y stemVoc -10ms alineados; mixMp3V -1810/delta -2325 es otra edicion, no se pinea",
+            "t": "2026-09-24T15:20:59Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "reabrir ingles: linea 6 (3/15/17 solo ortografia, no hace falta)",
-            "t": "2026-09-24T11:39:07Z"
+            "v": "ok",
+            "nota": "linea 6 retraducida (creia) + WIT; pending_review",
+            "t": "2026-09-24T15:21:00Z"
           },
           "qc": {
             "v": "falta",
@@ -1166,7 +1166,7 @@
       "estado": "hecha",
       "vueltas": 1,
       "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
-      "actualizado": "2026-09-24T15:07:44Z",
+      "actualizado": "2026-09-24T15:24:49Z",
       "auditoria": {
         "prioridad": 25,
         "pasos": {
@@ -1182,8 +1182,8 @@
           },
           "timing": {
             "v": "ok",
-            "nota": "track_timing_report drift 0ms en las 35 lineas; cover_audio_measure: karaokeMp3 (timeline usado) offset 0ms conf 5.75 firstSound 1140ms, sin retime",
-            "t": "2026-09-24T13:53:11Z"
+            "nota": "línea 2: inicio movido 297 ms a la nueva primera palabra tras el borrado en idx 0; deriva 0 en las 35 líneas",
+            "t": "2026-09-24T15:24:49Z"
           },
           "mapeo": {
             "v": "ok",
@@ -22323,7 +22323,7 @@
       "estado": "parada",
       "vueltas": 2,
       "motivo": "espera a Saul: reabrir ingles 24/25 y WIT nuevos, pin de audio a oido, traduccion de 4 items",
-      "actualizado": "2026-09-24T15:14:26Z",
+      "actualizado": "2026-09-24T15:22:03Z",
       "auditoria": {
         "prioridad": 12,
         "pasos": {
@@ -22343,9 +22343,9 @@
             "t": "2026-09-24T12:00:11Z"
           },
           "timing": {
-            "v": "ok",
-            "nota": "stemVoc offset 890/delta 3632 no calzan -> no se pinea; la referencia karaokeMp3 va a drift 0; nada que decidir a oido",
-            "t": "2026-09-24T15:14:26Z"
+            "v": "saul",
+            "nota": "el audio de la cancion da 404 (no suena nada); el unico render cantado medido (stemVoc) va offset 890 con delta 3632, no calza: elegir render/pin a oido",
+            "t": "2026-09-24T15:22:03Z"
           },
           "ingles": {
             "v": "saul",
