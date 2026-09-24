@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T15:27:29Z",
+  "generado": "2026-09-24T15:31:24Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -22320,10 +22320,10 @@
       "originalTrackId": "6aa7b9908d615aa3fed344c3",
       "titulo": "Cuidado Amor",
       "artista": "Julio Iglesias",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 2,
-      "motivo": "espera a Saul: reabrir ingles 24/25 y WIT nuevos, pin de audio a oido, traduccion de 4 items",
-      "actualizado": "2026-09-24T15:22:03Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-24T15:31:24Z",
       "auditoria": {
         "prioridad": 12,
         "pasos": {
@@ -22334,23 +22334,23 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "erratas/tildes/mayus/palabra movida arregladas; 2 diffs de línea restantes son fusión/división intencional vs original, justificados en informe",
-            "t": "2026-09-24T12:00:11Z"
+            "nota": "linea 8/33/34 comparador, justificado sin cambios",
+            "t": "2026-09-24T15:31:18Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "huecos+gemelas+homografos resueltos (cob 257/257); 3 items nuevos + 1 phrase sin traducir (API sin credito), ver pendiente_traducir.tsv",
-            "t": "2026-09-24T12:00:11Z"
+            "v": "ok",
+            "nota": "anclas nuevas/remapeadas traducidas a 19 idiomas, missing-languages 0",
+            "t": "2026-09-24T15:31:18Z"
           },
           "timing": {
             "v": "saul",
-            "nota": "el audio de la cancion da 404 (no suena nada); el unico render cantado medido (stemVoc) va offset 890 con delta 3632, no calza: elegir render/pin a oido",
-            "t": "2026-09-24T15:22:03Z"
+            "nota": "linea 25 drift -400 corregido; hueco linea 22 y pin de audio para Saul (audio 404)",
+            "t": "2026-09-24T15:31:18Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "draft approved, no tocado; reabrir por cambio de sentido en linea 24 y linea 25 (palabra movida entre lineas); WIT de anclas nuevas (marchaste/guardas/cuidado/olvidado/cariño/aun/como/extraño/sera/yo/la) pendientes de ese reopen",
-            "t": "2026-09-24T12:01:26Z"
+            "v": "ok",
+            "nota": "reabierto, lineas 24/25 y WITs de anclas + PIT a pesar de, submit pending_review",
+            "t": "2026-09-24T15:31:19Z"
           },
           "qc": {
             "v": "ok",
