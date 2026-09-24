@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T15:37:50Z",
+  "generado": "2026-09-24T15:42:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -425,10 +425,10 @@
       "originalTrackId": "6aa7d7dc0752719d51acc22e",
       "titulo": "Jamas",
       "artista": "Camilo Sesto",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 4,
-      "motivo": "timing de lineas 17/28 arreglado por la sesion principal; lista para QC",
-      "actualizado": "2026-09-24T15:22:38Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-24T15:42:33Z",
       "auditoria": {
         "prioridad": 3,
         "pasos": {
@@ -458,15 +458,15 @@
             "t": "2026-09-24T15:12:03Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "vuelta 4: desfase timing nuevo (250-274ms) en las 2 lineas editadas, resto de la pista en 0ms; no listado en el informe",
-            "t": "2026-09-24T15:20:57Z"
+            "v": "ok",
+            "nota": "timing 17/28 arreglado y confirmado drift 0; mapeo/ingles/estructura verificados de nuevo, sin defectos nuevos",
+            "t": "2026-09-24T15:42:29Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "vuelta 4: desfase timing nuevo (250-274ms) en las 2 lineas editadas, resto de la pista en 0ms; no listado en el informe",
-          "t": "2026-09-24T15:20:57Z"
+          "v": "VERDE",
+          "resumen": "timing 17/28 arreglado y confirmado drift 0; mapeo/ingles/estructura verificados de nuevo, sin defectos nuevos",
+          "t": "2026-09-24T15:42:29Z"
         }
       }
     },
@@ -22321,9 +22321,9 @@
       "titulo": "Cuidado Amor",
       "artista": "Julio Iglesias",
       "estado": "revision",
-      "vueltas": 2,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T15:31:24Z",
+      "vueltas": 3,
+      "motivo": "lista para QC: solo WIT de líneas 24-25",
+      "actualizado": "2026-09-24T15:42:23Z",
       "auditoria": {
         "prioridad": 12,
         "pasos": {
@@ -22349,19 +22349,19 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "reabierto, lineas 24/25 y WITs de anclas + PIT a pesar de, submit pending_review",
-            "t": "2026-09-24T15:31:19Z"
+            "nota": "líneas 24-25: WIT recolocados ficha a ficha tras el corrimiento; borrador reenviado a pending_review",
+            "t": "2026-09-24T15:42:23Z"
           },
           "qc": {
-            "v": "ok",
-            "nota": "linea 38 era cache; cuidado PAST_PARTICIPLE arreglado en sesion principal",
-            "t": "2026-09-24T12:09:54Z"
+            "v": "falta",
+            "nota": "WIT palabra por palabra roto en 2 lineas tras reindexado (insercion/fusion); resto (LRC, timing, mapeo, ingles de linea, items nuevos) confirmado OK",
+            "t": "2026-09-24T15:40:24Z"
           }
         },
         "qc": {
-          "v": "VERDE",
-          "resumen": "linea 38 era cache; cuidado PAST_PARTICIPLE arreglado en sesion principal",
-          "t": "2026-09-24T12:09:54Z"
+          "v": "DEVUELTO",
+          "resumen": "WIT palabra por palabra roto en 2 lineas tras reindexado (insercion/fusion); resto (LRC, timing, mapeo, ingles de linea, items nuevos) confirmado OK",
+          "t": "2026-09-24T15:40:24Z"
         }
       }
     },
