@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T11:03:34Z",
+  "generado": "2026-09-24T11:24:25Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -363,10 +363,10 @@
       "originalTrackId": "6aa7d7dc0752719d51acc22e",
       "titulo": "Jamas",
       "artista": "Camilo Sesto",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "listo para QC",
-      "actualizado": "2026-09-24T10:35:33Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "espera fix puntual: unificar ni lineas 2/3 (tope 3 vueltas de QC)",
+      "actualizado": "2026-09-24T11:24:21Z",
       "auditoria": {
         "prioridad": 3,
         "pasos": {
@@ -377,8 +377,8 @@
           },
           "lrc": {
             "v": "saul",
-            "nota": "arregladas 2 mayusculas a mitad; quedan 2 lineas (17,28) con una palabra de mas vs original, no se puede decidir sin oir el audio",
-            "t": "2026-09-24T10:35:24Z"
+            "nota": "linea 17/28 palabra de mas pendiente oido de Saul",
+            "t": "2026-09-24T11:06:22Z"
           },
           "timing": {
             "v": "ok",
@@ -387,19 +387,24 @@
           },
           "mapeo": {
             "v": "saul",
-            "nota": "gemelas_distintas unificado; quedan 2 tokens (lineas 5 y 27) que necesitan item nuevo y el token DEV esta caducado (401), bloqueado por regla DEV-first",
-            "t": "2026-09-24T10:35:26Z"
+            "nota": "mapeo completo; 2 items nuevos sin traducir (API sin credito)",
+            "t": "2026-09-24T11:19:47Z"
           },
           "ingles": {
             "v": "ok",
             "nota": "28/28 lineas con ingles, draft ya approved de antes, no se toca",
             "t": "2026-09-24T10:35:27Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "vuelta 3: gemelas que/tu cerradas; ni lineas 2/3 sin unificar, tope de vueltas",
+            "t": "2026-09-24T11:24:17Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: sin_mapear 2; gemelas_distintas 1",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "PARADA",
+          "resumen": "vuelta 3: gemelas que/tu cerradas; ni lineas 2/3 sin unificar, tope de vueltas",
+          "t": "2026-09-24T11:24:17Z"
         }
       }
     },
@@ -586,17 +591,48 @@
       "originalTrackId": "",
       "titulo": "Gasolina",
       "artista": "Daddy Yankee",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 2,
-      "motivo": "Prioridad Saúl #5 (24 sep): LRC, palabra que falta. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "motivo": "listo para QC",
+      "actualizado": "2026-09-24T11:19:01Z",
       "auditoria": {
         "prioridad": 5,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "coverOf ya vinculado, sin re-proyeccion; se trabajo sobre el carry existente",
+            "t": "2026-09-24T11:14:43Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "duro insertado en 8 finales de linea + una preposicion en linea 20; 2 erratas de vendor corregidas; 9 diferencias restantes son variante genuina de esta version",
+            "t": "2026-09-24T11:14:43Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "track_timing_report: 0ms drift en las 52 lineas, isConstantShift true",
+            "t": "2026-09-24T11:14:43Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "14 items nuevos por crear en PROD (bloqueo del clasificador); limusina ya creado",
+            "t": "2026-09-24T11:19:01Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "borrador EN en pending_review, no tocado; 10 lineas cambiaron de texto en este paso y necesitan revision de su traduccion EN cuando el borrador se pueda editar",
+            "t": "2026-09-24T11:14:51Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "quedan 14 tokens sin mapear (nombre propio + los 14 que necesitan los 15 items nuevos bloqueados en PROD), 9 diferencias vs original ya juzgadas como version propia de esta cover, 2 mayusculas de nombre propio a dejar, 28 avisos esperados por mapeo de elision a su forma canonica; cobertura 365/379",
+            "t": "2026-09-24T11:14:58Z"
+          }
+        },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_errata 11; vs_original_falta 11; sin_mapear 53; gemelas_distintas 14",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "DEVUELTO",
+          "resumen": "quedan 14 tokens sin mapear (nombre propio + los 14 que necesitan los 15 items nuevos bloqueados en PROD), 9 diferencias vs original ya juzgadas como version propia de esta cover, 2 mayusculas de nombre propio a dejar, 28 avisos esperados por mapeo de elision a su forma canonica; cobertura 365/379",
+          "t": "2026-09-24T11:14:58Z"
         }
       }
     },
@@ -14432,10 +14468,10 @@
       "originalTrackId": "6aa7b98cf0f8e5713e69a53b",
       "titulo": "Cuando Me Miras Asi",
       "artista": "Cristian Castro",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "listo para QC",
-      "actualizado": "2026-09-24T11:01:10Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "espera a Saul: reabrir ingles WIT de tu (pronombre sujeto) en lineas 9/12/13/25/28/29/33/37",
+      "actualizado": "2026-09-24T11:24:07Z",
       "auditoria": {
         "prioridad": 4,
         "pasos": {
@@ -14446,8 +14482,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "linea 17 palabra 6 corregida (nota Saul); lineas 3 y 19 palabra 4 corregidas; 4 tokens sobrantes borrados (lineas 11/27/35/39 palabra 4); 26 casos de tilde restaurados en 5 palabras recurrentes",
-            "t": "2026-09-24T11:01:06Z"
+            "nota": "vuelta 2: linea 3/19 palabra 4 tu->tus (concordancia con sustantivo plural); linea 7/15/23/31 mas->mas con tilde",
+            "t": "2026-09-24T11:19:43Z"
           },
           "timing": {
             "v": "na",
@@ -14456,19 +14492,24 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "hueco cerrado + 15 remapeos de sentido (2 por cambio de texto, 1 por hueco nuevo, resto gemelas/homografos); verify 100% cobertura, drift 0; sin items nuevos",
-            "t": "2026-09-24T11:01:08Z"
+            "nota": "vuelta 2: linea 3/19 palabra 4 reancladas a item posesivo plural (691176386b4bd837f4c8b30f); linea 7/15/23/31 reancladas al homografo con tilde (68447467bd067073568e55b4); barrido mi/tu completo sin otros hallazgos",
+            "t": "2026-09-24T11:19:43Z"
           },
           "ingles": {
+            "v": "saul",
+            "nota": "WIT stale 'your' en pronombre sujeto tu (lineas 9/12/13/25/28/29/33/37); draft ya approved, agente no lo reabre",
+            "t": "2026-09-24T11:19:43Z"
+          },
+          "qc": {
             "v": "ok",
-            "nota": "cobertura 40/40 ya aprobada previamente (draft approved); no se toco",
-            "t": "2026-09-24T11:01:09Z"
+            "nota": "vuelta 2: tus/mas confirmados y verificados independientemente; solo queda ingles:saul (WIT tu)",
+            "t": "2026-09-24T11:23:58Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_errata 3; sin_mapear 1; item_tilde_distinta 26; gemelas_distintas 18",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "VERDE",
+          "resumen": "vuelta 2: tus/mas confirmados y verificados independientemente; solo queda ingles:saul (WIT tu)",
+          "t": "2026-09-24T11:23:58Z"
         }
       }
     },
@@ -19633,10 +19674,10 @@
       "originalTrackId": "6aa7d5c6387e9481dd7ddf21",
       "titulo": "Libro Abierto",
       "artista": "Gerardo Reyes",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "listo para QC",
-      "actualizado": "2026-09-24T11:03:32Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "QC: arreglar timing real de audio (offset -7 a -7.7s), vuelta 2",
+      "actualizado": "2026-09-24T11:19:03Z",
       "auditoria": {
         "prioridad": 7,
         "pasos": {
@@ -19646,9 +19687,9 @@
             "t": "2026-09-24T11:03:16Z"
           },
           "timing": {
-            "v": "ok",
-            "nota": "0 drift LRC/richsync todas las lineas, orden monotono, sin duraciones 0/excesivas; fuente karaokeMp3",
-            "t": "2026-09-24T11:03:18Z"
+            "v": "falta",
+            "nota": "offset de audio real medido: -7030ms stemVoc / -7730ms mixMp3V vs reloj karaokeMp3 de los timings; sin pin; retimear con el kit",
+            "t": "2026-09-24T11:19:03Z"
           },
           "mapeo": {
             "v": "ok",
@@ -19664,12 +19705,17 @@
             "v": "saul",
             "nota": "lineas 16 y 27: orden y palabras de mas dudosos, no se tocan sin confirmar",
             "t": "2026-09-24T11:03:26Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "timing: offset de audio real -7 a -7.7s sin medir por el trabajador, medido ahora; resto (LRC/mapeo/ingles) verificado OK",
+            "t": "2026-09-24T11:18:51Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_tilde 3; vs_original_errata 2; vs_original_falta 9; gemelas_distintas 5",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "DEVUELTO",
+          "resumen": "timing: offset de audio real -7 a -7.7s sin medir por el trabajador, medido ahora; resto (LRC/mapeo/ingles) verificado OK",
+          "t": "2026-09-24T11:18:51Z"
         }
       }
     },
