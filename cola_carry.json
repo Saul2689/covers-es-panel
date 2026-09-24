@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T13:51:22Z",
+  "generado": "2026-09-24T14:01:40Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -1132,13 +1132,39 @@
       "originalTrackId": "6aa7cd32387e9481dd7d645d",
       "titulo": "De Que Manera Te Olvido",
       "artista": "Vicente Fernández",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #25 (24 sep): mapeo, mayúsculas, palabras de la letra. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-24T13:53:17Z",
       "auditoria": {
         "prioridad": 25,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry ya aplicado antes de esta auditoria; cobertura y estructura consistentes con el original",
+            "t": "2026-09-24T13:53:10Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "1 edit via lrc_plan_fix: linea 2 mayuscula media; resto de hallazgos qc justificados (signos multilinea = pregunta a 4 lineas igual que el original, hueco linea 26 = instrumental igual que el original, palabra de mas linea 2 confirmada cantada por richsync, minuscula linea 2 es efecto del desplazamiento de token)",
+            "t": "2026-09-24T13:53:11Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "track_timing_report drift 0ms en las 35 lineas; cover_audio_measure: karaokeMp3 (timeline usado) offset 0ms conf 5.75 firstSound 1140ms, sin retime",
+            "t": "2026-09-24T13:53:11Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "0 sin mapear (157/157), 4 gemelas unificadas al sentido de referencia; 2 items nuevos creados dev+prod sin traducir (API sin credito, en pendiente_traducir.tsv)",
+            "t": "2026-09-24T13:53:11Z"
+          },
+          "ingles": {
+            "v": "na",
+            "nota": "35/35 lineas ya cubiertas, draft approved; ninguno de los cambios de esta pasada altero el significado de una linea, no se reabre",
+            "t": "2026-09-24T13:53:12Z"
+          }
+        },
         "qc": {
           "v": "ROJO",
           "resumen": "qc_es inicial: sin_mapear 3; gemelas_distintas 4",
@@ -1241,16 +1267,47 @@
       "titulo": "Lejos Estamos Mejor",
       "artista": "Edén Muñoz",
       "estado": "correccion",
-      "vueltas": 0,
-      "motivo": "Prioridad Saúl #6 (24 sep): mapeo. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "vueltas": 1,
+      "motivo": "QC devuelto: discordancia de genero linea 20",
+      "actualizado": "2026-09-24T14:00:30Z",
       "auditoria": {
         "prioridad": 6,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry ya aplicado, sin defectos de letra",
+            "t": "2026-09-24T13:54:12Z"
+          },
+          "lrc": {
+            "v": "falta",
+            "nota": "linea 20: ninguna afan debe ser ningun afan (masculino), no detectado por qc_es",
+            "t": "2026-09-24T14:00:28Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "sin hallazgos de timing en qc_es",
+            "t": "2026-09-24T13:54:12Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "8 huecos mapeados + 2 gemelas unificadas; 5 items nuevos creados dev+prod; items sin traducir (API sin credito)",
+            "t": "2026-09-24T13:54:13Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "29/29 aprobado; remapeos con mismo gloss EN, sin cambio de WIT necesario",
+            "t": "2026-09-24T13:54:13Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 20: discordancia de genero (ninguna/ningun) no detectada por el worker",
+            "t": "2026-09-24T14:00:26Z"
+          }
+        },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: sin_mapear 8; gemelas_distintas 2",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "DEVUELTO",
+          "resumen": "linea 20: discordancia de genero (ninguna/ningun) no detectada por el worker",
+          "t": "2026-09-24T14:00:26Z"
         }
       }
     },
@@ -22628,10 +22685,16 @@
       "estado": "correccion",
       "vueltas": 0,
       "motivo": "Prioridad Saúl #26 (24 sep): mapeo. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "actualizado": "2026-09-24T13:52:23Z",
       "auditoria": {
         "prioridad": 26,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry ya aplicado, coverOf presente",
+            "t": "2026-09-24T13:52:23Z"
+          }
+        },
         "qc": {
           "v": "ROJO",
           "resumen": "qc_es inicial: sin_mapear 6; gemelas_distintas 1",
@@ -22821,13 +22884,39 @@
       "originalTrackId": "6aa7ba86387e9481dd7bb18e",
       "titulo": "Ella",
       "artista": "Salvatore Adamo",
-      "estado": "correccion",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #24 (24 sep): mapeo. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "motivo": "espera permiso de Saul: 9 items + arreglo LRC linea 17 bloqueados (preparados); lineas 3-4, 9 y 21 de oido",
+      "actualizado": "2026-09-24T14:01:39Z",
       "auditoria": {
         "prioridad": 24,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry ya aplicado, no se re-proyecta",
+            "t": "2026-09-24T13:59:54Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "0 ms deriva 21/21 lineas; cover_audio_measure hecho, sin pin",
+            "t": "2026-09-24T13:59:54Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "linea 17 insert bloqueado por clasificador (payload listo); lineas 3-4 y 9 duda sin audio; linea 21 final corta a revisar con audio",
+            "t": "2026-09-24T13:59:54Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "6 items nuevos verificados en DEV, creacion PROD bloqueada por clasificador, 9 payloads listos en es_map/payloads",
+            "t": "2026-09-24T13:59:55Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft approved 21/21, sin cambios de sentido aplicados, no tocado",
+            "t": "2026-09-24T13:59:55Z"
+          }
+        },
         "qc": {
           "v": "ROJO",
           "resumen": "qc_es inicial: vs_original_errata 1; vs_original_falta 2; sin_mapear 6",
@@ -24271,13 +24360,39 @@
       "originalTrackId": "6aa7b8418d615aa3fed32f55",
       "titulo": "Como Una Ola",
       "artista": "Rocio Jurado",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #23 (24 sep): mapeo. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-24T13:55:04Z",
       "auditoria": {
         "prioridad": 23,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "ya aplicado, cover con letra/mapeo/ingles previos",
+            "t": "2026-09-24T13:54:49Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "linea 13 tok5 a->en bloqueado por clasificador, payload en es_map/payloads",
+            "t": "2026-09-24T13:54:50Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "hueco linea 18 es instrumental (verso2 tras coro, el original tampoco canta ahi); offsetMs 0 conf 4.03 karaokeMp3",
+            "t": "2026-09-24T13:54:50Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, gemelas unificadas, 17 items nuevos creados dev+prod, homografos revisados",
+            "t": "2026-09-24T13:54:50Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "reabrir lineas 6, 10, 11 (cambio de significado); linea 13 pendiente del fix de lrc",
+            "t": "2026-09-24T13:54:50Z"
+          }
+        },
         "qc": {
           "v": "ROJO",
           "resumen": "qc_es inicial: vs_original_errata 2; vs_original_falta 1; sin_mapear 9; gemelas_distintas 3",
