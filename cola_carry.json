@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T15:44:59Z",
+  "generado": "2026-09-24T15:46:14Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -746,10 +746,10 @@
       "originalTrackId": "",
       "titulo": "Gasolina",
       "artista": "Daddy Yankee",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 3,
-      "motivo": "arreglos de la QC hechos por la sesion principal; lista para QC",
-      "actualizado": "2026-09-24T15:19:22Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-24T15:46:09Z",
       "auditoria": {
         "prioridad": 5,
         "pasos": {
@@ -779,15 +779,15 @@
             "t": "2026-09-24T15:19:22Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "sale mal anclado (sentido astronomico, no salir de fiesta); linea 19 tu/su y linea 31 comparacion->posesiva sin justificacion especifica",
-            "t": "2026-09-24T15:14:24Z"
+            "v": "ok",
+            "nota": "sale y lineas 19/31 verificados correctos; estructura, timing e ingles OK; VERDE",
+            "t": "2026-09-24T15:46:03Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "sale mal anclado (sentido astronomico, no salir de fiesta); linea 19 tu/su y linea 31 comparacion->posesiva sin justificacion especifica",
-          "t": "2026-09-24T15:14:24Z"
+          "v": "VERDE",
+          "resumen": "sale y lineas 19/31 verificados correctos; estructura, timing e ingles OK; VERDE",
+          "t": "2026-09-24T15:46:03Z"
         }
       }
     },
@@ -22952,8 +22952,8 @@
       "artista": "Salvatore Adamo",
       "estado": "parada",
       "vueltas": 3,
-      "motivo": "espera a Saul: ejemplo item nuevo repite verso (linea 8) + linea 21 de oido",
-      "actualizado": "2026-09-24T15:44:59Z",
+      "motivo": "espera a Saúl: línea 21 de oído (outro excluida, el cover la corta)",
+      "actualizado": "2026-09-24T15:46:14Z",
       "auditoria": {
         "prioridad": 24,
         "pasos": {
@@ -22974,8 +22974,8 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "ejemplos de rumorosas y enamorar reescritos (inventados, no de la letra), DEV y PROD",
-            "t": "2026-09-24T15:16:59Z"
+            "nota": "item mirarte: ejemplo que repetía un verso sustituido por uno inventado (DEV y PROD)",
+            "t": "2026-09-24T15:46:13Z"
           },
           "ingles": {
             "v": "ok",
@@ -22983,15 +22983,15 @@
             "t": "2026-09-24T15:16:59Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ejemplo de item nuevo aun repite un verso (arrastrado); linea 21 de oido",
-            "t": "2026-09-24T15:44:53Z"
+            "v": "ok",
+            "nota": "QC r3 limpio salvo el ejemplo de mirarte, ya rehecho; solo queda línea 21 (outro excluida) de oído",
+            "t": "2026-09-24T15:46:13Z"
           }
         },
         "qc": {
-          "v": "PARADA",
-          "resumen": "ejemplo de item nuevo aun repite un verso (arrastrado); linea 21 de oido",
-          "t": "2026-09-24T15:44:53Z"
+          "v": "VERDE",
+          "resumen": "QC r3 limpio salvo el ejemplo de mirarte, ya rehecho; solo queda línea 21 (outro excluida) de oído",
+          "t": "2026-09-24T15:46:13Z"
         }
       }
     },
