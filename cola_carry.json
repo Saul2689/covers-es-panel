@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T14:01:40Z",
+  "generado": "2026-09-24T14:14:59Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -656,7 +656,7 @@
       "estado": "parada",
       "vueltas": 1,
       "motivo": "espera a Saul: crear item linea 5 en prod (bloqueado por clasificador, payload listo)",
-      "actualizado": "2026-09-24T12:39:38Z",
+      "actualizado": "2026-09-24T14:05:32Z",
       "auditoria": {
         "prioridad": 18,
         "pasos": {
@@ -676,9 +676,9 @@
             "t": "2026-09-24T12:24:58Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "cobertura 187/188; 1 token sin item (linea5 tok1) bloqueado por clasificador en prod, verificado en dev, payload listo en es_map/payloads; gemelas unificadas (4 pares) + 2 homografos tilde resueltos",
-            "t": "2026-09-24T12:24:58Z"
+            "v": "ok",
+            "nota": "tararéame creado en PROD 6ab52e1261f4737d0370c5d9 y anclado linea 5 (verificado); falta traducirlo",
+            "t": "2026-09-24T14:05:32Z"
           },
           "ingles": {
             "v": "na",
@@ -1132,10 +1132,10 @@
       "originalTrackId": "6aa7cd32387e9481dd7d645d",
       "titulo": "De Que Manera Te Olvido",
       "artista": "Vicente Fernández",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T13:53:17Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "DEVUELTO: linea 2 palabra extra necesita oido, marcar lrc saul",
+      "actualizado": "2026-09-24T14:06:03Z",
       "auditoria": {
         "prioridad": 25,
         "pasos": {
@@ -1163,12 +1163,17 @@
             "v": "na",
             "nota": "35/35 lineas ya cubiertas, draft approved; ninguno de los cambios de esta pasada altero el significado de una linea, no se reabre",
             "t": "2026-09-24T13:53:12Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 2 palabra extra sin prueba de oido, resto ok",
+            "t": "2026-09-24T14:06:03Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: sin_mapear 3; gemelas_distintas 4",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "DEVUELTO",
+          "resumen": "linea 2 palabra extra sin prueba de oido, resto ok",
+          "t": "2026-09-24T14:06:03Z"
         }
       }
     },
@@ -1266,10 +1271,10 @@
       "originalTrackId": "6aa7d7e7387e9481dd7e26ce",
       "titulo": "Lejos Estamos Mejor",
       "artista": "Edén Muñoz",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC devuelto: discordancia de genero linea 20",
-      "actualizado": "2026-09-24T14:00:30Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-24T14:11:59Z",
       "auditoria": {
         "prioridad": 6,
         "pasos": {
@@ -1279,9 +1284,9 @@
             "t": "2026-09-24T13:54:12Z"
           },
           "lrc": {
-            "v": "falta",
-            "nota": "linea 20: ninguna afan debe ser ningun afan (masculino), no detectado por qc_es",
-            "t": "2026-09-24T14:00:28Z"
+            "v": "ok",
+            "nota": "linea 20: ninguna->ningun corregido via lrc_plan_fix (edits), coincide ahora con linea 11; ancla en idx2 sin cambio de wordId, verificado con track_line_tokens_get; backup _pre_audit.json tomado (tarde, antes de escribir)",
+            "t": "2026-09-24T14:06:29Z"
           },
           "timing": {
             "v": "ok",
@@ -1290,8 +1295,8 @@
           },
           "mapeo": {
             "v": "saul",
-            "nota": "8 huecos mapeados + 2 gemelas unificadas; 5 items nuevos creados dev+prod; items sin traducir (API sin credito)",
-            "t": "2026-09-24T13:54:13Z"
+            "nota": "vuelta 2: al igualar linea20/11 se destapo una 3a gemela oculta (prep. antes de idx1) con item distinto; unificada a la del resto del track (linea 11/14/23) via word_insight_create; sigue saul por items sin traducir (API sin credito, pendiente_traducir.tsv)",
+            "t": "2026-09-24T14:11:58Z"
           },
           "ingles": {
             "v": "ok",
@@ -22682,10 +22687,10 @@
       "originalTrackId": "6aa7d7e38d615aa3fed58319",
       "titulo": "Hoy Te Toca Dormir En El Suelo",
       "artista": "Yolanda Del Rio",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #26 (24 sep): mapeo. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T13:52:23Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-24T14:03:35Z",
       "auditoria": {
         "prioridad": 26,
         "pasos": {
@@ -22693,6 +22698,26 @@
             "v": "ok",
             "nota": "carry ya aplicado, coverOf presente",
             "t": "2026-09-24T13:52:23Z"
+          },
+          "lrc": {
+            "v": "na",
+            "nota": "sin cambios de letra necesarios",
+            "t": "2026-09-24T14:03:08Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0ms todas las lineas; hueco linea 19 = instrumental (igual en el original)",
+            "t": "2026-09-24T14:03:08Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "6 huecos + 1 gemela resueltos; 7 items PROD nuevos sin traducir (API sin credito), en pendiente_traducir.tsv",
+            "t": "2026-09-24T14:03:09Z"
+          },
+          "ingles": {
+            "v": "na",
+            "nota": "draft approved, ninguna linea cambio de sentido; anclas nuevas sin WIT (nota para Saul)",
+            "t": "2026-09-24T14:03:09Z"
           }
         },
         "qc": {
@@ -24360,10 +24385,10 @@
       "originalTrackId": "6aa7b8418d615aa3fed32f55",
       "titulo": "Como Una Ola",
       "artista": "Rocio Jurado",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T13:55:04Z",
+      "motivo": "espera a Saul: linea13 lrc bloqueada, reabrir ingles lineas 6/10/11, traducir 17 items sin credito",
+      "actualizado": "2026-09-24T14:14:18Z",
       "auditoria": {
         "prioridad": 23,
         "pasos": {
@@ -24383,20 +24408,25 @@
             "t": "2026-09-24T13:54:50Z"
           },
           "mapeo": {
-            "v": "ok",
-            "nota": "0 sin mapear, gemelas unificadas, 17 items nuevos creados dev+prod, homografos revisados",
-            "t": "2026-09-24T13:54:50Z"
+            "v": "saul",
+            "nota": "17 items sin traducir (sin credito API)",
+            "t": "2026-09-24T14:13:55Z"
           },
           "ingles": {
             "v": "saul",
             "nota": "reabrir lineas 6, 10, 11 (cambio de significado); linea 13 pendiente del fix de lrc",
             "t": "2026-09-24T13:54:50Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura/timing/mapeo/17 items limpios; lineas 10-11 verificadas contra original; residual linea13 y timing linea18 justificados",
+            "t": "2026-09-24T14:14:06Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_errata 2; vs_original_falta 1; sin_mapear 9; gemelas_distintas 3",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "VERDE",
+          "resumen": "estructura/timing/mapeo/17 items limpios; lineas 10-11 verificadas contra original; residual linea13 y timing linea18 justificados",
+          "t": "2026-09-24T14:14:06Z"
         }
       }
     },
