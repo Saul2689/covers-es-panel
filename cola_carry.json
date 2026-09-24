@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T12:06:27Z",
+  "generado": "2026-09-24T12:09:55Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -185,10 +185,16 @@
       "estado": "correccion",
       "vueltas": 0,
       "motivo": "Prioridad Saúl #16 (24 sep): palabras de la letra. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "actualizado": "2026-09-24T12:06:58Z",
       "auditoria": {
         "prioridad": 16,
-        "pasos": {},
+        "pasos": {
+          "lrc": {
+            "v": "na",
+            "nota": "iniciando: qc_es ROJO, backup tomado, revisando lineas 36 y 40 (nota Saul prio #16)",
+            "t": "2026-09-24T12:06:58Z"
+          }
+        },
         "qc": {
           "v": "ROJO",
           "resumen": "qc_es inicial: vs_original_errata 1; vs_original_falta 1; sin_mapear 3; gemelas_distintas 8",
@@ -21908,10 +21914,10 @@
       "originalTrackId": "6aa7bbbf387e9481dd7bd2fe",
       "titulo": "Fanny",
       "artista": "Leo Dan",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T11:58:45Z",
+      "motivo": "espera a Saul: reabrir ingles lineas 11,12,21,22 (porque->por que cambia el sentido, aprobado ya no calza) y rehacer el WIT palabra por palabra de esas lineas, no solo la traduccion de linea",
+      "actualizado": "2026-09-24T12:09:15Z",
       "auditoria": {
         "prioridad": 13,
         "pasos": {
@@ -21939,12 +21945,17 @@
             "v": "saul",
             "nota": "draft en 'approved', no se toca; reabrir ingles: lineas 11,12,21,22 (cambio de sentido porque->por que, de declarativo a interrogativo); lineas 3,5,8,10,19,29 solo tilde, sin cambio de sentido, no requieren reapertura",
             "t": "2026-09-24T11:57:53Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "split porque->por que confirmado contra original, estructura limpia, WIT de esas 4 lineas queda colgado del split (detalle para quien reabra ingles)",
+            "t": "2026-09-24T12:09:06Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_tilde 2; vs_original_pegada 4; vs_original_falta 2; sin_mapear 6; gemelas_distintas 9",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "VERDE",
+          "resumen": "split porque->por que confirmado contra original, estructura limpia, WIT de esas 4 lineas queda colgado del split (detalle para quien reabra ingles)",
+          "t": "2026-09-24T12:09:06Z"
         }
       }
     },
@@ -22031,10 +22042,10 @@
       "originalTrackId": "6aa7b9908d615aa3fed344c3",
       "titulo": "Cuidado Amor",
       "artista": "Julio Iglesias",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T12:01:37Z",
+      "estado": "parada",
+      "vueltas": 2,
+      "motivo": "espera a Saul: reabrir ingles 24/25 y WIT nuevos, pin de audio a oido, traduccion de 4 items",
+      "actualizado": "2026-09-24T12:09:55Z",
       "auditoria": {
         "prioridad": 12,
         "pasos": {
@@ -22054,20 +22065,25 @@
             "t": "2026-09-24T12:00:11Z"
           },
           "timing": {
-            "v": "ok",
-            "nota": "drift LRC/richsync 0 en 52 lineas; hueco linea 22 es interludio instrumental normal; audio stemVoc offset890/delta3632 NO pineable (ver informe), decision de pin queda para sesion principal",
-            "t": "2026-09-24T12:01:04Z"
+            "v": "saul",
+            "nota": "pin a oido: stemVoc +890ms conf 1.97, lengthDelta 3632",
+            "t": "2026-09-24T12:09:54Z"
           },
           "ingles": {
             "v": "saul",
             "nota": "draft approved, no tocado; reabrir por cambio de sentido en linea 24 y linea 25 (palabra movida entre lineas); WIT de anclas nuevas (marchaste/guardas/cuidado/olvidado/cariño/aun/como/extraño/sera/yo/la) pendientes de ese reopen",
             "t": "2026-09-24T12:01:26Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "linea 38 era cache; cuidado PAST_PARTICIPLE arreglado en sesion principal",
+            "t": "2026-09-24T12:09:54Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_tilde 1; vs_original_errata 3; vs_original_falta 4; sin_mapear 10; gemelas_distintas 9",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "VERDE",
+          "resumen": "linea 38 era cache; cuidado PAST_PARTICIPLE arreglado en sesion principal",
+          "t": "2026-09-24T12:09:54Z"
         }
       }
     },
