@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T14:56:16Z",
+  "generado": "2026-09-24T15:04:52Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -601,9 +601,9 @@
       "titulo": "La Hija De Nadie",
       "artista": "Yolanda Del Rio",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC: 0 rojo qc_es, solo aviso timing justificado; mapeo con items sin traducir",
-      "actualizado": "2026-09-24T14:15:54Z",
+      "vueltas": 1,
+      "motivo": "lista para QC (vuelta 2)",
+      "actualizado": "2026-09-24T15:04:41Z",
       "auditoria": {
         "prioridad": 27,
         "pasos": {
@@ -614,8 +614,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "linea8: de sobrante eliminada; lineas17 y 29: que insertada (coincide con original); 0 diffs vs original tras el fix",
-            "t": "2026-09-24T14:15:53Z"
+            "nota": "linea 13/25 tilde mas-mas corregida (vuelta 2)",
+            "t": "2026-09-24T15:03:58Z"
           },
           "timing": {
             "v": "na",
@@ -623,20 +623,25 @@
             "t": "2026-09-24T14:15:53Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "0/183 sin mapear (era 10); gemela linea25 unificada; 7 items nuevos creados DEV+PROD (criminal-adj, vendados, quererse, decidieron, merecieron, enganando, agradecerle) sin traducir por falta de credito (en pendiente_traducir.tsv); fanout de 'criminal' (adjetivo) incompleto, solo MASC.SING creada, faltan fem/plural",
-            "t": "2026-09-24T14:15:54Z"
+            "v": "ok",
+            "nota": "linea 13/25 ancla mas remapeada al sentido comparativo (vuelta 2)",
+            "t": "2026-09-24T15:03:58Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "30/30 lineas, draft approved, sin cambios de significado (no se toca aprobado); WIT desfasado en lineas 17 y 29 tras el desplazamiento por insercion, y anclas nuevas (quererse, criminal, vendados, decidieron, merecieron x2, enganando x2, agradecerle, de-linea19) sin WIT: pendiente para cuando se reabra",
-            "t": "2026-09-24T14:15:54Z"
+            "nota": "WIT linea 17/29 idx4 que corregido, draft resubmitted pending_review (vuelta 2)",
+            "t": "2026-09-24T15:03:58Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "mas/mas sin tilde mal anclado (conjuncion en vez de comparativo, lineas 13 y 25); WIT stale de que en lineas 17 y 29",
+            "t": "2026-09-24T14:58:00Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_falta 2; sin_mapear 10; gemelas_distintas 1",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "DEVUELTO",
+          "resumen": "mas/mas sin tilde mal anclado (conjuncion en vez de comparativo, lineas 13 y 25); WIT stale de que en lineas 17 y 29",
+          "t": "2026-09-24T14:58:00Z"
         }
       }
     },
@@ -744,7 +749,7 @@
       "estado": "revision",
       "vueltas": 2,
       "motivo": "listo para QC",
-      "actualizado": "2026-09-24T14:56:10Z",
+      "actualizado": "2026-09-24T15:04:52Z",
       "auditoria": {
         "prioridad": 5,
         "pasos": {
@@ -760,8 +765,8 @@
           },
           "timing": {
             "v": "ok",
-            "nota": "track_timing_report: 0ms drift en las 52 lineas, isConstantShift true",
-            "t": "2026-09-24T11:14:43Z"
+            "nota": "cover_audio_measure (nunca medido antes): karaokeMp3 offset=0ms conf=3.22 lengthDelta=0 firstSound=8080ms; stemVoc offset=0ms conf=2.19 lengthDelta=0 firstSound=8080ms; primera linea LRC en 18106ms (hueco previo = intro instrumental, sin pin)",
+            "t": "2026-09-24T15:04:52Z"
           },
           "mapeo": {
             "v": "ok",
@@ -769,14 +774,14 @@
             "t": "2026-09-24T14:56:10Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "borrador EN en pending_review, no tocado; 10 lineas cambiaron de texto en este paso y necesitan revision de su traduccion EN cuando el borrador se pueda editar",
-            "t": "2026-09-24T11:14:51Z"
+            "v": "ok",
+            "nota": "reabierto el borrador EN (pending_review, propio de Saul): corregida linea 20 (cocina no bocina/speaker); las otras 15 lineas tocadas en ronda1+ronda2 ya encajaban con los glosses de palabra vigentes; submit -> pending_review de nuevo",
+            "t": "2026-09-24T15:01:28Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "quedan 14 tokens sin mapear (nombre propio + los 14 que necesitan los 15 items nuevos bloqueados en PROD), 9 diferencias vs original ya juzgadas como version propia de esta cover, 2 mayusculas de nombre propio a dejar, 28 avisos esperados por mapeo de elision a su forma canonica; cobertura 365/379",
-            "t": "2026-09-24T11:14:58Z"
+            "v": "ok",
+            "nota": "final: cob 378/379 (solo Matadores, nombre propio, sin mapear); vs_original_errata 9 + falta 2 + sobra 2 = variante propia de la version, juzgado en ronda1; mayuscula_media 2 = nombre propio; item_otra_palabra 34 = elision a forma canonica por diseno; ingles 52/52 pending_review",
+            "t": "2026-09-24T15:04:17Z"
           }
         },
         "qc": {
@@ -1158,10 +1163,10 @@
       "originalTrackId": "6aa7cd32387e9481dd7d645d",
       "titulo": "De Que Manera Te Olvido",
       "artista": "Vicente Fernández",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "DEVUELTO: linea 2 palabra extra necesita oido, marcar lrc saul",
-      "actualizado": "2026-09-24T14:06:03Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-24T15:02:54Z",
       "auditoria": {
         "prioridad": 25,
         "pasos": {
@@ -1172,8 +1177,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "1 edit via lrc_plan_fix: linea 2 mayuscula media; resto de hallazgos qc justificados (signos multilinea = pregunta a 4 lineas igual que el original, hueco linea 26 = instrumental igual que el original, palabra de mas linea 2 confirmada cantada por richsync, minuscula linea 2 es efecto del desplazamiento de token)",
-            "t": "2026-09-24T13:53:11Z"
+            "nota": "vuelta 2: linea 2 palabra extra borrada (regla de la original manda), ancla fuera de rango eliminada",
+            "t": "2026-09-24T15:02:26Z"
           },
           "timing": {
             "v": "ok",
@@ -1181,14 +1186,14 @@
             "t": "2026-09-24T13:53:11Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "0 sin mapear (157/157), 4 gemelas unificadas al sentido de referencia; 2 items nuevos creados dev+prod sin traducir (API sin credito, en pendiente_traducir.tsv)",
-            "t": "2026-09-24T13:53:11Z"
+            "v": "ok",
+            "nota": "vuelta 2: los 2 items nuevos de la vuelta 1 ya sin idiomas pendientes (missing-languages 0)",
+            "t": "2026-09-24T15:02:27Z"
           },
           "ingles": {
-            "v": "na",
-            "nota": "35/35 lineas ya cubiertas, draft approved; ninguno de los cambios de esta pasada altero el significado de una linea, no se reabre",
-            "t": "2026-09-24T13:53:12Z"
+            "v": "ok",
+            "nota": "vuelta 2: linea 2 reabierta (traduccion + 2 WIT), draft enviado a pending_review",
+            "t": "2026-09-24T15:02:26Z"
           },
           "qc": {
             "v": "falta",
@@ -13818,10 +13823,10 @@
       "originalTrackId": "6aa7d7e1387e9481dd7e2324",
       "titulo": "Hasta Que Vuelvo Conmigo",
       "artista": "Marc Anthony",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "espera permiso de Saul: escrituras PROD bloqueadas por el clasificador (plan LRC + 5 items listos en el informe)",
-      "actualizado": "2026-09-24T14:49:02Z",
+      "estado": "revision",
+      "vueltas": 1,
+      "motivo": "ingles corregido en el borrador; lista para QC",
+      "actualizado": "2026-09-24T15:04:32Z",
       "auditoria": {
         "prioridad": 17,
         "pasos": {
@@ -13847,14 +13852,19 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "draft reabierto: lineas 30 y 54-56 retraducidas y 35 WIT corregidos; enviado a pending_review (falta que Saul apruebe)",
-            "t": "2026-09-24T14:48:43Z"
+            "nota": "borrador pending_review: WITs recolocados 1,2,7,21,30; lineas 54-56 y linea 38 corregidas",
+            "t": "2026-09-24T15:04:32Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT no recolocado tras inserts (lineas 1,2,7,21,30), ancla daré linea 38 sin WIT, linea 54-56 no retraducida de verdad",
+            "t": "2026-09-24T15:02:43Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_errata 3; vs_original_falta 5; sin_mapear 16; item_no_es 1; gemelas_distintas 3",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "DEVUELTO",
+          "resumen": "WIT no recolocado tras inserts (lineas 1,2,7,21,30), ancla daré linea 38 sin WIT, linea 54-56 no retraducida de verdad",
+          "t": "2026-09-24T15:02:43Z"
         }
       }
     },
@@ -16456,10 +16466,10 @@
       "originalTrackId": "6aa7d5bb387e9481dd7dddd8",
       "titulo": "Hoy No Me Puedo Levantar",
       "artista": "Mecano",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 2,
-      "motivo": "vuelta 2: reabrir ingles lineas 25-26 del outro (linea + WIT ancla nueva) tras el cambio de texto; resto ok",
-      "actualizado": "2026-09-24T12:46:32Z",
+      "motivo": "ingles reabierto y enviado; lista para QC",
+      "actualizado": "2026-09-24T15:02:48Z",
       "auditoria": {
         "prioridad": 19,
         "pasos": {
@@ -16469,9 +16479,9 @@
             "t": "2026-09-24T12:21:13Z"
           },
           "lrc": {
-            "v": "falta",
-            "nota": "linea 25-26: palabra partida entre lineas en el outro (split del proveedor), necesita cover-lyric-repair; resto sin tocar",
-            "t": "2026-09-24T12:21:13Z"
+            "v": "ok",
+            "nota": "outro lineas 25-26 ya corregido (QC vuelta 2 lo confirma); ancla sobrante fuera de rango de nuestro propio movimiento retirada",
+            "t": "2026-09-24T14:58:06Z"
           },
           "timing": {
             "v": "ok",
@@ -16479,14 +16489,14 @@
             "t": "2026-09-24T12:21:13Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "5 items nuevos sin traducir (API sin credito)",
-            "t": "2026-09-24T12:37:19Z"
+            "v": "ok",
+            "nota": "5 items nuevos traducidos a mano en 19 idiomas",
+            "t": "2026-09-24T14:58:06Z"
           },
           "ingles": {
-            "v": "na",
-            "nota": "draft ya approved 27/27; ningun texto de linea tocado, no hace falta reabrir",
-            "t": "2026-09-24T12:21:14Z"
+            "v": "ok",
+            "nota": "lineas 25-26 retraducidas + WIT desplazados arreglados; pending_review",
+            "t": "2026-09-24T15:02:48Z"
           },
           "qc": {
             "v": "falta",
@@ -22182,10 +22192,10 @@
       "originalTrackId": "6aa7bbbf387e9481dd7bd2fe",
       "titulo": "Fanny",
       "artista": "Leo Dan",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "espera a Saul: reabrir ingles lineas 11,12,21,22 (porque->por que cambia el sentido, aprobado ya no calza) y rehacer el WIT palabra por palabra de esas lineas, no solo la traduccion de linea",
-      "actualizado": "2026-09-24T12:09:15Z",
+      "motivo": "ingles reabierto y enviado; lista para QC",
+      "actualizado": "2026-09-24T15:01:35Z",
       "auditoria": {
         "prioridad": 13,
         "pasos": {
@@ -22210,9 +22220,9 @@
             "t": "2026-09-24T11:57:38Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "draft en 'approved', no se toca; reabrir ingles: lineas 11,12,21,22 (cambio de sentido porque->por que, de declarativo a interrogativo); lineas 3,5,8,10,19,29 solo tilde, sin cambio de sentido, no requieren reapertura",
-            "t": "2026-09-24T11:57:53Z"
+            "v": "ok",
+            "nota": "lineas 11 y 21 retraducidas + WIT palabra por palabra en 11,12,21,22; pending_review",
+            "t": "2026-09-24T15:01:24Z"
           },
           "qc": {
             "v": "ok",
@@ -22940,10 +22950,10 @@
       "originalTrackId": "6aa7ba86387e9481dd7bb18e",
       "titulo": "Ella",
       "artista": "Salvatore Adamo",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "espera permiso de Saul: 9 items + arreglo LRC linea 17 bloqueados (preparados); lineas 3-4, 9 y 21 de oido",
-      "actualizado": "2026-09-24T14:01:39Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-24T15:03:51Z",
       "auditoria": {
         "prioridad": 24,
         "pasos": {
@@ -22959,18 +22969,18 @@
           },
           "lrc": {
             "v": "saul",
-            "nota": "linea 17 insert bloqueado por clasificador (payload listo); lineas 3-4 y 9 duda sin audio; linea 21 final corta a revisar con audio",
-            "t": "2026-09-24T13:59:54Z"
+            "nota": "linea 3-4 y 9 resueltas a favor del original (edits); linea 21 final sigue en duda sin audio, seccion excluida",
+            "t": "2026-09-24T15:03:46Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "6 items nuevos verificados en DEV, creacion PROD bloqueada por clasificador, 9 payloads listos en es_map/payloads",
-            "t": "2026-09-24T13:59:55Z"
+            "v": "ok",
+            "nota": "9 items creados en PROD, ancladas las 6 anclas nuevas; traducidos 19 idiomas",
+            "t": "2026-09-24T15:03:45Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "draft approved 21/21, sin cambios de sentido aplicados, no tocado",
-            "t": "2026-09-24T13:59:55Z"
+            "nota": "draft reabierto, wits olvidor/a/nuestro/viejo corregidos, lineas 3 y 9 retraducidas, submit a pending_review",
+            "t": "2026-09-24T15:03:46Z"
           }
         },
         "qc": {
