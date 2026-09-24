@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T15:24:49Z",
+  "generado": "2026-09-24T15:26:04Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -874,10 +874,10 @@
       "originalTrackId": "6aa7b8368d615aa3fed32f12",
       "titulo": "Cenizas",
       "artista": "Javier Solis",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "espera a Saul: 4 items a PROD (autorizacion), pin de audio a oido, reabrir ingles linea 35",
-      "actualizado": "2026-09-24T15:14:26Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-24T15:25:11Z",
       "auditoria": {
         "prioridad": 10,
         "pasos": {
@@ -888,23 +888,23 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "tilde hallaras->hallaras con tilde en outro (linea 35 tok3)",
-            "t": "2026-09-24T11:33:03Z"
+            "nota": "linea 17 y 28: sobra articulo eliminado (arbitro=original); outro (l35-37) justificado, re-lineacion sin diferencia de contenido; Solo sin tilde correcto",
+            "t": "2026-09-24T15:25:00Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "medido: karaokeMp3 y stemVoc offset 0 delta 0; mixMp3V es otra edicion (delta -7.9s), no es la referencia; sin pin",
-            "t": "2026-09-24T15:14:26Z"
+            "nota": "drift 0 en 37 lineas; hueco 20s linea 24 = interludio real; audio ya medido (karaokeMp3/stemVoc offset 0, mixMp3V otro edit), sin pin",
+            "t": "2026-09-24T15:25:00Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "3 gemelas unificadas (Y linea18, las linea30, cenizas linea32+35) + tanto linea1 mapeado a item existente; 6 sin_mapear (desventura L9, remover L19+30, hallaras/hallarás L22+34+36) bloqueados: clasificador impide crear item en PROD, 3 items creados y verificados en DEV, payloads en .singit/es_map/payloads/6aa1110864c9b8ff110c4ac9/",
-            "t": "2026-09-24T11:34:15Z"
+            "v": "ok",
+            "nota": "6 anclas nuevas en 3 items PROD ya subidos por Saul; plural no aparece en la letra, no se crea",
+            "t": "2026-09-24T15:24:59Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "draft ya approved; cambie el texto de la linea 35 (1-based, outro) al arreglar la tilde de hallaras->hallarás. reabrir ingles: linea 35",
-            "t": "2026-09-24T11:34:21Z"
+            "v": "ok",
+            "nota": "draft reabierto, lineas 17/28/35 retraducidas + 6 WIT nuevos, submit a pending_review",
+            "t": "2026-09-24T15:25:00Z"
           },
           "qc": {
             "v": "ok",
@@ -13824,9 +13824,9 @@
       "titulo": "Hasta Que Vuelvo Conmigo",
       "artista": "Marc Anthony",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "ingles corregido en el borrador; lista para QC",
-      "actualizado": "2026-09-24T15:04:32Z",
+      "vueltas": 2,
+      "motivo": "lista para QC: solo líneas 54-56 del inglés",
+      "actualizado": "2026-09-24T15:26:04Z",
       "auditoria": {
         "prioridad": 17,
         "pasos": {
@@ -13852,19 +13852,19 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "borrador pending_review: WITs recolocados 1,2,7,21,30; lineas 54-56 y linea 38 corregidas",
-            "t": "2026-09-24T15:04:32Z"
+            "nota": "líneas 54-56: inglés en tercera persona (línea y WIT); borrador reenviado a pending_review",
+            "t": "2026-09-24T15:26:04Z"
           },
           "qc": {
             "v": "falta",
-            "nota": "WIT no recolocado tras inserts (lineas 1,2,7,21,30), ancla daré linea 38 sin WIT, linea 54-56 no retraducida de verdad",
-            "t": "2026-09-24T15:02:43Z"
+            "nota": "linea 54-56: WIT/linea recolocados pero con persona gramatical incorrecta",
+            "t": "2026-09-24T15:24:52Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "WIT no recolocado tras inserts (lineas 1,2,7,21,30), ancla daré linea 38 sin WIT, linea 54-56 no retraducida de verdad",
-          "t": "2026-09-24T15:02:43Z"
+          "resumen": "linea 54-56: WIT/linea recolocados pero con persona gramatical incorrecta",
+          "t": "2026-09-24T15:24:52Z"
         }
       }
     },
