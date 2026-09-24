@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T15:26:04Z",
+  "generado": "2026-09-24T15:27:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -13823,10 +13823,10 @@
       "originalTrackId": "6aa7d7e1387e9481dd7e2324",
       "titulo": "Hasta Que Vuelvo Conmigo",
       "artista": "Marc Anthony",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "lista para QC: solo líneas 54-56 del inglés",
-      "actualizado": "2026-09-24T15:26:04Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-24T15:27:29Z",
       "auditoria": {
         "prioridad": 17,
         "pasos": {
@@ -13842,8 +13842,8 @@
           },
           "timing": {
             "v": "ok",
-            "nota": "audio medido: stemVoc -30ms conf 5.6, karaokeMp3 base; huecos lineas 35/41 instrumentales",
-            "t": "2026-09-24T14:49:02Z"
+            "nota": "líneas 2 y 30: inicio movido a la palabra insertada en idx 0 (400 ms antes); deriva 0",
+            "t": "2026-09-24T15:27:29Z"
           },
           "mapeo": {
             "v": "ok",
@@ -13856,15 +13856,15 @@
             "t": "2026-09-24T15:26:04Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "linea 54-56: WIT/linea recolocados pero con persona gramatical incorrecta",
-            "t": "2026-09-24T15:24:52Z"
+            "v": "ok",
+            "nota": "linea 54-56 corregida a 3a persona, resto ya verificado en rondas previas",
+            "t": "2026-09-24T15:27:10Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "linea 54-56: WIT/linea recolocados pero con persona gramatical incorrecta",
-          "t": "2026-09-24T15:24:52Z"
+          "v": "VERDE",
+          "resumen": "linea 54-56 corregida a 3a persona, resto ya verificado en rondas previas",
+          "t": "2026-09-24T15:27:10Z"
         }
       }
     },
@@ -14809,10 +14809,10 @@
       "originalTrackId": "6aa7b98cf0f8e5713e69a53b",
       "titulo": "Cuando Me Miras Asi",
       "artista": "Cristian Castro",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "tilde + ingles hechos; lista para QC",
-      "actualizado": "2026-09-24T15:08:14Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-24T15:26:49Z",
       "auditoria": {
         "prioridad": 4,
         "pasos": {
@@ -14843,14 +14843,14 @@
           },
           "qc": {
             "v": "ok",
-            "nota": "vuelta 2: tus/mas confirmados y verificados independientemente; solo queda ingles:saul (WIT tu)",
-            "t": "2026-09-24T11:23:58Z"
+            "nota": "vuelta 3: tilde+ancla+WIT de tu sujeto (8 lineas) verificados; ingles pending_review; sin hallazgos sin justificar",
+            "t": "2026-09-24T15:26:44Z"
           }
         },
         "qc": {
           "v": "VERDE",
-          "resumen": "vuelta 2: tus/mas confirmados y verificados independientemente; solo queda ingles:saul (WIT tu)",
-          "t": "2026-09-24T11:23:58Z"
+          "resumen": "vuelta 3: tilde+ancla+WIT de tu sujeto (8 lineas) verificados; ingles pending_review; sin hallazgos sin justificar",
+          "t": "2026-09-24T15:26:44Z"
         }
       }
     },
