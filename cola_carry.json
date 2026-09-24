@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T16:03:15Z",
+  "generado": "2026-09-24T16:04:23Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -8,10 +8,10 @@
       "originalTrackId": "6963856ae0ba44e297a6881c",
       "titulo": "Mi Gente",
       "artista": "Willy William",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 87%, ingles 47/53; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-24T16:03:15Z",
+      "motivo": "todo cerrado salvo reapertura de ingles (draft ajeno en pending_review); qc_es solo deja hallazgos justificados",
+      "actualizado": "2026-09-24T16:04:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -1074,7 +1074,16 @@
       "estado": "correccion",
       "vueltas": 1,
       "motivo": "Revisor vuelta 1: mecanica verde, 23 anclas reapuntadas; devuelta por 34 tildes ausentes en la letra, 0 signos de apertura, 6 anclas sin item correcto y 10 repeticiones desalineadas; corrigiendo con el kit (sin cambiar fichas). Ingles pending_review con 2 avisos (lineas 56/66 y 107)",
-      "actualizado": "2026-09-23T11:11:51Z"
+      "actualizado": "2026-09-24T16:04:23Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "backup tomado, sync ok segun Saul, sin carry/reproject",
+            "t": "2026-09-24T16:04:23Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6227172ca57eb1a975998",
