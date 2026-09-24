@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T12:40:06Z",
+  "generado": "2026-09-24T12:54:56Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -162,17 +162,48 @@
       "originalTrackId": "6aa7bbc08d615aa3fed377f1",
       "titulo": "Frente A Frente",
       "artista": "Rocio Durcal",
-      "estado": "correccion",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #22 (24 sep): mapeo. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "motivo": "espera a Saul: traducir 3 items nuevos (lineas 3, 17, 25/39) sin credito API",
+      "actualizado": "2026-09-24T12:54:34Z",
       "auditoria": {
         "prioridad": 22,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry ya aplicado, LRC sin defectos",
+            "t": "2026-09-24T12:48:03Z"
+          },
+          "lrc": {
+            "v": "na",
+            "nota": "sin hallazgos vs original",
+            "t": "2026-09-24T12:48:04Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "hueco linea 37 = instrumental (original sin canto ahi)",
+            "t": "2026-09-24T12:48:04Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "5 sin mapear + 3 gemelas corregidas; 3 items nuevos sin traducir (API sin credito)",
+            "t": "2026-09-24T12:48:04Z"
+          },
+          "ingles": {
+            "v": "na",
+            "nota": "draft aprobado; sentidos no cambian traduccion de linea",
+            "t": "2026-09-24T12:48:04Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "sin hallazgos; mapeo/gemelas verificados en vivo; timing justificado (instrumental); ingles ya aprobado antes del audit",
+            "t": "2026-09-24T12:54:25Z"
+          }
+        },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: sin_mapear 5; gemelas_distintas 3",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "VERDE",
+          "resumen": "sin hallazgos; mapeo/gemelas verificados en vivo; timing justificado (instrumental); ingles ya aprobado antes del audit",
+          "t": "2026-09-24T12:54:25Z"
         }
       }
     },
@@ -16337,10 +16368,10 @@
       "originalTrackId": "6aa7d5bb387e9481dd7dddd8",
       "titulo": "Hoy No Me Puedo Levantar",
       "artista": "Mecano",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "vuelta 2 lista para QC",
-      "actualizado": "2026-09-24T12:37:53Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "vuelta 2: reabrir ingles lineas 25-26 del outro (linea + WIT ancla nueva) tras el cambio de texto; resto ok",
+      "actualizado": "2026-09-24T12:46:32Z",
       "auditoria": {
         "prioridad": 19,
         "pasos": {
@@ -16371,14 +16402,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "champan sin tilde no justificado; outro linea 25-26 si es arreglable por agente (delete+insert); mapeo marcado ok con items nuevos sin traducir",
-            "t": "2026-09-24T12:29:09Z"
+            "nota": "vuelta 2: champan y outro OK, pero el cambio de texto en el outro dejo el ingles de esas 2 lineas desactualizado (linea + WIT de la ancla nueva), paso ingles seguia en na sin revisar",
+            "t": "2026-09-24T12:46:26Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "champan sin tilde no justificado; outro linea 25-26 si es arreglable por agente (delete+insert); mapeo marcado ok con items nuevos sin traducir",
-          "t": "2026-09-24T12:29:09Z"
+          "resumen": "vuelta 2: champan y outro OK, pero el cambio de texto en el outro dejo el ingles de esas 2 lineas desactualizado (linea + WIT de la ancla nueva), paso ingles seguia en na sin revisar",
+          "t": "2026-09-24T12:46:26Z"
         }
       }
     },
@@ -20923,10 +20954,10 @@
       "originalTrackId": "6aa7bbc6f0f8e5713e69d762",
       "titulo": "Guitarra Suena Mas Bajo",
       "artista": "Nicola di Bari",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #20 (24 sep): mapeo. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T12:37:53Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-24T12:48:10Z",
       "auditoria": {
         "prioridad": 20,
         "pasos": {
@@ -20934,6 +20965,26 @@
             "v": "ok",
             "nota": "linea 37 mayuscula+coma arreglados; resto de erratas = otra letra cantada, ver informe",
             "t": "2026-09-24T12:37:53Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "10 sin_mapear + 3 gemelas_distintas cerrados; 10 items nuevos creados DEV+PROD, sin traducir (API sin credito, en pendiente_traducir.tsv)",
+            "t": "2026-09-24T12:46:25Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "0 drift LRC/richsync (49/49 lineas); audio karaokeMp3 offset 0ms conf 4.98 lengthDelta 0 firstSound 8120ms",
+            "t": "2026-09-24T12:47:00Z"
+          },
+          "carry": {
+            "v": "ok",
+            "nota": "carry aplicado por Saul 14 sep, 94% matched, 8 lineas needed review; no se reproyecta",
+            "t": "2026-09-24T12:47:19Z"
+          },
+          "ingles": {
+            "v": "na",
+            "nota": "49/49 lineas, draft approved; linea 37 solo cambio ortografico (sin cambio de sentido), no se reabre; anclas nuevas quedaran sin WIT hasta traducir (sin credito)",
+            "t": "2026-09-24T12:47:47Z"
           }
         },
         "qc": {
@@ -25162,10 +25213,16 @@
       "estado": "correccion",
       "vueltas": 0,
       "motivo": "Prioridad Saúl #21 (24 sep): mapeo, LRC, puntuación. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "actualizado": "2026-09-24T12:42:09Z",
       "auditoria": {
         "prioridad": 21,
-        "pasos": {},
+        "pasos": {
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 constante 33/33 lineas, LRC=richsync",
+            "t": "2026-09-24T12:42:09Z"
+          }
+        },
         "qc": {
           "v": "ROJO",
           "resumen": "qc_es inicial: vs_original_errata 1; vs_original_falta 1; sin_mapear 8; gemelas_distintas 4",
