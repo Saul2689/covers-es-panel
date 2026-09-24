@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T15:14:30Z",
+  "generado": "2026-09-24T15:19:27Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -746,10 +746,10 @@
       "originalTrackId": "",
       "titulo": "Gasolina",
       "artista": "Daddy Yankee",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 3,
-      "motivo": "devuelto QC: ancla 'sale' sentido equivocado; linea 19 y 31 revisar cambio de persona/comparacion",
-      "actualizado": "2026-09-24T15:14:28Z",
+      "motivo": "arreglos de la QC hechos por la sesion principal; lista para QC",
+      "actualizado": "2026-09-24T15:19:22Z",
       "auditoria": {
         "prioridad": 5,
         "pasos": {
@@ -760,8 +760,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "duro insertado en 8 finales de linea + una preposicion en linea 20; 2 erratas de vendor corregidas; 9 diferencias restantes son variante genuina de esta version",
-            "t": "2026-09-24T11:14:43Z"
+            "nota": "lineas 19 y 31 al texto del original (regla: manda el original); lrc_plan_fix edits, tiempos iguales",
+            "t": "2026-09-24T15:19:21Z"
           },
           "timing": {
             "v": "ok",
@@ -770,13 +770,13 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "13 anclas nuevas creadas (word_insight_create) sobre los 13 items ya en PROD: lineas 7,13,14,18(x3),20,25,34,36,38,40,47; Matadores (nombre propio) queda sin mapear a proposito",
-            "t": "2026-09-24T14:56:10Z"
+            "nota": "sale lineas 7/47 al sentido 'goes out' 6ab3ae12...; su/mas/que de lineas 19/31 como el original",
+            "t": "2026-09-24T15:19:21Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "reabierto el borrador EN (pending_review, propio de Saul): corregida linea 20 (cocina no bocina/speaker); las otras 15 lineas tocadas en ronda1+ronda2 ya encajaban con los glosses de palabra vigentes; submit -> pending_review de nuevo",
-            "t": "2026-09-24T15:01:28Z"
+            "nota": "lineas 19/31 retraducidas + WIT; WIT vacios rellenados; pending_review",
+            "t": "2026-09-24T15:19:22Z"
           },
           "qc": {
             "v": "falta",
@@ -16466,10 +16466,10 @@
       "originalTrackId": "6aa7d5bb387e9481dd7dddd8",
       "titulo": "Hoy No Me Puedo Levantar",
       "artista": "Mecano",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "ingles reabierto y enviado; lista para QC",
-      "actualizado": "2026-09-24T15:02:48Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-24T15:19:27Z",
       "auditoria": {
         "prioridad": 19,
         "pasos": {
@@ -16499,15 +16499,15 @@
             "t": "2026-09-24T15:02:48Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "vuelta 2: champan y outro OK, pero el cambio de texto en el outro dejo el ingles de esas 2 lineas desactualizado (linea + WIT de la ancla nueva), paso ingles seguia en na sin revisar",
-            "t": "2026-09-24T12:46:26Z"
+            "v": "ok",
+            "nota": "vuelta 3: hallazgo del WIT era falso positivo (MCP leia capa publicada, no el draft); todo cerrado",
+            "t": "2026-09-24T15:19:04Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "vuelta 2: champan y outro OK, pero el cambio de texto en el outro dejo el ingles de esas 2 lineas desactualizado (linea + WIT de la ancla nueva), paso ingles seguia en na sin revisar",
-          "t": "2026-09-24T12:46:26Z"
+          "v": "VERDE",
+          "resumen": "vuelta 3: hallazgo del WIT era falso positivo (MCP leia capa publicada, no el draft); todo cerrado",
+          "t": "2026-09-24T15:19:04Z"
         }
       }
     },
@@ -22192,10 +22192,10 @@
       "originalTrackId": "6aa7bbbf387e9481dd7bd2fe",
       "titulo": "Fanny",
       "artista": "Leo Dan",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "ingles reabierto y enviado; lista para QC",
-      "actualizado": "2026-09-24T15:01:35Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-24T15:15:59Z",
       "auditoria": {
         "prioridad": 13,
         "pasos": {
@@ -22226,14 +22226,14 @@
           },
           "qc": {
             "v": "ok",
-            "nota": "split porque->por que confirmado contra original, estructura limpia, WIT de esas 4 lineas queda colgado del split (detalle para quien reabra ingles)",
-            "t": "2026-09-24T12:09:06Z"
+            "nota": "reapertura de ingles verificada en el draft: lineas y WIT reescritos correctamente, split por que confirmado, sin nada pendiente",
+            "t": "2026-09-24T15:15:54Z"
           }
         },
         "qc": {
           "v": "VERDE",
-          "resumen": "split porque->por que confirmado contra original, estructura limpia, WIT de esas 4 lineas queda colgado del split (detalle para quien reabra ingles)",
-          "t": "2026-09-24T12:09:06Z"
+          "resumen": "reapertura de ingles verificada en el draft: lineas y WIT reescritos correctamente, split por que confirmado, sin nada pendiente",
+          "t": "2026-09-24T15:15:54Z"
         }
       }
     },
@@ -22950,10 +22950,10 @@
       "originalTrackId": "6aa7ba86387e9481dd7bb18e",
       "titulo": "Ella",
       "artista": "Salvatore Adamo",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 3,
-      "motivo": "WIT desactualizado en 4 anclas remapeadas (linea 3 y 9) + ejemplo verso en item nuevo (rumorosas)",
-      "actualizado": "2026-09-24T15:14:30Z",
+      "motivo": "arreglos de la QC hechos por la sesion principal; lista para QC",
+      "actualizado": "2026-09-24T15:16:59Z",
       "auditoria": {
         "prioridad": 24,
         "pasos": {
@@ -22974,13 +22974,13 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "9 items creados en PROD, ancladas las 6 anclas nuevas; traducidos 19 idiomas",
-            "t": "2026-09-24T15:03:45Z"
+            "nota": "ejemplos de rumorosas y enamorar reescritos (inventados, no de la letra), DEV y PROD",
+            "t": "2026-09-24T15:16:59Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "draft reabierto, wits olvidor/a/nuestro/viejo corregidos, lineas 3 y 9 retraducidas, submit a pending_review",
-            "t": "2026-09-24T15:03:46Z"
+            "nota": "WIT lineas 3 y 9 al dia tras remapeo + WIT de suplicarte; pending_review",
+            "t": "2026-09-24T15:16:59Z"
           },
           "qc": {
             "v": "falta",
