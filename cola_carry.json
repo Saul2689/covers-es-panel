@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T10:44:56Z",
+  "generado": "2026-09-24T11:03:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -451,10 +451,10 @@
       "originalTrackId": "6aa7d7dd387e9481dd7e22e0",
       "titulo": "La Bomba",
       "artista": "Azul Azul",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "listo para QC",
-      "actualizado": "2026-09-24T10:39:40Z",
+      "motivo": "espera a Saul: lineas 1/23/8/34 (oido) y traduccion del item nuevo lineas 35-38 (creditos)",
+      "actualizado": "2026-09-24T11:03:13Z",
       "auditoria": {
         "prioridad": 1,
         "pasos": {
@@ -464,9 +464,9 @@
             "t": "2026-09-24T10:39:30Z"
           },
           "lrc": {
-            "v": "falta",
-            "nota": "arreglado: 1 sobra borrada, tildes restauradas linea 8-9, coma linea 36; pendiente Saul: linea 1/23 posible palabra inicial ausente, linea 34 frase sobrante dudosa, linea 8 orden de palabras distinto del original",
-            "t": "2026-09-24T10:39:32Z"
+            "v": "saul",
+            "nota": "vuelta 2: linea 16 (moviemiento) corregida en el LRC; pendiente Saul solo lineas 1/23 (palabra inicial), 8 (orden de palabras), 34 (frase de mas)",
+            "t": "2026-09-24T10:57:24Z"
           },
           "timing": {
             "v": "ok",
@@ -474,20 +474,25 @@
             "t": "2026-09-24T10:39:33Z"
           },
           "mapeo": {
-            "v": "falta",
-            "nota": "14 anclas corregidas (7 gemelas unificadas, 5 huecos rellenados, 2 nombre de banda borradas); pendiente: 4 ocurrencias de una forma verbal nueva bloqueadas por token DEV caducado (401), nombre de banda intencionadamente sin mapear (2 lineas)",
-            "t": "2026-09-24T10:39:34Z"
+            "v": "saul",
+            "nota": "mapeo completo; item nuevo sin traducir a 19 idiomas (API de traduccion sin credito)",
+            "t": "2026-09-24T10:59:12Z"
           },
           "ingles": {
             "v": "ok",
             "nota": "draft reabierto, 5 WIT nuevas fijadas para las anclas creadas, submit hecho -> pending_review (no aprobado)",
             "t": "2026-09-24T10:39:35Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "vuelta 2: typo linea16 y acabalo confirmados OK, traduccion de acabalo pendiente por creditos (Saul)",
+            "t": "2026-09-24T11:02:36Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_tilde 1; vs_original_errata 2; vs_original_falta 2; sin_mapear 11; gemelas_distintas 7",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "VERDE",
+          "resumen": "vuelta 2: typo linea16 y acabalo confirmados OK, traduccion de acabalo pendiente por creditos (Saul)",
+          "t": "2026-09-24T11:02:36Z"
         }
       }
     },
@@ -14427,13 +14432,39 @@
       "originalTrackId": "6aa7b98cf0f8e5713e69a53b",
       "titulo": "Cuando Me Miras Asi",
       "artista": "Cristian Castro",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #4 (24 sep): mapeo, errata. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "motivo": "listo para QC",
+      "actualizado": "2026-09-24T11:01:10Z",
       "auditoria": {
         "prioridad": 4,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "coverOf vinculado, ya aplicado; no requiere reproyeccion",
+            "t": "2026-09-24T11:01:05Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 17 palabra 6 corregida (nota Saul); lineas 3 y 19 palabra 4 corregidas; 4 tokens sobrantes borrados (lineas 11/27/35/39 palabra 4); 26 casos de tilde restaurados en 5 palabras recurrentes",
+            "t": "2026-09-24T11:01:06Z"
+          },
+          "timing": {
+            "v": "na",
+            "nota": "drift 0 en las 40 lineas (track_timing_report), sin cambios necesarios",
+            "t": "2026-09-24T11:01:07Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "hueco cerrado + 15 remapeos de sentido (2 por cambio de texto, 1 por hueco nuevo, resto gemelas/homografos); verify 100% cobertura, drift 0; sin items nuevos",
+            "t": "2026-09-24T11:01:08Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "cobertura 40/40 ya aprobada previamente (draft approved); no se toco",
+            "t": "2026-09-24T11:01:09Z"
+          }
+        },
         "qc": {
           "v": "ROJO",
           "resumen": "qc_es inicial: vs_original_errata 3; sin_mapear 1; item_tilde_distinta 26; gemelas_distintas 18",
@@ -19602,13 +19633,39 @@
       "originalTrackId": "6aa7d5c6387e9481dd7ddf21",
       "titulo": "Libro Abierto",
       "artista": "Gerardo Reyes",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #7 (24 sep): LRC, timing. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "motivo": "listo para QC",
+      "actualizado": "2026-09-24T11:03:32Z",
       "auditoria": {
         "prioridad": 7,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "ya aplicado (14 sep), no se reproyecta",
+            "t": "2026-09-24T11:03:16Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "0 drift LRC/richsync todas las lineas, orden monotono, sin duraciones 0/excesivas; fuente karaokeMp3",
+            "t": "2026-09-24T11:03:18Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "6 anclas unificadas/homografo corregido; 0 sin_mapear; sin items nuevos",
+            "t": "2026-09-24T11:03:18Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "linea 12 retraducida + 5 WIT corregidos; draft nuevo enviado a pending_review",
+            "t": "2026-09-24T11:03:20Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "lineas 16 y 27: orden y palabras de mas dudosos, no se tocan sin confirmar",
+            "t": "2026-09-24T11:03:26Z"
+          }
+        },
         "qc": {
           "v": "ROJO",
           "resumen": "qc_es inicial: vs_original_tilde 3; vs_original_errata 2; vs_original_falta 9; gemelas_distintas 5",
