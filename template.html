@@ -453,7 +453,9 @@ tailwind.config={theme:{extend:{
       var punto=c?'<span class="h-2 w-2 shrink-0 rounded-full" style="background:'+c+'"></span>':'';
       var cab='<span class="font-display font-semibold tracking-tight text-[15px]'+(c?'':' text-zinc-200')+'"'+
               (c?' style="color:'+c+'"':'')+'>'+esc(g.nombre)+'</span>'+
-              '<span class="font-mono text-[11.5px] text-zinc-600">'+nf.format(g.filas.length)+'</span>';
+              '<span class="font-mono text-[12.5px] font-medium tabular-nums rounded-md px-1.5 py-px '+
+              (c?'':'bg-raised text-zinc-400')+'"'+
+              (c?' style="background:'+c+'1f;color:'+c+'"':'')+'>'+nf.format(g.filas.length)+'</span>';
       var caja='class="scroll-mt-24 mb-4 rounded-2xl border bg-surface p-4 sm:p-5 shadow-sm '+
                'transition-all duration-200 '+(c?'':'border-line/60 hover:border-line')+'"'+
                (c?' style="border-color:'+c+'59"':'')+'>';
@@ -461,9 +463,10 @@ tailwind.config={theme:{extend:{
         return '<section id="g'+i+'" data-clave="'+esc(g.clave)+'" '+caja+
           '<h3 class="mb-2 flex items-center gap-2.5 px-1">'+punto+cab+'</h3>'+
           g.filas.map(fila).join('')+'</section>';
-      /* Las secciones muy largas arrancan plegadas para que la página no abra
-         con dos mil filas de golpe. */
-      var abre=abierto[g.clave]!==undefined?abierto[g.clave]:(g.filas.length<=150);
+      /* Todo arranca plegado: la página abre con el índice de secciones y
+         cada una se abre a mano. Con una búsqueda en marcha se abren solas,
+         que si no los resultados quedarían escondidos. */
+      var abre=q?true:(abierto[g.clave]!==undefined?abierto[g.clave]:false);
       return '<details id="g'+i+'" data-clave="'+esc(g.clave)+'" '+(abre?'open ':'')+caja+
         '<summary class="-mx-1 flex cursor-pointer list-none items-center gap-2.5 rounded-xl px-1 py-1 '+
         'transition-colors duration-200 hover:bg-raised/60">'+
