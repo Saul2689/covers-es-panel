@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T15:11:21Z",
+  "generado": "2026-09-24T15:14:30Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -425,10 +425,10 @@
       "originalTrackId": "6aa7d7dc0752719d51acc22e",
       "titulo": "Jamas",
       "artista": "Camilo Sesto",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "espera a Saul: lineas 17 y 28 (oido) y traduccion de 2 items nuevos (credito)",
-      "actualizado": "2026-09-24T11:25:25Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-24T15:12:03Z",
       "auditoria": {
         "prioridad": 3,
         "pasos": {
@@ -438,9 +438,9 @@
             "t": "2026-09-24T10:35:22Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "linea 17/28 palabra de mas pendiente oido de Saul",
-            "t": "2026-09-24T11:06:22Z"
+            "v": "ok",
+            "nota": "lineas 17/28: palabra sobrante idx0 borrada (regla original gana), mayuscula nueva ajustada",
+            "t": "2026-09-24T15:12:02Z"
           },
           "timing": {
             "v": "ok",
@@ -448,14 +448,14 @@
             "t": "2026-09-24T10:35:24Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "mapeo completo; 2 items nuevos sin traducir (API sin credito)",
-            "t": "2026-09-24T11:19:47Z"
+            "v": "ok",
+            "nota": "anclas reindexadas lineas 17/28 tras el borrado, 0 fuera de rango, 0 duplicados",
+            "t": "2026-09-24T15:12:02Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "28/28 lineas con ingles, draft ya approved de antes, no se toca",
-            "t": "2026-09-24T10:35:27Z"
+            "nota": "WIT de las 12 anclas reancladas + 2 traducciones de linea reescritas, draft reabierto y reenviado a pending_review",
+            "t": "2026-09-24T15:12:03Z"
           },
           "qc": {
             "v": "ok",
@@ -746,10 +746,10 @@
       "originalTrackId": "",
       "titulo": "Gasolina",
       "artista": "Daddy Yankee",
-      "estado": "revision",
-      "vueltas": 2,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T15:05:29Z",
+      "estado": "correccion",
+      "vueltas": 3,
+      "motivo": "devuelto QC: ancla 'sale' sentido equivocado; linea 19 y 31 revisar cambio de persona/comparacion",
+      "actualizado": "2026-09-24T15:14:28Z",
       "auditoria": {
         "prioridad": 5,
         "pasos": {
@@ -779,15 +779,15 @@
             "t": "2026-09-24T15:01:28Z"
           },
           "qc": {
-            "v": "ok",
-            "nota": "final: cob 378/379 (solo Matadores, nombre propio, sin mapear); vs_original_errata 9 + falta 2 + sobra 2 = variante propia de la version, juzgado en ronda1; mayuscula_media 2 = nombre propio; item_otra_palabra 34 = elision a forma canonica por diseno; ingles 52/52 pending_review",
-            "t": "2026-09-24T15:04:17Z"
+            "v": "falta",
+            "nota": "sale mal anclado (sentido astronomico, no salir de fiesta); linea 19 tu/su y linea 31 comparacion->posesiva sin justificacion especifica",
+            "t": "2026-09-24T15:14:24Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "quedan 14 tokens sin mapear (nombre propio + los 14 que necesitan los 15 items nuevos bloqueados en PROD), 9 diferencias vs original ya juzgadas como version propia de esta cover, 2 mayusculas de nombre propio a dejar, 28 avisos esperados por mapeo de elision a su forma canonica; cobertura 365/379",
-          "t": "2026-09-24T11:14:58Z"
+          "resumen": "sale mal anclado (sentido astronomico, no salir de fiesta); linea 19 tu/su y linea 31 comparacion->posesiva sin justificacion especifica",
+          "t": "2026-09-24T15:14:24Z"
         }
       }
     },
@@ -877,7 +877,7 @@
       "estado": "parada",
       "vueltas": 1,
       "motivo": "espera a Saul: 4 items a PROD (autorizacion), pin de audio a oido, reabrir ingles linea 35",
-      "actualizado": "2026-09-24T11:43:20Z",
+      "actualizado": "2026-09-24T15:14:26Z",
       "auditoria": {
         "prioridad": 10,
         "pasos": {
@@ -892,9 +892,9 @@
             "t": "2026-09-24T11:33:03Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "audio sin pin: mixMp3V -720ms pero lengthDelta -7863ms; a oido",
-            "t": "2026-09-24T11:43:20Z"
+            "v": "ok",
+            "nota": "medido: karaokeMp3 y stemVoc offset 0 delta 0; mixMp3V es otra edicion (delta -7.9s), no es la referencia; sin pin",
+            "t": "2026-09-24T15:14:26Z"
           },
           "mapeo": {
             "v": "saul",
@@ -22323,7 +22323,7 @@
       "estado": "parada",
       "vueltas": 2,
       "motivo": "espera a Saul: reabrir ingles 24/25 y WIT nuevos, pin de audio a oido, traduccion de 4 items",
-      "actualizado": "2026-09-24T12:09:55Z",
+      "actualizado": "2026-09-24T15:14:26Z",
       "auditoria": {
         "prioridad": 12,
         "pasos": {
@@ -22343,9 +22343,9 @@
             "t": "2026-09-24T12:00:11Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "pin a oido: stemVoc +890ms conf 1.97, lengthDelta 3632",
-            "t": "2026-09-24T12:09:54Z"
+            "v": "ok",
+            "nota": "stemVoc offset 890/delta 3632 no calzan -> no se pinea; la referencia karaokeMp3 va a drift 0; nada que decidir a oido",
+            "t": "2026-09-24T15:14:26Z"
           },
           "ingles": {
             "v": "saul",
@@ -22950,10 +22950,10 @@
       "originalTrackId": "6aa7ba86387e9481dd7bb18e",
       "titulo": "Ella",
       "artista": "Salvatore Adamo",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T15:03:51Z",
+      "estado": "correccion",
+      "vueltas": 3,
+      "motivo": "WIT desactualizado en 4 anclas remapeadas (linea 3 y 9) + ejemplo verso en item nuevo (rumorosas)",
+      "actualizado": "2026-09-24T15:14:30Z",
       "auditoria": {
         "prioridad": 24,
         "pasos": {
@@ -22981,12 +22981,17 @@
             "v": "ok",
             "nota": "draft reabierto, wits olvidor/a/nuestro/viejo corregidos, lineas 3 y 9 retraducidas, submit a pending_review",
             "t": "2026-09-24T15:03:46Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT obsoleto en 4 anclas remapeadas (lineas 3 y 9) + ejemplo de item nuevo es un verso",
+            "t": "2026-09-24T15:14:24Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_errata 1; vs_original_falta 2; sin_mapear 6",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "DEVUELTO",
+          "resumen": "WIT obsoleto en 4 anclas remapeadas (lineas 3 y 9) + ejemplo de item nuevo es un verso",
+          "t": "2026-09-24T15:14:24Z"
         }
       }
     },
@@ -26244,10 +26249,10 @@
       "originalTrackId": "6aa7cd348d615aa3fed4bb95",
       "titulo": "El Proximo Tonto",
       "artista": "Grupo America",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "espera a Saul: crear 6 items nuevos en PROD (payloads listos) y mapear 12 anclas linea 5,6,11,13,14,24,29,31,32,39,41,42; reabrir ingles linea 12,30,40",
-      "actualizado": "2026-09-24T11:44:17Z",
+      "motivo": "items anclados e ingles hecho; lista para QC",
+      "actualizado": "2026-09-24T15:13:38Z",
       "auditoria": {
         "prioridad": 9,
         "pasos": {
@@ -26267,14 +26272,14 @@
             "t": "2026-09-24T11:36:53Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "23 gemelas + ancla reutilizada arregladas; 6 items nuevos (12 anclas) bloqueados por el clasificador en PROD, creados y verificados en DEV, payloads en .singit/es_map/payloads/6a99b9cc06eccc99cabef5d8/new_items.json",
-            "t": "2026-09-24T11:36:53Z"
+            "v": "ok",
+            "nota": "6 items PROD anclados en 12 posiciones (lineas 5,6,11,13,14,24,29,31,32,39,41,42); 0 sin mapear",
+            "t": "2026-09-24T15:13:38Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "reabrir ingles: linea 12, 30, 40 (texto cambio por insercion de 'a'; draft ya approved, no se toca)",
-            "t": "2026-09-24T11:36:53Z"
+            "v": "ok",
+            "nota": "lineas 12/30/40 WIT recolocados + WIT de las 12 anclas nuevas; pending_review",
+            "t": "2026-09-24T15:13:38Z"
           },
           "qc": {
             "v": "ok",
