@@ -217,7 +217,9 @@ def parte_linea(datos, log):
         ])
 
     orden = {e: i for i, e in enumerate(ESTADOS)}
-    filas.sort(key=lambda f: (orden[f[4]], f[1].lower(), f[0].lower()))
+    # Dentro de cada paso, primero lo que todavia espera a que una persona
+    # eche el candado; lo ya cerrado se va al final, que es donde estorba menos.
+    filas.sort(key=lambda f: (orden[f[4]], f[12], f[1].lower(), f[0].lower()))
     cuenta = collections.Counter(f[4] for f in filas)
     log('linea ES: %d canciones  %s' % (len(filas), dict(cuenta)))
     return {'filas': filas,

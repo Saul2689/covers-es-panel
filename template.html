@@ -359,13 +359,13 @@ tailwind.config={theme:{extend:{
       acc=estrellas(r[3])+idbtn(r[2]);
       if(r[4]===1) meta=chip(t('archivada'),'mute');
     }else if(vista==='linea'){
-      /* El candado va pegado al titulo: es lo que distingue una cancion
-         cerrada del todo de una que solo ha pasado por el paso. */
-      if(r[12]) meta=chip(candado()+t('bloqueada'),'ok');
       if(r[5]>0) acc+=chip(r[5]===1?t('vuelta'):t('vueltas',{n:r[5]}),'mute');
       if(r[9]) acc+=estrellas(r[9]);
       acc+=idbtn(r[2]);
-      if(r[6]) meta+='<span class="font-mono text-[11px] text-zinc-600">'+esc(fechaHora(r[6]))+'</span>';
+      /* El candado cierra la fila, a la derecha del trackId: es lo ultimo que
+         le pasa a una cancion y distingue las cerradas del todo. */
+      if(r[12]) acc+=chip(candado()+t('bloqueada'),'ok');
+      if(r[6]) meta='<span class="font-mono text-[11px] text-zinc-600">'+esc(fechaHora(r[6]))+'</span>';
     }else{
       var suena=r[4]===1;
       acc=chip(suena?t('suena'):(r[6]===1?t('cero'):t('karaoke')), suena?'ok':(r[6]===1?'warn':'mute'));
