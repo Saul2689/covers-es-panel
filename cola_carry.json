@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T11:24:25Z",
+  "generado": "2026-09-24T11:26:12Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -365,8 +365,8 @@
       "artista": "Camilo Sesto",
       "estado": "parada",
       "vueltas": 1,
-      "motivo": "espera fix puntual: unificar ni lineas 2/3 (tope 3 vueltas de QC)",
-      "actualizado": "2026-09-24T11:24:21Z",
+      "motivo": "espera a Saul: lineas 17 y 28 (oido) y traduccion de 2 items nuevos (credito)",
+      "actualizado": "2026-09-24T11:25:25Z",
       "auditoria": {
         "prioridad": 3,
         "pasos": {
@@ -396,15 +396,15 @@
             "t": "2026-09-24T10:35:27Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "vuelta 3: gemelas que/tu cerradas; ni lineas 2/3 sin unificar, tope de vueltas",
-            "t": "2026-09-24T11:24:17Z"
+            "v": "ok",
+            "nota": "vuelta 3 + fix ni linea 3 en sesion principal",
+            "t": "2026-09-24T11:25:25Z"
           }
         },
         "qc": {
-          "v": "PARADA",
-          "resumen": "vuelta 3: gemelas que/tu cerradas; ni lineas 2/3 sin unificar, tope de vueltas",
-          "t": "2026-09-24T11:24:17Z"
+          "v": "VERDE",
+          "resumen": "vuelta 3 + fix ni linea 3 en sesion principal",
+          "t": "2026-09-24T11:25:25Z"
         }
       }
     },
@@ -19674,10 +19674,10 @@
       "originalTrackId": "6aa7d5c6387e9481dd7ddf21",
       "titulo": "Libro Abierto",
       "artista": "Gerardo Reyes",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 2,
-      "motivo": "QC: arreglar timing real de audio (offset -7 a -7.7s), vuelta 2",
-      "actualizado": "2026-09-24T11:19:03Z",
+      "motivo": "vuelta 2 (timing) lista para QC",
+      "actualizado": "2026-09-24T11:24:30Z",
       "auditoria": {
         "prioridad": 7,
         "pasos": {
@@ -19687,9 +19687,9 @@
             "t": "2026-09-24T11:03:16Z"
           },
           "timing": {
-            "v": "falta",
-            "nota": "offset de audio real medido: -7030ms stemVoc / -7730ms mixMp3V vs reloj karaokeMp3 de los timings; sin pin; retimear con el kit",
-            "t": "2026-09-24T11:19:03Z"
+            "v": "ok",
+            "nota": "pin mixMp3V, retime -7730ms, clamp 0",
+            "t": "2026-09-24T11:24:30Z"
           },
           "mapeo": {
             "v": "ok",
@@ -25631,8 +25631,8 @@
       "artista": "Grupo America",
       "estado": "correccion",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #9 (24 sep): mapeo. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "motivo": "iniciando: mapeo prioridad",
+      "actualizado": "2026-09-24T11:25:24Z",
       "auditoria": {
         "prioridad": 9,
         "pasos": {},
