@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T15:04:52Z",
+  "generado": "2026-09-24T15:11:21Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -319,10 +319,10 @@
       "originalTrackId": "6a5505db45ecd800e9ff7fed",
       "titulo": "Ingrata",
       "artista": "Café Tacvba",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "espera a Saul: aprobar draft ingles pendiente desde 22 sep; al reabrirlo alinear linea 21 y anadir PIT de linea 24",
-      "actualizado": "2026-09-24T10:44:13Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-24T15:10:10Z",
       "auditoria": {
         "prioridad": 2,
         "pasos": {
@@ -347,9 +347,9 @@
             "t": "2026-09-24T10:36:01Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "draft en ya pending_review (de Saul, 22 sep), no tocado; 1 linea con texto cambiado por mi + PIT nueva a agregar quedan anotadas para el review",
-            "t": "2026-09-24T10:36:01Z"
+            "v": "ok",
+            "nota": "draft reabierto: linea 21 alineada, PIT de la locucion en linea 24, WIT linea 20; pending_review",
+            "t": "2026-09-24T15:10:10Z"
           },
           "qc": {
             "v": "ok",
@@ -600,10 +600,10 @@
       "originalTrackId": "6aa7d7e40752719d51acc2ad",
       "titulo": "La Hija De Nadie",
       "artista": "Yolanda Del Rio",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "lista para QC (vuelta 2)",
-      "actualizado": "2026-09-24T15:04:41Z",
+      "estado": "hecha",
+      "vueltas": 2,
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-24T15:10:09Z",
       "auditoria": {
         "prioridad": 27,
         "pasos": {
@@ -633,15 +633,15 @@
             "t": "2026-09-24T15:03:58Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "mas/mas sin tilde mal anclado (conjuncion en vez de comparativo, lineas 13 y 25); WIT stale de que en lineas 17 y 29",
-            "t": "2026-09-24T14:58:00Z"
+            "v": "ok",
+            "nota": "falso positivo retirado (staleness); mapeo, timing, estructura e ingles cerrados",
+            "t": "2026-09-24T15:09:45Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "mas/mas sin tilde mal anclado (conjuncion en vez de comparativo, lineas 13 y 25); WIT stale de que en lineas 17 y 29",
-          "t": "2026-09-24T14:58:00Z"
+          "v": "VERDE",
+          "resumen": "falso positivo retirado (staleness); mapeo, timing, estructura e ingles cerrados",
+          "t": "2026-09-24T15:09:45Z"
         }
       }
     },
@@ -748,8 +748,8 @@
       "artista": "Daddy Yankee",
       "estado": "revision",
       "vueltas": 2,
-      "motivo": "listo para QC",
-      "actualizado": "2026-09-24T15:04:52Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-24T15:05:29Z",
       "auditoria": {
         "prioridad": 5,
         "pasos": {
@@ -1163,10 +1163,10 @@
       "originalTrackId": "6aa7cd32387e9481dd7d645d",
       "titulo": "De Que Manera Te Olvido",
       "artista": "Vicente Fernández",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T15:02:54Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-24T15:07:44Z",
       "auditoria": {
         "prioridad": 25,
         "pasos": {
@@ -1196,15 +1196,15 @@
             "t": "2026-09-24T15:02:26Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "linea 2 palabra extra sin prueba de oido, resto ok",
-            "t": "2026-09-24T14:06:03Z"
+            "v": "ok",
+            "nota": "vuelta 2: linea 2 corregida (palabra extra borrada, igual a la original), anclas e ingles ok",
+            "t": "2026-09-24T15:07:39Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "linea 2 palabra extra sin prueba de oido, resto ok",
-          "t": "2026-09-24T14:06:03Z"
+          "v": "VERDE",
+          "resumen": "vuelta 2: linea 2 corregida (palabra extra borrada, igual a la original), anclas e ingles ok",
+          "t": "2026-09-24T15:07:39Z"
         }
       }
     },
@@ -10912,10 +10912,10 @@
       "originalTrackId": "6aa7bbbdf0f8e5713e69d730",
       "titulo": "Esta Tristeza Mia",
       "artista": "Javier Solis",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "espera a Saul: crear mitiga en PROD (linea 7 tok5, clasificador bloqueo), reabrir ingles linea 10 y 14 (mi->ni), y revisar cover_audio_measure job 6ab50b7fc53ee9e0e50e62fe cuando termine",
-      "actualizado": "2026-09-24T11:47:25Z",
+      "motivo": "mitiga anclada, ingles y audio revisados; lista para QC",
+      "actualizado": "2026-09-24T15:11:21Z",
       "auditoria": {
         "prioridad": 11,
         "pasos": {
@@ -10930,19 +10930,19 @@
             "t": "2026-09-24T11:37:01Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "track_timing_report drift 0 en las 16 lineas; hueco linea 13 (~33-36s) parece pausa instrumental de la cancion, no error; cover_audio_measure encolado (job 6ab50b7fc53ee9e0e50e62fe) pero alignment/vocalPresence siguen vacios tras espera; no pinear, revisar mas tarde",
-            "t": "2026-09-24T11:38:23Z"
+            "v": "ok",
+            "nota": "medido: karaokeMp3 y stemVoc offset 0, firstSound ~8040ms; mixMp3V es otra edicion (delta -15.5s), no es la referencia; sin pin",
+            "t": "2026-09-24T15:11:21Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "linea 7 tok5 'mitiga' sin item es; creado y verificado en DEV (6ab50aaf55f165ff7e25a727), PROD bloqueado por el clasificador; payload en .singit/es_map/payloads/6aa1110864c9b8ff110c4cae/mitiga.json; linea 9/13 tok7 gemelas unificadas al item canonico de mi posesivo (69027785ffaae4f167eb07a2); linea 10/14 tok7 remapeadas de mi a ni (68d810aefc9637ef63e92717) tras la correccion del LRC",
-            "t": "2026-09-24T11:38:33Z"
+            "v": "ok",
+            "nota": "mitiga anclada linea 7 tok5 (item PROD 6ab53370..., 19 idiomas); 0 sin mapear",
+            "t": "2026-09-24T15:11:20Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "reabrir ingles: linea 10 y linea 14 (texto cambio de mi a ni, traduccion de linea y WIT del ancla 'ni' quedan desfasados); draft ya approved, no se toca",
-            "t": "2026-09-24T11:38:39Z"
+            "v": "ok",
+            "nota": "lineas 10 y 14 retraducidas (ni) + WIT; WIT de mitiga; pending_review",
+            "t": "2026-09-24T15:11:21Z"
           },
           "qc": {
             "v": "ok",
@@ -14809,10 +14809,10 @@
       "originalTrackId": "6aa7b98cf0f8e5713e69a53b",
       "titulo": "Cuando Me Miras Asi",
       "artista": "Cristian Castro",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "espera a Saul: reabrir ingles WIT de tu (pronombre sujeto) en lineas 9/12/13/25/28/29/33/37",
-      "actualizado": "2026-09-24T11:24:07Z",
+      "motivo": "tilde + ingles hechos; lista para QC",
+      "actualizado": "2026-09-24T15:08:14Z",
       "auditoria": {
         "prioridad": 4,
         "pasos": {
@@ -14823,8 +14823,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "vuelta 2: linea 3/19 palabra 4 tu->tus (concordancia con sustantivo plural); linea 7/15/23/31 mas->mas con tilde",
-            "t": "2026-09-24T11:19:43Z"
+            "nota": "tilde de tu sujeto en 8 lineas (10,13,14,26,29,30,34,38) via lrc_plan_fix; 0 anclas movidas, tiempos iguales",
+            "t": "2026-09-24T15:07:09Z"
           },
           "timing": {
             "v": "na",
@@ -14833,13 +14833,13 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "vuelta 2: linea 3/19 palabra 4 reancladas a item posesivo plural (691176386b4bd837f4c8b30f); linea 7/15/23/31 reancladas al homografo con tilde (68447467bd067073568e55b4); barrido mi/tu completo sin otros hallazgos",
-            "t": "2026-09-24T11:19:43Z"
+            "nota": "8 anclas de tu sujeto movidas al item tu con tilde 681e64a5... (upsert, mismas anclas)",
+            "t": "2026-09-24T15:08:14Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "WIT stale 'your' en pronombre sujeto tu (lineas 9/12/13/25/28/29/33/37); draft ya approved, agente no lo reabre",
-            "t": "2026-09-24T11:19:43Z"
+            "v": "ok",
+            "nota": "WIT de tu = you en esas 8 lineas + WIT vacios de se/asi; pending_review",
+            "t": "2026-09-24T15:07:09Z"
           },
           "qc": {
             "v": "ok",
