@@ -343,6 +343,13 @@ tailwind.config={theme:{extend:{
       'class="font-medium text-[14.5px] text-zinc-100 transition-colors duration-200 hover:text-accentsoft">'+esc(tit)+'</a>';
   }
 
+  /* Candado: lo echa una persona cuando da la cancion por cerrada. */
+  function candado(){
+    return '<svg class="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" '+
+      'stroke-width="2.4" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"></rect>'+
+      '<path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>';
+  }
+
   /* ── filas por vista ── */
   function fila(r){
     var acc='', meta='';
@@ -352,10 +359,13 @@ tailwind.config={theme:{extend:{
       acc=estrellas(r[3])+idbtn(r[2]);
       if(r[4]===1) meta=chip(t('archivada'),'mute');
     }else if(vista==='linea'){
+      /* El candado va pegado al titulo: es lo que distingue una cancion
+         cerrada del todo de una que solo ha pasado por el paso. */
+      if(r[12]) meta=chip(candado()+t('bloqueada'),'ok');
       if(r[5]>0) acc+=chip(r[5]===1?t('vuelta'):t('vueltas',{n:r[5]}),'mute');
       if(r[9]) acc+=estrellas(r[9]);
       acc+=idbtn(r[2]);
-      if(r[6]) meta='<span class="font-mono text-[11px] text-zinc-600">'+esc(fechaHora(r[6]))+'</span>';
+      if(r[6]) meta+='<span class="font-mono text-[11px] text-zinc-600">'+esc(fechaHora(r[6]))+'</span>';
     }else{
       var suena=r[4]===1;
       acc=chip(suena?t('suena'):(r[6]===1?t('cero'):t('karaoke')), suena?'ok':(r[6]===1?'warn':'mute'));

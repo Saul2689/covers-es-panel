@@ -211,6 +211,9 @@ def parte_linea(datos, log):
             # El agente escribe el motivo en espanol; si ademas deja la version
             # inglesa, la pagina la usa cuando el visitante esta en EN.
             str(c.get('motivo_en') or '').strip() if estado == 'parada' else '',
+            # El candado lo echa una persona cuando da la cancion por cerrada:
+            # es la senal de "esta hecha del todo" dentro de la linea.
+            1 if adm.get('lock') else 0,
         ])
 
     orden = {e: i for i, e in enumerate(ESTADOS)}
@@ -220,6 +223,7 @@ def parte_linea(datos, log):
     return {'filas': filas,
             'generado': str(d.get('generado') or '')[:19] or None,
             'fallo': None,
+            'lock': sum(1 for f in filas if f[12]),
             'cuenta': {e: cuenta.get(e, 0) for e in ESTADOS}}
 
 
@@ -259,6 +263,7 @@ def render(datos, plantilla, salida, fecha, log):
             # asi que va cruda y se formatea alli.
             'iso': time.strftime('%Y-%m-%d'),
             'linea': {'total': len(linea['filas']), 'cuenta': linea['cuenta'],
+                      'lock': linea['lock'],
                       'generado': linea['generado'], 'fallo': linea['fallo']},
         },
     }
