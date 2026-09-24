@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T11:44:50Z",
+  "generado": "2026-09-24T12:06:27Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -436,17 +436,48 @@
       "originalTrackId": "6a5505e645ecd800e9ff843c",
       "titulo": "Labios Compartidos",
       "artista": "Maná",
-      "estado": "correccion",
-      "vueltas": 0,
-      "motivo": "Prioridad Saúl #15 (24 sep): mapeo. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "espera a Saul: linea 39 de oido, ingles 6/17/39 en su draft, pin de audio",
+      "actualizado": "2026-09-24T12:06:05Z",
       "auditoria": {
         "prioridad": 15,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry ya aplicado, sincronia OK segun cola; backup tomado",
+            "t": "2026-09-24T11:48:52Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "linea 39 de oido",
+            "t": "2026-09-24T12:06:04Z"
+          },
+          "timing": {
+            "v": "saul",
+            "nota": "pin a oido: stemVoc -80ms, lengthDelta -2090ms",
+            "t": "2026-09-24T12:06:04Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin_mapear (291/291); 4 anclas nuevas creadas (escribes L6, colibries L7, que L17, ya L39) reusando DI del original; homografo mi/mi verificado linea 11 vs 31 igual que original",
+            "t": "2026-09-24T11:58:05Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "actualizar lineas 6/17/39 en su draft pending_review",
+            "t": "2026-09-24T12:06:05Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "puntos suspensivos finales no son defecto (sesion principal)",
+            "t": "2026-09-24T12:06:04Z"
+          }
+        },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_errata 5; sin_mapear 4",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "VERDE",
+          "resumen": "puntos suspensivos finales no son defecto (sesion principal)",
+          "t": "2026-09-24T12:06:04Z"
         }
       }
     },
@@ -10695,10 +10726,10 @@
       "originalTrackId": "6aa7bbbdf0f8e5713e69d730",
       "titulo": "Esta Tristeza Mia",
       "artista": "Javier Solis",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T11:39:23Z",
+      "motivo": "espera a Saul: crear mitiga en PROD (linea 7 tok5, clasificador bloqueo), reabrir ingles linea 10 y 14 (mi->ni), y revisar cover_audio_measure job 6ab50b7fc53ee9e0e50e62fe cuando termine",
+      "actualizado": "2026-09-24T11:47:25Z",
       "auditoria": {
         "prioridad": 11,
         "pasos": {
@@ -10726,12 +10757,17 @@
             "v": "saul",
             "nota": "reabrir ingles: linea 10 y linea 14 (texto cambio de mi a ni, traduccion de linea y WIT del ancla 'ni' quedan desfasados); draft ya approved, no se toca",
             "t": "2026-09-24T11:38:39Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "mitiga bloqueado clasificador (saul), timing linea 13 justificado, ingles reabrir linea 10/14 (saul); sin defectos nuevos",
+            "t": "2026-09-24T11:47:18Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_errata 2; sin_mapear 1; gemelas_distintas 1",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "VERDE",
+          "resumen": "mitiga bloqueado clasificador (saul), timing linea 13 justificado, ingles reabrir linea 10/14 (saul); sin defectos nuevos",
+          "t": "2026-09-24T11:47:18Z"
         }
       }
     },
@@ -18565,13 +18601,39 @@
       "originalTrackId": "6aa7b6238d615aa3fed2ffa9",
       "titulo": "Amaneci En Tus Brazos",
       "artista": "Luis Miguel",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #14 (24 sep): richsync. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-24T11:59:12Z",
       "auditoria": {
         "prioridad": 14,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry ya aplicado; qc inicial ROJO: 4 erratas, 1 falta, 2 tildes, 1 gemelas, 1 puntuacion; backup tomado",
+            "t": "2026-09-24T11:45:53Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "4 erratas + 1 insercion (Y linea28) + 1 puntuacion arregladas via lrc_plan_fix; anclas movidas ok",
+            "t": "2026-09-24T11:57:06Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "7 anclas remapeadas a sentido correcto (tus/manos/tu/cuando/amanecer/entre-entre/me); gemelas_distintas restante (l23/l2 entre-entre) es falso positivo: palabras distintas sin tilde, justificado",
+            "t": "2026-09-24T11:57:06Z"
+          },
+          "timing": {
+            "v": "saul",
+            "nota": "richsync 96% isEstimatedTiming (98/102 tras mis 4 fixes de L28); reparado el solape introducido por el insert en L28 (palabra Y superponia con linea previa); cover_audio_measure corrido, karaokeMp3=ref/timeline sin drift pero vocalPresence=karaoke (casi sin voz); mixMp3V y stemVoc con offset y lengthDelta grandes y confianza baja; cadencia palabra a palabra necesita oido, no se puede verificar mecanicamente en 29 lineas",
+            "t": "2026-09-24T11:59:08Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "draft approved 29/29; texto cambio de significado en L6,10,16,22,28 (correccion de letra vs original); reabrir ingles esas 5 lineas, no tocado (draft approved ajeno)",
+            "t": "2026-09-24T11:59:08Z"
+          }
+        },
         "qc": {
           "v": "ROJO",
           "resumen": "qc_es inicial: vs_original_errata 4; vs_original_falta 1; item_tilde_distinta 2; gemelas_distintas 1",
@@ -21846,10 +21908,10 @@
       "originalTrackId": "6aa7bbbf387e9481dd7bd2fe",
       "titulo": "Fanny",
       "artista": "Leo Dan",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #13 (24 sep): mapeo, tildes. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T11:44:28Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-24T11:58:45Z",
       "auditoria": {
         "prioridad": 13,
         "pasos": {
@@ -21857,6 +21919,26 @@
             "v": "ok",
             "nota": "carry ya aplicado previamente (coverOf enlazado, letra coincide con original salvo erratas detectadas)",
             "t": "2026-09-24T11:44:28Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes: dirá con tilde (líneas 5,10), Éstas→Estas sin tilde (líneas 3,8,19,29); porque->por qué con ¿ (líneas 11-12,21-22) para calzar con el original",
+            "t": "2026-09-24T11:56:58Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "6 sin_mapear cerrados (Estas x4 demostrativo pronombre, dirá x2 FUT.3SG decir); gemelas unificadas (la/el articulo->DETERMINER, tiempo, es, no, eras); homografos por/qué remapeados tras el split",
+            "t": "2026-09-24T11:56:59Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "track_timing_report: 0ms drift en las 32 lineas (isConstantShift, sin desajuste); hueco de 20s antes de linea 21 es un pasaje instrumental, no defecto; cover_audio_measure encolado (job 6ab5101da1a676e9fd37bfcf), aun sin medir (alignment vacio)",
+            "t": "2026-09-24T11:57:38Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "draft en 'approved', no se toca; reabrir ingles: lineas 11,12,21,22 (cambio de sentido porque->por que, de declarativo a interrogativo); lineas 3,5,8,10,19,29 solo tilde, sin cambio de sentido, no requieren reapertura",
+            "t": "2026-09-24T11:57:53Z"
           }
         },
         "qc": {
@@ -21949,10 +22031,10 @@
       "originalTrackId": "6aa7b9908d615aa3fed344c3",
       "titulo": "Cuidado Amor",
       "artista": "Julio Iglesias",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #12 (24 sep): mapeo, LRC, timing. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T11:43:26Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-24T12:01:37Z",
       "auditoria": {
         "prioridad": 12,
         "pasos": {
@@ -21960,6 +22042,26 @@
             "v": "ok",
             "nota": "carry ya aplicado (coverOf enlazado, ingles approved); no se reproyecta",
             "t": "2026-09-24T11:43:26Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "erratas/tildes/mayus/palabra movida arregladas; 2 diffs de línea restantes son fusión/división intencional vs original, justificados en informe",
+            "t": "2026-09-24T12:00:11Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "huecos+gemelas+homografos resueltos (cob 257/257); 3 items nuevos + 1 phrase sin traducir (API sin credito), ver pendiente_traducir.tsv",
+            "t": "2026-09-24T12:00:11Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift LRC/richsync 0 en 52 lineas; hueco linea 22 es interludio instrumental normal; audio stemVoc offset890/delta3632 NO pineable (ver informe), decision de pin queda para sesion principal",
+            "t": "2026-09-24T12:01:04Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "draft approved, no tocado; reabrir por cambio de sentido en linea 24 y linea 25 (palabra movida entre lineas); WIT de anclas nuevas (marchaste/guardas/cuidado/olvidado/cariño/aun/como/extraño/sera/yo/la) pendientes de ese reopen",
+            "t": "2026-09-24T12:01:26Z"
           }
         },
         "qc": {
