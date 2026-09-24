@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T12:31:52Z",
+  "generado": "2026-09-24T12:40:06Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -182,10 +182,10 @@
       "originalTrackId": "6aa7d5bdf0f8e5713e6bde98",
       "titulo": "Me Vale",
       "artista": "Maná",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC (vuelta 1b: cover completo, solo avisos justificados)",
-      "actualizado": "2026-09-24T12:30:45Z",
+      "motivo": "espera a Saul: reabrir WIT ingles lineas 7, 36, 40 y 56 (traduccion de linea correcta, palabra por palabra desalineada tras remapeos)",
+      "actualizado": "2026-09-24T12:39:25Z",
       "auditoria": {
         "prioridad": 16,
         "pasos": {
@@ -208,12 +208,22 @@
             "v": "saul",
             "nota": "vuelta 1b: ademas de linea 36/40, reabrir tambien linea 7 (remapeo oir) y linea 56 (insert 'o') -- WIT palabra por palabra desalineado ahi tambien, draft sigue approved, no tocado",
             "t": "2026-09-24T12:30:45Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "0 rojo, 3 aviso justificados; nota de Saul linea 36/40 verificada arreglada; estructura y sentidos limpios",
+            "t": "2026-09-24T12:38:52Z"
+          },
+          "carry": {
+            "v": "ok",
+            "nota": "verificado por QC (no registrado por el worker): coverOf ya vinculado, LRC/estructura calca al original salvo intro propia, timing sin mover, richsync intacto -- mismo patron que el resto de la cola",
+            "t": "2026-09-24T12:39:09Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_errata 1; vs_original_falta 1; sin_mapear 3; gemelas_distintas 8",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "VERDE",
+          "resumen": "0 rojo, 3 aviso justificados; nota de Saul linea 36/40 verificada arreglada; estructura y sentidos limpios",
+          "t": "2026-09-24T12:38:52Z"
         }
       }
     },
@@ -612,10 +622,10 @@
       "originalTrackId": "6aa7b98ff0f8e5713e69a577",
       "titulo": "Cuando Te Acuerdes De Mi",
       "artista": "Marco Antonio Solís",
-      "estado": "correccion",
+      "estado": "parada",
       "vueltas": 1,
-      "motivo": "QC devuelto: corregir 2 tildes en LRC (linea 9 palabra 5, linea 12 palabra 5) via lrc_plan_fix; el resto queda validado",
-      "actualizado": "2026-09-24T12:30:48Z",
+      "motivo": "espera a Saul: crear item linea 5 en prod (bloqueado por clasificador, payload listo)",
+      "actualizado": "2026-09-24T12:39:38Z",
       "auditoria": {
         "prioridad": 18,
         "pasos": {
@@ -626,8 +636,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "linea 41 coma final quitada (drift richsync 0 en todas las lineas)",
-            "t": "2026-09-24T12:24:58Z"
+            "nota": "vuelta2: tilde de homografo corregida en linea 9 palabra 5 y linea 12 palabra 5 via lrc_plan_fix (edits), verificado con track_line_tokens_get, ids/timing sin cambios",
+            "t": "2026-09-24T12:35:23Z"
           },
           "timing": {
             "v": "ok",
@@ -645,15 +655,15 @@
             "t": "2026-09-24T12:24:59Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 tildes de homografo sin corregir en LRC (linea 9 palabra 5, linea 12 palabra 5); resto (item nuevo, gemelas, ingles, audio) OK",
-            "t": "2026-09-24T12:30:48Z"
+            "v": "ok",
+            "nota": "vuelta 2: 2 tildes corregidas y verificadas; solo queda item linea 5 bloqueado en prod",
+            "t": "2026-09-24T12:39:24Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 tildes de homografo sin corregir en LRC (linea 9 palabra 5, linea 12 palabra 5); resto (item nuevo, gemelas, ingles, audio) OK",
-          "t": "2026-09-24T12:30:48Z"
+          "v": "VERDE",
+          "resumen": "vuelta 2: 2 tildes corregidas y verificadas; solo queda item linea 5 bloqueado en prod",
+          "t": "2026-09-24T12:39:24Z"
         }
       }
     },
@@ -16327,10 +16337,10 @@
       "originalTrackId": "6aa7d5bb387e9481dd7dddd8",
       "titulo": "Hoy No Me Puedo Levantar",
       "artista": "Mecano",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "champan sin tilde; outro 25-26 arreglable con delete+insert; retraducir mapeo (items sin traducir)",
-      "actualizado": "2026-09-24T12:29:15Z",
+      "motivo": "vuelta 2 lista para QC",
+      "actualizado": "2026-09-24T12:37:53Z",
       "auditoria": {
         "prioridad": 19,
         "pasos": {
@@ -16350,9 +16360,9 @@
             "t": "2026-09-24T12:21:13Z"
           },
           "mapeo": {
-            "v": "ok",
-            "nota": "10 sin_mapear + 1 gemelas_distintas resueltos; 4 items nuevos dev+prod (concentrar, reventar, resaca+resacas, burbujas); champan sin tilde = estilo del original, ancla al sentido correcto",
-            "t": "2026-09-24T12:21:13Z"
+            "v": "saul",
+            "nota": "5 items nuevos sin traducir (API sin credito)",
+            "t": "2026-09-24T12:37:19Z"
           },
           "ingles": {
             "v": "na",
@@ -20916,10 +20926,16 @@
       "estado": "correccion",
       "vueltas": 0,
       "motivo": "Prioridad Saúl #20 (24 sep): mapeo. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "actualizado": "2026-09-24T12:37:53Z",
       "auditoria": {
         "prioridad": 20,
-        "pasos": {},
+        "pasos": {
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 37 mayuscula+coma arreglados; resto de erratas = otra letra cantada, ver informe",
+            "t": "2026-09-24T12:37:53Z"
+          }
+        },
         "qc": {
           "v": "ROJO",
           "resumen": "qc_es inicial: vs_original_errata 7; vs_original_falta 1; sin_mapear 10; gemelas_distintas 3",
