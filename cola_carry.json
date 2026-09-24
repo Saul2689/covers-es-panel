@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T15:31:24Z",
+  "generado": "2026-09-24T15:36:33Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -874,10 +874,10 @@
       "originalTrackId": "6aa7b8368d615aa3fed32f12",
       "titulo": "Cenizas",
       "artista": "Javier Solis",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T15:25:11Z",
+      "estado": "hecha",
+      "vueltas": 2,
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-24T15:36:09Z",
       "auditoria": {
         "prioridad": 10,
         "pasos": {
@@ -898,8 +898,8 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "6 anclas nuevas en 3 items PROD ya subidos por Saul; plural no aparece en la letra, no se crea",
-            "t": "2026-09-24T15:24:59Z"
+            "nota": "líneas 17 y 28: borradas las 2 anclas sobrantes fuera de rango tras nuestro borrado de ficha (excepción permitida)",
+            "t": "2026-09-24T15:35:04Z"
           },
           "ingles": {
             "v": "ok",
@@ -908,14 +908,14 @@
           },
           "qc": {
             "v": "ok",
-            "nota": "hallazgos de items DEV arreglados en sesion principal",
-            "t": "2026-09-24T11:43:19Z"
+            "nota": "anclas huerfanas borradas por sesion principal; anchors=tokens, 0 fuera de rango, 0 duplicados, lineas 17/28 ok",
+            "t": "2026-09-24T15:35:56Z"
           }
         },
         "qc": {
           "v": "VERDE",
-          "resumen": "hallazgos de items DEV arreglados en sesion principal",
-          "t": "2026-09-24T11:43:19Z"
+          "resumen": "anclas huerfanas borradas por sesion principal; anchors=tokens, 0 fuera de rango, 0 duplicados, lineas 17/28 ok",
+          "t": "2026-09-24T15:35:56Z"
         }
       }
     },
@@ -1303,9 +1303,9 @@
       "titulo": "Lejos Estamos Mejor",
       "artista": "Edén Muñoz",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T14:11:59Z",
+      "vueltas": 2,
+      "motivo": "lista para QC: solo corchetes de 2 items",
+      "actualizado": "2026-09-24T15:36:33Z",
       "auditoria": {
         "prioridad": 6,
         "pasos": {
@@ -1325,9 +1325,9 @@
             "t": "2026-09-24T13:54:12Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "vuelta 2: al igualar linea20/11 se destapo una 3a gemela oculta (prep. antes de idx1) con item distinto; unificada a la del resto del track (linea 11/14/23) via word_insight_create; sigue saul por items sin traducir (API sin credito, pendiente_traducir.tsv)",
-            "t": "2026-09-24T14:11:58Z"
+            "v": "ok",
+            "nota": "items reprochar y encargar: corchete [INF · lema] completado (DEV y PROD); ejemplos de encargar reescritos en el sentido pronominal de la canción",
+            "t": "2026-09-24T15:36:33Z"
           },
           "ingles": {
             "v": "ok",
@@ -1336,14 +1336,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "linea 20: discordancia de genero (ninguna/ningun) no detectada por el worker",
-            "t": "2026-09-24T14:00:26Z"
+            "nota": "corchete incompleto en 2 items nuevos (falta lema)",
+            "t": "2026-09-24T15:34:48Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "linea 20: discordancia de genero (ninguna/ningun) no detectada por el worker",
-          "t": "2026-09-24T14:00:26Z"
+          "resumen": "corchete incompleto en 2 items nuevos (falta lema)",
+          "t": "2026-09-24T15:34:48Z"
         }
       }
     },
@@ -10912,10 +10912,10 @@
       "originalTrackId": "6aa7bbbdf0f8e5713e69d730",
       "titulo": "Esta Tristeza Mia",
       "artista": "Javier Solis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "mitiga anclada, ingles y audio revisados; lista para QC",
-      "actualizado": "2026-09-24T15:11:21Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-24T15:36:05Z",
       "auditoria": {
         "prioridad": 11,
         "pasos": {
@@ -10946,14 +10946,14 @@
           },
           "qc": {
             "v": "ok",
-            "nota": "mitiga bloqueado clasificador (saul), timing linea 13 justificado, ingles reabrir linea 10/14 (saul); sin defectos nuevos",
-            "t": "2026-09-24T11:47:18Z"
+            "nota": "mitiga anclado y traducido en PROD; ingles linea 10/14 en pending_review propio; audio servido (stemVoc) en sync con la referencia; sin defectos",
+            "t": "2026-09-24T15:35:58Z"
           }
         },
         "qc": {
           "v": "VERDE",
-          "resumen": "mitiga bloqueado clasificador (saul), timing linea 13 justificado, ingles reabrir linea 10/14 (saul); sin defectos nuevos",
-          "t": "2026-09-24T11:47:18Z"
+          "resumen": "mitiga anclado y traducido en PROD; ingles linea 10/14 en pending_review propio; audio servido (stemVoc) en sync con la referencia; sin defectos",
+          "t": "2026-09-24T15:35:58Z"
         }
       }
     },
@@ -26249,10 +26249,10 @@
       "originalTrackId": "6aa7cd348d615aa3fed4bb95",
       "titulo": "El Proximo Tonto",
       "artista": "Grupo America",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "items anclados e ingles hecho; lista para QC",
-      "actualizado": "2026-09-24T15:13:38Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-24T15:34:32Z",
       "auditoria": {
         "prioridad": 9,
         "pasos": {
@@ -26283,14 +26283,14 @@
           },
           "qc": {
             "v": "ok",
-            "nota": "estructura, sentidos e ingles verificados; sin_mapear/timing/sobra justificados",
-            "t": "2026-09-24T11:44:08Z"
+            "nota": "estructura, sentidos e ingles reverificados de cero; sin_mapear ya en 0; timing/sobra justificados",
+            "t": "2026-09-24T15:34:28Z"
           }
         },
         "qc": {
           "v": "VERDE",
-          "resumen": "estructura, sentidos e ingles verificados; sin_mapear/timing/sobra justificados",
-          "t": "2026-09-24T11:44:08Z"
+          "resumen": "estructura, sentidos e ingles reverificados de cero; sin_mapear ya en 0; timing/sobra justificados",
+          "t": "2026-09-24T15:34:28Z"
         }
       }
     },
