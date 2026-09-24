@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T15:49:41Z",
+  "generado": "2026-09-24T15:55:30Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -498,10 +498,10 @@
       "originalTrackId": "6a5505e645ecd800e9ff843c",
       "titulo": "Labios Compartidos",
       "artista": "Maná",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "espera a Saul: linea 39 de oido, ingles 6/17/39 en su draft, pin de audio",
-      "actualizado": "2026-09-24T12:06:05Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-24T15:54:46Z",
       "auditoria": {
         "prioridad": 15,
         "pasos": {
@@ -511,14 +511,14 @@
             "t": "2026-09-24T11:48:52Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "linea 39 de oido",
-            "t": "2026-09-24T12:06:04Z"
+            "v": "ok",
+            "nota": "linea 39 confirmada igual al original (idx38 Ya); L6/L7/L17 ya verificadas = original; sin cambios nuevos",
+            "t": "2026-09-24T15:54:34Z"
           },
           "timing": {
             "v": "saul",
-            "nota": "pin a oido: stemVoc -80ms, lengthDelta -2090ms",
-            "t": "2026-09-24T12:06:04Z"
+            "nota": "audio servido da 404 (playbackKind null, ningun render pineado): karaokeMp3 mirrored offset0 conf2.52 delta0 firstSound8310 vocalPct4.8 verdictUnknown; stemVoc mirrored offset-80 conf2.10 delta-2090 firstSound8230 vocalPct14.4 verdictVocals; decidir cual pinear es de Saul, no se pinea",
+            "t": "2026-09-24T15:54:41Z"
           },
           "mapeo": {
             "v": "ok",
@@ -526,9 +526,9 @@
             "t": "2026-09-24T11:58:05Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "actualizar lineas 6/17/39 en su draft pending_review",
-            "t": "2026-09-24T12:06:05Z"
+            "v": "ok",
+            "nota": "reabierto (draft nuestro, pending_review->draft), L6/L17/L39 linea+WIT retraducidas, resubmit pending_review",
+            "t": "2026-09-24T15:54:37Z"
           },
           "qc": {
             "v": "ok",
@@ -18849,10 +18849,10 @@
       "originalTrackId": "6aa7b6238d615aa3fed2ffa9",
       "titulo": "Amaneci En Tus Brazos",
       "artista": "Luis Miguel",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "espera a Saul: cadencia palabra a palabra L1-29 solo por oido + confirmar render de referencia (karaokeMp3 casi sin voz) + reabrir ingles lineas 6,10,16,22,28",
-      "actualizado": "2026-09-24T12:10:43Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-24T15:55:30Z",
       "auditoria": {
         "prioridad": 14,
         "pasos": {
@@ -18877,9 +18877,9 @@
             "t": "2026-09-24T11:59:08Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "draft approved 29/29; texto cambio de significado en L6,10,16,22,28 (correccion de letra vs original); reabrir ingles esas 5 lineas, no tocado (draft approved ajeno)",
-            "t": "2026-09-24T11:59:08Z"
+            "v": "ok",
+            "nota": "reabierto draft (owner distinto, sin force-conflict); WIT L6 tus/manos, L10 Tu, L22 amanecer, L28 Y/asi/pasaron corregidas (desfase por edicion de letra); 5 lineas re-traducidas; submit -> pending_review",
+            "t": "2026-09-24T15:55:30Z"
           },
           "qc": {
             "v": "ok",
