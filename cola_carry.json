@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T11:39:28Z",
+  "generado": "2026-09-24T11:44:50Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -719,10 +719,10 @@
       "originalTrackId": "6aa7b8368d615aa3fed32f12",
       "titulo": "Cenizas",
       "artista": "Javier Solis",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T11:35:04Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "espera a Saul: 4 items a PROD (autorizacion), pin de audio a oido, reabrir ingles linea 35",
+      "actualizado": "2026-09-24T11:43:20Z",
       "auditoria": {
         "prioridad": 10,
         "pasos": {
@@ -737,9 +737,9 @@
             "t": "2026-09-24T11:33:03Z"
           },
           "timing": {
-            "v": "falta",
-            "nota": "drift 0 en todas las lineas (track_timing_report); hueco de 20s linea 24 revisado, parece interludio real; cover_audio_list sin medir, measure lanzado (job 6ab50a86c53ee9e0e50e62fd), pendiente de resultado",
-            "t": "2026-09-24T11:33:44Z"
+            "v": "saul",
+            "nota": "audio sin pin: mixMp3V -720ms pero lengthDelta -7863ms; a oido",
+            "t": "2026-09-24T11:43:20Z"
           },
           "mapeo": {
             "v": "saul",
@@ -750,12 +750,17 @@
             "v": "saul",
             "nota": "draft ya approved; cambie el texto de la linea 35 (1-based, outro) al arreglar la tilde de hallaras->hallarás. reabrir ingles: linea 35",
             "t": "2026-09-24T11:34:21Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "hallazgos de items DEV arreglados en sesion principal",
+            "t": "2026-09-24T11:43:19Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_tilde 1; vs_original_falta 1; sin_mapear 7; gemelas_distintas 3",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "VERDE",
+          "resumen": "hallazgos de items DEV arreglados en sesion principal",
+          "t": "2026-09-24T11:43:19Z"
         }
       }
     },
@@ -21844,10 +21849,16 @@
       "estado": "correccion",
       "vueltas": 0,
       "motivo": "Prioridad Saúl #13 (24 sep): mapeo, tildes. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "actualizado": "2026-09-24T11:44:28Z",
       "auditoria": {
         "prioridad": 13,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry ya aplicado previamente (coverOf enlazado, letra coincide con original salvo erratas detectadas)",
+            "t": "2026-09-24T11:44:28Z"
+          }
+        },
         "qc": {
           "v": "ROJO",
           "resumen": "qc_es inicial: vs_original_tilde 2; vs_original_pegada 4; vs_original_falta 2; sin_mapear 6; gemelas_distintas 9",
@@ -21941,10 +21952,16 @@
       "estado": "correccion",
       "vueltas": 0,
       "motivo": "Prioridad Saúl #12 (24 sep): mapeo, LRC, timing. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T10:22:54Z",
+      "actualizado": "2026-09-24T11:43:26Z",
       "auditoria": {
         "prioridad": 12,
-        "pasos": {},
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry ya aplicado (coverOf enlazado, ingles approved); no se reproyecta",
+            "t": "2026-09-24T11:43:26Z"
+          }
+        },
         "qc": {
           "v": "ROJO",
           "resumen": "qc_es inicial: vs_original_tilde 1; vs_original_errata 3; vs_original_falta 4; sin_mapear 10; gemelas_distintas 9",
@@ -25712,10 +25729,10 @@
       "originalTrackId": "6aa7cd348d615aa3fed4bb95",
       "titulo": "El Proximo Tonto",
       "artista": "Grupo America",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T11:36:59Z",
+      "motivo": "espera a Saul: crear 6 items nuevos en PROD (payloads listos) y mapear 12 anclas linea 5,6,11,13,14,24,29,31,32,39,41,42; reabrir ingles linea 12,30,40",
+      "actualizado": "2026-09-24T11:44:17Z",
       "auditoria": {
         "prioridad": 9,
         "pasos": {
@@ -25743,12 +25760,17 @@
             "v": "saul",
             "nota": "reabrir ingles: linea 12, 30, 40 (texto cambio por insercion de 'a'; draft ya approved, no se toca)",
             "t": "2026-09-24T11:36:53Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, sentidos e ingles verificados; sin_mapear/timing/sobra justificados",
+            "t": "2026-09-24T11:44:08Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_falta 3; sin_mapear 13; gemelas_distintas 23",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "VERDE",
+          "resumen": "estructura, sentidos e ingles verificados; sin_mapear/timing/sobra justificados",
+          "t": "2026-09-24T11:44:08Z"
         }
       }
     },
