@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T15:42:34Z",
+  "generado": "2026-09-24T15:44:59Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -22320,10 +22320,10 @@
       "originalTrackId": "6aa7b9908d615aa3fed344c3",
       "titulo": "Cuidado Amor",
       "artista": "Julio Iglesias",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 3,
-      "motivo": "lista para QC: solo WIT de líneas 24-25",
-      "actualizado": "2026-09-24T15:42:23Z",
+      "motivo": "espera a Saul: el audio servido da 404",
+      "actualizado": "2026-09-24T15:44:32Z",
       "auditoria": {
         "prioridad": 12,
         "pasos": {
@@ -22353,15 +22353,15 @@
             "t": "2026-09-24T15:42:23Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT palabra por palabra roto en 2 lineas tras reindexado (insercion/fusion); resto (LRC, timing, mapeo, ingles de linea, items nuevos) confirmado OK",
-            "t": "2026-09-24T15:40:24Z"
+            "v": "ok",
+            "nota": "WIT de lineas 24/25 reasentado por la sesion principal, verificado en el draft; resto confirmado OK, cobertura 257/257",
+            "t": "2026-09-24T15:44:16Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT palabra por palabra roto en 2 lineas tras reindexado (insercion/fusion); resto (LRC, timing, mapeo, ingles de linea, items nuevos) confirmado OK",
-          "t": "2026-09-24T15:40:24Z"
+          "v": "VERDE",
+          "resumen": "WIT de lineas 24/25 reasentado por la sesion principal, verificado en el draft; resto confirmado OK, cobertura 257/257",
+          "t": "2026-09-24T15:44:16Z"
         }
       }
     },
@@ -22950,10 +22950,10 @@
       "originalTrackId": "6aa7ba86387e9481dd7bb18e",
       "titulo": "Ella",
       "artista": "Salvatore Adamo",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 3,
-      "motivo": "arreglos de la QC hechos por la sesion principal; lista para QC",
-      "actualizado": "2026-09-24T15:16:59Z",
+      "motivo": "espera a Saul: ejemplo item nuevo repite verso (linea 8) + linea 21 de oido",
+      "actualizado": "2026-09-24T15:44:59Z",
       "auditoria": {
         "prioridad": 24,
         "pasos": {
@@ -22984,14 +22984,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "WIT obsoleto en 4 anclas remapeadas (lineas 3 y 9) + ejemplo de item nuevo es un verso",
-            "t": "2026-09-24T15:14:24Z"
+            "nota": "ejemplo de item nuevo aun repite un verso (arrastrado); linea 21 de oido",
+            "t": "2026-09-24T15:44:53Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT obsoleto en 4 anclas remapeadas (lineas 3 y 9) + ejemplo de item nuevo es un verso",
-          "t": "2026-09-24T15:14:24Z"
+          "v": "PARADA",
+          "resumen": "ejemplo de item nuevo aun repite un verso (arrastrado); linea 21 de oido",
+          "t": "2026-09-24T15:44:53Z"
         }
       }
     },
