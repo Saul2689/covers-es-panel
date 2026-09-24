@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T12:57:53Z",
+  "generado": "2026-09-24T13:51:22Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -25215,10 +25215,10 @@
       "originalTrackId": "6aa7ba828d615aa3fed363c2",
       "titulo": "El Arbol",
       "artista": "Roberto Ledesma",
-      "estado": "correccion",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "Prioridad Saúl #21 (24 sep): mapeo, LRC, puntuación. Se había dado por hecha sin estarlo; auditoría completa en curso",
-      "actualizado": "2026-09-24T12:57:52Z",
+      "motivo": "espera a Saul: linea 1 confirmar de oido si falta palabra; traducir 4 items nuevos (unian/bordan/revestia/grababan) sin credito API",
+      "actualizado": "2026-09-24T13:51:00Z",
       "auditoria": {
         "prioridad": 21,
         "pasos": {
@@ -25233,9 +25233,9 @@
             "t": "2026-09-24T12:57:51Z"
           },
           "lrc": {
-            "v": "ok",
-            "nota": "errata linea 5 Paso->Pasa, coma/punto linea 4 unian.; linea1 y linea8 justificadas (ver informe)",
-            "t": "2026-09-24T12:57:51Z"
+            "v": "saul",
+            "nota": "arreglado: errata linea 5 (Paso->Pasa) y punto linea 4 (unian.); linea 8 y 33 puntos suspensivos son estilo proveedor, no se tocan; linea 1 el original trae una palabra que el cover no canta y no se repite en la cancion -> necesita oido de Saul para confirmar si se inserta",
+            "t": "2026-09-24T12:58:26Z"
           },
           "mapeo": {
             "v": "saul",
@@ -25246,12 +25246,17 @@
             "v": "ok",
             "nota": "linea 33/33; WIT anadidos a 8 anclas nuevas, draft enviado a pending_review, ningun sentido cambio",
             "t": "2026-09-24T12:57:52Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "qc final 2 hallazgos justificados (linea1 sin gemela, linea8 elipsis); comas de las 33 lineas revisadas, coincidian ya con el original salvo el punto de linea4 ya corregido; sentidos y draft ingles correctos",
+            "t": "2026-09-24T13:50:48Z"
           }
         },
         "qc": {
-          "v": "ROJO",
-          "resumen": "qc_es inicial: vs_original_errata 1; vs_original_falta 1; sin_mapear 8; gemelas_distintas 4",
-          "t": "2026-09-24T10:22:54Z"
+          "v": "VERDE",
+          "resumen": "qc final 2 hallazgos justificados (linea1 sin gemela, linea8 elipsis); comas de las 33 lineas revisadas, coincidian ya con el original salvo el punto de linea4 ya corregido; sentidos y draft ingles correctos",
+          "t": "2026-09-24T13:50:48Z"
         }
       }
     },
