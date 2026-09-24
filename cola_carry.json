@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T16:02:27Z",
+  "generado": "2026-09-24T16:03:15Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -11,7 +11,36 @@
       "estado": "correccion",
       "vueltas": 1,
       "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 87%, ingles 47/53; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "actualizado": "2026-09-24T16:03:15Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "aplicado previamente, no se re-proyecta",
+            "t": "2026-09-24T16:03:14Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "3 lineas corregidas (8,15,19); resto justificado: ad-libs fr/en entre parentesis, nombres propios, formato variable del proveedor",
+            "t": "2026-09-24T16:03:14Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "richsync 0 drift todas las lineas; hueco linea13 confirmado como break instrumental (el original cubre el mismo tramo con duracion extendida en su linea previa)",
+            "t": "2026-09-24T16:03:14Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "4 gemelas distintas unificadas; sin_mapear (24) justificado: D-1/D-2 ad-libs fr/en/scat sobre lineas ya excluidas o extranjeras",
+            "t": "2026-09-24T16:03:15Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "reabrir ingles: linea 8 y linea 19 (texto ES cambio hoy); draft ya en pending_review de una vuelta anterior, no se toca",
+            "t": "2026-09-24T16:03:15Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa1113e64c9b8ff110d0d55",
