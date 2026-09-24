@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T15:55:30Z",
+  "generado": "2026-09-24T16:02:27Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -498,10 +498,10 @@
       "originalTrackId": "6a5505e645ecd800e9ff843c",
       "titulo": "Labios Compartidos",
       "artista": "Maná",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 1,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T15:54:46Z",
+      "motivo": "espera a Saul: el audio servido da 404 (sin render elegido)",
+      "actualizado": "2026-09-24T16:02:27Z",
       "auditoria": {
         "prioridad": 15,
         "pasos": {
@@ -532,14 +532,14 @@
           },
           "qc": {
             "v": "ok",
-            "nota": "puntos suspensivos finales no son defecto (sesion principal)",
-            "t": "2026-09-24T12:06:04Z"
+            "nota": "QC adversarial independiente: estructura, timing, anclas y ingles verificados contra prod; unico punto abierto es el audio 404 (playbackKind sin elegir)",
+            "t": "2026-09-24T16:02:16Z"
           }
         },
         "qc": {
           "v": "VERDE",
-          "resumen": "puntos suspensivos finales no son defecto (sesion principal)",
-          "t": "2026-09-24T12:06:04Z"
+          "resumen": "QC adversarial independiente: estructura, timing, anclas y ingles verificados contra prod; unico punto abierto es el audio 404 (playbackKind sin elegir)",
+          "t": "2026-09-24T16:02:16Z"
         }
       }
     },
@@ -549,10 +549,10 @@
       "originalTrackId": "6aa7d7dd387e9481dd7e22e0",
       "titulo": "La Bomba",
       "artista": "Azul Azul",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "espera a Saul: lineas 1/23/8/34 (oido) y traduccion del item nuevo lineas 35-38 (creditos)",
-      "actualizado": "2026-09-24T11:03:13Z",
+      "motivo": "lista para QC, vuelta 3",
+      "actualizado": "2026-09-24T16:01:54Z",
       "auditoria": {
         "prioridad": 1,
         "pasos": {
@@ -562,29 +562,29 @@
             "t": "2026-09-24T10:39:30Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "vuelta 2: linea 16 (moviemiento) corregida en el LRC; pendiente Saul solo lineas 1/23 (palabra inicial), 8 (orden de palabras), 34 (frase de mas)",
-            "t": "2026-09-24T10:57:24Z"
+            "v": "ok",
+            "nota": "vuelta 3: lineas 1/23 (interjeccion insertada, referi original) y 8 (orden ASR corregido) resueltas; linea 34 justificada (ad-lib genuino, timing regular)",
+            "t": "2026-09-24T16:01:43Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "track_timing_report: drift 0ms en las 38 lineas, sin huecos",
-            "t": "2026-09-24T10:39:33Z"
+            "nota": "0 ms deriva en 38 lineas tras inserts; idx-0 trap corregido en lineas 1 y 23; richsync linea 8 redistribuido",
+            "t": "2026-09-24T16:01:43Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "mapeo completo; item nuevo sin traducir a 19 idiomas (API de traduccion sin credito)",
-            "t": "2026-09-24T10:59:12Z"
+            "v": "ok",
+            "nota": "anclas de lineas 1/23/8 recolocadas y remapeadas; acabalo traducido a 19 idiomas (missing-languages=0) y anclado en 35-38",
+            "t": "2026-09-24T16:01:44Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "draft reabierto, 5 WIT nuevas fijadas para las anclas creadas, submit hecho -> pending_review (no aprobado)",
-            "t": "2026-09-24T10:39:35Z"
+            "nota": "reabierto: WIT de anclas nuevas/remapeadas en 1/23/8/35-38 + lineas de texto cambiado (1/23/8) re-traducidas; submit -> pending_review",
+            "t": "2026-09-24T16:01:44Z"
           },
           "qc": {
-            "v": "ok",
-            "nota": "vuelta 2: typo linea16 y acabalo confirmados OK, traduccion de acabalo pendiente por creditos (Saul)",
-            "t": "2026-09-24T11:02:36Z"
+            "v": "falta",
+            "nota": "vuelta 3 cerrada por agente (regla 24 sep); pendiente pase del revisor adversarial",
+            "t": "2026-09-24T16:01:54Z"
           }
         },
         "qc": {
@@ -20077,10 +20077,10 @@
       "originalTrackId": "6aa7d5c6387e9481dd7ddf21",
       "titulo": "Libro Abierto",
       "artista": "Gerardo Reyes",
-      "estado": "parada",
-      "vueltas": 2,
-      "motivo": "espera a Saul: oido linea 1 tras el pin + lineas 16/27",
-      "actualizado": "2026-09-24T11:31:23Z",
+      "estado": "revision",
+      "vueltas": 3,
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-24T15:59:56Z",
       "auditoria": {
         "prioridad": 7,
         "pasos": {
@@ -20091,23 +20091,23 @@
           },
           "timing": {
             "v": "ok",
-            "nota": "pin mixMp3V, retime -7730ms, clamp 0",
-            "t": "2026-09-24T11:24:30Z"
+            "nota": "linea 1: firstSoundMs cruzado con offset confirma el shift ya aplicado (20ms de margen); sin nuevo pin, sin clamp",
+            "t": "2026-09-24T15:59:49Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "6 anclas unificadas/homografo corregido; 0 sin_mapear; sin items nuevos",
-            "t": "2026-09-24T11:03:18Z"
+            "nota": "anclas de las 2 lineas realineadas a los items de la linea 12; 2 anclas fuera de rango tras el delete borradas",
+            "t": "2026-09-24T15:59:50Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "linea 12 retraducida + 5 WIT corregidos; draft nuevo enviado a pending_review",
-            "t": "2026-09-24T11:03:20Z"
+            "nota": "lineas 16/27 retraducidas + 8 WIT corregidos (en/mi en 3 repeticiones, te/necesito linea16); draft enviado a pending_review",
+            "t": "2026-09-24T15:59:50Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "lineas 16 y 27: orden y palabras de mas dudosos, no se tocan sin confirmar",
-            "t": "2026-09-24T11:03:26Z"
+            "v": "ok",
+            "nota": "lineas 16 y 27 reescritas para casar con la 3a repeticion identica del original (misma frase de la linea 12); 2 tokens sobrantes por linea retirados",
+            "t": "2026-09-24T15:59:49Z"
           },
           "qc": {
             "v": "ok",
