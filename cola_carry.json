@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T15:02:11Z",
+  "generado": "2026-09-25T15:23:05Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -19768,8 +19768,8 @@
       "artista": "Luis Miguel",
       "estado": "parada",
       "vueltas": 2,
-      "motivo": "no suena: /audio 404 desde la medición del 24 sep; el pin a FULL SONG mueve la letra varios segundos y espera el OK de Saúl",
-      "actualizado": "2026-09-25T15:01:16Z",
+      "motivo": "suena en FULL SONG desde el 25 sep; falta rehacer el timing a oído (la versión dura 9 s menos que la letra)",
+      "actualizado": "2026-09-25T15:23:05Z",
       "auditoria": {
         "prioridad": 14,
         "pasos": {
@@ -19789,9 +19789,9 @@
             "t": "2026-09-24T16:05:59Z"
           },
           "timing": {
-            "v": "ok",
-            "nota": "richsync re-espaciado por silabas dentro de cada ventana de linea (98/102 palabras estimadas por division uniforme -> proporcional); L28(1-based) ya fijada a mano se recalculo igual; sin solapes, sin huecos, drift 0 en track_timing_report; cover_audio_list karaokeMp3 offset 0 ya medido, no se remide",
-            "t": "2026-09-25T10:50:14Z"
+            "v": "saul",
+            "nota": "25 sep: fijada en FULL SONG (mixMp3V), suena (206); las 29 líneas movidas -2,74 s en bloque, drift 0; la versión dura 9 s menos, así que el timing hay que rehacerlo a oído",
+            "t": "2026-09-25T15:23:04Z"
           },
           "ingles": {
             "v": "ok",
@@ -19810,7 +19810,7 @@
           "t": "2026-09-25T14:14:33Z"
         }
       },
-      "motivo_en": "no audio: /audio 404 since the 24 Sep measurement; pinning FULL SONG shifts the lyric several seconds, needs Saúl's OK"
+      "motivo_en": "plays FULL SONG since 25 Sep; timing must be redone by ear (render is 9 s shorter than the lyric)"
     },
     {
       "coverTrackId": "6aa724df72ca57eb1aadb6e9",
