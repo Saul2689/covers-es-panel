@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T09:00:54Z",
+  "generado": "2026-09-25T09:12:51Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -116,7 +116,16 @@
       "estado": "hecha",
       "vueltas": 0,
       "motivo": "revisión rápida en verde: carry 99%, 130 anclas sin deriva, audio OK, en 23/23",
-      "actualizado": "2026-09-22T14:21:47Z"
+      "actualizado": "2026-09-25T09:12:50Z",
+      "auditoria": {
+        "pasos": {
+          "ingles": {
+            "v": "ok",
+            "nota": "tú sujeto: 'your' → 'you' en los WIT; fila 'your' fusionada en el diccionario; enviado a revisión",
+            "t": "2026-09-25T09:12:50Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6a9a2ed79bc1eb1372531938",
@@ -342,10 +351,39 @@
       "originalTrackId": "6aa7d7ee0752719d51acc3da",
       "titulo": "Marlboro Rojo",
       "artista": "Fuerza Regida",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "worker de biblioteca en marcha",
-      "actualizado": "2026-09-25T08:43:38Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-25T09:04:10Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "aplicado 14 sep, no se re-proyecta",
+            "t": "2026-09-25T09:04:08Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "1 palabra sobrante mayuscula eliminada linea 8; resto justificado (ad-lib entre parentesis linea 3)",
+            "t": "2026-09-25T09:04:09Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en track_timing_report; audio servido 206, no remedido (indicacion explicita)",
+            "t": "2026-09-25T09:04:09Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "24 anclas nuevas + 2 items nuevos traducidos 19 idiomas + 4 gemelas unificadas; cobertura 178/178",
+            "t": "2026-09-25T09:04:10Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "31 WIT + 1 linea corregidos tras cambios de anclas; wit_dt_audit BAD 0; submit a pending_review",
+            "t": "2026-09-25T09:04:10Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa1113464c9b8ff110ce5d7",
@@ -763,7 +801,21 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker de biblioteca en marcha",
-      "actualizado": "2026-09-25T09:00:54Z"
+      "actualizado": "2026-09-25T09:11:56Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "coverOf ya vinculado, sin re-proyectar",
+            "t": "2026-09-25T09:11:56Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "resarle->rezarle (errata compartida con original); tilde este->este en refrain x2; changarro/debe se dejan (consistentes en las 2 repeticiones, original tiene su propia errata)",
+            "t": "2026-09-25T09:11:56Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa1111764c9b8ff110c7b7b",
@@ -1570,13 +1622,13 @@
       "estado": "hecha",
       "vueltas": 0,
       "motivo": "hecha a mano por Saul (4 estrellas, lock). Repaso rapido: el richsync tenia un token vacio al final (ademas de dos tokens de solo puntuacion que SI estan en la letra); quitado y fin de linea repuesto (23 sep). 228 = 228, 226 anclas, deriva 0, audio 206. Lista",
-      "actualizado": "2026-09-25T08:50:10Z",
+      "actualizado": "2026-09-25T09:07:10Z",
       "auditoria": {
         "pasos": {
           "ingles": {
-            "v": "falta",
-            "nota": "WIT sin texto en palabras de contenido (inglés aprobado): rellenar nivel palabra",
-            "t": "2026-09-25T08:50:10Z"
+            "v": "ok",
+            "nota": "WIT completadas: 68; BAD 0; pending_review",
+            "t": "2026-09-25T09:07:10Z"
           }
         }
       }
@@ -2443,7 +2495,16 @@
       "estado": "correccion",
       "vueltas": 0,
       "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 90%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "actualizado": "2026-09-25T09:12:50Z",
+      "auditoria": {
+        "pasos": {
+          "ingles": {
+            "v": "ok",
+            "nota": "tú sujeto: 'your' → 'you' en los WIT; fila 'your' fusionada en el diccionario; enviado a revisión",
+            "t": "2026-09-25T09:12:50Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7742c72ca57eb1ab9f05b",
@@ -2773,13 +2834,13 @@
       "estado": "hecha",
       "vueltas": 0,
       "motivo": "revisión rápida en verde: carry 100% aplicado=True, 156 anclas, deriva 0, audio 206, lecciones 0, en 42/42",
-      "actualizado": "2026-09-25T08:50:10Z",
+      "actualizado": "2026-09-25T09:11:06Z",
       "auditoria": {
         "pasos": {
           "ingles": {
-            "v": "falta",
-            "nota": "WIT sin texto en palabras de contenido (inglés aprobado): rellenar nivel palabra",
-            "t": "2026-09-25T08:50:10Z"
+            "v": "ok",
+            "nota": "WIT completadas: 62; BAD 0; pending_review",
+            "t": "2026-09-25T09:11:06Z"
           }
         }
       }
@@ -20784,7 +20845,16 @@
       "estado": "hecha",
       "vueltas": 0,
       "motivo": "revisión rápida en verde: carry 97% aplicado=True, 304 anclas, deriva 0, audio 206, lecciones 16, en 37/37",
-      "actualizado": "2026-09-22T15:06:03Z"
+      "actualizado": "2026-09-25T09:12:50Z",
+      "auditoria": {
+        "pasos": {
+          "ingles": {
+            "v": "ok",
+            "nota": "tú sujeto: 'your' → 'you' en los WIT; fila 'your' fusionada en el diccionario; enviado a revisión",
+            "t": "2026-09-25T09:12:50Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7727472ca57eb1ab5db43",
@@ -26560,7 +26630,16 @@
       "estado": "hecha",
       "vueltas": 0,
       "motivo": "Lote 7: mapeo 100% (21 anclas de tilde re-ancladas), ingles 32/32, secc 100%, audio 206",
-      "actualizado": "2026-09-23T11:03:55Z"
+      "actualizado": "2026-09-25T09:12:51Z",
+      "auditoria": {
+        "pasos": {
+          "ingles": {
+            "v": "ok",
+            "nota": "tú sujeto: 'your' → 'you' en los WIT; fila 'your' fusionada en el diccionario; enviado a revisión",
+            "t": "2026-09-25T09:12:51Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa73eac72ca57eb1ab069d0",
