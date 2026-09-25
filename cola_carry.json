@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T08:04:47Z",
+  "generado": "2026-09-25T08:06:25Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -588,10 +588,10 @@
       "originalTrackId": "6aa7d7dd387e9481dd7e22e0",
       "titulo": "La Bomba",
       "artista": "Azul Azul",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC, vuelta 3",
-      "actualizado": "2026-09-24T16:01:54Z",
+      "estado": "parada",
+      "vueltas": 4,
+      "motivo": "espera a Saúl: audio 404 y las versiones completas no cuadran en duración",
+      "actualizado": "2026-09-25T08:06:25Z",
       "auditoria": {
         "prioridad": 1,
         "pasos": {
@@ -606,9 +606,9 @@
             "t": "2026-09-24T16:01:43Z"
           },
           "timing": {
-            "v": "ok",
-            "nota": "0 ms deriva en 38 lineas tras inserts; idx-0 trap corregido en lineas 1 y 23; richsync linea 8 redistribuido",
-            "t": "2026-09-24T16:01:43Z"
+            "v": "saul",
+            "nota": "audio servido 404; FULL SONG mixMp3V desfase -13,7 s y dura 21 s menos, stemVoc -5,9 s y 5 s menos: no basta un pin; karaoke prohibido",
+            "t": "2026-09-25T08:06:22Z"
           },
           "mapeo": {
             "v": "ok",
@@ -621,15 +621,15 @@
             "t": "2026-09-24T16:01:44Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "vuelta 3 cerrada por agente (regla 24 sep); pendiente pase del revisor adversarial",
-            "t": "2026-09-24T16:01:54Z"
+            "v": "ok",
+            "nota": "letra, mapeo e inglés OK (vuelta 3); lo único abierto es el audio",
+            "t": "2026-09-25T08:06:24Z"
           }
         },
         "qc": {
           "v": "VERDE",
-          "resumen": "vuelta 2: typo linea16 y acabalo confirmados OK, traduccion de acabalo pendiente por creditos (Saul)",
-          "t": "2026-09-24T11:02:36Z"
+          "resumen": "letra, mapeo e inglés OK (vuelta 3); lo único abierto es el audio",
+          "t": "2026-09-25T08:06:24Z"
         }
       }
     },
@@ -2998,8 +2998,8 @@
       "artista": "Wisin & Yandel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "Original importado hoy por ISRC (sin video); richsync + mapeo + match + carry en curso",
-      "actualizado": "2026-09-23T10:34:25Z"
+      "motivo": "worker de biblioteca en marcha",
+      "actualizado": "2026-09-25T08:05:18Z"
     },
     {
       "coverTrackId": "6aa5b70b42b8d1fdb0d2fa50",
@@ -20125,10 +20125,10 @@
       "originalTrackId": "6aa7d5c6387e9481dd7ddf21",
       "titulo": "Libro Abierto",
       "artista": "Gerardo Reyes",
-      "estado": "revision",
-      "vueltas": 4,
-      "motivo": "lista para QC: sí de líneas 10/14/24",
-      "actualizado": "2026-09-25T08:02:02Z",
+      "estado": "correccion",
+      "vueltas": 5,
+      "motivo": "linea24 tok1 tu: WIT DT huerfano, usar 6a136e5ad0cbdb760b4ba783",
+      "actualizado": "2026-09-25T08:06:22Z",
       "auditoria": {
         "prioridad": 7,
         "pasos": {
@@ -20159,14 +20159,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "tilde sí/si sin corregir en 3 lineas (10,14,24 tok2), resto verificado ok",
-            "t": "2026-09-24T16:10:12Z"
+            "nota": "linea24 tok1 tu: WIT con dictionaryTranslationId huerfano (fuera de bolsa), resto ok",
+            "t": "2026-09-25T08:06:19Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "tilde sí/si sin corregir en 3 lineas (10,14,24 tok2), resto verificado ok",
-          "t": "2026-09-24T16:10:12Z"
+          "resumen": "linea24 tok1 tu: WIT con dictionaryTranslationId huerfano (fuera de bolsa), resto ok",
+          "t": "2026-09-25T08:06:19Z"
         }
       }
     },
