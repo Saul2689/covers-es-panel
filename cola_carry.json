@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T08:43:38Z",
+  "generado": "2026-09-25T08:50:11Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -1546,7 +1546,16 @@
       "estado": "hecha",
       "vueltas": 0,
       "motivo": "hecha a mano por Saul (4 estrellas, lock). Repaso rapido: el richsync tenia un token vacio al final (ademas de dos tokens de solo puntuacion que SI estan en la letra); quitado y fin de linea repuesto (23 sep). 228 = 228, 226 anclas, deriva 0, audio 206. Lista",
-      "actualizado": "2026-09-23T08:34:18Z"
+      "actualizado": "2026-09-25T08:50:10Z",
+      "auditoria": {
+        "pasos": {
+          "ingles": {
+            "v": "falta",
+            "nota": "WIT sin texto en palabras de contenido (inglés aprobado): rellenar nivel palabra",
+            "t": "2026-09-25T08:50:10Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7653972ca57eb1ab308d0",
@@ -2730,7 +2739,16 @@
       "estado": "hecha",
       "vueltas": 0,
       "motivo": "revisión rápida en verde: carry 100% aplicado=True, 156 anclas, deriva 0, audio 206, lecciones 0, en 42/42",
-      "actualizado": "2026-09-22T15:05:22Z"
+      "actualizado": "2026-09-25T08:50:10Z",
+      "auditoria": {
+        "pasos": {
+          "ingles": {
+            "v": "falta",
+            "nota": "WIT sin texto en palabras de contenido (inglés aprobado): rellenar nivel palabra",
+            "t": "2026-09-25T08:50:10Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6314772ca57eb1a98e0e3",
@@ -13824,10 +13842,10 @@
       "originalTrackId": "6ab3aa3b52330f2b13b585de",
       "titulo": "Me Vuelvo Un Cobarde",
       "artista": "Christian Daniel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-25T08:38:17Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "ingles: linea 24 tok4 se->yes, reabrir WIT y reenviar",
+      "actualizado": "2026-09-25T08:47:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13854,7 +13872,17 @@
             "v": "ok",
             "nota": "49/49 lineas EN escritas a mano (original EN no accesible via rutas disponibles); wit_dt_audit BAD 0; submit -> pending_review",
             "t": "2026-09-25T08:38:17Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ingles: linea 24 tok4 se->yes (DT erroneo tras remap, dt_audit no lo ve)",
+            "t": "2026-09-25T08:47:54Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ingles: linea 24 tok4 se->yes (DT erroneo tras remap, dt_audit no lo ve)",
+          "t": "2026-09-25T08:47:54Z"
         }
       }
     },
