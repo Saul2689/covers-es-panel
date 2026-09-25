@@ -229,6 +229,57 @@ def parte_linea(datos, log):
             'cuenta': {e: cuenta.get(e, 0) for e in ESTADOS}}
 
 
+PANEL_META = 'https://covers-es-v2.pages.dev/meta.json'
+
+
+def vuelta_anterior(log):
+    """La meta.json que hay publicada todavia es la de la vuelta pasada: esa es
+    la foto contra la que se compara. Si no se puede leer, esta vuelta sale sin
+    comparacion y no pasa nada mas.
+    """
+    url = os.environ.get('PANEL_META', PANEL_META)
+    if url.lower() == 'no':
+        return None
+    try:
+        pet = urllib.request.Request(url, headers={'accept': 'application/json'})
+        with urllib.request.urlopen(pet, timeout=30) as r:
+            return json.load(r)
+    except Exception as e:
+        log('no se pudo leer la vuelta anterior (%s): el aviso ira sin comparar' % e)
+        return None
+
+
+def movimiento_carry(filas, log):
+    """Que ha entrado y que ha salido del paso Carry desde la vuelta anterior.
+
+    Devuelve tambien la foto de quien esta ahora en Carry, que es lo que leera
+    la vuelta siguiente para hacer su propia comparacion.
+    """
+    clave = lambda f: str(f[2] or f[3] or (f[1] + '|' + f[0]))
+    ahora = {clave(f): f for f in filas}
+    lista = [[clave(f), f[0], f[1]] for f in filas if f[4] == 'carry']
+
+    anterior = ((vuelta_anterior(log) or {}).get('carry') or {}).get('ahora')
+    if not isinstance(anterior, list):
+        log('carry: %d canciones (sin foto anterior, esta vuelta no compara)' % len(lista))
+        return {'ahora': lista, 'entran': [], 'salen': [], 'comparado': False}
+
+    antes = {str(x[0]): x for x in anterior if isinstance(x, list) and x}
+    estan = set(x[0] for x in lista)
+    entran = [x for x in lista if x[0] not in antes]
+    salen = []
+    for k, x in antes.items():
+        if k in estan:
+            continue
+        f = ahora.get(k)
+        # Si ya no esta en el parte, se ha caido de la lista entera.
+        salen.append([k, f[0] if f else x[1], f[1] if f else x[2],
+                      f[4] if f else 'fuera'])
+    salen.sort(key=lambda x: (x[2].lower(), x[1].lower()))
+    log('carry: %d ahora, entran %d, salen %d' % (len(lista), len(entran), len(salen)))
+    return {'ahora': lista, 'entran': entran, 'salen': salen, 'comparado': True}
+
+
 def render(datos, plantilla, salida, fecha, log):
     es = [x for x in datos if x['arch'] is not None]
     pend = [x for x in es if x['arch'] and x['q'] is None]
@@ -237,6 +288,7 @@ def render(datos, plantilla, salida, fecha, log):
     sin = sorted([x for x in pend if not x.get('ok')], key=orden)
     cal = sorted([x for x in es if x['q'] is not None or x['lock']], key=orden)
     linea = parte_linea(datos, log)
+    carry = movimiento_carry(linea['filas'], log)
 
     def pack(items):
         return [[x['title'], x['artist'], x['track'], x['song'],
@@ -267,6 +319,8 @@ def render(datos, plantilla, salida, fecha, log):
             'linea': {'total': len(linea['filas']), 'cuenta': linea['cuenta'],
                       'lock': linea['lock'],
                       'generado': linea['generado'], 'fallo': linea['fallo']},
+            # Lo unico que mira el aviso de Slack: el movimiento del paso Carry.
+            'carry': carry,
         },
     }
     html = open(plantilla, encoding='utf-8').read()
