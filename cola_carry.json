@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T10:27:49Z",
+  "generado": "2026-09-25T10:31:52Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -23337,7 +23337,7 @@
       "estado": "parada",
       "vueltas": 0,
       "motivo": "Carry rechazado por el servidor (alineacion 58%, minimo 60%: el cover canta 290 fichas frente a 451 del original). Mapeo 97% e ingles 83/83 hechos. Decidir: recortar LRC del cover (cover-lyric-repair) o dejar sin carry",
-      "actualizado": "2026-09-25T10:23:56Z",
+      "actualizado": "2026-09-25T10:31:21Z",
       "motivo_en": "carry refused by the server (alignment 58%, minimum 60%: the cover sings 290 tokens against 451 in the original). Mapping 97% and English 83/83 done. To decide: recut the cover LRC (cover-lyric-repair) or leave it without carry",
       "auditoria": {
         "pasos": {
@@ -23345,6 +23345,11 @@
             "v": "na",
             "nota": "cover abreviado; carry rechazado por alineacion 58%, no aplica",
             "t": "2026-09-25T10:23:56Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "18 lineas: tildes como/dia/queria/ofrecia/television, dejo->dejo con tilde, el->al linea 49, magdalena mayuscula linea 68",
+            "t": "2026-09-25T10:31:21Z"
           }
         }
       }
@@ -23446,7 +23451,16 @@
       "estado": "correccion",
       "vueltas": 0,
       "motivo": "Mapeo 88% (38 anclas con puntuacion normalizadas); ingles 82/82 en pending_review desde 22 sep (aprobar) y despues completar 49 WIT en ingles",
-      "actualizado": "2026-09-23T10:59:38Z"
+      "actualizado": "2026-09-25T10:30:41Z",
+      "auditoria": {
+        "pasos": {
+          "lrc": {
+            "v": "ok",
+            "nota": "5 ediciones tilde/¿: L25(x2 tu->tu con tilde), L27 tu posesivo (tus->tu + remap item), L36-37 que->que interrogativo + parentesis",
+            "t": "2026-09-25T10:30:41Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa70af572ca57eb1aab36ca",
@@ -23664,8 +23678,17 @@
       "estado": "parada",
       "vueltas": 0,
       "motivo": "Sin original en SingIt y sin letra sincronizada en ninguna fuente (lrclib solo tiene otras canciones homonimas); hace falta un LRC del original de Los Bukis a mano (ISRC USFI29400832)",
-      "actualizado": "2026-09-25T10:19:47Z",
-      "motivo_en": "no original in SingIt and no synced lyric in any source (lrclib only has other songs with the same name); the Los Bukis original needs an LRC written by hand (ISRC USFI29400832)"
+      "actualizado": "2026-09-25T10:31:52Z",
+      "motivo_en": "no original in SingIt and no synced lyric in any source (lrclib only has other songs with the same name); the Los Bukis original needs an LRC written by hand (ISRC USFI29400832)",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "falta",
+            "nota": "25 sep: original 6ab64d212317128a521952a9 subido y enlazado; richsync ligero con tildes, 132/138 mapeadas (6 por mapear), secciones lanzadas; falta el carry (siguiente agente libre)",
+            "t": "2026-09-25T10:31:52Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa66be272ca57eb1a9e4615",
