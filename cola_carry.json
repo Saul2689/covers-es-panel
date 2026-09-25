@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T08:50:11Z",
+  "generado": "2026-09-25T08:56:15Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -1120,10 +1120,10 @@
       "originalTrackId": "632ba605f7efec000d0cab91",
       "titulo": "Adicto",
       "artista": "Anuel Aa, Ozuna, Tainy",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-25T08:40:07Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "linea 159 remapear de/of; linea 111 retraducir ingles (them, no her)",
+      "actualizado": "2026-09-25T08:56:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -1133,8 +1133,8 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "23 anclas homografo (que/tu/mi/dia/mama/estas) re-apuntadas a fichas con tilde y sentido correcto; 2 gemelas unificadas (con un desliz de indice propio corregido en el proceso)",
-            "t": "2026-09-25T08:40:06Z"
+            "nota": "línea 159: 'e al item coloquial de (of)",
+            "t": "2026-09-25T08:56:14Z"
           },
           "timing": {
             "v": "na",
@@ -1142,10 +1142,25 @@
             "t": "2026-09-25T08:31:32Z"
           },
           "ingles": {
+            "v": "falta",
+            "nota": "línea 111 retraducida; 65 WIT sin texto por rellenar (worker)",
+            "t": "2026-09-25T08:56:15Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 159 ancla de sentido equivocado (de-infinitivo vs de-of), traduccion de linea sigue igual; linea 111 ingles no retraducido tras fix del WIT diles",
+            "t": "2026-09-25T08:52:12Z"
+          },
+          "lrc": {
             "v": "ok",
-            "nota": "draft reabierto 2 veces mas, WIT obsoletos corregidos, wit_dt_audit BAD 0, resubmitido a pending_review",
-            "t": "2026-09-25T08:40:06Z"
+            "nota": "línea 158: Tainy con mayúscula",
+            "t": "2026-09-25T08:56:15Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 159 ancla de sentido equivocado (de-infinitivo vs de-of), traduccion de linea sigue igual; linea 111 ingles no retraducido tras fix del WIT diles",
+          "t": "2026-09-25T08:52:12Z"
         }
       }
     },
@@ -2103,15 +2118,15 @@
       "titulo": "Mi Verdad",
       "artista": "Maná",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-25T08:43:31Z",
+      "vueltas": 2,
+      "motivo": "lista para QC: WIT tú y línea 81",
+      "actualizado": "2026-09-25T08:54:33Z",
       "auditoria": {
         "pasos": {
           "lrc": {
             "v": "ok",
-            "nota": "ronda2: tildes/mayus revertidas en dobles internos; parentesis linea16; y/verdad lineas 30/65/75 confirmado NO llevan puntuacion (empareja mal qc); echele/epale tildes anadidas; tu vs tu remapeado a item correcto x13",
-            "t": "2026-09-25T08:35:02Z"
+            "nota": "línea 81: sé con tilde (el original lo zanja)",
+            "t": "2026-09-25T08:54:32Z"
           },
           "mapeo": {
             "v": "ok",
@@ -2125,14 +2140,24 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "draft nuestro (owner compartido); lineas ya 110/110 desde el 23sep; reabierto, WIT anadido a las 33 anclas nuevas de esta ronda (antes null), resometido a pending_review",
-            "t": "2026-09-25T08:43:31Z"
+            "nota": "13 WIT tú sujeto → you con DT de su bag; BAD 0; 0 sin texto; pending_review",
+            "t": "2026-09-25T08:54:33Z"
           },
           "carry": {
             "v": "ok",
             "nota": "carry ya aplicado 23sep 10:57 (carry_tool.py runs); verificado applied=True, no re-ejecutado (nunca reproject/force)",
             "t": "2026-09-25T08:35:24Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "wit_dt_audit BAD 11 (pronombre sujeto sirviendo traduccion ajena, 11 lineas) + linea 81 sin resolver contra el original (nota en vez de fix)",
+            "t": "2026-09-25T08:51:34Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "wit_dt_audit BAD 11 (pronombre sujeto sirviendo traduccion ajena, 11 lineas) + linea 81 sin resolver contra el original (nota en vez de fix)",
+          "t": "2026-09-25T08:51:34Z"
         }
       }
     },
