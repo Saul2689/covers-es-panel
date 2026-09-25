@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T13:31:53Z",
+  "generado": "2026-09-25T13:36:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -23770,10 +23770,10 @@
       "originalTrackId": "",
       "titulo": "Mi Linda Esposa",
       "artista": "Los Bukis",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Sin original en SingIt y sin letra sincronizada en ninguna fuente (lrclib solo tiene otras canciones homonimas); hace falta un LRC del original de Los Bukis a mano (ISRC USFI29400832)",
-      "actualizado": "2026-09-25T13:31:52Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-25T13:36:49Z",
       "motivo_en": "no original in SingIt and no synced lyric in any source (lrclib only has other songs with the same name); the Los Bukis original needs an LRC written by hand (ISRC USFI29400832)",
       "auditoria": {
         "pasos": {
@@ -23786,6 +23786,16 @@
             "v": "ok",
             "nota": "case-fix Si->si linea12/23 tok2; gemelas unificadas: linea16 le->6a11dbf8...afe, linea28 esposa->6a11daa7...e7f; gap 23s linea18 verificado instrumental (mismo hueco copiado del original)",
             "t": "2026-09-25T13:31:52Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "reabrir borrador bloqueado por el classifier (inglés aprobado por otro dueño); 23 líneas preparadas, a la espera del OK",
+            "t": "2026-09-25T13:36:49Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "audio ya suena (206, vocx.wav = stem voz, no karaoke); cover_audio_list sin numeros (alignment/vocalPresence vacios) porque nunca se midio; no se mide por regla (ya reproduce)",
+            "t": "2026-09-25T13:33:51Z"
           }
         }
       }
