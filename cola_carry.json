@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T08:06:25Z",
+  "generado": "2026-09-25T08:08:50Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -2042,7 +2042,16 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "Original importado hoy por ISRC (sin video); richsync + mapeo + match + carry en curso",
-      "actualizado": "2026-09-23T10:34:25Z"
+      "actualizado": "2026-09-25T08:06:57Z",
+      "auditoria": {
+        "pasos": {
+          "lrc": {
+            "v": "falta",
+            "nota": "tildes+puntuacion+mayus: 41 tokens, mapeo y de oido pendientes",
+            "t": "2026-09-25T08:06:57Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa58a8742b8d1fdb0cfac91",
@@ -13719,8 +13728,8 @@
       "artista": "Christian Daniel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "Original importado hoy por ISRC (sin video); richsync + mapeo + match + carry en curso",
-      "actualizado": "2026-09-23T10:34:25Z"
+      "motivo": "worker de biblioteca: primero emparejar con el original",
+      "actualizado": "2026-09-25T08:06:39Z"
     },
     {
       "coverTrackId": "6aa849bbd951e1665a83a5db",
@@ -20125,10 +20134,10 @@
       "originalTrackId": "6aa7d5c6387e9481dd7ddf21",
       "titulo": "Libro Abierto",
       "artista": "Gerardo Reyes",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 5,
-      "motivo": "linea24 tok1 tu: WIT DT huerfano, usar 6a136e5ad0cbdb760b4ba783",
-      "actualizado": "2026-09-25T08:06:22Z",
+      "motivo": "lista para QC: solo comprobar wit_dt_audit",
+      "actualizado": "2026-09-25T08:08:50Z",
       "auditoria": {
         "prioridad": 7,
         "pasos": {
@@ -20149,8 +20158,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "WIT do/you en 10/14/24; enviado a pending_review",
-            "t": "2026-09-25T08:00:13Z"
+            "nota": "13 WIT con DT de la vecina reapuntadas al bag de su item (wit_dt_audit BAD 0); pending_review",
+            "t": "2026-09-25T08:08:48Z"
           },
           "lrc": {
             "v": "ok",
