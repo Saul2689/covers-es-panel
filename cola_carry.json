@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T16:07:56Z",
+  "generado": "2026-09-25T08:02:02Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -10,8 +10,8 @@
       "artista": "Willy William",
       "estado": "revision",
       "vueltas": 1,
-      "motivo": "todo cerrado salvo reapertura de ingles (draft ajeno en pending_review); qc_es solo deja hallazgos justificados",
-      "actualizado": "2026-09-24T16:04:16Z",
+      "motivo": "ingles cerrado (nuestro draft, reabierto y resometido); solo queda timing saul por el 404 del audio servido; resto ok",
+      "actualizado": "2026-09-24T16:08:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25,9 +25,9 @@
             "t": "2026-09-24T16:03:14Z"
           },
           "timing": {
-            "v": "ok",
-            "nota": "richsync 0 drift todas las lineas; hueco linea13 confirmado como break instrumental (el original cubre el mismo tramo con duracion extendida en su linea previa)",
-            "t": "2026-09-24T16:03:14Z"
+            "v": "saul",
+            "nota": "cover_audio_measure OK: karaokeMp3 offset 0ms conf 1.44 firstSound 1330ms, stemVoc offset -100ms conf 1.24 firstSound 1230ms lengthDelta -184ms - pero el render servido (GET .../cross-clear/migration/songs/<id>/audio) sigue dando 404 pese a playability.status=playable; no se puede confirmar que lo que suena a un usuario coincide con lo medido",
+            "t": "2026-09-24T16:08:55Z"
           },
           "mapeo": {
             "v": "ok",
@@ -35,9 +35,9 @@
             "t": "2026-09-24T16:03:15Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "reabrir ingles: linea 8 y linea 19 (texto ES cambio hoy); draft ya en pending_review de una vuelta anterior, no se toca",
-            "t": "2026-09-24T16:03:15Z"
+            "v": "ok",
+            "nota": "draft retirado y reabierto (era nuestro, no ajeno); relineas 8,15,19 + 6 WIT nuevas (me,quiere,a,mi en linea8; mi,gente en linea19); reenviado a pending_review",
+            "t": "2026-09-24T16:08:55Z"
           }
         }
       }
@@ -20116,9 +20116,9 @@
       "titulo": "Libro Abierto",
       "artista": "Gerardo Reyes",
       "estado": "revision",
-      "vueltas": 3,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-24T15:59:56Z",
+      "vueltas": 4,
+      "motivo": "lista para QC: sí de líneas 10/14/24",
+      "actualizado": "2026-09-25T08:02:02Z",
       "auditoria": {
         "prioridad": 7,
         "pasos": {
@@ -20134,29 +20134,29 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "anclas de las 2 lineas realineadas a los items de la linea 12; 2 anclas fuera de rango tras el delete borradas",
-            "t": "2026-09-24T15:59:50Z"
+            "nota": "sí de 10/14/24 al item sí ADV con tilde (antes si sin tilde); línea 24 tú sujeto",
+            "t": "2026-09-25T08:02:02Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "lineas 16/27 retraducidas + 8 WIT corregidos (en/mi en 3 repeticiones, te/necesito linea16); draft enviado a pending_review",
-            "t": "2026-09-24T15:59:50Z"
+            "nota": "WIT do/you en 10/14/24; enviado a pending_review",
+            "t": "2026-09-25T08:00:13Z"
           },
           "lrc": {
             "v": "ok",
-            "nota": "lineas 16 y 27 reescritas para casar con la 3a repeticion identica del original (misma frase de la linea 12); 2 tokens sobrantes por linea retirados",
-            "t": "2026-09-24T15:59:49Z"
+            "nota": "líneas 10/14/24: sí enfático con tilde (lrc_plan_fix)",
+            "t": "2026-09-25T08:00:11Z"
           },
           "qc": {
-            "v": "ok",
-            "nota": "timing verificado independiente: shift uniforme -7730ms, 0 clamps, pin confirmado; resto sin cambios",
-            "t": "2026-09-24T11:31:22Z"
+            "v": "falta",
+            "nota": "tilde sí/si sin corregir en 3 lineas (10,14,24 tok2), resto verificado ok",
+            "t": "2026-09-24T16:10:12Z"
           }
         },
         "qc": {
-          "v": "VERDE",
-          "resumen": "timing verificado independiente: shift uniforme -7730ms, 0 clamps, pin confirmado; resto sin cambios",
-          "t": "2026-09-24T11:31:22Z"
+          "v": "DEVUELTO",
+          "resumen": "tilde sí/si sin corregir en 3 lineas (10,14,24 tok2), resto verificado ok",
+          "t": "2026-09-24T16:10:12Z"
         }
       }
     },
