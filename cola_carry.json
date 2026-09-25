@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T08:29:32Z",
+  "generado": "2026-09-25T08:38:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -168,10 +168,10 @@
       "originalTrackId": "6aa7d7e80752719d51acc2e6",
       "titulo": "Me Jalo",
       "artista": "Fuerza Regida",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-25T08:29:32Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "vuelta 2: arreglar WIT tu/your (linea 23,44) y fan-out de manoso",
+      "actualizado": "2026-09-25T08:37:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -198,7 +198,17 @@
             "v": "ok",
             "nota": "reabierto: linea3 + 10 WIT + fix DT huerfano linea38 (yo); wit_dt_audit BAD 0; submit -> pending_review",
             "t": "2026-09-25T08:28:47Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT tu/your en linea 23 y 44 no traduce su palabra; fan-out incompleto de manoso (adjetivo, solo 1 de 4 formas)",
+            "t": "2026-09-25T08:37:57Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT tu/your en linea 23 y 44 no traduce su palabra; fan-out incompleto de manoso (adjetivo, solo 1 de 4 formas)",
+          "t": "2026-09-25T08:37:57Z"
         }
       }
     },
@@ -1110,16 +1120,31 @@
       "originalTrackId": "632ba605f7efec000d0cab91",
       "titulo": "Adicto",
       "artista": "Anuel Aa, Ozuna, Tainy",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "Revisor vuelta 1: mecanica verde, 23 anclas reapuntadas; devuelta por 34 tildes ausentes en la letra, 0 signos de apertura, 6 anclas sin item correcto y 10 repeticiones desalineadas; corrigiendo con el kit (sin cambiar fichas). Ingles pending_review con 2 avisos (lineas 56/66 y 107)",
-      "actualizado": "2026-09-24T16:04:23Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-25T08:31:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "backup tomado, sync ok segun Saul, sin carry/reproject",
             "t": "2026-09-24T16:04:23Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "6 anclas 'que' interrogativo re-apuntadas, 1 despues/te reparado, 1 ancla de insercion (un) corregida",
+            "t": "2026-09-25T08:31:32Z"
+          },
+          "timing": {
+            "v": "na",
+            "nota": "Saul confirmo sync correcta; sin carry/reproject; audio ya medido (mixMp3V offset -7890ms, karaokeMp3 offset 0 firstSound 8240ms), sin pin",
+            "t": "2026-09-25T08:31:32Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft reabierto, 2 WIT obsoletos corregidos (un->a, diles->tell them), resubmitido a pending_review",
+            "t": "2026-09-25T08:31:33Z"
           }
         }
       }
@@ -2068,16 +2093,36 @@
       "originalTrackId": "6ab3aa054d09fbf129f42ded",
       "titulo": "Mi Verdad",
       "artista": "Maná",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Original importado hoy por ISRC (sin video); richsync + mapeo + match + carry en curso",
-      "actualizado": "2026-09-25T08:06:57Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-25T08:35:24Z",
       "auditoria": {
         "pasos": {
           "lrc": {
+            "v": "ok",
+            "nota": "ronda2: tildes/mayus revertidas en dobles internos; parentesis linea16; y/verdad lineas 30/65/75 confirmado NO llevan puntuacion (empareja mal qc); echele/epale tildes anadidas; tu vs tu remapeado a item correcto x13",
+            "t": "2026-09-25T08:35:02Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "33 anclas sin_mapear creadas (13 items nuevos + lastimar/echale/epale existentes); echele remapeado de echale a echele (item correcto, usageCount1); cob 535/535",
+            "t": "2026-09-25T08:35:14Z"
+          },
+          "timing": {
+            "v": "saul",
+            "nota": "medido via cover_audio_measure: karaokeMp3 (ref actual) offset0 firstSound8160ms conf1.56; stemVoc offset+4780ms firstSound8130ms conf1.02 lenDelta-52ms; no mixMp3V disponible; primera linea LRC en 19850ms; regla FULL SONG nunca karaoke pendiente de decision de Saul, no repineado",
+            "t": "2026-09-25T08:35:15Z"
+          },
+          "ingles": {
             "v": "falta",
-            "nota": "tildes+puntuacion+mayus: 41 tokens, mapeo y de oido pendientes",
-            "t": "2026-09-25T08:06:57Z"
+            "nota": "ingles de linea ya existe, pending_review enviado 23sep (antes de esta limpieza), 63/110 lineas con traduccion, 210 WIT; no reabierto por prudencia tras los remapeos de esta sesion, revisar cobertura",
+            "t": "2026-09-25T08:35:15Z"
+          },
+          "carry": {
+            "v": "ok",
+            "nota": "carry ya aplicado 23sep 10:57 (carry_tool.py runs); verificado applied=True, no re-ejecutado (nunca reproject/force)",
+            "t": "2026-09-25T08:35:24Z"
           }
         }
       }
@@ -3037,13 +3082,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker de biblioteca en marcha",
-      "actualizado": "2026-09-25T08:12:03Z",
+      "actualizado": "2026-09-25T08:34:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "falta",
             "nota": "alignment 58%->62.4% via hints (respell/fuzzy/join), aplicando carry",
             "t": "2026-09-25T08:12:03Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "anclas Bridge1 (44-50) y 60/62 realineadas tras fix LRC; 24 llamadas WIT create/delete",
+            "t": "2026-09-25T08:34:11Z"
           }
         }
       }
@@ -13764,10 +13814,10 @@
       "originalTrackId": "6ab3aa3b52330f2b13b585de",
       "titulo": "Me Vuelvo Un Cobarde",
       "artista": "Christian Daniel",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "worker de biblioteca: primero emparejar con el original",
-      "actualizado": "2026-09-25T08:27:48Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-25T08:38:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13789,6 +13839,11 @@
             "v": "ok",
             "nota": "gemelas unificadas (el/Que/Pero, 4 anclas) + coma en 3 Eh; qc mapeo/gemelas en verde. Restante justificado: Tierra mayus=coincide con original, ¿?/L1-2=pregunta a dos lineas en el propio original, eres/Eh-Oh ad-libs=variante cantada real en las 3 repeticiones",
             "t": "2026-09-25T08:27:48Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "49/49 lineas EN escritas a mano (original EN no accesible via rutas disponibles); wit_dt_audit BAD 0; submit -> pending_review",
+            "t": "2026-09-25T08:38:17Z"
           }
         }
       }
