@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T09:59:49Z",
+  "generado": "2026-09-25T10:06:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -200,10 +200,39 @@
       "originalTrackId": "6a62245c0d4703dfb9e9bd13",
       "titulo": "Coleccionando Heridas",
       "artista": "KAROL G",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 92%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-25T10:03:02Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry ya aplicado; no se reproyecta",
+            "t": "2026-09-25T10:02:54Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "errata verbal linea3, sobrante mid-mayuscula linea22 eliminado, insercion linea27, comas linea14/25/36, mayuscula linea27 corregida",
+            "t": "2026-09-25T10:02:54Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "hueco linea22 verificado contra original (mismo hueco, instrumental); 0 drift lrc/richsync",
+            "t": "2026-09-25T10:02:54Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 5 gemelas unificadas; item nuevo no hizo falta (reuso existente)",
+            "t": "2026-09-25T10:02:54Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "clasificador bloqueo el withdraw del draft (Modify Shared Resources); pendiente linea3 y linea27 + WIT de esas 2 lineas",
+            "t": "2026-09-25T10:02:55Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa1114464c9b8ff110d2e10",
@@ -498,7 +527,16 @@
       "estado": "correccion",
       "vueltas": 0,
       "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 91%, ingles 45/47; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "actualizado": "2026-09-25T10:01:08Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "na",
+            "nota": "backup tomado; carry ya aplicado",
+            "t": "2026-09-25T10:01:08Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6a9ec894eef2ad59f6378a05",
@@ -982,10 +1020,10 @@
       "originalTrackId": "6aa7d3ae387e9481dd7dba4b",
       "titulo": "La Tienda",
       "artista": "Vicente Fernández",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "correccion linea 11/24 aplicada, lista para QC",
-      "actualizado": "2026-09-25T09:51:37Z",
+      "motivo": "lista para que Saúl apruebe el inglés y publique",
+      "actualizado": "2026-09-25T10:06:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -995,8 +1033,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "linea 11/24: revertido a texto original (3 fuentes externas), palabra de mas quitada; backup fresco + lrc_plan_fix con delete+edit",
-            "t": "2026-09-25T09:51:35Z"
+            "nota": "líneas 13/26: tilde de 'más' añadida (lrc_plan_fix, tiempos intactos); ancla al item más ADV",
+            "t": "2026-09-25T10:06:28Z"
           },
           "timing": {
             "v": "ok",
@@ -1010,19 +1048,19 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "linea 11/24: linea + 7 WIT por linea rehechos (estaban en DT ajeno tras el shift); wit_dt_audit BAD 0; 0 WIT vacios de 185; reenviado a pending_review",
-            "t": "2026-09-25T09:51:36Z"
+            "nota": "WIT 'most' en 13/26; BAD 0, 0 vacías; enviado a revisión",
+            "t": "2026-09-25T10:06:28Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "correccion aplicada, pendiente de nueva revision adversarial",
-            "t": "2026-09-25T09:51:36Z"
+            "v": "ok",
+            "nota": "el único defecto de la parada (tilde de más en 13/26) corregido; resto verificado limpio por el re-QC",
+            "t": "2026-09-25T10:06:29Z"
           }
         },
         "qc": {
-          "v": "falta",
-          "resumen": "correccion aplicada, pendiente de nueva revision adversarial",
-          "t": "2026-09-25T09:51:36Z"
+          "v": "VERDE",
+          "resumen": "el único defecto de la parada (tilde de más en 13/26) corregido; resto verificado limpio por el re-QC",
+          "t": "2026-09-25T10:06:29Z"
         }
       }
     },
@@ -19788,10 +19826,10 @@
       "originalTrackId": "6aa7b6d98d615aa3fed30a98",
       "titulo": "Amor Libre",
       "artista": "Camilo Sesto",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 77%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-25T09:50:50Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-25T10:00:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19803,6 +19841,21 @@
             "v": "ok",
             "nota": "asi->tilde, sed->ser errata, 2 mayuscula_media (L7,L14,L23,L27); outro ad-libs L21-30 dejados (arreglo distinto de vamp, no error)",
             "t": "2026-09-25T09:50:50Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "6 gemelas unificadas (No/la/esto/es/un/amor, L5/11/13 vs L19/21/24); amor L13 tenia sentido explicito equivocado -> corregido al item comun; item_otra_palabra propio corregido (ver informe)",
+            "t": "2026-09-25T09:59:55Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "L14 sed->ser: linea + WIT reescritos; wit_dt_audit BAD 0; 13 WIT vacios preexistentes rellenados; draft->pending_review",
+            "t": "2026-09-25T09:59:56Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "track_timing_report drift 0 en las 30 lineas",
+            "t": "2026-09-25T09:59:56Z"
           }
         }
       }
