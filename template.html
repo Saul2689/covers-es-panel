@@ -904,38 +904,50 @@ tailwind.config={theme:{extend:{
             par:['Parada','Stopped'],verde:['Verde','Green']};
 
   function diagrama(){
-    var P=M.proceso||{},pos={},y=24,partes=[],flechas=[],bandas={},tronco=[],fant=-1;
-    /* 1. Sitio para cada caja del tronco, en orden. Cada fase abre con su
-       cabecera, y las cajas empiezan por debajo para que el titulo de la fase
-       no se cruce con la nota de la primera caja. */
-    NODOS.forEach(function(nd){
-      if(nd.v) return;
-      if(nd.f!==fant){ if(fant>=0) y+=22; bandas[nd.f]={a:y,b:0}; y+=58; fant=nd.f; }
-      var txt=nd[L]||nd.es, ln=renglones(txt,nd.t==='dec'?26:32), h=alto(nd.t,ln.length);
-      pos[nd.id]={x:GEO.NX,y:y+h/2,w:GEO.NW,h:h,ln:ln,nd:nd,i:tronco.length};
-      tronco.push(nd.id);
-      bandas[nd.f].b=y+h+18; y+=h+GEO.GAP;
+    var P=M.proceso||{},pos={},y=24,partes=[],flechas=[],bandas={},tronco=[],ocupado=[];
+    /* Las salidas cuelgan del nodo que las produce. */
+    var salida={},origen={};
+    NODOS.forEach(function(nd){ if(nd.v) salida[nd.id]=1; });
+    FLECHAS.forEach(function(fl){
+      if(salida[fl[1]]&&!origen[fl[1]]) origen[fl[1]]=fl[0];
     });
-    /* 2. Las salidas cuelgan del nodo que las produce. Si dos salen del mismo
-       sitio, la segunda baja: dos cajas en la misma linea no se leen. */
-    var origen={},ocupado=[],fondo=0;
-    FLECHAS.forEach(function(fl){ if(!pos[fl[1]]&&!origen[fl[1]]) origen[fl[1]]=fl[0]; });
-    NODOS.forEach(function(nd){
-      if(!nd.v) return;
-      var p=pos[origen[nd.id]]||{y:60};
-      var txt=nd[L]||nd.es, ln=renglones(txt,30), h=alto(nd.t,ln.length);
-      /* La nota de una salida se escribe DEBAJO de su caja, asi que ocupa
-         sitio: si no se cuenta, la siguiente salida se le echa encima. */
-      var nota=L==='en'?(nd.ne||nd.ns):(nd.ns||nd.ne);
-      var nl=nota?renglones(nota,36):[];
-      var bajo=nl.length?16+nl.length*15:0, yy=p.y;
-      var choca=function(a,b){
-        return ocupado.some(function(o){ return a<o[1]+16&&b>o[0]-16; });
-      };
-      while(choca(yy-h/2,yy+h/2+bajo)) yy+=16;
-      ocupado.push([yy-h/2,yy+h/2+bajo]);
-      if(yy+h/2+bajo>fondo) fondo=yy+h/2+bajo;
-      pos[nd.id]={x:GEO.SX,y:yy,w:GEO.SW,h:h,ln:ln,nl:nl,nd:nd};
+    var porFase={};
+    NODOS.forEach(function(nd){ (porFase[nd.f]=porFase[nd.f]||[]).push(nd); });
+    /* 1+2. El sitio se reparte FASE A FASE, y el recuadro de la fase se cierra
+       cuando ya esta todo dentro: las cajas del tronco, las salidas, las notas
+       que cuelgan de ellas y el rotulo que cuelga de la ultima caja. Medir solo
+       el tronco es lo que dejaba texto fuera del recuadro. */
+    FASES.forEach(function(f){
+      var lista=porFase[f[0]]; if(!lista||!lista.length) return;
+      var arriba=y; y+=58;                      /* cabecera de la fase */
+      var abajo=y;
+      lista.forEach(function(nd){
+        if(nd.v) return;
+        var txt=nd[L]||nd.es, ln=renglones(txt,nd.t==='dec'?26:32), h=alto(nd.t,ln.length);
+        pos[nd.id]={x:GEO.NX,y:y+h/2,w:GEO.NW,h:h,ln:ln,nd:nd,i:tronco.length};
+        tronco.push(nd.id);
+        y+=h+GEO.GAP;
+        /* 30 por debajo de la ultima caja: ahi cae el rotulo de su flecha
+           ("Verde", "No"), que tambien tiene que quedar dentro. */
+        abajo=y-GEO.GAP+30;
+      });
+      lista.forEach(function(nd){
+        if(!nd.v) return;
+        var p=pos[origen[nd.id]]||{y:arriba+70};
+        var txt=nd[L]||nd.es, ln=renglones(txt,30), h=alto(nd.t,ln.length);
+        /* La nota de una salida se escribe DEBAJO de su caja: ocupa sitio. */
+        var nota=L==='en'?(nd.ne||nd.ns):(nd.ns||nd.ne);
+        var nl=nota?renglones(nota,36):[];
+        var bajo=nl.length?16+nl.length*15:0, yy=p.y;
+        while(ocupado.some(function(o){
+          return yy-h/2<o[1]+16&&yy+h/2+bajo>o[0]-16;
+        })) yy+=16;
+        ocupado.push([yy-h/2,yy+h/2+bajo]);
+        pos[nd.id]={x:GEO.SX,y:yy,w:GEO.SW,h:h,ln:ln,nl:nl,nd:nd};
+        if(yy+h/2+bajo+16>abajo) abajo=yy+h/2+bajo+16;
+      });
+      bandas[f[0]]={a:arriba,b:abajo};
+      y=abajo+22;
     });
     /* 3. Las bandas de fase, detrás de todo. */
     FASES.forEach(function(f){
@@ -1017,7 +1029,7 @@ tailwind.config={theme:{extend:{
       g.push('</g>');
       partes.push(g.join(''));
     });
-    var alt=Math.max(y,fondo+30)+70;
+    var alt=y+40;
     return '<svg viewBox="0 0 '+GEO.W+' '+alt+'" width="100%" style="min-width:980px" '+
       'role="img" aria-label="'+esc(t('procAria'))+'">'+
       '<defs><marker id="pf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" '+
