@@ -233,6 +233,71 @@ def parte_linea(datos, log):
             'cuenta': {e: cuenta.get(e, 0) for e in ESTADOS}}
 
 
+PASOS_FICHA = ('carry', 'lrc', 'timing', 'mapeo', 'ingles', 'qc')
+
+
+def proceso_linea(log):
+    """Los numeros que hacen vivo el diagrama del proceso.
+
+    El estado de una cancion ("corrigiendo") dice en que caja esta, pero no en
+    que paso de esa caja. Eso lo guarda el parte, cancion a cancion, en
+    auditoria.pasos, y hasta hoy no salia del fichero. Aqui se cuenta y se
+    publica, que es lo unico que impide que el dibujo se separe del trabajo.
+    """
+    fuera = {'total': 0, 'trabajadas': 0, 'conficha': 0, 'descartadas': 0,
+             'estados': {e: 0 for e in ESTADOS}, 'pasos': {}, 'vueltas': {},
+             'devueltas': 0, 'pasadas': 0}
+    try:
+        d = json.load(open(COLA, encoding='utf-8'))
+        canciones = d.get('canciones') or []
+    except Exception as e:
+        log('proceso: no se puede leer el parte (%s); la pestana saldra vacia' % e)
+        return fuera
+
+    estados = collections.Counter()
+    pasos = {p: collections.Counter() for p in PASOS_FICHA}
+    vueltas = collections.Counter()
+    conficha = 0
+    for c in canciones:
+        if not isinstance(c, dict):
+            continue
+        e = str(c.get('estado') or 'cola').strip().lower()
+        if e not in ESTADOS:
+            e = 'cola'
+        # Misma correccion que en la pestana Carry: sin original enlazado la
+        # cancion no espera turno, esta atascada en otro sitio.
+        if e in ('cola', 'carry') and not str(c.get('originalTrackId') or '').strip():
+            e = 'sinorig'
+        estados[e] += 1
+        try:
+            v = int(c.get('vueltas') or 0)
+        except (TypeError, ValueError):
+            v = 0
+        vueltas[v] += 1
+        ficha = ((c.get('auditoria') or {}).get('pasos') or {})
+        if ficha:
+            conficha += 1
+        for p in PASOS_FICHA:
+            pasos[p][str((ficha.get(p) or {}).get('v') or 'sin')] += 1
+
+    # "Trabajadas" son las que han entrado en la linea. Ni las que esperan
+    # turno ni las que estan atascadas sin original cuentan como trabajo.
+    trabajadas = sum(n for e, n in estados.items() if e not in ('cola', 'sinorig'))
+    log('proceso: %d en la cola, %d trabajadas, %d con ficha de pasos'
+        % (len(canciones), trabajadas, conficha))
+    return {
+        'total': len(canciones),
+        'trabajadas': trabajadas,
+        'conficha': conficha,
+        'descartadas': int(d.get('descartadas') or 0),
+        'estados': {e: estados.get(e, 0) for e in ESTADOS},
+        'pasos': {p: dict(pasos[p]) for p in PASOS_FICHA},
+        'vueltas': {str(k): v for k, v in sorted(vueltas.items())},
+        'devueltas': sum(n for k, n in vueltas.items() if k > 0),
+        'pasadas': sum(k * n for k, n in vueltas.items()),
+    }
+
+
 PANEL_META = 'https://covers-es-v2.pages.dev/meta.json'
 
 
@@ -307,6 +372,7 @@ def render(datos, plantilla, salida, fecha, log):
     cal = sorted([x for x in es if x['q'] is not None or x['lock']], key=orden)
     linea = parte_linea(datos, log)
     carry = movimiento_carry(linea['filas'], log)
+    proceso = proceso_linea(log)
 
     def pack(items):
         return [[x['title'], x['artist'], x['track'], x['song'],
@@ -337,6 +403,9 @@ def render(datos, plantilla, salida, fecha, log):
             'linea': {'total': len(linea['filas']), 'cuenta': linea['cuenta'],
                       'lock': linea['lock'],
                       'generado': linea['generado'], 'fallo': linea['fallo']},
+            # El diagrama de la pestana Pipeline se dibuja con esto: si el
+            # trabajo cambia, cambian los numeros del dibujo solos.
+            'proceso': proceso,
         },
     }
     html = open(plantilla, encoding='utf-8').read()

@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <title>Covers en español</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Doto:wght@600;800&family=Nunito:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -143,6 +144,23 @@ tailwind.config={theme:{extend:{
       </div>
     </section>
 
+    <!-- ══ el proceso (solo pestaña Pipeline) ══ -->
+    <section id="x-proceso" hidden class="mt-6">
+      <div class="rounded-2xl bg-surface p-5 sm:p-6 shadow-xl shadow-black/40">
+        <h2 class="font-display font-semibold tracking-tight text-[19px] text-zinc-100" id="x-proc-tit"></h2>
+        <p class="mt-1.5 max-w-[72ch] text-[13.5px] leading-relaxed text-zinc-400" id="x-proc-sub"></p>
+        <div class="mt-5" id="x-proc-marcador"></div>
+      </div>
+      <div class="mt-4 rounded-2xl bg-surface p-3 sm:p-4 shadow-xl shadow-black/40 overflow-x-auto scroll-thin"
+           id="x-proc-svg"></div>
+      <div class="mt-4 rounded-2xl bg-surface p-5 sm:p-6 shadow-xl shadow-black/40">
+        <h2 class="font-display font-semibold tracking-tight text-[17px] text-zinc-100" id="x-proc-ley-tit"></h2>
+        <p class="mt-1.5 max-w-[72ch] text-[13px] text-zinc-400" id="x-proc-ley-sub"></p>
+        <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-2.5" id="x-proc-leyenda"></div>
+        <p class="mt-5 text-[12.5px] text-zinc-500 max-w-[72ch]" id="x-proc-pie"></p>
+      </div>
+    </section>
+
     <!-- ══ lista ══ -->
     <div id="x-rejilla" class="mt-6 grid md:grid-cols-[210px_minmax(0,1fr)] gap-5 lg:gap-6">
       <div id="x-indice-caja" class="hidden md:block">
@@ -205,6 +223,19 @@ tailwind.config={theme:{extend:{
       paradasTxt:'{n} paradas: alguien tiene que mirarlas antes de que sigan.',
       calTit:'Reparto de notas',
       e_sinorig:'Sin original', e_cola:'En cola', e_carry:'Carry', e_traduccion:'Traduciendo',
+      tProc:'Pipeline',
+      procTit:'El proceso, paso a paso',
+      procSub:'Lo que Claude hace de verdad con cada canción, de arriba abajo y en el orden en que ocurre. Los números son los de hoy: salen del mismo parte que la pestaña Carry.',
+      procAria:'Diagrama de flujo del proceso de content carry',
+      procEnCola:'en la lista', procTrab:'han entrado en la línea', procHechas:'hechas',
+      procVuelo:'en vuelo ahora', procParadas:'paradas', procDevueltas:'han vuelto del QC alguna vez',
+      procPasos:'Dentro de cada canción',
+      procPasosSub:'Una canción no está «corrigiendo» a secas: son seis pasos y cada uno se cierra por su cuenta. A la izquierda los cerrados, a la derecha los que siguen abiertos o esperan a una persona.',
+      paso_carry:'Carry', paso_lrc:'Letra', paso_timing:'Sincronía',
+      paso_mapeo:'Mapeo', paso_ingles:'Inglés', paso_qc:'QC',
+      procLey:'Qué significa cada forma',
+      procLeySub:'Son los símbolos del diagrama de flujo de siempre. Aquí se explica qué quiere decir cada uno en esta línea de trabajo.',
+      procPie:'El dibujo se regenera en cada vuelta con los datos del parte, así que no puede irse por su lado. Si una canción cambia de paso, cambia el número.',
       e_revision:'En revisión', e_correccion:'Corrigiendo', e_hecha:'Hecha', e_parada:'Parada',
       vuelta:'1 vuelta', vueltas:'{n} vueltas',
       gRate:'Calificadas', gLock:'Calificadas y bloqueadas',
@@ -254,6 +285,19 @@ tailwind.config={theme:{extend:{
       paradasTxt:'{n} stopped: someone has to look at them before they move on.',
       calTit:'How the ratings fall',
       e_sinorig:'No original', e_cola:'Queued', e_carry:'Carry', e_traduccion:'Translating',
+      tProc:'Pipeline',
+      procTit:'The process, step by step',
+      procSub:'What Claude actually does to each song, top to bottom and in the order it happens. The numbers are today’s: they come from the same log as the Carry tab.',
+      procAria:'Flowchart of the content carry process',
+      procEnCola:'on the list', procTrab:'have entered the line', procHechas:'done',
+      procVuelo:'in flight now', procParadas:'stopped', procDevueltas:'have come back from QC at least once',
+      procPasos:'Inside each song',
+      procPasosSub:'A song is not simply "being fixed": there are six steps and each one closes on its own. On the left the closed ones, on the right those still open or waiting on a person.',
+      paso_carry:'Carry', paso_lrc:'Lyric', paso_timing:'Timing',
+      paso_mapeo:'Mapping', paso_ingles:'English', paso_qc:'QC',
+      procLey:'What each shape means',
+      procLeySub:'These are the standard flowchart symbols. Here is what each one means in this particular line of work.',
+      procPie:'The chart is rebuilt every round from the log, so it cannot drift. If a song changes step, the number changes.',
       e_revision:'Under review', e_correccion:'Being fixed', e_hecha:'Done', e_parada:'Stopped',
       vuelta:'1 pass', vueltas:'{n} passes',
       gRate:'Rated', gLock:'Rated & locked',
@@ -571,7 +615,8 @@ tailwind.config={theme:{extend:{
   }
 
   function tabs(){
-    var defs=[['con','tCon',M.con],['sin','tSin',M.sin],['linea','tLin',LIN.total||0],['cal','tCal',M.calificadas]];
+    var defs=[['con','tCon',M.con],['sin','tSin',M.sin],['linea','tLin',LIN.total||0],
+              ['cal','tCal',M.calificadas],['proc','tProc',(M.proceso||{}).trabajadas||0]];
     document.getElementById('x-tabs').innerHTML=defs.map(function(d){
       var on=d[0]===vista;
       return '<button role="tab" data-g="'+d[0]+'" aria-selected="'+on+'" '+
@@ -604,14 +649,434 @@ tailwind.config={theme:{extend:{
     });
   }
 
+  /* ══════════════════════════════════════════════════════════════════════
+     PESTAÑA PIPELINE — el proceso que Claude ejecuta de verdad, dibujado con
+     los símbolos de diagrama de flujo de siempre.
+
+     Las formas no son adorno: cada una quiere decir una cosa y la leyenda de
+     abajo la explica. Los números salen del parte de la línea, así que el
+     dibujo no se puede separar del trabajo: si mañana hay más canciones en un
+     paso, mañana lo dice el dibujo.
+
+     Columnas: a la izquierda la nota que explica el paso, en medio el tronco
+     (lo que ocurre si todo va bien) y a la derecha las salidas (por dónde se
+     va una canción que no sigue).
+     ══════════════════════════════════════════════════════════════════════ */
+
+  /* Cada forma, con lo que significa AQUÍ. Un glosario general no le sirve
+     a nadie: la leyenda tiene que hablar de esta línea de trabajo. */
+  var FORMAS=[
+    ['ini','Principio y final','Por dónde entra una canción y por dónde sale.',
+           'Start and end','Where a song enters the process and where it leaves.'],
+    ['proc','Acción','Algo que Claude hace sobre la canción.',
+            'Action','Something Claude does to the song.'],
+    ['dec','Decisión','Una pregunta que parte el camino en dos.',
+           'Decision','A question that splits the path in two.'],
+    ['sub','Proceso con nombre','Un script del kit que hace un trabajo entero por su cuenta.',
+           'Predefined process','A kit script that does a whole job on its own.'],
+    ['io','Lectura o escritura','Claude le pide algo a la admin, o se lo escribe.',
+          'Read or write','Claude asks the admin for something, or writes to it.'],
+    ['db','Fichero con el estado','Dónde queda guardado lo que ha pasado.',
+          'Stored state','Where what happened is kept.'],
+    ['doc','Informe','Algo escrito para que lo lea una persona.',
+           'Report','Something written for a person to read.'],
+    ['man','Solo una persona','Un paso que ningún agente hace: lo hace Saúl.',
+           'Person only','A step no agent takes: Saúl does it.'],
+    ['esp','Espera','La canción se queda ahí hasta que alguien conteste.',
+           'Wait','The song stops there until somebody answers.'],
+    ['con','Salto','Sigue en otro punto del diagrama.',
+           'Connector','Carries on somewhere else in the chart.']
+  ];
+
+  /* Las fases, en el orden en que ocurren. Son cronológicas: una canción las
+     recorre en orden y solo vuelve atrás por el DEVUELTO del QC. */
+  var FASES=[
+    [0,'Fase 0 · Censo y triaje','La sesión principal, no un agente',
+       'Phase 0 · Census and triage','The main session, not an agent'],
+    [1,'Fase 1 · Carry','Llevar la letra del original al cover',
+       'Phase 1 · Carry','Carry the original lyric onto the cover'],
+    [2,'Fase 2 · Letra','Limpiar lo que entregó el proveedor',
+       'Phase 2 · Lyric','Clean up what the vendor delivered'],
+    [3,'Fase 3 · Sincronía y audio','Aquí es donde una canción puede quedarse muda',
+       'Phase 3 · Timing and audio','This is where a song can go silent'],
+    [4,'Fase 4 · Mapeo','Cada palabra enseñable, a su item',
+       'Phase 4 · Mapping','Every teachable word to its item'],
+    [5,'Fase 5 · Inglés','De línea y de palabra, siempre en borrador',
+       'Phase 5 · English','Line and word, always as a draft'],
+    [6,'Fase 6 · QC adversarial','Un segundo agente que busca el fallo',
+       'Phase 6 · Adversarial QC','A second agent looking for the fault'],
+    [7,'Fase 7 · El parte','Lo que acaba en esta página',
+       'Phase 7 · The log','What ends up on this page']
+  ];
+
+  /* El diagrama. v: 0 tronco, 1 carril de salidas. n: la clave del número
+     vivo. r: el paso que ya ha roto algo y hay que mirar con lupa. */
+  var NODOS=[
+   {id:'a0',f:0,t:'ini',v:0,es:'Un cover del catálogo CrossClear',en:'A cover from the CrossClear catalogue'},
+   {id:'a1',f:0,t:'io',v:0,n:'total',es:'Leer el censo y la ficha del track',en:'Read the census and the track record',
+    ns:'El censo son 2.300 y pico canciones; la ficha dice estrellas, archivada y original.',
+    ne:'The census is 2,300-odd songs; the record gives stars, archived flag and original.'},
+   {id:'a2',f:0,t:'dec',v:0,es:'¿Suena, y con voz?',en:'Does it play, with vocals?',
+    ns:'GET /audio con Range 0-1: 206 sí, 404 no. Es la única señal fiable — el campo playbackKind sale nulo hasta en las que suenan.',
+    ne:'GET /audio with Range 0-1: 206 yes, 404 no. It is the only reliable signal — playbackKind reads null even on songs that play.'},
+   {id:'x1',f:0,t:'ini',v:1,es:'Fuera: muda o karaoke',en:'Out: silent or karaoke'},
+   {id:'a3',f:0,t:'dec',v:0,es:'¿1 o 2 estrellas?',en:'One or two stars?'},
+   {id:'x2',f:0,t:'ini',v:1,n:'descartadas',es:'Descartada',en:'Discarded',
+    ns:'Regla de Saúl del 23 sep: una canción de 1 o 2 estrellas nunca se queda en «parada», sale de la cola.',
+    ne:'Saúl’s rule of 23 Sep: a 1- or 2-star song never sits in "stopped", it leaves the queue.'},
+   {id:'a4',f:0,t:'dec',v:0,es:'¿Tiene original enlazado?',en:'Is an original linked?'},
+   {id:'x3',f:0,t:'esp',v:1,n:'e_sinorig',es:'Sin original: hay que subirlo',en:'No original: it has to be imported',
+    ns:'Importar por ISRC le está bloqueado al agente, así que sale con el ISRC para Saúl. Es el atasco más grande de todos.',
+    ne:'Importing by ISRC is blocked for the agent, so it goes out with the ISRC for Saúl. It is by far the biggest jam.'},
+   {id:'a5',f:0,t:'proc',v:0,n:'e_cola',es:'Entra en la cola, por prioridad',en:'Joins the queue, by priority',
+    ns:'El orden es lo más popular y lo más enseñable primero, no lo más cómodo.',
+    ne:'The order is most popular and most teachable first, not most convenient.'},
+
+   {id:'b0',f:1,t:'dec',v:0,es:'¿Pasa la puerta de contenido?',en:'Does it pass the content gate?',
+    ns:'Full song mirroreado, original sano y texto del proveedor legible. Si falla, el agente no lo «arregla»: se para.',
+    ne:'Full song mirrored, original healthy, vendor text readable. If it fails the agent does not "fix" it: it stops.'},
+   {id:'xb0',f:1,t:'esp',v:1,es:'Parada: no pasa la puerta',en:'Stopped: the gate says no'},
+   {id:'b1',f:1,t:'sub',v:0,es:'carry_preview: ensayo en seco',en:'carry_preview: dry run',
+    ns:'Una por vuelta, no una por línea: cada ensayo queda apuntado en el libro.',
+    ne:'One per round, not one per line: every dry run is recorded in the ledger.'},
+   {id:'b2',f:1,t:'dec',v:0,es:'¿Encaja bastante la letra?',en:'Does the lyric match enough?',
+    ns:'Si el porcentaje está bajo mínimo, o hay más de un tercio de líneas marcadas, el proveedor canta otro arreglo. No se fuerza nunca.',
+    ne:'If the percentage is under the floor, or over a third of the lines are flagged, the vendor sings another arrangement. Never forced.'},
+   {id:'xb2',f:1,t:'esp',v:1,es:'Parada: canta otra versión',en:'Stopped: it sings another version'},
+   {id:'b3',f:1,t:'proc',v:0,es:'Contestar las líneas marcadas',en:'Settle the flagged lines',
+    ns:'Quince reglas. Ocho las contesta un agente (tilde, mayúscula, puntuación, contracción partida…) y siete necesitan persona.',
+    ne:'Fifteen rules. An agent answers eight (accent, capital, punctuation, split contraction…) and seven need a person.'},
+   {id:'b4',f:1,t:'proc',v:0,n:'p_carry',es:'Aplicar y comparar con el original',en:'Apply and compare with the original',
+    ns:'Si el cover ya tenía carry, no se re-proyecta: se arregla encima. Reproyectar mueve las líneas.',
+    ne:'If the cover already had a carry, it is not re-projected: it is fixed on top. Re-projecting moves the lines.'},
+
+   {id:'c0',f:2,t:'sub',v:0,es:'qc_es.py: un hallazgo por línea y token',en:'qc_es.py: a finding per line and token'},
+   {id:'c1',f:2,t:'db',v:0,es:'Backup del track',en:'Back up the track',
+    ns:'Es el único deshacer que existe. Los scripts se niegan a escribir si el track se movió desde el backup.',
+    ne:'It is the only undo there is. The scripts refuse to write if the track moved since the backup.'},
+   {id:'c2',f:2,t:'sub',v:0,es:'lrc_plan_fix.py: en seco y luego escrito',en:'lrc_plan_fix.py: dry, then written',
+    ns:'Un plan por canción: borrados, inserciones, cambios, uniones y tildes, en ese orden y línea a línea.',
+    ne:'One plan per song: deletes, inserts, edits, merges and accents, in that order, line by line.'},
+   {id:'c3',f:2,t:'dec',v:0,es:'¿Cambió el número de fichas?',en:'Did the token count change?'},
+   {id:'c4',f:2,t:'proc',v:0,n:'p_lrc',es:'Mover las anclas, 0 fuera de rango',en:'Move the anchors, 0 out of range',
+    ns:'Las anclas se guardan por posición. Unir o borrar una ficha descoloca todas las de detrás.',
+    ne:'Anchors are stored by position. Merging or deleting a token shifts every anchor after it.'},
+
+   {id:'d0',f:3,t:'io',v:0,es:'Informe de tiempos y sonda de audio',en:'Timing report and audio probe'},
+   {id:'d1',f:3,t:'dec',v:0,es:'¿El audio ya responde 206?',en:'Does the audio already answer 206?',
+    ns:'Esta pregunta es la que faltaba el 24 de septiembre.',
+    ne:'This question is the one that was missing on 24 September.'},
+   {id:'d2',f:3,t:'sub',v:0,r:1,es:'cover_audio_measure',en:'cover_audio_measure',
+    ns:'AQUÍ SE ROMPE EL AUDIO. Medir no escribe en la pista, pero sí cambia qué render decide servir el servidor: el 24 sep dejó mudas 7 canciones que sonaban. Solo se mide si la canción NO suena.',
+    ne:'THIS IS WHERE AUDIO BREAKS. Measuring does not write to the track, but it does change which render the server decides to serve: on 24 Sep it silenced 7 songs that were playing. Only measure when the song does NOT play.'},
+   {id:'d3',f:3,t:'man',v:0,n:'p_timing_saul',es:'Fijar el render FULL SONG',en:'Pin the FULL SONG render',
+    ns:'Cambia lo que oye el usuario y retimea la letra en bloque, así que lo autoriza Saúl. Nunca karaoke sobre full song.',
+    ne:'It changes what the user hears and retimes the lyric as a block, so Saúl authorises it. Never karaoke over full song.'},
+   {id:'d4',f:3,t:'proc',v:0,n:'p_timing',es:'Corregir las líneas que derivan',en:'Fix the lines that drift'},
+
+   {id:'e0',f:4,t:'proc',v:0,es:'Sueltos, gemelas y homógrafos',en:'Loose tokens, twins and homographs',
+    ns:'Los homógrafos con tilde (mi/mí, tu/tú, que/qué, el/él, si/sí, mas/más) son el defecto que más veces vuelve del QC.',
+    ne:'The accented homographs (mi/mí, tu/tú, que/qué, el/él, si/sí, mas/más) are the defect QC sends back most often.'},
+   {id:'e1',f:4,t:'dec',v:0,es:'¿Falta un item de diccionario?',en:'Is a dictionary item missing?'},
+   {id:'e2',f:4,t:'sub',v:0,es:'DEV → comprobar → PROD → 19 idiomas',en:'DEV → check → PROD → 19 languages'},
+   {id:'e3',f:4,t:'proc',v:0,n:'p_mapeo',es:'Verificar con track_line_tokens_get',en:'Verify with track_line_tokens_get',
+    ns:'El campo que enseña la admin sirve el item viejo un rato después de un remapeo, y eso ya produjo devoluciones falsas.',
+    ne:'The field the admin shows serves the old item for a while after a remap, and that has already caused false rejections.'},
+
+   {id:'f0',f:5,t:'dec',v:0,es:'¿Tiene ya inglés?',en:'Does it already have English?'},
+   {id:'f1',f:5,t:'sub',v:0,es:'Second Brain: solo si no hay nada',en:'Second Brain: only if there is nothing',
+    ns:'Su estrategia blanquea lo que encuentre, así que nunca se dispara sobre una canción que ya tenga inglés.',
+    ne:'Its strategy blanks whatever it finds, so it is never fired at a song that already has English.'},
+   {id:'f2',f:5,t:'proc',v:0,es:'Traducción de línea y WIT de cada ancla',en:'Line translation and a WIT per anchor'},
+   {id:'f3',f:5,t:'sub',v:0,es:'wit_dt_audit: BAD 0 y 0 WIT vacíos',en:'wit_dt_audit: BAD 0 and 0 empty WITs',
+    ns:'Un WIT sin texto hace que la app caiga en la traducción genérica del item. El barrido del 25 sep encontró 990.',
+    ne:'A WIT with no text makes the app fall back to the item’s generic translation. The 25 Sep sweep found 990.'},
+   {id:'f4',f:5,t:'io',v:0,n:'p_ingles',es:'Enviar a revisión (borrador)',en:'Submit for review (draft)',
+    ns:'Queda en pending_review. Aprobar no lo hace nunca un agente.',
+    ne:'It sits in pending_review. An agent never approves.'},
+
+   {id:'g0',f:6,t:'proc',v:0,n:'e_revision',es:'QC: entra sin ver el razonamiento',en:'QC: comes in blind to the reasoning',
+    ns:'Solo ve la canción, el original y el informe. Su trabajo es encontrar el fallo, no confirmar el acierto.',
+    ne:'It only sees the song, the original and the report. Its job is to find the fault, not to confirm the work.'},
+   {id:'g1',f:6,t:'dec',v:0,es:'Veredicto',en:'Verdict'},
+   {id:'g2',f:6,t:'con',v:1,n:'e_correccion',es:'DEVUELTO → vuelve a la fase 2',en:'RETURNED → back to phase 2',
+    ns:'Máximo dos vueltas; a la tercera, parada. Hoy hay seis canciones que se saltaron ese límite.',
+    ne:'Two rounds at most; the third one stops the song. Six songs went past that limit.'},
+   {id:'x4',f:6,t:'esp',v:1,es:'Parada: la mira Saúl',en:'Stopped: Saúl looks at it'},
+
+   {id:'h0',f:7,t:'db',v:0,n:'e_hecha',es:'parte.py → estado_cola.json',en:'parte.py → estado_cola.json',
+    ns:'Es la fuente de verdad. El script se niega a marcar «hecha» si algún paso no está cerrado.',
+    ne:'This is the source of truth. The script refuses to mark "done" while a step is open.'},
+   {id:'h1',f:7,t:'io',v:0,es:'cola_carry.json → GitHub → Cloudflare',en:'cola_carry.json → GitHub → Cloudflare'},
+   {id:'h2',f:7,t:'doc',v:0,es:'Esta página y el aviso de Slack',en:'This page and the Slack notice'},
+   {id:'h3',f:7,t:'man',v:0,es:'Saúl aprueba y publica',en:'Saúl approves and publishes'},
+   {id:'h4',f:7,t:'ini',v:0,es:'Cover publicada',en:'Cover published'}
+  ];
+
+  /* Las flechas: [de, a, etiqueta]. Etiqueta solo donde hay decisión. */
+  var FLECHAS=[
+   ['a0','a1'],['a1','a2'],['a2','x1','no'],['a2','a3','si'],
+   ['a3','x2','si'],['a3','a4','no'],['a4','x3','no'],['a4','a5','si'],
+   ['a5','b0'],['b0','xb0','no'],['b0','b1','si'],['b1','b2'],
+   ['b2','xb2','no'],['b2','b3','si'],['b3','b4'],
+   ['b4','c0'],['c0','c1'],['c1','c2'],['c2','c3'],['c3','c4','si'],
+   ['c4','d0'],['d0','d1'],['d1','d4','si'],['d1','d2','no'],['d2','d3'],['d3','d4'],
+   ['d4','e0'],['e0','e1'],['e1','e2','si'],['e2','e3'],['e1','e3','no'],
+   ['e3','f0'],['f0','f1','no'],['f1','f2'],['f2','f3'],['f3','f4'],
+   ['f4','g0'],['g0','g1'],['g1','g2','dev'],['g1','x4','par'],['g1','h0','verde'],
+   ['h0','h1'],['h1','h2'],['h2','h3'],['h3','h4']
+  ];
+
+  /* ── el dibujo ───────────────────────────────────────────────────────── */
+  var GEO={W:1240,NX:640,NW:330,SX:1055,SW:300,AX:300,GAP:34};
+
+  function pnum(clave){
+    var P=M.proceso||{};
+    if(!clave) return null;
+    if(clave==='total') return P.total||0;
+    if(clave==='descartadas') return P.descartadas||0;
+    if(clave.indexOf('e_')===0) return (P.estados||{})[clave.slice(2)]||0;
+    if(clave==='p_timing_saul') return ((P.pasos||{}).timing||{}).saul||0;
+    if(clave.indexOf('p_')===0) return ((P.pasos||{})[clave.slice(2)]||{}).ok||0;
+    return null;
+  }
+
+  /* Parte un texto en renglones de como mucho `max` caracteres. */
+  function renglones(txt,max){
+    var out=[],linea='';
+    txt.split(' ').forEach(function(p){
+      if(linea && (linea+' '+p).length>max){out.push(linea);linea=p;}
+      else linea=linea?linea+' '+p:p;
+    });
+    if(linea) out.push(linea);
+    return out;
+  }
+
+  function alto(t,lineas){
+    if(t==='dec') return Math.max(96,44+lineas*20);
+    return Math.max(58,30+lineas*20);
+  }
+
+  /* Cada forma es un <path> o un <rect>: son las del diagrama de flujo de
+     toda la vida, no inventos. */
+  function silueta(t,x,y,w,h,col){
+    var l=x-w/2,r=x+w/2,a=y-h/2,b=y+h/2,e='fill="'+col.bg+'" stroke="'+col.bd+'" stroke-width="1.6"';
+    if(t==='ini'||t==='esp')
+      return '<rect x="'+l+'" y="'+a+'" width="'+w+'" height="'+h+'" rx="'+(h/2)+'" '+e+'/>';
+    if(t==='dec')
+      return '<path d="M '+x+' '+a+' L '+r+' '+y+' L '+x+' '+b+' L '+l+' '+y+' Z" '+e+'/>';
+    if(t==='io')
+      return '<path d="M '+(l+18)+' '+a+' H '+r+' L '+(r-18)+' '+b+' H '+l+' Z" '+e+'/>';
+    if(t==='man')
+      return '<path d="M '+l+' '+a+' H '+r+' L '+(r-20)+' '+b+' H '+(l+20)+' Z" '+e+'/>';
+    if(t==='db')
+      return '<path d="M '+l+' '+(a+9)+' a '+(w/2)+' 9 0 0 1 '+w+' 0 v '+(h-18)+
+             ' a '+(w/2)+' 9 0 0 1 -'+w+' 0 Z" '+e+'/>'+
+             '<path d="M '+l+' '+(a+9)+' a '+(w/2)+' 9 0 0 0 '+w+' 0" fill="none" stroke="'+col.bd+'" stroke-width="1.2"/>';
+    if(t==='doc')
+      return '<path d="M '+l+' '+a+' H '+r+' V '+(b-10)+' q -'+(w/4)+' 14 -'+(w/2)+' 0 q -'+(w/4)+' -14 -'+(w/2)+' 0 Z" '+e+'/>';
+    if(t==='con')
+      return '<rect x="'+l+'" y="'+a+'" width="'+w+'" height="'+h+'" rx="'+(h/2)+'" '+e+' stroke-dasharray="6 5"/>';
+    if(t==='sub')
+      return '<rect x="'+l+'" y="'+a+'" width="'+w+'" height="'+h+'" rx="6" '+e+'/>'+
+             '<line x1="'+(l+11)+'" y1="'+a+'" x2="'+(l+11)+'" y2="'+b+'" stroke="'+col.bd+'" stroke-width="1.4"/>'+
+             '<line x1="'+(r-11)+'" y1="'+a+'" x2="'+(r-11)+'" y2="'+b+'" stroke="'+col.bd+'" stroke-width="1.4"/>';
+    return '<rect x="'+l+'" y="'+a+'" width="'+w+'" height="'+h+'" rx="8" '+e+'/>';
+  }
+
+  var COLORES={
+    ini:{bg:'#1F2430',bd:'#64748B'},   proc:{bg:'#1B1B21',bd:'#3F3F49'},
+    dec:{bg:'#241C33',bd:'#7C3AED'},   sub:{bg:'#18211F',bd:'#2F6F5E'},
+    io:{bg:'#1A1F27',bd:'#4B6A86'},    db:{bg:'#1F1D18',bd:'#8A7442'},
+    doc:{bg:'#1F1D18',bd:'#8A7442'},   man:{bg:'#2A1C1C',bd:'#B45309'},
+    esp:{bg:'#2A1C1C',bd:'#B45309'},   con:{bg:'#1B1B21',bd:'#7C3AED'}
+  };
+  var ETIQ={si:['Sí','Yes'],no:['No','No'],dev:['Devuelto','Returned'],
+            par:['Parada','Stopped'],verde:['Verde','Green']};
+
+  function diagrama(){
+    var P=M.proceso||{},pos={},y=24,partes=[],flechas=[],bandas={},tronco=[],fant=-1;
+    /* 1. Sitio para cada caja del tronco, en orden. Cada fase abre con su
+       cabecera, y las cajas empiezan por debajo para que el titulo de la fase
+       no se cruce con la nota de la primera caja. */
+    NODOS.forEach(function(nd){
+      if(nd.v) return;
+      if(nd.f!==fant){ if(fant>=0) y+=22; bandas[nd.f]={a:y,b:0}; y+=58; fant=nd.f; }
+      var txt=nd[L]||nd.es, ln=renglones(txt,nd.t==='dec'?26:32), h=alto(nd.t,ln.length);
+      pos[nd.id]={x:GEO.NX,y:y+h/2,w:GEO.NW,h:h,ln:ln,nd:nd,i:tronco.length};
+      tronco.push(nd.id);
+      bandas[nd.f].b=y+h+18; y+=h+GEO.GAP;
+    });
+    /* 2. Las salidas cuelgan del nodo que las produce. Si dos salen del mismo
+       sitio, la segunda baja: dos cajas en la misma linea no se leen. */
+    var origen={},usados=[];
+    FLECHAS.forEach(function(fl){ if(!pos[fl[1]]&&!origen[fl[1]]) origen[fl[1]]=fl[0]; });
+    NODOS.forEach(function(nd){
+      if(!nd.v) return;
+      var p=pos[origen[nd.id]]||{y:60};
+      var txt=nd[L]||nd.es, ln=renglones(txt,30), h=alto(nd.t,ln.length), yy=p.y;
+      while(usados.some(function(u){return Math.abs(u-yy)<h+26;})) yy+=h+30;
+      usados.push(yy);
+      pos[nd.id]={x:GEO.SX,y:yy,w:GEO.SW,h:h,ln:ln,nd:nd};
+    });
+    /* 3. Las bandas de fase, detrás de todo. */
+    FASES.forEach(function(f){
+      var b=bandas[f[0]]; if(!b) return;
+      partes.push('<rect x="8" y="'+b.a+'" width="'+(GEO.W-16)+'" height="'+(b.b-b.a)+
+        '" rx="16" fill="#17171C" stroke="#25252C" stroke-width="1"/>'+
+        '<text x="26" y="'+(b.a+24)+'" fill="#A78BFA" font-size="13" font-weight="700" '+
+        'letter-spacing="0.04em">'+esc(L==='en'?f[3]:f[1])+'</text>'+
+        '<text x="26" y="'+(b.a+42)+'" fill="#71717A" font-size="12">'+
+        esc(L==='en'?f[4]:f[2])+'</text>');
+    });
+    /* 4. Las flechas, antes que las cajas para que no las tapen. */
+    var rotulo={};
+    FLECHAS.forEach(function(fl){
+      var a=pos[fl[0]],b=pos[fl[1]]; if(!a||!b) return;
+      var d,mx,ex,ey,salto=(a.x===b.x&&Math.abs((a.i||0)-(b.i||0))>1);
+      if(a.x===b.x&&!salto){
+        d='M '+a.x+' '+(a.y+a.h/2)+' V '+(b.y-b.h/2-7);
+        ex=a.x+13; ey=a.y+a.h/2+16;
+      }else if(salto){
+        /* Un ramal que se salta cajas no las atraviesa: sale por la derecha,
+           baja por fuera y vuelve a entrar. */
+        mx=a.x+a.w/2+56;
+        d='M '+(a.x+a.w/2)+' '+a.y+' H '+mx+' V '+b.y+' H '+(b.x+b.w/2+7);
+        ex=mx+8; ey=a.y-8;
+      }else{
+        mx=a.x+a.w/2+24;
+        d='M '+(a.x+a.w/2)+' '+a.y+' H '+mx+' V '+b.y+' H '+(b.x-b.w/2-7);
+        ex=mx+8; ey=a.y-8;
+      }
+      flechas.push('<path d="'+d+'" fill="none" stroke="#52525B" stroke-width="1.5" '+
+                   'marker-end="url(#pf)"/>');
+      if(fl[2]){
+        /* De una decision salen dos o tres ramales por el mismo lado: sus
+           rotulos se escalonan para que no caigan uno encima de otro. */
+        var k=fl[0]+'|'+(a.x===b.x&&!salto?'v':'h');
+        rotulo[k]=(rotulo[k]||0)+1;
+        flechas.push('<text x="'+ex+'" y="'+(ey+(rotulo[k]-1)*16)+'" fill="#A1A1AA" '+
+          'font-size="11.5" font-weight="700">'+esc(ETIQ[fl[2]][L==='en'?1:0])+'</text>');
+      }
+    });
+    /* 5. Las cajas, su número y su nota. */
+    NODOS.forEach(function(nd){
+      var p=pos[nd.id]; if(!p) return;
+      var c=COLORES[nd.t],col=nd.r?{bg:'#2E1414',bd:'#EF4444'}:c;
+      var g=['<g>'];
+      g.push(silueta(nd.t,p.x,p.y,p.w,p.h,col));
+      var y0=p.y-(p.ln.length-1)*10;
+      p.ln.forEach(function(t,i){
+        g.push('<text x="'+p.x+'" y="'+(y0+i*20+5)+'" text-anchor="middle" fill="#E4E4E7" '+
+               'font-size="13.5" font-weight="600">'+esc(t)+'</text>');
+      });
+      var n=pnum(nd.n);
+      if(n!==null){
+        var bx=p.x+p.w/2-4;
+        g.push('<rect x="'+(bx-52)+'" y="'+(p.y-p.h/2-11)+'" width="56" height="22" rx="11" '+
+               'fill="'+col.bd+'" fill-opacity="0.22" stroke="'+col.bd+'" stroke-width="1"/>');
+        g.push('<text x="'+(bx-24)+'" y="'+(p.y-p.h/2+4)+'" text-anchor="middle" '+
+               'fill="#FAFAFA" font-size="12.5" font-weight="800" '+
+               'font-family="Doto, monospace">'+nf.format(n)+'</text>');
+      }
+      var nota=L==='en'?(nd.ne||nd.ns):(nd.ns||nd.ne);
+      if(nota&&!nd.v){
+        var nl=renglones(nota,40);
+        nl.forEach(function(t,i){
+          g.push('<text x="'+GEO.AX+'" y="'+(p.y-(nl.length-1)*7.5+i*15+4)+'" text-anchor="end" '+
+                 'fill="'+(nd.r?'#FCA5A5':'#71717A')+'" font-size="11.5">'+esc(t)+'</text>');
+        });
+        g.push('<line x1="'+(GEO.AX+10)+'" y1="'+p.y+'" x2="'+(p.x-p.w/2-6)+'" y2="'+p.y+
+               '" stroke="#2A2A31" stroke-width="1" stroke-dasharray="3 4"/>');
+      }
+      if(nota&&nd.v){
+        var nr=renglones(nota,36);
+        nr.forEach(function(t,i){
+          g.push('<text x="'+(p.x-p.w/2)+'" y="'+(p.y+p.h/2+16+i*15)+'" fill="#71717A" '+
+                 'font-size="11.5">'+esc(t)+'</text>');
+        });
+      }
+      g.push('</g>');
+      partes.push(g.join(''));
+    });
+    var alt=y+70;
+    return '<svg viewBox="0 0 '+GEO.W+' '+alt+'" width="100%" style="min-width:980px" '+
+      'role="img" aria-label="'+esc(t('procAria'))+'">'+
+      '<defs><marker id="pf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" '+
+      'markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#52525B"/></marker></defs>'+
+      partes.slice(0,FASES.length).join('')+flechas.join('')+
+      partes.slice(FASES.length).join('')+'</svg>';
+  }
+
+  function leyenda(){
+    return FORMAS.map(function(f){
+      var c=COLORES[f[0]];
+      return '<div class="flex items-start gap-3 rounded-xl border border-line bg-raised/40 p-3">'+
+        '<svg width="76" height="42" viewBox="0 0 76 42" class="shrink-0">'+
+        silueta(f[0],38,21,64,30,c)+'</svg>'+
+        '<div class="min-w-0"><p class="text-[13px] font-semibold text-zinc-200">'+
+        esc(L==='en'?f[3]:f[1])+'</p>'+
+        '<p class="mt-0.5 text-[12px] leading-snug text-zinc-500">'+
+        esc(L==='en'?f[4]:f[2])+'</p></div></div>';
+    }).join('');
+  }
+
+  function marcador(){
+    var P=M.proceso||{},E=P.estados||{},S=P.pasos||{};
+    var cifras=[
+      ['procEnCola',P.total||0],
+      ['procTrab',P.trabajadas||0],
+      ['procHechas',E.hecha||0],
+      ['procVuelo',(E.carry||0)+(E.correccion||0)+(E.revision||0)+(E.traduccion||0)],
+      ['procParadas',E.parada||0],
+      ['procDevueltas',P.devueltas||0]
+    ];
+    var caja=cifras.map(function(c){
+      return '<div class="rounded-xl border border-line bg-raised/40 px-3.5 py-2.5">'+
+        '<p class="font-dot text-[19px] font-extrabold leading-none text-zinc-100">'+
+        nf.format(c[1])+'</p><p class="mt-1 text-[11.5px] text-zinc-500">'+esc(t(c[0]))+'</p></div>';
+    }).join('');
+    var pasos=['carry','lrc','timing','mapeo','ingles','qc'].map(function(p){
+      var d=S[p]||{},ok=d.ok||0,mal=(d.falta||0)+(d.saul||0),tot=ok+mal+(d.na||0);
+      var pc=tot?Math.round(ok*100/tot):0;
+      return '<div class="min-w-0"><div class="flex items-baseline justify-between gap-2">'+
+        '<span class="text-[12px] text-zinc-400">'+esc(t('paso_'+p))+'</span>'+
+        '<span class="font-dot text-[12px] font-bold text-zinc-300">'+nf.format(ok)+
+        (mal?'<span class="text-q2"> / '+nf.format(mal)+'</span>':'')+'</span></div>'+
+        '<div class="mt-1 h-1.5 rounded-full bg-raised overflow-hidden">'+
+        '<div class="h-full rounded-full bg-accent" style="width:'+pc+'%"></div></div></div>';
+    }).join('');
+    return '<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2.5">'+caja+'</div>'+
+      '<div class="mt-5"><h3 class="font-mono text-[10.5px] uppercase tracking-[0.12em] text-zinc-500">'+
+      esc(t('procPasos'))+'</h3>'+
+      '<p class="mt-1 text-[12.5px] text-zinc-500 max-w-[70ch]">'+esc(t('procPasosSub'))+'</p>'+
+      '<div class="mt-3 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-x-5 gap-y-3">'+pasos+'</div></div>';
+  }
+
+  function proceso(){
+    if(vista!=='proc') return;
+    document.getElementById('x-proc-tit').textContent=t('procTit');
+    document.getElementById('x-proc-sub').textContent=t('procSub');
+    document.getElementById('x-proc-marcador').innerHTML=marcador();
+    document.getElementById('x-proc-svg').innerHTML=diagrama();
+    document.getElementById('x-proc-ley-tit').textContent=t('procLey');
+    document.getElementById('x-proc-ley-sub').textContent=t('procLeySub');
+    document.getElementById('x-proc-leyenda').innerHTML=leyenda();
+    document.getElementById('x-proc-pie').textContent=t('procPie');
+  }
+
   function todo(){
-    cabecera(); cifras(); tabs(); riel(); calidad();
-    var lin=(vista==='linea');
+    cabecera(); cifras(); tabs(); riel(); calidad(); proceso();
+    var lin=(vista==='linea'), pro=(vista==='proc');
     document.getElementById('x-linea').hidden=!lin;
     document.getElementById('x-calidad').hidden=(vista!=='cal');
+    document.getElementById('x-proceso').hidden=!pro;
+    /* La pestaña del proceso no es una lista de canciones: el buscador y la
+       rejilla no pintan nada ahí. */
+    document.getElementById('x-rejilla').hidden=pro;
     /* El indice sobra donde ya hay otra forma de llegar: en Carry lo hacen
        las columnas y en calificadas solo hay dos bloques. */
-    var sinIndice=lin||vista==='cal';
+    var sinIndice=lin||pro||vista==='cal';
     document.getElementById('x-indice-caja').className=sinIndice?'hidden':'hidden md:block';
     document.getElementById('x-rejilla').className='mt-6 grid gap-5 lg:gap-6'+
       (sinIndice?'':' md:grid-cols-[210px_minmax(0,1fr)]');
