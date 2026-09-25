@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T10:36:22Z",
+  "generado": "2026-09-25T10:45:30Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -4350,9 +4350,9 @@
       "titulo": "Alguien Canto",
       "artista": "Matt Monro",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-25T10:23:57Z",
+      "vueltas": 1,
+      "motivo": "vuelta 2 lista para QC",
+      "actualizado": "2026-09-25T10:45:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4362,8 +4362,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "comma linea 13 restaurada; resto de discrepancias vs original justificadas (ver informe)",
-            "t": "2026-09-25T10:23:51Z"
+            "nota": "vuelta 2 (sesión principal): línea 11 igualada al original con lrc_plan_fix (1 palabra añadida, 2 cambiadas), anclas de la línea recolocadas; línea 13 coma",
+            "t": "2026-09-25T10:45:08Z"
           },
           "timing": {
             "v": "na",
@@ -4377,9 +4377,19 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "6 WIT/DT bag fixes + 9 WIT vacios rellenados; draft enviado a pending_review",
-            "t": "2026-09-25T10:23:52Z"
+            "nota": "vuelta 2: línea 11 re-traducida + 10 WIT; línea 16 WIT y línea en 3ª persona; línea 8 WIT; BAD 0; pending_review",
+            "t": "2026-09-25T10:45:09Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 11 vs original, WIT linea 16 abrazo en 1a persona",
+            "t": "2026-09-25T10:41:00Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 11 vs original, WIT linea 16 abrazo en 1a persona",
+          "t": "2026-09-25T10:41:00Z"
         }
       }
     },
@@ -23344,10 +23354,10 @@
       "originalTrackId": "6aa7bb0e387e9481dd7bb8eb",
       "titulo": "Dime",
       "artista": "Willie Colón",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Carry rechazado por el servidor (alineacion 58%, minimo 60%: el cover canta 290 fichas frente a 451 del original). Mapeo 97% e ingles 83/83 hechos. Decidir: recortar LRC del cover (cover-lyric-repair) o dejar sin carry",
-      "actualizado": "2026-09-25T10:35:16Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-25T10:41:47Z",
       "motivo_en": "carry refused by the server (alignment 58%, minimum 60%: the cover sings 290 tokens against 451 in the original). Mapping 97% and English 83/83 done. To decide: recut the cover LRC (cover-lyric-repair) or leave it without carry",
       "auditoria": {
         "pasos": {
@@ -23370,6 +23380,11 @@
             "v": "ok",
             "nota": "drift 0 en 83 lineas (track_timing_report); huecos L51/L64 = instrumental real (coincide con huecos del original); audio servido 206 (vocx.wav), no se mide",
             "t": "2026-09-25T10:35:16Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft reabierto: 8 WIT como->how, 41 DT de bolsa arregladas (wit_dt_audit BAD 0), 12 WIT vacios rellenados con primario; submit a pending_review",
+            "t": "2026-09-25T10:40:53Z"
           }
         }
       }
@@ -23468,19 +23483,40 @@
       "originalTrackId": "695598306a05f13ba26775c8",
       "titulo": "Chantaje",
       "artista": "Shakira",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Mapeo 88% (38 anclas con puntuacion normalizadas); ingles 82/82 en pending_review desde 22 sep (aprobar) y despues completar 49 WIT en ingles",
-      "actualizado": "2026-09-25T10:30:41Z",
+      "motivo": "letra, mapeo e inglés hechos (inglés aplicado por la sesión principal); duda abierta: 3 líneas de ad-lib duplicadas (57/69/72)",
+      "actualizado": "2026-09-25T10:45:30Z",
       "auditoria": {
         "pasos": {
           "lrc": {
             "v": "ok",
             "nota": "5 ediciones tilde/¿: L25(x2 tu->tu con tilde), L27 tu posesivo (tus->tu + remap item), L36-37 que->que interrogativo + parentesis",
             "t": "2026-09-25T10:30:41Z"
+          },
+          "carry": {
+            "v": "ok",
+            "nota": "carry ya aplicado (coverOf enlazado), no se reproyecta",
+            "t": "2026-09-25T10:36:51Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "7 item_otra_palabra = elisiones justificadas (sea/sabe/to a/pa/na/vaya); sin_mapear 8 = palabras en ingles del outro, exentas D-1..D-3; 0 tildes distintas tras el fix LRC",
+            "t": "2026-09-25T10:36:52Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "sesión principal: 5 líneas que faltaban, línea 37 re-traducida, 49 WIT rellenados, 6 DT corregidos; BAD 0; pending_review",
+            "t": "2026-09-25T10:45:09Z"
+          },
+          "timing": {
+            "v": "saul",
+            "nota": "3 pares de lineas Eh eh eh casi duplicadas (idx55/56, 67/68, 70/71) con inicio a ~3ms una de otra (imposible secuencial); drift de linea 0 en todo lo demas; no se retimea sin confirmar audio",
+            "t": "2026-09-25T10:36:52Z"
           }
         }
-      }
+      },
+      "motivo_en": "LRC and mapping closed; English (82 lines + 49+6 WITs) and 1 timing doubt are ready in a payload, blocked by the classifier (Modify Shared Resources); need the main session to apply the payload"
     },
     {
       "coverTrackId": "6aa70af572ca57eb1aab36ca",
