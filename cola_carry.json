@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T09:40:36Z",
+  "generado": "2026-09-25T09:47:54Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -2775,16 +2775,16 @@
       "originalTrackId": "6aa7d3a70752719d51ac5371",
       "titulo": "Lagrimas De Cristal",
       "artista": "Grupo Montéz De Durango",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC; hallazgos restantes justificados (nombre del grupo, grafia dialectal ya en el original)",
-      "actualizado": "2026-09-25T09:35:42Z",
+      "estado": "hecha",
+      "vueltas": 2,
+      "motivo": "lista para que Saúl apruebe el inglés y publique",
+      "actualizado": "2026-09-25T09:47:54Z",
       "auditoria": {
         "pasos": {
           "ingles": {
             "v": "ok",
-            "nota": "5 lineas retraducidas; 25 WIT con DT desplazada corregidas (wit_dt_audit BAD 0); 16 WIT vacios rellenados; reenviado a pending_review",
-            "t": "2026-09-25T09:35:41Z"
+            "nota": "gemelas 5/18/26 unificadas en el mismo sentido; línea 13 alineada con su palabra; BAD 0; enviado a revisión",
+            "t": "2026-09-25T09:47:54Z"
           },
           "carry": {
             "v": "ok",
@@ -2805,7 +2805,17 @@
             "v": "ok",
             "nota": "anclas recolocadas tras 5 deletes+1 insert; 7 gemelas distintas unificadas; 0 sin mapear salvo nombre del grupo",
             "t": "2026-09-25T09:35:41Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "los 2 defectos del QC (gemela 18 y línea 13 del inglés) corregidos; resto verificado limpio por el QC",
+            "t": "2026-09-25T09:47:54Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "los 2 defectos del QC (gemela 18 y línea 13 del inglés) corregidos; resto verificado limpio por el QC",
+          "t": "2026-09-25T09:47:54Z"
         }
       }
     },
@@ -17635,13 +17645,28 @@
       "estado": "correccion",
       "vueltas": 0,
       "motivo": "Lote 5: mapeo 100%, ingles 31/31; tildes ausentes en lineas 26 y 29: corrigiendo",
-      "actualizado": "2026-09-25T09:36:14Z",
+      "actualizado": "2026-09-25T09:43:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "na",
             "nota": "cover locked 3 estrellas; backup tomado, iniciando auditoria completa",
             "t": "2026-09-25T09:36:14Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tilde restaurada en 2 lineas (nota previa sin terminar); timings intactos",
+            "t": "2026-09-25T09:42:08Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "10 anclas gemelas unificadas al sentido de la primera aparicion (que/yo/mi/el/no/dejen/en/penas)",
+            "t": "2026-09-25T09:42:30Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "track_timing_report drift 0ms en 31/31 lineas; /audio 206 (vocx.wav, 33.6MB); no se mide (ya suena), cover locked -> no tocar audio/pin",
+            "t": "2026-09-25T09:43:29Z"
           }
         }
       }
@@ -19741,7 +19766,16 @@
       "estado": "correccion",
       "vueltas": 0,
       "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 77%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "actualizado": "2026-09-25T09:42:29Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "cobertura ya OK, carry no se re-proyecta (locked, prio Saul)",
+            "t": "2026-09-25T09:42:29Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5e05f42b8d1fdb0d6cc59",
