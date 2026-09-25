@@ -219,7 +219,11 @@ def parte_linea(datos, log):
     orden = {e: i for i, e in enumerate(ESTADOS)}
     # Dentro de cada paso, primero lo que todavia espera a que una persona
     # eche el candado; lo ya cerrado se va al final, que es donde estorba menos.
-    filas.sort(key=lambda f: (orden[f[4]], f[12], f[1].lower(), f[0].lower()))
+    # Y dentro de eso, lo ultimo que se ha tocado arriba. Son dos pasadas
+    # porque la fecha ordena al reves que el resto: el sort de Python es
+    # estable y la segunda respeta lo que dejo hecho la primera.
+    filas.sort(key=lambda f: f[6], reverse=True)
+    filas.sort(key=lambda f: (orden[f[4]], f[12]))
     cuenta = collections.Counter(f[4] for f in filas)
     log('linea ES: %d canciones  %s' % (len(filas), dict(cuenta)))
     return {'filas': filas,
