@@ -245,7 +245,11 @@ def vuelta_anterior(log):
     if url.lower() == 'no':
         return None
     try:
-        pet = urllib.request.Request(url, headers={'accept': 'application/json'})
+        # Cloudflare le da un 403 al agente de serie de urllib, asi que se
+        # presenta con un nombre normal.
+        pet = urllib.request.Request(url, headers={
+            'accept': 'application/json',
+            'user-agent': 'Mozilla/5.0 (compatible; covers-es-panel/1.0)'})
         with urllib.request.urlopen(pet, timeout=30) as r:
             return json.load(r)
     except Exception as e:
@@ -264,12 +268,15 @@ def movimiento_carry(filas, log):
     clave = lambda f: str(f[2] or f[3] or (f[1] + '|' + f[0]))
     ahora = {clave(f): f for f in filas}
     foto = {k: f[4] for k, f in ahora.items()}
+    cuenta = collections.Counter(foto.values())
+    marcador = {e: cuenta.get(e, 0) for e in ESTADOS}
 
     antes = ((vuelta_anterior(log) or {}).get('carry') or {}).get('foto')
     if not isinstance(antes, dict) or not antes:
         log('carry: %d canciones (sin foto anterior, esta vuelta no compara)' % len(filas))
-        return {'foto': foto, 'cambios': [], 'nuevas': [], 'fuera': 0,
-                'comparado': False}
+        return {'foto': foto, 'cuenta': marcador, 'previo': None,
+                'cambios': [], 'nuevas': [], 'fuera': 0, 'comparado': False}
+    ayer = collections.Counter(antes.values())
 
     cambios, nuevas = [], []
     for k, f in ahora.items():
@@ -285,7 +292,9 @@ def movimiento_carry(filas, log):
     nuevas.sort(key=orden)
     log('carry: %d canciones, cambian de paso %d, nuevas %d, se caen %d'
         % (len(filas), len(cambios), len(nuevas), fuera))
-    return {'foto': foto, 'cambios': cambios, 'nuevas': nuevas, 'fuera': fuera,
+    return {'foto': foto, 'cuenta': marcador,
+            'previo': {e: ayer.get(e, 0) for e in ESTADOS},
+            'cambios': cambios, 'nuevas': nuevas, 'fuera': fuera,
             'comparado': True}
 
 

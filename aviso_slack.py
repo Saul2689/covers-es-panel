@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Manda a Slack el movimiento de la pestana Carry del panel de covers es.
+"""Manda a Slack como va la pestana Carry del panel de covers es.
 
-El aviso no da totales: cuenta lo que se ha movido desde la vuelta anterior,
-que cancion ha cambiado de paso, cuales son nuevas en la lista y cuantas se
-han caido. El resto del panel se mira en la pagina.
+Cada aviso lleva siempre los numeros de cada paso, con lo que ha subido o
+bajado desde la vuelta anterior, y debajo lo que se ha movido: que cancion ha
+cambiado de paso, cuales son nuevas y cuantas se han caido. Aunque no se mueva
+nada, el aviso dice como esta la cosa.
 
 Lee las variables de entorno que le pone el workflow:
     GANCHO   la URL del webhook de Slack (obligatoria; sin ella no hace nada)
@@ -25,17 +26,18 @@ PANEL = 'https://covers-es-v2.pages.dev/'
 RESUMEN = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'dist', 'meta.json')
 TOPE = 15   # a partir de aqui la lista se corta y se dice cuantas faltan
 
-# Como se lee en el aviso el paso de cada cancion.
-PASOS = {
-    'parada': 'parada',
-    'correccion': 'correccion',
-    'revision': 'revision',
-    'carry': 'carry',
-    'traduccion': 'traduccion',
-    'cola': 'cola',
-    'sinorig': 'sin original',
-    'hecha': 'hecha',
-}
+# Los pasos en el mismo orden y con el mismo nombre que en el panel.
+PASOS = [
+    ('parada', 'Parada'),
+    ('carry', 'Carry'),
+    ('revision', 'En revision'),
+    ('correccion', 'Corrigiendo'),
+    ('traduccion', 'Traduciendo'),
+    ('cola', 'En cola'),
+    ('hecha', 'Hecha'),
+    ('sinorig', 'Sin original'),
+]
+NOMBRE = dict(PASOS)
 
 
 def manda(texto):
@@ -61,12 +63,32 @@ def manda(texto):
         print('no se pudo avisar a slack: %s' % e, file=sys.stderr)
 
 
+def miles(n):
+    return '{:,}'.format(n).replace(',', '.')
+
+
 def paso(nombre):
-    return PASOS.get(nombre, nombre)
+    return NOMBRE.get(nombre, nombre)
+
+
+def marcador(cuenta, previo):
+    """La tabla de siempre: un paso por linea, su numero y lo que ha cambiado."""
+    filas = []
+    for clave, nombre in PASOS:
+        n = cuenta.get(clave, 0)
+        linea = '%-14s %6s' % (nombre, miles(n))
+        if previo is not None:
+            d = n - previo.get(clave, 0)
+            if d:
+                linea += '  %+d' % d
+        filas.append(linea)
+    total = sum(cuenta.get(c, 0) for c, _ in PASOS)
+    filas.append('%-14s %6s' % ('TOTAL', miles(total)))
+    return '```\n%s\n```' % '\n'.join(filas)
 
 
 def trozo(titulo, filas, pinta):
-    """Un bloque del aviso: cabecera con el numero y una cancion por linea."""
+    """Un bloque de la lista: cabecera con el numero y una cancion por linea."""
     cuerpo = [pinta(f) for f in filas[:TOPE]]
     if len(filas) > TOPE:
         cuerpo.append('        · y %d mas' % (len(filas) - TOPE))
@@ -95,36 +117,36 @@ def main():
         return
 
     c = m.get('carry') or {}
+    cuenta = c.get('cuenta') or {}
+    previo = c.get('previo') if c.get('comparado') else None
     cambios = c.get('cambios') or []
     nuevas = c.get('nuevas') or []
     fuera = c.get('fuera') or 0
-    cabeza = '*Carry* — vuelta %s, %s' % (como, m.get('fecha', ''))
+
+    partes = [':package: *Carry* — vuelta %s, %s' % (como, m.get('fecha', '')),
+              marcador(cuenta, previo)]
 
     if not c.get('comparado'):
-        manda(':package: %s\nNo he podido leer la vuelta anterior, asi que esta '
-              'no compara. En la siguiente vuelve el movimiento.\n%s'
-              % (cabeza, PANEL))
-        return
+        partes.append('_Primera vuelta con seguimiento: desde la siguiente '
+                      'tambien digo que se ha movido._')
+    elif not cambios and not nuevas and not fuera:
+        partes.append('Sin movimiento: nadie ha cambiado de paso desde la '
+                      'vuelta anterior.')
+    else:
+        if cambios:
+            partes.append(trozo(
+                'Cambian de paso', cambios,
+                lambda f: '        · %s — %s: %s → %s'
+                          % (f[1], f[2], paso(f[3]), paso(f[4]))))
+        if nuevas:
+            partes.append(trozo(
+                'Nuevas en la lista', nuevas,
+                lambda f: '        · %s — %s (%s)' % (f[1], f[2], paso(f[3]))))
+        if fuera:
+            partes.append('• Se han caido de la lista: *%d*' % fuera)
 
-    if not cambios and not nuevas and not fuera:
-        manda(':package: %s\nSin movimiento: ninguna cancion ha cambiado de paso '
-              'desde la vuelta anterior.\n%s' % (cabeza, PANEL))
-        return
-
-    bloques = []
-    if cambios:
-        bloques.append(trozo(
-            'Cambian de paso', cambios,
-            lambda f: '        · %s — %s: %s → %s'
-                      % (f[1], f[2], paso(f[3]), paso(f[4]))))
-    if nuevas:
-        bloques.append(trozo(
-            'Nuevas en la lista', nuevas,
-            lambda f: '        · %s — %s (%s)' % (f[1], f[2], paso(f[3]))))
-    if fuera:
-        bloques.append('• Se han caido de la lista: *%d*' % fuera)
-
-    manda(':package: %s\n%s\n%s' % (cabeza, '\n'.join(bloques), PANEL))
+    partes.append(PANEL)
+    manda('\n'.join(partes))
 
 
 if __name__ == '__main__':
