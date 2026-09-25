@@ -1,18 +1,19 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Covers en español</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Doto:wght@600;800&family=Nunito:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
 tailwind.config={theme:{extend:{
   fontFamily:{
-    display:['"Inter Tight"','Inter','system-ui','sans-serif'],
-    sans:['Inter','system-ui','sans-serif'],
-    mono:['"IBM Plex Mono"','ui-monospace','SFMono-Regular','monospace']
+    display:['Nunito','system-ui','sans-serif'],
+    sans:['Nunito','system-ui','sans-serif'],
+    mono:['"IBM Plex Mono"','ui-monospace','SFMono-Regular','monospace'],
+    dot:['Doto','"IBM Plex Mono"','monospace']
+    /* Mas redondeado, como la referencia: la tarjeta pesa menos. */
   },
+  borderRadius:{xl:'14px','2xl':'22px'},
   colors:{
-    ground:'#09090B', surface:'#131317', raised:'#1A1A20',
+    ground:'#121215', surface:'#1A1A1E', raised:'#212126',
     line:'#2A2A31', accent:'#7C3AED', accentsoft:'#A78BFA',
     q1:'#E11D48', q2:'#F97316', q3:'#EAB308', q4:'#84CC16', q5:'#22C55E'
   }
@@ -20,7 +21,7 @@ tailwind.config={theme:{extend:{
 </script>
 <style>
   :root{color-scheme:dark}
-  body{background:#09090B;color:#FAFAFA;font-family:Inter,system-ui,sans-serif;margin:0}
+  body{background:#121215;color:#FAFAFA;font-family:Nunito,system-ui,sans-serif;margin:0}
   ::selection{background:#7C3AED;color:#fff}
   .scroll-thin{scrollbar-width:thin;scrollbar-color:#2A2A31 transparent}
   .scroll-thin::-webkit-scrollbar{width:6px;height:6px}
@@ -32,19 +33,6 @@ tailwind.config={theme:{extend:{
 
   /* Buscador: un filo de 1px por el que gira un destello violeta. El anillo es
      un círculo mayor que la caja; el interior opaco deja ver solo el borde. */
-  .brillo{position:relative;padding:1px;overflow:hidden;background:#2A2A31;
-          box-shadow:0 0 0 1px rgba(124,58,237,.14);transition:box-shadow .2s ease}
-  .brillo::before{content:"";position:absolute;left:50%;top:50%;width:230%;aspect-ratio:1;
-    border-radius:50%;transform:translate(-50%,-50%) rotate(0deg);
-    background:conic-gradient(from 0deg,
-      rgba(124,58,237,0) 0deg, rgba(124,58,237,0) 232deg,
-      rgba(124,58,237,.5) 292deg, #C4B5FD 324deg, rgba(124,58,237,.5) 352deg,
-      rgba(124,58,237,0) 360deg);
-    animation:girar 4.5s linear infinite}
-  .brillo>*{position:relative}
-  .brillo:focus-within{box-shadow:0 0 0 1px rgba(124,58,237,.45),0 0 26px -6px rgba(124,58,237,.55)}
-  @keyframes girar{to{transform:translate(-50%,-50%) rotate(360deg)}}
-
   /* Secciones plegables: fuera el triangulo del navegador, el chevron gira. */
   summary::-webkit-details-marker{display:none}
   details[open]>summary .chevron{transform:rotate(90deg)}
@@ -66,13 +54,13 @@ tailwind.config={theme:{extend:{
       </div>
 
       <div class="flex items-center gap-1 rounded-xl border border-line/70 bg-surface p-0.5" id="x-langs">
-        <button data-l="es" class="px-2.5 py-1 rounded-lg text-[12px] font-medium transition-all duration-200">ES</button>
         <button data-l="en" class="px-2.5 py-1 rounded-lg text-[12px] font-medium transition-all duration-200">EN</button>
+        <button data-l="es" class="px-2.5 py-1 rounded-lg text-[12px] font-medium transition-all duration-200">ES</button>
       </div>
 
       <button id="x-refrescar" type="button"
-              class="rounded-xl border border-violet-400/50 bg-gradient-to-b from-violet-500 to-accent
-                     px-3.5 py-1.5 text-[12.5px] font-semibold text-white shadow-lg shadow-accent/35
+              class="rounded-xl bg-gradient-to-b from-violet-500 to-accent
+                     px-3.5 py-1.5 text-[12.5px] font-semibold text-white shadow-lg shadow-accent/30
                      transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-accent/50
                      disabled:cursor-not-allowed disabled:opacity-40 disabled:shadow-none
                      disabled:hover:translate-y-0 disabled:hover:shadow-none"></button>
@@ -89,7 +77,7 @@ tailwind.config={theme:{extend:{
         <span class="font-mono text-[11.5px] text-zinc-400" id="x-progreso-reloj">0:00</span>
       </div>
       <div class="mt-2.5 h-1 w-full overflow-hidden rounded-full bg-raised">
-        <div class="h-full w-0 rounded-full bg-gradient-to-r from-violet-500 to-accentsoft
+        <div class="h-full w-0 rounded-full bg-gradient-to-r from-accent to-accentsoft
                     transition-all duration-700" id="x-progreso-relleno"></div>
       </div>
     </div>
@@ -98,7 +86,7 @@ tailwind.config={theme:{extend:{
   <main class="mx-auto max-w-[1180px] px-4 sm:px-6 pb-24">
 
     <!-- ══ tesis ══ -->
-    <section class="pt-10 sm:pt-14 pb-8">
+    <section class="pt-9 sm:pt-12 pb-6">
       <div class="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-3 py-1 mb-6">
         <span class="h-1.5 w-1.5 rounded-full bg-accentsoft"></span>
         <span class="text-[11.5px] font-medium tracking-wide text-accentsoft" id="x-propuesta"></span>
@@ -109,32 +97,25 @@ tailwind.config={theme:{extend:{
 
       <p class="mt-4 max-w-[62ch] text-[16px] sm:text-[17px] leading-relaxed text-zinc-400" id="x-tesis"></p>
 
-      <!-- reparto del catálogo -->
-      <div class="mt-8">
-        <div class="flex h-9 w-full overflow-hidden rounded-xl border border-white/10 bg-raised" id="x-reparto"></div>
-        <div class="mt-3 flex flex-wrap gap-x-6 gap-y-2" id="x-reparto-leyenda"></div>
-      </div>
-
-      <p class="mt-6 text-[13px] text-zinc-500 max-w-[62ch]" id="x-sub"></p>
+      <p class="mt-5 text-[13px] text-zinc-500 max-w-[62ch]" id="x-sub"></p>
     </section>
 
-    <!-- ══ cifras ══ -->
+    <!-- ══ cifras: el numero y, al lado, su peso en el censo ══ -->
     <section class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4" id="x-cifras"></section>
 
     <!-- ══ pestañas ══ -->
     <div class="mt-10 flex flex-col lg:flex-row lg:items-center gap-3">
-      <div class="flex flex-wrap gap-1 rounded-2xl border border-line/60 bg-surface p-1 shadow-sm" id="x-tabs" role="tablist"></div>
+      <div class="flex flex-wrap gap-2" id="x-tabs" role="tablist"></div>
       <div class="flex-1 flex items-center gap-3">
-        <div class="brillo flex-1 min-w-0 rounded-2xl">
-          <div class="rounded-[15px] bg-surface">
-            <svg class="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-zinc-500"
-                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-              <circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.2-3.2"></path>
-            </svg>
-            <input id="x-q" type="search" autocomplete="off"
-                   class="w-full rounded-[15px] bg-transparent pl-10 pr-4 py-2.5 text-[14px] text-zinc-100
-                          placeholder:text-zinc-500 focus:outline-none">
-          </div>
+        <div class="relative flex-1 min-w-0 rounded-2xl border-2 border-accent bg-surface
+                    transition-colors duration-200 focus-within:border-accentsoft">
+          <svg class="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-accent"
+               viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.2-3.2"></path>
+          </svg>
+          <input id="x-q" type="search" autocomplete="off"
+                 class="w-full rounded-2xl bg-transparent pl-10 pr-4 py-2.5 text-[14px] font-bold text-accent
+                        placeholder:text-accent/70 placeholder:font-semibold focus:outline-none">
         </div>
         <span class="font-mono text-[12px] text-zinc-500 whitespace-nowrap" id="x-cuenta"></span>
       </div>
@@ -142,27 +123,22 @@ tailwind.config={theme:{extend:{
 
     <!-- ══ firma: el riel de la línea (solo pestaña Carry) ══ -->
     <section id="x-linea" hidden class="mt-6">
-      <div class="rounded-2xl border border-line/60 bg-surface p-6 sm:p-8 shadow-sm">
+      <div class="rounded-2xl bg-surface p-5 sm:p-6 shadow-xl shadow-black/40">
         <div class="flex items-baseline justify-between gap-4 flex-wrap">
           <h2 class="font-display font-semibold tracking-tight text-[19px] text-zinc-100" id="x-linea-tit"></h2>
           <span class="font-mono text-[11.5px] text-zinc-500" id="x-linea-sello"></span>
         </div>
         <p class="mt-1.5 text-[13.5px] text-zinc-400 max-w-[62ch]" id="x-linea-sub"></p>
-        <div id="x-parada" hidden class="mt-5 flex items-start gap-3 rounded-xl border border-q1/30 bg-q1/5 px-4 py-3">
-          <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-q1"></span>
-          <p class="text-[13.5px] text-zinc-300" id="x-parada-txt"></p>
-        </div>
-        <div class="mt-6 flex h-8 w-full overflow-hidden rounded-xl border border-white/10 bg-raised" id="x-linea-barra"></div>
+        <div class="mt-5 flex items-end gap-1.5 sm:gap-2.5" id="x-linea-barra"></div>
         <div class="mt-3 flex flex-wrap gap-x-5 gap-y-2" id="x-linea-leyenda"></div>
-        <ol class="mt-6 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-2" id="x-rail"></ol>
       </div>
     </section>
 
     <!-- ══ reparto de notas (solo pestaña calificadas) ══ -->
     <section id="x-calidad" hidden class="mt-6">
-      <div class="rounded-2xl border border-line/60 bg-surface p-6 sm:p-8 shadow-sm">
+      <div class="rounded-2xl bg-surface p-5 sm:p-6 shadow-xl shadow-black/40">
         <h2 class="font-display font-semibold tracking-tight text-[19px] text-zinc-100" id="x-cal-tit"></h2>
-        <div class="mt-5 flex h-8 w-full overflow-hidden rounded-xl border border-white/10 bg-raised" id="x-cal-barra"></div>
+        <div class="mt-4 flex items-end gap-2 sm:gap-3" id="x-cal-barra"></div>
         <div class="mt-3 flex flex-wrap gap-x-5 gap-y-2" id="x-cal-leyenda"></div>
       </div>
     </section>
@@ -170,7 +146,7 @@ tailwind.config={theme:{extend:{
     <!-- ══ lista ══ -->
     <div id="x-rejilla" class="mt-6 grid md:grid-cols-[210px_minmax(0,1fr)] gap-5 lg:gap-6">
       <div id="x-indice-caja" class="hidden md:block">
-        <nav id="x-indice" class="sticky top-24 rounded-2xl border border-line/60 bg-surface p-4 shadow-sm">
+        <nav id="x-indice" class="sticky top-24 rounded-2xl bg-surface p-4 shadow-xl shadow-black/40">
           <h2 class="font-mono text-[10.5px] uppercase tracking-[0.12em] text-zinc-500 px-1" id="x-indice-tit"></h2>
           <ol class="mt-3 max-h-[62vh] overflow-y-auto scroll-thin pr-1" id="x-idx"></ol>
         </nav>
@@ -201,11 +177,11 @@ tailwind.config={theme:{extend:{
   var T={
     es:{loc:'es-ES',
       eyebrow:'Covers de CrossClear',
-      propuesta:'Barrido del {fecha}',
+      propuesta:'Propuesta de diseño · datos reales del {fecha}',
       h1:'Covers en español',
       tesis:'Quedan {pend} covers por escuchar. {cal} ya tienen nota.',
       rCon:'Con full song', rNo:'Sin audio utilizable', rCal:'Ya calificadas',
-      sub:'La página se actualiza sola cada hora, de 9:00 a 18:00 (hora de Madrid). Cada canción abre su ficha en el admin, que es donde se ponen las estrellas.',
+      sub:'Esta es una maqueta para decidir el aspecto del panel. El panel real se actualiza solo cada hora, de 9:00 a 18:00 (hora de Madrid), y desde él se abre cada canción en el admin para ponerle las estrellas.',
       kSin:'Sin calificar', kSinPie:'covers esperando nota',
       kCon:'Con voz', kConPie:'suenan al darle al play',
       kNo:'Sin audio', kNoPie:'karaoke o 0:00',
@@ -234,8 +210,8 @@ tailwind.config={theme:{extend:{
       agotado:'se han gastado las {t} actualizaciones de hoy · vuelve mañana',
       noDisp:'el botón no está disponible ahora mismo',
       noArranca:'no se ha podido lanzar la actualización',
-      previa:'El botón no está disponible ahora mismo.',
-      previaClic:'El botón no responde ahora mismo; vuelve a intentarlo en un rato.',
+      previa:'Vista previa: el botón solo actualiza desde el panel real.',
+      previaClic:'Esto es la maqueta. Abre el panel real para actualizar de verdad.',
       unMin:'un minuto', variosMin:'unos {m} minutos',
       pidiendo:'Pidiendo la actualización…',
       actualizando:'Actualizando los datos…',
@@ -245,11 +221,11 @@ tailwind.config={theme:{extend:{
       de:'de'},
     en:{loc:'en-GB',
       eyebrow:'CrossClear covers',
-      propuesta:'Swept on {fecha}',
+      propuesta:'Design proposal · real data from {fecha}',
       h1:'Spanish covers',
       tesis:'{pend} covers still need listening to. {cal} are rated.',
       rCon:'With full song', rNo:'No usable audio', rCal:'Already rated',
-      sub:'The page refreshes itself every hour, 9:00 to 18:00 Madrid time. Each song opens its card in the admin, which is where the stars are set.',
+      sub:'This is a mockup for deciding how the panel should look. The real panel refreshes itself every hour, 9:00 to 18:00 Madrid time, and each song opens in the admin where the stars are set.',
       kSin:'Unrated', kSinPie:'covers awaiting a rating',
       kCon:'With voice', kConPie:'play when you hit play',
       kNo:'No audio', kNoPie:'karaoke or 0:00',
@@ -278,8 +254,8 @@ tailwind.config={theme:{extend:{
       agotado:'today’s {t} refreshes are used up · come back tomorrow',
       noDisp:'the button is not available right now',
       noArranca:'the refresh could not be started',
-      previa:'The button is not available right now.',
-      previaClic:'The button is not responding right now; try again in a little while.',
+      previa:'Preview: the button only refreshes from the real panel.',
+      previaClic:'This is the mockup. Open the real panel to refresh for real.',
       unMin:'a minute', variosMin:'about {m} minutes',
       pidiendo:'Requesting the refresh…',
       actualizando:'Refreshing the data…',
@@ -289,8 +265,8 @@ tailwind.config={theme:{extend:{
       de:'of'}
   };
 
+  /* La pagina abre en ingles: la mira mas gente de fuera que de casa. */
   var L='en', nf=new Intl.NumberFormat('en-GB');
-  try{ var g=localStorage.getItem('covers-es-idioma'); if(g==='es'||g==='en'){L=g;} }catch(e){}
   function t(k,v){var s=(T[L][k]||k);if(v)for(var a in v)s=s.split('{'+a+'}').join(v[a]);return s;}
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
   function fecha(iso){
@@ -438,7 +414,7 @@ tailwind.config={theme:{extend:{
       nf.format(filas.length)+' '+(filas.length===1?t('cancion'):t('canciones'));
 
     if(!grupos.length){
-      lista.innerHTML='<div class="rounded-2xl border border-line/60 bg-surface p-8 text-center text-[14px] text-zinc-500">'+t('nada')+'</div>';
+      lista.innerHTML='<div class="rounded-2xl bg-surface p-8 text-center text-[14px] text-zinc-500">'+t('nada')+'</div>';
       document.getElementById('x-idx').innerHTML='';
       return;
     }
@@ -450,15 +426,21 @@ tailwind.config={theme:{extend:{
       /* Cada sección se viste de su color: el punto, el nombre y el borde de la
          tarjeta. Los grupos por artista no tienen color y se quedan neutros. */
       var c=g.color;
+      /* Interior gris y el color en el borde: marca la seccion sin apagar
+         las canciones que van dentro. El nombre va en la letra de siempre y
+         solo el recuento se queda en la de puntos. */
       var punto=c?'<span class="h-2 w-2 shrink-0 rounded-full" style="background:'+c+'"></span>':'';
-      var cab='<span class="font-display font-semibold tracking-tight text-[15px]'+(c?'':' text-zinc-200')+'"'+
-              (c?' style="color:'+c+'"':'')+'>'+esc(g.nombre)+'</span>'+
-              '<span class="font-mono text-[12.5px] font-medium tabular-nums rounded-md px-1.5 py-px '+
+      var cab='<span class="font-display font-semibold tracking-tight text-[15px] '+
+              (c?'" style="color:'+c+'"':'text-zinc-200"')+'>'+
+              esc(g.nombre)+'</span>'+
+              '<span class="font-dot text-[15px] font-extrabold rounded-md px-1.5 py-px '+
               (c?'':'bg-raised text-zinc-400')+'"'+
-              (c?' style="background:'+c+'1f;color:'+c+'"':'')+'>'+nf.format(g.filas.length)+'</span>';
-      var caja='class="scroll-mt-24 mb-4 rounded-2xl border bg-surface p-4 sm:p-5 shadow-sm '+
-               'transition-all duration-200 '+(c?'':'border-line/60 hover:border-line')+'"'+
-               (c?' style="border-color:'+c+'59"':'')+'>';
+              (c?' style="background:'+c+'26;color:'+c+'"':'')+'>'+
+              nf.format(g.filas.length)+'</span>';
+      var caja='class="scroll-mt-24 mb-4 rounded-2xl border-[1.2px] bg-surface p-4 sm:p-5 '+
+               'shadow-xl shadow-black/40 transition-colors duration-200 '+
+               (c?'"':'border-line hover:border-zinc-600"')+
+               (c?' style="border-color:'+c+'"':'')+'>';
       if(!plegable)
         return '<section id="g'+i+'" data-clave="'+esc(g.clave)+'" '+caja+
           '<h3 class="mb-2 flex items-center gap-2.5 px-1">'+punto+cab+'</h3>'+
@@ -475,7 +457,7 @@ tailwind.config={theme:{extend:{
         'stroke-width="2.5" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>'+punto+cab+'</summary>'+
         '<div class="mt-2">'+g.filas.map(fila).join('')+'</div></details>';
     }).join('')+(grupos.length>tope
-      ? '<button id="x-mas" class="w-full rounded-2xl border border-line/60 bg-surface px-4 py-3.5 text-[13.5px] '+
+      ? '<button id="x-mas" class="w-full rounded-2xl bg-surface px-4 py-3.5 text-[13.5px] '+
         'font-medium text-zinc-400 transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/50 '+
         'hover:text-white hover:shadow-lg hover:shadow-accent/10">'+t('mas',{n:nf.format(grupos.length-tope)})+'</button>'
       : '');
@@ -494,57 +476,67 @@ tailwind.config={theme:{extend:{
 
   /* ── cabecera, cifras, riel ── */
   function cifras(){
-    var c=[['kSin','kSinPie',M.total,'text-zinc-50','rgba(255,255,255,.10)'],
-           ['kCon','kConPie',M.con,'text-q5','rgba(34,197,94,.14)'],
-           ['kNo','kNoPie',M.sin,'text-zinc-50','rgba(255,255,255,.10)'],
-           ['kCal','kCalPie',M.calificadas,'text-accentsoft','rgba(124,58,237,.18)']];
+    /* Cada tarjeta lleva su color como una luz que sube desde el borde de
+       abajo: mismo gesto en las cuatro, solo cambia el tono y la fuerza. */
+    var censo=M.censo||((M.con||0)+(M.sin||0)+(M.calificadas||0))||1;
+    var c=[['kSin','kSinPie',M.total,'text-zinc-50','161,161,170',.20],
+           ['kCon','kConPie',M.con,'text-q5','34,197,94',.42],
+           ['kNo','kNoPie',M.sin,'text-zinc-50','161,161,170',.20],
+           ['kCal','kCalPie',M.calificadas,'text-accentsoft','139,92,246',.46]];
     document.getElementById('x-cifras').innerHTML=c.map(function(x){
-      return '<div class="relative overflow-hidden rounded-2xl border border-white/10 '+
-        'bg-gradient-to-b from-white/[0.09] via-white/[0.035] to-white/[0.015] p-5 sm:p-6 '+
-        'shadow-lg shadow-black/40 backdrop-blur-xl">'+
-        '<span class="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/45 to-transparent"></span>'+
-        '<span class="pointer-events-none absolute -right-8 -top-14 h-28 w-28 rounded-full blur-2xl opacity-80" '+
-        'style="background:'+x[4]+'"></span>'+
-        '<span class="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/[0.06]"></span>'+
-        '<div class="relative font-display font-semibold tracking-tight text-[30px] leading-none '+x[3]+'" '+
-        'style="font-variant-numeric:tabular-nums">'+nf.format(x[2])+'</div>'+
-        '<div class="relative mt-2.5 text-[13px] font-medium text-zinc-200">'+t(x[0])+'</div>'+
+      return '<div class="relative overflow-hidden rounded-2xl bg-raised p-4 sm:p-5 '+
+        'shadow-lg shadow-black/40">'+
+        '<span class="pointer-events-none absolute inset-0" style="background:'+
+        'radial-gradient(118% 82% at 50% 116%, rgba('+x[4]+','+x[5]+') 0%, rgba('+
+        x[4]+','+(x[5]*.45).toFixed(3)+') 40%, rgba('+x[4]+',0) 76%)"></span>'+
+        /* El porcentaje se sienta al lado de la cifra: es el mismo dato que
+           antes ocupaba una grafica entera arriba. */
+        '<div class="relative flex items-baseline justify-between gap-2">'+
+        '<span class="font-dot font-extrabold text-[36px] leading-none '+x[3]+'">'+
+        nf.format(x[2])+'</span>'+
+        '<span class="font-dot text-[14px] font-extrabold leading-none rounded-lg px-2 py-1 '+
+        'bg-white/[0.06] '+x[3]+'">'+nf.format(pct1(x[2],censo))+'%</span></div>'+
+        '<div class="relative mt-2 text-[13px] font-medium text-zinc-200">'+t(x[0])+'</div>'+
         '<div class="relative mt-0.5 text-[12px] text-zinc-400">'+t(x[1])+'</div></div>';
     }).join('');
   }
 
-  /* Una sola receta para las tres barras apiladas: el mismo brillo, el mismo
-     sitio para el porcentaje y la misma leyenda debajo. */
+  /* Una sola receta para los tres repartos: una columna por dato, con su
+     porcentaje encima y el nombre y el recuento debajo. La altura se mide
+     contra el dato mayor, no contra el total, que si no los pequenos
+     desaparecerian. */
   function pct1(v,tot){return Math.round(v/(tot||1)*1000)/10;}
-  var OSCURO={'#EAB308':1,'#84CC16':1,'#22C55E':1,'#A1A1AA':1,'#F97316':1};
-  function barraApilada(dst,leyenda,seg,tot,minTxt){
-    minTxt=minTxt||6;
-    document.getElementById(dst).innerHTML=seg.filter(function(s){return s.n>0;}).map(function(s){
-      var p=s.n/tot*100;
-      return '<div class="relative grid place-items-center overflow-hidden transition-all duration-700" '+
-        'style="width:'+p+'%;background:'+s.color+'" title="'+esc(s.label)+': '+nf.format(s.n)+'">'+
-        '<span class="pointer-events-none absolute inset-x-0 top-0 h-1/2 bg-gradient-to-b from-white/25 to-transparent"></span>'+
-        (p>=minTxt?'<span class="relative font-mono text-[11.5px] font-medium" style="color:'+
-          (OSCURO[s.color]?'#0A0A0B':'#FFFFFF')+'">'+nf.format(pct1(s.n,tot))+'%</span>':'')+
-        '</div>';
+  function barraApilada(dst,leyenda,seg,tot){
+    var vivos=seg.filter(function(s){return s.n>0;});
+    var alto=Math.max.apply(null,vivos.map(function(s){return s.n;}).concat([1]));
+    document.getElementById(dst).innerHTML=vivos.map(function(s){
+      /* Un suelo del 9%: en un reparto donde un paso se lleva casi todo,
+         los demas seguirian siendo columnas y no rayas. */
+      var h=Math.max(9,Math.round(s.n/alto*86));
+      var p=pct1(s.n,tot), txt=(p===0?'<0,1':nf.format(p))+'%';
+      /* Con clave la columna es un boton que baja a su bloque de la lista;
+         sin clave (el reparto de notas) es solo un dato. */
+      var tag=s.clave?'button':'div';
+      return '<'+tag+(s.clave?' type="button" data-paso="'+esc(s.clave)+'"':'')+
+        ' class="group flex min-w-0 flex-1 flex-col items-center'+
+        (s.clave?' cursor-pointer transition-transform duration-200 hover:-translate-y-1':'')+
+        '" title="'+esc(s.label)+': '+nf.format(s.n)+'">'+
+        '<div class="flex h-[132px] w-full flex-col justify-end">'+
+          '<div class="mb-1.5 text-center font-dot text-[12px] font-extrabold" style="color:'+
+          s.color+'">'+txt+'</div>'+
+          '<div class="mx-auto w-full max-w-[112px] shrink-0 rounded-xl transition-all duration-700'+
+          (s.clave?' group-hover:brightness-125':'')+'" '+
+          'style="height:'+h+'%;background:'+s.color+'"></div>'+
+        '</div>'+
+        '<div class="mt-2.5 font-dot text-[22px] font-extrabold leading-none text-zinc-100">'+
+        nf.format(s.n)+'</div>'+
+        '<div class="mt-1.5 w-full truncate text-center text-[11.5px] leading-tight text-zinc-400">'+
+        esc(s.label)+'</div>'+
+        '</'+tag+'>';
     }).join('');
-    document.getElementById(leyenda).innerHTML=seg.map(function(s){
-      var apagado=!s.n;
-      return '<span class="inline-flex items-center gap-2 text-[12.5px] '+(apagado?'text-zinc-600':'text-zinc-400')+'">'+
-        '<span class="h-2.5 w-2.5 rounded-[4px]" style="background:'+s.color+';opacity:'+(apagado?.35:1)+'"></span>'+
-        esc(s.label)+
-        '<span class="font-mono text-[11.5px] '+(apagado?'text-zinc-700':'text-zinc-500')+'">'+
-        nf.format(s.n)+' · '+nf.format(pct1(s.n,tot))+'%</span></span>';
-    }).join('');
-  }
-
-  function reparto(){
-    var tot=M.censo||((M.con||0)+(M.sin||0)+(M.calificadas||0))||1;
-    barraApilada('x-reparto','x-reparto-leyenda',[
-      {label:t('rCon'),n:M.con||0,color:'#22C55E'},
-      {label:t('rNo'), n:M.sin||0,color:'#71717A'},
-      {label:t('rCal'),n:M.calificadas||0,color:'#7C3AED'}
-    ],tot);
+    /* Con el nombre debajo de cada columna la leyenda ya sobra. */
+    var lg=document.getElementById(leyenda);
+    if(lg){lg.innerHTML=''; lg.hidden=true;}
   }
 
   function riel(){
@@ -553,34 +545,12 @@ tailwind.config={theme:{extend:{
     document.getElementById('x-linea-sub').textContent=t('lineaSub',{n:nf.format(LIN.total||0)});
     document.getElementById('x-linea-sello').textContent=LIN.generado?t('lineaSello',{fecha:fecha(LIN.generado)}):'';
 
-    var par=cu.parada||0, box=document.getElementById('x-parada');
-    box.hidden=!par;
-    if(par) document.getElementById('x-parada-txt').textContent=
-      (par===1?t('paradaTxt',{n:par}):t('paradasTxt',{n:nf.format(par)}));
-
     var orden=['parada'].concat(PASOS), totL=0;
     orden.forEach(function(e){totL+=(cu[e]||0);});
     barraApilada('x-linea-barra','x-linea-leyenda',orden.map(function(e){
-      return {label:t('e_'+e),n:cu[e]||0,color:colorPaso(e)};
+      return {label:t('e_'+e),n:cu[e]||0,color:colorPaso(e),clave:e};
     }),totL||1,5);
 
-    var max=Math.max.apply(null,PASOS.map(function(e){return cu[e]||0;}))||1;
-    document.getElementById('x-rail').innerHTML=PASOS.map(function(e,i){
-      var n=cu[e]||0, w=Math.max(3,Math.round((n/max)*100));
-      return '<li><button type="button" data-paso="'+e+'"'+(n?'':' disabled')+
-        ' class="w-full text-left rounded-xl border border-line/60 bg-surface p-4 transition-all duration-200 '+
-        (n?'cursor-pointer hover:-translate-y-0.5 hover:border-accent/50 hover:bg-raised hover:shadow-lg hover:shadow-accent/10'
-          :'cursor-default opacity-60')+'">'+
-        '<div class="flex items-center gap-2">'+
-        '<span class="h-1.5 w-1.5 rounded-full" style="background:'+colorPaso(e)+';opacity:'+(n?1:.3)+'"></span>'+
-        '<span class="font-mono text-[10px] text-zinc-600">'+(i+1)+'</span></div>'+
-        '<div class="mt-2 font-display font-semibold tracking-tight text-[22px] leading-none '+
-        (n?'text-zinc-100':'text-zinc-700')+'" style="font-variant-numeric:tabular-nums">'+nf.format(n)+'</div>'+
-        '<div class="mt-1.5 text-[12px] '+(n?'text-zinc-400':'text-zinc-600')+'">'+t('e_'+e)+'</div>'+
-        '<div class="mt-2.5 h-0.5 w-full rounded-full bg-line/60 overflow-hidden">'+
-        '<div class="h-full rounded-full transition-all duration-700" style="width:'+(n?w:0)+'%;background:'+colorPaso(e)+'"></div>'+
-        '</div></button></li>';
-    }).join('');
   }
 
   function calidad(){
@@ -597,8 +567,10 @@ tailwind.config={theme:{extend:{
       var on=d[0]===vista;
       return '<button role="tab" data-g="'+d[0]+'" aria-selected="'+on+'" '+
         'class="flex items-center gap-2 rounded-xl px-3.5 py-2 text-[13px] font-medium transition-all duration-200 '+
-        (on?'bg-accent text-white shadow-md shadow-accent/20':'text-zinc-400 hover:bg-raised hover:text-zinc-100')+'">'+
-        t(d[1])+'<span class="font-mono text-[11px] '+(on?'text-white/70':'text-zinc-600')+'">'+nf.format(d[2])+'</span></button>';
+        'shadow-lg shadow-black/30 '+
+        (on?'bg-accent text-white shadow-accent/25'
+           :'bg-surface text-zinc-400 hover:-translate-y-0.5 hover:text-zinc-100')+'">'+
+        t(d[1])+'<span class="font-dot text-[13px] font-bold '+(on?'text-white/70':'text-zinc-500')+'">'+nf.format(d[2])+'</span></button>';
     }).join('');
   }
 
@@ -624,14 +596,16 @@ tailwind.config={theme:{extend:{
   }
 
   function todo(){
-    cabecera(); cifras(); reparto(); tabs(); riel(); calidad();
+    cabecera(); cifras(); tabs(); riel(); calidad();
     var lin=(vista==='linea');
     document.getElementById('x-linea').hidden=!lin;
     document.getElementById('x-calidad').hidden=(vista!=='cal');
-    /* En Carry el índice sobra: la tira de pasos ya lleva a cada bloque. */
-    document.getElementById('x-indice-caja').className=lin?'hidden':'hidden md:block';
+    /* El indice sobra donde ya hay otra forma de llegar: en Carry lo hacen
+       las columnas y en calificadas solo hay dos bloques. */
+    var sinIndice=lin||vista==='cal';
+    document.getElementById('x-indice-caja').className=sinIndice?'hidden':'hidden md:block';
     document.getElementById('x-rejilla').className='mt-6 grid gap-5 lg:gap-6'+
-      (lin?'':' md:grid-cols-[210px_minmax(0,1fr)]');
+      (sinIndice?'':' md:grid-cols-[210px_minmax(0,1fr)]');
     pinta();
   }
 
@@ -644,9 +618,7 @@ tailwind.config={theme:{extend:{
   });
   document.getElementById('x-langs').addEventListener('click',function(e){
     var b=e.target.closest('button[data-l]'); if(!b) return;
-    L=b.dataset.l;
-    try{ localStorage.setItem('covers-es-idioma',L); }catch(err){}
-    todo();
+    L=b.dataset.l; todo();
   });
   /* Lo que el usuario pliega o despliega se recuerda mientras dure la visita. */
   document.getElementById('x-lista').addEventListener('toggle',function(e){
@@ -660,9 +632,9 @@ tailwind.config={theme:{extend:{
     var b=e.target.closest('button[data-i]'); if(!b) return;
     lleva(document.getElementById('g'+b.dataset.i));
   });
-  /* La tira de pasos lleva a su bloque de la lista, igual que el índice. */
-  document.getElementById('x-rail').addEventListener('click',function(e){
-    var b=e.target.closest('button[data-paso]'); if(!b||b.disabled) return;
+  /* Cada columna lleva a su bloque de la lista, igual que el índice. */
+  document.getElementById('x-linea-barra').addEventListener('click',function(e){
+    var b=e.target.closest('button[data-paso]'); if(!b) return;
     lleva(document.querySelector('#x-lista [data-clave="'+b.dataset.paso+'"]'));
   });
   function lleva(s){
