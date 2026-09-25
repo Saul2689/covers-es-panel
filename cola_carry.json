@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T09:47:54Z",
+  "generado": "2026-09-25T09:59:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -912,10 +912,10 @@
       "originalTrackId": "6aa7b897f0f8e5713e69981c",
       "titulo": "Candela",
       "artista": "Buena Vista Social Club",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-25T09:40:25Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "devuelto ronda 1: anclas fuera de rango sin borrar (linea 9 y 18), palabra sin justificar linea 38, duplicado sin justificar linea 50, sentido incorrecto linea 72",
+      "actualizado": "2026-09-25T09:57:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -942,7 +942,17 @@
             "v": "ok",
             "nota": "reabierto por lineas/anclas tocadas; 6 lineas retraducidas + WITs de las anclas cambiadas; ademas rellenados 54 WIT sin texto preexistentes y 6 BAD DT (gemelas) en todo el track; wit_dt_audit BAD 0, 0 WIT sin texto, tu/tu que/que mi/mi si/si revisados a mano; draft enviado a pending_review",
             "t": "2026-09-25T09:40:20Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "2 anclas fuera de rango sin borrar + 1 palabra sin justificar vs original + 1 duplicado sin justificar + 1 sentido incorrecto",
+            "t": "2026-09-25T09:57:46Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "2 anclas fuera de rango sin borrar + 1 palabra sin justificar vs original + 1 duplicado sin justificar + 1 sentido incorrecto",
+          "t": "2026-09-25T09:57:46Z"
         }
       }
     },
@@ -972,10 +982,10 @@
       "originalTrackId": "6aa7d3ae387e9481dd7dba4b",
       "titulo": "La Tienda",
       "artista": "Vicente Fernández",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 2,
-      "motivo": "revisar linea 11 y 24: confirmar con audio changarro/debe o revertir al original",
-      "actualizado": "2026-09-25T09:28:38Z",
+      "motivo": "correccion linea 11/24 aplicada, lista para QC",
+      "actualizado": "2026-09-25T09:51:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -985,34 +995,34 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "resarle->rezarle (errata compartida con original); tilde este->este en refrain x2; changarro/debe se dejan (consistentes en las 2 repeticiones, original tiene su propia errata)",
-            "t": "2026-09-25T09:11:56Z"
+            "nota": "linea 11/24: revertido a texto original (3 fuentes externas), palabra de mas quitada; backup fresco + lrc_plan_fix con delete+edit",
+            "t": "2026-09-25T09:51:35Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "hueco linea14 20s = instrumental, coincide con linea vacia del original en ese punto; drift 0 en todas las lineas",
-            "t": "2026-09-25T09:20:00Z"
+            "nota": "track_timing_report: drift 0 en las 26 lineas tras el delete",
+            "t": "2026-09-25T09:51:36Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "17 anclas nuevas (items ya creados de una ronda anterior + rezarle y privacia nuevos, traducidos 19 idiomas); 8 gemelas unificadas al sentido correcto; 0 sin mapear",
-            "t": "2026-09-25T09:20:00Z"
+            "nota": "anclas 2-8 de linea 11/24 remapeadas (delete+recreate) via anchor plan; ancla sobrante (idx9) eliminada x2 (unica excepcion sancionada); item nuevo creado+traducido 19 idiomas para la palabra correcta; items ya creados de la ronda anterior quedan sin uso en este track (no borrados)",
+            "t": "2026-09-25T09:51:36Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "draft reabierto: WIT en todas las anclas (0 sin texto), tu/tu corregido a you x2, wit_dt_audit BAD 0, sometido a pending_review",
-            "t": "2026-09-25T09:20:01Z"
+            "nota": "linea 11/24: linea + 7 WIT por linea rehechos (estaban en DT ajeno tras el shift); wit_dt_audit BAD 0; 0 WIT vacios de 185; reenviado a pending_review",
+            "t": "2026-09-25T09:51:36Z"
           },
           "qc": {
             "v": "falta",
-            "nota": "changarro/debe en 11 y 24 sin confirmar contra audio; contradicho por 3 fuentes externas",
-            "t": "2026-09-25T09:28:37Z"
+            "nota": "correccion aplicada, pendiente de nueva revision adversarial",
+            "t": "2026-09-25T09:51:36Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "changarro/debe en 11 y 24 sin confirmar contra audio; contradicho por 3 fuentes externas",
-          "t": "2026-09-25T09:28:37Z"
+          "v": "falta",
+          "resumen": "correccion aplicada, pendiente de nueva revision adversarial",
+          "t": "2026-09-25T09:51:36Z"
         }
       }
     },
@@ -17642,10 +17652,10 @@
       "originalTrackId": "6aa7b4d38d615aa3fed2f242",
       "titulo": "Adios Madre Querida",
       "artista": "Antonio Aguilar",
-      "estado": "correccion",
-      "vueltas": 0,
-      "motivo": "Lote 5: mapeo 100%, ingles 31/31; tildes ausentes en lineas 26 y 29: corrigiendo",
-      "actualizado": "2026-09-25T09:43:29Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "lista para que Saúl apruebe el inglés y publique",
+      "actualizado": "2026-09-25T09:59:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17667,7 +17677,22 @@
             "v": "ok",
             "nota": "track_timing_report drift 0ms en 31/31 lineas; /audio 206 (vocx.wav, 33.6MB); no se mide (ya suena), cover locked -> no tocar audio/pin",
             "t": "2026-09-25T09:43:29Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "líneas 2/5/7: 'pregunto' decía 'she asked' → 'I ask'; fila ajena fusionada en el diccionario; BAD 0, 0 vacías; enviado a revisión",
+            "t": "2026-09-25T09:59:48Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "único defecto del QC (pregunto en líneas 2/5/7) corregido; resto verificado limpio",
+            "t": "2026-09-25T09:59:49Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "único defecto del QC (pregunto en líneas 2/5/7) corregido; resto verificado limpio",
+          "t": "2026-09-25T09:59:49Z"
         }
       }
     },
@@ -19766,13 +19791,18 @@
       "estado": "correccion",
       "vueltas": 0,
       "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 77%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-25T09:42:29Z",
+      "actualizado": "2026-09-25T09:50:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "cobertura ya OK, carry no se re-proyecta (locked, prio Saul)",
             "t": "2026-09-25T09:42:29Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "asi->tilde, sed->ser errata, 2 mayuscula_media (L7,L14,L23,L27); outro ad-libs L21-30 dejados (arreglo distinto de vamp, no error)",
+            "t": "2026-09-25T09:50:50Z"
           }
         }
       }
