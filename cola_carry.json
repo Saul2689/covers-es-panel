@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T10:11:07Z",
+  "generado": "2026-09-25T10:20:09Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -11,7 +11,7 @@
       "estado": "parada",
       "vueltas": 1,
       "motivo": "espera a Saul: el audio servido da 404",
-      "actualizado": "2026-09-25T08:04:46Z",
+      "actualizado": "2026-09-25T10:19:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50,7 +50,8 @@
           "resumen": "estructura, sentidos e ingles limpios; hallazgos restantes justificados (ad-libs, nombres propios, frances/scat en lineas excluidas)",
           "t": "2026-09-25T08:04:29Z"
         }
-      }
+      },
+      "motivo_en": "waiting on Saul: the audio served returns 404"
     },
     {
       "coverTrackId": "6aa1113e64c9b8ff110d0d55",
@@ -800,7 +801,7 @@
       "estado": "parada",
       "vueltas": 1,
       "motivo": "espera a Saul: el audio servido da 404 (sin render elegido)",
-      "actualizado": "2026-09-24T16:02:27Z",
+      "actualizado": "2026-09-25T10:19:46Z",
       "auditoria": {
         "prioridad": 15,
         "pasos": {
@@ -840,7 +841,8 @@
           "resumen": "QC adversarial independiente: estructura, timing, anclas y ingles verificados contra prod; unico punto abierto es el audio 404 (playbackKind sin elegir)",
           "t": "2026-09-24T16:02:16Z"
         }
-      }
+      },
+      "motivo_en": "waiting on Saul: the audio served returns 404 (no render picked yet)"
     },
     {
       "coverTrackId": "6aa110f964c9b8ff110c1673",
@@ -851,7 +853,7 @@
       "estado": "parada",
       "vueltas": 4,
       "motivo": "espera a Saúl: audio 404 y las versiones completas no cuadran en duración",
-      "actualizado": "2026-09-25T08:06:25Z",
+      "actualizado": "2026-09-25T10:19:46Z",
       "auditoria": {
         "prioridad": 1,
         "pasos": {
@@ -891,7 +893,8 @@
           "resumen": "letra, mapeo e inglés OK (vuelta 3); lo único abierto es el audio",
           "t": "2026-09-25T08:06:24Z"
         }
-      }
+      },
+      "motivo_en": "waiting on Saul: audio 404, and the full versions do not match in length"
     },
     {
       "coverTrackId": "6aa044fc1db6d36fd0a02b77",
@@ -2512,7 +2515,7 @@
       "estado": "parada",
       "vueltas": 2,
       "motivo": "espera a Saul: desfase de audio +4,8 s por oir",
-      "actualizado": "2026-09-25T08:57:04Z",
+      "actualizado": "2026-09-25T10:19:46Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -2551,7 +2554,8 @@
           "resumen": "wit_dt_audit BAD 0 confirmado (13 lineas incl 21/66), linea 81 se con tilde verificada en LRC vivo",
           "t": "2026-09-25T08:57:04Z"
         }
-      }
+      },
+      "motivo_en": "waiting on Saul: audio offset +4.8 s, still to be checked by ear"
     },
     {
       "coverTrackId": "6aa58a8742b8d1fdb0cfac91",
@@ -19646,7 +19650,7 @@
       "estado": "parada",
       "vueltas": 1,
       "motivo": "espera a Saul: cadencia palabra a palabra de oido + render de referencia",
-      "actualizado": "2026-09-24T16:07:56Z",
+      "actualizado": "2026-09-25T10:19:46Z",
       "auditoria": {
         "prioridad": 14,
         "pasos": {
@@ -19686,7 +19690,8 @@
           "resumen": "L23 recorregido (entre=preposicion, gemela de L2); tilde restante justificada; resto sin cambios",
           "t": "2026-09-24T16:07:46Z"
         }
-      }
+      },
+      "motivo_en": "waiting on Saul: word-by-word cadence by ear + a reference render"
     },
     {
       "coverTrackId": "6aa724df72ca57eb1aadb6e9",
@@ -23210,7 +23215,7 @@
       "estado": "parada",
       "vueltas": 3,
       "motivo": "espera a Saul: el audio servido da 404",
-      "actualizado": "2026-09-24T15:44:32Z",
+      "actualizado": "2026-09-25T10:19:47Z",
       "auditoria": {
         "prioridad": 12,
         "pasos": {
@@ -23250,7 +23255,8 @@
           "resumen": "WIT de lineas 24/25 reasentado por la sesion principal, verificado en el draft; resto confirmado OK, cobertura 257/257",
           "t": "2026-09-24T15:44:16Z"
         }
-      }
+      },
+      "motivo_en": "waiting on Saul: the audio served returns 404"
     },
     {
       "coverTrackId": "6aa5be0742b8d1fdb0d3acc6",
@@ -23272,7 +23278,8 @@
       "estado": "parada",
       "vueltas": 0,
       "motivo": "Carry rechazado por el servidor (alineacion 58%, minimo 60%: el cover canta 290 fichas frente a 451 del original). Mapeo 97% e ingles 83/83 hechos. Decidir: recortar LRC del cover (cover-lyric-repair) o dejar sin carry",
-      "actualizado": "2026-09-23T10:53:50Z"
+      "actualizado": "2026-09-25T10:19:47Z",
+      "motivo_en": "carry refused by the server (alignment 58%, minimum 60%: the cover sings 290 tokens against 451 in the original). Mapping 97% and English 83/83 done. To decide: recut the cover LRC (cover-lyric-repair) or leave it without carry"
     },
     {
       "coverTrackId": "6aa1110e64c9b8ff110c5f77",
@@ -23589,7 +23596,8 @@
       "estado": "parada",
       "vueltas": 0,
       "motivo": "Sin original en SingIt y sin letra sincronizada en ninguna fuente (lrclib solo tiene otras canciones homonimas); hace falta un LRC del original de Los Bukis a mano (ISRC USFI29400832)",
-      "actualizado": "2026-09-23T10:34:26Z"
+      "actualizado": "2026-09-25T10:19:47Z",
+      "motivo_en": "no original in SingIt and no synced lyric in any source (lrclib only has other songs with the same name); the Los Bukis original needs an LRC written by hand (ISRC USFI29400832)"
     },
     {
       "coverTrackId": "6aa66be272ca57eb1a9e4615",
@@ -23849,7 +23857,7 @@
       "estado": "parada",
       "vueltas": 3,
       "motivo": "espera a Saúl: línea 21 de oído (outro excluida, el cover la corta)",
-      "actualizado": "2026-09-24T15:46:14Z",
+      "actualizado": "2026-09-25T10:19:48Z",
       "auditoria": {
         "prioridad": 24,
         "pasos": {
@@ -23889,7 +23897,8 @@
           "resumen": "QC r3 limpio salvo el ejemplo de mirarte, ya rehecho; solo queda línea 21 (outro excluida) de oído",
           "t": "2026-09-24T15:46:13Z"
         }
-      }
+      },
+      "motivo_en": "waiting on Saul: line 21 by ear (outro excluded, the cover cuts it)"
     },
     {
       "coverTrackId": "6aa5872842b8d1fdb0cf5357",
@@ -26908,8 +26917,32 @@
       "artista": "Ritchie Valens",
       "estado": "correccion",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 92%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "motivo": "worker retoma: locked, prio Saul 25 sep, mapeo 92% pendiente",
+      "actualizado": "2026-09-25T10:20:07Z",
+      "auditoria": {
+        "pasos": {
+          "lrc": {
+            "v": "ok",
+            "nota": "lineas 31-33: coma+minuscula bamba (edits, sin cambio de anclas)",
+            "t": "2026-09-25T10:17:24Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "gemelas 'para' unificadas x3, remap 'necesita' item correcto x3, anclas nuevas Ba/ba + Bamba/bamba x8 (lineas 14,31-33)",
+            "t": "2026-09-25T10:18:40Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 33/33 lineas; audio 206 (voc.wav), no se mide",
+            "t": "2026-09-25T10:19:41Z"
+          },
+          "carry": {
+            "v": "na",
+            "nota": "carry ya aplicado en pase previo (23 sep), coverOf enlazado, no se re-proyecta",
+            "t": "2026-09-25T10:20:07Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa50b7f42b8d1fdb0c51603",
