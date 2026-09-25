@@ -107,7 +107,7 @@ tailwind.config={theme:{extend:{
     <!-- ══ pestañas ══ -->
     <div class="mt-10 flex flex-col lg:flex-row lg:items-center gap-3">
       <div class="flex flex-wrap gap-2" id="x-tabs" role="tablist"></div>
-      <div class="flex-1 flex items-center gap-3">
+      <div class="flex-1 flex items-center">
         <div class="relative flex-1 min-w-0 rounded-2xl border-2 border-accent bg-surface
                     transition-colors duration-200 focus-within:border-accentsoft">
           <svg class="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-accent"
@@ -118,7 +118,6 @@ tailwind.config={theme:{extend:{
                  class="w-full rounded-2xl bg-transparent pl-10 pr-4 py-2.5 text-[14px] font-bold text-accent
                         placeholder:text-accent/70 placeholder:font-semibold focus:outline-none">
         </div>
-        <span class="font-mono text-[12px] text-zinc-500 whitespace-nowrap" id="x-cuenta"></span>
       </div>
     </div>
 
@@ -151,14 +150,27 @@ tailwind.config={theme:{extend:{
         <p class="mt-1.5 max-w-[72ch] text-[13.5px] leading-relaxed text-zinc-400" id="x-proc-sub"></p>
         <div class="mt-5" id="x-proc-marcador"></div>
       </div>
+      <!-- La leyenda va arriba y plegada: se consulta una vez y luego estorba. -->
+      <details class="mt-4 group rounded-2xl bg-surface shadow-xl shadow-black/40">
+        <summary class="cursor-pointer select-none list-none p-5 sm:p-6 flex items-start gap-3
+                        transition-colors duration-200 hover:bg-raised/40 rounded-2xl">
+          <svg class="mt-0.5 shrink-0 text-zinc-500 transition-transform duration-200 group-open:rotate-90"
+               width="14" height="14" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+            <path d="M4 2l4 4-4 4" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="min-w-0">
+            <span class="block font-display font-semibold tracking-tight text-[17px] text-zinc-100"
+                  id="x-proc-ley-tit"></span>
+            <span class="mt-1.5 block max-w-[72ch] text-[13px] text-zinc-400" id="x-proc-ley-sub"></span>
+          </span>
+        </summary>
+        <div class="px-5 sm:px-6 pb-5 sm:pb-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-2.5"
+             id="x-proc-leyenda"></div>
+      </details>
       <div class="mt-4 rounded-2xl bg-surface p-3 sm:p-4 shadow-xl shadow-black/40 overflow-x-auto scroll-thin"
            id="x-proc-svg"></div>
-      <div class="mt-4 rounded-2xl bg-surface p-5 sm:p-6 shadow-xl shadow-black/40">
-        <h2 class="font-display font-semibold tracking-tight text-[17px] text-zinc-100" id="x-proc-ley-tit"></h2>
-        <p class="mt-1.5 max-w-[72ch] text-[13px] text-zinc-400" id="x-proc-ley-sub"></p>
-        <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-2.5" id="x-proc-leyenda"></div>
-        <p class="mt-5 text-[12.5px] text-zinc-500 max-w-[72ch]" id="x-proc-pie"></p>
-      </div>
+      <p class="mt-4 px-1 text-[12.5px] text-zinc-500 max-w-[72ch]" id="x-proc-pie"></p>
     </section>
 
     <!-- ══ lista ══ -->
@@ -463,9 +475,6 @@ tailwind.config={theme:{extend:{
   /* ── pintar ── */
   function pinta(){
     var filas=filtra(), grupos=agrupa(filas), lista=document.getElementById('x-lista');
-    document.getElementById('x-cuenta').textContent=
-      nf.format(filas.length)+' '+(filas.length===1?t('cancion'):t('canciones'));
-
     if(!grupos.length){
       lista.innerHTML='<div class="rounded-2xl bg-surface p-8 text-center text-[14px] text-zinc-500">'+t('nada')+'</div>';
       document.getElementById('x-idx').innerHTML='';
@@ -909,15 +918,24 @@ tailwind.config={theme:{extend:{
     });
     /* 2. Las salidas cuelgan del nodo que las produce. Si dos salen del mismo
        sitio, la segunda baja: dos cajas en la misma linea no se leen. */
-    var origen={},usados=[];
+    var origen={},ocupado=[],fondo=0;
     FLECHAS.forEach(function(fl){ if(!pos[fl[1]]&&!origen[fl[1]]) origen[fl[1]]=fl[0]; });
     NODOS.forEach(function(nd){
       if(!nd.v) return;
       var p=pos[origen[nd.id]]||{y:60};
-      var txt=nd[L]||nd.es, ln=renglones(txt,30), h=alto(nd.t,ln.length), yy=p.y;
-      while(usados.some(function(u){return Math.abs(u-yy)<h+26;})) yy+=h+30;
-      usados.push(yy);
-      pos[nd.id]={x:GEO.SX,y:yy,w:GEO.SW,h:h,ln:ln,nd:nd};
+      var txt=nd[L]||nd.es, ln=renglones(txt,30), h=alto(nd.t,ln.length);
+      /* La nota de una salida se escribe DEBAJO de su caja, asi que ocupa
+         sitio: si no se cuenta, la siguiente salida se le echa encima. */
+      var nota=L==='en'?(nd.ne||nd.ns):(nd.ns||nd.ne);
+      var nl=nota?renglones(nota,36):[];
+      var bajo=nl.length?16+nl.length*15:0, yy=p.y;
+      var choca=function(a,b){
+        return ocupado.some(function(o){ return a<o[1]+16&&b>o[0]-16; });
+      };
+      while(choca(yy-h/2,yy+h/2+bajo)) yy+=16;
+      ocupado.push([yy-h/2,yy+h/2+bajo]);
+      if(yy+h/2+bajo>fondo) fondo=yy+h/2+bajo;
+      pos[nd.id]={x:GEO.SX,y:yy,w:GEO.SW,h:h,ln:ln,nl:nl,nd:nd};
     });
     /* 3. Las bandas de fase, detrás de todo. */
     FASES.forEach(function(f){
@@ -990,7 +1008,7 @@ tailwind.config={theme:{extend:{
                '" stroke="#2A2A31" stroke-width="1" stroke-dasharray="3 4"/>');
       }
       if(nota&&nd.v){
-        var nr=renglones(nota,36);
+        var nr=p.nl||renglones(nota,36);
         nr.forEach(function(t,i){
           g.push('<text x="'+(p.x-p.w/2)+'" y="'+(p.y+p.h/2+16+i*15)+'" fill="#71717A" '+
                  'font-size="11.5">'+esc(t)+'</text>');
@@ -999,7 +1017,7 @@ tailwind.config={theme:{extend:{
       g.push('</g>');
       partes.push(g.join(''));
     });
-    var alt=y+70;
+    var alt=Math.max(y,fondo+30)+70;
     return '<svg viewBox="0 0 '+GEO.W+' '+alt+'" width="100%" style="min-width:980px" '+
       'role="img" aria-label="'+esc(t('procAria'))+'">'+
       '<defs><marker id="pf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" '+
