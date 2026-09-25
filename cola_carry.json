@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T08:40:07Z",
+  "generado": "2026-09-25T08:43:38Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -168,16 +168,16 @@
       "originalTrackId": "6aa7d7e80752719d51acc2e6",
       "titulo": "Me Jalo",
       "artista": "Fuerza Regida",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "vuelta 2: arreglar WIT tu/your (linea 23,44) y fan-out de manoso",
-      "actualizado": "2026-09-25T08:37:57Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-25T08:43:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "falta",
-            "nota": "worker inicia: carry en curso, sin nota previa, biblioteca 4 estrellas",
-            "t": "2026-09-25T08:11:10Z"
+            "v": "ok",
+            "nota": "confirmado carry_run_list: apply idx4 14 sep, 95% match, Saul; sin re-proyectar (regla)",
+            "t": "2026-09-25T08:43:21Z"
           },
           "lrc": {
             "v": "ok",
@@ -186,8 +186,8 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "4 items nuevos (mañoso, usas, portarte, desvelado) DEV+PROD + 19 langs; 15 anclas; unificadas gemelas se(x3)/yo(x1)",
-            "t": "2026-09-25T08:24:29Z"
+            "nota": "QC r2: fan-out manoso completo (manosa/manosos/manosas) DEV+PROD, 19 idiomas, missing-languages 0",
+            "t": "2026-09-25T08:41:12Z"
           },
           "timing": {
             "v": "ok",
@@ -196,19 +196,19 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "reabierto: linea3 + 10 WIT + fix DT huerfano linea38 (yo); wit_dt_audit BAD 0; submit -> pending_review",
-            "t": "2026-09-25T08:28:47Z"
+            "nota": "QC r2: WIT Tu lineas23/44 -> you; wit_dt_audit BAD 0; resubmit",
+            "t": "2026-09-25T08:41:11Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT tu/your en linea 23 y 44 no traduce su palabra; fan-out incompleto de manoso (adjetivo, solo 1 de 4 formas)",
-            "t": "2026-09-25T08:37:57Z"
+            "v": "ok",
+            "nota": "ronda2: WIT tu/you arreglado, fan-out manosa/manosos/manosas ok con 19 idiomas, wit_dt_audit BAD 0",
+            "t": "2026-09-25T08:42:47Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT tu/your en linea 23 y 44 no traduce su palabra; fan-out incompleto de manoso (adjetivo, solo 1 de 4 formas)",
-          "t": "2026-09-25T08:37:57Z"
+          "v": "VERDE",
+          "resumen": "ronda2: WIT tu/you arreglado, fan-out manosa/manosos/manosas ok con 19 idiomas, wit_dt_audit BAD 0",
+          "t": "2026-09-25T08:42:47Z"
         }
       }
     },
@@ -342,10 +342,10 @@
       "originalTrackId": "6aa7d7ee0752719d51acc3da",
       "titulo": "Marlboro Rojo",
       "artista": "Fuerza Regida",
-      "estado": "correccion",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 87%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "motivo": "worker de biblioteca en marcha",
+      "actualizado": "2026-09-25T08:43:38Z"
     },
     {
       "coverTrackId": "6aa1113464c9b8ff110ce5d7",
@@ -2096,7 +2096,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "lista para QC",
-      "actualizado": "2026-09-25T08:35:24Z",
+      "actualizado": "2026-09-25T08:43:31Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -2115,9 +2115,9 @@
             "t": "2026-09-25T08:35:15Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles de linea ya existe, pending_review enviado 23sep (antes de esta limpieza), 63/110 lineas con traduccion, 210 WIT; no reabierto por prudencia tras los remapeos de esta sesion, revisar cobertura",
-            "t": "2026-09-25T08:35:15Z"
+            "v": "ok",
+            "nota": "draft nuestro (owner compartido); lineas ya 110/110 desde el 23sep; reabierto, WIT anadido a las 33 anclas nuevas de esta ronda (antes null), resometido a pending_review",
+            "t": "2026-09-25T08:43:31Z"
           },
           "carry": {
             "v": "ok",
