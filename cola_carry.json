@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T08:38:17Z",
+  "generado": "2026-09-25T08:40:07Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -1123,7 +1123,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "lista para QC",
-      "actualizado": "2026-09-25T08:31:33Z",
+      "actualizado": "2026-09-25T08:40:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -1133,8 +1133,8 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "6 anclas 'que' interrogativo re-apuntadas, 1 despues/te reparado, 1 ancla de insercion (un) corregida",
-            "t": "2026-09-25T08:31:32Z"
+            "nota": "23 anclas homografo (que/tu/mi/dia/mama/estas) re-apuntadas a fichas con tilde y sentido correcto; 2 gemelas unificadas (con un desliz de indice propio corregido en el proceso)",
+            "t": "2026-09-25T08:40:06Z"
           },
           "timing": {
             "v": "na",
@@ -1143,8 +1143,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "draft reabierto, 2 WIT obsoletos corregidos (un->a, diles->tell them), resubmitido a pending_review",
-            "t": "2026-09-25T08:31:33Z"
+            "nota": "draft reabierto 2 veces mas, WIT obsoletos corregidos, wit_dt_audit BAD 0, resubmitido a pending_review",
+            "t": "2026-09-25T08:40:06Z"
           }
         }
       }
@@ -3079,10 +3079,10 @@
       "originalTrackId": "6ab3aa1c4d09fbf129f43316",
       "titulo": "Yo Te Quiero",
       "artista": "Wisin & Yandel",
-      "estado": "carry",
+      "estado": "traduccion",
       "vueltas": 0,
-      "motivo": "worker de biblioteca en marcha",
-      "actualizado": "2026-09-25T08:34:11Z",
+      "motivo": "carry+LRC+mapeo Bridge1 cerrados; ingles 12/63, falta grueso; ver .singit/es_audit/jobs/6aa847c7d951e1665a83916d.md",
+      "actualizado": "2026-09-25T08:39:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -3094,6 +3094,16 @@
             "v": "ok",
             "nota": "anclas Bridge1 (44-50) y 60/62 realineadas tras fix LRC; 24 llamadas WIT create/delete",
             "t": "2026-09-25T08:34:11Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "draft reabierto; 7 lineas EN escritas (Bridge1 44-50, linea 60); quedan ~51/63 sin traducir, gap preexistente",
+            "t": "2026-09-25T08:39:37Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "karaokeMp3 offset 0ms conf 2.19 lenDelta 0 firstSound 8020ms; stemVoc offset -20ms conf 1.27 lenDelta -52ms firstSound 7990ms; sin clamps",
+            "t": "2026-09-25T08:39:37Z"
           }
         }
       }
