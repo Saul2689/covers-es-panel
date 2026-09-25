@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T10:31:52Z",
+  "generado": "2026-09-25T10:36:22Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -8,10 +8,10 @@
       "originalTrackId": "6963856ae0ba44e297a6881c",
       "titulo": "Mi Gente",
       "artista": "Willy William",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "espera a Saul: el audio servido da 404",
-      "actualizado": "2026-09-25T10:19:45Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC; audio FULL SONG fijado 25 sep",
+      "actualizado": "2026-09-25T10:36:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25,9 +25,9 @@
             "t": "2026-09-24T16:03:14Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "cover_audio_measure OK: karaokeMp3 offset 0ms conf 1.44 firstSound 1330ms, stemVoc offset -100ms conf 1.24 firstSound 1230ms lengthDelta -184ms - pero el render servido (GET .../cross-clear/migration/songs/<id>/audio) sigue dando 404 pese a playability.status=playable; no se puede confirmar que lo que suena a un usuario coincide con lo medido",
-            "t": "2026-09-24T16:08:55Z"
+            "v": "ok",
+            "nota": "25 sep (OK de Saúl): FULL SONG stemVoc fijado; letra desplazada -100 ms en bloque (medido); /audio 206; delta de duración -184 ms",
+            "t": "2026-09-25T10:36:21Z"
           },
           "mapeo": {
             "v": "ok",
@@ -535,10 +535,10 @@
       "originalTrackId": "6a5505ed45ecd800e9ff86e6",
       "titulo": "Clavado En Un Bar",
       "artista": "Maná",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-25T10:27:48Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-25T10:35:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -565,7 +565,17 @@
             "v": "ok",
             "nota": "sesión principal: 5 WIT desalineados de líneas 33/34 corregidos, 2 WIT nuevos, 6 huecos rellenados, líneas 1/33/47 traducidas; BAD 0; enviado a revisión",
             "t": "2026-09-25T10:27:48Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "auditoria adversarial: hallazgos residuales justificados, ingles 47/47 BAD 0",
+            "t": "2026-09-25T10:35:48Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "auditoria adversarial: hallazgos residuales justificados, ingles 47/47 BAD 0",
+          "t": "2026-09-25T10:35:48Z"
         }
       }
     },
@@ -828,10 +838,10 @@
       "originalTrackId": "6a5505e645ecd800e9ff843c",
       "titulo": "Labios Compartidos",
       "artista": "Maná",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "espera a Saul: el audio servido da 404 (sin render elegido)",
-      "actualizado": "2026-09-25T10:19:46Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC; audio FULL SONG fijado 25 sep",
+      "actualizado": "2026-09-25T10:36:20Z",
       "auditoria": {
         "prioridad": 15,
         "pasos": {
@@ -846,9 +856,9 @@
             "t": "2026-09-24T15:54:34Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "audio servido da 404 (playbackKind null, ningun render pineado): karaokeMp3 mirrored offset0 conf2.52 delta0 firstSound8310 vocalPct4.8 verdictUnknown; stemVoc mirrored offset-80 conf2.10 delta-2090 firstSound8230 vocalPct14.4 verdictVocals; decidir cual pinear es de Saul, no se pinea",
-            "t": "2026-09-24T15:54:41Z"
+            "v": "ok",
+            "nota": "25 sep (OK de Saúl): FULL SONG stemVoc fijado; letra desplazada -80 ms en bloque (medido); /audio 206; delta de duración -2090 ms",
+            "t": "2026-09-25T10:36:20Z"
           },
           "mapeo": {
             "v": "ok",
@@ -880,10 +890,10 @@
       "originalTrackId": "6aa7d7dd387e9481dd7e22e0",
       "titulo": "La Bomba",
       "artista": "Azul Azul",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 4,
-      "motivo": "espera a Saúl: audio 404 y las versiones completas no cuadran en duración",
-      "actualizado": "2026-09-25T10:19:46Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC; audio FULL SONG fijado 25 sep",
+      "actualizado": "2026-09-25T10:36:22Z",
       "auditoria": {
         "prioridad": 1,
         "pasos": {
@@ -898,9 +908,9 @@
             "t": "2026-09-24T16:01:43Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "audio servido 404; FULL SONG mixMp3V desfase -13,7 s y dura 21 s menos, stemVoc -5,9 s y 5 s menos: no basta un pin; karaoke prohibido",
-            "t": "2026-09-25T08:06:22Z"
+            "v": "ok",
+            "nota": "25 sep (OK de Saúl): FULL SONG stemVoc fijado; letra desplazada -5920 ms en bloque (medido); /audio 206; delta de duración -4963 ms",
+            "t": "2026-09-25T10:36:21Z"
           },
           "mapeo": {
             "v": "ok",
@@ -23271,10 +23281,10 @@
       "originalTrackId": "6aa7b9908d615aa3fed344c3",
       "titulo": "Cuidado Amor",
       "artista": "Julio Iglesias",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 3,
-      "motivo": "espera a Saul: el audio servido da 404",
-      "actualizado": "2026-09-25T10:19:47Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC; audio FULL SONG fijado 25 sep",
+      "actualizado": "2026-09-25T10:36:20Z",
       "auditoria": {
         "prioridad": 12,
         "pasos": {
@@ -23294,9 +23304,9 @@
             "t": "2026-09-24T15:31:18Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "linea 25 drift -400 corregido; hueco linea 22 y pin de audio para Saul (audio 404)",
-            "t": "2026-09-24T15:31:18Z"
+            "v": "ok",
+            "nota": "25 sep (OK de Saúl): FULL SONG stemVoc fijado; letra desplazada +890 ms en bloque (medido); /audio 206; delta de duración 3632 ms",
+            "t": "2026-09-25T10:36:19Z"
           },
           "ingles": {
             "v": "ok",
@@ -23337,7 +23347,7 @@
       "estado": "parada",
       "vueltas": 0,
       "motivo": "Carry rechazado por el servidor (alineacion 58%, minimo 60%: el cover canta 290 fichas frente a 451 del original). Mapeo 97% e ingles 83/83 hechos. Decidir: recortar LRC del cover (cover-lyric-repair) o dejar sin carry",
-      "actualizado": "2026-09-25T10:31:21Z",
+      "actualizado": "2026-09-25T10:35:16Z",
       "motivo_en": "carry refused by the server (alignment 58%, minimum 60%: the cover sings 290 tokens against 451 in the original). Mapping 97% and English 83/83 done. To decide: recut the cover LRC (cover-lyric-repair) or leave it without carry",
       "auditoria": {
         "pasos": {
@@ -23350,6 +23360,16 @@
             "v": "ok",
             "nota": "18 lineas: tildes como/dia/queria/ofrecia/television, dejo->dejo con tilde, el->al linea 49, magdalena mayuscula linea 68",
             "t": "2026-09-25T10:31:21Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "gemelas unificadas (esta/del/que/pena/yo, 14 anclas); tildes como/dia/dejo/al remapeadas a item con tilde; madruga=elision justificada; Oi/anto/Magdalena = ad-lib/nombre propio sin mapear",
+            "t": "2026-09-25T10:35:15Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 83 lineas (track_timing_report); huecos L51/L64 = instrumental real (coincide con huecos del original); audio servido 206 (vocx.wav), no se mide",
+            "t": "2026-09-25T10:35:16Z"
           }
         }
       }
