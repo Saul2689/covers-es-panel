@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T09:19:29Z",
+  "generado": "2026-09-25T09:34:59Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -962,10 +962,10 @@
       "originalTrackId": "6aa7d3ae387e9481dd7dba4b",
       "titulo": "La Tienda",
       "artista": "Vicente Fernández",
-      "estado": "carry",
-      "vueltas": 0,
-      "motivo": "worker de biblioteca en marcha",
-      "actualizado": "2026-09-25T09:11:56Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "revisar linea 11 y 24: confirmar con audio changarro/debe o revertir al original",
+      "actualizado": "2026-09-25T09:28:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -977,7 +977,32 @@
             "v": "ok",
             "nota": "resarle->rezarle (errata compartida con original); tilde este->este en refrain x2; changarro/debe se dejan (consistentes en las 2 repeticiones, original tiene su propia errata)",
             "t": "2026-09-25T09:11:56Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "hueco linea14 20s = instrumental, coincide con linea vacia del original en ese punto; drift 0 en todas las lineas",
+            "t": "2026-09-25T09:20:00Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "17 anclas nuevas (items ya creados de una ronda anterior + rezarle y privacia nuevos, traducidos 19 idiomas); 8 gemelas unificadas al sentido correcto; 0 sin mapear",
+            "t": "2026-09-25T09:20:00Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft reabierto: WIT en todas las anclas (0 sin texto), tu/tu corregido a you x2, wit_dt_audit BAD 0, sometido a pending_review",
+            "t": "2026-09-25T09:20:01Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "changarro/debe en 11 y 24 sin confirmar contra audio; contradicho por 3 fuentes externas",
+            "t": "2026-09-25T09:28:37Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "changarro/debe en 11 y 24 sin confirmar contra audio; contradicho por 3 fuentes externas",
+          "t": "2026-09-25T09:28:37Z"
         }
       }
     },
@@ -1151,10 +1176,49 @@
       "originalTrackId": "6aa7b83bf0f8e5713e698c02",
       "titulo": "Como",
       "artista": "Luis Miguel",
-      "estado": "correccion",
-      "vueltas": 0,
-      "motivo": "Lote 5: mapeo 100%, ingles 22/22; la letra abre 22 interrogaciones y cierra 20: corrigiendo con el kit",
-      "actualizado": "2026-09-23T11:13:55Z"
+      "estado": "hecha",
+      "vueltas": 2,
+      "motivo": "lista para que Saúl apruebe el inglés y publique",
+      "actualizado": "2026-09-25T09:34:59Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "ya aplicado, no se re-proyecta",
+            "t": "2026-09-25T09:25:31Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "2 lineas corregidas (5,13): tilde + cierre de interrogacion; resto justificado (grafia z/s ya reflejada en el item existente)",
+            "t": "2026-09-25T09:25:32Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "track_timing_report 0ms drift 22/22; audio probe 206 (ya suena), nunca medido, no se mide",
+            "t": "2026-09-25T09:25:32Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "4 gemelas distintas unificadas al item de la primera aparicion; 0 sin_mapear",
+            "t": "2026-09-25T09:25:32Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "líneas 5 y 13: interrogación añadida al inglés tras el arreglo del LRC; enviado a revisión",
+            "t": "2026-09-25T09:34:58Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "único defecto del QC (interrogación del inglés en líneas 5/13) corregido; resto verificado: BAD 0, 0 WIT vacíos, 0 anclas fuera",
+            "t": "2026-09-25T09:34:58Z"
+          }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "único defecto del QC (interrogación del inglés en líneas 5/13) corregido; resto verificado: BAD 0, 0 WIT vacíos, 0 anclas fuera",
+          "t": "2026-09-25T09:34:58Z"
+        }
+      }
     },
     {
       "coverTrackId": "6aa7152772ca57eb1aac382c",
@@ -3402,9 +3466,9 @@
       "titulo": "Yo Te Quiero",
       "artista": "Wisin & Yandel",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-25T09:16:25Z",
+      "vueltas": 2,
+      "motivo": "lista para QC (2a vuelta: anclas huerfanas + linea 3 corregidas)",
+      "actualizado": "2026-09-25T09:33:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -3426,7 +3490,17 @@
             "v": "ok",
             "nota": "karaokeMp3 offset 0ms conf 2.19 lenDelta 0 firstSound 8020ms; stemVoc offset -20ms conf 1.27 lenDelta -52ms firstSound 7990ms; sin clamps",
             "t": "2026-09-25T08:39:37Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "4 anclas fuera de rango sin borrar (L44/46/48/50); linea 2 sin arreglar, mal justificada",
+            "t": "2026-09-25T09:24:52Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "4 anclas fuera de rango sin borrar (L44/46/48/50); linea 2 sin arreglar, mal justificada",
+          "t": "2026-09-25T09:24:52Z"
         }
       }
     },
