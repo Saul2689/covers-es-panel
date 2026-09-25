@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Manda a Slack el movimiento del paso Carry de la vuelta que acaba de publicar.
+"""Manda a Slack el movimiento de la pestana Carry del panel de covers es.
 
 El aviso no da totales: cuenta lo que se ha movido desde la vuelta anterior,
-que entro en Carry y que salio (y hacia donde). El resto del panel se mira en
-la pagina.
+que cancion ha cambiado de paso, cuales son nuevas en la lista y cuantas se
+han caido. El resto del panel se mira en la pagina.
 
 Lee las variables de entorno que le pone el workflow:
     GANCHO   la URL del webhook de Slack (obligatoria; sin ella no hace nada)
@@ -23,9 +23,9 @@ import urllib.request
 
 PANEL = 'https://covers-es-v2.pages.dev/'
 RESUMEN = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'dist', 'meta.json')
-TOPE = 12   # a partir de aqui la lista se corta y se dice cuantas faltan
+TOPE = 15   # a partir de aqui la lista se corta y se dice cuantas faltan
 
-# Como se lee en el aviso el paso al que se ha ido una cancion.
+# Como se lee en el aviso el paso de cada cancion.
 PASOS = {
     'parada': 'parada',
     'correccion': 'correccion',
@@ -35,7 +35,6 @@ PASOS = {
     'cola': 'cola',
     'sinorig': 'sin original',
     'hecha': 'hecha',
-    'fuera': 'fuera de la lista',
 }
 
 
@@ -43,10 +42,10 @@ def manda(texto):
     gancho = os.environ.get('GANCHO')
     if not gancho:
         # Sin webhook el aviso se queda en el log. La consola de Windows no
-        # sabe escribir la flecha, asi que se cambia por una de las suyas.
+        # sabe escribir la flecha, asi que se cambia por lo que sepa poner.
+        cp = sys.stdout.encoding or 'utf-8'
         print('sin webhook, no mando nada')
-        print(texto.encode(sys.stdout.encoding or 'utf-8', 'replace')
-                   .decode(sys.stdout.encoding or 'utf-8', 'replace'))
+        print(texto.encode(cp, 'replace').decode(cp, 'replace'))
         return
     pet = urllib.request.Request(
         gancho,
@@ -62,17 +61,16 @@ def manda(texto):
         print('no se pudo avisar a slack: %s' % e, file=sys.stderr)
 
 
-def lista(filas, destino=False):
-    """Una cancion por linea: titulo, artista y, si sale, adonde se ha ido."""
-    trozos = []
-    for f in filas[:TOPE]:
-        linea = '        · %s — %s' % (f[1], f[2])
-        if destino:
-            linea += ' → %s' % PASOS.get(f[3], f[3])
-        trozos.append(linea)
+def paso(nombre):
+    return PASOS.get(nombre, nombre)
+
+
+def trozo(titulo, filas, pinta):
+    """Un bloque del aviso: cabecera con el numero y una cancion por linea."""
+    cuerpo = [pinta(f) for f in filas[:TOPE]]
     if len(filas) > TOPE:
-        trozos.append('        · y %d mas' % (len(filas) - TOPE))
-    return '\n'.join(trozos)
+        cuerpo.append('        · y %d mas' % (len(filas) - TOPE))
+    return '• %s (*%d*)\n%s' % (titulo, len(filas), '\n'.join(cuerpo))
 
 
 def main():
@@ -97,8 +95,9 @@ def main():
         return
 
     c = m.get('carry') or {}
-    entran = c.get('entran') or []
-    salen = c.get('salen') or []
+    cambios = c.get('cambios') or []
+    nuevas = c.get('nuevas') or []
+    fuera = c.get('fuera') or 0
     cabeza = '*Carry* — vuelta %s, %s' % (como, m.get('fecha', ''))
 
     if not c.get('comparado'):
@@ -107,18 +106,25 @@ def main():
               % (cabeza, PANEL))
         return
 
-    if not entran and not salen:
-        manda(':package: %s\nSin movimiento: en Carry no ha entrado ni salido '
-              'nada desde la vuelta anterior.\n%s' % (cabeza, PANEL))
+    if not cambios and not nuevas and not fuera:
+        manda(':package: %s\nSin movimiento: ninguna cancion ha cambiado de paso '
+              'desde la vuelta anterior.\n%s' % (cabeza, PANEL))
         return
 
-    cuerpo = []
-    if entran:
-        cuerpo.append('• Entran (*%d*)\n%s' % (len(entran), lista(entran)))
-    if salen:
-        cuerpo.append('• Salen (*%d*)\n%s' % (len(salen), lista(salen, destino=True)))
+    bloques = []
+    if cambios:
+        bloques.append(trozo(
+            'Cambian de paso', cambios,
+            lambda f: '        · %s — %s: %s → %s'
+                      % (f[1], f[2], paso(f[3]), paso(f[4]))))
+    if nuevas:
+        bloques.append(trozo(
+            'Nuevas en la lista', nuevas,
+            lambda f: '        · %s — %s (%s)' % (f[1], f[2], paso(f[3]))))
+    if fuera:
+        bloques.append('• Se han caido de la lista: *%d*' % fuera)
 
-    manda(':package: %s\n%s\n%s' % (cabeza, '\n'.join(cuerpo), PANEL))
+    manda(':package: %s\n%s\n%s' % (cabeza, '\n'.join(bloques), PANEL))
 
 
 if __name__ == '__main__':

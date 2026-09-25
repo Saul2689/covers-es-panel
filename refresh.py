@@ -250,34 +250,39 @@ def vuelta_anterior(log):
 
 
 def movimiento_carry(filas, log):
-    """Que ha entrado y que ha salido del paso Carry desde la vuelta anterior.
+    """Que se ha movido en la pestana Carry desde la vuelta anterior.
 
-    Devuelve tambien la foto de quien esta ahora en Carry, que es lo que leera
-    la vuelta siguiente para hacer su propia comparacion.
+    Compara la lista entera, no un paso suelto: de que paso a que paso ha ido
+    cada cancion, cuales son nuevas y cuantas se han caido de la lista.
+    Devuelve tambien la foto de ahora, que es lo que leera la vuelta siguiente
+    para hacer su propia comparacion.
     """
     clave = lambda f: str(f[2] or f[3] or (f[1] + '|' + f[0]))
     ahora = {clave(f): f for f in filas}
-    lista = [[clave(f), f[0], f[1]] for f in filas if f[4] == 'carry']
+    foto = {k: f[4] for k, f in ahora.items()}
 
-    anterior = ((vuelta_anterior(log) or {}).get('carry') or {}).get('ahora')
-    if not isinstance(anterior, list):
-        log('carry: %d canciones (sin foto anterior, esta vuelta no compara)' % len(lista))
-        return {'ahora': lista, 'entran': [], 'salen': [], 'comparado': False}
+    antes = ((vuelta_anterior(log) or {}).get('carry') or {}).get('foto')
+    if not isinstance(antes, dict) or not antes:
+        log('carry: %d canciones (sin foto anterior, esta vuelta no compara)' % len(filas))
+        return {'foto': foto, 'cambios': [], 'nuevas': [], 'fuera': 0,
+                'comparado': False}
 
-    antes = {str(x[0]): x for x in anterior if isinstance(x, list) and x}
-    estan = set(x[0] for x in lista)
-    entran = [x for x in lista if x[0] not in antes]
-    salen = []
-    for k, x in antes.items():
-        if k in estan:
-            continue
-        f = ahora.get(k)
-        # Si ya no esta en el parte, se ha caido de la lista entera.
-        salen.append([k, f[0] if f else x[1], f[1] if f else x[2],
-                      f[4] if f else 'fuera'])
-    salen.sort(key=lambda x: (x[2].lower(), x[1].lower()))
-    log('carry: %d ahora, entran %d, salen %d' % (len(lista), len(entran), len(salen)))
-    return {'ahora': lista, 'entran': entran, 'salen': salen, 'comparado': True}
+    cambios, nuevas = [], []
+    for k, f in ahora.items():
+        previo = antes.get(k)
+        if previo is None:
+            nuevas.append([k, f[0], f[1], f[4]])
+        elif previo != f[4]:
+            cambios.append([k, f[0], f[1], str(previo), f[4]])
+    fuera = sum(1 for k in antes if k not in ahora)
+
+    orden = lambda x: (x[2].lower(), x[1].lower())
+    cambios.sort(key=orden)
+    nuevas.sort(key=orden)
+    log('carry: %d canciones, cambian de paso %d, nuevas %d, se caen %d'
+        % (len(filas), len(cambios), len(nuevas), fuera))
+    return {'foto': foto, 'cambios': cambios, 'nuevas': nuevas, 'fuera': fuera,
+            'comparado': True}
 
 
 def render(datos, plantilla, salida, fecha, log):
@@ -319,8 +324,6 @@ def render(datos, plantilla, salida, fecha, log):
             'linea': {'total': len(linea['filas']), 'cuenta': linea['cuenta'],
                       'lock': linea['lock'],
                       'generado': linea['generado'], 'fallo': linea['fallo']},
-            # Lo unico que mira el aviso de Slack: el movimiento del paso Carry.
-            'carry': carry,
         },
     }
     html = open(plantilla, encoding='utf-8').read()
@@ -332,8 +335,10 @@ def render(datos, plantilla, salida, fecha, log):
     with open(os.path.join(salida, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(html)
 
-    # Resumen suelto: lo lee el aviso de Slack y el boton de la pagina.
-    meta = dict(payload['meta'], fecha=fecha)
+    # Resumen suelto: lo lee el aviso de Slack y el boton de la pagina. El
+    # movimiento de la pestana Carry solo va aqui: la foto de 2.000 y pico
+    # canciones no pinta nada dentro de la pagina.
+    meta = dict(payload['meta'], fecha=fecha, carry=carry)
     with open(os.path.join(salida, 'meta.json'), 'w', encoding='utf-8') as f:
         json.dump(meta, f, ensure_ascii=False)
 
