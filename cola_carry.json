@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T09:34:59Z",
+  "generado": "2026-09-25T09:40:36Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -912,16 +912,16 @@
       "originalTrackId": "6aa7b897f0f8e5713e69981c",
       "titulo": "Candela",
       "artista": "Buena Vista Social Club",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "worker: qc inicial leido, empezando",
-      "actualizado": "2026-09-25T09:16:11Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-25T09:40:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "saul",
-            "nota": "iniciando: sin nota de Saul, revisando jobs/reviews previos",
-            "t": "2026-09-25T09:00:23Z"
+            "v": "ok",
+            "nota": "coverOf enlazado a 6aa7b897f0f8e5713e69981c, 4 estrellas, audio ya suena (206), sin problema de carry",
+            "t": "2026-09-25T09:40:19Z"
           },
           "lrc": {
             "v": "ok",
@@ -930,8 +930,18 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "22 sin_mapear justificados (ad-lib/scat/nombre propio); 7 gemelas unificadas; 2 item_otra_palabra justificados (elision -s); 1 item nuevo creado (busquense) + traducido 19 idiomas; anclas fuera de rango tras delete desvinculadas",
-            "t": "2026-09-25T09:16:11Z"
+            "nota": "ademas del parte anterior: item tilde-distinta dia->dia con tilde remapeado (misma acepcion, item correcto ya existia); 0 sin_mapear real, 0 BAD en wit_dt_audit",
+            "t": "2026-09-25T09:40:20Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "track_timing_report: 0 drift salvo linea18 (684ms, preexistente, aceptado); hueco de 41s antes de linea26 es instrumental (interludio scat), no hay canto perdido; audio servido responde 206 (Range), no se ha medido ni pineado",
+            "t": "2026-09-25T09:40:20Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "reabierto por lineas/anclas tocadas; 6 lineas retraducidas + WITs de las anclas cambiadas; ademas rellenados 54 WIT sin texto preexistentes y 6 BAD DT (gemelas) en todo el track; wit_dt_audit BAD 0, 0 WIT sin texto, tu/tu que/que mi/mi si/si revisados a mano; draft enviado a pending_review",
+            "t": "2026-09-25T09:40:20Z"
           }
         }
       }
@@ -2765,16 +2775,36 @@
       "originalTrackId": "6aa7d3a70752719d51ac5371",
       "titulo": "Lagrimas De Cristal",
       "artista": "Grupo Montéz De Durango",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 90%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-25T09:12:50Z",
+      "motivo": "lista para QC; hallazgos restantes justificados (nombre del grupo, grafia dialectal ya en el original)",
+      "actualizado": "2026-09-25T09:35:42Z",
       "auditoria": {
         "pasos": {
           "ingles": {
             "v": "ok",
-            "nota": "tú sujeto: 'your' → 'you' en los WIT; fila 'your' fusionada en el diccionario; enviado a revisión",
-            "t": "2026-09-25T09:12:50Z"
+            "nota": "5 lineas retraducidas; 25 WIT con DT desplazada corregidas (wit_dt_audit BAD 0); 16 WIT vacios rellenados; reenviado a pending_review",
+            "t": "2026-09-25T09:35:41Z"
+          },
+          "carry": {
+            "v": "ok",
+            "nota": "aplicado previamente (mapeo 90% ya existente); no se re-proyecta",
+            "t": "2026-09-25T09:35:40Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "5 lineas arregladas (6,13,17,18,19); 5 palabras fuera del original borradas, 1 insertada, contra el original como arbitro",
+            "t": "2026-09-25T09:35:40Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en las 31 lineas; 4 lineas realineadas tras los deletes; audio probe 206 sin medir (ya reproduce)",
+            "t": "2026-09-25T09:35:41Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "anclas recolocadas tras 5 deletes+1 insert; 7 gemelas distintas unificadas; 0 sin mapear salvo nombre del grupo",
+            "t": "2026-09-25T09:35:41Z"
           }
         }
       }
@@ -3465,16 +3495,16 @@
       "originalTrackId": "6ab3aa1c4d09fbf129f43316",
       "titulo": "Yo Te Quiero",
       "artista": "Wisin & Yandel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "lista para QC (2a vuelta: anclas huerfanas + linea 3 corregidas)",
-      "actualizado": "2026-09-25T09:33:08Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-25T09:40:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "falta",
-            "nota": "alignment 58%->62.4% via hints (respell/fuzzy/join), aplicando carry",
-            "t": "2026-09-25T08:12:03Z"
+            "v": "ok",
+            "nota": "carry aplicado y verificado en vivo (coverOf enlazado); paso solo sin marcar en el parte",
+            "t": "2026-09-25T09:40:22Z"
           },
           "mapeo": {
             "v": "ok",
@@ -3482,9 +3512,9 @@
             "t": "2026-09-25T08:34:11Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "draft reabierto; 7 lineas EN escritas (Bridge1 44-50, linea 60); quedan ~51/63 sin traducir, gap preexistente",
-            "t": "2026-09-25T08:39:37Z"
+            "v": "ok",
+            "nota": "draft enviado a pending_review, 63/63 lineas y 359 WITs con texto, sin aprobar",
+            "t": "2026-09-25T09:40:22Z"
           },
           "timing": {
             "v": "ok",
@@ -3492,15 +3522,20 @@
             "t": "2026-09-25T08:39:37Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "4 anclas fuera de rango sin borrar (L44/46/48/50); linea 2 sin arreglar, mal justificada",
-            "t": "2026-09-25T09:24:52Z"
+            "v": "ok",
+            "nota": "2 fixes verificados (anclas huerfanas borradas, linea 3 corregida); gates OK BAD0/0 vacios/0 fuera de rango/drift0; diff backup solo linea 2",
+            "t": "2026-09-25T09:40:01Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "hallazgos qc restantes ya justificados linea por linea en vueltas previas (variantes del cover, no erratas); los 2 defectos reales de esta vuelta quedaron corregidos",
+            "t": "2026-09-25T09:40:22Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "4 anclas fuera de rango sin borrar (L44/46/48/50); linea 2 sin arreglar, mal justificada",
-          "t": "2026-09-25T09:24:52Z"
+          "v": "VERDE",
+          "resumen": "2 fixes verificados (anclas huerfanas borradas, linea 3 corregida); gates OK BAD0/0 vacios/0 fuera de rango/drift0; diff backup solo linea 2",
+          "t": "2026-09-25T09:40:01Z"
         }
       }
     },
@@ -17600,7 +17635,16 @@
       "estado": "correccion",
       "vueltas": 0,
       "motivo": "Lote 5: mapeo 100%, ingles 31/31; tildes ausentes en lineas 26 y 29: corrigiendo",
-      "actualizado": "2026-09-23T11:13:55Z"
+      "actualizado": "2026-09-25T09:36:14Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "na",
+            "nota": "cover locked 3 estrellas; backup tomado, iniciando auditoria completa",
+            "t": "2026-09-25T09:36:14Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa1113b64c9b8ff110cfe2c",
