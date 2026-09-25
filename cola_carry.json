@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T10:10:02Z",
+  "generado": "2026-09-25T10:11:07Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -950,10 +950,10 @@
       "originalTrackId": "6aa7b897f0f8e5713e69981c",
       "titulo": "Candela",
       "artista": "Buena Vista Social Club",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "devuelto ronda 1: anclas fuera de rango sin borrar (linea 9 y 18), palabra sin justificar linea 38, duplicado sin justificar linea 50, sentido incorrecto linea 72",
-      "actualizado": "2026-09-25T09:57:52Z",
+      "motivo": "lista para QC (ronda 2, 4 hallazgos corregidos)",
+      "actualizado": "2026-09-25T10:11:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -963,13 +963,13 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "6 lineas corregidas (tildes, errata, insert/delete); resto de vs_original justificado (arreglo cover mas corto, verso final anadido, nombre propio omitido)",
-            "t": "2026-09-25T09:16:11Z"
+            "nota": "L39 seguimo'->venimo' (gana original); L50 pa' duplicado borrado (2 tokens); numeracion de tilde corregida a 58/62",
+            "t": "2026-09-25T10:11:06Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "ademas del parte anterior: item tilde-distinta dia->dia con tilde remapeado (misma acepcion, item correcto ya existia); 0 sin_mapear real, 0 BAD en wit_dt_audit",
-            "t": "2026-09-25T09:40:20Z"
+            "nota": "QC devuelto: 2 anclas fuera de rango borradas (L9/L18); se remapeado L72; anclas L50 reordenadas tras quitar pa' duplicado",
+            "t": "2026-09-25T10:11:06Z"
           },
           "timing": {
             "v": "ok",
@@ -978,8 +978,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "reabierto por lineas/anclas tocadas; 6 lineas retraducidas + WITs de las anclas cambiadas; ademas rellenados 54 WIT sin texto preexistentes y 6 BAD DT (gemelas) en todo el track; wit_dt_audit BAD 0, 0 WIT sin texto, tu/tu que/que mi/mi si/si revisados a mano; draft enviado a pending_review",
-            "t": "2026-09-25T09:40:20Z"
+            "nota": "WIT/DT rehechos en las 7 anclas tocadas de esta vuelta; wit_dt_audit BAD 0, 0 sin texto, 0 fuera de rango; submit resometido a pending_review",
+            "t": "2026-09-25T10:11:07Z"
           },
           "qc": {
             "v": "falta",
@@ -19826,10 +19826,10 @@
       "originalTrackId": "6aa7b6d98d615aa3fed30a98",
       "titulo": "Amor Libre",
       "artista": "Camilo Sesto",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-25T10:00:41Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-25T10:10:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19856,7 +19856,17 @@
             "v": "ok",
             "nota": "track_timing_report drift 0 en las 30 lineas",
             "t": "2026-09-25T09:59:56Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "outro justificado (variante real, no error); linea6 falso positivo re-lineacion añadido al informe; resto verificado contra backup/draft",
+            "t": "2026-09-25T10:10:43Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "outro justificado (variante real, no error); linea6 falso positivo re-lineacion añadido al informe; resto verificado contra backup/draft",
+          "t": "2026-09-25T10:10:43Z"
         }
       }
     },
