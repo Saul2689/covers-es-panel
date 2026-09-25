@@ -166,7 +166,6 @@ tailwind.config={theme:{extend:{
   var P=JSON.parse(document.getElementById('payload').textContent);
   var D=P.data, M=P.meta, LIN=M.linea||{cuenta:{},total:0};
   var BASE='https://api.singit.io';
-  var QL={1:'Poor',2:'Weak',3:'Acceptable',4:'Good',5:'Excellent'};
   var QC={1:'#E11D48',2:'#F97316',3:'#EAB308',4:'#84CC16',5:'#22C55E'};
   /* Primero lo que se está trabajando (carry, revisión, corrección,
      traducción), luego lo que espera (en cola), luego lo terminado (hecha), y
@@ -176,12 +175,17 @@ tailwind.config={theme:{extend:{
 
   var T={
     es:{loc:'es-ES',
+      nota1:'Mala',
+      nota2:'Floja',
+      nota3:'Aceptable',
+      nota4:'Buena',
+      nota5:'Excelente',
       eyebrow:'Covers de CrossClear',
-      propuesta:'Propuesta de diseño · datos reales del {fecha}',
+      propuesta:'Barrido del {fecha}',
       h1:'Covers en español',
       tesis:'Quedan {pend} covers por escuchar. {cal} ya tienen nota.',
       rCon:'Con full song', rNo:'Sin audio utilizable', rCal:'Ya calificadas',
-      sub:'Esta es una maqueta para decidir el aspecto del panel. El panel real se actualiza solo cada hora, de 9:00 a 18:00 (hora de Madrid), y desde él se abre cada canción en el admin para ponerle las estrellas.',
+      sub:'La página se actualiza sola cada hora, de 9:00 a 18:00 (hora de Madrid). Cada canción abre su ficha en el admin, que es donde se ponen las estrellas.',
       kSin:'Sin calificar', kSinPie:'covers esperando nota',
       kCon:'Con voz', kConPie:'suenan al darle al play',
       kNo:'Sin audio', kNoPie:'karaoke o 0:00',
@@ -210,8 +214,8 @@ tailwind.config={theme:{extend:{
       agotado:'se han gastado las {t} actualizaciones de hoy · vuelve mañana',
       noDisp:'el botón no está disponible ahora mismo',
       noArranca:'no se ha podido lanzar la actualización',
-      previa:'Vista previa: el botón solo actualiza desde el panel real.',
-      previaClic:'Esto es la maqueta. Abre el panel real para actualizar de verdad.',
+      previa:'El botón no está disponible ahora mismo.',
+      previaClic:'El botón no responde ahora mismo; vuelve a intentarlo en un rato.',
       unMin:'un minuto', variosMin:'unos {m} minutos',
       pidiendo:'Pidiendo la actualización…',
       actualizando:'Actualizando los datos…',
@@ -220,12 +224,17 @@ tailwind.config={theme:{extend:{
       listo:'Listo. Cargando los datos nuevos…',
       de:'de'},
     en:{loc:'en-GB',
+      nota1:'Poor',
+      nota2:'Weak',
+      nota3:'Acceptable',
+      nota4:'Good',
+      nota5:'Excellent',
       eyebrow:'CrossClear covers',
-      propuesta:'Design proposal · real data from {fecha}',
+      propuesta:'Swept on {fecha}',
       h1:'Spanish covers',
       tesis:'{pend} covers still need listening to. {cal} are rated.',
       rCon:'With full song', rNo:'No usable audio', rCal:'Already rated',
-      sub:'This is a mockup for deciding how the panel should look. The real panel refreshes itself every hour, 9:00 to 18:00 Madrid time, and each song opens in the admin where the stars are set.',
+      sub:'The page refreshes itself every hour, 9:00 to 18:00 Madrid time. Each song opens its card in the admin, which is where the stars are set.',
       kSin:'Unrated', kSinPie:'covers awaiting a rating',
       kCon:'With voice', kConPie:'play when you hit play',
       kNo:'No audio', kNoPie:'karaoke or 0:00',
@@ -254,8 +263,8 @@ tailwind.config={theme:{extend:{
       agotado:'today’s {t} refreshes are used up · come back tomorrow',
       noDisp:'the button is not available right now',
       noArranca:'the refresh could not be started',
-      previa:'Preview: the button only refreshes from the real panel.',
-      previaClic:'This is the mockup. Open the real panel to refresh for real.',
+      previa:'The button is not available right now.',
+      previaClic:'The button is not responding right now; try again in a little while.',
       unMin:'a minute', variosMin:'about {m} minutes',
       pidiendo:'Requesting the refresh…',
       actualizando:'Refreshing the data…',
@@ -293,7 +302,7 @@ tailwind.config={theme:{extend:{
     for(var i=1;i<=5;i++){
       o+='<span class="h-1.5 w-1.5 rounded-full" style="background:'+(i<=n?QC[n]:'#2A2A31')+'"></span>';
     }
-    o+='</span><span class="font-mono text-[11px]" style="color:'+QC[n]+'">'+n+'/5 '+QL[n]+'</span></span>';
+    o+='</span><span class="font-mono text-[11px]" style="color:'+QC[n]+'">'+n+'/5 '+t('nota'+n)+'</span></span>';
     return o;
   }
   function chip(txt,tono,extra,sm){
@@ -557,7 +566,7 @@ tailwind.config={theme:{extend:{
     document.getElementById('x-cal-tit').textContent=t('calTit');
     var tot=M.calificadas||1;
     barraApilada('x-cal-barra','x-cal-leyenda',[1,2,3,4,5].map(function(n){
-      return {label:n+'/5 '+QL[n],n:(M.q||{})[n]||0,color:QC[n]};
+      return {label:n+'/5 '+t('nota'+n),n:(M.q||{})[n]||0,color:QC[n]};
     }),tot,5);
   }
 
