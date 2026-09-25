@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T13:40:35Z",
+  "generado": "2026-09-25T13:41:14Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -27116,10 +27116,10 @@
       "originalTrackId": "61e860fd0487b7aa132a92bf",
       "titulo": "La Bamba",
       "artista": "Ritchie Valens",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "vuelta 2 lista para QC",
-      "actualizado": "2026-09-25T13:31:06Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-25T13:41:14Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -27148,15 +27148,15 @@
             "t": "2026-09-25T13:31:04Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "mapeo: mi/mi (linea 5/19/25 tok2) sentido erroneo; de (linea 4/18/24 tok3) sentido posesivo en vez de partitivo; sin cambios en estructura/ingles/timing",
-            "t": "2026-09-25T10:57:41Z"
+            "v": "ok",
+            "nota": "vuelta 2: 3 fixes verificados (tilde pronombre, unificacion preposicion, tilde sustantivo), sin regresion, ingles pending_review, BAD 0",
+            "t": "2026-09-25T13:41:09Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "mapeo: mi/mi (linea 5/19/25 tok2) sentido erroneo; de (linea 4/18/24 tok3) sentido posesivo en vez de partitivo; sin cambios en estructura/ingles/timing",
-          "t": "2026-09-25T10:57:41Z"
+          "v": "VERDE",
+          "resumen": "vuelta 2: 3 fixes verificados (tilde pronombre, unificacion preposicion, tilde sustantivo), sin regresion, ingles pending_review, BAD 0",
+          "t": "2026-09-25T13:41:09Z"
         }
       }
     },
