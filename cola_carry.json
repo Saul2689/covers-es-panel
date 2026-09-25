@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T08:09:48Z",
+  "generado": "2026-09-25T08:29:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -168,10 +168,39 @@
       "originalTrackId": "6aa7d7e80752719d51acc2e6",
       "titulo": "Me Jalo",
       "artista": "Fuerza Regida",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Lote 3: mapeo 95%, ingles 47/47; creando 4 items es",
-      "actualizado": "2026-09-23T10:59:40Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-25T08:29:32Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "falta",
+            "nota": "worker inicia: carry en curso, sin nota previa, biblioteca 4 estrellas",
+            "t": "2026-09-25T08:11:10Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "insert Ven linea3 + 24 tildes alla/aca en coro; anchorplan 9 movidas",
+            "t": "2026-09-25T08:21:09Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "4 items nuevos (mañoso, usas, portarte, desvelado) DEV+PROD + 19 langs; 15 anclas; unificadas gemelas se(x3)/yo(x1)",
+            "t": "2026-09-25T08:24:29Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "insert idx0 linea3 dejo drift -400ms; corregido start a 36510 (1er palabra nueva). Resto 0 drift. Audio ya sonaba 206, no measure/no pin",
+            "t": "2026-09-25T08:25:06Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "reabierto: linea3 + 10 WIT + fix DT huerfano linea38 (yo); wit_dt_audit BAD 0; submit -> pending_review",
+            "t": "2026-09-25T08:28:47Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6a9ec222eef2ad59f6262c26",
@@ -3008,7 +3037,16 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker de biblioteca en marcha",
-      "actualizado": "2026-09-25T08:05:18Z"
+      "actualizado": "2026-09-25T08:12:03Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "falta",
+            "nota": "alignment 58%->62.4% via hints (respell/fuzzy/join), aplicando carry",
+            "t": "2026-09-25T08:12:03Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5b70b42b8d1fdb0d2fa50",
@@ -13729,7 +13767,31 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker de biblioteca: primero emparejar con el original",
-      "actualizado": "2026-09-25T08:06:39Z"
+      "actualizado": "2026-09-25T08:27:48Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry aplicado 93% matched, 13 decisiones (10 useSingitWord, 3 keepSungWord por variante cantada real, 1 join)",
+            "t": "2026-09-25T08:18:41Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "9 lineas: tildes (Como/mas/Tu/sone/que/dia/se), coma final L47, borrado 'Que' sobrante L23 (referee=original) + ancla fuera de rango borrada",
+            "t": "2026-09-25T08:22:04Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 tras fix de L23; audio ya suena (vocx.wav 206), no se mide/pinnea",
+            "t": "2026-09-25T08:22:30Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "gemelas unificadas (el/Que/Pero, 4 anclas) + coma en 3 Eh; qc mapeo/gemelas en verde. Restante justificado: Tierra mayus=coincide con original, ¿?/L1-2=pregunta a dos lineas en el propio original, eres/Eh-Oh ad-libs=variante cantada real en las 3 repeticiones",
+            "t": "2026-09-25T08:27:48Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa849bbd951e1665a83a5db",
