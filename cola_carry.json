@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T08:56:15Z",
+  "generado": "2026-09-25T08:57:09Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -2117,10 +2117,10 @@
       "originalTrackId": "6ab3aa054d09fbf129f42ded",
       "titulo": "Mi Verdad",
       "artista": "Maná",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 2,
-      "motivo": "lista para QC: WIT tú y línea 81",
-      "actualizado": "2026-09-25T08:54:33Z",
+      "motivo": "espera a Saul: desfase de audio +4,8 s por oir",
+      "actualizado": "2026-09-25T08:57:04Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -2149,15 +2149,15 @@
             "t": "2026-09-25T08:35:24Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "wit_dt_audit BAD 11 (pronombre sujeto sirviendo traduccion ajena, 11 lineas) + linea 81 sin resolver contra el original (nota en vez de fix)",
-            "t": "2026-09-25T08:51:34Z"
+            "v": "ok",
+            "nota": "wit_dt_audit BAD 0 confirmado (13 lineas incl 21/66), linea 81 se con tilde verificada en LRC vivo",
+            "t": "2026-09-25T08:57:04Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "wit_dt_audit BAD 11 (pronombre sujeto sirviendo traduccion ajena, 11 lineas) + linea 81 sin resolver contra el original (nota en vez de fix)",
-          "t": "2026-09-25T08:51:34Z"
+          "v": "VERDE",
+          "resumen": "wit_dt_audit BAD 0 confirmado (13 lineas incl 21/66), linea 81 se con tilde verificada en LRC vivo",
+          "t": "2026-09-25T08:57:04Z"
         }
       }
     },
@@ -13867,10 +13867,10 @@
       "originalTrackId": "6ab3aa3b52330f2b13b585de",
       "titulo": "Me Vuelvo Un Cobarde",
       "artista": "Christian Daniel",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "ingles: linea 24 tok4 se->yes, reabrir WIT y reenviar",
-      "actualizado": "2026-09-25T08:47:55Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-25T08:57:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13895,8 +13895,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "49/49 lineas EN escritas a mano (original EN no accesible via rutas disponibles); wit_dt_audit BAD 0; submit -> pending_review",
-            "t": "2026-09-25T08:38:17Z"
+            "nota": "ronda 2: 257/257 WIT contextuales escritos (bug sé->yes corregido); wit_dt_audit BAD 0; resubmit -> pending_review",
+            "t": "2026-09-25T08:57:08Z"
           },
           "qc": {
             "v": "falta",
