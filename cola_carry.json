@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T08:58:17Z",
+  "generado": "2026-09-25T08:59:15Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -729,10 +729,10 @@
       "originalTrackId": "6aa7b897f0f8e5713e69981c",
       "titulo": "Candela",
       "artista": "Buena Vista Social Club",
-      "estado": "correccion",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 86%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "motivo": "worker de biblioteca en marcha",
+      "actualizado": "2026-09-25T08:59:15Z"
     },
     {
       "coverTrackId": "6a9a32d29bc1eb1372595f9b",
@@ -13867,10 +13867,10 @@
       "originalTrackId": "6ab3aa3b52330f2b13b585de",
       "titulo": "Me Vuelvo Un Cobarde",
       "artista": "Christian Daniel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-25T08:57:08Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-25T08:59:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13899,15 +13899,15 @@
             "t": "2026-09-25T08:57:08Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ingles: linea 24 tok4 se->yes (DT erroneo tras remap, dt_audit no lo ve)",
-            "t": "2026-09-25T08:47:54Z"
+            "v": "ok",
+            "nota": "285/285 WIT con texto, se=I know fijado, muestra 25 ok, dt_audit BAD 0",
+            "t": "2026-09-25T08:58:59Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ingles: linea 24 tok4 se->yes (DT erroneo tras remap, dt_audit no lo ve)",
-          "t": "2026-09-25T08:47:54Z"
+          "v": "VERDE",
+          "resumen": "285/285 WIT con texto, se=I know fijado, muestra 25 ok, dt_audit BAD 0",
+          "t": "2026-09-25T08:58:59Z"
         }
       }
     },
