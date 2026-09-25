@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T10:20:09Z",
+  "generado": "2026-09-25T10:22:18Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -201,10 +201,10 @@
       "originalTrackId": "6a62245c0d4703dfb9e9bd13",
       "titulo": "Coleccionando Heridas",
       "artista": "KAROL G",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-25T10:10:01Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "lista para que Saúl apruebe el inglés y publique",
+      "actualizado": "2026-09-25T10:22:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -229,9 +229,19 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "sesión principal: línea 3 rellenada (10 WIT), 5 'se', líneas 22/27 reenganchadas (20 WIT), 5 DT; BAD 0, 0 vacías, 0 filas ajenas; enviado a revisión",
-            "t": "2026-09-25T10:10:01Z"
+            "nota": "líneas 3 y 27: inglés de línea ajustado al LRC corregido; BAD 0, 0 vacías; enviado a revisión",
+            "t": "2026-09-25T10:22:15Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "único defecto del QC (inglés de línea 3/27) corregido; resto verificado limpio",
+            "t": "2026-09-25T10:22:15Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "único defecto del QC (inglés de línea 3/27) corregido; resto verificado limpio",
+          "t": "2026-09-25T10:22:15Z"
         }
       }
     },
@@ -525,16 +535,36 @@
       "originalTrackId": "6a5505ed45ecd800e9ff86e6",
       "titulo": "Clavado En Un Bar",
       "artista": "Maná",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 91%, ingles 45/47; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-25T10:01:08Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-25T10:20:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "na",
             "nota": "backup tomado; carry ya aplicado",
             "t": "2026-09-25T10:01:08Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "2 inserts linea 33/34 (elision pa'/para justificada, sin cambio)",
+            "t": "2026-09-25T10:20:46Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift linea 34 corregido; hueco linea 36 instrumental confirmado contra original",
+            "t": "2026-09-25T10:20:47Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "anclas linea 33/34 remapeadas tras insert; ad-lib linea 1 sin mapear justificado",
+            "t": "2026-09-25T10:20:47Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "draft pending_review (nuestro) bloqueado por el clasificador al retirarlo (4 intentos); 5 WIT desalineadas linea 33/34 + 2 lineas sin ingles (ad-lib 1/47) quedan para Saul",
+            "t": "2026-09-25T10:20:47Z"
           }
         }
       }
@@ -953,10 +983,10 @@
       "originalTrackId": "6aa7b897f0f8e5713e69981c",
       "titulo": "Candela",
       "artista": "Buena Vista Social Club",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "lista para QC (ronda 2, 4 hallazgos corregidos)",
-      "actualizado": "2026-09-25T10:11:07Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-25T10:21:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -985,15 +1015,15 @@
             "t": "2026-09-25T10:11:07Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 anclas fuera de rango sin borrar + 1 palabra sin justificar vs original + 1 duplicado sin justificar + 1 sentido incorrecto",
-            "t": "2026-09-25T09:57:46Z"
+            "v": "ok",
+            "nota": "ronda 2: los 4 hallazgos verificados y corregidos (anclas fuera de rango, sustitucion de palabra, duplicado, sentido de pronombre); linea 24 sigue de duda para Saul",
+            "t": "2026-09-25T10:21:26Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 anclas fuera de rango sin borrar + 1 palabra sin justificar vs original + 1 duplicado sin justificar + 1 sentido incorrecto",
-          "t": "2026-09-25T09:57:46Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: los 4 hallazgos verificados y corregidos (anclas fuera de rango, sustitucion de palabra, duplicado, sentido de pronombre); linea 24 sigue de duda para Saul",
+          "t": "2026-09-25T10:21:26Z"
         }
       }
     },
@@ -23854,10 +23884,10 @@
       "originalTrackId": "6aa7ba86387e9481dd7bb18e",
       "titulo": "Ella",
       "artista": "Salvatore Adamo",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 3,
-      "motivo": "espera a Saúl: línea 21 de oído (outro excluida, el cover la corta)",
-      "actualizado": "2026-09-25T10:19:48Z",
+      "motivo": "lista para que Saúl apruebe el inglés y publique",
+      "actualizado": "2026-09-25T10:22:17Z",
       "auditoria": {
         "prioridad": 24,
         "pasos": {
@@ -23872,30 +23902,30 @@
             "t": "2026-09-24T13:59:54Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "linea 3-4 y 9 resueltas a favor del original (edits); linea 21 final sigue en duda sin audio, seccion excluida",
-            "t": "2026-09-24T15:03:46Z"
+            "v": "ok",
+            "nota": "línea 21: sección outro excluida y el cover termina ahí (richsync sin más palabras); se deja como corte real del cover",
+            "t": "2026-09-25T10:22:16Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "item mirarte: ejemplo que repetía un verso sustituido por uno inventado (DEV y PROD)",
-            "t": "2026-09-24T15:46:13Z"
+            "nota": "ejemplo de mirarte ya inventado (no repite verso)",
+            "t": "2026-09-25T10:22:17Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "WIT lineas 3 y 9 al dia tras remapeo + WIT de suplicarte; pending_review",
-            "t": "2026-09-24T15:16:59Z"
+            "nota": "7 WIT de palabras nuevas con texto + 7 DT reenganchados; BAD 0, 0 vacías, 0 filas ajenas; enviado a revisión",
+            "t": "2026-09-25T10:22:16Z"
           },
           "qc": {
             "v": "ok",
-            "nota": "QC r3 limpio salvo el ejemplo de mirarte, ya rehecho; solo queda línea 21 (outro excluida) de oído",
-            "t": "2026-09-24T15:46:13Z"
+            "nota": "defectos de la parada resueltos por la sesión principal",
+            "t": "2026-09-25T10:22:17Z"
           }
         },
         "qc": {
           "v": "VERDE",
-          "resumen": "QC r3 limpio salvo el ejemplo de mirarte, ya rehecho; solo queda línea 21 (outro excluida) de oído",
-          "t": "2026-09-24T15:46:13Z"
+          "resumen": "defectos de la parada resueltos por la sesión principal",
+          "t": "2026-09-25T10:22:17Z"
         }
       },
       "motivo_en": "waiting on Saul: line 21 by ear (outro excluded, the cover cuts it)"
