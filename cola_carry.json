@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T09:12:51Z",
+  "generado": "2026-09-25T09:15:00Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -351,10 +351,10 @@
       "originalTrackId": "6aa7d7ee0752719d51acc3da",
       "titulo": "Marlboro Rojo",
       "artista": "Fuerza Regida",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-25T09:04:10Z",
+      "estado": "hecha",
+      "vueltas": 2,
+      "motivo": "lista para que Saúl apruebe el inglés y publique",
+      "actualizado": "2026-09-25T09:15:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -374,14 +374,24 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "24 anclas nuevas + 2 items nuevos traducidos 19 idiomas + 4 gemelas unificadas; cobertura 178/178",
-            "t": "2026-09-25T09:04:10Z"
+            "nota": "ancla sobrante fuera de rango en línea 8 (wordIdx 10) borrada tras nuestro propio cambio de fichas",
+            "t": "2026-09-25T09:14:59Z"
           },
           "ingles": {
             "v": "ok",
             "nota": "31 WIT + 1 linea corregidos tras cambios de anclas; wit_dt_audit BAD 0; submit a pending_review",
             "t": "2026-09-25T09:04:10Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "único defecto del QC (ancla huérfana línea 8) corregido; resto verificado: BAD 0, 0 WIT vacíos, homógrafos bien",
+            "t": "2026-09-25T09:15:00Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "único defecto del QC (ancla huérfana línea 8) corregido; resto verificado: BAD 0, 0 WIT vacíos, homógrafos bien",
+          "t": "2026-09-25T09:15:00Z"
         }
       }
     },
