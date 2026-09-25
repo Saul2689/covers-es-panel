@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T08:02:02Z",
+  "generado": "2026-09-25T08:04:47Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -8,10 +8,10 @@
       "originalTrackId": "6963856ae0ba44e297a6881c",
       "titulo": "Mi Gente",
       "artista": "Willy William",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 1,
-      "motivo": "ingles cerrado (nuestro draft, reabierto y resometido); solo queda timing saul por el 404 del audio servido; resto ok",
-      "actualizado": "2026-09-24T16:08:56Z",
+      "motivo": "espera a Saul: el audio servido da 404",
+      "actualizado": "2026-09-25T08:04:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38,7 +38,17 @@
             "v": "ok",
             "nota": "draft retirado y reabierto (era nuestro, no ajeno); relineas 8,15,19 + 6 WIT nuevas (me,quiere,a,mi en linea8; mi,gente en linea19); reenviado a pending_review",
             "t": "2026-09-24T16:08:55Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, sentidos e ingles limpios; hallazgos restantes justificados (ad-libs, nombres propios, frances/scat en lineas excluidas)",
+            "t": "2026-09-25T08:04:29Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, sentidos e ingles limpios; hallazgos restantes justificados (ad-libs, nombres propios, frances/scat en lineas excluidas)",
+          "t": "2026-09-25T08:04:29Z"
         }
       }
     },
