@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T10:53:59Z",
+  "generado": "2026-09-25T13:31:53Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -23773,7 +23773,7 @@
       "estado": "parada",
       "vueltas": 0,
       "motivo": "Sin original en SingIt y sin letra sincronizada en ninguna fuente (lrclib solo tiene otras canciones homonimas); hace falta un LRC del original de Los Bukis a mano (ISRC USFI29400832)",
-      "actualizado": "2026-09-25T10:31:52Z",
+      "actualizado": "2026-09-25T13:31:52Z",
       "motivo_en": "no original in SingIt and no synced lyric in any source (lrclib only has other songs with the same name); the Los Bukis original needs an LRC written by hand (ISRC USFI29400832)",
       "auditoria": {
         "pasos": {
@@ -23781,6 +23781,11 @@
             "v": "falta",
             "nota": "25 sep: original 6ab64d212317128a521952a9 subido y enlazado; richsync ligero con tildes, 132/138 mapeadas (6 por mapear), secciones lanzadas; falta el carry (siguiente agente libre)",
             "t": "2026-09-25T10:31:52Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "case-fix Si->si linea12/23 tok2; gemelas unificadas: linea16 le->6a11dbf8...afe, linea28 esposa->6a11daa7...e7f; gap 23s linea18 verificado instrumental (mismo hueco copiado del original)",
+            "t": "2026-09-25T13:31:52Z"
           }
         }
       }
@@ -27102,20 +27107,20 @@
       "titulo": "La Bamba",
       "artista": "Ritchie Valens",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC; ingles: payloads pendientes de aplicar (withdraw bloqueado por clasificador)",
-      "actualizado": "2026-09-25T10:27:48Z",
+      "vueltas": 1,
+      "motivo": "vuelta 2 lista para QC",
+      "actualizado": "2026-09-25T13:31:06Z",
       "auditoria": {
         "pasos": {
           "lrc": {
             "v": "ok",
-            "nota": "lineas 31-33: coma+minuscula bamba (edits, sin cambio de anclas)",
-            "t": "2026-09-25T10:17:24Z"
+            "nota": "vuelta 2 (sesión principal): tilde del pronombre tónico en líneas 5/19/25 y 'capitán' en 9/10 (x3) con lrc_plan_fix",
+            "t": "2026-09-25T13:31:01Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "gemelas 'para' unificadas x3, remap 'necesita' item correcto x3, anclas nuevas Ba/ba + Bamba/bamba x8 (lineas 14,31-33)",
-            "t": "2026-09-25T10:18:40Z"
+            "nota": "vuelta 2: pronombre de 5/19/25 → item con tilde; capitán ×3 → item con tilde; preposición de 4/18/24 unificada con 3/17/23",
+            "t": "2026-09-25T13:31:03Z"
           },
           "timing": {
             "v": "ok",
@@ -27129,9 +27134,19 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "sesión principal: 6 DT corregidos, 8 WIT de anclas nuevas, 8 huecos rellenados, líneas 6/26 ajustadas; BAD 0; enviado a revisión",
-            "t": "2026-09-25T10:27:48Z"
+            "nota": "vuelta 2: 9 WIT ajustados, BAD 0, pending_review",
+            "t": "2026-09-25T13:31:04Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "mapeo: mi/mi (linea 5/19/25 tok2) sentido erroneo; de (linea 4/18/24 tok3) sentido posesivo en vez de partitivo; sin cambios en estructura/ingles/timing",
+            "t": "2026-09-25T10:57:41Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "mapeo: mi/mi (linea 5/19/25 tok2) sentido erroneo; de (linea 4/18/24 tok3) sentido posesivo en vez de partitivo; sin cambios en estructura/ingles/timing",
+          "t": "2026-09-25T10:57:41Z"
         }
       }
     },
