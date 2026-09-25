@@ -1,6 +1,7 @@
 {
-  "generado": "2026-09-25T13:41:14Z",
+  "generado": "2026-09-25T13:50:00Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
+  "descartadas": 5,
   "canciones": [
     {
       "coverTrackId": "6a9d05aa5c27e49e116caefe",
@@ -191,9 +192,9 @@
       "titulo": "Suerte",
       "artista": "Shakira",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC; ingles bloqueado por clasificador, payload de traspaso dejado en .singit/es_map/payloads/",
-      "actualizado": "2026-09-25T10:53:51Z",
+      "vueltas": 1,
+      "motivo": "vuelta 2 lista para QC",
+      "actualizado": "2026-09-25T13:50:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -213,14 +214,24 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "anclas movidas/creadas en las 6 lineas repadas; 10 clusters de items gemelos unificados (sabes/quiero/vivir/la/que/de/mi/cuello/por/ti); gemelas_distintas=12 de qc_es confirmado como cache stale, verificado en vivo consistente",
-            "t": "2026-09-25T10:48:59Z"
+            "nota": "gemelas del estribillo unificadas: líneas 21/36/50/58 fichas 1-3 al mismo item que 17/40; WIT fijados, BAD 0",
+            "t": "2026-09-25T13:49:59Z"
           },
           "ingles": {
             "v": "ok",
             "nota": "sesión principal: 6 repeticiones del coro re-glosadas tras la palabra añadida + su línea; 71 WIT/DT; intro 1-4 traducida; BAD 0; pending_review",
             "t": "2026-09-25T10:53:51Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "gemelas_distintas 12 en Quiero/vivir/la (linea 21,36,50,58 vs 17,40) sigue sin unificar pese a nota de mapeo=ok; resto (estructura, timing, ingles draft, ad-libs, sentidos) correcto",
+            "t": "2026-09-25T13:43:07Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "gemelas_distintas 12 en Quiero/vivir/la (linea 21,36,50,58 vs 17,40) sigue sin unificar pese a nota de mapeo=ok; resto (estructura, timing, ingles draft, ad-libs, sentidos) correcto",
+          "t": "2026-09-25T13:43:07Z"
         }
       }
     },
@@ -23522,10 +23533,10 @@
       "originalTrackId": "695598306a05f13ba26775c8",
       "titulo": "Chantaje",
       "artista": "Shakira",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "letra, mapeo e inglés hechos (inglés aplicado por la sesión principal); duda abierta: 3 líneas de ad-lib duplicadas (57/69/72)",
-      "actualizado": "2026-09-25T10:45:30Z",
+      "motivo": "QC VERDE; espera a Saul: 3 pares de lineas ad-lib casi duplicadas L56/57, L68/69, L71/72 (~3ms aparte), decidir si se borran antes de retimear",
+      "actualizado": "2026-09-25T13:45:48Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -23552,10 +23563,20 @@
             "v": "saul",
             "nota": "3 pares de lineas Eh eh eh casi duplicadas (idx55/56, 67/68, 70/71) con inicio a ~3ms una de otra (imposible secuencial); drift de linea 0 en todo lo demas; no se retimea sin confirmar audio",
             "t": "2026-09-25T10:36:52Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC adversarial: LRC/mapeo/estructura/ingles limpios; unica duda abierta = 3 duplicados ad-lib ya con Saul",
+            "t": "2026-09-25T13:45:37Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC adversarial: LRC/mapeo/estructura/ingles limpios; unica duda abierta = 3 duplicados ad-lib ya con Saul",
+          "t": "2026-09-25T13:45:37Z"
         }
       },
-      "motivo_en": "LRC and mapping closed; English (82 lines + 49+6 WITs) and 1 timing doubt are ready in a payload, blocked by the classifier (Modify Shared Resources); need the main session to apply the payload"
+      "motivo_en": "QC GREEN; waiting on Saul: 3 pairs of near-duplicate ad-lib lines L56/57, L68/69, L71/72 (~3ms apart), decide whether to delete before retiming"
     },
     {
       "coverTrackId": "6aa70af572ca57eb1aab36ca",
@@ -23770,11 +23791,11 @@
       "originalTrackId": "",
       "titulo": "Mi Linda Esposa",
       "artista": "Los Bukis",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-25T13:36:49Z",
-      "motivo_en": "no original in SingIt and no synced lyric in any source (lrclib only has other songs with the same name); the Los Bukis original needs an LRC written by hand (ISRC USFI29400832)",
+      "motivo": "todo limpio salvo el inglés: aprobado por otra cuenta y no se puede reabrir desde aquí",
+      "actualizado": "2026-09-25T13:43:46Z",
+      "motivo_en": "all clean except English: approved by another account and cannot be reopened from here",
       "auditoria": {
         "pasos": {
           "carry": {
