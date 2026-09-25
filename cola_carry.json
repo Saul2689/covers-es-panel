@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T14:00:31Z",
+  "generado": "2026-09-25T14:01:24Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23533,16 +23533,16 @@
       "originalTrackId": "695598306a05f13ba26775c8",
       "titulo": "Chantaje",
       "artista": "Shakira",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC VERDE; espera a Saul: 3 pares de lineas ad-lib casi duplicadas L56/57, L68/69, L71/72 (~3ms aparte), decidir si se borran antes de retimear",
-      "actualizado": "2026-09-25T13:45:48Z",
+      "motivo": "QC VERDE; duplicadas borradas",
+      "actualizado": "2026-09-25T14:01:24Z",
       "auditoria": {
         "pasos": {
           "lrc": {
             "v": "ok",
-            "nota": "5 ediciones tilde/¿: L25(x2 tu->tu con tilde), L27 tu posesivo (tus->tu + remap item), L36-37 que->que interrogativo + parentesis",
-            "t": "2026-09-25T10:30:41Z"
+            "nota": "borradas las 3 líneas ad-lib duplicadas (57/69/72), con OK de Saúl; también sus palabras del richsync; 79/79 líneas, drift 0; inglés y anclas intactos",
+            "t": "2026-09-25T14:01:20Z"
           },
           "carry": {
             "v": "ok",
@@ -23560,9 +23560,9 @@
             "t": "2026-09-25T10:45:09Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "3 pares de lineas Eh eh eh casi duplicadas (idx55/56, 67/68, 70/71) con inicio a ~3ms una de otra (imposible secuencial); drift de linea 0 en todo lo demas; no se retimea sin confirmar audio",
-            "t": "2026-09-25T10:36:52Z"
+            "v": "ok",
+            "nota": "drift 0 en las 79 líneas tras borrar duplicadas",
+            "t": "2026-09-25T14:01:22Z"
           },
           "qc": {
             "v": "ok",
