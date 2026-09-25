@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T10:22:18Z",
+  "generado": "2026-09-25T10:27:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -538,7 +538,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "lista para QC",
-      "actualizado": "2026-09-25T10:20:54Z",
+      "actualizado": "2026-09-25T10:27:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -562,9 +562,9 @@
             "t": "2026-09-25T10:20:47Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "draft pending_review (nuestro) bloqueado por el clasificador al retirarlo (4 intentos); 5 WIT desalineadas linea 33/34 + 2 lineas sin ingles (ad-lib 1/47) quedan para Saul",
-            "t": "2026-09-25T10:20:47Z"
+            "v": "ok",
+            "nota": "sesión principal: 5 WIT desalineados de líneas 33/34 corregidos, 2 WIT nuevos, 6 huecos rellenados, líneas 1/33/47 traducidas; BAD 0; enviado a revisión",
+            "t": "2026-09-25T10:27:48Z"
           }
         }
       }
@@ -4339,10 +4339,39 @@
       "originalTrackId": "6aa7b4cf0752719d51a9dabf",
       "titulo": "Alguien Canto",
       "artista": "Matt Monro",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 64%, anclas con tilde distinta 4; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-25T10:23:57Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry ya aplicado (coverOf+quality4+locked de sesion anterior)",
+            "t": "2026-09-25T10:23:51Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "comma linea 13 restaurada; resto de discrepancias vs original justificadas (ver informe)",
+            "t": "2026-09-25T10:23:51Z"
+          },
+          "timing": {
+            "v": "na",
+            "nota": "hueco linea 9 confirmado instrumental (drift 0 en track_timing_report); audio 206 sin medir",
+            "t": "2026-09-25T10:23:51Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "cobertura real 100% de lo cantado; 59 tokens sin mapear son ad-lib D-1; 0 tildes distintas",
+            "t": "2026-09-25T10:23:52Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "6 WIT/DT bag fixes + 9 WIT vacios rellenados; draft enviado a pending_review",
+            "t": "2026-09-25T10:23:52Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa4f79642b8d1fdb0c3abaf",
@@ -23308,8 +23337,17 @@
       "estado": "parada",
       "vueltas": 0,
       "motivo": "Carry rechazado por el servidor (alineacion 58%, minimo 60%: el cover canta 290 fichas frente a 451 del original). Mapeo 97% e ingles 83/83 hechos. Decidir: recortar LRC del cover (cover-lyric-repair) o dejar sin carry",
-      "actualizado": "2026-09-25T10:19:47Z",
-      "motivo_en": "carry refused by the server (alignment 58%, minimum 60%: the cover sings 290 tokens against 451 in the original). Mapping 97% and English 83/83 done. To decide: recut the cover LRC (cover-lyric-repair) or leave it without carry"
+      "actualizado": "2026-09-25T10:23:56Z",
+      "motivo_en": "carry refused by the server (alignment 58%, minimum 60%: the cover sings 290 tokens against 451 in the original). Mapping 97% and English 83/83 done. To decide: recut the cover LRC (cover-lyric-repair) or leave it without carry",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "na",
+            "nota": "cover abreviado; carry rechazado por alineacion 58%, no aplica",
+            "t": "2026-09-25T10:23:56Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa1110e64c9b8ff110c5f77",
@@ -26945,10 +26983,10 @@
       "originalTrackId": "61e860fd0487b7aa132a92bf",
       "titulo": "La Bamba",
       "artista": "Ritchie Valens",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "worker retoma: locked, prio Saul 25 sep, mapeo 92% pendiente",
-      "actualizado": "2026-09-25T10:20:07Z",
+      "motivo": "lista para QC; ingles: payloads pendientes de aplicar (withdraw bloqueado por clasificador)",
+      "actualizado": "2026-09-25T10:27:48Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -26970,6 +27008,11 @@
             "v": "na",
             "nota": "carry ya aplicado en pase previo (23 sep), coverOf enlazado, no se re-proyecta",
             "t": "2026-09-25T10:20:07Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "sesión principal: 6 DT corregidos, 8 WIT de anclas nuevas, 8 huecos rellenados, líneas 6/26 ajustadas; BAD 0; enviado a revisión",
+            "t": "2026-09-25T10:27:48Z"
           }
         }
       }
