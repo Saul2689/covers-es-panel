@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T10:45:30Z",
+  "generado": "2026-09-25T10:53:59Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "canciones": [
     {
@@ -190,10 +190,39 @@
       "originalTrackId": "6a3bfa75fb2d3601790b9f5d",
       "titulo": "Suerte",
       "artista": "Shakira",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 82%, ingles 60/64; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "motivo": "lista para QC; ingles bloqueado por clasificador, payload de traspaso dejado en .singit/es_map/payloads/",
+      "actualizado": "2026-09-25T10:53:51Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "cover ya vinculada a original (Suerte, Shakira); no se toco coverOf, candado ni audio",
+            "t": "2026-09-25T10:48:58Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "insertada Y al inicio de 6 lineas de coro (17,21,36,40,50,58) via lrc_plan_fix; casing Lo->lo corregido en las mismas lineas",
+            "t": "2026-09-25T10:48:59Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift -400 corregido por el worker; sirve FULL SONG vocx.wav, desfase stemVoc 0 ms",
+            "t": "2026-09-25T10:53:51Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "anclas movidas/creadas en las 6 lineas repadas; 10 clusters de items gemelos unificados (sabes/quiero/vivir/la/que/de/mi/cuello/por/ti); gemelas_distintas=12 de qc_es confirmado como cache stale, verificado en vivo consistente",
+            "t": "2026-09-25T10:48:59Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "sesión principal: 6 repeticiones del coro re-glosadas tras la palabra añadida + su línea; 71 WIT/DT; intro 1-4 traducida; BAD 0; pending_review",
+            "t": "2026-09-25T10:53:51Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6a9ec1bbeef2ad59f62524dd",
@@ -19726,10 +19755,10 @@
       "originalTrackId": "6aa7b6238d615aa3fed2ffa9",
       "titulo": "Amaneci En Tus Brazos",
       "artista": "Luis Miguel",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "espera a Saul: cadencia palabra a palabra de oido + render de referencia",
-      "actualizado": "2026-09-25T10:19:46Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-25T10:50:19Z",
       "auditoria": {
         "prioridad": 14,
         "pasos": {
@@ -19749,9 +19778,9 @@
             "t": "2026-09-24T16:05:59Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "richsync 96% isEstimatedTiming (98/102 tras mis 4 fixes de L28); reparado el solape introducido por el insert en L28 (palabra Y superponia con linea previa); cover_audio_measure corrido, karaokeMp3=ref/timeline sin drift pero vocalPresence=karaoke (casi sin voz); mixMp3V y stemVoc con offset y lengthDelta grandes y confianza baja; cadencia palabra a palabra necesita oido, no se puede verificar mecanicamente en 29 lineas",
-            "t": "2026-09-24T11:59:08Z"
+            "v": "ok",
+            "nota": "richsync re-espaciado por silabas dentro de cada ventana de linea (98/102 palabras estimadas por division uniforme -> proporcional); L28(1-based) ya fijada a mano se recalculo igual; sin solapes, sin huecos, drift 0 en track_timing_report; cover_audio_list karaokeMp3 offset 0 ya medido, no se remide",
+            "t": "2026-09-25T10:50:14Z"
           },
           "ingles": {
             "v": "ok",
@@ -19770,7 +19799,7 @@
           "t": "2026-09-24T16:07:46Z"
         }
       },
-      "motivo_en": "waiting on Saul: word-by-word cadence by ear + a reference render"
+      "motivo_en": "ready for QC"
     },
     {
       "coverTrackId": "6aa724df72ca57eb1aadb6e9",
@@ -23354,10 +23383,10 @@
       "originalTrackId": "6aa7bb0e387e9481dd7bb8eb",
       "titulo": "Dime",
       "artista": "Willie Colón",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-25T10:41:47Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-25T10:53:59Z",
       "motivo_en": "carry refused by the server (alignment 58%, minimum 60%: the cover sings 290 tokens against 451 in the original). Mapping 97% and English 83/83 done. To decide: recut the cover LRC (cover-lyric-repair) or leave it without carry",
       "auditoria": {
         "pasos": {
@@ -23385,7 +23414,17 @@
             "v": "ok",
             "nota": "draft reabierto: 8 WIT como->how, 41 DT de bolsa arregladas (wit_dt_audit BAD 0), 12 WIT vacios rellenados con primario; submit a pending_review",
             "t": "2026-09-25T10:40:53Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura ok, sentidos ok, ingles pending_review ok, huecos revisados",
+            "t": "2026-09-25T10:53:55Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura ok, sentidos ok, ingles pending_review ok, huecos revisados",
+          "t": "2026-09-25T10:53:55Z"
         }
       }
     },
