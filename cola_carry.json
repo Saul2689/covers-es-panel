@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-29T16:57:04Z",
+  "generado": "2026-09-29T17:11:35Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -361,10 +361,40 @@
       "originalTrackId": "6aa7d7eb8d615aa3fed583e6",
       "titulo": "M&m",
       "artista": "Neton Vega",
-      "estado": "correccion",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 84%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "motivo": "el classifier bloqueó escribir las traducciones de 3 items nuevos en PROD; lote listo en jobs/lote_tr_6a9ec222.json, 4 anclas sin DT hasta aplicarlo",
+      "actualizado": "2026-09-29T17:04:45Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "na",
+            "nota": "cover de biblioteca; sincronia y timing sin cambios (drift 0)",
+            "t": "2026-09-29T17:04:05Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "l11 y l14 homoglifo cirilico a latino; l14 tok5 mi->el (original); l16 borradas 3 palabras que el original no trae; nombres propios con mayuscula justificados",
+            "t": "2026-09-29T17:04:06Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en las 23 lineas; audio 206 (karaokeMp3, unico render, SUENA_SIN_BLINDAR, sin tocar)",
+            "t": "2026-09-29T17:04:06Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "hecho: 3 items nuevos (enfiesto, atraso, paso), 2 phrase items nuevos, 7 phrase insights, 10 remapeos, gemelas 7/20 unificadas. FALTA: traducir a 19 idiomas los 3 items (prod_write bloqueado por el clasificador); lote listo en .singit/es_audit/jobs/lote_tr_6a9ec222.json",
+            "t": "2026-09-29T17:04:06Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft pending_review: lineas 14 y 16 re-traducidas, 0 WIT sin texto, 7 PIT; enfiesto/atraso/paso sin DT hasta aplicar el lote",
+            "t": "2026-09-29T17:04:06Z"
+          }
+        }
+      },
+      "motivo_en": "the classifier blocked writing translations for 3 new PROD items; batch ready in jobs/lote_tr_6a9ec222.json, 4 anchors lack a DT until it is applied"
     },
     {
       "coverTrackId": "6aa1110864c9b8ff110c4e31",
@@ -2186,10 +2216,10 @@
       "originalTrackId": "6ab3a9a13f41c3e840054480",
       "titulo": "Inevitable",
       "artista": "Shakira",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "vuelta 1 corregida, lista para QC",
-      "actualizado": "2026-09-29T16:49:32Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-29T17:11:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2218,15 +2248,21 @@
             "t": "2026-09-29T16:36:33Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "3 phrase items nuevos sin ejemplos ni constituentWords; resto (estructura, mapeo, ingles, timing) OK",
-            "t": "2026-09-29T16:46:26Z"
+            "v": "ok",
+            "nota": "vuelta 2: phrase items con ejemplos y constituyentes, estructura intacta, ingles en pending_review, wit_dt BAD 0",
+            "t": "2026-09-29T17:11:16Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "3 phrase items nuevos sin ejemplos ni constituentWords; resto (estructura, mapeo, ingles, timing) OK",
-          "t": "2026-09-29T16:46:26Z"
+          "v": "VERDE",
+          "resumen": "vuelta 2: phrase items con ejemplos y constituyentes, estructura intacta, ingles en pending_review, wit_dt BAD 0",
+          "t": "2026-09-29T17:11:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-29T17:11:17Z"
         }
       }
     },
@@ -2884,7 +2920,26 @@
       "estado": "correccion",
       "vueltas": 0,
       "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 84%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "actualizado": "2026-09-29T17:08:35Z",
+      "auditoria": {
+        "pasos": {
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 1 quizas->quiza, linea 4 insertada Y inicial + minuscula, linea 7 quiera duplicada borrada; mayusculas medias = nombres propios; lineas 24-26 signos = igual que el original",
+            "t": "2026-09-29T17:08:34Z"
+          },
+          "carry": {
+            "v": "na",
+            "nota": "cover de biblioteca con original vinculado; sin carry necesario, sincronia sin drift",
+            "t": "2026-09-29T17:08:34Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; audio SUENA_SIN_BLINDAR (206, solo karaoke, sin stemVoc); linea 4 arrancada 400ms antes por la Y",
+            "t": "2026-09-29T17:08:35Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6b6c272ca57eb1aa40627",
@@ -6260,9 +6315,9 @@
       "titulo": "Mirala Miralo",
       "artista": "Alejandra Guzmán",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-29T16:49:02Z",
+      "vueltas": 2,
+      "motivo": "vuelta 2 corregida (ancla sobrante borrada), lista para QC",
+      "actualizado": "2026-09-29T17:10:22Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -6289,7 +6344,17 @@
             "v": "ok",
             "nota": "carry aplicado antes de la auditoria",
             "t": "2026-09-29T16:44:29Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "1 ancla fuera de rango en linea 49 (wordIdx 7, item null); resto verde",
+            "t": "2026-09-29T17:09:14Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "1 ancla fuera de rango en linea 49 (wordIdx 7, item null); resto verde",
+          "t": "2026-09-29T17:09:14Z"
         }
       }
     },
@@ -16875,10 +16940,10 @@
       "originalTrackId": "6aa7d5b7f0f8e5713e6bddb3",
       "titulo": "Mi Corazon Es Un Gitano",
       "artista": "Nicola di Bari",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-29T16:46:06Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "linea 5 tok 1: homografo mas/mas (ver reviews/6aa1111e64c9b8ff110c92f0.md)",
+      "actualizado": "2026-09-29T17:04:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16905,7 +16970,17 @@
             "v": "ok",
             "nota": "draft en pending_review: lineas 1,18,31,32,38 + 46 WIT; 0 WIT vacíos, wit_dt_audit BAD 0",
             "t": "2026-09-29T16:46:06Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 5 tok 1: mas/mas sin resolver (LRC con tilde, WIT ingles 'but'); resto verde",
+            "t": "2026-09-29T17:04:38Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 5 tok 1: mas/mas sin resolver (LRC con tilde, WIT ingles 'but'); resto verde",
+          "t": "2026-09-29T17:04:38Z"
         }
       }
     },
@@ -22146,16 +22221,36 @@
       "originalTrackId": "6aa7d7d9387e9481dd7e2257",
       "titulo": "Lola",
       "artista": "Chayanne",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 91%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-29T16:56:48Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-29T17:04:13Z",
       "auditoria": {
         "pasos": {
           "lrc": {
             "v": "ok",
             "nota": "LRC corregido por linea: 13,27,29,30,33,37,53,63 (errata, tildes, palabra sobrante/faltante, mayuscula); cortes de fila 13/14, 37/38, 53/54 y 61-64 distintos del original por estilo del proveedor",
             "t": "2026-09-29T16:56:48Z"
+          },
+          "carry": {
+            "v": "na",
+            "nota": "cover de biblioteca con su propia sincronia; sin carry",
+            "t": "2026-09-29T17:03:23Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 74 lineas; linea 33 (nueva primera palabra) reajustada; audio guard SUENA_SIN_BLINDAR, no se mide",
+            "t": "2026-09-29T17:03:23Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "remapeados: eco ola (l18,42,58,68,63), tu con tilde (l30), como unificado, gemelas 13/37/53, 33 vs 9 y 72/74; sin mapear = nombre propio, ingles suelto, onomatopeya (D-1..D-3)",
+            "t": "2026-09-29T17:04:13Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "borrador ingles pending_review: lineas 33 y 63 retraducidas, 73 WIT escritos, 0 anclas sin texto, wit_dt_audit BAD 0",
+            "t": "2026-09-29T17:03:24Z"
           }
         }
       }
@@ -23302,10 +23397,10 @@
       "originalTrackId": "6aa7b9930752719d51aa39f5",
       "titulo": "De Que Te Quejas Mujer?",
       "artista": "Pepe Aguilar",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC devuelto: borrar 9 anclas fuera de rango con word_insight_delete; L4 tok3 tilde (cómo) y remapear; L11/17/25/31 tok1 'y' al item copulativo",
-      "actualizado": "2026-09-29T16:52:05Z",
+      "motivo": "vuelta 1 corregida, lista para QC",
+      "actualizado": "2026-09-29T17:02:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24653,10 +24748,39 @@
       "originalTrackId": "6aa7bad28d615aa3fed36a67",
       "titulo": "El Breve Espacio En Que No Estas",
       "artista": "Pablo Milanés",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Lote 3: mapeo 96%, ingles 42/42; creando 4 items es",
-      "actualizado": "2026-09-23T10:59:40Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-29T17:11:32Z",
+      "auditoria": {
+        "pasos": {
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC: estás, mas x5, a en líneas 20/34, tildes líneas 40-42 (plan lrc_plan_fix)",
+            "t": "2026-09-29T17:08:18Z"
+          },
+          "carry": {
+            "v": "na",
+            "nota": "carry ya aplicado (original vinculado); no se re-proyecta",
+            "t": "2026-09-29T17:08:18Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "sin deriva; palabra de 0 ms de la linea 39 corregida; audio SUENA_SIN_BLINDAR",
+            "t": "2026-09-29T17:11:32Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "items nuevos sin traducir a 19 idiomas (escritura PROD bloqueada); lote listo",
+            "t": "2026-09-29T17:11:32Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "borrador pending_review; linea 6 re-traducida; WIT 0 sin texto; falta DT de un item nuevo",
+            "t": "2026-09-29T17:11:32Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6730f72ca57eb1a9ee82a",
@@ -25321,10 +25445,10 @@
       "originalTrackId": "6aa7d3af8d615aa3fed5138a",
       "titulo": "Locuras Tengo De Ti",
       "artista": "Silvana Di Lorenzo",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC: phrase item tal vez L11/L25/L26 y sentido intentar de trataba L7 p0",
-      "actualizado": "2026-09-29T16:55:33Z",
+      "motivo": "vuelta 1 corregida, lista para QC",
+      "actualizado": "2026-09-29T17:03:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25344,13 +25468,13 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "153 anclas; 9 sin mapear = ad-libs la-la (D-1); remapeadas 4: estas x2 -> item estas con tilde, tengo L16 -> sentido posesion, mi L13 -> posesivo limpio",
-            "t": "2026-09-29T16:44:37Z"
+            "nota": "vuelta 1: 3 phrase insights tal vez + item nuevo sentido intentar para trataba (19 idiomas) remapeado",
+            "t": "2026-09-29T17:03:11Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "borrador enviado a pending_review: 19 WIT rellenados/ajustados, 0 anclas sin texto, wit_dt_audit BAD 0, 42/42 lineas",
-            "t": "2026-09-29T16:44:37Z"
+            "nota": "vuelta 1: PIT x3 y WIT trataba con DT nuevo; reenviado a pending_review, wit_dt_audit BAD 0",
+            "t": "2026-09-29T17:03:11Z"
           },
           "qc": {
             "v": "falta",
@@ -27243,7 +27367,26 @@
       "estado": "correccion",
       "vueltas": 0,
       "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 81%, carry no aplicado; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "actualizado": "2026-09-29T17:10:54Z",
+      "auditoria": {
+        "pasos": {
+          "lrc": {
+            "v": "ok",
+            "nota": "L1-110: tildes, ¿? y nombre propio; L9 +Y; L19 hicieron; L26 él; L37 están (original de referencia)",
+            "t": "2026-09-29T17:07:13Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "recompletado: 0 gemelas, 0 tilde-item; nuevos items nota/notas/niche/niches (traducidos 19); resto qc justificado en informe",
+            "t": "2026-09-29T17:10:53Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "linea 9 empieza en su primera palabra; audio guard SUENA_SIN_BLINDAR (206, solo karaoke)",
+            "t": "2026-09-29T17:10:54Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7664d72ca57eb1ab330cf",
