@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-29T17:11:35Z",
+  "generado": "2026-09-29T17:17:09Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2917,10 +2917,10 @@
       "originalTrackId": "6aa7d5c58d615aa3fed53666",
       "titulo": "Mediterraneo",
       "artista": "Joan Manuel Serrat",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 84%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-29T17:08:35Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-29T17:11:36Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -2937,6 +2937,16 @@
             "v": "ok",
             "nota": "drift 0; audio SUENA_SIN_BLINDAR (206, solo karaoke, sin stemVoc); linea 4 arrancada 400ms antes por la Y",
             "t": "2026-09-29T17:08:35Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "quizá con tilde; guardo y daré al sentido correcto; que relativo en linea 10; gemelas de 'el' unificadas; anclas de lineas 4 y 7 reubicadas. Sin mapear: nombres propios (Algeciras, Estambul, Mediterráneo x5) y vocables lai/rai (D-1..D-3)",
+            "t": "2026-09-29T17:11:36Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "borrador en pending_review: lineas 4,7,10,25-26,50-52 retraducidas, 48 WIT con texto, todas las anclas con WIT, wit_dt_audit BAD 0",
+            "t": "2026-09-29T17:11:36Z"
           }
         }
       }
@@ -16940,10 +16950,10 @@
       "originalTrackId": "6aa7d5b7f0f8e5713e6bddb3",
       "titulo": "Mi Corazon Es Un Gitano",
       "artista": "Nicola di Bari",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "linea 5 tok 1: homografo mas/mas (ver reviews/6aa1111e64c9b8ff110c92f0.md)",
-      "actualizado": "2026-09-29T17:04:38Z",
+      "motivo": "vuelta 1 corregida, lista para QC",
+      "actualizado": "2026-09-29T17:13:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18239,10 +18249,10 @@
       "originalTrackId": "6ab3a9c85f63b018fdcd400b",
       "titulo": "Ni Rosas Ni Juguetes",
       "artista": "Paulina Rubio",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-29T16:51:12Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-29T17:14:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18269,7 +18279,23 @@
             "v": "ok",
             "nota": "draft reabierto y reenviado a pending_review; linea 7 y WIT re-hechos; lara x3 y ra con WIT; wit_dt_audit BAD 0; 0 anclas sin texto",
             "t": "2026-09-29T16:51:11Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles y timing OK; restos de qc justificados (ad-libs, nombre propio)",
+            "t": "2026-09-29T17:14:07Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles y timing OK; restos de qc justificados (ad-libs, nombre propio)",
+          "t": "2026-09-29T17:14:07Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-29T17:14:08Z"
         }
       }
     },
@@ -23397,10 +23423,10 @@
       "originalTrackId": "6aa7b9930752719d51aa39f5",
       "titulo": "De Que Te Quejas Mujer?",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "vuelta 1 corregida, lista para QC",
-      "actualizado": "2026-09-29T17:02:13Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-29T17:16:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23429,15 +23455,21 @@
             "t": "2026-09-29T16:39:56Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "9 anclas fuera de rango sin borrar (usar word_insight_delete); L4 tok3 como->cómo (tilde + item); L11/17/25/31 tok1 'y' con sentido enfático en vez de copulativo",
-            "t": "2026-09-29T16:52:04Z"
+            "v": "ok",
+            "nota": "vuelta 2: 9 anclas sobrantes borradas, como->cómo, y inicial unificada; 148/148 anclas, drift 0, wit_dt BAD 0, ingles 32/32 en pending_review",
+            "t": "2026-09-29T17:16:45Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "9 anclas fuera de rango sin borrar (usar word_insight_delete); L4 tok3 como->cómo (tilde + item); L11/17/25/31 tok1 'y' con sentido enfático en vez de copulativo",
-          "t": "2026-09-29T16:52:04Z"
+          "v": "VERDE",
+          "resumen": "vuelta 2: 9 anclas sobrantes borradas, como->cómo, y inicial unificada; 148/148 anclas, drift 0, wit_dt BAD 0, ingles 32/32 en pending_review",
+          "t": "2026-09-29T17:16:45Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-29T17:16:46Z"
         }
       }
     },
@@ -24748,10 +24780,10 @@
       "originalTrackId": "6aa7bad28d615aa3fed36a67",
       "titulo": "El Breve Espacio En Que No Estas",
       "artista": "Pablo Milanés",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-29T17:11:32Z",
+      "motivo": "el classifier bloqueó escribir las traducciones de 7 items nuevos en PROD; lote listo en es_map/payloads/6aa1112064c9b8ff110c993d/lote_translations.json; líneas 25 y 39 con un ad-lib anclado a un nombre artístico",
+      "actualizado": "2026-09-29T17:11:55Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -24780,7 +24812,8 @@
             "t": "2026-09-29T17:11:32Z"
           }
         }
-      }
+      },
+      "motivo_en": "the classifier blocked writing translations for 7 new PROD items; batch ready in es_map/payloads/6aa1112064c9b8ff110c993d/lote_translations.json; lines 25 and 39 have an ad-lib anchored to a stage-name item"
     },
     {
       "coverTrackId": "6aa6730f72ca57eb1a9ee82a",
@@ -27364,10 +27397,10 @@
       "originalTrackId": "6aa7d3b1f0f8e5713e6ba98c",
       "titulo": "Ligia Elena",
       "artista": "Rubén Blades",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 81%, carry no aplicado; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-29T17:10:54Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-29T17:16:40Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -27384,6 +27417,16 @@
             "v": "ok",
             "nota": "linea 9 empieza en su primera palabra; audio guard SUENA_SIN_BLINDAR (206, solo karaoke)",
             "t": "2026-09-29T17:10:54Z"
+          },
+          "carry": {
+            "v": "na",
+            "nota": "coverOf enlazado; letra distinta en directo, se arregla encima sin re-proyectar",
+            "t": "2026-09-29T17:16:39Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft en pending_review: L9, L37 + 98 WIT; wit_dt_audit BAD 0, vacios 0",
+            "t": "2026-09-29T17:16:39Z"
           }
         }
       }
