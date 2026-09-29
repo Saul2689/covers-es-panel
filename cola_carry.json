@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-29T17:40:12Z",
+  "generado": "2026-09-29T17:49:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -1364,19 +1364,40 @@
       "originalTrackId": "6ab3a9b23f41c3e84005475d",
       "titulo": "Loca",
       "artista": "Shakira",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "Original importado hoy por ISRC (sin video); richsync + mapeo + match + carry en curso",
-      "actualizado": "2026-09-29T17:36:36Z",
+      "motivo": "carry, letra, timing y mapeo hechos; el classifier denegó abrir el draft de inglés (faltan 50 líneas, borrador en es_map/payloads/6aa4ed1a42b8d1fdb0c22703/en_lines_draft_idx0.json); líneas 15, 23 y 44 de oído",
+      "actualizado": "2026-09-29T17:46:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry aplicado (93% alineado, 17 decisiones useSingitWord por regla, 82 hints pin/spell)",
             "t": "2026-09-29T17:36:36Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "15 inserts (ti/y/Yo), 5 deletes (Ca., Y, ')'), 3 minusculas; richsync limpio; L15/23/44 Yo por el original (de oido)",
+            "t": "2026-09-29T17:44:53Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 tras inserts/deletes en idx 0 (7 lineas); guard SUENA_SIN_BLINDAR, audio 206, sin pin ni measure",
+            "t": "2026-09-29T17:44:54Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear enseñable; gemelas unificadas (que, con, yo, bruto, esta, loca); nuevos anclas ti/y/Yo con items del original; restan ad-libs, ingles, BM, ra-ta-ta",
+            "t": "2026-09-29T17:46:04Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "reabrir borrador ingles: song_translation_approval_start_draft denegado por el clasificador; faltan 50 lineas (payload listo) + WIT de todas las anclas movidas (wit_dt_audit BAD 12)",
+            "t": "2026-09-29T17:46:04Z"
           }
         }
-      }
+      },
+      "motivo_en": "carry, lyric, timing and mapping done; the classifier denied opening the English draft (50 lines missing, draft in es_map/payloads/6aa4ed1a42b8d1fdb0c22703/en_lines_draft_idx0.json); lines 15, 23 and 44 to check by ear"
     },
     {
       "coverTrackId": "6a9f5bc5eef2ad59f68e5430",
@@ -1675,10 +1696,40 @@
       "originalTrackId": "6aa7ba830752719d51aa506c",
       "titulo": "El Niagara En Bicicleta",
       "artista": "Juan Luis Guerra",
-      "estado": "correccion",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 87%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "motivo": "el classifier denegó escribir las traducciones de 34 items nuevos en PROD; lote listo en es_map/payloads/6aa1110e64c9b8ff110c5c59/lote_translate.json; 3 WIT sin DT y el borrador de inglés sin enviar hasta aplicarlo; línea 13: ancla apunta a un item ajeno",
+      "actualizado": "2026-09-29T17:49:49Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "na",
+            "nota": "ya tenia carry; no se re-proyecta",
+            "t": "2026-09-29T17:48:22Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 1: quitada 'Y' inicial espuria; linea 6: 'E -> de; linea 8: insertada 'la'; linea 39: insertada palabra final que falta; linea 40: hasta -> a. Resto justificado en informe (apiade, alguien del outro, nombres propios, ad-libs)",
+            "t": "2026-09-29T17:48:23Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "linea 1 arrastrada a su primera palabra (+70 ms); hueco de 33 s tras linea 32 es instrumental (el original tampoco tiene letra ahi); audio guard SUENA_SIN_BLINDAR: no se toca (solo karaokeMp3)",
+            "t": "2026-09-29T17:48:23Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "34 items nuevos creados en PROD y mapeados (0 tokens sin mapear salvo nombres propios/ad-libs); FALTA traducirlos a 19 idiomas: el lote esta listo pero el clasificador bloqueo prod_write; ver informe",
+            "t": "2026-09-29T17:48:23Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "draft en abierto (no enviado): lineas 1, 8, 39 corregidas y WIT re-alineados; faltan DT en 3 WIT y 34 items sin traducir; tras aplicar el lote: wit_dt_audit -> BAD 0 y enviar",
+            "t": "2026-09-29T17:48:23Z"
+          }
+        }
+      },
+      "motivo_en": "the classifier denied writing translations for 34 new PROD items; batch ready in es_map/payloads/6aa1110e64c9b8ff110c5c59/lote_translate.json; 3 WITs lack a DT and the English draft stays unsubmitted until it is applied; line 13: anchor points to an unrelated item"
     },
     {
       "coverTrackId": "6aa56fd442b8d1fdb0cd4359",
@@ -6438,10 +6489,10 @@
       "originalTrackId": "6ab3a4123f41c3e840045424",
       "titulo": "Mirala Miralo",
       "artista": "Alejandra Guzmán",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "vuelta 2 corregida (ancla sobrante borrada), lista para QC",
-      "actualizado": "2026-09-29T17:10:22Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-29T17:43:54Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -6470,15 +6521,21 @@
             "t": "2026-09-29T16:44:29Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "1 ancla fuera de rango en linea 49 (wordIdx 7, item null); resto verde",
-            "t": "2026-09-29T17:09:14Z"
+            "v": "ok",
+            "nota": "ronda 3: ancla sobrante borrada, 233/233, qc justificado, ingles pending_review, BAD 0",
+            "t": "2026-09-29T17:43:54Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "1 ancla fuera de rango en linea 49 (wordIdx 7, item null); resto verde",
-          "t": "2026-09-29T17:09:14Z"
+          "v": "VERDE",
+          "resumen": "ronda 3: ancla sobrante borrada, 233/233, qc justificado, ingles pending_review, BAD 0",
+          "t": "2026-09-29T17:43:54Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-29T17:43:54Z"
         }
       }
     },
@@ -8479,10 +8536,25 @@
       "originalTrackId": "6ab3a9f64d09fbf129f42cc7",
       "titulo": "La Puerta De Alcala",
       "artista": "Ana Belén",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "Original importado hoy por ISRC (sin video); richsync + mapeo + match + carry en curso",
-      "actualizado": "2026-09-23T10:34:25Z"
+      "motivo": "carry sin aplicar: el clasificador bloqueo la escritura de hints en PROD; hints listos en work/*_myhints.json",
+      "actualizado": "2026-09-29T17:46:03Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "carry NO aplicado: escritura PROD de hints bloqueada por el clasificador; hints listos en cover_repair/work/6aa7310372ca57eb1aaee692_myhints.json (70 pins + 17 spells, alineacion NW)",
+            "t": "2026-09-29T17:45:54Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en las 118 lineas; audio_guard SUENA_SIN_BLINDAR (204/206, sin stemVoc medido): no se toca; quedan 15 filas duplicadas a ~3 ms (lineas 60,62,77,79 y 90-118 pares) que se resolveran tras el carry",
+            "t": "2026-09-29T17:45:54Z"
+          }
+        }
+      },
+      "motivo_en": "carry not applied: the classifier blocked the PROD hint-set write; hints prepared in work/*_myhints.json"
     },
     {
       "coverTrackId": "6aa54b4942b8d1fdb0cb4b07",
@@ -10957,10 +11029,39 @@
       "originalTrackId": "6aa7b996387e9481dd7b9a1a",
       "titulo": "Deportivo",
       "artista": "Blessd",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Lote 3: mapeo 90%, ingles 66/66; creando 13 items es que faltan",
-      "actualizado": "2026-09-23T10:59:39Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-29T17:40:53Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "sin carry propio: cover de biblioteca con letra sincronizada, sin pisar nada",
+            "t": "2026-09-29T17:40:52Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "14 ediciones, 2 uniones, 4 borrados y 3 inserciones por reglas del original (lineas 1,3,4,18,22,27,37,46,49-55,65); elisiones y ad-libs respetados; L24 y L54 dudosas justificadas en informe",
+            "t": "2026-09-29T17:40:52Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en las 66 lineas, primera linea 11,8 s; audio guard SUENA_SIN_BLINDAR (206), sin medir ni fijar",
+            "t": "2026-09-29T17:40:52Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "9 items nuevos + Georgina traducidos a mano (19 idiomas, missing=0); gemelas unificadas, si/sí L3 y L61, este, me, bebé; quedan 8 sin mapear = ad-libs/onomatopeyas (lineas 2,27,31,32,63)",
+            "t": "2026-09-29T17:40:53Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "borrador reabierto y reenviado a pending_review: wit_dt_audit BAD 0, 0 anclas sin texto de 484, 11 lineas corregidas",
+            "t": "2026-09-29T17:40:53Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa81f69d951e1665a808846",
@@ -24235,10 +24336,39 @@
       "originalTrackId": "6aa7d5b98d615aa3fed534bc",
       "titulo": "Hawaii Bombay",
       "artista": "Mecano",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 68%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-29T17:47:04Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "na",
+            "nota": "cover con carry ya aplicado; no se reproyecta",
+            "t": "2026-09-29T17:47:03Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "lineas 14-15 corregidas contra el original (mismas 6 palabras repartidas en dos lineas), punto y coma en linea 32, insertado ay al final de linea 22 (el cover canta 3 ay; la letra solo traia 2). Mayusculas medias = nombres propios",
+            "t": "2026-09-29T17:47:03Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; palabras y linea 23 recolocadas al patron de las otras repeticiones (+2,4 s); huecos = instrumental del original; audio SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-09-29T17:47:03Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "42 sin mapear = nombres propios Hawaii/Bombay y onomatopeya Tachin; gemelas unificadas; nuevo item machin (nombre propio) y remapeos linea 15",
+            "t": "2026-09-29T17:47:03Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft en pending_review; 142 anclas con texto WIT; wit_dt_audit BAD 0",
+            "t": "2026-09-29T17:47:03Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa1110e64c9b8ff110c618c",
@@ -27576,10 +27706,10 @@
       "originalTrackId": "6aa7d3b1f0f8e5713e6ba98c",
       "titulo": "Ligia Elena",
       "artista": "Rubén Blades",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-29T17:16:40Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC devuelto: L23/L63 trompeta masculino (item nuevo), L65 y L75 se inherente; reabrir ingles y reenviar",
+      "actualizado": "2026-09-29T17:48:15Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -27606,7 +27736,17 @@
             "v": "ok",
             "nota": "draft en pending_review: L9, L37 + 98 WIT; wit_dt_audit BAD 0, vacios 0",
             "t": "2026-09-29T17:16:39Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "sentidos mal mapeados: L23 y L63 trompeta (musico, no instrumento; falta item masculino), L65 y L75 se (inherente, no reflexivo/pasivo); resto verificado OK",
+            "t": "2026-09-29T17:48:15Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "sentidos mal mapeados: L23 y L63 trompeta (musico, no instrumento; falta item masculino), L65 y L75 se (inherente, no reflexivo/pasivo); resto verificado OK",
+          "t": "2026-09-29T17:48:15Z"
         }
       }
     },
