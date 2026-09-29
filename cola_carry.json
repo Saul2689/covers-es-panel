@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-29T16:18:05Z",
+  "generado": "2026-09-29T16:31:45Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9163,10 +9163,10 @@
       "originalTrackId": "6aa7d3b3f0f8e5713e6ba9da",
       "titulo": "Mi Golondrina",
       "artista": "Ramon Ayala Y Sus Bravos Del Norte",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-29T16:14:01Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-29T16:21:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9193,7 +9193,23 @@
             "v": "ok",
             "nota": "draft reabierto, 30 lineas, WIT con texto en 132/132, wit_dt_audit BAD 0, 4 PIT; enviado a pending_review",
             "t": "2026-09-29T16:14:01Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC ok: qc_es solo correcciones justificadas, estructura y timing intactos, anclas y sentidos correctos, ingles pending_review completo, wit_dt BAD 0",
+            "t": "2026-09-29T16:20:59Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC ok: qc_es solo correcciones justificadas, estructura y timing intactos, anclas y sentidos correctos, ingles pending_review completo, wit_dt BAD 0",
+          "t": "2026-09-29T16:20:59Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-29T16:21:00Z"
         }
       }
     },
@@ -11095,10 +11111,10 @@
       "originalTrackId": "6aa7d64ef0f8e5713e6beb29",
       "titulo": "Julian",
       "artista": "Joan Sebastian",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-29T16:15:35Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-29T16:24:04Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -11125,7 +11141,23 @@
             "v": "ok",
             "nota": "borrador en pending_review: 0 WIT sin texto, wit_dt_audit BAD 0, PIT da capo, 24/24 lineas",
             "t": "2026-09-29T16:15:35Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles (draft pending_review) y audio verificados; restos justificados",
+            "t": "2026-09-29T16:24:03Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles (draft pending_review) y audio verificados; restos justificados",
+          "t": "2026-09-29T16:24:03Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-29T16:24:04Z"
         }
       }
     },
@@ -13583,9 +13615,9 @@
       "titulo": "Brindo Por Ti Y Por Mi",
       "artista": "Tormenta",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-29T16:15:35Z",
+      "vueltas": 1,
+      "motivo": "vuelta 1 corregida, lista para QC",
+      "actualizado": "2026-09-29T16:28:49Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -13612,7 +13644,17 @@
             "v": "na",
             "nota": "sin carry: cover de biblioteca; reparada encima con lrc_plan_fix",
             "t": "2026-09-29T16:15:35Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "todo correcto salvo 3 anclas de 'y' inicial (L2, L13, L16 t0) en sentido intensificador; remapear a la conjuncion generica",
+            "t": "2026-09-29T16:27:38Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "todo correcto salvo 3 anclas de 'y' inicial (L2, L13, L16 t0) en sentido intensificador; remapear a la conjuncion generica",
+          "t": "2026-09-29T16:27:38Z"
         }
       }
     },
@@ -14535,10 +14577,39 @@
       "originalTrackId": "6ab3ad9f5f63b018fdce04e9",
       "titulo": "Mi Gran Noche",
       "artista": "Salvatore Adamo",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Original Adamo importado hoy por ISRC QM6P41783438 (6ab3ad9f5f63b018fdce04e9, letra lrclib 24 lineas, posibles erratas a revisar de oido); carry en curso",
-      "actualizado": "2026-09-23T10:45:03Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-29T16:27:26Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry hecho antes de esta pasada; original Adamo enlazado",
+            "t": "2026-09-29T16:27:25Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "25 lineas: tildes comidas (map), hipnoticé, línea 32 con signos y palabra 'a' insertada; variantes del cover (saquito, lino, por eso, chico, años) confirmadas de oído con ASR y NO tocadas; falta 'que' en línea 26 no probable (sin hueco)",
+            "t": "2026-09-29T16:27:25Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; audio 206 stemVoc, guard SUENA_SIN_BLINDAR, no se mide; ASR confirma sincronía",
+            "t": "2026-09-29T16:27:25Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "11 anclas remapeadas y línea 32 re-anclada; 'dancing' sin item es (inglés). Falta fila 'master' en bolsa del item 'amo' (clasificador bloqueó la escritura; payload en es_map/payloads)",
+            "t": "2026-09-29T16:27:25Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft pending_review: 71 líneas, 254 WIT con texto, wit_dt_audit BAD 0; PIT por eso",
+            "t": "2026-09-29T16:27:26Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7b8772367b69ab7023df2",
@@ -15031,10 +15102,39 @@
       "originalTrackId": "6aa7d5c1f0f8e5713e6bdff9",
       "titulo": "Insensible",
       "artista": "Juan Gabriel",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 92%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-29T16:26:07Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "na",
+            "nota": "cover ya con contenido; sin re-proyectar (arreglos encima con lrc_plan_fix)",
+            "t": "2026-09-29T16:26:06Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "lineas 6,9,10,13,19,20,26: palabras que faltan frente al original (insertadas), un 'no' de mas quitado, signos del final; backup pre_audit. Queda 'hi' (L17 tok3) ad-lib dudoso; el cover omite 2 versos del original (no se anaden, no hay hueco)",
+            "t": "2026-09-29T16:26:06Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 26 lineas; hueco de 32s antes de L13 justificado (original sin linea cantada); palabras insertadas retemporizadas dentro de su linea; audio guard SUENA_SIN_BLINDAR (aud 206, sin stemVoc/mixMp3V medidos): nada que hacer",
+            "t": "2026-09-29T16:26:07Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "7 items nuevos (insensible x4 formas, exclamo, extranado, voltee) + 3 phrase items (tal vez, ahora mismo, lo mismo que) traducidos a 19 langs; 0 sin_mapear salvo 'hi'; siento remapeado al sentido correcto; gemelas unificadas; outro 'no' unificado",
+            "t": "2026-09-29T16:26:07Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft en pending_review: 6 lineas re-traducidas, 36 WIT reescritos, 0 sin texto, wit_dt_audit BAD 0",
+            "t": "2026-09-29T16:26:07Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa827aed951e1665a814939",
@@ -20344,10 +20444,40 @@
       "originalTrackId": "6aa7d7df8d615aa3fed58284",
       "titulo": "Mentira",
       "artista": "Hernaldo Zúñiga",
-      "estado": "correccion",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "Lote 3: mapeo 95%, ingles 34/34; creando 6 items es + 2 sentidos",
-      "actualizado": "2026-09-23T10:59:40Z"
+      "motivo": "a medias: LRC, timing e inglés hechos; el classifier bloqueó crear 16 items en PROD (payloads listos). Falta el permiso de Saúl para crearlos, luego 9 anclas + 3 sentidos + WIT + enviar el borrador",
+      "actualizado": "2026-09-29T16:28:43Z",
+      "auditoria": {
+        "pasos": {
+          "lrc": {
+            "v": "ok",
+            "nota": "Editados 7 tokens (líneas 1, 4, 10, 17, 23, 32): errata vs original, mayúscula media, tildes de más/menos, punto final; sin cambio de nº de tokens",
+            "t": "2026-09-29T16:19:17Z"
+          },
+          "carry": {
+            "v": "ok",
+            "nota": "Sin cambios: carry ya aplicado, no se re-proyecta",
+            "t": "2026-09-29T16:27:45Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "Drift 0 en las 34 líneas; audio guard SUENA_SIN_BLINDAR (timeline karaokeMp3, /audio 206, sin medición de stemVoc: no se mide ni se pina). La voz del stem se apaga a los 224 s: la línea 34 termina en la palabra 4",
+            "t": "2026-09-29T16:27:45Z"
+          },
+          "mapeo": {
+            "v": "falta",
+            "nota": "Bloqueado por el clasificador (creación de 16 items en PROD): payloads listos en es_map/payloads/6aa110ee64c9b8ff110bf0b7. Hecho: 5 anclas remapeadas, frase 'de pronto' línea 5, gemelas unificadas. Faltan 9 huecos y 4 sentidos de verbo",
+            "t": "2026-09-29T16:27:45Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "Draft nuestro abierto: 0 anclas sin texto y wit_dt_audit BAD 0 sobre las 183 anclas actuales. Falta el WIT de los anclajes nuevos tras crear los items, y reenviar a pending_review",
+            "t": "2026-09-29T16:27:46Z"
+          }
+        }
+      },
+      "motivo_en": "half done: LRC, timing and English done; the classifier blocked creating 16 PROD items (payloads ready). Needs Saúl's permission to create them, then 9 anchors + 3 senses + WITs + submit the draft"
     },
     {
       "coverTrackId": "6aa6ba5972ca57eb1aa44e55",
@@ -20652,10 +20782,55 @@
       "originalTrackId": "6aa7b21ef0f8e5713e693312",
       "titulo": "Mi Gran Noche",
       "artista": "Raphael",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 76%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-29T16:31:30Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "na",
+            "nota": "cover de biblioteca con carry previo; no se re-proyecta",
+            "t": "2026-09-29T16:24:59Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "l9,27,46,50,52 signos y tilde de qué; l22 tilde de está; l23 sobra 'se' (gana el original); l37 tildes y coma; sílabas de vocalización sin tocar",
+            "t": "2026-09-29T16:25:00Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "9 palabras finales de 0 ms en líneas de vocalización con duración; deriva 0 en las 53; audio 206 SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-09-29T16:25:00Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo sílabas ra/lai/rai/jai (D-1); qué/pasará/irán/está/sabrá remapeados; gemelas unificadas; 2 items nuevos con 19 idiomas",
+            "t": "2026-09-29T16:25:00Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft en pending_review; 53/53 líneas, wit_dt_audit BAD 0, WIT con texto salvo 40 anclas de 'la' (ad-lib)",
+            "t": "2026-09-29T16:25:00Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, timing 0, sentidos, items nuevos, ingles pending_review y wit_dt_audit BAD 0 verificados; residuos QC son ad-libs",
+            "t": "2026-09-29T16:31:30Z"
+          }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, timing 0, sentidos, items nuevos, ingles pending_review y wit_dt_audit BAD 0 verificados; residuos QC son ad-libs",
+          "t": "2026-09-29T16:31:30Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-29T16:31:30Z"
+        }
+      }
     },
     {
       "coverTrackId": "6aa7367b72ca57eb1aaf7dad",
