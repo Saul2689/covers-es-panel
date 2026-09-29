@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-29T14:48:01Z",
+  "generado": "2026-09-29T16:18:05Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9163,10 +9163,39 @@
       "originalTrackId": "6aa7d3b3f0f8e5713e6ba9da",
       "titulo": "Mi Golondrina",
       "artista": "Ramon Ayala Y Sus Bravos Del Norte",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 85%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-29T16:14:01Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "na",
+            "nota": "cover de biblioteca sin carry pendiente; sincronia no tocada",
+            "t": "2026-09-29T16:14:00Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "14 lineas: tildes comidas (lineas 2,3,4,5,8 y repeticiones), anhelaba, Ay (x4), que sobrante en lineas 8 y 23; tildes-de-mas y errata vs original justificados: el original trae la letra sin tildes y con anelaba/Hay",
+            "t": "2026-09-29T16:14:00Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 30 lineas; audio_guard SUENA_SIN_BLINDAR (206, timeline karaokeMp3, sin stemVoc medido), no se mide ni se pinea",
+            "t": "2026-09-29T16:14:00Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "132/132; unificadas; ay/adios con tilde; phrase items de nuevo + tarde o temprano (nuevo)",
+            "t": "2026-09-29T16:14:01Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft reabierto, 30 lineas, WIT con texto en 132/132, wit_dt_audit BAD 0, 4 PIT; enviado a pending_review",
+            "t": "2026-09-29T16:14:01Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa72cf972ca57eb1aae9b9f",
@@ -11066,10 +11095,39 @@
       "originalTrackId": "6aa7d64ef0f8e5713e6beb29",
       "titulo": "Julian",
       "artista": "Joan Sebastian",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 82%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-29T16:15:35Z",
+      "auditoria": {
+        "pasos": {
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC: vals (4 lineas) y Julián con tilde (9 lineas) via lrc_plan_fix; el resto del texto = original",
+            "t": "2026-09-29T16:07:30Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "151/151 mapeadas; item nuevo Julián, phrase item da capo (lineas 10 y 20), gemelas linea 11=21 unificadas",
+            "t": "2026-09-29T16:15:34Z"
+          },
+          "carry": {
+            "v": "na",
+            "nota": "sin carry nuevo: la letra y estructura ya coinciden con el original; solo se corrigen erratas",
+            "t": "2026-09-29T16:15:34Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 24 lineas; hueco largo antes de la linea 15 es instrumental (el original no canta ahi); audio_guard SUENA_SIN_BLINDAR, no se mide",
+            "t": "2026-09-29T16:15:34Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "borrador en pending_review: 0 WIT sin texto, wit_dt_audit BAD 0, PIT da capo, 24/24 lineas",
+            "t": "2026-09-29T16:15:35Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa804dcd951e1665a7e23e0",
@@ -13524,10 +13582,39 @@
       "originalTrackId": "6aa7b6e3387e9481dd7b6f7c",
       "titulo": "Brindo Por Ti Y Por Mi",
       "artista": "Tormenta",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Lote 3: mapeo 93%, ingles 34/34; creando el item de la forma verbal del titulo (15 fichas)",
-      "actualizado": "2026-09-23T10:59:38Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-29T16:15:35Z",
+      "auditoria": {
+        "pasos": {
+          "lrc": {
+            "v": "ok",
+            "nota": "lineas 12,13,14,32-34 corregidas contra el original (muy bien, por qué, este, quitar lo, mí)",
+            "t": "2026-09-29T16:09:17Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 34 lineas; audio SUENA_SIN_BLINDAR (206), sin pin",
+            "t": "2026-09-29T16:15:34Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "201/201 mapeadas; brindo (item existente) en 15 fichas; gemelas unificadas; tildes mi/mí, seas, bien; por qué como phrase item",
+            "t": "2026-09-29T16:15:34Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft pending_review; 34/34 lineas; WIT con texto 201/201; wit_dt_audit BAD 0; lineas 12-14 retraducidas",
+            "t": "2026-09-29T16:15:34Z"
+          },
+          "carry": {
+            "v": "na",
+            "nota": "sin carry: cover de biblioteca; reparada encima con lrc_plan_fix",
+            "t": "2026-09-29T16:15:35Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa65e9e72ca57eb1a9ced3b",
@@ -14586,10 +14673,55 @@
       "originalTrackId": "6aa7ba850752719d51aa50cd",
       "titulo": "El Plebeyo",
       "artista": "Los morochucos",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 90%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-29T16:17:50Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "na",
+            "nota": "cover de biblioteca con carry ya aplicado; se arregla encima, sin reproyectar",
+            "t": "2026-09-29T16:13:18Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "línea 8: un->una (original manda); líneas 13/19/24: 'porque' partido en ¿por qué (edit+insert). Nombre propio línea 6 y salto de línea del proveedor 13/14 justificados",
+            "t": "2026-09-29T16:13:18Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 24 líneas; palabra nueva de línea 13 recortada para no solapar; hueco línea 20 = instrumental del original; nota final larga línea 24 = sostenida. Audio SUENA_SIN_BLINDAR (karaoke 206 ms), sin tocar",
+            "t": "2026-09-29T16:13:18Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "207 anclas, 0 sin mapear; phrase item 'por qué' en líneas 13/19/24; gemelas 15/20 y 18/23 unificadas; se reflexivo en 16/21; una en línea 8",
+            "t": "2026-09-29T16:13:19Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "borrador ES->EN: 54 WIT escritos, 0 vacíos, wit_dt_audit BAD 0, 3 PIT 'why'; enviado a pending_review",
+            "t": "2026-09-29T16:13:19Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 207/207, mapeo y gemelas ok, ingles draft pending_review completo, wit_dt BAD 0, hallazgos QC justificados",
+            "t": "2026-09-29T16:17:49Z"
+          }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 207/207, mapeo y gemelas ok, ingles draft pending_review completo, wit_dt BAD 0, hallazgos QC justificados",
+          "t": "2026-09-29T16:17:49Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-29T16:17:50Z"
+        }
+      }
     },
     {
       "coverTrackId": "6aa6c86b72ca57eb1aa5dd96",
