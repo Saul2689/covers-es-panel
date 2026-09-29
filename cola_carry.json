@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-29T16:31:45Z",
+  "generado": "2026-09-29T16:40:15Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -1378,10 +1378,39 @@
       "originalTrackId": "6aa7d3a48d615aa3fed51341",
       "titulo": "Lo Que No Fue No Sera",
       "artista": "José José",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Lote 5: mapeo 100%, ingles 28/28; tilde de mas en el posesivo (lineas 11 y 23): corrigiendo",
-      "actualizado": "2026-09-23T11:13:55Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-29T16:35:06Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "na",
+            "nota": "coverOf vinculado; carry ya aplicado, sin re-proyectar",
+            "t": "2026-09-29T16:35:05Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "posesivo sin tilde en 2 lineas (l12,l24); resto limpio; vs_original_tilde justificado",
+            "t": "2026-09-29T16:35:05Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 28 lineas; audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-09-29T16:35:06Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "182/182; 4 anclas gemelas unificadas; phrase items sin embargo (nuevo) y tal vez; 0 gemelas",
+            "t": "2026-09-29T16:35:06Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "28/28; WIT con texto en todas las anclas, wit_dt_audit BAD 0, 3 PIT; pending_review",
+            "t": "2026-09-29T16:35:06Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa045d11db6d36fd0a03dbf",
@@ -2141,10 +2170,39 @@
       "originalTrackId": "6ab3a9a13f41c3e840054480",
       "titulo": "Inevitable",
       "artista": "Shakira",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Original importado hoy por ISRC (sin video); richsync + mapeo + match + carry en curso",
-      "actualizado": "2026-09-23T10:34:25Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-29T16:36:33Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry del original ya aplicado (run 6ab3aefd, 23 sep); no se re-proyecta",
+            "t": "2026-09-29T16:36:32Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC = original salvo 2 lineas de coros entre parentesis del original que el cover no trae (sin evidencia de que las cante) y el ad-lib de la linea 38 que solo trae el cover; 0 defectos qc_es",
+            "t": "2026-09-29T16:36:32Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 41 lineas; audio_guard SUENA_SIN_BLINDAR (solo karaokeMp3, /audio 206); sin pin ni medicion",
+            "t": "2026-09-29T16:36:32Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "8 gemelas unificadas, sentido de bien (linea 31) corregido, 7 phrase insights (3 phrase items nuevos traducidos a 19 idiomas)",
+            "t": "2026-09-29T16:36:32Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft EN completo (41 lineas, 205 WIT con texto, wit_dt_audit BAD 0), 7 PIT nuevos; pending_review",
+            "t": "2026-09-29T16:36:33Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa781e172ca57eb1acd4e9c",
@@ -13614,10 +13672,10 @@
       "originalTrackId": "6aa7b6e3387e9481dd7b6f7c",
       "titulo": "Brindo Por Ti Y Por Mi",
       "artista": "Tormenta",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "vuelta 1 corregida, lista para QC",
-      "actualizado": "2026-09-29T16:28:49Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-29T16:40:01Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -13646,15 +13704,21 @@
             "t": "2026-09-29T16:15:35Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "todo correcto salvo 3 anclas de 'y' inicial (L2, L13, L16 t0) en sentido intensificador; remapear a la conjuncion generica",
-            "t": "2026-09-29T16:27:38Z"
+            "v": "ok",
+            "nota": "vuelta 2: las 3 anclas y (L2,L13,L16) corregidas; QC limpio, ingles en pending_review",
+            "t": "2026-09-29T16:40:01Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "todo correcto salvo 3 anclas de 'y' inicial (L2, L13, L16 t0) en sentido intensificador; remapear a la conjuncion generica",
-          "t": "2026-09-29T16:27:38Z"
+          "v": "VERDE",
+          "resumen": "vuelta 2: las 3 anclas y (L2,L13,L16) corregidas; QC limpio, ingles en pending_review",
+          "t": "2026-09-29T16:40:01Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-29T16:40:01Z"
         }
       }
     },
@@ -14577,10 +14641,10 @@
       "originalTrackId": "6ab3ad9f5f63b018fdce04e9",
       "titulo": "Mi Gran Noche",
       "artista": "Salvatore Adamo",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-29T16:27:26Z",
+      "motivo": "espera a Saúl: linea 25 palabra 3 (amo): añadir fila 'master' a la bolsa del item 6a11db7cc9740e1ba06ea8b6 (payload es_map/payloads/6aa110f664c9b8ff110c09a0/amo_master.json, bloqueado por el clasificador) y repuntar ese WIT",
+      "actualizado": "2026-09-29T16:38:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14607,9 +14671,20 @@
             "v": "ok",
             "nota": "draft pending_review: 71 líneas, 254 WIT con texto, wit_dt_audit BAD 0; PIT por eso",
             "t": "2026-09-29T16:27:26Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, timing, mapeo e ingles ok; hallazgos residuales justificados; queda 1 paso saul (L25 idx2)",
+            "t": "2026-09-29T16:38:46Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, timing, mapeo e ingles ok; hallazgos residuales justificados; queda 1 paso saul (L25 idx2)",
+          "t": "2026-09-29T16:38:46Z"
         }
-      }
+      },
+      "motivo_en": "Waiting for Saul: line 25 word 3 (amo): add a 'master' row to the bag of item 6a11db7cc9740e1ba06ea8b6 (payload es_map/payloads/6aa110f664c9b8ff110c09a0/amo_master.json, blocked by the permission classifier) and repoint that WIT"
     },
     {
       "coverTrackId": "6aa7b8772367b69ab7023df2",
@@ -15102,10 +15177,10 @@
       "originalTrackId": "6aa7d5c1f0f8e5713e6bdff9",
       "titulo": "Insensible",
       "artista": "Juan Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-29T16:26:07Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-29T16:35:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15132,7 +15207,23 @@
             "v": "ok",
             "nota": "draft en pending_review: 6 lineas re-traducidas, 36 WIT reescritos, 0 sin texto, wit_dt_audit BAD 0",
             "t": "2026-09-29T16:26:07Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, timing, mapeo, items nuevos e ingles (draft pending_review) verificados; solo ad-lib L17 tok3 y hueco instrumental L13 justificados",
+            "t": "2026-09-29T16:35:53Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, timing, mapeo, items nuevos e ingles (draft pending_review) verificados; solo ad-lib L17 tok3 y hueco instrumental L13 justificados",
+          "t": "2026-09-29T16:35:53Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-29T16:35:54Z"
         }
       }
     },
@@ -23031,10 +23122,39 @@
       "originalTrackId": "6aa7b9930752719d51aa39f5",
       "titulo": "De Que Te Quejas Mujer?",
       "artista": "Pepe Aguilar",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 86%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-29T16:39:56Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "na",
+            "nota": "sin carry: cover de biblioteca; sincronia propia",
+            "t": "2026-09-29T16:39:55Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "4 lineas de estribillo anadidas (2 por estribillo, lineas 13-14 y 27-28 del admin, ausentes en la letra del proveedor; hueco de 15 s con letra en el original), tildes de 'asi' y 'para que', 'Y' a minuscula; quedan signos ? (pregunta a caballo de lineas 3-4 como en el original) y una 'y' en lineas 8 y 22 que el original omite pero el cover canta",
+            "t": "2026-09-29T16:39:55Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "0 drift; 4 lineas nuevas cronometradas por hueco+original; guard audio SUENA_SIN_BLINDAR (stemVoc/mixMp3V sin medir), sin tocar audio; palabras largas en 7,17,19 son notas sostenidas y hueco de 22 s instrumental en el original",
+            "t": "2026-09-29T16:39:55Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "148/148 anclas, 0 sin mapear; anclas reubicadas tras insertar lineas; gemelas unificadas; que->que(tilde) en linea 3; por eso como phrase item en lineas 10 y 24; 2 items nuevos",
+            "t": "2026-09-29T16:39:55Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft en pending_review: 32 lineas, 148 WIT con texto, wit_dt_audit BAD 0, 2 PIT",
+            "t": "2026-09-29T16:39:56Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa52e7042b8d1fdb0c8bdcb",
@@ -23766,10 +23886,40 @@
       "originalTrackId": "6aa7ba7ff0f8e5713e69b688",
       "titulo": "Devuelveme El Corazon",
       "artista": "Julio Jaramillo",
-      "estado": "correccion",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "auditoria 23 sep: pasos pendientes -> mapeo 83%; agente completando mapeo/ingles sin tocar letra ni tiempos",
-      "actualizado": "2026-09-23T10:15:52Z"
+      "motivo": "casi hecha: el classifier bloqueó escribir las traducciones a 19 idiomas de 6 items nuevos (lote listo). Con el permiso de Saúl: aplicar el lote, poner el DT de 7 WIT y enviar el borrador",
+      "actualizado": "2026-09-29T16:36:59Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "na",
+            "nota": "carry ya aplicado antes; no se re-proyecta",
+            "t": "2026-09-29T16:36:20Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "1 errata alineada al original (linea 7, palabra 2 por->con, el original manda); resto limpio. Lineas 21-24 = interludio la/uh sin gemela en el original (justificado)",
+            "t": "2026-09-29T16:36:20Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "3 palabras de 0 ms arregladas (lineas 21-22); drift 0; audio guard SUENA_SIN_BLINDAR (206, stemVoc sin medicion, no se toca)",
+            "t": "2026-09-29T16:36:20Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "8 huecos mapeados y sentidos/gemelas unificados; 6 items nuevos creados en PROD PERO sin traducir: prod_write bloqueado por el clasificador; lote en .singit/es_map/payloads/6aa1110e64c9b8ff110c5f77/lote_trad.json",
+            "t": "2026-09-29T16:36:20Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "draft abierto (sin enviar): lineas OK y WIT con texto; 7 WIT de items nuevos sin DT hasta aplicar el lote de traducciones; luego enviar a pending_review",
+            "t": "2026-09-29T16:36:21Z"
+          }
+        }
+      },
+      "motivo_en": "almost done: the classifier blocked writing the 19-language translations of 6 new items (batch ready). With Saúl's permission: apply the batch, set the DT on 7 WITs and submit the draft"
     },
     {
       "coverTrackId": "6aa7898f72ca57eb1ace0b9a",
