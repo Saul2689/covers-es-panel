@@ -771,18 +771,24 @@ tailwind.config={theme:{extend:{
     ns:'Las anclas se guardan por posición. Unir o borrar una ficha descoloca todas las de detrás.',
     ne:'Anchors are stored by position. Merging or deleting a token shifts every anchor after it.'},
 
-   {id:'d0',f:3,t:'io',v:0,es:'Informe de tiempos y sonda de audio',en:'Timing report and audio probe'},
-   {id:'d1',f:3,t:'dec',v:0,es:'¿El audio ya responde 206?',en:'Does the audio already answer 206?',
-    ns:'Esta pregunta es la que faltaba el 24 de septiembre.',
-    ne:'This question is the one that was missing on 24 September.'},
-   {id:'d2',f:3,t:'sub',v:0,r:1,es:'cover_audio_measure',en:'cover_audio_measure',
-    ns:'AQUÍ SE ROMPE EL AUDIO. Medir no escribe en la pista, pero sí cambia qué render decide servir el servidor: el 24 sep dejó mudas 7 canciones que sonaban. Solo se mide si la canción NO suena.',
-    ne:'THIS IS WHERE AUDIO BREAKS. Measuring does not write to the track, but it does change which render the server decides to serve: on 24 Sep it silenced 7 songs that were playing. Only measure when the song does NOT play.'},
-   {id:'d3',f:3,t:'man',v:0,n:'p_timing_saul',es:'Fijar el render FULL SONG',en:'Pin the FULL SONG render',
-    ns:'Cambia lo que oye el usuario y retimea la letra en bloque, así que lo autoriza Saúl. Nunca karaoke sobre full song.',
-    ne:'It changes what the user hears and retimes the lyric as a block, so Saúl authorises it. Never karaoke over full song.'},
-   {id:'d4',f:3,t:'proc',v:0,n:'p_timing',es:'Corregir las líneas que derivan',en:'Fix the lines that drift'},
-
+   {id:'d0',f:3,t:'io',v:0,es:'Informe de tiempos (deriva por línea)',en:'Timing report (drift line by line)',
+    ns:'Dice si la letra va pegada al audio. No dice si la canción suena: eso solo lo sabe el guard.',
+    ne:'It says whether the lyric tracks the audio. It does not say whether the song plays: only the guard knows that.'},
+   {id:'dg',f:3,t:'sub',v:0,es:'audio_guard.py (solo lee)',en:'audio_guard.py (read only)',
+    ns:'Pide el audio de verdad y compara las versiones. Cinco veredictos: BLINDADA (la letra ya vive sobre la FULL SONG), SUENA_FRAGIL (suena, pero una re-medición la tumba), SUENA_SIN_BLINDAR (suena y no hay medición fiable: no se toca), MUDA_ARREGLABLE (404 con stemVoc fiable cerca), MUDA_PARADA (404 y nada que fijar).',
+    ne:'It asks for the real audio and compares the renders. Five verdicts: BLINDADA (the lyric already lives on the FULL SONG), SUENA_FRAGIL (plays, but a re-measurement knocks it out), SUENA_SIN_BLINDAR (plays and there is no reliable measurement: leave it), MUDA_ARREGLABLE (404 with a reliable stemVoc nearby), MUDA_PARADA (404 and nothing to pin).'},
+   {id:'d1',f:3,t:'dec',v:0,r:1,es:'¿Qué dice audio_guard?',en:'What does audio_guard say?',
+    ns:'AQUÍ SE ROMPÍA EL AUDIO. El servidor solo sirve la FULL SONG si está a ≤ 50 ms de la letra, y medir el stemVoc tiene ±60 ms de ruido: Kryptonite midió +60 y se quedó muda. Por eso el guard se vuelve a pasar después de CUALQUIER mirror, pasada del pipeline o medición: el servidor re-mide solo.',
+    ne:'THIS IS WHERE AUDIO USED TO BREAK. The server only serves the FULL SONG within 50 ms of the lyric, and measuring stemVoc carries ±60 ms of noise: Kryptonite measured +60 and went silent. That is why the guard runs again after ANY mirror, pipeline run or measurement: the server re-measures on its own.'},
+   {id:'d2',f:3,t:'proc',v:0,es:'Blindar: fijar stemVoc',en:'Shield it: pin stemVoc',
+    ns:'Pre-autorizado por Saúl el 29 sep para ≤ 150 ms con confianza ≥ 1,2: ese retime no se oye. La letra pasa a vivir sobre la FULL SONG y ya no la tumba ninguna medición. Nunca karaoke, nunca mixMp3V con confianza < 1,2 (el servidor da 409), nunca un offset 0 a ciegas.',
+    ne:'Pre-authorised by Saúl on 29 Sep for ≤ 150 ms at confidence ≥ 1.2: that retime is inaudible. The lyric moves onto the FULL SONG and no measurement can knock it out again. Never karaoke, never mixMp3V below 1.2 confidence (the server answers 409), never a blind zero offset.'},
+   {id:'xd3',f:3,t:'esp',v:1,n:'p_timing_saul',es:'Parada: muda y nada que fijar → Saúl',en:'Stopped: silent, nothing to pin → Saúl',
+    ns:'Solo queda el mp3, o el desfase pasa de 150 ms, o la confianza no llega a 1,2. Se le manda cover_audio_list y la primera línea. No se pinea a ciegas.',
+    ne:'Only the mp3 is left, or the offset goes past 150 ms, or confidence falls below 1.2. Send him cover_audio_list and the first line. Never pin blind.'},
+   {id:'d4',f:3,t:'proc',v:0,n:'p_timing',es:'Corregir las líneas que derivan',en:'Fix the lines that drift',
+    ns:'Con la deriva a 0 y la primera línea en 0 ms o más. Y no se vuelven a importar los timings de una cover blindada: eso deshace el retime y la deja frágil otra vez.',
+    ne:'With drift at 0 and the first line at 0 ms or later. And never re-import the timings of a shielded cover: that undoes the retime and leaves it fragile again.'},
    {id:'e0',f:4,t:'proc',v:0,es:'Sueltos, gemelas y homógrafos',en:'Loose tokens, twins and homographs',
     ns:'Los homógrafos con tilde (mi/mí, tu/tú, que/qué, el/él, si/sí, mas/más) son el defecto que más veces vuelve del QC.',
     ne:'The accented homographs (mi/mí, tu/tú, que/qué, el/él, si/sí, mas/más) are the defect QC sends back most often.'},
@@ -814,8 +820,8 @@ tailwind.config={theme:{extend:{
    {id:'x4',f:6,t:'esp',v:1,es:'Parada: la mira Saúl',en:'Stopped: Saúl looks at it'},
 
    {id:'h0',f:7,t:'db',v:0,n:'e_hecha',es:'parte.py → estado_cola.json',en:'parte.py → estado_cola.json',
-    ns:'Es la fuente de verdad. El script se niega a marcar «hecha» si algún paso no está cerrado.',
-    ne:'This is the source of truth. The script refuses to mark "done" while a step is open.'},
+    ns:'Es la fuente de verdad. El script se niega a marcar «hecha» si algún paso no está cerrado, y el audio no se cierra sin un guard en BLINDADA o SUENA_SIN_BLINDAR. Se anota el veredicto y, si se blindó, los ms que se movió la letra.',
+    ne:'This is the source of truth. The script refuses to mark "done" while a step is open, and audio does not close without a guard reading BLINDADA or SUENA_SIN_BLINDAR. The verdict is logged, and the milliseconds the lyric moved if it was shielded.'},
    {id:'h1',f:7,t:'io',v:0,es:'cola_carry.json → GitHub → Cloudflare',en:'cola_carry.json → GitHub → Cloudflare'},
    {id:'h2',f:7,t:'doc',v:0,es:'Esta página y el aviso de Slack',en:'This page and the Slack notice'},
    {id:'h3',f:7,t:'man',v:0,es:'Saúl aprueba y publica',en:'Saúl approves and publishes'},
@@ -829,7 +835,8 @@ tailwind.config={theme:{extend:{
    ['a5','b0'],['b0','xb0','no'],['b0','b1','si'],['b1','b2'],
    ['b2','xb2','no'],['b2','b3','si'],['b3','b4'],
    ['b4','c0'],['c0','c1'],['c1','c2'],['c2','c3'],['c3','c4','si'],
-   ['c4','d0'],['d0','d1'],['d1','d4','si'],['d1','d2','no'],['d2','d3'],['d3','d4'],
+   ['c4','d0'],['d0','dg'],['dg','d1'],
+   ['d1','d4','blind'],['d1','d2','fragil'],['d1','xd3','par'],['d2','dg','otra'],
    ['d4','e0'],['e0','e1'],['e1','e2','si'],['e2','e3'],['e1','e3','no'],
    ['e3','f0'],['f0','f1','no'],['f1','f2'],['f2','f3'],['f3','f4'],
    ['f4','g0'],['g0','g1'],['g1','g2','dev'],['g1','x4','par'],['g1','h0','verde'],
@@ -901,7 +908,11 @@ tailwind.config={theme:{extend:{
     esp:{bg:'#2A1C1C',bd:'#B45309'},   con:{bg:'#1B1B21',bd:'#7C3AED'}
   };
   var ETIQ={si:['Sí','Yes'],no:['No','No'],dev:['Devuelto','Returned'],
-            par:['Parada','Stopped'],verde:['Verde','Green']};
+            par:['nada','nothing'],
+            blind:['aguanta','holds'],
+            fragil:['hay que blindarla','needs shielding'],
+            otra:['otra vez','run it again'],
+            verde:['Verde','Green']};
 
   function diagrama(){
     var P=M.proceso||{},pos={},y=24,partes=[],flechas=[],bandas={},tronco=[],ocupado=[];
@@ -924,9 +935,15 @@ tailwind.config={theme:{extend:{
       lista.forEach(function(nd){
         if(nd.v) return;
         var txt=nd[L]||nd.es, ln=renglones(txt,nd.t==='dec'?26:32), h=alto(nd.t,ln.length);
-        pos[nd.id]={x:GEO.NX,y:y+h/2,w:GEO.NW,h:h,ln:ln,nd:nd,i:tronco.length};
+        /* La nota va al margen, centrada en la caja: si es mas alta que la
+           caja, manda ella. Reservar solo el alto de la caja es lo que hacia
+           que una nota larga se comiera a su vecina y a la cabecera. */
+        var nota=L==='en'?(nd.ne||nd.ns):(nd.ns||nd.ne);
+        var nl=nota?renglones(nota,40):[];
+        var hueco=Math.max(h,nl.length?nl.length*15+10:0);
+        pos[nd.id]={x:GEO.NX,y:y+hueco/2,w:GEO.NW,h:h,ln:ln,nl:nl,nd:nd,i:tronco.length};
         tronco.push(nd.id);
-        y+=h+GEO.GAP;
+        y+=hueco+GEO.GAP;
         /* 30 por debajo de la ultima caja: ahi cae el rotulo de su flecha
            ("Verde", "No"), que tambien tiene que quedar dentro. */
         abajo=y-GEO.GAP+30;
@@ -963,8 +980,16 @@ tailwind.config={theme:{extend:{
     var rotulo={};
     FLECHAS.forEach(function(fl){
       var a=pos[fl[0]],b=pos[fl[1]]; if(!a||!b) return;
-      var d,mx,ex,ey,salto=(a.x===b.x&&Math.abs((a.i||0)-(b.i||0))>1);
-      if(a.x===b.x&&!salto){
+      var d,mx,ex,ey,ta='';
+      var atras=(a.x===b.x&&(b.i||0)<(a.i||0));
+      var salto=(a.x===b.x&&!atras&&Math.abs((a.i||0)-(b.i||0))>1);
+      if(atras){
+        /* Un ramal que vuelve atras sale por la IZQUIERDA, sube por fuera y
+           entra por el costado de la caja a la que vuelve. */
+        mx=a.x-a.w/2-46;
+        d='M '+(a.x-a.w/2)+' '+a.y+' H '+mx+' V '+b.y+' H '+(b.x-b.w/2-7);
+        ex=mx-10; ey=(a.y+b.y)/2; ta=' text-anchor="end"';
+      }else if(a.x===b.x&&!salto){
         d='M '+a.x+' '+(a.y+a.h/2)+' V '+(b.y-b.h/2-7);
         ex=a.x+13; ey=a.y+a.h/2+16;
       }else if(salto){
@@ -972,20 +997,20 @@ tailwind.config={theme:{extend:{
            baja por fuera y vuelve a entrar. */
         mx=a.x+a.w/2+56;
         d='M '+(a.x+a.w/2)+' '+a.y+' H '+mx+' V '+b.y+' H '+(b.x+b.w/2+7);
-        ex=mx+8; ey=a.y-8;
+        ex=(a.x+a.w/2+mx)/2; ey=a.y-8; ta=' text-anchor="middle"';
       }else{
         mx=a.x+a.w/2+24;
         d='M '+(a.x+a.w/2)+' '+a.y+' H '+mx+' V '+b.y+' H '+(b.x-b.w/2-7);
-        ex=mx+8; ey=a.y-8;
+        ex=(a.x+a.w/2+b.x-b.w/2)/2; ey=a.y-8; ta=' text-anchor="middle"';
       }
       flechas.push('<path d="'+d+'" fill="none" stroke="#52525B" stroke-width="1.5" '+
                    'marker-end="url(#pf)"/>');
       if(fl[2]){
         /* De una decision salen dos o tres ramales por el mismo lado: sus
            rotulos se escalonan para que no caigan uno encima de otro. */
-        var k=fl[0]+'|'+(a.x===b.x&&!salto?'v':'h');
+        var k=fl[0]+'|'+(atras?'a':(a.x===b.x&&!salto?'v':'h'));
         rotulo[k]=(rotulo[k]||0)+1;
-        flechas.push('<text x="'+ex+'" y="'+(ey+(rotulo[k]-1)*16)+'" fill="#A1A1AA" '+
+        flechas.push('<text x="'+ex+'" y="'+(ey+(rotulo[k]-1)*16)+'"'+ta+' fill="#A1A1AA" '+
           'font-size="11.5" font-weight="700">'+esc(ETIQ[fl[2]][L==='en'?1:0])+'</text>');
       }
     });
@@ -1011,7 +1036,7 @@ tailwind.config={theme:{extend:{
       }
       var nota=L==='en'?(nd.ne||nd.ns):(nd.ns||nd.ne);
       if(nota&&!nd.v){
-        var nl=renglones(nota,40);
+        var nl=p.nl||renglones(nota,40);
         nl.forEach(function(t,i){
           g.push('<text x="'+GEO.AX+'" y="'+(p.y-(nl.length-1)*7.5+i*15+4)+'" text-anchor="end" '+
                  'fill="'+(nd.r?'#FCA5A5':'#71717A')+'" font-size="11.5">'+esc(t)+'</text>');
