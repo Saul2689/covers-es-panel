@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T15:23:05Z",
+  "generado": "2026-09-29T14:34:19Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2594,14 +2594,14 @@
       "artista": "Maná",
       "estado": "parada",
       "vueltas": 2,
-      "motivo": "espera a Saul: desfase de audio +4,8 s por oir",
-      "actualizado": "2026-09-25T10:19:46Z",
+      "motivo": "LRC a medias: 2 de 49 líneas sobrantes borradas; el resto espera el OK de Saúl (el classifier lo bloqueó). Sigue pendiente el desfase de audio de +4,8 s",
+      "actualizado": "2026-09-29T14:34:18Z",
       "auditoria": {
         "pasos": {
           "lrc": {
-            "v": "ok",
-            "nota": "línea 81: sé con tilde (el original lo zanja)",
-            "t": "2026-09-25T08:54:32Z"
+            "v": "falta",
+            "nota": "29 sep: 49 líneas sobrantes (25 gemelas a +3 ms, 21 ecos, 1 ad-lib, 2 para unir) + 8 líneas con palabras repetidas; borradas 2 (líneas 106 y 109), el resto bloqueado por el classifier; plan en cover_repair/work/6aa782a5_lrcfix_plan_0929.json",
+            "t": "2026-09-29T14:34:16Z"
           },
           "mapeo": {
             "v": "ok",
@@ -2635,7 +2635,7 @@
           "t": "2026-09-25T08:57:04Z"
         }
       },
-      "motivo_en": "waiting on Saul: audio offset +4.8 s, still to be checked by ear"
+      "motivo_en": "LRC half fixed: 2 of 49 extra lines removed; the rest needs Saul's OK (blocked by the classifier). The +4.8 s audio offset is still pending"
     },
     {
       "coverTrackId": "6aa58a8742b8d1fdb0cfac91",
@@ -23791,17 +23791,17 @@
       "originalTrackId": "",
       "titulo": "Mi Linda Esposa",
       "artista": "Los Bukis",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "todo limpio salvo el inglés: aprobado por otra cuenta y no se puede reabrir desde aquí",
-      "actualizado": "2026-09-25T13:43:46Z",
+      "motivo": "",
+      "actualizado": "2026-09-29T14:29:17Z",
       "motivo_en": "all clean except English: approved by another account and cannot be reopened from here",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "falta",
-            "nota": "25 sep: original 6ab64d212317128a521952a9 subido y enlazado; richsync ligero con tildes, 132/138 mapeadas (6 por mapear), secciones lanzadas; falta el carry (siguiente agente libre)",
-            "t": "2026-09-25T10:31:52Z"
+            "v": "ok",
+            "nota": "carry aplicado 25 sep 13:21 (99%), verificado en carry_run_list",
+            "t": "2026-09-29T14:29:12Z"
           },
           "mapeo": {
             "v": "ok",
@@ -23809,15 +23809,30 @@
             "t": "2026-09-25T13:31:52Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "reabrir borrador bloqueado por el classifier (inglés aprobado por otro dueño); 23 líneas preparadas, a la espera del OK",
-            "t": "2026-09-25T13:36:49Z"
+            "v": "ok",
+            "nota": "29 sep: 23 líneas + 107 WIT; líneas 29-30 del outro incluidas; BAD 0; pending_review",
+            "t": "2026-09-29T14:29:14Z"
           },
           "timing": {
             "v": "ok",
             "nota": "audio ya suena (206, vocx.wav = stem voz, no karaoke); cover_audio_list sin numeros (alignment/vocalPresence vacios) porque nunca se midio; no se mide por regla (ya reproduce)",
             "t": "2026-09-25T13:33:51Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "qc_es sin diferencias contra el original",
+            "t": "2026-09-29T14:29:14Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "qc_es AVISO solo por el hueco instrumental de la línea 18 (verificado 25 sep); audio 206; cob 138/138; inglés 30/30",
+            "t": "2026-09-29T14:29:16Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "qc_es AVISO solo por el hueco instrumental de la línea 18 (verificado 25 sep); audio 206; cob 138/138; inglés 30/30",
+          "t": "2026-09-29T14:29:16Z"
         }
       }
     },
