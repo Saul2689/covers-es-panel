@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T08:30:55Z",
+  "generado": "2026-09-30T08:36:13Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2002,8 +2002,8 @@
       "artista": "Fuerza Regida",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC salvo ingles (bloqueado, payload listo)",
-      "actualizado": "2026-09-30T08:27:00Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-30T08:35:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2027,9 +2027,9 @@
             "t": "2026-09-30T08:27:00Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "Second Brain sin credito y start-draft bloqueado por el clasificador; 42 lineas en payload",
-            "t": "2026-09-30T08:27:00Z"
+            "v": "ok",
+            "nota": "draft en pending_review: 42 lineas, 215 WIT con texto, wit_dt_audit BAD 0",
+            "t": "2026-09-30T08:35:41Z"
           }
         }
       }
@@ -2106,7 +2106,16 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "original subido hoy por ISRC y enlazado; carry en curso (sin estrellas)",
-      "actualizado": "2026-09-30T08:30:54Z"
+      "actualizado": "2026-09-30T08:34:45Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry aplicado: 83% alineado, 10 hints (accent pins/spell), 55 lineas, richsync=LRC, secciones 55/55; audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-09-30T08:34:45Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa611b542b8d1fdb0dadf48",
