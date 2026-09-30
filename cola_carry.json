@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T08:08:33Z",
+  "generado": "2026-09-30T08:18:10Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -1921,7 +1921,26 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "original subido hoy por ISRC y enlazado; carry en curso (sin estrellas)",
-      "actualizado": "2026-09-30T08:08:12Z"
+      "actualizado": "2026-09-30T08:17:54Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry aplicado, 97% matched, 56 lineas, 34 hints (spell/pin, sin join a mano)",
+            "t": "2026-09-30T08:12:37Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 56 lineas; audio SUENA_SIN_BLINDAR (karaokeMp3 206, stemVoc null, mixMp3V 0ms), sin tocar",
+            "t": "2026-09-30T08:12:47Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes en lineas 22/35/39; resto de ortografia = original (nombres propios, ad-libs)",
+            "t": "2026-09-30T08:17:54Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5791842b8d1fdb0ce301b",
@@ -1932,7 +1951,16 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "original subido hoy por ISRC y enlazado; carry en curso (sin estrellas)",
-      "actualizado": "2026-09-30T08:08:12Z"
+      "actualizado": "2026-09-30T08:12:30Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry aplicado 30 sep (95% matched, 24 decisiones por regla, L50 keepBreak, L6 keepSungWord); audio guard SUENA_SIN_BLINDAR 206",
+            "t": "2026-09-30T08:12:30Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5b96142b8d1fdb0d34b67",
@@ -1954,7 +1982,16 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "original subido hoy por ISRC y enlazado; carry en curso (sin estrellas)",
-      "actualizado": "2026-09-30T08:08:12Z"
+      "actualizado": "2026-09-30T08:11:33Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry aplicado 96%, 42 lineas, hints por regla",
+            "t": "2026-09-30T08:11:33Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6a9a51428a3e7151cb36be69",
@@ -1987,7 +2024,21 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "original subido hoy por ISRC y enlazado; carry en curso (sin estrellas)",
-      "actualizado": "2026-09-30T08:08:12Z"
+      "actualizado": "2026-09-30T08:18:01Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry aplicado 30 sep: 79% matched, 24 hints (pin/spell), 170 filas vendor -> 73 lineas, wit carried 334 / skippedEdited 5; audio SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-09-30T08:12:46Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "plan de LRC listo en .singit/es_map/payloads/6a9ae8c803cb4155d3d552fb/lrc_plan.json; el clasificador bloqueo la escritura de PROD (copia de lrc_plan_fix con retimes): 6 lineas de coro con capa de voz duplicada (10,12,23,25,47,49), tildes 22/31/46, elisiones, e'un 4/40",
+            "t": "2026-09-30T08:18:01Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7454c72ca57eb1ab110e7",
@@ -2209,8 +2260,8 @@
       "artista": "Luis Fonsi, Stefflon Don",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: el candidato del matcher es otra cancion (otro artista); hace falta subir el original por ISRC, que a este agente se lo bloquea el sistema",
-      "actualizado": "2026-09-22T15:18:09Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:18:07Z"
     },
     {
       "coverTrackId": "6aa5198d42b8d1fdb0c6b132",
@@ -2220,8 +2271,8 @@
       "artista": "Aleks Syntek, Ana Torroja",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:18:08Z"
     },
     {
       "coverTrackId": "6a99f134c38c6b8a50f5e0ee",
@@ -2253,8 +2304,8 @@
       "artista": "Sech feat. Darrell",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:18:08Z"
     },
     {
       "coverTrackId": "6aa505f142b8d1fdb0c48e91",
@@ -2264,8 +2315,8 @@
       "artista": "Adolescent's Orquesta",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:18:08Z"
     },
     {
       "coverTrackId": "6a9eccf9eef2ad59f642d458",
@@ -2275,8 +2326,8 @@
       "artista": "Neton Vega, Peso Pluma",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:18:08Z"
     },
     {
       "coverTrackId": "6aa5365942b8d1fdb0c9639e",
@@ -2317,8 +2368,8 @@
       "artista": "Chris Brown, T-Pain, Wisin Y Yandel",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:18:09Z"
     },
     {
       "coverTrackId": "6aa5968b42b8d1fdb0d0c5dd",
@@ -2328,8 +2379,8 @@
       "artista": "Frankie Ruiz",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:18:09Z"
     },
     {
       "coverTrackId": "6aa636e572ca57eb1a999e08",
@@ -2339,8 +2390,8 @@
       "artista": "Mana",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:18:09Z"
     },
     {
       "coverTrackId": "6aa5debb42b8d1fdb0d6b35e",
@@ -2361,8 +2412,8 @@
       "artista": "Shakira",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:18:09Z"
     },
     {
       "coverTrackId": "6aa5855b42b8d1fdb0cf3049",
@@ -2470,8 +2521,8 @@
       "artista": "Romeo Santos",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:18:10Z"
     },
     {
       "coverTrackId": "6a9ecdc0eef2ad59f645dba1",
@@ -2481,8 +2532,8 @@
       "artista": "Fuerza Regida",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:18:10Z"
     },
     {
       "coverTrackId": "6aa7473872ca57eb1ab1475f",
@@ -2492,8 +2543,8 @@
       "artista": "Jon Secada",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: el candidato del matcher es otra cancion (otro artista); hace falta subir el original por ISRC, que a este agente se lo bloquea el sistema",
-      "actualizado": "2026-09-22T15:18:10Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:18:10Z"
     },
     {
       "coverTrackId": "6ab23ef33369c68d83b665b8",
@@ -2503,8 +2554,8 @@
       "artista": "Shakira",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original ya existia en SingIt; enlazado hoy, lista para carry",
+      "actualizado": "2026-09-30T08:12:06Z"
     },
     {
       "coverTrackId": "6aa65be672ca57eb1a9cb0ee",
@@ -2514,8 +2565,8 @@
       "artista": "Miranda",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:18:10Z"
     },
     {
       "coverTrackId": "6aa074eeedf059217a5b4b50",
@@ -2525,8 +2576,8 @@
       "artista": "Santana feat. Everlast",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "cancion en ingles: no es de la linea ES, pendiente de decidir",
+      "actualizado": "2026-09-30T08:12:06Z"
     },
     {
       "coverTrackId": "6aa56f2a42b8d1fdb0cd3633",
