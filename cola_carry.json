@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T09:11:00Z",
+  "generado": "2026-09-30T09:12:46Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2419,10 +2419,10 @@
       "originalTrackId": "",
       "titulo": "Amorfoda",
       "artista": "Bad Bunny",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-30T09:06:22Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T09:12:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2449,7 +2449,23 @@
             "v": "ok",
             "nota": "ingles a mano (Second Brain sin credito): 36 lineas, 290 WIT con texto, wit_dt_audit BAD 0, draft en pending_review",
             "t": "2026-09-30T09:06:22Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 100%, mapeo y items nuevos OK, ingles en pending_review, elisiones justificadas; nota: trucos plural mapeado a singular en 4 lineas",
+            "t": "2026-09-30T09:12:31Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 100%, mapeo y items nuevos OK, ingles en pending_review, elisiones justificadas; nota: trucos plural mapeado a singular en 4 lineas",
+          "t": "2026-09-30T09:12:31Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T09:12:32Z"
         }
       }
     },
