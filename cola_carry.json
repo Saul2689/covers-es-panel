@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T09:17:58Z",
+  "generado": "2026-09-30T09:21:56Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2231,10 +2231,10 @@
       "originalTrackId": "",
       "titulo": "Ven Devorame Otra Vez",
       "artista": "Lalo Rodriguez",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-30T08:49:24Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "letra corregida por Saul; falta terminar (anclas/DT/ingles) y QC",
+      "actualizado": "2026-09-30T09:21:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2248,9 +2248,9 @@
             "t": "2026-09-30T08:47:30Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "lrc_plan_fix --write bloqueado por el clasificador; plan guardado en payloads/lrc_plan_fix_plan.json (5 tokens)",
-            "t": "2026-09-30T08:49:24Z"
+            "v": "ok",
+            "nota": "correccion de letra aplicada por Saul con pendientes_saul.py",
+            "t": "2026-09-30T09:21:55Z"
           },
           "timing": {
             "v": "saul",
@@ -2322,10 +2322,10 @@
       "originalTrackId": "",
       "titulo": "Lloraras",
       "artista": "Oscar D'leon",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "carry, mapeo e ingles hechos; el vigilante bloqueo la correccion de letra (31 palabras) y las traducciones de 5 items nuevos",
-      "actualizado": "2026-09-30T09:11:00Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "letra corregida por Saul; falta terminar (anclas/DT/ingles) y QC",
+      "actualizado": "2026-09-30T09:21:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2334,9 +2334,9 @@
             "t": "2026-09-30T08:56:30Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "lrc_plan_fix --write bloqueado por el clasificador (escritura PROD); plan listo en .singit/cover_repair/plan_6aa673d872ca57eb1a9efcde.json: 31 tokens (tildes del outro cover-only, mayuscula media, comas)",
-            "t": "2026-09-30T09:01:34Z"
+            "v": "ok",
+            "nota": "correccion de letra aplicada por Saul con pendientes_saul.py",
+            "t": "2026-09-30T09:21:55Z"
           },
           "timing": {
             "v": "ok",
@@ -2344,9 +2344,9 @@
             "t": "2026-09-30T09:10:35Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "mapeo hecho: 42 anclas nuevas + remaps (tu/tu, que, lo, te, sufri, pagaras) con 5 items PROD nuevos; FALTA traducir a 19 idiomas los 5 items (clasificador bloqueo prod_write): lote en .singit/es_map/payloads/6aa673d872ca57eb1a9efcde/lote_traducciones.json; darás (te darás de cuenta) apunta a item 'asestarás golpes', unico darás del diccionario",
-            "t": "2026-09-30T09:10:36Z"
+            "v": "ok",
+            "nota": "traducciones de los 5 items aplicadas por Saul",
+            "t": "2026-09-30T09:21:56Z"
           },
           "ingles": {
             "v": "ok",
@@ -2507,10 +2507,10 @@
       "originalTrackId": "",
       "titulo": "Pa' Que La Pases Bien",
       "artista": "Arcángel",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "carry e ingles hechos; el vigilante bloqueo la correccion de letra; faltan 9 items nuevos que dependen de ella",
-      "actualizado": "2026-09-30T09:16:36Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "letra corregida por Saul; falta terminar (anclas/DT/ingles) y QC",
+      "actualizado": "2026-09-30T09:21:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2519,9 +2519,9 @@
             "t": "2026-09-30T09:06:45Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "plan listo en cover_repair/plan_6a9ed51ceef2ad59f658df55.json (ajustes: 8 lineas la-pa', merges lineas 1/3/4/70, tildes); el clasificador bloqueo lrc_plan_fix, hay que aplicarlo",
-            "t": "2026-09-30T09:08:45Z"
+            "v": "ok",
+            "nota": "correccion de letra aplicada por Saul con pendientes_saul.py",
+            "t": "2026-09-30T09:21:56Z"
           },
           "timing": {
             "v": "ok",
@@ -2696,10 +2696,10 @@
       "originalTrackId": "",
       "titulo": "Morena",
       "artista": "Neton Vega, Peso Pluma",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-30T09:16:59Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T09:20:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2726,7 +2726,23 @@
             "v": "ok",
             "nota": "inglés a mano, 27 líneas y todos los WIT con texto, BAD 0, enviado a pending_review",
             "t": "2026-09-30T09:16:59Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles pending_review y audio OK; hallazgos qc_es justificados",
+            "t": "2026-09-30T09:20:15Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles pending_review y audio OK; hallazgos qc_es justificados",
+          "t": "2026-09-30T09:20:15Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T09:20:16Z"
         }
       }
     },
@@ -2807,16 +2823,36 @@
       "originalTrackId": "",
       "titulo": "Mariposa Traicionera",
       "artista": "Mana",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:09:33Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-30T09:20:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry aplicado en lote con hints automaticos",
-            "t": "2026-09-30T09:09:33Z"
+            "nota": "carry aplicado en lote por la sesion principal (98%), verify ok",
+            "t": "2026-09-30T09:20:28Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "5 lineas: 1 insert (l22), tildes l24/l27/l43, errata l45; timing de l22 ajustado a la palabra nueva",
+            "t": "2026-09-30T09:20:29Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en las 45 lineas; hueco l24 = instrumental del original; audio SUENA_SIN_BLINDAR (206 ms), sin accion",
+            "t": "2026-09-30T09:20:29Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "9 sin mapear resueltas con 8 items nuevos en PROD + existentes, gemelas unificadas; FALTAN traducciones a 19 idiomas de los 8 items nuevos y de pistilos (prod_write bloqueado por el clasificador): lote en .singit/es_map/payloads/6aa636e572ca57eb1a999e08/lote.json",
+            "t": "2026-09-30T09:20:29Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft en pending_review: 45 lineas + 208 WIT con texto, wit_dt_audit BAD 0; 7 WIT sin DT (items sin traducir)",
+            "t": "2026-09-30T09:20:29Z"
           }
         }
       }
@@ -2967,16 +3003,36 @@
       "originalTrackId": "",
       "titulo": "Por Esos Ojos",
       "artista": "Fuerza Regida",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:09:36Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-30T09:19:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry aplicado en lote con hints automaticos",
-            "t": "2026-09-30T09:09:36Z"
+            "nota": "carry aplicado por la sesion principal en lote (99% casado, verify ok); no se toca",
+            "t": "2026-09-30T09:19:14Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "1 edicion de mayuscula en la linea 16; resto justificado: nombres propios (Kid, Super, Niño, Regida, Armenta, Jorsshh), ad-libs za y Uh, errata del original en linea 37",
+            "t": "2026-09-30T09:19:14Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "timing_report drift 0 en 37 lineas; audio SUENA_SIN_BLINDAR (karaokeMp3 206 ms), no se mide ni se pina",
+            "t": "2026-09-30T09:19:15Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 palabras de letra sin mapear (quedan nombres propios y ad-libs); 8 items nuevos (malandro/s, recio/a/os/as, joya/s) traducidos a 19 idiomas; gemelas unificadas (que, te, mas, por); pobreza traducido",
+            "t": "2026-09-30T09:19:15Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "ingles a mano: 37 lineas, 191 WIT con texto, wit_dt_audit BAD 0, enviado a pending_review",
+            "t": "2026-09-30T09:19:15Z"
           }
         }
       }
