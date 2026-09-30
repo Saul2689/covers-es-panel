@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T09:36:57Z",
+  "generado": "2026-09-30T09:39:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -407,10 +407,10 @@
       "originalTrackId": "6aa7d7eb8d615aa3fed583e6",
       "titulo": "M&m",
       "artista": "Neton Vega",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 2,
-      "motivo": "L9 p2 WIT mejor mal (L22 ok); morenazo L1 item sin traducir (en + 19 idiomas)",
-      "actualizado": "2026-09-30T09:34:37Z",
+      "motivo": "lista para QC (vuelta 2 corregida)",
+      "actualizado": "2026-09-30T09:38:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -435,8 +435,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "wit_dt_audit BAD 0, 0 WIT vacios; draft reenviado a pending_review (no aprobado)",
-            "t": "2026-09-30T09:29:17Z"
+            "nota": "vuelta 2: L9 p2 a better con su DT; morenazo traducido y DT en L1 p1; BAD 0; reenviado a pending_review",
+            "t": "2026-09-30T09:38:57Z"
           },
           "qc": {
             "v": "falta",
@@ -1529,10 +1529,10 @@
       "originalTrackId": "6ab3a9e552330f2b13b56828",
       "titulo": "Yo Voy",
       "artista": "Zion & Lennox",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "desbloqueada por Saul (pendientes_saul2.py); falta terminar anclas/DT/ingles y QC",
-      "actualizado": "2026-09-30T09:25:50Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-30T09:37:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -1541,24 +1541,24 @@
             "t": "2026-09-29T17:55:09Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "plan de LRC listo (lineas 6,13,21,36,53,56,60,64,66); lrc_plan_fix bloqueado por el clasificador",
-            "t": "2026-09-29T17:55:09Z"
+            "v": "ok",
+            "nota": "LRC de Saul 11:25 aplicado (lineas 6,13,21,36,53,56,60,64,66); ver informe",
+            "t": "2026-09-30T09:37:06Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "deriva 0 en 83 lineas; audio SUENA_SIN_BLINDAR sin tocar",
-            "t": "2026-09-29T17:55:09Z"
+            "nota": "drift 0 en las 83 lineas tras los inserts; sin cambios",
+            "t": "2026-09-30T09:37:06Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "gemelas unificadas (18 lineas) y item revele creado+traducido; faltan lineas 6,13,21,36,53,56,60,64,66 tras el LRC",
-            "t": "2026-09-29T17:55:09Z"
+            "v": "ok",
+            "nota": "anchorplan 8 moves lineas 56/60 + anclas nuevas; 13/21, 36/66, 6/53, 64 remapeadas; 0 sin mapear, 0 fuera de rango",
+            "t": "2026-09-30T09:37:07Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "reabrir ingles bloqueado (withdraw denegado); 15 WIT con DT viejo + 2 anclas revele sin WIT",
-            "t": "2026-09-29T17:55:10Z"
+            "v": "ok",
+            "nota": "lineas cambiadas re-traducidas, WIT realineados, wit_dt_audit BAD 0, 0 WIT vacios, pending_review",
+            "t": "2026-09-30T09:37:07Z"
           }
         }
       },
@@ -1769,10 +1769,10 @@
       "originalTrackId": "6aa7ba830752719d51aa506c",
       "titulo": "El Niagara En Bicicleta",
       "artista": "Juan Luis Guerra",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-30T09:34:49Z",
+      "estado": "correccion",
+      "vueltas": 3,
+      "motivo": "item Ben (L13) media marca + minuscula, L37 sin mapear; ancla fuera de rango L1",
+      "actualizado": "2026-09-30T09:39:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -1799,7 +1799,17 @@
             "v": "ok",
             "nota": "draft en: DT en todos los WIT, wit_dt_audit BAD 0, 0 WIT vacios; enviado a pending_review, no aprobado",
             "t": "2026-09-30T09:34:49Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "item Ben es media marca, traducciones en minuscula y L37 sin mapear (gemela distinta); ancla fuera de rango en L1 desenlazada no borrada",
+            "t": "2026-09-30T09:39:28Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "item Ben es media marca, traducciones en minuscula y L37 sin mapear (gemela distinta); ancla fuera de rango en L1 desenlazada no borrada",
+          "t": "2026-09-30T09:39:28Z"
         }
       },
       "motivo_en": "the classifier denied writing translations for 34 new PROD items; batch ready in es_map/payloads/6aa1110e64c9b8ff110c5c59/lote_translate.json; 3 WITs lack a DT and the English draft stays unsubmitted until it is applied; line 13: anchor points to an unrelated item"
@@ -2160,10 +2170,10 @@
       "originalTrackId": "",
       "titulo": "Secreto",
       "artista": "Annual Aa, Karol G",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "desbloqueada por Saul (pendientes_saul2.py); falta terminar anclas/DT/ingles y QC",
-      "actualizado": "2026-09-30T09:25:50Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-30T09:38:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2172,24 +2182,24 @@
             "t": "2026-09-30T08:12:46Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "plan de LRC listo en .singit/es_map/payloads/6a9ae8c803cb4155d3d552fb/lrc_plan.json; el clasificador bloqueo la escritura de PROD (copia de lrc_plan_fix con retimes): 6 lineas de coro con capa de voz duplicada (10,12,23,25,47,49), tildes 22/31/46, elisiones, e'un 4/40",
-            "t": "2026-09-30T08:18:01Z"
+            "v": "ok",
+            "nota": "plan de LRC aplicado por Saul 11:25 (capa duplicada fuera); dudas de oido anotadas en el informe, no insertadas",
+            "t": "2026-09-30T09:38:56Z"
           },
           "mapeo": {
-            "v": "falta",
-            "nota": "parcial: 44 anclas (elisiones a forma completa + gemelas unificadas); quedan matamo'/tecato (items nuevos) y remapear tras el LRC",
-            "t": "2026-09-30T08:22:17Z"
+            "v": "ok",
+            "nota": "anclas del plan movidas (17, 9 fuera de rango borradas), 0 fuera de rango; items nuevos matamo' y tecato (DEV y PROD, 19 idiomas a mano); gemelas unificadas; ere' no' Lo' Bebe mia a 10 anclas nuevas; quedan vocables, nombres, e'un",
+            "t": "2026-09-30T09:38:56Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "capa de voz duplicada en 6 lineas de coro; depende del plan de LRC bloqueado (lrc_plan.json); audio SUENA_SIN_BLINDAR sin tocar",
-            "t": "2026-09-30T08:22:17Z"
+            "v": "ok",
+            "nota": "0 palabras de 0 ms (27 retimes por richsync_set), 0 deriva de inicio de linea en las 73",
+            "t": "2026-09-30T09:38:56Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "sin ingles; SB sin lanzar hasta aplicar el plan de LRC (mueve anclas)",
-            "t": "2026-09-30T08:22:18Z"
+            "v": "ok",
+            "nota": "ingles a mano (Second Brain sin credito): 73 lineas, 388 WIT, BAD 0, 0 vacios; enviado a pending_review",
+            "t": "2026-09-30T09:38:57Z"
           }
         }
       },
@@ -2257,10 +2267,10 @@
       "originalTrackId": "",
       "titulo": "Ven Devorame Otra Vez",
       "artista": "Lalo Rodriguez",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "QC ronda 2: corregir WIT ingles L46 t5 y L13/25/37 t4 en el draft y reenviar a pending_review",
-      "actualizado": "2026-09-30T09:36:29Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T09:39:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2289,15 +2299,21 @@
             "t": "2026-09-30T09:26:49Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "estructura y mapeo OK; 2 WIT ingles mal: L46 t5 (hasta=even, debe ser until) y L13/25/37 t4 (lo='the (neuter)', debe ser it)",
-            "t": "2026-09-30T09:36:29Z"
+            "v": "ok",
+            "nota": "ronda 2: WIT L46 t5 y L13/25/37 t4 corregidos; estructura, mapeo e ingles OK; audio SUENA_SIN_BLINDAR",
+            "t": "2026-09-30T09:39:24Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "estructura y mapeo OK; 2 WIT ingles mal: L46 t5 (hasta=even, debe ser until) y L13/25/37 t4 (lo='the (neuter)', debe ser it)",
-          "t": "2026-09-30T09:36:29Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: WIT L46 t5 y L13/25/37 t4 corregidos; estructura, mapeo e ingles OK; audio SUENA_SIN_BLINDAR",
+          "t": "2026-09-30T09:39:24Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T09:39:24Z"
         }
       }
     },
@@ -2559,10 +2575,10 @@
       "originalTrackId": "",
       "titulo": "Pa' Que La Pases Bien",
       "artista": "Arcángel",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-30T09:32:43Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "l37 t3 ancla sentido equivocado, l37 t5 WIT ingles mal, l13 t1 WIT her->she; luego reabrir ingles y reenviar",
+      "actualizado": "2026-09-30T09:37:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2589,7 +2605,17 @@
             "v": "ok",
             "nota": "draft reabierto y reenviado a pending_review: 314 WIT con texto, wit_dt_audit BAD 0, nada aprobado",
             "t": "2026-09-30T09:32:41Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "estructura, anclas nuevas, coros, items nuevos e ingles OK; 3 fallos: l37 t3 sentido, l37 t5 WIT, l13 t1 WIT",
+            "t": "2026-09-30T09:37:03Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "estructura, anclas nuevas, coros, items nuevos e ingles OK; 3 fallos: l37 t3 sentido, l37 t5 WIT, l13 t1 WIT",
+          "t": "2026-09-30T09:37:03Z"
         }
       },
       "motivo_en": "Carry and English done; the classifier blocked the LRC fix; 9 new items pending on it"
@@ -25914,16 +25940,16 @@
       "originalTrackId": "6aa7bad28d615aa3fed36a67",
       "titulo": "El Breve Espacio En Que No Estas",
       "artista": "Pablo Milanés",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "desbloqueada por Saul (pendientes_saul2.py); falta terminar anclas/DT/ingles y QC",
-      "actualizado": "2026-09-30T09:25:50Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-30T09:37:08Z",
       "auditoria": {
         "pasos": {
           "lrc": {
             "v": "ok",
-            "nota": "LRC: estás, mas x5, a en líneas 20/34, tildes líneas 40-42 (plan lrc_plan_fix)",
-            "t": "2026-09-29T17:08:18Z"
+            "nota": "LRC de Saul 11:25 aplicado; queda una a duplicada en lineas 20/34 (nota de oido)",
+            "t": "2026-09-30T09:37:07Z"
           },
           "carry": {
             "v": "na",
@@ -25932,18 +25958,18 @@
           },
           "timing": {
             "v": "ok",
-            "nota": "sin deriva; palabra de 0 ms de la linea 39 corregida; audio SUENA_SIN_BLINDAR",
-            "t": "2026-09-29T17:11:32Z"
+            "nota": "sin deriva; sin cambios",
+            "t": "2026-09-30T09:37:07Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "items nuevos sin traducir a 19 idiomas (escritura PROD bloqueada); lote listo",
-            "t": "2026-09-29T17:11:32Z"
+            "v": "ok",
+            "nota": "anchorplan 12 moves lineas 20/34 aplicado; 0 fuera de rango; ra/re lineas 25/39 justificado",
+            "t": "2026-09-30T09:37:07Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "borrador pending_review; linea 6 re-traducida; WIT 0 sin texto; falta DT de un item nuevo",
-            "t": "2026-09-29T17:11:32Z"
+            "nota": "DT en WIT de 7 items nuevos, lineas 20/34 realineadas, ad-lib 25/39 corregido; BAD 0, 0 WIT vacios, pending_review",
+            "t": "2026-09-30T09:37:08Z"
           }
         }
       },
