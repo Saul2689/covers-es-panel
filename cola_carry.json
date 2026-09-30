@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T07:35:43Z",
+  "generado": "2026-09-30T07:40:15Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -11082,10 +11082,10 @@
       "originalTrackId": "6aa7b996387e9481dd7b9a1a",
       "titulo": "Deportivo",
       "artista": "Blessd",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "vuelta 1 corregida, lista para QC",
-      "actualizado": "2026-09-30T07:27:55Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T07:39:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11114,15 +11114,21 @@
             "t": "2026-09-30T07:27:54Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "21 mayusculas a mitad sin justificar, L54 t9 tilde/WIT incoherentes, casing WIT L66, dudosas L50 t5 y L31 t6 sin resolver",
-            "t": "2026-09-30T07:23:26Z"
+            "v": "ok",
+            "nota": "vuelta 2: estructura, mayusculas propias justificadas, L54/L50/L31/L66 corregidos, ingles en pending_review, wit_dt BAD 0, drift 0",
+            "t": "2026-09-30T07:39:57Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "21 mayusculas a mitad sin justificar, L54 t9 tilde/WIT incoherentes, casing WIT L66, dudosas L50 t5 y L31 t6 sin resolver",
-          "t": "2026-09-30T07:23:26Z"
+          "v": "VERDE",
+          "resumen": "vuelta 2: estructura, mayusculas propias justificadas, L54/L50/L31/L66 corregidos, ingles en pending_review, wit_dt BAD 0, drift 0",
+          "t": "2026-09-30T07:39:57Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T07:39:58Z"
         }
       }
     },
