@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T09:21:56Z",
+  "generado": "2026-09-30T09:25:51Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -407,10 +407,10 @@
       "originalTrackId": "6aa7d7eb8d615aa3fed583e6",
       "titulo": "M&m",
       "artista": "Neton Vega",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "el classifier bloqueó escribir las traducciones de 3 items nuevos en PROD; lote listo en jobs/lote_tr_6a9ec222.json, 4 anclas sin DT hasta aplicarlo",
-      "actualizado": "2026-09-29T17:04:45Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "desbloqueada por Saul (pendientes_saul2.py); falta terminar anclas/DT/ingles y QC",
+      "actualizado": "2026-09-30T09:25:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -1503,10 +1503,10 @@
       "originalTrackId": "6ab3a9e552330f2b13b56828",
       "titulo": "Yo Voy",
       "artista": "Zion & Lennox",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "LRC e ingles bloqueados por el clasificador de permisos; plan de LRC listo, falta aplicarlo y rehacer el ingles",
-      "actualizado": "2026-09-29T17:55:15Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "desbloqueada por Saul (pendientes_saul2.py); falta terminar anclas/DT/ingles y QC",
+      "actualizado": "2026-09-30T09:25:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -1743,10 +1743,10 @@
       "originalTrackId": "6aa7ba830752719d51aa506c",
       "titulo": "El Niagara En Bicicleta",
       "artista": "Juan Luis Guerra",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "el classifier denegó escribir las traducciones de 34 items nuevos en PROD; lote listo en es_map/payloads/6aa1110e64c9b8ff110c5c59/lote_translate.json; 3 WIT sin DT y el borrador de inglés sin enviar hasta aplicarlo; línea 13: ancla apunta a un item ajeno",
-      "actualizado": "2026-09-29T17:49:49Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "desbloqueada por Saul (pendientes_saul2.py); falta terminar anclas/DT/ingles y QC",
+      "actualizado": "2026-09-30T09:25:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2134,10 +2134,10 @@
       "originalTrackId": "",
       "titulo": "Secreto",
       "artista": "Annual Aa, Karol G",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "LRC bloqueado por el clasificador (plan guardado en es_map/payloads); ingles y mapeo final dependen de ese paso",
-      "actualizado": "2026-09-30T08:22:22Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "desbloqueada por Saul (pendientes_saul2.py); falta terminar anclas/DT/ingles y QC",
+      "actualizado": "2026-09-30T09:25:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -3003,10 +3003,10 @@
       "originalTrackId": "",
       "titulo": "Por Esos Ojos",
       "artista": "Fuerza Regida",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-30T09:19:15Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T09:25:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -3033,7 +3033,23 @@
             "v": "ok",
             "nota": "ingles a mano: 37 lineas, 191 WIT con texto, wit_dt_audit BAD 0, enviado a pending_review",
             "t": "2026-09-30T09:19:15Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ronda 2: linea 21 palabra 2 con tilde y ancla correcta; estructura, ingles y WIT en orden",
+            "t": "2026-09-30T09:25:24Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "ronda 2: linea 21 palabra 2 con tilde y ancla correcta; estructura, ingles y WIT en orden",
+          "t": "2026-09-30T09:25:24Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T09:25:25Z"
         }
       }
     },
@@ -9226,10 +9242,10 @@
       "originalTrackId": "6ab3a9f64d09fbf129f42cc7",
       "titulo": "La Puerta De Alcala",
       "artista": "Ana Belén",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "carry sin aplicar: el clasificador bloqueo la escritura de hints en PROD; hints listos en work/*_myhints.json",
-      "actualizado": "2026-09-29T17:46:03Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "desbloqueada por Saul (pendientes_saul2.py); falta terminar anclas/DT/ingles y QC",
+      "actualizado": "2026-09-30T09:25:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20564,10 +20580,10 @@
       "originalTrackId": "6aa7b8328d615aa3fed32eb6",
       "titulo": "Buscame",
       "artista": "Kany Garcia",
-      "estado": "parada",
+      "estado": "correccion",
       "vueltas": 1,
-      "motivo": "vuelta 1 a medias: el classifier denegó escribir las traducciones de 3 items nuevos en PROD (lote en es_map/payloads/6a9cd4903b4b5538747b503c/lote_translations.json); tras aplicarlo, remapear las líneas 12, 23, 24, 33 y 47 y rehacer sus WIT",
-      "actualizado": "2026-09-30T02:53:32Z",
+      "motivo": "desbloqueada por Saul (pendientes_saul2.py); falta terminar anclas/DT/ingles y QC",
+      "actualizado": "2026-09-30T09:25:49Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -21806,10 +21822,10 @@
       "originalTrackId": "6aa7d7df8d615aa3fed58284",
       "titulo": "Mentira",
       "artista": "Hernaldo Zúñiga",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "a medias: LRC, timing e inglés hechos; el classifier bloqueó crear 16 items en PROD (payloads listos). Falta el permiso de Saúl para crearlos, luego 9 anclas + 3 sentidos + WIT + enviar el borrador",
-      "actualizado": "2026-09-29T16:28:43Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "desbloqueada por Saul (pendientes_saul2.py); falta terminar anclas/DT/ingles y QC",
+      "actualizado": "2026-09-30T09:25:50Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -25840,10 +25856,10 @@
       "originalTrackId": "6aa7bad28d615aa3fed36a67",
       "titulo": "El Breve Espacio En Que No Estas",
       "artista": "Pablo Milanés",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "el classifier bloqueó escribir las traducciones de 7 items nuevos en PROD; lote listo en es_map/payloads/6aa1112064c9b8ff110c993d/lote_translations.json; líneas 25 y 39 con un ad-lib anclado a un nombre artístico",
-      "actualizado": "2026-09-29T17:11:55Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "desbloqueada por Saul (pendientes_saul2.py); falta terminar anclas/DT/ingles y QC",
+      "actualizado": "2026-09-30T09:25:50Z",
       "auditoria": {
         "pasos": {
           "lrc": {
