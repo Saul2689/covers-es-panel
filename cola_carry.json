@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T09:39:39Z",
+  "generado": "2026-09-30T09:41:00Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -407,10 +407,10 @@
       "originalTrackId": "6aa7d7eb8d615aa3fed583e6",
       "titulo": "M&m",
       "artista": "Neton Vega",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "lista para QC (vuelta 2 corregida)",
-      "actualizado": "2026-09-30T09:38:57Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T09:40:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -439,15 +439,21 @@
             "t": "2026-09-30T09:38:57Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "estructura y sentidos OK; L9 palabra 2 WIT de mejor mal (la gemela L22 bien); morenazo L1 sin traducciones en el item",
-            "t": "2026-09-30T09:34:37Z"
+            "v": "ok",
+            "nota": "recheck: L9 p2 corregido, morenazo traducido y con DT; estructura, ingles y wit_dt_audit OK",
+            "t": "2026-09-30T09:40:44Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "estructura y sentidos OK; L9 palabra 2 WIT de mejor mal (la gemela L22 bien); morenazo L1 sin traducciones en el item",
-          "t": "2026-09-30T09:34:37Z"
+          "v": "VERDE",
+          "resumen": "recheck: L9 p2 corregido, morenazo traducido y con DT; estructura, ingles y wit_dt_audit OK",
+          "t": "2026-09-30T09:40:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T09:40:45Z"
         }
       },
       "motivo_en": "the classifier blocked writing translations for 3 new PROD items; batch ready in jobs/lote_tr_6a9ec222.json, 4 anchors lack a DT until it is applied"
@@ -2575,10 +2581,10 @@
       "originalTrackId": "",
       "titulo": "Pa' Que La Pases Bien",
       "artista": "Arcángel",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 2,
-      "motivo": "l37 t3 ancla sentido equivocado, l37 t5 WIT ingles mal, l13 t1 WIT her->she; luego reabrir ingles y reenviar",
-      "actualizado": "2026-09-30T09:37:03Z",
+      "motivo": "lista para QC (vuelta 2 corregida)",
+      "actualizado": "2026-09-30T09:40:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
