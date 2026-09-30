@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-29T17:49:49Z",
+  "generado": "2026-09-30T02:51:01Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -100,10 +100,10 @@
       "originalTrackId": "6aa7d3a6f0f8e5713e6ba932",
       "titulo": "La Botella",
       "artista": "Zion & Lennox",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-29T17:29:27Z",
+      "motivo": "espera a Saúl: linea 97 tok 3, si/sí (¿lo canta el cover? solo el oido lo decide; si sí, es 'sí' afirmativo)",
+      "actualizado": "2026-09-29T17:59:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -130,9 +130,20 @@
             "v": "ok",
             "nota": "draft enviado pending_review; 481/481 WIT con texto; wit_dt_audit BAD 0; lineas 15,31,32,42,60,65,68,81 reescritas",
             "t": "2026-09-29T17:29:27Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC verde: estructura, mapeo, ingles (draft pending_review) y audio OK; solo queda linea 97 tok 3 (si/si con tilde) para el oido de Saul",
+            "t": "2026-09-29T17:58:42Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC verde: estructura, mapeo, ingles (draft pending_review) y audio OK; solo queda linea 97 tok 3 (si/si con tilde) para el oido de Saul",
+          "t": "2026-09-29T17:58:42Z"
         }
-      }
+      },
+      "motivo_en": "waiting for Saúl: line 97 token 3, si/sí (does the cover sing it? only the ear can tell; if so it is the affirmative 'sí')"
     },
     {
       "coverTrackId": "6a9ecc0feef2ad59f640a28a",
@@ -1486,10 +1497,40 @@
       "originalTrackId": "6ab3a9e552330f2b13b56828",
       "titulo": "Yo Voy",
       "artista": "Zion & Lennox",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "Original importado hoy por ISRC (sin video); richsync + mapeo + match + carry en curso",
-      "actualizado": "2026-09-23T10:34:24Z"
+      "motivo": "LRC e ingles bloqueados por el clasificador de permisos; plan de LRC listo, falta aplicarlo y rehacer el ingles",
+      "actualizado": "2026-09-29T17:55:15Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "na",
+            "nota": "carry ya aplicado (23 sep, 76,7%); sin re-proyectar",
+            "t": "2026-09-29T17:55:09Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "plan de LRC listo (lineas 6,13,21,36,53,56,60,64,66); lrc_plan_fix bloqueado por el clasificador",
+            "t": "2026-09-29T17:55:09Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 83 lineas; audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-09-29T17:55:09Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "gemelas unificadas (18 lineas) y item revele creado+traducido; faltan lineas 6,13,21,36,53,56,60,64,66 tras el LRC",
+            "t": "2026-09-29T17:55:09Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "reabrir ingles bloqueado (withdraw denegado); 15 WIT con DT viejo + 2 anclas revele sin WIT",
+            "t": "2026-09-29T17:55:10Z"
+          }
+        }
+      },
+      "motivo_en": "LRC edits and English reopen blocked by the permission classifier; LRC plan ready, still to apply, then redo English"
     },
     {
       "coverTrackId": "6aa1114164c9b8ff110d191f",
@@ -9372,10 +9413,10 @@
       "originalTrackId": "6aa7b992387e9481dd7b99d3",
       "titulo": "De Mi",
       "artista": "Camila",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "vuelta 1 corregida, lista para QC",
-      "actualizado": "2026-09-29T17:36:36Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T02:50:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9404,15 +9445,21 @@
             "t": "2026-09-29T16:55:02Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 1: L19 y L12 anclas a sentido reflexivo (mirarte, sacarte), L11/L23 olvidarme sentido y ingles, locuciones sin phrase item (L18, L7, L12)",
-            "t": "2026-09-29T17:25:26Z"
+            "v": "ok",
+            "nota": "ronda 2: fixes de mirarte/sacarte/olvidarme y 3 locuciones comprobados; estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SIN_BLINDAR",
+            "t": "2026-09-30T02:50:42Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 1: L19 y L12 anclas a sentido reflexivo (mirarte, sacarte), L11/L23 olvidarme sentido y ingles, locuciones sin phrase item (L18, L7, L12)",
-          "t": "2026-09-29T17:25:26Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: fixes de mirarte/sacarte/olvidarme y 3 locuciones comprobados; estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SIN_BLINDAR",
+          "t": "2026-09-30T02:50:42Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T02:50:43Z"
         }
       }
     },
@@ -17175,10 +17222,10 @@
       "originalTrackId": "6aa7d5b7f0f8e5713e6bddb3",
       "titulo": "Mi Corazon Es Un Gitano",
       "artista": "Nicola di Bari",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "vuelta 1 corregida, lista para QC",
-      "actualizado": "2026-09-29T17:13:12Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-29T17:51:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17207,15 +17254,21 @@
             "t": "2026-09-29T16:46:06Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "linea 5 tok 1: mas/mas sin resolver (LRC con tilde, WIT ingles 'but'); resto verde",
-            "t": "2026-09-29T17:04:38Z"
+            "v": "ok",
+            "nota": "ronda 2: linea 5 arreglada (conjuncion mas), estructura, timing drift 0, sentidos, ingles pending_review, BAD 0",
+            "t": "2026-09-29T17:51:14Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "linea 5 tok 1: mas/mas sin resolver (LRC con tilde, WIT ingles 'but'); resto verde",
-          "t": "2026-09-29T17:04:38Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: linea 5 arreglada (conjuncion mas), estructura, timing drift 0, sentidos, ingles pending_review, BAD 0",
+          "t": "2026-09-29T17:51:14Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-29T17:51:15Z"
         }
       }
     },
@@ -19846,10 +19899,10 @@
       "originalTrackId": "6aa7b8328d615aa3fed32eb6",
       "titulo": "Buscame",
       "artista": "Kany Garcia",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-29T17:32:28Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC vuelta 1 devuelto: items de sentido incorrecto en lineas 12/33/47 (p9), 23 (p6), 24 (p1); gemelas 19/53 (p8) con grafia distinta; ver reviews",
+      "actualizado": "2026-09-29T18:07:00Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -19876,7 +19929,17 @@
             "v": "ok",
             "nota": "borrador: 95 WIT + 1 corregido a mano, 5 lineas, 2 PIT; wit_dt_audit BAD 0, 0 vacios; enviado a pending_review",
             "t": "2026-09-29T17:32:28Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "estructura, timing e ingles OK; sentido de item incorrecto en lineas 12/33/47 (palabra 9), 23 (palabra 6), 24 (palabra 1); grafia distinta en gemelas 19/53 (palabra 8)",
+            "t": "2026-09-29T18:07:00Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "estructura, timing e ingles OK; sentido de item incorrecto en lineas 12/33/47 (palabra 9), 23 (palabra 6), 24 (palabra 1); grafia distinta en gemelas 19/53 (palabra 8)",
+          "t": "2026-09-29T18:07:00Z"
         }
       }
     },
@@ -25787,10 +25850,10 @@
       "originalTrackId": "6aa7d3af8d615aa3fed5138a",
       "titulo": "Locuras Tengo De Ti",
       "artista": "Silvana Di Lorenzo",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 2,
-      "motivo": "vuelta 2 corregida, lista para QC",
-      "actualizado": "2026-09-29T17:31:21Z",
+      "motivo": "vuelta 3: falta remapear linea 22 palabra 1 (y) a item copulativo y reabrir WIT/ingles; resto verde",
+      "actualizado": "2026-09-29T18:02:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25820,16 +25883,17 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "vuelta 2: 2 sentidos de ancla mal (L28 y L31, tokens 0 y 2 base 0); resto verificado, fixes de vuelta 1 hechos",
-            "t": "2026-09-29T17:20:49Z"
+            "nota": "ronda 3: rondas 1-2 corregidas, todo verde salvo 1 ancla de sentido (linea 22, palabra 1: 'y' con item de sentido enfatico en vez de copulativa)",
+            "t": "2026-09-29T18:02:04Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "vuelta 2: 2 sentidos de ancla mal (L28 y L31, tokens 0 y 2 base 0); resto verificado, fixes de vuelta 1 hechos",
-          "t": "2026-09-29T17:20:49Z"
+          "v": "PARADA",
+          "resumen": "ronda 3: rondas 1-2 corregidas, todo verde salvo 1 ancla de sentido (linea 22, palabra 1: 'y' con item de sentido enfatico en vez de copulativa)",
+          "t": "2026-09-29T18:02:04Z"
         }
-      }
+      },
+      "motivo_en": "round 3: L22 word 1 ('y') must be remapped to a copulative-conjunction item and the English WIT/draft reopened; everything else green"
     },
     {
       "coverTrackId": "6aa5bea342b8d1fdb0d3b9f6",
@@ -27706,10 +27770,10 @@
       "originalTrackId": "6aa7d3b1f0f8e5713e6ba98c",
       "titulo": "Ligia Elena",
       "artista": "Rubén Blades",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC devuelto: L23/L63 trompeta masculino (item nuevo), L65 y L75 se inherente; reabrir ingles y reenviar",
-      "actualizado": "2026-09-29T17:48:15Z",
+      "motivo": "vuelta 1 corregida, lista para QC",
+      "actualizado": "2026-09-29T17:51:04Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -27719,8 +27783,8 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "recompletado: 0 gemelas, 0 tilde-item; nuevos items nota/notas/niche/niches (traducidos 19); resto qc justificado en informe",
-            "t": "2026-09-29T17:10:53Z"
+            "nota": "vuelta 1: trompeta masculino (item nuevo) y se inherente en L65/L75",
+            "t": "2026-09-29T17:51:03Z"
           },
           "timing": {
             "v": "ok",
