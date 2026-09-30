@@ -198,8 +198,8 @@ tailwind.config={theme:{extend:{
   var QC={1:'#E11D48',2:'#F97316',3:'#EAB308',4:'#84CC16',5:'#22C55E'};
   /* Primero lo que se está trabajando (carry, revisión, corrección,
      traducción), luego lo que espera (en cola), luego lo terminado (hecha), y
-     al final "sin original": no es un paso de la línea sino un atasco de otro
-     trabajo, y se lleva el 94% de las canciones. */
+     al final "sin original": el paso de subir el original por ISRC, que va
+     antes del carry (nunca es una parada). */
   var PASOS=['carry','revision','correccion','traduccion','cola','hecha','sinorig'];
 
   var T={
@@ -233,7 +233,7 @@ tailwind.config={theme:{extend:{
       paradaTxt:'{n} parada: alguien tiene que mirarla antes de que siga.',
       paradasTxt:'{n} paradas: alguien tiene que mirarlas antes de que sigan.',
       calTit:'Reparto de notas',
-      e_sinorig:'Sin original', e_cola:'En cola', e_carry:'Carry', e_traduccion:'Traduciendo',
+      e_sinorig:'Original por subir', e_cola:'En cola', e_carry:'Carry', e_traduccion:'Traduciendo',
       tProc:'Pipeline',
       procTit:'El proceso, paso a paso',
       procSub:'Lo que Claude hace de verdad con cada canción, de arriba abajo y en el orden en que ocurre. Es cómo se trabaja, no en qué punto va cada canción: eso está en la pestaña Carry.',
@@ -289,7 +289,7 @@ tailwind.config={theme:{extend:{
       paradaTxt:'{n} stopped: someone has to look at it before it moves on.',
       paradasTxt:'{n} stopped: someone has to look at them before they move on.',
       calTit:'How the ratings fall',
-      e_sinorig:'No original', e_cola:'Queued', e_carry:'Carry', e_traduccion:'Translating',
+      e_sinorig:'Original to import', e_cola:'Queued', e_carry:'Carry', e_traduccion:'Translating',
       tProc:'Pipeline',
       procTit:'The process, step by step',
       procSub:'What Claude actually does to each song, top to bottom and in the order it happens. It is how the work is done, not where each song stands: that is on the Carry tab.',
@@ -723,9 +723,9 @@ tailwind.config={theme:{extend:{
     ns:'Regla de Saúl del 23 sep: una canción de 1 o 2 estrellas nunca se queda en «parada», sale de la cola.',
     ne:'Saúl’s rule of 23 Sep: a 1- or 2-star song never sits in "stopped", it leaves the queue.'},
    {id:'a4',f:0,t:'dec',v:0,es:'¿Tiene original enlazado?',en:'Is an original linked?'},
-   {id:'x3',f:0,t:'esp',v:1,n:'e_sinorig',es:'Sin original: hay que subirlo',en:'No original: it has to be imported',
-    ns:'Importar por ISRC le está bloqueado al agente, así que sale con el ISRC para Saúl. Es el atasco más grande de todos.',
-    ne:'Importing by ISRC is blocked for the agent, so it goes out with the ISRC for Saúl. It is by far the biggest jam.'},
+   {id:'x3',f:0,t:'proc',v:0,n:'e_sinorig',es:'Sin original: se sube por ISRC',en:'No original: import it by ISRC',
+    ns:'Es un paso más de la línea, nunca una parada: ISRC + comprobación de que no existe ya + letra de lrclib, se importa el original sin vídeo, se enlaza y entra en la cola.',
+    ne:'It is one more step of the line, never a stop: ISRC + check it does not already exist + lrclib lyric, the original is imported without video, linked, and joins the queue.'},
    {id:'a5',f:0,t:'proc',v:0,n:'e_cola',es:'Entra en la cola, por prioridad',en:'Joins the queue, by priority',
     ns:'El orden es lo más popular y lo más enseñable primero, no lo más cómodo.',
     ne:'The order is most popular and most teachable first, not most convenient.'},
@@ -820,7 +820,7 @@ tailwind.config={theme:{extend:{
   /* Las flechas: [de, a, etiqueta]. Etiqueta solo donde hay decisión. */
   var FLECHAS=[
    ['a0','a1'],['a1','a2'],['a2','x1','no'],['a2','a3','si'],
-   ['a3','x2','si'],['a3','a4','no'],['a4','x3','no'],['a4','a5','si'],
+   ['a3','x2','si'],['a3','a4','no'],['a4','x3','no'],['a4','a5','si'],['x3','a5'],
    ['a5','b0'],['b0','xb0','no'],['b0','b1','si'],['b1','b2'],
    ['b2','xb2','no'],['b2','b3','si'],['b3','b4'],
    ['b4','c0'],['c0','c1'],['c1','c2'],['c2','c3'],['c3','c4','si'],
