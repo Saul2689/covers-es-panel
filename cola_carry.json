@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T09:41:00Z",
+  "generado": "2026-09-30T09:41:44Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2581,10 +2581,10 @@
       "originalTrackId": "",
       "titulo": "Pa' Que La Pases Bien",
       "artista": "Arcángel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "lista para QC (vuelta 2 corregida)",
-      "actualizado": "2026-09-30T09:40:34Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T09:41:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2613,15 +2613,21 @@
             "t": "2026-09-30T09:32:41Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "estructura, anclas nuevas, coros, items nuevos e ingles OK; 3 fallos: l37 t3 sentido, l37 t5 WIT, l13 t1 WIT",
-            "t": "2026-09-30T09:37:03Z"
+            "v": "ok",
+            "nota": "ronda 2: l37 t3/t5 y l13 t1 corregidos; nada nuevo roto; ingles en pending_review",
+            "t": "2026-09-30T09:41:29Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "estructura, anclas nuevas, coros, items nuevos e ingles OK; 3 fallos: l37 t3 sentido, l37 t5 WIT, l13 t1 WIT",
-          "t": "2026-09-30T09:37:03Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: l37 t3/t5 y l13 t1 corregidos; nada nuevo roto; ingles en pending_review",
+          "t": "2026-09-30T09:41:29Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T09:41:30Z"
         }
       },
       "motivo_en": "Carry and English done; the classifier blocked the LRC fix; 9 new items pending on it"
