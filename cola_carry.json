@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T07:27:49Z",
+  "generado": "2026-09-30T07:32:11Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -100,10 +100,10 @@
       "originalTrackId": "6aa7d3a6f0f8e5713e6ba932",
       "titulo": "La Botella",
       "artista": "Zion & Lennox",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "espera a Saúl: linea 97 tok 3, si/sí (¿lo canta el cover? solo el oido lo decide; si sí, es 'sí' afirmativo)",
-      "actualizado": "2026-09-29T17:59:00Z",
+      "motivo": "hecha tras repaso 30 sep: la unica duda (l97, palabra final) es de oido, no un fallo",
+      "actualizado": "2026-09-30T07:31:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -112,9 +112,9 @@
             "t": "2026-09-29T17:29:26Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "corregido: Ahi/Ah->Ahi con tilde (9 lineas), ua x7 (l31-32), mas->mas con tilde (l32), baje (l56), allá/acá (l60,68), de (l62,70), Suéltala (l46), lante insertado (l65). Dudoso de oido: l97 falta 'si' del original (sentido incierto, no insertado); l62/70 preposicion 'a' que el original no trae; l94 nombre Madmusic",
-            "t": "2026-09-29T17:29:26Z"
+            "v": "ok",
+            "nota": "letra coherente tal como la canta el proveedor; duda de oido l97 tok3 anotada, no es fallo",
+            "t": "2026-09-30T07:31:10Z"
           },
           "timing": {
             "v": "ok",
@@ -141,6 +141,12 @@
           "v": "VERDE",
           "resumen": "QC verde: estructura, mapeo, ingles (draft pending_review) y audio OK; solo queda linea 97 tok 3 (si/si con tilde) para el oido de Saul",
           "t": "2026-09-29T17:58:42Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T07:31:11Z"
         }
       },
       "motivo_en": "waiting for Saúl: line 97 token 3, si/sí (does the cover sing it? only the ear can tell; if so it is the affirmative 'sí')"
@@ -11076,10 +11082,10 @@
       "originalTrackId": "6aa7b996387e9481dd7b9a1a",
       "titulo": "Deportivo",
       "artista": "Blessd",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC devuelto: mayusculas mid-line sin justificar, L54 t9 tilde/WIT, casing WIT L66 t7/t9, resolver L50 t5 y L31 t6",
-      "actualizado": "2026-09-30T07:23:26Z",
+      "motivo": "vuelta 1 corregida, lista para QC",
+      "actualizado": "2026-09-30T07:27:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11089,8 +11095,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "14 ediciones, 2 uniones, 4 borrados y 3 inserciones por reglas del original (lineas 1,3,4,18,22,27,37,46,49-55,65); elisiones y ad-libs respetados; L24 y L54 dudosas justificadas en informe",
-            "t": "2026-09-29T17:40:52Z"
+            "nota": "vuelta 1: 9 ediciones (minusculas en lineas 24,25,60,61,65; roce->rosé del original en 50; dejé con tilde en 54); mayusculas restantes = nombres propios",
+            "t": "2026-09-30T07:27:54Z"
           },
           "timing": {
             "v": "ok",
@@ -11099,13 +11105,13 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "9 items nuevos + Georgina traducidos a mano (19 idiomas, missing=0); gemelas unificadas, si/sí L3 y L61, este, me, bebé; quedan 8 sin mapear = ad-libs/onomatopeyas (lineas 2,27,31,32,63)",
-            "t": "2026-09-29T17:40:53Z"
+            "nota": "vuelta 1: ancla L50 al item rosé, L54 al preterito dejé, L31 Don al titulo don; quedan 7 sin mapear: ad-libs (2,27,31,32) y la firma de productor Ovy on the Drums (63)",
+            "t": "2026-09-30T07:27:54Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "borrador reabierto y reenviado a pending_review: wit_dt_audit BAD 0, 0 anclas sin texto de 484, 11 lineas corregidas",
-            "t": "2026-09-29T17:40:53Z"
+            "nota": "vuelta 1: borrador reabierto, WIT PR/Colombia/propios corregidos, wit_dt_audit BAD 0, 0 sin texto, reenviado a pending_review",
+            "t": "2026-09-30T07:27:54Z"
           },
           "qc": {
             "v": "falta",
