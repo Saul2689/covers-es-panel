@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T09:25:51Z",
+  "generado": "2026-09-30T09:33:27Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -407,10 +407,10 @@
       "originalTrackId": "6aa7d7eb8d615aa3fed583e6",
       "titulo": "M&m",
       "artista": "Neton Vega",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "desbloqueada por Saul (pendientes_saul2.py); falta terminar anclas/DT/ingles y QC",
-      "actualizado": "2026-09-30T09:25:49Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-30T09:29:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -429,14 +429,14 @@
             "t": "2026-09-29T17:04:06Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "hecho: 3 items nuevos (enfiesto, atraso, paso), 2 phrase items nuevos, 7 phrase insights, 10 remapeos, gemelas 7/20 unificadas. FALTA: traducir a 19 idiomas los 3 items (prod_write bloqueado por el clasificador); lote listo en .singit/es_audit/jobs/lote_tr_6a9ec222.json",
-            "t": "2026-09-29T17:04:06Z"
+            "v": "ok",
+            "nota": "items nuevos ya traducidos (19 idiomas); DT puesto en los 4 WIT sin DT; morenazo L1 sigue con bolsa vacia en ingles (nota)",
+            "t": "2026-09-30T09:29:17Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "draft pending_review: lineas 14 y 16 re-traducidas, 0 WIT sin texto, 7 PIT; enfiesto/atraso/paso sin DT hasta aplicar el lote",
-            "t": "2026-09-29T17:04:06Z"
+            "nota": "wit_dt_audit BAD 0, 0 WIT vacios; draft reenviado a pending_review (no aprobado)",
+            "t": "2026-09-30T09:29:17Z"
           }
         }
       },
@@ -1381,10 +1381,10 @@
       "originalTrackId": "6ab3a9b23f41c3e84005475d",
       "titulo": "Loca",
       "artista": "Shakira",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "carry, letra, timing y mapeo hechos; el classifier denegó abrir el draft de inglés (faltan 50 líneas, borrador en es_map/payloads/6aa4ed1a42b8d1fdb0c22703/en_lines_draft_idx0.json); líneas 15, 23 y 44 de oído",
-      "actualizado": "2026-09-29T17:46:44Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T09:33:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -1408,10 +1408,26 @@
             "t": "2026-09-29T17:46:04Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "reabrir borrador ingles: song_translation_approval_start_draft denegado por el clasificador; faltan 50 lineas (payload listo) + WIT de todas las anclas movidas (wit_dt_audit BAD 12)",
-            "t": "2026-09-29T17:46:04Z"
+            "v": "ok",
+            "nota": "50 lineas + WIT de todas las anclas, draft pending_review, wit_dt_audit BAD 0",
+            "t": "2026-09-30T09:29:32Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 63/63, anclas y gemelas coherentes, ingles 63/63 en pending_review, hallazgos restantes justificados (ad-libs, sigla, elision)",
+            "t": "2026-09-30T09:33:08Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 63/63, anclas y gemelas coherentes, ingles 63/63 en pending_review, hallazgos restantes justificados (ad-libs, sigla, elision)",
+          "t": "2026-09-30T09:33:08Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T09:33:08Z"
         }
       },
       "motivo_en": "carry, lyric, timing and mapping done; the classifier denied opening the English draft (50 lines missing, draft in es_map/payloads/6aa4ed1a42b8d1fdb0c22703/en_lines_draft_idx0.json); lines 15, 23 and 44 to check by ear"
@@ -2231,10 +2247,10 @@
       "originalTrackId": "",
       "titulo": "Ven Devorame Otra Vez",
       "artista": "Lalo Rodriguez",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "letra corregida por Saul; falta terminar (anclas/DT/ingles) y QC",
-      "actualizado": "2026-09-30T09:21:55Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-30T09:26:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2249,18 +2265,18 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "correccion de letra aplicada por Saul con pendientes_saul.py",
-            "t": "2026-09-30T09:21:55Z"
+            "nota": "Plan de 5 tokens (L34,L36,L38,L54) aplicado por Saul; anclas revisadas con track_line_tokens_get, todas correctas; vs_original_falta L46/L48/L51 = partido de linea, ay no cantado, outro propio de la cover",
+            "t": "2026-09-30T09:26:48Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "oido: hueco de 30 s antes de L45 (el original tiene linea cantada corta ausente en la cover) y fila L45/L46 partida (una linea del original en dos filas); hueco antes de L41 justificado como instrumental; drift 0",
-            "t": "2026-09-30T08:49:23Z"
+            "v": "ok",
+            "nota": "drift 0; huecos de 29-30 s antes de L41 (instrumental) y L45 (duda de oido: el original tiene una linea corta cantada) anotados, no se toca",
+            "t": "2026-09-30T09:26:48Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "payload de ingles hecho a mano (54 lineas + 358 WIT) en .singit/es_map/payloads/6aa611b542b8d1fdb0dadf48/english_draft_payload.json; draft no iniciado (Second Brain sin credito)",
-            "t": "2026-09-30T08:49:24Z"
+            "v": "ok",
+            "nota": "54 lineas + 358 WIT a mano, wit_dt_audit BAD 0, pending_review sin aprobar; L27 t7 tu unificado al item BASE (gemelas)",
+            "t": "2026-09-30T09:26:49Z"
           }
         }
       }
@@ -2322,10 +2338,10 @@
       "originalTrackId": "",
       "titulo": "Lloraras",
       "artista": "Oscar D'leon",
-      "estado": "correccion",
-      "vueltas": 1,
-      "motivo": "letra corregida por Saul; falta terminar (anclas/DT/ingles) y QC",
-      "actualizado": "2026-09-30T09:21:56Z",
+      "estado": "hecha",
+      "vueltas": 2,
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T09:33:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2352,7 +2368,23 @@
             "v": "ok",
             "nota": "ingles a mano: 46 lineas + 212 WIT con texto, wit_dt_audit BAD 0, draft en pending_review; hay que REVISAR las lineas 19,38,39 (comprenderas) y las lineas 5,9,14 (nadie) por oido",
             "t": "2026-09-30T09:10:36Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "anclas, inglés, DT y estructura OK; notas: darás de cuenta sin phrase item, caro sin bolsa EN",
+            "t": "2026-09-30T09:33:06Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "anclas, inglés, DT y estructura OK; notas: darás de cuenta sin phrase item, caro sin bolsa EN",
+          "t": "2026-09-30T09:33:06Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T09:33:07Z"
         }
       },
       "motivo_en": "Carry, mapping and English done; the classifier blocked the LRC fix (31 tokens) and the translations of 5 new items"
@@ -2507,10 +2539,10 @@
       "originalTrackId": "",
       "titulo": "Pa' Que La Pases Bien",
       "artista": "Arcángel",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "letra corregida por Saul; falta terminar (anclas/DT/ingles) y QC",
-      "actualizado": "2026-09-30T09:21:56Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-30T09:32:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2520,23 +2552,23 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "correccion de letra aplicada por Saul con pendientes_saul.py",
-            "t": "2026-09-30T09:21:56Z"
+            "nota": "plan LRC aplicado por Saul; plan de anclas aplicado (lineas 4 y 70), anclas fuera de rango borradas: 1 (linea 70), linea 1 con seccion Intro 1",
+            "t": "2026-09-30T09:28:52Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "deriva 0 en 72 lineas; guard SUENA_SIN_BLINDAR (stemVoc null), sin tocar audio",
-            "t": "2026-09-30T09:16:08Z"
+            "nota": "sin cambios de timing; dudas de oido en lineas 70 y 72 quedan como nota",
+            "t": "2026-09-30T09:32:41Z"
           },
           "mapeo": {
-            "v": "falta",
-            "nota": "60 sin mapear: ingles y ad-libs justificados; faltan items nuevos es (maravillosamente, capta, enloquecen, tirarme, cura'o, masaje, deshaz, musical, espanto sustantivo, de-elidido) y 16 anclas la/pa' tras el plan lrc; 2 anclas nuevas (venga', vea') hechas",
-            "t": "2026-09-30T09:16:09Z"
+            "v": "ok",
+            "nota": "14 items es nuevos (DEV y PROD, 19 idiomas), anclas nuevas, la/pa' de coros, gemelas 17/49/53 unificadas, si/aja con tilde",
+            "t": "2026-09-30T09:28:52Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "draft pending_review escrito a mano (sin credito SB): 72 lineas, 287 WIT con texto, wit_dt_audit BAD 0; reabrir si el plan lrc cambia anclas de lineas 1/3/4/70 y hay que glosar la/pa' nuevos",
-            "t": "2026-09-30T09:16:09Z"
+            "nota": "draft reabierto y reenviado a pending_review: 314 WIT con texto, wit_dt_audit BAD 0, nada aprobado",
+            "t": "2026-09-30T09:32:41Z"
           }
         }
       },
@@ -20580,10 +20612,10 @@
       "originalTrackId": "6aa7b8328d615aa3fed32eb6",
       "titulo": "Buscame",
       "artista": "Kany Garcia",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "desbloqueada por Saul (pendientes_saul2.py); falta terminar anclas/DT/ingles y QC",
-      "actualizado": "2026-09-30T09:25:49Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-30T09:31:08Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -20602,14 +20634,14 @@
             "t": "2026-09-29T17:32:27Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "vuelta 1: 3 items nuevos creados en PROD (respondia, vinieron, llegue) pero el guardado de sus 19 traducciones fue bloqueado por el clasificador; sin remapear (lineas 12/33/47, 23, 24). Lote listo en .singit/es_map/payloads/6a9cd4903b4b5538747b503c/lote_translations.json",
-            "t": "2026-09-30T02:53:09Z"
+            "v": "ok",
+            "nota": "traducciones de los 3 items nuevos aplicadas; 5 anclas remapeadas (lineas 12, 23, 24, 33, 47) a los items de sentido bloqueado",
+            "t": "2026-09-30T09:31:07Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "vuelta 1: borrador retirado, 4 WIT de donde corregidos, reenviado a pending_review; wit_dt_audit BAD 0",
-            "t": "2026-09-30T02:53:09Z"
+            "nota": "WIT rehechos con su DT, wit_dt_audit BAD 0, 0 WIT vacios; draft reenviado a pending_review (no aprobado)",
+            "t": "2026-09-30T09:31:08Z"
           },
           "qc": {
             "v": "falta",
