@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T08:36:13Z",
+  "generado": "2026-09-30T08:40:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -1989,10 +1989,40 @@
       "originalTrackId": "",
       "titulo": "El Telefono",
       "artista": "Hector El Father, Wisin Y Yandel",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; carry en curso (sin estrellas)",
-      "actualizado": "2026-09-30T08:30:54Z"
+      "motivo": "Letra del cover desordenada en el tiempo: reordenar por ms antes del carry; la escritura la bloqueo el clasificador (queda para Saul)",
+      "actualizado": "2026-09-30T08:38:40Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "Carry NO aplicado: la letra del cover esta desordenada en el tiempo (bloques de estribillo al principio, lineas 1-48; luego vuelve a 0:44). Hay que ordenar por tiempo ANTES del carry; la escritura (lrc_upload + richsync_set) la bloqueo el clasificador. Payload listo.",
+            "t": "2026-09-30T08:38:13Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "Reordenar la letra por ms (98 de 132 lineas cambian de sitio) + limpiar tildes/erratas; payload sorted.json listo, escritura bloqueada",
+            "t": "2026-09-30T08:38:14Z"
+          },
+          "timing": {
+            "v": "saul",
+            "nota": "El orden por ms es el arreglo de timing; drift richsync/LRC ya es 0; audio SUENA_SIN_BLINDAR, sin tocar",
+            "t": "2026-09-30T08:38:14Z"
+          },
+          "mapeo": {
+            "v": "falta",
+            "nota": "Depende del reorden y del carry; hints de carry previos (23) quedan obsoletos tras reordenar",
+            "t": "2026-09-30T08:38:15Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "Ingles escrito a mano (132 lineas + WIT por ancla) en payloads/6aa5b96142b8d1fdb0d34b67/en_payload.json; sin aplicar; el original tampoco tiene ingles y el Second Brain no tiene credito",
+            "t": "2026-09-30T08:38:15Z"
+          }
+        }
+      },
+      "motivo_en": "Cover lyric is out of time order: it must be sorted by ms before the carry; the write was blocked by the permission classifier (left for Saul)"
     },
     {
       "coverTrackId": "6a9ecf4ceef2ad59f64a388e",
@@ -2000,10 +2030,10 @@
       "originalTrackId": "",
       "titulo": "Tu Sancho",
       "artista": "Fuerza Regida",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-30T08:35:41Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T08:40:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2030,7 +2060,23 @@
             "v": "ok",
             "nota": "draft en pending_review: 42 lineas, 215 WIT con texto, wit_dt_audit BAD 0",
             "t": "2026-09-30T08:35:41Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 42/42, drift 0, 235 tokens, sentidos y homografos ok, items nuevos completos, ingles pending_review 42/42 sin WIT vacios, wit_dt BAD 0, hallazgos justificados",
+            "t": "2026-09-30T08:40:00Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 42/42, drift 0, 235 tokens, sentidos y homografos ok, items nuevos completos, ingles pending_review 42/42 sin WIT vacios, wit_dt BAD 0, hallazgos justificados",
+          "t": "2026-09-30T08:40:00Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T08:40:01Z"
         }
       }
     },
@@ -2126,7 +2172,16 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "original subido hoy por ISRC y enlazado; carry en curso (sin estrellas)",
-      "actualizado": "2026-09-30T08:30:54Z"
+      "actualizado": "2026-09-30T08:38:19Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry aplicado: 91% matched, 54 lineas; hints spell/pin por regla + pines L1/L4/L43 (original gana, 3a fuente) + pines L18/L30 (recut)",
+            "t": "2026-09-30T08:38:19Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa1110864c9b8ff110c4cad",
