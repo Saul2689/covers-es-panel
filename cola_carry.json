@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T08:40:34Z",
+  "generado": "2026-09-30T08:51:11Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -1918,10 +1918,10 @@
       "originalTrackId": "",
       "titulo": "Ginza",
       "artista": "J. Balvin",
-      "estado": "carry",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; carry en curso (sin estrellas)",
-      "actualizado": "2026-09-30T08:17:54Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T08:46:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -1938,7 +1938,33 @@
             "v": "ok",
             "nota": "tildes en lineas 22/35/39; resto de ortografia = original (nombres propios, ad-libs)",
             "t": "2026-09-30T08:17:54Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "7 items nuevos (19 idiomas a mano), 5 anclas nuevas, 16 gemelas unificadas, homografos si/que/cuanto; sin_mapear restante = ad-libs/ingles/nombres en outro excluido",
+            "t": "2026-09-30T08:43:27Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft a mano (SB sin credito): 56 lineas + 280 WIT con texto, wit_dt_audit BAD 0, pending_review",
+            "t": "2026-09-30T08:43:27Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, homografos, ingles pending_review 56/56 y wit_dt BAD 0 ok; hallazgos restantes justificados (seccion excluida, ad-libs)",
+            "t": "2026-09-30T08:46:44Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, homografos, ingles pending_review 56/56 y wit_dt BAD 0 ok; hallazgos restantes justificados (seccion excluida, ad-libs)",
+          "t": "2026-09-30T08:46:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T08:46:45Z"
         }
       }
     },
@@ -2169,16 +2195,36 @@
       "originalTrackId": "",
       "titulo": "Ven Devorame Otra Vez",
       "artista": "Lalo Rodriguez",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; carry en curso (sin estrellas)",
-      "actualizado": "2026-09-30T08:38:19Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-30T08:49:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry aplicado: 91% matched, 54 lineas; hints spell/pin por regla + pines L1/L4/L43 (original gana, 3a fuente) + pines L18/L30 (recut)",
             "t": "2026-09-30T08:38:19Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "358/358 mapeadas; 14 items nuevos PROD (traducidos a mano 19 idiomas); 11 anclas remapeadas (gemelas/guarde)",
+            "t": "2026-09-30T08:47:30Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "lrc_plan_fix --write bloqueado por el clasificador; plan guardado en payloads/lrc_plan_fix_plan.json (5 tokens)",
+            "t": "2026-09-30T08:49:24Z"
+          },
+          "timing": {
+            "v": "saul",
+            "nota": "oido: hueco de 30 s antes de L45 (el original tiene linea cantada corta ausente en la cover) y fila L45/L46 partida (una linea del original en dos filas); hueco antes de L41 justificado como instrumental; drift 0",
+            "t": "2026-09-30T08:49:23Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "payload de ingles hecho a mano (54 lineas + 358 WIT) en .singit/es_map/payloads/6aa611b542b8d1fdb0dadf48/english_draft_payload.json; draft no iniciado (Second Brain sin credito)",
+            "t": "2026-09-30T08:49:24Z"
           }
         }
       }
