@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T09:54:55Z",
+  "generado": "2026-09-30T09:57:55Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -3311,10 +3311,10 @@
       "originalTrackId": "",
       "titulo": "La Media Vuelta",
       "artista": "Luis Miguel",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "retime que/a en lineas 10 y 20 palabra 8; I mayuscula en DT y WIT de detengo (linea 2 palabra 8), reabrir draft ingles",
-      "actualizado": "2026-09-30T09:53:26Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T09:57:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -3343,15 +3343,21 @@
             "t": "2026-09-30T09:50:19Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "palabra 'que' en 1 ms tras insertar 'a' (lineas 10 y 20, palabra 8); WIT/DT ingles de 'detengo' en minuscula (linea 2, palabra 8)",
-            "t": "2026-09-30T09:53:26Z"
+            "v": "ok",
+            "nota": "ronda 2: retime lineas 10/20 ok (min 90 ms), WIT ingles corregido, qc_es y wit_dt_audit limpios",
+            "t": "2026-09-30T09:57:42Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "palabra 'que' en 1 ms tras insertar 'a' (lineas 10 y 20, palabra 8); WIT/DT ingles de 'detengo' en minuscula (linea 2, palabra 8)",
-          "t": "2026-09-30T09:53:26Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: retime lineas 10/20 ok (min 90 ms), WIT ingles corregido, qc_es y wit_dt_audit limpios",
+          "t": "2026-09-30T09:57:42Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T09:57:43Z"
         }
       }
     },
