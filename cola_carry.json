@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T08:51:11Z",
+  "generado": "2026-09-30T08:56:28Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2175,17 +2175,53 @@
       "originalTrackId": "",
       "titulo": "Te Extraño",
       "artista": "Xtreme",
-      "estado": "carry",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; carry en curso (sin estrellas)",
-      "actualizado": "2026-09-30T08:34:45Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T08:56:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry aplicado: 83% alineado, 10 hints (accent pins/spell), 55 lineas, richsync=LRC, secciones 55/55; audio SUENA_SIN_BLINDAR sin tocar",
-            "t": "2026-09-30T08:34:45Z"
+            "nota": "carry aplicado; original importado por ISRC y emparejado",
+            "t": "2026-09-30T08:52:28Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "plan aplicado: duplicados de capa conservados, ortografias vendor Abrazados y cuerpecito restauradas",
+            "t": "2026-09-30T08:52:28Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en las 55 lineas; hueco de ~20 s antes de la linea 22 es duda de oido (nota, no parada)",
+            "t": "2026-09-30T08:56:15Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "72 anclas upsert, 16 fuera de rango borradas; 0 sin mapear salvo adlibs y linea inglesa 26; tilde/tu/mi revisados",
+            "t": "2026-09-30T08:52:28Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft pending_review, 55 lineas, 301 WIT con texto, BAD 0",
+            "t": "2026-09-30T08:56:15Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura y drift 0, anclas y homografos correctos, ingles 55/55 en pending_review; residuos qc_es justificados; nota: hueco de ~20 s antes de la linea 22 (duda de oido)",
+            "t": "2026-09-30T08:56:15Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura y drift 0, anclas y homografos correctos, ingles 55/55 en pending_review; residuos qc_es justificados; nota: hueco de ~20 s antes de la linea 22 (duda de oido)",
+          "t": "2026-09-30T08:56:15Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T08:56:16Z"
         }
       }
     },
@@ -2300,7 +2336,16 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "original subido hoy por ISRC y enlazado (6abcbeec985c020ddc19c356); mapeo en curso, pendiente de carry",
-      "actualizado": "2026-09-30T07:51:40Z"
+      "actualizado": "2026-09-30T08:55:51Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry aplicado (hints autohints, 89% matched); quedan texto/mapeo por arreglar",
+            "t": "2026-09-30T08:55:51Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7a0ab72ca57eb1ad0350f",
@@ -2311,7 +2356,16 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "original subido hoy por ISRC y enlazado (6abcbeedd3ac38992b0a0a6a); mapeo en curso, pendiente de carry",
-      "actualizado": "2026-09-30T07:51:40Z"
+      "actualizado": "2026-09-30T08:55:44Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry aplicado 99%: 56 hints (spell/pin), sin joins (las filas de yeh quedan como linea propia)",
+            "t": "2026-09-30T08:55:44Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa76de672ca57eb1ab403c1",
