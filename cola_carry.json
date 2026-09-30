@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T08:18:10Z",
+  "generado": "2026-09-30T08:30:55Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -1948,19 +1948,40 @@
       "originalTrackId": "",
       "titulo": "Pobre Diabla",
       "artista": "Don Omar",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; carry en curso (sin estrellas)",
-      "actualizado": "2026-09-30T08:12:30Z",
+      "motivo": "lista para QC: carry y mapeo hechos; quedan lrc (2 cambios), inglés y 1 duda de timing para Saúl por bloqueos",
+      "actualizado": "2026-09-30T08:26:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry aplicado 30 sep (95% matched, 24 decisiones por regla, L50 keepBreak, L6 keepSungWord); audio guard SUENA_SIN_BLINDAR 206",
             "t": "2026-09-30T08:12:30Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "8 items nuevos (centavo/centavos, valorizó, hechizó, utilizó, embarazó, bachatero/bachateros) DEV+PROD traducidos 19 idiomas; 20 anclas creadas; 26 gemelas unificadas; L51 mí. Quedan sin mapear 3 tokens Eliel (nombre propio)",
+            "t": "2026-09-30T08:20:15Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "plan lrc_plan_fix bloqueado por el clasificador (insertar palabra en L23, mi->mí en L51); payload en es_map/payloads/6aa5791842b8d1fdb0ce301b/lrc_plan_fix_plan.json. L6 y L48 quedan con la versión del cover (no probado que difiera)",
+            "t": "2026-09-30T08:26:36Z"
+          },
+          "timing": {
+            "v": "saul",
+            "nota": "hueco de 22 s antes de L36 (el original trae 2 líneas de gritos ahí; el cover no las canta en el XML); sin oído no se puede probar; drift richsync 0",
+            "t": "2026-09-30T08:26:36Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "Second Brain sin crédito (run fallido) y start_draft bloqueado por el clasificador; inglés preparado en es_map/payloads/6aa5791842b8d1fdb0ce301b/english_draft_payload.json",
+            "t": "2026-09-30T08:26:36Z"
           }
         }
-      }
+      },
+      "motivo_en": "ready for QC: carry and mapping done; LRC (2 edits), English and one timing doubt left for Saul because of blocks"
     },
     {
       "coverTrackId": "6aa5b96142b8d1fdb0d34b67",
@@ -1968,10 +1989,10 @@
       "originalTrackId": "",
       "titulo": "El Telefono",
       "artista": "Hector El Father, Wisin Y Yandel",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado (6abcbe1f985c020ddc19b9fd); mapeo en curso, pendiente de carry",
-      "actualizado": "2026-09-30T07:51:38Z"
+      "motivo": "original subido hoy por ISRC y enlazado; carry en curso (sin estrellas)",
+      "actualizado": "2026-09-30T08:30:54Z"
     },
     {
       "coverTrackId": "6a9ecf4ceef2ad59f64a388e",
@@ -1979,16 +2000,36 @@
       "originalTrackId": "",
       "titulo": "Tu Sancho",
       "artista": "Fuerza Regida",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; carry en curso (sin estrellas)",
-      "actualizado": "2026-09-30T08:11:33Z",
+      "motivo": "lista para QC salvo ingles (bloqueado, payload listo)",
+      "actualizado": "2026-09-30T08:27:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry aplicado 96%, 42 lineas, hints por regla",
-            "t": "2026-09-30T08:11:33Z"
+            "nota": "carry aplicado 96%, 42 lineas; L15 y L28 se quedan como canta el cover",
+            "t": "2026-09-30T08:26:59Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "restos de qc justificados: ad-libs, risas, nombres propios, L15/L28 lo cantado",
+            "t": "2026-09-30T08:26:59Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 42 lineas, audio SUENA_SIN_BLINDAR",
+            "t": "2026-09-30T08:26:59Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "10 items y 1 phrase item nuevos con 19 idiomas; 6 sin mapear justificados",
+            "t": "2026-09-30T08:27:00Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "Second Brain sin credito y start-draft bloqueado por el clasificador; 42 lineas en payload",
+            "t": "2026-09-30T08:27:00Z"
           }
         }
       }
@@ -2021,10 +2062,10 @@
       "originalTrackId": "",
       "titulo": "Secreto",
       "artista": "Annual Aa, Karol G",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; carry en curso (sin estrellas)",
-      "actualizado": "2026-09-30T08:18:01Z",
+      "motivo": "LRC bloqueado por el clasificador (plan guardado en es_map/payloads); ingles y mapeo final dependen de ese paso",
+      "actualizado": "2026-09-30T08:22:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2036,9 +2077,25 @@
             "v": "saul",
             "nota": "plan de LRC listo en .singit/es_map/payloads/6a9ae8c803cb4155d3d552fb/lrc_plan.json; el clasificador bloqueo la escritura de PROD (copia de lrc_plan_fix con retimes): 6 lineas de coro con capa de voz duplicada (10,12,23,25,47,49), tildes 22/31/46, elisiones, e'un 4/40",
             "t": "2026-09-30T08:18:01Z"
+          },
+          "mapeo": {
+            "v": "falta",
+            "nota": "parcial: 44 anclas (elisiones a forma completa + gemelas unificadas); quedan matamo'/tecato (items nuevos) y remapear tras el LRC",
+            "t": "2026-09-30T08:22:17Z"
+          },
+          "timing": {
+            "v": "saul",
+            "nota": "capa de voz duplicada en 6 lineas de coro; depende del plan de LRC bloqueado (lrc_plan.json); audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-09-30T08:22:17Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "sin ingles; SB sin lanzar hasta aplicar el plan de LRC (mueve anclas)",
+            "t": "2026-09-30T08:22:18Z"
           }
         }
-      }
+      },
+      "motivo_en": "LRC write blocked by the permission classifier (plan saved in es_map/payloads); English and final mapping depend on that step"
     },
     {
       "coverTrackId": "6aa7454c72ca57eb1ab110e7",
@@ -2046,10 +2103,10 @@
       "originalTrackId": "",
       "titulo": "Te Extraño",
       "artista": "Xtreme",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado (6abcbe9cd3ac38992b0a0745); mapeo en curso, pendiente de carry",
-      "actualizado": "2026-09-30T07:51:39Z"
+      "motivo": "original subido hoy por ISRC y enlazado; carry en curso (sin estrellas)",
+      "actualizado": "2026-09-30T08:30:54Z"
     },
     {
       "coverTrackId": "6aa611b542b8d1fdb0dadf48",
@@ -2057,10 +2114,10 @@
       "originalTrackId": "",
       "titulo": "Ven Devorame Otra Vez",
       "artista": "Lalo Rodriguez",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado (6abcbe9db3d30aa1ac8a79b6); mapeo en curso, pendiente de carry",
-      "actualizado": "2026-09-30T07:51:39Z"
+      "motivo": "original subido hoy por ISRC y enlazado; carry en curso (sin estrellas)",
+      "actualizado": "2026-09-30T08:30:54Z"
     },
     {
       "coverTrackId": "6aa1110864c9b8ff110c4cad",
@@ -2587,8 +2644,8 @@
       "artista": "Daddy Yankee, Omega",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:28:06Z"
     },
     {
       "coverTrackId": "6aa6c6db72ca57eb1aa5bc81",
@@ -2598,8 +2655,8 @@
       "artista": "Ruben Blades, Willie Colon",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:28:07Z"
     },
     {
       "coverTrackId": "6aa6997e72ca57eb1aa25eb5",
@@ -2609,8 +2666,8 @@
       "artista": "RBD",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:28:07Z"
     },
     {
       "coverTrackId": "6aa6305e72ca57eb1a98d2c4",
@@ -2620,8 +2677,8 @@
       "artista": "Luis Miguel",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:28:07Z"
     },
     {
       "coverTrackId": "6aa76c4872ca57eb1ab3de56",
@@ -2631,8 +2688,8 @@
       "artista": "Dread Mar-I",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:28:07Z"
     },
     {
       "coverTrackId": "6aa737aa72ca57eb1aaf8e72",
@@ -2642,8 +2699,8 @@
       "artista": "Romeo Santos",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: el candidato del matcher es otra cancion (otro artista); hace falta subir el original por ISRC, que a este agente se lo bloquea el sistema",
-      "actualizado": "2026-09-22T15:18:11Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:28:07Z"
     },
     {
       "coverTrackId": "6aa6925872ca57eb1aa1843e",
@@ -2653,8 +2710,8 @@
       "artista": "Rafaga",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:28:08Z"
     },
     {
       "coverTrackId": "6aa81239d951e1665a7f6255",
@@ -2664,8 +2721,8 @@
       "artista": "Don Omar, Juelz Santana",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:28:08Z"
     },
     {
       "coverTrackId": "6aa77c6a72ca57eb1acce43c",
@@ -2675,8 +2732,8 @@
       "artista": "Don Omar",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:28:08Z"
     },
     {
       "coverTrackId": "6aa6cea972ca57eb1aa65704",
@@ -2686,8 +2743,8 @@
       "artista": "Santana feat. Maná",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original ya existia en SingIt; enlazado hoy, lista para carry",
+      "actualizado": "2026-09-30T08:20:19Z"
     },
     {
       "coverTrackId": "6a9a2e709bc1eb137252853d",
@@ -2708,8 +2765,8 @@
       "artista": "Camila",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:28:08Z"
     },
     {
       "coverTrackId": "6aa5830042b8d1fdb0cf0c12",
@@ -2719,8 +2776,8 @@
       "artista": "Elvis Crespo",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:28:08Z"
     },
     {
       "coverTrackId": "6a9eb3eceef2ad59f60e411c",
@@ -2730,8 +2787,8 @@
       "artista": "Tito Double P",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
+      "actualizado": "2026-09-30T08:28:09Z"
     },
     {
       "coverTrackId": "6aa4eff942b8d1fdb0c2708b",
@@ -2741,8 +2798,8 @@
       "artista": "Juan Gabriel",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original ya existia en SingIt; enlazado hoy, lista para carry",
+      "actualizado": "2026-09-30T08:20:19Z"
     },
     {
       "coverTrackId": "6aa5e4fd42b8d1fdb0d76ac2",
@@ -2752,8 +2809,8 @@
       "artista": "Juan Gabriel",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original por subir: el ISRC de Deezer no tiene video en YouTube; buscar otra version",
+      "actualizado": "2026-09-30T08:20:19Z"
     },
     {
       "coverTrackId": "6aa6b3d472ca57eb1aa394e3",
