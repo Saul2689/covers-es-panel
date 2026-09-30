@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T09:33:36Z",
+  "generado": "2026-09-30T09:36:57Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -407,10 +407,10 @@
       "originalTrackId": "6aa7d7eb8d615aa3fed583e6",
       "titulo": "M&m",
       "artista": "Neton Vega",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-30T09:29:18Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "L9 p2 WIT mejor mal (L22 ok); morenazo L1 item sin traducir (en + 19 idiomas)",
+      "actualizado": "2026-09-30T09:34:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -437,7 +437,17 @@
             "v": "ok",
             "nota": "wit_dt_audit BAD 0, 0 WIT vacios; draft reenviado a pending_review (no aprobado)",
             "t": "2026-09-30T09:29:17Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "estructura y sentidos OK; L9 palabra 2 WIT de mejor mal (la gemela L22 bien); morenazo L1 sin traducciones en el item",
+            "t": "2026-09-30T09:34:37Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "estructura y sentidos OK; L9 palabra 2 WIT de mejor mal (la gemela L22 bien); morenazo L1 sin traducciones en el item",
+          "t": "2026-09-30T09:34:37Z"
         }
       },
       "motivo_en": "the classifier blocked writing translations for 3 new PROD items; batch ready in jobs/lote_tr_6a9ec222.json, 4 anchors lack a DT until it is applied"
@@ -1759,10 +1769,10 @@
       "originalTrackId": "6aa7ba830752719d51aa506c",
       "titulo": "El Niagara En Bicicleta",
       "artista": "Juan Luis Guerra",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "desbloqueada por Saul (pendientes_saul2.py); falta terminar anclas/DT/ingles y QC",
-      "actualizado": "2026-09-30T09:25:49Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-30T09:34:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -1781,14 +1791,14 @@
             "t": "2026-09-29T17:48:23Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "34 items nuevos creados en PROD y mapeados (0 tokens sin mapear salvo nombres propios/ad-libs); FALTA traducirlos a 19 idiomas: el lote esta listo pero el clasificador bloqueo prod_write; ver informe",
-            "t": "2026-09-29T17:48:23Z"
+            "v": "ok",
+            "nota": "34 items con traduccion 19 idiomas; ancla de L13 remapeada a item nuevo 'Ben' (marca Ben Gay)",
+            "t": "2026-09-30T09:34:49Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "draft en abierto (no enviado): lineas 1, 8, 39 corregidas y WIT re-alineados; faltan DT en 3 WIT y 34 items sin traducir; tras aplicar el lote: wit_dt_audit -> BAD 0 y enviar",
-            "t": "2026-09-29T17:48:23Z"
+            "v": "ok",
+            "nota": "draft en: DT en todos los WIT, wit_dt_audit BAD 0, 0 WIT vacios; enviado a pending_review, no aprobado",
+            "t": "2026-09-30T09:34:49Z"
           }
         }
       },
@@ -2247,10 +2257,10 @@
       "originalTrackId": "",
       "titulo": "Ven Devorame Otra Vez",
       "artista": "Lalo Rodriguez",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-30T09:26:49Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "QC ronda 2: corregir WIT ingles L46 t5 y L13/25/37 t4 en el draft y reenviar a pending_review",
+      "actualizado": "2026-09-30T09:36:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2277,7 +2287,17 @@
             "v": "ok",
             "nota": "54 lineas + 358 WIT a mano, wit_dt_audit BAD 0, pending_review sin aprobar; L27 t7 tu unificado al item BASE (gemelas)",
             "t": "2026-09-30T09:26:49Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "estructura y mapeo OK; 2 WIT ingles mal: L46 t5 (hasta=even, debe ser until) y L13/25/37 t4 (lo='the (neuter)', debe ser it)",
+            "t": "2026-09-30T09:36:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "estructura y mapeo OK; 2 WIT ingles mal: L46 t5 (hasta=even, debe ser until) y L13/25/37 t4 (lo='the (neuter)', debe ser it)",
+          "t": "2026-09-30T09:36:29Z"
         }
       }
     },
@@ -2858,7 +2878,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "lista para QC",
-      "actualizado": "2026-09-30T09:20:29Z",
+      "actualizado": "2026-09-30T09:34:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2877,14 +2897,14 @@
             "t": "2026-09-30T09:20:29Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "9 sin mapear resueltas con 8 items nuevos en PROD + existentes, gemelas unificadas; FALTAN traducciones a 19 idiomas de los 8 items nuevos y de pistilos (prod_write bloqueado por el clasificador): lote en .singit/es_map/payloads/6aa636e572ca57eb1a999e08/lote.json",
-            "t": "2026-09-30T09:20:29Z"
+            "v": "ok",
+            "nota": "8 items nuevos traducidos; pistilos con filas de traduccion (19 idiomas) sin tocar su definicion",
+            "t": "2026-09-30T09:34:50Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "draft en pending_review: 45 lineas + 208 WIT con texto, wit_dt_audit BAD 0; 7 WIT sin DT (items sin traducir)",
-            "t": "2026-09-30T09:20:29Z"
+            "nota": "draft en reabierto, 7 WIT con DT, wit_dt_audit BAD 0; reenviado a pending_review, no aprobado",
+            "t": "2026-09-30T09:34:50Z"
           }
         }
       }
@@ -20612,10 +20632,10 @@
       "originalTrackId": "6aa7b8328d615aa3fed32eb6",
       "titulo": "Buscame",
       "artista": "Kany Garcia",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-30T09:31:08Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T09:36:35Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -20644,15 +20664,21 @@
             "t": "2026-09-30T09:31:08Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "estructura, timing e ingles OK; sentido de item incorrecto en lineas 12/33/47 (palabra 9), 23 (palabra 6), 24 (palabra 1); grafia distinta en gemelas 19/53 (palabra 8)",
-            "t": "2026-09-29T18:07:00Z"
+            "v": "ok",
+            "nota": "estructura, sentidos de las 5 anclas remapeadas e ingles OK; nota: WIT de la gemela 13/34/48 palabra 6 desigual, y bracket de crees",
+            "t": "2026-09-30T09:36:34Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "estructura, timing e ingles OK; sentido de item incorrecto en lineas 12/33/47 (palabra 9), 23 (palabra 6), 24 (palabra 1); grafia distinta en gemelas 19/53 (palabra 8)",
-          "t": "2026-09-29T18:07:00Z"
+          "v": "VERDE",
+          "resumen": "estructura, sentidos de las 5 anclas remapeadas e ingles OK; nota: WIT de la gemela 13/34/48 palabra 6 desigual, y bracket de crees",
+          "t": "2026-09-30T09:36:34Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T09:36:35Z"
         }
       },
       "motivo_en": "round 1 half done: the classifier denied writing translations for 3 new PROD items (batch in es_map/payloads/6a9cd4903b4b5538747b503c/lote_translations.json); after it is applied, remap lines 12, 23, 24, 33 and 47 and redo their WITs"
