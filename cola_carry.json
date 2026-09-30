@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T09:57:55Z",
+  "generado": "2026-09-30T09:59:51Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9858,10 +9858,10 @@
       "originalTrackId": "6ab3a9f64d09fbf129f42cc7",
       "titulo": "La Puerta De Alcala",
       "artista": "Ana Belén",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-30T09:53:21Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T09:59:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9888,7 +9888,23 @@
             "v": "ok",
             "nota": "68 lineas + 331 WIT a mano; BAD 0; draft en pending_review",
             "t": "2026-09-30T09:53:21Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura ok, 0 drift, ingles 68/68 pending_review, WIT sin vacios, BAD 0, restos justificados; audio SUENA_SIN_BLINDAR (/audio 206 wav)",
+            "t": "2026-09-30T09:59:34Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura ok, 0 drift, ingles 68/68 pending_review, WIT sin vacios, BAD 0, restos justificados; audio SUENA_SIN_BLINDAR (/audio 206 wav)",
+          "t": "2026-09-30T09:59:34Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T09:59:35Z"
         }
       },
       "motivo_en": "carry not applied: the classifier blocked the PROD hint-set write; hints prepared in work/*_myhints.json"
