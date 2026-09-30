@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T09:51:02Z",
+  "generado": "2026-09-30T09:54:55Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -1791,10 +1791,10 @@
       "originalTrackId": "6aa7ba830752719d51aa506c",
       "titulo": "El Niagara En Bicicleta",
       "artista": "Juan Luis Guerra",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 3,
-      "motivo": "lista para QC (vuelta corregida)",
-      "actualizado": "2026-09-30T09:51:02Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T09:54:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -1823,15 +1823,21 @@
             "t": "2026-09-30T09:34:49Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "item Ben es media marca, traducciones en minuscula y L37 sin mapear (gemela distinta); ancla fuera de rango en L1 desenlazada no borrada",
-            "t": "2026-09-30T09:39:28Z"
+            "v": "ok",
+            "nota": "phrase Ben Gay y Ben coherentes, ancla fuera de rango borrada, EN ok",
+            "t": "2026-09-30T09:54:41Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "item Ben es media marca, traducciones en minuscula y L37 sin mapear (gemela distinta); ancla fuera de rango en L1 desenlazada no borrada",
-          "t": "2026-09-30T09:39:28Z"
+          "v": "VERDE",
+          "resumen": "phrase Ben Gay y Ben coherentes, ancla fuera de rango borrada, EN ok",
+          "t": "2026-09-30T09:54:41Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T09:54:42Z"
         }
       },
       "motivo_en": "the classifier denied writing translations for 34 new PROD items; batch ready in es_map/payloads/6aa1110e64c9b8ff110c5c59/lote_translate.json; 3 WITs lack a DT and the English draft stays unsubmitted until it is applied; line 13: anchor points to an unrelated item"
@@ -2751,13 +2757,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:09:34Z",
+      "actualizado": "2026-09-30T09:53:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry aplicado en lote con hints automaticos",
             "t": "2026-09-30T09:09:34Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes, mayusculas y la 'a' que faltaba en linea 4 arregladas; repeticiones a dos voces del cover se dejan (eco del duo)",
+            "t": "2026-09-30T09:53:58Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "36 palabras de 0 ms con duracion; guard SUENA_SIN_BLINDAR, drift 0",
+            "t": "2026-09-30T09:53:58Z"
           }
         }
       }
@@ -2939,10 +2955,10 @@
       "originalTrackId": "",
       "titulo": "Mariposa Traicionera",
       "artista": "Mana",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "lista para QC (vuelta corregida)",
-      "actualizado": "2026-09-30T09:43:36Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T09:54:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2971,15 +2987,21 @@
             "t": "2026-09-30T09:34:50Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "un WIT de ingles mal (L4 t5 dice of en vez de your); todo lo demas bien",
-            "t": "2026-09-30T09:42:05Z"
+            "v": "ok",
+            "nota": "WIT L4 t5 corregido, todo ok",
+            "t": "2026-09-30T09:54:42Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "un WIT de ingles mal (L4 t5 dice of en vez de your); todo lo demas bien",
-          "t": "2026-09-30T09:42:05Z"
+          "v": "VERDE",
+          "resumen": "WIT L4 t5 corregido, todo ok",
+          "t": "2026-09-30T09:54:42Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T09:54:43Z"
         }
       }
     },
@@ -3289,10 +3311,10 @@
       "originalTrackId": "",
       "titulo": "La Media Vuelta",
       "artista": "Luis Miguel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-30T09:50:20Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "retime que/a en lineas 10 y 20 palabra 8; I mayuscula en DT y WIT de detengo (linea 2 palabra 8), reabrir draft ingles",
+      "actualizado": "2026-09-30T09:53:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -3319,7 +3341,17 @@
             "v": "ok",
             "nota": "25 lineas a mano + 192 WIT con texto y DT propio + 5 PIT; wit_dt_audit BAD 0; pending_review",
             "t": "2026-09-30T09:50:19Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "palabra 'que' en 1 ms tras insertar 'a' (lineas 10 y 20, palabra 8); WIT/DT ingles de 'detengo' en minuscula (linea 2, palabra 8)",
+            "t": "2026-09-30T09:53:26Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "palabra 'que' en 1 ms tras insertar 'a' (lineas 10 y 20, palabra 8); WIT/DT ingles de 'detengo' en minuscula (linea 2, palabra 8)",
+          "t": "2026-09-30T09:53:26Z"
         }
       }
     },
@@ -9820,21 +9852,36 @@
       "originalTrackId": "6ab3a9f64d09fbf129f42cc7",
       "titulo": "La Puerta De Alcala",
       "artista": "Ana Belén",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "desbloqueada por Saul (pendientes_saul2.py); falta terminar anclas/DT/ingles y QC",
-      "actualizado": "2026-09-30T09:25:51Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-09-30T09:53:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "saul",
-            "nota": "carry NO aplicado: escritura PROD de hints bloqueada por el clasificador; hints listos en cover_repair/work/6aa7310372ca57eb1aaee692_myhints.json (70 pins + 17 spells, alineacion NW)",
-            "t": "2026-09-29T17:45:54Z"
+            "v": "ok",
+            "nota": "Carry previo aplicado (97%), no se toco",
+            "t": "2026-09-30T09:53:20Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "drift 0 en las 118 lineas; audio_guard SUENA_SIN_BLINDAR (204/206, sin stemVoc medido): no se toca; quedan 15 filas duplicadas a ~3 ms (lineas 60,62,77,79 y 90-118 pares) que se resolveran tras el carry",
-            "t": "2026-09-29T17:45:54Z"
+            "nota": "drift 0; 34 palabras reescritas; 10 avisos de pares gemelos justificados; audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-09-30T09:53:20Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "Tildes, pierden, doble voz borrada en 2 lineas; resto justificado (nombres propios, eco)",
+            "t": "2026-09-30T09:53:20Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "2 items nuevos (llego, pierden) + 2 sin traduccion rellenados; gemelas unificadas; 19 nombres propios sin mapear",
+            "t": "2026-09-30T09:53:21Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "68 lineas + 331 WIT a mano; BAD 0; draft en pending_review",
+            "t": "2026-09-30T09:53:21Z"
           }
         }
       },
