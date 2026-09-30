@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T09:09:42Z",
+  "generado": "2026-09-30T09:11:00Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2322,10 +2322,10 @@
       "originalTrackId": "",
       "titulo": "Lloraras",
       "artista": "Oscar D'leon",
-      "estado": "cola",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado (6abcbe9e985c020ddc19c219); mapeo en curso, pendiente de carry",
-      "actualizado": "2026-09-30T09:01:34Z",
+      "motivo": "carry, mapeo e ingles hechos; el vigilante bloqueo la correccion de letra (31 palabras) y las traducciones de 5 items nuevos",
+      "actualizado": "2026-09-30T09:11:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2337,9 +2337,25 @@
             "v": "saul",
             "nota": "lrc_plan_fix --write bloqueado por el clasificador (escritura PROD); plan listo en .singit/cover_repair/plan_6aa673d872ca57eb1a9efcde.json: 31 tokens (tildes del outro cover-only, mayuscula media, comas)",
             "t": "2026-09-30T09:01:34Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, 1a linea 35186 ms; hueco de 33s = instrumental (stem sin voz 129-157 s, el original canta ahi un puente que este cover no); guard SUENA_SIN_BLINDAR; 2 palabras de 0 ms son scat",
+            "t": "2026-09-30T09:10:35Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "mapeo hecho: 42 anclas nuevas + remaps (tu/tu, que, lo, te, sufri, pagaras) con 5 items PROD nuevos; FALTA traducir a 19 idiomas los 5 items (clasificador bloqueo prod_write): lote en .singit/es_map/payloads/6aa673d872ca57eb1a9efcde/lote_traducciones.json; darás (te darás de cuenta) apunta a item 'asestarás golpes', unico darás del diccionario",
+            "t": "2026-09-30T09:10:36Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "ingles a mano: 46 lineas + 212 WIT con texto, wit_dt_audit BAD 0, draft en pending_review; hay que REVISAR las lineas 19,38,39 (comprenderas) y las lineas 5,9,14 (nadie) por oido",
+            "t": "2026-09-30T09:10:36Z"
           }
         }
-      }
+      },
+      "motivo_en": "Carry, mapping and English done; the classifier blocked the LRC fix (31 tokens) and the translations of 5 new items"
     },
     {
       "coverTrackId": "6aa71ba972ca57eb1aace2c5",
