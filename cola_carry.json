@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T02:51:01Z",
+  "generado": "2026-09-30T07:27:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -11076,10 +11076,10 @@
       "originalTrackId": "6aa7b996387e9481dd7b9a1a",
       "titulo": "Deportivo",
       "artista": "Blessd",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-29T17:40:53Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC devuelto: mayusculas mid-line sin justificar, L54 t9 tilde/WIT, casing WIT L66 t7/t9, resolver L50 t5 y L31 t6",
+      "actualizado": "2026-09-30T07:23:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11106,7 +11106,17 @@
             "v": "ok",
             "nota": "borrador reabierto y reenviado a pending_review: wit_dt_audit BAD 0, 0 anclas sin texto de 484, 11 lineas corregidas",
             "t": "2026-09-29T17:40:53Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "21 mayusculas a mitad sin justificar, L54 t9 tilde/WIT incoherentes, casing WIT L66, dudosas L50 t5 y L31 t6 sin resolver",
+            "t": "2026-09-30T07:23:26Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "21 mayusculas a mitad sin justificar, L54 t9 tilde/WIT incoherentes, casing WIT L66, dudosas L50 t5 y L31 t6 sin resolver",
+          "t": "2026-09-30T07:23:26Z"
         }
       }
     },
@@ -19899,16 +19909,16 @@
       "originalTrackId": "6aa7b8328d615aa3fed32eb6",
       "titulo": "Buscame",
       "artista": "Kany Garcia",
-      "estado": "correccion",
+      "estado": "parada",
       "vueltas": 1,
-      "motivo": "QC vuelta 1 devuelto: items de sentido incorrecto en lineas 12/33/47 (p9), 23 (p6), 24 (p1); gemelas 19/53 (p8) con grafia distinta; ver reviews",
-      "actualizado": "2026-09-29T18:07:00Z",
+      "motivo": "vuelta 1 a medias: el classifier denegó escribir las traducciones de 3 items nuevos en PROD (lote en es_map/payloads/6a9cd4903b4b5538747b503c/lote_translations.json); tras aplicarlo, remapear las líneas 12, 23, 24, 33 y 47 y rehacer sus WIT",
+      "actualizado": "2026-09-30T02:53:32Z",
       "auditoria": {
         "pasos": {
           "lrc": {
             "v": "ok",
-            "nota": "pegadas partidas, tildes/ortografia, palabras faltantes y filas duplicadas del proveedor resueltas (lineas 3,5,7,14-24,35,37,41-43,48-50,52,54); ver informe",
-            "t": "2026-09-29T17:32:27Z"
+            "nota": "vuelta 1: grafia final de las lineas 19 y 53 unificada a la forma estandar; phrase insights [6,7] comprobadas y con el texto de frase actualizado",
+            "t": "2026-09-30T02:53:09Z"
           },
           "carry": {
             "v": "na",
@@ -19921,14 +19931,14 @@
             "t": "2026-09-29T17:32:27Z"
           },
           "mapeo": {
-            "v": "ok",
-            "nota": "34 anclas nuevas, 53 actualizadas, 7 sobrantes propias borradas, gemelas unificadas, 2 phrase insights corregidas; 0 sin mapear",
-            "t": "2026-09-29T17:32:27Z"
+            "v": "saul",
+            "nota": "vuelta 1: 3 items nuevos creados en PROD (respondia, vinieron, llegue) pero el guardado de sus 19 traducciones fue bloqueado por el clasificador; sin remapear (lineas 12/33/47, 23, 24). Lote listo en .singit/es_map/payloads/6a9cd4903b4b5538747b503c/lote_translations.json",
+            "t": "2026-09-30T02:53:09Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "borrador: 95 WIT + 1 corregido a mano, 5 lineas, 2 PIT; wit_dt_audit BAD 0, 0 vacios; enviado a pending_review",
-            "t": "2026-09-29T17:32:28Z"
+            "nota": "vuelta 1: borrador retirado, 4 WIT de donde corregidos, reenviado a pending_review; wit_dt_audit BAD 0",
+            "t": "2026-09-30T02:53:09Z"
           },
           "qc": {
             "v": "falta",
@@ -19941,7 +19951,8 @@
           "resumen": "estructura, timing e ingles OK; sentido de item incorrecto en lineas 12/33/47 (palabra 9), 23 (palabra 6), 24 (palabra 1); grafia distinta en gemelas 19/53 (palabra 8)",
           "t": "2026-09-29T18:07:00Z"
         }
-      }
+      },
+      "motivo_en": "round 1 half done: the classifier denied writing translations for 3 new PROD items (batch in es_map/payloads/6a9cd4903b4b5538747b503c/lote_translations.json); after it is applied, remap lines 12, 23, 24, 33 and 47 and redo their WITs"
     },
     {
       "coverTrackId": "6aa82103d951e1665a80b65a",
@@ -22580,10 +22591,10 @@
       "originalTrackId": "6aa7d7d9387e9481dd7e2257",
       "titulo": "Lola",
       "artista": "Chayanne",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "vuelta 1 corregida, lista para QC",
-      "actualizado": "2026-09-29T17:38:14Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T02:54:12Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -22612,15 +22623,21 @@
             "t": "2026-09-29T17:03:24Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ancla sobrante fuera de rango en linea 29 (desenganchada, hay que borrarla); mayuscula mid-line en linea 63 token 3; campo word obsoleto en 5 anclas (l13/37/53 t8, l27 t2, l30 t5)",
-            "t": "2026-09-29T17:34:16Z"
+            "v": "ok",
+            "nota": "ronda 2: ancla sobrante borrada, l63 minuscula, campos word sincronizados; 425 anclas en rango, ingles 74/74 pending_review, BAD 0, drift 0",
+            "t": "2026-09-30T02:54:11Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ancla sobrante fuera de rango en linea 29 (desenganchada, hay que borrarla); mayuscula mid-line en linea 63 token 3; campo word obsoleto en 5 anclas (l13/37/53 t8, l27 t2, l30 t5)",
-          "t": "2026-09-29T17:34:16Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: ancla sobrante borrada, l63 minuscula, campos word sincronizados; 425 anclas en rango, ingles 74/74 pending_review, BAD 0, drift 0",
+          "t": "2026-09-30T02:54:11Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T02:54:12Z"
         }
       }
     },
@@ -24399,10 +24416,10 @@
       "originalTrackId": "6aa7d5b98d615aa3fed534bc",
       "titulo": "Hawaii Bombay",
       "artista": "Mecano",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-29T17:47:04Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T07:27:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24429,7 +24446,23 @@
             "v": "ok",
             "nota": "draft en pending_review; 142 anclas con texto WIT; wit_dt_audit BAD 0",
             "t": "2026-09-29T17:47:03Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, sentidos, item nuevo, ingles en pending_review y WIT sin huecos OK; residuos qc justificados",
+            "t": "2026-09-30T07:27:44Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, sentidos, item nuevo, ingles en pending_review y WIT sin huecos OK; residuos qc justificados",
+          "t": "2026-09-30T07:27:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T07:27:45Z"
         }
       }
     },
@@ -25850,10 +25883,10 @@
       "originalTrackId": "6aa7d3af8d615aa3fed5138a",
       "titulo": "Locuras Tengo De Ti",
       "artista": "Silvana Di Lorenzo",
-      "estado": "parada",
-      "vueltas": 2,
-      "motivo": "vuelta 3: falta remapear linea 22 palabra 1 (y) a item copulativo y reabrir WIT/ingles; resto verde",
-      "actualizado": "2026-09-29T18:02:09Z",
+      "estado": "hecha",
+      "vueltas": 3,
+      "motivo": "hecha tras repaso: la parada de la vuelta 3 era un matiz, no un fallo",
+      "actualizado": "2026-09-30T07:27:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25882,15 +25915,21 @@
             "t": "2026-09-29T17:31:21Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 3: rondas 1-2 corregidas, todo verde salvo 1 ancla de sentido (linea 22, palabra 1: 'y' con item de sentido enfatico en vez de copulativa)",
-            "t": "2026-09-29T18:02:04Z"
+            "v": "ok",
+            "nota": "repaso sesión principal 30 sep: el item de la y de la línea 22 (inicio de frase) es defendible y coherente con su WIT/DT; mapeo confirmado por Saúl, inglés aprobado; BAD 0, audio 206",
+            "t": "2026-09-30T07:27:47Z"
           }
         },
         "qc": {
-          "v": "PARADA",
-          "resumen": "ronda 3: rondas 1-2 corregidas, todo verde salvo 1 ancla de sentido (linea 22, palabra 1: 'y' con item de sentido enfatico en vez de copulativa)",
-          "t": "2026-09-29T18:02:04Z"
+          "v": "VERDE",
+          "resumen": "repaso sesión principal 30 sep: el item de la y de la línea 22 (inicio de frase) es defendible y coherente con su WIT/DT; mapeo confirmado por Saúl, inglés aprobado; BAD 0, audio 206",
+          "t": "2026-09-30T07:27:47Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T07:27:48Z"
         }
       },
       "motivo_en": "round 3: L22 word 1 ('y') must be remapped to a copulative-conjunction item and the English WIT/draft reopened; everything else green"
