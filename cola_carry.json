@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T07:32:11Z",
+  "generado": "2026-09-30T07:35:43Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -27815,10 +27815,10 @@
       "originalTrackId": "6aa7d3b1f0f8e5713e6ba98c",
       "titulo": "Ligia Elena",
       "artista": "Rubén Blades",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "vuelta 1 corregida, lista para QC",
-      "actualizado": "2026-09-29T17:51:04Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T07:35:21Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -27847,15 +27847,21 @@
             "t": "2026-09-29T17:16:39Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "sentidos mal mapeados: L23 y L63 trompeta (musico, no instrumento; falta item masculino), L65 y L75 se (inherente, no reflexivo/pasivo); resto verificado OK",
-            "t": "2026-09-29T17:48:15Z"
+            "v": "ok",
+            "nota": "vuelta 2: trompeta masc. y se inherente corregidos; estructura, ingles (pending_review), wit_dt BAD 0, items nuevos con 19 idiomas OK",
+            "t": "2026-09-30T07:35:20Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "sentidos mal mapeados: L23 y L63 trompeta (musico, no instrumento; falta item masculino), L65 y L75 se (inherente, no reflexivo/pasivo); resto verificado OK",
-          "t": "2026-09-29T17:48:15Z"
+          "v": "VERDE",
+          "resumen": "vuelta 2: trompeta masc. y se inherente corregidos; estructura, ingles (pending_review), wit_dt BAD 0, items nuevos con 19 idiomas OK",
+          "t": "2026-09-30T07:35:20Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T07:35:21Z"
         }
       }
     },
