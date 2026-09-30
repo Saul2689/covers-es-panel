@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T09:41:44Z",
+  "generado": "2026-09-30T09:44:48Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -1535,10 +1535,10 @@
       "originalTrackId": "6ab3a9e552330f2b13b56828",
       "titulo": "Yo Voy",
       "artista": "Zion & Lennox",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-30T09:37:08Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-09-30T09:42:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -1565,7 +1565,23 @@
             "v": "ok",
             "nota": "lineas cambiadas re-traducidas, WIT realineados, wit_dt_audit BAD 0, 0 WIT vacios, pending_review",
             "t": "2026-09-30T09:37:07Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles pending_review (BAD 0, 0 vacios) y hallazgos de qc_es justificados; notas de oido en lineas 15/23, 36, 56/60, 65",
+            "t": "2026-09-30T09:42:01Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles pending_review (BAD 0, 0 vacios) y hallazgos de qc_es justificados; notas de oido en lineas 15/23, 36, 56/60, 65",
+          "t": "2026-09-30T09:42:01Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-09-30T09:42:02Z"
         }
       },
       "motivo_en": "LRC edits and English reopen blocked by the permission classifier; LRC plan ready, still to apply, then redo English"
@@ -2914,9 +2930,9 @@
       "titulo": "Mariposa Traicionera",
       "artista": "Mana",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-30T09:34:51Z",
+      "vueltas": 2,
+      "motivo": "lista para QC (vuelta corregida)",
+      "actualizado": "2026-09-30T09:43:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2943,7 +2959,17 @@
             "v": "ok",
             "nota": "draft en reabierto, 7 WIT con DT, wit_dt_audit BAD 0; reenviado a pending_review, no aprobado",
             "t": "2026-09-30T09:34:50Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "un WIT de ingles mal (L4 t5 dice of en vez de your); todo lo demas bien",
+            "t": "2026-09-30T09:42:05Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "un WIT de ingles mal (L4 t5 dice of en vez de your); todo lo demas bien",
+          "t": "2026-09-30T09:42:05Z"
         }
       }
     },
@@ -21921,7 +21947,7 @@
       "estado": "correccion",
       "vueltas": 1,
       "motivo": "desbloqueada por Saul (pendientes_saul2.py); falta terminar anclas/DT/ingles y QC",
-      "actualizado": "2026-09-30T09:25:50Z",
+      "actualizado": "2026-09-30T09:42:22Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -21941,8 +21967,8 @@
           },
           "mapeo": {
             "v": "falta",
-            "nota": "Bloqueado por el clasificador (creación de 16 items en PROD): payloads listos en es_map/payloads/6aa110ee64c9b8ff110bf0b7. Hecho: 5 anclas remapeadas, frase 'de pronto' línea 5, gemelas unificadas. Faltan 9 huecos y 4 sentidos de verbo",
-            "t": "2026-09-29T16:27:45Z"
+            "nota": "16 items nuevos creados en PROD y traducidos a mano (19 idiomas, missing=0); falta anclarlos",
+            "t": "2026-09-30T09:42:22Z"
           },
           "ingles": {
             "v": "falta",
@@ -25952,10 +25978,10 @@
       "originalTrackId": "6aa7bad28d615aa3fed36a67",
       "titulo": "El Breve Espacio En Que No Estas",
       "artista": "Pablo Milanés",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "lista para QC",
-      "actualizado": "2026-09-30T09:37:08Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "QC: borrar un token 'a' duplicado en lineas 20 y 34 (tok 3 y 4), mover anclas 4..9 a la izquierda, reabrir ingles y realinear WIT 20/34",
+      "actualizado": "2026-09-30T09:44:27Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -25982,7 +26008,17 @@
             "v": "ok",
             "nota": "DT en WIT de 7 items nuevos, lineas 20/34 realineadas, ad-lib 25/39 corregido; BAD 0, 0 WIT vacios, pending_review",
             "t": "2026-09-30T09:37:08Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "defecto real de LRC: 'a' duplicada en lineas 20 y 34 (tokens 3 y 4; original trae una); resto correcto",
+            "t": "2026-09-30T09:44:27Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "defecto real de LRC: 'a' duplicada en lineas 20 y 34 (tokens 3 y 4; original trae una); resto correcto",
+          "t": "2026-09-30T09:44:27Z"
         }
       },
       "motivo_en": "the classifier blocked writing translations for 7 new PROD items; batch ready in es_map/payloads/6aa1112064c9b8ff110c993d/lote_translations.json; lines 25 and 39 have an ad-lib anchored to a stage-name item"
