@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:13:12Z",
+  "generado": "2026-10-06T17:14:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9814,14 +9814,34 @@
       "artista": "Marco Antonio Solis",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:53:45Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:14:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-06T16:53:45Z"
+            "nota": "carry aplicado (98%), lineas recortadas como el original",
+            "t": "2026-10-06T17:14:11Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes restauradas en el LRC antes del carry (carry las conserva); 2 ear-notes",
+            "t": "2026-10-06T17:14:11Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, min word 63 ms, audio SUENA_SIN_BLINDAR 206 sin tocar",
+            "t": "2026-10-06T17:14:12Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "186/186 mapeadas, 9 items nuevos, phrase tarde o temprano en 2 lineas",
+            "t": "2026-10-06T17:14:12Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json (36 lineas, 186 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T17:14:12Z"
           }
         }
       }
@@ -11664,8 +11684,8 @@
       "artista": "David Pabon",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:08:49Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:13:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11677,6 +11697,21 @@
             "v": "ok",
             "nota": "31 tildes, mayusculas y comas finales corregidas; richsync = tokens",
             "t": "2026-10-06T17:08:49Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "321/321 mapeadas, gemelas unificadas, 9 items nuevos 19 idiomas, 2 phrase insights",
+            "t": "2026-10-06T17:13:57Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR sin accion; huecos 34 y 41 listados",
+            "t": "2026-10-06T17:13:57Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T17:13:57Z"
           }
         }
       }
