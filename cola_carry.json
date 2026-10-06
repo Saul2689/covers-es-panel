@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T18:01:17Z",
+  "generado": "2026-10-06T18:03:07Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -14092,8 +14092,8 @@
       "artista": "Daniela Romo",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:58:59Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:02:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14105,6 +14105,21 @@
             "v": "ok",
             "nota": "L48 y L51 'por que' -> 'por qué' (mismo token sonado, solo tilde)",
             "t": "2026-10-06T17:58:59Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms ni >6 s; audio_guard SUENA_SIN_BLINDAR sobre karaokeMp3 (no es FULL SONG): no se midio ni se fijo nada",
+            "t": "2026-10-06T18:01:40Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 2 items nuevos + 2 anclas; 23 remapeos para unificar gemelas; secciones 53/53 a mano",
+            "t": "2026-10-06T18:01:40Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan listo en en_plan.json (53 lineas, 195 WIT); falta abrir el borrador",
+            "t": "2026-10-06T18:02:45Z"
           }
         }
       }
@@ -14224,14 +14239,34 @@
       "artista": "Mana",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:12:22Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:02:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 95%",
             "t": "2026-10-06T14:12:22Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "secciones puestas a mano (42/42) desde el original; 'dar' vs 'de' en linea 19 queda como nota de oido; resto de avisos qc son falsos positivos de alineacion",
+            "t": "2026-10-06T18:02:40Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; hueco largo de la linea 36 coincide con el instrumental del original; audio servido desde karaokeMp3 (no se mide ni se fija nada)",
+            "t": "2026-10-06T18:02:41Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "159/159 mapeadas: 2 items nuevos (escalofrio/os) con 19 idiomas, vivirás x2 al item existente, 13 remapeos de sentido o gemelas",
+            "t": "2026-10-06T18:02:41Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T18:02:41Z"
           }
         }
       }
