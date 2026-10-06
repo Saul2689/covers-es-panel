@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:40:48Z",
+  "generado": "2026-10-06T16:41:24Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -10521,14 +10521,34 @@
       "artista": "Luis Miguel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:59:07Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:41:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-10-06T10:59:06Z"
+            "nota": "carry batch ya aplicado; no se toca",
+            "t": "2026-10-06T16:41:15Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC revisado: sin signos finales, sin partidas/pegadas, sin mayusculas medias; el original difiere en las lineas 14 (te/lo) y 24 en blanco, el cover canta lo suyo; nota de oido en 14",
+            "t": "2026-10-06T16:41:15Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "palabra de 0 ms de la linea 8 arreglada; drift 0; audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T16:41:15Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "remapeadas linea 3 igual, linea 15 te, linea 21 tu, linea 30 verme; phrase item tal vez en linea 3; gemelas unificadas; sin items nuevos",
+            "t": "2026-10-06T16:41:15Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T16:41:16Z"
           }
         }
       }
