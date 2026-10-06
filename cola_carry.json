@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:15:12Z",
+  "generado": "2026-10-06T13:15:45Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5307,10 +5307,10 @@
       "originalTrackId": "",
       "titulo": "Que Vida La Mia",
       "artista": "Reik",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "lista para QC (ronda 2)",
-      "actualizado": "2026-10-06T13:14:56Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T13:15:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5339,15 +5339,21 @@
             "t": "2026-10-06T13:02:46Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ingles L8 duplica el verbo de L7 (reescribir como continuacion, reenviar draft a pending_review); resto OK (estructura, anclas, WIT, DT, audio)",
-            "t": "2026-10-06T13:13:29Z"
+            "v": "ok",
+            "nota": "ronda 2: ingles L8 y L31 corregidos, draft pending_review, sin otros cambios, BAD 0",
+            "t": "2026-10-06T13:15:37Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ingles L8 duplica el verbo de L7 (reescribir como continuacion, reenviar draft a pending_review); resto OK (estructura, anclas, WIT, DT, audio)",
-          "t": "2026-10-06T13:13:29Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: ingles L8 y L31 corregidos, draft pending_review, sin otros cambios, BAD 0",
+          "t": "2026-10-06T13:15:37Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T13:15:38Z"
         }
       },
       "motivo_en": "Agent stopped by the API content filter at the start; no changes made"
