@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:37:24Z",
+  "generado": "2026-10-06T16:38:40Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -10086,8 +10086,8 @@
       "artista": "J Fonseca",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:36:38Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:38:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10104,6 +10104,16 @@
             "v": "ok",
             "nota": "drift 0, sin palabras <40 ms; audio_guard SUENA_SIN_BLINDAR (206), sin tocar",
             "t": "2026-10-06T16:36:38Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo nombre propio (Mariana, 3 veces); gemelas unificadas; 6 items nuevos con 19 idiomas; calienta remapeado; phrase por favor x2",
+            "t": "2026-10-06T16:38:12Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json; falta abrir el borrador (start_draft) y aplicarlo",
+            "t": "2026-10-06T16:38:12Z"
           }
         }
       }
@@ -10116,8 +10126,8 @@
       "artista": "Alejandro Sanz",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:32:46Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:38:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10129,6 +10139,21 @@
             "v": "ok",
             "nota": "3 tildes (Allí, Más, él); sin finales con puntuación; sin palabras <40 ms",
             "t": "2026-10-06T16:32:46Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 68 lineas; ninguna palabra <40 ms; audio SUENA_SIN_BLINDAR (karaokeMp3, 206), sin tocar",
+            "t": "2026-10-06T16:38:28Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo 3 ad-libs; 9 items nuevos; gemelas unificadas; harás/más remapeados",
+            "t": "2026-10-06T16:38:28Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json (68 lineas, 336 WIT con DT propio); falta abrir borrador",
+            "t": "2026-10-06T16:38:29Z"
           }
         }
       }
@@ -10241,8 +10266,8 @@
       "artista": "El Poder Del Norte",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:37:04Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:38:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10264,6 +10289,11 @@
             "v": "ok",
             "nota": "ofenden y brotan creados (19 idiomas), llorarte reutilizado, tal vez = phrase item, qué/que y gemelas unificadas; 0 sin mapear",
             "t": "2026-10-06T16:37:04Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en_plan.json listo (36 lineas, 162 WIT con DT exacto, 1 PIT); falta abrir el borrador",
+            "t": "2026-10-06T16:38:36Z"
           }
         }
       }
@@ -10390,13 +10420,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:58:56Z",
+      "actualizado": "2026-10-06T16:38:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T10:58:56Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 61 tilde, 62 coma, 63 completada (junk tokens -> como ninguna, tu->tú, slot vacio fusionado); linea 41 'a' del cover se respeta",
+            "t": "2026-10-06T16:37:54Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0, ninguna palabra <40ms, hueco de 27s en linea 24 igual que el original (instrumental), audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T16:38:01Z"
           }
         }
       }
@@ -10995,8 +11035,8 @@
       "artista": "Ov7",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:23Z"
+      "motivo": "enlazada; carry al 82%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:38:09Z"
     },
     {
       "coverTrackId": "6aa686b572ca57eb1aa07bde",
@@ -13901,8 +13941,8 @@
       "artista": "The Sacados",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:42Z"
+      "motivo": "enlazada; carry al 74%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:37:59Z"
     },
     {
       "coverTrackId": "6aa7863b72ca57eb1acd924e",
@@ -13934,8 +13974,8 @@
       "artista": "Playa Limbo",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:43Z"
+      "motivo": "enlazada; carry al 83%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:37:46Z"
     },
     {
       "coverTrackId": "6aa8128bd951e1665a7f68ed",
@@ -14209,8 +14249,8 @@
       "artista": "Gloria Trevi",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:52Z"
+      "motivo": "enlazada; carry al 82%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:37:43Z"
     },
     {
       "coverTrackId": "6aa6cc9972ca57eb1aa62376",
@@ -14308,8 +14348,8 @@
       "artista": "Vicente Fernandez",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:55Z"
+      "motivo": "enlazada; carry al 75%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:38:03Z"
     },
     {
       "coverTrackId": "6aa624e872ca57eb1a97894d",
@@ -14429,8 +14469,8 @@
       "artista": "Juan Luis Guerra 440",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:58Z"
+      "motivo": "enlazada; carry al 18%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:38:17Z"
     },
     {
       "coverTrackId": "6aa6c55d72ca57eb1aa5a426",
@@ -15612,8 +15652,8 @@
       "artista": "Ha-Ash",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:18Z"
+      "motivo": "enlazada; carry al 65%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:37:36Z"
     },
     {
       "coverTrackId": "6aa71a4d72ca57eb1aacb9c8",
@@ -16009,8 +16049,8 @@
       "artista": "Juan Luis Guerra",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:31Z"
+      "motivo": "enlazada; carry al 75%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:37:33Z"
     },
     {
       "coverTrackId": "6aa110ed64c9b8ff110becf4",
@@ -16086,8 +16126,8 @@
       "artista": "Magneto",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:32Z"
+      "motivo": "enlazada; carry al 77%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:37:30Z"
     },
     {
       "coverTrackId": "6aa72b4872ca57eb1aae7674",
@@ -16361,8 +16401,8 @@
       "artista": "Carlos Vives feat. Michel Teló",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:42Z"
+      "motivo": "enlazada; carry al 68%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:38:12Z"
     },
     {
       "coverTrackId": "6aa5e01d42b8d1fdb0d6c93f",
