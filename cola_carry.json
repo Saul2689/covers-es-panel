@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T18:04:36Z",
+  "generado": "2026-10-06T18:06:22Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -14299,14 +14299,34 @@
       "artista": "Alejandro Fernández",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:12:26Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:06:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 98%",
             "t": "2026-10-06T14:12:25Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "l11 ¿Por qué partido y signos, l23 tilde, secciones 32/32; ear-note l18 palabras 4-5 (cover canta distinto del original, no se toca)",
+            "t": "2026-10-06T18:05:52Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; hueco 31 s en l24 = instrumental (el original tiene linea vacia ahi); audio karaokeMp3 SUENA_SIN_BLINDAR, no se mide",
+            "t": "2026-10-06T18:05:53Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 3 items nuevos (platico, despojandote, encimita) con 19 idiomas; gemelas unificadas; 8 anclas de sentido corregidas",
+            "t": "2026-10-06T18:05:53Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json (32 lineas + 160 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T18:05:53Z"
           }
         }
       }
@@ -14319,14 +14339,34 @@
       "artista": "Alejandra Guzmán",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:12:29Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:06:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-06T14:12:29Z"
+            "nota": "carry aplicado en lote, no tocado",
+            "t": "2026-10-06T18:06:12Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "2 merges (lineas 9 y 19) + coma del original; 29/29 secciones manuales desde el original; sin finales en , . ; :",
+            "t": "2026-10-06T18:06:12Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 29 lineas, 0 palabras <40 ms; audio_guard SUENA_SIN_BLINDAR (karaokeMp3), nada medido",
+            "t": "2026-10-06T18:06:12Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "218/218 menos 3 ad-libs; 5 items nuevos 19 idiomas; gemelas unificadas; sentidos revisados",
+            "t": "2026-10-06T18:06:12Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan preparado en en_plan.json (29 lineas, 215 WIT); falta abrir el borrador",
+            "t": "2026-10-06T18:06:12Z"
           }
         }
       }
