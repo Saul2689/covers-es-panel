@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T11:44:02Z",
+  "generado": "2026-10-06T11:50:58Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -3667,10 +3667,10 @@
       "originalTrackId": "",
       "titulo": "Guaya Guaya",
       "artista": "Don Omar",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T11:40:38Z",
+      "estado": "hecha",
+      "vueltas": 2,
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T11:50:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -3690,14 +3690,30 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "581 anclas, 60 items nuevos con 19 idiomas, gemelas unificadas; sin mapear solo 9 palabras inglesas/ad-lib",
-            "t": "2026-10-06T11:40:38Z"
+            "nota": "QC vuelta 1: 4 remapeos (L22, L52, L38, L48) + L15 mapeada con item nuevo; 62 items nuevos en total",
+            "t": "2026-10-06T11:49:04Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "ingles a mano: 73 lineas + 581 WIT con texto, wit_dt_audit BAD 0, 3 bolsas vacias rellenadas, enviado a pending_review",
-            "t": "2026-10-06T11:40:38Z"
+            "nota": "ingles reenviado a pending_review tras vuelta 1, BAD 0",
+            "t": "2026-10-06T11:49:05Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ronda 2: L15, L22, L38, L48, L52 corregidas; estructura, timing, ingles pending_review y items nuevos OK",
+            "t": "2026-10-06T11:50:44Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "ronda 2: L15, L22, L38, L48, L52 corregidas; estructura, timing, ingles pending_review y items nuevos OK",
+          "t": "2026-10-06T11:50:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T11:50:45Z"
         }
       },
       "motivo_en": "ready for QC"
@@ -4672,16 +4688,36 @@
       "originalTrackId": "",
       "titulo": "Abusadora",
       "artista": "Wisin Y Yandel",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:48:01Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T11:48:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:48:01Z"
+            "nota": "carry aplicado en lote antes del worker; no tocado",
+            "t": "2026-10-06T11:48:36Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio: inserts/deletes/ediciones, tildes, comillas, sin puntuacion final, 65 lineas con seccion",
+            "t": "2026-10-06T11:48:36Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra bajo 40 ms; audio SUENA_SIN_BLINDAR (206), sin pin ni measure",
+            "t": "2026-10-06T11:48:36Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "312 anclas, 31 items nuevos con 19 idiomas, gemelas unificadas; pendientes justificados en el informe",
+            "t": "2026-10-06T11:48:36Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "65 lineas + 312 WIT con texto, wit_dt_audit BAD 0, enviado a pending_review",
+            "t": "2026-10-06T11:48:36Z"
           }
         }
       }
@@ -4723,16 +4759,36 @@
       "originalTrackId": "",
       "titulo": "Tu Ultima Cancion",
       "artista": "los Temerarios",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:48:10Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T11:48:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:48:10Z"
+            "nota": "carry aplicado en lote (>=85%), no se toco",
+            "t": "2026-10-06T11:48:53Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "lineas 7, 40, 50 y 53: tildes restauradas (olvide->pasado, quedo->pasado); sin signos finales; secciones generadas 54/54; linea 54 canta dos 'solo' (se deja, ver informe)",
+            "t": "2026-10-06T11:48:53Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 54 lineas, ninguna palabra <40 ms (min 174 ms); hueco de la linea 43 = instrumental del original; audio SUENA_SIN_BLINDAR, sin tocar",
+            "t": "2026-10-06T11:48:53Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "4 sin mapear resueltos con 4 items nuevos (sobrevivir, brinde, dejare, hare) + trataré existente; remapeados dice L6, olvide L7, quedo L40/50/53, Y L3, Pero L46 (gemela de L36)",
+            "t": "2026-10-06T11:48:53Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "borrador manual 54 lineas + 153 WIT con texto y DT propio (wit_dt_audit BAD 0), enviado a pending_review",
+            "t": "2026-10-06T11:48:54Z"
           }
         }
       }
@@ -4757,13 +4813,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:48:16Z",
+      "actualizado": "2026-10-06T11:50:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:48:16Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "8 ediciones (comas finales, minusculas, tu posesivo en l27); resto justificado",
+            "t": "2026-10-06T11:50:11Z"
           }
         }
       }
