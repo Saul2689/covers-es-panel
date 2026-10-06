@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T14:27:38Z",
+  "generado": "2026-10-06T14:29:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4231,16 +4231,16 @@
       "originalTrackId": "",
       "titulo": "Quiereme Mientras Se Pueda",
       "artista": "Manuel Turizo",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:22:27Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T14:28:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 87%",
-            "t": "2026-10-06T13:35:37Z"
+            "nota": "carry batch ya aplicado, no tocado",
+            "t": "2026-10-06T14:28:52Z"
           },
           "lrc": {
             "v": "ok",
@@ -4251,6 +4251,16 @@
             "v": "ok",
             "nota": "drift 0, palabra de 33 ms corregida (L27.0), 0 palabras <40 ms; audio_guard SUENA_SIN_BLINDAR sin tocar",
             "t": "2026-10-06T14:22:27Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "341/345 fichas ancladas; 14 items nuevos con 19 idiomas; gemelas unificadas; 3 phrase insights; restantes: ad-libs Hi/uh",
+            "t": "2026-10-06T14:28:51Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "54/54 lineas y 341 WIT con texto y DT propio, BAD 0; pending_review",
+            "t": "2026-10-06T14:28:52Z"
           }
         }
       }
