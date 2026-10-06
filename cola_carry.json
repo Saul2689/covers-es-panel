@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:38:04Z",
+  "generado": "2026-10-06T17:38:36Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -13069,14 +13069,34 @@
       "artista": "Victor Garcia",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:10:30Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:38:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-06T14:10:29Z"
+            "nota": "carry batch aplicado",
+            "t": "2026-10-06T17:38:05Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes restauradas (22 tokens), secciones puestas a mano; ear-note linea 1 (cover canta otra palabra que el original)",
+            "t": "2026-10-06T17:38:11Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR, sin tocar",
+            "t": "2026-10-06T17:38:11Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, gemelas 0; 1 item nuevo (seguirle), 51 anclas escritas",
+            "t": "2026-10-06T17:38:11Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T17:38:12Z"
           }
         }
       }
@@ -13089,8 +13109,8 @@
       "artista": "Leo Dan",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:35:50Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:38:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13102,6 +13122,21 @@
             "v": "ok",
             "nota": "6 tokens corregidos: mayuscula media en l8/l36, tilde de si afirmativo en l19/21/47/49",
             "t": "2026-10-06T17:35:50Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms (min 116 ms); secciones puestas a mano (5) tras generateSections sin escritura; audio guard SUENA_SIN_BLINDAR 206, nada medido",
+            "t": "2026-10-06T17:38:30Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "161/161 ancladas; items nuevos prometido(participio) y volvieran con 19 idiomas; gemelas unificadas; si afirmativo remapeado a si con tilde",
+            "t": "2026-10-06T17:38:31Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en es_map/payloads/6aa614ca42b8d1fdb0db335d/en_plan.json (50 lineas, 161 WIT con DT de su bolsa); falta abrir el borrador",
+            "t": "2026-10-06T17:38:31Z"
           }
         }
       }
@@ -20428,8 +20463,8 @@
       "artista": "Gilberto Santa Rosa",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:54Z"
+      "motivo": "enlazada; carry al 64%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:38:10Z"
     },
     {
       "coverTrackId": "6aa61abc72ca57eb1a9661cb",
@@ -20439,8 +20474,8 @@
       "artista": "los Autenticos Decadentes",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:55Z"
+      "motivo": "enlazada; carry al 75%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:38:14Z"
     },
     {
       "coverTrackId": "6aa6109b42b8d1fdb0dac455",
@@ -20461,8 +20496,8 @@
       "artista": "Frankie Ruiz",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:55Z"
+      "motivo": "enlazada; carry al 74%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:38:19Z"
     },
     {
       "coverTrackId": "6ab23feb3369c68d83b680ba",
@@ -20516,8 +20551,8 @@
       "artista": "Mana, Ruben Blades",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:57Z"
+      "motivo": "enlazada; carry al 60%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:38:31Z"
     },
     {
       "coverTrackId": "6aa5690442b8d1fdb0ccafff",
