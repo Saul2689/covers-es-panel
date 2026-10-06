@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:10:54Z",
+  "generado": "2026-10-06T16:12:46Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -7977,14 +7977,14 @@
       "artista": "Shakira",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:09:17Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:12:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-10-06T10:53:29Z"
+            "nota": "carry en lote aplicado (no tocado)",
+            "t": "2026-10-06T16:12:33Z"
           },
           "lrc": {
             "v": "ok",
@@ -8000,6 +8000,11 @@
             "v": "ok",
             "nota": "drift 0; sin palabras <40 ms; audio SUENA_SIN_BLINDAR, sin tocar",
             "t": "2026-10-06T16:09:17Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en payloads/en_plan.json (57 lineas + 321 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T16:12:34Z"
           }
         }
       }
@@ -8184,7 +8189,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:04:32Z",
+      "actualizado": "2026-10-06T16:11:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8193,9 +8198,14 @@
             "t": "2026-10-06T10:54:13Z"
           },
           "lrc": {
-            "v": "falta",
-            "nota": "plan 1 escrito: mayus, parens, tildes, errata, merge l28; faltan retimes y secciones",
-            "t": "2026-10-06T16:04:32Z"
+            "v": "ok",
+            "nota": "LRC limpio: mayus, parens, tildes, errata, merge l28, qué l3; sin coma final",
+            "t": "2026-10-06T16:11:13Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms (l18, l61, l68 arregladas); audio_guard SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T16:11:13Z"
           }
         }
       }
@@ -8383,8 +8393,8 @@
       "artista": "Vicente Fernandez",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:08:12Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:12:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8396,6 +8406,21 @@
             "v": "ok",
             "nota": "si->si con tilde en lineas 19 y 32; resto limpio (ser/el cantados por el cover, se respetan)",
             "t": "2026-10-06T16:08:12Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; hueco de 27 s en linea 22 = instrumental (el original tiene fila en blanco ahi); audio guard SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T16:12:34Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; sentidos remapeados en lineas 6,11,14,17,21,28,29,32,35; ancladas ras/ser/el/si; item nuevo ras 6ac51d140b0281c2675e2048 con 19 idiomas; secciones puestas a mano (4 bloques + outro)",
+            "t": "2026-10-06T16:12:34Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan completo en en_plan.json (35 lineas + 177 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T16:12:34Z"
           }
         }
       }
@@ -8462,13 +8487,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:50:35Z",
+      "actualizado": "2026-10-06T16:12:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:50:35Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "palabras sueltas/erratas/mayusculas/parentesis arreglados; secciones puestas a mano 38/38 (generateSections no escribio)",
+            "t": "2026-10-06T16:12:32Z"
           }
         }
       }
@@ -8502,13 +8532,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:50:40Z",
+      "actualizado": "2026-10-06T16:12:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:50:40Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "Palabras y puntuacion limpias; secciones puestas a mano (35/35); dudas de oido para Saul en notas",
+            "t": "2026-10-06T16:12:38Z"
           }
         }
       }
