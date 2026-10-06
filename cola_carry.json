@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T14:37:09Z",
+  "generado": "2026-10-06T14:38:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4231,10 +4231,10 @@
       "originalTrackId": "",
       "titulo": "Quiereme Mientras Se Pueda",
       "artista": "Manuel Turizo",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC devuelto: L5/21/40 tok0 remap (que causal), L8/24/43 ingles+WIT, L12 PIT",
-      "actualizado": "2026-10-06T14:36:14Z",
+      "motivo": "lista para QC (ronda 2)",
+      "actualizado": "2026-10-06T14:38:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4708,10 +4708,10 @@
       "originalTrackId": "",
       "titulo": "Un Beso Y Una Flor",
       "artista": "Nino Bravo",
-      "estado": "correccion",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "LRC, timing y mapeo hechos; falta abrir el draft de ingles (bloqueado por el clasificador), plan listo",
-      "actualizado": "2026-10-06T14:36:05Z",
+      "motivo": "falta inglés: abrir el borrador (start_draft) lo bloqueó el clasificador; LRC, tiempos y mapeo hechos",
+      "actualizado": "2026-10-06T14:38:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4721,8 +4721,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "linea 1 ultima palabra 'fin'->'ti' (original); 'un' sobrante borrado en lineas 17, 41, 53; 285 fichas = 285 palabras",
-            "t": "2026-10-06T14:36:04Z"
+            "nota": "palabras del cover restauradas con su tiempo del backup (linea 1 ultima palabra; palabra extra en lineas 17, 41, 53); 288 fichas = 288 palabras",
+            "t": "2026-10-06T14:38:09Z"
           },
           "timing": {
             "v": "ok",
@@ -4731,8 +4731,8 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "285/285 ancladas; 7 items nuevos con 19 idiomas; 34 remapeos de sentido y gemelas unificadas",
-            "t": "2026-10-06T14:36:05Z"
+            "nota": "288/288 ancladas; 7 items nuevos con 19 idiomas; remapeos de sentido y gemelas unificadas",
+            "t": "2026-10-06T14:38:09Z"
           },
           "ingles": {
             "v": "saul",
@@ -4740,7 +4740,8 @@
             "t": "2026-10-06T14:36:05Z"
           }
         }
-      }
+      },
+      "motivo_en": "English blocked: start_draft denied by classifier; LRC/timing/mapping done"
     },
     {
       "coverTrackId": "6aa6bd8a72ca57eb1aa4a992",
