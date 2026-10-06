@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:27:55Z",
+  "generado": "2026-10-06T20:29:08Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17895,14 +17895,34 @@
       "artista": "Fanny Lú",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:42:32Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:28:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 90%",
-            "t": "2026-10-06T16:42:32Z"
+            "nota": "carry batch ya aplicado, no tocado",
+            "t": "2026-10-06T20:28:42Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "5 tokens: tildes sera/dia x3, coma final linea 37 quitada, coma tras dia linea 19; resto de diferencias con el original son del cover (notas de oido)",
+            "t": "2026-10-06T20:28:43Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio suena (206) desde karaokeMp3, guard SUENA_SIN_BLINDAR, sin medir ni fijar nada",
+            "t": "2026-10-06T20:28:43Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "43 sin mapear resueltos (14 items nuevos con 19 idiomas), gemelas unificadas; ad-libs sin mapear a proposito",
+            "t": "2026-10-06T20:28:43Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "LRC, tiempos y mapeo hechos; ingles preparado en es_map/payloads/6aa1110564c9b8ff110c3f20/en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T20:28:44Z"
           }
         }
       }
@@ -17995,14 +18015,34 @@
       "artista": "Juan Luis Guerra",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:55:38Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:28:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-06T16:55:38Z"
+            "nota": "carry batch ya aplicado, no tocado",
+            "t": "2026-10-06T20:28:32Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "13 ediciones de ortografia/tilde/mayuscula (lineas 2,7,8,13,34,44 Como; 19,50,69 quede->quede con tilde; 22,53 tire con tilde; 65,69 minuscula); notas de oido: lineas 6,11,14,34,40,63,65,69",
+            "t": "2026-10-06T20:28:32Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 83 lineas, ninguna palabra < 40 ms; audio_guard SUENA_SIN_BLINDAR (206, karaokeMp3), no se toca",
+            "t": "2026-10-06T20:28:32Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo ad-libs tu/ru; gemelas 0; 10 items nuevos PROD con 19 idiomas; remapeos por sentido",
+            "t": "2026-10-06T20:28:32Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json (83 lineas, 270 WIT con DT del propio item); falta abrir el borrador",
+            "t": "2026-10-06T20:28:33Z"
           }
         }
       }
