@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:56:04Z",
+  "generado": "2026-10-06T16:56:14Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -8869,19 +8869,34 @@
       "artista": "Alejandro Sanz",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:46:45Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:56:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 94%",
-            "t": "2026-10-06T16:43:45Z"
+            "nota": "carry batch aplicado; mantenido",
+            "t": "2026-10-06T16:56:11Z"
           },
           "lrc": {
             "v": "ok",
             "nota": "tildes/signos corregidos (tú, corazón, lágrima, ¿Cómo?, reído, aún, alegría, poesías, a mí); palabras cantadas distintas del original se dejan; solo sin tilde RAE",
             "t": "2026-10-06T16:46:45Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; gemelas unificadas; tilde (tú, cómo, mí) remapeados; 2 items nuevos (ocurre, aún=even) con 19 idiomas",
+            "t": "2026-10-06T16:56:10Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; palabra de 18 ms alargada; audio SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T16:56:10Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json (57 lineas + 408 WIT con DT); falta abrir borrador",
+            "t": "2026-10-06T16:56:10Z"
           }
         }
       }
@@ -15202,9 +15217,9 @@
       "originalTrackId": "",
       "titulo": "Morir De Amor",
       "artista": "Miguel Bose",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
       "actualizado": "2026-10-06T16:56:04Z",
       "auditoria": {
         "pasos": {
@@ -16442,7 +16457,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 78%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:40:39Z"
+      "actualizado": "2026-10-06T16:56:14Z"
     },
     {
       "coverTrackId": "6aa7852972ca57eb1acd8507",
@@ -16556,10 +16571,19 @@
       "originalTrackId": "",
       "titulo": "Fue Un Placer Conocerte",
       "artista": "Rocio Durcal",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:06Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:56:08Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T16:56:08Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7b9472367b69ab70259b1",
@@ -16787,7 +16811,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 67%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:40:36Z"
+      "actualizado": "2026-10-06T16:56:12Z"
     },
     {
       "coverTrackId": "6aa731c572ca57eb1aaf0d45",
