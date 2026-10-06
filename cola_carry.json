@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T18:17:39Z",
+  "generado": "2026-10-06T18:20:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -15009,7 +15009,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T18:15:33Z",
+      "actualizado": "2026-10-06T18:20:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15026,6 +15026,11 @@
             "v": "ok",
             "nota": "drift 0 tras alinear isEndOfLine; sin palabras <40ms; audio karaokeMp3 SUENA_SIN_BLINDAR sin tocar",
             "t": "2026-10-06T18:15:33Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "340/352 mapeados, 3 items nuevos (causando, entréname, refresca), 17 remapeos/unificacion; resto ad-libs",
+            "t": "2026-10-06T18:20:29Z"
           }
         }
       }
@@ -15058,14 +15063,34 @@
       "artista": "Paulina Rubio",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:02:13Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:20:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 99%",
             "t": "2026-10-06T15:02:12Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "sin signos finales (3 lineas), secciones a mano 94/94 desde estructura; ear-notes: l2 t1, l14 sin 'de', l15 t1-2, l35 t3",
+            "t": "2026-10-06T18:20:00Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 94 lineas, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (karaokeMp3, 206), nada medido ni fijado",
+            "t": "2026-10-06T18:20:00Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "cobertura 404/404; 8 items nuevos 19 idiomas; gemelas unificadas",
+            "t": "2026-10-06T18:20:00Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T18:20:01Z"
           }
         }
       }
@@ -15078,8 +15103,8 @@
       "artista": "Miguel Bose",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T18:15:56Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:20:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15091,6 +15116,21 @@
             "v": "ok",
             "nota": "3 tokens corregidos (L19, L46 mayuscula, L54 tilde); ear-note: L19/L46 palabra 1 extra respecto al original, la canta el cover",
             "t": "2026-10-06T18:15:56Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 54 lineas, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (206, karaokeMp3), no se mide ni se fija nada; hueco de 24 s tras L27 es instrumental tambien en el original",
+            "t": "2026-10-06T18:20:08Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "13 sin_mapear resueltos (7 items nuevos + 2 existentes), 13 gemelas unificadas, Que L19/L46 mapeadas, L54 que->que con tilde remapeada; 0 sin mapear",
+            "t": "2026-10-06T18:20:08Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json (54 lineas, 329 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T18:20:09Z"
           }
         }
       }
@@ -15103,14 +15143,34 @@
       "artista": "Mana",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:02:20Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:20:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 90%",
             "t": "2026-10-06T15:02:20Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "7 tokens (tendré, ¿Cómo? ×6) corregidos con lrc_plan_fix; secciones 38/38 puestas a mano desde el original; sin comas/puntos finales",
+            "t": "2026-10-06T18:20:29Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, sin palabras <40 ms (l10 pal.3 de 0 ms -> 197 ms); audio karaokeMp3 SUENA_SIN_BLINDAR, sin tocar",
+            "t": "2026-10-06T18:20:30Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "estallando creado (6ac53b5d0b0281c2676df020, 19 idiomas) y anclado x4; tendré, Cómo x6 (a342 'I eat' -> cómo); gemelas unificadas (l14 está, l28 te, l23 quiero, l32/35 no, l38 cómo); yeh sin mapear (ad-lib)",
+            "t": "2026-10-06T18:20:30Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "lineas y WIT preparados en es_map/payloads/<id>/en_plan.json (38 lineas, 163 WIT con DT); falta abrir el borrador (WORKER_BRIEF)",
+            "t": "2026-10-06T18:20:30Z"
           }
         }
       }
@@ -15124,13 +15184,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:02:24Z",
+      "actualizado": "2026-10-06T18:18:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 97%",
             "t": "2026-10-06T15:02:24Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "mas->mas con tilde x4 (lineas 9,21), el->el con tilde (linea 18); secciones pendientes",
+            "t": "2026-10-06T18:18:06Z"
           }
         }
       }
@@ -15155,13 +15220,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:02:28Z",
+      "actualizado": "2026-10-06T18:19:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 91%",
             "t": "2026-10-06T15:02:28Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 6: que->qué (tilde, misma palabra); sin puntuacion final, 0 palabras <40 ms",
+            "t": "2026-10-06T18:19:36Z"
           }
         }
       }
