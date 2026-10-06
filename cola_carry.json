@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T18:13:55Z",
+  "generado": "2026-10-06T18:15:18Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -14672,8 +14672,8 @@
       "artista": "La Oreja de Van Gogh",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T18:07:42Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:13:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14685,6 +14685,21 @@
             "v": "ok",
             "nota": "secciones puestas a mano desde el original (36/36); letra y richsync sin cambios; sin puntuacion final; palabras >=40 ms",
             "t": "2026-10-06T18:07:42Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en las 36 lineas; ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (karaokeMp3, 206): no se mide ni se fija nada",
+            "t": "2026-10-06T18:13:56Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "264/264 anclas; 17 items nuevos en PROD con 19 idiomas; gemelas unificadas; vela remapeada a candle; he->haber",
+            "t": "2026-10-06T18:13:56Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo (36 lineas + 264 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T18:13:57Z"
           }
         }
       }
