@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:20:31Z",
+  "generado": "2026-10-06T17:21:12Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -11804,14 +11804,34 @@
       "artista": "CNCO",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:54:36Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:21:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 95%",
-            "t": "2026-10-06T16:54:35Z"
+            "nota": "carry batch aplicado; no se toca",
+            "t": "2026-10-06T17:21:08Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "acentos/tildes, mayusculas, CNCO unido, secciones intro; ear-note serán (L71)",
+            "t": "2026-10-06T17:21:08Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "43 palabras <40ms corregidas; drift 0; solapes de capas lead/eco justificados",
+            "t": "2026-10-06T17:21:09Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear (salvo ad-libs); 118 anclas; 4 items nuevos 19 idiomas",
+            "t": "2026-10-06T17:21:09Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json; falta abrir el borrador",
+            "t": "2026-10-06T17:21:09Z"
           }
         }
       }
@@ -11999,14 +12019,34 @@
       "artista": "Marco Antonio Solís",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:49:13Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:20:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 91%",
             "t": "2026-10-06T16:49:13Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "dia->dia x2 (L2), Por que partido en dos palabras con interrogacion (L21, L35); resto igual que el original",
+            "t": "2026-10-06T17:20:46Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms (min 116), hueco L25 = instrumental del original; audio_guard SUENA_SIN_BLINDAR, sin tocar",
+            "t": "2026-10-06T17:20:46Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "190/190 ancladas, 11 items nuevos (10 + plural desdichas) con 19 idiomas, gemelas unificadas",
+            "t": "2026-10-06T17:20:46Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json (38 lineas + 190 WIT con DT de su bolsa); falta abrir el borrador",
+            "t": "2026-10-06T17:20:46Z"
           }
         }
       }
@@ -12090,14 +12130,34 @@
       "artista": "Napoleon",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:49:37Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:20:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 100%",
             "t": "2026-10-06T16:49:36Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio: 30 lineas identicas al original, 0 puntuacion final, 0 palabras <40 ms",
+            "t": "2026-10-06T17:20:54Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 30 lineas; audio SUENA_SIN_BLINDAR (206), sin tocar; palabra larga final L30 es nota sostenida",
+            "t": "2026-10-06T17:20:54Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "168/168 anclas; 3 items nuevos (marches, sonreirás, trata) + siembra completado; trata remapeada en 3 lineas; nada unificada L13/L24",
+            "t": "2026-10-06T17:20:54Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T17:20:55Z"
           }
         }
       }
