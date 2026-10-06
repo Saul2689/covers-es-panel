@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:30:35Z",
+  "generado": "2026-10-06T15:32:56Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -7012,22 +7012,38 @@
       "artista": "Marc Anthony, Romeo Santos",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:22:46Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:31:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:49:14Z"
+            "nota": "carry batch aplicado",
+            "t": "2026-10-06T15:31:51Z"
           },
           "lrc": {
             "v": "ok",
             "nota": "tildes, mayuscula, signos de cierre corregidos (lineas 6,16,28,29,30,37,50)",
             "t": "2026-10-06T15:22:46Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms (min 63), audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T15:31:51Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo ad-libs/ingles; 20 items nuevos + 19 idiomas, 2 locuciones, gemelas unificadas, secciones 56/56",
+            "t": "2026-10-06T15:31:52Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json (56 lineas, 291 WIT con DT, 2 PIT); falta abrir el borrador",
+            "t": "2026-10-06T15:31:52Z"
           }
         }
-      }
+      },
+      "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
     },
     {
       "coverTrackId": "6aa775b272ca57eb1ac00462",
