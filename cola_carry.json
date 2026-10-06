@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:29:17Z",
+  "generado": "2026-10-06T13:38:00Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2127,36 +2127,36 @@
       "originalTrackId": "",
       "titulo": "El Telefono",
       "artista": "Hector El Father, Wisin Y Yandel",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Letra del cover desordenada en el tiempo: reordenar por ms antes del carry; la escritura la bloqueo el clasificador (queda para Saul)",
-      "actualizado": "2026-09-30T08:38:40Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T13:32:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "saul",
-            "nota": "Carry NO aplicado: la letra del cover esta desordenada en el tiempo (bloques de estribillo al principio, lineas 1-48; luego vuelve a 0:44). Hay que ordenar por tiempo ANTES del carry; la escritura (lrc_upload + richsync_set) la bloqueo el clasificador. Payload listo.",
-            "t": "2026-09-30T08:38:13Z"
+            "v": "na",
+            "nota": "Dry run 64,5 %, 53 lineas a revisar y 30 decisiones; el carry proyecta desde el stream del catalogo en el orden viejo. No aplicado; terminado a mano",
+            "t": "2026-10-06T13:32:05Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "Reordenar la letra por ms (98 de 132 lineas cambian de sitio) + limpiar tildes/erratas; payload sorted.json listo, escritura bloqueada",
-            "t": "2026-09-30T08:38:14Z"
+            "v": "ok",
+            "nota": "Reordenado por ms (OK de Saul) y limpiado con LRCLIB: tildes, signos, 8 lineas con palabras cambiadas; 0 finales con , . ; :",
+            "t": "2026-10-06T13:32:05Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "El orden por ms es el arreglo de timing; drift richsync/LRC ya es 0; audio SUENA_SIN_BLINDAR, sin tocar",
-            "t": "2026-09-30T08:38:14Z"
+            "v": "ok",
+            "nota": "drift 0 en 132 lineas, 0 palabras < 40 ms, secciones 132/132; audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-06T13:32:06Z"
           },
           "mapeo": {
-            "v": "falta",
-            "nota": "Depende del reorden y del carry; hints de carry previos (23) quedan obsoletos tras reordenar",
-            "t": "2026-09-30T08:38:15Z"
+            "v": "ok",
+            "nota": "428 anclas, 47 corregidas, 3 colgantes de mis cambios borradas, 11 items nuevos (19 idiomas), gemelas unificadas; 7 sin mapear por D-1/D-2/D-3",
+            "t": "2026-10-06T13:32:06Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "Ingles escrito a mano (132 lineas + WIT por ancla) en payloads/6aa5b96142b8d1fdb0d34b67/en_payload.json; sin aplicar; el original tampoco tiene ingles y el Second Brain no tiene credito",
-            "t": "2026-09-30T08:38:15Z"
+            "v": "ok",
+            "nota": "132 lineas + 428 WIT a mano, wit_dt_audit BAD 0, pending_review",
+            "t": "2026-10-06T13:32:06Z"
           }
         }
       },
@@ -2799,8 +2799,8 @@
       "artista": "Luis Fonsi, Stefflon Don",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
-      "actualizado": "2026-09-30T08:18:07Z"
+      "motivo": "enlazada; carry al 75%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:34:59Z"
     },
     {
       "coverTrackId": "6aa5198d42b8d1fdb0c6b132",
@@ -2888,8 +2888,8 @@
       "artista": "Sech feat. Darrell",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
-      "actualizado": "2026-09-30T08:18:08Z"
+      "motivo": "enlazada; carry al 83%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:35:03Z"
     },
     {
       "coverTrackId": "6aa505f142b8d1fdb0c48e91",
@@ -2899,8 +2899,8 @@
       "artista": "Adolescent's Orquesta",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
-      "actualizado": "2026-09-30T08:18:08Z"
+      "motivo": "enlazada; carry al 83%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:35:05Z"
     },
     {
       "coverTrackId": "6a9eccf9eef2ad59f642d458",
@@ -3176,8 +3176,8 @@
       "artista": "Shakira",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
-      "actualizado": "2026-09-30T08:18:09Z"
+      "motivo": "enlazada; carry al 76%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:35:08Z"
     },
     {
       "coverTrackId": "6aa5855b42b8d1fdb0cf3049",
@@ -3532,8 +3532,8 @@
       "artista": "Daddy Yankee, Omega",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
-      "actualizado": "2026-09-30T08:28:06Z"
+      "motivo": "enlazada; carry al 29%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:35:11Z"
     },
     {
       "coverTrackId": "6aa6c6db72ca57eb1aa5bc81",
@@ -3543,8 +3543,8 @@
       "artista": "Ruben Blades, Willie Colon",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
-      "actualizado": "2026-09-30T08:28:07Z"
+      "motivo": "enlazada; carry al 77%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:35:14Z"
     },
     {
       "coverTrackId": "6aa6997e72ca57eb1aa25eb5",
@@ -3667,8 +3667,8 @@
       "artista": "Dread Mar-I",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
-      "actualizado": "2026-09-30T08:28:07Z"
+      "motivo": "enlazada; carry al 84%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:35:17Z"
     },
     {
       "coverTrackId": "6aa737aa72ca57eb1aaf8e72",
@@ -3790,8 +3790,8 @@
       "artista": "Don Omar, Juelz Santana",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
-      "actualizado": "2026-09-30T08:28:08Z"
+      "motivo": "enlazada; carry al 74%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:35:21Z"
     },
     {
       "coverTrackId": "6aa77c6a72ca57eb1acce43c",
@@ -3936,8 +3936,8 @@
       "artista": "Elvis Crespo",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; espera turno de carry",
-      "actualizado": "2026-09-30T08:28:08Z"
+      "motivo": "enlazada; carry al 69%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:35:24Z"
     },
     {
       "coverTrackId": "6a9eb3eceef2ad59f60e411c",
@@ -4092,8 +4092,8 @@
       "artista": "Wisin Y Yandel",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:13Z"
+      "motivo": "enlazada; carry al 70%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:35:27Z"
     },
     {
       "coverTrackId": "6aa78aa972ca57eb1ace1cd7",
@@ -4114,8 +4114,8 @@
       "artista": "Wisin Y Yandel",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:14Z"
+      "motivo": "enlazada; carry al 62%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:35:30Z"
     },
     {
       "coverTrackId": "6aa697e472ca57eb1aa21947",
@@ -4123,10 +4123,19 @@
       "originalTrackId": "",
       "titulo": "Mujer Amante",
       "artista": "Rata Blanca",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:15Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:35:34Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 91%",
+            "t": "2026-10-06T13:35:33Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6a9caae73b4b553874692823",
@@ -4134,10 +4143,19 @@
       "originalTrackId": "",
       "titulo": "Quiereme Mientras Se Pueda",
       "artista": "Manuel Turizo",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:15Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:35:38Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 87%",
+            "t": "2026-10-06T13:35:37Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6a99f02ec38c6b8a50f5cdcf",
@@ -4145,10 +4163,19 @@
       "originalTrackId": "",
       "titulo": "Culpables",
       "artista": "Anuel Aa, Karol G",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:16Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:35:43Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 85%",
+            "t": "2026-10-06T13:35:43Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa73c8272ca57eb1ab012a4",
@@ -4158,8 +4185,8 @@
       "artista": "Grupo Cañaveral",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:18Z"
+      "motivo": "enlazada; carry al 70%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:35:45Z"
     },
     {
       "coverTrackId": "6aa6414372ca57eb1a9abbbb",
@@ -4180,8 +4207,8 @@
       "artista": "Romeo Santos",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:19Z"
+      "motivo": "enlazada; carry al 77%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:35:48Z"
     },
     {
       "coverTrackId": "6aa58a3d42b8d1fdb0cfa800",
@@ -4189,10 +4216,19 @@
       "originalTrackId": "",
       "titulo": "La Muralla Verde",
       "artista": "Enanitos Verdes",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:19Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:35:53Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 100%",
+            "t": "2026-10-06T13:35:52Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5406a42b8d1fdb0ca5b61",
@@ -4202,8 +4238,8 @@
       "artista": "Carlos Baute, Marta Sanchez",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:20Z"
+      "motivo": "enlazada; carry al 74%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:35:56Z"
     },
     {
       "coverTrackId": "6aa69ade72ca57eb1aa288b4",
@@ -4211,10 +4247,19 @@
       "originalTrackId": "",
       "titulo": "Tras De Mi",
       "artista": "RBD",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:20Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:35:59Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 97%",
+            "t": "2026-10-06T13:35:59Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6d09a72ca57eb1aa66f4c",
@@ -4233,10 +4278,19 @@
       "originalTrackId": "",
       "titulo": "Amargo Adios",
       "artista": "Inspector",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:21Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:36:06Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T13:36:06Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa78a3d72ca57eb1ace172c",
@@ -4244,10 +4298,19 @@
       "originalTrackId": "",
       "titulo": "Esta Noche De Travesura",
       "artista": "Divino, Hector El Father",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:21Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:36:13Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 87%",
+            "t": "2026-10-06T13:36:12Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa56bca42b8d1fdb0ccf06d",
@@ -4255,10 +4318,19 @@
       "originalTrackId": "",
       "titulo": "Por Amarte Asi",
       "artista": "Cristian",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:22Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:36:16Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 93%",
+            "t": "2026-10-06T13:36:16Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa782a572ca57eb1acd5c20",
@@ -4317,10 +4389,19 @@
       "originalTrackId": "",
       "titulo": "Cuando Me Enamoro",
       "artista": "Enrique Iglesias, Juan Luis Guerra",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:22Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:36:20Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 90%",
+            "t": "2026-10-06T13:36:20Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa51acb42b8d1fdb0c6c7a1",
@@ -4330,8 +4411,8 @@
       "artista": "Aleks Syntek",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:23Z"
+      "motivo": "enlazada; carry al 82%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:36:24Z"
     },
     {
       "coverTrackId": "6aa7ce512367b69ab7096d96",
@@ -4339,10 +4420,19 @@
       "originalTrackId": "",
       "titulo": "Un Beso Y Una Flor",
       "artista": "Nino Bravo",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:23Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:36:28Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 100%",
+            "t": "2026-10-06T13:36:28Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6bd8a72ca57eb1aa4a992",
@@ -4350,10 +4440,19 @@
       "originalTrackId": "",
       "titulo": "Cama Y Mesa",
       "artista": "Roberto Carlos",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:23Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:36:33Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T13:36:33Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa1114264c9b8ff110d1fb7",
@@ -4361,10 +4460,19 @@
       "originalTrackId": "",
       "titulo": "Y Si Fuera Ella?",
       "artista": "Alejandro Sanz",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:24Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:36:37Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T13:36:37Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa73d2e72ca57eb1ab03301",
@@ -4372,10 +4480,19 @@
       "originalTrackId": "",
       "titulo": "Un Dia Tu Un Dia Yo",
       "artista": "Julio Iglesias",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:24Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:36:41Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 93%",
+            "t": "2026-10-06T13:36:40Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6b41372ca57eb1aa3997b",
@@ -4383,10 +4500,19 @@
       "originalTrackId": "",
       "titulo": "Este Corazon",
       "artista": "RBD",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:25Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:36:44Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T13:36:44Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa694e772ca57eb1aa1c832",
@@ -4394,10 +4520,19 @@
       "originalTrackId": "",
       "titulo": "Igual Que Ayer",
       "artista": "Rakim & Ken Y",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:25Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:36:48Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 95%",
+            "t": "2026-10-06T13:36:47Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa631fd72ca57eb1a99014d",
@@ -4405,10 +4540,19 @@
       "originalTrackId": "",
       "titulo": "No Se Tu",
       "artista": "Luis Miguel",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:26Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:36:51Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T13:36:51Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa51bf042b8d1fdb0c6d4e6",
@@ -4418,8 +4562,8 @@
       "artista": "Aleks Syntek",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:26Z"
+      "motivo": "enlazada; carry al 69%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:36:54Z"
     },
     {
       "coverTrackId": "6aa5e60542b8d1fdb0d77fbd",
@@ -4429,8 +4573,8 @@
       "artista": "Juan Luis Guerra 440",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:26Z"
+      "motivo": "enlazada; carry al 80%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:36:56Z"
     },
     {
       "coverTrackId": "6aa7ffcd2367b69ab71824b7",
@@ -4460,10 +4604,19 @@
       "originalTrackId": "",
       "titulo": "Ni Bien Ni Mal",
       "artista": "Bad Bunny",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:27Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:37:02Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 92%",
+            "t": "2026-10-06T13:37:02Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa1110964c9b8ff110c5057",
@@ -4527,10 +4680,19 @@
       "originalTrackId": "",
       "titulo": "Amor Del Bueno",
       "artista": "Reyli",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:27Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:37:05Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T13:37:05Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa50eaf42b8d1fdb0c57596",
@@ -4538,10 +4700,19 @@
       "originalTrackId": "",
       "titulo": "Me Dedique A Perderte",
       "artista": "Alejandro Fernández",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:28Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:37:09Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T13:37:09Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa50de642b8d1fdb0c55fa3",
@@ -4549,10 +4720,19 @@
       "originalTrackId": "",
       "titulo": "Me Dedique A Perderte",
       "artista": "Alejandro Fernández",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:28Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:37:12Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T13:37:12Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7094172ca57eb1aab00a0",
@@ -4562,8 +4742,8 @@
       "artista": "Willie Colon",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:28Z"
+      "motivo": "enlazada; carry al 66%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:37:15Z"
     },
     {
       "coverTrackId": "6aa831ded951e1665a82345b",
@@ -4595,8 +4775,8 @@
       "artista": "Joan Sebastian, Lisa Lopez",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:29Z"
+      "motivo": "enlazada; carry al 84%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:37:18Z"
     },
     {
       "coverTrackId": "6aa6325372ca57eb1a99070c",
@@ -4606,8 +4786,8 @@
       "artista": "Luis Miguel",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:29Z"
+      "motivo": "enlazada; carry al 82%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:37:21Z"
     },
     {
       "coverTrackId": "6aa58cab42b8d1fdb0cfe174",
@@ -4617,8 +4797,8 @@
       "artista": "Enrique Iglesias",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:29Z"
+      "motivo": "enlazada; carry al 73%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:37:24Z"
     },
     {
       "coverTrackId": "6aa1113c64c9b8ff110cfe3e",
@@ -4676,10 +4856,19 @@
       "originalTrackId": "",
       "titulo": "Creo En Mi",
       "artista": "Natalia Jimenez",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:30Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:37:28Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 87%",
+            "t": "2026-10-06T13:37:27Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa69b7172ca57eb1aa28e31",
@@ -4687,10 +4876,19 @@
       "originalTrackId": "",
       "titulo": "Inolvidable",
       "artista": "Reik",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:30Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:37:32Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 97%",
+            "t": "2026-10-06T13:37:31Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5e87b42b8d1fdb0d7bdc8",
@@ -4711,8 +4909,8 @@
       "artista": "Emmanuel",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:31Z"
+      "motivo": "enlazada; carry al 57%: necesita hints a mano",
+      "actualizado": "2026-10-06T13:37:35Z"
     },
     {
       "coverTrackId": "6aa6b0aa72ca57eb1aa35cb8",
@@ -4720,10 +4918,19 @@
       "originalTrackId": "",
       "titulo": "Enseñame",
       "artista": "RBD",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:31Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:37:39Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 95%",
+            "t": "2026-10-06T13:37:39Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa110f364c9b8ff110c04b5",
@@ -4731,10 +4938,19 @@
       "originalTrackId": "",
       "titulo": "Vamos A Darnos Tiempo",
       "artista": "Jose Jose",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:31Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:37:42Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T13:37:42Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7777b72ca57eb1acb62fd",
@@ -4742,10 +4958,19 @@
       "originalTrackId": "",
       "titulo": "Cada Que",
       "artista": "Belanova",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:32Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T13:37:46Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 96%",
+            "t": "2026-10-06T13:37:45Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5f90742b8d1fdb0d94a01",
@@ -5883,16 +6108,36 @@
       "originalTrackId": "",
       "titulo": "No Me Doy Por Vencido",
       "artista": "Luis Fonsi",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:49:05Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T13:34:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:49:05Z"
+            "nota": "aplicado en lote previamente, no se re-proyecta",
+            "t": "2026-10-06T13:34:37Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L2 tok2 y L20 tok4 a minuscula; secciones 54/54 (Verse 1, Chorus 1-3, Verse 2, Bridge 1, Outro 1). Je (L2 tok1) y a (L20 tok4) se quedan: richsync les da tiempo propio. Duda de oido para Saul: L2 tok1",
+            "t": "2026-10-06T13:34:37Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 54 lineas, ninguna palabra <40 ms (min 64); audio_guard SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T13:34:37Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "10 anclas nuevas (L8 t10, L10 t2 t5, L17/33/44/51 t6, L20 t1, L24 t9, L25 t7) con 15 items nuevos PROD y 19 idiomas; 5 gemelas unificadas; ad-libs L46-47,53 sin mapear (D-1)",
+            "t": "2026-10-06T13:34:37Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft EN en pending_review: 54 lineas + 293 WIT con texto y DT propio, wit_dt_audit BAD 0, repetidas identicas",
+            "t": "2026-10-06T13:34:38Z"
           }
         }
       }
@@ -5903,16 +6148,36 @@
       "originalTrackId": "",
       "titulo": "La Venia Bendita",
       "artista": "Marco Antonio Solis",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:49:08Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T13:30:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
+            "v": "na",
+            "nota": "carry de lote ya aplicado (no se toca)",
+            "t": "2026-10-06T13:30:57Z"
+          },
+          "lrc": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:49:07Z"
+            "nota": "L2 tokens 3-4 fusionados en uno; secciones puestas 20/20; vs_original_falta L11 y L19 (1 palabra) sin evidencia de richsync, no se inserta (duda de oido, nota para Saul)",
+            "t": "2026-10-06T13:30:57Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 20 lineas, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (206), sin tocar audio; hueco L12-L13 de 28 s: el original tiene una linea corta ahi, sin evidencia (nota para Saul)",
+            "t": "2026-10-06T13:30:57Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, 12 items nuevos creados con 19 idiomas, remapeos L2 t3, L11/L19 t1, L12 t7; gemelas unificadas",
+            "t": "2026-10-06T13:30:57Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "ingles a mano: 20 lineas + 135 WIT con texto y DT correcto, wit_dt_audit BAD 0, enviado a pending_review",
+            "t": "2026-10-06T13:30:58Z"
           }
         }
       }
