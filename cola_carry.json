@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:55:40Z",
+  "generado": "2026-10-06T17:56:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -13693,14 +13693,34 @@
       "artista": "Daniela Romo",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:11:29Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:56:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-06T14:11:29Z"
+            "nota": "carry batch ya aplicado",
+            "t": "2026-10-06T17:56:25Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L33 y L60 acento de una palabra; secciones puestas a mano 63/63 (generateSections no usado, como en otras); L1-63 sin signos finales",
+            "t": "2026-10-06T17:56:25Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio sirve karaokeMp3 (SUENA_SIN_BLINDAR), sin medir ni fijar",
+            "t": "2026-10-06T17:56:25Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear (239 anclas); 6 items nuevos PROD 19 idiomas; 12 remaps; 8 phrase insights",
+            "t": "2026-10-06T17:56:26Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en .singit/es_map/payloads/6aa811c0d951e1665a7f5d9a/en_plan.json (63 lineas, 239 WIT, 8 PIT); borrador sin abrir",
+            "t": "2026-10-06T17:56:26Z"
           }
         }
       }
@@ -13847,14 +13867,34 @@
       "artista": "Alejandro Fernandez",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:11:52Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:56:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-06T14:11:52Z"
+            "nota": "carry en lote 99%; reparto L15/L16 del proveedor, sera->Sera con tilde",
+            "t": "2026-10-06T17:56:22Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L16 tok1 sera->Será (tilde); sin puntuacion final, sin mayusculas medias, sin palabras <40ms",
+            "t": "2026-10-06T17:56:22Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; hueco L14 instrumental en original; palabra final L28 10,7s sostenida; audio karaokeMp3 SUENA_SIN_BLINDAR, no se mide",
+            "t": "2026-10-06T17:56:22Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "176/176 mapeadas; 4 items nuevos; remaps L16,L23,L27; ancla daria L27 era sentido golpes",
+            "t": "2026-10-06T17:56:23Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en es_map/payloads/6aa50c2142b8d1fdb0c522bd/en_plan.json (L15,L16 + 13 WIT); falta abrir el borrador",
+            "t": "2026-10-06T17:56:23Z"
           }
         }
       }
@@ -22391,10 +22431,19 @@
       "originalTrackId": "",
       "titulo": "Vestida De Blanco",
       "artista": "Rocio Durcal",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:20Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:55:41Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 96%",
+            "t": "2026-10-06T17:55:41Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5229a42b8d1fdb0c780ba",
@@ -22402,10 +22451,19 @@
       "originalTrackId": "",
       "titulo": "Es El Amor Quien Llega",
       "artista": "Ana Gabriel",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:20Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:55:46Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 95%",
+            "t": "2026-10-06T17:55:45Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa504fb42b8d1fdb0c48972",
@@ -22416,7 +22474,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 12%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:41:04Z"
+      "actualizado": "2026-10-06T17:55:48Z"
     },
     {
       "coverTrackId": "6aa6cbf972ca57eb1aa6194c",
@@ -22424,10 +22482,19 @@
       "originalTrackId": "",
       "titulo": "Trigal",
       "artista": "Sandro",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:21Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:55:51Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 93%",
+            "t": "2026-10-06T17:55:51Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa692f472ca57eb1aa1a70d",
@@ -22435,10 +22502,19 @@
       "originalTrackId": "",
       "titulo": "Tragos Amargos",
       "artista": "Ramon Ayala",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:21Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:55:54Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 100%",
+            "t": "2026-10-06T17:55:54Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa825f7d951e1665a8118e3",
@@ -22446,10 +22522,19 @@
       "originalTrackId": "",
       "titulo": "Ay Amor",
       "artista": "Myriam Hernandez",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:22Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:55:58Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 100%",
+            "t": "2026-10-06T17:55:57Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa660a072ca57eb1a9d4c20",
@@ -22457,10 +22542,19 @@
       "originalTrackId": "",
       "titulo": "Olvidame",
       "artista": "Motel",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:22Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:56:01Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 96%",
+            "t": "2026-10-06T17:56:00Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5e68342b8d1fdb0d786e2",
@@ -22468,10 +22562,19 @@
       "originalTrackId": "",
       "titulo": "Palomita Blanca",
       "artista": "Juan Luis Guerra 440",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:22Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:56:04Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T17:56:04Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5893542b8d1fdb0cf7098",
@@ -22479,10 +22582,19 @@
       "originalTrackId": "",
       "titulo": "Cada Vez Que Digo Adios",
       "artista": "Enanitos Verdes",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:23Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:56:11Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T17:56:11Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa52b5f42b8d1fdb0c878a9",
@@ -22490,10 +22602,19 @@
       "originalTrackId": "",
       "titulo": "Esta Tarde Vi Llover",
       "artista": "Armando Manzanero",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:23Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:56:14Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 100%",
+            "t": "2026-10-06T17:56:14Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5295642b8d1fdb0c817ff",
@@ -22504,7 +22625,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:41:21Z"
+      "actualizado": "2026-10-06T17:56:16Z"
     },
     {
       "coverTrackId": "6aa1110864c9b8ff110c4cae",
@@ -22574,10 +22695,19 @@
       "originalTrackId": "",
       "titulo": "Perderte De Nuevo",
       "artista": "Camila",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:24Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:56:20Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 100%",
+            "t": "2026-10-06T17:56:20Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa71ff872ca57eb1aad536c",
@@ -22588,7 +22718,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:41:29Z"
+      "actualizado": "2026-10-06T17:56:23Z"
     },
     {
       "coverTrackId": "6aa6103b42b8d1fdb0dabe9a",
@@ -22596,10 +22726,19 @@
       "originalTrackId": "",
       "titulo": "Tu Y Yo",
       "artista": "La Oreja de Van Gogh",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:24Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:56:27Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 91%",
+            "t": "2026-10-06T17:56:26Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa56a0742b8d1fdb0ccc161",
@@ -22607,10 +22746,19 @@
       "originalTrackId": "",
       "titulo": "Con Ella",
       "artista": "Cristian",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original ya existia en SingIt y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:51Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:56:30Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 96%",
+            "t": "2026-10-06T17:56:30Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa782f072ca57eb1acd61e3",
