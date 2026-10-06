@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:39:35Z",
+  "generado": "2026-10-06T15:43:58Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -7386,14 +7386,34 @@
       "artista": "Alejandro Fernandez",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:49:46Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:43:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:49:45Z"
+            "nota": "carry batch aplicado",
+            "t": "2026-10-06T15:43:34Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio; secciones generadas 24/24; linea 2 canta 'de' (original 'en') y linea 8 canta 'un' (original no): palabras del cover con richsync, se dejan, oido para Saul",
+            "t": "2026-10-06T15:43:34Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; hueco de la linea 17 = instrumental del original; audio suena 206, guard SUENA_SIN_BLINDAR, sin tocar",
+            "t": "2026-10-06T15:43:34Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "160/160 mapeadas, gemelas unificadas; items nuevos: iluminarme, deten, cabe, sola/solo/solas/solos (sentido unico), 19 idiomas; vuelo con ingles+18 idiomas",
+            "t": "2026-10-06T15:43:35Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T15:43:35Z"
           }
         }
       }
@@ -7499,13 +7519,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:49:53Z",
+      "actualizado": "2026-10-06T15:40:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:49:52Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L5 irá con tilde; sin signos finales ni palabras <40ms; lai rara es lo que canta el cover (richsync), se deja",
+            "t": "2026-10-06T15:40:44Z"
           }
         }
       }
