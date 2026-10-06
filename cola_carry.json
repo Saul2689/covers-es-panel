@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T11:20:12Z",
+  "generado": "2026-10-06T11:27:06Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -3229,16 +3229,36 @@
       "originalTrackId": "",
       "titulo": "Hilito",
       "artista": "Romeo Santos",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:09:35Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T11:21:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry aplicado en lote con hints automaticos",
             "t": "2026-09-30T09:09:35Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "limpio: 4 deletes, 2 inserts, 6 edits; sin puntuación final",
+            "t": "2026-10-06T11:21:05Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; palabras >=40ms; audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-06T11:21:06Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "35 items nuevos con 19 idiomas; sin mapear solo inglés/nombres propios",
+            "t": "2026-10-06T11:21:10Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "inglés a mano: 54 líneas, 293 WIT, BAD 0; pending_review",
+            "t": "2026-10-06T11:21:10Z"
           }
         }
       }
@@ -3704,17 +3724,53 @@
       "originalTrackId": "",
       "titulo": "Nadie",
       "artista": "Tito Double P",
-      "estado": "carry",
-      "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:09:40Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T11:26:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry aplicado en lote con hints automaticos",
-            "t": "2026-09-30T09:09:40Z"
+            "nota": "carry ya aplicado en lote",
+            "t": "2026-10-06T11:20:52Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "a insertada en 2 lineas, tilde acabó, si condicional; resto justificado",
+            "t": "2026-10-06T11:20:52Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, sin palabras <40ms, audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T11:20:54Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "6 items nuevos, 31 anclas, gemelas unificadas; sin mapear solo nombres propios/ad-libs",
+            "t": "2026-10-06T11:20:55Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "38 lineas + 262 WIT a mano, pending_review",
+            "t": "2026-10-06T11:20:58Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ronda 2: L35 ingles igualado a gemelas; estructura, mapeo, timing, DT OK; draft pending_review",
+            "t": "2026-10-06T11:26:54Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "ronda 2: L35 ingles igualado a gemelas; estructura, mapeo, timing, DT OK; draft pending_review",
+          "t": "2026-10-06T11:26:54Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T11:26:55Z"
         }
       }
     },
