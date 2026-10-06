@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:10:20Z",
+  "generado": "2026-10-06T17:10:56Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9663,8 +9663,8 @@
       "artista": "El Poder Del Norte",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:04:14Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:10:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9676,6 +9676,21 @@
             "v": "ok",
             "nota": "tildes/erratas de ortografia corregidas (10 tokens); ear-notes: tal/tan l48, anillo/anillos, azahar vs azar del original",
             "t": "2026-10-06T17:04:14Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "226/226 mapeado, gemelas unificadas, que relativo/tildes/sentidos remapeados; 10 items nuevos con 19 idiomas (intensamente, fortaleza(s), azahar(es), embeleso(s), firme tilde, profeso, desea); sin phrase item para 'a cambio de' (no existe)",
+            "t": "2026-10-06T17:10:38Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms, guard SUENA_SIN_BLINDAR (206), sin tocar audio",
+            "t": "2026-10-06T17:10:38Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json (41 lineas, 226 WIT con DT de su bolsa); falta abrir el borrador",
+            "t": "2026-10-06T17:10:39Z"
           }
         }
       }
@@ -9728,8 +9743,8 @@
       "artista": "Don Omar",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:09:02Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:10:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9751,6 +9766,11 @@
             "v": "ok",
             "nota": "390/390 mapeadas; 6 items nuevos (angelito, atreverse, verse, conducirte, decidiera, cual) con 19 idiomas; gemelas unificadas; frase tal vez anclada; vuela-a melisma al item vuela",
             "t": "2026-10-06T17:09:02Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de ingles listo en es_map/payloads/<id>/en_plan.json (79 lineas, 390 WIT con DT del propio item, 1 PIT); falta abrir borrador (start_draft no autorizado a este worker)",
+            "t": "2026-10-06T17:10:50Z"
           }
         }
       }
@@ -11650,13 +11670,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T11:00:58Z",
+      "actualizado": "2026-10-06T17:10:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T11:00:55Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "3 tildes (si->si con tilde) en lineas 13,27,33; resto son ear-notes",
+            "t": "2026-10-06T17:10:31Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, gaps 15 y 29 instrumentales segun original, ninguna palabra <40ms",
+            "t": "2026-10-06T17:10:31Z"
           }
         }
       }
