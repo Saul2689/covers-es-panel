@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:13:06Z",
+  "generado": "2026-10-06T16:14:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -8188,8 +8188,8 @@
       "artista": "Becky G, Maluma",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:11:13Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:14:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8206,6 +8206,16 @@
             "v": "ok",
             "nota": "drift 0, ninguna palabra <40 ms (l18, l61, l68 arregladas); audio_guard SUENA_SIN_BLINDAR sin tocar",
             "t": "2026-10-06T16:11:13Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "11 items nuevos PROD (19 idiomas), 48+ anclas remapeadas, gemelas y tildes unificadas; quedan 9 ad-libs sin mapear",
+            "t": "2026-10-06T16:13:55Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en .singit/es_map/payloads/6a9ade1b03cb4155d3d061ea/en_plan.json (69 lineas + 430 WITs con DT, auditado BAD 0); sin borrador abierto",
+            "t": "2026-10-06T16:13:55Z"
           }
         }
       }
