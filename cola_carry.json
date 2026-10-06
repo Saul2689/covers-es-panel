@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T12:28:05Z",
+  "generado": "2026-10-06T12:29:58Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5001,10 +5001,10 @@
       "originalTrackId": "",
       "titulo": "Vuelve",
       "artista": "Bad Bunny, Daddy Yankee",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC devuelto: L16 t11 tenias, L36 t4 carta(naipe) item nuevo, L59 t6 feca/feka, yeh L63 t1 + L78 t1-4 -> 6ac4e76a3ac4a595eea4c001; reabrir ingles y reenviar",
-      "actualizado": "2026-10-06T12:23:16Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T12:29:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5014,8 +5014,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "tildes, erratas, sobrantes y coma final corregidos por plan; secciones puestas en las 87 lineas",
-            "t": "2026-10-06T12:15:28Z"
+            "nota": "vuelta 2: token de L59 vuelto a la grafia del item",
+            "t": "2026-10-06T12:28:20Z"
           },
           "timing": {
             "v": "ok",
@@ -5024,24 +5024,30 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "32 sin mapear resueltos, 19 items nuevos con 19 idiomas, gemelas unificadas, tu/tus/si por tilde; restan ad-libs, ingles y nombres propios",
-            "t": "2026-10-06T12:15:28Z"
+            "nota": "vuelta 2: tenias, carta de baraja (item nuevo), yeh interjeccion remapeados",
+            "t": "2026-10-06T12:28:20Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "87 lineas y 511 WIT a mano, wit_dt_audit BAD 0, 0 anclas sin texto, enviado a pending_review",
-            "t": "2026-10-06T12:15:29Z"
+            "nota": "vuelta 2: borrador reabierto, WIT corregidos, BAD 0, reenviado a pending_review",
+            "t": "2026-10-06T12:28:21Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "5 anclas por corregir: L16 tenia', L36 carta sentido, L59 feca/feka, yeh placeholder L63+L78 (target existe)",
-            "t": "2026-10-06T12:23:16Z"
+            "v": "ok",
+            "nota": "vuelta 2: tenias, carta naipe, feka, yeh interjeccion corregidos; estructura, timing, ingles pending_review y audio ok",
+            "t": "2026-10-06T12:29:43Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "5 anclas por corregir: L16 tenia', L36 carta sentido, L59 feca/feka, yeh placeholder L63+L78 (target existe)",
-          "t": "2026-10-06T12:23:16Z"
+          "v": "VERDE",
+          "resumen": "vuelta 2: tenias, carta naipe, feka, yeh interjeccion corregidos; estructura, timing, ingles pending_review y audio ok",
+          "t": "2026-10-06T12:29:43Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T12:29:44Z"
         }
       }
     },
