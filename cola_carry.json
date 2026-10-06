@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:03:32Z",
+  "generado": "2026-10-06T13:04:44Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -1719,10 +1719,10 @@
       "originalTrackId": "",
       "titulo": "Criminal",
       "artista": "Natti Natasha, Ozuna",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "el classifier denegó borrar la línea 45 (fragmento suelto); dudas de oído en las líneas 44 y 49",
-      "actualizado": "2026-09-29T17:33:15Z",
+      "motivo": "lista para QC: linea 45 borrada; lineas 44 y 49 AVISO de oido",
+      "actualizado": "2026-10-06T13:04:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -1731,14 +1731,14 @@
             "t": "2026-09-29T17:32:46Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "estribillo/duplicados limpiados (71->66 lineas, 374 tokens); falta borrar la linea 45 (resto de 'Tu me encantas', bloqueado por el clasificador); oir lineas 44 y 49",
-            "t": "2026-09-29T17:32:46Z"
+            "v": "ok",
+            "nota": "linea 45 (resto 0 ms, borrada con OK de Saul) fuera: 65 lineas, 371 tokens; richsync igual (65/371), drift 0; AVISO de oido: lineas 44 y 49 (nada que hacer)",
+            "t": "2026-10-06T13:04:19Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "drift 0 tras fijar linea 48; audio_guard SUENA_SIN_BLINDAR (206, stemVoc/mixMp3V sin medir); linea 45 palabra de duracion 0 = el resto a borrar",
-            "t": "2026-09-29T17:32:46Z"
+            "nota": "drift 0 en las 65 lineas, ninguna palabra < 40 ms; audio_guard SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T13:04:19Z"
           },
           "mapeo": {
             "v": "ok",
@@ -1752,7 +1752,7 @@
           }
         }
       },
-      "motivo_en": "the classifier denied deleting line 45 (a stray fragment); ear doubts on lines 44 and 49"
+      "motivo_en": "ready for QC: stray line 45 deleted; lines 44 and 49 are ear-doubt notices"
     },
     {
       "coverTrackId": "6aa599fa42b8d1fdb0d117d0",
@@ -3446,10 +3446,10 @@
       "originalTrackId": "",
       "titulo": "Solo Quedate En Silencio",
       "artista": "RBD",
-      "estado": "parada",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "letra de doble capa: 28 lineas duplicadas por borrar; el sistema bloqueo el borrado, decide Saul",
-      "actualizado": "2026-10-06T10:57:19Z",
+      "motivo": "Saul aprobo el borrado de las 28 copias B; retomada",
+      "actualizado": "2026-10-06T13:03:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
