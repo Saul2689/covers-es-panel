@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T12:55:48Z",
+  "generado": "2026-10-06T12:57:31Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5120,10 +5120,10 @@
       "originalTrackId": "",
       "titulo": "Fabricando Fantasias",
       "artista": "Tito Nieves",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "espera a Saul: lineas 35-39 y 41 sin las palabras de la voz principal que el original canta antes del parentesis; hace falta oido para colocarlas",
-      "actualizado": "2026-10-06T12:27:48Z",
+      "motivo": "QC VERDE ronda 2; aviso de oído en líneas 35-39 y 41",
+      "actualizado": "2026-10-06T12:56:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5132,9 +5132,9 @@
             "t": "2026-10-06T12:16:49Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "lineas 35-39: faltan palabras de la voz principal; el resto del LRC limpio (un/yo reinsertados vuelta 2)",
-            "t": "2026-10-06T12:25:46Z"
+            "v": "ok",
+            "nota": "AVISO de oído: líneas 35-39 y 41 sin las palabras de la voz principal que canta el original; el cover se deja como trae su letra",
+            "t": "2026-10-06T12:56:35Z"
           },
           "timing": {
             "v": "ok",
@@ -5161,6 +5161,12 @@
           "v": "VERDE",
           "resumen": "ronda 2: un/yo reinsertados con timings del backup, anclas y ingles OK, pending_review; avisos L35-39,41 para Saul",
           "t": "2026-10-06T12:27:40Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T12:56:36Z"
         }
       },
       "motivo_en": "Waiting for Saul: lines 35-39 and 41 lack the lead-vocal words the original sings before each parenthesis; needs an ear check to place them"
@@ -17709,10 +17715,10 @@
       "originalTrackId": "6ab3ad9f5f63b018fdce04e9",
       "titulo": "Mi Gran Noche",
       "artista": "Salvatore Adamo",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "espera a Saúl: linea 25 palabra 3 (amo): añadir fila 'master' a la bolsa del item 6a11db7cc9740e1ba06ea8b6 (payload es_map/payloads/6aa110f664c9b8ff110c09a0/amo_master.json, bloqueado por el clasificador) y repuntar ese WIT",
-      "actualizado": "2026-09-29T16:38:55Z",
+      "motivo": "QC VERDE; amo=master resuelto",
+      "actualizado": "2026-10-06T12:57:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17731,9 +17737,9 @@
             "t": "2026-09-29T16:27:25Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "11 anclas remapeadas y línea 32 re-anclada; 'dancing' sin item es (inglés). Falta fila 'master' en bolsa del item 'amo' (clasificador bloqueó la escritura; payload en es_map/payloads)",
-            "t": "2026-09-29T16:27:25Z"
+            "v": "ok",
+            "nota": "fila en 'master' 6ac4f01efb893398b0005647 añadida al item amo (noun) y WIT de la línea 25 repuntado; draft sigue pending_review",
+            "t": "2026-10-06T12:57:29Z"
           },
           "ingles": {
             "v": "ok",
@@ -17750,6 +17756,12 @@
           "v": "VERDE",
           "resumen": "estructura, timing, mapeo e ingles ok; hallazgos residuales justificados; queda 1 paso saul (L25 idx2)",
           "t": "2026-09-29T16:38:46Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T12:57:31Z"
         }
       },
       "motivo_en": "Waiting for Saul: line 25 word 3 (amo): add a 'master' row to the bag of item 6a11db7cc9740e1ba06ea8b6 (payload es_map/payloads/6aa110f664c9b8ff110c09a0/amo_master.json, blocked by the permission classifier) and repoint that WIT"
