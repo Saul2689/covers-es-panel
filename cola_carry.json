@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:19:43Z",
+  "generado": "2026-10-06T17:20:31Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -12141,14 +12141,34 @@
       "artista": "Jose Jose",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:54:58Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:20:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-06T16:54:58Z"
+            "nota": "carry batch aplicado, 156 tokens, LRC limpio",
+            "t": "2026-10-06T17:20:09Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio; sin cambios; 2 notas de oido (lineas 7 y 8) listadas",
+            "t": "2026-10-06T17:20:09Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, sin palabras <40 ms, audio guard SUENA_SIN_BLINDAR (no tocar)",
+            "t": "2026-10-06T17:20:09Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "156/156 ancladas; 14 anclas unificadas/remapeadas (y, que, la, toma) + 2 nuevas (l7, l8)",
+            "t": "2026-10-06T17:20:09Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo (34 lineas, 156 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T17:20:10Z"
           }
         }
       }
