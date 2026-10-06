@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T12:22:13Z",
+  "generado": "2026-10-06T12:28:05Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5001,10 +5001,10 @@
       "originalTrackId": "",
       "titulo": "Vuelve",
       "artista": "Bad Bunny, Daddy Yankee",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T12:15:29Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC devuelto: L16 t11 tenias, L36 t4 carta(naipe) item nuevo, L59 t6 feca/feka, yeh L63 t1 + L78 t1-4 -> 6ac4e76a3ac4a595eea4c001; reabrir ingles y reenviar",
+      "actualizado": "2026-10-06T12:23:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5031,7 +5031,17 @@
             "v": "ok",
             "nota": "87 lineas y 511 WIT a mano, wit_dt_audit BAD 0, 0 anclas sin texto, enviado a pending_review",
             "t": "2026-10-06T12:15:29Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "5 anclas por corregir: L16 tenia', L36 carta sentido, L59 feca/feka, yeh placeholder L63+L78 (target existe)",
+            "t": "2026-10-06T12:23:16Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "5 anclas por corregir: L16 tenia', L36 carta sentido, L59 feca/feka, yeh placeholder L63+L78 (target existe)",
+          "t": "2026-10-06T12:23:16Z"
         }
       }
     },
@@ -5104,10 +5114,10 @@
       "originalTrackId": "",
       "titulo": "Fabricando Fantasias",
       "artista": "Tito Nieves",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T12:16:50Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "espera a Saul: lineas 35-39 y 41 sin las palabras de la voz principal que el original canta antes del parentesis; hace falta oido para colocarlas",
+      "actualizado": "2026-10-06T12:27:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5117,8 +5127,8 @@
           },
           "lrc": {
             "v": "saul",
-            "nota": "lineas 35-39: faltan palabras de la voz principal que el original canta antes de cada parentesis; hace falta oido para colocarlas. El resto del LRC limpio, secciones 46/46",
-            "t": "2026-10-06T12:16:49Z"
+            "nota": "lineas 35-39: faltan palabras de la voz principal; el resto del LRC limpio (un/yo reinsertados vuelta 2)",
+            "t": "2026-10-06T12:25:46Z"
           },
           "timing": {
             "v": "ok",
@@ -5132,11 +5142,22 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "draft propio 46 lineas + 259 WIT + 6 PIT en pending_review, wit_dt_audit 0",
-            "t": "2026-10-06T12:16:50Z"
+            "nota": "vuelta 2: draft rehecho 46 lineas + 264 WIT + 6 PIT en pending_review, wit_dt_audit 0",
+            "t": "2026-10-06T12:25:46Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ronda 2: un/yo reinsertados con timings del backup, anclas y ingles OK, pending_review; avisos L35-39,41 para Saul",
+            "t": "2026-10-06T12:27:40Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "ronda 2: un/yo reinsertados con timings del backup, anclas y ingles OK, pending_review; avisos L35-39,41 para Saul",
+          "t": "2026-10-06T12:27:40Z"
         }
-      }
+      },
+      "motivo_en": "Waiting for Saul: lines 35-39 and 41 lack the lead-vocal words the original sings before each parenthesis; needs an ear check to place them"
     },
     {
       "coverTrackId": "6aa70e0172ca57eb1aab7d4e",
@@ -5144,16 +5165,36 @@
       "originalTrackId": "",
       "titulo": "Estoy Enamorado",
       "artista": "Wisin Y Yandel",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:48:34Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T12:27:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:48:33Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes, erratas, inserts, puntuacion final, secciones 79/79; justificado en el informe",
+            "t": "2026-10-06T12:27:49Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, min 54 ms, audio SUENA_SIN_BLINDAR 206 sin tocar",
+            "t": "2026-10-06T12:27:49Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "23 items nuevos 19 idiomas, gemelas unificadas, phrase items voy a/ya no; nombres propios sin mapear",
+            "t": "2026-10-06T12:27:49Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "borrador propio en pending_review: 79 lineas, 411 WIT, 8 PIT, wit_dt_audit BAD 0",
+            "t": "2026-10-06T12:27:49Z"
           }
         }
       }
