@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:02:58Z",
+  "generado": "2026-10-06T17:03:36Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9487,8 +9487,8 @@
       "artista": "Palomo",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:57:55Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:03:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9500,6 +9500,21 @@
             "v": "ok",
             "nota": "tildes aun/dias/abrazame/mi->mi con tilde (11 tokens); sin partidas ni puntuacion final",
             "t": "2026-10-06T16:57:55Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; hueco largo = instrumental del original; audio SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T17:03:08Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "167/167 ancladas; 3 items nuevos (pasional, pasionales, dejamos) 19 idiomas; remaps aun->aun con tilde, mi->mi con tilde, correr, la, por, vivir, el; phrase de verdad",
+            "t": "2026-10-06T17:03:08Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan completo (50 lineas, 167 WIT con DT, 1 PIT) en payloads/en_plan.json; falta abrir el borrador",
+            "t": "2026-10-06T17:03:08Z"
           }
         }
       }
