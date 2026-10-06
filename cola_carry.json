@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T18:07:21Z",
+  "generado": "2026-10-06T18:08:47Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -14441,14 +14441,34 @@
       "artista": "Rocio Durcal",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:12:40Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:08:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 97%",
             "t": "2026-10-06T14:12:40Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio: tildes (serás, algún, más, tú x6, Mío x2) y secciones puestas a mano; cortes de línea 16/30 del proveedor sin tocar",
+            "t": "2026-10-06T18:08:17Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; hueco antes de línea 27 = instrumental del original; audio SUENA_SIN_BLINDAR desde karaokeMp3, no se mide ni se fija",
+            "t": "2026-10-06T18:08:18Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "200/200 ancladas, gemelas unificadas, homografos de tilde remapeados, 2 items + 1 phrase item nuevos con 19 idiomas",
+            "t": "2026-10-06T18:08:18Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de ingles listo en payloads/en_plan.json (46 lineas, 200 WIT, 2 PIT); falta abrir el borrador",
+            "t": "2026-10-06T18:08:18Z"
           }
         }
       }
@@ -14553,13 +14573,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:13:00Z",
+      "actualizado": "2026-10-06T18:07:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 95%",
             "t": "2026-10-06T14:13:00Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "secciones puestas a mano desde el original (36/36); letra y richsync sin cambios; sin puntuacion final; palabras >=40 ms",
+            "t": "2026-10-06T18:07:42Z"
           }
         }
       }
