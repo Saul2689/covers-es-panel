@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T11:01:52Z",
+  "generado": "2026-10-06T11:03:48Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2925,10 +2925,10 @@
       "originalTrackId": "",
       "titulo": "Algo Me Gusta De Ti",
       "artista": "Chris Brown, T-Pain, Wisin Y Yandel",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "quitar coma final en L14, L52, L61, L64 (LRC + punctuatedWord); audio sirve karaokeMp3 (sin full song espejado)",
-      "actualizado": "2026-10-06T10:57:30Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T11:03:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2957,15 +2957,21 @@
             "t": "2026-09-30T10:02:13Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "4 lineas acaban en coma (L14, L52, L61, L64); audio: solo karaokeMp3, sin render full song espejado",
-            "t": "2026-10-06T10:57:27Z"
+            "v": "ok",
+            "nota": "ronda 2: comas finales quitadas (L14,L52,L61,L64); estructura, timing, anclas, ingles y DT ok",
+            "t": "2026-10-06T11:03:31Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "4 lineas acaban en coma (L14, L52, L61, L64); audio: solo karaokeMp3, sin render full song espejado",
-          "t": "2026-10-06T10:57:27Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: comas finales quitadas (L14,L52,L61,L64); estructura, timing, anclas, ingles y DT ok",
+          "t": "2026-10-06T11:03:31Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T11:03:35Z"
         }
       }
     },
