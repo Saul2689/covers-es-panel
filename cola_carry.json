@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T14:49:49Z",
+  "generado": "2026-10-06T14:55:57Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4287,10 +4287,10 @@
       "originalTrackId": "",
       "titulo": "Culpables",
       "artista": "Anuel Aa, Karol G",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "lista para QC (ronda 2)",
-      "actualizado": "2026-10-06T14:49:02Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "QC R2 DEVUELTO: solo L30, t1/t4 no concuerdan (token, item e inglés)",
+      "actualizado": "2026-10-06T14:52:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4320,14 +4320,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "L30 concordancia t1/t4 (token+item+inglés); WIT nombres propios en minúscula (4,19,62,64,67,68,69,3/64/70); WIT (34,10) sentido; anclas (69,2) y G (3,64,70) a item de nombre",
-            "t": "2026-10-06T14:43:43Z"
+            "nota": "R2: arreglos 2-4 OK (WIT nombres, 34,10, 4 PI); L30 sigue sin concordar t1/t4: corregir token + item + inglés",
+            "t": "2026-10-06T14:52:20Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "L30 concordancia t1/t4 (token+item+inglés); WIT nombres propios en minúscula (4,19,62,64,67,68,69,3/64/70); WIT (34,10) sentido; anclas (69,2) y G (3,64,70) a item de nombre",
-          "t": "2026-10-06T14:43:43Z"
+          "resumen": "R2: arreglos 2-4 OK (WIT nombres, 34,10, 4 PI); L30 sigue sin concordar t1/t4: corregir token + item + inglés",
+          "t": "2026-10-06T14:52:20Z"
         }
       }
     },
@@ -4770,10 +4770,10 @@
       "originalTrackId": "",
       "titulo": "Un Beso Y Una Flor",
       "artista": "Nino Bravo",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "falta inglés: abrir el borrador (start_draft) lo bloqueó el clasificador; LRC, tiempos y mapeo hechos",
-      "actualizado": "2026-10-06T14:38:09Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T14:55:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4797,9 +4797,9 @@
             "t": "2026-10-06T14:38:09Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "el clasificador bloqueo song_translation_approval_start_draft; plan listo en .singit/cover_repair/en_fix_6aa7ce51.py (60 lineas, 285 WIT)",
-            "t": "2026-10-06T14:36:05Z"
+            "v": "ok",
+            "nota": "60 lineas y 288 WIT con texto y DT propio; gemelas identicas; wit_dt_audit BAD 0; submit pending_review",
+            "t": "2026-10-06T14:55:20Z"
           }
         }
       },
@@ -4811,10 +4811,10 @@
       "originalTrackId": "",
       "titulo": "Cama Y Mesa",
       "artista": "Roberto Carlos",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC DEVUELTO: restaurar palabras cantadas en lineas 1,3,7,11,19,21,22,32 (6 borradas, 6 sustituidas por la del original), inicios de 19,21,22,32 al backup, anclar y rehacer ingles de esas lineas",
-      "actualizado": "2026-10-06T14:48:32Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T14:55:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4824,34 +4824,40 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "lineas 1,3,7,11,19,21,22,32,37,48,49: erratas vs original, palabras sobrantes, mayusculas; outro 41-49 se queda (el original no lo trae, el cover lo canta)",
-            "t": "2026-10-06T14:40:55Z"
+            "nota": "ronda 2: restauradas las 12 palabras cantadas (6 reinsertadas, 6 devueltas), timing igual que el backup, mayusculas/comas interiores como unico cambio; notas de oido en el informe",
+            "t": "2026-10-06T14:53:28Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "drift 0, ninguna palabra <40 ms; 4 inicios de linea movidos a la nueva primera palabra (19,21,22,32); audio guard SUENA_SIN_BLINDAR sin accion",
-            "t": "2026-10-06T14:40:55Z"
+            "nota": "ronda 2: drift 0, 340 palabras = timing del backup, ninguna <40 ms, inicios 19/21/22/32 de vuelta; audio SUENA_SIN_BLINDAR sin accion",
+            "t": "2026-10-06T14:53:28Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "334/334 ancladas; 30 items nuevos con 19 idiomas; gemelas unificadas; toque corregido a sentido tacto; sin frases (original tampoco las tiene)",
-            "t": "2026-10-06T14:40:56Z"
+            "nota": "ronda 2: 340/340 ancladas, 0 fuera de rango, item nuevo suavice con 19 idiomas, gemelas iguales",
+            "t": "2026-10-06T14:53:29Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "49 lineas + 334 WIT con texto, wit_dt_audit BAD 0, draft en pending_review",
-            "t": "2026-10-06T14:40:56Z"
+            "nota": "ronda 2: lineas 1,3,7,11,19,21,22,32 rehechas, wit_dt_audit BAD 0, reenviado a pending_review",
+            "t": "2026-10-06T14:53:29Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "manda el cover: 6 palabras cantadas borradas y 6 cambiadas por la del original, todas con timing en el backup; restaurar lineas 1,3,7,11,19,21,22,32 + inicios 19,21,22,32 + anclas e ingles de esas lineas",
-            "t": "2026-10-06T14:48:32Z"
+            "v": "ok",
+            "nota": "ronda 2: 12 palabras del cover restauradas con timing identico al backup, inicios restaurados, 340/340 anclas, drift 0, ingles rehecho en pending_review",
+            "t": "2026-10-06T14:55:48Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "manda el cover: 6 palabras cantadas borradas y 6 cambiadas por la del original, todas con timing en el backup; restaurar lineas 1,3,7,11,19,21,22,32 + inicios 19,21,22,32 + anclas e ingles de esas lineas",
-          "t": "2026-10-06T14:48:32Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: 12 palabras del cover restauradas con timing identico al backup, inicios restaurados, 340/340 anclas, drift 0, ingles rehecho en pending_review",
+          "t": "2026-10-06T14:55:48Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T14:55:49Z"
         }
       }
     },
@@ -4883,14 +4889,34 @@
       "artista": "Julio Iglesias",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:36:41Z",
+      "motivo": "LRC, tiempos y mapeo hechos; inglés preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T14:51:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 93%",
             "t": "2026-10-06T13:36:40Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "5 lineas con 'dia' sin tilde corregidas en LRC+richsync (11 tokens); sin otros defectos",
+            "t": "2026-10-06T14:51:09Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en las 28 lineas; hueco largo antes de la linea 15 es instrumental tambien en el original; ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (stemVoc null, 206): no se toca",
+            "t": "2026-10-06T14:51:10Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "10 'dia' sin mapear anclados al item del original; linea 19 unificada con sus gemelas (dia, tu, yo); Mmm son ad-libs sin ancla; 0 items nuevos",
+            "t": "2026-10-06T14:51:10Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan completo en es_map/payloads/6aa73d2e72ca57eb1ab03301/en_plan.json (28 lineas + 134 WIT con DT); falta abrir el borrador (start_draft pausado por Saul)",
+            "t": "2026-10-06T14:51:28Z"
           }
         }
       }
@@ -4904,13 +4930,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:36:44Z",
+      "actualizado": "2026-10-06T14:50:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 98%",
             "t": "2026-10-06T13:36:44Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "36 tokens: tildes, mayusculas a mitad, Mo->Cómo; sin merges/inserts/deletes",
+            "t": "2026-10-06T14:50:22Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "61 palabras de duracion<40 reparadas (gemela de 3 ms o hueco); drift 0; audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T14:50:55Z"
           }
         }
       }
@@ -4923,14 +4959,34 @@
       "artista": "Rakim & Ken Y",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:36:48Z",
+      "motivo": "LRC, tiempos y mapeo hechos; inglés preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T14:53:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 95%",
-            "t": "2026-10-06T13:36:47Z"
+            "nota": "carry en lote aplicado, sin tocar",
+            "t": "2026-10-06T14:53:32Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC revisado: sin partidas, erratas ni puntuacion final; backup previo guardado",
+            "t": "2026-10-06T14:53:33Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en las 34 lineas; una palabra de 33 ms (linea 2) alargada a 50 ms; audio SUENA_SIN_BLINDAR, no se toca",
+            "t": "2026-10-06T14:53:33Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear (1 item nuevo + 1 elision a mas), gemelas unificadas, locucion sin embargo anclada en lineas 3 y 29",
+            "t": "2026-10-06T14:53:33Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan completo (34 lineas, 264 WIT, 2 PIT) en en_plan.json; falta abrir el borrador (pendiente de Saul)",
+            "t": "2026-10-06T14:53:34Z"
           }
         }
       }
