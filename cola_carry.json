@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:34:31Z",
+  "generado": "2026-10-06T20:36:06Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -18263,14 +18263,34 @@
       "artista": "Maná feat. Prince Royce",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:54:17Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:35:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 98%",
             "t": "2026-10-06T16:54:17Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes, Tú, Has en lineas 25/26/60 (3 ecos); sin puntuacion final ni mayusculas a mitad",
+            "t": "2026-10-06T20:35:10Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "0 palabras <40 ms, deriva 0; lineas dobles del proveedor (+3 ms) siguen solapadas; audio_guard SUENA_SIN_BLINDAR sirve karaokeMp3, no medido ni fijado",
+            "t": "2026-10-06T20:35:10Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "393/393 (ad-libs aparte); 15 items nuevos con 19 idiomas; gemelas unificadas",
+            "t": "2026-10-06T20:35:10Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan listo en es_map/payloads/6aa7863b72ca57eb1acd924e/en_plan.json; falta abrir el borrador",
+            "t": "2026-10-06T20:35:11Z"
           }
         }
       }
@@ -18305,14 +18325,34 @@
       "artista": "Don Omar",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:55:20Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:34:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 89%",
             "t": "2026-10-06T16:55:20Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "Puntuacion final de linea, tildes (7 palabras) y mayusculas corregidas; 15 tokens; erratas del proveedor que el cover canta se dejan (notas de oido)",
+            "t": "2026-10-06T20:34:55Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "Deriva 0 en las 40 lineas, ninguna palabra <60 ms; audio servido desde karaokeMp3 (guard SUENA_SIN_BLINDAR), sin medir ni fijar",
+            "t": "2026-10-06T20:34:55Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "233/237 anclas; 14 items nuevos con 19 idiomas; 11 anclas remapeadas; sin mapear solo ad-libs y 1 palabra distinta del original (nota de oido linea 36)",
+            "t": "2026-10-06T20:34:56Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "No hay borrador abierto: lineas y WIT preparados en es_map/payloads/<id>/en_plan.json; falta abrir el borrador (start_draft)",
+            "t": "2026-10-06T20:34:56Z"
           }
         }
       }
@@ -18385,14 +18425,34 @@
       "artista": "Alex Campos",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:43:54Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:36:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-06T16:43:54Z"
+            "nota": "carry ya aplicado en lote; no tocado",
+            "t": "2026-10-06T20:36:01Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes/qué/tú/sí/está/estás por función, 5 comas finales, Mi y Así, 29 ediciones; secciones generadas (50/50); ear-notes l2 l5 l7 l40-41 l25",
+            "t": "2026-10-06T20:36:01Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms (l20 p6 arreglada); audio SUENA_SIN_BLINDAR karaokeMp3 206 sin medir",
+            "t": "2026-10-06T20:36:02Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "390/390; 6 items nuevos con 19 idiomas; homografos remapeados; gemelas 0",
+            "t": "2026-10-06T20:36:02Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json (50 lineas, 390 WIT, DT de la bolsa propia); falta abrir el borrador",
+            "t": "2026-10-06T20:36:02Z"
           }
         }
       }
@@ -18405,14 +18465,34 @@
       "artista": "Juan Luis Guerra",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:55:48Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:34:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 98%",
             "t": "2026-10-06T16:55:48Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "comas finales quitadas (lineas 15,28,40), minuscula mid-linea (21), coma en 39; sin palabras partidas",
+            "t": "2026-10-06T20:34:40Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; palabra de 30 ms (linea 18, palabra 1) subida a 50 ms; ninguna <40 ms; audio sirve karaokeMp3 (206), no se mide ni se fija",
+            "t": "2026-10-06T20:34:40Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 7 items nuevos con 19 idiomas; domas completado; gemelas unificadas; ad-libs linea 5 preexistentes sin tocar",
+            "t": "2026-10-06T20:34:40Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "falta abrir el borrador: plan listo en .singit/es_map/payloads/6aa81ddfd951e1665a8073f7/en_plan.json",
+            "t": "2026-10-06T20:34:41Z"
           }
         }
       }
@@ -18456,14 +18536,34 @@
       "artista": "Paquita la Del Barrio",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:50:02Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:35:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 100%",
             "t": "2026-10-06T16:50:02Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC y richsync limpios: 169 palabras = 169 tokens, 49 lineas, 0 puntuacion final, 0 palabras <40 ms; sin cambios",
+            "t": "2026-10-06T20:35:13Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 49 lineas; audio_guard SUENA_SIN_BLINDAR (206, stemVoc null), no se mide ni se fija",
+            "t": "2026-10-06T20:35:13Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear: 30 anclas nuevas con 27 items nuevos PROD (19 idiomas) + alimana completada; 7 gemelas unificadas",
+            "t": "2026-10-06T20:35:13Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json (49 lineas + 169 WIT con DT de su bolsa); falta abrir el borrador",
+            "t": "2026-10-06T20:35:56Z"
           }
         }
       }
@@ -18487,14 +18587,34 @@
       "artista": "Miguel Bose",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:56:04Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:34:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 95%",
-            "t": "2026-10-06T16:56:04Z"
+            "nota": "carry batch ya aplicado, sin tocar",
+            "t": "2026-10-06T20:34:52Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio: 0 ediciones; solo ear-note linea 14 (falta palabra inicial del original, sin evidencia en richsync)",
+            "t": "2026-10-06T20:34:53Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 27 lineas, 0 palabras <40 ms; huecos lineas 12 y 22 = instrumental (original igual)",
+            "t": "2026-10-06T20:34:53Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "3 sin mapear -> item nuevo morirse; 8 remaps de gemelas/sentido; 211/211 mapeadas",
+            "t": "2026-10-06T20:34:53Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json (27 lineas, 211 WIT con DT propio); falta abrir el borrador (no start_draft por brief)",
+            "t": "2026-10-06T20:34:53Z"
           }
         }
       }
