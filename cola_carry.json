@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:19:04Z",
+  "generado": "2026-10-06T20:19:41Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17393,14 +17393,34 @@
       "artista": "Thalia",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:51:40Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:19:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 91%",
-            "t": "2026-10-06T16:51:40Z"
+            "nota": "carry batch ya aplicado; no se toca",
+            "t": "2026-10-06T20:19:09Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L24 coma final quitada (lrc+richsync); L26 inspiración con tilde; resto de hallazgos vs original = lo que canta el cover, ear-notes en el informe",
+            "t": "2026-10-06T20:19:09Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 68 lineas; ninguna palabra <40 ms (min 60); hueco L5 = instrumental; audio_guard SUENA_SIN_BLINDAR (karaokeMp3, 206), nada medido ni fijado",
+            "t": "2026-10-06T20:19:09Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "sin_mapear 28->0, gemelas 21->0; 25 items nuevos en PROD con 19 idiomas; remaps caliente L12 y hermana L14; phrase item de verdad L52",
+            "t": "2026-10-06T20:19:10Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "sin borrador abierto (regla del brief): plan de ingles listo en es_map/payloads/<id>/en_plan.json (68 lineas, 372 WIT con DT, 1 PIT); falta abrir el borrador",
+            "t": "2026-10-06T20:19:10Z"
           }
         }
       }
@@ -17564,8 +17584,8 @@
       "artista": "Ricardo Montaner",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T20:13:20Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:19:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17577,6 +17597,21 @@
             "v": "ok",
             "nota": "comas finales quitadas (6 lineas), asi->así; y/oh/no del original sin evidencia en richsync: nota de oido",
             "t": "2026-10-06T20:13:20Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (karaokeMp3), sin tocar",
+            "t": "2026-10-06T20:19:31Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "273/273 ancladas; 11 items nuevos con 19 idiomas; remapeos y gemelas unificadas",
+            "t": "2026-10-06T20:19:31Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan preparado en en_plan.json (44 lineas + 273 WIT); falta abrir el borrador",
+            "t": "2026-10-06T20:19:31Z"
           }
         }
       }
