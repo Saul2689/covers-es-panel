@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:17:23Z",
+  "generado": "2026-10-06T16:17:50Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -8332,14 +8332,34 @@
       "artista": "RBD",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:50:17Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:17:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:50:17Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "sin puntuacion final; tilde linea 31 corregida; 0 palabras <40 ms; falta Que en lineas 6 y 29 del original sin evidencia en richsync (oido para Saul); dobles de coro = estilo del proveedor",
+            "t": "2026-10-06T16:17:28Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, secciones puestas, audio_guard SUENA_SIN_BLINDAR (206)",
+            "t": "2026-10-06T16:17:28Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "437/437 mapeadas, sentidos y homografos revisados, sin items nuevos",
+            "t": "2026-10-06T16:17:28Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json (57 lineas + 437 WIT con DT de su bolsa); falta abrir el borrador",
+            "t": "2026-10-06T16:17:29Z"
           }
         }
       }
