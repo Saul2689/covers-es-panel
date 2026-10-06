@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T12:29:58Z",
+  "generado": "2026-10-06T12:46:00Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5171,10 +5171,10 @@
       "originalTrackId": "",
       "titulo": "Estoy Enamorado",
       "artista": "Wisin Y Yandel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T12:27:50Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC: coma L67 t3, L49 t5 tu a item 8b301, L21 t7 dio/ingles coherentes (reabrir draft y reenviar)",
+      "actualizado": "2026-10-06T12:44:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5201,7 +5201,17 @@
             "v": "ok",
             "nota": "borrador propio en pending_review: 79 lineas, 411 WIT, 8 PIT, wit_dt_audit BAD 0",
             "t": "2026-10-06T12:27:49Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "3 arreglos: coma de L67 t3 (ya no es final de linea), L49 t5 tu sin unificar con L8/L72, L21 t7 dio vs ingles en primera persona; avisos de oido para Saul",
+            "t": "2026-10-06T12:44:23Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "3 arreglos: coma de L67 t3 (ya no es final de linea), L49 t5 tu sin unificar con L8/L72, L21 t7 dio vs ingles en primera persona; avisos de oido para Saul",
+          "t": "2026-10-06T12:44:23Z"
         }
       }
     },
@@ -5358,17 +5368,47 @@
       "originalTrackId": "",
       "titulo": "Lo Intentamos",
       "artista": "Espinoza Paz",
-      "estado": "carry",
-      "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:48:48Z",
+      "estado": "revision",
+      "vueltas": 1,
+      "motivo": "lista para QC (vuelta 2)",
+      "actualizado": "2026-10-06T12:40:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:48:47Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "es insertada L6, tildes enamoré/Será (L3,L13,L21,L30), secciones 30/30; ... final de linea es estilo proveedor",
+            "t": "2026-10-06T12:35:05Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms (min 73), hueco L19 = instrumental del original; audio_guard SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T12:35:05Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 3 items nuevos 19 idiomas; sentidos corregidos; 12 phrase insights con PIT en",
+            "t": "2026-10-06T12:35:06Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "draft listo (30 lineas, 187 WIT con texto, wit_dt_audit BAD 0, 12 PIT) pero song_translation_approval_submit denegado por el clasificador: falta enviar a pending_review",
+            "t": "2026-10-06T12:35:06Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT de volverte (L14, L22 idx 7) dice 'coming back to you', no encaja con la linea (ver de nuevo); resto OK",
+            "t": "2026-10-06T12:39:38Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT de volverte (L14, L22 idx 7) dice 'coming back to you', no encaja con la linea (ver de nuevo); resto OK",
+          "t": "2026-10-06T12:39:38Z"
         }
       }
     },
@@ -5378,17 +5418,53 @@
       "originalTrackId": "",
       "titulo": "Por Mujeres Como Tu",
       "artista": "Pepe Aguilar",
-      "estado": "carry",
-      "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:48:50Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T12:45:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:48:50Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "lineas 1 y 33 corregidas (errata y tilde); resto del LRC limpio",
+            "t": "2026-10-06T12:32:55Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-06T12:39:39Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-06T12:39:39Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-06T12:39:40Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ronda 2: ancla de para corregida, ingles en pending_review, BAD 0",
+            "t": "2026-10-06T12:45:48Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "ronda 2: ancla de para corregida, ingles en pending_review, BAD 0",
+          "t": "2026-10-06T12:45:48Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T12:45:49Z"
         }
       }
     },
