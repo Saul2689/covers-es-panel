@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:16:01Z",
+  "generado": "2026-10-06T20:17:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17438,8 +17438,8 @@
       "artista": "Pepe Aguilar",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T20:14:23Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:17:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17451,6 +17451,21 @@
             "v": "ok",
             "nota": "linea 23 mayuscula media corregida; lineas 2 y 4 difieren del original (ear-note, el cover manda)",
             "t": "2026-10-06T20:14:23Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en las 23 lineas, ninguna palabra <40 ms; hueco de 26 s en linea 14 = instrumental (el original no tiene letra cantada ahi); audio SUENA_SIN_BLINDAR (karaokeMp3, 206), no se mide ni se fija",
+            "t": "2026-10-06T20:17:11Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "144/144 ancladas; 9 items nuevos; gemelas unificadas (lineas 11/20 y 22/23); tu linea 4 a posesivo",
+            "t": "2026-10-06T20:17:11Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en es_map/payloads/<id>/en_plan.json (23 lineas + 144 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T20:17:22Z"
           }
         }
       }
@@ -17570,14 +17585,34 @@
       "artista": "los Temerarios",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:54:31Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:17:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-06T16:54:30Z"
+            "nota": "carry batch aplicado (>=85%)",
+            "t": "2026-10-06T20:17:46Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC y richsync limpios: 44 lineas = original, 0 palabras <40ms, sin puntuacion final",
+            "t": "2026-10-06T20:17:46Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 44 lineas; hueco linea 30 = instrumental (original sin letra ahi); audio sirve karaokeMp3, no se toca",
+            "t": "2026-10-06T20:17:46Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 3 items nuevos con 19 idiomas; 10 remapeos (sentidos/gemelas)",
+            "t": "2026-10-06T20:17:47Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json (44 lineas + 149 WIT), falta abrir el borrador",
+            "t": "2026-10-06T20:17:47Z"
           }
         }
       }
@@ -17611,13 +17646,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:49:09Z",
+      "actualizado": "2026-10-06T20:17:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 99%",
             "t": "2026-10-06T16:49:09Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms, hueco largo es instrumental (original igual); audio guard SUENA_SIN_BLINDAR, no se toca",
+            "t": "2026-10-06T20:17:42Z"
           }
         }
       }
