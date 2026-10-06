@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:09:44Z",
+  "generado": "2026-10-06T20:11:00Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17000,14 +17000,34 @@
       "artista": "Don Omar",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:05:56Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:10:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 94%",
-            "t": "2026-10-06T15:05:56Z"
+            "nota": "carry batch ya aplicado, no tocado",
+            "t": "2026-10-06T20:10:44Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "sin cambios de texto; palabra de 33 ms alargada a 80 ms (L2 tok1); secciones 61/61 con generateSections. Ear-notes: L9 y L33 el cover canta otra frase que el original",
+            "t": "2026-10-06T20:10:44Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 61 lineas; ninguna palabra < 40 ms; hueco L46 = instrumental del original; audio_guard SUENA_SIN_BLINDAR (karaokeMp3, 206): nada medido ni fijado",
+            "t": "2026-10-06T20:10:45Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "28 sin mapear -> 3 (The, Last, 4.40: ingles/numero); 12 items nuevos + Pina propio, 19 idiomas; gemelas unificadas; negó x3 y Pina remapeados",
+            "t": "2026-10-06T20:10:45Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "falta abrir el borrador: ingles preparado en en_plan.json (61 lineas, 305 WIT con DT)",
+            "t": "2026-10-06T20:10:45Z"
           }
         }
       }
@@ -17060,14 +17080,34 @@
       "artista": "Rocio Durcal",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:51:04Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:10:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-06T16:51:03Z"
+            "nota": "carry batch aplicado",
+            "t": "2026-10-06T20:10:52Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 24: errata de ortografia corregida; sin otros defectos; linea 18 sin palabra inicial que el original trae: nota de oido, sin evidencia en richsync",
+            "t": "2026-10-06T20:10:53Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; hueco de 22 s tras linea 20 es instrumental en el original; audio karaokeMp3 SUENA_SIN_BLINDAR, no se toca",
+            "t": "2026-10-06T20:10:53Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "160/160 mapeadas; 10 items nuevos con 19 idiomas; gemelas unificadas; ver informe",
+            "t": "2026-10-06T20:10:53Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de ingles (32 lineas + 160 WIT) en es_map/payloads/6aa6c17772ca57eb1aa51f63/en_plan.json; falta abrir el borrador",
+            "t": "2026-10-06T20:10:53Z"
           }
         }
       }
@@ -17117,13 +17157,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:48:34Z",
+      "actualizado": "2026-10-06T20:09:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 95%",
             "t": "2026-10-06T16:48:34Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes si/como, comas finales quitadas (L1,7,17,25,31,36); ear-notes en informe",
+            "t": "2026-10-06T20:09:50Z"
           }
         }
       }
