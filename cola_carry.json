@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T18:00:43Z",
+  "generado": "2026-10-06T18:01:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -14052,14 +14052,34 @@
       "artista": "Juan Gabriel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:12:05Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:00:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 100%",
             "t": "2026-10-06T14:12:05Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio, igual que el original, 0 puntuacion final, sin mayusculas medias",
+            "t": "2026-10-06T18:00:57Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ningun word <40ms; hueco linea 25 igual que el original; audio karaokeMp3 sin medir",
+            "t": "2026-10-06T18:00:57Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "157/157 mapeados, gemelas unificadas, 6 anclas nuevas, 6 phrase insights, sentidos revisados",
+            "t": "2026-10-06T18:00:57Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "falta abrir el borrador; plan listo en en_plan.json",
+            "t": "2026-10-06T18:00:57Z"
           }
         }
       }
