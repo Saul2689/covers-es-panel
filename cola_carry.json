@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:38:19Z",
+  "generado": "2026-10-06T20:41:04Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -18768,14 +18768,34 @@
       "artista": "Jose Alfredo Jimenez",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:46:56Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:40:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 100%",
             "t": "2026-10-06T16:46:56Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC revisado: 19 lineas limpias, sin cambios; qc_es sin hallazgos de letra",
+            "t": "2026-10-06T20:40:37Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 19 lineas, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (karaokeMp3, 206), no se mide ni fija",
+            "t": "2026-10-06T20:40:37Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "186/186 mapeadas; 6 huecos cubiertos con items existentes; remapeos crees, ahorita; gemelas unificadas (fin, besos, contigo, que)",
+            "t": "2026-10-06T20:40:38Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en .singit/es_map/payloads/6aa5d74942b8d1fdb0d63425/en_plan.json (19 lineas, 186 WIT con DT propio); falta abrir el borrador",
+            "t": "2026-10-06T20:40:38Z"
           }
         }
       }
@@ -18935,13 +18955,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:51:15Z",
+      "actualizado": "2026-10-06T20:40:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 87%",
             "t": "2026-10-06T16:51:15Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "limpiado: errata hacerte/vivir, tildes cómo/podré/amé/Sí, mayúscula, coma final",
+            "t": "2026-10-06T20:40:17Z"
           }
         }
       }
@@ -18955,13 +18980,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:47:53Z",
+      "actualizado": "2026-10-06T20:39:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-06T16:47:53Z"
+            "nota": "carry batch aplicado, no tocado",
+            "t": "2026-10-06T20:39:00Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "2 mayusculas mid-line a minuscula (lineas 13 y 35); Y de inicio conservada (cronometrada)",
+            "t": "2026-10-06T20:39:00Z"
           }
         }
       }
