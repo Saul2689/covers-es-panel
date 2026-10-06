@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:14:59Z",
+  "generado": "2026-10-06T16:16:00Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -8465,14 +8465,34 @@
       "artista": "Carlos Vives",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:50:30Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:15:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:50:30Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio: sin puntuacion final ni parentesis; mayusculas medias solo nombres propios (Himalaya, La Castellana, Union), igual que el original",
+            "t": "2026-10-06T16:15:35Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; palabra de 33 ms (linea 28) alargada a 43 ms; sin palabras <40 ms; hueco de 20 s linea 38-39 es instrumental tambien en el original; audio SUENA_SIN_BLINDAR (206), no se toca",
+            "t": "2026-10-06T16:15:35Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 9 items nuevos (verbos con clitico, olimpiada/s) + 3 nombres propios; gemelas unificadas; locuciones por eso y de sol a sol ancladas",
+            "t": "2026-10-06T16:15:36Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T16:15:36Z"
           }
         }
       }
