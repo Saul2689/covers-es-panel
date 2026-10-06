@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:46:14Z",
+  "generado": "2026-10-06T17:47:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -13344,19 +13344,34 @@
       "artista": "los Huracanes Del Norte",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:41:30Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:47:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 92%",
-            "t": "2026-10-06T14:10:46Z"
+            "nota": "carry batch aplicado previamente; no tocado",
+            "t": "2026-10-06T17:46:34Z"
           },
           "lrc": {
             "v": "ok",
             "nota": "9 tildes/ortografia (que/qué, tú, más, fui) por función; ear-note: línea 22 sin la 'y' del original, sin evidencia en richsync",
             "t": "2026-10-06T17:41:30Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, 0 palabras <40 ms, audio SUENA_SIN_BLINDAR (206), sin tocar; hueco de 27 s entre líneas 18 y 19: el original tiene gritos/ad-libs ahí que no se pueden probar en el cover (ear-note)",
+            "t": "2026-10-06T17:46:34Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, gemelas unificadas, sentidos/homógrafos revisados; 5 items nuevos 19 idiomas; secciones a mano",
+            "t": "2026-10-06T17:46:34Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de inglés listo en en_plan.json (36 líneas, 222 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T17:46:35Z"
           }
         }
       }
@@ -13472,14 +13487,34 @@
       "artista": "Cristian",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:11:06Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:47:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 98%",
             "t": "2026-10-06T14:11:05Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L2/8/23 tilde en la primera palabra, L11 una palabra unida; secciones puestas a mano (38/38)",
+            "t": "2026-10-06T17:47:35Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T17:47:35Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "8 items nuevos (crudo x4, inmensidad x2, enigma x2) con 19 idiomas; sentidos y gemelas unificadas; 0 sin mapear",
+            "t": "2026-10-06T17:47:36Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan completo en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T17:47:36Z"
           }
         }
       }
@@ -19297,7 +19332,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 71%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:34:18Z"
+      "actualizado": "2026-10-06T17:46:17Z"
     },
     {
       "coverTrackId": "6aa5c4f242b8d1fdb0d44d57",
@@ -19308,7 +19343,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 72%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:34:21Z"
+      "actualizado": "2026-10-06T17:46:20Z"
     },
     {
       "coverTrackId": "6aa539f742b8d1fdb0c9d4f3",
@@ -19319,7 +19354,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:34:24Z"
+      "actualizado": "2026-10-06T17:46:23Z"
     },
     {
       "coverTrackId": "6aa81f0fd951e1665a8082b0",
@@ -19350,7 +19385,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 68%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:34:26Z"
+      "actualizado": "2026-10-06T17:46:28Z"
     },
     {
       "coverTrackId": "6aa5e01d42b8d1fdb0d6c93f",
@@ -19512,7 +19547,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:34:32Z"
+      "actualizado": "2026-10-06T17:46:31Z"
     },
     {
       "coverTrackId": "6aa528fb42b8d1fdb0c81135",
@@ -19565,7 +19600,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 42%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:34:36Z"
+      "actualizado": "2026-10-06T17:46:34Z"
     },
     {
       "coverTrackId": "6aa5e1e142b8d1fdb0d71909",
@@ -19607,7 +19642,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 78%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:34:39Z"
+      "actualizado": "2026-10-06T17:47:35Z"
     },
     {
       "coverTrackId": "6aa5239242b8d1fdb0c7a309",
@@ -19638,7 +19673,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:34:42Z"
+      "actualizado": "2026-10-06T17:47:37Z"
     },
     {
       "coverTrackId": "6aa5266742b8d1fdb0c7caed",
@@ -19689,7 +19724,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 57%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:34:45Z"
+      "actualizado": "2026-10-06T17:47:40Z"
     },
     {
       "coverTrackId": "6aa1114864c9b8ff110d3735",
@@ -19728,10 +19763,19 @@
       "originalTrackId": "",
       "titulo": "Daria",
       "artista": "la 5ª Estacion",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:37Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:47:44Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T17:47:43Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5e0aa42b8d1fdb0d6d450",
@@ -19739,10 +19783,19 @@
       "originalTrackId": "",
       "titulo": "Inocente Pobre Amigo",
       "artista": "Juan Gabriel",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:38Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:47:47Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 93%",
+            "t": "2026-10-06T17:47:47Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5d1a642b8d1fdb0d57e2f",
