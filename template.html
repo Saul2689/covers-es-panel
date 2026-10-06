@@ -177,7 +177,7 @@ tailwind.config={theme:{extend:{
       <div id="x-indice-caja" class="hidden md:block">
         <nav id="x-indice" class="sticky top-24 rounded-2xl bg-surface p-4 shadow-xl shadow-black/40">
           <h2 class="font-mono text-[10.5px] uppercase tracking-[0.12em] text-zinc-500 px-1" id="x-indice-tit"></h2>
-          <ol class="mt-3 max-h-[62vh] overflow-y-auto scroll-thin pr-1" id="x-idx"></ol>
+          <ol class="mt-3 max-h-[calc(100vh-10rem)] overflow-y-auto overscroll-contain scroll-thin pr-1" id="x-idx"></ol>
         </nav>
       </div>
       <div id="x-lista" class="min-w-0"></div>
@@ -514,7 +514,9 @@ tailwind.config={theme:{extend:{
     var mas=document.getElementById('x-mas');
     if(mas) mas.addEventListener('click',function(){tope+=40;pinta();});
 
-    document.getElementById('x-idx').innerHTML=muestra.map(function(g,i){
+    /* El indice lista TODOS los grupos, no solo los pintados: baja hasta el
+       final por su cuenta sin tener que ir sacando la lista de al lado. */
+    document.getElementById('x-idx').innerHTML=grupos.map(function(g,i){
       var punto=g.color?'<span class="h-1.5 w-1.5 shrink-0 rounded-full" style="background:'+g.color+'"></span>':'';
       return '<li><button data-i="'+i+'" class="flex w-full items-center gap-2 rounded-lg px-2 py-1.5 text-left '+
         'text-[12.5px] text-zinc-400 transition-colors duration-200 hover:bg-raised hover:text-zinc-100">'+punto+
@@ -1095,7 +1097,11 @@ tailwind.config={theme:{extend:{
   });
   document.getElementById('x-idx').addEventListener('click',function(e){
     var b=e.target.closest('button[data-i]'); if(!b) return;
-    lleva(document.getElementById('g'+b.dataset.i));
+    /* La lista de al lado se pinta de 40 en 40: si el bloque todavia no esta,
+       se pinta hasta el y luego se va. */
+    var i=+b.dataset.i;
+    if(i>=tope){ tope=i+1; pinta(); }
+    lleva(document.getElementById('g'+i));
   });
   /* Cada columna lleva a su bloque de la lista, igual que el índice. */
   document.getElementById('x-linea-barra').addEventListener('click',function(e){
