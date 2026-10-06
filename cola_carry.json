@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:32:56Z",
+  "generado": "2026-10-06T15:36:01Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -7184,14 +7184,34 @@
       "artista": "Noelia",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:49:28Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:35:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:49:28Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "tildes de tu/tu corregidas y comas; falta etiquetar secciones (escritura bloqueada por el clasificador)",
+            "t": "2026-10-06T15:35:37Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; palabra de 26 ms alargada a 40; audio SUENA_SIN_BLINDAR, sin tocar",
+            "t": "2026-10-06T15:35:38Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; tu->tu tilde y gemelas unificadas; items afecto/afectos creados con 19 idiomas",
+            "t": "2026-10-06T15:35:38Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en .singit/es_map/payloads/6aa6696972ca57eb1a9e22ab/en_plan.json (70 lineas + 383 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T15:35:38Z"
           }
         }
       }
