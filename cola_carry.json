@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:44:49Z",
+  "generado": "2026-10-06T13:45:06Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2651,20 +2651,40 @@
       "originalTrackId": "",
       "titulo": "6 Am",
       "artista": "J Balvin feat. Farruko",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC del proveedor fuera de orden (dos bloques cruzados); hay que reordenarla y el vigilante bloqueo la subida",
-      "actualizado": "2026-09-30T09:01:55Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T13:45:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "saul",
-            "nota": "vendor LRC no cronologico: lineas 1-86 y 87-163 son dos bloques intercalados en el tiempo; el alineador monotono queda en 66% con 49 lineas por decidir. Hace falta reordenar el LRC (subida completa) y el clasificador ha denegado lrc_upload. Nada escrito.",
-            "t": "2026-09-30T09:01:24Z"
+            "v": "na",
+            "nota": "no aplicado: alineacion 66%, 48 lineas con decision, el stream del vendor viene del espejo en el orden viejo; un apply futuro pisaria el LRC ordenado",
+            "t": "2026-10-06T13:45:02Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "reordenado cronologicamente (2 bloques intercalados), 394 anclas repuestas, 119 ediciones de tildes/mayusculas/signos, sin finales , . ; :",
+            "t": "2026-10-06T13:45:02Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, 0 palabras <40 ms, ultima palabra arreglada; audio_guard SUENA_SIN_BLINDAR",
+            "t": "2026-10-06T13:45:02Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "459/465; 15 items nuevos; sin mapear a proposito L2.0-2, L45.0-1 (ingles) y L4.0 (palabra desconocida)",
+            "t": "2026-10-06T13:45:02Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "163 lineas + 459 WITs a mano, wit_dt_audit BAD 0, pending_review",
+            "t": "2026-10-06T13:45:02Z"
           }
         }
       },
-      "motivo_en": "Vendor LRC out of chronological order (two interleaved blocks); needs a reorder and the classifier blocked the upload"
+      "motivo_en": "ready for QC"
     },
     {
       "coverTrackId": "6aa51a1f42b8d1fdb0c6b836",
@@ -6124,10 +6144,10 @@
       "originalTrackId": "",
       "titulo": "No Me Doy Por Vencido",
       "artista": "Luis Fonsi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T13:34:38Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T13:44:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -6154,7 +6174,23 @@
             "v": "ok",
             "nota": "draft EN en pending_review: 54 lineas + 293 WIT con texto y DT propio, wit_dt_audit BAD 0, repetidas identicas",
             "t": "2026-10-06T13:34:38Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC adversarial VERDE: estructura, timing, mapeo, items nuevos e ingles (pending_review) correctos; notas de oido para Saul en el informe",
+            "t": "2026-10-06T13:44:52Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC adversarial VERDE: estructura, timing, mapeo, items nuevos e ingles (pending_review) correctos; notas de oido para Saul en el informe",
+          "t": "2026-10-06T13:44:52Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T13:44:53Z"
         }
       }
     },
@@ -6164,10 +6200,10 @@
       "originalTrackId": "",
       "titulo": "La Venia Bendita",
       "artista": "Marco Antonio Solis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T13:30:58Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T13:44:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -6194,7 +6230,23 @@
             "v": "ok",
             "nota": "ingles a mano: 20 lineas + 135 WIT con texto y DT correcto, wit_dt_audit BAD 0, enviado a pending_review",
             "t": "2026-10-06T13:30:58Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC adversarial VERDE: estructura, timing, mapeo, items nuevos e ingles (pending_review) correctos; notas de oido para Saul en el informe",
+            "t": "2026-10-06T13:44:53Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC adversarial VERDE: estructura, timing, mapeo, items nuevos e ingles (pending_review) correctos; notas de oido para Saul en el informe",
+          "t": "2026-10-06T13:44:53Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T13:44:54Z"
         }
       }
     },
