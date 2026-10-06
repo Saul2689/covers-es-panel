@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:03:16Z",
+  "generado": "2026-10-06T20:04:42Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -16737,14 +16737,34 @@
       "artista": "los Tigres Del Norte",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:05:21Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:04:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 100%",
-            "t": "2026-10-06T15:05:20Z"
+            "nota": "batch carry aplicado previamente; no tocado",
+            "t": "2026-10-06T20:04:06Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC y richsync ya limpios (sin cambios); secciones generadas 35/35; falta de una palabra en la linea 6 respecto al original: aviso de oido, el cover no la canta (sin richsync)",
+            "t": "2026-10-06T20:04:06Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 35 lineas; ninguna palabra <40 ms (min 74); hueco de 22 s tras la linea 17 es instrumental tambien en el original; audio SUENA_SIN_BLINDAR 206, no tocado",
+            "t": "2026-10-06T20:04:07Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "219/219 mapeados; 4 items nuevos (arrancame, francotirador, francotiradores, castiga) con 19 idiomas; 4 gemelas unificadas; remordimientos reutilizado",
+            "t": "2026-10-06T20:04:07Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan escrito en payloads/en_plan.json (35 lineas + 219 WIT con DT); sin borrador abierto, falta abrirlo",
+            "t": "2026-10-06T20:04:07Z"
           }
         }
       }
@@ -16758,7 +16778,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T20:01:44Z",
+      "actualizado": "2026-10-06T20:03:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16770,6 +16790,16 @@
             "v": "ok",
             "nota": "2 mayusculas a mitad de letra (linea 16 y 37, palabra 9) a minuscula; sin signos finales, sin palabras cortas; original coincide",
             "t": "2026-10-06T20:01:44Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; hueco de 20 s antes de la linea 22 = instrumental real (el original tampoco tiene letra ahi); audio guard SUENA_SIN_BLINDAR (206, timeline karaokeMp3, stemVoc null): no medido ni fijado; secciones 46/46 por generateSections",
+            "t": "2026-10-06T20:03:36Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "5 anclas nuevas (palabra 4 de lineas 11,20,32,41,45) a item existente; 21 anclas unificadas/remapeadas en gemelas; 252/252 cubiertas",
+            "t": "2026-10-06T20:03:37Z"
           }
         }
       }
@@ -16835,13 +16865,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:05:39Z",
+      "actualizado": "2026-10-06T20:03:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 88%",
             "t": "2026-10-06T15:05:39Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "8 ediciones de tilde/mayuscula, secciones 82/82 puestas a mano desde el original; faltan lineas del original (ear-note)",
+            "t": "2026-10-06T20:03:29Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; 2 palabras <40 ms alargadas; hueco de 50 s es instrumental en el original",
+            "t": "2026-10-06T20:03:29Z"
           }
         }
       }
