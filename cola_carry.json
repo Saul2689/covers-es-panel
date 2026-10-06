@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:26:57Z",
+  "generado": "2026-10-06T16:28:07Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9571,14 +9571,34 @@
       "artista": "Marco Antonio Solís",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:55:46Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:27:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-10-06T10:55:44Z"
+            "nota": "carry batch aplicado",
+            "t": "2026-10-06T16:27:33Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L8 aun->aún, L10 minuto, L12 Por qué (split + phrase item), L33 puntos finales fuera; ear-notes L8,L16,L28,L33 en informe",
+            "t": "2026-10-06T16:27:34Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40ms, audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T16:27:34Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, gemelas unificadas, 5 items nuevos con 19 idiomas, sentidos corregidos",
+            "t": "2026-10-06T16:27:34Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en es_map/payloads/<id>/en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T16:27:34Z"
           }
         }
       }
@@ -9633,7 +9653,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:22:48Z",
+      "actualizado": "2026-10-06T16:27:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9645,6 +9665,11 @@
             "v": "ok",
             "nota": "tildes qué/aquí/sí/tú, signos sueltos; notas de oído en 9, 11, 52",
             "t": "2026-10-06T16:22:48Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "10 items nuevos (19 idiomas), anclas remapeadas y mapeo completo, gemelas unificadas",
+            "t": "2026-10-06T16:27:36Z"
           }
         }
       }
