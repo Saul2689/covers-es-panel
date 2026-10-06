@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T11:08:34Z",
+  "generado": "2026-10-06T11:10:06Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2754,10 +2754,10 @@
       "originalTrackId": "",
       "titulo": "Duele El Amor",
       "artista": "Aleks Syntek, Ana Torroja",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "linea 64 token 2: palabra de 7 ms, dar duracion >=40 ms sin mover la primera palabra de linea",
-      "actualizado": "2026-10-06T11:07:28Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T11:09:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2786,15 +2786,21 @@
             "t": "2026-10-06T11:01:15Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "DEVUELTO ronda 1: linea 64 token 2 con palabra de 7 ms (<40 ms); el resto correcto",
-            "t": "2026-10-06T11:07:26Z"
+            "v": "ok",
+            "nota": "ronda 2: linea 64 token 2 corregido (60 ms); sin palabras <40 ms, drift 0, mapeo e ingles ok",
+            "t": "2026-10-06T11:09:52Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "DEVUELTO ronda 1: linea 64 token 2 con palabra de 7 ms (<40 ms); el resto correcto",
-          "t": "2026-10-06T11:07:26Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: linea 64 token 2 corregido (60 ms); sin palabras <40 ms, drift 0, mapeo e ingles ok",
+          "t": "2026-10-06T11:09:52Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T11:09:55Z"
         }
       }
     },
