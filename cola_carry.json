@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:14:39Z",
+  "generado": "2026-10-06T17:15:28Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -11754,14 +11754,34 @@
       "artista": "Pepe Aguilar",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T11:01:04Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:15:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-10-06T11:01:03Z"
+            "nota": "carry batch aplicado",
+            "t": "2026-10-06T17:14:58Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC y richsync limpios: 28 lineas, 163 palabras, sin puntuacion final ni mayusculas medias; l3 t4 quemarropa se queda (el cover escribe bien, el original la parte)",
+            "t": "2026-10-06T17:14:58Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra bajo 110 ms; audio guard SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T17:14:58Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "4 sin_mapear cerrados (2 items reutilizados, 2 nuevos con 19 idiomas), gemelas l21 unificadas, 2 phrase insights",
+            "t": "2026-10-06T17:15:04Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json; falta abrir el borrador",
+            "t": "2026-10-06T17:15:04Z"
           }
         }
       }
@@ -11883,14 +11903,34 @@
       "artista": "Vicente Fernandez",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:52:08Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:15:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-06T16:52:07Z"
+            "nota": "aplicado previamente (batch), no se re-proyecta",
+            "t": "2026-10-06T17:15:17Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "sin cambios: A/Ha de linea 3 es errata del original; hueco linea 16 es instrumental (original sin letra); sin puntuacion final ni mayusculas medias",
+            "t": "2026-10-06T17:15:17Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 23 lineas, ninguna palabra <60 ms; audio_guard SUENA_SIN_BLINDAR (206), no se mide ni se fija",
+            "t": "2026-10-06T17:15:18Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "3 items nuevos en PROD con 19 idiomas, dicha reutilizada, 5 huecos mapeados, 5 gemelas unificadas; cobertura 91/91",
+            "t": "2026-10-06T17:15:18Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json (23 lineas + 91 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T17:15:18Z"
           }
         }
       }
