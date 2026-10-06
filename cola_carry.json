@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T11:50:58Z",
+  "generado": "2026-10-06T11:54:14Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4739,16 +4739,36 @@
       "originalTrackId": "",
       "titulo": "Aun Hay Algo",
       "artista": "RBD",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:48:07Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T11:53:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:48:06Z"
+            "nota": "carry aplicado por lote; hojas dobles del proveedor depuradas (31 lineas fantasma)",
+            "t": "2026-10-06T11:53:36Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "40 lineas, sin puntuacion final, fantasmas y tokens duplicados fuera, lineas 10 y 32 y 9 y 31 con la forma sin tilde corregida",
+            "t": "2026-10-06T11:53:36Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en las 40 lineas, 0 palabras <40 ms; hueco de 29 s antes de la linea 29 justificado (instrumental, el original no canta ahi)",
+            "t": "2026-10-06T11:53:36Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "311/311 ancladas; 7 items nuevos (19 idiomas); gemelas unificadas (lineas 5/17, 6/18, 8/20/30/36, 9/12/21/24/31/34/37/40, 11/23/33/39); sin frases anclaradas",
+            "t": "2026-10-06T11:53:36Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "borrador a mano enviado a pending_review: 40 lineas + 311 WIT con texto, wit_dt_audit BAD 0, gemelas identicas",
+            "t": "2026-10-06T11:53:36Z"
           }
         }
       }
@@ -4759,10 +4779,10 @@
       "originalTrackId": "",
       "titulo": "Tu Ultima Cancion",
       "artista": "los Temerarios",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T11:48:54Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T11:53:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4789,7 +4809,23 @@
             "v": "ok",
             "nota": "borrador manual 54 lineas + 153 WIT con texto y DT propio (wit_dt_audit BAD 0), enviado a pending_review",
             "t": "2026-10-06T11:48:54Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ronda 2: L14 t1 y L39/49 t6 corregidos; resto verificado",
+            "t": "2026-10-06T11:53:55Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "ronda 2: L14 t1 y L39/49 t6 corregidos; resto verificado",
+          "t": "2026-10-06T11:53:55Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T11:53:56Z"
         }
       }
     },
