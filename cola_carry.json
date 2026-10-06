@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T12:11:17Z",
+  "generado": "2026-10-06T12:15:52Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4878,10 +4878,10 @@
       "originalTrackId": "",
       "titulo": "Duro Y Suave",
       "artista": "Leslie Grace, Noriel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T12:04:00Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T12:15:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4908,7 +4908,23 @@
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T12:04:00Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ronda 2: L32 combi sentido outfit y oh tok5 L19/48/50/52 corregidos; estructura, gemelas, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-06T12:15:38Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "ronda 2: L32 combi sentido outfit y oh tok5 L19/48/50/52 corregidos; estructura, gemelas, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-06T12:15:38Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T12:15:39Z"
         }
       }
     },
@@ -4985,16 +5001,36 @@
       "originalTrackId": "",
       "titulo": "Vuelve",
       "artista": "Bad Bunny, Daddy Yankee",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:48:23Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T12:15:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:48:23Z"
+            "nota": "carry batch aplicado, no tocado",
+            "t": "2026-10-06T12:15:28Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes, erratas, sobrantes y coma final corregidos por plan; secciones puestas en las 87 lineas",
+            "t": "2026-10-06T12:15:28Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 87 lineas, ninguna palabra bajo 40 ms; audio guard SUENA_SIN_BLINDAR (206), sin medir ni fijar",
+            "t": "2026-10-06T12:15:28Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "32 sin mapear resueltos, 19 items nuevos con 19 idiomas, gemelas unificadas, tu/tus/si por tilde; restan ad-libs, ingles y nombres propios",
+            "t": "2026-10-06T12:15:28Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "87 lineas y 511 WIT a mano, wit_dt_audit BAD 0, 0 anclas sin texto, enviado a pending_review",
+            "t": "2026-10-06T12:15:29Z"
           }
         }
       }
