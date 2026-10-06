@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:05:18Z",
+  "generado": "2026-10-06T20:07:19Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -16717,14 +16717,34 @@
       "artista": "Sandro",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:05:17Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:06:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-06T15:05:16Z"
+            "nota": "aplicado previamente (batch)",
+            "t": "2026-10-06T20:06:57Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "coma suelta en l50 quitada; secciones 57/57 a mano (generateSections no corrido); ear-notes: l15 cover canta otra palabra que el original, l16 sin una palabra del original, l37 sin 'Yo', l50 posible 'para' doble",
+            "t": "2026-10-06T20:06:57Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio karaokeMp3 SUENA_SIN_BLINDAR (206), no se mide ni fija; l37-38 con palabras muy apretadas respecto al hueco siguiente: no verificable sin voz, para oido de Saul",
+            "t": "2026-10-06T20:06:57Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "223/223 ancladas, gemelas 0; 11 items nuevos (19 idiomas); remaps de sentido en l15 y gemelas l18/22/25/36/49/50/51/53/56",
+            "t": "2026-10-06T20:06:57Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan completo (57 lineas + 223 WIT con DT) en es_map/payloads/<id>/en_plan.json; falta abrir borrador",
+            "t": "2026-10-06T20:06:58Z"
           }
         }
       }
@@ -16869,8 +16889,8 @@
       "artista": "Aleks Syntek",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T20:03:29Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:06:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16887,6 +16907,16 @@
             "v": "ok",
             "nota": "drift 0; 2 palabras <40 ms alargadas; hueco de 50 s es instrumental en el original",
             "t": "2026-10-06T20:03:29Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "juntas creado (19 idiomas), 3 anclas nuevas, tilde tu/mas, gemelas unificadas; sin mapear solo ad-libs/ingles/nombre propio",
+            "t": "2026-10-06T20:06:57Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de 82 lineas + 201 WIT en en_plan.json; no hay borrador abierto",
+            "t": "2026-10-06T20:06:57Z"
           }
         }
       }
