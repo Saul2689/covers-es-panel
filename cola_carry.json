@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T18:21:20Z",
+  "generado": "2026-10-06T18:21:59Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -15048,14 +15048,34 @@
       "artista": "Rosana",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:02:08Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:21:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-06T15:02:07Z"
+            "nota": "carry batch ya aplicado, no tocado",
+            "t": "2026-10-06T18:21:26Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio; unico cambio: tilde de tu a tu con tilde en linea 2 (pronombre)",
+            "t": "2026-10-06T18:21:26Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio sirve karaokeMp3, no se mide ni pinza",
+            "t": "2026-10-06T18:21:26Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 18 items nuevos con 19 idiomas; gemelas unificadas; remaps de sentido",
+            "t": "2026-10-06T18:21:26Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de ingles (61 lineas + 316 WIT con DT) en en_plan.json; falta abrir el borrador (start_draft no permitido al worker)",
+            "t": "2026-10-06T18:21:27Z"
           }
         }
       }
