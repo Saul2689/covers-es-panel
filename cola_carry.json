@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:07:33Z",
+  "generado": "2026-10-06T20:08:41Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -16340,29 +16340,39 @@
       "artista": "Vico C",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T20:01:08Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:08:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-06T15:04:34Z"
+            "nota": "carry batch ya aplicado",
+            "t": "2026-10-06T20:08:09Z"
           },
           "lrc": {
             "v": "ok",
-            "nota": "17 tildes/erratas arregladas, coma final quitada",
-            "t": "2026-10-06T19:52:30Z"
+            "nota": "21 tildes/ortografia + coma final quitada, secciones 110/110",
+            "t": "2026-10-06T20:08:09Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "49 items nuevos + 3 locuciones, 19 idiomas; huecos 0, gemelas unificadas, tildes remapeadas",
-            "t": "2026-10-06T20:01:07Z"
+            "nota": "711/711, 0 sin mapear, gemelas unificadas, tildes y sentidos revisados, 53 items nuevos (19 idiomas)",
+            "t": "2026-10-06T20:08:02Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "drift 0, ninguna palabra <40 ms, hueco L103 es instrumental",
-            "t": "2026-10-06T20:01:08Z"
+            "nota": "drift 0, ninguna palabra <40 ms; hueco 25s antes de L103 instrumental; audio SUENA_SIN_BLINDAR karaokeMp3 206, nada medido",
+            "t": "2026-10-06T20:08:09Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de 110 lineas + 711 WIT con DT en .singit/es_map/payloads/6aa6ffdb72ca57eb1aaa2718/en_plan.json; sin borrador abierto (WORKER_BRIEF)",
+            "t": "2026-10-06T20:08:02Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "pendiente QC; ingles falta",
+            "t": "2026-10-06T20:08:09Z"
           }
         }
       }
@@ -16837,8 +16847,8 @@
       "artista": "RBD",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T20:02:23Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:08:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16855,6 +16865,16 @@
             "v": "ok",
             "nota": "69 palabras retimadas (0 ms -> con duracion), 0 palabras <40 ms, drift 0; solapes de filas eco justificados",
             "t": "2026-10-06T20:02:23Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "449/449 mapeadas; 6 items nuevos con 19 idiomas; gemelas unificadas; tildes y sentidos revisados",
+            "t": "2026-10-06T20:08:29Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "falta abrir el borrador; plan en en_plan.json (89 lineas + 449 WIT con DT)",
+            "t": "2026-10-06T20:08:29Z"
           }
         }
       }
