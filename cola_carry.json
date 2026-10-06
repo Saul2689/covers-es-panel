@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:14:26Z",
+  "generado": "2026-10-06T15:19:19Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5526,13 +5526,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:37:32Z",
+      "actualizado": "2026-10-06T15:16:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 97%",
             "t": "2026-10-06T13:37:31Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "4 comas finales quitadas (lineas 9, 20, 41, 53) en LRC y richsync; resto limpio",
+            "t": "2026-10-06T15:16:35Z"
           }
         }
       }
@@ -5568,13 +5573,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:37:39Z",
+      "actualizado": "2026-10-06T15:15:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 95%",
             "t": "2026-10-06T13:37:39Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "9 tokens: mi->mí x6, mas->más x2 (líneas 3,5,23,26), signo suelto línea 21; falta Y en 10/31/44 sin evidencia de richsync, nota de oído",
+            "t": "2026-10-06T15:15:26Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms, sin puntuación final; audio SUENA_SIN_BLINDAR sin acción",
+            "t": "2026-10-06T15:15:26Z"
           }
         }
       }
@@ -5607,14 +5622,34 @@
       "artista": "Belanova",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:37:46Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:18:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 96%",
             "t": "2026-10-06T13:37:45Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC revisado: sin partidas/erratas/mayusculas/signos finales; extra en l2 es cantado (evidencia richsync), Y inicial ausente en 6 lineas (cover no la canta)",
+            "t": "2026-10-06T15:18:56Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T15:18:56Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 huecos reales (quedan 20 tokens de ad-lib hi); gemelas unificadas; 6 items nuevos con 19 idiomas; PIT tal vez x2 y de verdad",
+            "t": "2026-10-06T15:18:57Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de ingles en es_map/payloads/<id>/en_plan.json; falta abrir el borrador (start_draft prohibido a este worker)",
+            "t": "2026-10-06T15:18:57Z"
           }
         }
       }
@@ -13772,8 +13807,8 @@
       "artista": "Joan Sebastian",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original por subir: el import por ISRC fallo; buscar otra version",
+      "actualizado": "2026-10-06T15:16:04Z"
     },
     {
       "coverTrackId": "6aa5754842b8d1fdb0cdd68c",
