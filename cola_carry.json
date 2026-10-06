@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T18:09:29Z",
+  "generado": "2026-10-06T18:10:10Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -14399,14 +14399,34 @@
       "artista": "Shakira",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:12:32Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:09:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 99%",
             "t": "2026-10-06T14:12:32Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "comas finales y mayuscula media de las lineas 15 y 31 quitadas; secciones puestas a mano (4)",
+            "t": "2026-10-06T18:09:57Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms (linea 15 palabra 1 ensanchada); audio guard SUENA_SIN_BLINDAR, sirve karaokeMp3, no se toca",
+            "t": "2026-10-06T18:09:57Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo blue/jeans (ingles); 20 items nuevos con 19 idiomas; parados remapeado; gemelas unificadas",
+            "t": "2026-10-06T18:09:57Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T18:09:57Z"
           }
         }
       }
@@ -14541,14 +14561,34 @@
       "artista": "Ana Gabriel, Vicky Carr",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:12:51Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:09:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 95%",
-            "t": "2026-10-06T14:12:51Z"
+            "nota": "carry batch ya aplicado, no tocado",
+            "t": "2026-10-06T18:09:40Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "12 ediciones de token (tildes, signos de pregunta, si/sí por funcion), secciones 42/42 manuales; ear-notes en informe",
+            "t": "2026-10-06T18:09:40Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (karaokeMp3, 206): no medido ni fijado",
+            "t": "2026-10-06T18:09:40Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "222/222 cubiertas; 5 huecos mapeados, 6 remapeos de sentido, gemelas unificadas; fila EN nueva en concepto",
+            "t": "2026-10-06T18:09:40Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de ingles (42 lineas + 222 WIT) en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T18:09:41Z"
           }
         }
       }
@@ -14618,13 +14658,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:13:03Z",
+      "actualizado": "2026-10-06T18:09:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 96%",
             "t": "2026-10-06T14:13:03Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 14 capital y comas; resto limpio; 2 ear-notes lineas 3-4",
+            "t": "2026-10-06T18:09:49Z"
           }
         }
       }
