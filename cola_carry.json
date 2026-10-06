@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T18:20:46Z",
+  "generado": "2026-10-06T18:21:00Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -15006,10 +15006,10 @@
       "originalTrackId": "",
       "titulo": "Se Me Va La Voz",
       "artista": "Alejandro Fernandez, Hector El Torito Acosta",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T18:20:29Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T18:20:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15019,8 +15019,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "isEndOfLine realineado a 75 lineas, richsync texto=LRC, 1 mayuscula, 11 palabras<40ms alargadas; faltan secciones",
-            "t": "2026-10-06T18:15:33Z"
+            "nota": "secciones puestas a mano (7, 75/75); isEndOfLine 75; sin palabras <40ms",
+            "t": "2026-10-06T18:20:58Z"
           },
           "timing": {
             "v": "ok",
@@ -15031,6 +15031,11 @@
             "v": "ok",
             "nota": "340/352 mapeados, 3 items nuevos (causando, entréname, refresca), 17 remapeos/unificacion; resto ad-libs",
             "t": "2026-10-06T18:20:29Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json (75 lineas, 239 WITs con DT); falta abrir el borrador",
+            "t": "2026-10-06T18:20:59Z"
           }
         }
       }
