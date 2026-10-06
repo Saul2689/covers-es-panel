@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:16:04Z",
+  "generado": "2026-10-06T17:17:26Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -11725,7 +11725,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:10:31Z",
+      "actualizado": "2026-10-06T17:17:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11742,6 +11742,11 @@
             "v": "ok",
             "nota": "drift 0, gaps 15 y 29 instrumentales segun original, ninguna palabra <40ms",
             "t": "2026-10-06T17:10:31Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "28 anclas nuevas con 18 items nuevos (traducidos a mano 19 idiomas), 4 remaps de se/puestas, gemelas unificadas, 0 sin mapear",
+            "t": "2026-10-06T17:17:10Z"
           }
         }
       }
@@ -11847,8 +11852,8 @@
       "artista": "Emmanuel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:11:56Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:17:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11860,6 +11865,21 @@
             "v": "ok",
             "nota": "LRC: tildes de mí (lineas 18,25,40,47,54) y lágrimas (59); sin puntuacion final; ear-note linea 58 (quema/queman) y 59 (cover no canta el final del original)",
             "t": "2026-10-06T17:11:56Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, sin palabras <40 ms; hueco de 22 s entre lineas 30-31 es instrumental en el original; audio SUENA_SIN_BLINDAR (206), no se toca",
+            "t": "2026-10-06T17:17:06Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, gemelas unificadas; 5 items nuevos (derrumbó, cesan, protegernos, quiebra, queman) traducidos a 19 idiomas; mí remapeado en 10 anclas; sentidos erroneos de quiebra/queman remapeados",
+            "t": "2026-10-06T17:17:06Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de ingles (59 lineas + 249 WIT con DT) preparado en en_plan.json; falta abrir el borrador (start_draft no se llama)",
+            "t": "2026-10-06T17:17:07Z"
           }
         }
       }
