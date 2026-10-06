@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:37:43Z",
+  "generado": "2026-10-06T20:38:19Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -18536,14 +18536,34 @@
       "artista": "Shakira",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:56:25Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:37:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 97%",
-            "t": "2026-10-06T16:56:25Z"
+            "nota": "batch carry aplicado (no tocado)",
+            "t": "2026-10-06T20:37:47Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "6 finales de linea sin coma (12,14,28,30,35,37) en LRC y richsync; ear-notes: l11 de/del, l6 y l10 falta palabra del original",
+            "t": "2026-10-06T20:37:48Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "3 palabras <40ms alargadas (l28,l33,l35), l33 inicio ajustado, drift 0, min palabra 40ms; hueco 20s l4-l5 instrumental en el original",
+            "t": "2026-10-06T20:37:48Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "sin_mapear 4 = nombres propios (Braulio, Dana); 16 items nuevos 19 idiomas; 20 anclas nuevas/remapeadas; gemelas unificadas",
+            "t": "2026-10-06T20:37:48Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json preparado (42 lineas + 288 WIT con DT), falta abrir el borrador",
+            "t": "2026-10-06T20:37:49Z"
           }
         }
       }
