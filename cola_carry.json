@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T12:46:00Z",
+  "generado": "2026-10-06T12:48:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5171,10 +5171,10 @@
       "originalTrackId": "",
       "titulo": "Estoy Enamorado",
       "artista": "Wisin Y Yandel",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC: coma L67 t3, L49 t5 tu a item 8b301, L21 t7 dio/ingles coherentes (reabrir draft y reenviar)",
-      "actualizado": "2026-10-06T12:44:23Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T12:48:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5184,8 +5184,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "tildes, erratas, inserts, puntuacion final, secciones 79/79; justificado en el informe",
-            "t": "2026-10-06T12:27:49Z"
+            "nota": "vuelta 2: coma L67, di L21",
+            "t": "2026-10-06T12:46:46Z"
           },
           "timing": {
             "v": "ok",
@@ -5194,24 +5194,30 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "23 items nuevos 19 idiomas, gemelas unificadas, phrase items voy a/ya no; nombres propios sin mapear",
-            "t": "2026-10-06T12:27:49Z"
+            "nota": "vuelta 2: tu L49 unificado, di L21",
+            "t": "2026-10-06T12:46:47Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "borrador propio en pending_review: 79 lineas, 411 WIT, 8 PIT, wit_dt_audit BAD 0",
-            "t": "2026-10-06T12:27:49Z"
+            "nota": "vuelta 2 reenviado pending_review, BAD 0",
+            "t": "2026-10-06T12:46:47Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "3 arreglos: coma de L67 t3 (ya no es final de linea), L49 t5 tu sin unificar con L8/L72, L21 t7 dio vs ingles en primera persona; avisos de oido para Saul",
-            "t": "2026-10-06T12:44:23Z"
+            "v": "ok",
+            "nota": "vuelta 2: coma L67, tu L49 unificado, L21 di coherente con el ingles; estructura, gemelas, WIT y DT OK; avisos de oido para Saul",
+            "t": "2026-10-06T12:48:25Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "3 arreglos: coma de L67 t3 (ya no es final de linea), L49 t5 tu sin unificar con L8/L72, L21 t7 dio vs ingles en primera persona; avisos de oido para Saul",
-          "t": "2026-10-06T12:44:23Z"
+          "v": "VERDE",
+          "resumen": "vuelta 2: coma L67, tu L49 unificado, L21 di coherente con el ingles; estructura, gemelas, WIT y DT OK; avisos de oido para Saul",
+          "t": "2026-10-06T12:48:25Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T12:48:26Z"
         }
       }
     },
@@ -5496,16 +5502,36 @@
       "originalTrackId": "",
       "titulo": "Ser O Parecer",
       "artista": "RBD",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:48:56Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T12:48:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:48:56Z"
+            "nota": "carry batch ya aplicado, no se toco",
+            "t": "2026-10-06T12:48:11Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "LRC limpio (tildes mas/dia, minuscula, tokens fantasma de la linea 18 borrados, secciones 47/47). Quedan 3 lineas fantasma duplicadas (19, 20 y 22, base 1) en la misma ventana de tiempo que 18 y 21: borrarlas es borrar anclas y el clasificador bloqueo lrc_delete_line; las borra Saul",
+            "t": "2026-10-06T12:48:11Z"
+          },
+          "timing": {
+            "v": "saul",
+            "nota": "drift 0, ninguna palabra <40 ms (3 de 0 ms corregidas). Quedan 2 avisos qc (lineas 18 y 20) que son el efecto de las lineas fantasma 19/20/22; audio_guard SUENA_SIN_BLINDAR, no se toco",
+            "t": "2026-10-06T12:48:12Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 6 items nuevos con 19 idiomas; gemelas unificadas; mas->item comparativo; 8 phrase insights (tal vez, de pronto, volver a x5, a mi lado)",
+            "t": "2026-10-06T12:48:12Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "draft en: 47 lineas, 332 WIT con texto, 8 PIT, wit_dt_audit BAD 0. El submit a pending_review lo bloqueo el clasificador: falta song_translation_approval_submit (lo hace Saul)",
+            "t": "2026-10-06T12:48:12Z"
           }
         }
       }
