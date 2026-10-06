@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:10:19Z",
+  "generado": "2026-10-06T15:12:57Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5269,7 +5269,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:07:48Z",
+      "actualizado": "2026-10-06T15:12:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5281,6 +5281,11 @@
             "v": "ok",
             "nota": "tildes, mayuscula y coma final corregidas en 12 lineas; sin cambios de nº de tokens",
             "t": "2026-10-06T15:07:48Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo ad-libs; 5 items nuevos creados con 19 idiomas; gemelas unificadas; sentidos revisados",
+            "t": "2026-10-06T15:12:00Z"
           }
         }
       }
@@ -5293,14 +5298,34 @@
       "artista": "Alejandro Fernández",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:37:12Z",
+      "motivo": "LRC, tiempos y mapeo hechos; inglés preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:12:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-06T13:37:12Z"
+            "nota": "Carry aplicado en lote antes; no re-ejecutado",
+            "t": "2026-10-06T15:12:17Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "Quitada la coma final de la linea 29 (LRC y richsync); sin palabras tocadas",
+            "t": "2026-10-06T15:12:17Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; palabra de 0 ms (linea 24, ultima) alargada a 620 ms; ninguna palabra < 40 ms; audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T15:12:19Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "4 items nuevos (19 idiomas), 7 anclas sin mapear cubiertas, 6 remapeos (gemelas y sentidos); 0 sin mapear salvo ad-libs",
+            "t": "2026-10-06T15:12:19Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "Plan completo en es_map/payloads/6aa50de642b8d1fdb0c55fa3/en_plan.json; falta abrir el borrador",
+            "t": "2026-10-06T15:12:19Z"
           }
         }
       }
@@ -5429,14 +5454,34 @@
       "artista": "Natalia Jimenez",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:37:28Z",
+      "motivo": "LRC, tiempos y mapeo hechos; inglés preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:12:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 87%",
             "t": "2026-10-06T13:37:27Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 3 tildes (esta/mas), linea 19 coma final quitada en LRC y richsync; resto limpio; ear-note: ninguna",
+            "t": "2026-10-06T15:12:38Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <60 ms; audio_guard SUENA_SIN_BLINDAR (karaokeMp3 206), no se toca",
+            "t": "2026-10-06T15:12:38Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 8 items nuevos con 19 idiomas; remapeos lineas 3,6,18,21,24; gemela unificada",
+            "t": "2026-10-06T15:12:38Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan completo en en_plan.json (50 lineas + 170 WIT con DT); falta abrir el borrador (Saul)",
+            "t": "2026-10-06T15:12:38Z"
           }
         }
       }
