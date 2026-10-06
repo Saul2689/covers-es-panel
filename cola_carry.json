@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T18:03:22Z",
+  "generado": "2026-10-06T18:04:36Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -14132,14 +14132,34 @@
       "artista": "Jose Luis Rodriguez",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:12:13Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:04:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-06T14:12:13Z"
+            "nota": "carry batch aplicado",
+            "t": "2026-10-06T18:04:21Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "secciones puestas a mano 7/7, signos de las 3 lineas finales y puntos suspensivos intermedios; ear-notes: linea 3 palabra 2, linea 33 palabra 3, linea 36 palabra 4",
+            "t": "2026-10-06T18:04:22Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, sin palabras <40 ms; audio sirve karaokeMp3 (SUENA_SIN_BLINDAR), no se toca",
+            "t": "2026-10-06T18:04:22Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, gemelas unificadas, 2 items nuevos, y/que/qué remapeados, locucion de verdad",
+            "t": "2026-10-06T18:04:22Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en es_map/payloads/en_plan.json; falta abrir el borrador",
+            "t": "2026-10-06T18:04:22Z"
           }
         }
       }
