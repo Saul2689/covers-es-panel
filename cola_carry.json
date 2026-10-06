@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:24:22Z",
+  "generado": "2026-10-06T17:25:50Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -12343,8 +12343,8 @@
       "artista": "Camila",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:22:18Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:25:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12356,6 +12356,21 @@
             "v": "ok",
             "nota": "5 acentos de la misma palabra corregidos (lineas 15,17,27,33,35); sin otros cambios",
             "t": "2026-10-06T17:22:18Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "188/188 mapeados; 6 items nuevos con 19 idiomas; remaps de sentido (quien, que relativo, olvido); gemelas unificadas",
+            "t": "2026-10-06T17:25:38Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio guard SUENA_SIN_BLINDAR sin accion",
+            "t": "2026-10-06T17:25:38Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json (38 lineas + 188 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T17:25:39Z"
           }
         }
       }
@@ -12368,14 +12383,34 @@
       "artista": "RBD",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:50:38Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:25:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 92%",
-            "t": "2026-10-06T16:50:37Z"
+            "nota": "carry batch ya aplicado",
+            "t": "2026-10-06T17:25:45Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio: sin partidas, mayusculas, signos ni tildes; 1 palabra distinta del original (linea 10, el cover canta otra) queda como nota de oido",
+            "t": "2026-10-06T17:25:45Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio SUENA_SIN_BLINDAR (no se toca)",
+            "t": "2026-10-06T17:25:45Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 4 items nuevos + pretenden (sentido) ; gemelas unificadas; fuego orden->fuego llama",
+            "t": "2026-10-06T17:25:46Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T17:25:46Z"
           }
         }
       }
@@ -12436,13 +12471,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:50:06Z",
+      "actualizado": "2026-10-06T17:24:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 99%",
             "t": "2026-10-06T16:50:06Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes tu/tú y más corregidas (16 tokens); resto limpio",
+            "t": "2026-10-06T17:24:43Z"
           }
         }
       }
@@ -12496,13 +12536,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:51:25Z",
+      "actualizado": "2026-10-06T17:24:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 94%",
             "t": "2026-10-06T16:51:24Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "17 edits de tilde/mayuscula (Cómo, dé, sólo, sensación, están, Dios, 2 mayúsculas medias); texto doble de voz conservado",
+            "t": "2026-10-06T17:24:44Z"
           }
         }
       }
