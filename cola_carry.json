@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:21:13Z",
+  "generado": "2026-10-06T15:28:13Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -7013,13 +7013,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:49:14Z",
+      "actualizado": "2026-10-06T15:22:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:49:14Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes, mayuscula, signos de cierre corregidos (lineas 6,16,28,29,30,37,50)",
+            "t": "2026-10-06T15:22:46Z"
           }
         }
       }
@@ -7052,14 +7057,34 @@
       "artista": "Fey",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:49:20Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:27:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:49:20Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "llegas->ciegas en 4 lineas (27,47,59,67); resto limpio",
+            "t": "2026-10-06T15:22:40Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (karaokeMp3, 206), no se toca",
+            "t": "2026-10-06T15:27:50Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "278/278 ancladas; 9 items nuevos con 19 idiomas; gemelas unificadas (amargo, duele); remapeos de sentido en 7 anclas",
+            "t": "2026-10-06T15:27:50Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en es_map/payloads/6aa741d272ca57eb1ab0caf1/en_plan.json; falta abrir el borrador",
+            "t": "2026-10-06T15:27:51Z"
           }
         }
       }
@@ -7083,14 +7108,34 @@
       "artista": "Obie Bermúdez",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:49:25Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:27:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:49:25Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "comas finales quitadas en 4 lineas (8,17,27,39); partes de oido para Saul",
+            "t": "2026-10-06T15:22:22Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms, audio suena (206) SUENA_SIN_BLINDAR sin tocar; 41/41 secciones puestas",
+            "t": "2026-10-06T15:27:05Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, 11 gemelas unificadas, 2 items nuevos (apostaria, llorarte) traducidos a 19 idiomas, mi posesivo en 14 y 33",
+            "t": "2026-10-06T15:27:05Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de ingles (41 lineas + 173 WIT con DT) preparado en payloads/en_plan.json; sin borrador abierto, start_draft no permitido: falta abrir el borrador",
+            "t": "2026-10-06T15:27:06Z"
           }
         }
       }
