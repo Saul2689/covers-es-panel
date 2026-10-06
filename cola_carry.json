@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:36:01Z",
+  "generado": "2026-10-06T15:37:00Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -7224,14 +7224,34 @@
       "artista": "Jose Jose",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:49:30Z",
+      "motivo": "LRC, tiempos y mapeo hechos; WITs preparados en en_plan.json, faltan las 24 lineas de ingles y abrir el borrador",
+      "actualizado": "2026-10-06T15:36:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:49:30Z"
+            "nota": "carry batch aplicado (>=85%)",
+            "t": "2026-10-06T15:36:34Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 2: 2 palabras sin tilde corregidas; secciones generadas (generateSections); linea 6: el original trae una palabra inicial que el cover no canta (sin evidencia en richsync) -> nota de oido para Saul",
+            "t": "2026-10-06T15:36:34Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en las 24 lineas; ninguna palabra <40 ms; linea 24 palabra final sostenida 7 s (cierre de la cancion, justificado); audio SUENA_SIN_BLINDAR (karaokeMp3, 206), sin stemVoc: no se toca",
+            "t": "2026-10-06T15:36:35Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "167/167 mapeados; 12 items nuevos en PROD con 19 idiomas (esconda, gritarte, reproche, callada/os/as, mustio/a/os/as, toditas, toditos); gemelas unificadas (lineas 20,21,23); mas->item adverbio comun",
+            "t": "2026-10-06T15:36:35Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "sin borrador abierto: no se llamo start_draft; plan de WITs (167, con DT) en es_map/payloads/6aa4f85a42b8d1fdb0c3b776/en_plan.json; falta abrir el borrador y las traducciones de linea",
+            "t": "2026-10-06T15:36:35Z"
           }
         }
       }
