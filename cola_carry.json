@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:39:44Z",
+  "generado": "2026-10-06T17:42:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -3506,7 +3506,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 66%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:29:49Z"
+      "actualizado": "2026-10-06T17:41:45Z"
     },
     {
       "coverTrackId": "6aa65be672ca57eb1a9cb0ee",
@@ -3911,7 +3911,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 67%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:29:52Z"
+      "actualizado": "2026-10-06T17:41:47Z"
     },
     {
       "coverTrackId": "6a9a2e709bc1eb137252853d",
@@ -5138,10 +5138,19 @@
       "originalTrackId": "",
       "titulo": "Dejaria Todo",
       "artista": "Chayanne",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original ya existia en SingIt y enlazado; lista para carry",
-      "actualizado": "2026-09-30T09:07:27Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:41:56Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 97%",
+            "t": "2026-10-06T17:41:56Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6a9a44e28a3e7151cb31c0ab",
@@ -8167,7 +8176,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 66%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:30:00Z"
+      "actualizado": "2026-10-06T17:42:00Z"
     },
     {
       "coverTrackId": "6aa51b2442b8d1fdb0c6cb0e",
@@ -8555,7 +8564,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 75%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:30:03Z"
+      "actualizado": "2026-10-06T17:42:03Z"
     },
     {
       "coverTrackId": "6a9ec6deeef2ad59f63322bf",
@@ -8879,7 +8888,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 59%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:30:06Z"
+      "actualizado": "2026-10-06T17:42:06Z"
     },
     {
       "coverTrackId": "6aa5168c42b8d1fdb0c65ba0",
@@ -9420,7 +9429,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 77%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:30:08Z"
+      "actualizado": "2026-10-06T17:42:08Z"
     },
     {
       "coverTrackId": "6aa56d0c42b8d1fdb0cd0626",
@@ -9431,7 +9440,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 78%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:30:11Z"
+      "actualizado": "2026-10-06T17:42:11Z"
     },
     {
       "coverTrackId": "6aa1110864c9b8ff110c4ad0",
@@ -9653,7 +9662,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 65%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:30:13Z"
+      "actualizado": "2026-10-06T17:42:14Z"
     },
     {
       "coverTrackId": "6aa625a772ca57eb1a97b9f6",
@@ -12768,13 +12777,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:43:16Z",
+      "actualizado": "2026-10-06T17:40:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 86%",
             "t": "2026-10-06T16:43:15Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "71 tokens (acentos, signos, minusculas) en 45 lineas; ninguna linea acaba en , . ; :",
+            "t": "2026-10-06T17:40:52Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 97 lineas; 32 palabras <40 ms estiradas tomando 40 ms de la palabra previa; 0 restantes",
+            "t": "2026-10-06T17:40:52Z"
           }
         }
       }
@@ -13174,14 +13193,34 @@
       "artista": "Intocable",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:10:39Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:41:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 87%",
-            "t": "2026-10-06T14:10:39Z"
+            "nota": "carry batch aplicado",
+            "t": "2026-10-06T17:41:50Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "Porque unido (L3); secciones puestas a mano; ear-notes: faltan es(L6,L24), Si(L21,L43), y(L32,L40) y siempre/siendo(L34) vs original; hueco 207-229s con 4 lineas del original sin letra del cover",
+            "t": "2026-10-06T17:41:50Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; hueco de 21s antes de L43 coincide con 4 lineas del original que el cover no trae (ver informe); audio SUENA_SIN_BLINDAR, sin tocar",
+            "t": "2026-10-06T17:41:50Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, gemelas unificadas, 4 items nuevos con 19 idiomas",
+            "t": "2026-10-06T17:41:50Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan listo en en_plan.json (45 lineas, 295 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T17:41:51Z"
           }
         }
       }
@@ -13226,13 +13265,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:10:47Z",
+      "actualizado": "2026-10-06T17:41:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 92%",
             "t": "2026-10-06T14:10:46Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "9 tildes/ortografia (que/qué, tú, más, fui) por función; ear-note: línea 22 sin la 'y' del original, sin evidencia en richsync",
+            "t": "2026-10-06T17:41:30Z"
           }
         }
       }
@@ -20904,8 +20948,8 @@
       "artista": "Rakim & Ken Y",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:10Z"
+      "motivo": "enlazada; carry al 80%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:39:46Z"
     },
     {
       "coverTrackId": "6aa6918072ca57eb1aa17b46",
@@ -20948,8 +20992,8 @@
       "artista": "Vicente Fernandez",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:12Z"
+      "motivo": "enlazada; carry al 81%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:39:55Z"
     },
     {
       "coverTrackId": "6aa807efd951e1665a7e75e7",
@@ -20970,8 +21014,8 @@
       "artista": "Rey Ruiz",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:12Z"
+      "motivo": "enlazada; carry al 73%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:40:02Z"
     },
     {
       "coverTrackId": "6aa6562972ca57eb1a9c423a",
@@ -21069,8 +21113,8 @@
       "artista": "Ruben Blades",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:15Z"
+      "motivo": "enlazada; carry al 13%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:40:28Z"
     },
     {
       "coverTrackId": "6aa110f664c9b8ff110c09a9",
@@ -21243,8 +21287,8 @@
       "artista": "3 de Copas",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:20Z"
+      "motivo": "enlazada; carry al 12%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:41:04Z"
     },
     {
       "coverTrackId": "6aa6cbf972ca57eb1aa6194c",
@@ -21331,8 +21375,8 @@
       "artista": "Antonio Aguilar",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:23Z"
+      "motivo": "enlazada; carry al 82%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:41:21Z"
     },
     {
       "coverTrackId": "6aa1110864c9b8ff110c4cae",
@@ -21415,8 +21459,8 @@
       "artista": "Don Omar, Rakim & Ken Y",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:29:25Z"
+      "motivo": "enlazada; carry al 83%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:41:29Z"
     },
     {
       "coverTrackId": "6aa6103b42b8d1fdb0dabe9a",
