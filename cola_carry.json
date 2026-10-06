@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T12:52:48Z",
+  "generado": "2026-10-06T12:55:48Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5279,10 +5279,10 @@
       "originalTrackId": "",
       "titulo": "Quien Como Tu",
       "artista": "Ana Gabriel",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "inglés completo en borrador; el envío a revisión fue bloqueado; falta que Saúl lo envíe. Resto hecho",
-      "actualizado": "2026-10-06T12:52:48Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T12:55:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5306,9 +5306,9 @@
             "t": "2026-10-06T12:52:20Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "draft EN completo (38 lineas, 216 WIT con texto, wit_dt_audit BAD 0) pero el submit a pending_review lo bloqueo el classifier; falta song_translation_approval_submit",
-            "t": "2026-10-06T12:52:21Z"
+            "v": "ok",
+            "nota": "enviado a pending_review",
+            "t": "2026-10-06T12:55:47Z"
           }
         }
       },
@@ -5525,8 +5525,8 @@
       "artista": "RBD",
       "estado": "parada",
       "vueltas": 0,
-      "motivo": "bloqueado: borrar líneas fantasma 19, 20 y 22 (duplicadas de 18 y 21) y enviar el inglés a revisión; resto hecho",
-      "actualizado": "2026-10-06T12:48:42Z",
+      "motivo": "inglés ya en revisión; falta borrar líneas fantasma 19, 20 y 22 (bloqueado)",
+      "actualizado": "2026-10-06T12:55:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5550,13 +5550,13 @@
             "t": "2026-10-06T12:48:12Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "draft en: 47 lineas, 332 WIT con texto, 8 PIT, wit_dt_audit BAD 0. El submit a pending_review lo bloqueo el clasificador: falta song_translation_approval_submit (lo hace Saul)",
-            "t": "2026-10-06T12:48:12Z"
+            "v": "ok",
+            "nota": "enviado a pending_review",
+            "t": "2026-10-06T12:55:47Z"
           }
         }
       },
-      "motivo_en": "Blocked: deleting ghost lines 19/20/22 and submitting the English draft; everything else done"
+      "motivo_en": "English submitted; deleting ghost lines 19/20/22 is blocked"
     },
     {
       "coverTrackId": "6aa543cb42b8d1fdb0ca82fd",
