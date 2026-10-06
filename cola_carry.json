@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:35:32Z",
+  "generado": "2026-10-06T17:36:27Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -12798,8 +12798,8 @@
       "artista": "Alejandro Sanz",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:28:28Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:36:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12809,8 +12809,23 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "ediciones de mayuscula/tilde en 11 lineas; generateSections lanzado",
-            "t": "2026-10-06T17:28:28Z"
+            "nota": "11 ediciones de token, secciones 50/50 a mano",
+            "t": "2026-10-06T17:36:14Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms, audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T17:35:40Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "294/294 mapeados, gemelas unificadas, 6 items nuevos con 19 idiomas, otra vez como locucion",
+            "t": "2026-10-06T17:35:40Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json; falta start_draft, PUT lineas y WIT, wit_dt_audit y submit",
+            "t": "2026-10-06T17:35:40Z"
           }
         }
       }
@@ -13045,13 +13060,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:10:33Z",
+      "actualizado": "2026-10-06T17:35:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 97%",
             "t": "2026-10-06T14:10:32Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "6 tokens corregidos: mayuscula media en l8/l36, tilde de si afirmativo en l19/21/47/49",
+            "t": "2026-10-06T17:35:50Z"
           }
         }
       }
@@ -13065,13 +13085,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:10:36Z",
+      "actualizado": "2026-10-06T17:35:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 96%",
             "t": "2026-10-06T14:10:36Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "trailing commas, mid-line capital, accent on one word fixed; 2 ear-notes (missing word in L21/39/58 chorus vs original; no richsync evidence)",
+            "t": "2026-10-06T17:35:38Z"
           }
         }
       }
@@ -19701,8 +19726,8 @@
       "artista": "Jerry Rivera",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:49Z"
+      "motivo": "enlazada; carry al 84%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:35:41Z"
     },
     {
       "coverTrackId": "6aa71f2e72ca57eb1aad452f",
@@ -19723,8 +19748,8 @@
       "artista": "Nicky Jam",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:49Z"
+      "motivo": "enlazada; carry al 66%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:35:48Z"
     },
     {
       "coverTrackId": "6aa61acc72ca57eb1a966384",
@@ -19734,8 +19759,8 @@
       "artista": "los Bukis",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:50Z"
+      "motivo": "enlazada; carry al 80%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:35:50Z"
     },
     {
       "coverTrackId": "6aa6ca9172ca57eb1aa6078c",
@@ -19855,8 +19880,8 @@
       "artista": "Tito Nieves",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:36Z"
+      "motivo": "enlazada; carry al 65%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:36:16Z"
     },
     {
       "coverTrackId": "6aa58c7342b8d1fdb0cfddc7",
@@ -19877,8 +19902,8 @@
       "artista": "Andy Montañez",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:36Z"
+      "motivo": "enlazada; carry al 76%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:36:21Z"
     },
     {
       "coverTrackId": "6aa1112f64c9b8ff110cce27",
