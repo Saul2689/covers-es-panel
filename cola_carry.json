@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:20:52Z",
+  "generado": "2026-10-06T13:21:21Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2072,34 +2072,34 @@
       "artista": "Don Omar",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC: carry y mapeo hechos; quedan lrc (2 cambios), inglés y 1 duda de timing para Saúl por bloqueos",
-      "actualizado": "2026-09-30T08:26:59Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T13:21:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry aplicado 30 sep (95% matched, 24 decisiones por regla, L50 keepBreak, L6 keepSungWord); audio guard SUENA_SIN_BLINDAR 206",
-            "t": "2026-09-30T08:12:30Z"
+            "nota": "Carry aplicado en lote (95%); sin tocar",
+            "t": "2026-10-06T13:21:00Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "8 items nuevos (centavo/centavos, valorizó, hechizó, utilizó, embarazó, bachatero/bachateros) DEV+PROD traducidos 19 idiomas; 20 anclas creadas; 26 gemelas unificadas; L51 mí. Quedan sin mapear 3 tokens Eliel (nombre propio)",
-            "t": "2026-09-30T08:20:15Z"
+            "nota": "L52 t1 soy+t3 pobre remapeados a los items de L47/48; L51 t2 por unificado. Sin sin_mapear salvo ad-libs (Eliel)",
+            "t": "2026-10-06T13:21:03Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "plan lrc_plan_fix bloqueado por el clasificador (insertar palabra en L23, mi->mí en L51); payload en es_map/payloads/6aa5791842b8d1fdb0ce301b/lrc_plan_fix_plan.json. L6 y L48 quedan con la versión del cover (no probado que difiera)",
-            "t": "2026-09-30T08:26:36Z"
+            "v": "ok",
+            "nota": "Insert L23 y mi->mí ya vivos; ninguna línea acaba en , . ; :; sin palabras <40 ms; richsync=317 tokens",
+            "t": "2026-10-06T13:21:03Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "hueco de 22 s antes de L36 (el original trae 2 líneas de gritos ahí; el cover no las canta en el XML); sin oído no se puede probar; drift richsync 0",
-            "t": "2026-09-30T08:26:36Z"
+            "v": "ok",
+            "nota": "Drift 0 en 63 líneas; audio SUENA_SIN_BLINDAR (206), no tocado. Duda de oído para Saúl: hueco de 22 s antes de línea 36 (el original trae 2 líneas de gritos ahí)",
+            "t": "2026-10-06T13:21:03Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "Second Brain sin crédito (run fallido) y start_draft bloqueado por el clasificador; inglés preparado en es_map/payloads/6aa5791842b8d1fdb0ce301b/english_draft_payload.json",
-            "t": "2026-09-30T08:26:36Z"
+            "v": "ok",
+            "nota": "Inglés a mano: 63 líneas + 314 WIT con texto, wit_dt_audit BAD 0; enviado a pending_review",
+            "t": "2026-10-06T13:21:03Z"
           }
         }
       },
