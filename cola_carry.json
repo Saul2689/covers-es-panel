@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:45:27Z",
+  "generado": "2026-10-06T13:53:36Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2651,10 +2651,10 @@
       "originalTrackId": "",
       "titulo": "6 Am",
       "artista": "J Balvin feat. Farruko",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T13:45:03Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC ronda 1: L50.1 concordancia (forma plural, ancla 696cb3bef78fc9914b4ad549, WIT some, reabrir ingles a pending_review); reescribir ejemplo 0 de 6ac4f88ffb893398b002a4da (copia L101)",
+      "actualizado": "2026-10-06T13:53:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2681,7 +2681,17 @@
             "v": "ok",
             "nota": "163 lineas + 459 WITs a mano, wit_dt_audit BAD 0, pending_review",
             "t": "2026-10-06T13:45:02Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "reorden, anclas, 119 ediciones, drift, ingles y audio bien; falla L50.1 (articulo singular ante plural, reanclar y WIT) y un ejemplo del item nuevo de L101.1 que copia la linea",
+            "t": "2026-10-06T13:53:12Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "reorden, anclas, 119 ediciones, drift, ingles y audio bien; falla L50.1 (articulo singular ante plural, reanclar y WIT) y un ejemplo del item nuevo de L101.1 que copia la linea",
+          "t": "2026-10-06T13:53:12Z"
         }
       },
       "motivo_en": "ready for QC"
