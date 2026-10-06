@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:21:49Z",
+  "generado": "2026-10-06T17:22:22Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -12059,14 +12059,34 @@
       "artista": "Hector El Father",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:46:27Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:21:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 87%",
-            "t": "2026-10-06T16:46:26Z"
+            "nota": "carry batch aplicado",
+            "t": "2026-10-06T17:21:57Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC clean: split por que x3, tildes cuanto x2, el-to-él (lines 13 16 30 32 48)",
+            "t": "2026-10-06T17:21:56Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "3 sub-40ms words widened, 3 split words timed; drift 0",
+            "t": "2026-10-06T17:21:56Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "15 unmapped filled, twins unified, 5 items + 2 plurals created (19 langs), por qué phrase anchors x3",
+            "t": "2026-10-06T17:21:56Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json; falta abrir el borrador (start_draft no permitido)",
+            "t": "2026-10-06T17:21:57Z"
           }
         }
       }
@@ -12284,13 +12304,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:42:50Z",
+      "actualizado": "2026-10-06T17:22:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 100%",
             "t": "2026-10-06T16:42:50Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "5 acentos de la misma palabra corregidos (lineas 15,17,27,33,35); sin otros cambios",
+            "t": "2026-10-06T17:22:18Z"
           }
         }
       }
