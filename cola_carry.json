@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:41:04Z",
+  "generado": "2026-10-06T20:41:51Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -18719,7 +18719,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T20:37:08Z",
+      "actualizado": "2026-10-06T20:41:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18736,6 +18736,11 @@
             "v": "ok",
             "nota": "deriva 0 en las 52 lineas; ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (karaokeMp3, 206): no se mide ni se fija nada",
             "t": "2026-10-06T20:37:08Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, 0 gemelas distintas; 18 items nuevos (19 idiomas) y 2 locuciones ancladas; remapeos de gemelas",
+            "t": "2026-10-06T20:41:30Z"
           }
         }
       }
@@ -18859,14 +18864,34 @@
       "artista": "Luis Miguel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:48:46Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:41:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 100%",
-            "t": "2026-10-06T16:48:46Z"
+            "nota": "aplicado en lote (>=85%), sin tocar",
+            "t": "2026-10-06T20:41:23Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC y richsync limpios: 34 lineas, 180 palabras, sin puntuacion final, sin mayusculas medias, sin palabras <40 ms",
+            "t": "2026-10-06T20:41:24Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en las 34 lineas; audio sale de karaokeMp3 (sin medir ni fijar)",
+            "t": "2026-10-06T20:41:24Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "3 items nuevos (pertenecí, exageración sing/plur) 19 idiomas; 3 remapeos de sentido (es, verbo x2); 3 gemelas unificadas; 0 sin mapear",
+            "t": "2026-10-06T20:41:24Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en es_map/payloads/6aa630ef72ca57eb1a98db3f/en_plan.json (34 lineas, 180 WIT); falta abrir el borrador",
+            "t": "2026-10-06T20:41:25Z"
           }
         }
       }
