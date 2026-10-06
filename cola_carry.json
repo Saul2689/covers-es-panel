@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:11:24Z",
+  "generado": "2026-10-06T20:11:43Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17151,8 +17151,8 @@
       "artista": "Marco Antonio Solis",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T20:07:24Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:11:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17164,6 +17164,21 @@
             "v": "ok",
             "nota": "dos arreglos de tilde/mayuscula (lineas 5 y 48); sin signos finales; resto del LRC limpio",
             "t": "2026-10-06T20:07:24Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio sirve karaokeMp3 (206), guard SUENA_SIN_BLINDAR, no se mide ni se fija nada",
+            "t": "2026-10-06T20:11:28Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "283/283 ancladas; 8 items nuevos con 19 idiomas; muerden remapeada; gemelas unificadas (un, andar, de, la, del, viento, a)",
+            "t": "2026-10-06T20:11:28Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "sin borrador abierto; plan de 49 lineas + 283 WIT con DT en es_map/payloads/6aa653e372ca57eb1a9c0610/en_plan.json; falta abrir el borrador",
+            "t": "2026-10-06T20:11:29Z"
           }
         }
       }
@@ -28833,8 +28848,8 @@
       "artista": "El Gran Combo",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original por subir: el import por ISRC fallo; buscar otra version",
+      "actualizado": "2026-10-06T20:11:39Z"
     },
     {
       "coverTrackId": "6aa4f5e742b8d1fdb0c3746d",
