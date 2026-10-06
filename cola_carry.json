@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:17:26Z",
+  "generado": "2026-10-06T17:19:22Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -11724,8 +11724,8 @@
       "artista": "Shakira",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:17:10Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:19:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11747,6 +11747,11 @@
             "v": "ok",
             "nota": "28 anclas nuevas con 18 items nuevos (traducidos a mano 19 idiomas), 4 remaps de se/puestas, gemelas unificadas, 0 sin mapear",
             "t": "2026-10-06T17:17:10Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json (34 lineas + 250 WIT con DT propio); falta abrir el borrador (sin start_draft por orden)",
+            "t": "2026-10-06T17:19:07Z"
           }
         }
       }
@@ -12045,14 +12050,34 @@
       "artista": "Ana Gabriel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:44:03Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:19:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 97%",
             "t": "2026-10-06T16:44:03Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "allá tilde L54 corregido; resto limpio; ear-note: L28/L51 original trae un 'de' que el cover no canta (sin richsync)",
+            "t": "2026-10-06T17:17:30Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "exiges, allá L54, se L39, enamorar L12, y L9/17/40 remapeados; 3 phrase insights; 0 sin mapear",
+            "t": "2026-10-06T17:19:20Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40ms, hueco L30 = instrumental del original; audio SUENA_SIN_BLINDAR (no tocar)",
+            "t": "2026-10-06T17:19:20Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json; falta abrir el borrador",
+            "t": "2026-10-06T17:19:21Z"
           }
         }
       }
