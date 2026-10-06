@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:58:40Z",
+  "generado": "2026-10-06T17:59:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -13764,8 +13764,8 @@
       "artista": "Ha-Ash",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:52:54Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:58:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13775,13 +13775,23 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "29 tokens de tilde/acento corregidos (bloque 2 + lineas 19); bloque duplicado listado",
-            "t": "2026-10-06T17:52:42Z"
+            "nota": "29 tokens de tilde/acento, secciones a mano 113/113, sin tocar el bloque duplicado",
+            "t": "2026-10-06T17:58:58Z"
           },
           "timing": {
             "v": "ok",
             "nota": "deriva 0; palabra de 0 ms (linea 40) alargada a 540 ms; bloques desordenados (lineas 41-113) listados",
             "t": "2026-10-06T17:52:54Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "456/469 anclados; 13 'hi' ad-lib sin mapear; 102 anclas remapeadas/creadas; 3 items nuevos con 19 idiomas; 5 anclas de locucion",
+            "t": "2026-10-06T17:58:59Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json (113 lineas, 391 WIT, 5 PIT); falta abrir el borrador",
+            "t": "2026-10-06T17:58:59Z"
           }
         }
       }
@@ -14033,13 +14043,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:12:10Z",
+      "actualizado": "2026-10-06T17:58:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 100%",
             "t": "2026-10-06T14:12:09Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L48 y L51 'por que' -> 'por qué' (mismo token sonado, solo tilde)",
+            "t": "2026-10-06T17:58:59Z"
           }
         }
       }
