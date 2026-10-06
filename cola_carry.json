@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:36:30Z",
+  "generado": "2026-10-06T20:36:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -18365,14 +18365,34 @@
       "artista": "Rakim & Ken Y",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:50:25Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:36:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 93%",
             "t": "2026-10-06T16:50:25Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "Tildes (amé, falló, estás, más), mayúsculas medias, comas finales, signos de cierre y palabra de 0 ms corregidos; deriva 0",
+            "t": "2026-10-06T20:36:41Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR sobre karaokeMp3 (206), sin medir ni fijar",
+            "t": "2026-10-06T20:36:41Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "47 anclas nuevas + 34 remapeadas; 9 items nuevos con 19 idiomas; quedan sin mapear versos en inglés y 2 voces de jerga (ver informe)",
+            "t": "2026-10-06T20:36:42Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json (76 lineas, 399 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T20:36:42Z"
           }
         }
       }
@@ -18664,13 +18684,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:56:32Z",
+      "actualizado": "2026-10-06T20:36:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 99%",
             "t": "2026-10-06T16:56:32Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "mayuscula media L27 y tilde de un token L42 corregidas; signos de pregunta multilinea justificados; sin puntuacion final; 2 ear-notes (ver informe)",
+            "t": "2026-10-06T20:36:44Z"
           }
         }
       }
