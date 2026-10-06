@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:23:53Z",
+  "generado": "2026-10-06T16:24:03Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9371,14 +9371,34 @@
       "artista": "Paulina Rubio",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:55:08Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:23:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T10:55:07Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio: sin puntuacion final, sin palabras partidas, sin mayusculas medias; 'te' del original no cantado por la cover (justificado)",
+            "t": "2026-10-06T16:23:58Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 30 lineas, ninguna palabra <40 ms, hueco largo = instrumental del original; audio SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T16:23:58Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 9 items nuevos creados y traducidos a 19 idiomas; gemelas unificadas (el, te); 27 anclas nuevas",
+            "t": "2026-10-06T16:23:58Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json (30 lineas + 290 WIT con DT de su bolsa); falta abrir el borrador",
+            "t": "2026-10-06T16:23:59Z"
           }
         }
       }
