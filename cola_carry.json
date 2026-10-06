@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T14:38:17Z",
+  "generado": "2026-10-06T14:39:40Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4231,10 +4231,10 @@
       "originalTrackId": "",
       "titulo": "Quiereme Mientras Se Pueda",
       "artista": "Manuel Turizo",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "lista para QC (ronda 2)",
-      "actualizado": "2026-10-06T14:38:01Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T14:39:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4263,15 +4263,21 @@
             "t": "2026-10-06T14:28:52Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L5/21/40 tok0 remap a que causal 6a56283842749e86862b756f; L8/24/43 ingles de linea y WIT tok3/7/8 con sentido equivocado; L12 PIT con negacion fuera del span",
-            "t": "2026-10-06T14:36:14Z"
+            "v": "ok",
+            "nota": "ronda 2: L5/21/40 que causal, L8/24/43 ingles y WIT, L12 PIT corregidos; sin regresiones",
+            "t": "2026-10-06T14:39:22Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L5/21/40 tok0 remap a que causal 6a56283842749e86862b756f; L8/24/43 ingles de linea y WIT tok3/7/8 con sentido equivocado; L12 PIT con negacion fuera del span",
-          "t": "2026-10-06T14:36:14Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: L5/21/40 que causal, L8/24/43 ingles y WIT, L12 PIT corregidos; sin regresiones",
+          "t": "2026-10-06T14:39:22Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T14:39:23Z"
         }
       }
     },
@@ -4544,10 +4550,10 @@
       "originalTrackId": "",
       "titulo": "Esta Noche De Travesura",
       "artista": "Divino, Hector El Father",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T14:32:10Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC vuelta 1: remapear l15 t0,t3 a 6ac4d9fd3ac4a595eea0dc44 y l20 t3 a 6a11db29c9740e1ba06e6155; unificar l27 t1 con su gemela l40; mapear l21 t4 (item de sentido nuevo); ejemplos 1 y 3 del item 6ac50374ad97a8b3be65befe; reabrir ingles",
+      "actualizado": "2026-10-06T14:39:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4574,7 +4580,17 @@
             "v": "ok",
             "nota": "67 líneas + 436 WIT a mano, wit_dt_audit BAD 0, 0 WIT vacíos; enviado a pending_review",
             "t": "2026-10-06T14:32:10Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 15 t0,t3 y linea 20 t3 con item de sentido equivocado (existe el bueno); linea 27 t1 distinta de su gemela y anclada a otra palabra; linea 21 t4 sin mapear; ejemplos del item 6ac50374ad97a8b3be65befe. Audio OK: sirve FULL SONG (stemVoc)",
+            "t": "2026-10-06T14:39:32Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 15 t0,t3 y linea 20 t3 con item de sentido equivocado (existe el bueno); linea 27 t1 distinta de su gemela y anclada a otra palabra; linea 21 t4 sin mapear; ejemplos del item 6ac50374ad97a8b3be65befe. Audio OK: sirve FULL SONG (stemVoc)",
+          "t": "2026-10-06T14:39:32Z"
         }
       },
       "motivo_en": "ready for QC"
@@ -4677,16 +4693,36 @@
       "originalTrackId": "",
       "titulo": "Cuando Me Enamoro",
       "artista": "Enrique Iglesias, Juan Luis Guerra",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:36:20Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T14:39:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 90%",
             "t": "2026-10-06T13:36:20Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "Comas finales, Sonrio, Hacer, ay, un/su, signos corregidos (lineas citadas en el informe)",
+            "t": "2026-10-06T14:39:31Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "38 palabras de 0 ms arregladas, drift 0, ninguna palabra <40 ms; avisos de voces dobles justificados",
+            "t": "2026-10-06T14:39:31Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "279 anclas, 0 sin mapear, 6 items nuevos traducidos a 19 idiomas, gemelas unificadas",
+            "t": "2026-10-06T14:39:32Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "104 lineas + 279 WIT a mano, wit_dt_audit BAD 0, enviado a pending_review",
+            "t": "2026-10-06T14:39:32Z"
           }
         }
       }
