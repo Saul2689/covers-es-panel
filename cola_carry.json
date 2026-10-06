@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:45:17Z",
+  "generado": "2026-10-06T15:45:36Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -7498,14 +7498,34 @@
       "artista": "Julio Iglesias",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:49:50Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:45:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:49:50Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "Dos tildes corregidas (linea 47); sin puntuacion suelta; secciones generadas 59/59",
+            "t": "2026-10-06T15:45:19Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "Deriva 0 en 59 lineas, ninguna palabra <40 ms; audio 206 SUENA_SIN_BLINDAR, sin tocar",
+            "t": "2026-10-06T15:45:19Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, gemelas unificadas, sentidos y tildes revisados; 4 items nuevos con 19 idiomas",
+            "t": "2026-10-06T15:45:19Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "Plan listo en es_map/payloads/<id>/en_plan.json (59 lineas, 312 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T15:45:19Z"
           }
         }
       }
