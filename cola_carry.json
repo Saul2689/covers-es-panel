@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:20:19Z",
+  "generado": "2026-10-06T20:20:41Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17725,8 +17725,8 @@
       "artista": "Marco Antonio Solís",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T20:18:50Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:20:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17748,6 +17748,11 @@
             "v": "ok",
             "nota": "7 huecos mapeados (4 items nuevos), gemelas unificadas",
             "t": "2026-10-06T20:18:50Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de ingles completo (32 lineas, 185 WIT con DT) en es_map/payloads/6aa63fbd72ca57eb1a9a86b9/en_plan.json; falta abrir el borrador",
+            "t": "2026-10-06T20:20:27Z"
           }
         }
       }
@@ -17761,13 +17766,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:41:49Z",
+      "actualizado": "2026-10-06T20:20:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 96%",
             "t": "2026-10-06T16:41:49Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "ortografia/tildes de 8 lineas arreglada; stutter L16 limpiado",
+            "t": "2026-10-06T20:20:19Z"
           }
         }
       }
