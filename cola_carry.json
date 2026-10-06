@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T14:48:50Z",
+  "generado": "2026-10-06T14:49:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4287,10 +4287,10 @@
       "originalTrackId": "",
       "titulo": "Culpables",
       "artista": "Anuel Aa, Karol G",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC DEVUELTO: L30 t1/t4 no concuerdan; WIT nombres propios minúscula; WIT 34,10; remapear 69,2 y G en 3/64/70",
-      "actualizado": "2026-10-06T14:43:43Z",
+      "motivo": "lista para QC (ronda 2)",
+      "actualizado": "2026-10-06T14:49:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4709,10 +4709,10 @@
       "originalTrackId": "",
       "titulo": "Cuando Me Enamoro",
       "artista": "Enrique Iglesias, Juan Luis Guerra",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T14:42:19Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC: L35/36/78/79/80/91/92/93 w0 tilde en silaba equivocada (1SG presente) + remap a 6a3c05653be30d107aa1bf66 y traducir; L37/38 w2 volver a presente 1SG (item 69637766); reabrir ingles y reenviar",
+      "actualizado": "2026-10-06T14:49:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4739,7 +4739,17 @@
             "v": "ok",
             "nota": "104 lineas + 279 WIT a mano, wit_dt_audit BAD 0, enviado a pending_review",
             "t": "2026-10-06T14:39:32Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L35/36/78-80/91-93 forma verbal con tilde equivocada (3SG preterito en vez de 1SG presente; remapear a sonrio 6a3c0565); L37/38 restaurar presente 1SG (L38 era palabra del cover) e item 69637766; reabrir ingles de esas lineas",
+            "t": "2026-10-06T14:49:27Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L35/36/78-80/91-93 forma verbal con tilde equivocada (3SG preterito en vez de 1SG presente; remapear a sonrio 6a3c0565); L37/38 restaurar presente 1SG (L38 era palabra del cover) e item 69637766; reabrir ingles de esas lineas",
+          "t": "2026-10-06T14:49:27Z"
         }
       }
     },
