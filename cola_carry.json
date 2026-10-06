@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T12:48:43Z",
+  "generado": "2026-10-06T12:52:48Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5279,19 +5279,40 @@
       "originalTrackId": "",
       "titulo": "Quien Como Tu",
       "artista": "Ana Gabriel",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:48:44Z",
+      "motivo": "inglés completo en borrador; el envío a revisión fue bloqueado; falta que Saúl lo envíe. Resto hecho",
+      "actualizado": "2026-10-06T12:52:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:48:43Z"
+            "nota": "carry batch ya aplicado, no tocado",
+            "t": "2026-10-06T12:52:20Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "5 tokens: su/sus/tú (líneas 1,2,37) + día x6 con tilde + coma en línea 1; 38/38 secciones; sin líneas con signo final; palabras >=133 ms",
+            "t": "2026-10-06T12:52:20Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 38 lineas; audio_guard SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T12:52:20Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "12 sin mapear cerrados, 10 gemelas unificadas, 4 homografos tu/su corregidos; item nuevo tenerle 6ac4e8893486ae81fe745688 (19 idiomas); fila en curas",
+            "t": "2026-10-06T12:52:20Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "draft EN completo (38 lineas, 216 WIT con texto, wit_dt_audit BAD 0) pero el submit a pending_review lo bloqueo el classifier; falta song_translation_approval_submit",
+            "t": "2026-10-06T12:52:21Z"
           }
         }
-      }
+      },
+      "motivo_en": "English draft complete; submit to pending_review was blocked by permissions"
     },
     {
       "coverTrackId": "6aa51aa142b8d1fdb0c6c20c",
