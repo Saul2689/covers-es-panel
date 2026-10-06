@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:12:57Z",
+  "generado": "2026-10-06T15:14:02Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5248,14 +5248,34 @@
       "artista": "Reyli",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:37:05Z",
+      "motivo": "LRC, tiempos y mapeo hechos; inglés preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:13:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 99%",
             "t": "2026-10-06T13:37:05Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "5 tokens: coma final linea 13 y 42, Tu->Tu con tilde lineas 14 y 43, planeo->planeo con tilde linea 45; sin comas finales",
+            "t": "2026-10-06T15:13:48Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; palabra de 18 ms (linea 47) alargada; audio 206 SUENA_SIN_BLINDAR, no se toca",
+            "t": "2026-10-06T15:13:49Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "7 items nuevos (rendija/s, despertando, planeo, apostaba, apiado, ahogaste) 19 idiomas; 17 anclas nuevas o remapeadas; gemelas unificadas; resto sin mapear = scat",
+            "t": "2026-10-06T15:13:49Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan completo en en_plan.json (59 lineas, 196 WIT); falta abrir el borrador",
+            "t": "2026-10-06T15:13:49Z"
           }
         }
       }
