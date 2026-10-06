@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:21:21Z",
+  "generado": "2026-10-06T13:22:00Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -3446,10 +3446,10 @@
       "originalTrackId": "",
       "titulo": "Don",
       "artista": "Miranda",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T13:15:03Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T13:21:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -3476,7 +3476,23 @@
             "v": "ok",
             "nota": "39 lineas + 323 WIT a mano, wit_dt_audit BAD 0, pending_review",
             "t": "2026-10-06T13:15:02Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC Oct 6: structure, 29 anchors + 26 new items (19 lang, 1 primary), English draft pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-06T13:21:48Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC Oct 6: structure, 29 anchors + 26 new items (19 lang, 1 primary), English draft pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-06T13:21:48Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T13:21:49Z"
         }
       },
       "motivo_en": "ready for QC"
