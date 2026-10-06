@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:19:41Z",
+  "generado": "2026-10-06T20:19:53Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17524,14 +17524,34 @@
       "artista": "Luis Miguel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:48:30Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:19:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 95%",
             "t": "2026-10-06T16:48:30Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "accents fixed (qué x2, despertaré x2), Ah-ah merged; remaining diffs vs original are cover-sung words (ear-notes)",
+            "t": "2026-10-06T20:19:46Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, no word <40ms; audio karaokeMp3 SUENA_SIN_BLINDAR, nothing measured",
+            "t": "2026-10-06T20:19:46Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "17 unmapped filled, 11 new items + 1 phrase item (19 langs), twins unified, wrong senses remapped",
+            "t": "2026-10-06T20:19:46Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T20:19:46Z"
           }
         }
       }
