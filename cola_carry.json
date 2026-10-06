@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:43:13Z",
+  "generado": "2026-10-06T16:44:03Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -8858,10 +8858,19 @@
       "originalTrackId": "",
       "titulo": "Y Solo Se Me Ocurre Amarte",
       "artista": "Alejandro Sanz",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:05Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:43:45Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 94%",
+            "t": "2026-10-06T16:43:45Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa110f964c9b8ff110c1680",
@@ -9047,10 +9056,19 @@
       "originalTrackId": "",
       "titulo": "Coleccionista De Canciones",
       "artista": "Camila",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:10Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:43:21Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 94%",
+            "t": "2026-10-06T16:43:21Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa63b5972ca57eb1a9a13f7",
@@ -9197,10 +9215,19 @@
       "originalTrackId": "",
       "titulo": "Ay Amor",
       "artista": "Ana Gabriel",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:14Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:44:00Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 87%",
+            "t": "2026-10-06T16:44:00Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa577fa42b8d1fdb0ce0d1e",
@@ -10504,14 +10531,34 @@
       "artista": "Laura Pausini",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:58:48Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:43:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-10-06T10:58:48Z"
+            "nota": "carry por lote ya aplicado",
+            "t": "2026-10-06T16:43:49Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC revisada: sin partidas, tildes, mayusculas ni puntuacion final; 1 palabra distinta al original en linea 26 (la cover canta otra, con timing) y coros entre parentesis de lineas 37-42 sin richsync: oido para Saul",
+            "t": "2026-10-06T16:43:49Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0, ninguna palabra <40 ms; audio SUENA_SIN_BLINDAR, sin tocar",
+            "t": "2026-10-06T16:43:49Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 29 items nuevos con 19 idiomas; gemelas unificadas en lineas 5,16,29,32; locucion de verdad enlazada en linea 36",
+            "t": "2026-10-06T16:43:50Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan completo en en_plan.json (49 lineas + 202 WIT con DT propio); falta abrir el borrador",
+            "t": "2026-10-06T16:43:50Z"
           }
         }
       }
@@ -10693,7 +10740,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:43:11Z",
+      "actualizado": "2026-10-06T16:44:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10710,6 +10757,11 @@
             "v": "ok",
             "nota": "terciopelo (+plural) creados con 19 idiomas; tu y yo mapeados l14/22; gemelas unificadas (del, nubes, será, que)",
             "t": "2026-10-06T16:43:11Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (206), sin acción",
+            "t": "2026-10-06T16:44:03Z"
           }
         }
       }
@@ -10743,13 +10795,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:59:54Z",
+      "actualizado": "2026-10-06T16:43:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T10:59:53Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes restauradas (63 tokens, 30 lineas), sin cambios de texto; timing intacto",
+            "t": "2026-10-06T16:43:25Z"
           }
         }
       }
@@ -10814,13 +10871,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T11:00:14Z",
+      "actualizado": "2026-10-06T16:43:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T11:00:14Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "3 ediciones: tilde en l5, minuscula mid-lyric en l12 y l34; resto justificado",
+            "t": "2026-10-06T16:43:29Z"
           }
         }
       }
@@ -11129,10 +11191,19 @@
       "originalTrackId": "",
       "titulo": "Amor Gitano",
       "artista": "Alejandro Fernandez, Beyonce",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:21Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:43:42Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 91%",
+            "t": "2026-10-06T16:43:42Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa4f31a42b8d1fdb0c2f08e",
@@ -11182,10 +11253,19 @@
       "originalTrackId": "",
       "titulo": "Llama Por Favor",
       "artista": "Alejandra Guzmán",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:23Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:43:35Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 95%",
+            "t": "2026-10-06T16:43:35Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa785b372ca57eb1acd8d82",
@@ -11303,10 +11383,19 @@
       "originalTrackId": "",
       "titulo": "Lo Grande Que Es Perdonar",
       "artista": "Gilberto Santa Rosa, Vico C",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:27Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:43:16Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 86%",
+            "t": "2026-10-06T16:43:15Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5ceaf42b8d1fdb0d54d9e",
@@ -13822,10 +13911,19 @@
       "originalTrackId": "",
       "titulo": "Mi Vida",
       "artista": "Jose Jose",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:31Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:43:24Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T16:43:24Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa687db72ca57eb1aa08ac4",
@@ -13963,10 +14061,19 @@
       "originalTrackId": "",
       "titulo": "Cuidado Con El Corazon",
       "artista": "Alejandra Guzmán",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:36Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:43:28Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T16:43:28Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa1110564c9b8ff110c3f20",
@@ -14214,10 +14321,19 @@
       "originalTrackId": "",
       "titulo": "El Sonido Del Silencio",
       "artista": "Alex Campos",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:45Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:43:54Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T16:43:54Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa81ddfd951e1665a8073f7",
@@ -14534,7 +14650,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 77%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:30:16Z"
+      "actualizado": "2026-10-06T16:43:56Z"
     },
     {
       "coverTrackId": "6aa50fb742b8d1fdb0c5e5a4",
@@ -14545,7 +14661,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 79%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:30:01Z"
+      "actualizado": "2026-10-06T16:43:38Z"
     },
     {
       "coverTrackId": "6aa7433d72ca57eb1ab0e9ff",
@@ -16059,10 +16175,19 @@
       "originalTrackId": "",
       "titulo": "A La Primera Persona",
       "artista": "Alejandro Sanz",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:23Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:43:51Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T16:43:51Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5d05842b8d1fdb0d56ccd",
