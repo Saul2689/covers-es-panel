@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T11:27:06Z",
+  "generado": "2026-10-06T11:28:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -3229,10 +3229,10 @@
       "originalTrackId": "",
       "titulo": "Hilito",
       "artista": "Romeo Santos",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T11:21:11Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "todo listo salvo 1 enlace erroneo en la linea 22 (palabra inglesa enlazada a un apodo de otra cancion); quitarlo necesita OK de Saul",
+      "actualizado": "2026-10-06T11:28:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -3259,7 +3259,23 @@
             "v": "ok",
             "nota": "inglés a mano: 54 líneas, 293 WIT, BAD 0; pending_review",
             "t": "2026-10-06T11:21:10Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 22 tok 2: palabra inglesa anclada a item apodo 'Many' (sentido erroneo); resto de sentidos y homografos OK",
+            "t": "2026-10-06T11:28:12Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 22 tok 2: palabra inglesa anclada a item apodo 'Many' (sentido erroneo); resto de sentidos y homografos OK",
+          "t": "2026-10-06T11:28:12Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T11:27:17Z"
         }
       }
     },
