@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:48:03Z",
+  "generado": "2026-10-06T17:48:56Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5141,7 +5141,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:43:52Z",
+      "actualizado": "2026-10-06T17:48:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5153,6 +5153,16 @@
             "v": "ok",
             "nota": "limpieza: tildes dia, dejaria, signos de exclamacion; ear-notes: cuerpo/ser vs original, Que inicial de linea 18 sin richsync",
             "t": "2026-10-06T17:43:52Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; hueco de 21 s en linea 19 es instrumental (el original no canta ahi); audio karaokeMp3 servido (206): no se mide ni fija",
+            "t": "2026-10-06T17:48:51Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, gemelas unificadas, 6 items nuevos con 19 idiomas; sin phrase items nuevos (candidatas listadas en informe)",
+            "t": "2026-10-06T17:48:51Z"
           }
         }
       }
@@ -13527,8 +13537,8 @@
       "artista": "Juan Gabriel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:44:30Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:48:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13540,6 +13550,21 @@
             "v": "ok",
             "nota": "mayuscula y puntuacion arregladas (lineas 3, 51, 52); diferencias de oido anotadas",
             "t": "2026-10-06T17:44:30Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0, ninguna palabra <40 ms; audio sirve karaokeMp3 (SUENA_SIN_BLINDAR), no medido ni fijado",
+            "t": "2026-10-06T17:48:41Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "344/344 ancladas; gemelas unificadas; 1 item nuevo (aquilatar) con 19 idiomas; oido: lineas 3,5,8 y 'mi' en 21/29/37/45/53 difieren del original",
+            "t": "2026-10-06T17:48:42Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan listo en en_plan.json (58 lineas + 344 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T17:48:42Z"
           }
         }
       }
@@ -19863,10 +19888,19 @@
       "originalTrackId": "",
       "titulo": "La Cima Del Cielo",
       "artista": "Ricardo Montaner",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:40Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:48:06Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T17:48:05Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa61bb672ca57eb1a96941a",
@@ -19877,7 +19911,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 73%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:35:03Z"
+      "actualizado": "2026-10-06T17:48:08Z"
     },
     {
       "coverTrackId": "6aa5cb7b42b8d1fdb0d504f7",
@@ -19885,10 +19919,19 @@
       "originalTrackId": "",
       "titulo": "Me Estoy Enamorando",
       "artista": "Jerry Rivera",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:41Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:48:12Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 86%",
+            "t": "2026-10-06T17:48:12Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5c7bd42b8d1fdb0d4be53",
@@ -19896,10 +19939,19 @@
       "originalTrackId": "",
       "titulo": "Payaso",
       "artista": "Javier Solis",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:42Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:48:16Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T17:48:15Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7b7c02367b69ab7023038",
@@ -19907,10 +19959,19 @@
       "originalTrackId": "",
       "titulo": "Tira La Primera Piedra",
       "artista": "Diomedes Diaz",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:42Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:48:20Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 86%",
+            "t": "2026-10-06T17:48:19Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5efee42b8d1fdb0d86fbe",
@@ -19918,10 +19979,19 @@
       "originalTrackId": "",
       "titulo": "Egoismo",
       "artista": "Julio Miranda",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:43Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:48:23Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 95%",
+            "t": "2026-10-06T17:48:23Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa1111464c9b8ff110c719b",
@@ -19932,7 +20002,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:35:18Z"
+      "actualizado": "2026-10-06T17:48:26Z"
     },
     {
       "coverTrackId": "6aa7329472ca57eb1aaf16e2",
@@ -19940,10 +20010,19 @@
       "originalTrackId": "",
       "titulo": "Te Esperaba",
       "artista": "Alejandra Guzmán",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:45Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:48:30Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T17:48:30Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6ceef72ca57eb1aa65994",
@@ -19951,10 +20030,19 @@
       "originalTrackId": "",
       "titulo": "Ya No",
       "artista": "Selena",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:46Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:48:34Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 95%",
+            "t": "2026-10-06T17:48:33Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5709c42b8d1fdb0cd4f27",
@@ -19962,10 +20050,19 @@
       "originalTrackId": "",
       "titulo": "Celos",
       "artista": "Daniela Romo",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:46Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:48:37Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 97%",
+            "t": "2026-10-06T17:48:37Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa79b8272ca57eb1acfe44d",
@@ -19973,10 +20070,19 @@
       "originalTrackId": "",
       "titulo": "Ironia",
       "artista": "Mana",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:47Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:48:41Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T17:48:41Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6899d72ca57eb1aa0a0e7",
@@ -19984,10 +20090,19 @@
       "originalTrackId": "",
       "titulo": "Recuerdame Bonito",
       "artista": "Pepe Aguilar",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:47Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:48:45Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 87%",
+            "t": "2026-10-06T17:48:44Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6280d72ca57eb1a97face",
@@ -19995,10 +20110,19 @@
       "originalTrackId": "",
       "titulo": "Mi Niña",
       "artista": "los Toros Band",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:47Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:48:51Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 90%",
+            "t": "2026-10-06T17:48:51Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5c67942b8d1fdb0d49323",
@@ -20006,10 +20130,19 @@
       "originalTrackId": "",
       "titulo": "Esclavo Y Amo",
       "artista": "Javier Solis",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:48Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T17:48:54Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T17:48:54Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa80e3dd951e1665a7edc81",
