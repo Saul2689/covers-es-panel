@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T14:44:36Z",
+  "generado": "2026-10-06T14:47:26Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4560,10 +4560,10 @@
       "originalTrackId": "",
       "titulo": "Esta Noche De Travesura",
       "artista": "Divino, Hector El Father",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "lista para QC (ronda 2)",
-      "actualizado": "2026-10-06T14:44:20Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T14:47:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4592,15 +4592,21 @@
             "t": "2026-10-06T14:44:20Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "linea 15 t0,t3 y linea 20 t3 con item de sentido equivocado (existe el bueno); linea 27 t1 distinta de su gemela y anclada a otra palabra; linea 21 t4 sin mapear; ejemplos del item 6ac50374ad97a8b3be65befe. Audio OK: sirve FULL SONG (stemVoc)",
-            "t": "2026-10-06T14:39:32Z"
+            "v": "ok",
+            "nota": "ronda 2: lineas 15, 20, 21, 27 y ejemplos del item corregidos y verificados; sin regresiones; audio FULL SONG 206",
+            "t": "2026-10-06T14:47:16Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "linea 15 t0,t3 y linea 20 t3 con item de sentido equivocado (existe el bueno); linea 27 t1 distinta de su gemela y anclada a otra palabra; linea 21 t4 sin mapear; ejemplos del item 6ac50374ad97a8b3be65befe. Audio OK: sirve FULL SONG (stemVoc)",
-          "t": "2026-10-06T14:39:32Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: lineas 15, 20, 21, 27 y ejemplos del item corregidos y verificados; sin regresiones; audio FULL SONG 206",
+          "t": "2026-10-06T14:47:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T14:47:17Z"
         }
       },
       "motivo_en": "ready for QC (round 2)"
