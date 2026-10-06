@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T11:35:28Z",
+  "generado": "2026-10-06T11:39:31Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -3709,16 +3709,36 @@
       "originalTrackId": "",
       "titulo": "Mientes",
       "artista": "Camila",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:09:39Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T11:38:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
+            "v": "na",
+            "nota": "aplicado en lote antes; no se toca",
+            "t": "2026-10-06T11:38:29Z"
+          },
+          "lrc": {
             "v": "ok",
-            "nota": "carry aplicado en lote con hints automaticos",
-            "t": "2026-09-30T09:09:39Z"
+            "nota": "69->48 lineas (21 filas fantasma), richsync 233, seccion linea 1, sin puntuacion final",
+            "t": "2026-10-06T11:38:30Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; sin palabras <40 ms; audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T11:38:30Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "233/233; 7 items nuevos traducidos 19 idiomas; tildes y gemelas unificadas",
+            "t": "2026-10-06T11:38:30Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "48 lineas + 233 WIT a mano, wit_dt_audit BAD 0, pending_review",
+            "t": "2026-10-06T11:38:30Z"
           }
         }
       }
@@ -4559,10 +4579,10 @@
       "originalTrackId": "",
       "titulo": "Todavia",
       "artista": "la Factoria",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T11:35:14Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T11:39:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4589,7 +4609,23 @@
             "v": "ok",
             "nota": "borrador escrito a mano: 39 lineas + 224 WIT con texto y DT propio; wit_dt_audit BAD 0; repeticiones identicas; pending_review",
             "t": "2026-10-06T11:35:14Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles (pending_review 39/39, DT BAD 0), items nuevos y audio OK",
+            "t": "2026-10-06T11:39:16Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles (pending_review 39/39, DT BAD 0), items nuevos y audio OK",
+          "t": "2026-10-06T11:39:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T11:39:17Z"
         }
       }
     },
