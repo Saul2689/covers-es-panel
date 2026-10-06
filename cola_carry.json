@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T18:17:13Z",
+  "generado": "2026-10-06T18:17:26Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -14866,14 +14866,34 @@
       "artista": "Chayanne",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:01:43Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:17:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 98%",
             "t": "2026-10-06T15:01:43Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 27 tilde corregida; secciones 57/57 puestas a mano desde el original; sin comas/puntos finales ni palabras <40 ms",
+            "t": "2026-10-06T18:17:18Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0; ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (206, timeline karaokeMp3, sin tocar)",
+            "t": "2026-10-06T18:17:19Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "21 sin mapear resueltos salvo 8 Salome (nombre propio); 5 items nuevos 19 idiomas; gemelas unificadas; ver informe",
+            "t": "2026-10-06T18:17:19Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json (57 lineas, 302 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T18:17:19Z"
           }
         }
       }
