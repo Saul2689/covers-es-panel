@@ -381,6 +381,11 @@ tailwind.config={theme:{extend:{
   /* ── filas por vista ── */
   function fila(r){
     var acc='', meta='';
+    /* La cancion esta archivada bajo el primer nombre del credito, asi que una
+       colaboracion ensena el credito entero en su fila: agrupar no es perder
+       con quien esta cantada. */
+    var cred=(vista!=='linea'&&vista!=='cal'&&SEPCRED.test(r[1]))
+      ? '<span class="font-mono text-[11px] text-zinc-500">'+esc(r[1])+'</span>' : '';
     /* Sin etiqueta de estado en la fila: la seccion en la que esta ya lo dice,
        y repetirlo en cada linea solo quita sitio al titulo. */
     if(vista==='cal'){
@@ -410,7 +415,7 @@ tailwind.config={theme:{extend:{
     return '<div class="group rounded-xl border border-transparent px-3 py-2.5 transition-all duration-200 '+
       'hover:border-line/60 hover:bg-raised">'+
       '<div class="flex flex-wrap items-center gap-x-3 gap-y-2">'+
-      '<div class="min-w-0 flex-1 flex flex-wrap items-center gap-x-2.5 gap-y-1">'+titulo(r[0],r[2])+meta+'</div>'+
+      '<div class="min-w-0 flex-1 flex flex-wrap items-center gap-x-2.5 gap-y-1">'+titulo(r[0],r[2])+cred+meta+'</div>'+
       '<div class="flex flex-wrap items-center gap-2">'+acc+'</div></div>'+motivo+'</div>';
   }
   function fechaHora(iso){
@@ -433,6 +438,25 @@ tailwind.config={theme:{extend:{
       return (r[0]+' '+r[1]).toLowerCase().indexOf(s)>-1;
     });
   }
+  /* ── el artista canonico ──
+     La ficha de la cover trae el credito tal cual lo escribio quien la subio,
+     asi que el mismo artista llega partido en varios: con y sin tildes
+     ("Vicente Fernandez" / "Vicente Fernandez" con acento) y una entrada
+     distinta por cada colaboracion ("Bad Bunny, Daddy Yankee"). En el indice
+     eso son veinte artistas donde solo hay uno. Se agrupa por el PRIMERO del
+     credito, sin tildes ni puntuacion; el credito entero no se pierde, sale en
+     la fila de la cancion. Ojo con los separadores: coma, "feat." y la X de
+     "Ozuna X Cardi B" parten; "&" y "y" NO, que ahi viven los duos
+     (Wisin & Yandel, Chino Y Nacho, Aaron Y SU Grupo Ilusion). */
+  var SEPCRED=/\s*,\s*|\s+feat\.?\s+|\s+X\s+/;
+  function cabeza(a){ a=String(a||''); return a.split(SEPCRED)[0].trim()||a; }
+  function llaveArt(a){
+    return cabeza(a).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()
+      .replace(/\s*&\s*/g,' ').replace(/\by\b/g,' ')
+      .replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
+  }
+  function tildes(s){ return (s.normalize('NFD').match(/[\u0300-\u036f]/g)||[]).length; }
+
   function agrupa(filas){
     if(vista==='linea'){
       var orden=['parada'].concat(PASOS), bolsa={};
@@ -454,9 +478,21 @@ tailwind.config={theme:{extend:{
         .filter(function(g){return g.filas.length;});
     }
     var m=new Map();
-    filas.forEach(function(r){ if(!m.has(r[1])) m.set(r[1],[]); m.get(r[1]).push(r); });
-    return Array.from(m.entries()).sort(function(a,b){return a[0].localeCompare(b[0],'es');})
-      .map(function(p){return {clave:p[0],nombre:p[0],color:null,filas:p[1]};});
+    filas.forEach(function(r){
+      var k=llaveArt(r[1]);
+      if(!m.has(k)) m.set(k,{n:{},filas:[]});
+      var g=m.get(k); g.filas.push(r);
+      var c=cabeza(r[1]); g.n[c]=(g.n[c]||0)+1;
+    });
+    return Array.from(m.entries()).map(function(p){
+      /* De todas las formas que han llegado para el mismo artista gana la que
+         lleva tildes: se escribe "Vicente Fernandez" con acento, no sin el. A
+         igualdad de tildes, la que mas veces aparece. */
+      var g=p[1], nn=Object.keys(g.n).sort(function(a,b){
+        return tildes(b)-tildes(a) || g.n[b]-g.n[a] || a.localeCompare(b,'es');
+      });
+      return {clave:p[0],nombre:nn[0]||p[0],color:null,filas:g.filas};
+    }).sort(function(a,b){return a.nombre.localeCompare(b.nombre,'es');});
   }
 
   /* ── pintar ── */
