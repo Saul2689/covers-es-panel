@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:12:06Z",
+  "generado": "2026-10-06T20:12:31Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17000,14 +17000,34 @@
       "artista": "Hansel Y Raul",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:05:51Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:12:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 98%",
             "t": "2026-10-06T15:05:51Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "32 ediciones de token, secciones 96/96, sin puntuacion final",
+            "t": "2026-10-06T20:12:14Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; L91-95 entrelazadas anotado en el informe",
+            "t": "2026-10-06T20:12:14Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "486 anclas, 0 sin mapear, 13 items nuevos con 19 idiomas",
+            "t": "2026-10-06T20:12:14Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json (96 lineas, 486 WIT); falta abrir el borrador",
+            "t": "2026-10-06T20:12:15Z"
           }
         }
       }
