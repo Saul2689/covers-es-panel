@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:32:35Z",
+  "generado": "2026-10-06T17:35:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -12823,14 +12823,34 @@
       "artista": "Enrique Iglesias",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:09:51Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:35:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 96%",
             "t": "2026-10-06T14:09:51Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "secciones intro puestas a mano, mayusculas/comas/tildes corregidas, tu->tu con tilde (l5,l34); ear-notes en informe",
+            "t": "2026-10-06T17:35:07Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40ms, audio SUENA_SIN_BLINDAR sin tocar; hueco l14-l15 instrumental en el original",
+            "t": "2026-10-06T17:35:08Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, gemelas unificadas, 2 items nuevos (quejar, separe) con 19 idiomas",
+            "t": "2026-10-06T17:35:08Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan preparado en es_map/payloads/<id>/en_plan.json; falta abrir el borrador",
+            "t": "2026-10-06T17:35:08Z"
           }
         }
       }
@@ -12855,13 +12875,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:09:58Z",
+      "actualizado": "2026-10-06T17:34:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 89%",
             "t": "2026-10-06T14:09:58Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC sin cambios de texto; secciones puestas a mano (10) por la estructura del original; ear-notes en informe",
+            "t": "2026-10-06T17:34:43Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra < 40 ms, audio SUENA_SIN_BLINDAR (no se toca)",
+            "t": "2026-10-06T17:34:43Z"
           }
         }
       }
@@ -12906,13 +12936,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:10:09Z",
+      "actualizado": "2026-10-06T17:32:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 89%",
             "t": "2026-10-06T14:10:09Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "ortografía: más, pones/monta minúscula, corazón, tú; resto = el cover canta otra versión (notas de oído)",
+            "t": "2026-10-06T17:32:57Z"
           }
         }
       }
@@ -17303,8 +17338,8 @@
       "artista": "Romeo Santos",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:15Z"
+      "motivo": "enlazada; carry al 65%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:32:37Z"
     },
     {
       "coverTrackId": "6aa6dfbe72ca57eb1aa81f27",
@@ -17314,8 +17349,8 @@
       "artista": "Tito Rojas",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:15Z"
+      "motivo": "enlazada; carry al 71%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:32:40Z"
     },
     {
       "coverTrackId": "6aa1111a64c9b8ff110c8598",
@@ -17325,8 +17360,8 @@
       "artista": "Maria Conchita Alonso",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:16Z"
+      "motivo": "enlazada; carry al 78%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:32:42Z"
     },
     {
       "coverTrackId": "6aa80bb1d951e1665a7ea9ad",
@@ -17449,8 +17484,8 @@
       "artista": "Marc Anthony",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:16Z"
+      "motivo": "enlazada; carry al 76%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:32:45Z"
     },
     {
       "coverTrackId": "6aa1110564c9b8ff110c44d0",
@@ -17480,8 +17515,8 @@
       "artista": "Celia Cruz",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:17Z"
+      "motivo": "enlazada; carry al 57%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:32:48Z"
     },
     {
       "coverTrackId": "6aa808dcd951e1665a7e8498",
@@ -17491,8 +17526,8 @@
       "artista": "Alejandro Fernandez",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:17Z"
+      "motivo": "enlazada; carry al 79%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:32:50Z"
     },
     {
       "coverTrackId": "6aa5d10842b8d1fdb0d5751c",
@@ -17573,8 +17608,8 @@
       "artista": "Ana Barbara",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:18Z"
+      "motivo": "enlazada; carry al 83%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:32:53Z"
     },
     {
       "coverTrackId": "6aa8055bd951e1665a7e2b6c",
@@ -17624,8 +17659,8 @@
       "artista": "Juan Luis Guerra",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:18Z"
+      "motivo": "enlazada; carry al 84%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:32:56Z"
     },
     {
       "coverTrackId": "6aa59fb642b8d1fdb0d1d862",
@@ -17646,8 +17681,8 @@
       "artista": "Ruben Blades",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:18Z"
+      "motivo": "enlazada; carry al 67%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:32:59Z"
     },
     {
       "coverTrackId": "6aa731c572ca57eb1aaf0d45",
@@ -17697,8 +17732,8 @@
       "artista": "Alejandro Sanz",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:19Z"
+      "motivo": "enlazada; carry al 71%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:02Z"
     },
     {
       "coverTrackId": "6aa82105d951e1665a80b7a1",
@@ -17810,8 +17845,8 @@
       "artista": "Raphael",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:19Z"
+      "motivo": "enlazada; carry al 82%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:11Z"
     },
     {
       "coverTrackId": "6ab23082ca8a8ee8c446f123",
@@ -17937,8 +17972,8 @@
       "artista": "Luis Miguel",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:20Z"
+      "motivo": "enlazada; carry al 68%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:14Z"
     },
     {
       "coverTrackId": "6aa56ca742b8d1fdb0ccff1e",
@@ -17948,8 +17983,8 @@
       "artista": "Cristian",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:20Z"
+      "motivo": "enlazada; carry al 84%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:16Z"
     },
     {
       "coverTrackId": "6aa110ea64c9b8ff110be53a",
@@ -18010,8 +18045,8 @@
       "artista": "Ha-Ash",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:20Z"
+      "motivo": "enlazada; carry al 65%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:19Z"
     },
     {
       "coverTrackId": "6aa71a4d72ca57eb1aacb9c8",
@@ -18132,8 +18167,8 @@
       "artista": "Bacilos",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:21Z"
+      "motivo": "enlazada; carry al 68%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:25Z"
     },
     {
       "coverTrackId": "6aa1112364c9b8ff110ca39e",
@@ -18250,8 +18285,8 @@
       "artista": "Jerry Rivera",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:21Z"
+      "motivo": "enlazada; carry al 82%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:29Z"
     },
     {
       "coverTrackId": "6aa5cfad42b8d1fdb0d55ecd",
@@ -18292,8 +18327,8 @@
       "artista": "El General",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:22Z"
+      "motivo": "enlazada; carry al 79%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:31Z"
     },
     {
       "coverTrackId": "6aa53fe342b8d1fdb0ca45cb",
@@ -18323,8 +18358,8 @@
       "artista": "Ricardo Montaner",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:22Z"
+      "motivo": "enlazada; carry al 83%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:34Z"
     },
     {
       "coverTrackId": "6aa5e36742b8d1fdb0d750c0",
@@ -18425,8 +18460,8 @@
       "artista": "Juan Luis Guerra",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:22Z"
+      "motivo": "enlazada; carry al 69%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:36Z"
     },
     {
       "coverTrackId": "6aa05698edf059217a4f69e0",
@@ -18436,8 +18471,8 @@
       "artista": "Marc Anthony",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:23Z"
+      "motivo": "enlazada; carry al 68%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:39Z"
     },
     {
       "coverTrackId": "6aa7060972ca57eb1aaa9c26",
@@ -18527,8 +18562,8 @@
       "artista": "los Bukis",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:23Z"
+      "motivo": "enlazada; carry al 79%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:41Z"
     },
     {
       "coverTrackId": "6aa783ef72ca57eb1acd6f78",
@@ -18578,8 +18613,8 @@
       "artista": "Juan Luis Guerra",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:24Z"
+      "motivo": "enlazada; carry al 75%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:44Z"
     },
     {
       "coverTrackId": "6aa110ed64c9b8ff110becf4",
@@ -18609,8 +18644,8 @@
       "artista": "Carlos Vives",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:24Z"
+      "motivo": "enlazada; carry al 84%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:48Z"
     },
     {
       "coverTrackId": "6aa76eab72ca57eb1ab4136f",
@@ -18671,8 +18706,8 @@
       "artista": "David Pabon",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:25Z"
+      "motivo": "enlazada; carry al 81%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:51Z"
     },
     {
       "coverTrackId": "6aa71fa772ca57eb1aad501a",
@@ -18682,8 +18717,8 @@
       "artista": "Magneto",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:24Z"
+      "motivo": "enlazada; carry al 77%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:53Z"
     },
     {
       "coverTrackId": "6aa72b4872ca57eb1aae7674",
@@ -18753,8 +18788,8 @@
       "artista": "Reykon El Lider",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:25Z"
+      "motivo": "enlazada; carry al 43%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:56Z"
     },
     {
       "coverTrackId": "6aa6796c72ca57eb1a9f676b",
@@ -18784,8 +18819,8 @@
       "artista": "Federico Villa",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:26Z"
+      "motivo": "enlazada; carry al 81%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:33:58Z"
     },
     {
       "coverTrackId": "6aa6ff1072ca57eb1aaa1abe",
@@ -18875,8 +18910,8 @@
       "artista": "Laura Pausini",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:26Z"
+      "motivo": "enlazada; carry al 77%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:34:00Z"
     },
     {
       "coverTrackId": "6aa6176d42b8d1fdb0db6be8",
@@ -18886,8 +18921,8 @@
       "artista": "Lisandro Meza",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:26Z"
+      "motivo": "enlazada; carry al 61%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:34:03Z"
     },
     {
       "coverTrackId": "6aa569ad42b8d1fdb0ccb9c9",
@@ -18917,8 +18952,8 @@
       "artista": "Marc Anthony",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:27Z"
+      "motivo": "enlazada; carry al 77%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:34:06Z"
     },
     {
       "coverTrackId": "6aa80887d951e1665a7e7e9f",
@@ -18959,8 +18994,8 @@
       "artista": "Ana Torroja, Miguel Bose",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:27Z"
+      "motivo": "enlazada; carry al 65%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:34:08Z"
     },
     {
       "coverTrackId": "6aa6335972ca57eb1a99149e",
@@ -18990,8 +19025,8 @@
       "artista": "Frankie Ruiz",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:27Z"
+      "motivo": "enlazada; carry al 75%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:34:11Z"
     },
     {
       "coverTrackId": "6aa544b742b8d1fdb0caa168",
@@ -19001,8 +19036,8 @@
       "artista": "Celia Cruz",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:28Z"
+      "motivo": "enlazada; carry al 77%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:34:14Z"
     },
     {
       "coverTrackId": "6aa674c172ca57eb1a9f0be7",
@@ -19012,8 +19047,8 @@
       "artista": "Orquesta Guayacan",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:28Z"
+      "motivo": "enlazada; carry al 71%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:34:18Z"
     },
     {
       "coverTrackId": "6aa5c4f242b8d1fdb0d44d57",
@@ -19023,8 +19058,8 @@
       "artista": "Ismael Rivera",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:28Z"
+      "motivo": "enlazada; carry al 72%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:34:21Z"
     },
     {
       "coverTrackId": "6aa539f742b8d1fdb0c9d4f3",
@@ -19034,8 +19069,8 @@
       "artista": "Calle 13",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:29Z"
+      "motivo": "enlazada; carry al 83%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:34:24Z"
     },
     {
       "coverTrackId": "6aa81f0fd951e1665a8082b0",
@@ -19065,8 +19100,8 @@
       "artista": "Carlos Vives feat. Michel Teló",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:29Z"
+      "motivo": "enlazada; carry al 68%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:34:26Z"
     },
     {
       "coverTrackId": "6aa5e01d42b8d1fdb0d6c93f",
@@ -19227,8 +19262,8 @@
       "artista": "Grupo 5",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:30Z"
+      "motivo": "enlazada; carry al 83%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:34:32Z"
     },
     {
       "coverTrackId": "6aa528fb42b8d1fdb0c81135",
@@ -19280,8 +19315,8 @@
       "artista": "Proyecto Uno",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:30Z"
+      "motivo": "enlazada; carry al 42%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:34:36Z"
     },
     {
       "coverTrackId": "6aa5e1e142b8d1fdb0d71909",
@@ -19322,8 +19357,8 @@
       "artista": "Gilberto Santa Rosa",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:30Z"
+      "motivo": "enlazada; carry al 78%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:34:39Z"
     },
     {
       "coverTrackId": "6aa5239242b8d1fdb0c7a309",
@@ -19353,8 +19388,8 @@
       "artista": "Sin Bandera",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:31Z"
+      "motivo": "enlazada; carry al 82%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:34:42Z"
     },
     {
       "coverTrackId": "6aa5266742b8d1fdb0c7caed",
@@ -19404,8 +19439,8 @@
       "artista": "Johnny Rivera, Ray Sepulveda",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:31Z"
+      "motivo": "enlazada; carry al 57%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:34:45Z"
     },
     {
       "coverTrackId": "6aa1114864c9b8ff110d3735",
@@ -19512,8 +19547,8 @@
       "artista": "los Bukis",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:40Z"
+      "motivo": "enlazada; carry al 73%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:35:03Z"
     },
     {
       "coverTrackId": "6aa5cb7b42b8d1fdb0d504f7",
@@ -19567,8 +19602,8 @@
       "artista": "los Bukis",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:23:45Z"
+      "motivo": "enlazada; carry al 84%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:35:18Z"
     },
     {
       "coverTrackId": "6aa7329472ca57eb1aaf16e2",
