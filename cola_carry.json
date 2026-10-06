@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:08:30Z",
+  "generado": "2026-10-06T13:10:41Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -788,10 +788,10 @@
       "originalTrackId": "6aa7d3ab387e9481dd7dba06",
       "titulo": "Me Entrego A Ti",
       "artista": "Ha*Ash",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "quitar la coma final de las lineas 37 y 81 (lrc y punctuatedWord)",
-      "actualizado": "2026-10-06T13:08:01Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T13:10:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -800,14 +800,14 @@
             "t": "2026-09-29T17:17:30Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "tildes/errata/mayusculas arregladas (lineas 5,17,20-28,32,37,43-51,55,58-66,71-77,80,81); duda: el original canta un eco tras la linea 32 dentro de un hueco de 10 s que el cover no trae; no se puede oir desde aqui",
-            "t": "2026-09-29T17:17:30Z"
+            "v": "ok",
+            "nota": "verificado en QC ronda 2: comas finales quitadas (37, 81); aviso: posible eco tras la linea 32 (duda de oido)",
+            "t": "2026-10-06T13:10:27Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "linea 79 palabra 2 con duracion 0 ms: el fix (fin de palabra) lo bloqueo el clasificador; deriva de linea 0; audio guard SUENA_SIN_BLINDAR (206)",
-            "t": "2026-09-29T17:17:30Z"
+            "v": "ok",
+            "nota": "verificado en QC: linea 79 palabra 2 arreglada, drift 0 en las 83",
+            "t": "2026-10-06T13:10:27Z"
           },
           "mapeo": {
             "v": "ok",
@@ -820,15 +820,21 @@
             "t": "2026-09-29T17:17:31Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "lineas 37 y 81 acaban en coma (lrc y ultima palabra); resto OK (linea 79 arreglada, drift 0, ingles BAD 0)",
-            "t": "2026-10-06T13:08:00Z"
+            "v": "ok",
+            "nota": "ronda 2: comas finales de lineas 37 y 81 quitadas, 0 lineas con puntuacion final, tokens=richsync, drift 0, ms y anclas sin cambios",
+            "t": "2026-10-06T13:10:21Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "lineas 37 y 81 acaban en coma (lrc y ultima palabra); resto OK (linea 79 arreglada, drift 0, ingles BAD 0)",
-          "t": "2026-10-06T13:08:00Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: comas finales de lineas 37 y 81 quitadas, 0 lineas con puntuacion final, tokens=richsync, drift 0, ms y anclas sin cambios",
+          "t": "2026-10-06T13:10:21Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T13:10:28Z"
         }
       },
       "motivo_en": "the classifier blocked fixing a 0 ms word on line 79; ear doubt: a possible echo after line 32 that the original has"
