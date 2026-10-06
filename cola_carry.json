@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:19:19Z",
+  "generado": "2026-10-06T15:19:51Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5525,8 +5525,8 @@
       "artista": "Reik",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:16:35Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:19:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5538,6 +5538,21 @@
             "v": "ok",
             "nota": "4 comas finales quitadas (lineas 9, 20, 41, 53) en LRC y richsync; resto limpio",
             "t": "2026-10-06T15:16:35Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms, audio 206 SUENA_SIN_BLINDAR (no tocado)",
+            "t": "2026-10-06T15:19:23Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo ad-lib; 5 items nuevos 19 idiomas; gemelas unificadas; secciones regeneradas",
+            "t": "2026-10-06T15:19:24Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en es_map/payloads/6aa69b7172ca57eb1aa28e31/en_plan.json (54 lineas + 266 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T15:19:24Z"
           }
         }
       }
@@ -5572,8 +5587,8 @@
       "artista": "RBD",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:15:26Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:19:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5590,6 +5605,16 @@
             "v": "ok",
             "nota": "drift 0, ninguna palabra <40 ms, sin puntuación final; audio SUENA_SIN_BLINDAR sin acción",
             "t": "2026-10-06T15:15:26Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "6 mi->mí, 2 más, 3 desvanece (item nuevo), 1 salido (item nuevo), gemelas unificadas líneas 13/28/37; bolsa de aprender: fila primaria nueva",
+            "t": "2026-10-06T15:19:26Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "inglés preparado en en_plan.json; falta abrir el borrador (start_draft)",
+            "t": "2026-10-06T15:19:26Z"
           }
         }
       }
