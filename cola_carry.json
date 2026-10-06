@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:14:29Z",
+  "generado": "2026-10-06T16:14:59Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -8521,14 +8521,34 @@
       "artista": "Intocable",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:50:38Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:14:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:50:37Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "Sin cambios de texto; secciones puestas a mano (Verse 1/Chorus 1/Verse 2/Chorus 2) con un POST lrc-only; 3 faltas vs original (lineas 7, 11, 17) sin evidencia en richsync: nota de oido",
+            "t": "2026-10-06T16:14:38Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "Deriva 0, ninguna palabra < 97 ms; audio_guard SUENA_SIN_BLINDAR (206, stemVoc null): no se toca",
+            "t": "2026-10-06T16:14:38Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear: items nuevos ilusionaste y enamoraste (19 idiomas); remaps gemelas y homografos; qc_es solo vs_original_falta 3",
+            "t": "2026-10-06T16:14:38Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json (43 lineas + 173 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T16:14:39Z"
           }
         }
       }
