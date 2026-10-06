@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:06:00Z",
+  "generado": "2026-10-06T15:07:44Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4969,10 +4969,10 @@
       "originalTrackId": "",
       "titulo": "Este Corazon",
       "artista": "RBD",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T15:00:24Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T15:07:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4999,7 +4999,23 @@
             "v": "ok",
             "nota": "58 lineas + 391 WIT, wit_dt_audit BAD 0, pending_review",
             "t": "2026-10-06T15:00:24Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "36 arreglos de token ok, 4 items nuevos ok, gemelas ok, ingles pending_review 58/58, audio sirve FULL SONG; nota: 43% de tokens son copias simultaneas de dos voces (decide Saul)",
+            "t": "2026-10-06T15:07:30Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "36 arreglos de token ok, 4 items nuevos ok, gemelas ok, ingles pending_review 58/58, audio sirve FULL SONG; nota: 43% de tokens son copias simultaneas de dos voces (decide Saul)",
+          "t": "2026-10-06T15:07:30Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T15:07:31Z"
         }
       }
     },
