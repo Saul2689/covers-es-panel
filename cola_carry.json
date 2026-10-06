@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T14:23:52Z",
+  "generado": "2026-10-06T14:25:54Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4175,10 +4175,10 @@
       "originalTrackId": "",
       "titulo": "Mujer Amante",
       "artista": "Rata Blanca",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T14:20:54Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T14:24:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4205,7 +4205,23 @@
             "v": "ok",
             "nota": "38 lineas + 217 WIT con texto y DT, wit_dt_audit BAD 0, submit pending_review",
             "t": "2026-10-06T14:20:54Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles (draft pending_review, BAD 0), items nuevos y audio SUENA_SIN_BLINDAR verificados; sin defectos",
+            "t": "2026-10-06T14:24:43Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles (draft pending_review, BAD 0), items nuevos y audio SUENA_SIN_BLINDAR verificados; sin defectos",
+          "t": "2026-10-06T14:24:43Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T14:24:44Z"
         }
       }
     },
