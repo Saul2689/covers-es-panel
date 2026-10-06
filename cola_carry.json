@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T12:04:52Z",
+  "generado": "2026-10-06T12:11:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4918,17 +4918,53 @@
       "originalTrackId": "",
       "titulo": "Que Hay De Malo",
       "artista": "Jerry Rivera",
-      "estado": "carry",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:48:19Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T12:11:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:48:19Z"
+            "nota": "carry batch ya aplicado, sin tocar",
+            "t": "2026-10-06T12:07:03Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L6 tilde de mas, L11/L34 'o' insertada, L44 cierre ?, L48 orden segun original, L52 tilde+?; secciones 61/61 (Outro 1 excluido como el original); resto de qc justificado en el informe",
+            "t": "2026-10-06T12:07:03Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms (L4 palabra 1 de 30 a 50 ms); audio SUENA_SIN_BLINDAR 206, sin medir ni fijar",
+            "t": "2026-10-06T12:07:04Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo ingles suelto; 5 items nuevos con 19 idiomas; gemelas unificadas; homografos revisados",
+            "t": "2026-10-06T12:07:04Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "61 lineas + 465 WIT con texto y DT propio a mano, wit_dt_audit BAD 0, draft en pending_review",
+            "t": "2026-10-06T12:07:04Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles y items nuevos OK; avisos de oido: orden L48 tok4-6 y 4 lineas de eco del puente original ausentes",
+            "t": "2026-10-06T12:11:03Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles y items nuevos OK; avisos de oido: orden L48 tok4-6 y 4 lineas de eco del puente original ausentes",
+          "t": "2026-10-06T12:11:03Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T12:11:04Z"
         }
       }
     },
