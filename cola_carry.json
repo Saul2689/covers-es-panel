@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:20:08Z",
+  "generado": "2026-10-06T15:21:13Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5627,14 +5627,34 @@
       "artista": "Jose Jose",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:37:42Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:20:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-06T13:37:42Z"
+            "nota": "carry batch aplicado, no tocado",
+            "t": "2026-10-06T15:20:48Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "l13 y l29 'Porque' partido en dos palabras (Por qué); l1 y l9 tilde en difícil; richsync sincronizado",
+            "t": "2026-10-06T15:20:48Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; l40 palabras de 8,8 s y 10,8 s acortadas (o, olvidas); sin palabras <40 ms; audio 206 SUENA_SIN_BLINDAR, no se mide",
+            "t": "2026-10-06T15:20:48Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 3 items nuevos (pasa, discutiendo, enfadarnos) con 19 idiomas; 10 gemelas unificadas; 6 phrase insights",
+            "t": "2026-10-06T15:20:48Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T15:20:49Z"
           }
         }
       }
