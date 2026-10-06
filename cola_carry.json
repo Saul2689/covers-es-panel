@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:44:06Z",
+  "generado": "2026-10-06T17:45:50Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -12782,7 +12782,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:40:52Z",
+      "actualizado": "2026-10-06T17:45:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12799,6 +12799,11 @@
             "v": "ok",
             "nota": "drift 0 en 97 lineas; 32 palabras <40 ms estiradas tomando 40 ms de la palabra previa; 0 restantes",
             "t": "2026-10-06T17:40:52Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, 0 item_tilde_distinta, 0 gemelas; 98 anclas escritas (nuevas o remapeadas) + 7 gemelas unificadas; 6 items nuevos PROD, 19 idiomas, missing 0",
+            "t": "2026-10-06T17:45:34Z"
           }
         }
       }
@@ -13004,8 +13009,8 @@
       "artista": "El General",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:32:57Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:45:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13015,8 +13020,23 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "ortografía: más, pones/monta minúscula, corazón, tú; resto = el cover canta otra versión (notas de oído)",
-            "t": "2026-10-06T17:32:57Z"
+            "nota": "LRC limpio, mas/pones/monta/corazon/tu corregidos por linea",
+            "t": "2026-10-06T17:45:38Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T17:45:38Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "20 items nuevos 19 idiomas, 33 anclas nuevas, 35 remapeos; queda ancla puerto (sentido port) junto a la frase Puerto Rico",
+            "t": "2026-10-06T17:45:38Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json (90 lineas + 596 WIT con DT propio); falta abrir el borrador",
+            "t": "2026-10-06T17:45:39Z"
           }
         }
       }
@@ -13372,13 +13392,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:10:55Z",
+      "actualizado": "2026-10-06T17:45:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 98%",
             "t": "2026-10-06T14:10:55Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "acentos/mayusculas/coma corregidos (11 tokens), secciones 74/74 a mano; ear-notes en el informe",
+            "t": "2026-10-06T17:45:06Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "0 palabras <40ms, drift 0; audio_guard SUENA_SIN_BLINDAR (206), sin accion",
+            "t": "2026-10-06T17:45:06Z"
           }
         }
       }
@@ -13443,13 +13473,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:11:09Z",
+      "actualizado": "2026-10-06T17:44:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 93%",
             "t": "2026-10-06T14:11:09Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "mayuscula y puntuacion arregladas (lineas 3, 51, 52); diferencias de oido anotadas",
+            "t": "2026-10-06T17:44:30Z"
           }
         }
       }
@@ -16650,7 +16685,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:32:10Z"
+      "actualizado": "2026-10-06T17:44:06Z"
     },
     {
       "coverTrackId": "6aa5882842b8d1fdb0cf63af",
@@ -16732,7 +16767,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 76%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:32:13Z"
+      "actualizado": "2026-10-06T17:44:09Z"
     },
     {
       "coverTrackId": "6aa6e0e472ca57eb1aa82a04",
@@ -16743,7 +16778,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 74%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:32:19Z"
+      "actualizado": "2026-10-06T17:44:11Z"
     },
     {
       "coverTrackId": "6aa59d5342b8d1fdb0d18c9f",
@@ -16754,7 +16789,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:32:21Z"
+      "actualizado": "2026-10-06T17:44:14Z"
     },
     {
       "coverTrackId": "6aa80d34d951e1665a7ecc2a",
@@ -16796,7 +16831,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 18%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:32:24Z"
+      "actualizado": "2026-10-06T17:44:17Z"
     },
     {
       "coverTrackId": "6aa6c55d72ca57eb1aa5a426",
@@ -17329,7 +17364,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 64%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:32:28Z"
+      "actualizado": "2026-10-06T17:44:19Z"
     },
     {
       "coverTrackId": "6aa044811db6d36fd09ff4f6",
@@ -17451,7 +17486,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 77%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:32:32Z"
+      "actualizado": "2026-10-06T17:44:22Z"
     },
     {
       "coverTrackId": "6aa6d82772ca57eb1aa74974",
@@ -17522,7 +17557,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 78%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:32:34Z"
+      "actualizado": "2026-10-06T17:44:26Z"
     },
     {
       "coverTrackId": "6aa7852972ca57eb1acd8507",
@@ -17533,7 +17568,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 65%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:32:37Z"
+      "actualizado": "2026-10-06T17:44:31Z"
     },
     {
       "coverTrackId": "6aa6dfbe72ca57eb1aa81f27",
@@ -17544,7 +17579,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 71%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:32:40Z"
+      "actualizado": "2026-10-06T17:44:34Z"
     },
     {
       "coverTrackId": "6aa1111a64c9b8ff110c8598",
@@ -17555,7 +17590,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 78%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:32:42Z"
+      "actualizado": "2026-10-06T17:44:38Z"
     },
     {
       "coverTrackId": "6aa80bb1d951e1665a7ea9ad",
@@ -17679,7 +17714,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 76%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:32:45Z"
+      "actualizado": "2026-10-06T17:44:40Z"
     },
     {
       "coverTrackId": "6aa1110564c9b8ff110c44d0",
@@ -17710,7 +17745,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 57%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:32:48Z"
+      "actualizado": "2026-10-06T17:44:43Z"
     },
     {
       "coverTrackId": "6aa808dcd951e1665a7e8498",
@@ -17721,7 +17756,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 79%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:32:50Z"
+      "actualizado": "2026-10-06T17:44:46Z"
     },
     {
       "coverTrackId": "6aa5d10842b8d1fdb0d5751c",
@@ -17803,7 +17838,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:32:53Z"
+      "actualizado": "2026-10-06T17:44:48Z"
     },
     {
       "coverTrackId": "6aa8055bd951e1665a7e2b6c",
@@ -17854,7 +17889,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:32:56Z"
+      "actualizado": "2026-10-06T17:44:51Z"
     },
     {
       "coverTrackId": "6aa59fb642b8d1fdb0d1d862",
@@ -17876,7 +17911,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 67%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:32:59Z"
+      "actualizado": "2026-10-06T17:44:53Z"
     },
     {
       "coverTrackId": "6aa731c572ca57eb1aaf0d45",
@@ -17927,7 +17962,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 71%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:33:02Z"
+      "actualizado": "2026-10-06T17:44:58Z"
     },
     {
       "coverTrackId": "6aa82105d951e1665a80b7a1",
@@ -18040,7 +18075,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:33:11Z"
+      "actualizado": "2026-10-06T17:45:03Z"
     },
     {
       "coverTrackId": "6ab23082ca8a8ee8c446f123",
@@ -18167,7 +18202,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 68%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:33:14Z"
+      "actualizado": "2026-10-06T17:45:06Z"
     },
     {
       "coverTrackId": "6aa56ca742b8d1fdb0ccff1e",
@@ -18178,7 +18213,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:33:16Z"
+      "actualizado": "2026-10-06T17:45:09Z"
     },
     {
       "coverTrackId": "6aa110ea64c9b8ff110be53a",
@@ -18240,7 +18275,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 65%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:33:19Z"
+      "actualizado": "2026-10-06T17:45:11Z"
     },
     {
       "coverTrackId": "6aa71a4d72ca57eb1aacb9c8",
@@ -18362,7 +18397,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 68%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:33:25Z"
+      "actualizado": "2026-10-06T17:45:14Z"
     },
     {
       "coverTrackId": "6aa1112364c9b8ff110ca39e",
@@ -18480,7 +18515,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:33:29Z"
+      "actualizado": "2026-10-06T17:45:17Z"
     },
     {
       "coverTrackId": "6aa5cfad42b8d1fdb0d55ecd",
@@ -18522,7 +18557,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 79%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:33:31Z"
+      "actualizado": "2026-10-06T17:45:21Z"
     },
     {
       "coverTrackId": "6aa53fe342b8d1fdb0ca45cb",
@@ -18553,7 +18588,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:33:34Z"
+      "actualizado": "2026-10-06T17:45:24Z"
     },
     {
       "coverTrackId": "6aa5e36742b8d1fdb0d750c0",
@@ -18655,7 +18690,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 69%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:33:36Z"
+      "actualizado": "2026-10-06T17:45:27Z"
     },
     {
       "coverTrackId": "6aa05698edf059217a4f69e0",
@@ -18666,7 +18701,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 68%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:33:39Z"
+      "actualizado": "2026-10-06T17:45:30Z"
     },
     {
       "coverTrackId": "6aa7060972ca57eb1aaa9c26",
@@ -18757,7 +18792,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 79%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:33:41Z"
+      "actualizado": "2026-10-06T17:45:33Z"
     },
     {
       "coverTrackId": "6aa783ef72ca57eb1acd6f78",
@@ -18808,7 +18843,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 75%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:33:44Z"
+      "actualizado": "2026-10-06T17:45:36Z"
     },
     {
       "coverTrackId": "6aa110ed64c9b8ff110becf4",
@@ -18839,7 +18874,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:33:48Z"
+      "actualizado": "2026-10-06T17:45:39Z"
     },
     {
       "coverTrackId": "6aa76eab72ca57eb1ab4136f",
@@ -18901,7 +18936,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:33:51Z"
+      "actualizado": "2026-10-06T17:45:44Z"
     },
     {
       "coverTrackId": "6aa71fa772ca57eb1aad501a",
@@ -18912,7 +18947,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 77%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:33:53Z"
+      "actualizado": "2026-10-06T17:45:46Z"
     },
     {
       "coverTrackId": "6aa72b4872ca57eb1aae7674",
@@ -18983,7 +19018,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 43%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:33:56Z"
+      "actualizado": "2026-10-06T17:45:48Z"
     },
     {
       "coverTrackId": "6aa6796c72ca57eb1a9f676b",
