@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:29:15Z",
+  "generado": "2026-10-06T17:29:38Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -12646,14 +12646,34 @@
       "artista": "Alejandra Guzmán",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:53:35Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:29:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 99%",
             "t": "2026-10-06T16:53:35Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio; sin cambios; falta 'que' en linea 14 es nota de oido (sin evidencia richsync)",
+            "t": "2026-10-06T17:29:24Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 38 lineas, ninguna palabra < 40 ms; audio_guard SUENA_SIN_BLINDAR (206), no se toca",
+            "t": "2026-10-06T17:29:24Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "rindio remapeada a item nuevo 'gave up' (6ac52f6a0b0281c267698469, 19 idiomas); 8 gemelas unificadas; phrase insights de pronto (L7,22,30) y a veces (L2)",
+            "t": "2026-10-06T17:29:24Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json (38 lineas, 196 WIT con DT, 4 PIT); falta abrir el borrador",
+            "t": "2026-10-06T17:29:24Z"
           }
         }
       }
@@ -20843,8 +20863,8 @@
       "artista": "Divididos",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:15Z"
     },
     {
       "coverTrackId": "6aa6c7bc72ca57eb1aa5d115",
@@ -20854,8 +20874,8 @@
       "artista": "Ruben Blades",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:15Z"
     },
     {
       "coverTrackId": "6aa110f664c9b8ff110c09a9",
@@ -20885,8 +20905,8 @@
       "artista": "Roberto Carlos",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:16Z"
     },
     {
       "coverTrackId": "6aa110ea64c9b8ff110be536",
@@ -20896,8 +20916,8 @@
       "artista": "Tito Puente",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: el candidato del matcher es otra cancion (otro artista); hace falta subir el original por ISRC, que a este agente se lo bloquea el sistema",
-      "actualizado": "2026-09-22T15:18:36Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:16Z"
     },
     {
       "coverTrackId": "6aa76fa572ca57eb1ab4244c",
@@ -20907,8 +20927,8 @@
       "artista": "Juanes",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:17Z"
     },
     {
       "coverTrackId": "6aa6183e42b8d1fdb0db7e68",
@@ -20918,8 +20938,8 @@
       "artista": "Lolita",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:17Z"
     },
     {
       "coverTrackId": "6aa5129142b8d1fdb0c6198b",
@@ -20929,8 +20949,8 @@
       "artista": "Alejandro Fernandez",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:18Z"
     },
     {
       "coverTrackId": "6aa1111764c9b8ff110c796a",
@@ -20940,8 +20960,8 @@
       "artista": "Luis Miguel",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:18Z"
     },
     {
       "coverTrackId": "6aa6c5f872ca57eb1aa5ad5a",
@@ -20962,8 +20982,8 @@
       "artista": "Navidad",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:18Z"
     },
     {
       "coverTrackId": "6aa50a3e42b8d1fdb0c5017a",
@@ -20973,8 +20993,8 @@
       "artista": "Alejandra Guzmán",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:19Z"
     },
     {
       "coverTrackId": "6aa6741d72ca57eb1a9efffd",
@@ -20984,8 +21004,8 @@
       "artista": "Orquesta Candela",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:19Z"
     },
     {
       "coverTrackId": "6aa8313ed951e1665a82275c",
@@ -20995,8 +21015,8 @@
       "artista": "Thalia",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:19Z"
     },
     {
       "coverTrackId": "6aa6c1cf72ca57eb1aa52539",
@@ -21006,8 +21026,8 @@
       "artista": "Rocio Durcal",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:20Z"
     },
     {
       "coverTrackId": "6aa5229a42b8d1fdb0c780ba",
@@ -21017,8 +21037,8 @@
       "artista": "Ana Gabriel",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:20Z"
     },
     {
       "coverTrackId": "6aa504fb42b8d1fdb0c48972",
@@ -21028,8 +21048,8 @@
       "artista": "3 de Copas",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:20Z"
     },
     {
       "coverTrackId": "6aa6cbf972ca57eb1aa6194c",
@@ -21039,8 +21059,8 @@
       "artista": "Sandro",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:21Z"
     },
     {
       "coverTrackId": "6aa692f472ca57eb1aa1a70d",
@@ -21050,8 +21070,8 @@
       "artista": "Ramon Ayala",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:21Z"
     },
     {
       "coverTrackId": "6aa825f7d951e1665a8118e3",
@@ -21061,8 +21081,8 @@
       "artista": "Myriam Hernandez",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:22Z"
     },
     {
       "coverTrackId": "6aa660a072ca57eb1a9d4c20",
@@ -21072,8 +21092,8 @@
       "artista": "Motel",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:22Z"
     },
     {
       "coverTrackId": "6aa5e68342b8d1fdb0d786e2",
@@ -21083,8 +21103,8 @@
       "artista": "Juan Luis Guerra 440",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:22Z"
     },
     {
       "coverTrackId": "6aa5893542b8d1fdb0cf7098",
@@ -21094,8 +21114,8 @@
       "artista": "Enanitos Verdes",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:23Z"
     },
     {
       "coverTrackId": "6aa52b5f42b8d1fdb0c878a9",
@@ -21105,8 +21125,8 @@
       "artista": "Armando Manzanero",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:23Z"
     },
     {
       "coverTrackId": "6aa5295642b8d1fdb0c817ff",
@@ -21116,8 +21136,8 @@
       "artista": "Antonio Aguilar",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:23Z"
     },
     {
       "coverTrackId": "6aa1110864c9b8ff110c4cae",
@@ -21189,8 +21209,8 @@
       "artista": "Camila",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:24Z"
     },
     {
       "coverTrackId": "6aa71ff872ca57eb1aad536c",
@@ -21200,8 +21220,8 @@
       "artista": "Don Omar, Rakim & Ken Y",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:25Z"
     },
     {
       "coverTrackId": "6aa6103b42b8d1fdb0dabe9a",
@@ -21211,8 +21231,8 @@
       "artista": "La Oreja de Van Gogh",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
+      "actualizado": "2026-10-06T17:29:24Z"
     },
     {
       "coverTrackId": "6aa56a0742b8d1fdb0ccc161",
