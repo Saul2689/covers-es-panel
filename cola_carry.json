@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:53:38Z",
+  "generado": "2026-10-06T16:54:19Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -8990,8 +8990,8 @@
       "artista": "Elvis Crespo",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:51:47Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:54:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9013,6 +9013,11 @@
             "v": "ok",
             "nota": "carry mapeado completo: 0 sin mapear, tildes y gemelas unificadas, 2 items nuevos (capricho, olvidaramos) + frase para siempre; ad-lib oh queda con item preexistente",
             "t": "2026-10-06T16:51:47Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo (77 lineas, 226 WIT con DT propio, 2 PIT); falta start_draft",
+            "t": "2026-10-06T16:54:04Z"
           }
         }
       }
@@ -9025,14 +9030,34 @@
       "artista": "Jose Jose",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:42:15Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:53:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-06T16:42:15Z"
+            "nota": "carry batch aplicado (llego tras mi primer fetch; todo trabajado sobre 35 lineas actuales)",
+            "t": "2026-10-06T16:53:50Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio: sin tildes/signos/capitales a corregir; ear-note L35 el original trae 3 palabras finales que el cover no tiene en richsync",
+            "t": "2026-10-06T16:53:50Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, sin palabras <40 ms; hueco L15-16 es instrumental (igual en original); audio 206 SUENA_SIN_BLINDAR, no se mide; secciones 35/35 a mano",
+            "t": "2026-10-06T16:53:51Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "251/251 mapeadas; 8 sin mapear resueltas con items nuevos; gemelas unificadas; 5 sentidos remapeados; phrase a veces x2",
+            "t": "2026-10-06T16:53:51Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json (35 lineas + 251 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T16:53:52Z"
           }
         }
       }
@@ -9043,10 +9068,19 @@
       "originalTrackId": "",
       "titulo": "Diseñame",
       "artista": "Joan Sebastian",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:08Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:54:11Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 97%",
+            "t": "2026-10-06T16:54:10Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6fe9b72ca57eb1aaa1335",
@@ -9171,8 +9205,8 @@
       "artista": "Camila",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:49:34Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:54:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9184,6 +9218,21 @@
             "v": "ok",
             "nota": "tildes tu/ti, mayusculas, respiro, parentesis, secciones; ear-notes: Yo/Tu extra y falta 'en' lineas 34",
             "t": "2026-10-06T16:49:34Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms, audio SUENA_SIN_BLINDAR (sin tocar)",
+            "t": "2026-10-06T16:54:15Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo ad-libs; items nuevos descubrir/transformando/respiro/respiros; gemelas unificadas",
+            "t": "2026-10-06T16:54:15Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T16:54:15Z"
           }
         }
       }
@@ -9445,10 +9494,19 @@
       "originalTrackId": "",
       "titulo": "A Donde Vayas",
       "artista": "Marco Antonio Solis",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:15Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:53:45Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T16:53:45Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6395272ca57eb1a99fa5b",
@@ -11720,10 +11778,19 @@
       "originalTrackId": "",
       "titulo": "Quedate Con Ella",
       "artista": "Natalia Jimenez",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:25Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:53:55Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 95%",
+            "t": "2026-10-06T16:53:55Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6cfea72ca57eb1aa66632",
@@ -14650,10 +14717,19 @@
       "originalTrackId": "",
       "titulo": "Decidiste Dejarme",
       "artista": "Camila",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:37Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:53:42Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T16:53:42Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa81ccbd951e1665a805541",
@@ -14708,7 +14784,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 51%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:38:51Z"
+      "actualizado": "2026-10-06T16:54:00Z"
     },
     {
       "coverTrackId": "6aa5d31542b8d1fdb0d5a5a3",
@@ -14811,10 +14887,19 @@
       "originalTrackId": "",
       "titulo": "El Verdadero Amor Perdona",
       "artista": "Maná feat. Prince Royce",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:42Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:54:17Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T16:54:17Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa631ac72ca57eb1a98e9a4",
@@ -14993,7 +15078,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 77%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:38:41Z"
+      "actualizado": "2026-10-06T16:53:48Z"
     },
     {
       "coverTrackId": "6aa6b4ca72ca57eb1aa3c2a8",
@@ -16176,7 +16261,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 65%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:39:01Z"
+      "actualizado": "2026-10-06T16:54:13Z"
     },
     {
       "coverTrackId": "6aa6dfbe72ca57eb1aa81f27",
@@ -16786,10 +16871,19 @@
       "originalTrackId": "",
       "titulo": "Sombra De Ti",
       "artista": "Shakira",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:18Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:53:52Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T16:53:51Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7881c72ca57eb1acdd3ff",
@@ -17327,10 +17421,19 @@
       "originalTrackId": "",
       "titulo": "Disparo Al Corazon",
       "artista": "Ricky Martin",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:30Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:54:07Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T16:54:07Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7792972ca57eb1acc7e05",
@@ -17338,10 +17441,19 @@
       "originalTrackId": "",
       "titulo": "Yerbatero",
       "artista": "Juanes",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:30Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:53:39Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 96%",
+            "t": "2026-10-06T16:53:39Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa723e972ca57eb1aad946f",
@@ -17527,7 +17639,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 43%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:38:53Z"
+      "actualizado": "2026-10-06T16:54:03Z"
     },
     {
       "coverTrackId": "6aa6796c72ca57eb1a9f676b",
