@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T14:36:35Z",
+  "generado": "2026-10-06T14:37:09Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4585,10 +4585,10 @@
       "originalTrackId": "",
       "titulo": "Por Amarte Asi",
       "artista": "Cristian",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:36:35Z",
+      "motivo": "inglés sin escribir: el clasificador bloqueó song_translation_approval_start_draft; el resto de la cover está hecho y el plan inglés listo",
+      "actualizado": "2026-10-06T14:36:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4605,9 +4605,20 @@
             "v": "ok",
             "nota": "deriva 0 en 56 líneas, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (206), sin medir ni fijar",
             "t": "2026-10-06T14:36:35Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "318/318 ancladas, gemelas unificadas, 7 items nuevos en PROD con 19 idiomas; sin phrase item para cuerda floja (cada palabra enseña bien)",
+            "t": "2026-10-06T14:36:35Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "start_draft bloqueado por el clasificador; plan completo de 56 líneas y 318 WIT con DT listo en es_map/payloads/6aa56bca42b8d1fdb0ccf06d/en_plan.json",
+            "t": "2026-10-06T14:36:36Z"
           }
         }
-      }
+      },
+      "motivo_en": "English not written: the classifier blocked song_translation_approval_start_draft; everything else on the cover is done and the English plan is ready"
     },
     {
       "coverTrackId": "6aa782a572ca57eb1acd5c20",
