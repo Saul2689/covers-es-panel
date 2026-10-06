@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T14:25:54Z",
+  "generado": "2026-10-06T14:26:43Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4382,9 +4382,9 @@
       "titulo": "Tras De Mi",
       "artista": "RBD",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T14:20:40Z",
+      "vueltas": 1,
+      "motivo": "lista para QC (ronda 2)",
+      "actualizado": "2026-10-06T14:26:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4411,7 +4411,17 @@
             "v": "ok",
             "nota": "borrador a mano 41 lineas/294 WIT en pending_review, wit_dt_audit BAD 0",
             "t": "2026-10-06T14:20:39Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "item nuevo veliches mal escrito (plural correcto velices), sin ancla; resto de mapeo, ingles, timing y estructura ok",
+            "t": "2026-10-06T14:26:05Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "item nuevo veliches mal escrito (plural correcto velices), sin ancla; resto de mapeo, ingles, timing y estructura ok",
+          "t": "2026-10-06T14:26:05Z"
         }
       }
     },
