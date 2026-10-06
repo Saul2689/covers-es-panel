@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:02:46Z",
+  "generado": "2026-10-06T20:03:16Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -16666,14 +16666,34 @@
       "artista": "Cristian",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:05:10Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:03:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 98%",
             "t": "2026-10-06T15:05:10Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "He->he L15; secciones 51/51 desde el original; ear-notes: L11/L31 (Yo vs original), L12/L32 (hoy duplicado), L15 (Te extra), L51 (ay mmm)",
+            "t": "2026-10-06T20:02:48Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40ms; hueco L43 justificado (original sin letra); audio guard SUENA_SIN_BLINDAR, nada que hacer",
+            "t": "2026-10-06T20:02:48Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; items nuevos apagando y suplicar (19 idiomas); remaps L7 que, L10/L30 solo, L23 ya, L36 mas, L39 la, L15 he; ay sin tocar",
+            "t": "2026-10-06T20:02:49Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo (51 lineas + 214 WIT); falta abrir el borrador",
+            "t": "2026-10-06T20:02:49Z"
           }
         }
       }
