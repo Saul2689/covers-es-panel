@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:18:18Z",
+  "generado": "2026-10-06T16:19:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -8689,8 +8689,8 @@
       "artista": "Tranzas",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:16:07Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:19:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8707,6 +8707,16 @@
             "v": "ok",
             "nota": "drift 0, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (206), sin tocar",
             "t": "2026-10-06T16:16:07Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear (365/365 anclas); 3 items nuevos PROD con 19 idiomas; 14 gemelas unificadas; 4 anclas de 'a' (vas a) al sentido perifrastico",
+            "t": "2026-10-06T16:19:19Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "falta abrir el borrador: 61 lineas + 365 WIT preparados en en_plan.json (DT de la bolsa propia, todos verificados)",
+            "t": "2026-10-06T16:19:20Z"
           }
         }
       }
@@ -8719,8 +8729,8 @@
       "artista": "Marco Antonio Solis",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:16:55Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:19:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8742,6 +8752,11 @@
             "v": "ok",
             "nota": "0 unmapped; 4 new items, remaps and twins unified",
             "t": "2026-10-06T16:16:55Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan listo en es_map/payloads/6aa63e6772ca57eb1a9a696f/en_plan.json (37 lineas + 155 WIT con DT de su bolsa); falta abrir el borrador",
+            "t": "2026-10-06T16:19:19Z"
           }
         }
       }
@@ -8774,14 +8789,34 @@
       "artista": "Raymix",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:50:54Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:19:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:50:54Z"
+            "nota": "carry batch aplicado, no tocado",
+            "t": "2026-10-06T16:19:19Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "mayusculas de nombres propios y tilde de echale corregidas (lineas 20-24); secciones puestas a mano (4) con un POST solo lrc; sin finales de linea con signos",
+            "t": "2026-10-06T16:19:19Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 43 lineas, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (206), sin tocar; hueco largo = instrumental, tambien en el original",
+            "t": "2026-10-06T16:19:19Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "162/164 mapeadas; 5 items nuevos en PROD con 19 idiomas; gemelas unificadas; quedan sin mapear solo un nombre propio y la etiqueta instrumental",
+            "t": "2026-10-06T16:19:20Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T16:19:20Z"
           }
         }
       }
@@ -9231,13 +9266,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:54:55Z",
+      "actualizado": "2026-10-06T16:19:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T10:54:55Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "dia->día en linea 33 (2 tokens); lineas 2 y 16 con palabra de menos vs original: nota de oido, cover canta distinto; marcadores Instrumental en 14 y 35 (original: lineas vacias)",
+            "t": "2026-10-06T16:19:19Z"
           }
         }
       }
