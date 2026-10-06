@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:15:14Z",
+  "generado": "2026-10-06T20:15:47Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17211,8 +17211,8 @@
       "artista": "Luis Miguel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T20:09:50Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:15:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17224,6 +17224,21 @@
             "v": "ok",
             "nota": "tildes si/como, comas finales quitadas (L1,7,17,25,31,36); ear-notes en informe",
             "t": "2026-10-06T20:09:50Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; hueco de 23 s antes de la linea 31 es instrumental; audio 206 SUENA_SIN_BLINDAR (timeline karaokeMp3), sin tocar",
+            "t": "2026-10-06T20:15:16Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear (226/226); 12 items nuevos con 19 idiomas; 16 remaps (gemelas, sentidos, tildes si/como); ad-lib yeh ya mapeada, listada",
+            "t": "2026-10-06T20:15:16Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo (43 lineas + 226 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T20:15:17Z"
           }
         }
       }
@@ -17479,14 +17494,34 @@
       "artista": "Rocio Durcal",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:51:09Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:15:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-06T16:51:09Z"
+            "nota": "carry batch aplicado, no tocado",
+            "t": "2026-10-06T20:15:32Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio: sin puntuacion final, sin palabras <40ms, qc_es sin hallazgos de letra",
+            "t": "2026-10-06T20:15:32Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; hueco largo en linea 24 = instrumental (original sin linea cantada en su hueco); audio_guard SUENA_SIN_BLINDAR sobre karaokeMp3: no se mide ni fija",
+            "t": "2026-10-06T20:15:32Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "171/171 mapeadas; gemelas unificadas (lineas 17,28,34,35); linea 2 ancla nueva",
+            "t": "2026-10-06T20:15:32Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T20:15:33Z"
           }
         }
       }
