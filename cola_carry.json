@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:29:19Z",
+  "generado": "2026-10-06T20:34:31Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -18345,14 +18345,34 @@
       "artista": "Marisela",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:49:24Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:34:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-06T16:49:24Z"
+            "nota": "carry batch ya aplicado; no tocado",
+            "t": "2026-10-06T20:34:01Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L1 minuscula, L40 y L44 tildes (compania, tu, querias); sin cambio de tokens ni timing. Ear-notes: L12 y L30 sin 'a' (sin evidencia richsync), L5 'te' del cover vs 'me' original, L1 'Me' cantada",
+            "t": "2026-10-06T20:34:01Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; hueco L24-L25 es instrumental en el original; audio_guard SUENA_SIN_BLINDAR (karaokeMp3), no se mide",
+            "t": "2026-10-06T20:34:02Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "10 huecos mapeados (14 items nuevos con 19 idiomas), 10 sentidos/gemelas unificados, phrase insight a pesar de en L19 L22 L37; sin locuciones nuevas (a ciegas, a la deriva) por crear",
+            "t": "2026-10-06T20:34:02Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json preparado (44 lineas + 216 WIT con DT, wit_dt_audit BAD 0); falta abrir el borrador",
+            "t": "2026-10-06T20:34:02Z"
           }
         }
       }
@@ -18499,13 +18519,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:50:45Z",
+      "actualizado": "2026-10-06T20:33:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 88%",
             "t": "2026-10-06T16:50:44Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L37 coma final quitada (LRC+richsync); resto limpio",
+            "t": "2026-10-06T20:33:09Z"
           }
         }
       }
