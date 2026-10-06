@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:11:25Z",
+  "generado": "2026-10-06T17:13:12Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -8969,14 +8969,34 @@
       "artista": "Rey Ruiz",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:50:49Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:12:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 86%",
-            "t": "2026-10-06T16:50:48Z"
+            "nota": "carry batch aplicado (48 lineas); aterrizo despues de mi primer fetch, trabajo rehecho sobre el estado de 48 lineas",
+            "t": "2026-10-06T17:12:44Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes corregidas; L5 palabra partida unida; coma final de L39 quitada (LRC y richsync); ninguna linea acaba en , . ; :",
+            "t": "2026-10-06T17:12:46Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 48 lineas, ninguna palabra <40 ms; audio 206, guard SUENA_SIN_BLINDAR, no se mide",
+            "t": "2026-10-06T17:12:46Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "304/304 ancladas (L40 ad-lib sin item); 11 items nuevos es 19 idiomas; gemelas unificadas; homografos con tilde revisados",
+            "t": "2026-10-06T17:12:47Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan listo en .singit/es_map/payloads/6aa6b6cc72ca57eb1aa40867/en_plan.json (48 lineas, 303 WIT con DT de su bolsa); falta abrir el borrador",
+            "t": "2026-10-06T17:12:47Z"
           }
         }
       }
@@ -11773,13 +11793,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:55:28Z",
+      "actualizado": "2026-10-06T17:11:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 96%",
             "t": "2026-10-06T16:55:28Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC: tildes de mí (lineas 18,25,40,47,54) y lágrimas (59); sin puntuacion final; ear-note linea 58 (quema/queman) y 59 (cover no canta el final del original)",
+            "t": "2026-10-06T17:11:56Z"
           }
         }
       }
