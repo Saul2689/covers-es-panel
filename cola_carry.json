@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:43:58Z",
+  "generado": "2026-10-06T15:45:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -7518,8 +7518,8 @@
       "artista": "José Luis Perales",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:40:44Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:45:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -7531,6 +7531,21 @@
             "v": "ok",
             "nota": "L5 irá con tilde; sin signos finales ni palabras <40ms; lai rara es lo que canta el cover (richsync), se deja",
             "t": "2026-10-06T15:40:44Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "20 anclas nuevas, 6 remapeos/gemelas, 13 items nuevos PROD 19 idiomas; restan solo vocablos lai rara (ad-lib)",
+            "t": "2026-10-06T15:44:48Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40ms; audio_guard SUENA_SIN_BLINDAR, no se mide",
+            "t": "2026-10-06T15:44:48Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T15:45:04Z"
           }
         }
       }
