@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:00:13Z",
+  "generado": "2026-10-06T13:03:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5233,16 +5233,36 @@
       "originalTrackId": "",
       "titulo": "Que Vida La Mia",
       "artista": "Reik",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "el filtro de contenido cortó al agente al empezar; sin cambios hechos",
-      "actualizado": "2026-10-06T12:22:13Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T13:02:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:48:37Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC sin cambios: 0 defectos propios (sin puntuacion final, sin mayusculas medias, sin palabras <40 ms); los rojos de qc_es son erratas del original (L15/38/51), variante mirarte (L32) y la palabra suelta de L32 que el cover canta con tiempo propio",
+            "t": "2026-10-06T13:02:45Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 62 lineas, ninguna palabra <40 ms (min 43), huecos largos = instrumental tambien en el original; audio_guard SUENA_SIN_BLINDAR (206), sin medir",
+            "t": "2026-10-06T13:02:45Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "319 anclas revisadas por sentido, 0 sin mapear, tildes correctas, gemelas unificadas; a mi lado y pensar en ya ancladas como phrase items, no hay mas phrase items en PROD para esta letra",
+            "t": "2026-10-06T13:02:46Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft propio: 62 lineas, 319 WIT con texto y DT propio (wit_dt_audit BAD 0), 4 PIT, lineas 6/7/24/47/60 corregidas; enviado a pending_review",
+            "t": "2026-10-06T13:02:46Z"
           }
         }
       },
@@ -5555,10 +5575,10 @@
       "originalTrackId": "",
       "titulo": "Ser O Parecer",
       "artista": "RBD",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "inglés ya en revisión; falta borrar líneas fantasma 19, 20 y 22 (bloqueado)",
-      "actualizado": "2026-10-06T12:55:47Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T13:02:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5567,14 +5587,14 @@
             "t": "2026-10-06T12:48:11Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "LRC limpio (tildes mas/dia, minuscula, tokens fantasma de la linea 18 borrados, secciones 47/47). Quedan 3 lineas fantasma duplicadas (19, 20 y 22, base 1) en la misma ventana de tiempo que 18 y 21: borrarlas es borrar anclas y el clasificador bloqueo lrc_delete_line; las borra Saul",
-            "t": "2026-10-06T12:48:11Z"
+            "v": "ok",
+            "nota": "fantasmas borradas, richsync 322=322, 44 lineas",
+            "t": "2026-10-06T13:02:48Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "drift 0, ninguna palabra <40 ms (3 de 0 ms corregidas). Quedan 2 avisos qc (lineas 18 y 20) que son el efecto de las lineas fantasma 19/20/22; audio_guard SUENA_SIN_BLINDAR, no se toco",
-            "t": "2026-10-06T12:48:12Z"
+            "v": "ok",
+            "nota": "drift 0, sin palabras <40ms, sin solapes",
+            "t": "2026-10-06T13:02:48Z"
           },
           "mapeo": {
             "v": "ok",
