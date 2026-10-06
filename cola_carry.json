@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T18:12:13Z",
+  "generado": "2026-10-06T18:13:55Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -14697,8 +14697,8 @@
       "artista": "Miguel Gallardo",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T18:09:49Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:13:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14710,6 +14710,21 @@
             "v": "ok",
             "nota": "linea 14 capital y comas; resto limpio; 2 ear-notes lineas 3-4",
             "t": "2026-10-06T18:09:49Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio SUENA_SIN_BLINDAR sin tocar (karaokeMp3, 206)",
+            "t": "2026-10-06T18:13:35Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; remapeos L1 L8 L12 L15 L17 L19 L33 L38; anclas nuevas L14 L21 L22 L26; items nuevos romperlo y destrozada(+2 formas) con 19 idiomas; ear-notes lineas 3-4",
+            "t": "2026-10-06T18:13:35Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json preparado (38 lineas, 192 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T18:13:35Z"
           }
         }
       }
@@ -14722,14 +14737,34 @@
       "artista": "Romeo Santos",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:01:31Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:13:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 88%",
             "t": "2026-10-06T15:01:31Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "7 tokens: tildes, mayusculas; sin punto final",
+            "t": "2026-10-06T18:13:39Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; hueco de 38 s antes de linea 31, nota de oido para Saul; audio karaokeMp3 sin tocar",
+            "t": "2026-10-06T18:13:39Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo nombres propios; 6 items nuevos con 19 idiomas; gemelas unificadas",
+            "t": "2026-10-06T18:13:39Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json (39 lineas, 276 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T18:13:40Z"
           }
         }
       }
