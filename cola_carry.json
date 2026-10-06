@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:10:41Z",
+  "generado": "2026-10-06T13:13:52Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -1735,10 +1735,10 @@
       "originalTrackId": "",
       "titulo": "Criminal",
       "artista": "Natti Natasha, Ozuna",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC: linea 45 borrada; lineas 44 y 49 AVISO de oido",
-      "actualizado": "2026-10-06T13:04:20Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T13:13:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -1765,7 +1765,23 @@
             "v": "ok",
             "nota": "ingles a mano (Second Brain sin credito): 66 lineas + 341 WIT, wit_dt_audit BAD 0, enviado a pending_review",
             "t": "2026-09-29T17:32:46Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "linea fantasma borrada: solo se perdieron sus 3 anclas; estructura, mapeo, ingles pending_review y audio ok",
+            "t": "2026-10-06T13:13:28Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "linea fantasma borrada: solo se perdieron sus 3 anclas; estructura, mapeo, ingles pending_review y audio ok",
+          "t": "2026-10-06T13:13:28Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T13:13:29Z"
         }
       },
       "motivo_en": "ready for QC: stray line 45 deleted; lines 44 and 49 are ear-doubt notices"
@@ -3471,7 +3487,7 @@
       "estado": "correccion",
       "vueltas": 0,
       "motivo": "Saul aprobo el borrado de las 28 copias B; retomada",
-      "actualizado": "2026-10-06T13:03:44Z",
+      "actualizado": "2026-10-06T13:11:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -3480,14 +3496,14 @@
             "t": "2026-09-30T09:09:37Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "doble capa del proveedor: 28 lineas duplicadas por borrar (lrc_delete_line bloqueado por el clasificador); ver jobs/6aa6997e72ca57eb1aa25eb5.md",
-            "t": "2026-10-06T10:56:58Z"
+            "v": "ok",
+            "nota": "copias B borradas (28 lineas + 6 copias dentro de linea); 46 lineas; sin puntuacion final; tildes lineas 18 y 38",
+            "t": "2026-10-06T13:11:26Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "depende del borrado de las copias B (palabras de 0 ms y lineas solapadas)",
-            "t": "2026-10-06T10:57:00Z"
+            "v": "ok",
+            "nota": "palabras de 0 ms pasadas a su copia A; drift 0; 0 palabras <40 ms; duraciones de linea recalculadas",
+            "t": "2026-10-06T13:11:27Z"
           }
         }
       },
@@ -5079,10 +5095,10 @@
       "originalTrackId": "",
       "titulo": "Sexy Robotica",
       "artista": "Don Omar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T13:00:10Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T13:13:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5109,7 +5125,23 @@
             "v": "ok",
             "nota": "enviado a pending_review (permiso de Saúl)",
             "t": "2026-10-06T13:00:10Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, 26 items nuevos, ingles pending_review, wit_dt BAD 0; nota: L1-2/L26 por fonetica, oir",
+            "t": "2026-10-06T13:13:15Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, 26 items nuevos, ingles pending_review, wit_dt BAD 0; nota: L1-2/L26 por fonetica, oir",
+          "t": "2026-10-06T13:13:15Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T13:13:16Z"
         }
       },
       "motivo_en": "English draft complete; submit to pending_review was blocked by permissions"
@@ -5255,10 +5287,10 @@
       "originalTrackId": "",
       "titulo": "Que Vida La Mia",
       "artista": "Reik",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T13:02:46Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "ingles L8 duplica el verbo de L7: reabrir draft, corregir L8 y reenviar a pending_review; nota L31 opcional",
+      "actualizado": "2026-10-06T13:13:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5285,7 +5317,17 @@
             "v": "ok",
             "nota": "draft propio: 62 lineas, 319 WIT con texto y DT propio (wit_dt_audit BAD 0), 4 PIT, lineas 6/7/24/47/60 corregidas; enviado a pending_review",
             "t": "2026-10-06T13:02:46Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ingles L8 duplica el verbo de L7 (reescribir como continuacion, reenviar draft a pending_review); resto OK (estructura, anclas, WIT, DT, audio)",
+            "t": "2026-10-06T13:13:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ingles L8 duplica el verbo de L7 (reescribir como continuacion, reenviar draft a pending_review); resto OK (estructura, anclas, WIT, DT, audio)",
+          "t": "2026-10-06T13:13:29Z"
         }
       },
       "motivo_en": "Agent stopped by the API content filter at the start; no changes made"
@@ -27353,10 +27395,10 @@
       "originalTrackId": "6aa7ba7ff0f8e5713e69b688",
       "titulo": "Devuelveme El Corazon",
       "artista": "Julio Jaramillo",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "casi hecha: el classifier bloqueó escribir las traducciones a 19 idiomas de 6 items nuevos (lote listo). Con el permiso de Saúl: aplicar el lote, poner el DT de 7 WIT y enviar el borrador",
-      "actualizado": "2026-09-29T16:36:59Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T13:13:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27375,15 +27417,31 @@
             "t": "2026-09-29T16:36:20Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "8 huecos mapeados y sentidos/gemelas unificados; 6 items nuevos creados en PROD PERO sin traducir: prod_write bloqueado por el clasificador; lote en .singit/es_map/payloads/6aa1110e64c9b8ff110c5f77/lote_trad.json",
-            "t": "2026-09-29T16:36:20Z"
+            "v": "ok",
+            "nota": "6 items nuevos con 19 idiomas y primario verificados; 0 sin mapear salvo ad-libs",
+            "t": "2026-10-06T13:13:33Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "draft abierto (sin enviar): lineas OK y WIT con texto; 7 WIT de items nuevos sin DT hasta aplicar el lote de traducciones; luego enviar a pending_review",
-            "t": "2026-09-29T16:36:21Z"
+            "v": "ok",
+            "nota": "borrador EN en pending_review: 32/32 lineas, 0 WIT vacios, wit_dt_audit BAD 0",
+            "t": "2026-10-06T13:13:33Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "6 items nuevos con 19 idiomas y primario; estructura, mapeo, ingles pending_review y audio ok; nota de oido linea 7",
+            "t": "2026-10-06T13:13:26Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "6 items nuevos con 19 idiomas y primario; estructura, mapeo, ingles pending_review y audio ok; nota de oido linea 7",
+          "t": "2026-10-06T13:13:26Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T13:13:34Z"
         }
       },
       "motivo_en": "almost done: the classifier blocked writing the 19-language translations of 6 new items (batch ready). With Saúl's permission: apply the batch, set the DT on 7 WITs and submit the draft"
