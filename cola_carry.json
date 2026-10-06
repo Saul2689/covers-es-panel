@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:28:13Z",
+  "generado": "2026-10-06T15:29:28Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -7037,14 +7037,34 @@
       "artista": "Los Angeles Azules",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:49:17Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:29:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:49:17Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio; secciones puestas (33/33); 3 diferencias con el original son lo que canta el cover (lineas 14, 25, 26): oido para Saul",
+            "t": "2026-10-06T15:29:02Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra < 40 ms; hueco largo de la linea 23 es instrumental tambien en el original; audio suena (206), sin blindar, no se mide",
+            "t": "2026-10-06T15:29:02Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "196/196 mapeadas; 12 items nuevos con 19 idiomas; 9 remapeos de gemelas; frases por fin y de una vez",
+            "t": "2026-10-06T15:29:02Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en es_map/payloads/<id>/en_plan.json; falta abrir el borrador",
+            "t": "2026-10-06T15:29:02Z"
           }
         }
       }
@@ -7058,7 +7078,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T15:27:51Z",
+      "actualizado": "2026-10-06T15:29:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -7068,8 +7088,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "llegas->ciegas en 4 lineas (27,47,59,67); resto limpio",
-            "t": "2026-10-06T15:22:40Z"
+            "nota": "palabra 5 de lineas 27/47/59/67 devuelta a la del cover (ear-note para Saul); resto limpio",
+            "t": "2026-10-06T15:29:24Z"
           },
           "timing": {
             "v": "ok",
