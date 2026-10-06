@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:32:49Z",
+  "generado": "2026-10-06T16:33:39Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9847,13 +9847,33 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:56:47Z",
+      "actualizado": "2026-10-06T16:33:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-10-06T10:56:46Z"
+            "nota": "carry en lote aplicado (>=85%)",
+            "t": "2026-10-06T16:33:38Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "12 pegadas partidas en 2-3 palabras (lineas 7,9,11,14,16,22,25,31,32,34,40,46), parentesis del eco en 15/33; la 'y' de la linea 3 queda como nota de oido (sin richsync)",
+            "t": "2026-10-06T16:33:39Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms, audio SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T16:33:39Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "316/316 ancladas, gemelas unificadas, sentidos revisados; 8 items nuevos con 19 idiomas",
+            "t": "2026-10-06T16:33:39Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de ingles preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T16:33:39Z"
           }
         }
       }
@@ -9906,14 +9926,34 @@
       "artista": "Alejandra Guzmán",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:57:03Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:33:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T10:57:02Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 41 token 1 acento; resto limpio, sin puntuacion final, sin palabras <40 ms",
+            "t": "2026-10-06T16:33:30Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0, 0 palabras <40 ms; audio_guard SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T16:33:30Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, gemelas unificadas; 8 items nuevos con 19 idiomas; fila inglesa primaria en vendes",
+            "t": "2026-10-06T16:33:31Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json (51 lineas + 236 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T16:33:31Z"
           }
         }
       }
@@ -9966,14 +10006,34 @@
       "artista": "Conjunto Primavera",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:57:21Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:33:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T10:57:21Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de ingles listo en es_map/payloads/6aa72bc372ca57eb1aae7f34/en_plan.json (37 lineas, 209 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T16:33:12Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC igual que el original; una tilde de mas corregida (L14 tok 4); sin puntuacion final",
+            "t": "2026-10-06T16:33:12Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0; ninguna palabra <40 ms; audio SUENA_SIN_BLINDAR, sin tocar",
+            "t": "2026-10-06T16:33:15Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "209/209 mapeadas, gemelas unificadas, 7 items nuevos con 19 idiomas, dejara remapeado al sentido dejar que",
+            "t": "2026-10-06T16:33:15Z"
           }
         }
       }
@@ -13749,8 +13809,8 @@
       "artista": "la Linea",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:41Z"
+      "motivo": "enlazada; carry al 72%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:33:26Z"
     },
     {
       "coverTrackId": "6aa59be242b8d1fdb0d15b85",
@@ -14035,8 +14095,8 @@
       "artista": "Juan Luis Guerra",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:52Z"
+      "motivo": "enlazada; carry al 75%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:33:09Z"
     },
     {
       "coverTrackId": "6aa5e50542b8d1fdb0d76d01",
@@ -14123,8 +14183,8 @@
       "artista": "Leonardo Favio",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:53Z"
+      "motivo": "enlazada; carry al 84%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:33:33Z"
     },
     {
       "coverTrackId": "6aa5f83942b8d1fdb0d93c65",
@@ -14134,8 +14194,8 @@
       "artista": "La India",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:54Z"
+      "motivo": "enlazada; carry al 71%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:33:24Z"
     },
     {
       "coverTrackId": "6aa5b70842b8d1fdb0d2f843",
@@ -14814,8 +14874,8 @@
       "artista": "Juan Gabriel",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:00Z"
+      "motivo": "enlazada; carry al 64%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:33:01Z"
     },
     {
       "coverTrackId": "6aa044811db6d36fd09ff4f6",
@@ -15195,8 +15255,8 @@
       "artista": "Juan Luis Guerra",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:11Z"
+      "motivo": "enlazada; carry al 84%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:33:16Z"
     },
     {
       "coverTrackId": "6aa59fb642b8d1fdb0d1d862",
@@ -15780,8 +15840,8 @@
       "artista": "Juan Luis Guerra",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:26Z"
+      "motivo": "enlazada; carry al 69%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:33:12Z"
     },
     {
       "coverTrackId": "6aa05698edf059217a4f69e0",
@@ -16077,8 +16137,8 @@
       "artista": "Laura Pausini",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:37Z"
+      "motivo": "enlazada; carry al 77%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:33:29Z"
     },
     {
       "coverTrackId": "6aa6176d42b8d1fdb0db6be8",
@@ -16088,8 +16148,8 @@
       "artista": "Lisandro Meza",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:37Z"
+      "motivo": "enlazada; carry al 61%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:33:38Z"
     },
     {
       "coverTrackId": "6aa569ad42b8d1fdb0ccb9c9",
@@ -16462,8 +16522,8 @@
       "artista": "Johnny Rivera, Ray Sepulveda",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:49Z"
+      "motivo": "enlazada; carry al 57%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:32:53Z"
     },
     {
       "coverTrackId": "6aa1114864c9b8ff110d3735",
