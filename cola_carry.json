@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:34:23Z",
+  "generado": "2026-10-06T16:36:01Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9042,8 +9042,8 @@
       "artista": "Mana",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:10Z"
+      "motivo": "enlazada; carry al 77%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:34:43Z"
     },
     {
       "coverTrackId": "6aa56d0c42b8d1fdb0cd0626",
@@ -10151,8 +10151,8 @@
       "artista": "Rocio Durcal",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:32:13Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:35:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10164,6 +10164,21 @@
             "v": "ok",
             "nota": "puntuacion suelta (lineas 15,21,25), tildes se->sé (16) y tambien->también (24); resto limpio",
             "t": "2026-10-06T16:32:13Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; palabra final larga (l26) y hueco l14-15 coinciden con el original; audio_guard SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T16:35:37Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, gemelas unificadas, sentir remapeado al sentido correcto, 2 locuciones nuevas con phrase insight; ver informe",
+            "t": "2026-10-06T16:35:37Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de ingles preparado en en_plan.json; falta abrir el borrador",
+            "t": "2026-10-06T16:35:37Z"
           }
         }
       }
@@ -10177,13 +10192,28 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:58:09Z",
+      "actualizado": "2026-10-06T16:35:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T10:58:08Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "mas->mas con tilde x4, dieciseis acentuado; resto justificado (lineas 9 y 24 ver informe)",
+            "t": "2026-10-06T16:35:45Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T16:35:45Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "10 huecos mapeados, 2 items nuevos, gemelas 16/28 unificadas",
+            "t": "2026-10-06T16:35:45Z"
           }
         }
       }
@@ -10197,13 +10227,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:58:16Z",
+      "actualizado": "2026-10-06T16:34:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T10:58:15Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L26 tilde, L28 puntuacion/tilde; resto limpio (tal vez = 2 palabras, es correcto)",
+            "t": "2026-10-06T16:34:42Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms, hueco L16-17 es instrumental en el original; audio SUENA_SIN_BLINDAR (no tocar)",
+            "t": "2026-10-06T16:34:52Z"
           }
         }
       }
@@ -10682,8 +10722,8 @@
       "artista": "Luis Miguel",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:16Z"
+      "motivo": "enlazada; carry al 59%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:34:24Z"
     },
     {
       "coverTrackId": "6aa53f4a42b8d1fdb0ca3c22",
@@ -10759,8 +10799,8 @@
       "artista": "Randy",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:18Z"
+      "motivo": "enlazada; carry al 46%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:35:49Z"
     },
     {
       "coverTrackId": "6aa6414472ca57eb1a9abd14",
@@ -13445,8 +13485,8 @@
       "artista": "Olga Tañon",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:28Z"
+      "motivo": "enlazada; carry al 57%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:35:11Z"
     },
     {
       "coverTrackId": "6aa653e372ca57eb1a9c0610",
@@ -13863,8 +13903,8 @@
       "artista": "Luis Miguel",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:43Z"
+      "motivo": "enlazada; carry al 74%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:34:35Z"
     },
     {
       "coverTrackId": "6aa72e1672ca57eb1aaeae97",
@@ -15397,8 +15437,8 @@
       "artista": "Raphael",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:15Z"
+      "motivo": "enlazada; carry al 82%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:35:44Z"
     },
     {
       "coverTrackId": "6ab23082ca8a8ee8c446f123",
@@ -16213,8 +16253,8 @@
       "artista": "Ana Torroja, Miguel Bose",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:39Z"
+      "motivo": "enlazada; carry al 65%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:35:01Z"
     },
     {
       "coverTrackId": "6aa6335972ca57eb1a99149e",
@@ -16257,8 +16297,8 @@
       "artista": "Orquesta Guayacan",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:40Z"
+      "motivo": "enlazada; carry al 71%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:35:13Z"
     },
     {
       "coverTrackId": "6aa5c4f242b8d1fdb0d44d57",
@@ -16444,8 +16484,8 @@
       "artista": "Proyecto Uno",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:46Z"
+      "motivo": "enlazada; carry al 42%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:35:36Z"
     },
     {
       "coverTrackId": "6aa5e1e142b8d1fdb0d71909",
