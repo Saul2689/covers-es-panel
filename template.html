@@ -453,7 +453,9 @@ tailwind.config={theme:{extend:{
   function llaveArt(a){
     return cabeza(a).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()
       .replace(/\s*&\s*/g,' ').replace(/\by\b/g,' ')
-      .replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
+      /* Fuera tambien los espacios: "Gian Marco" y "Gianmarco" son el
+         mismo, y "Juan Luis Guerra 4.40" y "440" tambien. */
+      .replace(/[^a-z0-9]/g,'');
   }
   function tildes(s){ return (s.normalize('NFD').match(/[\u0300-\u036f]/g)||[]).length; }
 
