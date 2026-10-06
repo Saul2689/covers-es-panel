@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T18:10:21Z",
+  "generado": "2026-10-06T18:11:48Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -14501,14 +14501,34 @@
       "artista": "Nikki Clan",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:12:43Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:11:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 93%",
-            "t": "2026-10-06T14:12:43Z"
+            "nota": "carry batch aplicado, sin tocar",
+            "t": "2026-10-06T18:11:32Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes/mayusculas/comas finales/yte partida/secciones; ecos del proveedor se quedan",
+            "t": "2026-10-06T18:11:32Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "0 palabras <40 ms, deriva 0; ecos solapados sin borrar; audio SUENA_SIN_BLINDAR (karaokeMp3), sin medir",
+            "t": "2026-10-06T18:11:33Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "358/360 ancladas; 6 items nuevos 19 idiomas; hi hi sin mapear (ad-lib)",
+            "t": "2026-10-06T18:11:33Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json (66 lineas, 357 WIT); falta abrir el borrador",
+            "t": "2026-10-06T18:11:33Z"
           }
         }
       }
@@ -14612,14 +14632,34 @@
       "artista": "Shakira",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:12:55Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:11:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 97%",
             "t": "2026-10-06T14:12:55Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "sin cambios de texto; solo secciones puestas a mano (51/51) desde la estructura del original; la linea 20 no trae la palabra inicial del original (sin evidencia en richsync) y las lineas 49-50 son otra version cantada: notas de oido",
+            "t": "2026-10-06T18:11:37Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 51 lineas, ninguna palabra < 40 ms, sin puntuacion final; audio SUENA_SIN_BLINDAR sirviendo karaokeMp3: no se mide ni se fija nada",
+            "t": "2026-10-06T18:11:37Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "224/224 cubiertos: 8 items es nuevos con 19 idiomas, 1 phrase item con 19 idiomas y 3 anclas de frase, gemelas unificadas, 1 remapeo de sentido; filas en en para 2 items con bolsa vacia",
+            "t": "2026-10-06T18:11:37Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json (51 lineas, 217 WIT con DT, 3 PIT); falta abrir el borrador (start_draft prohibido en este brief)",
+            "t": "2026-10-06T18:11:38Z"
           }
         }
       }
@@ -14703,7 +14743,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T18:10:11Z",
+      "actualizado": "2026-10-06T18:10:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14712,9 +14752,14 @@
             "t": "2026-10-06T15:01:35Z"
           },
           "lrc": {
-            "v": "falta",
-            "nota": "acentos/tilde y mayuscula corregidos (una escritura); falta tiempos",
-            "t": "2026-10-06T18:10:11Z"
+            "v": "ok",
+            "nota": "acentos/tilde, mayuscula y comas medias corregidos; fantasmas duplicados del proveedor sin borrar (ver informe)",
+            "t": "2026-10-06T18:10:59Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "26 palabras de 0 ms retimadas a 40 ms (mueve el fin de la anterior); linea 5 empieza 40 ms antes; deriva 0",
+            "t": "2026-10-06T18:10:59Z"
           }
         }
       }
