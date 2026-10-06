@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T19:58:19Z",
+  "generado": "2026-10-06T20:00:41Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -16405,8 +16405,8 @@
       "artista": "Jennifer Lopez",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T19:52:52Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T19:59:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16418,6 +16418,21 @@
             "v": "ok",
             "nota": "8 tokens: tildes en que(5 lineas) y olvido(3 lineas); sin signos finales ni mayusculas; el se extra (L18/38/46) lo canta el cover: se deja",
             "t": "2026-10-06T19:52:52Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, 0 palabras <40 ms, secciones 48/48 (generateSections); hueco L41 = instrumental (original igual); audio: karaokeMp3, 206, SUENA_SIN_BLINDAR: no se toca",
+            "t": "2026-10-06T19:59:17Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 14 items nuevos con 19 idiomas; 49 anclas escritas (items nuevos, que->que con tilde x5, olvido->olvido con tilde x3, gemelas unificadas); items se/se-intransitivador completados",
+            "t": "2026-10-06T19:59:18Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan completo (48 lineas + 329 WIT con DT) en es_map/payloads/6aa7490372ca57eb1ab16cc4/en_plan.json; falta abrir el borrador",
+            "t": "2026-10-06T19:59:18Z"
           }
         }
       }
@@ -16430,14 +16445,34 @@
       "artista": "Valentín Elizalde",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:04:50Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T19:58:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-06T15:04:49Z"
+            "nota": "aplicado en batch (>=85%), no se toca",
+            "t": "2026-10-06T19:58:25Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L14 'por que' separado en dos palabras (insert cronometrado); secciones puestas a mano; sin puntuacion final; mayusculas medias = nombres propios",
+            "t": "2026-10-06T19:58:51Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0; palabra de 30 ms en L1 ensanchada; hueco L17-L18 es instrumental en el original; audio SUENA_SIN_BLINDAR (karaokeMp3), no tocado",
+            "t": "2026-10-06T19:58:52Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo 6 nombres propios; 9 items nuevos + frase 'de pasada' (19 idiomas); en L14 por-que como frase",
+            "t": "2026-10-06T19:58:52Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en .singit/es_map/payloads/6aa6fba772ca57eb1aa9bf11/en_plan.json (26 lineas, 196 WIT con DT, 2 PIT); falta abrir el borrador",
+            "t": "2026-10-06T19:58:52Z"
           }
         }
       }
@@ -16490,14 +16525,34 @@
       "artista": "Luis Miguel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:04:56Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T19:58:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 95%",
-            "t": "2026-10-06T15:04:56Z"
+            "nota": "carry por lote ya aplicado; no tocado",
+            "t": "2026-10-06T19:58:32Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "2 erratas de acento corregidas (lineas 11 y 25, mismo token); secciones generadas 32/32; pendiente solo ear-notes",
+            "t": "2026-10-06T19:58:32Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; hueco de 26 s tras la linea 18 = instrumental del original; audio SUENA_SIN_BLINDAR (karaokeMp3, 206): no se mide ni se fija",
+            "t": "2026-10-06T19:58:33Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 135 anclas; gemelas unificadas; item nuevo estrechame creado con 19 idiomas; esté remapeado en L11/L25",
+            "t": "2026-10-06T19:58:33Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de ingles en es_map/payloads/<id>/en_plan.json (32 lineas + 135 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T19:58:33Z"
           }
         }
       }
