@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:17:11Z",
+  "generado": "2026-10-06T13:18:10Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -3504,10 +3504,10 @@
       "originalTrackId": "",
       "titulo": "Solo Quedate En Silencio",
       "artista": "RBD",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "Saul aprobo el borrado de las 28 copias B; retomada",
-      "actualizado": "2026-10-06T13:11:27Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T13:17:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -3517,13 +3517,23 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "copias B borradas (28 lineas + 6 copias dentro de linea); 46 lineas; sin puntuacion final; tildes lineas 18 y 38",
-            "t": "2026-10-06T13:11:26Z"
+            "nota": "28 copias B borradas + 6 copias dentro de linea; 46 lineas; tildes lineas 18 y 38; sin puntuacion final",
+            "t": "2026-10-06T13:17:55Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "palabras de 0 ms pasadas a su copia A; drift 0; 0 palabras <40 ms; duraciones de linea recalculadas",
-            "t": "2026-10-06T13:11:27Z"
+            "nota": "0 palabras de 0 ms, 0 <40 ms, drift 0 en 46 lineas; audio SUENA_SIN_BLINDAR sin accion",
+            "t": "2026-10-06T13:17:55Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "219/219; 3 items nuevos con 19 idiomas (derramas, guardare, hielo verbo); gemelas unificadas; 0 anclas fuera de rango",
+            "t": "2026-10-06T13:17:56Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "46 lineas a mano + 219 WIT con texto y DT propio; wit_dt_audit BAD 0; pending_review",
+            "t": "2026-10-06T13:17:56Z"
           }
         }
       },
