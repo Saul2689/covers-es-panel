@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T14:36:14Z",
+  "generado": "2026-10-06T14:36:35Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4231,10 +4231,10 @@
       "originalTrackId": "",
       "titulo": "Quiereme Mientras Se Pueda",
       "artista": "Manuel Turizo",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T14:28:52Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC devuelto: L5/21/40 tok0 remap (que causal), L8/24/43 ingles+WIT, L12 PIT",
+      "actualizado": "2026-10-06T14:36:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4261,7 +4261,17 @@
             "v": "ok",
             "nota": "54/54 lineas y 341 WIT con texto y DT propio, BAD 0; pending_review",
             "t": "2026-10-06T14:28:52Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L5/21/40 tok0 remap a que causal 6a56283842749e86862b756f; L8/24/43 ingles de linea y WIT tok3/7/8 con sentido equivocado; L12 PIT con negacion fuera del span",
+            "t": "2026-10-06T14:36:14Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L5/21/40 tok0 remap a que causal 6a56283842749e86862b756f; L8/24/43 ingles de linea y WIT tok3/7/8 con sentido equivocado; L12 PIT con negacion fuera del span",
+          "t": "2026-10-06T14:36:14Z"
         }
       }
     },
@@ -4578,13 +4588,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:36:16Z",
+      "actualizado": "2026-10-06T14:36:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 93%",
-            "t": "2026-10-06T13:36:16Z"
+            "nota": "carry en lote ya aplicado, no se toca",
+            "t": "2026-10-06T14:36:35Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes (será, tú, está, tras, este), mis, A un partido en dos tokens, Yo; sin puntuación final; justificadas: líneas 3 y 9-10/31-32 (partidas), 26, 30, 42, 53",
+            "t": "2026-10-06T14:36:35Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 56 líneas, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (206), sin medir ni fijar",
+            "t": "2026-10-06T14:36:35Z"
           }
         }
       }
