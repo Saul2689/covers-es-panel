@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:04:44Z",
+  "generado": "2026-10-06T13:08:30Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -788,10 +788,10 @@
       "originalTrackId": "6aa7d3ab387e9481dd7dba06",
       "titulo": "Me Entrego A Ti",
       "artista": "Ha*Ash",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "el classifier bloqueó arreglar una palabra de 0 ms en la línea 79; duda de oído: posible eco tras la línea 32 que el original tiene",
-      "actualizado": "2026-09-29T17:18:04Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "quitar la coma final de las lineas 37 y 81 (lrc y punctuatedWord)",
+      "actualizado": "2026-10-06T13:08:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -818,7 +818,17 @@
             "v": "ok",
             "nota": "draft en pending_review; WIT/DT rehechos, BAD 0, 0 anclas sin texto, 83 lineas",
             "t": "2026-09-29T17:17:31Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "lineas 37 y 81 acaban en coma (lrc y ultima palabra); resto OK (linea 79 arreglada, drift 0, ingles BAD 0)",
+            "t": "2026-10-06T13:08:00Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "lineas 37 y 81 acaban en coma (lrc y ultima palabra); resto OK (linea 79 arreglada, drift 0, ingles BAD 0)",
+          "t": "2026-10-06T13:08:00Z"
         }
       },
       "motivo_en": "the classifier blocked fixing a 0 ms word on line 79; ear doubt: a possible echo after line 32 that the original has"
@@ -2198,10 +2208,10 @@
       "originalTrackId": "",
       "titulo": "Secreto",
       "artista": "Annual Aa, Karol G",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 3,
-      "motivo": "puntuacion final quitada; falta adelantar 400 ms el inicio de la linea 7 y el sistema bloqueo el cambio; decide Saul",
-      "actualizado": "2026-10-06T10:59:26Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T13:08:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2230,15 +2240,21 @@
             "t": "2026-09-30T10:00:31Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "unico defecto: 13 lineas acaban en , . ; : (10, 12, 22, 24, 30, 32, 36, 45, 47, 53, 56, 64, 67); borrado 22/46, falta/errata, ingles y e'un OK",
-            "t": "2026-10-06T10:56:01Z"
+            "v": "ok",
+            "nota": "ronda 3: linea 7 y 3 palabras cortas verificadas, 0 lineas con puntuacion final, drift 0, ingles pending_review BAD 0; 3 solapes de eco justificados",
+            "t": "2026-10-06T13:07:59Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "unico defecto: 13 lineas acaban en , . ; : (10, 12, 22, 24, 30, 32, 36, 45, 47, 53, 56, 64, 67); borrado 22/46, falta/errata, ingles y e'un OK",
-          "t": "2026-10-06T10:56:01Z"
+          "v": "VERDE",
+          "resumen": "ronda 3: linea 7 y 3 palabras cortas verificadas, 0 lineas con puntuacion final, drift 0, ingles pending_review BAD 0; 3 solapes de eco justificados",
+          "t": "2026-10-06T13:07:59Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T13:08:00Z"
         }
       },
       "motivo_en": "trailing punctuation removed; line 7 start needs moving 400 ms earlier and the system blocked it; Saul decides"
@@ -3229,10 +3245,10 @@
       "originalTrackId": "",
       "titulo": "Hilito",
       "artista": "Romeo Santos",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "todo listo salvo 1 enlace erroneo en la linea 22 (palabra inglesa enlazada a un apodo de otra cancion); quitarlo necesita OK de Saul",
-      "actualizado": "2026-10-06T11:28:28Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T13:08:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -3261,21 +3277,21 @@
             "t": "2026-10-06T11:21:10Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "linea 22 tok 2: palabra inglesa anclada a item apodo 'Many' (sentido erroneo); resto de sentidos y homografos OK",
-            "t": "2026-10-06T11:28:12Z"
+            "v": "ok",
+            "nota": "ronda 2: unico defecto (ancla linea 22 tok 2 a item ajeno) quitado con OK de Saul; 0 fuera de rango, 0 duplicadas, WIT vacios 0, wit_dt BAD 0",
+            "t": "2026-10-06T13:08:23Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "linea 22 tok 2: palabra inglesa anclada a item apodo 'Many' (sentido erroneo); resto de sentidos y homografos OK",
-          "t": "2026-10-06T11:28:12Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: unico defecto (ancla linea 22 tok 2 a item ajeno) quitado con OK de Saul; 0 fuera de rango, 0 duplicadas, WIT vacios 0, wit_dt BAD 0",
+          "t": "2026-10-06T13:08:23Z"
         },
         "audio": {
           "v": "SUENA_SIN_BLINDAR",
           "audio": 206,
           "timeline": "karaokeMp3",
-          "t": "2026-10-06T11:27:17Z"
+          "t": "2026-10-06T13:08:24Z"
         }
       }
     },
@@ -5575,10 +5591,10 @@
       "originalTrackId": "",
       "titulo": "Ser O Parecer",
       "artista": "RBD",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T13:02:49Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T13:07:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5605,7 +5621,23 @@
             "v": "ok",
             "nota": "enviado a pending_review",
             "t": "2026-10-06T12:55:47Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ghosts gone, 44 lineas, drift 0, mapeo/ingles/items nuevos OK, errata ya/volver justificadas",
+            "t": "2026-10-06T13:07:23Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "ghosts gone, 44 lineas, drift 0, mapeo/ingles/items nuevos OK, errata ya/volver justificadas",
+          "t": "2026-10-06T13:07:23Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T13:07:24Z"
         }
       },
       "motivo_en": "English submitted; deleting ghost lines 19/20/22 is blocked"
