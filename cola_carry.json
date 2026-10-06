@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:42:17Z",
+  "generado": "2026-10-06T17:42:44Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9833,7 +9833,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 79%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:30:16Z"
+      "actualizado": "2026-10-06T17:42:17Z"
     },
     {
       "coverTrackId": "6aa77a6472ca57eb1accb810",
@@ -9895,7 +9895,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 74%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:30:18Z"
+      "actualizado": "2026-10-06T17:42:19Z"
     },
     {
       "coverTrackId": "6aa53a5842b8d1fdb0c9da65",
@@ -11874,7 +11874,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 59%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:30:21Z"
+      "actualizado": "2026-10-06T17:42:22Z"
     },
     {
       "coverTrackId": "6aa53f4a42b8d1fdb0ca3c22",
@@ -11896,7 +11896,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 72%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:30:23Z"
+      "actualizado": "2026-10-06T17:42:24Z"
     },
     {
       "coverTrackId": "6aa81380d951e1665a7f7855",
@@ -12038,7 +12038,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 46%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:30:26Z"
+      "actualizado": "2026-10-06T17:42:28Z"
     },
     {
       "coverTrackId": "6aa6414472ca57eb1a9abd14",
@@ -12260,7 +12260,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 78%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:30:28Z"
+      "actualizado": "2026-10-06T17:42:31Z"
     },
     {
       "coverTrackId": "6aa805d8d951e1665a7e3234",
@@ -12311,7 +12311,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 78%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:30:31Z"
+      "actualizado": "2026-10-06T17:42:33Z"
     },
     {
       "coverTrackId": "6aa511a942b8d1fdb0c60b07",
@@ -12362,7 +12362,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:30:33Z"
+      "actualizado": "2026-10-06T17:42:36Z"
     },
     {
       "coverTrackId": "6aa1113d64c9b8ff110d03d9",
@@ -12504,7 +12504,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:30:36Z"
+      "actualizado": "2026-10-06T17:42:39Z"
     },
     {
       "coverTrackId": "6aa686b572ca57eb1aa07bde",
@@ -12675,7 +12675,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:30:39Z"
+      "actualizado": "2026-10-06T17:42:41Z"
     },
     {
       "coverTrackId": "6aa822d2d951e1665a80cde3",
@@ -13168,8 +13168,8 @@
       "artista": "Kany Garcia",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:35:38Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:42:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13181,6 +13181,21 @@
             "v": "ok",
             "nota": "trailing commas, mid-line capital, accent on one word fixed; 2 ear-notes (missing word in L21/39/58 chorus vs original; no richsync evidence)",
             "t": "2026-10-06T17:35:38Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 on 59 lines, no word under 40 ms; audio_guard SUENA_SIN_BLINDAR (206), nothing measured or pinned",
+            "t": "2026-10-06T17:42:26Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 unmapped except ad-lib syllables; 11 new items with 19 langs; twins unified; wrong-sense deseo and como remapped; sections set by hand (9)",
+            "t": "2026-10-06T17:42:27Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json prepared (59 lines + 301 WITs with own-bag DT); draft not opened",
+            "t": "2026-10-06T17:42:27Z"
           }
         }
       }
@@ -13244,14 +13259,34 @@
       "artista": "Luis Miguel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:10:43Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:42:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 100%",
-            "t": "2026-10-06T14:10:43Z"
+            "nota": "carry batch aplicado; secciones puestas a mano (4) con un POST lrc-only",
+            "t": "2026-10-06T17:42:30Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio: texto igual al original, richsync=LRC, sin palabras <40 ms, sin signos finales",
+            "t": "2026-10-06T17:42:30Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en las 40 lineas; audio_guard SUENA_SIN_BLINDAR (suena 206), sin medir",
+            "t": "2026-10-06T17:42:31Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "4 anclas nuevas (items creados), 8 gemelas unificadas; 257/257 mapeadas",
+            "t": "2026-10-06T17:42:31Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json; falta abrir el borrador (start_draft no permitido a este worker)",
+            "t": "2026-10-06T17:42:31Z"
           }
         }
       }
