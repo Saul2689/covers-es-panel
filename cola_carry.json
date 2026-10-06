@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:07:44Z",
+  "generado": "2026-10-06T15:10:19Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5151,17 +5151,38 @@
       "artista": "Bad Bunny",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:37:02Z",
+      "motivo": "LRC, tiempos y mapeo hechos; inglés preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:09:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 92%",
             "t": "2026-10-06T13:37:02Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "secciones lineas 1-3, 2 erratas/tildes (lineas 22, 30, 31); sin signos finales",
+            "t": "2026-10-06T15:09:43Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, 0 palabras <40 ms (linea 29 corregida); audio SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T15:09:43Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo nombre propio y ad-libs; 11 items nuevos PROD; gemelas unificadas",
+            "t": "2026-10-06T15:09:43Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan completo en en_plan.json; no hay borrador abierto (aperturas en espera de Saul)",
+            "t": "2026-10-06T15:09:44Z"
           }
         }
-      }
+      },
+      "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
     },
     {
       "coverTrackId": "6aa1110964c9b8ff110c5057",
@@ -5248,13 +5269,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:37:09Z",
+      "actualizado": "2026-10-06T15:07:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 99%",
             "t": "2026-10-06T13:37:09Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes, mayuscula y coma final corregidas en 12 lineas; sin cambios de nº de tokens",
+            "t": "2026-10-06T15:07:48Z"
           }
         }
       }
