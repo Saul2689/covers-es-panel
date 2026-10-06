@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:27:54Z",
+  "generado": "2026-10-06T13:29:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2070,10 +2070,10 @@
       "originalTrackId": "",
       "titulo": "Pobre Diabla",
       "artista": "Don Omar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T13:21:04Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T13:29:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2100,7 +2100,23 @@
             "v": "ok",
             "nota": "Inglés a mano: 63 líneas + 314 WIT con texto, wit_dt_audit BAD 0; enviado a pending_review",
             "t": "2026-10-06T13:21:03Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura limpia, 8 items nuevos con 19 idiomas, ingles pending_review 63 lineas/314 WIT, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR; hallazgos restantes justificados (errata L6/L51/L52, ad-libs L5/L35/L53, hueco L36)",
+            "t": "2026-10-06T13:29:06Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura limpia, 8 items nuevos con 19 idiomas, ingles pending_review 63 lineas/314 WIT, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR; hallazgos restantes justificados (errata L6/L51/L52, ad-libs L5/L35/L53, hueco L36)",
+          "t": "2026-10-06T13:29:06Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T13:29:07Z"
         }
       },
       "motivo_en": "ready for QC: carry and mapping done; LRC (2 edits), English and one timing doubt left for Saul because of blocks"
