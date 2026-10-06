@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T14:42:36Z",
+  "generado": "2026-10-06T14:44:05Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4287,10 +4287,10 @@
       "originalTrackId": "",
       "titulo": "Culpables",
       "artista": "Anuel Aa, Karol G",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T14:35:57Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC DEVUELTO: L30 t1/t4 no concuerdan; WIT nombres propios minúscula; WIT 34,10; remapear 69,2 y G en 3/64/70",
+      "actualizado": "2026-10-06T14:43:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4317,7 +4317,17 @@
             "v": "ok",
             "nota": "Inglés a mano: 71 líneas + 538 WITs con DT propio (bolsa), twins idénticas, wit_dt_audit BAD 0, borrador enviado a pending_review (sin aprobar). L66 bebé reanclada al sustantivo.",
             "t": "2026-10-06T14:35:31Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L30 concordancia t1/t4 (token+item+inglés); WIT nombres propios en minúscula (4,19,62,64,67,68,69,3/64/70); WIT (34,10) sentido; anclas (69,2) y G (3,64,70) a item de nombre",
+            "t": "2026-10-06T14:43:43Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L30 concordancia t1/t4 (token+item+inglés); WIT nombres propios en minúscula (4,19,62,64,67,68,69,3/64/70); WIT (34,10) sentido; anclas (69,2) y G (3,64,70) a item de nombre",
+          "t": "2026-10-06T14:43:43Z"
         }
       }
     },
