@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T14:26:43Z",
+  "generado": "2026-10-06T14:27:25Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4264,13 +4264,28 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:35:43Z",
+      "actualizado": "2026-10-06T14:27:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 85%",
-            "t": "2026-10-06T13:35:43Z"
+            "nota": "carry aplicado en lote (no re-ejecutado)",
+            "t": "2026-10-06T14:27:13Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "30 fichas pegadas separadas, 7 ediciones (mayuscula/puntuacion final), 0 lineas acaban en , . ; :; dudas de oido anotadas en el informe",
+            "t": "2026-10-06T14:27:14Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, 0 palabras <40 ms (10 corregidas), audio_guard SUENA_SIN_BLINDAR sin tocar; solapes de L51/L52 del proveedor, nota",
+            "t": "2026-10-06T14:27:14Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "538/553 ancladas, 14 items nuevos con 19 idiomas, gemelas unificadas; sin mapear: ad-libs y 3 nombres",
+            "t": "2026-10-06T14:27:14Z"
           }
         }
       }
@@ -4381,10 +4396,10 @@
       "originalTrackId": "",
       "titulo": "Tras De Mi",
       "artista": "RBD",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "lista para QC (ronda 2)",
-      "actualizado": "2026-10-06T14:26:41Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T14:27:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4413,15 +4428,21 @@
             "t": "2026-10-06T14:20:39Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "item nuevo veliches mal escrito (plural correcto velices), sin ancla; resto de mapeo, ingles, timing y estructura ok",
-            "t": "2026-10-06T14:26:05Z"
+            "v": "ok",
+            "nota": "veliches corregido a velices; mapeo, ingles, timing y estructura ok",
+            "t": "2026-10-06T14:27:17Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "item nuevo veliches mal escrito (plural correcto velices), sin ancla; resto de mapeo, ingles, timing y estructura ok",
-          "t": "2026-10-06T14:26:05Z"
+          "v": "VERDE",
+          "resumen": "veliches corregido a velices; mapeo, ingles, timing y estructura ok",
+          "t": "2026-10-06T14:27:17Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T14:27:18Z"
         }
       }
     },
@@ -4445,7 +4466,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "lista para QC",
-      "actualizado": "2026-10-06T14:22:50Z",
+      "actualizado": "2026-10-06T14:27:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4472,7 +4493,17 @@
             "v": "ok",
             "nota": "inglés a mano: 50 líneas + 245 WIT con DT, wit_dt_audit BAD 0, enviado a pending_review",
             "t": "2026-10-06T14:22:50Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, timing, mapeo, items nuevos sin duplicado, ingles pending_review y wit_dt_audit BAD 0; notas de oido en lineas 6, 14, 31",
+            "t": "2026-10-06T14:27:24Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, timing, mapeo, items nuevos sin duplicado, ingles pending_review y wit_dt_audit BAD 0; notas de oido en lineas 6, 14, 31",
+          "t": "2026-10-06T14:27:24Z"
         }
       }
     },
