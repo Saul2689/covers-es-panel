@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:16:29Z",
+  "generado": "2026-10-06T13:17:11Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5431,10 +5431,10 @@
       "originalTrackId": "",
       "titulo": "Quien Como Tu",
       "artista": "Ana Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T12:55:47Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T13:16:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5461,7 +5461,23 @@
             "v": "ok",
             "nota": "enviado a pending_review",
             "t": "2026-10-06T12:55:47Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, tenerle, ingles pending_review, wit_dt BAD 0; notas: genero 3a persona en ingles, Outro sin excluir",
+            "t": "2026-10-06T13:16:36Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, tenerle, ingles pending_review, wit_dt BAD 0; notas: genero 3a persona en ingles, Outro sin excluir",
+          "t": "2026-10-06T13:16:36Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T13:16:37Z"
         }
       },
       "motivo_en": "English draft complete; submit to pending_review was blocked by permissions"
