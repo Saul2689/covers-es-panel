@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T14:32:27Z",
+  "generado": "2026-10-06T14:36:14Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4271,31 +4271,36 @@
       "originalTrackId": "",
       "titulo": "Culpables",
       "artista": "Anuel Aa, Karol G",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:27:14Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T14:35:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry aplicado en lote (no re-ejecutado)",
-            "t": "2026-10-06T14:27:13Z"
+            "nota": "carry aplicado en lote, no se toca",
+            "t": "2026-10-06T14:35:39Z"
           },
           "lrc": {
             "v": "ok",
-            "nota": "30 fichas pegadas separadas, 7 ediciones (mayuscula/puntuacion final), 0 lineas acaban en , . ; :; dudas de oido anotadas en el informe",
-            "t": "2026-10-06T14:27:14Z"
+            "nota": "30 splits + 7 ediciones, sin puntuación final",
+            "t": "2026-10-06T14:35:39Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "drift 0, 0 palabras <40 ms (10 corregidas), audio_guard SUENA_SIN_BLINDAR sin tocar; solapes de L51/L52 del proveedor, nota",
-            "t": "2026-10-06T14:27:14Z"
+            "nota": "drift 0, ninguna palabra <40 ms, 19 retimes",
+            "t": "2026-10-06T14:35:39Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "538/553 ancladas, 14 items nuevos con 19 idiomas, gemelas unificadas; sin mapear: ad-libs y 3 nombres",
-            "t": "2026-10-06T14:27:14Z"
+            "nota": "538 anclas, 14 items nuevos, gemelas unificadas; sin_mapear solo ad-libs/nombres",
+            "t": "2026-10-06T14:35:39Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "Inglés a mano: 71 líneas + 538 WITs con DT propio (bolsa), twins idénticas, wit_dt_audit BAD 0, borrador enviado a pending_review (sin aprobar). L66 bebé reanclada al sustantivo.",
+            "t": "2026-10-06T14:35:31Z"
           }
         }
       }
@@ -4672,16 +4677,36 @@
       "originalTrackId": "",
       "titulo": "Un Beso Y Una Flor",
       "artista": "Nino Bravo",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:36:28Z",
+      "motivo": "LRC, timing y mapeo hechos; falta abrir el draft de ingles (bloqueado por el clasificador), plan listo",
+      "actualizado": "2026-10-06T14:36:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
+            "v": "na",
+            "nota": "carry de lote ya aplicado, no se toca",
+            "t": "2026-10-06T14:36:04Z"
+          },
+          "lrc": {
             "v": "ok",
-            "nota": "carry en lote 100%",
-            "t": "2026-10-06T13:36:28Z"
+            "nota": "linea 1 ultima palabra 'fin'->'ti' (original); 'un' sobrante borrado en lineas 17, 41, 53; 285 fichas = 285 palabras",
+            "t": "2026-10-06T14:36:04Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "74 palabras de duracion 0 con duracion; 0 palabras <40 ms; drift 0; audio_guard SUENA_SIN_BLINDAR (206), sin tocar audio",
+            "t": "2026-10-06T14:36:04Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "285/285 ancladas; 7 items nuevos con 19 idiomas; 34 remapeos de sentido y gemelas unificadas",
+            "t": "2026-10-06T14:36:05Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "el clasificador bloqueo song_translation_approval_start_draft; plan listo en .singit/cover_repair/en_fix_6aa7ce51.py (60 lineas, 285 WIT)",
+            "t": "2026-10-06T14:36:05Z"
           }
         }
       }
