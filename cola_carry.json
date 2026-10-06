@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:30:07Z",
+  "generado": "2026-10-06T16:30:31Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9623,13 +9623,13 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T16:30:07Z",
+      "actualizado": "2026-10-06T16:30:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry batch aplicado",
-            "t": "2026-10-06T16:24:32Z"
+            "nota": "carry batch aplicado; LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T16:30:20Z"
           },
           "lrc": {
             "v": "ok",
@@ -9796,14 +9796,34 @@
       "artista": "Joan Sebastian",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:56:40Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:30:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T10:56:38Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio; sin cambios de texto; importa linea 11 queda como nota de oido (original dice otra palabra)",
+            "t": "2026-10-06T16:30:09Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "14 palabras <40 ms retimadas; drift 0; audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T16:30:09Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "12 items nuevos con 19 idiomas, 18 anclas nuevas, 6 remaps (gemelas y la de linea 26); quedan solo ad-libs sin mapear",
+            "t": "2026-10-06T16:30:09Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T16:30:09Z"
           }
         }
       }
@@ -14066,8 +14086,8 @@
       "artista": "Alexandre Pires",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:54Z"
+      "motivo": "enlazada; carry al 77%: necesita hints a mano",
+      "actualizado": "2026-10-06T16:30:16Z"
     },
     {
       "coverTrackId": "6aa50fb742b8d1fdb0c5e5a4",
