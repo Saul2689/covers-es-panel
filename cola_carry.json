@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:05:00Z",
+  "generado": "2026-10-06T17:08:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9623,14 +9623,34 @@
       "artista": "los Temerarios",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:48:12Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:07:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 94%",
             "t": "2026-10-06T16:48:12Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio: tildes, mayuscula media, comas sueltas, olvidabas restaurado; ear-notes en el informe",
+            "t": "2026-10-06T17:07:47Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, sin palabras <40 ms, hueco de 26s instrumental; audio SUENA_SIN_BLINDAR 206, no medido",
+            "t": "2026-10-06T17:07:47Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, sentidos remapeados, gemelas unificadas, 5 items + 1 phrase item nuevos con 19 idiomas",
+            "t": "2026-10-06T17:07:47Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json (37 lineas, 173 WIT, 2 PIT); falta abrir el borrador",
+            "t": "2026-10-06T17:07:47Z"
           }
         }
       }
@@ -9668,14 +9688,34 @@
       "artista": "Ana Gabriel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:44:00Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:08:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 87%",
             "t": "2026-10-06T16:44:00Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes dia/mas/como/cuanto, signos linea 32; ear-note: linea 3 canta 'me' donde el original dice 'que'; como al final de lineas 9/22 (el original lo trae al inicio de la siguiente)",
+            "t": "2026-10-06T17:08:22Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms, audio SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T17:08:22Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear (salvo ad-lib Uoh), gemelas unificadas, 7 items nuevos con 19 idiomas",
+            "t": "2026-10-06T17:08:22Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en es_map/payloads/6aa521a742b8d1fdb0c76edb/en_plan.json (37 lineas, 217 WIT con DT de su bolsa); falta abrir el borrador",
+            "t": "2026-10-06T17:08:22Z"
           }
         }
       }
@@ -9689,13 +9729,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:45:22Z",
+      "actualizado": "2026-10-06T17:05:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 88%",
             "t": "2026-10-06T16:45:21Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 47 sin coma final (LRC+richsync); resto de LRC limpio; mayuscula L4 = apodo; ear-notes en informe",
+            "t": "2026-10-06T17:05:34Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms (palabra de L76 alargada 33->50 ms); audio SUENA_SIN_BLINDAR sin accion",
+            "t": "2026-10-06T17:05:35Z"
           }
         }
       }
@@ -11184,13 +11234,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:59:26Z",
+      "actualizado": "2026-10-06T17:05:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T10:59:24Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "47 tokens: puntuacion final fuera, tu->tú, tildes del final, destrózalo",
+            "t": "2026-10-06T17:05:24Z"
           }
         }
       }
