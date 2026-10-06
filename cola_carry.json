@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:14:02Z",
+  "generado": "2026-10-06T15:14:26Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5288,8 +5288,8 @@
       "artista": "Alejandro Fernández",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:12:00Z",
+      "motivo": "LRC, tiempos y mapeo hechos; inglés preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:14:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5306,9 +5306,20 @@
             "v": "ok",
             "nota": "0 sin mapear salvo ad-libs; 5 items nuevos creados con 19 idiomas; gemelas unificadas; sentidos revisados",
             "t": "2026-10-06T15:12:00Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0, sin palabras <40 ms; hueco largo de la línea 19 es instrumental (el original tampoco canta ahí); audio SUENA_SIN_BLINDAR, no se toca",
+            "t": "2026-10-06T15:14:05Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "inglés preparado en en_plan.json (54 líneas + 304 WIT con DT); falta abrir el borrador (pendiente de Saúl)",
+            "t": "2026-10-06T15:14:05Z"
           }
         }
-      }
+      },
+      "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
     },
     {
       "coverTrackId": "6aa50de642b8d1fdb0c55fa3",
