@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:59:29Z",
+  "generado": "2026-10-06T18:00:33Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -13637,8 +13637,8 @@
       "artista": "Daddy Yankee",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:53:28Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:00:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13650,6 +13650,21 @@
             "v": "ok",
             "nota": "ortografia y puntuacion arregladas (16 tokens); secciones pendientes",
             "t": "2026-10-06T17:53:28Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; secciones a mano (7) con un POST lrc-only",
+            "t": "2026-10-06T18:00:25Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "26 anclas nuevas, 25 items nuevos (19 idiomas), 5 bolsas vacias rellenadas, gemelas su unificadas, remaps de sentido; restantes justificados en el informe",
+            "t": "2026-10-06T18:00:25Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en .singit/es_map/payloads/6aa56e9d42b8d1fdb0cd2f81/en_plan.json (59 lineas + 402 WITs); falta abrir el borrador",
+            "t": "2026-10-06T18:00:25Z"
           }
         }
       }
@@ -13957,8 +13972,8 @@
       "artista": "Alejandra Guzmán",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:53:52Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T18:00:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13970,6 +13985,21 @@
             "v": "ok",
             "nota": "linea 20: A->a, mi->mi con tilde; resto LRC limpio; Oh oh se deja (cover canta ad-lib)",
             "t": "2026-10-06T17:53:52Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, sin palabras <40 ms, secciones 47/47 puestas a mano (generateSections no escribio); audio sirve karaokeMp3 (206, SUENA_SIN_BLINDAR): no se mide ni se fija",
+            "t": "2026-10-06T18:00:17Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; gemelas unificadas; items nuevos ingenua/o/os/as y expuse (19 idiomas); frases a pesar de que, de mas, bajar la guardia (solo traduccion en) y tal vez; mi con tilde en 20",
+            "t": "2026-10-06T18:00:17Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en es_map/payloads/6aa76a0f72ca57eb1ab383d1/en_plan.json (47 lineas, 264 WIT con DT, 13 PIT); falta abrir el borrador",
+            "t": "2026-10-06T18:00:17Z"
           }
         }
       }
