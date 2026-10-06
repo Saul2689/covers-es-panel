@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:21:51Z",
+  "generado": "2026-10-06T20:22:38Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17800,8 +17800,8 @@
       "artista": "Luis Miguel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T20:17:55Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:22:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17813,6 +17813,21 @@
             "v": "ok",
             "nota": "tildes mas->mas (lineas 15,19,24,29), coma final linea 25",
             "t": "2026-10-06T20:17:55Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 33 lineas, ninguna palabra <40 ms; audio sirve karaokeMp3 (206), no se mide ni se fija",
+            "t": "2026-10-06T20:22:08Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear tras arreglo; gemelas unificadas; item nuevo arrima (PROD, 19 idiomas); ad-libs oh ya ancladas, uh sin mapear",
+            "t": "2026-10-06T20:22:08Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo (33 lineas, 218 WIT con DT propio); falta abrir el borrador",
+            "t": "2026-10-06T20:22:08Z"
           }
         }
       }
