@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:07:43Z",
+  "generado": "2026-10-06T16:09:37Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -7978,7 +7978,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:06:05Z",
+      "actualizado": "2026-10-06T16:09:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -7990,6 +7990,16 @@
             "v": "ok",
             "nota": "ortografia: tildes en 4 palabras (lineas 1, 11, 20, 24, 41); sin puntuacion final; sin palabras <40 ms",
             "t": "2026-10-06T16:06:05Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo ad-libs (lineas 46,47,56,57); 20 items nuevos con 19 idiomas; gemelas unificadas; homografos mi/mí, qué, sé corregidos",
+            "t": "2026-10-06T16:09:17Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; sin palabras <40 ms; audio SUENA_SIN_BLINDAR, sin tocar",
+            "t": "2026-10-06T16:09:17Z"
           }
         }
       }
@@ -8002,14 +8012,34 @@
       "artista": "RBD",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:53:40Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:09:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-10-06T10:53:38Z"
+            "nota": "carry batch ya aplicado, no se toca",
+            "t": "2026-10-06T16:09:02Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 2 palabra 4: errata de acento corregida contra el original; resto limpio, richsync igual",
+            "t": "2026-10-06T16:09:02Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en las 52 lineas, ninguna palabra <40 ms; audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T16:09:02Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "289/289 mapeadas; 11 items nuevos con 19 idiomas; gemelas unificadas; ya y interior remapeados",
+            "t": "2026-10-06T16:09:03Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan completo en en_plan.json (52 lineas + 289 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T16:09:03Z"
           }
         }
       }
@@ -8022,14 +8052,34 @@
       "artista": "Mana",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:53:45Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:09:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-10-06T10:53:45Z"
+            "nota": "carry batch aplicado (>=85%), sin tocar",
+            "t": "2026-10-06T16:09:01Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "1 signo suelto quitado (linea 29, LRC y richsync); secciones Intro 1 en lineas 1-2 a mano (generateSections no escribio); drift 0",
+            "t": "2026-10-06T16:09:01Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; hueco de la linea 30 es instrumental en el original; audio_guard SUENA_SIN_BLINDAR (no se toca)",
+            "t": "2026-10-06T16:09:01Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "23 anclas nuevas (11 items nuevos con 19 idiomas), gemelas unificadas; quedan 2 ad-libs sin mapear",
+            "t": "2026-10-06T16:09:01Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de ingles en es_map/payloads/6aa63cf072ca57eb1a9a2e87/en_plan.json (46 lineas, 156 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T16:09:02Z"
           }
         }
       }
@@ -8093,14 +8143,34 @@
       "artista": "Aleks Syntek",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:54:06Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:08:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T10:54:06Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "sin cambios de texto; sin signos finales; ear-note linea 25 (la cover canta otras palabras que el original, se mantiene)",
+            "t": "2026-10-06T16:08:03Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 28 lineas, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T16:08:03Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "160/160 mapeadas; 6 items nuevos con 19 idiomas; gemelas unificadas; 1 remapeo de sentido",
+            "t": "2026-10-06T16:08:03Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en .singit/es_map/payloads/6aa51b2442b8d1fdb0c6cb0e/en_plan.json (28 lineas + 160 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T16:08:04Z"
           }
         }
       }
@@ -8183,7 +8253,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:03:28Z",
+      "actualizado": "2026-10-06T16:08:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8195,6 +8265,11 @@
             "v": "ok",
             "nota": "L22 y L30 corregidas (errata/tilde); resto limpio",
             "t": "2026-10-06T16:03:28Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "24 huecos mapeados (13 items nuevos con 19 idiomas), 2 remapeos de sentido",
+            "t": "2026-10-06T16:08:29Z"
           }
         }
       }
@@ -8279,13 +8354,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:50:24Z",
+      "actualizado": "2026-10-06T16:08:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:50:24Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "si->si con tilde en lineas 19 y 32; resto limpio (ser/el cantados por el cover, se respetan)",
+            "t": "2026-10-06T16:08:12Z"
           }
         }
       }
