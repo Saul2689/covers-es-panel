@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T11:03:48Z",
+  "generado": "2026-10-06T11:08:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2754,10 +2754,10 @@
       "originalTrackId": "",
       "titulo": "Duele El Amor",
       "artista": "Aleks Syntek, Ana Torroja",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T11:01:16Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "linea 64 token 2: palabra de 7 ms, dar duracion >=40 ms sin mover la primera palabra de linea",
+      "actualizado": "2026-10-06T11:07:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2784,7 +2784,17 @@
             "v": "ok",
             "nota": "ver informe",
             "t": "2026-10-06T11:01:15Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "DEVUELTO ronda 1: linea 64 token 2 con palabra de 7 ms (<40 ms); el resto correcto",
+            "t": "2026-10-06T11:07:26Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "DEVUELTO ronda 1: linea 64 token 2 con palabra de 7 ms (<40 ms); el resto correcto",
+          "t": "2026-10-06T11:07:26Z"
         }
       }
     },
@@ -3476,10 +3486,10 @@
       "originalTrackId": "",
       "titulo": "Mentirosa",
       "artista": "Rafaga",
-      "estado": "carry",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:59:02Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T11:08:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -3496,7 +3506,33 @@
             "v": "ok",
             "nota": "audio SUENA_SIN_BLINDAR, drift 0; una palabra de 18 ms retemporizada (linea 28); hueco 31 s = instrumental tambien en el original",
             "t": "2026-10-06T10:59:02Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; gemelas unificadas; 2 items nuevos (burlabas, destrozaste) con 19 idiomas",
+            "t": "2026-10-06T11:04:57Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "ingles escrito a mano, 34 lineas y 157 WIT con texto, wit_dt_audit BAD 0, pending_review",
+            "t": "2026-10-06T11:04:59Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, timing, mapeo, items nuevos, ingles (draft pending_review) y WIT/DT correctos; solo hueco instrumental justificado",
+            "t": "2026-10-06T11:08:20Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, timing, mapeo, items nuevos, ingles (draft pending_review) y WIT/DT correctos; solo hueco instrumental justificado",
+          "t": "2026-10-06T11:08:20Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T11:08:24Z"
         }
       }
     },
