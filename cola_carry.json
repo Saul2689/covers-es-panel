@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:37:04Z",
+  "generado": "2026-10-06T20:37:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -18366,7 +18366,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:36:42Z",
+      "actualizado": "2026-10-06T20:37:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18658,8 +18658,8 @@
       "artista": "Reyli",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T20:33:09Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:37:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18671,6 +18671,21 @@
             "v": "ok",
             "nota": "L37 coma final quitada (LRC+richsync); resto limpio",
             "t": "2026-10-06T20:33:09Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (karaokeMp3), sin tocar",
+            "t": "2026-10-06T20:37:20Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo 2 ad-libs; 5 items nuevos 19 idiomas; 32 anclas; gemelas unificadas",
+            "t": "2026-10-06T20:37:20Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json (59 lineas, 260 WIT); falta abrir el borrador",
+            "t": "2026-10-06T20:37:20Z"
           }
         }
       }
@@ -18684,7 +18699,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T20:36:44Z",
+      "actualizado": "2026-10-06T20:37:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18696,6 +18711,11 @@
             "v": "ok",
             "nota": "mayuscula media L27 y tilde de un token L42 corregidas; signos de pregunta multilinea justificados; sin puntuacion final; 2 ear-notes (ver informe)",
             "t": "2026-10-06T20:36:44Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en las 52 lineas; ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (karaokeMp3, 206): no se mide ni se fija nada",
+            "t": "2026-10-06T20:37:08Z"
           }
         }
       }
