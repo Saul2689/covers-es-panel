@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:22:00Z",
+  "generado": "2026-10-06T13:25:43Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -3536,10 +3536,10 @@
       "originalTrackId": "",
       "titulo": "Solo Quedate En Silencio",
       "artista": "RBD",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T13:17:56Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T13:25:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -3566,7 +3566,23 @@
             "v": "ok",
             "nota": "46 lineas a mano + 219 WIT con texto y DT propio; wit_dt_audit BAD 0; pending_review",
             "t": "2026-10-06T13:17:56Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "46 lineas, borrado de copias B verificado contra backup, mapeo 219/219, ingles pending_review, BAD 0, drift 0; 4 avisos justificados",
+            "t": "2026-10-06T13:25:30Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "46 lineas, borrado de copias B verificado contra backup, mapeo 219/219, ingles pending_review, BAD 0, drift 0; 4 avisos justificados",
+          "t": "2026-10-06T13:25:30Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T13:25:31Z"
         }
       },
       "motivo_en": "double-layer lyric: 28 duplicate lines to delete; the write was blocked, Saul decides"
