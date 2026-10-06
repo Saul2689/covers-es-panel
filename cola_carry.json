@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:42:31Z",
+  "generado": "2026-10-06T16:43:13Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9080,10 +9080,19 @@
       "originalTrackId": "",
       "titulo": "Te Lo Pido Por Favor",
       "artista": "Jaguares",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:11Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:42:39Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 91%",
+            "t": "2026-10-06T16:42:39Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa809abd951e1665a7e8ec6",
@@ -10444,14 +10453,34 @@
       "artista": "Wisin & Yandel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:58:41Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:42:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-10-06T10:58:39Z"
+            "nota": "carry batch ya aplicado, no se toca",
+            "t": "2026-10-06T16:42:41Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "22 ediciones: tildes tu/que/aqui/paso, mayusculas medias, 'ueño'->sueño, comas finales; diferencias del original (soy/fui, la/una, etc.) son del cover, anotadas",
+            "t": "2026-10-06T16:42:41Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; 7 palabras truncadas reajustadas; solape de coros en lineas 9-10 es real",
+            "t": "2026-10-06T16:42:41Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo ad-libs; 6 items nuevos con 19 idiomas; gemelas unificadas",
+            "t": "2026-10-06T16:42:42Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en es_map/payloads/6aa72ed672ca57eb1aaebd51/en_plan.json; falta abrir el borrador",
+            "t": "2026-10-06T16:42:42Z"
           }
         }
       }
@@ -10599,13 +10628,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:59:16Z",
+      "actualizado": "2026-10-06T16:42:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T10:59:15Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "comas finales, tu->tú x12, sus->tus l13 (coro repetido canta tus); sin cambios de nº de tokens",
+            "t": "2026-10-06T16:42:44Z"
           }
         }
       }
@@ -10659,7 +10693,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:42:00Z",
+      "actualizado": "2026-10-06T16:43:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10671,6 +10705,11 @@
             "v": "ok",
             "nota": "limpiada coma final l8 y tilde tú l14/22; todavía l8 sin evidencia richsync (nota de oído)",
             "t": "2026-10-06T16:42:00Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "terciopelo (+plural) creados con 19 idiomas; tu y yo mapeados l14/22; gemelas unificadas (del, nubes, será, que)",
+            "t": "2026-10-06T16:43:11Z"
           }
         }
       }
@@ -11060,7 +11099,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 78%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:29:26Z"
+      "actualizado": "2026-10-06T16:42:59Z"
     },
     {
       "coverTrackId": "6aa805d8d951e1665a7e3234",
@@ -11104,7 +11143,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:29:34Z"
+      "actualizado": "2026-10-06T16:43:08Z"
     },
     {
       "coverTrackId": "6aa1113d64c9b8ff110d03d9",
@@ -11112,10 +11151,19 @@
       "originalTrackId": "",
       "titulo": "Perdon",
       "artista": "Camila",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:22Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:42:50Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 100%",
+            "t": "2026-10-06T16:42:50Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6b21172ca57eb1aa37cb9",
@@ -13721,10 +13769,19 @@
       "originalTrackId": "",
       "titulo": "Quiero Dormir Cansado",
       "artista": "Emmanuel",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:30Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:42:54Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 100%",
+            "t": "2026-10-06T16:42:53Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6421572ca57eb1a9ac78c",
@@ -13917,10 +13974,19 @@
       "originalTrackId": "",
       "titulo": "No Te Pido Flores",
       "artista": "Fanny Lú",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:36Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:42:32Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 90%",
+            "t": "2026-10-06T16:42:32Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7876472ca57eb1acd9f3e",
@@ -13986,7 +14052,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:29:31Z"
+      "actualizado": "2026-10-06T16:43:05Z"
     },
     {
       "coverTrackId": "6aa7808272ca57eb1acd36ef",
@@ -14531,10 +14597,19 @@
       "originalTrackId": "",
       "titulo": "Sin Ti No Se Vivir",
       "artista": "Los Angeles Azules",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:57Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:42:47Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T16:42:47Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa77ac172ca57eb1accbb4a",
@@ -15187,10 +15262,19 @@
       "originalTrackId": "",
       "titulo": "Cirano",
       "artista": "Jose Jose",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:01Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:42:57Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 100%",
+            "t": "2026-10-06T16:42:57Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6ab23f583369c68d83b66fc9",
@@ -15289,7 +15373,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 78%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:29:09Z"
+      "actualizado": "2026-10-06T16:42:41Z"
     },
     {
       "coverTrackId": "6aa80bb1d951e1665a7ea9ad",
@@ -15394,10 +15478,19 @@
       "originalTrackId": "",
       "titulo": "Se Me Olvido",
       "artista": "Gian Marco",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:08Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:42:36Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 87%",
+            "t": "2026-10-06T16:42:36Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa8105fd951e1665a7f2729",
@@ -16440,7 +16533,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 77%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:29:28Z"
+      "actualizado": "2026-10-06T16:43:02Z"
     },
     {
       "coverTrackId": "6aa80887d951e1665a7e7e9f",
@@ -16737,7 +16830,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 78%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:29:37Z"
+      "actualizado": "2026-10-06T16:43:11Z"
     },
     {
       "coverTrackId": "6aa5239242b8d1fdb0c7a309",
@@ -16759,7 +16852,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:29:12Z"
+      "actualizado": "2026-10-06T16:42:44Z"
     },
     {
       "coverTrackId": "6aa5266742b8d1fdb0c7caed",
