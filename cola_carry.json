@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:36:27Z",
+  "generado": "2026-10-06T17:37:53Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -12889,8 +12889,8 @@
       "artista": "Joe Vasconcellos",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:34:43Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:37:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12907,6 +12907,16 @@
             "v": "ok",
             "nota": "drift 0, ninguna palabra < 40 ms, audio SUENA_SIN_BLINDAR (no se toca)",
             "t": "2026-10-06T17:34:43Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "28 anclas remapeadas/creadas, 5 items nuevos con 19 idiomas, 3 phrase insights ya que, gemelas unificadas",
+            "t": "2026-10-06T17:37:12Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json preparado (77 lineas, WIT, 3 PIT); falta abrir borrador (no start_draft por orden)",
+            "t": "2026-10-06T17:37:12Z"
           }
         }
       }
@@ -12930,14 +12940,34 @@
       "artista": "Isabel Pantoja",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:10:04Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:37:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 95%",
-            "t": "2026-10-06T14:10:04Z"
+            "nota": "carry batch ya aplicado",
+            "t": "2026-10-06T17:37:27Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 35 corregida (tilde y signos); secciones puestas a mano (generateSections no escribio); ad-libs Ohh/Ah ah ah sin cambios",
+            "t": "2026-10-06T17:37:27Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR sin accion",
+            "t": "2026-10-06T17:37:27Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "12 sin mapear resueltos (7 items nuevos, 19 idiomas), 6 gemelas unificadas, vuelto y seguia remapeados; quedan solo ad-libs",
+            "t": "2026-10-06T17:37:27Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json, falta abrir el borrador (no start_draft por orden)",
+            "t": "2026-10-06T17:37:28Z"
           }
         }
       }
@@ -19946,8 +19976,8 @@
       "artista": "Thalia",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:38Z"
+      "motivo": "enlazada; carry al 47%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:36:32Z"
     },
     {
       "coverTrackId": "6aa6ce5b72ca57eb1aa65178",
@@ -19990,8 +20020,8 @@
       "artista": "David Bisbal",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:40Z"
+      "motivo": "enlazada; carry al 83%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:36:42Z"
     },
     {
       "coverTrackId": "6aa684e672ca57eb1aa05fd7",
@@ -20023,8 +20053,8 @@
       "artista": "Alejandro Fernandez",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:41Z"
+      "motivo": "enlazada; carry al 18%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:36:47Z"
     },
     {
       "coverTrackId": "6a9ec69beef2ad59f6325687",
@@ -20101,8 +20131,8 @@
       "artista": "la Revolucion de Emiliano Zapata",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:42Z"
+      "motivo": "enlazada; carry al 17%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:36:53Z"
     },
     {
       "coverTrackId": "6aa720e272ca57eb1aad6002",
@@ -20145,8 +20175,8 @@
       "artista": "Wilfrido Vargas",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:44Z"
+      "motivo": "enlazada; carry al 42%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:37:04Z"
     },
     {
       "coverTrackId": "6aa6360c72ca57eb1a996a3a",
@@ -20156,8 +20186,8 @@
       "artista": "Mana",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:44Z"
+      "motivo": "enlazada; carry al 48%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:37:07Z"
     },
     {
       "coverTrackId": "6ab23f023369c68d83b66848",
@@ -20167,8 +20197,8 @@
       "artista": "Shakira",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:45Z"
+      "motivo": "enlazada; carry al 82%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:37:09Z"
     },
     {
       "coverTrackId": "6aa723a272ca57eb1aad90c9",
@@ -20189,8 +20219,8 @@
       "artista": "Sonora Ponceña",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:45Z"
+      "motivo": "enlazada; carry al 24%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:37:14Z"
     },
     {
       "coverTrackId": "6aa5954d42b8d1fdb0d0b19f",
@@ -20233,8 +20263,8 @@
       "artista": "Rocio Durcal",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:47Z"
+      "motivo": "enlazada; carry al 77%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:37:24Z"
     },
     {
       "coverTrackId": "6aa7134072ca57eb1aabd7b7",
@@ -20288,8 +20318,8 @@
       "artista": "Juan Luis Guerra",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:50Z"
+      "motivo": "enlazada; carry al 69%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:37:37Z"
     },
     {
       "coverTrackId": "6aa8173fd951e1665a7fbbb8",
@@ -20299,8 +20329,8 @@
       "artista": "Grupo Mania",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:51Z"
+      "motivo": "enlazada; carry al 60%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:37:40Z"
     },
     {
       "coverTrackId": "6aa6981c72ca57eb1aa21cc0",
@@ -20310,8 +20340,8 @@
       "artista": "Raul Abramzon",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:51Z"
+      "motivo": "enlazada; carry al 75%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:37:43Z"
     },
     {
       "coverTrackId": "6aa5f89742b8d1fdb0d941dd",
@@ -20321,8 +20351,8 @@
       "artista": "La India",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T17:28:51Z"
+      "motivo": "enlazada; carry al 84%: necesita hints a mano",
+      "actualizado": "2026-10-06T17:37:48Z"
     },
     {
       "coverTrackId": "6aa77f5772ca57eb1acd2159",
