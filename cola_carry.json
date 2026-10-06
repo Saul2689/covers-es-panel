@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:03:36Z",
+  "generado": "2026-10-06T17:05:00Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9441,8 +9441,8 @@
       "artista": "Alejandro Sanz",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:02:02Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:04:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9464,6 +9464,11 @@
             "v": "ok",
             "nota": "0 sin mapear, sentidos y gemelas unificadas, items nuevos con 19 idiomas",
             "t": "2026-10-06T17:02:02Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan de ingles (99 lineas, 262 WIT con DT) en payloads/en_plan.json; falta abrir el borrador",
+            "t": "2026-10-06T17:04:30Z"
           }
         }
       }
@@ -9639,13 +9644,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:53:24Z",
+      "actualizado": "2026-10-06T17:04:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 92%",
             "t": "2026-10-06T16:53:24Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes/erratas de ortografia corregidas (10 tokens); ear-notes: tal/tan l48, anillo/anillos, azahar vs azar del original",
+            "t": "2026-10-06T17:04:14Z"
           }
         }
       }
