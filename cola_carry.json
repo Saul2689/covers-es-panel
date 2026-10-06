@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:13:52Z",
+  "generado": "2026-10-06T13:15:12Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -3430,20 +3430,40 @@
       "originalTrackId": "",
       "titulo": "Don",
       "artista": "Miranda",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC y 22 items nuevos hechos; el sistema bloqueo crear 'yendome' y las traducciones de los items nuevos; decide Saul",
-      "actualizado": "2026-10-06T10:59:17Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T13:15:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry aplicado en lote con hints automaticos",
             "t": "2026-09-30T09:09:37Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpia, 0 puntuacion final, sin palabras < 40 ms",
+            "t": "2026-10-06T13:15:01Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T13:15:02Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "323/323 anclas, gemelas unificadas, items nuevos con 19 idiomas",
+            "t": "2026-10-06T13:15:02Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "39 lineas + 323 WIT a mano, wit_dt_audit BAD 0, pending_review",
+            "t": "2026-10-06T13:15:02Z"
           }
         }
       },
-      "motivo_en": "LRC and 22 new items done; the system blocked creating one item and the new items' translations; Saul decides"
+      "motivo_en": "ready for QC"
     },
     {
       "coverTrackId": "6aa074eeedf059217a5b4b50",
@@ -5287,10 +5307,10 @@
       "originalTrackId": "",
       "titulo": "Que Vida La Mia",
       "artista": "Reik",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "ingles L8 duplica el verbo de L7: reabrir draft, corregir L8 y reenviar a pending_review; nota L31 opcional",
-      "actualizado": "2026-10-06T13:13:29Z",
+      "motivo": "lista para QC (ronda 2)",
+      "actualizado": "2026-10-06T13:14:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5338,10 +5358,10 @@
       "originalTrackId": "",
       "titulo": "Bachata En Fukuoka",
       "artista": "Juan Luis Guerra",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T13:00:13Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T13:14:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5368,7 +5388,23 @@
             "v": "ok",
             "nota": "ver jobs/6aa5e3d342b8d1fdb0d75657.md",
             "t": "2026-10-06T13:00:13Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, 5 items nuevos, ingles pending_review, wit_dt BAD 0; nota: coma entre L16/L40 en ingles",
+            "t": "2026-10-06T13:14:36Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, 5 items nuevos, ingles pending_review, wit_dt BAD 0; nota: coma entre L16/L40 en ingles",
+          "t": "2026-10-06T13:14:36Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T13:14:37Z"
         }
       }
     },
