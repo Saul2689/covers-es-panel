@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T11:39:31Z",
+  "generado": "2026-10-06T11:44:02Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -3667,19 +3667,40 @@
       "originalTrackId": "",
       "titulo": "Guaya Guaya",
       "artista": "Don Omar",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:09:39Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T11:40:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry aplicado en lote con hints automaticos",
-            "t": "2026-09-30T09:09:39Z"
+            "nota": "carry en lote ya aplicado (>=85%), no se toca",
+            "t": "2026-10-06T11:40:37Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "limpiado: parentesis/guiones, 8 palabras partidas o mal escritas, 5 insertadas, mayuscula media Hasta en minuscula, ninguna linea acaba en , . ; :",
+            "t": "2026-10-06T11:40:38Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 73 lineas, ninguna palabra <40 ms, palabras insertadas retimadas; audio SUENA_SIN_BLINDAR, sin medir",
+            "t": "2026-10-06T11:40:38Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "581 anclas, 60 items nuevos con 19 idiomas, gemelas unificadas; sin mapear solo 9 palabras inglesas/ad-lib",
+            "t": "2026-10-06T11:40:38Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "ingles a mano: 73 lineas + 581 WIT con texto, wit_dt_audit BAD 0, 3 bolsas vacias rellenadas, enviado a pending_review",
+            "t": "2026-10-06T11:40:38Z"
           }
         }
-      }
+      },
+      "motivo_en": "ready for QC"
     },
     {
       "coverTrackId": "6aa6cea972ca57eb1aa65704",
@@ -3709,10 +3730,10 @@
       "originalTrackId": "",
       "titulo": "Mientes",
       "artista": "Camila",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T11:38:30Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T11:43:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -3739,7 +3760,23 @@
             "v": "ok",
             "nota": "48 lineas + 233 WIT a mano, wit_dt_audit BAD 0, pending_review",
             "t": "2026-10-06T11:38:30Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, timing, mapeo, ingles pending_review y QC ok; notas menores",
+            "t": "2026-10-06T11:43:48Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, timing, mapeo, ingles pending_review y QC ok; notas menores",
+          "t": "2026-10-06T11:43:48Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T11:43:49Z"
         }
       }
     },
