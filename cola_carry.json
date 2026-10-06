@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:18:19Z",
+  "generado": "2026-10-06T20:19:04Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17413,8 +17413,8 @@
       "artista": "Jose Jose",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T20:14:10Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:18:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17424,8 +17424,23 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "Q-tilde lineas 1/9/18, palabra vacia final fusionada, secciones completas",
-            "t": "2026-10-06T20:14:10Z"
+            "nota": "tilde/signos L1/9/18, palabra vacia final fusionada, secciones completas",
+            "t": "2026-10-06T20:18:43Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ningun word <40ms; hueco L18 = instrumental del original; ultima palabra 8.4s (cola final fusionada); audio guard SUENA_SIN_BLINDAR, sin tocar",
+            "t": "2026-10-06T20:18:42Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; qué x3, contado x2, a L13, gemelas unificadas, fuerza L25, que L26 remapeados; temes bolsa EN creada",
+            "t": "2026-10-06T20:18:42Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json (34 lineas + 199 WIT), falta abrir el borrador",
+            "t": "2026-10-06T20:18:42Z"
           }
         }
       }
@@ -17626,13 +17641,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:49:31Z",
+      "actualizado": "2026-10-06T20:18:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 96%",
             "t": "2026-10-06T16:49:31Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "7 tokens: mayusculas medias, Sé/sé, Cómo; sin puntuacion final; ear-notes en informe",
+            "t": "2026-10-06T20:18:50Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "19 palabras <40ms retimadas con richsync_set (twin); drift 0; audio guard SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T20:18:51Z"
           }
         }
       }
@@ -17646,7 +17671,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T20:17:42Z",
+      "actualizado": "2026-10-06T20:18:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17658,6 +17683,16 @@
             "v": "ok",
             "nota": "drift 0, ninguna palabra <40 ms, hueco largo es instrumental (original igual); audio guard SUENA_SIN_BLINDAR, no se toca",
             "t": "2026-10-06T20:17:42Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "sin cambios de letra; erratas del original (al, puedo) son lo que canta el cover, nota de oido",
+            "t": "2026-10-06T20:18:49Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "7 huecos mapeados (4 items nuevos), gemelas unificadas",
+            "t": "2026-10-06T20:18:50Z"
           }
         }
       }
