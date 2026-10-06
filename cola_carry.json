@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:47:15Z",
+  "generado": "2026-10-06T16:47:26Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -10961,14 +10961,34 @@
       "artista": "Alegres de la Sierra",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T11:00:05Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:47:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-10-06T11:00:05Z"
+            "nota": "carry de lote aplicado",
+            "t": "2026-10-06T16:47:24Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio, sin cambios necesarios",
+            "t": "2026-10-06T16:47:25Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra bajo 40 ms; hueco largo de la linea 18 es instrumental en el original; audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T16:47:25Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, gemelas unificadas, 4 items nuevos (traicionado, pasatiempo, pasatiempos, volverte) y sentidos corregidos en lineas 10,12,14,17,20,23-25,27,28,30",
+            "t": "2026-10-06T16:47:25Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T16:47:25Z"
           }
         }
       }
@@ -14689,10 +14709,19 @@
       "originalTrackId": "",
       "titulo": "Tu Peor Error",
       "artista": "la 5ª Estacion",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:51Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:47:23Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T16:47:23Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5e98d42b8d1fdb0d7cbe1",
@@ -15944,7 +15973,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:33:16Z"
+      "actualizado": "2026-10-06T16:47:19Z"
     },
     {
       "coverTrackId": "6aa59fb642b8d1fdb0d1d862",
@@ -16592,7 +16621,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 69%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:33:12Z"
+      "actualizado": "2026-10-06T16:47:16Z"
     },
     {
       "coverTrackId": "6aa05698edf059217a4f69e0",
