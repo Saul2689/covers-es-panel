@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T11:10:06Z",
+  "generado": "2026-10-06T11:19:57Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2997,17 +2997,53 @@
       "originalTrackId": "",
       "titulo": "Deseandote",
       "artista": "Frankie Ruiz",
-      "estado": "carry",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:09:35Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T11:19:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry aplicado en lote con hints automaticos",
-            "t": "2026-09-30T09:09:35Z"
+            "nota": "carry ya aplicado (30 sep); no tocado",
+            "t": "2026-10-06T11:14:10Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "errata, tildes y 2 inserts segun original; sin puntuacion final",
+            "t": "2026-10-06T11:14:11Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; palabra de 1 ms rehecha; huecos justificados (instrumental/coros); audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T11:14:12Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "262/262; 11 items nuevos (19 idiomas a mano); gemelas unificadas; deseandote remapeada",
+            "t": "2026-10-06T11:14:15Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft a mano 42/42 lineas, 262/262 WIT, audit BAD 0; pending_review",
+            "t": "2026-10-06T11:14:17Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, timing, mapeo, ingles y QC limpios; hallazgos qc_es justificados (17/32 tilde; huecos 20/35/38 identicos al original)",
+            "t": "2026-10-06T11:19:47Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, timing, mapeo, ingles y QC limpios; hallazgos qc_es justificados (17/32 tilde; huecos 20/35/38 identicos al original)",
+          "t": "2026-10-06T11:19:47Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T11:19:50Z"
         }
       }
     },
@@ -3472,17 +3508,53 @@
       "originalTrackId": "",
       "titulo": "La Diabla",
       "artista": "Romeo Santos",
-      "estado": "carry",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:09:38Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T11:19:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry aplicado en lote con hints automaticos",
-            "t": "2026-09-30T09:09:38Z"
+            "nota": "carry aplicado en lote (original subido por ISRC); no se repite",
+            "t": "2026-10-06T11:14:15Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "lineas 2,4,5,6,13,27,33,35,36 corregidas (errata, tildes, mayuscula, palabra que falta, parentesis); sin signos finales; resto justificado en el informe",
+            "t": "2026-10-06T11:14:18Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 38 lineas; palabra insertada cronometrada a 80/103 ms; guard SUENA_SIN_BLINDAR (karaokeMp3 206 ms); hueco de la linea 21 sin prueba de que el cover cante nada",
+            "t": "2026-10-06T11:14:21Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 19 items nuevos con 19 idiomas + frase a quemarropa; jugue y lance remapeados al sentido correcto; gemelas unificadas",
+            "t": "2026-10-06T11:14:22Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "ingles a mano: 38 lineas + 249 WIT con texto y DT propio, 2 PIT; wit_dt_audit BAD 0; pending_review",
+            "t": "2026-10-06T11:14:22Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles (draft pending_review) y WIT ok; aviso hueco l21 y cover archivada crossclear-draft",
+            "t": "2026-10-06T11:19:40Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles (draft pending_review) y WIT ok; aviso hueco l21 y cover archivada crossclear-draft",
+          "t": "2026-10-06T11:19:40Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T11:19:42Z"
         }
       }
     },
