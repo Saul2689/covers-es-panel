@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:11:00Z",
+  "generado": "2026-10-06T20:11:11Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -16960,14 +16960,34 @@
       "artista": "Marc Anthony",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:05:47Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:11:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 89%",
             "t": "2026-10-06T15:05:47Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "15 tokens: tildes (lineas 17,18,19,30,43,44,47,55,62,63,67,68), minuscula l36; secciones generadas (68/68)",
+            "t": "2026-10-06T20:11:01Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, 0 palabras <40 ms; hueco 43 s l58 justificado (original sin letra ahi); audio_guard SUENA_SIN_BLINDAR, sirve karaokeMp3: no se mide ni se fija",
+            "t": "2026-10-06T20:11:01Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "379/379 salvo ad-lib l68 tok1; gemelas unificadas; 6 items nuevos + 3 phrase items + 4 phrase anchors; sentidos revisados",
+            "t": "2026-10-06T20:11:02Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json (68 lineas, 378 WIT con DT, 8 PIT); falta abrir el borrador",
+            "t": "2026-10-06T20:11:02Z"
           }
         }
       }
