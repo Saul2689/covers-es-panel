@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T12:57:31Z",
+  "generado": "2026-10-06T13:00:13Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5057,10 +5057,10 @@
       "originalTrackId": "",
       "titulo": "Sexy Robotica",
       "artista": "Don Omar",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "inglés completo en borrador pero el envío a revisión fue bloqueado; falta que Saúl lo envíe (pending_review). Oír L1, L2, L26 (título leído de oído)",
-      "actualizado": "2026-10-06T12:18:10Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T13:00:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5084,9 +5084,9 @@
             "t": "2026-10-06T12:17:43Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "borrador en completo (50 lineas, 266 WIT con texto, BAD 0, 2 PIT) pero song_translation_approval_submit denegado por el clasificador: falta submit a pending_review",
-            "t": "2026-10-06T12:17:43Z"
+            "v": "ok",
+            "nota": "enviado a pending_review (permiso de Saúl)",
+            "t": "2026-10-06T13:00:10Z"
           }
         }
       },
@@ -5254,16 +5254,36 @@
       "originalTrackId": "",
       "titulo": "Bachata En Fukuoka",
       "artista": "Juan Luis Guerra",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:48:40Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T13:00:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:48:40Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "ver jobs/6aa5e3d342b8d1fdb0d75657.md",
+            "t": "2026-10-06T13:00:12Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "ver jobs/6aa5e3d342b8d1fdb0d75657.md",
+            "t": "2026-10-06T13:00:12Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "ver jobs/6aa5e3d342b8d1fdb0d75657.md",
+            "t": "2026-10-06T13:00:12Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "ver jobs/6aa5e3d342b8d1fdb0d75657.md",
+            "t": "2026-10-06T13:00:13Z"
           }
         }
       }
@@ -5401,10 +5421,10 @@
       "originalTrackId": "",
       "titulo": "Lo Intentamos",
       "artista": "Espinoza Paz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "lista para QC (vuelta 2)",
-      "actualizado": "2026-10-06T12:40:12Z",
+      "motivo": "QC VERDE ronda 2; inglés en pending_review",
+      "actualizado": "2026-10-06T13:00:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5428,20 +5448,26 @@
             "t": "2026-10-06T12:35:06Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "draft listo (30 lineas, 187 WIT con texto, wit_dt_audit BAD 0, 12 PIT) pero song_translation_approval_submit denegado por el clasificador: falta enviar a pending_review",
-            "t": "2026-10-06T12:35:06Z"
+            "v": "ok",
+            "nota": "enviado a pending_review (permiso de Saúl)",
+            "t": "2026-10-06T13:00:10Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT de volverte (L14, L22 idx 7) dice 'coming back to you', no encaja con la linea (ver de nuevo); resto OK",
-            "t": "2026-10-06T12:39:38Z"
+            "v": "ok",
+            "nota": "ronda 2: WIT volverte corregido; anclas, gemelas, drift y BAD 0 OK; aviso de oído L6 'es' insertado",
+            "t": "2026-10-06T13:00:11Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT de volverte (L14, L22 idx 7) dice 'coming back to you', no encaja con la linea (ver de nuevo); resto OK",
-          "t": "2026-10-06T12:39:38Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: WIT volverte corregido; anclas, gemelas, drift y BAD 0 OK; aviso de oído L6 'es' insertado",
+          "t": "2026-10-06T13:00:11Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T13:00:12Z"
         }
       }
     },
