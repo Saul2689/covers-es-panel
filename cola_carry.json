@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:00:46Z",
+  "generado": "2026-10-06T17:02:05Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -6961,13 +6961,28 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:50:41Z",
+      "actualizado": "2026-10-06T17:01:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 86%",
             "t": "2026-10-06T16:50:41Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "acentos y tildes restauradas (48 tokens), sin puntuacion final, ear-notes en informe",
+            "t": "2026-10-06T17:01:13Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "37 palabras de 0 ms alargadas con richsync_set; drift 0; ninguna palabra <40 ms",
+            "t": "2026-10-06T17:01:14Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "144 anclas escritas/remapeadas; 0 sin mapear salvo ad-lib final; item nuevo hacerle (sentido 'hacer algo al respecto')",
+            "t": "2026-10-06T17:01:14Z"
           }
         }
       }
@@ -9110,7 +9125,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:58:10Z",
+      "actualizado": "2026-10-06T17:01:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9122,6 +9137,11 @@
             "v": "ok",
             "nota": "acentos y tildes restauradas (23 tokens), sin merges",
             "t": "2026-10-06T16:58:10Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "153/153 ancladas, 11 items nuevos (19 idiomas), sentidos remapeados",
+            "t": "2026-10-06T17:01:26Z"
           }
         }
       }
@@ -9169,14 +9189,34 @@
       "artista": "Valentín Elizalde",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:51:54Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:01:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 95%",
-            "t": "2026-10-06T16:51:54Z"
+            "nota": "carry batch aplicado, no tocado",
+            "t": "2026-10-06T17:01:38Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "30 tokens: tildes (estás, así, tú, escogí, daré, haré, jamás) y ¿? lineas 13-15 y 46-48",
+            "t": "2026-10-06T17:01:38Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms, hueco de 25 s antes de la linea 34 es instrumental real del cover (la LRC del original esta desordenada)",
+            "t": "2026-10-06T17:01:38Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "212/212 ancladas, gemelas unificadas, 3 items nuevos con 19 idiomas",
+            "t": "2026-10-06T17:01:38Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json; falta abrir el borrador (start_draft)",
+            "t": "2026-10-06T17:01:38Z"
           }
         }
       }
@@ -9382,13 +9422,28 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:55:04Z",
+      "actualizado": "2026-10-06T17:02:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-06T16:55:04Z"
+            "nota": "carry batch aplicado",
+            "t": "2026-10-06T17:02:01Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes/acentos corregidos (21 tokens), sin puntuacion final, 0 palabras <40ms",
+            "t": "2026-10-06T17:02:02Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; audio SUENA_SIN_BLINDAR sin accion",
+            "t": "2026-10-06T17:02:02Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, sentidos y gemelas unificadas, items nuevos con 19 idiomas",
+            "t": "2026-10-06T17:02:02Z"
           }
         }
       }
