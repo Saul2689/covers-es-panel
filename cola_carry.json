@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T14:13:08Z",
+  "generado": "2026-10-06T14:23:52Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4175,16 +4175,36 @@
       "originalTrackId": "",
       "titulo": "Mujer Amante",
       "artista": "Rata Blanca",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:35:34Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T14:20:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 91%",
-            "t": "2026-10-06T13:35:33Z"
+            "nota": "carry batch aplicado, no se toca",
+            "t": "2026-10-06T14:20:53Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "lineas 28 y 38 token 5: tu->tú (sujeto); resto limpio; sin puntuacion final",
+            "t": "2026-10-06T14:20:53Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; hueco línea 28-29 instrumental (línea 29 del original vacía); audio SUENA_SIN_BLINDAR 206",
+            "t": "2026-10-06T14:20:54Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "5 items nuevos (misterioso x4 formas, marcó) 19 idiomas; anclas L4/L16/L29 nuevas; remap amor L5, tú L28/L38, ayudará L28, señal L21/L35; cobertura 223/223",
+            "t": "2026-10-06T14:20:54Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "38 lineas + 217 WIT con texto y DT, wit_dt_audit BAD 0, submit pending_review",
+            "t": "2026-10-06T14:20:54Z"
           }
         }
       }
@@ -4198,13 +4218,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:35:38Z",
+      "actualizado": "2026-10-06T14:22:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 87%",
             "t": "2026-10-06T13:35:37Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio: Dios, tilde en días, comas finales L48/L49, Earcandy unido",
+            "t": "2026-10-06T14:16:36Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, palabra de 33 ms corregida (L27.0), 0 palabras <40 ms; audio_guard SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T14:22:27Z"
           }
         }
       }
@@ -4268,17 +4298,53 @@
       "originalTrackId": "",
       "titulo": "La Muralla Verde",
       "artista": "Enanitos Verdes",
-      "estado": "carry",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:35:53Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T14:23:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 100%",
-            "t": "2026-10-06T13:35:52Z"
+            "nota": "carry batch ya aplicado, no tocado",
+            "t": "2026-10-06T14:19:39Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio: sin puntuacion final, sin mayusculas medias, sin palabras partidas; sin cambios",
+            "t": "2026-10-06T14:19:39Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 24 lineas, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (206), no se mide ni se fija",
+            "t": "2026-10-06T14:19:39Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "2 sin mapear (L19 t6, L20 t2) con items nuevos; 13 gemelas unificadas; remaps de sentido (de, como, estoy, todo); 131/131",
+            "t": "2026-10-06T14:19:40Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "ingles a mano: 24 lineas + 131 WIT con texto y DT propio, wit_dt_audit BAD 0, pending_review",
+            "t": "2026-10-06T14:19:40Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, anclas, items nuevos, ingles pending_review, wit_dt BAD 0 y audio SUENA_SIN_BLINDAR verificados",
+            "t": "2026-10-06T14:23:34Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, anclas, items nuevos, ingles pending_review, wit_dt BAD 0 y audio SUENA_SIN_BLINDAR verificados",
+          "t": "2026-10-06T14:23:34Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T14:23:36Z"
         }
       }
     },
@@ -4299,16 +4365,36 @@
       "originalTrackId": "",
       "titulo": "Tras De Mi",
       "artista": "RBD",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:35:59Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T14:20:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 97%",
             "t": "2026-10-06T13:35:59Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "aqui->aquí (L7,L23 tok3,6), coma final quitada L15,L31; Un/tras se dejan (el cover los canta)",
+            "t": "2026-10-06T14:15:50Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, min >=40 ms; audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T14:20:39Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "9 anclas nuevas, 14 remapeadas, 4 items nuevos 19 idiomas; 0 sin mapear",
+            "t": "2026-10-06T14:20:39Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "borrador a mano 41 lineas/294 WIT en pending_review, wit_dt_audit BAD 0",
+            "t": "2026-10-06T14:20:39Z"
           }
         }
       }
@@ -4330,16 +4416,36 @@
       "originalTrackId": "",
       "titulo": "Amargo Adios",
       "artista": "Inspector",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:36:06Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T14:22:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-06T13:36:06Z"
+            "nota": "carry de lote aplicado; no se toca",
+            "t": "2026-10-06T14:22:49Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "línea 7 tokens 3-4: tildes del original; línea 6 token 1 y línea 14/31 token 4: el cover los canta con tiempo propio, se dejan (nota para Saúl)",
+            "t": "2026-10-06T14:22:49Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0, ninguna palabra <40 ms, audio suena (206) SUENA_SIN_BLINDAR, sin medir ni fijar",
+            "t": "2026-10-06T14:22:50Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "16 huecos mapeados (5 items nuevos con 19 idiomas), 13 gemelas unificadas; 245/245",
+            "t": "2026-10-06T14:22:50Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "inglés a mano: 50 líneas + 245 WIT con DT, wit_dt_audit BAD 0, enviado a pending_review",
+            "t": "2026-10-06T14:22:50Z"
           }
         }
       }
@@ -4353,13 +4459,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T13:36:13Z",
+      "actualizado": "2026-10-06T14:16:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 87%",
             "t": "2026-10-06T13:36:12Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes, signos de apertura y cierre, parentesis suelto; 61 tokens, sin cambiar el numero de fichas",
+            "t": "2026-10-06T14:16:59Z"
           }
         }
       }
