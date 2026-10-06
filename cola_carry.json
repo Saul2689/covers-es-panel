@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T12:15:52Z",
+  "generado": "2026-10-06T12:18:10Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5041,19 +5041,40 @@
       "originalTrackId": "",
       "titulo": "Sexy Robotica",
       "artista": "Don Omar",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:48:25Z",
+      "motivo": "inglés completo en borrador pero el envío a revisión fue bloqueado; falta que Saúl lo envíe (pending_review). Oír L1, L2, L26 (título leído de oído)",
+      "actualizado": "2026-10-06T12:18:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:48:25Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "limpiada: tildes, intro/etiqueta Sexy robotica, tramo 10-11, 13 ad-lib ingles, Lleva fusionado, Como->Como con tilde, 50/50 secciones, 0 palabras <40 ms",
+            "t": "2026-10-06T12:17:43Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms, audio 206 SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T12:17:43Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo nombres/ad-libs en ingles; 26 items nuevos con 19 idiomas; revuelta corregida; gemelas unificadas; phrase item dar risa",
+            "t": "2026-10-06T12:17:43Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "borrador en completo (50 lineas, 266 WIT con texto, BAD 0, 2 PIT) pero song_translation_approval_submit denegado por el clasificador: falta submit a pending_review",
+            "t": "2026-10-06T12:17:43Z"
           }
         }
-      }
+      },
+      "motivo_en": "English draft complete; submit to pending_review was blocked by permissions"
     },
     {
       "coverTrackId": "6aa79b4b72ca57eb1acfddfa",
@@ -5083,16 +5104,36 @@
       "originalTrackId": "",
       "titulo": "Fabricando Fantasias",
       "artista": "Tito Nieves",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:48:31Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T12:16:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:48:30Z"
+            "nota": "carry ya aplicado (batch)",
+            "t": "2026-10-06T12:16:49Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "lineas 35-39: faltan palabras de la voz principal que el original canta antes de cada parentesis; hace falta oido para colocarlas. El resto del LRC limpio, secciones 46/46",
+            "t": "2026-10-06T12:16:49Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, sin palabras < 40 ms; audio SUENA_SIN_BLINDAR, sin tocar",
+            "t": "2026-10-06T12:16:50Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo ad-lib (linea 34) y nombre propio (linea 41); gemelas unificadas; 5 items nuevos 19 idiomas; 6 phrase insights",
+            "t": "2026-10-06T12:16:50Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "draft propio 46 lineas + 259 WIT + 6 PIT en pending_review, wit_dt_audit 0",
+            "t": "2026-10-06T12:16:50Z"
           }
         }
       }
