@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:24:34Z",
+  "generado": "2026-10-06T16:26:20Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9491,14 +9491,34 @@
       "artista": "Luis Miguel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:55:28Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:26:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T10:55:27Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 3,7,8,11,15,16: tildes (facil, mirandote, encontrandote, tu->tu con tilde); 8 tokens; 0 palabras <40 ms; sin puntuacion final",
+            "t": "2026-10-06T16:26:09Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 16 lineas; audio_guard SUENA_SIN_BLINDAR (206), sin tocar",
+            "t": "2026-10-06T16:26:09Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "9 anclas nuevas, 5 remapeadas, gemelas unificadas, 6 items nuevos + traduccion a mano 19 idiomas; concluyo con bolsa vacia rellenada",
+            "t": "2026-10-06T16:26:10Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T16:26:10Z"
           }
         }
       }
@@ -9511,14 +9531,34 @@
       "artista": "Tranzas",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:55:39Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:26:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T10:55:38Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json (59 lineas + 254 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T16:26:10Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "5 tokens arreglados (tilde, mayuscula); resto = oido para Saul",
+            "t": "2026-10-06T16:26:11Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "254/254 mapeados, gemelas unificadas, 2 items nuevos",
+            "t": "2026-10-06T16:26:11Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40ms, audio SUENA_SIN_BLINDAR no se toca",
+            "t": "2026-10-06T16:26:11Z"
           }
         }
       }
@@ -9671,13 +9711,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:56:31Z",
+      "actualizado": "2026-10-06T16:25:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T10:56:29Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes homografos y porque corregidos en LRC y richsync (12 tokens); sin cambios de nº de tokens",
+            "t": "2026-10-06T16:25:57Z"
           }
         }
       }
