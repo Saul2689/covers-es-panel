@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:38:09Z",
+  "generado": "2026-10-06T15:39:35Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -7304,14 +7304,34 @@
       "artista": "Joan Sebastian",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:49:36Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T15:39:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:49:35Z"
+            "nota": "carry batch aplicado, sin tocar",
+            "t": "2026-10-06T15:39:09Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "secciones generadas; tu posesivo en 3 lineas y mi->mi con tilde en 4 (De mi); resto de diferencias vs original son oido, ver informe",
+            "t": "2026-10-06T15:39:09Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, sin palabras <40ms; hueco largo = instrumental del original; audio SUENA_SIN_BLINDAR, no se mide",
+            "t": "2026-10-06T15:39:09Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "3 items nuevos tatuados/tatuada/tatuadas (19 idiomas), anclas nuevas y remaps de gemelas/tilde; queda 1 token sin mapear (parcho, sin sentido claro, igual en el original)",
+            "t": "2026-10-06T15:39:09Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en en_plan.json, falta abrir el borrador (start_draft prohibido en esta tanda)",
+            "t": "2026-10-06T15:39:09Z"
           }
         }
       }
