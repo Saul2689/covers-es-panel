@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:25:43Z",
+  "generado": "2026-10-06T13:27:54Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5929,19 +5929,40 @@
       "originalTrackId": "",
       "titulo": "Vete Ya",
       "artista": "Valentin Elizalde",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:49:12Z",
+      "motivo": "falta el ingles: el clasificador bloqueo abrir el borrador EN (start_draft); letra, timing y mapeo hechos",
+      "actualizado": "2026-10-06T13:27:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:49:12Z"
+            "nota": "batch aplicado, no tocado",
+            "t": "2026-10-06T13:27:30Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC sin hallazgos vs original; secciones puestas en las 30 lineas (Verse 1, Chorus 1, Interlude 1, Verse 2, Chorus 2)",
+            "t": "2026-10-06T13:27:31Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra < 40 ms; audio_guard SUENA_SIN_BLINDAR (sin tocar)",
+            "t": "2026-10-06T13:27:31Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "162/162 mapeados; 3 items nuevos de verbo (ronda, recorro, justifica) + 6 anclas; gemelas unificadas; que comparativo en lineas 6 y 21; te lineas 8/23; se 10/25; con 12/27; no 2/17 y 14/29; mejor 5/20",
+            "t": "2026-10-06T13:27:31Z"
+          },
+          "ingles": {
+            "v": "saul",
+            "nota": "start_draft bloqueado por el clasificador; faltan lineas 1-30 y WIT texto con DT correcto (ver informe)",
+            "t": "2026-10-06T13:27:32Z"
           }
         }
-      }
+      },
+      "motivo_en": "English missing: the classifier blocked opening the EN draft (start_draft); lyric, timing and mapping done"
     },
     {
       "coverTrackId": "6aa77e6972ca57eb1acd0a7b",
