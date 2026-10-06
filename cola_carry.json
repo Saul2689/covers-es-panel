@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T11:28:29Z",
+  "generado": "2026-10-06T11:35:28Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -3796,17 +3796,53 @@
       "originalTrackId": "",
       "titulo": "Hasta Que Te Conoci",
       "artista": "Juan Gabriel",
-      "estado": "carry",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:09:40Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T11:35:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry aplicado en lote con hints automaticos",
-            "t": "2026-09-30T09:09:40Z"
+            "nota": "carry aplicado en lote (>=85%), no se toca",
+            "t": "2026-10-06T11:30:13Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "l3 me, l17 sobra y, l42 Ahora, l43 Si, l45 creo, l49 ya+mas, l50 tercer vete, l51 vete, l53 ya; sin coma final; richsync=tokens",
+            "t": "2026-10-06T11:30:15Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; fixes l42/l43 (inicio de linea); huecos l33 y l42 justificados; audio SUENA_SIN_BLINDAR, sin medir",
+            "t": "2026-10-06T11:30:15Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, 0 gemelas distintas; anclas nuevas/desplazadas en l3,17,42,43,45,49,50,51,53; sin items nuevos",
+            "t": "2026-10-06T11:30:16Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "53 lineas + 235 WIT con texto, wit_dt_audit BAD 0, pending_review",
+            "t": "2026-10-06T11:30:18Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, LRC, mapeo e ingles OK; avisos de oido: l49/l53 (ya mas vs jamas) y hueco antes de l42",
+            "t": "2026-10-06T11:35:13Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, LRC, mapeo e ingles OK; avisos de oido: l49/l53 (ya mas vs jamas) y hueco antes de l42",
+          "t": "2026-10-06T11:35:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T11:35:14Z"
         }
       }
     },
@@ -4523,16 +4559,36 @@
       "originalTrackId": "",
       "titulo": "Todavia",
       "artista": "la Factoria",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:47:58Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-06T11:35:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:47:58Z"
+            "nota": "carry aplicado en lote (previo); secciones copiadas del original: lineas 1-7 Intro 1 excluidas, resto Verse/Pre-Chorus/Chorus como el original",
+            "t": "2026-10-06T11:35:13Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 37: un->el segun original; resto limpio (ad-libs de 1-3 estilo proveedor)",
+            "t": "2026-10-06T11:28:58Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 39 lineas, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (audio 206, stemVoc null): sin tocar",
+            "t": "2026-10-06T11:35:14Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "items nuevos 6ac4db9e3ac4a595eea12616 (engañará) y 6ac4db9f67e9aa1379f00d80 (anhela) con 19 idiomas; mapeadas L8 t5, L26 t6, L37 t5, L39 t4; gemelas 29 y 31 unificadas; quedan sin mapear solo ad-libs de lineas 1-3",
+            "t": "2026-10-06T11:35:14Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "borrador escrito a mano: 39 lineas + 224 WIT con texto y DT propio; wit_dt_audit BAD 0; repeticiones identicas; pending_review",
+            "t": "2026-10-06T11:35:14Z"
           }
         }
       }
