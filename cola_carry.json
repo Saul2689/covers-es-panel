@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:56:34Z",
+  "generado": "2026-10-06T17:56:48Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -13673,14 +13673,34 @@
       "artista": "Shakira",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T14:11:24Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:56:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 98%",
             "t": "2026-10-06T14:11:24Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "2 mayusculas medias a minuscula (L3 t2, L26 t2); secciones 44/44 a mano; ear-notes en el informe",
+            "t": "2026-10-06T17:56:45Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra < 40 ms (min 54), audio_guard SUENA_SIN_BLINDAR (karaokeMp3, sin tocar)",
+            "t": "2026-10-06T17:56:46Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "29 items nuevos en PROD con 19 idiomas; 21 anclas nuevas; 13 remapeos; sin_mapear solo ad-libs y nombres propios",
+            "t": "2026-10-06T17:56:46Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan listo en en_plan.json (44 lineas, 286 WIT); falta abrir el borrador",
+            "t": "2026-10-06T17:56:46Z"
           }
         }
       }
