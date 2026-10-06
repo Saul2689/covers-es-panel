@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:26:00Z",
+  "generado": "2026-10-06T17:27:52Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -12470,8 +12470,8 @@
       "artista": "Pedro Fernandez",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:24:43Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:27:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12483,6 +12483,21 @@
             "v": "ok",
             "nota": "tildes tu/tú y más corregidas (16 tokens); resto limpio",
             "t": "2026-10-06T17:24:43Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio 206 SUENA_SIN_BLINDAR sin tocar; huecos de ~22 s en lineas 11 y 21 (instrumental; la linea 11 del original esta ~14 s antes: nota de oido)",
+            "t": "2026-10-06T17:27:38Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "29 anclas remapeadas (tu->tú, más, sentidos de dejar/dejaré/volverte/que/de/forma), sin->ancla, locucion al fin, item nuevo dejaré con 19 idiomas",
+            "t": "2026-10-06T17:27:38Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "falta abrir el borrador; plan en en_plan.json",
+            "t": "2026-10-06T17:27:38Z"
           }
         }
       }
@@ -12572,13 +12587,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:55:57Z",
+      "actualizado": "2026-10-06T17:26:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 99%",
             "t": "2026-10-06T16:55:57Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "carry ya aplicado; coma sobrante quitada en linea 34 (gemela de la 17); Y vs Que (25,42) y falta A (24,41): el cover canta otra cosa, nota de oido",
+            "t": "2026-10-06T17:26:23Z"
           }
         }
       }
