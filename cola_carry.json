@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:38:00Z",
+  "generado": "2026-10-06T13:44:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -2127,10 +2127,10 @@
       "originalTrackId": "",
       "titulo": "El Telefono",
       "artista": "Hector El Father, Wisin Y Yandel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-06T13:32:06Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T13:44:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2157,7 +2157,23 @@
             "v": "ok",
             "nota": "132 lineas + 428 WIT a mano, wit_dt_audit BAD 0, pending_review",
             "t": "2026-10-06T13:32:06Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "reorden puro (ms/palabras identicos), LRC monotono, drift 0, 428 anclas ok, 11 items nuevos ok, ingles pending_review 132/132; notas: 73.4 duda de oido, item pellizco-verbo en minuscula",
+            "t": "2026-10-06T13:44:36Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "reorden puro (ms/palabras identicos), LRC monotono, drift 0, 428 anclas ok, 11 items nuevos ok, ingles pending_review 132/132; notas: 73.4 duda de oido, item pellizco-verbo en minuscula",
+          "t": "2026-10-06T13:44:36Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T13:44:37Z"
         }
       },
       "motivo_en": "Cover lyric is out of time order: it must be sorted by ms before the carry; the write was blocked by the permission classifier (left for Saul)"
@@ -9838,8 +9854,8 @@
       "artista": "Carín León, Maná",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original por subir: el import por ISRC fallo; buscar otra version",
+      "actualizado": "2026-10-06T13:42:39Z"
     },
     {
       "coverTrackId": "6ab23ed23369c68d83b65098",
