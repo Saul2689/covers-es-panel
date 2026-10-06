@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:08:29Z",
+  "generado": "2026-10-06T17:09:56Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9729,7 +9729,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:05:35Z",
+      "actualizado": "2026-10-06T17:09:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9746,6 +9746,11 @@
             "v": "ok",
             "nota": "drift 0, ninguna palabra <40 ms (palabra de L76 alargada 33->50 ms); audio SUENA_SIN_BLINDAR sin accion",
             "t": "2026-10-06T17:05:35Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "390/390 mapeadas; 6 items nuevos (angelito, atreverse, verse, conducirte, decidiera, cual) con 19 idiomas; gemelas unificadas; frase tal vez anclada; vuela-a melisma al item vuela",
+            "t": "2026-10-06T17:09:02Z"
           }
         }
       }
@@ -11233,8 +11238,8 @@
       "artista": "Pilar Montenegro",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T17:05:24Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:09:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11246,6 +11251,21 @@
             "v": "ok",
             "nota": "47 tokens: puntuacion final fuera, tu->tú, tildes del final, destrózalo",
             "t": "2026-10-06T17:05:24Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40ms; audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T17:09:23Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "233 anclas, 35 nuevas + 17 remapeos, item destrózalo creado y traducido; 11 ad-libs sin ancla",
+            "t": "2026-10-06T17:09:23Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en .singit/es_map/payloads/6aa6882c72ca57eb1aa08ec1/en_plan.json: 52 lineas + 233 WIT con DT; falta abrir borrador (start_draft no autorizado)",
+            "t": "2026-10-06T17:09:23Z"
           }
         }
       }
@@ -11564,14 +11584,19 @@
       "artista": "Motel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T11:00:35Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T17:09:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T11:00:31Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json preparado (50 lineas + 252 WIT con su DT); falta abrir el borrador (start_draft prohibido a este agente)",
+            "t": "2026-10-06T17:09:31Z"
           }
         }
       }
@@ -11585,13 +11610,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T11:00:47Z",
+      "actualizado": "2026-10-06T17:08:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T11:00:45Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "31 tildes, mayusculas y comas finales corregidas; richsync = tokens",
+            "t": "2026-10-06T17:08:49Z"
           }
         }
       }
