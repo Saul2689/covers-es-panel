@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:11:43Z",
+  "generado": "2026-10-06T20:12:06Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17247,14 +17247,34 @@
       "artista": "Emmanuel",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:42:54Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T20:11:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 100%",
             "t": "2026-10-06T16:42:53Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio: sin partidas/erratas/mayusculas/puntuacion final; secciones 100%; sin palabras <40 ms",
+            "t": "2026-10-06T20:11:48Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 44 lineas; sin palabra <40 ms; hueco 21 s antes de l.19 = instrumental (original igual). Audio: karaokeMp3 sirve (206), SUENA_SIN_BLINDAR, no se mide",
+            "t": "2026-10-06T20:11:48Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "165/165 mapeadas; 20 anclas remapeadas para unificar gemelas y sentidos (la, con, pena, no, y, llorando, estoy, porque, para, vivir, soñando, quiero); gemelas 0; sin items nuevos",
+            "t": "2026-10-06T20:11:48Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "falta abrir el borrador: plan completo (44 lineas + 165 WIT con DT) en .singit/es_map/payloads/6aa1114464c9b8ff110d2dfb/en_plan.json",
+            "t": "2026-10-06T20:11:48Z"
           }
         }
       }
