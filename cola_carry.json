@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:02:43Z",
+  "generado": "2026-10-06T16:04:52Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -7773,8 +7773,8 @@
       "artista": "Tito Rojas",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T15:57:54Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:04:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -7786,6 +7786,21 @@
             "v": "ok",
             "nota": "LRC limpio: parentesis, coma final y mayusculas medias corregidos; sin palabras partidas",
             "t": "2026-10-06T15:57:54Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra < 40 ms; huecos largos de 27 s = instrumental del original; audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-06T16:04:20Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; gemelas unificadas al mapeo del original; 11 items nuevos con 19 idiomas; sentidos de llegare y pasado remapeados",
+            "t": "2026-10-06T16:04:21Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json (53 lineas + 367 WIT con DT), falta abrir el borrador",
+            "t": "2026-10-06T16:04:21Z"
           }
         }
       }
@@ -8039,13 +8054,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:54:14Z",
+      "actualizado": "2026-10-06T16:04:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T10:54:13Z"
+          },
+          "lrc": {
+            "v": "falta",
+            "nota": "plan 1 escrito: mayus, parens, tildes, errata, merge l28; faltan retimes y secciones",
+            "t": "2026-10-06T16:04:32Z"
           }
         }
       }
@@ -8103,13 +8123,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-09-30T09:50:14Z",
+      "actualizado": "2026-10-06T16:03:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-09-30T09:50:13Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L22 y L30 corregidas (errata/tilde); resto limpio",
+            "t": "2026-10-06T16:03:28Z"
           }
         }
       }
