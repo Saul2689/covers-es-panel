@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:19:53Z",
+  "generado": "2026-10-06T16:21:06Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9209,14 +9209,34 @@
       "artista": "Camilo Sesto",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:54:38Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:20:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-10-06T10:54:36Z"
+            "nota": "carry batch aplicado",
+            "t": "2026-10-06T16:20:53Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "sin cambios de texto; solo erratas de proveedor justificadas (ad-libs, linea 16/32 ojos tristes = ear-note)",
+            "t": "2026-10-06T16:20:54Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "15 palabras <40ms corregidas, drift 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-06T16:20:54Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "4 items nuevos PROD, 47 anclas, gemelas unificadas",
+            "t": "2026-10-06T16:20:54Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan ingles en en_plan.json, falta abrir borrador",
+            "t": "2026-10-06T16:20:54Z"
           }
         }
       }
@@ -9229,8 +9249,8 @@
       "artista": "Marco Antonio Solís",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:17:59Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:20:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9242,6 +9262,21 @@
             "v": "ok",
             "nota": "mas->más en linea 39; sin otros defectos; Que inicial de 15 y 29 no en richsync (nota de oido)",
             "t": "2026-10-06T16:17:59Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms; audio guard SUENA_SIN_BLINDAR (206, sin stemVoc): nada que hacer; hueco de 24 s entre lineas 22 y 23 coincide con ad-libs del original, nota de oido",
+            "t": "2026-10-06T16:20:52Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear (201/201); que/el/grande unificados y remapeados; 4 items nuevos (vacilacion, dicha + plurales) con 19 idiomas",
+            "t": "2026-10-06T16:20:52Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json (40 lineas + 201 WIT con DT propio); falta abrir el borrador",
+            "t": "2026-10-06T16:20:53Z"
           }
         }
       }
@@ -9342,13 +9377,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T10:55:21Z",
+      "actualizado": "2026-10-06T16:20:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "",
             "t": "2026-10-06T10:55:20Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L31 y L39 acentos de futuro, L31 mayuscula media; palabras del cover conservadas (nota de oido)",
+            "t": "2026-10-06T16:20:30Z"
           }
         }
       }
