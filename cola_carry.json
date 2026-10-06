@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T12:04:21Z",
+  "generado": "2026-10-06T12:04:52Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4688,10 +4688,10 @@
       "originalTrackId": "",
       "titulo": "Abusadora",
       "artista": "Wisin Y Yandel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC vuelta 1 corregida; lista para QC (vuelta 2)",
-      "actualizado": "2026-10-06T12:03:18Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-06T12:04:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4720,15 +4720,21 @@
             "t": "2026-10-06T11:48:36Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "lineas 8/64 nombre mal escrito con item existente, linea 22 locucion sin phrase item, lineas 11/64 apodo con items distintos",
-            "t": "2026-10-06T11:59:45Z"
+            "v": "ok",
+            "nota": "ronda 2: lineas 8/64, 11/64, 16, 22 y 48 corregidas; resto verificado",
+            "t": "2026-10-06T12:04:41Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "lineas 8/64 nombre mal escrito con item existente, linea 22 locucion sin phrase item, lineas 11/64 apodo con items distintos",
-          "t": "2026-10-06T11:59:45Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: lineas 8/64, 11/64, 16, 22 y 48 corregidas; resto verificado",
+          "t": "2026-10-06T12:04:41Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-06T12:04:42Z"
         }
       }
     },
