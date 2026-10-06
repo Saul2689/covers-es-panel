@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T16:54:42Z",
+  "generado": "2026-10-06T16:56:04Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -8965,19 +8965,34 @@
       "artista": "Juan Luis Guerra",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:49:15Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:55:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 90%",
-            "t": "2026-10-06T16:47:09Z"
+            "nota": "carry aplicado en lote",
+            "t": "2026-10-06T16:55:38Z"
           },
           "lrc": {
             "v": "ok",
             "nota": "Tildes y acentos restaurados (18 tokens, 16 lineas); sin puntuacion sobrante; notas de oido: ver informe",
             "t": "2026-10-06T16:49:15Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "Deriva 0, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (206), no tocado",
+            "t": "2026-10-06T16:55:37Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo ad-libs; gemelas unificadas; 14 items nuevos con 19 idiomas; sentidos corregidos",
+            "t": "2026-10-06T16:55:38Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "Ingles preparado en en_plan.json (89 lineas, 268 WIT con DT); falta abrir el borrador",
+            "t": "2026-10-06T16:55:38Z"
           }
         }
       }
@@ -9305,10 +9320,19 @@
       "originalTrackId": "",
       "titulo": "Desde Cuando",
       "artista": "Alejandro Sanz",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:11Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:55:04Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T16:55:04Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa59d8c42b8d1fdb0d190dd",
@@ -9349,8 +9373,8 @@
       "artista": "Enrique Iglesias",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-06T16:50:35Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-06T16:55:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9362,6 +9386,21 @@
             "v": "ok",
             "nota": "acentos de olvidare/como/aun/mas/querias corregidos en 33 tokens (LRC+richsync); sin signos sueltos",
             "t": "2026-10-06T16:50:35Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 67 lineas, ninguna palabra < 40 ms; audio SUENA_SIN_BLINDAR (no se toca)",
+            "t": "2026-10-06T16:55:43Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo 2 ad-libs; 59 anclas remapeadas/creadas; gemelas unificadas; items nuevos secarse y marcharas con 19 idiomas",
+            "t": "2026-10-06T16:55:43Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "preparado en en_plan.json, falta abrir el borrador",
+            "t": "2026-10-06T16:55:44Z"
           }
         }
       }
@@ -11417,10 +11456,19 @@
       "originalTrackId": "",
       "titulo": "Todo Se Derrumbo Dentro De Mi",
       "artista": "Emmanuel",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:17Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:55:28Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 96%",
+            "t": "2026-10-06T16:55:28Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7437572ca57eb1ab0ecfd",
@@ -11612,10 +11660,19 @@
       "originalTrackId": "",
       "titulo": "40 Y 20",
       "artista": "Jose Jose",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:21Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:54:58Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T16:54:58Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6dbcd72ca57eb1aa7ad93",
@@ -11838,10 +11895,19 @@
       "originalTrackId": "",
       "titulo": "Si Tu Te Atreves",
       "artista": "Luis Miguel",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:26Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:55:57Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T16:55:57Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7774f72ca57eb1aca1aee",
@@ -14673,10 +14739,19 @@
       "originalTrackId": "",
       "titulo": "Soy Yo",
       "artista": "Luis Miguel",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:36Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:55:54Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 91%",
+            "t": "2026-10-06T16:55:54Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa50ae942b8d1fdb0c50cbf",
@@ -14764,10 +14839,19 @@
       "originalTrackId": "",
       "titulo": "Estrellitas Y Duendes",
       "artista": "Juan Luis Guerra",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:37Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:55:38Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T16:55:38Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa81ca4d951e1665a80205c",
@@ -14775,10 +14859,19 @@
       "originalTrackId": "",
       "titulo": "Como Yo",
       "artista": "Juan Luis Guerra",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:38Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:55:35Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T16:55:35Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa70af672ca57eb1aab37d2",
@@ -14956,10 +15049,19 @@
       "originalTrackId": "",
       "titulo": "Salvaje",
       "artista": "Don Omar",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:44Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:55:20Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 89%",
+            "t": "2026-10-06T16:55:20Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6932872ca57eb1aa1a9eb",
@@ -15027,10 +15129,19 @@
       "originalTrackId": "",
       "titulo": "Que Me Des Tu Cariño",
       "artista": "Juan Luis Guerra",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:45Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:55:48Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T16:55:48Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa61c1372ca57eb1a969926",
@@ -15094,7 +15205,16 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:47Z"
+      "actualizado": "2026-10-06T16:56:04Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 95%",
+            "t": "2026-10-06T16:56:04Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa77bee72ca57eb1accdabf",
@@ -15144,10 +15264,19 @@
       "originalTrackId": "",
       "titulo": "La Hormiguita",
       "artista": "Juan Luis Guerra",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:48Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:55:44Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 91%",
+            "t": "2026-10-06T16:55:44Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5d74942b8d1fdb0d63425",
@@ -15361,10 +15490,19 @@
       "originalTrackId": "",
       "titulo": "Este Terco Corazon",
       "artista": "Emmanuel",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:53Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:55:24Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 96%",
+            "t": "2026-10-06T16:55:24Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6160842b8d1fdb0db57a3",
@@ -15553,10 +15691,19 @@
       "originalTrackId": "",
       "titulo": "Yo Se Que Te Acordaras",
       "artista": "Banda El Recodo",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:58Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:55:10Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T16:55:10Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7894572ca57eb1ace03b2",
@@ -16068,10 +16215,19 @@
       "originalTrackId": "",
       "titulo": "Dejame Entrar",
       "artista": "Mana",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:00:59Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:56:01Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T16:56:01Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6224072ca57eb1a9756af",
@@ -16130,10 +16286,19 @@
       "originalTrackId": "",
       "titulo": "Se Nos Rompio El Amor",
       "artista": "Rocio Jurado",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:00Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:54:50Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T16:54:50Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa767d272ca57eb1ab34693",
@@ -16318,10 +16483,19 @@
       "originalTrackId": "",
       "titulo": "Si Tu Me Miras",
       "artista": "Alejandro Sanz",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:06Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:55:07Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T16:55:07Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa52e1a42b8d1fdb0c8ba25",
@@ -16393,10 +16567,19 @@
       "originalTrackId": "",
       "titulo": "Concavo Y Convexo",
       "artista": "Roberto Carlos",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:07Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:54:46Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 96%",
+            "t": "2026-10-06T16:54:46Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa79fd172ca57eb1ad01e8f",
@@ -16407,7 +16590,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 76%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:39:25Z"
+      "actualizado": "2026-10-06T16:54:43Z"
     },
     {
       "coverTrackId": "6aa1110564c9b8ff110c44d0",
@@ -16438,7 +16621,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 57%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:39:52Z"
+      "actualizado": "2026-10-06T16:55:14Z"
     },
     {
       "coverTrackId": "6aa808dcd951e1665a7e8498",
@@ -16449,7 +16632,7 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "enlazada; carry al 79%: necesita hints a mano",
-      "actualizado": "2026-10-06T16:39:40Z"
+      "actualizado": "2026-10-06T16:55:01Z"
     },
     {
       "coverTrackId": "6aa5d10842b8d1fdb0d5751c",
@@ -16539,10 +16722,19 @@
       "originalTrackId": "",
       "titulo": "Insaciable Amante",
       "artista": "Jose Jose",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:10Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:54:55Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 92%",
+            "t": "2026-10-06T16:54:54Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7323d72ca57eb1aaf1295",
@@ -17444,10 +17636,19 @@
       "originalTrackId": "",
       "titulo": "Ayer",
       "artista": "Enrique Iglesias",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:29Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:55:32Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T16:55:32Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa79dd772ca57eb1ad00185",
@@ -17743,10 +17944,19 @@
       "originalTrackId": "",
       "titulo": "Dile Que Por Mi No Tema",
       "artista": "Celia Cruz",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:36Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:55:17Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 99%",
+            "t": "2026-10-06T16:55:17Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6d11572ca57eb1aa6a066",
@@ -17964,10 +18174,19 @@
       "originalTrackId": "",
       "titulo": "Siempre Estoy Pensando En Ella",
       "artista": "Leo Dan",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original subido hoy por ISRC y enlazado; lista para carry",
-      "actualizado": "2026-10-06T16:01:41Z"
+      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-06T16:55:51Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry en lote 98%",
+            "t": "2026-10-06T16:55:51Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7641872ca57eb1ab2f4bd",
