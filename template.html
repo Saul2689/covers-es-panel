@@ -131,6 +131,19 @@ tailwind.config={theme:{extend:{
         <p class="mt-1.5 text-[13.5px] text-zinc-400 max-w-[62ch]" id="x-linea-sub"></p>
         <div class="mt-5 flex items-end gap-1.5 sm:gap-2.5" id="x-linea-barra"></div>
         <div class="mt-3 flex flex-wrap gap-x-5 gap-y-2" id="x-linea-leyenda"></div>
+
+        <!-- ══ donde se atascan: los seis pasos de la ficha ══ -->
+        <div class="mt-6 border-t border-white/10 pt-5" id="x-pasos">
+          <div class="flex items-baseline justify-between gap-4 flex-wrap">
+            <h3 class="font-display font-semibold tracking-tight text-[15.5px] text-zinc-100"
+                id="x-pasos-tit"></h3>
+            <span class="font-mono text-[11.5px] text-zinc-500" id="x-pasos-sello"></span>
+          </div>
+          <p class="mt-1.5 text-[13px] leading-relaxed text-zinc-400 max-w-[64ch]" id="x-pasos-sub"></p>
+          <div class="mt-4 flex flex-col gap-2" id="x-pasos-lista"></div>
+          <div class="mt-4 flex flex-wrap gap-x-5 gap-y-1.5" id="x-pasos-leyenda"></div>
+          <div class="mt-4" id="x-pasos-filtro" hidden></div>
+        </div>
       </div>
     </section>
 
@@ -228,6 +241,17 @@ tailwind.config={theme:{extend:{
       oir:'oír', copiado:'trackId copiado',
       suena:'suena', karaoke:'karaoke', cero:'0:00', archivada:'archivada',
       lineaTit:'La línea, paso a paso',
+      pasosTit:'Dónde se atascan',
+      verLas:'ver cuáles son',
+      filtroPuesto:'Viendo solo: {paso} · {v} — {n} canciones',
+      quitarFiltro:'Quitar el filtro',
+      pasosSub:'Cada canción que entra en la línea lleva una ficha de seis pasos. Esto es cuántas han superado cada paso y cuántas están paradas en él; las que todavía no han llegado al paso no se cuentan.',
+      pasosSello:'{n} con ficha',
+      pasosNada:'El parte todavía no trae fichas de pasos.',
+      pasosDe:'de {n}',
+      p_carry:'Carry', p_lrc:'LRC', p_timing:'Tiempos',
+      p_mapeo:'Mapeo', p_ingles:'Inglés', p_qc:'QC',
+      v_ok:'hecho', v_falta:'falta', v_saul:'espera a Saúl', v_na:'no aplica',
       lineaSub:'{n} canciones en la línea de producción española. El orden de abajo es el que siguen de verdad.',
       lineaSello:'parte del {fecha}',
       paradaTxt:'{n} parada: alguien tiene que mirarla antes de que siga.',
@@ -284,6 +308,17 @@ tailwind.config={theme:{extend:{
       oir:'listen', copiado:'trackId copied',
       suena:'plays', karaoke:'karaoke', cero:'0:00', archivada:'archived',
       lineaTit:'The line, step by step',
+      pasosTit:'Where they get stuck',
+      verLas:'see which ones',
+      filtroPuesto:'Showing only: {paso} · {v} — {n} songs',
+      quitarFiltro:'Clear the filter',
+      pasosSub:'Every song that enters the line carries a six-step sheet. This is how many have cleared each step and how many are stopped at it; songs that have not reached the step yet are not counted.',
+      pasosSello:'{n} with a sheet',
+      pasosNada:'The report carries no step sheets yet.',
+      pasosDe:'of {n}',
+      p_carry:'Carry', p_lrc:'LRC', p_timing:'Timing',
+      p_mapeo:'Mapping', p_ingles:'English', p_qc:'QC',
+      v_ok:'done', v_falta:'missing', v_saul:'waiting on Saúl', v_na:'n/a',
       lineaSub:'{n} songs in the Spanish production line. The order below is the one they actually follow.',
       lineaSello:'report from {fecha}',
       paradaTxt:'{n} stopped: someone has to look at it before it moves on.',
@@ -398,6 +433,15 @@ tailwind.config={theme:{extend:{
       /* El candado cierra la fila, a la derecha del trackId: es lo ultimo que
          le pasa a una cancion y distingue las cerradas del todo. */
       if(r[12]) acc+=chip(candado()+t('bloqueada'),'ok');
+      /* El paso en el que se ha quedado, dicho en la propia fila: sin esto
+         hay que adivinar por que una cancion lleva semanas en Carry. */
+      var bl=bloqueo(r);
+      if(bl) acc+=chip(t('p_'+bl.paso)+': '+t('v_'+bl.v),bl.v==='saul'?'accent':'warn');
+      /* Si se esta filtrando por un paso POSTERIOR al que la bloquea, se
+         ensena tambien ese: si no, la fila parece no cumplir el filtro. */
+      var chipFiltrado=filtroFicha&&(!bl||bl.paso!==filtroFicha.paso);
+      if(chipFiltrado) acc+=chip(t('p_'+filtroFicha.paso)+': '+t('v_'+filtroFicha.v),
+                                 filtroFicha.v==='saul'?'accent':'warn');
       if(r[6]) meta='<span class="font-mono text-[11px] text-zinc-600">'+esc(fechaHora(r[6]))+'</span>';
     }else{
       var suena=r[4]===1;
@@ -407,6 +451,10 @@ tailwind.config={theme:{extend:{
         'class="rounded-lg border border-line/70 bg-raised px-2 py-0.5 text-[11px] font-medium text-zinc-400 '+
         'transition-all duration-200 hover:border-accent/50 hover:text-accentsoft">'+t('oir')+'</a>';
     }
+    /* La nota del paso que la bloquea. Va siempre en Carry: es la respuesta a
+       "y esta por que sigue aqui". */
+    var nb=(vista==='linea'&&r[14])
+      ? '<p class="mt-2 text-[12.5px] leading-relaxed max-w-[80ch] text-zinc-500">'+esc(r[14])+'</p>' : '';
     var motivo = (vista==='linea' && r[7])
       /* El motivo lo escribe el agente en español; si el parte trae ademas la
          version inglesa (indice 11) se usa esa cuando el panel esta en EN. */
@@ -416,12 +464,22 @@ tailwind.config={theme:{extend:{
       'hover:border-line/60 hover:bg-raised">'+
       '<div class="flex flex-wrap items-center gap-x-3 gap-y-2">'+
       '<div class="min-w-0 flex-1 flex flex-wrap items-center gap-x-2.5 gap-y-1">'+titulo(r[0],r[2])+cred+meta+'</div>'+
-      '<div class="flex flex-wrap items-center gap-2">'+acc+'</div></div>'+motivo+'</div>';
+      '<div class="flex flex-wrap items-center gap-2">'+acc+'</div></div>'+motivo+nb+'</div>';
   }
   function fechaHora(iso){
     var d=new Date(/[Zz]$/.test(iso)?iso:iso+'Z');
     if(isNaN(d)) return '';
     return new Intl.DateTimeFormat(T[L].loc,{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}).format(d);
+  }
+  /* El primer paso que deja parada a una cancion, leido de las seis letras. */
+  function bloqueo(r){
+    var f=String(r[13]||'');
+    for(var i=0;i<PASOS_FICHA.length;i++){
+      var c=f.charAt(i);
+      if(c==='f') return {paso:PASOS_FICHA[i],v:'falta'};
+      if(c==='s') return {paso:PASOS_FICHA[i],v:'saul'};
+    }
+    return null;
   }
   function colorPaso(e){
     return {parada:'#E11D48',correccion:'#F97316',revision:'#EAB308',carry:'#7C3AED',
@@ -431,10 +489,26 @@ tailwind.config={theme:{extend:{
   /* ── agrupar ── */
   var abierto={};
   function fuente(){return D[vista]||[];}
+  /* ── el filtro por paso ──
+     Pulsar un numero de "Donde se atascan" deja en la lista exactamente esas
+     canciones. Sin esto el bloque decia "905" y no habia forma de ver cuales.
+     La ficha viene en la fila como seis letras (indice 13), en el orden de
+     PASOS_FICHA. */
+  var LETRA_V={ok:'o',falta:'f',saul:'s',na:'n'};
+  var filtroFicha=null;              /* {paso:'ingles', v:'saul'} o null */
+  function cumpleFicha(r){
+    if(!filtroFicha) return true;
+    var i=PASOS_FICHA.indexOf(filtroFicha.paso);
+    if(i<0) return true;
+    return String(r[13]||'').charAt(i)===LETRA_V[filtroFicha.v];
+  }
   function filtra(){
     var s=q.trim().toLowerCase();
-    if(!s) return fuente();
-    return fuente().filter(function(r){
+    /* El filtro por paso solo tiene sentido en Carry: es la unica vista
+       cuyas filas traen ficha. */
+    var base=(vista==='linea'&&filtroFicha)?fuente().filter(cumpleFicha):fuente();
+    if(!s) return base;
+    return base.filter(function(r){
       return (r[0]+' '+r[1]).toLowerCase().indexOf(s)>-1;
     });
   }
@@ -535,7 +609,7 @@ tailwind.config={theme:{extend:{
       /* Todo arranca plegado: la página abre con el índice de secciones y
          cada una se abre a mano. Con una búsqueda en marcha se abren solas,
          que si no los resultados quedarían escondidos. */
-      var abre=q?true:(abierto[g.clave]!==undefined?abierto[g.clave]:false);
+      var abre=(q||filtroFicha)?true:(abierto[g.clave]!==undefined?abierto[g.clave]:false);
       return '<details id="g'+i+'" data-clave="'+esc(g.clave)+'" '+(abre?'open ':'')+caja+
         '<summary class="-mx-1 flex cursor-pointer list-none items-center gap-2.5 rounded-xl px-1 py-1 '+
         'transition-colors duration-200 hover:bg-raised/60">'+
@@ -628,6 +702,100 @@ tailwind.config={theme:{extend:{
     if(lg){lg.innerHTML=''; lg.hidden=true;}
   }
 
+  /* ── donde se atascan ──
+     El estado dice en que caja esta una cancion; la ficha dice en que PASO se
+     ha quedado. Sin esto el panel decia "2.108 sin original" y se callaba que
+     1.144 de ellas estaban enteras menos el ingles. */
+  var PASOS_FICHA=['carry','lrc','timing','mapeo','ingles','qc'];
+  var VERED=[['ok','#22C55E'],['falta','#F43F5E'],['saul','#A78BFA'],['na','#52525B']];
+  /* El cartel de "estas viendo solo estas": sin el, una lista filtrada parece
+     una lista rota. */
+  function pintaFiltro(){
+    var c=document.getElementById('x-pasos-filtro');
+    if(!c) return;
+    if(!filtroFicha){ c.hidden=true; c.innerHTML=''; return; }
+    var n=fuente().filter(cumpleFicha).length;
+    c.hidden=false;
+    c.innerHTML='<div class="inline-flex items-center gap-2.5 rounded-xl border border-accent/40 '+
+      'bg-accent/10 px-3 py-1.5">'+
+      '<span class="text-[12.5px] text-accentsoft">'+
+      esc(t('filtroPuesto',{paso:t('p_'+filtroFicha.paso),v:t('v_'+filtroFicha.v),n:nf.format(n)}))+
+      '</span>'+
+      '<button type="button" id="x-pasos-quita" class="rounded-lg px-1.5 text-[13px] '+
+      'text-zinc-400 transition-colors duration-200 hover:text-zinc-100" '+
+      'aria-label="'+esc(t('quitarFiltro'))+'">&times;</button></div>';
+  }
+  function pasosFicha(){
+    var PF=(M.proceso||{}).pasos||{};
+    var caja=document.getElementById('x-pasos');
+    var lista=document.getElementById('x-pasos-lista');
+    if(!caja||!lista) return;
+    document.getElementById('x-pasos-tit').textContent=t('pasosTit');
+    document.getElementById('x-pasos-sub').textContent=t('pasosSub');
+    document.getElementById('x-pasos-sello').textContent=
+      t('pasosSello',{n:nf.format((M.proceso||{}).conficha||0)});
+
+    /* La base de cada paso son las que YA tienen veredicto: contar tambien las
+       que no han llegado al paso haria todas las barras casi iguales. */
+    var filas=PASOS_FICHA.map(function(p){
+      var c=PF[p]||{}, base=0;
+      VERED.forEach(function(v){base+=(c[v[0]]||0);});
+      return {p:p,c:c,base:base};
+    });
+    var tope=Math.max.apply(null,filas.map(function(f){return f.base;}).concat([1]));
+    if(!tope||!filas.some(function(f){return f.base>0;})){
+      lista.innerHTML='<p class="text-[13px] text-zinc-500">'+esc(t('pasosNada'))+'</p>';
+      document.getElementById('x-pasos-leyenda').innerHTML='';
+      return;
+    }
+
+    lista.innerHTML=filas.map(function(f){
+      /* La barra ocupa, sobre el ancho total, lo que este paso pesa frente al
+         paso mas poblado: asi se ve de un golpe cuantas llegan a cada uno. */
+      var ancho=Math.max(4,Math.round(f.base/tope*100));
+      var trozos=VERED.map(function(v){
+        var n=f.c[v[0]]||0;
+        if(!n) return '';
+        return '<span class="h-full" title="'+esc(t('v_'+v[0])+': '+nf.format(n))+'" '+
+               'style="width:'+(n/f.base*100)+'%;background:'+v[1]+'"></span>';
+      }).join('');
+      var falta=f.c.falta||0, saul=f.c.saul||0;
+      /* A la derecha solo lo que duele: lo que falta y lo que espera a Saul. */
+      /* Cada numero es un boton: lleva a la lista con esas canciones y solo
+         esas. Un numero que no se puede abrir no sirve de nada. */
+      function boton(n,v,col,px){
+        if(!n) return '';
+        return '<button type="button" data-fp="'+esc(f.p)+'" data-fv="'+v+'" '+
+          'class="group/b flex items-baseline gap-1.5 rounded-lg px-1.5 py-0.5 '+
+          'transition-colors duration-200 hover:bg-raised" title="'+esc(t('verLas'))+'">'+
+          '<span class="font-dot text-['+px+'px] font-extrabold" style="color:'+col+'">'+
+          nf.format(n)+'</span>'+
+          '<span class="text-[12px] text-zinc-500 group-hover/b:text-zinc-300">'+
+          esc(t('v_'+v))+'</span></button>';
+      }
+      var aviso=boton(falta,'falta','#F43F5E','15');
+      var esp=boton(saul,'saul','#A78BFA','13');
+      return '<div class="flex items-center gap-3">'+
+        '<div class="w-[72px] shrink-0 truncate text-[12.5px] text-zinc-300">'+esc(t('p_'+f.p))+'</div>'+
+        '<div class="min-w-0 flex-1">'+
+          '<div class="flex h-3.5 overflow-hidden rounded-full bg-white/5" '+
+               'style="width:'+ancho+'%">'+trozos+'</div>'+
+        '</div>'+
+        '<div class="flex shrink-0 items-baseline gap-1.5 text-right">'+aviso+esp+
+          '<span class="ml-1 font-mono text-[11.5px] text-zinc-600">'+
+          esc(t('pasosDe',{n:nf.format(f.base)}))+'</span>'+
+        '</div>'+
+        '</div>';
+    }).join('');
+
+    document.getElementById('x-pasos-leyenda').innerHTML=VERED.map(function(v){
+      return '<span class="flex items-center gap-1.5 text-[12px] text-zinc-400">'+
+        '<span class="h-2.5 w-2.5 rounded-full" style="background:'+v[1]+'"></span>'+
+        esc(t('v_'+v[0]))+'</span>';
+    }).join('');
+    pintaFiltro();
+  }
+
   function riel(){
     var cu=LIN.cuenta||{};
     document.getElementById('x-linea-tit').textContent=t('lineaTit');
@@ -639,6 +807,7 @@ tailwind.config={theme:{extend:{
     barraApilada('x-linea-barra','x-linea-leyenda',orden.map(function(e){
       return {label:t('e_'+e),n:cu[e]||0,color:colorPaso(e),clave:e};
     }),totL||1,5);
+    pasosFicha();
 
   }
 
@@ -1145,6 +1314,15 @@ tailwind.config={theme:{extend:{
   document.getElementById('x-linea-barra').addEventListener('click',function(e){
     var b=e.target.closest('button[data-paso]'); if(!b) return;
     lleva(document.querySelector('#x-lista [data-clave="'+b.dataset.paso+'"]'));
+  });
+  /* Pulsar un numero de "Donde se atascan" filtra la lista a esas canciones. */
+  document.getElementById('x-pasos').addEventListener('click',function(e){
+    if(e.target.closest('#x-pasos-quita')){ filtroFicha=null; tope=40; todo(); return; }
+    var b=e.target.closest('button[data-fp]'); if(!b) return;
+    filtroFicha={paso:b.dataset.fp,v:b.dataset.fv};
+    tope=40; abierto={};                /* con pocas canciones se abren solas */
+    todo();
+    lleva(document.querySelector('#x-lista [data-clave]'));
   });
   function lleva(s){
     if(!s) return;

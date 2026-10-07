@@ -31,6 +31,26 @@ ESTADOS = ['parada', 'correccion', 'revision', 'carry',
            'traduccion', 'cola', 'sinorig', 'hecha']
 
 
+def ficha_de(c):
+    """Los pasos auditados de una cancion, o {} si no se ha tocado."""
+    return ((c.get('auditoria') or {}).get('pasos') or {})
+
+
+def sin_original(c, estado):
+    """Si esta cancion hay que contarla como 'falta subir el original'.
+
+    No basta con que falte originalTrackId: el hilo de la linea dejo de
+    rellenarlo y sin esta segunda condicion el panel escondia mas de mil
+    canciones ya trabajadas detras de 'Original por subir'. Con ficha de
+    pasos la cancion ha entrado en la linea, y ahi se queda.
+    """
+    if estado not in ('cola', 'carry'):
+        return False
+    if str(c.get('originalTrackId') or '').strip():
+        return False
+    return not ficha_de(c)
+
+
 def carga_env(ruta):
     """tokens.env sin 'export': KEY=valor por linea."""
     if not ruta or not os.path.exists(ruta):
@@ -186,10 +206,10 @@ def parte_linea(datos, log):
         estado = str(c.get('estado') or 'cola').strip().lower()
         if estado not in ESTADOS:
             estado = 'cola'
-        # Sin original enlazado no hay nada que carrear: no es cola, es un
-        # atasco en otro sitio (aprobar el candidato del matcher). Se separa
-        # para que la cola diga cuantas se pueden trabajar de verdad.
-        if estado in ('cola', 'carry') and not str(c.get('originalTrackId') or '').strip():
+        # Sin original enlazado Y sin nada hecho no hay nada que carrear: no
+        # es cola, es un atasco en otro sitio (aprobar el candidato del
+        # matcher). Si ya tiene ficha de pasos, esta trabajada: se queda.
+        if sin_original(c, estado):
             estado = 'sinorig'
         try:
             vueltas = int(c.get('vueltas') or 0)
@@ -214,6 +234,9 @@ def parte_linea(datos, log):
             # El candado lo echa una persona cuando da la cancion por cerrada:
             # es la senal de "esta hecha del todo" dentro de la linea.
             1 if adm.get('lock') else 0,
+            # 13: la ficha en seis letras. 14: por que esta parada.
+            ficha_letras(c),
+            nota_bloqueo(c),
         ])
 
     orden = {e: i for i, e in enumerate(ESTADOS)}
@@ -234,6 +257,31 @@ def parte_linea(datos, log):
 
 
 PASOS_FICHA = ('carry', 'lrc', 'timing', 'mapeo', 'ingles', 'qc')
+
+# La ficha viaja a la pagina como SEIS LETRAS, una por paso y en ese orden:
+# "ooooof" = carry, lrc, tiempos y mapeo hechos; ingles pendiente. Seis letras
+# por cancion en vez de un objeto son 18 KB en vez de 300 en el payload.
+LETRA_V = {'ok': 'o', 'falta': 'f', 'saul': 's', 'na': 'n'}
+# Los pasos que dejan una cancion parada, en el orden en que importan: la nota
+# que se publica es la del primero que la bloquea.
+BLOQUEAN = ('falta', 'saul')
+
+
+def ficha_letras(c):
+    """Los seis veredictos de una cancion como seis letras ('-' = sin llegar)."""
+    f = ficha_de(c)
+    return ''.join(LETRA_V.get(str((f.get(p) or {}).get('v') or ''), '-')
+                   for p in PASOS_FICHA)
+
+
+def nota_bloqueo(c):
+    """Por que esta parada: la nota del primer paso que la bloquea."""
+    f = ficha_de(c)
+    for p in PASOS_FICHA:
+        i = f.get(p) or {}
+        if str(i.get('v') or '') in BLOQUEAN:
+            return str(i.get('nota') or '').strip()[:170]
+    return ''
 
 
 def proceso_linea(log):
@@ -264,9 +312,10 @@ def proceso_linea(log):
         e = str(c.get('estado') or 'cola').strip().lower()
         if e not in ESTADOS:
             e = 'cola'
-        # Misma correccion que en la pestana Carry: sin original enlazado la
-        # cancion no espera turno, esta atascada en otro sitio.
-        if e in ('cola', 'carry') and not str(c.get('originalTrackId') or '').strip():
+        # Misma correccion que en la pestana Carry: sin original enlazado y
+        # sin nada hecho la cancion no espera turno, esta atascada en otro
+        # sitio; con ficha de pasos ya ha entrado en la linea.
+        if sin_original(c, e):
             e = 'sinorig'
         estados[e] += 1
         try:
@@ -274,7 +323,7 @@ def proceso_linea(log):
         except (TypeError, ValueError):
             v = 0
         vueltas[v] += 1
-        ficha = ((c.get('auditoria') or {}).get('pasos') or {})
+        ficha = ficha_de(c)
         if ficha:
             conficha += 1
         for p in PASOS_FICHA:
