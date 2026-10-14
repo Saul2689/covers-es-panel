@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:16:14Z",
+  "generado": "2026-10-14T11:17:37Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -20687,10 +20687,10 @@
       "originalTrackId": "",
       "titulo": "Como Yo Te Ame",
       "artista": "Luis Miguel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "corregida r2, lista para QC r3",
-      "actualizado": "2026-10-14T11:15:38Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T11:17:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20719,15 +20719,21 @@
             "t": "2026-10-07T08:42:44Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r2: una sola correccion, linea 17 y 28 palabras 1-2: los WIT no llevan el sentido de la linea; todo lo demas OK",
-            "t": "2026-10-14T11:14:05Z"
+            "v": "ok",
+            "nota": "r3: L17/L28 con PIT 'how much' en 'lo que', r1 intactos; estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T11:17:23Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r2: una sola correccion, linea 17 y 28 palabras 1-2: los WIT no llevan el sentido de la linea; todo lo demas OK",
-          "t": "2026-10-14T11:14:05Z"
+          "v": "VERDE",
+          "resumen": "r3: L17/L28 con PIT 'how much' en 'lo que', r1 intactos; estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T11:17:23Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:17:24Z"
         }
       }
     },
