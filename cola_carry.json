@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T14:51:47Z",
+  "generado": "2026-10-14T15:03:03Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5187,9 +5187,9 @@
       "titulo": "Dejaria Todo",
       "artista": "Chayanne",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T14:49:20Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T15:02:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5216,7 +5216,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:05:16Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 4 correcciones de ingles (L1 w5, L4 w2-3 sin PI volver a, L20 w7 mayuscula, L21 w3)",
+            "t": "2026-10-14T14:55:58Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 4 correcciones de ingles (L1 w5, L4 w2-3 sin PI volver a, L20 w7 mayuscula, L21 w3)",
+          "t": "2026-10-14T14:55:58Z"
         }
       }
     },
@@ -5227,9 +5237,9 @@
       "titulo": "Ni Bien Ni Mal",
       "artista": "Bad Bunny",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T14:49:21Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T15:02:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5256,7 +5266,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:06:15Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 11 puntos (WIT de sentido equivocado L13/25/28/30/24/15/50/19, remap L30 w7, falta PI L44, to+to en L7 y gemelas)",
+            "t": "2026-10-14T14:56:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 11 puntos (WIT de sentido equivocado L13/25/28/30/24/15/50/19, remap L30 w7, falta PI L44, to+to en L7 y gemelas)",
+          "t": "2026-10-14T14:56:29Z"
         }
       },
       "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
@@ -5421,9 +5441,9 @@
       "titulo": "Me Dedique A Perderte",
       "artista": "Alejandro Fernández",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T14:49:22Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T15:03:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5450,7 +5470,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:06:16Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L13/L33 w10 detenerme sense (stop me), L3 w5-7 phrase darse cuenta now exists, L29 w3 stale WI word",
+            "t": "2026-10-14T14:54:24Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L13/L33 w10 detenerme sense (stop me), L3 w5-7 phrase darse cuenta now exists, L29 w3 stale WI word",
+          "t": "2026-10-14T14:54:24Z"
         }
       }
     },
@@ -7253,10 +7283,10 @@
       "originalTrackId": "",
       "titulo": "El Liston De Tu Pelo",
       "artista": "Los Angeles Azules",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T14:49:23Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1 devuelto: frases es-tagged + PIT (l3,l20,l31), tilde exclamativa l21/l32 p1, DT primarias con i minuscula, WIT l10 p4; ver reviews",
+      "actualizado": "2026-10-14T15:02:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -7283,7 +7313,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:06:17Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: PIs en phrase items en-tagged sin PIT (l3,l20,l31), falta tilde exclamativa (l21,l32 p1), 'i' minuscula en DT primarias de 2 items nuevos, WIT l10 p4",
+            "t": "2026-10-14T15:02:45Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: PIs en phrase items en-tagged sin PIT (l3,l20,l31), falta tilde exclamativa (l21,l32 p1), 'i' minuscula en DT primarias de 2 items nuevos, WIT l10 p4",
+          "t": "2026-10-14T15:02:45Z"
         }
       }
     },
@@ -7293,10 +7333,10 @@
       "originalTrackId": "",
       "titulo": "Azucar Amargo",
       "artista": "Fey",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T14:49:24Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: ver reviews/6aa741d2...md (8 arreglos de mapeo/ingles)",
+      "actualizado": "2026-10-14T15:01:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -7323,7 +7363,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:06:26Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 8 fixes (WIT=PIT l10/l18, wrong que items l24/l52, adj solo l44, hacer daño l4, PIT l3, lowercase DT desharé)",
+            "t": "2026-10-14T15:01:52Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 8 fixes (WIT=PIT l10/l18, wrong que items l24/l52, adj solo l44, hacer daño l4, PIT l3, lowercase DT desharé)",
+          "t": "2026-10-14T15:01:52Z"
         }
       }
     },
@@ -31610,10 +31660,10 @@
       "originalTrackId": "",
       "titulo": "Amar Sin Ser Amada",
       "artista": "Thalia",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T14:51:46Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T14:57:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31642,15 +31692,21 @@
             "t": "2026-10-07T08:55:41Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: faltan PIT volver a / al fin / tener que, WIT 'again' en la a de volver a, 'to be'/'to receive' vs gerundio",
-            "t": "2026-10-14T14:47:26Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-14T14:57:05Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: faltan PIT volver a / al fin / tener que, WIT 'again' en la a de volver a, 'to be'/'to receive' vs gerundio",
-          "t": "2026-10-14T14:47:26Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-14T14:57:05Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T14:57:08Z"
         }
       }
     },
@@ -31660,10 +31716,10 @@
       "originalTrackId": "",
       "titulo": "Vestida De Blanco",
       "artista": "Rocio Durcal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T14:51:44Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T14:54:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31692,15 +31748,21 @@
             "t": "2026-10-07T08:55:42Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1 DEVUELTO: L34 w1 y w2 WIT con sentido de frase / sin do-support (2 WITs en ingles)",
-            "t": "2026-10-14T14:47:13Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-14T14:54:45Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1 DEVUELTO: L34 w1 y w2 WIT con sentido de frase / sin do-support (2 WITs en ingles)",
-          "t": "2026-10-14T14:47:13Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-14T14:54:45Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T14:54:47Z"
         }
       }
     },
@@ -31801,10 +31863,10 @@
       "originalTrackId": "",
       "titulo": "Tragos Amargos",
       "artista": "Ramon Ayala",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T14:49:25Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T14:51:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31833,15 +31895,21 @@
             "t": "2026-10-07T08:55:42Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: falta ancla 'ponerse a' en lineas 15 y 25 (palabras 3-5) y WIT 'I get' de pongo cambia el sentido",
-            "t": "2026-10-14T14:45:48Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-14T14:51:52Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: falta ancla 'ponerse a' en lineas 15 y 25 (palabras 3-5) y WIT 'I get' de pongo cambia el sentido",
-          "t": "2026-10-14T14:45:48Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-14T14:51:52Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T14:51:54Z"
         }
       }
     },
@@ -32028,9 +32096,9 @@
       "titulo": "Esta Tarde Vi Llover",
       "artista": "Armando Manzanero",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T14:41:26Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T15:03:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -32057,7 +32125,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:55:43Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 1 defecto, linea 10 palabra 4 WIT con 'to' doble con la palabra 5; resto OK",
+            "t": "2026-10-14T14:54:04Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 1 defecto, linea 10 palabra 4 WIT con 'to' doble con la palabra 5; resto OK",
+          "t": "2026-10-14T14:54:04Z"
         }
       }
     },
