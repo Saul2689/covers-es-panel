@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:03:25Z",
+  "generado": "2026-10-14T11:04:19Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -11882,10 +11882,10 @@
       "originalTrackId": "",
       "titulo": "Amores Extraños",
       "artista": "Laura Pausini",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1: ancladas ganas de y volver a con PIT, WIT de a/de/verdad a su sentido propio",
-      "actualizado": "2026-10-14T10:59:26Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T11:03:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11914,15 +11914,21 @@
             "t": "2026-10-07T08:31:03Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 1: faltan anclas de frase en L26 (volver a) y L47 (ganas de); L36 w5-6 WIT con sentido de frase; resto verde",
-            "t": "2026-10-14T10:55:21Z"
+            "v": "ok",
+            "nota": "ronda 2: ancladas ganas de (L47) y volver a (L26) con PIT, WIT de L26 w4 y L36 w5-6 en su sentido propio; BAD 0, deriva 0, ingles pending_review, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T11:03:48Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 1: faltan anclas de frase en L26 (volver a) y L47 (ganas de); L36 w5-6 WIT con sentido de frase; resto verde",
-          "t": "2026-10-14T10:55:21Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: ancladas ganas de (L47) y volver a (L26) con PIT, WIT de L26 w4 y L36 w5-6 en su sentido propio; BAD 0, deriva 0, ingles pending_review, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T11:03:48Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:03:50Z"
         }
       }
     },
