@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:40:44Z",
+  "generado": "2026-10-14T11:41:47Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -18441,10 +18441,10 @@
       "originalTrackId": "",
       "titulo": "Este Loco Que Te Mira",
       "artista": "Marc Anthony",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "ingles de palabra rehecho",
-      "actualizado": "2026-10-14T11:36:37Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "L1+L28 tok2-3: sin PI hace tanto que, WITs 'so much'/'that' contradicen 'so long since' (WI ..01e9,..01ea,..0275,..0276; item que 6a11da79c9740e1ba06ddb20 es consecutivo); L22+L48 tok4 'a' deberia ser 'again' (WI 6ac5117a8313070f70577c69, ..77ce1; fila again en bolsa del item 6a11dc3ac9740e1ba06f3c61). Detalle en reviews/6aa800e1d951e1665a7df312.md",
+      "actualizado": "2026-10-14T11:41:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18471,7 +18471,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:38:48Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WITs L1/L28 tok 2-3 (hace tanto que) y L22/L48 tok 4 (volver a + inf) no concuerdan con la linea; resto OK, BAD 0",
+            "t": "2026-10-14T11:41:05Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WITs L1/L28 tok 2-3 (hace tanto que) y L22/L48 tok 4 (volver a + inf) no concuerdan con la linea; resto OK, BAD 0",
+          "t": "2026-10-14T11:41:05Z"
         }
       }
     },
@@ -21897,10 +21907,10 @@
       "originalTrackId": "",
       "titulo": "Mi Buen Amor",
       "artista": "Gloria Estefan",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T11:37:53Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T11:40:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21929,15 +21939,21 @@
             "t": "2026-10-07T08:44:19Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT fixes: vida x3 repeats PIT (L14/24/25 w4), se L16 w5, penar L20 w7, amor after mi L9/L19 w2,w5; rest clean",
-            "t": "2026-10-14T11:36:58Z"
+            "v": "ok",
+            "nota": "r2: 9 WITs de r1 corregidos en el borrador (lineas 9,14,16,19,20,24,25), wit_dt_audit BAD 0, 0 WIT vacios, gemelas iguales, borrador pending_review, drift 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T11:40:51Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT fixes: vida x3 repeats PIT (L14/24/25 w4), se L16 w5, penar L20 w7, amor after mi L9/L19 w2,w5; rest clean",
-          "t": "2026-10-14T11:36:58Z"
+          "v": "VERDE",
+          "resumen": "r2: 9 WITs de r1 corregidos en el borrador (lineas 9,14,16,19,20,24,25), wit_dt_audit BAD 0, 0 WIT vacios, gemelas iguales, borrador pending_review, drift 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T11:40:51Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:40:52Z"
         }
       }
     },
@@ -22388,10 +22404,10 @@
       "originalTrackId": "",
       "titulo": "Besos De Ceniza",
       "artista": "Timbiriche",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "WIT que repiten su PIT: L3 w0 (I go, DT 6a71fce3d58e92f34b7a4773), L19/34/39 w2 (unexpectedly, DT 6a136e5ad0cbdb760b4bd4f3); L23 w2 remapear visto a participio ver 6ac57b360b0281c2678c1462 + WIT seen DT 6ac57b52eb10045239c7cb9f; reabrir borrador en y volver a pending_review",
-      "actualizado": "2026-10-14T11:38:37Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T11:40:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
