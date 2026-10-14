@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T13:01:18Z",
+  "generado": "2026-10-14T13:02:46Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -26078,10 +26078,10 @@
       "originalTrackId": "",
       "titulo": "Cuentame",
       "artista": "Lucero",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "L7 w1 WIT=PIT (repuntar a otra fila); L21/44/60/52 w1 que conjuncion -> item 68c9e7fa...30a26 that; L8 w4 prieto item sentido oscuro -> crear item tight y remapear; L3 w3 word sin coma",
-      "actualizado": "2026-10-14T12:56:25Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T13:01:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26560,9 +26560,9 @@
       "titulo": "Daria",
       "artista": "la 5ª Estacion",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:49:27Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T13:02:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26589,7 +26589,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:49:27Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT fixes: L2w2 equals PIT, que ever L1/4/14 w3, tal perhaps L16 w1, para To caps L2w5/L16w6, stale WI word L10/L20 w6",
+            "t": "2026-10-14T13:01:31Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT fixes: L2w2 equals PIT, que ever L1/4/14 w3, tal perhaps L16 w1, para To caps L2w5/L16w6, stale WI word L10/L20 w6",
+          "t": "2026-10-14T13:01:31Z"
         }
       }
     },
