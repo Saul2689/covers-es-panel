@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T13:42:33Z",
+  "generado": "2026-10-14T13:48:23Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -28246,10 +28246,10 @@
       "originalTrackId": "",
       "titulo": "Esclavo Y Amo",
       "artista": "los Pasteles Verdes",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T13:42:30Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T13:42:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28287,6 +28287,12 @@
           "v": "VERDE",
           "resumen": "QC2",
           "t": "2026-10-14T13:42:30Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T13:42:33Z"
         }
       }
     },
@@ -28492,10 +28498,10 @@
       "originalTrackId": "",
       "titulo": "Ni Freud Ni Tu Mama",
       "artista": "Belinda",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T13:41:30Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T13:44:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28524,15 +28530,21 @@
             "t": "2026-10-07T08:51:43Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "EN draft: hay WIT doubles no (L22/45/62), por because-of vs for (L10/33/50), PIT no mas just vs no more (L25), sigo continue vs follow (L23), me for-me doubles for (L24)",
-            "t": "2026-10-14T13:38:03Z"
+            "v": "ok",
+            "nota": "QC2",
+            "t": "2026-10-14T13:44:25Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "EN draft: hay WIT doubles no (L22/45/62), por because-of vs for (L10/33/50), PIT no mas just vs no more (L25), sigo continue vs follow (L23), me for-me doubles for (L24)",
-          "t": "2026-10-14T13:38:03Z"
+          "v": "VERDE",
+          "resumen": "QC2",
+          "t": "2026-10-14T13:44:25Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T13:44:26Z"
         }
       }
     },
@@ -28746,10 +28758,10 @@
       "originalTrackId": "",
       "titulo": "Buscandola",
       "artista": "Mana",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "WIT fixes en draft: L4 DT, L18 que/tener que, L36 de, nombres propios, I/you duplicados",
-      "actualizado": "2026-10-14T13:41:15Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T13:45:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29475,10 +29487,10 @@
       "originalTrackId": "",
       "titulo": "No Me Amenaces",
       "artista": "Jose Alfredo Jimenez",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:52:21Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "WIT dobles L2,L9,L10,L21,L24,L25; agarra imperativo L3/L18; ver reviews",
+      "actualizado": "2026-10-14T13:47:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29505,7 +29517,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:52:21Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "English WITs: doubled words L2 t4/5, L9/L24 t9/10, L10/L25 t2/3, L21 t1/2; agarra imperative WIT L3/L18 t2; 3 WI.word comma mismatches",
+            "t": "2026-10-14T13:46:59Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "English WITs: doubled words L2 t4/5, L9/L24 t9/10, L10/L25 t2/3, L21 t1/2; agarra imperative WIT L3/L18 t2; 3 WI.word comma mismatches",
+          "t": "2026-10-14T13:46:59Z"
         }
       }
     },
@@ -29555,10 +29577,10 @@
       "originalTrackId": "",
       "titulo": "Ese Hombre",
       "artista": "Rocio Jurado",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:53:29Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "reabrir ingles: L1/5/23/27 w5 (you+you see), L8/30 w3 (to+to make), L15/38 w2 (doesn't+has)",
+      "actualizado": "2026-10-14T13:46:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29585,7 +29607,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:53:28Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WITs con palabra duplicada entre vecinas: L1/5/23/27 w5, L8/30 w3, L15/38 w2; resto OK",
+            "t": "2026-10-14T13:46:35Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WITs con palabra duplicada entre vecinas: L1/5/23/27 w5, L8/30 w3, L15/38 w2; resto OK",
+          "t": "2026-10-14T13:46:35Z"
         }
       }
     },
