@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T08:38:05Z",
+  "generado": "2026-10-14T08:42:53Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -12850,10 +12850,10 @@
       "originalTrackId": "",
       "titulo": "O Me Voy O Te Vas",
       "artista": "Marco Antonio Solís",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "crear phrase items es: 'por las buenas' (L14/L28 pal 2-4, base 0) y 'dar tantas vueltas' (L21/L35 pal 3-5), anclar, PIT en el draft y reenviar a pending_review",
-      "actualizado": "2026-10-14T08:36:04Z",
+      "motivo": "corregida r1, lista para QC",
+      "actualizado": "2026-10-14T08:39:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12951,10 +12951,10 @@
       "originalTrackId": "",
       "titulo": "Es Demasiado Tarde",
       "artista": "Ana Gabriel",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 2,
-      "motivo": "reanclar frases a items es: linea 11 (crear item es lo siento), 27 y 50 (usar item es 6ac5b16feb10045239e5b53e); anadir PIT lineas 10, 11, 27, 50 al borrador en",
-      "actualizado": "2026-10-14T08:34:39Z",
+      "motivo": "corregida r2, lista para QC",
+      "actualizado": "2026-10-14T08:41:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13210,10 +13210,10 @@
       "originalTrackId": "",
       "titulo": "Perdon",
       "artista": "Camila",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1 por script, lista para QC",
-      "actualizado": "2026-10-14T08:37:35Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T08:41:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13242,15 +13242,21 @@
             "t": "2026-10-07T08:33:04Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 anclas de frase en sentido equivocado (lineas 15 y 33, palabras 3-4); resto limpio",
-            "t": "2026-10-14T08:36:52Z"
+            "v": "ok",
+            "nota": "ronda 2: anclas de frase erroneas retiradas, 3 restantes es y correctas, BAD 0, 0 WIT vacios, 38/38 ingles, draft pending_review",
+            "t": "2026-10-14T08:40:58Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 anclas de frase en sentido equivocado (lineas 15 y 33, palabras 3-4); resto limpio",
-          "t": "2026-10-14T08:36:52Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: anclas de frase erroneas retiradas, 3 restantes es y correctas, BAD 0, 0 WIT vacios, 38/38 ingles, draft pending_review",
+          "t": "2026-10-14T08:40:58Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T08:41:00Z"
         }
       }
     },
@@ -13260,10 +13266,10 @@
       "originalTrackId": "",
       "titulo": "Fuego",
       "artista": "RBD",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1 por script, lista para QC",
-      "actualizado": "2026-10-14T08:38:04Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T08:42:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13292,15 +13298,21 @@
             "t": "2026-10-07T08:33:05Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 phrase insights de sentido equivocado: volver a (l7,16,25,29 w2-3) y es mas (l22 w2-3); reabrir EN y quitar PIT",
-            "t": "2026-10-14T08:36:58Z"
+            "v": "ok",
+            "nota": "ronda 2: PI de sentido equivocado quitados, 5 PI es correctos, EN pending_review, drift 0, wit_dt BAD 0",
+            "t": "2026-10-14T08:42:30Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 phrase insights de sentido equivocado: volver a (l7,16,25,29 w2-3) y es mas (l22 w2-3); reabrir EN y quitar PIT",
-          "t": "2026-10-14T08:36:58Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: PI de sentido equivocado quitados, 5 PI es correctos, EN pending_review, drift 0, wit_dt BAD 0",
+          "t": "2026-10-14T08:42:30Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T08:42:31Z"
         }
       }
     },
@@ -17798,10 +17810,10 @@
       "originalTrackId": "",
       "titulo": "Este Loco Que Te Mira",
       "artista": "Marc Anthony",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:11:02Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:38:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17825,9 +17837,9 @@
             "t": "2026-10-06T20:11:02Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "preparado en en_plan.json (68 lineas, 378 WIT con DT, 8 PIT); falta abrir el borrador",
-            "t": "2026-10-06T20:11:02Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:38:48Z"
           }
         }
       }
@@ -17838,10 +17850,10 @@
       "originalTrackId": "",
       "titulo": "Maria Teresa Y Danilo",
       "artista": "Hansel Y Raul",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:12:15Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:39:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17865,9 +17877,9 @@
             "t": "2026-10-06T20:12:14Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (96 lineas, 486 WIT); falta abrir el borrador",
-            "t": "2026-10-06T20:12:15Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:39:06Z"
           }
         }
       }
@@ -17878,10 +17890,10 @@
       "originalTrackId": "",
       "titulo": "Soledad",
       "artista": "Don Omar",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:10:46Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:39:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17905,9 +17917,9 @@
             "t": "2026-10-06T20:10:45Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "falta abrir el borrador: ingles preparado en en_plan.json (61 lineas, 305 WIT con DT)",
-            "t": "2026-10-06T20:10:45Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:39:06Z"
           }
         }
       }
@@ -17958,10 +17970,10 @@
       "originalTrackId": "",
       "titulo": "Ya Te Olvide",
       "artista": "Rocio Durcal",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:10:54Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:39:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17985,9 +17997,9 @@
             "t": "2026-10-06T20:10:53Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan de ingles (32 lineas + 160 WIT) en es_map/payloads/6aa6c17772ca57eb1aa51f63/en_plan.json; falta abrir el borrador",
-            "t": "2026-10-06T20:10:53Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:39:07Z"
           }
         }
       }
@@ -18009,10 +18021,10 @@
       "originalTrackId": "",
       "titulo": "Amor En Silencio",
       "artista": "Marco Antonio Solis",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:11:29Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:39:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18036,9 +18048,9 @@
             "t": "2026-10-06T20:11:28Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "sin borrador abierto; plan de 49 lineas + 283 WIT con DT en es_map/payloads/6aa653e372ca57eb1a9c0610/en_plan.json; falta abrir el borrador",
-            "t": "2026-10-06T20:11:29Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:39:38Z"
           }
         }
       }
@@ -18311,10 +18323,10 @@
       "originalTrackId": "",
       "titulo": "Perdoname",
       "artista": "Pepe Aguilar",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:17:22Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:39:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18338,9 +18350,9 @@
             "t": "2026-10-06T20:17:11Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "preparado en es_map/payloads/<id>/en_plan.json (23 lineas + 144 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T20:17:22Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:39:39Z"
           }
         }
       }
@@ -18442,10 +18454,10 @@
       "originalTrackId": "",
       "titulo": "Me Va A Extrañar",
       "artista": "Ricardo Montaner",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:19:32Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:40:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18469,9 +18481,9 @@
             "t": "2026-10-06T20:19:31Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan preparado en en_plan.json (44 lineas + 273 WIT); falta abrir el borrador",
-            "t": "2026-10-06T20:19:31Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:40:09Z"
           }
         }
       }
@@ -18533,10 +18545,10 @@
       "originalTrackId": "",
       "titulo": "El Privilegio De Amar",
       "artista": "Lucero, Mijares",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:21:37Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:40:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18560,9 +18572,9 @@
             "t": "2026-10-06T20:21:37Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (52 lineas, 254 WIT); falta abrir el borrador",
-            "t": "2026-10-06T20:21:37Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:40:18Z"
           }
         }
       }
@@ -18573,10 +18585,10 @@
       "originalTrackId": "",
       "titulo": "El Peor De Mis Fracasos",
       "artista": "Marco Antonio Solís",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:20:27Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:40:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18600,9 +18612,9 @@
             "t": "2026-10-06T20:18:50Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan de ingles completo (32 lineas, 185 WIT con DT) en es_map/payloads/6aa63fbd72ca57eb1a9a86b9/en_plan.json; falta abrir el borrador",
-            "t": "2026-10-06T20:20:27Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:40:20Z"
           }
         }
       }
@@ -18613,10 +18625,10 @@
       "originalTrackId": "",
       "titulo": "Si Supieras",
       "artista": "Daddy Yankee, Wisin & Yandel",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:25:35Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:41:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18640,9 +18652,9 @@
             "t": "2026-10-06T20:25:34Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (61 lineas + 416 WIT con DT propio); falta abrir el borrador",
-            "t": "2026-10-06T20:25:34Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:41:28Z"
           }
         }
       }
@@ -18653,10 +18665,10 @@
       "originalTrackId": "",
       "titulo": "Soy Yo",
       "artista": "Luis Miguel",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:22:09Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:41:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18680,9 +18692,9 @@
             "t": "2026-10-06T20:22:08Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (33 lineas, 218 WIT con DT propio); falta abrir el borrador",
-            "t": "2026-10-06T20:22:08Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:41:29Z"
           }
         }
       }
@@ -18813,10 +18825,10 @@
       "originalTrackId": "",
       "titulo": "Decidiste Dejarme",
       "artista": "Camila",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:26:11Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:41:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18840,9 +18852,9 @@
             "t": "2026-10-06T20:25:56Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (38 lineas + 215 WIT), falta abrir borrador",
-            "t": "2026-10-06T20:26:11Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:41:30Z"
           }
         }
       }
@@ -18966,10 +18978,10 @@
       "originalTrackId": "",
       "titulo": "Y Las Mariposas",
       "artista": "Joan Sebastian",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:27:05Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:41:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18993,9 +19005,9 @@
             "t": "2026-10-06T20:27:05Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (38 lineas + 171 WIT con DT propio); falta abrir el borrador",
-            "t": "2026-10-06T20:27:05Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:41:31Z"
           }
         }
       }
@@ -19243,10 +19255,10 @@
       "originalTrackId": "",
       "titulo": "Sola Con Mi Soledad",
       "artista": "Marisela",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:34:02Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:42:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19270,9 +19282,9 @@
             "t": "2026-10-06T20:34:02Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (44 lineas + 216 WIT con DT, wit_dt_audit BAD 0); falta abrir el borrador",
-            "t": "2026-10-06T20:34:02Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:42:02Z"
           }
         }
       }
@@ -19283,10 +19295,10 @@
       "originalTrackId": "",
       "titulo": "El Sonido Del Silencio",
       "artista": "Alex Campos",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:36:02Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:42:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19310,9 +19322,9 @@
             "t": "2026-10-06T20:36:02Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (50 lineas, 390 WIT, DT de la bolsa propia); falta abrir el borrador",
-            "t": "2026-10-06T20:36:02Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:42:42Z"
           }
         }
       }
@@ -19374,10 +19386,10 @@
       "originalTrackId": "",
       "titulo": "Se Quiere Se Mata",
       "artista": "Shakira",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:37:49Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:42:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19401,9 +19413,9 @@
             "t": "2026-10-06T20:37:48Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (42 lineas + 288 WIT con DT), falta abrir el borrador",
-            "t": "2026-10-06T20:37:49Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:42:43Z"
           }
         }
       }
@@ -19414,10 +19426,10 @@
       "originalTrackId": "",
       "titulo": "Rata De Dos Patas",
       "artista": "Paquita la Del Barrio",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:36:14Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:42:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19441,9 +19453,9 @@
             "t": "2026-10-06T20:35:13Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (49 lineas + 169 WIT con DT de su bolsa); falta abrir el borrador",
-            "t": "2026-10-06T20:35:56Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:42:44Z"
           }
         }
       }
