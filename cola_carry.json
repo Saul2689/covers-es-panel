@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T08:31:22Z",
+  "generado": "2026-10-14T08:33:30Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -12660,10 +12660,10 @@
       "originalTrackId": "",
       "titulo": "Todo Se Derrumbo Dentro De Mi",
       "artista": "Emmanuel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, lista para QC",
-      "actualizado": "2026-10-14T08:29:12Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T08:33:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12692,15 +12692,21 @@
             "t": "2026-10-07T08:32:17Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "9 tokens 'como' sin tilde (= cómo, 'how') mapeados a como/'like': lineas 22,23,29,30,44,45,51,52,58; resto OK",
-            "t": "2026-10-14T08:25:27Z"
+            "v": "ok",
+            "nota": "ronda 2: 9 cómo con tilde en LRC/richsync, anclas y WIT how correctos, timing y estructura intactos, borrador pending_review, wit_dt_audit BAD 0",
+            "t": "2026-10-14T08:33:17Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "9 tokens 'como' sin tilde (= cómo, 'how') mapeados a como/'like': lineas 22,23,29,30,44,45,51,52,58; resto OK",
-          "t": "2026-10-14T08:25:27Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: 9 cómo con tilde en LRC/richsync, anclas y WIT how correctos, timing y estructura intactos, borrador pending_review, wit_dt_audit BAD 0",
+          "t": "2026-10-14T08:33:17Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T08:33:18Z"
         }
       }
     },
@@ -12710,10 +12716,10 @@
       "originalTrackId": "",
       "titulo": "Millon De Primaveras",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1 por script, lista para QC",
-      "actualizado": "2026-10-14T08:29:11Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T08:32:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12742,15 +12748,21 @@
             "t": "2026-10-07T08:32:18Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 items nuevos (L10/L28 tok 8, L22 tok 4) sin corchete [CODIGO · lema]; resto OK",
-            "t": "2026-10-14T08:28:34Z"
+            "v": "ok",
+            "nota": "ronda 2: corchetes de molestarte y ladrarte arreglados; estructura, mapeo e ingles (draft pending_review, BAD 0) correctos",
+            "t": "2026-10-14T08:32:00Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 items nuevos (L10/L28 tok 8, L22 tok 4) sin corchete [CODIGO · lema]; resto OK",
-          "t": "2026-10-14T08:28:34Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: corchetes de molestarte y ladrarte arreglados; estructura, mapeo e ingles (draft pending_review, BAD 0) correctos",
+          "t": "2026-10-14T08:32:00Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T08:32:01Z"
         }
       }
     },
@@ -15169,10 +15181,10 @@
       "originalTrackId": "",
       "titulo": "Donde Estan Los Ladrones",
       "artista": "Shakira",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T18:09:58Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:31:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15196,9 +15208,9 @@
             "t": "2026-10-06T18:09:57Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
-            "t": "2026-10-06T18:09:57Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:31:29Z"
           }
         }
       }
@@ -15231,10 +15243,10 @@
       "originalTrackId": "",
       "titulo": "Me Gustas Mucho",
       "artista": "Rocio Durcal",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T18:08:18Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:31:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15258,9 +15270,9 @@
             "t": "2026-10-06T18:08:18Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan de ingles listo en payloads/en_plan.json (46 lineas, 200 WIT, 2 PIT); falta abrir el borrador",
-            "t": "2026-10-06T18:08:18Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:31:56Z"
           }
         }
       }
@@ -15271,10 +15283,10 @@
       "originalTrackId": "",
       "titulo": "No Me Digas Que No (Boy Like You)",
       "artista": "Nikki Clan",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T18:11:33Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:32:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15298,9 +15310,9 @@
             "t": "2026-10-06T18:11:33Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (66 lineas, 357 WIT); falta abrir el borrador",
-            "t": "2026-10-06T18:11:33Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:32:38Z"
           }
         }
       }
@@ -15351,10 +15363,10 @@
       "originalTrackId": "",
       "titulo": "Cosas Del Amor",
       "artista": "Ana Gabriel, Vicky Carr",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T18:09:41Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:32:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15378,9 +15390,9 @@
             "t": "2026-10-06T18:09:40Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan de ingles (42 lineas + 222 WIT) en en_plan.json, falta abrir el borrador",
-            "t": "2026-10-06T18:09:41Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:32:39Z"
           }
         }
       }
@@ -15402,10 +15414,10 @@
       "originalTrackId": "",
       "titulo": "Gitana",
       "artista": "Shakira",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T18:11:38Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:32:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15429,9 +15441,9 @@
             "t": "2026-10-06T18:11:37Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (51 lineas, 217 WIT con DT, 3 PIT); falta abrir el borrador (start_draft prohibido en este brief)",
-            "t": "2026-10-06T18:11:38Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:32:40Z"
           }
         }
       }
@@ -15482,10 +15494,10 @@
       "originalTrackId": "",
       "titulo": "Otro Ocupa Mi Lugar",
       "artista": "Miguel Gallardo",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T18:13:36Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:32:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15509,9 +15521,9 @@
             "t": "2026-10-06T18:13:35Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (38 lineas, 192 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T18:13:35Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:32:49Z"
           }
         }
       }
