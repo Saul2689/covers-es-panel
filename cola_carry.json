@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:28:47Z",
+  "generado": "2026-10-14T11:30:54Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -20940,10 +20940,10 @@
       "originalTrackId": "",
       "titulo": "Este Terco Corazon",
       "artista": "Emmanuel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T11:22:19Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T11:29:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20972,15 +20972,21 @@
             "t": "2026-10-07T08:43:16Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "estructura, timing, mapeo base, wit_dt_audit BAD 0 y audio OK; defectos: L8/24 y L16/32/40 ancladas a items en (existen es), WIT de L16/32/40 w5-6 repiten el PIT y L15/31/39 w3 igual, mira que L5/6/21/22 PIT de reproche no encaja, cada dia y desde que sin anclar, L6/22 w7 WIT de",
-            "t": "2026-10-14T11:18:07Z"
+            "v": "ok",
+            "nota": "r2: 6 defectos r1 corregidos; mapeo 247/247, drift 0, wit_dt_audit BAD 0, ingles pending_review, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T11:29:21Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "estructura, timing, mapeo base, wit_dt_audit BAD 0 y audio OK; defectos: L8/24 y L16/32/40 ancladas a items en (existen es), WIT de L16/32/40 w5-6 repiten el PIT y L15/31/39 w3 igual, mira que L5/6/21/22 PIT de reproche no encaja, cada dia y desde que sin anclar, L6/22 w7 WIT de",
-          "t": "2026-10-14T11:18:07Z"
+          "v": "VERDE",
+          "resumen": "r2: 6 defectos r1 corregidos; mapeo 247/247, drift 0, wit_dt_audit BAD 0, ingles pending_review, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T11:29:21Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:29:22Z"
         }
       }
     },
@@ -21231,10 +21237,10 @@
       "originalTrackId": "",
       "titulo": "Yo Se Que Te Acordaras",
       "artista": "Banda El Recodo",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T11:22:26Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T11:29:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21263,15 +21269,21 @@
             "t": "2026-10-07T08:43:24Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "vas WIT repite el PIT (L14,15,31,32 w1); para WIT 'so' reescribe el PIT (L16,33 w1)",
-            "t": "2026-10-14T11:21:38Z"
+            "v": "ok",
+            "nota": "r2: vas/para WITs fixed (lines 14-16, 31-33), twins identical, BAD 0, draft pending_review, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T11:29:34Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "vas WIT repite el PIT (L14,15,31,32 w1); para WIT 'so' reescribe el PIT (L16,33 w1)",
-          "t": "2026-10-14T11:21:38Z"
+          "v": "VERDE",
+          "resumen": "r2: vas/para WITs fixed (lines 14-16, 31-33), twins identical, BAD 0, draft pending_review, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T11:29:34Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:29:35Z"
         }
       }
     },
@@ -21434,10 +21446,10 @@
       "originalTrackId": "",
       "titulo": "No Me Vuelvo A Enamorar",
       "artista": "Juan Gabriel",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC R1 devuelto: quitar PI mi corazon L4/L17, capitalizar I en filas primarias de tropezare y fijare, anclar volver a",
-      "actualizado": "2026-10-14T11:23:04Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T11:29:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21727,10 +21739,10 @@
       "originalTrackId": "",
       "titulo": "Mi Marciana",
       "artista": "Alejandro Sanz",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "ronda 1: L33 w1-2 ancla de frase mal; L13 w7 y L36 w7 WIT repite PIT; L7 w5 WIT minuscula; L13 w2-3 frase sin anclar",
-      "actualizado": "2026-10-14T11:26:46Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T11:29:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
