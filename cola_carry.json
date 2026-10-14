@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:35:43Z",
+  "generado": "2026-10-14T12:39:12Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -25299,9 +25299,9 @@
       "titulo": "Que Te Vaya Bonito",
       "artista": "Vicente Fernandez",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:47:42Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T12:39:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25328,7 +25328,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:47:41Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L19 PI me llame sentido erroneo (llamarse); L12/L24 w5 WIT repite el PIT voy a; item apagarlas sin corchete de codigo",
+            "t": "2026-10-14T12:36:56Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L19 PI me llame sentido erroneo (llamarse); L12/L24 w5 WIT repite el PIT voy a; item apagarlas sin corchete de codigo",
+          "t": "2026-10-14T12:36:56Z"
         }
       }
     },
@@ -25418,10 +25428,10 @@
       "originalTrackId": "",
       "titulo": "Bonita Finca De Adobe",
       "artista": "Ramon Ayala",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:47:43Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1: linea 20 palabra 3 token/item/WIT/ingles (subjuntivo, no pasado); ver reviews/6aa692de72ca57eb1aa18e93.md",
+      "actualizado": "2026-10-14T12:37:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25448,7 +25458,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:47:42Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 20 palabra 3: el LRC se cambio a pasado pero es subjuntivo tras 'no dejes que' de la linea 19; revertir token, remapear al item subjuntivo, WIT e ingles de la linea 20, reabrir y reenviar el borrador",
+            "t": "2026-10-14T12:37:54Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 20 palabra 3: el LRC se cambio a pasado pero es subjuntivo tras 'no dejes que' de la linea 19; revertir token, remapear al item subjuntivo, WIT e ingles de la linea 20, reabrir y reenviar el borrador",
+          "t": "2026-10-14T12:37:54Z"
         }
       }
     },
@@ -25481,9 +25501,9 @@
       "titulo": "Que Se Junten Nuestros Brazos",
       "artista": "Cornelio Reyna",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:48:02Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T12:38:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25510,7 +25530,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:48:02Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "mi corazon PI glosado 'my love' en lineas literales L12/L24; WI.word != token en L16/L28 w4",
+            "t": "2026-10-14T12:36:38Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "mi corazon PI glosado 'my love' en lineas literales L12/L24; WI.word != token en L16/L28 w4",
+          "t": "2026-10-14T12:36:38Z"
         }
       }
     },
