@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T13:29:23Z",
+  "generado": "2026-10-14T13:30:26Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -27895,10 +27895,10 @@
       "originalTrackId": "",
       "titulo": "Perdicion",
       "artista": "la 5ª Estacion",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "L7 w6 y L16 w6 WIT=PIT; L15 w2 revertir tilde de verbo; L18 w6 de->from",
-      "actualizado": "2026-10-14T13:26:42Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T13:29:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28047,10 +28047,10 @@
       "originalTrackId": "",
       "titulo": "El Aguitado",
       "artista": "Jorge Valenzuela",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:51:16Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "ver reviews: WITs dobles L7/L15, nos L8/L16, zorra L20 w5, WI word L13/L20, 6 tildes de forma verbal a revertir",
+      "actualizado": "2026-10-14T13:29:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28077,7 +28077,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:51:16Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WITs dobles en L7/L15 (to, I, negacion), nos L8/L16, zorra L20 w5 sustantivo vs adjetivo, WI word != token L13 w1/w8/L20 w5, tildes de forma verbal anadidas (6)",
+            "t": "2026-10-14T13:29:26Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WITs dobles en L7/L15 (to, I, negacion), nos L8/L16, zorra L20 w5 sustantivo vs adjetivo, WI word != token L13 w1/w8/L20 w5, tildes de forma verbal anadidas (6)",
+          "t": "2026-10-14T13:29:26Z"
         }
       }
     },
