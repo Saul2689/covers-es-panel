@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T10:39:45Z",
+  "generado": "2026-10-14T10:49:18Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -19648,10 +19648,10 @@
       "originalTrackId": "",
       "titulo": "Como Yo",
       "artista": "Juan Luis Guerra",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC ronda 1 DEVUELTO: ver reviews/6aa81ca4d951e1665a80205c.md (l4 p12, l9 p7, l12/20/31 p6-7, l16 p12, l25 p3, l26 p1-2)",
-      "actualizado": "2026-10-14T10:39:10Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T10:45:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19680,15 +19680,21 @@
             "t": "2026-10-07T08:41:14Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 1: l4 p12 WIT repite PIT; l16 p12 y l9 p7 WIT en minuscula; l25 p3 remapear a interjeccion es; PI tanto que (l26) y no sé (l12/20/31) de sentido equivocado",
-            "t": "2026-10-14T10:39:09Z"
+            "v": "ok",
+            "nota": "ronda 2: 6 defectos r1 corregidos; estructura, mapeo, ingles, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T10:45:57Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 1: l4 p12 WIT repite PIT; l16 p12 y l9 p7 WIT en minuscula; l25 p3 remapear a interjeccion es; PI tanto que (l26) y no sé (l12/20/31) de sentido equivocado",
-          "t": "2026-10-14T10:39:09Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: 6 defectos r1 corregidos; estructura, mapeo, ingles, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T10:45:57Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:45:59Z"
         }
       }
     },
@@ -19815,10 +19821,10 @@
       "originalTrackId": "",
       "titulo": "Me Bebi Tu Recuerdo",
       "artista": "Galy Galiano",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:41:15Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T10:48:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19845,7 +19851,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:41:15Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ronda 2: 5 defectos r1 corregidos y verificados en vivo; estructura, mapeo, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T10:48:16Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "ronda 2: 5 defectos r1 corregidos y verificados en vivo; estructura, mapeo, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T10:48:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:48:17Z"
         }
       }
     },
@@ -19969,9 +19991,9 @@
       "titulo": "Down",
       "artista": "Rakim & Ken Y",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:41:59Z",
+      "vueltas": 1,
+      "motivo": "corregida r1: tildes verbales revertidas (notas de oido), WIT de 'en', 'dar vueltas' anclada",
+      "actualizado": "2026-10-14T10:47:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19998,7 +20020,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:41:59Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "vuelta 1: L7/L64 w18 y L32 w3 token con tilde de forma verbal cambiado (revertir, nota de oido); L32 w4 WIT; dar vueltas sin anclar (L3, L27, L60)",
+            "t": "2026-10-14T10:43:12Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "vuelta 1: L7/L64 w18 y L32 w3 token con tilde de forma verbal cambiado (revertir, nota de oido); L32 w4 WIT; dar vueltas sin anclar (L3, L27, L60)",
+          "t": "2026-10-14T10:43:12Z"
         }
       }
     },
@@ -20089,9 +20121,9 @@
       "titulo": "Que Me Des Tu Cariño",
       "artista": "Juan Luis Guerra",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:41:59Z",
+      "vueltas": 1,
+      "motivo": "corregida r1: 2 WIT (linea 3 y 18) y reenviado; fila primaria de milito en minuscula pendiente (indice unico)",
+      "actualizado": "2026-10-14T10:47:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20118,7 +20150,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:41:59Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ronda 1: l3 p2 WIT me (obj directo), l18 p8 WIT antoja persona equivocada, item milito primaria en minuscula; resto limpio",
+            "t": "2026-10-14T10:44:03Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ronda 1: l3 p2 WIT me (obj directo), l18 p8 WIT antoja persona equivocada, item milito primaria en minuscula; resto limpio",
+          "t": "2026-10-14T10:44:03Z"
         }
       }
     },
@@ -20230,10 +20272,10 @@
       "originalTrackId": "",
       "titulo": "Morir De Amor",
       "artista": "Miguel Bose",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:42:00Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC ronda 1: que L7 w1 causal, anclar lo siento L5 y en silencio L8/18/22/26, tilde que L12 w6 y como L4 w6, crear a tiempo L9/19/23/27, reenviar ingles",
+      "actualizado": "2026-10-14T10:43:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20260,7 +20302,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:42:00Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "estructura y audio OK; 5 fallos: que L7 w1 causal, frases lo siento L5 y en silencio L8/18/22/26 sin anclar, qué/cómo sin tilde L12 w6 y L4 w6, frase a tiempo sin item",
+            "t": "2026-10-14T10:43:31Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "estructura y audio OK; 5 fallos: que L7 w1 causal, frases lo siento L5 y en silencio L8/18/22/26 sin anclar, qué/cómo sin tilde L12 w6 y L4 w6, frase a tiempo sin item",
+          "t": "2026-10-14T10:43:31Z"
         }
       }
     },
