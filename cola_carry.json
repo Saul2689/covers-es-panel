@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:52:31Z",
+  "generado": "2026-10-14T12:54:52Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -25768,10 +25768,10 @@
       "originalTrackId": "",
       "titulo": "Siempre Estoy Pensando En Ella",
       "artista": "Leo Dan",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T12:50:09Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T12:54:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25800,15 +25800,21 @@
             "t": "2026-10-07T08:48:40Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L15 que/qué + 2 anclas con item de sentido peor (L2 olvidarme, L6 visto); resto limpio",
-            "t": "2026-10-14T12:47:04Z"
+            "v": "ok",
+            "nota": "QC2",
+            "t": "2026-10-14T12:54:01Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L15 que/qué + 2 anclas con item de sentido peor (L2 olvidarme, L6 visto); resto limpio",
-          "t": "2026-10-14T12:47:04Z"
+          "v": "VERDE",
+          "resumen": "QC2",
+          "t": "2026-10-14T12:54:01Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:54:04Z"
         }
       }
     },
@@ -26016,10 +26022,10 @@
       "originalTrackId": "",
       "titulo": "America America",
       "artista": "Nino Bravo",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T12:52:09Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T12:54:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26048,15 +26054,21 @@
             "t": "2026-10-07T08:48:41Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT en minusculas en America/Eden (15 WITs, lineas 9-12,21-28); 6 WI.word en minuscula distinto del token LRC (L4,6,14,16,18,19 t1); resto OK",
-            "t": "2026-10-14T12:48:53Z"
+            "v": "ok",
+            "nota": "QC2",
+            "t": "2026-10-14T12:54:38Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT en minusculas en America/Eden (15 WITs, lineas 9-12,21-28); 6 WI.word en minuscula distinto del token LRC (L4,6,14,16,18,19 t1); resto OK",
-          "t": "2026-10-14T12:48:53Z"
+          "v": "VERDE",
+          "resumen": "QC2",
+          "t": "2026-10-14T12:54:38Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:54:40Z"
         }
       }
     },
@@ -26107,9 +26119,9 @@
       "titulo": "Recuerdos De Una Noche",
       "artista": "los Pasteles Verdes",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:49:03Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T12:54:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26136,7 +26148,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:49:03Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT igual a PIT en L17/L39 w1 (junto a); que relativo anclado a conjuncion en L14/L36 w1; resto OK",
+            "t": "2026-10-14T12:53:54Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT igual a PIT en L17/L39 w1 (junto a); que relativo anclado a conjuncion en L14/L36 w1; resto OK",
+          "t": "2026-10-14T12:53:54Z"
         }
       }
     },
