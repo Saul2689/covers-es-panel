@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:06:48Z",
+  "generado": "2026-10-14T12:07:31Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23439,10 +23439,10 @@
       "originalTrackId": "",
       "titulo": "El Dia Que Puedas",
       "artista": "Emmanuel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T12:04:59Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T12:07:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23471,15 +23471,21 @@
             "t": "2026-10-07T08:45:46Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "3 defectos: L3 w5 sentido (precisas=necesarias), L21/L38 w6 WIT duplicado con w8, L4 w1 para=in order to",
-            "t": "2026-10-14T12:03:32Z"
+            "v": "ok",
+            "nota": "r2: los 3 defectos de r1 corregidos (L3 w5, L21/L38 w6, L4 w1); lista completa repasada, wit_dt_audit BAD 0, gemelas identicas, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T12:07:16Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "3 defectos: L3 w5 sentido (precisas=necesarias), L21/L38 w6 WIT duplicado con w8, L4 w1 para=in order to",
-          "t": "2026-10-14T12:03:32Z"
+          "v": "VERDE",
+          "resumen": "r2: los 3 defectos de r1 corregidos (L3 w5, L21/L38 w6, L4 w1); lista completa repasada, wit_dt_audit BAD 0, gemelas identicas, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T12:07:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:07:17Z"
         }
       }
     },
