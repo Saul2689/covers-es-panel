@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T15:59:28Z",
+  "generado": "2026-10-14T16:04:11Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9514,10 +9514,10 @@
       "originalTrackId": "",
       "titulo": "Blanco",
       "artista": "J. Balvin",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T15:57:04Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "r2 parcial: 2 filas bloqueadas por permisos, espera OK de Saúl",
+      "actualizado": "2026-10-14T16:04:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9547,14 +9547,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "QC1: WIT como L2/L18, me L8/L24, nombres propios en minuscula, PIT Puerto Rico, falta ancla manos en alto L37",
-            "t": "2026-10-14T15:52:27Z"
+            "nota": "QC2: r1 fixes verified; only lowercase primaries of own new items (apago, marco, estanco + 3 names) left",
+            "t": "2026-10-14T16:01:15Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "QC1: WIT como L2/L18, me L8/L24, nombres propios en minuscula, PIT Puerto Rico, falta ancla manos en alto L37",
-          "t": "2026-10-14T15:52:27Z"
+          "resumen": "QC2: r1 fixes verified; only lowercase primaries of own new items (apago, marco, estanco + 3 names) left",
+          "t": "2026-10-14T16:01:15Z"
         }
       }
     },
@@ -9743,10 +9743,10 @@
       "originalTrackId": "",
       "titulo": "No Me Acostumbro",
       "artista": "Rey Ruiz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T15:59:27Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T16:02:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9775,15 +9775,21 @@
             "t": "2026-10-14T08:12:03Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: L13/L27 EN line vs WIT, L48 w1 WIT, L36 w5 wrong-sense item, L43 w2 WIT, L20 w4 unused right-sense item, L17/L31 missing dejar de anchor, L39 w9 stale WI.word",
-            "t": "2026-10-14T15:55:11Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-14T16:02:21Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: L13/L27 EN line vs WIT, L48 w1 WIT, L36 w5 wrong-sense item, L43 w2 WIT, L20 w4 unused right-sense item, L17/L31 missing dejar de anchor, L39 w9 stale WI.word",
-          "t": "2026-10-14T15:55:11Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-14T16:02:21Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T16:02:23Z"
         }
       }
     },
@@ -9793,10 +9799,10 @@
       "originalTrackId": "",
       "titulo": "Gordita",
       "artista": "Calle 13, Shakira",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1 DEVUELTO: ver reviews (WI.word, WIT doblados, nombres propios, tener que L56, L41)",
-      "actualizado": "2026-10-14T15:56:23Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T16:04:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9923,10 +9929,10 @@
       "originalTrackId": "",
       "titulo": "Volcan",
       "artista": "Jose Jose",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T15:44:32Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: ver reviews/6aa110f464c9b8ff110c0756.md (D1-D5: locuciones, WIT-fragmento, volaste, ingles L5/L20)",
+      "actualizado": "2026-10-14T16:03:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9953,7 +9959,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:14:08Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: anclar hace tiempo (existe) y crear tener cuidado, golpe de mar, como el que mas; WIT por palabra en igual que, ten/cuidado, el; item volaste sentido equivocado; ingles L5/L20 sin you",
+            "t": "2026-10-14T16:03:55Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: anclar hace tiempo (existe) y crear tener cuidado, golpe de mar, como el que mas; WIT por palabra en igual que, ten/cuidado, el; item volaste sentido equivocado; ingles L5/L20 sin you",
+          "t": "2026-10-14T16:03:55Z"
         }
       }
     },
