@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T15:28:53Z",
+  "generado": "2026-10-14T15:32:14Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -8565,10 +8565,10 @@
       "originalTrackId": "",
       "titulo": "Hechicera",
       "artista": "Mana",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T15:23:30Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: borrar PIT de locucion mal anclada (linea 13); WIT let+to X (lineas 18,19); anclar poco a poco (linea 19); reabrir ingles",
+      "actualizado": "2026-10-14T15:30:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8595,7 +8595,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:08:11Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: wrong-sense phrase anchor (line 13), let-me/to-X WITs (lines 18, 19), missing idiom anchor (line 19)",
+            "t": "2026-10-14T15:30:11Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: wrong-sense phrase anchor (line 13), let-me/to-X WITs (lines 18, 19), missing idiom anchor (line 19)",
+          "t": "2026-10-14T15:30:11Z"
         }
       }
     },
@@ -8673,9 +8683,9 @@
       "titulo": "Por Volverte A Ver",
       "artista": "Aleks Syntek",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T15:23:31Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T15:32:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8702,7 +8712,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:08:38Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "doble palabra volverte+a+ver (l9,l10,l23,l24); falta ancla phrase item es 'lo siento' (l3,l12,l17,l26) + PIT",
+            "t": "2026-10-14T15:29:55Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "doble palabra volverte+a+ver (l9,l10,l23,l24); falta ancla phrase item es 'lo siento' (l3,l12,l17,l26) + PIT",
+          "t": "2026-10-14T15:29:55Z"
         }
       }
     },
@@ -8813,9 +8833,9 @@
       "titulo": "Amor Clandestino",
       "artista": "Mana",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T15:23:32Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T15:32:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8842,7 +8862,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:09:07Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: WIT 'no longer' on ya inside 'ya no' PIT (L29 w5, L31 w4, L39 w3); rest clean",
+            "t": "2026-10-14T15:29:11Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: WIT 'no longer' on ya inside 'ya no' PIT (L29 w5, L31 w4, L39 w3); rest clean",
+          "t": "2026-10-14T15:29:11Z"
         }
       }
     },
@@ -8873,9 +8903,9 @@
       "titulo": "Un Poco De Tu Amor",
       "artista": "RBD",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T15:23:34Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T15:32:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8902,7 +8932,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:09:55Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 16 WIT 'To' capitalised (7 mid-line); use lowercase 'to' DT 6a692e31..., rest OK",
+            "t": "2026-10-14T15:30:01Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 16 WIT 'To' capitalised (7 mid-line); use lowercase 'to' DT 6a692e31..., rest OK",
+          "t": "2026-10-14T15:30:01Z"
         }
       }
     },
