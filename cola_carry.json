@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T10:34:18Z",
+  "generado": "2026-10-14T10:37:18Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -18906,10 +18906,10 @@
       "originalTrackId": "",
       "titulo": "Mujer Latina",
       "artista": "Thalia",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "corregida r2 por script, lista para QC",
-      "actualizado": "2026-10-14T10:33:53Z",
+      "motivo": "QC r3 VERDE; borrador EN pending_review; audio SUENA_SIN_BLINDAR (206)",
+      "actualizado": "2026-10-14T10:36:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18938,15 +18938,21 @@
             "t": "2026-10-07T08:40:14Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 2: arreglos r1 ok (L52, L33 quemas, Latina); falta PIT de la linea 49 palabras 7-10 (usar fila existente 'to lie', no 'betray the truth')",
-            "t": "2026-10-14T10:32:47Z"
+            "v": "ok",
+            "nota": "r3: L49 fix verificado (PIT to lie + traduccion de linea), BAD 0, EN pending_review, SUENA_SIN_BLINDAR; nota: gloss lowercase dominguera L9/46/66",
+            "t": "2026-10-14T10:36:44Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 2: arreglos r1 ok (L52, L33 quemas, Latina); falta PIT de la linea 49 palabras 7-10 (usar fila existente 'to lie', no 'betray the truth')",
-          "t": "2026-10-14T10:32:47Z"
+          "v": "VERDE",
+          "resumen": "r3: L49 fix verificado (PIT to lie + traduccion de linea), BAD 0, EN pending_review, SUENA_SIN_BLINDAR; nota: gloss lowercase dominguera L9/46/66",
+          "t": "2026-10-14T10:36:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:36:45Z"
         }
       }
     },
@@ -19103,10 +19109,10 @@
       "originalTrackId": "",
       "titulo": "Como Han Pasado Los Años",
       "artista": "Rocio Durcal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, lista para QC",
-      "actualizado": "2026-10-14T10:32:06Z",
+      "motivo": "QC r2 VERDE; en pending_review para aprobacion de Saul",
+      "actualizado": "2026-10-14T10:35:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19135,15 +19141,21 @@
             "t": "2026-10-07T08:40:15Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 1: L2 w2 item de sentido moneda; L12 w2/L25 y L23 w3/L36 WIT con fila equivocada; locuciones sin anclar (por entero L14/27, va a L16/29, lado a lado L3, frente a frente L8, en secreto L15/28)",
-            "t": "2026-10-14T10:28:24Z"
+            "v": "ok",
+            "nota": "r2: defectos r1 corregidos, mapeo 171/171, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T10:35:13Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 1: L2 w2 item de sentido moneda; L12 w2/L25 y L23 w3/L36 WIT con fila equivocada; locuciones sin anclar (por entero L14/27, va a L16/29, lado a lado L3, frente a frente L8, en secreto L15/28)",
-          "t": "2026-10-14T10:28:24Z"
+          "v": "VERDE",
+          "resumen": "r2: defectos r1 corregidos, mapeo 171/171, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T10:35:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:35:14Z"
         }
       }
     },
@@ -19404,10 +19416,10 @@
       "originalTrackId": "",
       "titulo": "Cuidado Con El Corazon",
       "artista": "Alejandra Guzmán",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, lista para QC",
-      "actualizado": "2026-10-14T10:33:55Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T10:37:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19436,15 +19448,21 @@
             "t": "2026-10-07T08:40:35Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 1: ancla 'ten cuidado' (L11,15,24,28,36,40) y 'ir a' (L13,26,38) sin anclar; WIT repite PIT L4 p2 y L22 p3; L9 p3 que=than",
-            "t": "2026-10-14T10:30:38Z"
+            "v": "ok",
+            "nota": "ronda 2: defectos r1 corregidos; ten cuidado, ir a, por nada, jugarse la piel bien anclados; ingles pending_review, BAD 0, drift 0, SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T10:36:56Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 1: ancla 'ten cuidado' (L11,15,24,28,36,40) y 'ir a' (L13,26,38) sin anclar; WIT repite PIT L4 p2 y L22 p3; L9 p3 que=than",
-          "t": "2026-10-14T10:30:38Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: defectos r1 corregidos; ten cuidado, ir a, por nada, jugarse la piel bien anclados; ingles pending_review, BAD 0, drift 0, SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T10:36:56Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:37:01Z"
         }
       }
     },
@@ -19574,10 +19592,10 @@
       "originalTrackId": "",
       "titulo": "Estrellitas Y Duendes",
       "artista": "Juan Luis Guerra",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1: l6 w1; l21/52/71 w1; l36 w1; l11 w1-3; l20/51/70 w2; l33 w2 (ver reviews)",
-      "actualizado": "2026-10-14T10:30:21Z",
+      "motivo": "corregida r1, lista para QC",
+      "actualizado": "2026-10-14T10:34:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
