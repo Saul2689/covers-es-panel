@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:47:55Z",
+  "generado": "2026-10-14T11:48:15Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -18441,10 +18441,10 @@
       "originalTrackId": "",
       "titulo": "Este Loco Que Te Mira",
       "artista": "Marc Anthony",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T11:45:23Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T11:48:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18473,15 +18473,21 @@
             "t": "2026-10-14T08:38:48Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WITs L1/L28 tok 2-3 (hace tanto que) y L22/L48 tok 4 (volver a + inf) no concuerdan con la linea; resto OK, BAD 0",
-            "t": "2026-10-14T11:41:05Z"
+            "v": "ok",
+            "nota": "r2: hace tanto que (L1,L28) y volver a (L22,L48) corregidos con PI; que remapeado; wit_dt BAD 0, WITs vacios 0, gemelas ok, pending_review",
+            "t": "2026-10-14T11:48:00Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WITs L1/L28 tok 2-3 (hace tanto que) y L22/L48 tok 4 (volver a + inf) no concuerdan con la linea; resto OK, BAD 0",
-          "t": "2026-10-14T11:41:05Z"
+          "v": "VERDE",
+          "resumen": "r2: hace tanto que (L1,L28) y volver a (L22,L48) corregidos con PI; que remapeado; wit_dt BAD 0, WITs vacios 0, gemelas ok, pending_review",
+          "t": "2026-10-14T11:48:00Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:48:02Z"
         }
       }
     },
