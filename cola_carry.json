@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:18:57Z",
+  "generado": "2026-10-14T12:19:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24385,10 +24385,10 @@
       "originalTrackId": "",
       "titulo": "Entre Tus Alas",
       "artista": "Camila",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:47:34Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 DEVUELTO: ver reviews/6aa536b842b8d1fdb0c96922.md (PIs mi corazon L15/16/50/51; WIT=PIT L5 w2, L15/16/50/51 w3; WI.word L39 w2, L42 w4, L81 w3; DT i minuscula item asome)",
+      "actualizado": "2026-10-14T12:19:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24415,7 +24415,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:47:34Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: 4 mi corazon PIs (L15,16,50,51) con sentido figurado; 5 WIT=PIT (L5 w2, L15/16/50/51 w3); 3 WI.word sin tilde (L39,42,81); 2 filas DT con i minuscula en item nuevo",
+            "t": "2026-10-14T12:19:27Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: 4 mi corazon PIs (L15,16,50,51) con sentido figurado; 5 WIT=PIT (L5 w2, L15/16/50/51 w3); 3 WI.word sin tilde (L39,42,81); 2 filas DT con i minuscula en item nuevo",
+          "t": "2026-10-14T12:19:27Z"
         }
       }
     },
