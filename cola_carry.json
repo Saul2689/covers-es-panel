@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T14:41:27Z",
+  "generado": "2026-10-14T14:41:50Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -31377,10 +31377,10 @@
       "originalTrackId": "",
       "titulo": "Si He Sabido Amor",
       "artista": "Alejandro Fernandez",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T14:26:20Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: ancla ir a L30/L54; remapear tengo/de L32/L56; WIT hablar L16 (ver reviews)",
+      "actualizado": "2026-10-14T14:41:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31407,7 +31407,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:55:18Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: falta ancla ir a en L30/L54, tengo/de de sentido erroneo en L32/L56, WIT de hablar en L16",
+            "t": "2026-10-14T14:41:32Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: falta ancla ir a en L30/L54, tengo/de de sentido erroneo en L32/L56, WIT de hablar en L16",
+          "t": "2026-10-14T14:41:32Z"
         }
       }
     },
