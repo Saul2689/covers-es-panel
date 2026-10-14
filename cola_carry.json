@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T08:20:45Z",
+  "generado": "2026-10-14T08:23:18Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -11380,10 +11380,10 @@
       "originalTrackId": "",
       "titulo": "Mi Soledad Y Yo",
       "artista": "Alejandro Sanz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, lista para QC",
-      "actualizado": "2026-10-14T08:17:11Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T08:22:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11412,15 +11412,21 @@
             "t": "2026-10-07T08:29:20Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "1 anclaje de frase mal: linea 10 palabras 6-7 (sentido temporal 'hace tanto que', no consecutivo); resto OK",
-            "t": "2026-10-14T08:11:30Z"
+            "v": "ok",
+            "nota": "ronda 2: ancla 'hace tanto que' L10 correcta, item es nuevo completo, estructura, ingles pending_review, WIT BAD 0",
+            "t": "2026-10-14T08:22:43Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "1 anclaje de frase mal: linea 10 palabras 6-7 (sentido temporal 'hace tanto que', no consecutivo); resto OK",
-          "t": "2026-10-14T08:11:30Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: ancla 'hace tanto que' L10 correcta, item es nuevo completo, estructura, ingles pending_review, WIT BAD 0",
+          "t": "2026-10-14T08:22:43Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T08:22:48Z"
         }
       }
     },
@@ -11430,10 +11436,10 @@
       "originalTrackId": "",
       "titulo": "La Fuerza Del Corazon",
       "artista": "Alejandro Sanz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, lista para QC",
-      "actualizado": "2026-10-14T08:17:12Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T08:22:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11462,15 +11468,21 @@
             "t": "2026-10-07T08:29:41Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 anclas de phrase item con sentido equivocado (L4 w5-7 y L44 w3-4); resto limpio",
-            "t": "2026-10-14T08:11:29Z"
+            "v": "ok",
+            "nota": "ronda 2: anclas L4 y L44 corregidas, item 'no es mas que' es completo, estructura, ingles pending_review, WIT BAD 0",
+            "t": "2026-10-14T08:22:44Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 anclas de phrase item con sentido equivocado (L4 w5-7 y L44 w3-4); resto limpio",
-          "t": "2026-10-14T08:11:29Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: anclas L4 y L44 corregidas, item 'no es mas que' es completo, estructura, ingles pending_review, WIT BAD 0",
+          "t": "2026-10-14T08:22:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T08:22:49Z"
         }
       }
     },
@@ -11683,10 +11695,10 @@
       "originalTrackId": "",
       "titulo": "Se Me Olvido Otra Vez",
       "artista": "Mana",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T16:40:08Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:21:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11710,9 +11722,9 @@
             "t": "2026-10-06T16:40:07Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (61 lineas, 252 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T16:40:08Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:21:08Z"
           }
         }
       }
@@ -11723,10 +11735,10 @@
       "originalTrackId": "",
       "titulo": "Dime Que Te Paso",
       "artista": "Wisin & Yandel",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T16:42:42Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:22:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11750,9 +11762,9 @@
             "t": "2026-10-06T16:42:42Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en es_map/payloads/6aa72ed672ca57eb1aaebd51/en_plan.json; falta abrir el borrador",
-            "t": "2026-10-06T16:42:42Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:22:51Z"
           }
         }
       }
@@ -11949,10 +11961,10 @@
       "originalTrackId": "",
       "titulo": "Quitame Ese Hombre",
       "artista": "Pilar Montenegro",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T16:46:48Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:22:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11976,9 +11988,9 @@
             "t": "2026-10-06T16:46:47Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en .singit/es_map/payloads/6aa78b5772ca57eb1ace2b2a/en_plan.json: 40 lineas + 202 WIT con DT; falta abrir borrador (start_draft no autorizado)",
-            "t": "2026-10-06T16:46:48Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:22:52Z"
           }
         }
       }
@@ -11989,10 +12001,10 @@
       "originalTrackId": "",
       "titulo": "Quitame Ese Hombre",
       "artista": "Pilar Montenegro",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T17:09:23Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:22:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12016,9 +12028,9 @@
             "t": "2026-10-06T17:09:23Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en .singit/es_map/payloads/6aa6882c72ca57eb1aa08ec1/en_plan.json: 52 lineas + 233 WIT con DT; falta abrir borrador (start_draft no autorizado)",
-            "t": "2026-10-06T17:09:23Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:22:52Z"
           }
         }
       }
@@ -12029,10 +12041,10 @@
       "originalTrackId": "",
       "titulo": "A Traves Del Vaso",
       "artista": "Banda los Sebastianes",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1 por script, lista para QC",
-      "actualizado": "2026-10-14T08:19:54Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T08:22:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12061,15 +12073,21 @@
             "t": "2026-10-07T08:31:07Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 anclas de frase mal: linea 1 palabras 3-4 (de una) y linea 5 palabras 5-6 (ir a); resto correcto",
-            "t": "2026-10-14T08:18:51Z"
+            "v": "ok",
+            "nota": "ronda 2: anclas de frase malas borradas, 6 restantes es y correctas, pronombres/que/verbo-sustantivo OK, ingles pending_review, wit_dt_audit BAD 0",
+            "t": "2026-10-14T08:22:45Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 anclas de frase mal: linea 1 palabras 3-4 (de una) y linea 5 palabras 5-6 (ir a); resto correcto",
-          "t": "2026-10-14T08:18:51Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: anclas de frase malas borradas, 6 restantes es y correctas, pronombres/que/verbo-sustantivo OK, ingles pending_review, wit_dt_audit BAD 0",
+          "t": "2026-10-14T08:22:45Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T08:22:46Z"
         }
       }
     },
@@ -12175,10 +12193,10 @@
       "originalTrackId": "",
       "titulo": "Buleria",
       "artista": "David Bisbal",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T16:49:40Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:23:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12197,9 +12215,9 @@
             "t": "2026-10-06T16:48:33Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan de 55 lineas + 358 WIT en en_plan.json; falta abrir el borrador",
-            "t": "2026-10-06T16:49:40Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:23:00Z"
           }
         }
       }
@@ -12297,10 +12315,10 @@
       "originalTrackId": "",
       "titulo": "Yo No Se Que Me Paso",
       "artista": "Juan Gabriel",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T16:48:41Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T08:23:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12324,9 +12342,9 @@
             "t": "2026-10-06T16:48:41Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "preparado en en_plan.json; falta abrir el borrador (start_draft no permitido a este agente)",
-            "t": "2026-10-06T16:48:41Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T08:23:00Z"
           }
         }
       }
