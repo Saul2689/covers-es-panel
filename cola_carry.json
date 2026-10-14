@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:17:37Z",
+  "generado": "2026-10-14T11:18:27Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -20585,10 +20585,10 @@
       "originalTrackId": "",
       "titulo": "Como Me Haces Falta",
       "artista": "Ana Barbara",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "corregida r2, lista para QC r3",
-      "actualizado": "2026-10-14T11:15:39Z",
+      "motivo": "QC r3 VERDE; borrador EN pending_review, audio SUENA_SIN_BLINDAR",
+      "actualizado": "2026-10-14T11:18:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20617,15 +20617,21 @@
             "t": "2026-10-07T08:42:43Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r2: los 5 puntos de r1 arreglados; falta 1: gloss EN primario del phrase item 'me haces falta' en minuscula (i miss you), lineas 21,22,25,26,37,38,41,42,45,46",
-            "t": "2026-10-14T11:14:18Z"
+            "v": "ok",
+            "nota": "QC r3: fallo r2 corregido (fila EN con I mayuscula), r1 intactos; estructura, mapeo, ingles, wit_dt_audit BAD 0 y audio SUENA_SIN_BLINDAR ok",
+            "t": "2026-10-14T11:18:01Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r2: los 5 puntos de r1 arreglados; falta 1: gloss EN primario del phrase item 'me haces falta' en minuscula (i miss you), lineas 21,22,25,26,37,38,41,42,45,46",
-          "t": "2026-10-14T11:14:18Z"
+          "v": "VERDE",
+          "resumen": "QC r3: fallo r2 corregido (fila EN con I mayuscula), r1 intactos; estructura, mapeo, ingles, wit_dt_audit BAD 0 y audio SUENA_SIN_BLINDAR ok",
+          "t": "2026-10-14T11:18:01Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:18:05Z"
         }
       }
     },
@@ -20878,10 +20884,10 @@
       "originalTrackId": "",
       "titulo": "Navidad Sin Ti",
       "artista": "los Bukis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T11:15:30Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T11:18:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20910,15 +20916,21 @@
             "t": "2026-10-07T08:43:10Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "estructura, mapeo, ingles y wit_dt_audit OK; 3 defectos: L28 WIT de junto repite su PIT, ejemplos del item acabandose agramaticales, ingles L22/44/50 lee mal brindo en",
-            "t": "2026-10-14T11:13:02Z"
+            "v": "ok",
+            "nota": "r2: defectos r1 corregidos (WIT L28, ejemplos acabandose, linea EN gemelas); estructura, mapeo, ingles pending_review, BAD 0, drift 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T11:18:19Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "estructura, mapeo, ingles y wit_dt_audit OK; 3 defectos: L28 WIT de junto repite su PIT, ejemplos del item acabandose agramaticales, ingles L22/44/50 lee mal brindo en",
-          "t": "2026-10-14T11:13:02Z"
+          "v": "VERDE",
+          "resumen": "r2: defectos r1 corregidos (WIT L28, ejemplos acabandose, linea EN gemelas); estructura, mapeo, ingles pending_review, BAD 0, drift 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T11:18:19Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:18:20Z"
         }
       }
     },
@@ -20928,10 +20940,10 @@
       "originalTrackId": "",
       "titulo": "Este Terco Corazon",
       "artista": "Emmanuel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:43:17Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC ronda 1: reanclar a items es L8/24 y L16/32/40, WIT que repiten PIT (L16/32/40 w5-6, L15/31/39 w3), PIT de mira que (L5/6/21/22), anclar cada dia y desde que, L6/22 w7; ver reviews/6aa81371d951e1665a7f752f.md",
+      "actualizado": "2026-10-14T11:18:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20958,7 +20970,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:43:16Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "estructura, timing, mapeo base, wit_dt_audit BAD 0 y audio OK; defectos: L8/24 y L16/32/40 ancladas a items en (existen es), WIT de L16/32/40 w5-6 repiten el PIT y L15/31/39 w3 igual, mira que L5/6/21/22 PIT de reproche no encaja, cada dia y desde que sin anclar, L6/22 w7 WIT de",
+            "t": "2026-10-14T11:18:07Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "estructura, timing, mapeo base, wit_dt_audit BAD 0 y audio OK; defectos: L8/24 y L16/32/40 ancladas a items en (existen es), WIT de L16/32/40 w5-6 repiten el PIT y L15/31/39 w3 igual, mira que L5/6/21/22 PIT de reproche no encaja, cada dia y desde que sin anclar, L6/22 w7 WIT de",
+          "t": "2026-10-14T11:18:07Z"
         }
       }
     },
