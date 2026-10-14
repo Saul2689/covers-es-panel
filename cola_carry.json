@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T13:09:38Z",
+  "generado": "2026-10-14T13:13:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -26713,10 +26713,10 @@
       "originalTrackId": "",
       "titulo": "Que De Raro Tiene?",
       "artista": "los Temerarios",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T13:07:06Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T13:09:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26745,15 +26745,21 @@
             "t": "2026-10-07T08:49:44Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WITs: voy (L7 w2, L32 w3) carries PIT; L25 w3 WIT=PIT; que L15/18/40/43 w1 why->what; L39 w8 WI word capital stale",
-            "t": "2026-10-14T13:05:46Z"
+            "v": "ok",
+            "nota": "QC2",
+            "t": "2026-10-14T13:09:41Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WITs: voy (L7 w2, L32 w3) carries PIT; L25 w3 WIT=PIT; que L15/18/40/43 w1 why->what; L39 w8 WI word capital stale",
-          "t": "2026-10-14T13:05:46Z"
+          "v": "VERDE",
+          "resumen": "QC2",
+          "t": "2026-10-14T13:09:41Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T13:09:44Z"
         }
       }
     },
@@ -26763,10 +26769,10 @@
       "originalTrackId": "",
       "titulo": "Solo En Ti",
       "artista": "Enrique Iglesias",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T13:09:03Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T13:12:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26795,15 +26801,21 @@
             "t": "2026-10-07T08:49:59Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "que relativa mapeada a conjuncion (L2 t1, L3 t1, L37 t1); L13 w2 WIT igual al PIT; PI 'un dia' sentido equivocado (L8,17,26,33,42,45)",
-            "t": "2026-10-14T13:08:00Z"
+            "v": "ok",
+            "nota": "QC2",
+            "t": "2026-10-14T13:12:09Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "que relativa mapeada a conjuncion (L2 t1, L3 t1, L37 t1); L13 w2 WIT igual al PIT; PI 'un dia' sentido equivocado (L8,17,26,33,42,45)",
-          "t": "2026-10-14T13:08:00Z"
+          "v": "VERDE",
+          "resumen": "QC2",
+          "t": "2026-10-14T13:12:09Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T13:12:11Z"
         }
       }
     },
@@ -26813,10 +26825,10 @@
       "originalTrackId": "",
       "titulo": "La Cima Del Cielo",
       "artista": "Ricardo Montaner",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1: PI a medio L24 erroneo; WI.word dia L25 w3/w5; WIT duplicados L16/L36 w2-3, L13/L33 w1-2; rozo primario minuscula",
-      "actualizado": "2026-10-14T13:09:28Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T13:13:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26914,10 +26926,10 @@
       "originalTrackId": "",
       "titulo": "Payaso",
       "artista": "Javier Solis",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:50:01Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "L6 idx4 restaurar 'el' y anclar idx3 al item cruzó; quitar/corregir PI 'mi corazón' L23 y L35; reabrir inglés y reenviar",
+      "actualizado": "2026-10-14T13:11:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26944,7 +26956,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:50:01Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L6 palabra cubierta reemplazada (el->cruzo-cruzó) y ancla cruzo mal; PI 'mi corazón' con sentido 'my love' en L23/L35",
+            "t": "2026-10-14T13:11:44Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L6 palabra cubierta reemplazada (el->cruzo-cruzó) y ancla cruzo mal; PI 'mi corazón' con sentido 'my love' en L23/L35",
+          "t": "2026-10-14T13:11:44Z"
         }
       }
     },
