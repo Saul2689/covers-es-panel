@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:40:57Z",
+  "generado": "2026-10-14T12:41:55Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -25298,10 +25298,10 @@
       "originalTrackId": "",
       "titulo": "Que Te Vaya Bonito",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T12:39:10Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T12:41:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25330,15 +25330,21 @@
             "t": "2026-10-07T08:47:41Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L19 PI me llame sentido erroneo (llamarse); L12/L24 w5 WIT repite el PIT voy a; item apagarlas sin corchete de codigo",
-            "t": "2026-10-14T12:36:56Z"
+            "v": "ok",
+            "nota": "r2: arreglos r1 verificados (PI L19 fuera, WIT voy, PIT ni modo enlazado, corchete apagarlas); BAD 0, drift 0, pending_review",
+            "t": "2026-10-14T12:41:24Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L19 PI me llame sentido erroneo (llamarse); L12/L24 w5 WIT repite el PIT voy a; item apagarlas sin corchete de codigo",
-          "t": "2026-10-14T12:36:56Z"
+          "v": "VERDE",
+          "resumen": "r2: arreglos r1 verificados (PI L19 fuera, WIT voy, PIT ni modo enlazado, corchete apagarlas); BAD 0, drift 0, pending_review",
+          "t": "2026-10-14T12:41:24Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:41:26Z"
         }
       }
     },
@@ -25500,10 +25506,10 @@
       "originalTrackId": "",
       "titulo": "Que Se Junten Nuestros Brazos",
       "artista": "Cornelio Reyna",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T12:38:00Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T12:41:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25532,15 +25538,21 @@
             "t": "2026-10-07T08:48:02Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "mi corazon PI glosado 'my love' en lineas literales L12/L24; WI.word != token en L16/L28 w4",
-            "t": "2026-10-14T12:36:38Z"
+            "v": "ok",
+            "nota": "r2: r1 fixes verified, checklist clean, EN pending_review, drift 0",
+            "t": "2026-10-14T12:41:40Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "mi corazon PI glosado 'my love' en lineas literales L12/L24; WI.word != token en L16/L28 w4",
-          "t": "2026-10-14T12:36:38Z"
+          "v": "VERDE",
+          "resumen": "r2: r1 fixes verified, checklist clean, EN pending_review, drift 0",
+          "t": "2026-10-14T12:41:40Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:41:41Z"
         }
       }
     },
