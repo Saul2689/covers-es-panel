@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T13:40:43Z",
+  "generado": "2026-10-14T13:41:43Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -28059,10 +28059,10 @@
       "originalTrackId": "",
       "titulo": "El Aguitado",
       "artista": "Jorge Valenzuela",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T13:36:25Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T13:40:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28091,15 +28091,21 @@
             "t": "2026-10-07T08:51:16Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WITs dobles en L7/L15 (to, I, negacion), nos L8/L16, zorra L20 w5 sustantivo vs adjetivo, WI word != token L13 w1/w8/L20 w5, tildes de forma verbal anadidas (6)",
-            "t": "2026-10-14T13:29:26Z"
+            "v": "ok",
+            "nota": "QC2",
+            "t": "2026-10-14T13:40:54Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WITs dobles en L7/L15 (to, I, negacion), nos L8/L16, zorra L20 w5 sustantivo vs adjetivo, WI word != token L13 w1/w8/L20 w5, tildes de forma verbal anadidas (6)",
-          "t": "2026-10-14T13:29:26Z"
+          "v": "VERDE",
+          "resumen": "QC2",
+          "t": "2026-10-14T13:40:54Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T13:40:56Z"
         }
       }
     },
@@ -28486,10 +28492,10 @@
       "originalTrackId": "",
       "titulo": "Ni Freud Ni Tu Mama",
       "artista": "Belinda",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "EN: L22/45/62 hay WIT, L10/33/50 por WIT, L25 PIT no mas, L23 sigo item, L24 me WIT",
-      "actualizado": "2026-10-14T13:38:05Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T13:41:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28740,10 +28746,10 @@
       "originalTrackId": "",
       "titulo": "Buscandola",
       "artista": "Mana",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:52:01Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "WIT fixes en draft: L4 DT, L18 que/tener que, L36 de, nombres propios, I/you duplicados",
+      "actualizado": "2026-10-14T13:41:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28770,7 +28776,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:52:01Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "English draft WITs: 1 DT audit BAD (L4), doubled to/I (L4,L12,L16,L18,L5), phrase fragment (L36), lowercase proper nouns, tener que PIT missing L18",
+            "t": "2026-10-14T13:41:13Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "English draft WITs: 1 DT audit BAD (L4), doubled to/I (L4,L12,L16,L18,L5), phrase fragment (L36), lowercase proper nouns, tener que PIT missing L18",
+          "t": "2026-10-14T13:41:13Z"
         }
       }
     },
