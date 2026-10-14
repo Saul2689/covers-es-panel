@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:39:12Z",
+  "generado": "2026-10-14T12:40:57Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -25572,10 +25572,10 @@
       "originalTrackId": "",
       "titulo": "Borracho Te Recuerdo",
       "artista": "Vicente Fernández",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:48:09Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: linea 14 palabra 4, WIT en presente donde la linea es pasado; reabrir draft, anadir DT y reenviar",
+      "actualizado": "2026-10-14T12:40:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25602,7 +25602,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:48:09Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT de un verbo en presente en linea pasada (linea 14, palabra 4); resto limpio",
+            "t": "2026-10-14T12:40:37Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT de un verbo en presente en linea pasada (linea 14, palabra 4); resto limpio",
+          "t": "2026-10-14T12:40:37Z"
         }
       }
     },
@@ -25623,10 +25633,10 @@
       "originalTrackId": "",
       "titulo": "Lo Siento Mi Amor",
       "artista": "Lupita D'alessio",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:48:40Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC R1: WIT siempre=PIT L8/L31 w2 (usar always), seguirte L19/L42 w7 sentido seguir+gerundio, WI.word sin coma L15 w7, L18 w4/w7, L38 w7, L41 w4/w7; ver reviews/6aa6335972ca57eb1a99149e.md",
+      "actualizado": "2026-10-14T12:40:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25653,7 +25663,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:48:39Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: siempre WIT repite PIT (L8, L31 w2); seguirte WIT sentido erroneo (L19, L42 w7); 6 WI.word sin la coma del token (L15, L18, L38, L41)",
+            "t": "2026-10-14T12:40:53Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: siempre WIT repite PIT (L8, L31 w2); seguirte WIT sentido erroneo (L19, L42 w7); 6 WI.word sin la coma del token (L15, L18, L38, L41)",
+          "t": "2026-10-14T12:40:53Z"
         }
       }
     },
