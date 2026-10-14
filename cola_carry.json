@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:07:31Z",
+  "generado": "2026-10-14T12:09:09Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23654,9 +23654,9 @@
       "titulo": "Eres Un Angel",
       "artista": "los Temerarios",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:45:47Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T12:09:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23683,7 +23683,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:45:47Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ingles: L14 w2 WIT repite PIT (por favor), L14 w4 WIT con mayuscula, L8 w1-w2 glosas no suman (tener que + inf); resto estructura/timing/audio OK",
+            "t": "2026-10-14T12:08:15Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ingles: L14 w2 WIT repite PIT (por favor), L14 w4 WIT con mayuscula, L8 w1-w2 glosas no suman (tener que + inf); resto estructura/timing/audio OK",
+          "t": "2026-10-14T12:08:15Z"
         }
       }
     },
