@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:10:53Z",
+  "generado": "2026-10-14T12:12:00Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -20038,10 +20038,10 @@
       "originalTrackId": "",
       "titulo": "Down",
       "artista": "Rakim & Ken Y",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1: tildes verbales revertidas (notas de oido), WIT de 'en', 'dar vueltas' anclada",
-      "actualizado": "2026-10-14T10:47:30Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T12:11:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20070,15 +20070,21 @@
             "t": "2026-10-07T08:41:59Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "vuelta 1: L7/L64 w18 y L32 w3 token con tilde de forma verbal cambiado (revertir, nota de oido); L32 w4 WIT; dar vueltas sin anclar (L3, L27, L60)",
-            "t": "2026-10-14T10:43:12Z"
+            "v": "ok",
+            "nota": "vuelta 2: defectos de v1 corregidos (tildes revertidas, WIT en, dar vueltas anclada); drift 0, BAD 0, EN pending_review",
+            "t": "2026-10-14T12:11:33Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "vuelta 1: L7/L64 w18 y L32 w3 token con tilde de forma verbal cambiado (revertir, nota de oido); L32 w4 WIT; dar vueltas sin anclar (L3, L27, L60)",
-          "t": "2026-10-14T10:43:12Z"
+          "v": "VERDE",
+          "resumen": "vuelta 2: defectos de v1 corregidos (tildes revertidas, WIT en, dar vueltas anclada); drift 0, BAD 0, EN pending_review",
+          "t": "2026-10-14T12:11:33Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:11:41Z"
         }
       }
     },
