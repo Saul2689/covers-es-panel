@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T13:24:21Z",
+  "generado": "2026-10-14T13:26:01Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -27231,10 +27231,10 @@
       "originalTrackId": "",
       "titulo": "Ironia",
       "artista": "Mana",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T13:20:10Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "L19 w5 -> kill 6a2c4ec282bd4c4c7ca308ae; L59 w5 -> do 6a6505840d4703dfb943cde9 (to doble tras to)",
+      "actualizado": "2026-10-14T13:25:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27264,14 +27264,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "WIT repite PIT (L6 w4, L19 w3, L24 w3, L59 w3) y to/I/with duplicados (L6 w6, L13/L40 w3, L44 w3-4, L53 w1), PI es que sin anclar L32, vocativo L33 w3, L17 w1",
-            "t": "2026-10-14T13:17:03Z"
+            "nota": "r2: quedan to doble en L19 w5 y L59 w5 (WIT infinitivo tras 'to'); resto de fixes r1 OK",
+            "t": "2026-10-14T13:25:39Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "WIT repite PIT (L6 w4, L19 w3, L24 w3, L59 w3) y to/I/with duplicados (L6 w6, L13/L40 w3, L44 w3-4, L53 w1), PI es que sin anclar L32, vocativo L33 w3, L17 w1",
-          "t": "2026-10-14T13:17:03Z"
+          "resumen": "r2: quedan to doble en L19 w5 y L59 w5 (WIT infinitivo tras 'to'); resto de fixes r1 OK",
+          "t": "2026-10-14T13:25:39Z"
         }
       }
     },
@@ -27534,10 +27534,10 @@
       "originalTrackId": "",
       "titulo": "El Cariño Es Como Una Flor",
       "artista": "Rudy la Scala",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "WIT=PIT L6 w2/L11 w7/L22 w4/L27 w7; por L2 w1,L6 w3,L22 w1; L26 w1 twin; L3 w2 doubled; hacer el amor L2",
-      "actualizado": "2026-10-14T13:22:07Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T13:25:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
