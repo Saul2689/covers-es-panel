@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T10:02:03Z",
+  "generado": "2026-10-14T10:08:01Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17698,10 +17698,10 @@
       "originalTrackId": "",
       "titulo": "Me Acuerdo",
       "artista": "Vico C",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1 (worker + script), lista para QC",
-      "actualizado": "2026-10-14T10:01:33Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-14T10:06:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17730,15 +17730,21 @@
             "t": "2026-10-07T08:40:08Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "13 word WITs repeat their phrase PIT (L16, 21, 31, 38, 56, 67, 87, 93, 95); rest verified OK",
-            "t": "2026-10-14T09:55:46Z"
+            "v": "ok",
+            "nota": "QC r2: 13 WIT repetidos de PIT corregidos, remaps ok, BAD 0, ingles 110/110 pending_review, drift 0",
+            "t": "2026-10-14T10:06:29Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "13 word WITs repeat their phrase PIT (L16, 21, 31, 38, 56, 67, 87, 93, 95); rest verified OK",
-          "t": "2026-10-14T09:55:46Z"
+          "v": "VERDE",
+          "resumen": "QC r2: 13 WIT repetidos de PIT corregidos, remaps ok, BAD 0, ingles 110/110 pending_review, drift 0",
+          "t": "2026-10-14T10:06:29Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:06:35Z"
         }
       }
     },
@@ -17748,10 +17754,10 @@
       "originalTrackId": "",
       "titulo": "Me Vas A Extrañar",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:40:09Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T10:02:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17778,7 +17784,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:40:08Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles (pending_review), WIT/DT y timing correctos; notas de oido en L3 t5",
+            "t": "2026-10-14T10:02:43Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles (pending_review), WIT/DT y timing correctos; notas de oido en L3 t5",
+          "t": "2026-10-14T10:02:43Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:02:44Z"
         }
       }
     },
@@ -17908,10 +17930,10 @@
       "originalTrackId": "",
       "titulo": "Cuando Vuelva A Tu Lado",
       "artista": "Luis Miguel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:40:09Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC DEVUELTO: L15/L29 w1 item imperativo nuevo + WIT; L8/L22 w1 WIT de la palabra (no de la locucion); reabrir borrador de ingles y reenviar",
+      "actualizado": "2026-10-14T10:07:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17938,7 +17960,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:40:09Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L15/L29 w1 item es presente 3sg pero la linea es imperativo (WIT contradice el ingles de linea); L8/L22 w1 WIT es el significado de la locucion, no el de la palabra",
+            "t": "2026-10-14T10:07:05Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L15/L29 w1 item es presente 3sg pero la linea es imperativo (WIT contradice el ingles de linea); L8/L22 w1 WIT es el significado de la locucion, no el de la palabra",
+          "t": "2026-10-14T10:07:05Z"
         }
       }
     },
@@ -17948,10 +17980,10 @@
       "originalTrackId": "",
       "titulo": "Yo Te Recuerdo",
       "artista": "Juan Gabriel feat. Marc Anthony",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:40:10Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T10:07:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17978,7 +18010,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:40:10Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; ear-notes l7 w1 y l10 w4",
+            "t": "2026-10-14T10:07:09Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; ear-notes l7 w1 y l10 w4",
+          "t": "2026-10-14T10:07:09Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:07:12Z"
         }
       }
     },
@@ -18171,9 +18219,9 @@
       "titulo": "Mujeriego",
       "artista": "Jose Jose",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:40:10Z",
+      "vueltas": 1,
+      "motivo": "corregida r1 por script, lista para QC",
+      "actualizado": "2026-10-14T10:07:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18200,7 +18248,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:40:10Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "2 defectos: ancla de frase 'mi vida' en lineas 4 y 25 con sentido de apelativo (la linea es literal); PIT con 'i' minuscula en frase 'no me importa' (lineas 9,18,30,39,43)",
+            "t": "2026-10-14T10:06:02Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "2 defectos: ancla de frase 'mi vida' en lineas 4 y 25 con sentido de apelativo (la linea es literal); PIT con 'i' minuscula en frase 'no me importa' (lineas 9,18,30,39,43)",
+          "t": "2026-10-14T10:06:02Z"
         }
       }
     },
