@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:50:27Z",
+  "generado": "2026-10-14T11:52:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -22466,10 +22466,10 @@
       "originalTrackId": "",
       "titulo": "La Celosa",
       "artista": "Carlos Vives",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1: Duro sin tratar; l.63 w1 como; WIT nombres propios en minuscula l.16/74/76/91/101; amores l.23/25; poco l.65 (ver reviews/6aa5403142b8d1fdb0ca4a69.md)",
-      "actualizado": "2026-10-14T11:46:08Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T11:52:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -22494,8 +22494,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:45:10Z"
+            "nota": "",
+            "t": "2026-10-14T11:52:03Z"
           },
           "qc": {
             "v": "falta",
@@ -23137,10 +23137,10 @@
       "originalTrackId": "",
       "titulo": "La Papa Sin Catsup",
       "artista": "Gloria Trevi",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:45:13Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "R1: crear PI para modismo L27 w2-4/L42 w8-10 y nombre L15 w4-5; alinear WIT y linea EN en L4 w1, L23 w2, L25 w4, L35 w3, L42 w6; L37 w3 nombre en mayuscula",
+      "actualizado": "2026-10-14T11:52:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23167,7 +23167,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:45:12Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: 8 defectos: L27/L42 modismo sin ancla (3 palabras), L42 w6 y L4 w1, L23 w2, L25 w4, L35 w3 WIT vs linea ingles, L15 w4-5 nombre sin ancla, L37 w3 nombre en minuscula",
+            "t": "2026-10-14T11:52:28Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: 8 defectos: L27/L42 modismo sin ancla (3 palabras), L42 w6 y L4 w1, L23 w2, L25 w4, L35 w3 WIT vs linea ingles, L15 w4-5 nombre sin ancla, L37 w3 nombre en minuscula",
+          "t": "2026-10-14T11:52:28Z"
         }
       }
     },
