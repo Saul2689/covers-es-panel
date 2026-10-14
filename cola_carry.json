@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:04:59Z",
+  "generado": "2026-10-14T12:06:10Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23333,10 +23333,10 @@
       "originalTrackId": "",
       "titulo": "Eras Todo Para Mi",
       "artista": "los Temerarios",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T12:02:41Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T12:05:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23365,15 +23365,21 @@
             "t": "2026-10-07T08:45:14Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "3 defectos de ingles/ancla: L16/L28 PIT mi corazon 'my love' vs 'my heart'; L35 w1 que exclamativo mal (debe ser subordinante, linea EN 'That it hurts'); L20/L32 w3-5 idioma perder la razon sin PI",
-            "t": "2026-10-14T12:00:19Z"
+            "v": "ok",
+            "nota": "r2: 3 defectos r1 corregidos (L16/L28 PI borrados, L35 w1 que conjuncion, L20/L32 idiom PI); wit_dt_audit BAD 0, gemelas identicas, EN pending_review, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T12:05:55Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "3 defectos de ingles/ancla: L16/L28 PIT mi corazon 'my love' vs 'my heart'; L35 w1 que exclamativo mal (debe ser subordinante, linea EN 'That it hurts'); L20/L32 w3-5 idioma perder la razon sin PI",
-          "t": "2026-10-14T12:00:19Z"
+          "v": "VERDE",
+          "resumen": "r2: 3 defectos r1 corregidos (L16/L28 PI borrados, L35 w1 que conjuncion, L20/L32 idiom PI); wit_dt_audit BAD 0, gemelas identicas, EN pending_review, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T12:05:55Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:05:57Z"
         }
       }
     },
