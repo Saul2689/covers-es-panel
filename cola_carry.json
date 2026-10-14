@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:03:03Z",
+  "generado": "2026-10-14T12:03:41Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23159,10 +23159,10 @@
       "originalTrackId": "",
       "titulo": "La Papa Sin Catsup",
       "artista": "Gloria Trevi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T11:59:03Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T12:03:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23191,15 +23191,21 @@
             "t": "2026-10-07T08:45:12Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "R1: 8 defectos: L27/L42 modismo sin ancla (3 palabras), L42 w6 y L4 w1, L23 w2, L25 w4, L35 w3 WIT vs linea ingles, L15 w4-5 nombre sin ancla, L37 w3 nombre en minuscula",
-            "t": "2026-10-14T11:52:28Z"
+            "v": "ok",
+            "nota": "r2: 8 defectos r1 corregidos; 2 phrase items es + 3 anclas, WIT/linea alineados, LRC sin mover timings, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T12:03:26Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "R1: 8 defectos: L27/L42 modismo sin ancla (3 palabras), L42 w6 y L4 w1, L23 w2, L25 w4, L35 w3 WIT vs linea ingles, L15 w4-5 nombre sin ancla, L37 w3 nombre en minuscula",
-          "t": "2026-10-14T11:52:28Z"
+          "v": "VERDE",
+          "resumen": "r2: 8 defectos r1 corregidos; 2 phrase items es + 3 anclas, WIT/linea alineados, LRC sin mover timings, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T12:03:26Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:03:27Z"
         }
       }
     },
@@ -23427,10 +23433,10 @@
       "originalTrackId": "",
       "titulo": "El Dia Que Puedas",
       "artista": "Emmanuel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:45:47Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1: L3 w5 item precisas sentido necesario (6ac5c626eb10045239f4361d); L21/L38 w6 WIT no longer -> not; L4 w1 WIT for -> in order to. Detalle en reviews/",
+      "actualizado": "2026-10-14T12:03:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23457,7 +23463,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:45:46Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "3 defectos: L3 w5 sentido (precisas=necesarias), L21/L38 w6 WIT duplicado con w8, L4 w1 para=in order to",
+            "t": "2026-10-14T12:03:32Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "3 defectos: L3 w5 sentido (precisas=necesarias), L21/L38 w6 WIT duplicado con w8, L4 w1 para=in order to",
+          "t": "2026-10-14T12:03:32Z"
         }
       }
     },
