@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T10:55:45Z",
+  "generado": "2026-10-14T11:03:25Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5806,10 +5806,10 @@
       "originalTrackId": "",
       "titulo": "Cada Que",
       "artista": "Belanova",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC ronda 1 DEVUELTO: ver reviews/6aa7777b72ca57eb1acb62fd.md (lineas 4,5,10,11,18,23,24,27,28,29,32,33)",
-      "actualizado": "2026-10-14T10:53:16Z",
+      "motivo": "auditada r2: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T11:01:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5838,15 +5838,21 @@
             "t": "2026-10-07T08:24:11Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 1: PIT repetido en WIT (tal vez l5/l18, de verdad l28), anclas de frase de sentido erroneo (mi corazon l10/23/32, es mas l11/24/33), serias l4 y Que l5/l18 con item de otro sentido, tiene que l27 y no tiene caso l29 sin anclar",
-            "t": "2026-10-14T10:53:16Z"
+            "v": "ok",
+            "nota": "ronda 2: defectos r1 corregidos (WITs propios, anclas erroneas quitadas, tener que y no tiene caso con PIT), estructura, timing, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T11:01:08Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 1: PIT repetido en WIT (tal vez l5/l18, de verdad l28), anclas de frase de sentido erroneo (mi corazon l10/23/32, es mas l11/24/33), serias l4 y Que l5/l18 con item de otro sentido, tiene que l27 y no tiene caso l29 sin anclar",
-          "t": "2026-10-14T10:53:16Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: defectos r1 corregidos (WITs propios, anclas erroneas quitadas, tener que y no tiene caso con PIT), estructura, timing, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T11:01:08Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:01:09Z"
         }
       }
     },
@@ -11876,10 +11882,10 @@
       "originalTrackId": "",
       "titulo": "Amores Extraños",
       "artista": "Laura Pausini",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "faltan anclas L26 w3-4 y L47 w2-3; L36 w5-6 WIT con sentido de frase; ver review",
-      "actualizado": "2026-10-14T10:55:21Z",
+      "motivo": "corregida r1: ancladas ganas de y volver a con PIT, WIT de a/de/verdad a su sentido propio",
+      "actualizado": "2026-10-14T10:59:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20365,10 +20371,10 @@
       "originalTrackId": "",
       "titulo": "Al Fin Me Arme De Valor",
       "artista": "Reyli",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC ronda 1: ancla tan solo L1, WIT=PIT lo que, volver a y al fin sin anclar, tocando L3 y responda L9, I minuscula en arme y arranque",
-      "actualizado": "2026-10-14T10:55:32Z",
+      "motivo": "corregida r1: PI tan solo fuera, lo con otra fila, volver a y al fin ancladas, items nuevos tocando y responda, ingles reenviado",
+      "actualizado": "2026-10-14T11:00:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20416,9 +20422,9 @@
       "titulo": "Que Vuelvas",
       "artista": "Shakira",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:42:35Z",
+      "vueltas": 1,
+      "motivo": "corregida r1: L44 PI quitado, L10 ganas de y L12 cansado de anclados, voy L1/3/24 en I am going, ejemplo de intente",
+      "actualizado": "2026-10-14T11:02:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20445,7 +20451,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:42:35Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "3 defectos de anclas: L44 locucion 'no se' de sentido equivocado, L10 'ganas de' sin anclar, L1/L3/L24 WIT de 'voy' repite el PIT",
+            "t": "2026-10-14T10:59:23Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "3 defectos de anclas: L44 locucion 'no se' de sentido equivocado, L10 'ganas de' sin anclar, L1/L3/L24 WIT de 'voy' repite el PIT",
+          "t": "2026-10-14T10:59:23Z"
         }
       }
     },
