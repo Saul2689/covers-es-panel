@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:22:44Z",
+  "generado": "2026-10-14T12:25:27Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24401,10 +24401,10 @@
       "originalTrackId": "",
       "titulo": "Entre Tus Alas",
       "artista": "Camila",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T12:22:09Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T12:25:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24433,15 +24433,21 @@
             "t": "2026-10-07T08:47:34Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: 4 mi corazon PIs (L15,16,50,51) con sentido figurado; 5 WIT=PIT (L5 w2, L15/16/50/51 w3); 3 WI.word sin tilde (L39,42,81); 2 filas DT con i minuscula en item nuevo",
-            "t": "2026-10-14T12:19:27Z"
+            "v": "ok",
+            "nota": "QC2: arreglos r1 verificados, wit_dt_audit BAD 0, borrador pending_review, drift 0",
+            "t": "2026-10-14T12:25:07Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: 4 mi corazon PIs (L15,16,50,51) con sentido figurado; 5 WIT=PIT (L5 w2, L15/16/50/51 w3); 3 WI.word sin tilde (L39,42,81); 2 filas DT con i minuscula en item nuevo",
-          "t": "2026-10-14T12:19:27Z"
+          "v": "VERDE",
+          "resumen": "QC2: arreglos r1 verificados, wit_dt_audit BAD 0, borrador pending_review, drift 0",
+          "t": "2026-10-14T12:25:07Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:25:09Z"
         }
       }
     },
@@ -24542,9 +24548,9 @@
       "titulo": "Yolanda",
       "artista": "Pablo Milanes",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:47:36Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T12:25:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24571,7 +24577,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:47:35Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: 2 WIT del ingles a corregir (L3 w3 reparar -> to notice; L8 w5 voy repite su PIT); resto OK",
+            "t": "2026-10-14T12:24:24Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: 2 WIT del ingles a corregir (L3 w3 reparar -> to notice; L8 w5 voy repite su PIT); resto OK",
+          "t": "2026-10-14T12:24:24Z"
         }
       }
     },
