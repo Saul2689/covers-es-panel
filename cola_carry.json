@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T13:26:01Z",
+  "generado": "2026-10-14T13:27:31Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -27231,10 +27231,10 @@
       "originalTrackId": "",
       "titulo": "Ironia",
       "artista": "Mana",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 2,
-      "motivo": "L19 w5 -> kill 6a2c4ec282bd4c4c7ca308ae; L59 w5 -> do 6a6505840d4703dfb943cde9 (to doble tras to)",
-      "actualizado": "2026-10-14T13:25:41Z",
+      "motivo": "corregida r2",
+      "actualizado": "2026-10-14T13:26:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27281,10 +27281,10 @@
       "originalTrackId": "",
       "titulo": "Recuerdame Bonito",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T13:24:18Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T13:27:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27313,15 +27313,21 @@
             "t": "2026-10-07T08:50:56Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT repite PIT en l2,10,12,17,22,28,30 (manuales); to/out of duplicados l2,17,22; PI mi corazon sentido erroneo l7; mayuscula WIT l12,l30 w4; WI sin coma l8 w5",
-            "t": "2026-10-14T13:21:50Z"
+            "v": "ok",
+            "nota": "QC2",
+            "t": "2026-10-14T13:27:24Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT repite PIT en l2,10,12,17,22,28,30 (manuales); to/out of duplicados l2,17,22; PI mi corazon sentido erroneo l7; mayuscula WIT l12,l30 w4; WI sin coma l8 w5",
-          "t": "2026-10-14T13:21:50Z"
+          "v": "VERDE",
+          "resumen": "QC2",
+          "t": "2026-10-14T13:27:24Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T13:27:26Z"
         }
       }
     },
@@ -27877,10 +27883,10 @@
       "originalTrackId": "",
       "titulo": "Perdicion",
       "artista": "la 5ª Estacion",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:51:04Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "L7 w6 y L16 w6 WIT=PIT; L15 w2 revertir tilde de verbo; L18 w6 de->from",
+      "actualizado": "2026-10-14T13:26:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27907,7 +27913,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:51:03Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT=PIT en L7 w6 y L16 w6 (con duplicados), tilde de verbo anadido L15 w2, de=of vs from L18 w6",
+            "t": "2026-10-14T13:26:41Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT=PIT en L7 w6 y L16 w6 (con duplicados), tilde de verbo anadido L15 w2, de=of vs from L18 w6",
+          "t": "2026-10-14T13:26:41Z"
         }
       }
     },
