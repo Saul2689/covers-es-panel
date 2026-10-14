@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T13:33:54Z",
+  "generado": "2026-10-14T13:39:30Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -28059,10 +28059,10 @@
       "originalTrackId": "",
       "titulo": "El Aguitado",
       "artista": "Jorge Valenzuela",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "ver reviews: WITs dobles L7/L15, nos L8/L16, zorra L20 w5, WI word L13/L20, 6 tildes de forma verbal a revertir",
-      "actualizado": "2026-10-14T13:29:28Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T13:36:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28241,9 +28241,9 @@
       "titulo": "Esclavo Y Amo",
       "artista": "los Pasteles Verdes",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:51:17Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T13:39:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28270,7 +28270,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:51:17Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT/mapeo: L9+L17 w5 tiempo, L5 w5-6 'to' doble, L16+L24 w1 item y erroneo, L4 w5-6 falta phrase volver loco",
+            "t": "2026-10-14T13:37:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT/mapeo: L9+L17 w5 tiempo, L5 w5-6 'to' doble, L16+L24 w1 item y erroneo, L4 w5-6 falta phrase volver loco",
+          "t": "2026-10-14T13:37:29Z"
         }
       }
     },
@@ -28410,9 +28420,9 @@
       "titulo": "Tu Me Pides Que Te Olvide",
       "artista": "Leo Dan",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:51:18Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T13:38:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28439,7 +28449,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:51:17Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WITs con palabra duplicada entre vecinos: L5 w2, L7 w3, L18 w3, L34 w3, L20 w2, L36 w2; resto OK",
+            "t": "2026-10-14T13:35:30Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WITs con palabra duplicada entre vecinos: L5 w2, L7 w3, L18 w3, L34 w3, L20 w2, L36 w2; resto OK",
+          "t": "2026-10-14T13:35:30Z"
         }
       }
     },
@@ -28460,10 +28480,10 @@
       "originalTrackId": "",
       "titulo": "Ni Freud Ni Tu Mama",
       "artista": "Belinda",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:51:43Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "EN: L22/45/62 hay WIT, L10/33/50 por WIT, L25 PIT no mas, L23 sigo item, L24 me WIT",
+      "actualizado": "2026-10-14T13:38:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28490,7 +28510,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:51:43Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "EN draft: hay WIT doubles no (L22/45/62), por because-of vs for (L10/33/50), PIT no mas just vs no more (L25), sigo continue vs follow (L23), me for-me doubles for (L24)",
+            "t": "2026-10-14T13:38:03Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "EN draft: hay WIT doubles no (L22/45/62), por because-of vs for (L10/33/50), PIT no mas just vs no more (L25), sigo continue vs follow (L23), me for-me doubles for (L24)",
+          "t": "2026-10-14T13:38:03Z"
         }
       }
     },
@@ -29175,9 +29205,9 @@
       "titulo": "Oye",
       "artista": "la Sonora Dinamita",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:52:10Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T13:37:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29204,7 +29234,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:52:10Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "estructura, timing, ingles y DT ok; faltan anclas de locucion (lineas 26, 54, 48) y WI.word sin coma en linea 21 tok 2",
+            "t": "2026-10-14T13:34:24Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "estructura, timing, ingles y DT ok; faltan anclas de locucion (lineas 26, 54, 48) y WI.word sin coma en linea 21 tok 2",
+          "t": "2026-10-14T13:34:24Z"
         }
       }
     },
