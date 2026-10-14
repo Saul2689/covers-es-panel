@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:33:43Z",
+  "generado": "2026-10-14T11:35:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -21841,10 +21841,10 @@
       "originalTrackId": "",
       "titulo": "Acariciame",
       "artista": "Maria Conchita Alonso",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:44:18Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1: WIT L22.1 y L23.1 (because), L18.3 y L19.2 (like), L3.2 (nails); phrase item L22 w3-5; sinonimos de domíname/empápame. Ver reviews/6aa6556872ca57eb1a9c36bb.md",
+      "actualizado": "2026-10-14T11:34:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21871,7 +21871,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:44:18Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "estructura, timing y audio ok; WIT ingles: L22.1/L23.1 que=because, L18.3/L19.2 como=like, L3.2 plural; falta phrase item L22 w3-5; sinonimos mal en 2 items nuevos",
+            "t": "2026-10-14T11:34:58Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "estructura, timing y audio ok; WIT ingles: L22.1/L23.1 que=because, L18.3/L19.2 como=like, L3.2 plural; falta phrase item L22 w3-5; sinonimos mal en 2 items nuevos",
+          "t": "2026-10-14T11:34:58Z"
         }
       }
     },
