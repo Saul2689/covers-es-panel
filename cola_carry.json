@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:45:35Z",
+  "generado": "2026-10-14T12:47:30Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -25651,10 +25651,10 @@
       "originalTrackId": "",
       "titulo": "Lo Siento Mi Amor",
       "artista": "Lupita D'alessio",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T12:44:00Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC2 VERDE",
+      "actualizado": "2026-10-14T12:47:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25683,15 +25683,21 @@
             "t": "2026-10-07T08:48:39Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "R1: siempre WIT repite PIT (L8, L31 w2); seguirte WIT sentido erroneo (L19, L42 w7); 6 WI.word sin la coma del token (L15, L18, L38, L41)",
-            "t": "2026-10-14T12:40:53Z"
+            "v": "ok",
+            "nota": "r2: arreglos r1 verificados (siempre, seguirte, 6 WI word=token), BAD 0, EN 43/43, drift 0, pending_review",
+            "t": "2026-10-14T12:47:06Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "R1: siempre WIT repite PIT (L8, L31 w2); seguirte WIT sentido erroneo (L19, L42 w7); 6 WI.word sin la coma del token (L15, L18, L38, L41)",
-          "t": "2026-10-14T12:40:53Z"
+          "v": "VERDE",
+          "resumen": "r2: arreglos r1 verificados (siempre, seguirte, 6 WI word=token), BAD 0, EN 43/43, drift 0, pending_review",
+          "t": "2026-10-14T12:47:06Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:47:08Z"
         }
       }
     },
@@ -25756,10 +25762,10 @@
       "originalTrackId": "",
       "titulo": "Siempre Estoy Pensando En Ella",
       "artista": "Leo Dan",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:48:40Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1: L15 tok3 que->qué (letra+ancla), L6 tok3 visto->participio ver, L2 tok3 olvidarme->clítico directo; ver reviews",
+      "actualizado": "2026-10-14T12:47:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25786,7 +25792,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:48:40Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L15 que/qué + 2 anclas con item de sentido peor (L2 olvidarme, L6 visto); resto limpio",
+            "t": "2026-10-14T12:47:04Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L15 que/qué + 2 anclas con item de sentido peor (L2 olvidarme, L6 visto); resto limpio",
+          "t": "2026-10-14T12:47:04Z"
         }
       }
     },
