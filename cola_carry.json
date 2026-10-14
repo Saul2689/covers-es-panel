@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:45:46Z",
+  "generado": "2026-10-14T11:47:55Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -22460,10 +22460,10 @@
       "originalTrackId": "",
       "titulo": "La Celosa",
       "artista": "Carlos Vives",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:45:11Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1: Duro sin tratar; l.63 w1 como; WIT nombres propios en minuscula l.16/74/76/91/101; amores l.23/25; poco l.65 (ver reviews/6aa5403142b8d1fdb0ca4a69.md)",
+      "actualizado": "2026-10-14T11:46:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -22490,7 +22490,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:45:10Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "estructura, timing, audio e items nuevos OK; faltan: Duro de la nota de Saul sin tratar (sin justificar), l.63 palabra 1 como/como con tilde vs inglés, WIT de nombres propios en minuscula (l.16, 74, 76, 91, 101), amores l.23/25 y poco l.65",
+            "t": "2026-10-14T11:46:08Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "estructura, timing, audio e items nuevos OK; faltan: Duro de la nota de Saul sin tratar (sin justificar), l.63 palabra 1 como/como con tilde vs inglés, WIT de nombres propios en minuscula (l.16, 74, 76, 91, 101), amores l.23/25 y poco l.65",
+          "t": "2026-10-14T11:46:08Z"
         }
       }
     },
@@ -22738,9 +22748,9 @@
       "titulo": "Concavo Y Convexo",
       "artista": "Roberto Carlos",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:45:11Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T11:47:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -22767,7 +22777,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:45:11Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "estructura y timing OK; ingles: l9 hace/falta WIT parten el PIT, l16 curvas en singular; l12 va infinitivo",
+            "t": "2026-10-14T11:46:18Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "estructura y timing OK; ingles: l9 hace/falta WIT parten el PIT, l16 curvas en singular; l12 va infinitivo",
+          "t": "2026-10-14T11:46:18Z"
         }
       }
     },
