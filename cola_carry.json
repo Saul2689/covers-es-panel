@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:47:30Z",
+  "generado": "2026-10-14T12:49:06Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -25590,10 +25590,10 @@
       "originalTrackId": "",
       "titulo": "Borracho Te Recuerdo",
       "artista": "Vicente Fernández",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T12:44:15Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T12:48:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25622,15 +25622,21 @@
             "t": "2026-10-07T08:48:09Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT de un verbo en presente en linea pasada (linea 14, palabra 4); resto limpio",
-            "t": "2026-10-14T12:40:37Z"
+            "v": "ok",
+            "nota": "r2: L14 w4 now on preterite item with 19 primaries, WIT we asked; wit_dt_audit BAD 0, pending_review, drift 0",
+            "t": "2026-10-14T12:48:11Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT de un verbo en presente en linea pasada (linea 14, palabra 4); resto limpio",
-          "t": "2026-10-14T12:40:37Z"
+          "v": "VERDE",
+          "resumen": "r2: L14 w4 now on preterite item with 19 primaries, WIT we asked; wit_dt_audit BAD 0, pending_review, drift 0",
+          "t": "2026-10-14T12:48:11Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:48:15Z"
         }
       }
     },
@@ -25943,10 +25949,10 @@
       "originalTrackId": "",
       "titulo": "Ya Me Voy Para Siempre",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:48:41Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T12:48:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25973,7 +25979,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:48:41Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, ingles (pending_review), wit_dt BAD 0, audio SUENA_SIN_BLINDAR; sin defectos",
+            "t": "2026-10-14T12:48:26Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, ingles (pending_review), wit_dt BAD 0, audio SUENA_SIN_BLINDAR; sin defectos",
+          "t": "2026-10-14T12:48:26Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:48:29Z"
         }
       }
     },
@@ -25994,10 +26016,10 @@
       "originalTrackId": "",
       "titulo": "America America",
       "artista": "Nino Bravo",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:48:41Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "ronda 1: capitalizar WIT America/Eden (15) y WI.word de 6 tokens iniciales L4,6,14,16,18,19; reenviar ingles a pending_review",
+      "actualizado": "2026-10-14T12:48:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26024,7 +26046,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:48:41Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT en minusculas en America/Eden (15 WITs, lineas 9-12,21-28); 6 WI.word en minuscula distinto del token LRC (L4,6,14,16,18,19 t1); resto OK",
+            "t": "2026-10-14T12:48:53Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT en minusculas en America/Eden (15 WITs, lineas 9-12,21-28); 6 WI.word en minuscula distinto del token LRC (L4,6,14,16,18,19 t1); resto OK",
+          "t": "2026-10-14T12:48:53Z"
         }
       }
     },
