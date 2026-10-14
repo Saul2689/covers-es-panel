@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:18:39Z",
+  "generado": "2026-10-14T11:28:47Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -18441,10 +18441,10 @@
       "originalTrackId": "",
       "titulo": "Este Loco Que Te Mira",
       "artista": "Marc Anthony",
-      "estado": "revision",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:38:49Z",
+      "motivo": "ingles de palabra sin traducir (WIT = palabra espanola); borrador retirado para rehacerlo",
+      "actualizado": "2026-10-14T11:26:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20940,10 +20940,10 @@
       "originalTrackId": "",
       "titulo": "Este Terco Corazon",
       "artista": "Emmanuel",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC ronda 1: reanclar a items es L8/24 y L16/32/40, WIT que repiten PIT (L16/32/40 w5-6, L15/31/39 w3), PIT de mira que (L5/6/21/22), anclar cada dia y desde que, L6/22 w7; ver reviews/6aa81371d951e1665a7f752f.md",
-      "actualizado": "2026-10-14T11:18:08Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T11:22:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21232,9 +21232,9 @@
       "titulo": "Yo Se Que Te Acordaras",
       "artista": "Banda El Recodo",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:43:24Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T11:22:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21261,7 +21261,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:43:24Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "vas WIT repite el PIT (L14,15,31,32 w1); para WIT 'so' reescribe el PIT (L16,33 w1)",
+            "t": "2026-10-14T11:21:38Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "vas WIT repite el PIT (L14,15,31,32 w1); para WIT 'so' reescribe el PIT (L16,33 w1)",
+          "t": "2026-10-14T11:21:38Z"
         }
       }
     },
@@ -21424,10 +21434,10 @@
       "originalTrackId": "",
       "titulo": "No Me Vuelvo A Enamorar",
       "artista": "Juan Gabriel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:43:25Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC R1 devuelto: quitar PI mi corazon L4/L17, capitalizar I en filas primarias de tropezare y fijare, anclar volver a",
+      "actualizado": "2026-10-14T11:23:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21454,7 +21464,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:43:24Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: PI wrong sense L4/L17 (mi corazon literal), lowercase i en filas primarias de tropezare/fijare, volver a sin anclar",
+            "t": "2026-10-14T11:23:04Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: PI wrong sense L4/L17 (mi corazon literal), lowercase i en filas primarias de tropezare/fijare, volver a sin anclar",
+          "t": "2026-10-14T11:23:04Z"
         }
       }
     },
@@ -21707,10 +21727,10 @@
       "originalTrackId": "",
       "titulo": "Mi Marciana",
       "artista": "Alejandro Sanz",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:44:18Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "ronda 1: L33 w1-2 ancla de frase mal; L13 w7 y L36 w7 WIT repite PIT; L7 w5 WIT minuscula; L13 w2-3 frase sin anclar",
+      "actualizado": "2026-10-14T11:26:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21737,7 +21757,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:44:17Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ronda 1: L33 w1-2 ancla de frase de sentido equivocado; L13 w7 y L36 w7 WIT repite el PIT; L7 w5 WIT en minuscula (mes); L13 w2-3 frase es sin anclar",
+            "t": "2026-10-14T11:26:46Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ronda 1: L33 w1-2 ancla de frase de sentido equivocado; L13 w7 y L36 w7 WIT repite el PIT; L7 w5 WIT en minuscula (mes); L13 w2-3 frase es sin anclar",
+          "t": "2026-10-14T11:26:46Z"
         }
       }
     },
