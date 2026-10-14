@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:13:30Z",
+  "generado": "2026-10-14T11:14:08Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -20529,10 +20529,10 @@
       "originalTrackId": "",
       "titulo": "Te Solte La Rienda",
       "artista": "Jose Alfredo Jimenez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T11:10:31Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T11:13:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20561,15 +20561,21 @@
             "t": "2026-10-07T08:42:35Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT de voy/vas repite el PIT (L2,6,7,15,16 pal.1); 'al fin' sin anclar (L5,L14 pal.3-4); L3 EN al reves; modismo rienda sin item (L12/L3/L19)",
-            "t": "2026-10-14T11:04:54Z"
+            "v": "ok",
+            "nota": "r2: defectos r1 corregidos y verificados (WIT voy/vas, al fin L5/L14, L3 EN, 2 items es nuevos con 19 idiomas); estructura, mapeo, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T11:13:50Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT de voy/vas repite el PIT (L2,6,7,15,16 pal.1); 'al fin' sin anclar (L5,L14 pal.3-4); L3 EN al reves; modismo rienda sin item (L12/L3/L19)",
-          "t": "2026-10-14T11:04:54Z"
+          "v": "VERDE",
+          "resumen": "r2: defectos r1 corregidos y verificados (WIT voy/vas, al fin L5/L14, L3 EN, 2 items es nuevos con 19 idiomas); estructura, mapeo, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T11:13:50Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:13:51Z"
         }
       }
     },
@@ -20681,10 +20687,10 @@
       "originalTrackId": "",
       "titulo": "Como Yo Te Ame",
       "artista": "Luis Miguel",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T11:11:46Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "QC r2: lineas 17 y 28 palabras 1-2, WIT sin el sentido de la linea (ver review)",
+      "actualizado": "2026-10-14T11:14:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20714,14 +20720,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "R1: linea 14/25 por poco sentido erroneo; 17/28 lo que PIT y EN mal; 15/26 volver a sin anclar",
-            "t": "2026-10-14T11:09:29Z"
+            "nota": "r2: una sola correccion, linea 17 y 28 palabras 1-2: los WIT no llevan el sentido de la linea; todo lo demas OK",
+            "t": "2026-10-14T11:14:05Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "R1: linea 14/25 por poco sentido erroneo; 17/28 lo que PIT y EN mal; 15/26 volver a sin anclar",
-          "t": "2026-10-14T11:09:29Z"
+          "resumen": "r2: una sola correccion, linea 17 y 28 palabras 1-2: los WIT no llevan el sentido de la linea; todo lo demas OK",
+          "t": "2026-10-14T11:14:05Z"
         }
       }
     },
