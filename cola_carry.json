@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T15:07:04Z",
+  "generado": "2026-10-14T15:14:04Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5242,10 +5242,10 @@
       "originalTrackId": "",
       "titulo": "Ni Bien Ni Mal",
       "artista": "Bad Bunny",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T15:02:58Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T15:09:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5274,15 +5274,21 @@
             "t": "2026-10-14T08:06:15Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: 11 puntos (WIT de sentido equivocado L13/25/28/30/24/15/50/19, remap L30 w7, falta PI L44, to+to en L7 y gemelas)",
-            "t": "2026-10-14T14:56:29Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-14T15:09:37Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: 11 puntos (WIT de sentido equivocado L13/25/28/30/24/15/50/19, remap L30 w7, falta PI L44, to+to en L7 y gemelas)",
-          "t": "2026-10-14T14:56:29Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-14T15:09:37Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T15:09:40Z"
         }
       },
       "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
@@ -5446,10 +5452,10 @@
       "originalTrackId": "",
       "titulo": "Me Dedique A Perderte",
       "artista": "Alejandro Fernández",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T15:03:00Z",
+      "estado": "hecha",
+      "vueltas": 2,
+      "motivo": "QC3 VERDE",
+      "actualizado": "2026-10-14T15:10:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5478,15 +5484,21 @@
             "t": "2026-10-14T08:06:16Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: L13/L33 w10 detenerme sense (stop me), L3 w5-7 phrase darse cuenta now exists, L29 w3 stale WI word",
-            "t": "2026-10-14T14:54:24Z"
+            "v": "ok",
+            "nota": "QC3 VERDE",
+            "t": "2026-10-14T15:10:37Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: L13/L33 w10 detenerme sense (stop me), L3 w5-7 phrase darse cuenta now exists, L29 w3 stale WI word",
-          "t": "2026-10-14T14:54:24Z"
+          "v": "VERDE",
+          "resumen": "QC3 VERDE",
+          "t": "2026-10-14T15:10:37Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T15:10:39Z"
         }
       }
     },
@@ -7289,10 +7301,10 @@
       "originalTrackId": "",
       "titulo": "El Liston De Tu Pelo",
       "artista": "Los Angeles Azules",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1 devuelto: frases es-tagged + PIT (l3,l20,l31), tilde exclamativa l21/l32 p1, DT primarias con i minuscula, WIT l10 p4; ver reviews",
-      "actualizado": "2026-10-14T15:02:45Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T15:13:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -7339,10 +7351,10 @@
       "originalTrackId": "",
       "titulo": "Azucar Amargo",
       "artista": "Fey",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: ver reviews/6aa741d2...md (8 arreglos de mapeo/ingles)",
-      "actualizado": "2026-10-14T15:01:53Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T15:12:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -7400,10 +7412,10 @@
       "originalTrackId": "",
       "titulo": "Antes",
       "artista": "Obie Bermúdez",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T15:06:53Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: remapear yeh L18 w1-2 y L19 w1 al item interjeccion; anclar PIT mi vida L22 w3-4 y vida a life; reabrir ingles",
+      "actualizado": "2026-10-14T15:13:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -7430,7 +7442,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:06:27Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: yeh ad-libs (L18, L19) en item de nombre propio; falta PIT mi vida en L22",
+            "t": "2026-10-14T15:13:21Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: yeh ad-libs (L18, L19) en item de nombre propio; falta PIT mi vida en L22",
+          "t": "2026-10-14T15:13:21Z"
         }
       }
     },
@@ -7440,10 +7462,10 @@
       "originalTrackId": "",
       "titulo": "Tu",
       "artista": "Noelia",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T15:06:54Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: ver reviews; L9, L11, L15, L25/47/59, gemelas L30/45/46/57/58/64",
+      "actualizado": "2026-10-14T15:12:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -7470,7 +7492,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:06:54Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: wrong phrase anchor L15, wrong-sense pasas L25/47/59, twin WITs L30/45/46/57/58/64, doubled go L11, missing idiom L9",
+            "t": "2026-10-14T15:12:20Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: wrong phrase anchor L15, wrong-sense pasas L25/47/59, twin WITs L30/45/46/57/58/64, doubled go L11, missing idiom L9",
+          "t": "2026-10-14T15:12:20Z"
         }
       }
     },
