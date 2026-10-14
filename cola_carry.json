@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:35:07Z",
+  "generado": "2026-10-14T12:35:43Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24773,10 +24773,10 @@
       "originalTrackId": "",
       "titulo": "Ayer",
       "artista": "Enrique Iglesias",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T12:31:31Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC (QC2 VERDE)",
+      "actualizado": "2026-10-14T12:35:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24805,15 +24805,21 @@
             "t": "2026-10-07T08:47:36Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "PIT mal en PI mi corazon x3 (L10,L28,L34) y mira que (L5); L25 t3 dejado al item equivocado, existe 6ac5a182",
-            "t": "2026-10-14T12:30:12Z"
+            "v": "ok",
+            "nota": "r2: PIs erroneos borrados, L25 t3 remapeado, checklist completo OK, pending_review, BAD 0, drift 0",
+            "t": "2026-10-14T12:35:29Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "PIT mal en PI mi corazon x3 (L10,L28,L34) y mira que (L5); L25 t3 dejado al item equivocado, existe 6ac5a182",
-          "t": "2026-10-14T12:30:12Z"
+          "v": "VERDE",
+          "resumen": "r2: PIs erroneos borrados, L25 t3 remapeado, checklist completo OK, pending_review, BAD 0, drift 0",
+          "t": "2026-10-14T12:35:29Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:35:31Z"
         }
       }
     },
