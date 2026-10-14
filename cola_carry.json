@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T10:08:01Z",
+  "generado": "2026-10-14T10:16:50Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17930,10 +17930,10 @@
       "originalTrackId": "",
       "titulo": "Cuando Vuelva A Tu Lado",
       "artista": "Luis Miguel",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC DEVUELTO: L15/L29 w1 item imperativo nuevo + WIT; L8/L22 w1 WIT de la palabra (no de la locucion); reabrir borrador de ingles y reenviar",
-      "actualizado": "2026-10-14T10:07:06Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-14T10:13:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17962,15 +17962,21 @@
             "t": "2026-10-07T08:40:09Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L15/L29 w1 item es presente 3sg pero la linea es imperativo (WIT contradice el ingles de linea); L8/L22 w1 WIT es el significado de la locucion, no el de la palabra",
-            "t": "2026-10-14T10:07:05Z"
+            "v": "ok",
+            "nota": "QC r2: arreglos r1 verificados (item imperativo de unir en L15/L29, WIT de L8/L22 en su sentido propio), wit_dt_audit BAD 0, 135/135 WIT con texto, inglés pending_review",
+            "t": "2026-10-14T10:13:22Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L15/L29 w1 item es presente 3sg pero la linea es imperativo (WIT contradice el ingles de linea); L8/L22 w1 WIT es el significado de la locucion, no el de la palabra",
-          "t": "2026-10-14T10:07:05Z"
+          "v": "VERDE",
+          "resumen": "QC r2: arreglos r1 verificados (item imperativo de unir en L15/L29, WIT de L8/L22 en su sentido propio), wit_dt_audit BAD 0, 135/135 WIT con texto, inglés pending_review",
+          "t": "2026-10-14T10:13:22Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:13:23Z"
         }
       }
     },
@@ -18218,10 +18224,10 @@
       "originalTrackId": "",
       "titulo": "Mujeriego",
       "artista": "Jose Jose",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1 por script, lista para QC",
-      "actualizado": "2026-10-14T10:07:17Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-14T10:10:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18250,15 +18256,21 @@
             "t": "2026-10-07T08:40:10Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 defectos: ancla de frase 'mi vida' en lineas 4 y 25 con sentido de apelativo (la linea es literal); PIT con 'i' minuscula en frase 'no me importa' (lineas 9,18,30,39,43)",
-            "t": "2026-10-14T10:06:02Z"
+            "v": "ok",
+            "nota": "r2: PIs de sentido erroneo (lineas 4 y 25) retirados, PIT de 'no me importa' en fila capitalizada, ingles pending_review, wit_dt_audit BAD 0, timing y estructura OK",
+            "t": "2026-10-14T10:10:03Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 defectos: ancla de frase 'mi vida' en lineas 4 y 25 con sentido de apelativo (la linea es literal); PIT con 'i' minuscula en frase 'no me importa' (lineas 9,18,30,39,43)",
-          "t": "2026-10-14T10:06:02Z"
+          "v": "VERDE",
+          "resumen": "r2: PIs de sentido erroneo (lineas 4 y 25) retirados, PIT de 'no me importa' en fila capitalizada, ingles pending_review, wit_dt_audit BAD 0, timing y estructura OK",
+          "t": "2026-10-14T10:10:03Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:10:08Z"
         }
       }
     },
@@ -18269,9 +18281,9 @@
       "titulo": "Celestial",
       "artista": "RBD",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:40:11Z",
+      "vueltas": 1,
+      "motivo": "corregida r1, lista para QC",
+      "actualizado": "2026-10-14T10:14:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18298,7 +18310,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:40:11Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "5 defectos: ancla de frase 'mi vida' con sentido que la linea no usa (L20,21,60,61), frases existentes sin anclar (de frente L40/41/80/81, va a L15, algun dia L54 w5-6), modismos sin item (ten cuidado L52, a cielo abierto L38/39/78/79), WIT sobre fila-fragmento (de L40.., ya L9/10)",
+            "t": "2026-10-14T10:09:43Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "5 defectos: ancla de frase 'mi vida' con sentido que la linea no usa (L20,21,60,61), frases existentes sin anclar (de frente L40/41/80/81, va a L15, algun dia L54 w5-6), modismos sin item (ten cuidado L52, a cielo abierto L38/39/78/79), WIT sobre fila-fragmento (de L40.., ya L9/10)",
+          "t": "2026-10-14T10:09:43Z"
         }
       }
     },
@@ -18501,10 +18523,10 @@
       "originalTrackId": "",
       "titulo": "Corazon En La Maleta",
       "artista": "Luis Fonsi",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:40:12Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC: PIT con i minuscula L4/12/25/31/36; WIT fragmento L14/27/38 p8-9; L32 p1 tilde cambiada; L3 p4 item sentido figurado",
+      "actualizado": "2026-10-14T10:14:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18531,7 +18553,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:40:11Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "PIT con 'i' minuscula (L4/12/25/31/36), WIT de fragmento en L14/27/38 palabras 8-9, L32 palabra 1 tilde cambiada, L3 palabra 4 sentido del item",
+            "t": "2026-10-14T10:14:07Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "PIT con 'i' minuscula (L4/12/25/31/36), WIT de fragmento en L14/27/38 palabras 8-9, L32 palabra 1 tilde cambiada, L3 palabra 4 sentido del item",
+          "t": "2026-10-14T10:14:07Z"
         }
       }
     },
@@ -18632,10 +18664,10 @@
       "originalTrackId": "",
       "titulo": "Como Duele",
       "artista": "Luis Miguel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:40:12Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC DEVUELTO: WIT=PIT L11 w3 y L35 w4; Dios en minuscula L29 w3, L40 w3; ver reviews",
+      "actualizado": "2026-10-14T10:13:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18662,7 +18694,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:40:12Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT repite PIT en L11 w3 y L35 w4 (fin anclada al sentido 'finally'); WIT 'god' en minuscula L29 w3 y L40 w3",
+            "t": "2026-10-14T10:13:27Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT repite PIT en L11 w3 y L35 w4 (fin anclada al sentido 'finally'); WIT 'god' en minuscula L29 w3 y L40 w3",
+          "t": "2026-10-14T10:13:27Z"
         }
       }
     },
@@ -18723,10 +18765,10 @@
       "originalTrackId": "",
       "titulo": "Quiero Dormir Cansado",
       "artista": "Emmanuel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:40:13Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC DEVUELTO: que causal en l18/l36 w1 -> item completivo; WIT de hasta repite PIT en l13,17,31,35,39; reabrir draft ingles y reenviar",
+      "actualizado": "2026-10-14T10:14:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18753,7 +18795,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:40:12Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "2 defectos: l18/l36 w1 'que' a item causal (debe ser completivo 68c9e7fa); hasta WIT repite el PIT en l13,17,31,35,39 (cambiar a 'up to'); resto OK",
+            "t": "2026-10-14T10:14:05Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "2 defectos: l18/l36 w1 'que' a item causal (debe ser completivo 68c9e7fa); hasta WIT repite el PIT en l13,17,31,35,39 (cambiar a 'up to'); resto OK",
+          "t": "2026-10-14T10:14:05Z"
         }
       }
     },
