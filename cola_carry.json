@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:38:25Z",
+  "generado": "2026-10-14T11:39:18Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -22382,10 +22382,10 @@
       "originalTrackId": "",
       "titulo": "Besos De Ceniza",
       "artista": "Timbiriche",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:44:22Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "WIT que repiten su PIT: L3 w0 (I go, DT 6a71fce3d58e92f34b7a4773), L19/34/39 w2 (unexpectedly, DT 6a136e5ad0cbdb760b4bd4f3); L23 w2 remapear visto a participio ver 6ac57b360b0281c2678c1462 + WIT seen DT 6ac57b52eb10045239c7cb9f; reabrir borrador en y volver a pending_review",
+      "actualizado": "2026-10-14T11:38:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -22412,7 +22412,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:44:21Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT repite PIT en L3 w0 y L19/34/39 w2 (voy a, de repente); L23 w2 ancla a visto 1sg/vestir con participio ver disponible; resto verificado OK",
+            "t": "2026-10-14T11:38:37Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT repite PIT en L3 w0 y L19/34/39 w2 (voy a, de repente); L23 w2 ancla a visto 1sg/vestir con participio ver disponible; resto verificado OK",
+          "t": "2026-10-14T11:38:37Z"
         }
       }
     },
