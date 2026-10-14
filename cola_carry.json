@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:22:00Z",
+  "generado": "2026-10-14T12:22:44Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24160,10 +24160,10 @@
       "originalTrackId": "",
       "titulo": "No Te Apartes De Mi",
       "artista": "Yahir",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T12:18:55Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T12:22:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24192,15 +24192,21 @@
             "t": "2026-10-07T08:46:26Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L32 hacer falta sin ancla, L11 PI quien sabe sentido erroneo, L29 WIT tiempo, L6 entraste item nautico; reabrir ingles",
-            "t": "2026-10-14T12:16:13Z"
+            "v": "ok",
+            "nota": "r2: 4 defectos r1 corregidos (PI hacer falta L32, PI L11 borrado, L29 w2, L6 w2); wit_dt_audit BAD 0, deriva 0, borrador pending_review",
+            "t": "2026-10-14T12:22:04Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L32 hacer falta sin ancla, L11 PI quien sabe sentido erroneo, L29 WIT tiempo, L6 entraste item nautico; reabrir ingles",
-          "t": "2026-10-14T12:16:13Z"
+          "v": "VERDE",
+          "resumen": "r2: 4 defectos r1 corregidos (PI hacer falta L32, PI L11 borrado, L29 w2, L6 w2); wit_dt_audit BAD 0, deriva 0, borrador pending_review",
+          "t": "2026-10-14T12:22:04Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:22:05Z"
         }
       }
     },
@@ -24395,10 +24401,10 @@
       "originalTrackId": "",
       "titulo": "Entre Tus Alas",
       "artista": "Camila",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 DEVUELTO: ver reviews/6aa536b842b8d1fdb0c96922.md (PIs mi corazon L15/16/50/51; WIT=PIT L5 w2, L15/16/50/51 w3; WI.word L39 w2, L42 w4, L81 w3; DT i minuscula item asome)",
-      "actualizado": "2026-10-14T12:19:29Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T12:22:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
