@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:30:54Z",
+  "generado": "2026-10-14T11:33:22Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -21446,10 +21446,10 @@
       "originalTrackId": "",
       "titulo": "No Me Vuelvo A Enamorar",
       "artista": "Juan Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T11:29:16Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T11:32:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21478,15 +21478,21 @@
             "t": "2026-10-07T08:43:24Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "R1: PI wrong sense L4/L17 (mi corazon literal), lowercase i en filas primarias de tropezare/fijare, volver a sin anclar",
-            "t": "2026-10-14T11:23:04Z"
+            "v": "ok",
+            "nota": "r2: r1 defects 1 y 3 corregidos (mi corazon PIs fuera, volver a en 9 lineas), defecto 2 bloqueado por indice unico del diccionario (nota para Saul); estructura, mapeo, ingles, twins, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T11:32:58Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "R1: PI wrong sense L4/L17 (mi corazon literal), lowercase i en filas primarias de tropezare/fijare, volver a sin anclar",
-          "t": "2026-10-14T11:23:04Z"
+          "v": "VERDE",
+          "resumen": "r2: r1 defects 1 y 3 corregidos (mi corazon PIs fuera, volver a en 9 lineas), defecto 2 bloqueado por indice unico del diccionario (nota para Saul); estructura, mapeo, ingles, twins, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T11:32:58Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:32:59Z"
         }
       }
     },
@@ -21739,10 +21745,10 @@
       "originalTrackId": "",
       "titulo": "Mi Marciana",
       "artista": "Alejandro Sanz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T11:29:31Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T11:33:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21771,15 +21777,21 @@
             "t": "2026-10-07T08:44:17Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 1: L33 w1-2 ancla de frase de sentido equivocado; L13 w7 y L36 w7 WIT repite el PIT; L7 w5 WIT en minuscula (mes); L13 w2-3 frase es sin anclar",
-            "t": "2026-10-14T11:26:46Z"
+            "v": "ok",
+            "nota": "r2: defectos de r1 corregidos en el borrador (L33 PI fuera, L13 w7, L36 w7, L7 w5, L13 w2-3 PI nueva); BAD 0, emptyWIT 0, gemelas identicas, pending_review, SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T11:33:15Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 1: L33 w1-2 ancla de frase de sentido equivocado; L13 w7 y L36 w7 WIT repite el PIT; L7 w5 WIT en minuscula (mes); L13 w2-3 frase es sin anclar",
-          "t": "2026-10-14T11:26:46Z"
+          "v": "VERDE",
+          "resumen": "r2: defectos de r1 corregidos en el borrador (L33 PI fuera, L13 w7, L36 w7, L7 w5, L13 w2-3 PI nueva); BAD 0, emptyWIT 0, gemelas identicas, pending_review, SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T11:33:15Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:33:16Z"
         }
       }
     },
