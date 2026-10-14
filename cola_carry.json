@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T13:20:12Z",
+  "generado": "2026-10-14T13:21:57Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -27170,9 +27170,9 @@
       "titulo": "Celos",
       "artista": "Daniela Romo",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T13:17:25Z",
+      "vueltas": 2,
+      "motivo": "corregida r2",
+      "actualizado": "2026-10-14T13:21:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27202,14 +27202,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "mi posesivo mapeado a item de apelativo (l14,l32 w2); pronombre doblado en WIT (l8,l26 w2; l16,l34 w3); l23 w3 miro/a doblado; WIT 'again' en mas dentro de nunca mas (l17,l18,l35,l36)",
-            "t": "2026-10-14T13:15:41Z"
+            "nota": "r2: 5 fixes r1 OK; L5 w2/w3 doubled 'you' (te + encuentras WIT)",
+            "t": "2026-10-14T13:20:45Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "mi posesivo mapeado a item de apelativo (l14,l32 w2); pronombre doblado en WIT (l8,l26 w2; l16,l34 w3); l23 w3 miro/a doblado; WIT 'again' en mas dentro de nunca mas (l17,l18,l35,l36)",
-          "t": "2026-10-14T13:15:41Z"
+          "resumen": "r2: 5 fixes r1 OK; L5 w2/w3 doubled 'you' (te + encuentras WIT)",
+          "t": "2026-10-14T13:20:45Z"
         }
       }
     },
@@ -27269,10 +27269,10 @@
       "originalTrackId": "",
       "titulo": "Recuerdame Bonito",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:50:56Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1: WIT=PIT en l2,10,12,17,22,28,30; to/out of duplicados l2,17,22; PI mi corazon l7; mayuscula l12,l30 w4; WI sin coma l8 w5",
+      "actualizado": "2026-10-14T13:21:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27299,7 +27299,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:50:56Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT repite PIT en l2,10,12,17,22,28,30 (manuales); to/out of duplicados l2,17,22; PI mi corazon sentido erroneo l7; mayuscula WIT l12,l30 w4; WI sin coma l8 w5",
+            "t": "2026-10-14T13:21:50Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT repite PIT en l2,10,12,17,22,28,30 (manuales); to/out of duplicados l2,17,22; PI mi corazon sentido erroneo l7; mayuscula WIT l12,l30 w4; WI sin coma l8 w5",
+          "t": "2026-10-14T13:21:50Z"
         }
       }
     },
@@ -27389,10 +27399,10 @@
       "originalTrackId": "",
       "titulo": "Todo Por Nada",
       "artista": "Camilo Sesto",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:50:57Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "L19 w3 WIT; L1 w1 tilde; L21 w2 WI en mayuscula; definicion en ingles de abrirlo; reabrir ingles y reenviar",
+      "actualizado": "2026-10-14T13:20:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27419,7 +27429,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:50:57Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "r1: L19 w3 WIT lleva el sentido de la locucion; L1 w1 falta tilde; L21 w2 palabra de WI en mayuscula; item abrirlo con definicion en espanol",
+            "t": "2026-10-14T13:20:14Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "r1: L19 w3 WIT lleva el sentido de la locucion; L1 w1 falta tilde; L21 w2 palabra de WI en mayuscula; item abrirlo con definicion en espanol",
+          "t": "2026-10-14T13:20:14Z"
         }
       }
     },
