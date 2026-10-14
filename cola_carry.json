@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:20:05Z",
+  "generado": "2026-10-14T12:22:00Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24210,10 +24210,10 @@
       "originalTrackId": "",
       "titulo": "A La Primera Persona",
       "artista": "Alejandro Sanz",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:47:34Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1 DEVUELTO: ver reviews/6aa5179e42b8d1fdb0c692bd.md (8 puntos de ingles/mapeo/tildes)",
+      "actualizado": "2026-10-14T12:20:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24240,7 +24240,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:47:34Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ingles: PI es que sin anclar (L4,14,29,37,44,51,54), ni=PIT x4, Don't/god en mayuscula, tildes como/cuanto L42/L43, tiempo/verbo WIT L21/L45, the more repetido L29/L54",
+            "t": "2026-10-14T12:20:41Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ingles: PI es que sin anclar (L4,14,29,37,44,51,54), ni=PIT x4, Don't/god en mayuscula, tildes como/cuanto L42/L43, tiempo/verbo WIT L21/L45, the more repetido L29/L54",
+          "t": "2026-10-14T12:20:41Z"
         }
       }
     },
