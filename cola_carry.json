@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:12:00Z",
+  "generado": "2026-10-14T12:12:27Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23395,10 +23395,10 @@
       "originalTrackId": "",
       "titulo": "Piel De Angel",
       "artista": "Camilo Sesto",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "corregida r2",
-      "actualizado": "2026-10-14T12:10:03Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T12:12:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23427,15 +23427,21 @@
             "t": "2026-10-07T08:45:32Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r2: r1 defects 1-4 y 6 arreglados; falta L29 w3 WI 6ac525c47b9bfb31100b4a03 con word acentuado (usar word_insight_create upsert)",
-            "t": "2026-10-14T12:09:18Z"
+            "v": "ok",
+            "nota": "r3: L29 w3 word now equals LRC token; all 147 anchors match tokens, wit_dt_audit BAD 0, drift 0, twins identical, draft pending_review",
+            "t": "2026-10-14T12:12:02Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r2: r1 defects 1-4 y 6 arreglados; falta L29 w3 WI 6ac525c47b9bfb31100b4a03 con word acentuado (usar word_insight_create upsert)",
-          "t": "2026-10-14T12:09:18Z"
+          "v": "VERDE",
+          "resumen": "r3: L29 w3 word now equals LRC token; all 147 anchors match tokens, wit_dt_audit BAD 0, drift 0, twins identical, draft pending_review",
+          "t": "2026-10-14T12:12:02Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:12:04Z"
         }
       }
     },
@@ -23659,10 +23665,10 @@
       "originalTrackId": "",
       "titulo": "Eres Un Angel",
       "artista": "los Temerarios",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T12:09:08Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T12:12:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23691,15 +23697,21 @@
             "t": "2026-10-07T08:45:47Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ingles: L14 w2 WIT repite PIT (por favor), L14 w4 WIT con mayuscula, L8 w1-w2 glosas no suman (tener que + inf); resto estructura/timing/audio OK",
-            "t": "2026-10-14T12:08:15Z"
+            "v": "ok",
+            "nota": "r2: 3 defectos r1 corregidos (L14 w2, L14 w4, L8 w1-2); draft pending_review, wit_dt_audit BAD 0, gemelas identicas, drift 0, estructura 105/105, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T12:12:20Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ingles: L14 w2 WIT repite PIT (por favor), L14 w4 WIT con mayuscula, L8 w1-w2 glosas no suman (tener que + inf); resto estructura/timing/audio OK",
-          "t": "2026-10-14T12:08:15Z"
+          "v": "VERDE",
+          "resumen": "r2: 3 defectos r1 corregidos (L14 w2, L14 w4, L8 w1-2); draft pending_review, wit_dt_audit BAD 0, gemelas identicas, drift 0, estructura 105/105, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T12:12:20Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:12:21Z"
         }
       }
     },
