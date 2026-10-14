@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:10:03Z",
+  "generado": "2026-10-14T12:10:53Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23947,10 +23947,10 @@
       "originalTrackId": "",
       "titulo": "Marinero De Luces",
       "artista": "Isabel Pantoja",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:46:13Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "L17 w2: texto 'el' -> 'en' (LRC+richsync, mismo timing 104900-105153, word id 6ac528ca7b9bfb31100d7839); reanclar WI 6ac568c30b0281c2678423f2 al item en 6a11dbf8c9740e1ba06f0a7d (DT 6a272d289c6d8de6cf1f34a1, WIT 'in'); reabrir borrador y reenviar a pending_review",
+      "actualizado": "2026-10-14T12:10:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23977,7 +23977,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:46:12Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "estructura, timing, anclas, items nuevos e ingles en orden; 1 defecto: L17 w2 'el' es transcripcion mala de 'en' (el original dice en); corregir texto, ancla y WIT",
+            "t": "2026-10-14T12:10:10Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "estructura, timing, anclas, items nuevos e ingles en orden; 1 defecto: L17 w2 'el' es transcripcion mala de 'en' (el original dice en); corregir texto, ancla y WIT",
+          "t": "2026-10-14T12:10:10Z"
         }
       }
     },
