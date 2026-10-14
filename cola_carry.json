@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T10:16:50Z",
+  "generado": "2026-10-14T10:22:58Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -18280,10 +18280,10 @@
       "originalTrackId": "",
       "titulo": "Celestial",
       "artista": "RBD",
-      "estado": "revision",
+      "estado": "correccion",
       "vueltas": 1,
-      "motivo": "corregida r1, lista para QC",
-      "actualizado": "2026-10-14T10:14:05Z",
+      "motivo": "QC ronda 2 DEVUELTO: anclar 'volver a' (lineas 54, 55) y 'a tus pies' (linea 2), crear item es para formula de linea 15; ver review",
+      "actualizado": "2026-10-14T10:20:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18313,14 +18313,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "5 defectos: ancla de frase 'mi vida' con sentido que la linea no usa (L20,21,60,61), frases existentes sin anclar (de frente L40/41/80/81, va a L15, algun dia L54 w5-6), modismos sin item (ten cuidado L52, a cielo abierto L38/39/78/79), WIT sobre fila-fragmento (de L40.., ya L9/10)",
-            "t": "2026-10-14T10:09:43Z"
+            "nota": "Ronda 2: defectos de r1 corregidos; faltan anclar frases es existentes (linea 54 y 55 palabras volver a, linea 2 palabras 5-7) y crear item es para formula de linea 15 palabras 1-3",
+            "t": "2026-10-14T10:20:45Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "5 defectos: ancla de frase 'mi vida' con sentido que la linea no usa (L20,21,60,61), frases existentes sin anclar (de frente L40/41/80/81, va a L15, algun dia L54 w5-6), modismos sin item (ten cuidado L52, a cielo abierto L38/39/78/79), WIT sobre fila-fragmento (de L40.., ya L9/10)",
-          "t": "2026-10-14T10:09:43Z"
+          "resumen": "Ronda 2: defectos de r1 corregidos; faltan anclar frases es existentes (linea 54 y 55 palabras volver a, linea 2 palabras 5-7) y crear item es para formula de linea 15 palabras 1-3",
+          "t": "2026-10-14T10:20:45Z"
         }
       }
     },
@@ -18523,10 +18523,10 @@
       "originalTrackId": "",
       "titulo": "Corazon En La Maleta",
       "artista": "Luis Fonsi",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC: PIT con i minuscula L4/12/25/31/36; WIT fragmento L14/27/38 p8-9; L32 p1 tilde cambiada; L3 p4 item sentido figurado",
-      "actualizado": "2026-10-14T10:14:11Z",
+      "motivo": "corregida r1, lista para QC",
+      "actualizado": "2026-10-14T10:20:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18664,10 +18664,10 @@
       "originalTrackId": "",
       "titulo": "Como Duele",
       "artista": "Luis Miguel",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC DEVUELTO: WIT=PIT L11 w3 y L35 w4; Dios en minuscula L29 w3, L40 w3; ver reviews",
-      "actualizado": "2026-10-14T10:13:27Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T10:22:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18696,15 +18696,21 @@
             "t": "2026-10-07T08:40:12Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT repite PIT en L11 w3 y L35 w4 (fin anclada al sentido 'finally'); WIT 'god' en minuscula L29 w3 y L40 w3",
-            "t": "2026-10-14T10:13:27Z"
+            "v": "ok",
+            "nota": "r2: fixes de r1 verificados (L11 w3, L35 w4, L29/L40 w3), wit_dt_audit BAD 0, pending_review, SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T10:22:31Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT repite PIT en L11 w3 y L35 w4 (fin anclada al sentido 'finally'); WIT 'god' en minuscula L29 w3 y L40 w3",
-          "t": "2026-10-14T10:13:27Z"
+          "v": "VERDE",
+          "resumen": "r2: fixes de r1 verificados (L11 w3, L35 w4, L29/L40 w3), wit_dt_audit BAD 0, pending_review, SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T10:22:31Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:22:32Z"
         }
       }
     },
@@ -18765,10 +18771,10 @@
       "originalTrackId": "",
       "titulo": "Quiero Dormir Cansado",
       "artista": "Emmanuel",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC DEVUELTO: que causal en l18/l36 w1 -> item completivo; WIT de hasta repite PIT en l13,17,31,35,39; reabrir draft ingles y reenviar",
-      "actualizado": "2026-10-14T10:14:05Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T10:21:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18797,15 +18803,21 @@
             "t": "2026-10-07T08:40:12Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 defectos: l18/l36 w1 'que' a item causal (debe ser completivo 68c9e7fa); hasta WIT repite el PIT en l13,17,31,35,39 (cambiar a 'up to'); resto OK",
-            "t": "2026-10-14T10:14:05Z"
+            "v": "ok",
+            "nota": "ronda 2: l18/l36 w1 que completivo y hasta WIT up to en l13,17,31,35,39 corregidos; estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T10:21:13Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 defectos: l18/l36 w1 'que' a item causal (debe ser completivo 68c9e7fa); hasta WIT repite el PIT en l13,17,31,35,39 (cambiar a 'up to'); resto OK",
-          "t": "2026-10-14T10:14:05Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: l18/l36 w1 que completivo y hasta WIT up to en l13,17,31,35,39 corregidos; estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T10:21:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:21:16Z"
         }
       }
     },
@@ -18815,10 +18827,10 @@
       "originalTrackId": "",
       "titulo": "Sigue Sin Mi",
       "artista": "Marco Antonio Solís",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:40:13Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC ronda 1: L19/34 w1, L13/28 w11, L8/23 w4 (WIT) y L9/24 w8 (item de otro sentido)",
+      "actualizado": "2026-10-14T10:20:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18845,7 +18857,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:40:13Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ronda 1: L19/34 w1 WIT repite PIT; L13/28 w11 WIT es del PIT; L8/23 w4 'God' en minuscula; L9/24 w8 item sigan de otro sentido",
+            "t": "2026-10-14T10:20:17Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ronda 1: L19/34 w1 WIT repite PIT; L13/28 w11 WIT es del PIT; L8/23 w4 'God' en minuscula; L9/24 w8 item sigan de otro sentido",
+          "t": "2026-10-14T10:20:17Z"
         }
       }
     },
