@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:53:05Z",
+  "generado": "2026-10-14T11:55:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -22466,10 +22466,10 @@
       "originalTrackId": "",
       "titulo": "La Celosa",
       "artista": "Carlos Vives",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T11:52:03Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T11:55:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -22498,15 +22498,21 @@
             "t": "2026-10-14T11:52:03Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "estructura, timing, audio e items nuevos OK; faltan: Duro de la nota de Saul sin tratar (sin justificar), l.63 palabra 1 como/como con tilde vs inglés, WIT de nombres propios en minuscula (l.16, 74, 76, 91, 101), amores l.23/25 y poco l.65",
-            "t": "2026-10-14T11:46:08Z"
+            "v": "ok",
+            "nota": "r2: defectos r1 corregidos en el borrador (l.16,23,25,63,65,74,76,88,91,101); deriva 0, BAD 0, WIT vacios 0, pending_review; el aviso de falta palabra es de otra cover",
+            "t": "2026-10-14T11:55:44Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "estructura, timing, audio e items nuevos OK; faltan: Duro de la nota de Saul sin tratar (sin justificar), l.63 palabra 1 como/como con tilde vs inglés, WIT de nombres propios en minuscula (l.16, 74, 76, 91, 101), amores l.23/25 y poco l.65",
-          "t": "2026-10-14T11:46:08Z"
+          "v": "VERDE",
+          "resumen": "r2: defectos r1 corregidos en el borrador (l.16,23,25,63,65,74,76,88,91,101); deriva 0, BAD 0, WIT vacios 0, pending_review; el aviso de falta palabra es de otra cover",
+          "t": "2026-10-14T11:55:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:55:45Z"
         }
       }
     },
@@ -22883,9 +22889,9 @@
       "titulo": "Asi Te Quiero",
       "artista": "Joan Sebastian",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:45:12Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T11:54:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -22912,7 +22918,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:45:12Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: 10 palabras MANUAL wit_pit (9 quiero en 'te quiero' + L15 w2) y PIT 'lo primero' sentido erroneo en L7/L20/L32; resto OK (estructura, drift 0, BAD 0, pending_review)",
+            "t": "2026-10-14T11:53:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: 10 palabras MANUAL wit_pit (9 quiero en 'te quiero' + L15 w2) y PIT 'lo primero' sentido erroneo en L7/L20/L32; resto OK (estructura, drift 0, BAD 0, pending_review)",
+          "t": "2026-10-14T11:53:29Z"
         }
       }
     },
@@ -23188,9 +23204,9 @@
       "titulo": "Somos Novios",
       "artista": "Luis Miguel",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:45:13Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T11:55:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23217,7 +23233,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:45:13Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT/ingles desajustado en L16 w2 (hablarnos 'to speak to us' vs linea 'each other'); resto OK",
+            "t": "2026-10-14T11:54:20Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT/ingles desajustado en L16 w2 (hablarnos 'to speak to us' vs linea 'each other'); resto OK",
+          "t": "2026-10-14T11:54:20Z"
         }
       }
     },
