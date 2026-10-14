@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T13:07:43Z",
+  "generado": "2026-10-14T13:09:04Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -26078,10 +26078,10 @@
       "originalTrackId": "",
       "titulo": "Cuentame",
       "artista": "Lucero",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T13:01:42Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T13:08:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26110,15 +26110,21 @@
             "t": "2026-10-07T08:49:02Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L7 w1 WIT=PIT; L21/44/60/52 w1 conjuncion anclada a item exclamativo; L8 w4 item de sentido distinto; L3 w3 word sin coma",
-            "t": "2026-10-14T12:56:24Z"
+            "v": "ok",
+            "nota": "QC2",
+            "t": "2026-10-14T13:08:48Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L7 w1 WIT=PIT; L21/44/60/52 w1 conjuncion anclada a item exclamativo; L8 w4 item de sentido distinto; L3 w3 word sin coma",
-          "t": "2026-10-14T12:56:24Z"
+          "v": "VERDE",
+          "resumen": "QC2",
+          "t": "2026-10-14T13:08:48Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T13:08:50Z"
         }
       }
     },
@@ -26758,9 +26764,9 @@
       "titulo": "Solo En Ti",
       "artista": "Enrique Iglesias",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:50:00Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T13:09:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26787,7 +26793,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:49:59Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "que relativa mapeada a conjuncion (L2 t1, L3 t1, L37 t1); L13 w2 WIT igual al PIT; PI 'un dia' sentido equivocado (L8,17,26,33,42,45)",
+            "t": "2026-10-14T13:08:00Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "que relativa mapeada a conjuncion (L2 t1, L3 t1, L37 t1); L13 w2 WIT igual al PIT; PI 'un dia' sentido equivocado (L8,17,26,33,42,45)",
+          "t": "2026-10-14T13:08:00Z"
         }
       }
     },
