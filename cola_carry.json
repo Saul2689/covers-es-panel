@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T13:05:35Z",
+  "generado": "2026-10-14T13:07:08Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -26515,10 +26515,10 @@
       "originalTrackId": "",
       "titulo": "Que Me Vas A Dar",
       "artista": "Jenni Rivera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T13:03:51Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T13:07:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26547,15 +26547,21 @@
             "t": "2026-10-07T08:49:26Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L24/L47 w2 interrogative que with conjunction item and no tilde; L24 w4 and L48 w2 WIT equals PIT (contraction); L30 w1 WI.word lacks comma",
-            "t": "2026-10-14T13:00:17Z"
+            "v": "ok",
+            "nota": "QC2",
+            "t": "2026-10-14T13:07:01Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L24/L47 w2 interrogative que with conjunction item and no tilde; L24 w4 and L48 w2 WIT equals PIT (contraction); L30 w1 WI.word lacks comma",
-          "t": "2026-10-14T13:00:17Z"
+          "v": "VERDE",
+          "resumen": "QC2",
+          "t": "2026-10-14T13:07:01Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T13:07:05Z"
         }
       }
     },
@@ -26702,9 +26708,9 @@
       "titulo": "Que De Raro Tiene?",
       "artista": "los Temerarios",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:49:44Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T13:07:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26731,7 +26737,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:49:44Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WITs: voy (L7 w2, L32 w3) carries PIT; L25 w3 WIT=PIT; que L15/18/40/43 w1 why->what; L39 w8 WI word capital stale",
+            "t": "2026-10-14T13:05:46Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WITs: voy (L7 w2, L32 w3) carries PIT; L25 w3 WIT=PIT; que L15/18/40/43 w1 why->what; L39 w8 WI word capital stale",
+          "t": "2026-10-14T13:05:46Z"
         }
       }
     },
