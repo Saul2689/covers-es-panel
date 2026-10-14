@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:13:36Z",
+  "generado": "2026-10-14T12:16:16Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24026,10 +24026,10 @@
       "originalTrackId": "",
       "titulo": "Por Una Mujer Bonita",
       "artista": "Pepe Aguilar",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "R1 QC: quitar/literalizar PI mi corazon (L4,9,22,27); como L15/33 t1 -> item comparativo eec07 (like); PI 'es que' L14/32 t2-3 (the thing is); te L10/28 t10 -> f79a2b; traigo L3/21 t5 WIT I carry. Detalle en reviews/6aa6882c72ca57eb1aa09048.md",
-      "actualizado": "2026-10-14T12:12:30Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T12:15:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24154,10 +24154,10 @@
       "originalTrackId": "",
       "titulo": "No Te Apartes De Mi",
       "artista": "Yahir",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:46:27Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1: L32 w3-6 anclar hacer falta; L11 w4-5 borrar PI quien sabe; L29 w2 WIT were to teach; L6 w2 remap entraste a 6ac5e3de; reabrir ingles y reenviar",
+      "actualizado": "2026-10-14T12:16:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24184,7 +24184,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:46:26Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L32 hacer falta sin ancla, L11 PI quien sabe sentido erroneo, L29 WIT tiempo, L6 entraste item nautico; reabrir ingles",
+            "t": "2026-10-14T12:16:13Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L32 hacer falta sin ancla, L11 PI quien sabe sentido erroneo, L29 WIT tiempo, L6 entraste item nautico; reabrir ingles",
+          "t": "2026-10-14T12:16:13Z"
         }
       }
     },
