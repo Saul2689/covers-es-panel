@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:29:48Z",
+  "generado": "2026-10-14T12:30:21Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24497,10 +24497,10 @@
       "originalTrackId": "",
       "titulo": "Evidencias",
       "artista": "Ana Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T12:26:13Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T12:30:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24529,15 +24529,21 @@
             "t": "2026-10-07T08:47:35Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "English draft needs fixes: L5 w5 que->qué; va-a WIT==PIT L5/L10 w6; mi-corazon PI literal L3/L14/L28; por-ti PI L8; wrong-gloss WITs L2,6,7,9,10,13,16,27,30; L6 line English; L39/45 w2",
-            "t": "2026-10-14T12:19:47Z"
+            "v": "ok",
+            "nota": "QC2 r1 fixes verified: L5 w5 tilde, 4 PIs gone, 19 WIT swaps, L6/L7 English; BAD 0, drift 0, pending_review",
+            "t": "2026-10-14T12:30:04Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "English draft needs fixes: L5 w5 que->qué; va-a WIT==PIT L5/L10 w6; mi-corazon PI literal L3/L14/L28; por-ti PI L8; wrong-gloss WITs L2,6,7,9,10,13,16,27,30; L6 line English; L39/45 w2",
-          "t": "2026-10-14T12:19:47Z"
+          "v": "VERDE",
+          "resumen": "QC2 r1 fixes verified: L5 w5 tilde, 4 PIs gone, 19 WIT swaps, L6/L7 English; BAD 0, drift 0, pending_review",
+          "t": "2026-10-14T12:30:04Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:30:07Z"
         }
       }
     },
@@ -24755,10 +24761,10 @@
       "originalTrackId": "",
       "titulo": "Ayer",
       "artista": "Enrique Iglesias",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:47:37Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "PIT my love en mi corazon L10/L28/L34; PIT how could you en mira que L5; L25 t3 dejado remapear a 6ac5a1820b0281c2679f77ed",
+      "actualizado": "2026-10-14T12:30:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24785,7 +24791,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:47:36Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "PIT mal en PI mi corazon x3 (L10,L28,L34) y mira que (L5); L25 t3 dejado al item equivocado, existe 6ac5a182",
+            "t": "2026-10-14T12:30:12Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "PIT mal en PI mi corazon x3 (L10,L28,L34) y mira que (L5); L25 t3 dejado al item equivocado, existe 6ac5a182",
+          "t": "2026-10-14T12:30:12Z"
         }
       }
     },
