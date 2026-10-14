@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T08:14:32Z",
+  "generado": "2026-10-14T08:17:11Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -11520,10 +11520,10 @@
       "originalTrackId": "",
       "titulo": "Yo No Naci Para Amar",
       "artista": "Juan Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:30:57Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T08:15:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11550,7 +11550,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:30:57Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, timing, mapeo, frases ancladas, items nuevos e ingles (pending_review) correctos; notas de oido en lineas 9, 17, 24",
+            "t": "2026-10-14T08:15:10Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, timing, mapeo, frases ancladas, items nuevos e ingles (pending_review) correctos; notas de oido en lineas 9, 17, 24",
+          "t": "2026-10-14T08:15:10Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T08:15:12Z"
         }
       }
     },
@@ -11877,10 +11893,10 @@
       "originalTrackId": "",
       "titulo": "De Que Manera Te Olvido",
       "artista": "Luis Miguel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:31:07Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T08:16:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11907,7 +11923,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:31:07Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, timing, mapeo, anclas de frases, ingles en draft pending_review y wit_dt_audit BAD 0 correctos; notas menores",
+            "t": "2026-10-14T08:16:44Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, timing, mapeo, anclas de frases, ingles en draft pending_review y wit_dt_audit BAD 0 correctos; notas menores",
+          "t": "2026-10-14T08:16:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T08:16:46Z"
         }
       }
     },
