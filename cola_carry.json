@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T10:49:18Z",
+  "generado": "2026-10-14T10:55:45Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5806,10 +5806,10 @@
       "originalTrackId": "",
       "titulo": "Cada Que",
       "artista": "Belanova",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:24:11Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC ronda 1 DEVUELTO: ver reviews/6aa7777b72ca57eb1acb62fd.md (lineas 4,5,10,11,18,23,24,27,28,29,32,33)",
+      "actualizado": "2026-10-14T10:53:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5836,7 +5836,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:24:11Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ronda 1: PIT repetido en WIT (tal vez l5/l18, de verdad l28), anclas de frase de sentido erroneo (mi corazon l10/23/32, es mas l11/24/33), serias l4 y Que l5/l18 con item de otro sentido, tiene que l27 y no tiene caso l29 sin anclar",
+            "t": "2026-10-14T10:53:16Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ronda 1: PIT repetido en WIT (tal vez l5/l18, de verdad l28), anclas de frase de sentido erroneo (mi corazon l10/23/32, es mas l11/24/33), serias l4 y Que l5/l18 con item de otro sentido, tiene que l27 y no tiene caso l29 sin anclar",
+          "t": "2026-10-14T10:53:16Z"
         }
       }
     },
@@ -11866,10 +11876,10 @@
       "originalTrackId": "",
       "titulo": "Amores Extraños",
       "artista": "Laura Pausini",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:31:03Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "faltan anclas L26 w3-4 y L47 w2-3; L36 w5-6 WIT con sentido de frase; ver review",
+      "actualizado": "2026-10-14T10:55:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11896,7 +11906,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:31:03Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ronda 1: faltan anclas de frase en L26 (volver a) y L47 (ganas de); L36 w5-6 WIT con sentido de frase; resto verde",
+            "t": "2026-10-14T10:55:21Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ronda 1: faltan anclas de frase en L26 (volver a) y L47 (ganas de); L36 w5-6 WIT con sentido de frase; resto verde",
+          "t": "2026-10-14T10:55:21Z"
         }
       }
     },
@@ -20120,10 +20140,10 @@
       "originalTrackId": "",
       "titulo": "Que Me Des Tu Cariño",
       "artista": "Juan Luis Guerra",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1: 2 WIT (linea 3 y 18) y reenviado; fila primaria de milito en minuscula pendiente (indice unico)",
-      "actualizado": "2026-10-14T10:47:01Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T10:50:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20152,15 +20172,21 @@
             "t": "2026-10-07T08:41:59Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 1: l3 p2 WIT me (obj directo), l18 p8 WIT antoja persona equivocada, item milito primaria en minuscula; resto limpio",
-            "t": "2026-10-14T10:44:03Z"
+            "v": "ok",
+            "nota": "r2: WIT l3/l18 corregidos, wit_dt_audit BAD 0, estructura/mapeo/ingles limpios, SUENA_SIN_BLINDAR; primaria de milito en minuscula = limite conocido",
+            "t": "2026-10-14T10:50:15Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 1: l3 p2 WIT me (obj directo), l18 p8 WIT antoja persona equivocada, item milito primaria en minuscula; resto limpio",
-          "t": "2026-10-14T10:44:03Z"
+          "v": "VERDE",
+          "resumen": "r2: WIT l3/l18 corregidos, wit_dt_audit BAD 0, estructura/mapeo/ingles limpios, SUENA_SIN_BLINDAR; primaria de milito en minuscula = limite conocido",
+          "t": "2026-10-14T10:50:15Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:50:16Z"
         }
       }
     },
@@ -20272,10 +20298,10 @@
       "originalTrackId": "",
       "titulo": "Morir De Amor",
       "artista": "Miguel Bose",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC ronda 1: que L7 w1 causal, anclar lo siento L5 y en silencio L8/18/22/26, tilde que L12 w6 y como L4 w6, crear a tiempo L9/19/23/27, reenviar ingles",
-      "actualizado": "2026-10-14T10:43:31Z",
+      "motivo": "QC ronda 2 VERDE; ingles en pending_review, audio SUENA_SIN_BLINDAR",
+      "actualizado": "2026-10-14T10:53:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20304,15 +20330,21 @@
             "t": "2026-10-07T08:42:00Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "estructura y audio OK; 5 fallos: que L7 w1 causal, frases lo siento L5 y en silencio L8/18/22/26 sin anclar, qué/cómo sin tilde L12 w6 y L4 w6, frase a tiempo sin item",
-            "t": "2026-10-14T10:43:31Z"
+            "v": "ok",
+            "nota": "Ronda 2: los 6 defectos de la ronda 1 corregidos y verificados; drift 0, 211/211, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T10:53:53Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "estructura y audio OK; 5 fallos: que L7 w1 causal, frases lo siento L5 y en silencio L8/18/22/26 sin anclar, qué/cómo sin tilde L12 w6 y L4 w6, frase a tiempo sin item",
-          "t": "2026-10-14T10:43:31Z"
+          "v": "VERDE",
+          "resumen": "Ronda 2: los 6 defectos de la ronda 1 corregidos y verificados; drift 0, 211/211, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T10:53:53Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:53:57Z"
         }
       }
     },
@@ -20333,10 +20365,10 @@
       "originalTrackId": "",
       "titulo": "Al Fin Me Arme De Valor",
       "artista": "Reyli",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:42:16Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC ronda 1: ancla tan solo L1, WIT=PIT lo que, volver a y al fin sin anclar, tocando L3 y responda L9, I minuscula en arme y arranque",
+      "actualizado": "2026-10-14T10:55:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20363,7 +20395,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:42:16Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ronda 1: ancla tan solo mal (L1), WIT=PIT en lo que (5 lineas), volver a/al fin sin anclar, tocando/responda def no encaja, I minuscula en items nuevos",
+            "t": "2026-10-14T10:55:31Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ronda 1: ancla tan solo mal (L1), WIT=PIT en lo que (5 lineas), volver a/al fin sin anclar, tocando/responda def no encaja, I minuscula en items nuevos",
+          "t": "2026-10-14T10:55:31Z"
         }
       }
     },
