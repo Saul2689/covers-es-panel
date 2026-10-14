@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T13:09:04Z",
+  "generado": "2026-10-14T13:09:38Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -26813,10 +26813,10 @@
       "originalTrackId": "",
       "titulo": "La Cima Del Cielo",
       "artista": "Ricardo Montaner",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:50:01Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1: PI a medio L24 erroneo; WI.word dia L25 w3/w5; WIT duplicados L16/L36 w2-3, L13/L33 w1-2; rozo primario minuscula",
+      "actualizado": "2026-10-14T13:09:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26843,7 +26843,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:50:00Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "PI a medio L24 sentido erroneo; WI.word sin tilde L25 w3/w5; WIT duplicados L16/36 w2-3 y L13/33 w1-2; rozo primario en minuscula",
+            "t": "2026-10-14T13:09:27Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "PI a medio L24 sentido erroneo; WI.word sin tilde L25 w3/w5; WIT duplicados L16/36 w2-3 y L13/33 w1-2; rozo primario en minuscula",
+          "t": "2026-10-14T13:09:27Z"
         }
       }
     },
