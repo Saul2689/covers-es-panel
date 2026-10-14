@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T13:53:55Z",
+  "generado": "2026-10-14T14:01:51Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -29312,9 +29312,9 @@
       "titulo": "Obtener Un Si",
       "artista": "Shakira",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:52:11Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T14:01:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29341,7 +29341,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:52:10Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: item nuevo mandes con definicion en espanol; L16 w3 WIT sin clitico (fix en review)",
+            "t": "2026-10-14T13:54:43Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: item nuevo mandes con definicion en espanol; L16 w3 WIT sin clitico (fix en review)",
+          "t": "2026-10-14T13:54:43Z"
         }
       }
     },
@@ -29454,9 +29464,9 @@
       "titulo": "Me Caiste Del Cielo",
       "artista": "Cornelio Reyna",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:52:12Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T14:01:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29483,7 +29493,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:52:11Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 6 defectos EN/mapeo (L22 w3 sentido, L19 w7 tiempo, L9 w6, L16/28 tener que, L15/27 w3, L4 hace mucho)",
+            "t": "2026-10-14T13:55:40Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 6 defectos EN/mapeo (L22 w3 sentido, L19 w7 tiempo, L9 w6, L16/28 tener que, L15/27 w3, L4 hace mucho)",
+          "t": "2026-10-14T13:55:40Z"
         }
       }
     },
@@ -29550,9 +29570,9 @@
       "titulo": "Mantra",
       "artista": "Sebastian Yatra",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:53:28Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T14:01:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29579,7 +29599,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:53:27Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: PIT te quiero mal en L22/48/66 (es quiero+amar); irás L20/46/64 en item de sentido exhortativo, hay item futuro correcto",
+            "t": "2026-10-14T13:56:27Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: PIT te quiero mal en L22/48/66 (es quiero+amar); irás L20/46/64 en item de sentido exhortativo, hay item futuro correcto",
+          "t": "2026-10-14T13:56:27Z"
         }
       }
     },
