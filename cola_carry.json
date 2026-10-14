@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T15:52:12Z",
+  "generado": "2026-10-14T15:54:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9056,10 +9056,10 @@
       "originalTrackId": "",
       "titulo": "Estos Celos",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T15:50:52Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T15:53:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9088,15 +9088,21 @@
             "t": "2026-10-14T08:09:56Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: falta ancla hacer daño en L17 y L30; WIT de ya en L26 lleva el sentido de la frase",
-            "t": "2026-10-14T15:47:13Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-14T15:53:52Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: falta ancla hacer daño en L17 y L30; WIT de ya en L26 lleva el sentido de la frase",
-          "t": "2026-10-14T15:47:13Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-14T15:53:52Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T15:53:54Z"
         }
       }
     },
@@ -9434,10 +9440,10 @@
       "originalTrackId": "",
       "titulo": "Mi Eterno Amor Secreto",
       "artista": "Marco Antonio Solis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T15:50:52Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T15:54:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9466,15 +9472,21 @@
             "t": "2026-10-14T08:10:44Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: faltan anclas de frase (es que L10; volver a L20/L32) y WIT en subjuntivo L9 w4",
-            "t": "2026-10-14T15:46:51Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-14T15:54:26Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: faltan anclas de frase (es que L10; volver a L20/L32) y WIT en subjuntivo L9 w4",
-          "t": "2026-10-14T15:46:51Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-14T15:54:26Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T15:54:28Z"
         }
       }
     },
@@ -9484,10 +9496,10 @@
       "originalTrackId": "",
       "titulo": "Blanco",
       "artista": "J. Balvin",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T15:44:22Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: WIT como L2/L18, me L8/L24, nombres propios en minuscula (L10,14,26,30,35,39,42,46,50,51), PIT Puerto Rico L8/L24, ancla manos en alto L37, primarios en minuscula de items nuevos",
+      "actualizado": "2026-10-14T15:52:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9514,7 +9526,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:11:14Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: WIT como L2/L18, me L8/L24, nombres propios en minuscula, PIT Puerto Rico, falta ancla manos en alto L37",
+            "t": "2026-10-14T15:52:27Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: WIT como L2/L18, me L8/L24, nombres propios en minuscula, PIT Puerto Rico, falta ancla manos en alto L37",
+          "t": "2026-10-14T15:52:27Z"
         }
       }
     },
