@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T09:59:33Z",
+  "generado": "2026-10-14T10:02:03Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -11172,10 +11172,10 @@
       "originalTrackId": "",
       "titulo": "Los Dos Amigos",
       "artista": "los Cadetes de Linares",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, lista para QC",
-      "actualizado": "2026-10-14T09:55:01Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-14T10:00:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11204,15 +11204,21 @@
             "t": "2026-10-14T09:41:54Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L2 t2 ancla a item de sentido equivocado; falta phrase item de la locucion L3 t5-6; glosas de nombres propios en minuscula (L2,4,13,16,22,28)",
-            "t": "2026-10-14T09:49:58Z"
+            "v": "ok",
+            "nota": "r2: D1-D4 corregidos y comprobados por id; estructura, timing drift 0, mapeo, ingles pending_review y wit_dt_audit BAD 0; nota de oido en linea 6 palabra 1",
+            "t": "2026-10-14T10:00:24Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L2 t2 ancla a item de sentido equivocado; falta phrase item de la locucion L3 t5-6; glosas de nombres propios en minuscula (L2,4,13,16,22,28)",
-          "t": "2026-10-14T09:49:58Z"
+          "v": "VERDE",
+          "resumen": "r2: D1-D4 corregidos y comprobados por id; estructura, timing drift 0, mapeo, ingles pending_review y wit_dt_audit BAD 0; nota de oido en linea 6 palabra 1",
+          "t": "2026-10-14T10:00:24Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:00:28Z"
         }
       }
     },
@@ -12996,10 +13002,10 @@
       "originalTrackId": "",
       "titulo": "Sola",
       "artista": "Hector El Father",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "corregida r2 por script, lista para QC",
-      "actualizado": "2026-10-14T09:58:13Z",
+      "motivo": "QC r3 VERDE",
+      "actualizado": "2026-10-14T10:00:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13028,15 +13034,21 @@
             "t": "2026-10-14T09:41:54Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r2: L6 w4 por WIT still on a same-day fragment row ('on'); r1 fixes 1,2 and L18 OK",
-            "t": "2026-10-14T09:57:25Z"
+            "v": "ok",
+            "nota": "r3: fix de L6 p4 verificado (fila 'through' de 13 ago, no repite el PIT); checklist completa OK, wit_dt_audit BAD 0, inglés en pending_review",
+            "t": "2026-10-14T10:00:43Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r2: L6 w4 por WIT still on a same-day fragment row ('on'); r1 fixes 1,2 and L18 OK",
-          "t": "2026-10-14T09:57:25Z"
+          "v": "VERDE",
+          "resumen": "r3: fix de L6 p4 verificado (fila 'through' de 13 ago, no repite el PIT); checklist completa OK, wit_dt_audit BAD 0, inglés en pending_review",
+          "t": "2026-10-14T10:00:43Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:00:45Z"
         }
       }
     },
@@ -17455,10 +17467,10 @@
       "originalTrackId": "",
       "titulo": "Eres Divina",
       "artista": "Patrulla 81",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "corregida r2 por script, lista para QC",
-      "actualizado": "2026-10-14T09:59:13Z",
+      "motivo": "QC r3 VERDE",
+      "actualizado": "2026-10-14T10:01:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17487,15 +17499,21 @@
             "t": "2026-10-07T08:37:55Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r2: arreglos r1 OK; PIT de Dios quiera que (l29/l40 w1-3) en minuscula 'god willing that', debe ir 'God willing that'",
-            "t": "2026-10-14T09:57:39Z"
+            "v": "ok",
+            "nota": "r3: PIT de las frases opt. en fila capitalizada, WIT audit BAD 0, 44/44 ingles pending_review, drift 0",
+            "t": "2026-10-14T10:01:14Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r2: arreglos r1 OK; PIT de Dios quiera que (l29/l40 w1-3) en minuscula 'god willing that', debe ir 'God willing that'",
-          "t": "2026-10-14T09:57:39Z"
+          "v": "VERDE",
+          "resumen": "r3: PIT de las frases opt. en fila capitalizada, WIT audit BAD 0, 44/44 ingles pending_review, drift 0",
+          "t": "2026-10-14T10:01:14Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:01:15Z"
         }
       }
     },
@@ -17680,10 +17698,10 @@
       "originalTrackId": "",
       "titulo": "Me Acuerdo",
       "artista": "Vico C",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "13 WIT de palabra repiten el PIT de su frase: L16 w1; L21 w1-2; L31 w9; L38 w2-3; L56 w5; L67 w3-4; L87 w8; L93 w4-5; L95 w4. Reabrir borrador, dar sentido propio a cada palabra, wit_dt_audit BAD 0, submit",
-      "actualizado": "2026-10-14T09:55:47Z",
+      "motivo": "corregida r1 (worker + script), lista para QC",
+      "actualizado": "2026-10-14T10:01:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
