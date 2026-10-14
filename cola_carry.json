@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T15:34:31Z",
+  "generado": "2026-10-14T15:35:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -8571,10 +8571,10 @@
       "originalTrackId": "",
       "titulo": "Hechicera",
       "artista": "Mana",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: borrar PIT de locucion mal anclada (linea 13); WIT let+to X (lineas 18,19); anclar poco a poco (linea 19); reabrir ingles",
-      "actualizado": "2026-10-14T15:30:14Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T15:35:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8838,10 +8838,10 @@
       "originalTrackId": "",
       "titulo": "Amor Clandestino",
       "artista": "Mana",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T15:32:11Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T15:34:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8870,15 +8870,21 @@
             "t": "2026-10-14T08:09:07Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: WIT 'no longer' on ya inside 'ya no' PIT (L29 w5, L31 w4, L39 w3); rest clean",
-            "t": "2026-10-14T15:29:11Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-14T15:34:52Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: WIT 'no longer' on ya inside 'ya no' PIT (L29 w5, L31 w4, L39 w3); rest clean",
-          "t": "2026-10-14T15:29:11Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-14T15:34:52Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T15:34:54Z"
         }
       }
     },
@@ -8908,10 +8914,10 @@
       "originalTrackId": "",
       "titulo": "Un Poco De Tu Amor",
       "artista": "RBD",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T15:32:12Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T15:34:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8940,15 +8946,21 @@
             "t": "2026-10-14T08:09:55Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: 16 WIT 'To' capitalised (7 mid-line); use lowercase 'to' DT 6a692e31..., rest OK",
-            "t": "2026-10-14T15:30:01Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-14T15:34:47Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: 16 WIT 'To' capitalised (7 mid-line); use lowercase 'to' DT 6a692e31..., rest OK",
-          "t": "2026-10-14T15:30:01Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-14T15:34:47Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T15:34:49Z"
         }
       }
     },
