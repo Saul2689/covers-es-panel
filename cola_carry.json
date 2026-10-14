@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T15:54:59Z",
+  "generado": "2026-10-14T15:57:05Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9502,10 +9502,10 @@
       "originalTrackId": "",
       "titulo": "Blanco",
       "artista": "J. Balvin",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: WIT como L2/L18, me L8/L24, nombres propios en minuscula (L10,14,26,30,35,39,42,46,50,51), PIT Puerto Rico L8/L24, ancla manos en alto L37, primarios en minuscula de items nuevos",
-      "actualizado": "2026-10-14T15:52:27Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T15:57:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9731,10 +9731,10 @@
       "originalTrackId": "",
       "titulo": "No Me Acostumbro",
       "artista": "Rey Ruiz",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T15:44:28Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: L13/L27 EN, L48w1 WIT, L36w5 item, L43w2 WIT, L20w4 item, L17/L31 dejar de, L39w9 WI.word; detalle en reviews",
+      "actualizado": "2026-10-14T15:55:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9761,7 +9761,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:12:03Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L13/L27 EN line vs WIT, L48 w1 WIT, L36 w5 wrong-sense item, L43 w2 WIT, L20 w4 unused right-sense item, L17/L31 missing dejar de anchor, L39 w9 stale WI.word",
+            "t": "2026-10-14T15:55:11Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L13/L27 EN line vs WIT, L48 w1 WIT, L36 w5 wrong-sense item, L43 w2 WIT, L20 w4 unused right-sense item, L17/L31 missing dejar de anchor, L39 w9 stale WI.word",
+          "t": "2026-10-14T15:55:11Z"
         }
       }
     },
@@ -9771,10 +9781,10 @@
       "originalTrackId": "",
       "titulo": "Gordita",
       "artista": "Calle 13, Shakira",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T15:44:31Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1 DEVUELTO: ver reviews (WI.word, WIT doblados, nombres propios, tener que L56, L41)",
+      "actualizado": "2026-10-14T15:56:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9801,7 +9811,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:14:07Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: WI.word distinta del token (19), sujeto/palabra doblada en L21/23/45/78/80 y L55, nombres propios en minuscula L13/L54, falta ancla tener que L56, L41 vamos a",
+            "t": "2026-10-14T15:56:22Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: WI.word distinta del token (19), sujeto/palabra doblada en L21/23/45/78/80 y L55, nombres propios en minuscula L13/L54, falta ancla tener que L56, L41 vamos a",
+          "t": "2026-10-14T15:56:22Z"
         }
       }
     },
