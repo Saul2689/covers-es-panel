@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T15:50:53Z",
+  "generado": "2026-10-14T15:52:12Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4287,10 +4287,10 @@
       "originalTrackId": "",
       "titulo": "Culpables",
       "artista": "Anuel Aa, Karol G",
-      "estado": "correccion",
-      "vueltas": 2,
-      "motivo": "QC R2 DEVUELTO: solo L30, t1/t4 no concuerdan (token, item e inglés)",
-      "actualizado": "2026-10-06T14:52:20Z",
+      "estado": "parada",
+      "vueltas": 3,
+      "motivo": "QC3 DEVUELTO, 3a vuelta: WIT con sujeto doble en 12 lineas, to+to en 31-33, nombres de grupo en minuscula en 64 y 69; el punto de la linea 30 ya no es defecto",
+      "actualizado": "2026-10-14T15:51:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4320,16 +4320,17 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "R2: arreglos 2-4 OK (WIT nombres, 34,10, 4 PI); L30 sigue sin concordar t1/t4: corregir token + item + inglés",
-            "t": "2026-10-06T14:52:20Z"
+            "nota": "QC3 DEVUELTO: doble sujeto you+you have/you fell in love (lineas 6,7,10,11,22,23,26,27,54,55,58,59), to+to (31,32,33), nombres de grupo en minuscula (64,69)",
+            "t": "2026-10-14T15:51:39Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "R2: arreglos 2-4 OK (WIT nombres, 34,10, 4 PI); L30 sigue sin concordar t1/t4: corregir token + item + inglés",
-          "t": "2026-10-06T14:52:20Z"
+          "resumen": "QC3 DEVUELTO: doble sujeto you+you have/you fell in love (lineas 6,7,10,11,22,23,26,27,54,55,58,59), to+to (31,32,33), nombres de grupo en minuscula (64,69)",
+          "t": "2026-10-14T15:51:39Z"
         }
-      }
+      },
+      "motivo_en": "QC3 returned on round 3: doubled-subject WITs in 12 lines, to+to in lines 31-33, group names lowercase in lines 64 and 69; the line 30 point is no longer a defect"
     },
     {
       "coverTrackId": "6aa73c8272ca57eb1ab012a4",
@@ -9523,10 +9524,10 @@
       "originalTrackId": "",
       "titulo": "Oye Mujer",
       "artista": "Raymix",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T15:44:25Z",
+      "motivo": "QC1 VERDE",
+      "actualizado": "2026-10-14T15:51:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9553,7 +9554,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:11:15Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC1 VERDE",
+            "t": "2026-10-14T15:51:49Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC1 VERDE",
+          "t": "2026-10-14T15:51:49Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T15:51:51Z"
         }
       }
     },
