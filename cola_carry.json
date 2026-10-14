@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:12:27Z",
+  "generado": "2026-10-14T12:12:41Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24026,10 +24026,10 @@
       "originalTrackId": "",
       "titulo": "Por Una Mujer Bonita",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:46:13Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "R1 QC: quitar/literalizar PI mi corazon (L4,9,22,27); como L15/33 t1 -> item comparativo eec07 (like); PI 'es que' L14/32 t2-3 (the thing is); te L10/28 t10 -> f79a2b; traigo L3/21 t5 WIT I carry. Detalle en reviews/6aa6882c72ca57eb1aa09048.md",
+      "actualizado": "2026-10-14T12:12:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24056,7 +24056,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:46:13Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: PI mi corazon con PIT 'my love' en lineas literales (L4/9/22/27); como causal vs WIT like (L15/33 t1); 'es que' sin PI (L14/32 t2-3); te objeto indirecto + gloss repetido (L10/28 t10); traigo WIT bring vs linea carry (L3/21 t5)",
+            "t": "2026-10-14T12:12:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: PI mi corazon con PIT 'my love' en lineas literales (L4/9/22/27); como causal vs WIT like (L15/33 t1); 'es que' sin PI (L14/32 t2-3); te objeto indirecto + gloss repetido (L10/28 t10); traigo WIT bring vs linea carry (L3/21 t5)",
+          "t": "2026-10-14T12:12:29Z"
         }
       }
     },
