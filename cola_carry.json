@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:57:40Z",
+  "generado": "2026-10-14T11:58:44Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23209,10 +23209,10 @@
       "originalTrackId": "",
       "titulo": "Somos Novios",
       "artista": "Luis Miguel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T11:55:29Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T11:58:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23241,15 +23241,21 @@
             "t": "2026-10-07T08:45:13Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT/ingles desajustado en L16 w2 (hablarnos 'to speak to us' vs linea 'each other'); resto OK",
-            "t": "2026-10-14T11:54:20Z"
+            "v": "ok",
+            "nota": "R2: r1 defecto L16 w2 corregido (WIT concuerda con linea y con el item), resto de checklist limpio, borrador pending_review, wit_dt_audit BAD 0",
+            "t": "2026-10-14T11:58:29Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT/ingles desajustado en L16 w2 (hablarnos 'to speak to us' vs linea 'each other'); resto OK",
-          "t": "2026-10-14T11:54:20Z"
+          "v": "VERDE",
+          "resumen": "R2: r1 defecto L16 w2 corregido (WIT concuerda con linea y con el item), resto de checklist limpio, borrador pending_review, wit_dt_audit BAD 0",
+          "t": "2026-10-14T11:58:29Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:58:30Z"
         }
       }
     },
