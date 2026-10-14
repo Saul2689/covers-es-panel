@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:09:09Z",
+  "generado": "2026-10-14T12:10:03Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23390,9 +23390,9 @@
       "titulo": "Piel De Angel",
       "artista": "Camilo Sesto",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T12:06:23Z",
+      "vueltas": 2,
+      "motivo": "corregida r2",
+      "actualizado": "2026-10-14T12:10:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23422,14 +23422,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "R1: L8 w3 WIT repite PIT; L9 w1-4 locucion sin ancla; L9 w5 y L26 w3 WIT tiempo/numero vs ingles; L29 w3 tilde de mas + remap; reabrir borrador ingles",
-            "t": "2026-10-14T12:02:07Z"
+            "nota": "r2: r1 defects 1-4 y 6 arreglados; falta L29 w3 WI 6ac525c47b9bfb31100b4a03 con word acentuado (usar word_insight_create upsert)",
+            "t": "2026-10-14T12:09:18Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "R1: L8 w3 WIT repite PIT; L9 w1-4 locucion sin ancla; L9 w5 y L26 w3 WIT tiempo/numero vs ingles; L29 w3 tilde de mas + remap; reabrir borrador ingles",
-          "t": "2026-10-14T12:02:07Z"
+          "resumen": "r2: r1 defects 1-4 y 6 arreglados; falta L29 w3 WI 6ac525c47b9bfb31100b4a03 con word acentuado (usar word_insight_create upsert)",
+          "t": "2026-10-14T12:09:18Z"
         }
       }
     },
