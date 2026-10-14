@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:00:51Z",
+  "generado": "2026-10-14T12:02:38Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23377,10 +23377,10 @@
       "originalTrackId": "",
       "titulo": "Piel De Angel",
       "artista": "Camilo Sesto",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:45:32Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC R1 DEVUELTO: L8 w3 WIT=PIT (DT just); L9 w1-4 crear PI es de vez en cuando; L9 w5 WIT infinitivo vs ingles; L26 w3 believes->think; L29 w3 tilde como + remap; reabrir ingles",
+      "actualizado": "2026-10-14T12:02:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23407,7 +23407,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:45:32Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: L8 w3 WIT repite PIT; L9 w1-4 locucion sin ancla; L9 w5 y L26 w3 WIT tiempo/numero vs ingles; L29 w3 tilde de mas + remap; reabrir borrador ingles",
+            "t": "2026-10-14T12:02:07Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: L8 w3 WIT repite PIT; L9 w1-4 locucion sin ancla; L9 w5 y L26 w3 WIT tiempo/numero vs ingles; L29 w3 tilde de mas + remap; reabrir borrador ingles",
+          "t": "2026-10-14T12:02:07Z"
         }
       }
     },
