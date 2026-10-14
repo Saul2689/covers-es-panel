@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:31:49Z",
+  "generado": "2026-10-14T12:35:07Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -25138,10 +25138,10 @@
       "originalTrackId": "",
       "titulo": "Para Que La Vida",
       "artista": "Enrique Iglesias",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:47:41Z",
+      "motivo": "audio MUDA_PARADA: /audio 404, stemVoc a 6990 ms medido el 14 oct 08:22 (cover_audio_list); contenido pendiente en reviews/6aa58d1b42b8d1fdb0cfe894.md",
+      "actualizado": "2026-10-14T12:34:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25168,9 +25168,20 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:47:41Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "audio MUDA_PARADA: /audio 404 y stemVoc a 6990 ms (medido 14 oct 08:22, despues del worker); ademas pendientes de contenido: WIT God L27 w7, PI no sé L8/L10 (saber+inf), PI dar vueltas L16/34/46, WI.word rancio L18/21/36/38/48/49",
+            "t": "2026-10-14T12:34:43Z"
           }
+        },
+        "qc": {
+          "v": "PARADA",
+          "resumen": "audio MUDA_PARADA: /audio 404 y stemVoc a 6990 ms (medido 14 oct 08:22, despues del worker); ademas pendientes de contenido: WIT God L27 w7, PI no sé L8/L10 (saber+inf), PI dar vueltas L16/34/46, WI.word rancio L18/21/36/38/48/49",
+          "t": "2026-10-14T12:34:43Z"
         }
-      }
+      },
+      "motivo_en": "audio MUDA_PARADA: /audio returns 404, stemVoc 6990 ms off, measured 14 Oct 08:22 (cover_audio_list); content defects pending in reviews/6aa58d1b42b8d1fdb0cfe894.md"
     },
     {
       "coverTrackId": "6aa534fa42b8d1fdb0c935ab",
