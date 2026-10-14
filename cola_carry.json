@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:55:37Z",
+  "generado": "2026-10-14T12:58:55Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -26078,10 +26078,10 @@
       "originalTrackId": "",
       "titulo": "Cuentame",
       "artista": "Lucero",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:49:03Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "L7 w1 WIT=PIT (repuntar a otra fila); L21/44/60/52 w1 que conjuncion -> item 68c9e7fa...30a26 that; L8 w4 prieto item sentido oscuro -> crear item tight y remapear; L3 w3 word sin coma",
+      "actualizado": "2026-10-14T12:56:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26108,7 +26108,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:49:02Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L7 w1 WIT=PIT; L21/44/60/52 w1 conjuncion anclada a item exclamativo; L8 w4 item de sentido distinto; L3 w3 word sin coma",
+            "t": "2026-10-14T12:56:24Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L7 w1 WIT=PIT; L21/44/60/52 w1 conjuncion anclada a item exclamativo; L8 w4 item de sentido distinto; L3 w3 word sin coma",
+          "t": "2026-10-14T12:56:24Z"
         }
       }
     },
@@ -26118,10 +26128,10 @@
       "originalTrackId": "",
       "titulo": "Recuerdos De Una Noche",
       "artista": "los Pasteles Verdes",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T12:54:51Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T12:57:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26150,15 +26160,21 @@
             "t": "2026-10-07T08:49:03Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT igual a PIT en L17/L39 w1 (junto a); que relativo anclado a conjuncion en L14/L36 w1; resto OK",
-            "t": "2026-10-14T12:53:54Z"
+            "v": "ok",
+            "nota": "QC2",
+            "t": "2026-10-14T12:57:14Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT igual a PIT en L17/L39 w1 (junto a); que relativo anclado a conjuncion en L14/L36 w1; resto OK",
-          "t": "2026-10-14T12:53:54Z"
+          "v": "VERDE",
+          "resumen": "QC2",
+          "t": "2026-10-14T12:57:14Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:57:17Z"
         }
       }
     },
@@ -26253,9 +26269,9 @@
       "titulo": "La Diferencia",
       "artista": "Juan Gabriel",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:49:08Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T12:58:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26282,7 +26298,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:49:08Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT=PIT en tal vez (L17 w1, L23 w7) y vez=maybe; tarde L6 w7, despiertes L19 w3 glosas; WI.word obsoleto en 5 anclas; resto OK",
+            "t": "2026-10-14T12:56:15Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT=PIT en tal vez (L17 w1, L23 w7) y vez=maybe; tarde L6 w7, despiertes L19 w3 glosas; WI.word obsoleto en 5 anclas; resto OK",
+          "t": "2026-10-14T12:56:15Z"
         }
       }
     },
