@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T10:37:18Z",
+  "generado": "2026-10-14T10:39:45Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -19592,10 +19592,10 @@
       "originalTrackId": "",
       "titulo": "Estrellitas Y Duendes",
       "artista": "Juan Luis Guerra",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, lista para QC",
-      "actualizado": "2026-10-14T10:34:26Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T10:38:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19624,15 +19624,21 @@
             "t": "2026-10-07T08:41:05Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r1: l6 w1 sentido vivirás; l21/52/71 w1 y l36 w1 WIT repite frase; l11 w1-3 'hacer el amor' sin anclar; l20/51/70 w2 bien; l33 w2 de",
-            "t": "2026-10-14T10:30:21Z"
+            "v": "ok",
+            "nota": "r2: 6 defectos r1 corregidos; estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T10:38:06Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r1: l6 w1 sentido vivirás; l21/52/71 w1 y l36 w1 WIT repite frase; l11 w1-3 'hacer el amor' sin anclar; l20/51/70 w2 bien; l33 w2 de",
-          "t": "2026-10-14T10:30:21Z"
+          "v": "VERDE",
+          "resumen": "r2: 6 defectos r1 corregidos; estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T10:38:06Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:38:07Z"
         }
       }
     },
@@ -19642,10 +19648,10 @@
       "originalTrackId": "",
       "titulo": "Como Yo",
       "artista": "Juan Luis Guerra",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:41:14Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC ronda 1 DEVUELTO: ver reviews/6aa81ca4d951e1665a80205c.md (l4 p12, l9 p7, l12/20/31 p6-7, l16 p12, l25 p3, l26 p1-2)",
+      "actualizado": "2026-10-14T10:39:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19672,7 +19678,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:41:14Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ronda 1: l4 p12 WIT repite PIT; l16 p12 y l9 p7 WIT en minuscula; l25 p3 remapear a interjeccion es; PI tanto que (l26) y no sé (l12/20/31) de sentido equivocado",
+            "t": "2026-10-14T10:39:09Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ronda 1: l4 p12 WIT repite PIT; l16 p12 y l9 p7 WIT en minuscula; l25 p3 remapear a interjeccion es; PI tanto que (l26) y no sé (l12/20/31) de sentido equivocado",
+          "t": "2026-10-14T10:39:09Z"
         }
       }
     },
