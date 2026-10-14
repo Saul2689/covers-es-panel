@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T15:23:35Z",
+  "generado": "2026-10-14T15:28:53Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -7710,10 +7710,10 @@
       "originalTrackId": "",
       "titulo": "Alejate De Mi",
       "artista": "Camila",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: ver reviews/6aa4f6ce42b8d1fdb0c39c18.md (8 arreglos: ancla a tiempo, ya no, quieres, correr, to+to, quien, L34, WI.word)",
-      "actualizado": "2026-10-14T15:16:30Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T15:28:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8509,10 +8509,10 @@
       "originalTrackId": "",
       "titulo": "Otro Dia Que Va",
       "artista": "RBD",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T15:23:29Z",
+      "motivo": "QC1 VERDE",
+      "actualizado": "2026-10-14T15:27:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8539,7 +8539,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:08:10Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC1 VERDE",
+            "t": "2026-10-14T15:27:08Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC1 VERDE",
+          "t": "2026-10-14T15:27:08Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T15:27:10Z"
         }
       }
     },
