@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:48:15Z",
+  "generado": "2026-10-14T11:50:27Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -22753,10 +22753,10 @@
       "originalTrackId": "",
       "titulo": "Concavo Y Convexo",
       "artista": "Roberto Carlos",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T11:47:19Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T11:50:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -22785,15 +22785,21 @@
             "t": "2026-10-07T08:45:11Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "estructura y timing OK; ingles: l9 hace/falta WIT parten el PIT, l16 curvas en singular; l12 va infinitivo",
-            "t": "2026-10-14T11:46:18Z"
+            "v": "ok",
+            "nota": "r2: 4 WITs de r1 corregidos en el borrador (L9 w2/w3, L12 w4, L16 w2), BAD 0, estructura/gemelas/ingles OK, pending_review",
+            "t": "2026-10-14T11:50:11Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "estructura y timing OK; ingles: l9 hace/falta WIT parten el PIT, l16 curvas en singular; l12 va infinitivo",
-          "t": "2026-10-14T11:46:18Z"
+          "v": "VERDE",
+          "resumen": "r2: 4 WITs de r1 corregidos en el borrador (L9 w2/w3, L12 w4, L16 w2), BAD 0, estructura/gemelas/ingles OK, pending_review",
+          "t": "2026-10-14T11:50:11Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:50:12Z"
         }
       }
     },
