@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T14:43:17Z",
+  "generado": "2026-10-14T14:49:27Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5188,8 +5188,8 @@
       "artista": "Chayanne",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:05:17Z",
+      "motivo": "pre-QC hecho, en QC r1",
+      "actualizado": "2026-10-14T14:49:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5228,8 +5228,8 @@
       "artista": "Bad Bunny",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:06:16Z",
+      "motivo": "pre-QC hecho, en QC r1",
+      "actualizado": "2026-10-14T14:49:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5422,8 +5422,8 @@
       "artista": "Alejandro Fernández",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:06:17Z",
+      "motivo": "pre-QC hecho, en QC r1",
+      "actualizado": "2026-10-14T14:49:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -7255,8 +7255,8 @@
       "artista": "Los Angeles Azules",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:06:17Z",
+      "motivo": "pre-QC hecho, en QC r1",
+      "actualizado": "2026-10-14T14:49:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -7295,8 +7295,8 @@
       "artista": "Fey",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:06:27Z",
+      "motivo": "pre-QC hecho, en QC r1",
+      "actualizado": "2026-10-14T14:49:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31383,10 +31383,10 @@
       "originalTrackId": "",
       "titulo": "Si He Sabido Amor",
       "artista": "Alejandro Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T14:42:54Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T14:46:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31415,15 +31415,21 @@
             "t": "2026-10-07T08:55:18Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: falta ancla ir a en L30/L54, tengo/de de sentido erroneo en L32/L56, WIT de hablar en L16",
-            "t": "2026-10-14T14:41:32Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-14T14:46:11Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: falta ancla ir a en L30/L54, tengo/de de sentido erroneo en L32/L56, WIT de hablar en L16",
-          "t": "2026-10-14T14:41:32Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-14T14:46:11Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T14:46:13Z"
         }
       }
     },
@@ -31604,10 +31610,10 @@
       "originalTrackId": "",
       "titulo": "Amar Sin Ser Amada",
       "artista": "Thalia",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T14:41:18Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "faltan frases volver a (l10/36/54, 13/39/57), al fin (25/51/69), tener que (1); WIT a=again l10/36/54; ser/recibir a gerundio (11,15,23,30,37,41,49,55,59,67)",
+      "actualizado": "2026-10-14T14:47:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31634,7 +31640,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:55:41Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: faltan PIT volver a / al fin / tener que, WIT 'again' en la a de volver a, 'to be'/'to receive' vs gerundio",
+            "t": "2026-10-14T14:47:26Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: faltan PIT volver a / al fin / tener que, WIT 'again' en la a de volver a, 'to be'/'to receive' vs gerundio",
+          "t": "2026-10-14T14:47:26Z"
         }
       }
     },
@@ -31644,10 +31660,10 @@
       "originalTrackId": "",
       "titulo": "Vestida De Blanco",
       "artista": "Rocio Durcal",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T14:41:22Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "L34 w1 WIT anymore -> now, w2 WIT don't -> not (reabrir draft de ingles y reenviar a pending_review)",
+      "actualizado": "2026-10-14T14:47:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31674,7 +31690,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:55:42Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1 DEVUELTO: L34 w1 y w2 WIT con sentido de frase / sin do-support (2 WITs en ingles)",
+            "t": "2026-10-14T14:47:13Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1 DEVUELTO: L34 w1 y w2 WIT con sentido de frase / sin do-support (2 WITs en ingles)",
+          "t": "2026-10-14T14:47:13Z"
         }
       }
     },
@@ -31776,9 +31802,9 @@
       "titulo": "Tragos Amargos",
       "artista": "Ramon Ayala",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T14:41:23Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T14:49:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31805,7 +31831,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:55:42Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: falta ancla 'ponerse a' en lineas 15 y 25 (palabras 3-5) y WIT 'I get' de pongo cambia el sentido",
+            "t": "2026-10-14T14:45:48Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: falta ancla 'ponerse a' en lineas 15 y 25 (palabras 3-5) y WIT 'I get' de pongo cambia el sentido",
+          "t": "2026-10-14T14:45:48Z"
         }
       }
     },
@@ -31855,10 +31891,10 @@
       "originalTrackId": "",
       "titulo": "Olvidame",
       "artista": "Motel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, en QC r1",
-      "actualizado": "2026-10-14T14:41:24Z",
+      "motivo": "QC1 VERDE",
+      "actualizado": "2026-10-14T14:48:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31885,7 +31921,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:55:43Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC1 VERDE",
+            "t": "2026-10-14T14:48:43Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC1 VERDE",
+          "t": "2026-10-14T14:48:43Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T14:48:45Z"
         }
       }
     },
