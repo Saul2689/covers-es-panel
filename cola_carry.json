@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T13:13:17Z",
+  "generado": "2026-10-14T13:15:33Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -26926,10 +26926,10 @@
       "originalTrackId": "",
       "titulo": "Payaso",
       "artista": "Javier Solis",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "L6 idx4 restaurar 'el' y anclar idx3 al item cruzó; quitar/corregir PI 'mi corazón' L23 y L35; reabrir inglés y reenviar",
-      "actualizado": "2026-10-14T13:11:46Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T13:14:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27016,10 +27016,10 @@
       "originalTrackId": "",
       "titulo": "Egoismo",
       "artista": "Julio Miranda",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:50:34Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1: WIT hay que L17/24/43/50; to duplicado L16/23/42/49; word de ancla obsoleta L4/10/30/36/38; tilde de verbo L16/23/42/49",
+      "actualizado": "2026-10-14T13:14:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27046,7 +27046,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:50:34Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "hay-que WITs con sentido de frase, to duplicado en vamos a hacer y me tocó, word de ancla obsoleta, tilde de verbo añadida",
+            "t": "2026-10-14T13:14:32Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "hay-que WITs con sentido de frase, to duplicado en vamos a hacer y me tocó, word de ancla obsoleta, tilde de verbo añadida",
+          "t": "2026-10-14T13:14:32Z"
         }
       }
     },
