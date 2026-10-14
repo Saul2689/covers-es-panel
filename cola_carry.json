@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T10:22:58Z",
+  "generado": "2026-10-14T10:26:19Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -18280,10 +18280,10 @@
       "originalTrackId": "",
       "titulo": "Celestial",
       "artista": "RBD",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC ronda 2 DEVUELTO: anclar 'volver a' (lineas 54, 55) y 'a tus pies' (linea 2), crear item es para formula de linea 15; ver review",
-      "actualizado": "2026-10-14T10:20:46Z",
+      "motivo": "corregida r2, lista para QC",
+      "actualizado": "2026-10-14T10:24:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18523,10 +18523,10 @@
       "originalTrackId": "",
       "titulo": "Corazon En La Maleta",
       "artista": "Luis Fonsi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, lista para QC",
-      "actualizado": "2026-10-14T10:20:13Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T10:24:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18555,15 +18555,21 @@
             "t": "2026-10-07T08:40:11Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "PIT con 'i' minuscula (L4/12/25/31/36), WIT de fragmento en L14/27/38 palabras 8-9, L32 palabra 1 tilde cambiada, L3 palabra 4 sentido del item",
-            "t": "2026-10-14T10:14:07Z"
+            "v": "ok",
+            "nota": "r2: PIT con I mayuscula, fragmentos L14/27/38, caramelo L3 palabra 4 corregidos; drift 0, wit_dt_audit BAD 0, ingles pending_review, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T10:24:32Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "PIT con 'i' minuscula (L4/12/25/31/36), WIT de fragmento en L14/27/38 palabras 8-9, L32 palabra 1 tilde cambiada, L3 palabra 4 sentido del item",
-          "t": "2026-10-14T10:14:07Z"
+          "v": "VERDE",
+          "resumen": "r2: PIT con I mayuscula, fragmentos L14/27/38, caramelo L3 palabra 4 corregidos; drift 0, wit_dt_audit BAD 0, ingles pending_review, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T10:24:32Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:24:33Z"
         }
       }
     },
@@ -18827,10 +18833,10 @@
       "originalTrackId": "",
       "titulo": "Sigue Sin Mi",
       "artista": "Marco Antonio Solís",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC ronda 1: L19/34 w1, L13/28 w11, L8/23 w4 (WIT) y L9/24 w8 (item de otro sentido)",
-      "actualizado": "2026-10-14T10:20:18Z",
+      "motivo": "QC ronda 2 VERDE, sin defectos",
+      "actualizado": "2026-10-14T10:26:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18859,15 +18865,21 @@
             "t": "2026-10-07T08:40:13Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 1: L19/34 w1 WIT repite PIT; L13/28 w11 WIT es del PIT; L8/23 w4 'God' en minuscula; L9/24 w8 item sigan de otro sentido",
-            "t": "2026-10-14T10:20:17Z"
+            "v": "ok",
+            "nota": "ronda 2: 4 defectos de r1 corregidos y verificados; BAD 0; pending_review; audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T10:26:05Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 1: L19/34 w1 WIT repite PIT; L13/28 w11 WIT es del PIT; L8/23 w4 'God' en minuscula; L9/24 w8 item sigan de otro sentido",
-          "t": "2026-10-14T10:20:17Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: 4 defectos de r1 corregidos y verificados; BAD 0; pending_review; audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T10:26:05Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T10:26:06Z"
         }
       }
     },
@@ -18888,10 +18900,10 @@
       "originalTrackId": "",
       "titulo": "Mujer Latina",
       "artista": "Thalia",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:40:14Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1: L52 w8/w9 WIT=PIT, L49 w7-10 frase sin anclar, L33 w5 sentido, L8/45/65 w4 mayuscula",
+      "actualizado": "2026-10-14T10:25:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18918,7 +18930,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:40:14Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "5 defectos: L52 w8/w9 WIT repite PIT, L49 w7-10 frase sin anclar, L33 w5 item de otro sentido, L8/45/65 w4 WIT en minuscula",
+            "t": "2026-10-14T10:25:31Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "5 defectos: L52 w8/w9 WIT repite PIT, L49 w7-10 frase sin anclar, L33 w5 item de otro sentido, L8/45/65 w4 WIT en minuscula",
+          "t": "2026-10-14T10:25:31Z"
         }
       }
     },
