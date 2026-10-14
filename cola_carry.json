@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:08:37Z",
+  "generado": "2026-10-14T11:09:55Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -20579,10 +20579,10 @@
       "originalTrackId": "",
       "titulo": "Como Me Haces Falta",
       "artista": "Ana Barbara",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC ronda 1: 5 defectos de WIT (L2 w3/w5, L8 w3, L14 w5, L19/L35 w1)",
-      "actualizado": "2026-10-14T11:07:57Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T11:09:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20681,10 +20681,10 @@
       "originalTrackId": "",
       "titulo": "Como Yo Te Ame",
       "artista": "Luis Miguel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:42:44Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC R1: anclas de frase mal en lineas 14,25,17,28; falta volver a en 15,26; EN lineas 17,28",
+      "actualizado": "2026-10-14T11:09:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20711,7 +20711,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:42:44Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: linea 14/25 por poco sentido erroneo; 17/28 lo que PIT y EN mal; 15/26 volver a sin anclar",
+            "t": "2026-10-14T11:09:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: linea 14/25 por poco sentido erroneo; 17/28 lo que PIT y EN mal; 15/26 volver a sin anclar",
+          "t": "2026-10-14T11:09:29Z"
         }
       }
     },
