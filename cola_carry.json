@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:43:16Z",
+  "generado": "2026-10-14T12:45:15Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -25434,10 +25434,10 @@
       "originalTrackId": "",
       "titulo": "Bonita Finca De Adobe",
       "artista": "Ramon Ayala",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T12:42:07Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T12:45:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25466,15 +25466,21 @@
             "t": "2026-10-07T08:47:42Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "linea 20 palabra 3: el LRC se cambio a pasado pero es subjuntivo tras 'no dejes que' de la linea 19; revertir token, remapear al item subjuntivo, WIT e ingles de la linea 20, reabrir y reenviar el borrador",
-            "t": "2026-10-14T12:37:54Z"
+            "v": "ok",
+            "nota": "r1 fixes verificados (l20 p3 sin tilde, subjuntivo, WIT y ingles l20), BAD 0, drift 0, pending_review",
+            "t": "2026-10-14T12:45:08Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "linea 20 palabra 3: el LRC se cambio a pasado pero es subjuntivo tras 'no dejes que' de la linea 19; revertir token, remapear al item subjuntivo, WIT e ingles de la linea 20, reabrir y reenviar el borrador",
-          "t": "2026-10-14T12:37:54Z"
+          "v": "VERDE",
+          "resumen": "r1 fixes verificados (l20 p3 sin tilde, subjuntivo, WIT y ingles l20), BAD 0, drift 0, pending_review",
+          "t": "2026-10-14T12:45:08Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T12:45:10Z"
         }
       }
     },
@@ -25584,10 +25590,10 @@
       "originalTrackId": "",
       "titulo": "Borracho Te Recuerdo",
       "artista": "Vicente Fernández",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: linea 14 palabra 4, WIT en presente donde la linea es pasado; reabrir draft, anadir DT y reenviar",
-      "actualizado": "2026-10-14T12:40:39Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T12:44:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25645,10 +25651,10 @@
       "originalTrackId": "",
       "titulo": "Lo Siento Mi Amor",
       "artista": "Lupita D'alessio",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC R1: WIT siempre=PIT L8/L31 w2 (usar always), seguirte L19/L42 w7 sentido seguir+gerundio, WI.word sin coma L15 w7, L18 w4/w7, L38 w7, L41 w4/w7; ver reviews/6aa6335972ca57eb1a99149e.md",
-      "actualizado": "2026-10-14T12:40:53Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T12:44:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
