@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:09:55Z",
+  "generado": "2026-10-14T11:13:30Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -20529,10 +20529,10 @@
       "originalTrackId": "",
       "titulo": "Te Solte La Rienda",
       "artista": "Jose Alfredo Jimenez",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "ronda 1: WIT voy/vas repiten PIT, falta ancla al fin, L3 EN, item rienda suelta",
-      "actualizado": "2026-10-14T11:04:54Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T11:10:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20681,10 +20681,10 @@
       "originalTrackId": "",
       "titulo": "Como Yo Te Ame",
       "artista": "Luis Miguel",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC R1: anclas de frase mal en lineas 14,25,17,28; falta volver a en 15,26; EN lineas 17,28",
-      "actualizado": "2026-10-14T11:09:30Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T11:11:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20866,10 +20866,10 @@
       "originalTrackId": "",
       "titulo": "Navidad Sin Ti",
       "artista": "los Bukis",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:43:10Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1: L28 w5 WIT repite PIT, item acabandose ejemplos mal, EN L22/44/50",
+      "actualizado": "2026-10-14T11:13:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20896,7 +20896,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:43:10Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "estructura, mapeo, ingles y wit_dt_audit OK; 3 defectos: L28 WIT de junto repite su PIT, ejemplos del item acabandose agramaticales, ingles L22/44/50 lee mal brindo en",
+            "t": "2026-10-14T11:13:02Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "estructura, mapeo, ingles y wit_dt_audit OK; 3 defectos: L28 WIT de junto repite su PIT, ejemplos del item acabandose agramaticales, ingles L22/44/50 lee mal brindo en",
+          "t": "2026-10-14T11:13:02Z"
         }
       }
     },
