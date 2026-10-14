@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:41:47Z",
+  "generado": "2026-10-14T11:44:38Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -22404,10 +22404,10 @@
       "originalTrackId": "",
       "titulo": "Besos De Ceniza",
       "artista": "Timbiriche",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T11:40:56Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T11:44:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -22436,15 +22436,21 @@
             "t": "2026-10-07T08:44:21Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT repite PIT en L3 w0 y L19/34/39 w2 (voy a, de repente); L23 w2 ancla a visto 1sg/vestir con participio ver disponible; resto verificado OK",
-            "t": "2026-10-14T11:38:37Z"
+            "v": "ok",
+            "nota": "r2: WIT L3 w1, L19/34/39 w3 y ancla L23 w3 corregidos; estructura, drift 0, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T11:44:21Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT repite PIT en L3 w0 y L19/34/39 w2 (voy a, de repente); L23 w2 ancla a visto 1sg/vestir con participio ver disponible; resto verificado OK",
-          "t": "2026-10-14T11:38:37Z"
+          "v": "VERDE",
+          "resumen": "r2: WIT L3 w1, L19/34/39 w3 y ancla L23 w3 corregidos; estructura, drift 0, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T11:44:21Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:44:25Z"
         }
       }
     },
