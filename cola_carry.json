@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:19:29Z",
+  "generado": "2026-10-14T12:20:05Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24475,10 +24475,10 @@
       "originalTrackId": "",
       "titulo": "Evidencias",
       "artista": "Ana Gabriel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:47:35Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1 DEVUELTO, ver reviews/6aa5254842b8d1fdb0c7b3d6.md: L5 w5 que->qué (WI ..bd338 -> qué item 6a11dbc8c9740e1ba06ee379); L5/L10 w6 va WIT==PIT -> DT 6a6384fcacceb8f6a8813d87; borrar PI mi corazón literal L3 w6-7, L14 w5-6, L28 w5-6; PI por ti L8 w9-10 + WIT about; WITs a DT propio: L13/L27 w2 why, L10 w4 God, L16/L30 w9 desire, L16/L30 w3 more, L2 w6 any more, L9 w4 of, L6 w10 later, L7 w2 to say, L7 w10-11 refuse, L39/L45 w2 true; re-traducir línea L6 y cola L7; reabrir borrador EN y volver a pending_review",
+      "actualizado": "2026-10-14T12:19:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24505,7 +24505,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:47:35Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "English draft needs fixes: L5 w5 que->qué; va-a WIT==PIT L5/L10 w6; mi-corazon PI literal L3/L14/L28; por-ti PI L8; wrong-gloss WITs L2,6,7,9,10,13,16,27,30; L6 line English; L39/45 w2",
+            "t": "2026-10-14T12:19:47Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "English draft needs fixes: L5 w5 que->qué; va-a WIT==PIT L5/L10 w6; mi-corazon PI literal L3/L14/L28; por-ti PI L8; wrong-gloss WITs L2,6,7,9,10,13,16,27,30; L6 line English; L39/45 w2",
+          "t": "2026-10-14T12:19:47Z"
         }
       }
     },
