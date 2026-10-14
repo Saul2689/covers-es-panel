@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:56:01Z",
+  "generado": "2026-10-14T11:57:40Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -22888,10 +22888,10 @@
       "originalTrackId": "",
       "titulo": "Asi Te Quiero",
       "artista": "Joan Sebastian",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T11:54:59Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T11:57:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -22920,15 +22920,21 @@
             "t": "2026-10-07T08:45:12Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "R1: 10 palabras MANUAL wit_pit (9 quiero en 'te quiero' + L15 w2) y PIT 'lo primero' sentido erroneo en L7/L20/L32; resto OK (estructura, drift 0, BAD 0, pending_review)",
-            "t": "2026-10-14T11:53:29Z"
+            "v": "ok",
+            "nota": "r2: quiero/love x9, despues, lo primero PIT+WIT corregidos; BAD 0, pending_review, estructura ok",
+            "t": "2026-10-14T11:57:22Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "R1: 10 palabras MANUAL wit_pit (9 quiero en 'te quiero' + L15 w2) y PIT 'lo primero' sentido erroneo en L7/L20/L32; resto OK (estructura, drift 0, BAD 0, pending_review)",
-          "t": "2026-10-14T11:53:29Z"
+          "v": "VERDE",
+          "resumen": "r2: quiero/love x9, despues, lo primero PIT+WIT corregidos; BAD 0, pending_review, estructura ok",
+          "t": "2026-10-14T11:57:22Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:57:24Z"
         }
       }
     },
