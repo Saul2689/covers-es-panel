@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T13:15:33Z",
+  "generado": "2026-10-14T13:17:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -26825,10 +26825,10 @@
       "originalTrackId": "",
       "titulo": "La Cima Del Cielo",
       "artista": "Ricardo Montaner",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T13:13:15Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T13:15:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26857,15 +26857,21 @@
             "t": "2026-10-07T08:50:00Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "PI a medio L24 sentido erroneo; WI.word sin tilde L25 w3/w5; WIT duplicados L16/36 w2-3 y L13/33 w1-2; rozo primario en minuscula",
-            "t": "2026-10-14T13:09:27Z"
+            "v": "ok",
+            "nota": "QC2",
+            "t": "2026-10-14T13:15:50Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "PI a medio L24 sentido erroneo; WI.word sin tilde L25 w3/w5; WIT duplicados L16/36 w2-3 y L13/33 w1-2; rozo primario en minuscula",
-          "t": "2026-10-14T13:09:27Z"
+          "v": "VERDE",
+          "resumen": "QC2",
+          "t": "2026-10-14T13:15:50Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T13:15:53Z"
         }
       }
     },
@@ -26926,10 +26932,10 @@
       "originalTrackId": "",
       "titulo": "Payaso",
       "artista": "Javier Solis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-14T13:14:58Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-14T13:17:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26958,15 +26964,21 @@
             "t": "2026-10-07T08:50:01Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L6 palabra cubierta reemplazada (el->cruzo-cruzó) y ancla cruzo mal; PI 'mi corazón' con sentido 'my love' en L23/L35",
-            "t": "2026-10-14T13:11:44Z"
+            "v": "ok",
+            "nota": "QC2",
+            "t": "2026-10-14T13:17:24Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L6 palabra cubierta reemplazada (el->cruzo-cruzó) y ancla cruzo mal; PI 'mi corazón' con sentido 'my love' en L23/L35",
-          "t": "2026-10-14T13:11:44Z"
+          "v": "VERDE",
+          "resumen": "QC2",
+          "t": "2026-10-14T13:17:24Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T13:17:28Z"
         }
       }
     },
@@ -27158,9 +27170,9 @@
       "titulo": "Celos",
       "artista": "Daniela Romo",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:50:35Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T13:17:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27187,7 +27199,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:50:35Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "mi posesivo mapeado a item de apelativo (l14,l32 w2); pronombre doblado en WIT (l8,l26 w2; l16,l34 w3); l23 w3 miro/a doblado; WIT 'again' en mas dentro de nunca mas (l17,l18,l35,l36)",
+            "t": "2026-10-14T13:15:41Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "mi posesivo mapeado a item de apelativo (l14,l32 w2); pronombre doblado en WIT (l8,l26 w2; l16,l34 w3); l23 w3 miro/a doblado; WIT 'again' en mas dentro de nunca mas (l17,l18,l35,l36)",
+          "t": "2026-10-14T13:15:41Z"
         }
       }
     },
@@ -27197,10 +27219,10 @@
       "originalTrackId": "",
       "titulo": "Ironia",
       "artista": "Mana",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:50:56Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "ingles: WIT repite PIT/duplicados L6 L13 L17 L19 L24 L32 L33 L40 L44 L53 L59; ver reviews",
+      "actualizado": "2026-10-14T13:17:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27227,7 +27249,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:50:55Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT repite PIT (L6 w4, L19 w3, L24 w3, L59 w3) y to/I/with duplicados (L6 w6, L13/L40 w3, L44 w3-4, L53 w1), PI es que sin anclar L32, vocativo L33 w3, L17 w1",
+            "t": "2026-10-14T13:17:03Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT repite PIT (L6 w4, L19 w3, L24 w3, L59 w3) y to/I/with duplicados (L6 w6, L13/L40 w3, L44 w3-4, L53 w1), PI es que sin anclar L32, vocativo L33 w3, L17 w1",
+          "t": "2026-10-14T13:17:03Z"
         }
       }
     },
