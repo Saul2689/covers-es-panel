@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T09:36:01Z",
+  "generado": "2026-10-14T09:46:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -10227,9 +10227,9 @@
       "titulo": "Angelito",
       "artista": "Don Omar",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "ingles enviado, lista para QC",
-      "actualizado": "2026-10-14T09:35:20Z",
+      "vueltas": 1,
+      "motivo": "corregida r1, lista para QC",
+      "actualizado": "2026-10-14T09:45:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10253,10 +10253,20 @@
             "t": "2026-10-06T17:09:02Z"
           },
           "ingles": {
+            "v": "ok",
+            "nota": "borrador en pending_review (14 oct)",
+            "t": "2026-10-14T09:41:53Z"
+          },
+          "qc": {
             "v": "falta",
-            "nota": "plan de ingles listo en es_map/payloads/<id>/en_plan.json (79 lineas, 390 WIT con DT del propio item, 1 PIT); falta abrir borrador (start_draft no autorizado a este worker)",
-            "t": "2026-10-06T17:10:50Z"
+            "nota": "marque L17/L30/L66 tok 1 apunta a item de llamar, el sentido es marcar: item nuevo + remap + WIT en draft",
+            "t": "2026-10-14T09:42:42Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "marque L17/L30/L66 tok 1 apunta a item de llamar, el sentido es marcar: item nuevo + remap + WIT en draft",
+          "t": "2026-10-14T09:42:42Z"
         }
       }
     },
@@ -10277,10 +10287,10 @@
       "originalTrackId": "",
       "titulo": "A Donde Vayas",
       "artista": "Marco Antonio Solis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "ingles enviado, lista para QC",
-      "actualizado": "2026-10-14T09:35:20Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T09:40:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10304,10 +10314,26 @@
             "t": "2026-10-06T17:14:12Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "preparado en en_plan.json (36 lineas, 186 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T17:14:12Z"
+            "v": "ok",
+            "nota": "draft en pending_review, 36/36 lineas, WIT sin vacios, wit_dt_audit BAD 0",
+            "t": "2026-10-14T09:40:49Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles (draft pending_review), items nuevos y audio OK; solo ear-notes",
+            "t": "2026-10-14T09:40:42Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles (draft pending_review), items nuevos y audio OK; solo ear-notes",
+          "t": "2026-10-14T09:40:42Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T09:40:50Z"
         }
       }
     },
@@ -10446,10 +10472,10 @@
       "originalTrackId": "",
       "titulo": "Sale El Sol",
       "artista": "Shakira",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "ingles enviado, lista para QC",
-      "actualizado": "2026-10-14T09:35:21Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T09:45:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10473,10 +10499,26 @@
             "t": "2026-10-06T16:23:10Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan completo (40 lineas + 197 WIT con DT) en es_map/payloads/<id>/en_plan.json; falta abrir borrador",
-            "t": "2026-10-06T16:23:11Z"
+            "v": "ok",
+            "nota": "borrador en pending_review (14 oct)",
+            "t": "2026-10-14T09:41:53Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura ok, 205 anclas y 13 anclas de frase correctas, ingles 40/40 en pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T09:45:23Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura ok, 205 anclas y 13 anclas de frase correctas, ingles 40/40 en pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T09:45:23Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T09:45:24Z"
         }
       }
     },
@@ -10855,7 +10897,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "ingles enviado, lista para QC",
-      "actualizado": "2026-10-14T09:35:21Z",
+      "actualizado": "2026-10-14T09:41:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10879,9 +10921,9 @@
             "t": "2026-10-06T16:30:44Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "preparado en en_plan.json (55 lineas, 399 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T16:30:44Z"
+            "v": "ok",
+            "nota": "borrador en pending_review (14 oct)",
+            "t": "2026-10-14T09:41:53Z"
           }
         }
       }
@@ -11111,7 +11153,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "ingles enviado, lista para QC",
-      "actualizado": "2026-10-14T09:35:22Z",
+      "actualizado": "2026-10-14T09:41:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11135,9 +11177,9 @@
             "t": "2026-10-06T16:32:21Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json, falta abrir el borrador",
-            "t": "2026-10-06T16:32:22Z"
+            "v": "ok",
+            "nota": "borrador en pending_review (14 oct)",
+            "t": "2026-10-14T09:41:54Z"
           }
         }
       }
@@ -12355,10 +12397,10 @@
       "originalTrackId": "",
       "titulo": "Me Matas",
       "artista": "Rakim & Ken Y",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "ingles enviado, lista para QC",
-      "actualizado": "2026-10-14T09:28:23Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T09:45:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12382,10 +12424,26 @@
             "t": "2026-10-06T16:47:51Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (44 lineas, 301 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T16:47:52Z"
+            "v": "ok",
+            "nota": "borrador en pending_review (14 oct)",
+            "t": "2026-10-14T09:41:55Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r2: 3 fixes verificados, checklist completa sin defectos, ingles pending_review, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T09:45:12Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r2: 3 fixes verificados, checklist completa sin defectos, ingles pending_review, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T09:45:12Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T09:45:14Z"
         }
       }
     },
@@ -12909,7 +12967,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "ingles enviado, lista para QC",
-      "actualizado": "2026-10-14T09:35:22Z",
+      "actualizado": "2026-10-14T09:41:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12933,9 +12991,9 @@
             "t": "2026-10-06T17:21:56Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json; falta abrir el borrador (start_draft no permitido)",
-            "t": "2026-10-06T17:21:57Z"
+            "v": "ok",
+            "nota": "borrador en pending_review (14 oct)",
+            "t": "2026-10-14T09:41:54Z"
           }
         }
       }
@@ -16714,10 +16772,10 @@
       "originalTrackId": "",
       "titulo": "Cuando Nadie Me Ve",
       "artista": "Alejandro Sanz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1 por script, lista para QC",
-      "actualizado": "2026-10-14T09:33:02Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T09:36:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16746,15 +16804,21 @@
             "t": "2026-10-07T08:37:14Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "3 defectos: frase 'mi vida' mal anclada en l36; WIT de palabra repite el significado de la frase en l6 (vida) y en los 6 'por qué'; resto OK",
-            "t": "2026-10-14T09:31:44Z"
+            "v": "ok",
+            "nota": "r2: arreglos r1 verificados (PI mi vida, vida=life, 6 por=for); estructura, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T09:36:23Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "3 defectos: frase 'mi vida' mal anclada en l36; WIT de palabra repite el significado de la frase en l6 (vida) y en los 6 'por qué'; resto OK",
-          "t": "2026-10-14T09:31:44Z"
+          "v": "VERDE",
+          "resumen": "r2: arreglos r1 verificados (PI mi vida, vida=life, 6 por=for); estructura, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T09:36:23Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T09:36:24Z"
         }
       }
     },
@@ -17237,10 +17301,10 @@
       "originalTrackId": "",
       "titulo": "Pelo Suelto",
       "artista": "Gloria Trevi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1 por script, lista para QC",
-      "actualizado": "2026-10-14T09:34:50Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T09:40:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17269,15 +17333,21 @@
             "t": "2026-10-07T08:37:54Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 anclas de frase con sentido equivocado (L2, L7 'lo que sea'); L45 WIT de palabra repite el significado de la frase; reabrir borrador ingles",
-            "t": "2026-10-14T09:33:57Z"
+            "v": "ok",
+            "nota": "ronda 2: PIs de 'lo que sea' borrados, WIT L45 corregido, mapeo, ingles pending_review y audio OK",
+            "t": "2026-10-14T09:40:33Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 anclas de frase con sentido equivocado (L2, L7 'lo que sea'); L45 WIT de palabra repite el significado de la frase; reabrir borrador ingles",
-          "t": "2026-10-14T09:33:57Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: PIs de 'lo que sea' borrados, WIT L45 corregido, mapeo, ingles pending_review y audio OK",
+          "t": "2026-10-14T09:40:33Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T09:40:34Z"
         }
       }
     },
@@ -17287,10 +17357,10 @@
       "originalTrackId": "",
       "titulo": "Te Voy A Perder",
       "artista": "Alejandro Fernández",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:37:55Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC devuelto: L8 tok4 y L30 tok2 WIT repite locucion; L29 tok6 visto a participio; L26/50/56 tok2 cuanto sin mapear; reabrir ingles y reenviar",
+      "actualizado": "2026-10-14T09:43:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17317,7 +17387,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:37:55Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L8 tok4 y L30 tok2: WIT repite el significado de la locucion; L29 tok6 visto a participio c1462; L26/50/56 tok2 cuanto sin mapear",
+            "t": "2026-10-14T09:43:44Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L8 tok4 y L30 tok2: WIT repite el significado de la locucion; L29 tok6 visto a participio c1462; L26/50/56 tok2 cuanto sin mapear",
+          "t": "2026-10-14T09:43:44Z"
         }
       }
     },
