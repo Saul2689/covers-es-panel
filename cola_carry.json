@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T09:14:38Z",
+  "generado": "2026-10-14T09:26:57Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -16142,10 +16142,10 @@
       "originalTrackId": "",
       "titulo": "Lo Hare Por Ti",
       "artista": "Paulina Rubio",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1 por script, lista para QC",
-      "actualizado": "2026-10-14T09:14:31Z",
+      "estado": "hecha",
+      "vueltas": 2,
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T09:26:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16174,15 +16174,21 @@
             "t": "2026-10-07T08:36:29Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "linea 1 palabras 1-2: ancla de frase 'mira que' con PIT de reproche que no encaja con el sentido de la linea; resto OK",
-            "t": "2026-10-14T09:13:52Z"
+            "v": "ok",
+            "nota": "r3: fixes r2 verificados (L5 w2, L37 w6), wit_dt_audit BAD 0, 0 WIT vacios, 22 anclas es OK, ingles pending_review, guard SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T09:26:05Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "linea 1 palabras 1-2: ancla de frase 'mira que' con PIT de reproche que no encaja con el sentido de la linea; resto OK",
-          "t": "2026-10-14T09:13:52Z"
+          "v": "VERDE",
+          "resumen": "r3: fixes r2 verificados (L5 w2, L37 w6), wit_dt_audit BAD 0, 0 WIT vacios, 22 anclas es OK, ingles pending_review, guard SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T09:26:05Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T09:26:06Z"
         }
       }
     },
@@ -16500,9 +16506,9 @@
       "titulo": "El Hijo Desobediente",
       "artista": "Antonio Aguilar",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:36:31Z",
+      "vueltas": 1,
+      "motivo": "corregida r1, lista para QC",
+      "actualizado": "2026-10-14T09:19:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16529,7 +16535,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:36:30Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "1 anchor with wrong sense (line 17 word 4, reflexive item for transitive entrust); rest verified",
+            "t": "2026-10-14T09:16:43Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "1 anchor with wrong sense (line 17 word 4, reflexive item for transitive entrust); rest verified",
+          "t": "2026-10-14T09:16:43Z"
         }
       }
     },
@@ -16743,10 +16759,10 @@
       "originalTrackId": "",
       "titulo": "Una Lagrima No Basta",
       "artista": "los Temerarios",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:37:15Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T09:26:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16773,7 +16789,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:37:15Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r2: remaps de vida y siempre verificados, ingles resubmitido en pending_review, wit_dt_audit BAD 0, 0 anclas malas, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T09:26:14Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r2: remaps de vida y siempre verificados, ingles resubmitido en pending_review, wit_dt_audit BAD 0, 0 anclas malas, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T09:26:14Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T09:26:16Z"
         }
       }
     },
@@ -16835,9 +16867,9 @@
       "titulo": "Al Diablo Lo Nuestro",
       "artista": "Espinoza Paz",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:37:16Z",
+      "vueltas": 1,
+      "motivo": "corregida r1, lista para QC",
+      "actualizado": "2026-10-14T09:25:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16864,7 +16896,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:37:16Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT que repite el significado de la frase: por (que), demas, hace, al/menos; falta como verbo en hacer falta",
+            "t": "2026-10-14T09:18:22Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT que repite el significado de la frase: por (que), demas, hace, al/menos; falta como verbo en hacer falta",
+          "t": "2026-10-14T09:18:22Z"
         }
       }
     },
@@ -16954,10 +16996,10 @@
       "originalTrackId": "",
       "titulo": "Con El Viento A Tu Favor",
       "artista": "Camilo Sesto",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:37:17Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-14T09:25:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16984,7 +17026,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:37:17Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ronda 2: 9 PI erroneos borrados, 4 anclas es correctas con PIT, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T09:25:50Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "ronda 2: 9 PI erroneos borrados, 4 anclas es correctas con PIT, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T09:25:50Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T09:25:51Z"
         }
       }
     },
@@ -34969,10 +35027,10 @@
       "originalTrackId": "",
       "titulo": "Ahora Decide",
       "artista": "Pimpinela",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T01:59:27Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T09:15:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -34996,9 +35054,9 @@
             "t": "2026-10-07T01:59:26Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (50 lineas, 345 WIT); falta abrir el borrador",
-            "t": "2026-10-07T01:59:27Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T09:15:09Z"
           }
         }
       }
@@ -35009,10 +35067,10 @@
       "originalTrackId": "",
       "titulo": "La Caderona",
       "artista": "Cabas",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T01:58:43Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T09:15:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35036,9 +35094,9 @@
             "t": "2026-10-07T01:58:33Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (50 lineas + 230 WIT); falta abrir el borrador",
-            "t": "2026-10-07T01:58:42Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T09:15:10Z"
           }
         }
       }
@@ -35173,10 +35231,10 @@
       "originalTrackId": "",
       "titulo": "Hombres Malvados",
       "artista": "Paquita la Del Barrio",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T02:04:39Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T09:15:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35200,9 +35258,9 @@
             "t": "2026-10-07T02:04:38Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (35 lineas, 185 WIT, 3 PIT); falta abrir el borrador",
-            "t": "2026-10-07T02:04:39Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T09:15:11Z"
           }
         }
       }
@@ -35373,10 +35431,10 @@
       "originalTrackId": "",
       "titulo": "Perdoname Olvidalo",
       "artista": "Rocio Durcal",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T02:05:28Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T09:15:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35400,9 +35458,9 @@
             "t": "2026-10-07T02:04:05Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (40 lineas, 150 WIT con DT, 4 PIT); falta abrir el borrador",
-            "t": "2026-10-07T02:04:22Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T09:15:12Z"
           }
         }
       }
@@ -35544,10 +35602,10 @@
       "originalTrackId": "",
       "titulo": "Donde Estas Yolanda",
       "artista": "la Sonora Santanera",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T02:09:40Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T09:15:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35571,9 +35629,9 @@
             "t": "2026-10-07T02:09:39Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (59 lineas, 198 WIT); falta abrir el borrador",
-            "t": "2026-10-07T02:09:39Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T09:15:32Z"
           }
         }
       }
@@ -35584,10 +35642,10 @@
       "originalTrackId": "",
       "titulo": "Escondite Ingles",
       "artista": "Shakira",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T02:10:42Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T09:15:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35611,9 +35669,9 @@
             "t": "2026-10-07T02:10:41Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
-            "t": "2026-10-07T02:10:42Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T09:15:48Z"
           }
         }
       }
@@ -35675,10 +35733,10 @@
       "originalTrackId": "",
       "titulo": "Un Beso Y Una Flor",
       "artista": "Los Hermanos Rosario",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T02:09:22Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T09:16:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35702,9 +35760,9 @@
             "t": "2026-10-07T02:09:21Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (46 lineas, 285 WIT, 7 PIT); falta abrir el borrador",
-            "t": "2026-10-07T02:09:21Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T09:16:09Z"
           }
         }
       }
@@ -35726,10 +35784,10 @@
       "originalTrackId": "",
       "titulo": "Manantial De Llanto",
       "artista": "Joan Sebastian",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T02:14:55Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T09:16:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35753,9 +35811,9 @@
             "t": "2026-10-07T02:14:54Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (39 lineas, 233 WIT), falta abrir el borrador",
-            "t": "2026-10-07T02:14:55Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T09:16:10Z"
           }
         }
       }
@@ -36119,10 +36177,10 @@
       "originalTrackId": "",
       "titulo": "Solo Por Ti",
       "artista": "Soraya",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T02:18:13Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T09:16:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36146,9 +36204,9 @@
             "t": "2026-10-07T02:18:13Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (42 lineas, 267 WIT); falta abrir el borrador",
-            "t": "2026-10-07T02:18:13Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T09:16:46Z"
           }
         }
       }
@@ -37416,10 +37474,10 @@
       "originalTrackId": "",
       "titulo": "Si Me Llevas Contigo",
       "artista": "Gloria Trevi",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T02:42:10Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-14T09:16:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37443,9 +37501,9 @@
             "t": "2026-10-07T02:42:09Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (41 lineas, 198 WIT, 11 PIT); falta abrir el borrador",
-            "t": "2026-10-07T02:42:10Z"
+            "v": "ok",
+            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
+            "t": "2026-10-14T09:16:47Z"
           }
         }
       }
