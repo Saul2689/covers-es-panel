@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T11:06:36Z",
+  "generado": "2026-10-14T11:08:27Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -20377,10 +20377,10 @@
       "originalTrackId": "",
       "titulo": "Al Fin Me Arme De Valor",
       "artista": "Reyli",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "corregida r2, lista para QC r3",
-      "actualizado": "2026-10-14T11:05:36Z",
+      "motivo": "QC r3 VERDE; audio SUENA_SIN_BLINDAR; ingles pending_review",
+      "actualizado": "2026-10-14T11:08:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20409,15 +20409,21 @@
             "t": "2026-10-07T08:42:16Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r2: WIT 'fin' repite casi el PIT 'al fin' en L20/42/59 w2; resto OK (BAD 0, drift 0, pending_review, SUENA_SIN_BLINDAR)",
-            "t": "2026-10-14T11:04:33Z"
+            "v": "ok",
+            "nota": "QC r3: defecto de la palabra 2 en lineas 20/42/59 resuelto; estructura, mapeo, ingles y wit_dt_audit BAD 0 correctos; audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-14T11:08:22Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r2: WIT 'fin' repite casi el PIT 'al fin' en L20/42/59 w2; resto OK (BAD 0, drift 0, pending_review, SUENA_SIN_BLINDAR)",
-          "t": "2026-10-14T11:04:33Z"
+          "v": "VERDE",
+          "resumen": "QC r3: defecto de la palabra 2 en lineas 20/42/59 resuelto; estructura, mapeo, ingles y wit_dt_audit BAD 0 correctos; audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-14T11:08:22Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-14T11:08:23Z"
         }
       }
     },
@@ -20573,10 +20579,10 @@
       "originalTrackId": "",
       "titulo": "Como Me Haces Falta",
       "artista": "Ana Barbara",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:42:44Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC ronda 1: 5 defectos de WIT (L2 w3/w5, L8 w3, L14 w5, L19/L35 w1)",
+      "actualizado": "2026-10-14T11:07:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20603,7 +20609,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:42:43Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "5 WIT defects: voy a/ya no repeat PIT, hacen/hacer wrong sense, no=there's no",
+            "t": "2026-10-14T11:07:56Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "5 WIT defects: voy a/ya no repeat PIT, hacen/hacer wrong sense, no=there's no",
+          "t": "2026-10-14T11:07:56Z"
         }
       }
     },
