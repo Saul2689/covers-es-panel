@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T12:58:55Z",
+  "generado": "2026-10-14T13:00:25Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -26392,9 +26392,9 @@
       "titulo": "Mar Y Arena",
       "artista": "Ana Gabriel",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:49:10Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-14T13:00:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26421,7 +26421,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:49:09Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "EN draft: L16 w5 WIT==PIT (daily in bag); L4 PI no-se wrong sense (no se + inf); L14/L28 w1 WIT affection vs darling",
+            "t": "2026-10-14T12:59:12Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "EN draft: L16 w5 WIT==PIT (daily in bag); L4 PI no-se wrong sense (no se + inf); L14/L28 w1 WIT affection vs darling",
+          "t": "2026-10-14T12:59:12Z"
         }
       }
     },
@@ -26493,10 +26503,10 @@
       "originalTrackId": "",
       "titulo": "Que Me Vas A Dar",
       "artista": "Jenni Rivera",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:49:26Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "qué L24/L47 w2 (tilde+remap), WIT vas L24 w4/L48 w2, WI.word L30 w1; reopen EN draft",
+      "actualizado": "2026-10-14T13:00:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26523,7 +26533,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T08:49:26Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L24/L47 w2 interrogative que with conjunction item and no tilde; L24 w4 and L48 w2 WIT equals PIT (contraction); L30 w1 WI.word lacks comma",
+            "t": "2026-10-14T13:00:17Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L24/L47 w2 interrogative que with conjunction item and no tilde; L24 w4 and L48 w2 WIT equals PIT (contraction); L30 w1 WI.word lacks comma",
+          "t": "2026-10-14T13:00:17Z"
         }
       }
     },
