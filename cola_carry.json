@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T12:10:58Z",
+  "generado": "2026-10-15T12:12:38Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -20830,9 +20830,9 @@
       "titulo": "El Privilegio De Amar",
       "artista": "Lucero, Mijares",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T11:56:52Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T12:12:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20859,7 +20859,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:40:18Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: di a item PRET dar (hay IMP decir), te+you doble en 3 items nuevos, pena=worth, falta volver a y sobre todas las cosas, PIT L10 sin fila",
+            "t": "2026-10-15T12:10:59Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: di a item PRET dar (hay IMP decir), te+you doble en 3 items nuevos, pena=worth, falta volver a y sobre todas las cosas, PIT L10 sin fila",
+          "t": "2026-10-15T12:10:59Z"
         }
       }
     },
@@ -20919,10 +20929,10 @@
       "originalTrackId": "",
       "titulo": "Si Supieras",
       "artista": "Daddy Yankee, Wisin & Yandel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T11:56:53Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: PI darse cuenta L8/L53 w10-12; WIT Daddy L2 w1 y W L44 w5 en mayuscula",
+      "actualizado": "2026-10-15T12:12:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20949,7 +20959,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:41:28Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: faltan PI darse cuenta L8/L53 w10-12; WIT en minuscula nombre propio L2 w1 y letra W L44 w5",
+            "t": "2026-10-15T12:12:28Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: faltan PI darse cuenta L8/L53 w10-12; WIT en minuscula nombre propio L2 w1 y letra W L44 w5",
+          "t": "2026-10-15T12:12:28Z"
         }
       }
     },
