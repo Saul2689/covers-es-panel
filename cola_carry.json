@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:36:55Z",
+  "generado": "2026-10-15T13:42:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -26490,10 +26490,10 @@
       "originalTrackId": "",
       "titulo": "El Chubasco",
       "artista": "Carlos, Jose",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:35:14Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "nombre propio minuscula L11 w7 L12 w3 L23 w3 L24 w3; embarcar item figurado L13/14/25/26 w4 (item nuevo literal + WIT ingles); WI.word con coma L14 w9; ver reviews",
+      "actualizado": "2026-10-15T13:40:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26520,7 +26520,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:49:40Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: nombre propio en minuscula (L11,12,23,24), item de embarcar de sentido figurado (L13,14,25,26 w4), WI.word con coma obsoleta (L14 w9)",
+            "t": "2026-10-15T13:40:09Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: nombre propio en minuscula (L11,12,23,24), item de embarcar de sentido figurado (L13,14,25,26 w4), WI.word con coma obsoleta (L14 w9)",
+          "t": "2026-10-15T13:40:09Z"
         }
       }
     },
@@ -26609,9 +26619,9 @@
       "titulo": "Sunny",
       "artista": "Luis Miguel",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:35:14Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T13:42:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26638,7 +26648,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:49:44Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L7 w3-4 phrase anchor missing, WIT fixes L25 w1 and L35 w3",
+            "t": "2026-10-15T13:39:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L7 w3-4 phrase anchor missing, WIT fixes L25 w1 and L35 w3",
+          "t": "2026-10-15T13:39:29Z"
         }
       }
     },
@@ -26985,10 +27005,10 @@
       "originalTrackId": "",
       "titulo": "Disparo Al Corazon",
       "artista": "Ricky Martin",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:35:15Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "cara moneda item nuevo l7/l22; PI desde que l5/l20; PI a sangre fria l10/25/38; llegaste WIT arrived l5/l20; ver reviews",
+      "actualizado": "2026-10-15T13:39:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27015,7 +27035,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:51:49Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: cara (coin) en item de rostro; sin PI desde que (l5,l20) ni a sangre fria (l10,25,38); WIT doble sujeto l5/l20 w3",
+            "t": "2026-10-15T13:39:45Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: cara (coin) en item de rostro; sin PI desde que (l5,l20) ni a sangre fria (l10,25,38); WIT doble sujeto l5/l20 w3",
+          "t": "2026-10-15T13:39:45Z"
         }
       }
     },
