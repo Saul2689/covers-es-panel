@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T14:56:21Z",
+  "generado": "2026-10-15T14:59:48Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -30199,10 +30199,10 @@
       "originalTrackId": "",
       "titulo": "Aprovechalo",
       "artista": "Wisin Y Yandel",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: L18 w3 polla sense, Tainy/W caps WITs, L9 EN paren, L14 w5, L3/L52 plural WIT, L6 EN; see reviews",
-      "actualizado": "2026-10-15T14:55:15Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T14:57:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30380,10 +30380,10 @@
       "originalTrackId": "",
       "titulo": "Lo Que Te Di",
       "artista": "Marc Anthony",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: WIT tal L1/L15 a such; quitar PI como-no L35/L37; anadir PI dejar ir L14/L26/L31; re-upsert WI.word L12 w6, L14 w3, L28 w4; reenviar ingles",
-      "actualizado": "2026-10-15T14:56:08Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T14:59:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30601,9 +30601,9 @@
       "titulo": "Si Acaso Vuelves",
       "artista": "Vicente Fernandez",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T14:48:46Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T14:59:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30630,7 +30630,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:57:47Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: L7 w3 para wrong sense (recipient item exists); missing phrase anchors tener que L3 w1-2, olvidarse de L14/L23 w1-3",
+            "t": "2026-10-15T14:57:03Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: L7 w3 para wrong sense (recipient item exists); missing phrase anchors tener que L3 w1-2, olvidarse de L14/L23 w1-3",
+          "t": "2026-10-15T14:57:03Z"
         }
       }
     },
