@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T15:11:38Z",
+  "generado": "2026-10-15T15:17:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -30837,10 +30837,10 @@
       "originalTrackId": "",
       "titulo": "Esclavo Y Amo",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T15:11:36Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "ancla de frase L4 w5-6; PIT L1/L2; item L11/L20 w1; WI.word L7 w2 y L16 w4 (ver review)",
+      "actualizado": "2026-10-15T15:16:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30867,7 +30867,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:58:26Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: falta ancla de frase L4 w5-6, PIT L1/L2 sentido, item L11/L20 w1, WI.word L7 w2 y L16 w4",
+            "t": "2026-10-15T15:16:52Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: falta ancla de frase L4 w5-6, PIT L1/L2 sentido, item L11/L20 w1, WI.word L7 w2 y L16 w4",
+          "t": "2026-10-15T15:16:52Z"
         }
       }
     },
@@ -31185,10 +31195,10 @@
       "originalTrackId": "",
       "titulo": "En El Jardin",
       "artista": "Alejandro Fernandez, Gloria Estefan",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T15:11:36Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "R1: y plano L7/26/45 w1; To minuscula L16/35 w3; volver a L17/22/36/41 y a=to L23/42; ver review",
+      "actualizado": "2026-10-15T15:17:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31215,7 +31225,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:34:46Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: y sentido L7/26/45 w1, To mayuscula L16/35 w3, volver a sin ancla L17/22/36/41 + a=again",
+            "t": "2026-10-15T15:17:28Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: y sentido L7/26/45 w1, To mayuscula L16/35 w3, volver a sin ancla L17/22/36/41 + a=again",
+          "t": "2026-10-15T15:17:28Z"
         }
       }
     },
@@ -31226,9 +31246,9 @@
       "titulo": "Hay Un Cuento",
       "artista": "Floricienta",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T15:11:36Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T15:17:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31255,7 +31275,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:58:56Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: WIT va/modal+to l11; pierdas y contaban sentido erroneo (nuevo item); unificar flores/de l7-l8",
+            "t": "2026-10-15T15:15:17Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: WIT va/modal+to l11; pierdas y contaban sentido erroneo (nuevo item); unificar flores/de l7-l8",
+          "t": "2026-10-15T15:15:17Z"
         }
       }
     },
@@ -31349,10 +31379,10 @@
       "originalTrackId": "",
       "titulo": "Tu Eres",
       "artista": "Frankie Ruiz",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T15:11:37Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: borrar 5 PIs no se que (L18,38,46,53,68); L27 w4 nada WIT/ancla a nothing. Ver reviews/6aa5954d42b8d1fdb0d0b19f.md",
+      "actualizado": "2026-10-15T15:17:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31379,7 +31409,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:59:31Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 5 phrase insights no se que with wrong sense (L18,38,46,53,68); L27 w4 nada WIT not at all in nada mas",
+            "t": "2026-10-15T15:17:17Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 5 phrase insights no se que with wrong sense (L18,38,46,53,68); L27 w4 nada WIT not at all in nada mas",
+          "t": "2026-10-15T15:17:17Z"
         }
       }
     },
