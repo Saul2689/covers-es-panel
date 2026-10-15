@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T08:25:08Z",
+  "generado": "2026-10-15T08:27:43Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -10280,9 +10280,9 @@
       "titulo": "Te Lo Pido Por Favor",
       "artista": "Jaguares",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-14T16:09:50Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T08:27:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10309,7 +10309,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:14:09Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: PIT 'I love you' on line 2 words 2-3 contradicts WIT want / EN line; delete that PI",
+            "t": "2026-10-15T08:26:40Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: PIT 'I love you' on line 2 words 2-3 contradicts WIT want / EN line; delete that PI",
+          "t": "2026-10-15T08:26:40Z"
         }
       }
     },
@@ -10450,10 +10460,10 @@
       "originalTrackId": "",
       "titulo": "Peliculiando",
       "artista": "Fuerza Regida",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-14T16:09:51Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "frases de modismos, WIT duplicados L7/L26/L15, L16 w1, ingles L12/31, items phone y sali; ver reviews",
+      "actualizado": "2026-10-15T08:27:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10480,7 +10490,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:14:09Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: faltan frases (4 modismos), WIT duplicados L7/26 w7 y L15 w1, WIT L16 w1, ingles L12/31 vs WIT, items phone y sali",
+            "t": "2026-10-15T08:27:06Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: faltan frases (4 modismos), WIT duplicados L7/26 w7 y L15 w1, WIT L16 w1, ingles L12/31 vs WIT, items phone y sali",
+          "t": "2026-10-15T08:27:06Z"
         }
       }
     },
@@ -10597,10 +10617,10 @@
       "originalTrackId": "",
       "titulo": "Ay Amor",
       "artista": "Ana Gabriel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-14T16:09:53Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: L10/L23 mi amor (sentido), L13/26/30/34 frase no se que (sentido), ejemplos sin tildes en 7 items nuevos",
+      "actualizado": "2026-10-15T08:27:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10627,7 +10647,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:14:16Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 'mi amor' frase/ancla de apelativo donde la linea es posesivo (L10, L23); frase 'no se que' de sentido equivocado (L13, L26, L30, L34); ejemplos de items nuevos sin tildes",
+            "t": "2026-10-15T08:27:24Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 'mi amor' frase/ancla de apelativo donde la linea es posesivo (L10, L23); frase 'no se que' de sentido equivocado (L13, L26, L30, L34); ejemplos de items nuevos sin tildes",
+          "t": "2026-10-15T08:27:24Z"
         }
       }
     },
