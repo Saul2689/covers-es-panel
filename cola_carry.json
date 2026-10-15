@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T12:26:58Z",
+  "generado": "2026-10-15T12:29:51Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -21877,10 +21877,10 @@
       "originalTrackId": "",
       "titulo": "Se Quiere Se Mata",
       "artista": "Shakira",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: ver reviews/6ab2311fca8a8ee8c4470d01.md (habitante l16/32/39 w5, acabar con l25, se pasivo l19/42, WIT l9 w3, l11 w3, WI.word l12/14/28/30/35/37)",
-      "actualizado": "2026-10-15T12:25:39Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T12:29:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21927,10 +21927,10 @@
       "originalTrackId": "",
       "titulo": "Rata De Dos Patas",
       "artista": "Paquita la Del Barrio",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:21:16Z",
+      "motivo": "QC1 VERDE",
+      "actualizado": "2026-10-15T12:28:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21957,7 +21957,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:42:44Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC1 VERDE",
+            "t": "2026-10-15T12:28:51Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC1 VERDE",
+          "t": "2026-10-15T12:28:51Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T12:28:52Z"
         }
       }
     },
@@ -22157,10 +22173,10 @@
       "originalTrackId": "",
       "titulo": "La Hormiguita",
       "artista": "Juan Luis Guerra",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:21:17Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "anclar frases perder la cuenta (l21,22,38,39), ganas de (l24), crear/anclar romper el hielo (l11,28) y PIT en borrador",
+      "actualizado": "2026-10-15T12:28:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -22187,7 +22203,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:42:59Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: faltan anclas de locucion (perder la cuenta x4, ganas de, romper el hielo x2) y sus PIT en el borrador",
+            "t": "2026-10-15T12:28:21Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: faltan anclas de locucion (perder la cuenta x4, ganas de, romper el hielo x2) y sus PIT en el borrador",
+          "t": "2026-10-15T12:28:21Z"
         }
       }
     },
