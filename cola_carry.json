@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T08:32:05Z",
+  "generado": "2026-10-15T08:33:12Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -11099,9 +11099,9 @@
       "titulo": "Volver A Amar",
       "artista": "Cristian",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-14T16:09:53Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T08:33:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11128,7 +11128,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:18:45Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: falta anclar la locucion volver a + infinitivo (es 6ac5af17...) en lineas 13, 25, 29, 33, 37; resto OK",
+            "t": "2026-10-15T08:32:08Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: falta anclar la locucion volver a + infinitivo (es 6ac5af17...) en lineas 13, 25, 29, 33, 37; resto OK",
+          "t": "2026-10-15T08:32:08Z"
         }
       }
     },
