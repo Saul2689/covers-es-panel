@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:33:48Z",
+  "generado": "2026-10-15T13:34:45Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -25640,10 +25640,10 @@
       "originalTrackId": "",
       "titulo": "Cachito",
       "artista": "Maná",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T13:32:05Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T13:34:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25672,15 +25672,21 @@
             "t": "2026-10-14T08:49:02Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: tan+solo WIT doblado (L1/L10/L21), L11 w1 sin mapear ni inglés, falta ancla es que (L3), mayúscula L2 w5",
-            "t": "2026-10-15T13:25:19Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T13:34:18Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: tan+solo WIT doblado (L1/L10/L21), L11 w1 sin mapear ni inglés, falta ancla es que (L3), mayúscula L2 w5",
-          "t": "2026-10-15T13:25:19Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T13:34:18Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:34:19Z"
         }
       }
     },
@@ -26048,10 +26054,10 @@
       "originalTrackId": "",
       "titulo": "La Frase Tonta De La Semana",
       "artista": "la 5ª Estacion",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:18:47Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: WIT doblados L2 w2,L6 w2,L4 w1,L8 w1,L13 w7,L25 w6; anclas faltantes L5/L9 w7-8, L19 w6-8",
+      "actualizado": "2026-10-15T13:34:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26078,7 +26084,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:34:45Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: dobles negaciones/sujeto en WIT (L2,4,6,8,13,25), faltan anclas hacer falta (L5,L9) y a base de (L19)",
+            "t": "2026-10-15T13:34:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: dobles negaciones/sujeto en WIT (L2,4,6,8,13,25), faltan anclas hacer falta (L5,L9) y a base de (L19)",
+          "t": "2026-10-15T13:34:29Z"
         }
       }
     },
