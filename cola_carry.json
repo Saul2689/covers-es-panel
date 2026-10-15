@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:48:59Z",
+  "generado": "2026-10-15T13:51:50Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -26496,10 +26496,10 @@
       "originalTrackId": "",
       "titulo": "El Chubasco",
       "artista": "Carlos, Jose",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T13:45:54Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T13:50:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26528,15 +26528,21 @@
             "t": "2026-10-14T08:49:40Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: nombre propio en minuscula (L11,12,23,24), item de embarcar de sentido figurado (L13,14,25,26 w4), WI.word con coma obsoleta (L14 w9)",
-            "t": "2026-10-15T13:40:09Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T13:50:29Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: nombre propio en minuscula (L11,12,23,24), item de embarcar de sentido figurado (L13,14,25,26 w4), WI.word con coma obsoleta (L14 w9)",
-          "t": "2026-10-15T13:40:09Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T13:50:29Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:50:30Z"
         }
       }
     },
@@ -26814,10 +26820,10 @@
       "originalTrackId": "",
       "titulo": "Voy A Prometerme",
       "artista": "Victor Manuelle",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T13:47:45Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T13:49:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26841,20 +26847,26 @@
             "t": "2026-10-06T21:43:46Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan preparado en en_plan.json (64 lineas, 324 WIT, 6 PIT); falta abrir el borrador",
-            "t": "2026-10-06T21:43:46Z"
+            "v": "ok",
+            "nota": "borrador en pending_review (15 oct), QC2 verificado",
+            "t": "2026-10-15T13:49:58Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: phrase anchors (L2 en-tagged item, missing volver a x6 and a mi lado x2) and doubled I at L57/L60",
-            "t": "2026-10-15T13:42:49Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T13:49:53Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: phrase anchors (L2 en-tagged item, missing volver a x6 and a mi lado x2) and doubled I at L57/L60",
-          "t": "2026-10-15T13:42:49Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T13:49:53Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:49:59Z"
         }
       }
     },
@@ -27083,10 +27095,10 @@
       "originalTrackId": "",
       "titulo": "Yerbatero",
       "artista": "Juanes",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T13:48:59Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "L3 w5: quitar la coma sobrante del word del ancla (upsert)",
+      "actualizado": "2026-10-15T13:51:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27116,14 +27128,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "QC1: L9 w2 tilde de mas (el/él), unificar con L30 w2",
-            "t": "2026-10-15T13:46:50Z"
+            "nota": "QC2: r1 fixes OK; 1 defecto: L3 w5 ancla con coma sobrante en word",
+            "t": "2026-10-15T13:51:42Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "QC1: L9 w2 tilde de mas (el/él), unificar con L30 w2",
-          "t": "2026-10-15T13:46:50Z"
+          "resumen": "QC2: r1 fixes OK; 1 defecto: L3 w5 ancla con coma sobrante en word",
+          "t": "2026-10-15T13:51:42Z"
         }
       }
     },
@@ -27146,8 +27158,8 @@
       "artista": "El Simbolo",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:51:51Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T13:51:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27206,8 +27218,8 @@
       "artista": "Juanes",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:51:52Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T13:51:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27319,8 +27331,8 @@
       "artista": "Camilo Sesto",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:51:57Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T13:51:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27410,8 +27422,8 @@
       "artista": "Calle 13",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:53:08Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T13:51:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27462,8 +27474,8 @@
       "artista": "Pablo Montero",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:53:08Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T13:51:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
