@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T12:53:37Z",
+  "generado": "2026-10-15T12:53:57Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23951,10 +23951,10 @@
       "originalTrackId": "",
       "titulo": "Dejame Entrar",
       "artista": "Mana",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:45:47Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: let me|to enter (15 WIT), let|to dive in (8), deja item remap (8), L15 w3 doubled you",
+      "actualizado": "2026-10-15T12:53:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23981,7 +23981,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:45:05Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: modal+to (entrar/clavarme), deja wrong-sense item, L15 doubled subject",
+            "t": "2026-10-15T12:53:40Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: modal+to (entrar/clavarme), deja wrong-sense item, L15 doubled subject",
+          "t": "2026-10-15T12:53:40Z"
         }
       }
     },
