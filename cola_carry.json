@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T11:47:50Z",
+  "generado": "2026-10-15T11:49:36Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -19237,10 +19237,10 @@
       "originalTrackId": "",
       "titulo": "A Mis Enemigos",
       "artista": "Valentín Elizalde",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: L2 w4 bola, L18 w8 lo, L20 w6 a, L23 w4 pasada; detalle en reviews",
-      "actualizado": "2026-10-15T11:46:07Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T11:49:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19506,10 +19506,10 @@
       "originalTrackId": "",
       "titulo": "Amor",
       "artista": "Cristian",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: ya WIT anymore -> now (L20 w4, L23 w1, L40 w4, L48 w4); Y L5,8,28 w1 remap al item de conjuncion; ver reviews",
-      "actualizado": "2026-10-15T11:45:19Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T11:49:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19617,10 +19617,10 @@
       "originalTrackId": "",
       "titulo": "Directo Al Corazon",
       "artista": "los Tigres Del Norte",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T11:39:54Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: quitar PIT en eso L12/L29; unificar item de una en L9/13/26/30 w3",
+      "actualizado": "2026-10-15T11:48:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19647,7 +19647,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:37:41Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: PIT en eso con sentido equivocado (L12, L29); 'una' de 'de una vez' con dos items distintos (L9/13/26/30 w3)",
+            "t": "2026-10-15T11:48:59Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: PIT en eso con sentido equivocado (L12, L29); 'una' de 'de una vez' con dos items distintos (L9/13/26/30 w3)",
+          "t": "2026-10-15T11:48:59Z"
         }
       }
     },
