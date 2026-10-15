@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T12:57:58Z",
+  "generado": "2026-10-15T12:58:44Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23653,10 +23653,10 @@
       "originalTrackId": "",
       "titulo": "Bohemio De Aficion",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T12:54:58Z",
+      "motivo": "QC2 VERDE; nota de oido L28/L29 y primary convengo para Saul",
+      "actualizado": "2026-10-15T12:58:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23670,9 +23670,9 @@
             "t": "2026-10-06T21:00:24Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "drift 0; hueco de 22 s antes de la linea 29: el original repite una vez mas la linea 28 y la cover no la trae; sin evidencia en richsync, revisar de oido. Audio: guard SUENA_SIN_BLINDAR (timeline karaokeMp3, 206), no se mide ni se fija",
-            "t": "2026-10-06T21:00:25Z"
+            "v": "ok",
+            "nota": "drift 0, ningun tiempo movido. Duda de oido para Saul (no bloquea, regla 30 sep): hueco de ~22 s antes de la linea 29, donde el original repite la linea 28; sin evidencia en richsync, la cover manda. Audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-15T12:58:43Z"
           },
           "mapeo": {
             "v": "ok",
@@ -23685,17 +23685,24 @@
             "t": "2026-10-14T08:45:04Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: WIT doble really L6, WIT=PIT L20/41, PIT mi corazon sentido erroneo L19/40, primaria 'i suit'",
-            "t": "2026-10-15T12:53:30Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T12:58:01Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: WIT doble really L6, WIT=PIT L20/41, PIT mi corazon sentido erroneo L19/40, primaria 'i suit'",
-          "t": "2026-10-15T12:53:30Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T12:58:01Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T12:58:44Z"
         }
-      }
+      },
+      "motivo_en": "Waiting for Saul: ear check on the ~22 s gap before line 29 (does the cover sing line 28 again?); minor note: lowercase primary row on item convengo"
     },
     {
       "coverTrackId": "6aa6556872ca57eb1a9c36bb",
