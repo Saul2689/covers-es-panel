@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:07:42Z",
+  "generado": "2026-10-15T13:09:11Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24169,10 +24169,10 @@
       "originalTrackId": "",
       "titulo": "El Destino",
       "artista": "Juan Gabriel, Rocio Durcal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T13:06:32Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T13:09:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24201,15 +24201,21 @@
             "t": "2026-10-14T08:46:15Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: que=who on a day (L23/64), WIT=PIT diario (L60), cruzo past-tense item (L24/64), de infinitive-marker item (L30/67), vemos doubles nos + poco (L3), missing phrase anchors valer la pena (L29/66) and desde que (L4/39)",
-            "t": "2026-10-15T13:04:55Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T13:09:06Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: que=who on a day (L23/64), WIT=PIT diario (L60), cruzo past-tense item (L24/64), de infinitive-marker item (L30/67), vemos doubles nos + poco (L3), missing phrase anchors valer la pena (L29/66) and desde que (L4/39)",
-          "t": "2026-10-15T13:04:55Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T13:09:06Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:09:07Z"
         }
       }
     },
@@ -24230,10 +24236,10 @@
       "originalTrackId": "",
       "titulo": "Cirano",
       "artista": "Jose Jose",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:03:35Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: L9 w2 WIT=PIT; L8 w2-3 doubled into; L20/L36 w2-3 doesn't+knows; L26/L42 w3 doubled tell/say; reopen draft and resubmit",
+      "actualizado": "2026-10-15T13:07:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24260,7 +24266,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:46:16Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 4 WIT fixes (L9 PIT dup, L8 doubled into, L20/L36 doesn't+knows, L26/L42 doubled tell) + tidy primaries; rest OK",
+            "t": "2026-10-15T13:07:54Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 4 WIT fixes (L9 PIT dup, L8 doubled into, L20/L36 doesn't+knows, L26/L42 doubled tell) + tidy primaries; rest OK",
+          "t": "2026-10-15T13:07:54Z"
         }
       }
     },
@@ -24590,10 +24606,10 @@
       "originalTrackId": "",
       "titulo": "Esta Ausencia",
       "artista": "David Bisbal",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: L2 w2 WIT, L4 w5-6 WIT, L9 w1 item es, L37 w5 WIT",
-      "actualizado": "2026-10-15T13:07:36Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T13:09:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
