@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T11:59:01Z",
+  "generado": "2026-10-15T12:01:28Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -19989,9 +19989,9 @@
       "titulo": "Soledad",
       "artista": "Don Omar",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1, espera QC r2",
-      "actualizado": "2026-10-15T11:55:18Z",
+      "vueltas": 2,
+      "motivo": "corregida r2",
+      "actualizado": "2026-10-15T12:01:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20021,14 +20021,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "QC1: frases en eso mal anclada (L13/17/37/41), WIT=PIT en por culpa de y ya no, doble sujeto L58, nombres propios en minuscula L54-59, falta anclar volver a L10",
-            "t": "2026-10-15T11:52:52Z"
+            "nota": "QC2: fixes D1-D6 verified, 1 new defect L59 w1 name WIT lowercase",
+            "t": "2026-10-15T11:59:28Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "QC1: frases en eso mal anclada (L13/17/37/41), WIT=PIT en por culpa de y ya no, doble sujeto L58, nombres propios en minuscula L54-59, falta anclar volver a L10",
-          "t": "2026-10-15T11:52:52Z"
+          "resumen": "QC2: fixes D1-D6 verified, 1 new defect L59 w1 name WIT lowercase",
+          "t": "2026-10-15T11:59:28Z"
         }
       }
     },
@@ -20094,10 +20094,10 @@
       "originalTrackId": "",
       "titulo": "Ya Te Olvide",
       "artista": "Rocio Durcal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T11:59:01Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T12:00:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20126,15 +20126,21 @@
             "t": "2026-10-14T08:39:07Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: falta anclar la locucion volver a en L2 y L3 (item es existente); ejemplo de herirme sin tilde",
-            "t": "2026-10-15T11:56:20Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T12:00:35Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: falta anclar la locucion volver a en L2 y L3 (item es existente); ejemplo de herirme sin tilde",
-          "t": "2026-10-15T11:56:20Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T12:00:35Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T12:00:36Z"
         }
       }
     },
@@ -20156,9 +20162,9 @@
       "titulo": "Amor En Silencio",
       "artista": "Marco Antonio Solis",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-15T11:53:32Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T12:01:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20185,7 +20191,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:39:38Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L1 w6 WIT doble verbo (is|opens) -> itself; item descubro con primaria en minuscula (i discover)",
+            "t": "2026-10-15T12:00:24Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L1 w6 WIT doble verbo (is|opens) -> itself; item descubro con primaria en minuscula (i discover)",
+          "t": "2026-10-15T12:00:24Z"
         }
       }
     },
@@ -20521,10 +20537,10 @@
       "originalTrackId": "",
       "titulo": "Perdoname",
       "artista": "Pepe Aguilar",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: anclar PI hacer daño (L1 w6-7, existe) y crear+anclar PI de la locucion optativa de L12 w1-2; reabrir draft, PITs, resubir",
-      "actualizado": "2026-10-15T11:58:19Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T12:00:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
