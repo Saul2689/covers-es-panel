@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T12:46:54Z",
+  "generado": "2026-10-15T12:48:25Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23087,10 +23087,10 @@
       "originalTrackId": "",
       "titulo": "Talisman",
       "artista": "Rosana",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: crear phrase item es 'a ver' y anclar L20/40/44 w1-2 (PIT let's see, WIT a=to); dices WIT 'say' L20/40/44 w4 (sujeto doblado con tu); ver reviews",
-      "actualizado": "2026-10-15T12:46:49Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T12:48:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23148,10 +23148,10 @@
       "originalTrackId": "",
       "titulo": "Tratar De Estar Mejor",
       "artista": "Diego Torres",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:41:08Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "falta PI ir a L4/L16; ya L21; estar L50/57/61; cuenta L1; Diego L58 (ver reviews)",
+      "actualizado": "2026-10-15T12:47:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23178,7 +23178,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:43:54Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: falta PI ir a en L4/L16; WIT ya L21 duplica negacion; to+to be L50/57/61; WIT tells L1 imperativo; Diego minuscula L58",
+            "t": "2026-10-15T12:47:42Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: falta PI ir a en L4/L16; WIT ya L21 duplica negacion; to+to be L50/57/61; WIT tells L1 imperativo; Diego minuscula L58",
+          "t": "2026-10-15T12:47:42Z"
         }
       }
     },
@@ -23384,10 +23394,10 @@
       "originalTrackId": "",
       "titulo": "Vos Sabes",
       "artista": "Los Fabulosos Cadillacs",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:41:09Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "L51 w2 que->qué + quitar PIT mira que; si enfatico L4/12/24/44 item nuevo; L14 w2 WI.word; reabrir draft ingles",
+      "actualizado": "2026-10-15T12:47:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23414,7 +23424,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:45:01Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L51 que sin tilde exclamativo y PIT mira que de otro sentido; L4/12/24/44 si enfatico anclado a if; L14 w2 WI.word en mayuscula",
+            "t": "2026-10-15T12:47:19Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L51 que sin tilde exclamativo y PIT mira que de otro sentido; L4/12/24/44 si enfatico anclado a if; L14 w2 WI.word en mayuscula",
+          "t": "2026-10-15T12:47:19Z"
         }
       }
     },
