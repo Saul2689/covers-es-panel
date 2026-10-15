@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T09:14:41Z",
+  "generado": "2026-10-15T09:16:31Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -12898,10 +12898,10 @@
       "originalTrackId": "",
       "titulo": "Buleria",
       "artista": "David Bisbal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T09:10:39Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T09:15:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12925,15 +12925,26 @@
             "t": "2026-10-14T08:23:00Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: l.12 PIT de sentido equivocado; falta PIT 'desde que' en l.4/20/34/38/49/54; l.16 palabra 4 WIT con mayuscula",
-            "t": "2026-10-15T09:08:55Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T09:14:46Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 55 lineas (track_timing_report, QC2); LRC y ms iguales al backup; sin cambios de timing",
+            "t": "2026-10-15T09:15:03Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: l.12 PIT de sentido equivocado; falta PIT 'desde que' en l.4/20/34/38/49/54; l.16 palabra 4 WIT con mayuscula",
-          "t": "2026-10-15T09:08:55Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T09:14:46Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T09:15:05Z"
         }
       }
     },
@@ -13780,10 +13791,10 @@
       "originalTrackId": "",
       "titulo": "Vive",
       "artista": "Napoleon",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: WIT L4 w2, L5 w3, L6 w2, L7 w1; anchors tratar de (L14/25/28) y ponerse a (L7); ver reviews",
-      "actualizado": "2026-10-15T09:13:17Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T09:16:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
