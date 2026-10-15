@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:13:08Z",
+  "generado": "2026-10-15T13:14:50Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24239,7 +24239,7 @@
       "estado": "hecha",
       "vueltas": 1,
       "motivo": "QC2 VERDE",
-      "actualizado": "2026-10-15T13:12:23Z",
+      "actualizado": "2026-10-15T13:13:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24282,7 +24282,7 @@
           "v": "SUENA_SIN_BLINDAR",
           "audio": 206,
           "timeline": "karaokeMp3",
-          "t": "2026-10-15T13:12:23Z"
+          "t": "2026-10-15T13:13:13Z"
         }
       }
     },
@@ -24539,10 +24539,10 @@
       "originalTrackId": "",
       "titulo": "Si Tu Me Miras",
       "artista": "Alejandro Sanz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T13:12:16Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T13:14:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24571,15 +24571,21 @@
             "t": "2026-10-14T08:46:17Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: faltan/sobran anclas de frase en L11, L15, L22, L28, L40",
-            "t": "2026-10-15T13:09:22Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T13:14:31Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: faltan/sobran anclas de frase en L11, L15, L22, L28, L40",
-          "t": "2026-10-15T13:09:22Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T13:14:31Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:14:32Z"
         }
       }
     },
@@ -24678,10 +24684,10 @@
       "originalTrackId": "",
       "titulo": "Fue Un Placer Conocerte",
       "artista": "Rocio Durcal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T13:12:50Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T13:14:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24710,15 +24716,21 @@
             "t": "2026-10-14T08:46:51Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: 2 fixes WIT/DT (L11 w3 doubled subject; conformé primary lowercase i)",
-            "t": "2026-10-15T13:11:39Z"
+            "v": "ok",
+            "nota": "QC2 VERDE; r1 fix L11 ok; pendiente Saul: set primary row on conforme (blocked for agents)",
+            "t": "2026-10-15T13:14:37Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: 2 fixes WIT/DT (L11 w3 doubled subject; conformé primary lowercase i)",
-          "t": "2026-10-15T13:11:39Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE; r1 fix L11 ok; pendiente Saul: set primary row on conforme (blocked for agents)",
+          "t": "2026-10-15T13:14:37Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:14:38Z"
         }
       }
     },
@@ -24795,10 +24807,10 @@
       "originalTrackId": "",
       "titulo": "Se Me Olvido",
       "artista": "Gian Marco",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:03:36Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "L12 PI te quiero mal sentido (borrar); L26 w1 WIT it->the; L28 w7 WIT likes->like; reenviar pending_review",
+      "actualizado": "2026-10-15T13:14:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24825,7 +24837,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:47:29Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 3 defectos: L12 PI mal sentido, L26 w1 WIT, L28 w7 WIT",
+            "t": "2026-10-15T13:14:46Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 3 defectos: L12 PI mal sentido, L26 w1 WIT, L28 w7 WIT",
+          "t": "2026-10-15T13:14:46Z"
         }
       }
     },
