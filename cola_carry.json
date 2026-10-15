@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T12:25:12Z",
+  "generado": "2026-10-15T12:26:58Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -21710,10 +21710,10 @@
       "originalTrackId": "",
       "titulo": "Sola Con Mi Soledad",
       "artista": "Marisela",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "faltan locuciones a ciegas L16/34/43, nada de nada L3, dar vuelta L12/30; WIT pesar L19/22/37; ver review",
-      "actualizado": "2026-10-15T12:22:23Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T12:26:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21760,10 +21760,10 @@
       "originalTrackId": "",
       "titulo": "El Sonido Del Silencio",
       "artista": "Alex Campos",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:06:55Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: Jesus minuscula WIT l49/50; PIT mi amor no vocativo l13/31/42; WIT why l4-6; ingles l43 tiempo; falta PI acabar de l8 (ver reviews)",
+      "actualizado": "2026-10-15T12:26:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21790,7 +21790,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:42:42Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: Jesus minuscula en WIT (l49,l50), PIT mi amor no vocativo l13/31/42, WIT why en PIT para que l4-6, ingles l43 sin futuro, falta PI acabar de l8",
+            "t": "2026-10-15T12:26:24Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: Jesus minuscula en WIT (l49,l50), PIT mi amor no vocativo l13/31/42, WIT why en PIT para que l4-6, ingles l43 sin futuro, falta PI acabar de l8",
+          "t": "2026-10-15T12:26:24Z"
         }
       }
     },
@@ -21867,10 +21877,10 @@
       "originalTrackId": "",
       "titulo": "Se Quiere Se Mata",
       "artista": "Shakira",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:06:55Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: ver reviews/6ab2311fca8a8ee8c4470d01.md (habitante l16/32/39 w5, acabar con l25, se pasivo l19/42, WIT l9 w3, l11 w3, WI.word l12/14/28/30/35/37)",
+      "actualizado": "2026-10-15T12:25:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21897,7 +21907,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:42:43Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1 DEVUELTO: l16/32/39 w5 item sustantivo, l25 w6-7 acabar con, l19/42 se pasivo, l9 w3 y l11 w3 WIT, 6 WI.word con coma",
+            "t": "2026-10-15T12:25:39Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1 DEVUELTO: l16/32/39 w5 item sustantivo, l25 w6-7 acabar con, l19/42 se pasivo, l9 w3 y l11 w3 WIT, 6 WI.word con coma",
+          "t": "2026-10-15T12:25:39Z"
         }
       }
     },
