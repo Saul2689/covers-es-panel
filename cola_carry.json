@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T12:33:22Z",
+  "generado": "2026-10-15T12:34:42Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -21716,10 +21716,10 @@
       "originalTrackId": "",
       "titulo": "Sola Con Mi Soledad",
       "artista": "Marisela",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T12:26:58Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T12:34:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21748,15 +21748,21 @@
             "t": "2026-10-14T08:42:02Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: faltan locuciones a ciegas (L16/34/43), nada de nada (L3), dar vuelta (L12/30); WIT de pesar en a pesar de (L19/22/37)",
-            "t": "2026-10-15T12:22:22Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T12:34:39Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: faltan locuciones a ciegas (L16/34/43), nada de nada (L3), dar vuelta (L12/30); WIT de pesar en a pesar de (L19/22/37)",
-          "t": "2026-10-15T12:22:22Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T12:34:39Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T12:34:40Z"
         }
       }
     },
@@ -21883,10 +21889,10 @@
       "originalTrackId": "",
       "titulo": "Se Quiere Se Mata",
       "artista": "Shakira",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T12:29:51Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T12:34:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21915,15 +21921,21 @@
             "t": "2026-10-14T08:42:43Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1 DEVUELTO: l16/32/39 w5 item sustantivo, l25 w6-7 acabar con, l19/42 se pasivo, l9 w3 y l11 w3 WIT, 6 WI.word con coma",
-            "t": "2026-10-15T12:25:39Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T12:34:23Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1 DEVUELTO: l16/32/39 w5 item sustantivo, l25 w6-7 acabar con, l19/42 se pasivo, l9 w3 y l11 w3 WIT, 6 WI.word con coma",
-          "t": "2026-10-15T12:25:39Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T12:34:23Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T12:34:24Z"
         }
       }
     },
@@ -22341,10 +22353,10 @@
       "originalTrackId": "",
       "titulo": "Y Quien Puede Ser",
       "artista": "Jose Jose",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: l3 p1-2 locucion sin ancla y WIT 'above' en ante; l22 p3-4 PI querer decir sentido literal; l7 p1 como en item de sentido erroneo (remapear a eec07). Detalle en reviews",
-      "actualizado": "2026-10-15T12:30:29Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T12:34:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -22873,10 +22885,10 @@
       "originalTrackId": "",
       "titulo": "Sin Ti No Se Vivir",
       "artista": "Los Angeles Azules",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:21:18Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: fix WITs L1 w6, L4 w9-10, L11 w5, L25/30/41 w3; anchor dejar de L13; L4 EN line; ver reviews",
+      "actualizado": "2026-10-15T12:34:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -22903,7 +22915,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:43:40Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: WIT doubled subjects L1/L4, phrase-meaning WITs L11/L25/30/41, missing dejar de anchor L13, EN line L4",
+            "t": "2026-10-15T12:34:27Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: WIT doubled subjects L1/L4, phrase-meaning WITs L11/L25/30/41, missing dejar de anchor L13, EN line L4",
+          "t": "2026-10-15T12:34:27Z"
         }
       }
     },
