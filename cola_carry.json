@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:18:47Z",
+  "generado": "2026-10-15T13:19:31Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24807,10 +24807,10 @@
       "originalTrackId": "",
       "titulo": "Se Me Olvido",
       "artista": "Gian Marco",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T13:15:57Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T13:19:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24839,15 +24839,21 @@
             "t": "2026-10-14T08:47:29Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: 3 defectos: L12 PI mal sentido, L26 w1 WIT, L28 w7 WIT",
-            "t": "2026-10-15T13:14:46Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T13:19:04Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: 3 defectos: L12 PI mal sentido, L26 w1 WIT, L28 w7 WIT",
-          "t": "2026-10-15T13:14:46Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T13:19:04Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:19:05Z"
         }
       }
     },
@@ -24975,10 +24981,10 @@
       "originalTrackId": "",
       "titulo": "Me Falta El Aliento",
       "artista": "Estopa",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:07:40Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: WIT doble L30/L36/L37, WIT=PIT L40, sentido L8/L16, no longer L30/L35, PIT menos mal y as en la manga, tilde L29 t3",
+      "actualizado": "2026-10-15T13:19:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25005,7 +25011,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:47:56Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 9 defectos de ingles/mapeo (WIT doble, sentido, 2 locuciones sin PIT, tilde L29)",
+            "t": "2026-10-15T13:19:01Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 9 defectos de ingles/mapeo (WIT doble, sentido, 2 locuciones sin PIT, tilde L29)",
+          "t": "2026-10-15T13:19:01Z"
         }
       }
     },
