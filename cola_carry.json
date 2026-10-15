@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T11:44:06Z",
+  "generado": "2026-10-15T11:45:37Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -19278,9 +19278,9 @@
       "titulo": "El Chofer",
       "artista": "Vicente Fernandez",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T11:39:53Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T11:45:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19307,7 +19307,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:36:49Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 4 PIT voy a con destino (L9,L10,L22,L35) sentido erroneo; WIT en minuscula nombre propio L10 w3 y L38 w4",
+            "t": "2026-10-15T11:44:35Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 4 PIT voy a con destino (L9,L10,L22,L35) sentido erroneo; WIT en minuscula nombre propio L10 w3 y L38 w4",
+          "t": "2026-10-15T11:44:35Z"
         }
       }
     },
@@ -19480,10 +19490,10 @@
       "originalTrackId": "",
       "titulo": "Amor",
       "artista": "Cristian",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T11:39:54Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: ya WIT anymore -> now (L20 w4, L23 w1, L40 w4, L48 w4); Y L5,8,28 w1 remap al item de conjuncion; ver reviews",
+      "actualizado": "2026-10-15T11:45:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19510,7 +19520,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:37:06Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: WIT de ya dentro de ya no (L20,23,40,48 w4/w1) lleva el sentido de la frase; Y inicial con item intensificador en L5,8,28 w1",
+            "t": "2026-10-15T11:45:18Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: WIT de ya dentro de ya no (L20,23,40,48 w4/w1) lleva el sentido de la frase; Y inicial con item intensificador en L5,8,28 w1",
+          "t": "2026-10-15T11:45:18Z"
         }
       }
     },
@@ -19531,10 +19551,10 @@
       "originalTrackId": "",
       "titulo": "Porque Yo Te Amo",
       "artista": "Sandro",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T11:39:54Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: y enfatica L23/34/43/54, tal/solo WIT=PIT, sujeto doble L5/L29/L49, i minuscula en 2 items nuevos, anclas de frase faltantes",
+      "actualizado": "2026-10-15T11:45:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19561,7 +19581,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:37:40Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "sentido y: item enfatico x4; WIT=PIT/frase; sujeto doble; 'i' minuscula en items nuevos; faltan anclas tratar de/haber de/al final",
+            "t": "2026-10-15T11:45:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "sentido y: item enfatico x4; WIT=PIT/frase; sujeto doble; 'i' minuscula en items nuevos; faltan anclas tratar de/haber de/al final",
+          "t": "2026-10-15T11:45:29Z"
         }
       }
     },
