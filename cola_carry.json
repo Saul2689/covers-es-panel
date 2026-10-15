@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:55:54Z",
+  "generado": "2026-10-15T13:58:33Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -27162,10 +27162,10 @@
       "originalTrackId": "",
       "titulo": "1 2 3",
       "artista": "El Simbolo",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:51:48Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: linea 79 palabra 1: WIT 3sg vs traduccion imperativa; anadir fila 'take' no primaria y repuntar WIT, o ajustar la linea; reabrir borrador y reenviar",
+      "actualizado": "2026-10-15T13:57:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27192,7 +27192,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:51:51Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: line 79 word 1 WIT tense (3sg) does not match imperative line translation; rest OK",
+            "t": "2026-10-15T13:57:26Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: line 79 word 1 WIT tense (3sg) does not match imperative line translation; rest OK",
+          "t": "2026-10-15T13:57:26Z"
         }
       }
     },
@@ -27222,10 +27232,10 @@
       "originalTrackId": "",
       "titulo": "La Luz",
       "artista": "Juanes",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:51:48Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: L8 w5 WIT minuscula (nombre propio); anclar haber de L7/13/32/38 w3-4; ver reviews",
+      "actualizado": "2026-10-15T13:57:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27252,7 +27262,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:51:51Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: WIT de nombre propio en minuscula L8; falta ancla haber de en L7/13/32/38",
+            "t": "2026-10-15T13:57:13Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: WIT de nombre propio en minuscula L8; falta ancla haber de en L7/13/32/38",
+          "t": "2026-10-15T13:57:13Z"
         }
       }
     },
@@ -27603,8 +27623,8 @@
       "artista": "Celia Cruz",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:53:09Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T13:58:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28084,8 +28104,8 @@
       "artista": "Joseph Fonseca",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:53:10Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T13:58:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28124,8 +28144,8 @@
       "artista": "Sin Bandera",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:53:10Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T13:58:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28164,8 +28184,8 @@
       "artista": "Vico C",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:54:20Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T13:58:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28450,8 +28470,8 @@
       "artista": "Antony Santos",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:54:20Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T13:58:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
