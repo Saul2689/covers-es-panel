@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T09:08:00Z",
+  "generado": "2026-10-15T09:11:33Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -12887,9 +12887,9 @@
       "titulo": "Buleria",
       "artista": "David Bisbal",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T08:49:50Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T09:10:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12911,7 +12911,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:23:00Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: l.12 PIT de sentido equivocado; falta PIT 'desde que' en l.4/20/34/38/49/54; l.16 palabra 4 WIT con mayuscula",
+            "t": "2026-10-15T09:08:55Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: l.12 PIT de sentido equivocado; falta PIT 'desde que' en l.4/20/34/38/49/54; l.16 palabra 4 WIT con mayuscula",
+          "t": "2026-10-15T09:08:55Z"
         }
       }
     },
@@ -13009,9 +13019,9 @@
       "titulo": "Yo No Se Que Me Paso",
       "artista": "Juan Gabriel",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T08:49:50Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T09:11:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13038,7 +13048,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:23:00Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 2 WIT fragmento (l12,l34), 3 PI de sentido erroneo (l1,l14,l36), faltan PI volver a (l23,l44) y acabar con (l30,l52), WIT modal+to (l29,l51)",
+            "t": "2026-10-15T09:08:49Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 2 WIT fragmento (l12,l34), 3 PI de sentido erroneo (l1,l14,l36), faltan PI volver a (l23,l44) y acabar con (l30,l52), WIT modal+to (l29,l51)",
+          "t": "2026-10-15T09:08:49Z"
         }
       }
     },
@@ -13144,10 +13164,10 @@
       "originalTrackId": "",
       "titulo": "Aquel Viejo Motel",
       "artista": "David Pabon",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T08:49:51Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "L34 EN comma; L5 phrase anchors hacer caso + tratar de; repaso primary en lowercase",
+      "actualizado": "2026-10-15T09:11:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13174,7 +13194,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:24:36Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L34 EN ends in comma; missing phrase anchors L5 (hacer caso, tratar de); repaso primary en row lowercase",
+            "t": "2026-10-15T09:11:02Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L34 EN ends in comma; missing phrase anchors L5 (hacer caso, tratar de); repaso primary en row lowercase",
+          "t": "2026-10-15T09:11:02Z"
         }
       }
     },
