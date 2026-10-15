@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T12:17:50Z",
+  "generado": "2026-10-15T12:20:48Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -20998,10 +20998,10 @@
       "originalTrackId": "",
       "titulo": "Soy Yo",
       "artista": "Luis Miguel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T12:17:50Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T12:19:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21030,15 +21030,21 @@
             "t": "2026-10-14T08:41:29Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: L3 le WIT y hacer falta sin PI; L7 dar vueltas/sin lugar a dudas sin PI y mas 'no more'; EN L13/L22; soy yo duplicado L1/5/9",
-            "t": "2026-10-15T12:16:08Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T12:19:57Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: L3 le WIT y hacer falta sin PI; L7 dar vueltas/sin lugar a dudas sin PI y mas 'no more'; EN L13/L22; soy yo duplicado L1/5/9",
-          "t": "2026-10-15T12:16:08Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T12:19:57Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T12:19:58Z"
         }
       }
     },
@@ -21185,9 +21191,9 @@
       "titulo": "Decidiste Dejarme",
       "artista": "Camila",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:06:53Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T12:20:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21214,7 +21220,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:41:30Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: locucion nada mas con sentido erroneo (lineas 14,29,37); faltan locuciones al final (31) y bomba de tiempo (5)",
+            "t": "2026-10-15T12:19:33Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: locucion nada mas con sentido erroneo (lineas 14,29,37); faltan locuciones al final (31) y bomba de tiempo (5)",
+          "t": "2026-10-15T12:19:33Z"
         }
       }
     },
@@ -21369,10 +21385,10 @@
       "originalTrackId": "",
       "titulo": "Y Las Mariposas",
       "artista": "Joan Sebastian",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:06:54Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "l8 w4 nuevo item sentido literal; l22 w2-4 anclar ama de casa + PIT en; l21 w4-6 crear locucion y anclar",
+      "actualizado": "2026-10-15T12:19:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21399,7 +21415,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:41:31Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: l8 w4 item escolar sentido erroneo; l22 w2-4 locucion sin anclar (PIT en falta); l21 w4-6 locucion sin item",
+            "t": "2026-10-15T12:19:36Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: l8 w4 item escolar sentido erroneo; l22 w2-4 locucion sin anclar (PIT en falta); l21 w4-6 locucion sin item",
+          "t": "2026-10-15T12:19:36Z"
         }
       }
     },
