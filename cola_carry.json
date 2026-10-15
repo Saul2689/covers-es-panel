@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:53:07Z",
+  "generado": "2026-10-15T13:55:54Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -27095,10 +27095,10 @@
       "originalTrackId": "",
       "titulo": "Yerbatero",
       "artista": "Juanes",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "corregida r2",
-      "actualizado": "2026-10-15T13:53:06Z",
+      "motivo": "QC3 VERDE",
+      "actualizado": "2026-10-15T13:54:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27127,15 +27127,21 @@
             "t": "2026-10-14T08:51:50Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC2: r1 fixes OK; 1 defecto: L3 w5 ancla con coma sobrante en word",
-            "t": "2026-10-15T13:51:42Z"
+            "v": "ok",
+            "nota": "QC3 VERDE",
+            "t": "2026-10-15T13:54:45Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC2: r1 fixes OK; 1 defecto: L3 w5 ancla con coma sobrante en word",
-          "t": "2026-10-15T13:51:42Z"
+          "v": "VERDE",
+          "resumen": "QC3 VERDE",
+          "t": "2026-10-15T13:54:45Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:54:46Z"
         }
       }
     },
@@ -27472,10 +27478,10 @@
       "originalTrackId": "",
       "titulo": "Hay Otra En Tu Lugar",
       "artista": "Pablo Montero",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:51:49Z",
+      "motivo": "QC1 VERDE",
+      "actualizado": "2026-10-15T13:55:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27502,7 +27508,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:53:08Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC1 VERDE",
+            "t": "2026-10-15T13:55:27Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC1 VERDE",
+          "t": "2026-10-15T13:55:27Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:55:28Z"
         }
       }
     },
