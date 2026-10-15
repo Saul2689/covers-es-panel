@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T11:21:21Z",
+  "generado": "2026-10-15T11:22:09Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -18009,10 +18009,10 @@
       "originalTrackId": "",
       "titulo": "Ponte En Mi Lugar",
       "artista": "Espinoza Paz",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:46:19Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: PI te quiero L24/L36; item serias L20/L32 w1; ejemplo 2 de portes copia una linea; locucion zapatos L22/L34",
+      "actualizado": "2026-10-15T11:21:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18039,7 +18039,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:34:58Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: te quiero PI missing L24/L36; wrong-sense item L20/L32 w1; lyric line in example of new item portes; idiom en mis zapatos no PI L22/L34",
+            "t": "2026-10-15T11:21:30Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: te quiero PI missing L24/L36; wrong-sense item L20/L32 w1; lyric line in example of new item portes; idiom en mis zapatos no PI L22/L34",
+          "t": "2026-10-15T11:21:30Z"
         }
       }
     },
@@ -18049,10 +18059,10 @@
       "originalTrackId": "",
       "titulo": "Libre",
       "artista": "Nino Bravo",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "L14/33/44 w1 y a item aditivo; L6 w3 de a sentido contenido; repuntar 4 WIT y reenviar ingles",
-      "actualizado": "2026-10-15T11:19:24Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T11:22:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
