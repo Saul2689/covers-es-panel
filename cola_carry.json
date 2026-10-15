@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T11:45:37Z",
+  "generado": "2026-10-15T11:47:50Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -19237,10 +19237,10 @@
       "originalTrackId": "",
       "titulo": "A Mis Enemigos",
       "artista": "Valentín Elizalde",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T11:39:53Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: L2 w4 bola, L18 w8 lo, L20 w6 a, L23 w4 pasada; detalle en reviews",
+      "actualizado": "2026-10-15T11:46:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19267,7 +19267,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:36:39Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: bola L2 w4 sentido (hay item crowd), lo L18 w8 WIT, a L20 w6 objeto indirecto, pasada L23 w4 sin ancla",
+            "t": "2026-10-15T11:46:07Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: bola L2 w4 sentido (hay item crowd), lo L18 w8 WIT, a L20 w6 objeto indirecto, pasada L23 w4 sin ancla",
+          "t": "2026-10-15T11:46:07Z"
         }
       }
     },
@@ -19277,10 +19287,10 @@
       "originalTrackId": "",
       "titulo": "El Chofer",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T11:45:36Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T11:47:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19309,15 +19319,21 @@
             "t": "2026-10-14T08:36:49Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: 4 PIT voy a con destino (L9,L10,L22,L35) sentido erroneo; WIT en minuscula nombre propio L10 w3 y L38 w4",
-            "t": "2026-10-15T11:44:35Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T11:47:27Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: 4 PIT voy a con destino (L9,L10,L22,L35) sentido erroneo; WIT en minuscula nombre propio L10 w3 y L38 w4",
-          "t": "2026-10-15T11:44:35Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T11:47:27Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T11:47:28Z"
         }
       }
     },
@@ -19551,10 +19567,10 @@
       "originalTrackId": "",
       "titulo": "Porque Yo Te Amo",
       "artista": "Sandro",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: y enfatica L23/34/43/54, tal/solo WIT=PIT, sujeto doble L5/L29/L49, i minuscula en 2 items nuevos, anclas de frase faltantes",
-      "actualizado": "2026-10-15T11:45:29Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T11:47:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
