@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T10:59:05Z",
+  "generado": "2026-10-15T11:02:22Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -16723,10 +16723,10 @@
       "originalTrackId": "",
       "titulo": "No Me Digas Que No (Boy Like You)",
       "artista": "Nikki Clan",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T10:53:06Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T11:00:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16755,15 +16755,21 @@
             "t": "2026-10-14T08:32:38Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: sentido cambiarás L39, falta frase L18, to+inf L16/L42/L44, sujeto doble L40, ya no L9/28/29/52/53, WI.word L2/L5/L19",
-            "t": "2026-10-15T10:48:04Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T11:00:18Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: sentido cambiarás L39, falta frase L18, to+inf L16/L42/L44, sujeto doble L40, ya no L9/28/29/52/53, WI.word L2/L5/L19",
-          "t": "2026-10-15T10:48:04Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T11:00:18Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T11:00:21Z"
         }
       }
     },
@@ -16874,10 +16880,10 @@
       "originalTrackId": "",
       "titulo": "Gitana",
       "artista": "Shakira",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: mapear contramano L11/25/44 w7 (item 6ac5b2c1...); anclar locucion de paso L2 w2-3; reabrir ingles y reenviar",
-      "actualizado": "2026-10-15T10:53:30Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T11:02:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16983,7 +16989,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "corregida r1",
-      "actualizado": "2026-10-15T10:56:43Z",
+      "actualizado": "2026-10-15T11:02:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17012,15 +17018,15 @@
             "t": "2026-10-14T08:32:49Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: 4 items nuevos con definicion en espanol (deben ir en ingles); WI.word obsoleto en L14 w2",
-            "t": "2026-10-15T10:54:23Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T11:02:20Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: 4 items nuevos con definicion en espanol (deben ir en ingles); WI.word obsoleto en L14 w2",
-          "t": "2026-10-15T10:54:23Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T11:02:20Z"
         }
       }
     },
@@ -17087,9 +17093,9 @@
       "titulo": "Si No Es Ahora",
       "artista": "Timbiriche",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:39:55Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T11:02:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17116,7 +17122,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:33:32Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L34 w5/w6 WIT llevan el significado de la locucion (de pronto); cambiar a of / soon y reenviar",
+            "t": "2026-10-15T11:00:11Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L34 w5/w6 WIT llevan el significado de la locucion (de pronto); cambiar a of / soon y reenviar",
+          "t": "2026-10-15T11:00:11Z"
         }
       },
       "motivo_en": "LRC, timing and mapping done; English plan ready, draft not yet opened"
@@ -17268,9 +17284,9 @@
       "titulo": "Perdoname",
       "artista": "Camilo Sesto",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:39:55Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T11:02:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17297,7 +17313,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:33:33Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: dobles 'you' en WITs de lineas 16/32/45 palabra 1; resto limpio",
+            "t": "2026-10-15T11:00:12Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: dobles 'you' en WITs de lineas 16/32/45 palabra 1; resto limpio",
+          "t": "2026-10-15T11:00:12Z"
         }
       }
     },
@@ -17455,9 +17481,9 @@
       "titulo": "Amiga",
       "artista": "Miguel Bose",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:39:56Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T11:02:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17484,7 +17510,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:34:03Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 1 WIT de va+gerundio (L30 palabra 2) debe ser 'is', como L32",
+            "t": "2026-10-15T10:59:31Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 1 WIT de va+gerundio (L30 palabra 2) debe ser 'is', como L32",
+          "t": "2026-10-15T10:59:31Z"
         }
       }
     },
