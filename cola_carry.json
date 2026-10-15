@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T09:25:36Z",
+  "generado": "2026-10-15T09:28:31Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -14279,9 +14279,9 @@
       "titulo": "La Banda Del Carro Rojo",
       "artista": "los Tigres Del Norte",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T09:01:26Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T09:28:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14308,7 +14308,17 @@
             "v": "ok",
             "nota": "22 items nuevos con 19 idiomas; sin mapear solo nombres propios/ingles/M-16",
             "t": "2026-10-06T17:31:21Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L11 w3 y L38 w5 WIT con minuscula en nombre propio, L21 PI de una sentido erroneo, L29 falta PI lo siento, L35 w1 y L16 w1 WIT, L39 ingles omite palabra",
+            "t": "2026-10-15T09:26:51Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L11 w3 y L38 w5 WIT con minuscula en nombre propio, L21 PI de una sentido erroneo, L29 falta PI lo siento, L35 w1 y L16 w1 WIT, L39 ingles omite palabra",
+          "t": "2026-10-15T09:26:51Z"
         }
       }
     },
@@ -14318,10 +14328,10 @@
       "originalTrackId": "",
       "titulo": "Quedate Con Ella",
       "artista": "Natalia Jimenez",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T09:01:26Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: ver reviews/6aa77fed72ca57eb1acd311f.md (WIT dobles L24 y L16/34/48, Don't L8/26, primarias minuscula, 4 frases sin anclar)",
+      "actualizado": "2026-10-15T09:28:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14348,7 +14358,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:25:50Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: dobles de sujeto/let en WIT (L24, L16/34/48), Don't mayuscula L8/26, primarias con i minuscula (tiendo, salvo), faltan anclas de frase (te lo juro L40, echar a perder L3, mal de ojo L22, quedarse con)",
+            "t": "2026-10-15T09:28:25Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: dobles de sujeto/let en WIT (L24, L16/34/48), Don't mayuscula L8/26, primarias con i minuscula (tiendo, salvo), faltan anclas de frase (te lo juro L40, echar a perder L3, mal de ojo L22, quedarse con)",
+          "t": "2026-10-15T09:28:25Z"
         }
       }
     },
@@ -14409,10 +14429,10 @@
       "originalTrackId": "",
       "titulo": "Si Tu Te Atreves",
       "artista": "Luis Miguel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T09:22:37Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: anclar phrase items darse cuenta, poco a poco, hacer dano; al fin y al cabo (L25/42); WIT L6 w1; reabrir EN y reenviar",
+      "actualizado": "2026-10-15T09:27:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14439,7 +14459,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:26:33Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: faltan phrase insights (darse cuenta L1, poco a poco L2, hacer dano L15/32), al fin L25/42 sentido equivocado (al fin y al cabo), WIT L6 w1",
+            "t": "2026-10-15T09:27:46Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: faltan phrase insights (darse cuenta L1, poco a poco L2, hacer dano L15/32), al fin L25/42 sentido equivocado (al fin y al cabo), WIT L6 w1",
+          "t": "2026-10-15T09:27:46Z"
         }
       }
     },
