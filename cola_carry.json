@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T12:58:44Z",
+  "generado": "2026-10-15T13:01:02Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23970,10 +23970,10 @@
       "originalTrackId": "",
       "titulo": "Dejame Entrar",
       "artista": "Mana",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T12:56:20Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T13:00:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24002,15 +24002,21 @@
             "t": "2026-10-14T08:45:05Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: modal+to (entrar/clavarme), deja wrong-sense item, L15 doubled subject",
-            "t": "2026-10-15T12:53:40Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T12:59:59Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: modal+to (entrar/clavarme), deja wrong-sense item, L15 doubled subject",
-          "t": "2026-10-15T12:53:40Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T12:59:59Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:00:00Z"
         }
       }
     },
@@ -24107,10 +24113,10 @@
       "originalTrackId": "",
       "titulo": "Se Nos Rompio El Amor",
       "artista": "Rocio Jurado",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:45:47Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "gemelas L25 vs L50/51 distintas (tok 4, tok 7); WIT Don't en mayuscula L20/45 tok 2; ver reviews",
+      "actualizado": "2026-10-15T12:58:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24137,7 +24143,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:34:00Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1 DEVUELTO: gemelas L25 vs L50/51 con items distintos (tok 4 y 7); WIT con mayuscula L20/45 tok 2",
+            "t": "2026-10-15T12:58:49Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1 DEVUELTO: gemelas L25 vs L50/51 con items distintos (tok 4 y 7); WIT con mayuscula L20/45 tok 2",
+          "t": "2026-10-15T12:58:49Z"
         }
       }
     },
