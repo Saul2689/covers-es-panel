@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:09:11Z",
+  "generado": "2026-10-15T13:09:25Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24533,10 +24533,10 @@
       "originalTrackId": "",
       "titulo": "Si Tu Me Miras",
       "artista": "Alejandro Sanz",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:03:35Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: frases L22/L40 hacer falta sin anclar; L28 idioma sin phrase item y PI 'lo que' mal; L11 PIT sentido contrario; L15 WIT=PIT",
+      "actualizado": "2026-10-15T13:09:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24563,7 +24563,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:46:17Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: faltan/sobran anclas de frase en L11, L15, L22, L28, L40",
+            "t": "2026-10-15T13:09:22Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: faltan/sobran anclas de frase en L11, L15, L22, L28, L40",
+          "t": "2026-10-15T13:09:22Z"
         }
       }
     },
