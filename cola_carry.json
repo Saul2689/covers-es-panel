@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T12:12:38Z",
+  "generado": "2026-10-15T12:13:58Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -20728,10 +20728,10 @@
       "originalTrackId": "",
       "titulo": "Me Va A Extrañar",
       "artista": "Ricardo Montaner",
-      "estado": "revision",
-      "vueltas": 2,
-      "motivo": "corregida r2",
-      "actualizado": "2026-10-15T12:10:57Z",
+      "estado": "parada",
+      "vueltas": 3,
+      "motivo": "QC3 vuelta 3: faltan 2 WIT sin 'to' tras causativo (L14/L30 w6 sufrir, L2 w8 soñar), las filas ya existen; ver reviews",
+      "actualizado": "2026-10-15T12:13:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20761,16 +20761,17 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "QC2: fixes D1-D5 OK, sin regresiones; falta 1 WIT: L4 w4 'to' tras 'letting me' (infinitivo desnudo)",
-            "t": "2026-10-15T12:08:55Z"
+            "nota": "QC3: 2 WIT con 'to' tras causativo (L14/L30 w6, L2 w8); resto verde",
+            "t": "2026-10-15T12:13:40Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "QC2: fixes D1-D5 OK, sin regresiones; falta 1 WIT: L4 w4 'to' tras 'letting me' (infinitivo desnudo)",
-          "t": "2026-10-15T12:08:55Z"
+          "resumen": "QC3: 2 WIT con 'to' tras causativo (L14/L30 w6, L2 w8); resto verde",
+          "t": "2026-10-15T12:13:40Z"
         }
-      }
+      },
+      "motivo_en": "QC3 round 3: 2 WITs still carry 'to' after a causative (L14/L30 w6, L2 w8); bare rows already exist in the items; see reviews"
     },
     {
       "coverTrackId": "6aa5506542b8d1fdb0cbb85a",
@@ -20879,10 +20880,10 @@
       "originalTrackId": "",
       "titulo": "El Peor De Mis Fracasos",
       "artista": "Marco Antonio Solís",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T12:10:57Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T12:13:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20911,15 +20912,21 @@
             "t": "2026-10-14T08:40:20Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1 DEVUELTO: 2 locuciones sin ancla (lineas 21/29 w6-7, linea 6 w4-6)",
-            "t": "2026-10-15T12:09:00Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T12:13:17Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1 DEVUELTO: 2 locuciones sin ancla (lineas 21/29 w6-7, linea 6 w4-6)",
-          "t": "2026-10-15T12:09:00Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T12:13:17Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T12:13:18Z"
         }
       }
     },
@@ -20929,10 +20936,10 @@
       "originalTrackId": "",
       "titulo": "Si Supieras",
       "artista": "Daddy Yankee, Wisin & Yandel",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: PI darse cuenta L8/L53 w10-12; WIT Daddy L2 w1 y W L44 w5 en mayuscula",
-      "actualizado": "2026-10-15T12:12:28Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T12:13:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
