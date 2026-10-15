@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T12:45:48Z",
+  "generado": "2026-10-15T12:46:54Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23087,10 +23087,10 @@
       "originalTrackId": "",
       "titulo": "Talisman",
       "artista": "Rosana",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:41:08Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: crear phrase item es 'a ver' y anclar L20/40/44 w1-2 (PIT let's see, WIT a=to); dices WIT 'say' L20/40/44 w4 (sujeto doblado con tu); ver reviews",
+      "actualizado": "2026-10-15T12:46:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23117,7 +23117,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:43:52Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: falta phrase item es 'a ver' (L20/40/44 w1-2) y sujeto doblado dices+tu (L20/40/44 w4)",
+            "t": "2026-10-15T12:46:49Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: falta phrase item es 'a ver' (L20/40/44 w1-2) y sujeto doblado dices+tu (L20/40/44 w4)",
+          "t": "2026-10-15T12:46:49Z"
         }
       }
     },
@@ -23178,10 +23188,10 @@
       "originalTrackId": "",
       "titulo": "Yo No Soy Esa",
       "artista": "Mari Trini",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "borrar PI L21 y L23; soy 'I am'->'am' en L5,10,19,28,30,32,34; WIT L15 w3 truth, L15 w7 now, L16 w4 facing; reenviar pending_review",
-      "actualizado": "2026-10-15T12:45:14Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T12:46:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
