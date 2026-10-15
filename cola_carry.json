@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T11:23:47Z",
+  "generado": "2026-10-15T11:25:12Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -18065,10 +18065,10 @@
       "originalTrackId": "",
       "titulo": "Libre",
       "artista": "Nino Bravo",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T11:22:09Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T11:25:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18097,15 +18097,21 @@
             "t": "2026-10-14T08:35:30Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: 2 anclas de sentido (L14/33/44 w1 y; L6 w3 de) + reabrir ingles",
-            "t": "2026-10-15T11:19:24Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T11:25:00Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: 2 anclas de sentido (L14/33/44 w1 y; L6 w3 de) + reabrir ingles",
-          "t": "2026-10-15T11:19:24Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T11:25:00Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T11:25:01Z"
         }
       }
     },
@@ -18260,10 +18266,10 @@
       "originalTrackId": "",
       "titulo": "Por Ella",
       "artista": "Julio Iglesias",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: WIT L6 w2/w4/w6/w7, L22 w1, L28 w4, L35 w4/w5, L44 w2 y primaria de quieros; detalle en reviews",
-      "actualizado": "2026-10-15T11:22:59Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T11:25:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18569,10 +18575,10 @@
       "originalTrackId": "",
       "titulo": "Que Sera De Ti",
       "artista": "Thalia",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T11:13:06Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "DEVUELTO r1: PIT de una mal en L7/L20; L16 w4 sin tilde (qué) + PIT; item separa con definicion en espanol",
+      "actualizado": "2026-10-15T11:24:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18599,7 +18605,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:36:07Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "DEVUELTO r1: PIT de una mal en L7/L20; L16 w4 sin tilde (qué) + PIT; item separa con definicion en espanol",
+            "t": "2026-10-15T11:24:47Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "DEVUELTO r1: PIT de una mal en L7/L20; L16 w4 sin tilde (qué) + PIT; item separa con definicion en espanol",
+          "t": "2026-10-15T11:24:47Z"
         }
       }
     },
