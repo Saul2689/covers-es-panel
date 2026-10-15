@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T14:21:42Z",
+  "generado": "2026-10-15T14:24:15Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -28725,10 +28725,10 @@
       "originalTrackId": "",
       "titulo": "Obsesion",
       "artista": "Ana Gabriel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T14:17:17Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: L27 w1 remap a item deseandote 'wanting/desiring'; borrar PIs te quiero L1 y L4; L2 w1 WIT 'now'; detalle en reviews",
+      "actualizado": "2026-10-15T14:23:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28755,7 +28755,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:54:21Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L27 w1 item de sentido equivocado (otro item existe), PI 'te quiero' de sentido equivocado en L1 y L4, L2 w1 WIT con el sentido de la locucion",
+            "t": "2026-10-15T14:23:25Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L27 w1 item de sentido equivocado (otro item existe), PI 'te quiero' de sentido equivocado en L1 y L4, L2 w1 WIT con el sentido de la locucion",
+          "t": "2026-10-15T14:23:25Z"
         }
       }
     },
@@ -28832,10 +28842,10 @@
       "originalTrackId": "",
       "titulo": "Si No Te Hubiera Conocido",
       "artista": "Christina Aguilera, Luis Fonsi",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T14:17:17Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "anclas de locucion que faltan (dejar de L3, tener sentido x10, ser de x6, no se L51) y PIT de por ti L3; ver reviews",
+      "actualizado": "2026-10-15T14:23:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28862,7 +28872,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:54:32Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "anclas de locucion que faltan: dejar de L3, tener sentido x10, ser de x6, no se L51; PIT de por ti L3",
+            "t": "2026-10-15T14:23:46Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "anclas de locucion que faltan: dejar de L3, tener sentido x10, ser de x6, no se L51; PIT de por ti L3",
+          "t": "2026-10-15T14:23:46Z"
         }
       }
     },
@@ -29006,10 +29026,10 @@
       "originalTrackId": "",
       "titulo": "Inocente Pobre Amigo",
       "artista": "Juan Gabriel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T14:17:18Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: anclar darse cuenta L6/13/18/24 y WIT; ya no L7/14/25/34; spite L21/28; truly L43; reabrir ingles",
+      "actualizado": "2026-10-15T14:23:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29036,7 +29056,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:55:12Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "darse cuenta sin PI y WIT duplicados (L6,13,18,24; L31-32), ya no doble negacion (L7,14,25,34), spite L21/28, truly L43",
+            "t": "2026-10-15T14:23:53Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "darse cuenta sin PI y WIT duplicados (L6,13,18,24; L31-32), ya no doble negacion (L7,14,25,34), spite L21/28, truly L43",
+          "t": "2026-10-15T14:23:53Z"
         }
       }
     },
@@ -29046,10 +29076,10 @@
       "originalTrackId": "",
       "titulo": "Aquellas Pequeñas Cosas",
       "artista": "Joan Manuel Serrat",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T14:17:19Z",
+      "motivo": "QC1 VERDE",
+      "actualizado": "2026-10-15T14:23:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29076,7 +29106,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:55:13Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC1 VERDE",
+            "t": "2026-10-15T14:23:17Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC1 VERDE",
+          "t": "2026-10-15T14:23:17Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T14:23:19Z"
         }
       }
     },
