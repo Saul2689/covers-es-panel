@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T09:28:31Z",
+  "generado": "2026-10-15T09:30:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -13910,10 +13910,10 @@
       "originalTrackId": "",
       "titulo": "40 Y 20",
       "artista": "Jose Jose",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T09:23:56Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T09:29:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13942,15 +13942,21 @@
             "t": "2026-10-14T08:24:37Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: L17/L34 w2-3 WIT con sentido de frase; falta frase por lo bajo en L19; inglés L33 no cuadra con el token",
-            "t": "2026-10-15T09:19:31Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T09:29:22Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: L17/L34 w2-3 WIT con sentido de frase; falta frase por lo bajo en L19; inglés L33 no cuadra con el token",
-          "t": "2026-10-15T09:19:31Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T09:29:22Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T09:29:24Z"
         }
       }
     },
@@ -14378,10 +14384,10 @@
       "originalTrackId": "",
       "titulo": "Que Me Alcance La Vida",
       "artista": "Sin Bandera",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T09:22:37Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "audio MUDA_ARREGLABLE (pin stemVoc); L44 w3 item da; L24 w6 WIT; L12/L31 volver a PI",
+      "actualizado": "2026-10-15T09:29:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14408,7 +14414,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:26:32Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "audio MUDA_ARREGLABLE (pin stemVoc); L44 w3 wrong-sense da item; L24 w6 doubled subject; L12/L31 w5-7 missing volver a PI",
+            "t": "2026-10-15T09:29:03Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "audio MUDA_ARREGLABLE (pin stemVoc); L44 w3 wrong-sense da item; L24 w6 doubled subject; L12/L31 w5-7 missing volver a PI",
+          "t": "2026-10-15T09:29:03Z"
         }
       }
     },
@@ -14429,10 +14445,10 @@
       "originalTrackId": "",
       "titulo": "Si Tu Te Atreves",
       "artista": "Luis Miguel",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: anclar phrase items darse cuenta, poco a poco, hacer dano; al fin y al cabo (L25/42); WIT L6 w1; reabrir EN y reenviar",
-      "actualizado": "2026-10-15T09:27:48Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T09:30:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
