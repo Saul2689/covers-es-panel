@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T11:51:19Z",
+  "generado": "2026-10-15T11:53:33Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -19237,10 +19237,10 @@
       "originalTrackId": "",
       "titulo": "A Mis Enemigos",
       "artista": "Valentín Elizalde",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T11:49:35Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T11:52:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19269,15 +19269,21 @@
             "t": "2026-10-14T08:36:39Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: bola L2 w4 sentido (hay item crowd), lo L18 w8 WIT, a L20 w6 objeto indirecto, pasada L23 w4 sin ancla",
-            "t": "2026-10-15T11:46:07Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T11:52:40Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: bola L2 w4 sentido (hay item crowd), lo L18 w8 WIT, a L20 w6 objeto indirecto, pasada L23 w4 sin ancla",
-          "t": "2026-10-15T11:46:07Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T11:52:40Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T11:52:41Z"
         }
       }
     },
@@ -19629,10 +19635,10 @@
       "originalTrackId": "",
       "titulo": "Directo Al Corazon",
       "artista": "los Tigres Del Norte",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T11:50:23Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T11:52:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19661,15 +19667,21 @@
             "t": "2026-10-14T08:37:41Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: PIT en eso con sentido equivocado (L12, L29); 'una' de 'de una vez' con dos items distintos (L9/13/26/30 w3)",
-            "t": "2026-10-15T11:48:59Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T11:52:54Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: PIT en eso con sentido equivocado (L12, L29); 'una' de 'de una vez' con dos items distintos (L9/13/26/30 w3)",
-          "t": "2026-10-15T11:48:59Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T11:52:54Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T11:52:55Z"
         }
       }
     },
@@ -19921,9 +19933,9 @@
       "titulo": "Maria Teresa Y Danilo",
       "artista": "Hansel Y Raul",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, espera QC r1",
-      "actualizado": "2026-10-15T11:44:04Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T11:53:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19950,7 +19962,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:39:06Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: WIT Danilo/Teresa en minuscula (27), L74 por->because of, L78 mía->my, falta PI cuento de hadas (L16) y a montón (L13)",
+            "t": "2026-10-15T11:51:27Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: WIT Danilo/Teresa en minuscula (27), L74 por->because of, L78 mía->my, falta PI cuento de hadas (L16) y a montón (L13)",
+          "t": "2026-10-15T11:51:27Z"
         }
       }
     },
@@ -19960,10 +19982,10 @@
       "originalTrackId": "",
       "titulo": "Soledad",
       "artista": "Don Omar",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, espera QC r1",
-      "actualizado": "2026-10-15T11:44:05Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: borrar PIs en eso L13/17/37/41; WIT palabra 1 de por culpa de (L8/10/29/31) y ya (L18/20/42/44); L58 w2-3 doble sujeto; mayusculas propios L54-59; anclar volver a L10 w13-14; reenviar a pending_review",
+      "actualizado": "2026-10-15T11:52:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19990,7 +20012,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:39:06Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: frases en eso mal anclada (L13/17/37/41), WIT=PIT en por culpa de y ya no, doble sujeto L58, nombres propios en minuscula L54-59, falta anclar volver a L10",
+            "t": "2026-10-15T11:52:52Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: frases en eso mal anclada (L13/17/37/41), WIT=PIT en por culpa de y ya no, doble sujeto L58, nombres propios en minuscula L54-59, falta anclar volver a L10",
+          "t": "2026-10-15T11:52:52Z"
         }
       }
     },
@@ -20109,8 +20141,8 @@
       "artista": "Marco Antonio Solis",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, espera QC r1",
-      "actualizado": "2026-10-15T11:44:05Z",
+      "motivo": "QC r1",
+      "actualizado": "2026-10-15T11:53:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20475,8 +20507,8 @@
       "artista": "Pepe Aguilar",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, espera QC r1",
-      "actualizado": "2026-10-15T11:44:06Z",
+      "motivo": "QC r1",
+      "actualizado": "2026-10-15T11:53:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
