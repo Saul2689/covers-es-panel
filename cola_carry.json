@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T15:37:18Z",
+  "generado": "2026-10-15T15:38:59Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4896,10 +4896,10 @@
       "originalTrackId": "",
       "titulo": "Y Si Fuera Ella?",
       "artista": "Alejandro Sanz",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T15:28:39Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: mapear 35:9,11-12; anclar volver a (3,14) y tener que (63) y limpiar WIT 3:9,14:4,63:5,33:2,52:2; WIT 2:7 y 40:3; reenviar draft",
+      "actualizado": "2026-10-15T15:37:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4926,7 +4926,17 @@
             "v": "falta",
             "nota": "No draft open and start_draft not allowed this round: full plan in .singit/es_map/payloads/6aa1114264c9b8ff110d1fb7/en_plan.json (69 lines, 389 WITs with own-bag DT)",
             "t": "2026-10-06T14:58:02Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 35:9,11-12 sin mapear; faltan anclas volver a (3,14) y tener que (63); WIT con sentido de frase 3:9,14:4,33:2,52:2,63:5; 2:7 y 40:3 WIT a ajustar",
+            "t": "2026-10-15T15:37:44Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 35:9,11-12 sin mapear; faltan anclas volver a (3,14) y tener que (63); WIT con sentido de frase 3:9,14:4,33:2,52:2,63:5; 2:7 y 40:3 WIT a ajustar",
+          "t": "2026-10-15T15:37:44Z"
         }
       }
     },
@@ -8319,10 +8329,10 @@
       "originalTrackId": "",
       "titulo": "Tabaco Y Chanel",
       "artista": "Bacilos",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: anclar phrase item 'una vez' (L7, L31) y crear/anclar 'ir a parar' (L6, 8, 30, 32); reabrir inglés con PITs",
-      "actualizado": "2026-10-15T15:33:20Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T15:38:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
