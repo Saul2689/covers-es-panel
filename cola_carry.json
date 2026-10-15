@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T11:15:06Z",
+  "generado": "2026-10-15T11:19:16Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17713,10 +17713,10 @@
       "originalTrackId": "",
       "titulo": "Sueños Rotos",
       "artista": "la 5ª Estacion",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T11:15:04Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T11:18:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17745,15 +17745,21 @@
             "t": "2026-10-14T08:34:25Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: 2 items nuevos (prepare, alcance) con fila primaria inglesa en minuscula 'i'; resto OK",
-            "t": "2026-10-15T11:12:44Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T11:18:57Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: 2 items nuevos (prepare, alcance) con fila primaria inglesa en minuscula 'i'; resto OK",
-          "t": "2026-10-15T11:12:44Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T11:18:57Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T11:18:59Z"
         }
       }
     },
@@ -17947,10 +17953,10 @@
       "originalTrackId": "",
       "titulo": "Pisando Fuerte",
       "artista": "Alejandro Sanz",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:46:17Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: ver reviews/6aa51a5342b8d1fdb0c6bd0f.md (9 puntos por linea/palabra)",
+      "actualizado": "2026-10-15T11:15:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17977,7 +17983,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:34:57Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 9 fixes: entraré item de sentido nautico, PI no sé qué sentido erroneo, pasa L12, más L32, y L7, faltan locuciones en pie y pisando fuerte, fila primaria con i minuscula, L31 w6",
+            "t": "2026-10-15T11:15:52Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 9 fixes: entraré item de sentido nautico, PI no sé qué sentido erroneo, pasa L12, más L32, y L7, faltan locuciones en pie y pisando fuerte, fila primaria con i minuscula, L31 w6",
+          "t": "2026-10-15T11:15:52Z"
         }
       }
     },
