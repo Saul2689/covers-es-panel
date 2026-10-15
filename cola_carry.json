@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T14:46:03Z",
+  "generado": "2026-10-15T14:48:47Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -29622,10 +29622,10 @@
       "originalTrackId": "",
       "titulo": "Ya No",
       "artista": "Selena",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T14:45:43Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T14:47:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29654,15 +29654,21 @@
             "t": "2026-10-14T08:56:15Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: 2 defectos: PI 'I love you' mal en L28 y L33 (borrar), sólo->solo en L31 w4 y L32 w6",
-            "t": "2026-10-15T14:41:27Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T14:47:50Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: 2 defectos: PI 'I love you' mal en L28 y L33 (borrar), sólo->solo en L31 w4 y L32 w6",
-          "t": "2026-10-15T14:41:27Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T14:47:50Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T14:47:51Z"
         }
       }
     },
@@ -29840,10 +29846,10 @@
       "originalTrackId": "",
       "titulo": "Mi Niña",
       "artista": "los Toros Band",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T14:45:43Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T14:48:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29872,15 +29878,21 @@
             "t": "2026-10-14T08:56:28Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: L34/L49 w6 item de enamorar transitivo (necesita item enamorarse nuevo); L20 w1-3 falta ancla de locucion tener la culpa",
-            "t": "2026-10-15T14:40:18Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T14:48:23Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: L34/L49 w6 item de enamorar transitivo (necesita item enamorarse nuevo); L20 w1-3 falta ancla de locucion tener la culpa",
-          "t": "2026-10-15T14:40:18Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T14:48:23Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T14:48:24Z"
         }
       }
     },
@@ -30131,10 +30143,10 @@
       "originalTrackId": "",
       "titulo": "Pecado Original",
       "artista": "Ana Gabriel",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T14:45:42Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "L5 w1 una WIT a->an (DT ...baa3e), resubmit",
+      "actualizado": "2026-10-15T14:48:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30164,14 +30176,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "QC1: 1 WIT articulo mal (L3 p4 an->a); resto OK",
-            "t": "2026-10-15T14:44:37Z"
+            "nota": "QC2: r1 fix ok; L5 w1 WIT a->an (vowel next), WI 6ac535167b9bfb31101545c2 DT 6a136e5ad0cbdb760b4baa3e",
+            "t": "2026-10-15T14:48:40Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "QC1: 1 WIT articulo mal (L3 p4 an->a); resto OK",
-          "t": "2026-10-15T14:44:37Z"
+          "resumen": "QC2: r1 fix ok; L5 w1 WIT a->an (vowel next), WI 6ac535167b9bfb31101545c2 DT 6a136e5ad0cbdb760b4baa3e",
+          "t": "2026-10-15T14:48:40Z"
         }
       }
     },
@@ -30183,8 +30195,8 @@
       "artista": "Wisin Y Yandel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:57:45Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T14:48:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30223,8 +30235,8 @@
       "artista": "Tito Nieves",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:57:46Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T14:48:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30344,8 +30356,8 @@
       "artista": "Marc Anthony",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:57:47Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T14:48:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30554,8 +30566,8 @@
       "artista": "Vicente Fernandez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:57:48Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T14:48:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30650,8 +30662,8 @@
       "artista": "Eros Ramazzotti",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:58:26Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T14:48:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
