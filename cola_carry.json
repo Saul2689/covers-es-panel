@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:24:01Z",
+  "generado": "2026-10-15T13:26:55Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -25053,10 +25053,10 @@
       "originalTrackId": "",
       "titulo": "Insaciable Amante",
       "artista": "Jose Jose",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T13:24:00Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T13:26:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25085,15 +25085,21 @@
             "t": "2026-10-14T08:47:57Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: WIT=PIT en hasta (L14/L33 w1); faltan anclas de locucion volver a (L29 w4-5) y dejar de (L14/L33 w5-6)",
-            "t": "2026-10-15T13:19:53Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T13:26:09Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: WIT=PIT en hasta (L14/L33 w1); faltan anclas de locucion volver a (L29 w4-5) y dejar de (L14/L33 w5-6)",
-          "t": "2026-10-15T13:19:53Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T13:26:09Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:26:11Z"
         }
       }
     },
@@ -25103,10 +25109,10 @@
       "originalTrackId": "",
       "titulo": "Amiga Si Lo Ves",
       "artista": "Jenni Rivera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T13:24:00Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T13:26:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25135,15 +25141,21 @@
             "t": "2026-10-14T08:48:09Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: L15/L33 w5 item inventado (forma verbal deliro), L8 w6 cielo sentido equivocado (hay item correcto)",
-            "t": "2026-10-15T13:20:56Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T13:26:08Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: L15/L33 w5 item inventado (forma verbal deliro), L8 w6 cielo sentido equivocado (hay item correcto)",
-          "t": "2026-10-15T13:20:56Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T13:26:08Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:26:09Z"
         }
       }
     },
@@ -25566,10 +25578,10 @@
       "originalTrackId": "",
       "titulo": "Vuelve",
       "artista": "Shakira",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: PIT L19/L21 mal, item nuevo L43, tilde L35, WIT nombres propios L5/6/13/26, ancla volver a L22",
-      "actualizado": "2026-10-15T13:23:53Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T13:26:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25616,10 +25628,10 @@
       "originalTrackId": "",
       "titulo": "Cachito",
       "artista": "Maná",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:18:45Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: tan+solo WIT doblado L1/L10/L21; L11 w1 sin mapear y sin inglés; ancla es que en L3; mayúscula L2 w5. Ver reviews",
+      "actualizado": "2026-10-15T13:25:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25646,7 +25658,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:49:02Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: tan+solo WIT doblado (L1/L10/L21), L11 w1 sin mapear ni inglés, falta ancla es que (L3), mayúscula L2 w5",
+            "t": "2026-10-15T13:25:19Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: tan+solo WIT doblado (L1/L10/L21), L11 w1 sin mapear ni inglés, falta ancla es que (L3), mayúscula L2 w5",
+          "t": "2026-10-15T13:25:19Z"
         }
       }
     },
