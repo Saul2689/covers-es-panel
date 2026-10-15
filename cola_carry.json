@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T09:18:40Z",
+  "generado": "2026-10-15T09:20:38Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -13044,7 +13044,7 @@
       "estado": "revision",
       "vueltas": 2,
       "motivo": "corregida r2",
-      "actualizado": "2026-10-15T09:18:22Z",
+      "actualizado": "2026-10-15T09:20:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13073,15 +13073,15 @@
             "t": "2026-10-14T08:23:00Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC2 DEVUELTO: r1 fixes OK; l23/l44 linea inglesa sin sujeto",
-            "t": "2026-10-15T09:17:28Z"
+            "v": "ok",
+            "nota": "QC3 VERDE",
+            "t": "2026-10-15T09:20:36Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC2 DEVUELTO: r1 fixes OK; l23/l44 linea inglesa sin sujeto",
-          "t": "2026-10-15T09:17:28Z"
+          "v": "VERDE",
+          "resumen": "QC3 VERDE",
+          "t": "2026-10-15T09:20:36Z"
         }
       }
     },
@@ -13797,10 +13797,10 @@
       "originalTrackId": "",
       "titulo": "Vive",
       "artista": "Napoleon",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T09:16:31Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T09:20:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13829,15 +13829,21 @@
             "t": "2026-10-14T08:24:37Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "R1: 4 WIT glosses (L4 w2, L5 w3, L6 w2, L7 w1), 2 missing phrase anchors (tratar de L14/25/28; ponerse a L7), English draft to reopen",
-            "t": "2026-10-15T09:13:15Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T09:20:13Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "R1: 4 WIT glosses (L4 w2, L5 w3, L6 w2, L7 w1), 2 missing phrase anchors (tratar de L14/25/28; ponerse a L7), English draft to reopen",
-          "t": "2026-10-15T09:13:15Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T09:20:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T09:20:15Z"
         }
       }
     },
@@ -13898,10 +13904,10 @@
       "originalTrackId": "",
       "titulo": "40 Y 20",
       "artista": "Jose Jose",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T09:01:25Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "L17/L34 w2-3 WIT con sentido de frase; falta PIT en L19 w3-5; inglés L33 no cuadra con el token",
+      "actualizado": "2026-10-15T09:19:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13928,7 +13934,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:24:37Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L17/L34 w2-3 WIT con sentido de frase; falta frase por lo bajo en L19; inglés L33 no cuadra con el token",
+            "t": "2026-10-15T09:19:31Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L17/L34 w2-3 WIT con sentido de frase; falta frase por lo bajo en L19; inglés L33 no cuadra con el token",
+          "t": "2026-10-15T09:19:31Z"
         }
       }
     },
