@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T10:13:20Z",
+  "generado": "2026-10-15T10:15:24Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -14766,10 +14766,10 @@
       "originalTrackId": "",
       "titulo": "Huellas",
       "artista": "Joe Vasconcellos",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T10:10:58Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T10:14:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14798,15 +14798,21 @@
             "t": "2026-10-14T08:28:29Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: PI de una mal anclado L18/L53; ya que sin anclas de palabra L7/L22/L56; que causal glosado that L11/26/40/60; Saint minuscula L46/L48; to doble L4/L33",
-            "t": "2026-10-15T10:04:08Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T10:14:41Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: PI de una mal anclado L18/L53; ya que sin anclas de palabra L7/L22/L56; que causal glosado that L11/26/40/60; Saint minuscula L46/L48; to doble L4/L33",
-          "t": "2026-10-15T10:04:08Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T10:14:41Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T10:14:44Z"
         }
       }
     },
@@ -15151,10 +15157,10 @@
       "originalTrackId": "",
       "titulo": "Hoy Ya Me Voy",
       "artista": "Kany Garcia",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T10:12:21Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T10:15:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15183,15 +15189,21 @@
             "t": "2026-10-14T08:29:02Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: sujeto doble en linea 24 (palabra 4+5); WI.word con coma vieja en lineas 8, 39, 58",
-            "t": "2026-10-15T10:05:06Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T10:15:08Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: sujeto doble en linea 24 (palabra 4+5); WI.word con coma vieja en lineas 8, 39, 58",
-          "t": "2026-10-15T10:05:06Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T10:15:08Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T10:15:09Z"
         }
       }
     },
@@ -15387,9 +15399,9 @@
       "titulo": "Inalcanzable",
       "artista": "RBD",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:08:13Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T10:15:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15416,7 +15428,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:33:55Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L34 w1 y L35 w1 exclamativo sin tilde (cómo) anclado a como; resto OK",
+            "t": "2026-10-15T10:13:28Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L34 w1 y L35 w1 exclamativo sin tilde (cómo) anclado a como; resto OK",
+          "t": "2026-10-15T10:13:28Z"
         }
       }
     },
