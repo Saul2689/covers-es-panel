@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T09:34:30Z",
+  "generado": "2026-10-15T09:35:39Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -14514,9 +14514,9 @@
       "titulo": "Dia De Suerte",
       "artista": "Alejandra Guzmán",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T09:22:37Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T09:35:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14543,7 +14543,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:26:33Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: frase 'de pronto' L7/22/30 anclada a item en; remapear al item es 6ac5f132 y reenviar ingles",
+            "t": "2026-10-15T09:34:40Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: frase 'de pronto' L7/22/30 anclada a item en; remapear al item es 6ac5f132 y reenviar ingles",
+          "t": "2026-10-15T09:34:40Z"
         }
       }
     },
