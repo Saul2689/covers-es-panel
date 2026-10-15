@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T14:03:46Z",
+  "generado": "2026-10-15T14:04:51Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -27637,10 +27637,10 @@
       "originalTrackId": "",
       "titulo": "Dile Que Por Mi No Tema",
       "artista": "Celia Cruz",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:58:31Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "WIT L5/L8/L9/L13 y gemelas; PIT tener que (L17,L40) y acordarse de (L5,L28); ver reviews",
+      "actualizado": "2026-10-15T14:04:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27667,7 +27667,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:53:09Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: WIT fixes L5/8/9/13 (+twins), faltan PIT tener que y acordarse de",
+            "t": "2026-10-15T14:04:18Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: WIT fixes L5/8/9/13 (+twins), faltan PIT tener que y acordarse de",
+          "t": "2026-10-15T14:04:18Z"
         }
       }
     },
@@ -28118,10 +28128,10 @@
       "originalTrackId": "",
       "titulo": "Noches De Fantasia",
       "artista": "Joseph Fonseca",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "L1 volver a + inf: ingles 'again' + PIT con item existente; L12 locucion: crear phrase item y anclar",
-      "actualizado": "2026-10-15T14:03:16Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T14:04:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
