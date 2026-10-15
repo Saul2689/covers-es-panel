@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T09:35:39Z",
+  "generado": "2026-10-15T09:39:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -14346,10 +14346,10 @@
       "originalTrackId": "",
       "titulo": "Quedate Con Ella",
       "artista": "Natalia Jimenez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T09:34:29Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T09:37:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14378,15 +14378,21 @@
             "t": "2026-10-14T08:25:50Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: dobles de sujeto/let en WIT (L24, L16/34/48), Don't mayuscula L8/26, primarias con i minuscula (tiendo, salvo), faltan anclas de frase (te lo juro L40, echar a perder L3, mal de ojo L22, quedarse con)",
-            "t": "2026-10-15T09:28:25Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T09:37:37Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: dobles de sujeto/let en WIT (L24, L16/34/48), Don't mayuscula L8/26, primarias con i minuscula (tiendo, salvo), faltan anclas de frase (te lo juro L40, echar a perder L3, mal de ojo L22, quedarse con)",
-          "t": "2026-10-15T09:28:25Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T09:37:37Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T09:37:41Z"
         }
       }
     },
@@ -14396,10 +14402,10 @@
       "originalTrackId": "",
       "titulo": "Que Me Alcance La Vida",
       "artista": "Sin Bandera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1 (audio BLINDADA, +60 ms)",
-      "actualizado": "2026-10-15T09:32:01Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T09:36:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14428,15 +14434,21 @@
             "t": "2026-10-14T08:26:32Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "audio MUDA_ARREGLABLE (pin stemVoc); L44 w3 wrong-sense da item; L24 w6 doubled subject; L12/L31 w5-7 missing volver a PI",
-            "t": "2026-10-15T09:29:03Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T09:36:27Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "audio MUDA_ARREGLABLE (pin stemVoc); L44 w3 wrong-sense da item; L24 w6 doubled subject; L12/L31 w5-7 missing volver a PI",
-          "t": "2026-10-15T09:29:03Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T09:36:27Z"
+        },
+        "audio": {
+          "v": "BLINDADA",
+          "audio": 206,
+          "timeline": "stemVoc",
+          "t": "2026-10-15T09:36:29Z"
         }
       }
     },
@@ -14625,10 +14637,10 @@
       "originalTrackId": "",
       "titulo": "Aprendiz",
       "artista": "Alejandro Sanz",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T09:22:38Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "l3 palabras 3-4: crear WI (otra, vez) + WIT en borrador EN y reenviar",
+      "actualizado": "2026-10-15T09:36:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14655,7 +14667,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:33:36Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: l3 palabras 3-4 sin ancla de palabra (solo frase); resto OK",
+            "t": "2026-10-15T09:36:31Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: l3 palabras 3-4 sin ancla de palabra (solo frase); resto OK",
+          "t": "2026-10-15T09:36:31Z"
         }
       }
     },
