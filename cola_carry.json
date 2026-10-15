@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T12:29:51Z",
+  "generado": "2026-10-15T12:31:39Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -21760,10 +21760,10 @@
       "originalTrackId": "",
       "titulo": "El Sonido Del Silencio",
       "artista": "Alex Campos",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: Jesus minuscula WIT l49/50; PIT mi amor no vocativo l13/31/42; WIT why l4-6; ingles l43 tiempo; falta PI acabar de l8 (ver reviews)",
-      "actualizado": "2026-10-15T12:26:25Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T12:31:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -22335,10 +22335,10 @@
       "originalTrackId": "",
       "titulo": "Y Quien Puede Ser",
       "artista": "Jose Jose",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:21:17Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: l3 p1-2 locucion sin ancla y WIT 'above' en ante; l22 p3-4 PI querer decir sentido literal; l7 p1 como en item de sentido erroneo (remapear a eec07). Detalle en reviews",
+      "actualizado": "2026-10-15T12:30:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -22365,7 +22365,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:43:15Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: faltan ancla 'ante todo' (l3 p1-2), PI 'querer decir' sentido erroneo (l22 p3-4), 'como' l7 p1 item de sentido erroneo",
+            "t": "2026-10-15T12:30:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: faltan ancla 'ante todo' (l3 p1-2), PI 'querer decir' sentido erroneo (l22 p3-4), 'como' l7 p1 item de sentido erroneo",
+          "t": "2026-10-15T12:30:29Z"
         }
       },
       "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
@@ -22767,10 +22777,10 @@
       "originalTrackId": "",
       "titulo": "Tengo Mucho Que Aprender De Ti",
       "artista": "Emmanuel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:21:18Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: por L23/40/50 w2; doubled to L31/32 w3; nada mas PIT L17/18; a cambio frase L17 w3-4",
+      "actualizado": "2026-10-15T12:31:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -22797,7 +22807,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:33:57Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: por wrong sense L23/40/50 w2; doubled to L31/32 w3; nada mas PIT wrong sense L17/18; a cambio idiom missing L17 w3-4",
+            "t": "2026-10-15T12:31:28Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: por wrong sense L23/40/50 w2; doubled to L31/32 w3; nada mas PIT wrong sense L17/18; a cambio idiom missing L17 w3-4",
+          "t": "2026-10-15T12:31:28Z"
         }
       }
     },
