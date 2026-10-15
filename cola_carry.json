@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:42:17Z",
+  "generado": "2026-10-15T13:43:50Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -26060,10 +26060,10 @@
       "originalTrackId": "",
       "titulo": "La Frase Tonta De La Semana",
       "artista": "la 5ª Estacion",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T13:36:55Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T13:43:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26092,15 +26092,21 @@
             "t": "2026-10-14T07:34:45Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: dobles negaciones/sujeto en WIT (L2,4,6,8,13,25), faltan anclas hacer falta (L5,L9) y a base de (L19)",
-            "t": "2026-10-15T13:34:29Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T13:43:41Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: dobles negaciones/sujeto en WIT (L2,4,6,8,13,25), faltan anclas hacer falta (L5,L9) y a base de (L19)",
-          "t": "2026-10-15T13:34:29Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T13:43:41Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:43:43Z"
         }
       }
     },
@@ -26802,10 +26808,10 @@
       "originalTrackId": "",
       "titulo": "Voy A Prometerme",
       "artista": "Victor Manuelle",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:35:14Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: L2 re-anchor to es de una vez; add volver a PIs (L6,18,26,38,46,50); new es a mi lado PI (L23,43); doubled I L57 w2, L60 w3",
+      "actualizado": "2026-10-15T13:42:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26832,7 +26838,17 @@
             "v": "falta",
             "nota": "plan preparado en en_plan.json (64 lineas, 324 WIT, 6 PIT); falta abrir el borrador",
             "t": "2026-10-06T21:43:46Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: phrase anchors (L2 en-tagged item, missing volver a x6 and a mi lado x2) and doubled I at L57/L60",
+            "t": "2026-10-15T13:42:49Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: phrase anchors (L2 en-tagged item, missing volver a x6 and a mi lado x2) and doubled I at L57/L60",
+          "t": "2026-10-15T13:42:49Z"
         }
       }
     },
@@ -27005,10 +27021,10 @@
       "originalTrackId": "",
       "titulo": "Disparo Al Corazon",
       "artista": "Ricky Martin",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "cara moneda item nuevo l7/l22; PI desde que l5/l20; PI a sangre fria l10/25/38; llegaste WIT arrived l5/l20; ver reviews",
-      "actualizado": "2026-10-15T13:39:45Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T13:43:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
