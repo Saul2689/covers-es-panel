@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T15:38:59Z",
+  "generado": "2026-10-15T15:40:50Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4896,10 +4896,10 @@
       "originalTrackId": "",
       "titulo": "Y Si Fuera Ella?",
       "artista": "Alejandro Sanz",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: mapear 35:9,11-12; anclar volver a (3,14) y tener que (63) y limpiar WIT 3:9,14:4,63:5,33:2,52:2; WIT 2:7 y 40:3; reenviar draft",
-      "actualizado": "2026-10-15T15:37:45Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T15:40:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5697,10 +5697,10 @@
       "originalTrackId": "",
       "titulo": "Inolvidable",
       "artista": "Reik",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T15:37:18Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T15:39:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5724,20 +5724,26 @@
             "t": "2026-10-06T15:19:24Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en es_map/payloads/6aa69b7172ca57eb1aa28e31/en_plan.json (54 lineas + 266 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T15:19:24Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, QC2",
+            "t": "2026-10-15T15:39:26Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT lineas 12/31/45 palabra 5 (sacarla): resto 'to' tras modal y 'out' doblado con 'out of'; el resto verde",
-            "t": "2026-10-15T15:33:27Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T15:39:16Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT lineas 12/31/45 palabra 5 (sacarla): resto 'to' tras modal y 'out' doblado con 'out of'; el resto verde",
-          "t": "2026-10-15T15:33:27Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T15:39:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T15:39:27Z"
         }
       }
     },
