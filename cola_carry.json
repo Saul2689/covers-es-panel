@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T14:42:32Z",
+  "generado": "2026-10-15T14:45:44Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -29347,10 +29347,10 @@
       "originalTrackId": "",
       "titulo": "Me Estoy Enamorando",
       "artista": "Jerry Rivera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T14:37:39Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T14:43:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29359,9 +29359,9 @@
             "t": "2026-10-06T17:48:12Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "8 tildes/mayusculas arregladas; secciones 0/47 (generateSections no escribio y el POST lrc-only fue denegado por el clasificador): payload en es_map/payloads/6aa5cb7b42b8d1fdb0d504f7/sections_plan.json",
-            "t": "2026-10-06T22:25:28Z"
+            "v": "ok",
+            "nota": "QC2: secciones 47/47 ya puestas (llm); 8 tildes/mayusculas arregladas",
+            "t": "2026-10-15T14:43:38Z"
           },
           "timing": {
             "v": "ok",
@@ -29379,15 +29379,21 @@
             "t": "2026-10-14T08:55:38Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: anclas de sentido equivocado (L41 darás, L36 esté, L3 contaría), WIT rotos (se, lo, asusta), faltan locuciones (volverse loco, aunque sea), twin EN L9/L47",
-            "t": "2026-10-15T14:31:59Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T14:43:11Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: anclas de sentido equivocado (L41 darás, L36 esté, L3 contaría), WIT rotos (se, lo, asusta), faltan locuciones (volverse loco, aunque sea), twin EN L9/L47",
-          "t": "2026-10-15T14:31:59Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T14:43:11Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T14:43:39Z"
         }
       }
     },
@@ -29453,10 +29459,10 @@
       "originalTrackId": "",
       "titulo": "Tira La Primera Piedra",
       "artista": "Diomedes Diaz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T14:42:31Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T14:45:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29485,15 +29491,21 @@
             "t": "2026-10-14T08:56:01Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: L11 w3-4 hacer caso sin ancla, L22/L24 w6-7 para que sin ancla, L30 w2 nombre en minuscula",
-            "t": "2026-10-15T14:40:07Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T14:45:30Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: L11 w3-4 hacer caso sin ancla, L22/L24 w6-7 para que sin ancla, L30 w2 nombre en minuscula",
-          "t": "2026-10-15T14:40:07Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T14:45:30Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T14:45:31Z"
         }
       }
     },
@@ -29610,10 +29622,10 @@
       "originalTrackId": "",
       "titulo": "Ya No",
       "artista": "Selena",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "PI te quiero mal en L28/L33 (borrar); sólo->solo L31 w4, L32 w6 (LRC+ancla+WIT)",
-      "actualizado": "2026-10-15T14:41:28Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T14:45:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29828,10 +29840,10 @@
       "originalTrackId": "",
       "titulo": "Mi Niña",
       "artista": "los Toros Band",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "L34/L49 w6 item de sentido equivocado (crear item reflexivo y remapear); L20 w1-3 falta frase es tener la culpa; reabrir draft ingles y reenviar",
-      "actualizado": "2026-10-15T14:40:19Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T14:45:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29878,10 +29890,10 @@
       "originalTrackId": "",
       "titulo": "Esclavo Y Amo",
       "artista": "Javier Solis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T14:42:31Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T14:44:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29910,15 +29922,21 @@
             "t": "2026-10-14T08:56:29Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: falta PIT volver loco en linea 4 w5-6 (+WIT turns/crazy); WIT 'I lay down' -> 'I lie down' lineas 9 y 18 w5",
-            "t": "2026-10-15T14:38:38Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T14:44:41Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: falta PIT volver loco en linea 4 w5-6 (+WIT turns/crazy); WIT 'I lay down' -> 'I lie down' lineas 9 y 18 w5",
-          "t": "2026-10-15T14:38:38Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T14:44:41Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T14:44:42Z"
         }
       }
     },
@@ -30114,9 +30132,9 @@
       "titulo": "Pecado Original",
       "artista": "Ana Gabriel",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T14:35:02Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T14:45:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30143,7 +30161,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:56:45Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 1 WIT articulo mal (L3 p4 an->a); resto OK",
+            "t": "2026-10-15T14:44:37Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 1 WIT articulo mal (L3 p4 an->a); resto OK",
+          "t": "2026-10-15T14:44:37Z"
         }
       }
     },
