@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T14:01:08Z",
+  "generado": "2026-10-15T14:03:46Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -27162,10 +27162,10 @@
       "originalTrackId": "",
       "titulo": "1 2 3",
       "artista": "El Simbolo",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T14:01:06Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T14:03:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27194,15 +27194,21 @@
             "t": "2026-10-14T08:51:51Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: line 79 word 1 WIT tense (3sg) does not match imperative line translation; rest OK",
-            "t": "2026-10-15T13:57:26Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T14:03:00Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: line 79 word 1 WIT tense (3sg) does not match imperative line translation; rest OK",
-          "t": "2026-10-15T13:57:26Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T14:03:00Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T14:03:02Z"
         }
       }
     },
@@ -28112,10 +28118,10 @@
       "originalTrackId": "",
       "titulo": "Noches De Fantasia",
       "artista": "Joseph Fonseca",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:58:31Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "L1 volver a + inf: ingles 'again' + PIT con item existente; L12 locucion: crear phrase item y anclar",
+      "actualizado": "2026-10-15T14:03:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28142,7 +28148,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:53:09Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L1 volver a + inf mal traducido y sin PIT (existe es 6ac5af17...); L12 locucion sin phrase item",
+            "t": "2026-10-15T14:03:16Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L1 volver a + inf mal traducido y sin PIT (existe es 6ac5af17...); L12 locucion sin phrase item",
+          "t": "2026-10-15T14:03:16Z"
         }
       }
     },
