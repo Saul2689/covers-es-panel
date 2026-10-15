@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T10:10:59Z",
+  "generado": "2026-10-15T10:12:22Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -14883,10 +14883,10 @@
       "originalTrackId": "",
       "titulo": "Te Ves Buena",
       "artista": "El General",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T10:05:41Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T10:11:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14915,15 +14915,21 @@
             "t": "2026-10-14T08:28:55Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: nombres propios en minuscula (L50,L60,L61,PIT L62), Coca-Cola doble L13/L56, let's+to L17/L18, que/visto sentidos L3,L9-10,L20,L24,L39-40,L52-53,L69-70",
-            "t": "2026-10-15T10:01:59Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T10:11:17Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: nombres propios en minuscula (L50,L60,L61,PIT L62), Coca-Cola doble L13/L56, let's+to L17/L18, que/visto sentidos L3,L9-10,L20,L24,L39-40,L52-53,L69-70",
-          "t": "2026-10-15T10:01:59Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T10:11:17Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T10:11:19Z"
         }
       }
     },
@@ -15145,10 +15151,10 @@
       "originalTrackId": "",
       "titulo": "Hoy Ya Me Voy",
       "artista": "Kany Garcia",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: sujeto doble linea 24 palabra 4; WI.word con coma en lineas 8/39/58",
-      "actualizado": "2026-10-15T10:05:08Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T10:12:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15246,10 +15252,10 @@
       "originalTrackId": "",
       "titulo": "Devuelveme El Amor",
       "artista": "Luis Miguel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:08:13Z",
+      "motivo": "QC1 VERDE",
+      "actualizado": "2026-10-15T10:11:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15276,7 +15282,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:29:36Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC1 VERDE",
+            "t": "2026-10-15T10:11:49Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC1 VERDE",
+          "t": "2026-10-15T10:11:49Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T10:11:51Z"
         }
       }
     },
@@ -15404,10 +15426,10 @@
       "originalTrackId": "",
       "titulo": "Desesperado",
       "artista": "Jose Jose",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:08:13Z",
+      "motivo": "QC1 VERDE",
+      "actualizado": "2026-10-15T10:12:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15434,7 +15456,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:29:50Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC1 VERDE",
+            "t": "2026-10-15T10:12:19Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC1 VERDE",
+          "t": "2026-10-15T10:12:19Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T10:12:21Z"
         }
       }
     },
