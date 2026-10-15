@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:45:55Z",
+  "generado": "2026-10-15T13:47:45Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -26814,10 +26814,10 @@
       "originalTrackId": "",
       "titulo": "Voy A Prometerme",
       "artista": "Victor Manuelle",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: L2 re-anchor to es de una vez; add volver a PIs (L6,18,26,38,46,50); new es a mi lado PI (L23,43); doubled I L57 w2, L60 w3",
-      "actualizado": "2026-10-15T13:42:49Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T13:47:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27027,10 +27027,10 @@
       "originalTrackId": "",
       "titulo": "Disparo Al Corazon",
       "artista": "Ricky Martin",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T13:43:49Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T13:46:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27059,15 +27059,21 @@
             "t": "2026-10-14T08:51:49Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: cara (coin) en item de rostro; sin PI desde que (l5,l20) ni a sangre fria (l10,25,38); WIT doble sujeto l5/l20 w3",
-            "t": "2026-10-15T13:39:45Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T13:46:52Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: cara (coin) en item de rostro; sin PI desde que (l5,l20) ni a sangre fria (l10,25,38); WIT doble sujeto l5/l20 w3",
-          "t": "2026-10-15T13:39:45Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T13:46:52Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:46:53Z"
         }
       }
     },
@@ -27077,10 +27083,10 @@
       "originalTrackId": "",
       "titulo": "Yerbatero",
       "artista": "Juanes",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:35:15Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: L9 w2 quitar tilde (el), reanclar al articulo y WIT 'the' como L30 w2; opcional L27 w1 'not'",
+      "actualizado": "2026-10-15T13:46:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27107,7 +27113,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:51:50Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L9 w2 tilde de mas (el/él), unificar con L30 w2",
+            "t": "2026-10-15T13:46:50Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L9 w2 tilde de mas (el/él), unificar con L30 w2",
+          "t": "2026-10-15T13:46:50Z"
         }
       }
     },
