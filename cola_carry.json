@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T10:15:43Z",
+  "generado": "2026-10-15T10:19:09Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -15612,9 +15612,9 @@
       "titulo": "El Recuento De Los Daños",
       "artista": "Gloria Trevi",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:08:14Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T10:19:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15641,7 +15641,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:29:56Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: ibas WIT tiempo (L25/44), falta ancla ir a (L25/44), en WIT 'in' vs 'into' (L20/39)",
+            "t": "2026-10-15T10:17:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: ibas WIT tiempo (L25/44), falta ancla ir a (L25/44), en WIT 'in' vs 'into' (L20/39)",
+          "t": "2026-10-15T10:17:29Z"
         }
       }
     },
@@ -15742,10 +15752,10 @@
       "originalTrackId": "",
       "titulo": "De Mi Enamorate",
       "artista": "Daniela Romo",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:08:14Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: WIT/PIT de 'de' L63, por fin, de una vez, mira que L16/43 y lineas EN 31/58/63",
+      "actualizado": "2026-10-15T10:18:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15772,7 +15782,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:30:09Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L63 w1 WIT con en 'de' (+ lineas EN 31/58/63), por fin L27/54 w5 vs L34/61, 'de' de una vez WIT just, PIT mira que L16/43 no cuadra con linea EN",
+            "t": "2026-10-15T10:18:46Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L63 w1 WIT con en 'de' (+ lineas EN 31/58/63), por fin L27/54 w5 vs L34/61, 'de' de una vez WIT just, PIT mira que L16/43 no cuadra con linea EN",
+          "t": "2026-10-15T10:18:46Z"
         }
       }
     },
