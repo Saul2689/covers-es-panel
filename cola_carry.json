@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T10:49:29Z",
+  "generado": "2026-10-15T10:53:07Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -16595,10 +16595,10 @@
       "originalTrackId": "",
       "titulo": "Donde Estan Los Ladrones",
       "artista": "Shakira",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:38:05Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "PIT L8 equivocado; WIT L14/L30 plays; WI.word L15/L31 y mayusculas; frases L18/L3",
+      "actualizado": "2026-10-15T10:49:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16625,7 +16625,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:31:29Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: PIT sin mas L8 sentido equivocado; WIT play->plays L14/L30; WI.word obsoleto L15/L31 (+case L5,L16,L20,L32); faltan frases L18 y L3",
+            "t": "2026-10-15T10:49:59Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: PIT sin mas L8 sentido equivocado; WIT play->plays L14/L30; WI.word obsoleto L15/L31 (+case L5,L16,L20,L32); faltan frases L18 y L3",
+          "t": "2026-10-15T10:49:59Z"
         }
       }
     },
@@ -16707,10 +16717,10 @@
       "originalTrackId": "",
       "titulo": "No Me Digas Que No (Boy Like You)",
       "artista": "Nikki Clan",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: ver reviews/6aa667ee72ca57eb1a9e0d44.md (L39 sentido, L18 frase, L16/L42/L44 to+inf, L40, ya no, WI.word)",
-      "actualizado": "2026-10-15T10:48:05Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T10:53:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
