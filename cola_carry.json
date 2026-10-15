@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T12:15:50Z",
+  "generado": "2026-10-15T12:17:50Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -20942,10 +20942,10 @@
       "originalTrackId": "",
       "titulo": "Si Supieras",
       "artista": "Daddy Yankee, Wisin & Yandel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T12:13:57Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T12:16:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20974,15 +20974,21 @@
             "t": "2026-10-14T08:41:28Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: faltan PI darse cuenta L8/L53 w10-12; WIT en minuscula nombre propio L2 w1 y letra W L44 w5",
-            "t": "2026-10-15T12:12:28Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T12:16:52Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: faltan PI darse cuenta L8/L53 w10-12; WIT en minuscula nombre propio L2 w1 y letra W L44 w5",
-          "t": "2026-10-15T12:12:28Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T12:16:52Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T12:16:55Z"
         }
       }
     },
@@ -20993,9 +20999,9 @@
       "titulo": "Soy Yo",
       "artista": "Luis Miguel",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T11:56:53Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T12:17:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21022,7 +21028,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:41:29Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L3 le WIT y hacer falta sin PI; L7 dar vueltas/sin lugar a dudas sin PI y mas 'no more'; EN L13/L22; soy yo duplicado L1/5/9",
+            "t": "2026-10-15T12:16:08Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L3 le WIT y hacer falta sin PI; L7 dar vueltas/sin lugar a dudas sin PI y mas 'no more'; EN L13/L22; soy yo duplicado L1/5/9",
+          "t": "2026-10-15T12:16:08Z"
         }
       }
     },
