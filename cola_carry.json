@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T08:56:16Z",
+  "generado": "2026-10-15T09:01:27Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -11741,10 +11741,10 @@
       "originalTrackId": "",
       "titulo": "Eternamente Bella",
       "artista": "Alejandra Guzmán",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T08:56:14Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T08:59:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11773,15 +11773,21 @@
             "t": "2026-10-14T08:20:40Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: PI ya que mal sentido L25, Russian minuscula L27, tiempo WIT L1, faltan locuciones L26/L27/L8, item querre L3",
-            "t": "2026-10-15T08:50:59Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T08:59:31Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: PI ya que mal sentido L25, Russian minuscula L27, tiempo WIT L1, faltan locuciones L26/L27/L8, item querre L3",
-          "t": "2026-10-15T08:50:59Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T08:59:31Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T08:59:34Z"
         }
       }
     },
@@ -12370,10 +12376,10 @@
       "originalTrackId": "",
       "titulo": "Dime Que Te Paso",
       "artista": "Wisin & Yandel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T08:43:38Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "doble sujeto soy+yo l19,30,49,88,97 w4; PI l3 sentido; anclar ir a l63, tener que l64, volver a l43; WIT l63 w2 y l64 w1",
+      "actualizado": "2026-10-15T08:58:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12400,7 +12406,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:22:51Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: soy+yo doble sujeto (l19,30,49,88,97 w4); PI no se que mal sentido (l3); faltan PIs ir a (l63), tener que (l64), volver a (l43)",
+            "t": "2026-10-15T08:58:10Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: soy+yo doble sujeto (l19,30,49,88,97 w4); PI no se que mal sentido (l3); faltan PIs ir a (l63), tener que (l64), volver a (l43)",
+          "t": "2026-10-15T08:58:10Z"
         }
       }
     },
@@ -12612,10 +12628,10 @@
       "originalTrackId": "",
       "titulo": "Quitame Ese Hombre",
       "artista": "Pilar Montenegro",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T08:49:49Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "faltan PIs ganas de y volver a en l9 y l26 (a=again pasa a to); WIT de la=my a the en l8, l17, l25; reabrir ingles y reenviar",
+      "actualizado": "2026-10-15T08:56:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12642,7 +12658,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:22:52Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: faltan PIs ganas de / volver a (l9, l26); WIT la=my x3 (l8, l17, l25)",
+            "t": "2026-10-15T08:56:20Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: faltan PIs ganas de / volver a (l9, l26); WIT la=my x3 (l8, l17, l25)",
+          "t": "2026-10-15T08:56:20Z"
         }
       }
     },
@@ -13698,8 +13724,8 @@
       "artista": "Napoleon",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:24:37Z",
+      "motivo": "pre-QC hecho, en espera de QC r1",
+      "actualizado": "2026-10-15T09:01:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13789,8 +13815,8 @@
       "artista": "Jose Jose",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:24:38Z",
+      "motivo": "pre-QC hecho, en espera de QC r1",
+      "actualizado": "2026-10-15T09:01:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14097,8 +14123,8 @@
       "artista": "Pedro Fernandez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:25:20Z",
+      "motivo": "pre-QC hecho, en espera de QC r1",
+      "actualizado": "2026-10-15T09:01:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14137,8 +14163,8 @@
       "artista": "los Tigres Del Norte",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:25:29Z",
+      "motivo": "pre-QC hecho, en espera de QC r1",
+      "actualizado": "2026-10-15T09:01:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14177,8 +14203,8 @@
       "artista": "Natalia Jimenez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:25:50Z",
+      "motivo": "pre-QC hecho, en espera de QC r1",
+      "actualizado": "2026-10-15T09:01:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
