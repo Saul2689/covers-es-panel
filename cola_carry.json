@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T09:54:34Z",
+  "generado": "2026-10-15T10:05:42Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -14766,10 +14766,10 @@
       "originalTrackId": "",
       "titulo": "Huellas",
       "artista": "Joe Vasconcellos",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T09:54:26Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1 DEVUELTO: quitar PI de una L18/L53, anclar ya/que en L7/L22/L56, que=because L11/26/40/60 + ingles, Saint L46/L48, lying L4/L33; reabrir borrador y reenviar",
+      "actualizado": "2026-10-15T10:04:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14796,7 +14796,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:28:29Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: PI de una mal anclado L18/L53; ya que sin anclas de palabra L7/L22/L56; que causal glosado that L11/26/40/60; Saint minuscula L46/L48; to doble L4/L33",
+            "t": "2026-10-15T10:04:08Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: PI de una mal anclado L18/L53; ya que sin anclas de palabra L7/L22/L56; que causal glosado that L11/26/40/60; Saint minuscula L46/L48; to doble L4/L33",
+          "t": "2026-10-15T10:04:08Z"
         }
       }
     },
@@ -14874,9 +14884,9 @@
       "titulo": "Te Ves Buena",
       "artista": "El General",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T09:54:28Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T10:05:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14903,7 +14913,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:28:55Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: nombres propios en minuscula (L50,L60,L61,PIT L62), Coca-Cola doble L13/L56, let's+to L17/L18, que/visto sentidos L3,L9-10,L20,L24,L39-40,L52-53,L69-70",
+            "t": "2026-10-15T10:01:59Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: nombres propios en minuscula (L50,L60,L61,PIT L62), Coca-Cola doble L13/L56, let's+to L17/L18, que/visto sentidos L3,L9-10,L20,L24,L39-40,L52-53,L69-70",
+          "t": "2026-10-15T10:01:59Z"
         }
       }
     },
@@ -14958,9 +14978,9 @@
       "titulo": "La Farsante",
       "artista": "Juan Gabriel",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T09:54:31Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T10:03:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14987,7 +15007,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:28:56Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: faltan 2 anclas de locucion (L16 w3-5, L31 w8-9); resto OK",
+            "t": "2026-10-15T10:01:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: faltan 2 anclas de locucion (L16 w3-5, L31 w8-9); resto OK",
+          "t": "2026-10-15T10:01:29Z"
         }
       }
     },
@@ -14997,10 +15027,10 @@
       "originalTrackId": "",
       "titulo": "Otra Vez",
       "artista": "Victor Garcia",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T09:54:33Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T10:05:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15027,7 +15057,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:28:57Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T10:04:59Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T10:04:59Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T10:05:02Z"
         }
       }
     },
@@ -15093,10 +15139,10 @@
       "originalTrackId": "",
       "titulo": "Hoy Ya Me Voy",
       "artista": "Kany Garcia",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T09:54:34Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: sujeto doble linea 24 palabra 4; WI.word con coma en lineas 8/39/58",
+      "actualizado": "2026-10-15T10:05:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15123,7 +15169,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:29:02Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: sujeto doble en linea 24 (palabra 4+5); WI.word con coma vieja en lineas 8, 39, 58",
+            "t": "2026-10-15T10:05:06Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: sujeto doble en linea 24 (palabra 4+5); WI.word con coma vieja en lineas 8, 39, 58",
+          "t": "2026-10-15T10:05:06Z"
         }
       }
     },
