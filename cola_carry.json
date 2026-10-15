@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T14:51:48Z",
+  "generado": "2026-10-15T14:56:21Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -30199,10 +30199,10 @@
       "originalTrackId": "",
       "titulo": "Aprovechalo",
       "artista": "Wisin Y Yandel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T14:48:45Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: L18 w3 polla sense, Tainy/W caps WITs, L9 EN paren, L14 w5, L3/L52 plural WIT, L6 EN; see reviews",
+      "actualizado": "2026-10-15T14:55:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30229,7 +30229,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:57:45Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1 DEVUELTO: L18 w3 wrong-sense item, L52 w8 and W lowercase WITs (L4,11,50), L9 EN paren, L14 w5 / L3 w2 / L52 w2 WIT form, L6 EN",
+            "t": "2026-10-15T14:55:14Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1 DEVUELTO: L18 w3 wrong-sense item, L52 w8 and W lowercase WITs (L4,11,50), L9 EN paren, L14 w5 / L3 w2 / L52 w2 WIT form, L6 EN",
+          "t": "2026-10-15T14:55:14Z"
         }
       }
     },
@@ -30240,9 +30250,9 @@
       "titulo": "Mas Que Tu Amigo",
       "artista": "Tito Nieves",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T14:48:45Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T14:56:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30269,7 +30279,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:57:46Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "6 defectos de WIT/PIT ingles: L2 w2 y w4, L3 w11, L5/L14 w5, L22 w2 y PI w11-12",
+            "t": "2026-10-15T14:54:51Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "6 defectos de WIT/PIT ingles: L2 w2 y w4, L3 w11, L5/L14 w5, L22 w2 y PI w11-12",
+          "t": "2026-10-15T14:54:51Z"
         }
       }
     },
@@ -30360,10 +30380,10 @@
       "originalTrackId": "",
       "titulo": "Lo Que Te Di",
       "artista": "Marc Anthony",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T14:48:46Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: WIT tal L1/L15 a such; quitar PI como-no L35/L37; anadir PI dejar ir L14/L26/L31; re-upsert WI.word L12 w6, L14 w3, L28 w4; reenviar ingles",
+      "actualizado": "2026-10-15T14:56:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30390,7 +30410,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:57:46Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: WIT tal=phrase meaning L1/L15, PI como-no sentido equivocado L35/L37, falta PI dejar ir L14/L26/L31, WI.word viejo L12 w6/L14 w3/L28 w4",
+            "t": "2026-10-15T14:56:08Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: WIT tal=phrase meaning L1/L15, PI como-no sentido equivocado L35/L37, falta PI dejar ir L14/L26/L31, WI.word viejo L12 w6/L14 w3/L28 w4",
+          "t": "2026-10-15T14:56:08Z"
         }
       },
       "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
