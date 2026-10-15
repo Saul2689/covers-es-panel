@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T15:19:35Z",
+  "generado": "2026-10-15T15:21:18Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -31245,10 +31245,10 @@
       "originalTrackId": "",
       "titulo": "Hay Un Cuento",
       "artista": "Floricienta",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T15:17:31Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T15:19:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31277,15 +31277,21 @@
             "t": "2026-10-14T08:58:56Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: WIT va/modal+to l11; pierdas y contaban sentido erroneo (nuevo item); unificar flores/de l7-l8",
-            "t": "2026-10-15T15:15:17Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T15:19:58Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: WIT va/modal+to l11; pierdas y contaban sentido erroneo (nuevo item); unificar flores/de l7-l8",
-          "t": "2026-10-15T15:15:17Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T15:19:58Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T15:19:59Z"
         }
       }
     },
@@ -31328,10 +31334,10 @@
       "originalTrackId": "",
       "titulo": "La Muerte Del Palomo",
       "artista": "Juan Gabriel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T15:11:37Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: WIT verbo doble L10 w4 y L20/L32 w2; anclas de frase L12 w1-2 y L24/L36 w2-4; ver reviews",
+      "actualizado": "2026-10-15T15:21:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31358,7 +31364,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:58:57Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 2 WIT con verbo doble (L10, L20/L32), faltan anclas de frase en L12 (desde que, item existe) y L24/L36 (dar las gracias, item nuevo); reabrir ingles y reenviar",
+            "t": "2026-10-15T15:21:09Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 2 WIT con verbo doble (L10, L20/L32), faltan anclas de frase en L12 (desde que, item existe) y L24/L36 (dar las gracias, item nuevo); reabrir ingles y reenviar",
+          "t": "2026-10-15T15:21:09Z"
         }
       }
     },
