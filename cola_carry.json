@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T08:30:27Z",
+  "generado": "2026-10-15T08:32:05Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -9942,9 +9942,9 @@
       "titulo": "Volcan",
       "artista": "Jose Jose",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T08:24:56Z",
+      "vueltas": 2,
+      "motivo": "corregida r2",
+      "actualizado": "2026-10-15T08:32:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9974,14 +9974,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "QC1: anclar hace tiempo (existe) y crear tener cuidado, golpe de mar, como el que mas; WIT por palabra en igual que, ten/cuidado, el; item volaste sentido equivocado; ingles L5/L20 sin you",
-            "t": "2026-10-14T16:03:55Z"
+            "nota": "QC2: r1 OK salvo you doblado en WIT de volaste (L12,13,27,28,31,32,35 w2+w3)",
+            "t": "2026-10-15T08:31:01Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "QC1: anclar hace tiempo (existe) y crear tener cuidado, golpe de mar, como el que mas; WIT por palabra en igual que, ten/cuidado, el; item volaste sentido equivocado; ingles L5/L20 sin you",
-          "t": "2026-10-14T16:03:55Z"
+          "resumen": "QC2: r1 OK salvo you doblado en WIT de volaste (L12,13,27,28,31,32,35 w2+w3)",
+          "t": "2026-10-15T08:31:01Z"
         }
       }
     },
@@ -10992,10 +10992,10 @@
       "originalTrackId": "",
       "titulo": "El Ultimo Adios",
       "artista": "Paulina Rubio",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-14T16:09:53Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: anclar desde que L1, por las buenas/malas L5+L18, crear+anclar de ley L7+L20, corchete en implorarme/suplicarme, reabrir ingles y reenviar",
+      "actualizado": "2026-10-15T08:30:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11022,7 +11022,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:17:27Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: faltan anclas de locuciones (desde que, por las buenas/malas, de ley) y 2 items nuevos sin corchete; resto OK",
+            "t": "2026-10-15T08:30:54Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: faltan anclas de locuciones (desde que, por las buenas/malas, de ley) y 2 items nuevos sin corchete; resto OK",
+          "t": "2026-10-15T08:30:54Z"
         }
       }
     },
