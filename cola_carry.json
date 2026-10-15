@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T12:52:10Z",
+  "generado": "2026-10-15T12:53:37Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23154,10 +23154,10 @@
       "originalTrackId": "",
       "titulo": "Tratar De Estar Mejor",
       "artista": "Diego Torres",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T12:49:47Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T12:53:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23186,15 +23186,21 @@
             "t": "2026-10-14T08:43:54Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: falta PI ir a en L4/L16; WIT ya L21 duplica negacion; to+to be L50/57/61; WIT tells L1 imperativo; Diego minuscula L58",
-            "t": "2026-10-15T12:47:42Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T12:53:03Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: falta PI ir a en L4/L16; WIT ya L21 duplica negacion; to+to be L50/57/61; WIT tells L1 imperativo; Diego minuscula L58",
-          "t": "2026-10-15T12:47:42Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T12:53:03Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T12:53:05Z"
         }
       }
     },
@@ -23456,10 +23462,10 @@
       "originalTrackId": "",
       "titulo": "Tu Hombre Perfecto",
       "artista": "Marco Antonio Solis",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "L2 w7 item encontrarás, L3 w1 item y, L4 w3 WIT, borrar PI L8 es más, crear PI a la medida (L1/L5) y en su momento (L4); ver reviews",
-      "actualizado": "2026-10-15T12:51:21Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T12:53:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23635,10 +23641,10 @@
       "originalTrackId": "",
       "titulo": "Bohemio De Aficion",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:45:46Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: L6 w4/w5 doble, L20/41 w2 WIT=PIT, PIT mi corazon L19/40 sentido, primaria i suit",
+      "actualizado": "2026-10-15T12:53:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23665,7 +23671,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:45:04Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: WIT doble really L6, WIT=PIT L20/41, PIT mi corazon sentido erroneo L19/40, primaria 'i suit'",
+            "t": "2026-10-15T12:53:30Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: WIT doble really L6, WIT=PIT L20/41, PIT mi corazon sentido erroneo L19/40, primaria 'i suit'",
+          "t": "2026-10-15T12:53:30Z"
         }
       }
     },
