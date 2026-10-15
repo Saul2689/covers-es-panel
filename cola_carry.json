@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T14:37:39Z",
+  "generado": "2026-10-15T14:42:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -29454,9 +29454,9 @@
       "titulo": "Tira La Primera Piedra",
       "artista": "Diomedes Diaz",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T14:35:00Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T14:42:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29483,7 +29483,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:56:01Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L11 w3-4 hacer caso sin ancla, L22/L24 w6-7 para que sin ancla, L30 w2 nombre en minuscula",
+            "t": "2026-10-15T14:40:07Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L11 w3-4 hacer caso sin ancla, L22/L24 w6-7 para que sin ancla, L30 w2 nombre en minuscula",
+          "t": "2026-10-15T14:40:07Z"
         }
       }
     },
@@ -29600,10 +29610,10 @@
       "originalTrackId": "",
       "titulo": "Ya No",
       "artista": "Selena",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T14:35:00Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "PI te quiero mal en L28/L33 (borrar); sólo->solo L31 w4, L32 w6 (LRC+ancla+WIT)",
+      "actualizado": "2026-10-15T14:41:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29630,7 +29640,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:56:15Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 2 defectos: PI 'I love you' mal en L28 y L33 (borrar), sólo->solo en L31 w4 y L32 w6",
+            "t": "2026-10-15T14:41:27Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 2 defectos: PI 'I love you' mal en L28 y L33 (borrar), sólo->solo en L31 w4 y L32 w6",
+          "t": "2026-10-15T14:41:27Z"
         }
       }
     },
@@ -29808,10 +29828,10 @@
       "originalTrackId": "",
       "titulo": "Mi Niña",
       "artista": "los Toros Band",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T14:35:01Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "L34/L49 w6 item de sentido equivocado (crear item reflexivo y remapear); L20 w1-3 falta frase es tener la culpa; reabrir draft ingles y reenviar",
+      "actualizado": "2026-10-15T14:40:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29838,7 +29858,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:56:28Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L34/L49 w6 item de enamorar transitivo (necesita item enamorarse nuevo); L20 w1-3 falta ancla de locucion tener la culpa",
+            "t": "2026-10-15T14:40:18Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L34/L49 w6 item de enamorar transitivo (necesita item enamorarse nuevo); L20 w1-3 falta ancla de locucion tener la culpa",
+          "t": "2026-10-15T14:40:18Z"
         }
       }
     },
@@ -29849,9 +29879,9 @@
       "titulo": "Esclavo Y Amo",
       "artista": "Javier Solis",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T14:35:01Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T14:42:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29878,7 +29908,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:56:29Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: falta PIT volver loco en linea 4 w5-6 (+WIT turns/crazy); WIT 'I lay down' -> 'I lie down' lineas 9 y 18 w5",
+            "t": "2026-10-15T14:38:38Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: falta PIT volver loco en linea 4 w5-6 (+WIT turns/crazy); WIT 'I lay down' -> 'I lie down' lineas 9 y 18 w5",
+          "t": "2026-10-15T14:38:38Z"
         }
       }
     },
