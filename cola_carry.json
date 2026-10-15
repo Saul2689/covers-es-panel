@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T12:06:56Z",
+  "generado": "2026-10-15T12:10:58Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -20729,9 +20729,9 @@
       "titulo": "Me Va A Extrañar",
       "artista": "Ricardo Montaner",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T12:05:39Z",
+      "vueltas": 2,
+      "motivo": "corregida r2",
+      "actualizado": "2026-10-15T12:10:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20761,14 +20761,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "QC1: 3 missing phrase anchors (ganas de L19/35/43, sin duda L4, juego limpio L7), wrong-sense WIT L4 w3, 2 new item brackets/wordForm",
-            "t": "2026-10-15T12:03:59Z"
+            "nota": "QC2: fixes D1-D5 OK, sin regresiones; falta 1 WIT: L4 w4 'to' tras 'letting me' (infinitivo desnudo)",
+            "t": "2026-10-15T12:08:55Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "QC1: 3 missing phrase anchors (ganas de L19/35/43, sin duda L4, juego limpio L7), wrong-sense WIT L4 w3, 2 new item brackets/wordForm",
-          "t": "2026-10-15T12:03:59Z"
+          "resumen": "QC2: fixes D1-D5 OK, sin regresiones; falta 1 WIT: L4 w4 'to' tras 'letting me' (infinitivo desnudo)",
+          "t": "2026-10-15T12:08:55Z"
         }
       }
     },
@@ -20870,9 +20870,9 @@
       "titulo": "El Peor De Mis Fracasos",
       "artista": "Marco Antonio Solís",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T11:56:52Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T12:10:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20899,7 +20899,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:40:20Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1 DEVUELTO: 2 locuciones sin ancla (lineas 21/29 w6-7, linea 6 w4-6)",
+            "t": "2026-10-15T12:09:00Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1 DEVUELTO: 2 locuciones sin ancla (lineas 21/29 w6-7, linea 6 w4-6)",
+          "t": "2026-10-15T12:09:00Z"
         }
       }
     },
