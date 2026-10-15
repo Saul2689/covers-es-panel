@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T10:46:39Z",
+  "generado": "2026-10-15T10:49:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -16658,9 +16658,9 @@
       "titulo": "Me Gustas Mucho",
       "artista": "Rocio Durcal",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:38:06Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T10:49:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16687,7 +16687,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:31:56Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: faltan 4 anclas de frase (hace mucho L4, tener que L12, haber de L3, que conste L13/L27); resto OK",
+            "t": "2026-10-15T10:47:12Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: faltan 4 anclas de frase (hace mucho L4, tener que L12, haber de L3, que conste L13/L27); resto OK",
+          "t": "2026-10-15T10:47:12Z"
         }
       }
     },
@@ -16697,10 +16707,10 @@
       "originalTrackId": "",
       "titulo": "No Me Digas Que No (Boy Like You)",
       "artista": "Nikki Clan",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:38:07Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: ver reviews/6aa667ee72ca57eb1a9e0d44.md (L39 sentido, L18 frase, L16/L42/L44 to+inf, L40, ya no, WI.word)",
+      "actualizado": "2026-10-15T10:48:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16727,7 +16737,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:32:38Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: sentido cambiarás L39, falta frase L18, to+inf L16/L42/L44, sujeto doble L40, ya no L9/28/29/52/53, WI.word L2/L5/L19",
+            "t": "2026-10-15T10:48:04Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: sentido cambiarás L39, falta frase L18, to+inf L16/L42/L44, sujeto doble L40, ya no L9/28/29/52/53, WI.word L2/L5/L19",
+          "t": "2026-10-15T10:48:04Z"
         }
       }
     },
