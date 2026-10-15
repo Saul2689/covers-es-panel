@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T11:25:24Z",
+  "generado": "2026-10-15T11:27:51Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17965,10 +17965,10 @@
       "originalTrackId": "",
       "titulo": "Pisando Fuerte",
       "artista": "Alejandro Sanz",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: ver reviews/6aa51a5342b8d1fdb0c6bd0f.md (9 puntos por linea/palabra)",
-      "actualizado": "2026-10-15T11:15:55Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T11:27:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18015,10 +18015,10 @@
       "originalTrackId": "",
       "titulo": "Ponte En Mi Lugar",
       "artista": "Espinoza Paz",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T11:23:46Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "r2: item de frase no coincide con lo cantado en L24/L36 y ejemplo 3 de en mis zapatos lleva el verso",
+      "actualizado": "2026-10-15T11:26:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18048,14 +18048,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "QC1: te quiero PI missing L24/L36; wrong-sense item L20/L32 w1; lyric line in example of new item portes; idiom en mis zapatos no PI L22/L34",
-            "t": "2026-10-15T11:21:30Z"
+            "nota": "r2: PI de 'te quiero' sobre 'te amo' (crear item te amo o quitar PIs) y ejemplo 3 de 'en mis zapatos' lleva el verso",
+            "t": "2026-10-15T11:26:12Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "QC1: te quiero PI missing L24/L36; wrong-sense item L20/L32 w1; lyric line in example of new item portes; idiom en mis zapatos no PI L22/L34",
-          "t": "2026-10-15T11:21:30Z"
+          "resumen": "r2: PI de 'te quiero' sobre 'te amo' (crear item te amo o quitar PIs) y ejemplo 3 de 'en mis zapatos' lleva el verso",
+          "t": "2026-10-15T11:26:12Z"
         }
       }
     },
@@ -18266,10 +18266,10 @@
       "originalTrackId": "",
       "titulo": "Por Ella",
       "artista": "Julio Iglesias",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T11:25:03Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "D8: primaria en minuscula de item quieros 6ac54d8d (ver review, fix por renombrado)",
+      "actualizado": "2026-10-15T11:27:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18299,14 +18299,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "QC1: 9 fixes de WIT ingles (L6, L22, L28, L35, L44) + fila primaria de quieros; resto ok",
-            "t": "2026-10-15T11:22:58Z"
+            "nota": "QC2: D1-D7 ok, sin regresiones; D8 abierto (primaria lowercase de quieros, arreglable sin set_primary)",
+            "t": "2026-10-15T11:27:40Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "QC1: 9 fixes de WIT ingles (L6, L22, L28, L35, L44) + fila primaria de quieros; resto ok",
-          "t": "2026-10-15T11:22:58Z"
+          "resumen": "QC2: D1-D7 ok, sin regresiones; D8 abierto (primaria lowercase de quieros, arreglable sin set_primary)",
+          "t": "2026-10-15T11:27:40Z"
         }
       }
     },
@@ -18882,10 +18882,10 @@
       "originalTrackId": "",
       "titulo": "Miedo",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T11:13:07Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "faltan anclas de frase L2, L14, L32, L15, L33, L41; L3 cambiar frente a por frente a frente; ver reviews",
+      "actualizado": "2026-10-15T11:27:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18912,7 +18912,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:36:07Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: faltan anclas de frase (por fin L2, hacer falta L14/L32, ganas de L15/L33, tener miedo L41) y L3 frente a es sentido equivocado (frente a frente existe)",
+            "t": "2026-10-15T11:27:02Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: faltan anclas de frase (por fin L2, hacer falta L14/L32, ganas de L15/L33, tener miedo L41) y L3 frente a es sentido equivocado (frente a frente existe)",
+          "t": "2026-10-15T11:27:02Z"
         }
       }
     },
