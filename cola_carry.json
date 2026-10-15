@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:19:31Z",
+  "generado": "2026-10-15T13:24:01Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -25054,9 +25054,9 @@
       "titulo": "Insaciable Amante",
       "artista": "Jose Jose",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:07:40Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T13:24:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25083,7 +25083,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:47:57Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: WIT=PIT en hasta (L14/L33 w1); faltan anclas de locucion volver a (L29 w4-5) y dejar de (L14/L33 w5-6)",
+            "t": "2026-10-15T13:19:53Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: WIT=PIT en hasta (L14/L33 w1); faltan anclas de locucion volver a (L29 w4-5) y dejar de (L14/L33 w5-6)",
+          "t": "2026-10-15T13:19:53Z"
         }
       }
     },
@@ -25094,9 +25104,9 @@
       "titulo": "Amiga Si Lo Ves",
       "artista": "Jenni Rivera",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:07:41Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T13:24:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25123,7 +25133,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:48:09Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L15/L33 w5 item inventado (forma verbal deliro), L8 w6 cielo sentido equivocado (hay item correcto)",
+            "t": "2026-10-15T13:20:56Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L15/L33 w5 item inventado (forma verbal deliro), L8 w6 cielo sentido equivocado (hay item correcto)",
+          "t": "2026-10-15T13:20:56Z"
         }
       }
     },
@@ -25300,10 +25320,10 @@
       "originalTrackId": "",
       "titulo": "Nada Es Para Siempre",
       "artista": "Luis Fonsi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:07:41Z",
+      "motivo": "QC1 VERDE",
+      "actualizado": "2026-10-15T13:22:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25330,7 +25350,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:48:19Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC1 VERDE",
+            "t": "2026-10-15T13:22:55Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC1 VERDE",
+          "t": "2026-10-15T13:22:55Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:22:56Z"
         }
       }
     },
@@ -25530,10 +25566,10 @@
       "originalTrackId": "",
       "titulo": "Vuelve",
       "artista": "Shakira",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:07:41Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: PIT L19/L21 mal, item nuevo L43, tilde L35, WIT nombres propios L5/6/13/26, ancla volver a L22",
+      "actualizado": "2026-10-15T13:23:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25560,7 +25596,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:49:01Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 2 PIT de sentido equivocado (L19, L21), item mordido de sentido distinto (L43), tilde sobrante (L35), WIT de nombres propios en minuscula (L5, L6, L13, L26), falta ancla volver a (L22)",
+            "t": "2026-10-15T13:23:53Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 2 PIT de sentido equivocado (L19, L21), item mordido de sentido distinto (L43), tilde sobrante (L35), WIT de nombres propios en minuscula (L5, L6, L13, L26), falta ancla volver a (L22)",
+          "t": "2026-10-15T13:23:53Z"
         }
       }
     },
