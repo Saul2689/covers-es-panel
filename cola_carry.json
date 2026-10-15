@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T14:04:51Z",
+  "generado": "2026-10-15T14:06:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -27238,10 +27238,10 @@
       "originalTrackId": "",
       "titulo": "La Luz",
       "artista": "Juanes",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T14:01:07Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T14:05:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27270,15 +27270,21 @@
             "t": "2026-10-14T08:51:51Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: WIT de nombre propio en minuscula L8; falta ancla haber de en L7/13/32/38",
-            "t": "2026-10-15T13:57:13Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T14:05:31Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: WIT de nombre propio en minuscula L8; falta ancla haber de en L7/13/32/38",
-          "t": "2026-10-15T13:57:13Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T14:05:31Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T14:05:32Z"
         }
       }
     },
@@ -27361,10 +27367,10 @@
       "originalTrackId": "",
       "titulo": "Tarde O Temprano",
       "artista": "Camilo Sesto",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T14:01:07Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T14:05:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27393,15 +27399,21 @@
             "t": "2026-10-14T08:51:56Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: l15 w4-5 PI wrong sense (delete); l13 w14-15 missing PI pedir perdon",
-            "t": "2026-10-15T13:59:44Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T14:05:39Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: l15 w4-5 PI wrong sense (delete); l13 w14-15 missing PI pedir perdon",
-          "t": "2026-10-15T13:59:44Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T14:05:39Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T14:05:40Z"
         }
       }
     },
@@ -27462,10 +27474,10 @@
       "originalTrackId": "",
       "titulo": "Se Vale To To",
       "artista": "Calle 13",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:51:49Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1 DEVUELTO: ver reviews/6aa534fa42b8d1fdb0c935ab.md (L11,14,15,26,27,30,31,36,45,56,61,64)",
+      "actualizado": "2026-10-15T14:04:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27492,7 +27504,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:53:07Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L45 si/si tilde+ancla, WIT L31 w9, L15/L61 'to'+'to X', L56 minuscula, L64 mayuscula, falta PI dar vuelta L11/L14, sin mapear real L26/L27/L30, PI asi que/hace juego",
+            "t": "2026-10-15T14:04:52Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L45 si/si tilde+ancla, WIT L31 w9, L15/L61 'to'+'to X', L56 minuscula, L64 mayuscula, falta PI dar vuelta L11/L14, sin mapear real L26/L27/L30, PI asi que/hace juego",
+          "t": "2026-10-15T14:04:52Z"
         }
       },
       "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
