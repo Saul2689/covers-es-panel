@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T12:56:36Z",
+  "generado": "2026-10-15T12:57:58Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24013,10 +24013,10 @@
       "originalTrackId": "",
       "titulo": "Te Lo Pido De Rodillas",
       "artista": "Los Iracundos",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:45:47Z",
+      "motivo": "QC1 VERDE",
+      "actualizado": "2026-10-15T12:57:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24043,7 +24043,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:45:17Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC1 VERDE",
+            "t": "2026-10-15T12:57:39Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC1 VERDE",
+          "t": "2026-10-15T12:57:39Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T12:57:40Z"
         }
       }
     },
