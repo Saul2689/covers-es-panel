@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:26:55Z",
+  "generado": "2026-10-15T13:29:22Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24981,10 +24981,10 @@
       "originalTrackId": "",
       "titulo": "Me Falta El Aliento",
       "artista": "Estopa",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: WIT doble L30/L36/L37, WIT=PIT L40, sentido L8/L16, no longer L30/L35, PIT menos mal y as en la manga, tilde L29 t3",
-      "actualizado": "2026-10-15T13:19:02Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T13:29:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25823,10 +25823,10 @@
       "originalTrackId": "",
       "titulo": "Sombra De Ti",
       "artista": "Shakira",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:18:45Z",
+      "motivo": "QC1 VERDE",
+      "actualizado": "2026-10-15T13:28:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25853,7 +25853,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:49:03Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC1 VERDE",
+            "t": "2026-10-15T13:27:18Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC1 VERDE",
+          "t": "2026-10-15T13:27:18Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:28:20Z"
         }
       }
     },
