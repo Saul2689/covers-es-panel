@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:04:13Z",
+  "generado": "2026-10-15T13:06:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24170,9 +24170,9 @@
       "titulo": "El Destino",
       "artista": "Juan Gabriel, Rocio Durcal",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:45:48Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T13:06:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24199,7 +24199,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:46:15Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: que=who on a day (L23/64), WIT=PIT diario (L60), cruzo past-tense item (L24/64), de infinitive-marker item (L30/67), vemos doubles nos + poco (L3), missing phrase anchors valer la pena (L29/66) and desde que (L4/39)",
+            "t": "2026-10-15T13:04:55Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: que=who on a day (L23/64), WIT=PIT diario (L60), cruzo past-tense item (L24/64), de infinitive-marker item (L30/67), vemos doubles nos + poco (L3), missing phrase anchors valer la pena (L29/66) and desde que (L4/39)",
+          "t": "2026-10-15T13:04:55Z"
         }
       }
     },
