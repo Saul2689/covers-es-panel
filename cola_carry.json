@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T11:32:57Z",
+  "generado": "2026-10-15T11:34:31Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -18582,10 +18582,10 @@
       "originalTrackId": "",
       "titulo": "Que Sera De Ti",
       "artista": "Thalia",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "DEVUELTO r1: PIT de una mal en L7/L20; L16 w4 sin tilde (qué) + PIT; item separa con definicion en espanol",
-      "actualizado": "2026-10-15T11:24:48Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T11:34:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18889,10 +18889,10 @@
       "originalTrackId": "",
       "titulo": "Miedo",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T11:31:08Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T11:33:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18921,15 +18921,21 @@
             "t": "2026-10-14T08:36:07Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: faltan anclas de frase (por fin L2, hacer falta L14/L32, ganas de L15/L33, tener miedo L41) y L3 frente a es sentido equivocado (frente a frente existe)",
-            "t": "2026-10-15T11:27:02Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T11:33:38Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: faltan anclas de frase (por fin L2, hacer falta L14/L32, ganas de L15/L33, tener miedo L41) y L3 frente a es sentido equivocado (frente a frente existe)",
-          "t": "2026-10-15T11:27:02Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T11:33:38Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T11:33:39Z"
         }
       }
     },
@@ -18961,10 +18967,10 @@
       "originalTrackId": "",
       "titulo": "Las Batallas",
       "artista": "Cafe Tacuba",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T11:32:01Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T11:33:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18993,15 +18999,21 @@
             "t": "2026-10-14T08:36:08Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: WIT Carlos en minuscula L1/3/17/19 w2; PI mi amor (apelativo) mal en L16 w2-3; WIT to en a personal L4/L20 w9",
-            "t": "2026-10-15T11:30:07Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T11:33:36Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: WIT Carlos en minuscula L1/3/17/19 w2; PI mi amor (apelativo) mal en L16 w2-3; WIT to en a personal L4/L20 w9",
-          "t": "2026-10-15T11:30:07Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T11:33:36Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T11:33:37Z"
         }
       }
     },
@@ -19011,10 +19023,10 @@
       "originalTrackId": "",
       "titulo": "Acabame De Matar",
       "artista": "Banda El Recodo",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T11:13:08Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: ya-no WIT (4), anclas hacer caso L18/20, haber de L30/32, para que L2/4/34/36, herido L6/38, To L28",
+      "actualizado": "2026-10-15T11:33:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19041,7 +19053,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:36:38Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: ya no WIT, hacer caso/haber de/para que anclas, herido L6/L38, To L28",
+            "t": "2026-10-15T11:33:25Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: ya no WIT, hacer caso/haber de/para que anclas, herido L6/L38, To L28",
+          "t": "2026-10-15T11:33:25Z"
         }
       }
     },
