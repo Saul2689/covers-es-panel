@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T09:16:31Z",
+  "generado": "2026-10-15T09:18:23Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -13042,9 +13042,9 @@
       "titulo": "Yo No Se Que Me Paso",
       "artista": "Juan Gabriel",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T09:11:32Z",
+      "vueltas": 2,
+      "motivo": "corregida r2",
+      "actualizado": "2026-10-15T09:18:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13074,14 +13074,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "QC1: 2 WIT fragmento (l12,l34), 3 PI de sentido erroneo (l1,l14,l36), faltan PI volver a (l23,l44) y acabar con (l30,l52), WIT modal+to (l29,l51)",
-            "t": "2026-10-15T09:08:49Z"
+            "nota": "QC2 DEVUELTO: r1 fixes OK; l23/l44 linea inglesa sin sujeto",
+            "t": "2026-10-15T09:17:28Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "QC1: 2 WIT fragmento (l12,l34), 3 PI de sentido erroneo (l1,l14,l36), faltan PI volver a (l23,l44) y acabar con (l30,l52), WIT modal+to (l29,l51)",
-          "t": "2026-10-15T09:08:49Z"
+          "resumen": "QC2 DEVUELTO: r1 fixes OK; l23/l44 linea inglesa sin sujeto",
+          "t": "2026-10-15T09:17:28Z"
         }
       }
     },
@@ -13187,10 +13187,10 @@
       "originalTrackId": "",
       "titulo": "Aquel Viejo Motel",
       "artista": "David Pabon",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T09:14:41Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T09:18:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13219,15 +13219,21 @@
             "t": "2026-10-14T08:24:36Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L34 EN ends in comma; missing phrase anchors L5 (hacer caso, tratar de); repaso primary en row lowercase",
-            "t": "2026-10-15T09:11:02Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T09:18:14Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L34 EN ends in comma; missing phrase anchors L5 (hacer caso, tratar de); repaso primary en row lowercase",
-          "t": "2026-10-15T09:11:02Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T09:18:14Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T09:18:15Z"
         }
       }
     },
