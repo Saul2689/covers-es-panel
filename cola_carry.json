@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T10:34:48Z",
+  "generado": "2026-10-15T10:37:37Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -16471,10 +16471,10 @@
       "originalTrackId": "",
       "titulo": "Loco",
       "artista": "Alejandro Fernández",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T10:34:44Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T10:37:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16503,15 +16503,21 @@
             "t": "2026-10-14T08:31:09Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: fila primaria en de la ficha nueva platico lleva i minuscula; resto OK",
-            "t": "2026-10-15T10:31:15Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T10:37:01Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: fila primaria en de la ficha nueva platico lleva i minuscula; resto OK",
-          "t": "2026-10-15T10:31:15Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T10:37:01Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T10:37:02Z"
         }
       }
     },
@@ -16522,9 +16528,9 @@
       "titulo": "Volverte A Amar",
       "artista": "Alejandra Guzmán",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:25:14Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T10:37:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16551,7 +16557,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:31:17Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: faltan anclas de locuciones es existentes (es que, dejar de, desde que, volver a); WIT de dentro de dejar de",
+            "t": "2026-10-15T10:36:05Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: faltan anclas de locuciones es existentes (es que, dejar de, desde que, volver a); WIT de dentro de dejar de",
+          "t": "2026-10-15T10:36:05Z"
         }
       }
     },
