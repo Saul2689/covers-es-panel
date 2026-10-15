@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T10:38:09Z",
+  "generado": "2026-10-15T10:38:57Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -16192,10 +16192,10 @@
       "originalTrackId": "",
       "titulo": "Mentiras",
       "artista": "Daniela Romo",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 2,
-      "motivo": "L8 w4: WIT 'to doubt' duplica el 'to' del PIT; poner 'doubt' (fila nueva en la bolsa de dudar)",
-      "actualizado": "2026-10-15T10:38:06Z",
+      "motivo": "corregida r2",
+      "actualizado": "2026-10-15T10:38:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16309,10 +16309,10 @@
       "originalTrackId": "",
       "titulo": "Pasos De Gigante",
       "artista": "Bacilos",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T10:34:46Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T10:38:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16341,15 +16341,21 @@
             "t": "2026-10-14T08:31:08Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: L11 w4 doble negacion, L3 w3-4 'dejar de' sin ancla, L44 w6 WI.word con coma; reabrir EN",
-            "t": "2026-10-15T10:29:25Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T10:38:12Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: L11 w4 doble negacion, L3 w3-4 'dejar de' sin ancla, L44 w6 WI.word con coma; reabrir EN",
-          "t": "2026-10-15T10:29:25Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T10:38:12Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T10:38:15Z"
         }
       }
     },
