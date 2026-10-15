@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:58:33Z",
+  "generado": "2026-10-15T14:01:08Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -27162,10 +27162,10 @@
       "originalTrackId": "",
       "titulo": "1 2 3",
       "artista": "El Simbolo",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: linea 79 palabra 1: WIT 3sg vs traduccion imperativa; anadir fila 'take' no primaria y repuntar WIT, o ajustar la linea; reabrir borrador y reenviar",
-      "actualizado": "2026-10-15T13:57:27Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T14:01:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27232,10 +27232,10 @@
       "originalTrackId": "",
       "titulo": "La Luz",
       "artista": "Juanes",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: L8 w5 WIT minuscula (nombre propio); anclar haber de L7/13/32/38 w3-4; ver reviews",
-      "actualizado": "2026-10-15T13:57:13Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T14:01:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27356,9 +27356,9 @@
       "titulo": "Tarde O Temprano",
       "artista": "Camilo Sesto",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:51:48Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T14:01:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27385,7 +27385,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:51:56Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: l15 w4-5 PI wrong sense (delete); l13 w14-15 missing PI pedir perdon",
+            "t": "2026-10-15T13:59:44Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: l15 w4-5 PI wrong sense (delete); l13 w14-15 missing PI pedir perdon",
+          "t": "2026-10-15T13:59:44Z"
         }
       }
     },
