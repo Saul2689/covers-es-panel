@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T11:55:19Z",
+  "generado": "2026-10-15T11:56:54Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -19932,10 +19932,10 @@
       "originalTrackId": "",
       "titulo": "Maria Teresa Y Danilo",
       "artista": "Hansel Y Raul",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T11:53:32Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T11:56:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19964,15 +19964,21 @@
             "t": "2026-10-14T08:39:06Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "R1: WIT Danilo/Teresa en minuscula (27), L74 por->because of, L78 mía->my, falta PI cuento de hadas (L16) y a montón (L13)",
-            "t": "2026-10-15T11:51:27Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T11:56:03Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "R1: WIT Danilo/Teresa en minuscula (27), L74 por->because of, L78 mía->my, falta PI cuento de hadas (L16) y a montón (L13)",
-          "t": "2026-10-15T11:51:27Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T11:56:03Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T11:56:05Z"
         }
       }
     },
@@ -20088,10 +20094,10 @@
       "originalTrackId": "",
       "titulo": "Ya Te Olvide",
       "artista": "Rocio Durcal",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, espera QC r1",
-      "actualizado": "2026-10-15T11:44:05Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "falta PI volver a en L2 y L3 y su PIT en el borrador de ingles; corregir tilde en un ejemplo del item herirme",
+      "actualizado": "2026-10-15T11:56:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20118,7 +20124,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:39:07Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: falta anclar la locucion volver a en L2 y L3 (item es existente); ejemplo de herirme sin tilde",
+            "t": "2026-10-15T11:56:20Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: falta anclar la locucion volver a en L2 y L3 (item es existente); ejemplo de herirme sin tilde",
+          "t": "2026-10-15T11:56:20Z"
         }
       }
     },
@@ -20670,8 +20686,8 @@
       "artista": "Ricardo Montaner",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:40:09Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T11:56:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20761,8 +20777,8 @@
       "artista": "Lucero, Mijares",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:40:19Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T11:56:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20801,8 +20817,8 @@
       "artista": "Marco Antonio Solís",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:40:21Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T11:56:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20841,8 +20857,8 @@
       "artista": "Daddy Yankee, Wisin & Yandel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:41:29Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T11:56:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20881,8 +20897,8 @@
       "artista": "Luis Miguel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:41:30Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T11:56:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
