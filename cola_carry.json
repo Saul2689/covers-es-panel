@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T10:53:07Z",
+  "generado": "2026-10-15T10:56:44Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -16667,10 +16667,10 @@
       "originalTrackId": "",
       "titulo": "Me Gustas Mucho",
       "artista": "Rocio Durcal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T10:49:29Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T10:56:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16699,15 +16699,21 @@
             "t": "2026-10-14T08:31:56Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: faltan 4 anclas de frase (hace mucho L4, tener que L12, haber de L3, que conste L13/L27); resto OK",
-            "t": "2026-10-15T10:47:12Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T10:56:35Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: faltan 4 anclas de frase (hace mucho L4, tener que L12, haber de L3, que conste L13/L27); resto OK",
-          "t": "2026-10-15T10:47:12Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T10:56:35Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T10:56:38Z"
         }
       }
     },
@@ -16807,10 +16813,10 @@
       "originalTrackId": "",
       "titulo": "Cosas Del Amor",
       "artista": "Ana Gabriel, Vicky Carr",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:38:07Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1 DEVUELTO: L19/L40 w6 WIT person, L24 w1 doubled negation, L22 w3-5 wrong-sense PIT, L6 w2-3 missing PIT, L27 w4 WIT; see reviews",
+      "actualizado": "2026-10-15T10:55:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16837,7 +16843,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:32:39Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1 DEVUELTO: L19/L40 w6 WIT person, L24 w1 doubled negation, L22 w3-5 wrong-sense PIT, L6 w2-3 missing PIT, L27 w4 WIT; see reviews",
+            "t": "2026-10-15T10:55:08Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1 DEVUELTO: L19/L40 w6 WIT person, L24 w1 doubled negation, L22 w3-5 wrong-sense PIT, L6 w2-3 missing PIT, L27 w4 WIT; see reviews",
+          "t": "2026-10-15T10:55:08Z"
         }
       }
     },
@@ -16858,10 +16874,10 @@
       "originalTrackId": "",
       "titulo": "Gitana",
       "artista": "Shakira",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:38:08Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: mapear contramano L11/25/44 w7 (item 6ac5b2c1...); anclar locucion de paso L2 w2-3; reabrir ingles y reenviar",
+      "actualizado": "2026-10-15T10:53:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16888,7 +16904,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:32:40Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: faltan ancla de contramano (L11/25/44 w7) y locucion 'de paso' (L2 w2-3)",
+            "t": "2026-10-15T10:53:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: faltan ancla de contramano (L11/25/44 w7) y locucion 'de paso' (L2 w2-3)",
+          "t": "2026-10-15T10:53:29Z"
         }
       }
     },
@@ -16955,9 +16981,9 @@
       "titulo": "Otro Ocupa Mi Lugar",
       "artista": "Miguel Gallardo",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:39:54Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T10:56:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16984,7 +17010,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:32:49Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 4 items nuevos con definicion en espanol (deben ir en ingles); WI.word obsoleto en L14 w2",
+            "t": "2026-10-15T10:54:23Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 4 items nuevos con definicion en espanol (deben ir en ingles); WI.word obsoleto en L14 w2",
+          "t": "2026-10-15T10:54:23Z"
         }
       }
     },
