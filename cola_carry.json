@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:10:25Z",
+  "generado": "2026-10-15T13:12:16Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24533,10 +24533,10 @@
       "originalTrackId": "",
       "titulo": "Si Tu Me Miras",
       "artista": "Alejandro Sanz",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: frases L22/L40 hacer falta sin anclar; L28 idioma sin phrase item y PI 'lo que' mal; L11 PIT sentido contrario; L15 WIT=PIT",
-      "actualizado": "2026-10-15T13:09:22Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T13:12:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24616,10 +24616,10 @@
       "originalTrackId": "",
       "titulo": "Esta Ausencia",
       "artista": "David Bisbal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T13:09:11Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T13:12:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24648,15 +24648,21 @@
             "t": "2026-10-14T08:46:41Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: 4 fixes WIT/item (L2 w2, L4 w5-6, L9 w1, L37 w5)",
-            "t": "2026-10-15T13:07:36Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T13:12:14Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: 4 fixes WIT/item (L2 w2, L4 w5-6, L9 w1, L37 w5)",
-          "t": "2026-10-15T13:07:36Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T13:12:14Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:12:15Z"
         }
       }
     },
@@ -24666,10 +24672,10 @@
       "originalTrackId": "",
       "titulo": "Fue Un Placer Conocerte",
       "artista": "Rocio Durcal",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:03:36Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: L11 w3 WIT yourself; conformé primary row I settled for",
+      "actualizado": "2026-10-15T13:11:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24696,7 +24702,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:46:51Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 2 fixes WIT/DT (L11 w3 doubled subject; conformé primary lowercase i)",
+            "t": "2026-10-15T13:11:39Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 2 fixes WIT/DT (L11 w3 doubled subject; conformé primary lowercase i)",
+          "t": "2026-10-15T13:11:39Z"
         }
       }
     },
