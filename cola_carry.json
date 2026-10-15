@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T14:12:23Z",
+  "generado": "2026-10-15T14:17:20Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -27474,10 +27474,10 @@
       "originalTrackId": "",
       "titulo": "Se Vale To To",
       "artista": "Calle 13",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T14:12:22Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T14:16:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27506,15 +27506,21 @@
             "t": "2026-10-14T08:53:07Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: L45 si/si tilde+ancla, WIT L31 w9, L15/L61 'to'+'to X', L56 minuscula, L64 mayuscula, falta PI dar vuelta L11/L14, sin mapear real L26/L27/L30, PI asi que/hace juego",
-            "t": "2026-10-15T14:04:52Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T14:16:52Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: L45 si/si tilde+ancla, WIT L31 w9, L15/L61 'to'+'to X', L56 minuscula, L64 mayuscula, falta PI dar vuelta L11/L14, sin mapear real L26/L27/L30, PI asi que/hace juego",
-          "t": "2026-10-15T14:04:52Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T14:16:52Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T14:16:53Z"
         }
       },
       "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
@@ -28212,10 +28218,10 @@
       "originalTrackId": "",
       "titulo": "Si Tu No Estas Aqui",
       "artista": "Sin Bandera",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:58:32Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: ver reviews; L10/19/35 w1 w4, L29 w8 + ingles, L13 w3, 2 items nuevos primario",
+      "actualizado": "2026-10-15T14:15:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28242,7 +28248,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:53:10Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: por/que PIT=WIT y sujeto doble en L10/19/35, L29 w8 sentido, L13 w3 sin to, primarios en minuscula en 2 items nuevos",
+            "t": "2026-10-15T14:15:18Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: por/que PIT=WIT y sujeto doble en L10/19/35, L29 w8 sentido, L13 w3 sin to, primarios en minuscula en 2 items nuevos",
+          "t": "2026-10-15T14:15:18Z"
         }
       }
     },
@@ -28252,10 +28268,10 @@
       "originalTrackId": "",
       "titulo": "Bomba Para Afincar",
       "artista": "Vico C",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:58:32Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: WIT capitals L3/13/15/44/45/47, doubled words L12 w6, L15 w4, L55 w2, L61 w5, tener que PI L59 w5-6; see reviews",
+      "actualizado": "2026-10-15T14:15:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28282,7 +28298,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:54:19Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: lowercase proper nouns in WITs (L3,13,15,44,45,47), doubled words L12 w6/L15 w4/L55 w2, L61 w5 capital, missing tener-que PI L59",
+            "t": "2026-10-15T14:15:14Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: lowercase proper nouns in WITs (L3,13,15,44,45,47), doubled words L12 w6/L15 w4/L55 w2, L61 w5 capital, missing tener-que PI L59",
+          "t": "2026-10-15T14:15:14Z"
         }
       }
     },
@@ -28538,10 +28564,10 @@
       "originalTrackId": "",
       "titulo": "Vete Y Alejate De Mi",
       "artista": "Antony Santos",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:58:33Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: items de sentido erroneo en linea 4 palabra 5 y linea 24 palabra 4; item nuevo + remap + WIT + reenviar draft",
+      "actualizado": "2026-10-15T14:13:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28568,7 +28594,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:54:20Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 2 anclas de sentido erroneo (linea 4 palabra 5 jugabas=enloquecer; linea 24 palabra 4 pago=sustantivo), resto OK",
+            "t": "2026-10-15T14:13:28Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 2 anclas de sentido erroneo (linea 4 palabra 5 jugabas=enloquecer; linea 24 palabra 4 pago=sustantivo), resto OK",
+          "t": "2026-10-15T14:13:28Z"
         }
       }
     },
@@ -28691,8 +28727,8 @@
       "artista": "Ana Gabriel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:54:21Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T14:17:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28798,8 +28834,8 @@
       "artista": "Christina Aguilera, Luis Fonsi",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:54:32Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T14:17:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28972,8 +29008,8 @@
       "artista": "Juan Gabriel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:55:12Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T14:17:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29012,8 +29048,8 @@
       "artista": "Joan Manuel Serrat",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:55:13Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T14:17:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29231,8 +29267,8 @@
       "artista": "Jerry Rivera",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:55:39Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-15T14:17:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
