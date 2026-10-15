@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T13:29:22Z",
+  "generado": "2026-10-15T13:32:05Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -25578,10 +25578,10 @@
       "originalTrackId": "",
       "titulo": "Vuelve",
       "artista": "Shakira",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T13:26:54Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T13:30:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25610,15 +25610,21 @@
             "t": "2026-10-14T08:49:01Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: 2 PIT de sentido equivocado (L19, L21), item mordido de sentido distinto (L43), tilde sobrante (L35), WIT de nombres propios en minuscula (L5, L6, L13, L26), falta ancla volver a (L22)",
-            "t": "2026-10-15T13:23:53Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T13:30:03Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: 2 PIT de sentido equivocado (L19, L21), item mordido de sentido distinto (L43), tilde sobrante (L35), WIT de nombres propios en minuscula (L5, L6, L13, L26), falta ancla volver a (L22)",
-          "t": "2026-10-15T13:23:53Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T13:30:03Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T13:30:05Z"
         }
       }
     },
@@ -25628,10 +25634,10 @@
       "originalTrackId": "",
       "titulo": "Cachito",
       "artista": "Maná",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: tan+solo WIT doblado L1/L10/L21; L11 w1 sin mapear y sin inglés; ancla es que en L3; mayúscula L2 w5. Ver reviews",
-      "actualizado": "2026-10-15T13:25:20Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T13:32:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25930,10 +25936,10 @@
       "originalTrackId": "",
       "titulo": "No Llores Por Mi",
       "artista": "Enrique Iglesias",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:18:46Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: ver reviews/6aa71a4d72ca57eb1aacb9c8.md (L6 w3-5, L2 w3-4, por en lineas por-mi)",
+      "actualizado": "2026-10-15T13:30:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25960,7 +25966,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:49:16Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L6 darse cuenta sin ancla y WIT doblados; L2 tener que sin ancla; por=because of vs PIT for me (11 lineas)",
+            "t": "2026-10-15T13:30:58Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L6 darse cuenta sin ancla y WIT doblados; L2 tener que sin ancla; por=because of vs PIT for me (11 lineas)",
+          "t": "2026-10-15T13:30:58Z"
         }
       }
     },
@@ -25971,9 +25987,9 @@
       "titulo": "La Misma",
       "artista": "Vicente Fernandez",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T13:18:46Z",
+      "vueltas": 1,
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T13:32:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26000,7 +26016,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:49:16Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: linea 8 palabras 7-8 WIT doblado (I wish + I); falta fila wish en deseo",
+            "t": "2026-10-15T13:29:59Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: linea 8 palabras 7-8 WIT doblado (I wish + I); falta fila wish en deseo",
+          "t": "2026-10-15T13:29:59Z"
         }
       }
     },
