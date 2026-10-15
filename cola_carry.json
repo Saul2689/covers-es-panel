@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T09:30:17Z",
+  "generado": "2026-10-15T09:32:01Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -14234,10 +14234,10 @@
       "originalTrackId": "",
       "titulo": "Mi Forma De Sentir",
       "artista": "Pedro Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T09:25:33Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T09:30:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14266,15 +14266,21 @@
             "t": "2026-10-14T08:25:20Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: 6 fixes (L13 wrong-sense PI, L24 w1 item, L21 w2 unmapped, L11/L22 idiom anchors, L1 w5 WIT)",
-            "t": "2026-10-15T09:21:19Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T09:30:38Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: 6 fixes (L13 wrong-sense PI, L24 w1 item, L21 w2 unmapped, L11/L22 idiom anchors, L1 w5 WIT)",
-          "t": "2026-10-15T09:21:19Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T09:30:38Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T09:30:41Z"
         }
       }
     },
@@ -14284,10 +14290,10 @@
       "originalTrackId": "",
       "titulo": "La Banda Del Carro Rojo",
       "artista": "los Tigres Del Norte",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T09:28:30Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T09:31:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14316,15 +14322,21 @@
             "t": "2026-10-06T17:31:21Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: L11 w3 y L38 w5 WIT con minuscula en nombre propio, L21 PI de una sentido erroneo, L29 falta PI lo siento, L35 w1 y L16 w1 WIT, L39 ingles omite palabra",
-            "t": "2026-10-15T09:26:51Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T09:31:14Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: L11 w3 y L38 w5 WIT con minuscula en nombre propio, L21 PI de una sentido erroneo, L29 falta PI lo siento, L35 w1 y L16 w1 WIT, L39 ingles omite palabra",
-          "t": "2026-10-15T09:26:51Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T09:31:14Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T09:31:16Z"
         }
       }
     },
@@ -14384,10 +14396,10 @@
       "originalTrackId": "",
       "titulo": "Que Me Alcance La Vida",
       "artista": "Sin Bandera",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "audio MUDA_ARREGLABLE (pin stemVoc); L44 w3 item da; L24 w6 WIT; L12/L31 volver a PI",
-      "actualizado": "2026-10-15T09:29:05Z",
+      "motivo": "corregida r1 (audio BLINDADA, +60 ms)",
+      "actualizado": "2026-10-15T09:32:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
