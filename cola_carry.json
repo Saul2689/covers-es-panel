@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T11:56:54Z",
+  "generado": "2026-10-15T11:59:01Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -20094,10 +20094,10 @@
       "originalTrackId": "",
       "titulo": "Ya Te Olvide",
       "artista": "Rocio Durcal",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "falta PI volver a en L2 y L3 y su PIT en el borrador de ingles; corregir tilde en un ejemplo del item herirme",
-      "actualizado": "2026-10-15T11:56:20Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T11:59:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20521,10 +20521,10 @@
       "originalTrackId": "",
       "titulo": "Perdoname",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-15T11:53:33Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: anclar PI hacer daño (L1 w6-7, existe) y crear+anclar PI de la locucion optativa de L12 w1-2; reabrir draft, PITs, resubir",
+      "actualizado": "2026-10-15T11:58:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20551,7 +20551,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:39:39Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: falta ancla de locucion existente en L1 w6-7 y locucion sin item en L12 w1-2",
+            "t": "2026-10-15T11:58:19Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: falta ancla de locucion existente en L1 w6-7 y locucion sin item en L12 w1-2",
+          "t": "2026-10-15T11:58:19Z"
         }
       }
     },
