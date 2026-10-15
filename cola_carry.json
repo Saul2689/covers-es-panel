@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T15:46:45Z",
+  "generado": "2026-10-15T15:48:43Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -4896,10 +4896,10 @@
       "originalTrackId": "",
       "titulo": "Y Si Fuera Ella?",
       "artista": "Alejandro Sanz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "corregida r2",
-      "actualizado": "2026-10-15T15:46:45Z",
+      "motivo": "QC3 VERDE",
+      "actualizado": "2026-10-15T15:48:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4923,20 +4923,26 @@
             "t": "2026-10-06T14:58:02Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "No draft open and start_draft not allowed this round: full plan in .singit/es_map/payloads/6aa1114264c9b8ff110d1fb7/en_plan.json (69 lines, 389 WITs with own-bag DT)",
-            "t": "2026-10-06T14:58:02Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 69/69 lineas, WITs con DT propio, BAD 0",
+            "t": "2026-10-15T15:48:24Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC2: dos 'to'+'to X' tras el fix r1 (3:10, 14:5); r1 D1-D5 verificados, sin regresiones",
-            "t": "2026-10-15T15:43:33Z"
+            "v": "ok",
+            "nota": "QC3 VERDE",
+            "t": "2026-10-15T15:48:25Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC2: dos 'to'+'to X' tras el fix r1 (3:10, 14:5); r1 D1-D5 verificados, sin regresiones",
-          "t": "2026-10-15T15:43:33Z"
+          "v": "VERDE",
+          "resumen": "QC3 VERDE",
+          "t": "2026-10-15T15:48:25Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T15:48:26Z"
         }
       }
     },
