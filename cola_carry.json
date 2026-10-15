@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T09:20:38Z",
+  "generado": "2026-10-15T09:22:38Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -13041,10 +13041,10 @@
       "originalTrackId": "",
       "titulo": "Yo No Se Que Me Paso",
       "artista": "Juan Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "corregida r2",
-      "actualizado": "2026-10-15T09:20:36Z",
+      "motivo": "QC3 VERDE",
+      "actualizado": "2026-10-15T09:20:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13082,6 +13082,12 @@
           "v": "VERDE",
           "resumen": "QC3 VERDE",
           "t": "2026-10-15T09:20:36Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T09:20:39Z"
         }
       }
     },
@@ -14222,10 +14228,10 @@
       "originalTrackId": "",
       "titulo": "Mi Forma De Sentir",
       "artista": "Pedro Fernandez",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T09:01:25Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: ver reviews/6aa686b572ca57eb1aa07bde.md (L13 PI sentido, L24 w1 item, L21 w2 sin ancla, L11 y L22 locuciones, L1 w5 WIT)",
+      "actualizado": "2026-10-15T09:21:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14252,7 +14258,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:25:20Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 6 fixes (L13 wrong-sense PI, L24 w1 item, L21 w2 unmapped, L11/L22 idiom anchors, L1 w5 WIT)",
+            "t": "2026-10-15T09:21:19Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 6 fixes (L13 wrong-sense PI, L24 w1 item, L21 w2 unmapped, L11/L22 idiom anchors, L1 w5 WIT)",
+          "t": "2026-10-15T09:21:19Z"
         }
       }
     },
@@ -14344,8 +14360,8 @@
       "artista": "Sin Bandera",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:26:32Z",
+      "motivo": "pre-QC hecho, en espera de QC r1",
+      "actualizado": "2026-10-15T09:22:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14395,8 +14411,8 @@
       "artista": "Luis Miguel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:26:33Z",
+      "motivo": "pre-QC hecho, en espera de QC r1",
+      "actualizado": "2026-10-15T09:22:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14435,8 +14451,8 @@
       "artista": "Alejandra Guzmán",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:26:34Z",
+      "motivo": "pre-QC hecho, en espera de QC r1",
+      "actualizado": "2026-10-15T09:22:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14486,8 +14502,8 @@
       "artista": "Gilberto Santa Rosa, Vico C",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:28:29Z",
+      "motivo": "pre-QC hecho, en espera de QC r1",
+      "actualizado": "2026-10-15T09:22:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -14537,8 +14553,8 @@
       "artista": "Alejandro Sanz",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:33:37Z",
+      "motivo": "pre-QC hecho, en espera de QC r1",
+      "actualizado": "2026-10-15T09:22:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
