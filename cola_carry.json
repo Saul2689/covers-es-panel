@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T12:51:01Z",
+  "generado": "2026-10-15T12:52:10Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23406,10 +23406,10 @@
       "originalTrackId": "",
       "titulo": "Vos Sabes",
       "artista": "Los Fabulosos Cadillacs",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "L51 w2 que->qué + quitar PIT mira que; si enfatico L4/12/24/44 item nuevo; L14 w2 WI.word; reabrir draft ingles",
-      "actualizado": "2026-10-15T12:47:19Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T12:52:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23456,10 +23456,10 @@
       "originalTrackId": "",
       "titulo": "Tu Hombre Perfecto",
       "artista": "Marco Antonio Solis",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T12:41:10Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "L2 w7 item encontrarás, L3 w1 item y, L4 w3 WIT, borrar PI L8 es más, crear PI a la medida (L1/L5) y en su momento (L4); ver reviews",
+      "actualizado": "2026-10-15T12:51:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23486,7 +23486,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:45:02Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 3 anclas de sentido (L2 w7, L3 w1, L4 w3 WIT), PI L8 es mas mal, faltan locuciones L1/L5 y L4",
+            "t": "2026-10-15T12:51:21Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 3 anclas de sentido (L2 w7, L3 w1, L4 w3 WIT), PI L8 es mas mal, faltan locuciones L1/L5 y L4",
+          "t": "2026-10-15T12:51:21Z"
         }
       }
     },
