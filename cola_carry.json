@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T10:25:15Z",
+  "generado": "2026-10-15T10:31:35Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -16136,10 +16136,10 @@
       "originalTrackId": "",
       "titulo": "Se Me Olvido Otra Vez",
       "artista": "Juan Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:25:13Z",
+      "motivo": "QC1 VERDE",
+      "actualizado": "2026-10-15T10:30:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16166,7 +16166,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:30:20Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC1 VERDE",
+            "t": "2026-10-15T10:30:15Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC1 VERDE",
+          "t": "2026-10-15T10:30:15Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T10:30:18Z"
         }
       }
     },
@@ -16176,10 +16192,10 @@
       "originalTrackId": "",
       "titulo": "Mentiras",
       "artista": "Daniela Romo",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:25:13Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "L8 w2-3: anclar phrase item tener que, WIT w2 a fila have, resubmit",
+      "actualizado": "2026-10-15T10:31:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16206,7 +16222,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:30:46Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L8 w2-3 falta ancla tener que (PIT) y WIT w2 con el sentido de la frase; resto OK",
+            "t": "2026-10-15T10:31:04Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L8 w2-3 falta ancla tener que (PIT) y WIT w2 con el sentido de la frase; resto OK",
+          "t": "2026-10-15T10:31:04Z"
         }
       }
     },
@@ -16283,10 +16309,10 @@
       "originalTrackId": "",
       "titulo": "Pasos De Gigante",
       "artista": "Bacilos",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:25:13Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "L11 w4 WIT anything; L3 w3-4 phrase dejar de; L44 w6 WI.word sin coma; reabrir EN",
+      "actualizado": "2026-10-15T10:29:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16313,7 +16339,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:31:08Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L11 w4 doble negacion, L3 w3-4 'dejar de' sin ancla, L44 w6 WI.word con coma; reabrir EN",
+            "t": "2026-10-15T10:29:25Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L11 w4 doble negacion, L3 w3-4 'dejar de' sin ancla, L44 w6 WI.word con coma; reabrir EN",
+          "t": "2026-10-15T10:29:25Z"
         }
       }
     },
@@ -16435,10 +16471,10 @@
       "originalTrackId": "",
       "titulo": "Loco",
       "artista": "Alejandro Fernández",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:25:14Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "ficha nueva platico: fila en primaria con i minuscula; poner I chat como primaria (no toca el draft)",
+      "actualizado": "2026-10-15T10:31:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16465,7 +16501,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:31:09Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: fila primaria en de la ficha nueva platico lleva i minuscula; resto OK",
+            "t": "2026-10-15T10:31:15Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: fila primaria en de la ficha nueva platico lleva i minuscula; resto OK",
+          "t": "2026-10-15T10:31:15Z"
         }
       }
     },
