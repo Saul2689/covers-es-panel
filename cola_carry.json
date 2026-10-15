@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T11:30:05Z",
+  "generado": "2026-10-15T11:31:09Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17965,10 +17965,10 @@
       "originalTrackId": "",
       "titulo": "Pisando Fuerte",
       "artista": "Alejandro Sanz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T11:27:50Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T11:30:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17997,15 +17997,21 @@
             "t": "2026-10-14T08:34:57Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: 9 fixes: entraré item de sentido nautico, PI no sé qué sentido erroneo, pasa L12, más L32, y L7, faltan locuciones en pie y pisando fuerte, fila primaria con i minuscula, L31 w6",
-            "t": "2026-10-15T11:15:52Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T11:30:51Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: 9 fixes: entraré item de sentido nautico, PI no sé qué sentido erroneo, pasa L12, más L32, y L7, faltan locuciones en pie y pisando fuerte, fila primaria con i minuscula, L31 w6",
-          "t": "2026-10-15T11:15:52Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T11:30:51Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T11:30:52Z"
         }
       }
     },
@@ -18882,10 +18888,10 @@
       "originalTrackId": "",
       "titulo": "Miedo",
       "artista": "Pepe Aguilar",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "faltan anclas de frase L2, L14, L32, L15, L33, L41; L3 cambiar frente a por frente a frente; ver reviews",
-      "actualizado": "2026-10-15T11:27:03Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T11:31:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18954,10 +18960,10 @@
       "originalTrackId": "",
       "titulo": "Las Batallas",
       "artista": "Cafe Tacuba",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T11:13:07Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: Carlos minuscula L1/3/17/19 w2; frase mi amor equivocada L16; WIT a personal L4/L20 w9",
+      "actualizado": "2026-10-15T11:30:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18984,7 +18990,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:36:08Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: WIT Carlos en minuscula L1/3/17/19 w2; PI mi amor (apelativo) mal en L16 w2-3; WIT to en a personal L4/L20 w9",
+            "t": "2026-10-15T11:30:07Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: WIT Carlos en minuscula L1/3/17/19 w2; PI mi amor (apelativo) mal en L16 w2-3; WIT to en a personal L4/L20 w9",
+          "t": "2026-10-15T11:30:07Z"
         }
       }
     },
