@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T11:19:16Z",
+  "generado": "2026-10-15T11:21:02Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17663,10 +17663,10 @@
       "originalTrackId": "",
       "titulo": "Por Ti Me Casare",
       "artista": "Eros Ramazzotti",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: sentido querre/querras L16,31,18,33; ancla por/que L6 w8-9; PIT L22 duplica a; ver reviews",
-      "actualizado": "2026-10-15T11:10:55Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T11:21:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17825,10 +17825,10 @@
       "originalTrackId": "",
       "titulo": "Antidoto Y Veneno",
       "artista": "Eddie Santiago",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T11:15:05Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T11:21:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17857,15 +17857,21 @@
             "t": "2026-10-14T08:34:53Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: al L6/L23 WIT 'to the' mal sentido; falta PI hacer falta L2 w4-6; corchete FEM.PLU en ocasiones",
-            "t": "2026-10-15T11:13:09Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T11:21:00Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: al L6/L23 WIT 'to the' mal sentido; falta PI hacer falta L2 w4-6; corchete FEM.PLU en ocasiones",
-          "t": "2026-10-15T11:13:09Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T11:21:00Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T11:21:01Z"
         }
       }
     },
@@ -18043,10 +18049,10 @@
       "originalTrackId": "",
       "titulo": "Libre",
       "artista": "Nino Bravo",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T10:46:21Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "L14/33/44 w1 y a item aditivo; L6 w3 de a sentido contenido; repuntar 4 WIT y reenviar ingles",
+      "actualizado": "2026-10-15T11:19:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18073,7 +18079,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:35:30Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 2 anclas de sentido (L14/33/44 w1 y; L6 w3 de) + reabrir ingles",
+            "t": "2026-10-15T11:19:24Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 2 anclas de sentido (L14/33/44 w1 y; L6 w3 de) + reabrir ingles",
+          "t": "2026-10-15T11:19:24Z"
         }
       }
     },
