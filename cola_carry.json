@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T15:03:21Z",
+  "generado": "2026-10-15T15:06:18Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -30255,10 +30255,10 @@
       "originalTrackId": "",
       "titulo": "Mas Que Tu Amigo",
       "artista": "Tito Nieves",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "corregida r2",
-      "actualizado": "2026-10-15T15:02:54Z",
+      "motivo": "QC3 VERDE",
+      "actualizado": "2026-10-15T15:04:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30287,15 +30287,21 @@
             "t": "2026-10-14T08:57:46Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC2 DEVUELTO: r1 fixes verified OK, no regressions; 1 new: missing es phrase anchor (te amo) on L22 w6-7",
-            "t": "2026-10-15T15:01:03Z"
+            "v": "ok",
+            "nota": "QC3 VERDE",
+            "t": "2026-10-15T15:04:51Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC2 DEVUELTO: r1 fixes verified OK, no regressions; 1 new: missing es phrase anchor (te amo) on L22 w6-7",
-          "t": "2026-10-15T15:01:03Z"
+          "v": "VERDE",
+          "resumen": "QC3 VERDE",
+          "t": "2026-10-15T15:04:51Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T15:04:52Z"
         }
       }
     },
@@ -30724,10 +30730,10 @@
       "originalTrackId": "",
       "titulo": "La Sombra Del Gigante",
       "artista": "Eros Ramazzotti",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T15:02:54Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T15:05:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30756,15 +30762,21 @@
             "t": "2026-10-14T08:58:25Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: L4 w1-2 falta ancla de frase (PI de L31); L18/L38 linea en ingles no encaja con el PIT 'only'",
-            "t": "2026-10-15T15:00:46Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T15:05:34Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: L4 w1-2 falta ancla de frase (PI de L31); L18/L38 linea en ingles no encaja con el PIT 'only'",
-          "t": "2026-10-15T15:00:46Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T15:05:34Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T15:05:35Z"
         }
       }
     },
