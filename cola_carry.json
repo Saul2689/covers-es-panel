@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T11:22:09Z",
+  "generado": "2026-10-15T11:23:47Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17663,10 +17663,10 @@
       "originalTrackId": "",
       "titulo": "Por Ti Me Casare",
       "artista": "Eros Ramazzotti",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T11:21:02Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T11:22:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17695,15 +17695,21 @@
             "t": "2026-10-14T08:34:04Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: querre/querras anclados a sentido equivocado (L16,31,18,33); L6 w8-9 sin ancla de palabra; L22 PIT duplica 'a'",
-            "t": "2026-10-15T11:10:53Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T11:22:54Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: querre/querras anclados a sentido equivocado (L16,31,18,33); L6 w8-9 sin ancla de palabra; L22 PIT duplica 'a'",
-          "t": "2026-10-15T11:10:53Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T11:22:54Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T11:22:55Z"
         }
       }
     },
@@ -18009,10 +18015,10 @@
       "originalTrackId": "",
       "titulo": "Ponte En Mi Lugar",
       "artista": "Espinoza Paz",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: PI te quiero L24/L36; item serias L20/L32 w1; ejemplo 2 de portes copia una linea; locucion zapatos L22/L34",
-      "actualizado": "2026-10-15T11:21:30Z",
+      "motivo": "corregida r1",
+      "actualizado": "2026-10-15T11:23:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18254,10 +18260,10 @@
       "originalTrackId": "",
       "titulo": "Por Ella",
       "artista": "Julio Iglesias",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, en espera de QC r1",
-      "actualizado": "2026-10-15T11:13:06Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: WIT L6 w2/w4/w6/w7, L22 w1, L28 w4, L35 w4/w5, L44 w2 y primaria de quieros; detalle en reviews",
+      "actualizado": "2026-10-15T11:22:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18284,7 +18290,17 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:36:06Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 9 fixes de WIT ingles (L6, L22, L28, L35, L44) + fila primaria de quieros; resto ok",
+            "t": "2026-10-15T11:22:58Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 9 fixes de WIT ingles (L6, L22, L28, L35, L44) + fila primaria de quieros; resto ok",
+          "t": "2026-10-15T11:22:58Z"
         }
       }
     },
