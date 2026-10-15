@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T11:06:04Z",
+  "generado": "2026-10-15T11:08:45Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -16598,7 +16598,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "corregida r1",
-      "actualizado": "2026-10-15T11:04:22Z",
+      "actualizado": "2026-10-15T11:08:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16627,15 +16627,15 @@
             "t": "2026-10-14T08:31:29Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: PIT sin mas L8 sentido equivocado; WIT play->plays L14/L30; WI.word obsoleto L15/L31 (+case L5,L16,L20,L32); faltan frases L18 y L3",
-            "t": "2026-10-15T10:49:59Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T11:08:45Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: PIT sin mas L8 sentido equivocado; WIT play->plays L14/L30; WI.word obsoleto L15/L31 (+case L5,L16,L20,L32); faltan frases L18 y L3",
-          "t": "2026-10-15T10:49:59Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T11:08:45Z"
         }
       }
     },
@@ -17307,10 +17307,10 @@
       "originalTrackId": "",
       "titulo": "Perdoname",
       "artista": "Camilo Sesto",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1",
-      "actualizado": "2026-10-15T11:02:18Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-15T11:06:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17339,15 +17339,21 @@
             "t": "2026-10-14T08:33:33Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: dobles 'you' en WITs de lineas 16/32/45 palabra 1; resto limpio",
-            "t": "2026-10-15T11:00:12Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-15T11:06:37Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: dobles 'you' en WITs de lineas 16/32/45 palabra 1; resto limpio",
-          "t": "2026-10-15T11:00:12Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-15T11:06:37Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-15T11:06:42Z"
         }
       }
     },
