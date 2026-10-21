@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T15:34:57Z",
+  "generado": "2026-10-21T15:42:30Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -20265,10 +20265,10 @@
       "originalTrackId": "",
       "titulo": "De Noche En La Ciudad",
       "artista": "Aleks Syntek",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2",
-      "actualizado": "2026-10-21T15:34:57Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T15:37:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20292,20 +20292,26 @@
             "t": "2026-10-06T20:06:57Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan de 82 lineas + 201 WIT en en_plan.json; no hay borrador abierto",
-            "t": "2026-10-06T20:06:57Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 82/82 lineas, 0 WIT vacios, BAD 0",
+            "t": "2026-10-21T15:37:45Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r1: podria L19/L60 w2 on wrong-sense item (correct item exists), vendrias L16/L57 w4 definition does not match sense, L82 w1 oh unmapped; rest of structure, English, audio OK",
-            "t": "2026-10-21T15:29:45Z"
+            "v": "ok",
+            "nota": "r2: podria/vendrias/Oh fixes hold, BAD 0, 82/82 EN pending_review, audio SUENA_SIN_BLINDAR; ad-lib syllables left unmapped, ear-notes L38/L64 for Saul",
+            "t": "2026-10-21T15:37:39Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r1: podria L19/L60 w2 on wrong-sense item (correct item exists), vendrias L16/L57 w4 definition does not match sense, L82 w1 oh unmapped; rest of structure, English, audio OK",
-          "t": "2026-10-21T15:29:45Z"
+          "v": "VERDE",
+          "resumen": "r2: podria/vendrias/Oh fixes hold, BAD 0, 82/82 EN pending_review, audio SUENA_SIN_BLINDAR; ad-lib syllables left unmapped, ear-notes L38/L64 for Saul",
+          "t": "2026-10-21T15:37:39Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T15:37:46Z"
         }
       }
     },
@@ -21560,10 +21566,10 @@
       "originalTrackId": "",
       "titulo": "No Te Pido Flores",
       "artista": "Fanny Lú",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2",
-      "actualizado": "2026-10-21T15:34:57Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T15:39:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21587,20 +21593,26 @@
             "t": "2026-10-06T20:28:43Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "LRC, tiempos y mapeo hechos; ingles preparado en es_map/payloads/6aa1110564c9b8ff110c3f20/en_plan.json, falta abrir el borrador",
-            "t": "2026-10-06T20:28:44Z"
+            "v": "ok",
+            "nota": "borrador en pending_review (enviado tras ultimo cambio de anclas), 49/49 lineas, 435 WIT con texto, wit_dt_audit BAD 0",
+            "t": "2026-10-21T15:39:23Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 items: traigas L9/22/39 w5 con definicion de item equivocada (crear item nuevo y remapear); suspirando L4 wordForm FINITE->GERUND; despues reabrir ingles de L9/22/39 w5",
-            "t": "2026-10-21T15:30:53Z"
+            "v": "ok",
+            "nota": "ronda 2: traigas con item nuevo L9/22/39 y suspirando GERUND verificados; estructura, mapeo, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-21T15:39:16Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 items: traigas L9/22/39 w5 con definicion de item equivocada (crear item nuevo y remapear); suspirando L4 wordForm FINITE->GERUND; despues reabrir ingles de L9/22/39 w5",
-          "t": "2026-10-21T15:30:53Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: traigas con item nuevo L9/22/39 y suspirando GERUND verificados; estructura, mapeo, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-21T15:39:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T15:39:24Z"
         }
       }
     },
