@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T16:27:15Z",
+  "generado": "2026-10-21T16:34:04Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -37617,9 +37617,9 @@
       "titulo": "De Venus",
       "artista": "Camila",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T16:18:46Z",
+      "vueltas": 1,
+      "motivo": "QC r2",
+      "actualizado": "2026-10-21T16:34:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37646,7 +37646,17 @@
             "v": "falta",
             "nota": "en_plan.json listo (43 lineas, 198 WIT con DT); falta abrir el borrador",
             "t": "2026-10-07T01:11:55Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ronda 1: WIT linea 17 pal 3 (address vs direction) y linea 3 pal 1 (item 3sg vs ingles imperativo); resto OK",
+            "t": "2026-10-21T16:32:10Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ronda 1: WIT linea 17 pal 3 (address vs direction) y linea 3 pal 1 (item 3sg vs ingles imperativo); resto OK",
+          "t": "2026-10-21T16:32:10Z"
         }
       }
     },
@@ -42468,9 +42478,9 @@
       "titulo": "Volvere",
       "artista": "Jesse & Joy",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T16:27:13Z",
+      "vueltas": 1,
+      "motivo": "QC r2",
+      "actualizado": "2026-10-21T16:34:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42497,7 +42507,17 @@
             "v": "falta",
             "nota": "en_plan.json preparado (46 lineas, 179 WIT, 6 PIT); falta abrir el borrador",
             "t": "2026-10-07T02:37:55Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "PI 'ya no' en linea 22 anclado en palabras 5-6 en vez de 4-5; el resto verde",
+            "t": "2026-10-21T16:31:38Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "PI 'ya no' en linea 22 anclado en palabras 5-6 en vez de 4-5; el resto verde",
+          "t": "2026-10-21T16:31:38Z"
         }
       }
     },
@@ -43250,10 +43270,10 @@
       "originalTrackId": "",
       "titulo": "A Veces",
       "artista": "Mambru",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T16:27:13Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T16:33:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43277,10 +43297,26 @@
             "t": "2026-10-07T02:51:30Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json, falta abrir el borrador",
-            "t": "2026-10-07T02:51:30Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 61 lineas, 0 WIT vacios, wit_dt_audit BAD 0",
+            "t": "2026-10-21T16:33:56Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, sentidos, items nuevos, ingles pending_review y wit_dt BAD 0 correctos; hallazgos qc_es justificados (falsos positivos por fragmentos; linea 6 palabra 4, linea 61 palabra 2 notas de oido)",
+            "t": "2026-10-21T16:33:56Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, sentidos, items nuevos, ingles pending_review y wit_dt BAD 0 correctos; hallazgos qc_es justificados (falsos positivos por fragmentos; linea 6 palabra 4, linea 61 palabra 2 notas de oido)",
+          "t": "2026-10-21T16:33:56Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T16:33:58Z"
         }
       }
     },
@@ -47867,10 +47903,10 @@
       "originalTrackId": "",
       "titulo": "Mil Pedazos",
       "artista": "Juanes",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2",
-      "actualizado": "2026-10-21T16:27:15Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T16:32:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47894,20 +47930,26 @@
             "t": "2026-10-07T04:18:57Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (43 lineas, 215 WIT, 15 PIT); falta abrir el borrador",
-            "t": "2026-10-07T04:18:57Z"
+            "v": "ok",
+            "nota": "borrador EN en pending_review: 43 lineas, 0 WIT vacios, PIs con PIT, BAD 0 (QC r2)",
+            "t": "2026-10-21T16:32:50Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "Lines 35 and 40: en and mil anchored to different items than the same phrase on lines 13/14/30/31/36; remap and reopen English draft. Rest passes.",
-            "t": "2026-10-21T16:24:25Z"
+            "v": "ok",
+            "nota": "QC r2: fix L35/L40 verified, structure, anchors, English draft pending_review, WIT/DT BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-21T16:32:41Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "Lines 35 and 40: en and mil anchored to different items than the same phrase on lines 13/14/30/31/36; remap and reopen English draft. Rest passes.",
-          "t": "2026-10-21T16:24:25Z"
+          "v": "VERDE",
+          "resumen": "QC r2: fix L35/L40 verified, structure, anchors, English draft pending_review, WIT/DT BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-21T16:32:41Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T16:32:51Z"
         }
       }
     },
