@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T14:56:46Z",
+  "generado": "2026-10-21T15:01:28Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -36011,10 +36011,10 @@
       "originalTrackId": "",
       "titulo": "Tu Cariño Se Me Va",
       "artista": "Buddy Richard",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "c12: carry, mapeo e inglés hechos, inglés en pending_review; QC r1",
-      "actualizado": "2026-10-21T14:56:44Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "espera a Saúl: la línea 26 tiene una palabra partida (palabras 3 a 5) que debe quedar como en la línea 30; la cover está publicada y no toco su LRC; el resto pasó QC",
+      "actualizado": "2026-10-21T15:01:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36041,9 +36041,20 @@
             "v": "falta",
             "nota": "preparado en es_map/payloads/<id>/en_plan.json; falta abrir el borrador",
             "t": "2026-10-07T00:40:23Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L26 tokens 3-5 garbled split word left unfixed and unmapped (unjustified letra_suelta/errata/sin_mapear); rest passes",
+            "t": "2026-10-21T15:00:41Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L26 tokens 3-5 garbled split word left unfixed and unmapped (unjustified letra_suelta/errata/sin_mapear); rest passes",
+          "t": "2026-10-21T15:00:41Z"
         }
-      }
+      },
+      "motivo_en": "Waiting for Saúl: line 26 has a split garbled word at tokens 3 to 5 that should match line 30; the cover is published so I do not edit its LRC; everything else passed QC"
     },
     {
       "coverTrackId": "6aa5e28942b8d1fdb0d72dce",
@@ -48195,10 +48206,10 @@
       "originalTrackId": "",
       "titulo": "Preguntale",
       "artista": "Julio Iglesias",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "c12: carry, mapeo e inglés hechos, inglés en pending_review; QC r1",
-      "actualizado": "2026-10-21T14:56:45Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "espera a Saúl: faltan 2 tildes en las líneas 32 y 33 (palabra 7), la cover está publicada y no toco su LRC; el resto pasó QC",
+      "actualizado": "2026-10-21T15:00:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48225,9 +48236,20 @@
             "v": "falta",
             "nota": "en_plan.json preparado: 38 lineas, 167 WIT, 4 PIT; falta abrir el borrador",
             "t": "2026-10-07T04:26:50Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "2 palabras de verbo en pasado (lineas 32 y 33, palabra 7) sin tilde final; resto correcto",
+            "t": "2026-10-21T14:59:20Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "2 palabras de verbo en pasado (lineas 32 y 33, palabra 7) sin tilde final; resto correcto",
+          "t": "2026-10-21T14:59:20Z"
         }
-      }
+      },
+      "motivo_en": "Waiting for Saúl: two missing tildes at line 32 and line 33 word 7; the cover is published so I do not edit its LRC; everything else passed QC"
     },
     {
       "coverTrackId": "6aa6909572ca57eb1aa16fc9",
