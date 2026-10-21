@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T15:29:38Z",
+  "generado": "2026-10-21T15:34:57Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -18950,10 +18950,10 @@
       "originalTrackId": "",
       "titulo": "El Mar De Sus Ojos",
       "artista": "Carlos Vives, Choc Quib Town",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T15:25:24Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T15:34:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18977,10 +18977,26 @@
             "t": "2026-10-06T19:56:34Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (71 lineas + 415 WIT); falta abrir el borrador",
-            "t": "2026-10-06T19:56:35Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 71 lineas, 0 WIT vacios, wit_dt_audit BAD 0",
+            "t": "2026-10-21T15:34:18Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ronda 1: estructura, mapeo, items nuevos e ingles OK; notas de oido en el informe (L25/42/58/65, L36, L58, L70/71)",
+            "t": "2026-10-21T15:34:18Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "ronda 1: estructura, mapeo, items nuevos e ingles OK; notas de oido en el informe (L25/42/58/65, L36, L58, L70/71)",
+          "t": "2026-10-21T15:34:18Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T15:34:20Z"
         }
       }
     },
@@ -20250,9 +20266,9 @@
       "titulo": "De Noche En La Ciudad",
       "artista": "Aleks Syntek",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T15:25:24Z",
+      "vueltas": 1,
+      "motivo": "QC r2",
+      "actualizado": "2026-10-21T15:34:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20279,7 +20295,17 @@
             "v": "falta",
             "nota": "plan de 82 lineas + 201 WIT en en_plan.json; no hay borrador abierto",
             "t": "2026-10-06T20:06:57Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "r1: podria L19/L60 w2 on wrong-sense item (correct item exists), vendrias L16/L57 w4 definition does not match sense, L82 w1 oh unmapped; rest of structure, English, audio OK",
+            "t": "2026-10-21T15:29:45Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "r1: podria L19/L60 w2 on wrong-sense item (correct item exists), vendrias L16/L57 w4 definition does not match sense, L82 w1 oh unmapped; rest of structure, English, audio OK",
+          "t": "2026-10-21T15:29:45Z"
         }
       }
     },
@@ -21535,9 +21561,9 @@
       "titulo": "No Te Pido Flores",
       "artista": "Fanny Lú",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T15:25:25Z",
+      "vueltas": 1,
+      "motivo": "QC r2",
+      "actualizado": "2026-10-21T15:34:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21564,7 +21590,17 @@
             "v": "falta",
             "nota": "LRC, tiempos y mapeo hechos; ingles preparado en es_map/payloads/6aa1110564c9b8ff110c3f20/en_plan.json, falta abrir el borrador",
             "t": "2026-10-06T20:28:44Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "2 items: traigas L9/22/39 w5 con definicion de item equivocada (crear item nuevo y remapear); suspirando L4 wordForm FINITE->GERUND; despues reabrir ingles de L9/22/39 w5",
+            "t": "2026-10-21T15:30:53Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "2 items: traigas L9/22/39 w5 con definicion de item equivocada (crear item nuevo y remapear); suspirando L4 wordForm FINITE->GERUND; despues reabrir ingles de L9/22/39 w5",
+          "t": "2026-10-21T15:30:53Z"
         }
       }
     },
@@ -21574,10 +21610,10 @@
       "originalTrackId": "",
       "titulo": "Tengo Tu Love",
       "artista": "SIE7E",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T15:25:25Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T15:34:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21601,10 +21637,26 @@
             "t": "2026-10-06T20:27:07Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (92 lineas + 371 WIT); falta abrir el borrador",
-            "t": "2026-10-06T20:27:07Z"
+            "v": "ok",
+            "nota": "92 lineas y 381 WIT en draft pending_review; wit_dt BAD 0; QC r1 verificado",
+            "t": "2026-10-21T15:34:34Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, sentidos, ingles (pending_review), wit_dt BAD 0, audio SUENA_SIN_BLINDAR; sin defectos, notas de oido L16/L42/L67",
+            "t": "2026-10-21T15:34:29Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, sentidos, ingles (pending_review), wit_dt BAD 0, audio SUENA_SIN_BLINDAR; sin defectos, notas de oido L16/L42/L67",
+          "t": "2026-10-21T15:34:29Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T15:34:35Z"
         }
       }
     },
