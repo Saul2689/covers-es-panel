@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T17:34:35Z",
+  "generado": "2026-10-21T17:46:43Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23390,9 +23390,9 @@
       "titulo": "Murio La Flor",
       "artista": "los Angeles Negros",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T17:34:33Z",
+      "vueltas": 1,
+      "motivo": "QC r2",
+      "actualizado": "2026-10-21T17:46:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23419,7 +23419,17 @@
             "v": "falta",
             "nota": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
             "t": "2026-10-06T20:47:14Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "falta ancla de la locucion 'desde que' (PI 6ac607a5eb100452391926cb) en lineas 19 y 30 palabras 1-2 + su PIT 'since' en el borrador de ingles; resto verificado OK",
+            "t": "2026-10-21T17:40:13Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "falta ancla de la locucion 'desde que' (PI 6ac607a5eb100452391926cb) en lineas 19 y 30 palabras 1-2 + su PIT 'since' en el borrador de ingles; resto verificado OK",
+          "t": "2026-10-21T17:40:13Z"
         }
       }
     },
@@ -24044,10 +24054,10 @@
       "originalTrackId": "",
       "titulo": "Donde Jugaran Los Niños",
       "artista": "Mana",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T17:34:34Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T17:39:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24071,10 +24081,26 @@
             "t": "2026-10-06T20:53:59Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (32 lineas, 153 WIT, 1 PIT), falta abrir el borrador",
-            "t": "2026-10-06T20:53:59Z"
+            "v": "ok",
+            "nota": "draft en pending_review: 32 lineas, 166 WIT, 7 PIT, wit_dt BAD 0",
+            "t": "2026-10-21T17:39:51Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 166/166, mapeo 166/166 sin fallos de sentido, 8 items nuevos con traduccion, ingles pending_review 32/32, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; hallazgos qc_es justificados",
+            "t": "2026-10-21T17:39:44Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 166/166, mapeo 166/166 sin fallos de sentido, 8 items nuevos con traduccion, ingles pending_review 32/32, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; hallazgos qc_es justificados",
+          "t": "2026-10-21T17:39:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T17:39:53Z"
         }
       }
     },
@@ -25477,10 +25503,10 @@
       "originalTrackId": "",
       "titulo": "Como Duele Perderte",
       "artista": "Gloria Estefan",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T17:34:33Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T17:40:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25504,10 +25530,26 @@
             "t": "2026-10-06T21:22:22Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "falta abrir el borrador: plan en es_map/payloads/6aa59e8942b8d1fdb0d1a255/en_plan.json (51 lineas, 261 WIT con DT)",
-            "t": "2026-10-06T21:22:23Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 51 lineas, 276 WIT, BAD 0",
+            "t": "2026-10-21T17:40:09Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ronda 1: estructura y timing intactos, 276/276 anclas con sentido correcto, 8 items nuevos completos, ingles en pending_review, BAD 0, hallazgos restantes justificados",
+            "t": "2026-10-21T17:39:59Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "ronda 1: estructura y timing intactos, 276/276 anclas con sentido correcto, 8 items nuevos completos, ingles en pending_review, BAD 0, hallazgos restantes justificados",
+          "t": "2026-10-21T17:39:59Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T17:40:10Z"
         }
       }
     },
@@ -26981,10 +27023,10 @@
       "originalTrackId": "",
       "titulo": "Quien Te Dijo Eso",
       "artista": "Luis Fonsi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T17:34:33Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T17:44:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27008,10 +27050,26 @@
             "t": "2026-10-06T21:37:19Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (57 lineas + 288 WIT); falta abrir el borrador",
-            "t": "2026-10-06T21:37:19Z"
+            "v": "ok",
+            "nota": "57 lineas EN + WIT en draft pending_review (enviado), wit_dt_audit BAD 0",
+            "t": "2026-10-21T17:44:28Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 297/297, 0 huecos, WIT BAD 0, 57 lineas en pending_review, items nuevos ok; 4 notas de oido justificadas",
+            "t": "2026-10-21T17:44:19Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 297/297, 0 huecos, WIT BAD 0, 57 lineas en pending_review, items nuevos ok; 4 notas de oido justificadas",
+          "t": "2026-10-21T17:44:19Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T17:44:30Z"
         }
       }
     },
