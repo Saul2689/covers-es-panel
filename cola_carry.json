@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T16:51:03Z",
+  "generado": "2026-10-21T16:59:20Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -35567,9 +35567,9 @@
       "titulo": "Con Ella",
       "artista": "Cristian",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T16:51:01Z",
+      "vueltas": 1,
+      "motivo": "QC r2",
+      "actualizado": "2026-10-21T16:59:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35596,7 +35596,17 @@
             "v": "falta",
             "nota": "plan en_plan.json listo (54 lineas, 328 WIT); falta abrir borrador",
             "t": "2026-10-07T00:33:02Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "Falta phrase item (+PI/PIT en el draft EN) de la locucion de la linea 22 palabras 5-8; el resto verde: estructura, timing, audio, mapeo, EN BAD 0",
+            "t": "2026-10-21T16:55:17Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "Falta phrase item (+PI/PIT en el draft EN) de la locucion de la linea 22 palabras 5-8; el resto verde: estructura, timing, audio, mapeo, EN BAD 0",
+          "t": "2026-10-21T16:55:17Z"
         }
       },
       "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
@@ -36993,10 +37003,10 @@
       "originalTrackId": "",
       "titulo": "Como Te Echo De Menos",
       "artista": "Alejandro Sanz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T16:51:02Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T16:55:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37020,10 +37030,26 @@
             "t": "2026-10-07T00:58:42Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo, falta abrir el borrador",
-            "t": "2026-10-07T00:59:19Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 51/51 lineas, WIT y PIT completos, wit_dt BAD 0",
+            "t": "2026-10-21T16:55:48Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 51/51/261, mapeo y gemelas coherentes, ingles pending_review 51/51, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; hallazgos qc justificados (ad-libs, notas de oido)",
+            "t": "2026-10-21T16:55:41Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 51/51/261, mapeo y gemelas coherentes, ingles pending_review 51/51, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; hallazgos qc justificados (ad-libs, notas de oido)",
+          "t": "2026-10-21T16:55:41Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T16:55:49Z"
         }
       }
     },
@@ -38264,9 +38290,9 @@
       "titulo": "Yo Sin Ti",
       "artista": "Ricardo Montaner",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T16:51:02Z",
+      "vueltas": 1,
+      "motivo": "QC r2",
+      "actualizado": "2026-10-21T16:59:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38293,7 +38319,17 @@
             "v": "falta",
             "nota": "en_plan.json listo (lineas + WITs), falta abrir el borrador",
             "t": "2026-10-07T01:25:10Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "Ronda 1: estructura, timing, anclas, items nuevos e ingles OK; faltan phrase items de las locuciones L40 t1-4 y L29 t1-2, y la traduccion primaria 'i empty' del item vacio (verbo) lleva i minuscula",
+            "t": "2026-10-21T16:56:13Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "Ronda 1: estructura, timing, anclas, items nuevos e ingles OK; faltan phrase items de las locuciones L40 t1-4 y L29 t1-2, y la traduccion primaria 'i empty' del item vacio (verbo) lleva i minuscula",
+          "t": "2026-10-21T16:56:13Z"
         }
       }
     },
@@ -49076,10 +49112,10 @@
       "originalTrackId": "",
       "titulo": "Digale",
       "artista": "David Bisbal",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T16:51:03Z",
+      "estado": "parada",
+      "vueltas": 2,
+      "motivo": "espera a Saul: letra del proveedor mal oida en lineas 10 y 17 (sus gemelas y el original dicen otra palabra); cover publicada, no se toca el LRC a mano",
+      "actualizado": "2026-10-21T16:59:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49106,9 +49142,20 @@
             "v": "falta",
             "nota": "ingles preparado en en_plan.json (36 lineas, 224 WIT, 11 PIT), falta abrir el borrador",
             "t": "2026-10-07T04:38:30Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "2 tokens (linea 10 palabra 5 anclada a item distinto del token; linea 17 palabra 3) son errores del proveedor segun las gemelas del propio cover y el original; corregir, reabrir ingles y reenviar. Resto OK",
+            "t": "2026-10-21T16:57:53Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "2 tokens (linea 10 palabra 5 anclada a item distinto del token; linea 17 palabra 3) son errores del proveedor segun las gemelas del propio cover y el original; corregir, reabrir ingles y reenviar. Resto OK",
+          "t": "2026-10-21T16:57:53Z"
         }
-      }
+      },
+      "motivo_en": "Waiting for Saul: provider mis-heard words on lines 10 and 17 (twin lines and the original say another word); published cover, so the LRC is not hand-edited"
     },
     {
       "coverTrackId": "6aa822bad951e1665a80cc08",
