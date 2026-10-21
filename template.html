@@ -835,8 +835,8 @@ tailwind.config={theme:{extend:{
   }
 
   function tabs(){
-    var defs=[['con','tCon',M.con],['sin','tSin',M.sin],['linea','tLin',LIN.total||0],
-              ['cal','tCal',M.calificadas],['proc','tProc',null]];
+    var defs=[['linea','tLin',LIN.total||0],['cal','tCal',M.calificadas],
+              ['con','tCon',M.con],['sin','tSin',M.sin],['proc','tProc',null]];
     document.getElementById('x-tabs').innerHTML=defs.map(function(d){
       var on=d[0]===vista;
       return '<button role="tab" data-g="'+d[0]+'" aria-selected="'+on+'" '+
