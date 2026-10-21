@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T17:46:43Z",
+  "generado": "2026-10-21T17:55:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23104,10 +23104,10 @@
       "originalTrackId": "",
       "titulo": "Pequeña Y Fragil",
       "artista": "Sabu",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:43:43Z",
+      "motivo": "QC r1",
+      "actualizado": "2026-10-21T17:55:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23389,10 +23389,10 @@
       "originalTrackId": "",
       "titulo": "Murio La Flor",
       "artista": "los Angeles Negros",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2",
-      "actualizado": "2026-10-21T17:46:42Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T17:49:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23416,20 +23416,26 @@
             "t": "2026-10-06T20:47:14Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-            "t": "2026-10-06T20:47:14Z"
+            "v": "ok",
+            "nota": "borrador EN en pending_review: 33 lineas, WIT sin huecos, PIT en los 9 PI",
+            "t": "2026-10-21T17:49:56Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "falta ancla de la locucion 'desde que' (PI 6ac607a5eb100452391926cb) en lineas 19 y 30 palabras 1-2 + su PIT 'since' en el borrador de ingles; resto verificado OK",
-            "t": "2026-10-21T17:40:13Z"
+            "v": "ok",
+            "nota": "r2: fix de 'desde que' (PI en l19 y l30 con PIT) verificado; estructura, mapeo, inglés pending_review, wit_dt_audit BAD 0, drift 0",
+            "t": "2026-10-21T17:49:49Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "falta ancla de la locucion 'desde que' (PI 6ac607a5eb100452391926cb) en lineas 19 y 30 palabras 1-2 + su PIT 'since' en el borrador de ingles; resto verificado OK",
-          "t": "2026-10-21T17:40:13Z"
+          "v": "VERDE",
+          "resumen": "r2: fix de 'desde que' (PI en l19 y l30 con PIT) verificado; estructura, mapeo, inglés pending_review, wit_dt_audit BAD 0, drift 0",
+          "t": "2026-10-21T17:49:49Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T17:49:57Z"
         }
       }
     },
@@ -27526,10 +27532,10 @@
       "originalTrackId": "",
       "titulo": "Me Sacaron Del Tenampa",
       "artista": "Cornelio Reyna",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T17:34:34Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T17:51:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27553,10 +27559,26 @@
             "t": "2026-10-06T21:44:05Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (24 lineas + 163 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T21:44:05Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 24 lineas, 164 WIT, wit_dt BAD 0",
+            "t": "2026-10-21T17:51:56Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles (pending_review), wit_dt BAD 0, hallazgos justificados",
+            "t": "2026-10-21T17:51:50Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles (pending_review), wit_dt BAD 0, hallazgos justificados",
+          "t": "2026-10-21T17:51:50Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T17:51:57Z"
         }
       }
     },
@@ -27888,10 +27910,10 @@
       "originalTrackId": "",
       "titulo": "A.d.o.",
       "artista": "El Tri",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T21:50:53Z",
+      "motivo": "QC r1",
+      "actualizado": "2026-10-21T17:55:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28315,10 +28337,10 @@
       "originalTrackId": "",
       "titulo": "Me Muero Por Estar Contigo",
       "artista": "Silvana Di Lorenzo",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T21:55:19Z",
+      "motivo": "QC r1",
+      "actualizado": "2026-10-21T17:55:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30619,10 +30641,10 @@
       "originalTrackId": "",
       "titulo": "Separados",
       "artista": "los Hijos de Puerto Rico",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T22:36:13Z",
+      "motivo": "QC r1",
+      "actualizado": "2026-10-21T17:55:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44899,10 +44921,10 @@
       "originalTrackId": "",
       "titulo": "Tengo",
       "artista": "Franco de Vita",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T03:19:52Z",
+      "motivo": "QC r1",
+      "actualizado": "2026-10-21T17:55:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
