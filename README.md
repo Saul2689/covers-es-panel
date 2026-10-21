@@ -194,6 +194,15 @@ No hay un endpoint que devuelva la tabla hecha. Son tres llamadas distintas:
 | 2. fichas | `GET /admin/api/tracks/{trackId}` | `isArchived` y `coverReview.quality` (las estrellas). **No están en el censo**: hay que pedir una ficha por pista, 3.153 llamadas |
 | 3. audio | `GET /admin/api/cross-clear/migration/songs/{songId}/audio` con `Range: bytes=0-1` | **206 = suena con la voz del artista, 404 = el reproductor se queda a 0:00.** Es el único modo fiable de saberlo: `assets.fullSong` solo dice que el proveedor tiene el fichero, no que llegue a sonar |
 
+### Qué entra en la lista de pendientes
+
+Pendiente = **sin estrella**, y nada más. Da igual que esté publicada o en
+borrador. Antes la lista pedía además `isArchived` (el marcador de borrador de
+CrossClear, `archivationReason: "crossclear-draft"`), y el 21 oct 2026 eso se
+vio: al publicar ~2.150 covers de golpe, las que ya sonaban salieron de la cola
+de escucha justo al ponerse en vivo — "Con voz" se fue de 2.171 a 18 en dos
+horas. El contador de arriba cuenta las dos, borradores y publicadas.
+
 El número de lote (`L07`) no viene de la API: es la posición dentro del grupo
 dividida entre 50. La duración no existe en estos datos.
 

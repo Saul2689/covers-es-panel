@@ -420,7 +420,10 @@ def movimiento_carry(filas, log):
 
 def render(datos, plantilla, salida, fecha, log):
     es = [x for x in datos if x['arch'] is not None]
-    pend = [x for x in es if x['arch'] and x['q'] is None]
+    # Sin nota es sin nota, este publicada o en borrador. Publicar una cover
+    # le quita isArchived, y hasta el 21 oct 2026 eso la borraba del panel:
+    # las que ya suenan salian de la cola de escucha justo al ponerse en vivo.
+    pend = [x for x in es if x['q'] is None]
     orden = lambda x: (x['artist'].lower(), x['title'].lower())
     con = sorted([x for x in pend if x.get('ok')], key=orden)
     sin = sorted([x for x in pend if not x.get('ok')], key=orden)
@@ -520,7 +523,7 @@ def main():
                      if c.get('language') == args.idioma and c.get('publishedTrackId')]
         log('covers %s publicados: %d' % (args.idioma, len(canciones)))
         datos = fichas(api, canciones, log)
-        pend = [x for x in datos if x['arch'] and x['q'] is None]
+        pend = [x for x in datos if x['arch'] is not None and x['q'] is None]
         audios(api, pend, log)
         if args.cache:
             json.dump(datos, open(args.cache, 'w', encoding='utf-8'),
