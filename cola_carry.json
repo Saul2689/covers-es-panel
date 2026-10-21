@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T14:13:54Z",
+  "generado": "2026-10-21T14:20:18Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -36988,10 +36988,10 @@
       "originalTrackId": "",
       "titulo": "Mi Arbol Y Yo",
       "artista": "Alberto Cortez",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T13:46:59Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "Espera a Saúl: cover publicada con 3 arreglos de letra (línea 19 palabra 4 errata, líneas 26 y 43 palabra 1 tilde antigua)",
+      "actualizado": "2026-10-21T14:19:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37018,9 +37018,20 @@
             "v": "falta",
             "nota": "inglés preparado en en_plan.json (46 líneas + 232 WIT con DT de su bolsa); falta abrir el borrador",
             "t": "2026-10-07T01:08:55Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L19 t4 errata (WIT surplus vs line shade), L26 t1 y L43 t1 tilde de ortografia vieja, ejemplo copiado en item veintitantos; resto OK",
+            "t": "2026-10-21T14:19:11Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L19 t4 errata (WIT surplus vs line shade), L26 t1 y L43 t1 tilde de ortografia vieja, ejemplo copiado en item veintitantos; resto OK",
+          "t": "2026-10-21T14:19:11Z"
         }
-      }
+      },
+      "motivo_en": "Waiting for Saúl: published cover needs 3 LRC fixes (L19 w4 typo, L26 w1 and L43 w1 old-orthography accent)"
     },
     {
       "coverTrackId": "6aa824f2d951e1665a8107a7",
@@ -45917,10 +45928,10 @@
       "originalTrackId": "",
       "titulo": "Noche De Amantes",
       "artista": "Sandro",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T13:46:58Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "Espera a Saúl: línea 9 palabra 4 mal escrita (falta una h) y la cover está publicada; además línea 10 palabra 1 le falta el posesivo del original",
+      "actualizado": "2026-10-21T14:19:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45947,9 +45958,20 @@
             "v": "falta",
             "nota": "ingles preparado en en_plan.json (25 lineas, 118 WIT, 1 PIT); falta abrir el borrador",
             "t": "2026-10-07T03:44:26Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 9 palabra 4 mal escrita (falta una letra) y mapeada al sustantivo equivocado; reabrir ingles de esa linea. Linea 10 palabra 1: decidir o lrc saul",
+            "t": "2026-10-21T14:18:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 9 palabra 4 mal escrita (falta una letra) y mapeada al sustantivo equivocado; reabrir ingles de esa linea. Linea 10 palabra 1: decidir o lrc saul",
+          "t": "2026-10-21T14:18:29Z"
         }
-      }
+      },
+      "motivo_en": "Waiting for Saúl: line 9 word 4 misspelled (missing h) on a published cover, LRC edit needed; line 10 word 1 lacks the original's possessive"
     },
     {
       "coverTrackId": "6aa813e9d951e1665a7f7c94",
@@ -45958,9 +45980,9 @@
       "titulo": "Acompañame",
       "artista": "Enrique Guzman",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T14:13:19Z",
+      "vueltas": 1,
+      "motivo": "corregida r1, QC r2",
+      "actualizado": "2026-10-21T14:18:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45987,7 +46009,17 @@
             "v": "falta",
             "nota": "ingles preparado en en_plan.json (36 lineas, 124 WIT, 6 PIT); falta abrir el borrador",
             "t": "2026-10-07T03:45:36Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "Frase 'todo el mundo' anclada en lineas 7 y 22 (palabras 5-7) con sentido 'everyone' que contradice la linea y los WIT; quitarla, reabrir el ingles y reenviar. Resto en orden",
+            "t": "2026-10-21T14:17:58Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "Frase 'todo el mundo' anclada en lineas 7 y 22 (palabras 5-7) con sentido 'everyone' que contradice la linea y los WIT; quitarla, reabrir el ingles y reenviar. Resto en orden",
+          "t": "2026-10-21T14:17:58Z"
         }
       }
     },
@@ -46037,10 +46069,10 @@
       "originalTrackId": "",
       "titulo": "Falso Amor",
       "artista": "los Bukis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T14:13:19Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T14:19:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46064,10 +46096,26 @@
             "t": "2026-10-07T03:47:12Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (42 lineas, 184 WIT, 12 PIT); falta abrir borrador",
-            "t": "2026-10-07T03:46:53Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 42 lineas, 184 WIT, 12 PIT; wit_dt_audit BAD 0",
+            "t": "2026-10-21T14:19:13Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles en pending_review, WIT/DT limpios; audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-21T14:19:08Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles en pending_review, WIT/DT limpios; audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-21T14:19:08Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T14:19:14Z"
         }
       }
     },
