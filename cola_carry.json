@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T10:13:33Z",
+  "generado": "2026-10-21T10:22:24Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -11649,9 +11649,9 @@
       "titulo": "Hasta Que Amanezca",
       "artista": "Joan Sebastian",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T10:13:29Z",
+      "vueltas": 1,
+      "motivo": "corregida r1, QC r2",
+      "actualizado": "2026-10-21T10:22:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11678,7 +11678,17 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-21T10:13:28Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT mayuscula mid-line (L34 w5); ad-lib la sin ancla (L21 w1-3)",
+            "t": "2026-10-21T10:19:16Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT mayuscula mid-line (L34 w5); ad-lib la sin ancla (L21 w1-3)",
+          "t": "2026-10-21T10:19:16Z"
         }
       }
     },
@@ -15288,10 +15298,10 @@
       "originalTrackId": "",
       "titulo": "El Perdedor",
       "artista": "Intocable",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T10:13:30Z",
+      "motivo": "audio muda (404), stemVoc a +7010 ms, no pinable: Saul debe revisar stem vs XML; pendiente despues: anclar locuciones L11/L29, L19/L37, L14/L32/L40",
+      "actualizado": "2026-10-21T10:19:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15318,9 +15328,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-21T10:13:30Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "audio MUDA_PARADA: /audio 404, stemVoc a +7010 ms (no pinable); ademas faltan 3 anclas de locucion (L11/L29, L19/L37, L14/L32/L40)",
+            "t": "2026-10-21T10:19:34Z"
           }
+        },
+        "qc": {
+          "v": "PARADA",
+          "resumen": "audio MUDA_PARADA: /audio 404, stemVoc a +7010 ms (no pinable); ademas faltan 3 anclas de locucion (L11/L29, L19/L37, L14/L32/L40)",
+          "t": "2026-10-21T10:19:34Z"
         }
-      }
+      },
+      "motivo_en": "audio is silent (404), stemVoc is +7010 ms off so it cannot be pinned: Saul must check stem vs XML; afterwards still to do: anchor idioms at L11/L29, L19/L37, L14/L32/L40"
     },
     {
       "coverTrackId": "6ab23f813369c68d83b673a7",
@@ -15764,10 +15785,10 @@
       "originalTrackId": "",
       "titulo": "Salud Y Vida",
       "artista": "Daddy Yankee",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T10:13:28Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1 DEVUELTO: ver reviews/6aa56e9d42b8d1fdb0cd2f81.md (L29 PI, L53 w9, San/Miguel WIT, L19 acaso, L36 idiom)",
+      "actualizado": "2026-10-21T10:21:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15794,7 +15815,17 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-21T10:13:27Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: wrong-sense phrase anchor L29, wrong-sense item L53 w9, proper nouns lowercase (San/Miguel), L19 split word, missing idiom anchors L36/L9/L51",
+            "t": "2026-10-21T10:21:32Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: wrong-sense phrase anchor L29, wrong-sense item L53 w9, proper nouns lowercase (San/Miguel), L19 split word, missing idiom anchors L36/L9/L51",
+          "t": "2026-10-21T10:21:32Z"
         }
       }
     },
@@ -15816,9 +15847,9 @@
       "titulo": "Octavo Dia",
       "artista": "Shakira",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T10:13:29Z",
+      "vueltas": 1,
+      "motivo": "corregida r1, QC r2",
+      "actualizado": "2026-10-21T10:22:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15845,7 +15876,17 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-21T10:13:29Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 3 WIT convencer tras lets, 2 anclas de sentido (L2 w6, L26 w1), PIT iba a x3, 4 locuciones sin item",
+            "t": "2026-10-21T10:18:04Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 3 WIT convencer tras lets, 2 anclas de sentido (L2 w6, L26 w1), PIT iba a x3, 4 locuciones sin item",
+          "t": "2026-10-21T10:18:04Z"
         }
       }
     },
