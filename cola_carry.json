@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T16:59:20Z",
+  "generado": "2026-10-21T17:08:13Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -35566,10 +35566,10 @@
       "originalTrackId": "",
       "titulo": "Con Ella",
       "artista": "Cristian",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2",
-      "actualizado": "2026-10-21T16:59:19Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T17:02:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35593,20 +35593,26 @@
             "t": "2026-10-07T00:33:08Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en_plan.json listo (54 lineas, 328 WIT); falta abrir borrador",
-            "t": "2026-10-07T00:33:02Z"
+            "v": "ok",
+            "nota": "54 lineas + WIT + PI/PIT en draft pending_review; wit_dt_audit BAD 0",
+            "t": "2026-10-21T17:02:29Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "Falta phrase item (+PI/PIT en el draft EN) de la locucion de la linea 22 palabras 5-8; el resto verde: estructura, timing, audio, mapeo, EN BAD 0",
-            "t": "2026-10-21T16:55:17Z"
+            "v": "ok",
+            "nota": "round 2: phrase item and PI/PIT on line 22 words 5-8 verified; structure, meanings, English (BAD 0, 54/54) and audio OK",
+            "t": "2026-10-21T17:02:23Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "Falta phrase item (+PI/PIT en el draft EN) de la locucion de la linea 22 palabras 5-8; el resto verde: estructura, timing, audio, mapeo, EN BAD 0",
-          "t": "2026-10-21T16:55:17Z"
+          "v": "VERDE",
+          "resumen": "round 2: phrase item and PI/PIT on line 22 words 5-8 verified; structure, meanings, English (BAD 0, 54/54) and audio OK",
+          "t": "2026-10-21T17:02:23Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T17:02:31Z"
         }
       },
       "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
@@ -38289,10 +38295,10 @@
       "originalTrackId": "",
       "titulo": "Yo Sin Ti",
       "artista": "Ricardo Montaner",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2",
-      "actualizado": "2026-10-21T16:59:19Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T17:03:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38316,20 +38322,26 @@
             "t": "2026-10-07T01:21:42Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (lineas + WITs), falta abrir el borrador",
-            "t": "2026-10-07T01:25:10Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 52/52 lineas, WIT completos, PIT de L29 y L40",
+            "t": "2026-10-21T17:03:18Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "Ronda 1: estructura, timing, anclas, items nuevos e ingles OK; faltan phrase items de las locuciones L40 t1-4 y L29 t1-2, y la traduccion primaria 'i empty' del item vacio (verbo) lleva i minuscula",
-            "t": "2026-10-21T16:56:13Z"
+            "v": "ok",
+            "nota": "ronda 2: locuciones L29 y L40 con phrase item y PIT, item 'en fin' conforme, resto de checklist sin cambios; BAD 0, 52/52 ingles pending_review",
+            "t": "2026-10-21T17:03:12Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "Ronda 1: estructura, timing, anclas, items nuevos e ingles OK; faltan phrase items de las locuciones L40 t1-4 y L29 t1-2, y la traduccion primaria 'i empty' del item vacio (verbo) lleva i minuscula",
-          "t": "2026-10-21T16:56:13Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: locuciones L29 y L40 con phrase item y PIT, item 'en fin' conforme, resto de checklist sin cambios; BAD 0, 52/52 ingles pending_review",
+          "t": "2026-10-21T17:03:12Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T17:03:19Z"
         }
       }
     },
@@ -49163,10 +49175,10 @@
       "originalTrackId": "",
       "titulo": "Misterios Del Amor",
       "artista": "Luis Miguel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T16:51:01Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "Falta la tilde del pretérito en la línea 1 palabra 2; la cover está publicada y no toco su letra. Lo demás está listo",
+      "actualizado": "2026-10-21T17:08:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49193,9 +49205,20 @@
             "v": "falta",
             "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
             "t": "2026-10-07T04:38:26Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "2 defectos: linea 1 palabra 2 sin tilde (preterito, el original la lleva); linea 23 palabras 2-3 ancla de locucion con sentido distinto al de la linea",
+            "t": "2026-10-21T17:03:52Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "2 defectos: linea 1 palabra 2 sin tilde (preterito, el original la lleva); linea 23 palabras 2-3 ancla de locucion con sentido distinto al de la linea",
+          "t": "2026-10-21T17:03:52Z"
         }
-      }
+      },
+      "motivo_en": "Line 1 word 2 is missing the preterite accent; the cover is published so its LRC is not edited. Everything else is ready"
     },
     {
       "coverTrackId": "6aa6600a72ca57eb1a9d1721",
