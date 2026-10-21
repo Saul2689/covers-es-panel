@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T18:06:08Z",
+  "generado": "2026-10-21T18:10:24Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -44980,10 +44980,10 @@
       "originalTrackId": "",
       "titulo": "Tengo",
       "artista": "Franco de Vita",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2",
-      "actualizado": "2026-10-21T18:06:08Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T18:08:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45007,20 +45007,26 @@
             "t": "2026-10-07T03:19:51Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (46 lineas, 222 WIT, 17 PIT); falta abrir el borrador",
-            "t": "2026-10-07T03:19:52Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 46/46 lineas, WIT sin texto 0, wit_dt BAD 0",
+            "t": "2026-10-21T18:08:50Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "1 defecto: L2 w3 ancla a item de sentido incorrecto (personalidad vs reservado=apartado); resto limpio",
-            "t": "2026-10-21T18:03:00Z"
+            "v": "ok",
+            "nota": "QC r2: fix de L2 w3 (reservado, sentido de plaza reservada) verificado; estructura, mapeo, ingles pending_review, wit_dt BAD 0 y audio OK",
+            "t": "2026-10-21T18:08:42Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "1 defecto: L2 w3 ancla a item de sentido incorrecto (personalidad vs reservado=apartado); resto limpio",
-          "t": "2026-10-21T18:03:00Z"
+          "v": "VERDE",
+          "resumen": "QC r2: fix de L2 w3 (reservado, sentido de plaza reservada) verificado; estructura, mapeo, ingles pending_review, wit_dt BAD 0 y audio OK",
+          "t": "2026-10-21T18:08:42Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T18:08:51Z"
         }
       }
     },
