@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T17:20:21Z",
+  "generado": "2026-10-21T17:30:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -36689,10 +36689,10 @@
       "originalTrackId": "",
       "titulo": "Entre Tus Jardines",
       "artista": "Jaguares",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T17:16:16Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T17:21:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36716,10 +36716,26 @@
             "t": "2026-10-07T00:57:02Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "falta abrir el borrador: plan completo en es_map/payloads/6aa715f272ca57eb1aac432e/en_plan.json (53 lineas, 105 WIT con DT)",
-            "t": "2026-10-07T00:57:02Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 53 lineas, 119 WIT, wit_dt_audit BAD 0",
+            "t": "2026-10-21T17:21:03Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 152=152, drift 0, sin_mapear 0; restos de qc_es son ad-libs; ingles 53/53 pending_review; wit_dt BAD 0; nota: falta un Yo en l33 (oido)",
+            "t": "2026-10-21T17:21:03Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 152=152, drift 0, sin_mapear 0; restos de qc_es son ad-libs; ingles 53/53 pending_review; wit_dt BAD 0; nota: falta un Yo en l33 (oido)",
+          "t": "2026-10-21T17:21:03Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T17:21:04Z"
         }
       }
     },
@@ -36729,10 +36745,10 @@
       "originalTrackId": "",
       "titulo": "Solo Tu",
       "artista": "Jaci Velasquez",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T17:16:15Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "Sobra la tilde en la palabra 1 de las líneas 1 y 2; la cover está publicada y no toco su letra. Lo demás está listo",
+      "actualizado": "2026-10-21T17:30:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36759,9 +36775,20 @@
             "v": "falta",
             "nota": "en_plan.json preparado (44 lineas, 194 WIT con DT, 2 PIT); falta abrir borrador",
             "t": "2026-10-07T00:58:16Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "tilde de mas en 'cuando' (L1 w1, L2 w1; L1 w3 ya sin tilde): corregir LRC y remapear al item sin tilde; resto verificado OK",
+            "t": "2026-10-21T17:20:54Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "tilde de mas en 'cuando' (L1 w1, L2 w1; L1 w3 ya sin tilde): corregir LRC y remapear al item sin tilde; resto verificado OK",
+          "t": "2026-10-21T17:20:54Z"
         }
-      }
+      },
+      "motivo_en": "Line 1 word 1 and line 2 word 1 carry a wrong accent; the cover is published so its LRC is not edited. Everything else is ready"
     },
     {
       "coverTrackId": "6aa6346e72ca57eb1a9928da",
@@ -53527,10 +53554,10 @@
       "originalTrackId": "",
       "titulo": "Cruz De Madera",
       "artista": "Michael Salgado",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T17:16:17Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T17:23:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53554,10 +53581,26 @@
             "t": "2026-10-07T06:39:26Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (23 lineas, 142 WIT, 2 PIT); falta abrir el borrador",
-            "t": "2026-10-07T06:39:27Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 23 lineas, 0 WIT vacios, wit_dt_audit BAD 0",
+            "t": "2026-10-21T17:23:20Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC ronda 1: estructura, mapeo, items nuevos, ingles (draft pending_review), wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR; hallazgos qc_es justificados",
+            "t": "2026-10-21T17:23:15Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC ronda 1: estructura, mapeo, items nuevos, ingles (draft pending_review), wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR; hallazgos qc_es justificados",
+          "t": "2026-10-21T17:23:15Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T17:23:21Z"
         }
       }
     },
@@ -54142,10 +54185,10 @@
       "originalTrackId": "",
       "titulo": "Amigo En El Baño",
       "artista": "Kany Garcia",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T17:16:16Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "La palabra 4 de la línea 48 debe ir en dos palabras; la cover está publicada y no toco su letra. Lo demás está arreglado",
+      "actualizado": "2026-10-21T17:30:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54172,10 +54215,20 @@
             "v": "falta",
             "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
             "t": "2026-10-07T06:55:23Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "wrong-sense items for future/conditional of decir (l13/27/39 w3, l31 w4); misspelled one-word porque at l48 w4 must be two words",
+            "t": "2026-10-21T17:22:48Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "wrong-sense items for future/conditional of decir (l13/27/39 w3, l31 w4); misspelled one-word porque at l48 w4 must be two words",
+          "t": "2026-10-21T17:22:48Z"
         }
       },
-      "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
+      "motivo_en": "Line 48 word 4 must be split into two words; the cover is published so its LRC is not edited. Everything else is fixed"
     },
     {
       "coverTrackId": "6aa6dc5c72ca57eb1aa7b734",
