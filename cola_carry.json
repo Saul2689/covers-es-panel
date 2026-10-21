@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T15:25:26Z",
+  "generado": "2026-10-21T15:29:38Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24273,10 +24273,10 @@
       "originalTrackId": "",
       "titulo": "No Rompas Mas",
       "artista": "Caballo Dorado",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2: pegando con item de sentido fijo",
-      "actualizado": "2026-10-21T15:25:24Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T15:27:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24300,20 +24300,26 @@
             "t": "2026-10-06T21:12:17Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan preparado en en_plan.json (74 lineas, 342 WITs); borrador sin abrir",
-            "t": "2026-10-06T21:12:18Z"
+            "v": "ok",
+            "nota": "74/74 lineas, WIT completos, draft pending_review enviado por el worker",
+            "t": "2026-10-21T15:27:46Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "pegando (10 anclas, lineas 3/4/21/22/39/40/51/52/63/64): item dice 'pressing close', WIT e ingles dicen 'hitting'; resto OK",
-            "t": "2026-10-21T15:03:31Z"
+            "v": "ok",
+            "nota": "r2: pegando fix verificado (10 anclas, WIT e ingles coherentes), BAD 0, 0 WIT vacios, 74/74 ingles pending_review, estructura OK",
+            "t": "2026-10-21T15:27:41Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "pegando (10 anclas, lineas 3/4/21/22/39/40/51/52/63/64): item dice 'pressing close', WIT e ingles dicen 'hitting'; resto OK",
-          "t": "2026-10-21T15:03:31Z"
+          "v": "VERDE",
+          "resumen": "r2: pegando fix verificado (10 anclas, WIT e ingles coherentes), BAD 0, 0 WIT vacios, 74/74 ingles pending_review, estructura OK",
+          "t": "2026-10-21T15:27:41Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T15:27:47Z"
         }
       }
     },
