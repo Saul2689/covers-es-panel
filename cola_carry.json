@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T11:23:31Z",
+  "generado": "2026-10-21T11:38:18Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -12088,10 +12088,10 @@
       "originalTrackId": "",
       "titulo": "Te Mando Flores",
       "artista": "J Fonseca",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T16:38:13Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-21T11:38:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17676,10 +17676,10 @@
       "originalTrackId": "",
       "titulo": "Se Me Va La Voz",
       "artista": "Alejandro Fernandez, Hector El Torito Acosta",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T18:21:03Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-21T11:36:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17694,18 +17694,18 @@
           },
           "timing": {
             "v": "ok",
-            "nota": "drift 0 tras alinear isEndOfLine; sin palabras <40ms; audio karaokeMp3 SUENA_SIN_BLINDAR sin tocar",
-            "t": "2026-10-06T18:15:33Z"
+            "nota": "drift 0 en 75 lineas; audio_guard SUENA_SIN_BLINDAR, no se mide",
+            "t": "2026-10-21T11:36:18Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "340/352 mapeados, 3 items nuevos (causando, entréname, refresca), 17 remapeos/unificacion; resto ad-libs",
-            "t": "2026-10-06T18:20:29Z"
+            "nota": "352/352 anclas; 29 anclas de ad-lib arregladas (8 fuera de rango borradas en L2/L5, 21 reapuntadas a su item), 31 ad-libs sin ancla anclados; 9 phrase anchors (de rodillas x4, junto a x5)",
+            "t": "2026-10-21T11:36:17Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (75 lineas, 239 WITs con DT); falta abrir el borrador",
-            "t": "2026-10-06T18:20:59Z"
+            "v": "ok",
+            "nota": "75 lineas + WIT con texto en 352/352 anclas, BAD 0, 9 PIT; pending_review",
+            "t": "2026-10-21T11:36:17Z"
           }
         }
       }
@@ -17716,10 +17716,10 @@
       "originalTrackId": "",
       "titulo": "A Fuego Lento",
       "artista": "Rosana",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T18:21:27Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-21T11:38:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17868,10 +17868,10 @@
       "originalTrackId": "",
       "titulo": "Como Diablos",
       "artista": "Mana",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T18:20:30Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-21T11:38:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18675,10 +18675,10 @@
       "originalTrackId": "",
       "titulo": "Angel",
       "artista": "Yuridia",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T19:51:44Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-21T11:38:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
