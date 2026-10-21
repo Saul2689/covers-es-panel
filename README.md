@@ -108,6 +108,19 @@ El aviso de Slack sigue en espanol: ese lo lees tu, no se comparte.
 
 ## El boton de actualizar a mano
 
+**Tope: 10 pulsaciones por dia de Madrid** (`TOPE_DIARIO` en
+`functions/api/refrescar.js` y en `functions/api/estado.js` — los dos a la vez).
+Estuvo en 5 mientras Actions se pagaba por minuto; con el repo publico los
+minutos son gratis y el boton vive detras de la contrasena, asi que el unico
+motivo que queda para frenarlo es no machacar la admin: **cada pulsacion le pide
+~4.600 fichas**. Por eso sigue habiendo tope.
+
+Encima de la pagina hay una tarjeta (`#x-cupo`) que dice para que sirve el boton
+y cuantas quedan. Tiene tres caras: con cupo (pastilla violeta), agotado
+(naranja, boton apagado) y copia guardada sin `/api` detras (explica para que
+sirve pero no finge un cupo que no puede consultar). El parrafo de debajo
+(`#x-aviso`) se guarda solo para lo excepcional.
+
 La pagina lleva un boton publico que dispara una vuelta. El freno vive en el
 servidor, no en el navegador, porque la pagina la ve cualquiera:
 

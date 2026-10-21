@@ -9,7 +9,7 @@
 const REPO = 'Saul2689/covers-es-panel';
 const FICHERO = 'covers-es.yml';
 const RAMA = 'master';
-const TOPE_DIARIO = 5;
+const TOPE_DIARIO = 10;
 // Solo cuentan las vueltas que pidio ESTE boton: el workflow se llama a si mismo
 // "... boton" cuando llega con origen=boton, y las lanzadas desde la terminal
 // llevan otro nombre y no gastan cupo de nadie.
