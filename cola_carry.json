@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T09:49:03Z",
+  "generado": "2026-10-21T09:52:06Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -12917,10 +12917,10 @@
       "originalTrackId": "",
       "titulo": "Desde Que Llegaste",
       "artista": "Reyli",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1, QC r2",
-      "actualizado": "2026-10-21T09:49:03Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "anclar phrase item es existente 'desde que' (6ac607a5eb100452391926cb) en L10,14,33,37 w1-2 + PIT en draft",
+      "actualizado": "2026-10-21T09:51:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12950,14 +12950,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "linea 40 palabra 1: WIT 'for' + 'to feel' doblado; poner 'in order' como en la 39 (fila nueva en pa)",
-            "t": "2026-10-15T15:58:52Z"
+            "nota": "QC2: r1 L40 arreglado; falta anclar phrase item es 'desde que' en L10,14,33,37 w1-2 (+PIT)",
+            "t": "2026-10-21T09:51:54Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "linea 40 palabra 1: WIT 'for' + 'to feel' doblado; poner 'in order' como en la 39 (fila nueva en pa)",
-          "t": "2026-10-15T15:58:52Z"
+          "resumen": "QC2: r1 L40 arreglado; falta anclar phrase item es 'desde que' en L10,14,33,37 w1-2 (+PIT)",
+          "t": "2026-10-21T09:51:54Z"
         }
       }
     },
@@ -16046,9 +16046,9 @@
       "titulo": "Tu Angelito",
       "artista": "Chino & Nacho",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-15T15:52:34Z",
+      "vueltas": 1,
+      "motivo": "corregida r1, QC r2",
+      "actualizado": "2026-10-21T09:52:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16075,7 +16075,17 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-15T15:52:34Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: WIT doble sujeto I am + I en soy yo (9 lineas)",
+            "t": "2026-10-21T09:50:02Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: WIT doble sujeto I am + I en soy yo (9 lineas)",
+          "t": "2026-10-21T09:50:02Z"
         }
       }
     },
@@ -16181,10 +16191,10 @@
       "originalTrackId": "",
       "titulo": "Luz Sin Gravedad",
       "artista": "Belinda",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, QC r2",
-      "actualizado": "2026-10-21T09:49:03Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-21T09:51:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16213,15 +16223,21 @@
             "t": "2026-10-15T15:52:31Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: frase 'nada más' (L12/23/37 w3-4) con sentido equivocado (just vs anything else); resto OK",
-            "t": "2026-10-15T15:58:56Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-21T09:51:29Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: frase 'nada más' (L12/23/37 w3-4) con sentido equivocado (just vs anything else); resto OK",
-          "t": "2026-10-15T15:58:56Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-21T09:51:29Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T09:51:31Z"
         }
       }
     },
