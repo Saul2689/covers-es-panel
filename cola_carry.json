@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T15:01:28Z",
+  "generado": "2026-10-21T15:02:06Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -22044,10 +22044,10 @@
       "originalTrackId": "",
       "titulo": "Salvaje",
       "artista": "Don Omar",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:34:56Z",
+      "motivo": "c13: carry, mapeo e inglés hechos, inglés en pending_review; QC r1",
+      "actualizado": "2026-10-21T15:01:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37181,10 +37181,10 @@
       "originalTrackId": "",
       "titulo": "Se Acabo",
       "artista": "Chino & Nacho, Sanluis",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "c12: carry, mapeo e inglés hechos, inglés en pending_review; QC r1",
-      "actualizado": "2026-10-21T14:56:45Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "espera a Saúl: línea 24 palabra 1 es un fragmento roto del proveedor y las líneas 17 y 37 palabra 1 necesitan tilde (exclamativo); la cover está publicada y no toco su LRC; el resto pasó QC",
+      "actualizado": "2026-10-21T15:02:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37211,9 +37211,20 @@
             "v": "falta",
             "nota": "preparado en en_plan.json (63 lineas, 310 WIT); falta abrir el borrador",
             "t": "2026-10-07T01:09:43Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "estructura, timing, audio, ingles y items nuevos OK; faltan: L24 tok1 fragmento roto sin arreglar, L17 y L37 tok1 sin tilde (que->qué exclamativo) con remapeo",
+            "t": "2026-10-21T15:01:41Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "estructura, timing, audio, ingles y items nuevos OK; faltan: L24 tok1 fragmento roto sin arreglar, L17 y L37 tok1 sin tilde (que->qué exclamativo) con remapeo",
+          "t": "2026-10-21T15:01:41Z"
         }
-      }
+      },
+      "motivo_en": "Waiting for Saúl: line 24 word 1 is a broken provider fragment and line 17 and line 37 word 1 need the exclamative tilde; the cover is published so I do not edit its LRC; everything else passed QC"
     },
     {
       "coverTrackId": "6aa5878c42b8d1fdb0cf590e",
