@@ -99,7 +99,7 @@ tailwind.config={theme:{extend:{
 
   <main class="mx-auto max-w-[1180px] px-4 sm:px-6 pb-24">
 
-    <!-- ══ tesis ══ -->
+    <!-- ══ titular ══ -->
     <section class="pt-9 sm:pt-12 pb-6">
       <div class="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-3 py-1 mb-6">
         <span class="h-1.5 w-1.5 rounded-full bg-accentsoft"></span>
@@ -108,8 +108,6 @@ tailwind.config={theme:{extend:{
 
       <h1 class="font-display font-semibold tracking-tight text-[38px] sm:text-[52px] leading-[1.02] text-zinc-50"
           id="x-h1" style="text-wrap:balance"></h1>
-
-      <p class="mt-4 max-w-[62ch] text-[16px] sm:text-[17px] leading-relaxed text-zinc-400" id="x-tesis"></p>
 
       <p class="mt-5 text-[13px] text-zinc-500 max-w-[62ch]" id="x-sub"></p>
     </section>
@@ -238,7 +236,6 @@ tailwind.config={theme:{extend:{
       eyebrow:'Covers de CrossClear',
       propuesta:'Barrido del {fecha}',
       h1:'Covers en español',
-      tesis:'Quedan {pend} covers por escuchar. {cal} ya tienen nota.',
       rCon:'Con full song', rNo:'Sin audio utilizable', rCal:'Ya calificadas',
       sub:'La página se actualiza sola cada hora, de 9:00 a 18:00 (hora de Madrid). Cada canción abre su ficha en el admin, que es donde se ponen las estrellas.',
       kSin:'Sin calificar', kSinPie:'covers esperando nota',
@@ -310,7 +307,6 @@ tailwind.config={theme:{extend:{
       eyebrow:'CrossClear covers',
       propuesta:'Swept on {fecha}',
       h1:'Spanish covers',
-      tesis:'{pend} covers still need listening to. {cal} are rated.',
       rCon:'With full song', rNo:'No usable audio', rCal:'Already rated',
       sub:'The page refreshes itself every hour, 9:00 to 18:00 Madrid time. Each song opens its card in the admin, which is where the stars are set.',
       kSin:'Unrated', kSinPie:'covers awaiting a rating',
@@ -863,7 +859,6 @@ tailwind.config={theme:{extend:{
     document.getElementById('x-eyebrow').textContent=t('eyebrow');
     document.getElementById('x-propuesta').textContent=t('propuesta',{fecha:fecha(M.iso)});
     document.getElementById('x-h1').textContent=t('h1');
-    document.getElementById('x-tesis').textContent=t('tesis',{pend:nf.format(M.total),cal:nf.format(M.calificadas)});
     document.getElementById('x-sub').textContent=t('sub');
     document.getElementById('x-refrescar').textContent=t('btn');
     pintaAviso();
