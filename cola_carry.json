@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T16:34:04Z",
+  "generado": "2026-10-21T16:42:15Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -37616,10 +37616,10 @@
       "originalTrackId": "",
       "titulo": "De Venus",
       "artista": "Camila",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2",
-      "actualizado": "2026-10-21T16:34:03Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T16:37:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37643,20 +37643,26 @@
             "t": "2026-10-07T01:11:54Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (43 lineas, 198 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-07T01:11:55Z"
+            "v": "ok",
+            "nota": "draft en pending_review reenviado tras QC r1; L17 w3 y L3 w1 corregidos",
+            "t": "2026-10-21T16:37:43Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 1: WIT linea 17 pal 3 (address vs direction) y linea 3 pal 1 (item 3sg vs ingles imperativo); resto OK",
-            "t": "2026-10-21T16:32:10Z"
+            "v": "ok",
+            "nota": "ronda 2: arreglos de inglés verificados (L17 w3, L3 w1); estructura, mapeo, WIT y audio sin defectos",
+            "t": "2026-10-21T16:37:37Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 1: WIT linea 17 pal 3 (address vs direction) y linea 3 pal 1 (item 3sg vs ingles imperativo); resto OK",
-          "t": "2026-10-21T16:32:10Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: arreglos de inglés verificados (L17 w3, L3 w1); estructura, mapeo, WIT y audio sin defectos",
+          "t": "2026-10-21T16:37:37Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T16:37:44Z"
         }
       }
     },
@@ -37997,10 +38003,10 @@
       "originalTrackId": "",
       "titulo": "Restos De Abril",
       "artista": "Camila",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T16:27:14Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T16:38:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38024,10 +38030,26 @@
             "t": "2026-10-07T01:18:52Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado, falta abrir el borrador",
-            "t": "2026-10-07T01:18:53Z"
+            "v": "ok",
+            "nota": "borrador EN pending_review, 58/58 lineas, WIT sin vacios, wit_dt BAD 0",
+            "t": "2026-10-21T16:38:48Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: qc_es remnants justified (in-line repeats, deliberate case/accent), structure ok, drift 0, wit_dt BAD 0, 0 empty WIT, EN draft pending_review 58/58, guard SUENA_SIN_BLINDAR",
+            "t": "2026-10-21T16:38:43Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: qc_es remnants justified (in-line repeats, deliberate case/accent), structure ok, drift 0, wit_dt BAD 0, 0 empty WIT, EN draft pending_review 58/58, guard SUENA_SIN_BLINDAR",
+          "t": "2026-10-21T16:38:43Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T16:38:49Z"
         }
       }
     },
@@ -42477,10 +42499,10 @@
       "originalTrackId": "",
       "titulo": "Volvere",
       "artista": "Jesse & Joy",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2",
-      "actualizado": "2026-10-21T16:34:03Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T16:36:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42504,20 +42526,26 @@
             "t": "2026-10-07T02:38:06Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (46 lineas, 179 WIT, 6 PIT); falta abrir el borrador",
-            "t": "2026-10-07T02:37:55Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 46 lineas, 0 WIT vacios, wit_dt BAD 0",
+            "t": "2026-10-21T16:36:47Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "PI 'ya no' en linea 22 anclado en palabras 5-6 en vez de 4-5; el resto verde",
-            "t": "2026-10-21T16:31:38Z"
+            "v": "ok",
+            "nota": "r2: PI de la linea 22 corregido (palabras 4-5), resto verificado: estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-21T16:36:38Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "PI 'ya no' en linea 22 anclado en palabras 5-6 en vez de 4-5; el resto verde",
-          "t": "2026-10-21T16:31:38Z"
+          "v": "VERDE",
+          "resumen": "r2: PI de la linea 22 corregido (palabras 4-5), resto verificado: estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-21T16:36:38Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T16:36:48Z"
         }
       }
     },
@@ -50781,10 +50809,10 @@
       "originalTrackId": "",
       "titulo": "Con La Cara En Alto",
       "artista": "Reik",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T16:27:14Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T16:38:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50808,10 +50836,26 @@
             "t": "2026-10-07T05:55:51Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (55 lineas, 203 WIT, 7 PIT); falta abrir el borrador",
-            "t": "2026-10-07T05:55:52Z"
+            "v": "ok",
+            "nota": "borrador de ingles en pending_review: 55 lineas, 0 WIT vacios, wit_dt_audit BAD 0",
+            "t": "2026-10-21T16:38:10Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC ronda 1: estructura, mapeo, ingles (pending_review) y audio OK; notas de timing en lineas 41 y 55",
+            "t": "2026-10-21T16:38:04Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC ronda 1: estructura, mapeo, ingles (pending_review) y audio OK; notas de timing en lineas 41 y 55",
+          "t": "2026-10-21T16:38:04Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T16:38:11Z"
         }
       }
     },
