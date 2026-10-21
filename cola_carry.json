@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T18:25:14Z",
+  "generado": "2026-10-21T18:30:53Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -30241,10 +30241,10 @@
       "originalTrackId": "",
       "titulo": "Te Esperaba",
       "artista": "Alejandra Guzmán",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T18:25:12Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T18:29:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30268,10 +30268,26 @@
             "t": "2026-10-06T22:25:14Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (38 lineas, 189 WIT); falta abrir el borrador (start_draft no permitido a este agente)",
-            "t": "2026-10-06T22:25:14Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 38/38 lineas, 193 WIT con texto, BAD 0",
+            "t": "2026-10-21T18:29:55Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 193/193, sentidos y homografos OK, 7 items nuevos con 19 idiomas, ingles 38/38 pending_review, WIT BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-21T18:29:47Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 193/193, sentidos y homografos OK, 7 items nuevos con 19 idiomas, ingles 38/38 pending_review, WIT BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-21T18:29:47Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T18:29:56Z"
         }
       }
     },
@@ -30986,10 +31002,10 @@
       "originalTrackId": "",
       "titulo": "A Donde Va El Amor",
       "artista": "Ricardo Montaner",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T18:25:13Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T18:30:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31013,10 +31029,26 @@
             "t": "2026-10-06T22:40:41Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "preparado en en_plan.json (39 lineas + 216 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T22:40:41Z"
+            "v": "ok",
+            "nota": "draft pending_review: 39 lineas + 217 WIT, wit_dt BAD 0",
+            "t": "2026-10-21T18:30:20Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo (34 anclas) e ingles OK; draft pending_review, wit_dt BAD 0, drift 0, audio SUENA_SIN_BLINDAR; dos ear-notes para Saul (L36 w2, L38)",
+            "t": "2026-10-21T18:30:12Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo (34 anclas) e ingles OK; draft pending_review, wit_dt BAD 0, drift 0, audio SUENA_SIN_BLINDAR; dos ear-notes para Saul (L36 w2, L38)",
+          "t": "2026-10-21T18:30:12Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T18:30:21Z"
         }
       }
     },
@@ -31026,10 +31058,10 @@
       "originalTrackId": "",
       "titulo": "Masoquismo",
       "artista": "Lola",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T18:25:13Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "espera a Saúl: falta la tilde en la palabra 1 de 15 líneas (10,11,12,14,15,16,25,26,27,29,30,31,33,34,35); arreglo de LRC en cover publicada; luego reanclar al ítem con tilde 6a2d6a71…e84b",
+      "actualizado": "2026-10-21T18:30:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31056,10 +31088,20 @@
             "v": "falta",
             "nota": "plan en en_plan.json (36 lineas, 192 WIT con DT), falta abrir el borrador",
             "t": "2026-10-06T22:40:32Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "tilde faltante en la palabra interrogativa de la palabra 1 de 15 lineas (10-12,14-16,25-27,29-31,33-35); resto OK",
+            "t": "2026-10-21T18:29:01Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "tilde faltante en la palabra interrogativa de la palabra 1 de 15 lineas (10-12,14-16,25-27,29-31,33-35); resto OK",
+          "t": "2026-10-21T18:29:01Z"
         }
       },
-      "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
+      "motivo_en": "waiting for Saúl: missing accent on word 1 of 15 lines; LRC fix on a published cover, then re-anchor to accented item 6a2d6a71…e84b"
     },
     {
       "coverTrackId": "6a9c33893b4b5538743a5e23",
