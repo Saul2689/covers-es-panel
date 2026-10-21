@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T11:38:18Z",
+  "generado": "2026-10-21T11:52:04Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -17677,9 +17677,9 @@
       "titulo": "Se Me Va La Voz",
       "artista": "Alejandro Fernandez, Hector El Torito Acosta",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-21T11:36:18Z",
+      "vueltas": 1,
+      "motivo": "corregida r1, QC r2",
+      "actualizado": "2026-10-21T11:51:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17706,7 +17706,17 @@
             "v": "ok",
             "nota": "75 lineas + WIT con texto en 352/352 anclas, BAD 0, 9 PIT; pending_review",
             "t": "2026-10-21T11:36:17Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: WIT dobles en junto+a (5 pos) y a/para/sé + vivir (4 pos); resto OK",
+            "t": "2026-10-21T11:42:46Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: WIT dobles en junto+a (5 pos) y a/para/sé + vivir (4 pos); resto OK",
+          "t": "2026-10-21T11:42:46Z"
         }
       }
     },
@@ -17717,9 +17727,9 @@
       "titulo": "A Fuego Lento",
       "artista": "Rosana",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T11:38:15Z",
+      "vueltas": 1,
+      "motivo": "corregida r1, QC r2",
+      "actualizado": "2026-10-21T11:52:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17746,7 +17756,17 @@
             "v": "falta",
             "nota": "plan de ingles (61 lineas + 316 WIT con DT) en en_plan.json; falta abrir el borrador (start_draft no permitido al worker)",
             "t": "2026-10-06T18:21:27Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: falta phrase item 'a fuego lento' (24 apariciones) + PIT en inglés",
+            "t": "2026-10-21T11:43:11Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: falta phrase item 'a fuego lento' (24 apariciones) + PIT en inglés",
+          "t": "2026-10-21T11:43:11Z"
         }
       }
     },
@@ -17869,9 +17889,9 @@
       "titulo": "Como Diablos",
       "artista": "Mana",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T11:38:16Z",
+      "vueltas": 1,
+      "motivo": "corregida r1, QC r2",
+      "actualizado": "2026-10-21T11:51:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17898,7 +17918,17 @@
             "v": "falta",
             "nota": "lineas y WIT preparados en es_map/payloads/<id>/en_plan.json (38 lineas, 163 WIT con DT); falta abrir el borrador (WORKER_BRIEF)",
             "t": "2026-10-06T18:20:30Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: L3 w2-3 PIT tan solo wrong sense (delete); add PIT perder la razon L3 w6-8 and tener que L21+L23 w4-5",
+            "t": "2026-10-21T11:43:06Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: L3 w2-3 PIT tan solo wrong sense (delete); add PIT perder la razon L3 w6-8 and tener que L21+L23 w4-5",
+          "t": "2026-10-21T11:43:06Z"
         }
       }
     },
@@ -18676,9 +18706,9 @@
       "titulo": "Angel",
       "artista": "Yuridia",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T11:38:17Z",
+      "vueltas": 1,
+      "motivo": "corregida r1, QC r2",
+      "actualizado": "2026-10-21T11:51:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18705,7 +18735,17 @@
             "v": "falta",
             "nota": "preparado en en_plan.json (49 lineas, 201 WIT); falta abrir el borrador",
             "t": "2026-10-06T19:51:43Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: WIT dobles L6w5, L14/21/30/37/49 w4, L7w1; falta ancla hacer daño L9 w2-3",
+            "t": "2026-10-21T11:42:54Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: WIT dobles L6w5, L14/21/30/37/49 w4, L7w1; falta ancla hacer daño L9 w2-3",
+          "t": "2026-10-21T11:42:54Z"
         }
       }
     },
