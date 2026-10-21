@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T10:58:35Z",
+  "generado": "2026-10-21T11:06:06Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5378,10 +5378,10 @@
       "originalTrackId": "",
       "titulo": "Amor Del Bueno",
       "artista": "Reyli",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lote c4: inglés en pending_review, QC r1",
-      "actualizado": "2026-10-21T10:57:48Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: remapear L3 w1, L9/38 w4, L17/46 w3 a items de sentido correcto; L31 w2 fragmento 'middle of' -> PI en pleno; ver reviews",
+      "actualizado": "2026-10-21T11:05:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5408,7 +5408,17 @@
             "v": "ok",
             "nota": "",
             "t": "2026-10-21T10:57:44Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 3 anclas de sentido equivocado con item correcto existente (L3 w1, L9/38 w4, L17/46 w3) y fragmento de locucion en L31 w2; resto limpio",
+            "t": "2026-10-21T11:05:10Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 3 anclas de sentido equivocado con item correcto existente (L3 w1, L9/38 w4, L17/46 w3) y fragmento de locucion en L31 w2; resto limpio",
+          "t": "2026-10-21T11:05:10Z"
         }
       }
     },
@@ -10598,10 +10608,10 @@
       "originalTrackId": "",
       "titulo": "Mi Vida Eres Tu",
       "artista": "los Temerarios",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lote c4: inglés en pending_review, QC r1",
-      "actualizado": "2026-10-21T10:58:02Z",
+      "motivo": "QC1 VERDE",
+      "actualizado": "2026-10-21T11:05:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10628,7 +10638,23 @@
             "v": "ok",
             "nota": "",
             "t": "2026-10-21T10:58:00Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC1 VERDE",
+            "t": "2026-10-21T11:05:16Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC1 VERDE",
+          "t": "2026-10-21T11:05:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T11:05:19Z"
         }
       }
     },
@@ -10896,9 +10922,9 @@
       "titulo": "Melina",
       "artista": "Camilo Sesto",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lote c4: inglés en pending_review, QC r1",
-      "actualizado": "2026-10-21T10:58:13Z",
+      "vueltas": 1,
+      "motivo": "corregida r1, QC r2",
+      "actualizado": "2026-10-21T11:06:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10925,7 +10951,17 @@
             "v": "ok",
             "nota": "",
             "t": "2026-10-21T10:58:12Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: vuelto item de sentido repetido (L7,11,23,27); alza WIT en 3a persona (L8,24); faltan phrase items volver a (L16,32) y echar raices (L15,31)",
+            "t": "2026-10-21T11:04:17Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: vuelto item de sentido repetido (L7,11,23,27); alza WIT en 3a persona (L8,24); faltan phrase items volver a (L16,32) y echar raices (L15,31)",
+          "t": "2026-10-21T11:04:17Z"
         }
       }
     },
@@ -13452,10 +13488,10 @@
       "originalTrackId": "",
       "titulo": "Tan Facil",
       "artista": "CNCO",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lote c4: inglés en pending_review, QC r1",
-      "actualizado": "2026-10-21T10:58:21Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "PIT te quiero L74 w4-5 y L76 w6-7 sentido equivocado (borrar); anclar 'es que' L75 w2-3, L76 w4-5, L78 w5-6; WI.word L10 w1; reabrir draft y reenviar",
+      "actualizado": "2026-10-21T11:05:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13482,7 +13518,17 @@
             "v": "ok",
             "nota": "",
             "t": "2026-10-21T10:58:21Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: PIT 'I love you' mal anclado L74/L76, falta ancla 'es que' L75/L76/L78, WI.word obsoleto L10",
+            "t": "2026-10-21T11:05:44Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: PIT 'I love you' mal anclado L74/L76, falta ancla 'es que' L75/L76/L78, WI.word obsoleto L10",
+          "t": "2026-10-21T11:05:44Z"
         }
       }
     },
