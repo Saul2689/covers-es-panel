@@ -3,6 +3,7 @@
 #   CLOUDFLARE_API_TOKEN  token de Cloudflare con permiso "Cloudflare Pages: Edit"
 #   CLOUDFLARE_ACCOUNT_ID id de la cuenta
 #   SLACK_WEBHOOK_URL     webhook de Slack para el aviso (opcional)
+#   PANEL_PASS            la contrasena con la que se entra al panel
 name: Panel covers es
 
 # El nombre de cada vuelta dice de donde salio. Es lo que mira el contador del
@@ -32,6 +33,7 @@ jobs:
     timeout-minutes: 90
     env:
       GANCHO: ${{ secrets.SLACK_WEBHOOK_URL }}
+      CLAVE: ${{ secrets.PANEL_PASS }}
       ORIGEN: ${{ inputs.origen || 'terminal' }}
       ENLACE: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
     steps:
@@ -64,7 +66,21 @@ jobs:
         env:
           SINGIT_PROD_BASE: https://api.singit.io
           SINGIT_PROD_TOKEN: ${{ secrets.SINGIT_PROD_TOKEN }}
+          PANEL_PASS: ${{ secrets.PANEL_PASS }}
         run: python refresh.py --out dist
+
+      # La puerta del panel (functions/_middleware.js) lee PANEL_PASS del
+      # proyecto de Pages, no del repo: el repo es publico. Esto la deja
+      # puesta en cada vuelta, que es de balde y asi no se pierde nunca. Si
+      # falla no se tumba la vuelta: antes un panel abierto que un panel viejo.
+      - name: Dejar puesta la contrasena del panel
+        if: steps.horario.outputs.toca == 'si' && env.CLAVE != ''
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        continue-on-error: true
+        run: |
+          printf '%s' "$CLAVE" | npx --yes wrangler@3 pages secret put PANEL_PASS             --project-name covers-es-v2
 
       - name: Publicar en Cloudflare Pages
         if: steps.horario.outputs.toca == 'si'

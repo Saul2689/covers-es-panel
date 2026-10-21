@@ -16,7 +16,7 @@ Solo biblioteca estandar. Tres fases:
     2. fichas  GET /admin/api/tracks/{trackId}          (isArchived + estrellas)
     3. audio   GET .../migration/songs/{songId}/audio   (Range: bytes=0-1)
 """
-import argparse, json, os, shutil, sys, time, urllib.request, urllib.error, collections
+import argparse, base64, json, os, shutil, sys, time, urllib.request, urllib.error, collections
 from concurrent.futures import ThreadPoolExecutor
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -361,9 +361,15 @@ def vuelta_anterior(log):
     try:
         # Cloudflare le da un 403 al agente de serie de urllib, asi que se
         # presenta con un nombre normal.
-        pet = urllib.request.Request(url, headers={
-            'accept': 'application/json',
-            'user-agent': 'Mozilla/5.0 (compatible; covers-es-panel/1.0)'})
+        cab = {'accept': 'application/json',
+               'user-agent': 'Mozilla/5.0 (compatible; covers-es-panel/1.0)'}
+        # El panel publicado pide contrasena (functions/_middleware.js), asi
+        # que para leer su meta.json hay que presentarla.
+        clave = os.environ.get('PANEL_PASS')
+        if clave:
+            cab['authorization'] = 'Basic ' + base64.b64encode(
+                (':' + clave).encode('utf-8')).decode('ascii')
+        pet = urllib.request.Request(url, headers=cab)
         with urllib.request.urlopen(pet, timeout=30) as r:
             return json.load(r)
     except Exception as e:

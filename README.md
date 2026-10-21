@@ -59,6 +59,39 @@ también a mano desde la pestaña Actions. Necesita tres secrets:
 | `CLOUDFLARE_API_TOKEN` | token de Cloudflare con permiso *Cloudflare Pages: Edit* |
 | `CLOUDFLARE_ACCOUNT_ID` | id de la cuenta |
 | `SLACK_WEBHOOK_URL` | webhook de Slack para el aviso de cada vuelta (opcional: sin el, los dos pasos de aviso se saltan) |
+| `PANEL_PASS` | la contraseña con la que se entra al panel (ver *El taller es público*) |
+
+## El taller es público y el panel lleva contraseña
+
+**El repo es público a propósito.** GitHub solo regala 2.000 minutos de Actions
+al mes en repos privados y una vuelta cuesta unos 15 minutos: 10 vueltas al día
+son ~4.500 minutos al mes, así que en octubre de 2026 se agotaron el día 14 y
+GitHub dejó de arrancar el job — ni la vuelta ni el aviso de fallo, que vive
+dentro. En repos públicos Actions es gratis y sin límite, y le da igual el
+estado de la facturación. Por eso se abrió.
+
+Abrirlo deja a la vista el código y las notas de trabajo de las canciones. Lo
+que **no** queda a la vista son los secrets, que no viven en el repo. Antes de
+abrirlo se barrieron los 988 commits de la historia buscando tokens, claves y
+el webhook: no había ninguno. **Si algún día hay que meter un valor secreto,
+va a un secret, nunca a un fichero.**
+
+A cambio, el panel publicado dejó de ser abierto: `functions/_middleware.js`
+pide contraseña (HTTP Basic, el usuario da igual) delante de **todo** lo que
+sirve el proyecto — la página, `meta.json` y las funciones de `/api`. La
+contraseña sale de `PANEL_PASS`:
+
+- en el **proyecto de Pages**, para la puerta. La deja puesta en cada vuelta el
+  paso *Dejar puesta la contrasena del panel*, que la saca del secret del repo:
+  así no hay que acordarse de ponerla a mano. Si ese paso falla no tumba la
+  vuelta, pero **la puerta se queda abierta** (`_middleware.js` sin `PANEL_PASS`
+  deja pasar a propósito: antes un panel visible que un panel al que no entra
+  nadie).
+- en el **secret del repo**, porque `refresh.py` baja la `meta.json` publicada
+  para comparar la vuelta con la anterior y ahora también tiene que presentarla.
+
+Para cambiarla: `gh secret set PANEL_PASS --repo Saul2689/covers-es-panel` y
+lanzar una vuelta. La de Pages se sobrescribe sola en esa misma vuelta.
 
 ## Ingles y espanol
 
