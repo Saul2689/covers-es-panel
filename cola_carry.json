@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T18:00:26Z",
+  "generado": "2026-10-21T18:01:55Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -10467,10 +10467,10 @@
       "originalTrackId": "",
       "titulo": "No Me Conoces Aun",
       "artista": "Palomo",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T17:03:08Z",
+      "motivo": "audio_guard MUDA_PARADA: el cover no suena",
+      "actualizado": "2026-10-21T18:01:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10499,7 +10499,8 @@
             "t": "2026-10-06T17:03:08Z"
           }
         }
-      }
+      },
+      "motivo_en": "audio_guard MUDA_PARADA: the cover plays no sung audio"
     },
     {
       "coverTrackId": "6aa58cdc42b8d1fdb0cfe4d8",
@@ -30673,10 +30674,10 @@
       "originalTrackId": "",
       "titulo": "Separados",
       "artista": "los Hijos de Puerto Rico",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T17:55:47Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T18:01:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30700,10 +30701,26 @@
             "t": "2026-10-06T22:36:13Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (49 líneas, 226 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T22:36:10Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 49 lineas, 0 WIT vacios, wit_dt BAD 0",
+            "t": "2026-10-21T18:01:06Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: 248/248 anclas ok, estructura y timing intactos, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; ear-check L32/L46 w3",
+            "t": "2026-10-21T18:01:01Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: 248/248 anclas ok, estructura y timing intactos, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; ear-check L32/L46 w3",
+          "t": "2026-10-21T18:01:01Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T18:01:07Z"
         }
       }
     },
