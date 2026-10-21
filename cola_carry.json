@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T18:30:53Z",
+  "generado": "2026-10-21T18:34:18Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -32884,10 +32884,10 @@
       "originalTrackId": "",
       "titulo": "Idiota",
       "artista": "Eddy Herrera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T18:25:14Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T18:33:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -32911,10 +32911,26 @@
             "t": "2026-10-06T23:06:01Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en es_map/payloads/6aa57ca942b8d1fdb0ce6ce9/en_plan.json (48 lineas + 260 WIT con DT); falta abrir el borrador (start_draft no permitido a este agente)",
-            "t": "2026-10-06T23:06:01Z"
+            "v": "ok",
+            "nota": "48/48 lineas en draft pending_review, WITs completos, wit_dt BAD 0",
+            "t": "2026-10-21T18:33:31Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 0 defectos, 48/48 ingles pending_review, wit_dt BAD 0, hallazgos qc justificados (tildes, ear-notes L44-48, nombre L41)",
+            "t": "2026-10-21T18:33:20Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 0 defectos, 48/48 ingles pending_review, wit_dt BAD 0, hallazgos qc justificados (tildes, ear-notes L44-48, nombre L41)",
+          "t": "2026-10-21T18:33:20Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T18:33:32Z"
         }
       }
     },
@@ -33501,10 +33517,10 @@
       "originalTrackId": "",
       "titulo": "Ases Y Tercia De Reyes",
       "artista": "Juan Gabriel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T18:25:14Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "espera a Saúl: LRC de cover publicada: tildes en palabra 5 de las líneas 3,7,17,21,25; líneas 8,18,26 palabras 4-5 son dos fichas (el original una); línea 22 palabra 8 distinta de sus gemelas 4/14. Los remaps de sentido ya están hechos",
+      "actualizado": "2026-10-21T18:34:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -33531,9 +33547,20 @@
             "v": "falta",
             "nota": "en_plan.json listo, falta abrir el borrador",
             "t": "2026-10-06T23:15:13Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: tildes missing on 5 interrogatives (lines 3,21 / 7,17,25 w5); lines 8,18,26 w4-5 mis-split vs English; line 22 w8 differs from twins; 3 wrong-sense items with better ones available (line 11 w11,w12; lines 2,20 w6); line 9 w1 unmapped interjection",
+            "t": "2026-10-21T18:33:07Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: tildes missing on 5 interrogatives (lines 3,21 / 7,17,25 w5); lines 8,18,26 w4-5 mis-split vs English; line 22 w8 differs from twins; 3 wrong-sense items with better ones available (line 11 w11,w12; lines 2,20 w6); line 9 w1 unmapped interjection",
+          "t": "2026-10-21T18:33:07Z"
         }
-      }
+      },
+      "motivo_en": "waiting for Saúl: LRC fix on a published cover: missing accents line 3,7,17,21,25 word 5; lines 8,18,26 words 4-5 split in two tokens; line 22 word 8 differs from twins 4/14. Sense remaps already done"
     },
     {
       "coverTrackId": "6aa5da7442b8d1fdb0d66847",
