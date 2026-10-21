@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T11:52:04Z",
+  "generado": "2026-10-21T11:58:08Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -12089,9 +12089,9 @@
       "titulo": "Te Mando Flores",
       "artista": "J Fonseca",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T11:38:18Z",
+      "vueltas": 1,
+      "motivo": "corregida r1, QC r2",
+      "actualizado": "2026-10-21T11:58:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12118,7 +12118,17 @@
             "v": "falta",
             "nota": "plan en en_plan.json; falta abrir el borrador (start_draft) y aplicarlo",
             "t": "2026-10-06T16:38:12Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: WIT doubles (L17/35 de+hablar, trato+yo; L19/37 dejarte+ir; L23/41 darte; L47/55/63 falte; L46/54/62 estén gloss) y faltan anclas luna llena (L9) y a mi lado (L24/32/42)",
+            "t": "2026-10-21T11:54:41Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: WIT doubles (L17/35 de+hablar, trato+yo; L19/37 dejarte+ir; L23/41 darte; L47/55/63 falte; L46/54/62 estén gloss) y faltan anclas luna llena (L9) y a mi lado (L24/32/42)",
+          "t": "2026-10-21T11:54:41Z"
         }
       }
     },
@@ -17676,10 +17686,10 @@
       "originalTrackId": "",
       "titulo": "Se Me Va La Voz",
       "artista": "Alejandro Fernandez, Hector El Torito Acosta",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, QC r2",
-      "actualizado": "2026-10-21T11:51:57Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-21T11:54:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17708,15 +17718,21 @@
             "t": "2026-10-21T11:36:17Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: WIT dobles en junto+a (5 pos) y a/para/sé + vivir (4 pos); resto OK",
-            "t": "2026-10-21T11:42:46Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-21T11:54:52Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: WIT dobles en junto+a (5 pos) y a/para/sé + vivir (4 pos); resto OK",
-          "t": "2026-10-21T11:42:46Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-21T11:54:52Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T11:54:55Z"
         }
       }
     },
@@ -17729,7 +17745,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "corregida r1, QC r2",
-      "actualizado": "2026-10-21T11:52:00Z",
+      "actualizado": "2026-10-21T11:58:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17888,10 +17904,10 @@
       "originalTrackId": "",
       "titulo": "Como Diablos",
       "artista": "Mana",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, QC r2",
-      "actualizado": "2026-10-21T11:51:59Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-21T11:55:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17915,20 +17931,26 @@
             "t": "2026-10-06T18:20:30Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "lineas y WIT preparados en es_map/payloads/<id>/en_plan.json (38 lineas, 163 WIT con DT); falta abrir el borrador (WORKER_BRIEF)",
-            "t": "2026-10-06T18:20:30Z"
+            "v": "ok",
+            "nota": "borrador en pending_review (QC2)",
+            "t": "2026-10-21T11:55:58Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: L3 w2-3 PIT tan solo wrong sense (delete); add PIT perder la razon L3 w6-8 and tener que L21+L23 w4-5",
-            "t": "2026-10-21T11:43:06Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-21T11:55:34Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: L3 w2-3 PIT tan solo wrong sense (delete); add PIT perder la razon L3 w6-8 and tener que L21+L23 w4-5",
-          "t": "2026-10-21T11:43:06Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-21T11:55:34Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T11:55:59Z"
         }
       }
     },
@@ -18705,10 +18727,10 @@
       "originalTrackId": "",
       "titulo": "Angel",
       "artista": "Yuridia",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, QC r2",
-      "actualizado": "2026-10-21T11:51:55Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-21T11:56:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18732,20 +18754,26 @@
             "t": "2026-10-06T19:51:43Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "preparado en en_plan.json (49 lineas, 201 WIT); falta abrir el borrador",
-            "t": "2026-10-06T19:51:43Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 49 lineas, 215 WIT, BAD 0",
+            "t": "2026-10-21T11:56:51Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: WIT dobles L6w5, L14/21/30/37/49 w4, L7w1; falta ancla hacer daño L9 w2-3",
-            "t": "2026-10-21T11:42:54Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-21T11:56:32Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: WIT dobles L6w5, L14/21/30/37/49 w4, L7w1; falta ancla hacer daño L9 w2-3",
-          "t": "2026-10-21T11:42:54Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-21T11:56:32Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T11:56:55Z"
         }
       }
     },
