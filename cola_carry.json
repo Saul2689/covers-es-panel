@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T12:19:22Z",
+  "generado": "2026-10-21T12:36:36Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -12256,10 +12256,10 @@
       "originalTrackId": "",
       "titulo": "Costumbres",
       "artista": "Rocio Durcal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, QC r2",
-      "actualizado": "2026-10-21T12:19:16Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-21T12:23:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -12283,20 +12283,26 @@
             "t": "2026-10-06T16:35:37Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan de ingles preparado en en_plan.json; falta abrir el borrador",
-            "t": "2026-10-06T16:35:37Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 26 lineas, BAD 0",
+            "t": "2026-10-21T12:22:57Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: 3 WIT en ingles: L2 w1 doble sujeto con w2; L3 w8 y L15 w8 modal+to",
-            "t": "2026-10-21T12:11:55Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-21T12:22:42Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: 3 WIT en ingles: L2 w1 doble sujeto con w2; L3 w8 y L15 w8 modal+to",
-          "t": "2026-10-21T12:11:55Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-21T12:22:42Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T12:23:00Z"
         }
       }
     },
@@ -13320,9 +13326,9 @@
       "titulo": "Dime Ven",
       "artista": "Motel",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1, QC r2",
-      "actualizado": "2026-10-21T12:19:21Z",
+      "vueltas": 2,
+      "motivo": "corregida r2, QC r3",
+      "actualizado": "2026-10-21T12:36:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13352,14 +13358,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "QC1: L11/L30 w2 sin tilde y ancla a conjuncion (twin L40 ok); L24 w2-3 WIT con el sentido de la locucion; 'sin importar' L17/36/46 sin phrase item",
-            "t": "2026-10-21T12:14:07Z"
+            "nota": "QC2: r1 fixes ok; L11/L30 w2 WI.word sin tilde (upsert qué)",
+            "t": "2026-10-21T12:24:12Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "QC1: L11/L30 w2 sin tilde y ancla a conjuncion (twin L40 ok); L24 w2-3 WIT con el sentido de la locucion; 'sin importar' L17/36/46 sin phrase item",
-          "t": "2026-10-21T12:14:07Z"
+          "resumen": "QC2: r1 fixes ok; L11/L30 w2 WI.word sin tilde (upsert qué)",
+          "t": "2026-10-21T12:24:12Z"
         }
       }
     },
@@ -19857,10 +19863,10 @@
       "originalTrackId": "",
       "titulo": "No Me Conoces",
       "artista": "Marc Anthony",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:02:16Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-21T12:36:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -32052,10 +32058,10 @@
       "originalTrackId": "",
       "titulo": "Amor De Estudiante",
       "artista": "Roberto Jordan",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, QC r2",
-      "actualizado": "2026-10-21T12:19:18Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-21T12:23:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -32079,20 +32085,26 @@
             "t": "2026-10-06T22:53:51Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "preparado en en_plan.json; falta abrir el borrador",
-            "t": "2026-10-06T22:53:51Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 24 lineas, 98 WIT, BAD 0",
+            "t": "2026-10-21T12:23:37Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: PIT 'mi amor' (vocativo) mal puesto en L5/14/21/23 w1-2 (es posesivo+nombre); borrar los 4 PIT del borrador y reenviar",
-            "t": "2026-10-21T12:12:40Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-21T12:23:31Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: PIT 'mi amor' (vocativo) mal puesto en L5/14/21/23 w1-2 (es posesivo+nombre); borrar los 4 PIT del borrador y reenviar",
-          "t": "2026-10-21T12:12:40Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-21T12:23:31Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T12:23:39Z"
         }
       }
     },
@@ -32227,9 +32239,9 @@
       "titulo": "La Foto De Carnet",
       "artista": "Leonardo Favio",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida r1, QC r2",
-      "actualizado": "2026-10-21T12:19:19Z",
+      "vueltas": 2,
+      "motivo": "corregida r2, QC r3",
+      "actualizado": "2026-10-21T12:36:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -32259,14 +32271,14 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "QC1: faltan 2 anclas de frase en ingles (linea 3 w2-3 volver a; lineas 14 y 22 w11-12 haber de)",
-            "t": "2026-10-21T12:11:46Z"
+            "nota": "QC2: linea 3 palabra 3 WIT repite el PIT de volver a; fijar a=to y ver=see",
+            "t": "2026-10-21T12:24:55Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "QC1: faltan 2 anclas de frase en ingles (linea 3 w2-3 volver a; lineas 14 y 22 w11-12 haber de)",
-          "t": "2026-10-21T12:11:46Z"
+          "resumen": "QC2: linea 3 palabra 3 WIT repite el PIT de volver a; fijar a=to y ver=see",
+          "t": "2026-10-21T12:24:55Z"
         }
       }
     },
@@ -35904,10 +35916,10 @@
       "originalTrackId": "",
       "titulo": "Mirame (Cuestion De Tiempo)",
       "artista": "Timbiriche",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "anclar phrase item de carne y hueso 6ac5a95deb10045239e03305 en L14/19/36/41 t2-5 y PIT en el borrador ingles",
-      "actualizado": "2026-10-21T12:19:10Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-21T12:24:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35931,20 +35943,26 @@
             "t": "2026-10-07T00:38:21Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
-            "t": "2026-10-07T00:38:22Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, reenviado 21 oct",
+            "t": "2026-10-21T12:24:38Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: falta ancla de la locucion 'de carne y hueso' (item es existente) en L14/19/36/41 t2-5 + PIT",
-            "t": "2026-10-21T12:19:09Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-21T12:24:32Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: falta ancla de la locucion 'de carne y hueso' (item es existente) en L14/19/36/41 t2-5 + PIT",
-          "t": "2026-10-21T12:19:09Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-21T12:24:32Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T12:24:41Z"
         }
       }
     },
@@ -38540,10 +38558,10 @@
       "originalTrackId": "",
       "titulo": "Una Lagrima Y Un Recuerdo",
       "artista": "Grupo Miramar",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T01:28:34Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-21T12:36:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47780,10 +47798,10 @@
       "originalTrackId": "",
       "titulo": "Olvidame Y Pega La Vuelta",
       "artista": "Pimpinela",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T04:26:52Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-21T12:36:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50936,10 +50954,10 @@
       "originalTrackId": "",
       "titulo": "Solo Una Mujer",
       "artista": "Jose Jose",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T06:04:34Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-21T12:36:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51082,10 +51100,10 @@
       "originalTrackId": "",
       "titulo": "No Te Pareces A Nadie",
       "artista": "Jose Luis Rodriguez",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T06:09:47Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-21T12:36:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
