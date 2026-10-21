@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T17:55:49Z",
+  "generado": "2026-10-21T17:59:41Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -28337,10 +28337,10 @@
       "originalTrackId": "",
       "titulo": "Me Muero Por Estar Contigo",
       "artista": "Silvana Di Lorenzo",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T17:55:47Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T17:59:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28364,10 +28364,26 @@
             "t": "2026-10-06T21:55:18Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "falta abrir el borrador; plan en en_plan.json",
-            "t": "2026-10-06T21:55:18Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 42 lineas, WIT sin huecos, wit_dt BAD 0",
+            "t": "2026-10-21T17:59:17Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, ingles pending_review, wit_dt BAD 0, drift 0; solo ad-libs justificados",
+            "t": "2026-10-21T17:59:13Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, ingles pending_review, wit_dt BAD 0, drift 0; solo ad-libs justificados",
+          "t": "2026-10-21T17:59:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T17:59:19Z"
         }
       }
     },
