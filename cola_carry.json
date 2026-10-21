@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T16:04:44Z",
+  "generado": "2026-10-21T16:06:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -22994,9 +22994,9 @@
       "titulo": "Tu Peor Error",
       "artista": "la 5ª Estacion",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T15:59:53Z",
+      "vueltas": 1,
+      "motivo": "QC r2",
+      "actualizado": "2026-10-21T16:06:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23023,7 +23023,17 @@
             "v": "falta",
             "nota": "plan en .singit/es_map/payloads/6aa5f73b42b8d1fdb0d928db/en_plan.json (48 lineas + 272 WIT con DT); falta abrir el borrador",
             "t": "2026-10-06T20:43:33Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "lineas 8 y 25 token 5: ancla a sentido 'querer=desear' pero la linea significa querer=amar; item amar ya existe. Resto limpio",
+            "t": "2026-10-21T16:05:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "lineas 8 y 25 token 5: ancla a sentido 'querer=desear' pero la linea significa querer=amar; item amar ya existe. Resto limpio",
+          "t": "2026-10-21T16:05:29Z"
         }
       }
     },
@@ -30980,10 +30990,10 @@
       "originalTrackId": "",
       "titulo": "Camina Y Ven",
       "artista": "David Bisbal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T15:59:54Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T16:06:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31007,10 +31017,26 @@
             "t": "2026-10-06T22:41:17Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en .singit/es_map/payloads/6aa574a442b8d1fdb0cdcb03/en_plan.json (53 lineas + 337 WITs); falta abrir el borrador",
-            "t": "2026-10-06T22:41:17Z"
+            "v": "ok",
+            "nota": "53 lineas + 342 WIT en draft pending_review, BAD 0",
+            "t": "2026-10-21T16:06:05Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles (53 lineas/342 WIT, BAD 0), items nuevos y timing OK; notas: L38 t1 y L46 t5",
+            "t": "2026-10-21T16:06:00Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles (53 lineas/342 WIT, BAD 0), items nuevos y timing OK; notas: L38 t1 y L46 t5",
+          "t": "2026-10-21T16:06:00Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T16:06:06Z"
         }
       }
     },
