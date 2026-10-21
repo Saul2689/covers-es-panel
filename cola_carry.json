@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T15:02:06Z",
+  "generado": "2026-10-21T15:06:54Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -22044,10 +22044,10 @@
       "originalTrackId": "",
       "titulo": "Salvaje",
       "artista": "Don Omar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "c13: carry, mapeo e inglés hechos, inglés en pending_review; QC r1",
-      "actualizado": "2026-10-21T15:01:44Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T15:06:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -22071,10 +22071,26 @@
             "t": "2026-10-06T20:34:56Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "No hay borrador abierto: lineas y WIT preparados en es_map/payloads/<id>/en_plan.json; falta abrir el borrador (start_draft)",
-            "t": "2026-10-06T20:34:56Z"
+            "v": "ok",
+            "nota": "draft en pending_review, 40 lineas, 0 WIT vacios, wit_dt_audit BAD 0 (QC)",
+            "t": "2026-10-21T15:06:35Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, timing, mapeo, items nuevos e ingles OK; ear-notes y un token sin mapear en L36 t2 justificados",
+            "t": "2026-10-21T15:06:29Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, timing, mapeo, items nuevos e ingles OK; ear-notes y un token sin mapear en L36 t2 justificados",
+          "t": "2026-10-21T15:06:29Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T15:06:36Z"
         }
       }
     },
@@ -24257,10 +24273,10 @@
       "originalTrackId": "",
       "titulo": "No Rompas Mas",
       "artista": "Caballo Dorado",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "c12: carry, mapeo e inglés hechos, inglés en pending_review; QC r1",
-      "actualizado": "2026-10-21T14:56:44Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1: sentido de pegando (lineas 3,4,21,22,39,40,51,52,63,64 palabra 2) contradice WIT/ingles; reabrir ingles, corregir y reenviar",
+      "actualizado": "2026-10-21T15:03:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24287,7 +24303,17 @@
             "v": "falta",
             "nota": "plan preparado en en_plan.json (74 lineas, 342 WITs); borrador sin abrir",
             "t": "2026-10-06T21:12:18Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "pegando (10 anclas, lineas 3/4/21/22/39/40/51/52/63/64): item dice 'pressing close', WIT e ingles dicen 'hitting'; resto OK",
+            "t": "2026-10-21T15:03:31Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "pegando (10 anclas, lineas 3/4/21/22/39/40/51/52/63/64): item dice 'pressing close', WIT e ingles dicen 'hitting'; resto OK",
+          "t": "2026-10-21T15:03:31Z"
         }
       }
     },
@@ -48490,10 +48516,10 @@
       "originalTrackId": "",
       "titulo": "Boca De Angel",
       "artista": "Marco Antonio Solis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "c12: carry, mapeo e inglés hechos, inglés en pending_review; QC r1",
-      "actualizado": "2026-10-21T14:56:46Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T15:06:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48517,10 +48543,26 @@
             "t": "2026-10-07T04:30:15Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (26 lineas, 123 WIT), falta abrir el borrador",
-            "t": "2026-10-07T04:30:15Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 26 lineas, 123 WIT, 0 vacios",
+            "t": "2026-10-21T15:06:22Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "26 lineas, 123/123 ancladas, ingles pending_review 26/26 lineas y 123 WIT, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR; nota de oido: linea 8 palabra 1 falta vs original sin evidencia",
+            "t": "2026-10-21T15:06:22Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "26 lineas, 123/123 ancladas, ingles pending_review 26/26 lineas y 123 WIT, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR; nota de oido: linea 8 palabra 1 falta vs original sin evidencia",
+          "t": "2026-10-21T15:06:22Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T15:06:23Z"
         }
       }
     },
