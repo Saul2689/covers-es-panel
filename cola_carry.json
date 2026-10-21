@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T14:20:18Z",
+  "generado": "2026-10-21T14:41:14Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -46533,10 +46533,10 @@
       "originalTrackId": "",
       "titulo": "El Dolor De Tu Presencia",
       "artista": "Jennifer Peña",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T14:13:19Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "Espera a Saúl: cover publicada; línea 13 y 31 palabra 2 le falta una sílaba (el mapeo y el inglés ya están bien)",
+      "actualizado": "2026-10-21T14:24:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46563,9 +46563,20 @@
             "v": "falta",
             "nota": "en_plan.json preparado (36 líneas, 188 WIT, 5 PIT); falta abrir borrador",
             "t": "2026-10-07T03:53:56Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "errata de ortografia en palabra 2 de lineas 13 y 31 (ancla ya al participio, texto sin arreglar); resto OK",
+            "t": "2026-10-21T14:24:01Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "errata de ortografia en palabra 2 de lineas 13 y 31 (ancla ya al participio, texto sin arreglar); resto OK",
+          "t": "2026-10-21T14:24:01Z"
         }
-      }
+      },
+      "motivo_en": "Waiting for Saúl: published cover; L13 and L31 word 2 misspelled (missing syllable), mapping and English already correct"
     },
     {
       "coverTrackId": "6aa6ff3f72ca57eb1aaa1d2b",
@@ -47130,10 +47141,10 @@
       "originalTrackId": "",
       "titulo": "Soy Rebelde",
       "artista": "Jeanette",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T14:13:20Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T14:25:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47157,10 +47168,26 @@
             "t": "2026-10-07T04:06:02Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "preparado en en_plan.json, falta abrir el borrador (brief)",
-            "t": "2026-10-07T04:06:02Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 42 lineas, 0 WIT vacios, wit_dt_audit BAD 0",
+            "t": "2026-10-21T14:25:18Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles (pending_review, BAD 0) y audio OK; 3 hallazgos de qc_es justificados",
+            "t": "2026-10-21T14:25:19Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles (pending_review, BAD 0) y audio OK; 3 hallazgos de qc_es justificados",
+          "t": "2026-10-21T14:25:19Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T14:25:20Z"
         }
       }
     },
@@ -47250,10 +47277,10 @@
       "originalTrackId": "",
       "titulo": "El Barzon",
       "artista": "Lupillo Rivera",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T14:13:20Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "espera a Saúl: hueco de unos 20 s en la línea 55 (el original canta 3 líneas ahí), hace falta oírlo; la capa de palabras ya está corregida",
+      "actualizado": "2026-10-21T14:41:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47280,10 +47307,20 @@
             "v": "falta",
             "nota": "en_plan.json listo (70 lineas, 352 WITs, 3 PITs); falta abrir el borrador",
             "t": "2026-10-07T04:22:16Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "item nuevo seguirle sin corchete, wordForm BASE, sin primario EN ni traducciones; L57 w7 WIT no encaja con la linea",
+            "t": "2026-10-21T14:25:32Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "item nuevo seguirle sin corchete, wordForm BASE, sin primario EN ni traducciones; L57 w7 WIT no encaja con la linea",
+          "t": "2026-10-21T14:25:32Z"
         }
       },
-      "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
+      "motivo_en": "Waiting for Saúl: a gap of about 20 s at line 55 where the original sings 3 lines needs an ear check; the word layer is fixed and resubmitted"
     },
     {
       "coverTrackId": "6aa73d0172ca57eb1ab030cf",
