@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T18:01:55Z",
+  "generado": "2026-10-21T18:06:08Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23105,10 +23105,10 @@
       "originalTrackId": "",
       "titulo": "Pequeña Y Fragil",
       "artista": "Sabu",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T17:55:48Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "set isPrimary on the 19 translations of ad-lib item used at line 29 word 1 (item 6ad8fbb38b097ed39e82df59), keep en row id",
+      "actualizado": "2026-10-21T18:03:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23135,7 +23135,17 @@
             "v": "falta",
             "nota": "plan en en_plan.json (34 lineas, 167 WIT con DT); falta abrir el borrador",
             "t": "2026-10-06T20:43:43Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "new ad-lib item (line 29 word 1) has 19 translations but none isPrimary; rest of structure, mapping, English, audio OK",
+            "t": "2026-10-21T18:03:28Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "new ad-lib item (line 29 word 1) has 19 translations but none isPrimary; rest of structure, mapping, English, audio OK",
+          "t": "2026-10-21T18:03:28Z"
         }
       }
     },
@@ -44971,9 +44981,9 @@
       "titulo": "Tengo",
       "artista": "Franco de Vita",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T17:55:48Z",
+      "vueltas": 1,
+      "motivo": "QC r2",
+      "actualizado": "2026-10-21T18:06:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45000,7 +45010,17 @@
             "v": "falta",
             "nota": "ingles preparado en en_plan.json (46 lineas, 222 WIT, 17 PIT); falta abrir el borrador",
             "t": "2026-10-07T03:19:52Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "1 defecto: L2 w3 ancla a item de sentido incorrecto (personalidad vs reservado=apartado); resto limpio",
+            "t": "2026-10-21T18:03:00Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "1 defecto: L2 w3 ancla a item de sentido incorrecto (personalidad vs reservado=apartado); resto limpio",
+          "t": "2026-10-21T18:03:00Z"
         }
       }
     },
