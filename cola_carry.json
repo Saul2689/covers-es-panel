@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T17:59:41Z",
+  "generado": "2026-10-21T18:00:26Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -27910,10 +27910,10 @@
       "originalTrackId": "",
       "titulo": "A.d.o.",
       "artista": "El Tri",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T17:55:47Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T17:59:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27937,10 +27937,26 @@
             "t": "2026-10-06T21:50:52Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (45 lineas, 196 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T21:50:53Z"
+            "v": "ok",
+            "nota": "draft en pending_review: 45 lineas, 0 WIT vacios, wit_dt BAD 0",
+            "t": "2026-10-21T17:59:57Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, mapeo y ingles OK; hallazgos qc_es justificados (ADO, ad-lib, huecos instrumentales, errores del original); wit_dt BAD 0; draft pending_review",
+            "t": "2026-10-21T17:59:52Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, mapeo y ingles OK; hallazgos qc_es justificados (ADO, ad-lib, huecos instrumentales, errores del original); wit_dt BAD 0; draft pending_review",
+          "t": "2026-10-21T17:59:52Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T17:59:58Z"
         }
       }
     },
