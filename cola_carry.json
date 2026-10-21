@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T16:06:34Z",
+  "generado": "2026-10-21T16:08:01Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -45957,10 +45957,10 @@
       "originalTrackId": "",
       "titulo": "Con Un Poco De Amor",
       "artista": "Juan Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T15:59:55Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T16:07:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45984,10 +45984,26 @@
             "t": "2026-10-07T03:41:33Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "falta abrir el borrador; plan completo en en_plan.json (33 lineas, 252 WIT, 14 PIT)",
-            "t": "2026-10-07T03:41:33Z"
+            "v": "ok",
+            "nota": "draft pending_review enviado por la linea: 33/33 lineas, WIT y PIT completos",
+            "t": "2026-10-21T16:07:42Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, timing 0, 254 anclas revisadas, items nuevos ok, ingles pending_review 33/33, wit_dt BAD 0",
+            "t": "2026-10-21T16:07:37Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, timing 0, 254 anclas revisadas, items nuevos ok, ingles pending_review 33/33, wit_dt BAD 0",
+          "t": "2026-10-21T16:07:37Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T16:07:43Z"
         }
       }
     },
