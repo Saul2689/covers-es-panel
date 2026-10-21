@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T16:18:46Z",
+  "generado": "2026-10-21T16:27:15Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -37987,10 +37987,10 @@
       "originalTrackId": "",
       "titulo": "Restos De Abril",
       "artista": "Camila",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T01:18:53Z",
+      "motivo": "QC r1",
+      "actualizado": "2026-10-21T16:27:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42467,10 +42467,10 @@
       "originalTrackId": "",
       "titulo": "Volvere",
       "artista": "Jesse & Joy",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T02:38:06Z",
+      "motivo": "QC r1",
+      "actualizado": "2026-10-21T16:27:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43250,10 +43250,10 @@
       "originalTrackId": "",
       "titulo": "A Veces",
       "artista": "Mambru",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T02:51:30Z",
+      "motivo": "QC r1",
+      "actualizado": "2026-10-21T16:27:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44335,10 +44335,10 @@
       "originalTrackId": "",
       "titulo": "Por Ti Podria Morir",
       "artista": "Luis Fonsi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T16:18:45Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T16:23:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44362,10 +44362,26 @@
             "t": "2026-10-07T03:10:27Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (44 lineas, 235 WIT, 12 PIT); falta abrir el borrador",
-            "t": "2026-10-07T03:10:27Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 44 lineas, WIT y PIT completos, BAD 0",
+            "t": "2026-10-21T16:23:43Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, anclas, items nuevos e ingles ok; notas: L20 w1 (palabra del original ausente, cover publicada)",
+            "t": "2026-10-21T16:23:35Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, anclas, items nuevos e ingles ok; notas: L20 w1 (palabra del original ausente, cover publicada)",
+          "t": "2026-10-21T16:23:35Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T16:23:45Z"
         }
       }
     },
@@ -44943,10 +44959,10 @@
       "originalTrackId": "",
       "titulo": "Nieva Nieva",
       "artista": "Paulina Rubio",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T16:18:45Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T16:24:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44970,10 +44986,26 @@
             "t": "2026-10-07T03:23:02Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
-            "t": "2026-10-07T03:23:02Z"
+            "v": "ok",
+            "nota": "borrador pending_review: 53 lineas, 195 WIT con texto, 10 PIT, wit_dt BAD 0",
+            "t": "2026-10-21T16:24:31Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, timing 0, mapeo (195 anclas revisadas), items nuevos con 19 idiomas, ingles pending_review sin WIT vacios, wit_dt BAD 0; notas de oido en lineas 5, 33/38, 9, 26, 30, 49-53",
+            "t": "2026-10-21T16:24:25Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, timing 0, mapeo (195 anclas revisadas), items nuevos con 19 idiomas, ingles pending_review sin WIT vacios, wit_dt BAD 0; notas de oido en lineas 5, 33/38, 9, 26, 30, 49-53",
+          "t": "2026-10-21T16:24:25Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T16:24:32Z"
         }
       }
     },
@@ -46513,10 +46545,10 @@
       "originalTrackId": "",
       "titulo": "Para Mi",
       "artista": "Alejandra Guzmán",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T16:18:43Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T16:23:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46540,10 +46572,26 @@
             "t": "2026-10-07T03:54:18Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
-            "t": "2026-10-07T03:54:18Z"
+            "v": "ok",
+            "nota": "draft en pending_review: 33 lineas, WIT completos, wit_dt BAD 0",
+            "t": "2026-10-21T16:23:21Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, sentidos, items nuevos, ingles pending_review y wit_dt BAD 0 verificados; 11 tildes justificadas",
+            "t": "2026-10-21T16:23:15Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, sentidos, items nuevos, ingles pending_review y wit_dt BAD 0 verificados; 11 tildes justificadas",
+          "t": "2026-10-21T16:23:15Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T16:23:22Z"
         }
       }
     },
@@ -47820,9 +47868,9 @@
       "titulo": "Mil Pedazos",
       "artista": "Juanes",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T16:18:44Z",
+      "vueltas": 1,
+      "motivo": "QC r2",
+      "actualizado": "2026-10-21T16:27:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47849,7 +47897,17 @@
             "v": "falta",
             "nota": "plan en en_plan.json (43 lineas, 215 WIT, 15 PIT); falta abrir el borrador",
             "t": "2026-10-07T04:18:57Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "Lines 35 and 40: en and mil anchored to different items than the same phrase on lines 13/14/30/31/36; remap and reopen English draft. Rest passes.",
+            "t": "2026-10-21T16:24:25Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "Lines 35 and 40: en and mil anchored to different items than the same phrase on lines 13/14/30/31/36; remap and reopen English draft. Rest passes.",
+          "t": "2026-10-21T16:24:25Z"
         }
       }
     },
@@ -50681,10 +50739,10 @@
       "originalTrackId": "",
       "titulo": "Con La Cara En Alto",
       "artista": "Reik",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T05:55:52Z",
+      "motivo": "QC r1",
+      "actualizado": "2026-10-21T16:27:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
