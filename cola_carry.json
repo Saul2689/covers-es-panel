@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T16:08:01Z",
+  "generado": "2026-10-21T16:11:39Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -22993,10 +22993,10 @@
       "originalTrackId": "",
       "titulo": "Tu Peor Error",
       "artista": "la 5ª Estacion",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2",
-      "actualizado": "2026-10-21T16:06:32Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T16:08:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23020,20 +23020,26 @@
             "t": "2026-10-06T20:43:33Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en .singit/es_map/payloads/6aa5f73b42b8d1fdb0d928db/en_plan.json (48 lineas + 272 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T20:43:33Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 48 lineas y 272 WIT, BAD 0",
+            "t": "2026-10-21T16:08:49Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "lineas 8 y 25 token 5: ancla a sentido 'querer=desear' pero la linea significa querer=amar; item amar ya existe. Resto limpio",
-            "t": "2026-10-21T16:05:29Z"
+            "v": "ok",
+            "nota": "ronda 2: arreglos de L8/L25 t5 y L37 t6 verificados; BAD 0, 48/48 ingles, estructura limpia, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-21T16:08:44Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "lineas 8 y 25 token 5: ancla a sentido 'querer=desear' pero la linea significa querer=amar; item amar ya existe. Resto limpio",
-          "t": "2026-10-21T16:05:29Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: arreglos de L8/L25 t5 y L37 t6 verificados; BAD 0, 48/48 ingles, estructura limpia, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-21T16:08:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T16:08:50Z"
         }
       }
     },
@@ -44157,10 +44163,10 @@
       "originalTrackId": "",
       "titulo": "No Se Ha Dado Cuenta",
       "artista": "Roberto Jordan",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T03:05:41Z",
+      "motivo": "audio_guard MUDA_PARADA: la cover no suena",
+      "actualizado": "2026-10-21T16:11:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44189,7 +44195,8 @@
             "t": "2026-10-07T03:05:40Z"
           }
         }
-      }
+      },
+      "motivo_en": "audio_guard MUDA_PARADA: the cover plays no sung audio"
     },
     {
       "coverTrackId": "6aa65de372ca57eb1a9ce240",
