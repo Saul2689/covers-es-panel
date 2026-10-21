@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T17:16:17Z",
+  "generado": "2026-10-21T17:20:21Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -39963,10 +39963,10 @@
       "originalTrackId": "",
       "titulo": "Tocame",
       "artista": "Sin Bandera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T17:16:15Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T17:19:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39990,10 +39990,26 @@
             "t": "2026-10-07T01:52:18Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (60 lineas, 211 WIT, 5 PIT), falta abrir el borrador",
-            "t": "2026-10-07T01:52:18Z"
+            "v": "ok",
+            "nota": "borrador pending_review: 60 lineas, 0 WIT vacios, wit_dt BAD 0",
+            "t": "2026-10-21T17:19:56Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "tildes de conjuncion/esta justificadas (error del original); estructura, timing, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-21T17:19:51Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "tildes de conjuncion/esta justificadas (error del original); estructura, timing, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-21T17:19:51Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T17:19:57Z"
         }
       }
     },
