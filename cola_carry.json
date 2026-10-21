@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T15:59:56Z",
+  "generado": "2026-10-21T16:04:44Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -38676,10 +38676,10 @@
       "originalTrackId": "",
       "titulo": "Dicen Que La Distancia",
       "artista": "los Temerarios",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-21T15:59:54Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T16:04:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38703,10 +38703,26 @@
             "t": "2026-10-07T01:27:50Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (28 lineas, 154 WIT); falta abrir borrador",
-            "t": "2026-10-07T01:27:51Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 28 lineas y 162 WIT con texto (pre-QC c14)",
+            "t": "2026-10-21T16:04:22Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, sentidos, ingles (pending_review), wit_dt_audit BAD 0; hallazgos restantes justificados (tildes por funcion, repeticion del original, comas)",
+            "t": "2026-10-21T16:04:22Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, sentidos, ingles (pending_review), wit_dt_audit BAD 0; hallazgos restantes justificados (tildes por funcion, repeticion del original, comas)",
+          "t": "2026-10-21T16:04:22Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T16:04:23Z"
         }
       }
     },
