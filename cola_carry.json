@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T13:04:03Z",
+  "generado": "2026-10-21T13:26:41Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -51777,10 +51777,10 @@
       "originalTrackId": "",
       "titulo": "Corazon Esteril",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T13:03:59Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T13:08:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51804,10 +51804,26 @@
             "t": "2026-10-07T06:19:12Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (30 lineas, 151 WIT, 4 PIT); falta abrir el borrador",
-            "t": "2026-10-07T06:19:12Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 30 lineas, 151 WIT, 6 PIT; BAD 0",
+            "t": "2026-10-21T13:08:29Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, anclas, items nuevos, ingles (BAD 0, 0 WIT vacios) y timing OK; solo hallazgos justificados (l3 t2, l30 t7)",
+            "t": "2026-10-21T13:08:24Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, anclas, items nuevos, ingles (BAD 0, 0 WIT vacios) y timing OK; solo hallazgos justificados (l3 t2, l30 t7)",
+          "t": "2026-10-21T13:08:24Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T13:08:31Z"
         }
       }
     },
@@ -52341,10 +52357,10 @@
       "originalTrackId": "",
       "titulo": "Para Toda La Vida",
       "artista": "Rocío Dúrcal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T13:04:00Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T13:09:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52368,10 +52384,26 @@
             "t": "2026-10-07T06:30:08Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json; sin borrador abierto (WORKER_BRIEF)",
-            "t": "2026-10-07T06:30:08Z"
+            "v": "ok",
+            "nota": "borrador en pending_review (28/28 lineas, 187/187 WIT con texto, BAD 0)",
+            "t": "2026-10-21T13:09:24Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 187/187, drift 0, gemelas 0, ingles 28/28 en pending_review, BAD 0; palabra vacia final de richsync justificada; nota de oido en linea 6/18 palabra 3",
+            "t": "2026-10-21T13:09:25Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 187/187, drift 0, gemelas 0, ingles 28/28 en pending_review, BAD 0; palabra vacia final de richsync justificada; nota de oido en linea 6/18 palabra 3",
+          "t": "2026-10-21T13:09:25Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T13:09:32Z"
         }
       }
     },
@@ -52677,9 +52709,9 @@
       "titulo": "Yo Quiero Ser",
       "artista": "Vicente Fernandez",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T13:04:01Z",
+      "vueltas": 1,
+      "motivo": "corregida r1, QC r2",
+      "actualizado": "2026-10-21T13:26:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52706,7 +52738,17 @@
             "v": "falta",
             "nota": "x",
             "t": "2026-10-07T06:36:00Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 5 palabra 1: ancla a item de sentido incorrecto (y interrogativa); remapear, reabrir ingles, WIT, reenviar",
+            "t": "2026-10-21T13:12:00Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 5 palabra 1: ancla a item de sentido incorrecto (y interrogativa); remapear, reabrir ingles, WIT, reenviar",
+          "t": "2026-10-21T13:12:00Z"
         }
       }
     },
@@ -53171,10 +53213,10 @@
       "originalTrackId": "",
       "titulo": "Codigo Postal",
       "artista": "Ha-Ash",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T13:04:01Z",
+      "motivo": "espera a Saul: letra del proveedor en dos pasadas; L48-51 desordenadas en el tiempo (suenan a 32-41 s), L52-98 copia excluida con letra real no ensenada (p. ej. L62); decidir re-corte o borrado",
+      "actualizado": "2026-10-21T13:13:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53198,12 +53240,23 @@
             "t": "2026-10-07T06:50:27Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (98 lineas, 516 WIT, 15 PIT); falta abrir el borrador",
-            "t": "2026-10-07T06:50:27Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 98 lineas, 516 WIT, BAD 0, sin WIT vacios",
+            "t": "2026-10-21T13:13:36Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "agente: todo cerrado salvo estructura doblada del proveedor (L48-51 desordenadas, L52-98 copia); ingles pending_review, BAD 0, drift 0",
+            "t": "2026-10-21T13:13:26Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "agente: todo cerrado salvo estructura doblada del proveedor (L48-51 desordenadas, L52-98 copia); ingles pending_review, BAD 0, drift 0",
+          "t": "2026-10-21T13:13:26Z"
         }
-      }
+      },
+      "motivo_en": "waiting for Saul: the provider lyric has two overlapping passes; lines 48-51 are out of chronological order (they sound at 32-41 s), lines 52-98 are an excluded duplicate pass that holds real lyric that is not taught (e.g. line 62); decide between a re-cut and deleting the duplicates"
     },
     {
       "coverTrackId": "6aa80d97d951e1665a7ed32c",
@@ -53896,10 +53949,10 @@
       "originalTrackId": "",
       "titulo": "Que Me Perdone Tu Perro",
       "artista": "Paquita la Del Barrio",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T07:00:11Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-21T13:26:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54551,10 +54604,10 @@
       "originalTrackId": "",
       "titulo": "Mata",
       "artista": "Tito El Bambino",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T07:14:10Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-21T13:26:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54795,10 +54848,10 @@
       "originalTrackId": "",
       "titulo": "Parte De Este Juego",
       "artista": "Luis Enrique",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T07:16:45Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-21T13:26:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55920,10 +55973,10 @@
       "originalTrackId": "",
       "titulo": "Ahora Que Te Vas",
       "artista": "la 5ª Estacion",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T07:49:04Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-21T13:26:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56022,10 +56075,10 @@
       "originalTrackId": "",
       "titulo": "Desde Que No Estas Aqui",
       "artista": "Kumbia Kings",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T08:01:56Z",
+      "motivo": "audio_guard MUDA_PARADA: el cover no suena",
+      "actualizado": "2026-10-21T13:08:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56054,7 +56107,8 @@
             "t": "2026-10-07T08:01:56Z"
           }
         }
-      }
+      },
+      "motivo_en": "audio_guard MUDA_PARADA: the cover plays no sung audio"
     },
     {
       "coverTrackId": "6aa80fe0d951e1665a7f20f9",
@@ -56073,10 +56127,10 @@
       "originalTrackId": "",
       "titulo": "Coqueta",
       "artista": "Intocable",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T07:57:58Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-21T13:26:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
