@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T13:47:00Z",
+  "generado": "2026-10-21T14:06:18Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -45161,10 +45161,10 @@
       "originalTrackId": "",
       "titulo": "Si Tu Me Dices Ven",
       "artista": "Los Panchos",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T13:46:57Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T13:52:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45188,10 +45188,26 @@
             "t": "2026-10-07T03:29:30Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (23 lineas, 183 WIT); falta abrir el borrador",
-            "t": "2026-10-07T03:29:30Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 23/23 lineas y 183/183 WIT con texto, QC r1 verificado",
+            "t": "2026-10-21T13:52:12Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1 VERDE: estructura 183/183, anclas verificadas, ingles pending_review completo, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; notas: errata ni (L13/L21 tok7) justificada, hueco instrumental L16",
+            "t": "2026-10-21T13:51:59Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1 VERDE: estructura 183/183, anclas verificadas, ingles pending_review completo, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; notas: errata ni (L13/L21 tok7) justificada, hueco instrumental L16",
+          "t": "2026-10-21T13:51:59Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T13:52:13Z"
         }
       }
     },
@@ -45533,10 +45549,10 @@
       "originalTrackId": "",
       "titulo": "Por Ella",
       "artista": "Sergio Vargas",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T13:46:57Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T13:52:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45560,10 +45576,26 @@
             "t": "2026-10-07T03:39:43Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (35 lineas, 294 WIT, 4 PIT); falta abrir el borrador",
-            "t": "2026-10-07T03:39:44Z"
+            "v": "ok",
+            "nota": "borrador en pending_review (35 lineas, 294 WIT, 5 PIT, BAD 0), verificado en QC r1",
+            "t": "2026-10-21T13:52:23Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles (draft pending_review, BAD 0) y timing correctos; hallazgos qc_es justificados (ad-libs, palabra partida L18, hueco instrumental L29)",
+            "t": "2026-10-21T13:52:02Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles (draft pending_review, BAD 0) y timing correctos; hallazgos qc_es justificados (ad-libs, palabra partida L18, hueco instrumental L29)",
+          "t": "2026-10-21T13:52:02Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T13:52:24Z"
         }
       }
     },
@@ -45686,10 +45718,10 @@
       "originalTrackId": "",
       "titulo": "El Proximo Tonto",
       "artista": "Grupo America",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T13:46:58Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T13:53:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45713,10 +45745,26 @@
             "t": "2026-10-07T03:39:02Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (47 lineas, 263 WIT, 6 PIT); falta abrir el borrador",
-            "t": "2026-10-07T03:39:02Z"
+            "v": "ok",
+            "nota": "47 lineas, 263 WIT y 6 PIT en draft pending_review (no aprobado); wit_dt_audit BAD 0",
+            "t": "2026-10-21T13:53:31Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles pending_review y WIT-DT limpios; quedan avisos justificados (hueco L19, tok 3 de L12/30/40, tok 4 de L3/L21)",
+            "t": "2026-10-21T13:53:25Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles pending_review y WIT-DT limpios; quedan avisos justificados (hueco L19, tok 3 de L12/30/40, tok 4 de L3/L21)",
+          "t": "2026-10-21T13:53:25Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T13:53:32Z"
         }
       }
     },
@@ -56045,10 +56093,10 @@
       "originalTrackId": "",
       "titulo": "Ahora Que Te Vas",
       "artista": "la 5ª Estacion",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-21T13:26:40Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T13:47:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56072,10 +56120,26 @@
             "t": "2026-10-07T07:49:04Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (43 lineas, 229 WIT con DT, 18 PIT); falta abrir el borrador",
-            "t": "2026-10-07T07:49:04Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 43/43 lineas, 229 WIT, BAD 0",
+            "t": "2026-10-21T13:47:28Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, anclas, ingles pending_review y audio OK; 2 notas de oido (L9 t5, L35 t7)",
+            "t": "2026-10-21T13:47:23Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, anclas, ingles pending_review y audio OK; 2 notas de oido (L9 t5, L35 t7)",
+          "t": "2026-10-21T13:47:23Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T13:47:29Z"
         }
       }
     },
@@ -56199,10 +56263,10 @@
       "originalTrackId": "",
       "titulo": "Coqueta",
       "artista": "Intocable",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, QC r2",
-      "actualizado": "2026-10-21T13:46:59Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-21T13:55:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56226,20 +56290,26 @@
             "t": "2026-10-07T07:57:57Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (49 lineas, 288 WIT, 15 PIT), falta abrir el borrador",
-            "t": "2026-10-07T07:57:57Z"
+            "v": "ok",
+            "nota": "borrador pending_review: 49 lineas, 288 WIT, 27 PIT, BAD 0; reenviado tras r1",
+            "t": "2026-10-21T13:55:17Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "linea 49 palabra 2 mapeada a cabeza-cuerpo; el resto de repeticiones de la locucion usan cabeza-mente (6e26f2); remapear y ajustar WIT ingles (reabrir borrador)",
-            "t": "2026-10-21T13:45:10Z"
+            "v": "ok",
+            "nota": "r2: punto r1 (L49 w2 cabeza) arreglado; estructura, anclas, ingles pending_review, wit_dt BAD 0, timing drift 0 y hallazgos justificados OK",
+            "t": "2026-10-21T13:55:11Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "linea 49 palabra 2 mapeada a cabeza-cuerpo; el resto de repeticiones de la locucion usan cabeza-mente (6e26f2); remapear y ajustar WIT ingles (reabrir borrador)",
-          "t": "2026-10-21T13:45:10Z"
+          "v": "VERDE",
+          "resumen": "r2: punto r1 (L49 w2 cabeza) arreglado; estructura, anclas, ingles pending_review, wit_dt BAD 0, timing drift 0 y hallazgos justificados OK",
+          "t": "2026-10-21T13:55:11Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T13:55:19Z"
         }
       }
     },
