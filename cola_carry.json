@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T11:09:10Z",
+  "generado": "2026-10-21T11:13:41Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -5378,10 +5378,10 @@
       "originalTrackId": "",
       "titulo": "Amor Del Bueno",
       "artista": "Reyli",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, QC r2",
-      "actualizado": "2026-10-21T11:09:06Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-21T11:12:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5410,15 +5410,21 @@
             "t": "2026-10-21T10:57:44Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: 3 anclas de sentido equivocado con item correcto existente (L3 w1, L9/38 w4, L17/46 w3) y fragmento de locucion en L31 w2; resto limpio",
-            "t": "2026-10-21T11:05:10Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-21T11:12:17Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: 3 anclas de sentido equivocado con item correcto existente (L3 w1, L9/38 w4, L17/46 w3) y fragmento de locucion en L31 w2; resto limpio",
-          "t": "2026-10-21T11:05:10Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-21T11:12:17Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T11:12:20Z"
         }
       }
     },
@@ -13494,10 +13500,10 @@
       "originalTrackId": "",
       "titulo": "Tan Facil",
       "artista": "CNCO",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, QC r2",
-      "actualizado": "2026-10-21T11:09:08Z",
+      "motivo": "QC2 VERDE",
+      "actualizado": "2026-10-21T11:12:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -13526,15 +13532,21 @@
             "t": "2026-10-21T10:58:21Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: PIT 'I love you' mal anclado L74/L76, falta ancla 'es que' L75/L76/L78, WI.word obsoleto L10",
-            "t": "2026-10-21T11:05:44Z"
+            "v": "ok",
+            "nota": "QC2 VERDE",
+            "t": "2026-10-21T11:12:49Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: PIT 'I love you' mal anclado L74/L76, falta ancla 'es que' L75/L76/L78, WI.word obsoleto L10",
-          "t": "2026-10-21T11:05:44Z"
+          "v": "VERDE",
+          "resumen": "QC2 VERDE",
+          "t": "2026-10-21T11:12:49Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-21T11:12:51Z"
         }
       }
     },
@@ -17472,10 +17484,10 @@
       "originalTrackId": "",
       "titulo": "Salome",
       "artista": "Chayanne",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lote c4: inglés en pending_review, QC r1",
-      "actualizado": "2026-10-21T10:58:33Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "WIT sobra L10/13/29/32/46/49/52/55 w5 a 'is left over'; anclar PI 'es que' en L7,8,25,27,28 w2-3",
+      "actualizado": "2026-10-21T11:10:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17502,7 +17514,17 @@
             "v": "ok",
             "nota": "",
             "t": "2026-10-21T10:58:32Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT sobra en infinitivo (8 lineas); locucion 'es que' sin ancla PI en 5 lineas",
+            "t": "2026-10-21T11:10:42Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT sobra en infinitivo (8 lineas); locucion 'es que' sin ancla PI en 5 lineas",
+          "t": "2026-10-21T11:10:42Z"
         }
       }
     },
