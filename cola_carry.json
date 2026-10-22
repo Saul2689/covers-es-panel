@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T14:13:07Z",
+  "generado": "2026-10-22T14:19:23Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -40834,10 +40834,10 @@
       "originalTrackId": "",
       "titulo": "Mi Mayor Sacrificio",
       "artista": "Marco Antonio Solis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:12:10Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:15:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40864,7 +40864,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:12:09Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: hallazgos justificados, estructura y timing ok, mapeo y ingles ok, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T14:15:50Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: hallazgos justificados, estructura y timing ok, mapeo y ingles ok, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T14:15:50Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:15:51Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -40886,10 +40902,10 @@
       "originalTrackId": "",
       "titulo": "Que Sepan Todos",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:12:11Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:17:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40916,7 +40932,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:12:10Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: 200/200 anclas, 36/36 ingles pending_review, wit_dt BAD 0, drift 0; notas de oido L17/L28/L29/L36",
+            "t": "2026-10-22T14:17:32Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: 200/200 anclas, 36/36 ingles pending_review, wit_dt BAD 0, drift 0; notas de oido L17/L28/L29/L36",
+          "t": "2026-10-22T14:17:32Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:17:34Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -41060,9 +41092,9 @@
       "titulo": "Si Te Vas",
       "artista": "Pedro Fernandez",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:12:12Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T14:19:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41089,10 +41121,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:12:12Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "lineas 11/19/23 palabra 9 anclada al sentido equivocado de vivirás (existe item correcto 6acf5a12...); resto OK",
+            "t": "2026-10-22T14:18:14Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "lineas 11/19/23 palabra 9 anclada al sentido equivocado de vivirás (existe item correcto 6acf5a12...); resto OK",
+          "t": "2026-10-22T14:18:14Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa6fb5772ca57eb1aa9b9e4",
@@ -41338,10 +41380,10 @@
       "originalTrackId": "",
       "titulo": "Esta Noche La Paso Contigo",
       "artista": "los Angeles Negros",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:12:13Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:15:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41368,7 +41410,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:12:13Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; sin defectos",
+            "t": "2026-10-22T14:15:48Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; sin defectos",
+          "t": "2026-10-22T14:15:48Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:15:49Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
