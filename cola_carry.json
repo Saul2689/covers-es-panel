@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T14:19:23Z",
+  "generado": "2026-10-22T14:22:52Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -41091,10 +41091,10 @@
       "originalTrackId": "",
       "titulo": "Si Te Vas",
       "artista": "Pedro Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T14:19:23Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:22:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41123,15 +41123,21 @@
             "t": "2026-10-22T14:12:12Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "lineas 11/19/23 palabra 9 anclada al sentido equivocado de vivirás (existe item correcto 6acf5a12...); resto OK",
-            "t": "2026-10-22T14:18:14Z"
+            "v": "ok",
+            "nota": "r2: r1 fix verified (3 anchors vivirás remapped, WIT ok), full checklist clean, BAD 0, EN draft pending_review",
+            "t": "2026-10-22T14:22:22Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "lineas 11/19/23 palabra 9 anclada al sentido equivocado de vivirás (existe item correcto 6acf5a12...); resto OK",
-          "t": "2026-10-22T14:18:14Z"
+          "v": "VERDE",
+          "resumen": "r2: r1 fix verified (3 anchors vivirás remapped, WIT ok), full checklist clean, BAD 0, EN draft pending_review",
+          "t": "2026-10-22T14:22:22Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:22:24Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -41439,8 +41445,8 @@
       "artista": "Alejandro Fernandez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:32Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T14:22:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41465,11 +41471,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:02:32Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T14:22:48Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa6cdd072ca57eb1aa64943",
@@ -41547,8 +41554,8 @@
       "artista": "Banda El Recodo",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:33Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T14:22:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41573,11 +41580,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:02:32Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T14:22:49Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa1112c64c9b8ff110cc581",
@@ -41643,8 +41651,8 @@
       "artista": "Myriam Hernandez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:33Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T14:22:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41669,11 +41677,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:02:33Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T14:22:49Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa1112f64c9b8ff110cd021",
@@ -41740,8 +41749,8 @@
       "artista": "Vicente Fernandez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:34Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T14:22:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41766,11 +41775,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:02:34Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T14:22:50Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa68b0c72ca57eb1aa0eee2",
@@ -41871,8 +41881,8 @@
       "artista": "Juan Gabriel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:43Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T14:22:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41897,11 +41907,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:02:43Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T14:22:51Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa6401d72ca57eb1a9a8d6c",
