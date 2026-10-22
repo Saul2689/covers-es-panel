@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T15:19:09Z",
+  "generado": "2026-10-22T15:24:52Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -42636,10 +42636,10 @@
       "originalTrackId": "",
       "titulo": "Yo No Te Pido",
       "artista": "Pablo Milanes",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T15:09:33Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 DEVUELTO: L10 w5 tilde falta (futuro) + ingles L10; WIT de bajes L2/18/22/26/30 w3 en infinitivo",
+      "actualizado": "2026-10-22T15:22:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42666,7 +42666,17 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T15:09:32Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: line 10 word 5 missing tilde (future sense) + line 10 English; WIT of word 3 on lines 2/18/22/26/30 is an infinitive gloss on a finite verb. All else clean.",
+            "t": "2026-10-22T15:22:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: line 10 word 5 missing tilde (future sense) + line 10 English; WIT of word 3 on lines 2/18/22/26/30 is an infinitive gloss on a finite verb. All else clean.",
+          "t": "2026-10-22T15:22:29Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -42780,9 +42790,9 @@
       "titulo": "Hoy Quiero Confesarme",
       "artista": "Isabel Pantoja",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T15:09:33Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T15:24:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42809,10 +42819,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T15:09:33Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ronda 1: falta insertar la 'a' personal en linea 12 y 38 (token 7), presente en las dos repeticiones del original y con hueco de 482 ms en el cover; resto OK (estructura, sentidos, frases, ingles pending_review, WIT/DT)",
+            "t": "2026-10-22T15:20:08Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ronda 1: falta insertar la 'a' personal en linea 12 y 38 (token 7), presente en las dos repeticiones del original y con hueco de 482 ms en el cover; resto OK (estructura, sentidos, frases, ingles pending_review, WIT/DT)",
+          "t": "2026-10-22T15:20:08Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa5695442b8d1fdb0ccb469",
@@ -42821,9 +42841,9 @@
       "titulo": "Una Vez Mas",
       "artista": "Conjunto Primavera",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T15:09:34Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T15:24:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42850,10 +42870,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T15:09:34Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ronda 1: 2 WIT del ingles: linea 9 palabra 4 sujeto duplicado, linea 12 palabra 4 repite su PIT; resto limpio",
+            "t": "2026-10-22T15:20:17Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ronda 1: 2 WIT del ingles: linea 9 palabra 4 sujeto duplicado, linea 12 palabra 4 repite su PIT; resto limpio",
+          "t": "2026-10-22T15:20:17Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa84985d951e1665a83a198",
@@ -53052,10 +53082,10 @@
       "originalTrackId": "",
       "titulo": "Corre Corre",
       "artista": "Flans",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T15:19:09Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:21:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53084,15 +53114,21 @@
             "t": "2026-10-22T15:09:31Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: 4 tokens (lines 3 and 21 word 11, lines 6 and 24 word 1) lack the preterite tilde while anchored to the tilded preterite item; rest of structure, mapping, new items, English draft and audio OK",
-            "t": "2026-10-22T15:16:07Z"
+            "v": "ok",
+            "nota": "ronda 2: tildes del preterito 1SG (lineas 3,6,21,24) corregidas, item_tilde_distinta 0, resto de checklist verde, BAD 0, ingles pending_review, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T15:21:25Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: 4 tokens (lines 3 and 21 word 11, lines 6 and 24 word 1) lack the preterite tilde while anchored to the tilded preterite item; rest of structure, mapping, new items, English draft and audio OK",
-          "t": "2026-10-22T15:16:07Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: tildes del preterito 1SG (lineas 3,6,21,24) corregidas, item_tilde_distinta 0, resto de checklist verde, BAD 0, ingles pending_review, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T15:21:25Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:21:26Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
