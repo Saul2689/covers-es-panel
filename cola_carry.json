@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T11:06:39Z",
+  "generado": "2026-10-22T11:11:28Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -31330,9 +31330,9 @@
       "titulo": "Mentiroso",
       "artista": "Enrique Iglesias",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T10:57:50Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto y corregido, QC r2",
+      "actualizado": "2026-10-22T11:11:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31359,10 +31359,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T10:57:49Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L51 tok1: palabra de 1 letra donde el original y las lineas 25/50 llevan el ad-lib; sin mapear, qc_es rojo injustificado; arreglar LRC+ancla+ingles (reabrir draft)",
+            "t": "2026-10-22T11:09:45Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L51 tok1: palabra de 1 letra donde el original y las lineas 25/50 llevan el ad-lib; sin mapear, qc_es rojo injustificado; arreglar LRC+ancla+ingles (reabrir draft)",
+          "t": "2026-10-22T11:09:45Z"
         }
       },
-      "motivo_en": "pre-QC done, QC round 1"
+      "motivo_en": "QC r1 returned and fixed, QC r2"
     },
     {
       "coverTrackId": "6aa526bb42b8d1fdb0c7cffc",
@@ -50161,10 +50171,10 @@
       "originalTrackId": "",
       "titulo": "Porque Te Quiero",
       "artista": "los Angeles Negros",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T10:57:54Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:09:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50191,7 +50201,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T10:57:53Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles (draft pending_review), items nuevos y audio ok; solo 2 errata de ad-lib L28-29 justificadas",
+            "t": "2026-10-22T11:09:39Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles (draft pending_review), items nuevos y audio ok; solo 2 errata de ad-lib L28-29 justificadas",
+          "t": "2026-10-22T11:09:39Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:09:40Z"
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
@@ -51065,10 +51091,10 @@
       "originalTrackId": "",
       "titulo": "Que No Se Entere",
       "artista": "Alicia Villarreal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T10:57:52Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:09:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51095,7 +51121,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T10:57:52Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos e ingles (24 lineas, 162 WIT, BAD 0) correctos; audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T11:09:30Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos e ingles (24 lineas, 162 WIT, BAD 0) correctos; audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T11:09:30Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:09:31Z"
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
