@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T13:19:59Z",
+  "generado": "2026-10-22T13:22:58Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -38352,10 +38352,10 @@
       "originalTrackId": "",
       "titulo": "Mentiras Piadosas",
       "artista": "Alejandra Guzmán",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T13:19:58Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T13:22:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38384,15 +38384,21 @@
             "t": "2026-10-22T13:10:29Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT que lleva el sentido de la locucion (L1 w5, L5 w5-6, L20 w1-2); falta ancla volver a en L7 y L23 w9-10; resto OK",
-            "t": "2026-10-22T13:15:07Z"
+            "v": "ok",
+            "nota": "r2: r1 fixes verified (ya no, darse cuenta, volver a L7/L23), full checklist clean, wit_dt_audit BAD 0, EN draft pending_review",
+            "t": "2026-10-22T13:22:29Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT que lleva el sentido de la locucion (L1 w5, L5 w5-6, L20 w1-2); falta ancla volver a en L7 y L23 w9-10; resto OK",
-          "t": "2026-10-22T13:15:07Z"
+          "v": "VERDE",
+          "resumen": "r2: r1 fixes verified (ya no, darse cuenta, volver a L7/L23), full checklist clean, wit_dt_audit BAD 0, EN draft pending_review",
+          "t": "2026-10-22T13:22:29Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T13:22:31Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -38929,8 +38935,8 @@
       "artista": "Olga Tañon",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:59:04Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T13:22:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38955,11 +38961,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:59:03Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T13:22:54Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa590f942b8d1fdb0d05bae",
@@ -39217,8 +39224,8 @@
       "artista": "Isabel Pantoja",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:59:20Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T13:22:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39243,11 +39250,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:59:20Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T13:22:54Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa1112464c9b8ff110ca985",
@@ -39324,8 +39332,8 @@
       "artista": "Alejandro Sanz",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:59:44Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T13:22:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39350,11 +39358,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:59:44Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T13:22:55Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa65d2772ca57eb1a9cdac6",
@@ -39375,8 +39384,8 @@
       "artista": "Emmanuel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:59:45Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T13:22:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39401,11 +39410,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:59:45Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T13:22:56Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa718b872ca57eb1aac9f54",
@@ -39482,8 +39492,8 @@
       "artista": "Cornelio Reyna",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:59:45Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T13:22:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39508,11 +39518,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:59:45Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T13:22:57Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa6b64872ca57eb1aa40107",
