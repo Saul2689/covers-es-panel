@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T13:10:33Z",
+  "generado": "2026-10-22T13:18:59Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -38295,10 +38295,10 @@
       "originalTrackId": "",
       "titulo": "Toca Para Mi",
       "artista": "Alejandro Sanz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T13:10:29Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T13:17:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38325,7 +38325,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T13:10:29Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, gemelas, items nuevos, ingles pending_review y audio OK; solo notas de oido",
+            "t": "2026-10-22T13:17:24Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, gemelas, items nuevos, ingles pending_review y audio OK; solo notas de oido",
+          "t": "2026-10-22T13:17:24Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T13:17:28Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -38336,10 +38352,10 @@
       "originalTrackId": "",
       "titulo": "Mentiras Piadosas",
       "artista": "Alejandra Guzmán",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T13:10:30Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 DEVUELTO: WIT de locucion en L1 w5, L5 w5-6, L20 w1-2, L7/L23 w9; ancla volver a L7/L23 w9-10",
+      "actualizado": "2026-10-22T13:15:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38366,7 +38382,17 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T13:10:29Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT que lleva el sentido de la locucion (L1 w5, L5 w5-6, L20 w1-2); falta ancla volver a en L7 y L23 w9-10; resto OK",
+            "t": "2026-10-22T13:15:07Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT que lleva el sentido de la locucion (L1 w5, L5 w5-6, L20 w1-2); falta ancla volver a en L7 y L23 w9-10; resto OK",
+          "t": "2026-10-22T13:15:07Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -38410,10 +38436,10 @@
       "originalTrackId": "",
       "titulo": "Corazon Encadenado",
       "artista": "Camilo Sesto, Lani Hall",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T13:10:31Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T13:15:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38440,7 +38466,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T13:10:30Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, timing, mapeo, items nuevos e ingles OK; hallazgos qc_es restantes justificados (dueto L30-39, qué interrogativo L1/L7); draft en pending_review; wit_dt_audit BAD 0",
+            "t": "2026-10-22T13:15:10Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, timing, mapeo, items nuevos e ingles OK; hallazgos qc_es restantes justificados (dueto L30-39, qué interrogativo L1/L7); draft en pending_review; wit_dt_audit BAD 0",
+          "t": "2026-10-22T13:15:10Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T13:15:16Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -38451,10 +38493,10 @@
       "originalTrackId": "",
       "titulo": "Fanky",
       "artista": "Charly Garcia",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T13:10:31Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T13:14:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38481,7 +38523,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T13:10:31Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 114/114, timing sin cambios, ingles 27/27 y 0 WIT vacios en pending_review, wit_dt_audit BAD 0, hallazgos restantes justificados",
+            "t": "2026-10-22T13:14:27Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 114/114, timing sin cambios, ingles 27/27 y 0 WIT vacios en pending_review, wit_dt_audit BAD 0, hallazgos restantes justificados",
+          "t": "2026-10-22T13:14:27Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T13:14:29Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -38691,10 +38749,10 @@
       "originalTrackId": "",
       "titulo": "Comienza A Amanecer",
       "artista": "Perla",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:59:03Z",
+      "motivo": "audio_guard MUDA_PARADA: el cover no suena con voz",
+      "actualizado": "2026-10-22T13:11:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38723,7 +38781,8 @@
             "t": "2026-10-07T08:59:03Z"
           }
         }
-      }
+      },
+      "motivo_en": "audio_guard MUDA_PARADA: cover has no sung audio"
     },
     {
       "coverTrackId": "6aa528bd42b8d1fdb0c80ec8",
