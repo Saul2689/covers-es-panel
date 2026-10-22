@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T14:34:23Z",
+  "generado": "2026-10-22T14:37:05Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -41805,10 +41805,10 @@
       "originalTrackId": "",
       "titulo": "Amor Sin Cuenta",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T14:34:23Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:36:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41837,15 +41837,21 @@
             "t": "2026-10-22T14:22:50Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "falta phrase insight 'tomar en cuenta' (item existente) en L10 y L25 palabras 2-4; resto correcto",
-            "t": "2026-10-22T14:33:18Z"
+            "v": "ok",
+            "nota": "r2: phrase insight tomar en cuenta en L10/L25 verificado, resto del checklist limpio, wit_dt_audit BAD 0",
+            "t": "2026-10-22T14:36:05Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "falta phrase insight 'tomar en cuenta' (item existente) en L10 y L25 palabras 2-4; resto correcto",
-          "t": "2026-10-22T14:33:18Z"
+          "v": "VERDE",
+          "resumen": "r2: phrase insight tomar en cuenta en L10/L25 verificado, resto del checklist limpio, wit_dt_audit BAD 0",
+          "t": "2026-10-22T14:36:05Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:36:07Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
