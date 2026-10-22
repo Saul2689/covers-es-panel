@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T14:55:11Z",
+  "generado": "2026-10-22T15:02:37Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -42312,9 +42312,9 @@
       "titulo": "Tu Angel De La Guarda",
       "artista": "Gloria Trevi",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:55:09Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T15:02:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42341,10 +42341,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:55:09Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "Linea 5 tokens 1-2: phrase insight apunta a item en-language sin traduccion ni PIT; hay item es 6acf9bd3. Resto verde",
+            "t": "2026-10-22T15:00:14Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "Linea 5 tokens 1-2: phrase insight apunta a item en-language sin traduccion ni PIT; hay item es 6acf9bd3. Resto verde",
+          "t": "2026-10-22T15:00:14Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa82d5ed951e1665a81f521",
@@ -52506,9 +52516,9 @@
       "titulo": "Concavo Y Convexo",
       "artista": "Jose Feliciano",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:40:30Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T15:02:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52535,10 +52545,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:40:30Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "2 phrase-anchor defects: line 60 PI shifted by one and out of range; line 3 PI wrong sense (comparative, not the idiom)",
+            "t": "2026-10-22T14:56:07Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "2 phrase-anchor defects: line 60 PI shifted by one and out of range; line 3 PI wrong sense (comparative, not the idiom)",
+          "t": "2026-10-22T14:56:07Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa5b97a42b8d1fdb0d34fec",
@@ -52602,9 +52622,9 @@
       "titulo": "Que Solo Estoy Sin Ti",
       "artista": "Banda El Recodo",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:55:07Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T15:02:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52631,10 +52651,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:55:07Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "estructura, anclas, WIT/DT, audio OK; linea 6: phrase insight de afecto sobre uso literal (PIT no encaja con la linea)",
+            "t": "2026-10-22T14:59:25Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "estructura, anclas, WIT/DT, audio OK; linea 6: phrase insight de afecto sobre uso literal (PIT no encaja con la linea)",
+          "t": "2026-10-22T14:59:25Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa7477e72ca57eb1ab15761",
@@ -52782,9 +52812,9 @@
       "titulo": "Aunque Mal Paguen Ellas",
       "artista": "Roberto Carlos, Vicente Fernandez",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:55:10Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T15:02:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52811,10 +52841,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:55:10Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "Un fallo: linea 13 palabras 2-3, phrase insight 'te quiero' (PIT 'I love you') contradice el sentido de la linea (querer + infinitivo); quitarlo y reabrir/reenviar el draft EN. Resto verificado OK.",
+            "t": "2026-10-22T14:59:53Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "Un fallo: linea 13 palabras 2-3, phrase insight 'te quiero' (PIT 'I love you') contradice el sentido de la linea (querer + infinitivo); quitarlo y reabrir/reenviar el draft EN. Resto verificado OK.",
+          "t": "2026-10-22T14:59:53Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa6577c72ca57eb1a9c65e6",
