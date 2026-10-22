@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T09:39:11Z",
+  "generado": "2026-10-22T09:49:25Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -40549,10 +40549,10 @@
       "originalTrackId": "",
       "titulo": "Celia",
       "artista": "Leo Dan",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-22T09:30:19Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T09:42:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40576,10 +40576,26 @@
             "t": "2026-10-07T01:52:59Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json prepared (26 lines, 93 WITs), draft not opened",
-            "t": "2026-10-07T01:52:59Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 26 lineas y WIT de todas las anclas, wit_dt BAD 0",
+            "t": "2026-10-22T09:42:49Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "R1: qc_es solo nombre propio + 2 notas de oido (L2 p3, L22 p1); estructura, mapeo, items nuevos, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T09:42:44Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "R1: qc_es solo nombre propio + 2 notas de oido (L2 p3, L22 p1); estructura, mapeo, items nuevos, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T09:42:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T09:42:50Z"
         }
       },
       "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
