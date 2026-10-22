@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T09:13:39Z",
+  "generado": "2026-10-22T09:23:58Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -26499,9 +26499,9 @@
       "titulo": "Que Quieres De Mi",
       "artista": "Luis Fonsi",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-22T09:07:57Z",
+      "vueltas": 1,
+      "motivo": "QC r2",
+      "actualizado": "2026-10-22T09:23:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26528,7 +26528,17 @@
             "v": "falta",
             "nota": "en_plan.json listo (46 lineas, 260 WIT con DT); falta abrir el borrador",
             "t": "2026-10-06T21:37:55Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "3 arreglos: L2 w4 ancla a item de sentido equivocado (hay uno limpio 6ac5a498...); WIT de L8/21/35 w1 'so many' -> 'so much'; WIT L19 w4 glosa larga -> 'when'",
+            "t": "2026-10-22T09:16:21Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "3 arreglos: L2 w4 ancla a item de sentido equivocado (hay uno limpio 6ac5a498...); WIT de L8/21/35 w1 'so many' -> 'so much'; WIT L19 w4 glosa larga -> 'when'",
+          "t": "2026-10-22T09:16:21Z"
         }
       }
     },
@@ -35072,10 +35082,10 @@
       "originalTrackId": "",
       "titulo": "Reina De Corazones",
       "artista": "Alejandra Guzmán",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-22T09:07:59Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T09:15:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35099,10 +35109,26 @@
             "t": "2026-10-06T23:34:22Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (42 lineas, 214 WIT); falta abrir el borrador",
-            "t": "2026-10-06T23:34:23Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 42 lineas, WIT completos, wit_dt_audit BAD 0",
+            "t": "2026-10-22T09:15:13Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, anclas (214, 0 fuera de rango), items nuevos, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR; hallazgos qc_es justificados",
+            "t": "2026-10-22T09:15:07Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, anclas (214, 0 fuera de rango), items nuevos, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR; hallazgos qc_es justificados",
+          "t": "2026-10-22T09:15:07Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T09:15:15Z"
         }
       }
     },
@@ -36033,10 +36059,10 @@
       "originalTrackId": "",
       "titulo": "Me Olvide De Vivir",
       "artista": "Toño Rosario",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-22T09:07:59Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T09:17:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36060,10 +36086,26 @@
             "t": "2026-10-07T00:40:12Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan listo en en_plan.json (61 lineas, 291 WIT); falta abrir el borrador",
-            "t": "2026-10-07T00:40:12Z"
+            "v": "ok",
+            "nota": "borrador pending_review: 61 lineas y WITs, wit_dt_audit BAD 0",
+            "t": "2026-10-22T09:17:07Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC1: qc_es residuals justified, estructura/timing/mapeo/ingles OK, wit_dt_audit BAD 0, draft pending_review, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T09:16:56Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC1: qc_es residuals justified, estructura/timing/mapeo/ingles OK, wit_dt_audit BAD 0, draft pending_review, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T09:16:56Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T09:17:08Z"
         }
       }
     },
