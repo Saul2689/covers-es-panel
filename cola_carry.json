@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T13:22:58Z",
+  "generado": "2026-10-22T13:33:33Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -38635,9 +38635,9 @@
       "titulo": "Por Ti",
       "artista": "Oscar Chavez",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T13:10:32Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T13:33:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38664,10 +38664,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T13:10:32Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "r1: l20 w2 muerto anclado a verbo 'amar en exceso' (WIT died); existe item adjetivo 'dead' 696cb2d7; resto verde",
+            "t": "2026-10-22T13:23:38Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "r1: l20 w2 muerto anclado a verbo 'amar en exceso' (WIT died); existe item adjetivo 'dead' 696cb2d7; resto verde",
+          "t": "2026-10-22T13:23:38Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa5f5db42b8d1fdb0d90868",
@@ -38933,10 +38943,10 @@
       "originalTrackId": "",
       "titulo": "Mi Eterno Amor Secreto",
       "artista": "Olga Tañon",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T13:22:54Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T13:26:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38963,7 +38973,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T13:22:54Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ronda 1: mapeo, estructura e ingles OK; residuos de qc_es justificados; wit_dt_audit BAD 0; draft pending_review",
+            "t": "2026-10-22T13:26:53Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "ronda 1: mapeo, estructura e ingles OK; residuos de qc_es justificados; wit_dt_audit BAD 0; draft pending_review",
+          "t": "2026-10-22T13:26:53Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T13:26:54Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -39222,10 +39248,10 @@
       "originalTrackId": "",
       "titulo": "Se Me Enamora El Alma",
       "artista": "Isabel Pantoja",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T13:22:55Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC R1 DEVUELTO: L7 w6 article errata; volaron sense (L12,L24 w2/w6); twin article items L18 w6, L32 w5; reopen EN draft after",
+      "actualizado": "2026-10-22T13:28:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39252,7 +39278,17 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T13:22:54Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: L7 w6 article number error vs plural noun (unjustified errata), volaron item has wrong sense (L12/L24 w2,w6), twin article items differ (L6/L16 vs L18/L32); rest clean",
+            "t": "2026-10-22T13:28:25Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: L7 w6 article number error vs plural noun (unjustified errata), volaron item has wrong sense (L12/L24 w2,w6), twin article items differ (L6/L16 vs L18/L32); rest clean",
+          "t": "2026-10-22T13:28:25Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -39331,9 +39367,9 @@
       "titulo": "Para Que Me Quieras",
       "artista": "Alejandro Sanz",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T13:22:56Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T13:33:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39360,10 +39396,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T13:22:55Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L3 w7 anclada a item diré con definicion de otro sentido (empezar); existe 6ac5bfd8 (decir). Resto OK",
+            "t": "2026-10-22T13:28:34Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L3 w7 anclada a item diré con definicion de otro sentido (empezar); existe 6ac5bfd8 (decir). Resto OK",
+          "t": "2026-10-22T13:28:34Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa65d2772ca57eb1a9cdac6",
@@ -40086,10 +40132,10 @@
       "originalTrackId": "",
       "titulo": "Por Ese Hombre",
       "artista": "Dyango, Pimpinela",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:25Z",
+      "motivo": "audio_guard MUDA_PARADA: el cover no suena con voz",
+      "actualizado": "2026-10-22T13:23:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40118,7 +40164,8 @@
             "t": "2026-10-07T09:02:24Z"
           }
         }
-      }
+      },
+      "motivo_en": "audio_guard MUDA_PARADA: cover has no sung audio"
     },
     {
       "coverTrackId": "6aa5bb8642b8d1fdb0d36ddc",
