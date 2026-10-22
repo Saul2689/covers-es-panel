@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T12:42:32Z",
+  "generado": "2026-10-22T12:47:06Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -36997,10 +36997,10 @@
       "originalTrackId": "",
       "titulo": "Vagabundear",
       "artista": "Joan Manuel Serrat",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T12:42:30Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T12:46:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37027,7 +37027,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T12:42:29Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 208/208, 0 fuera de rango, drift 0, ingles 32/32 pending_review, BAD 0, hallazgos qc justificados",
+            "t": "2026-10-22T12:46:43Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 208/208, 0 fuera de rango, drift 0, ingles 32/32 pending_review, BAD 0, hallazgos qc justificados",
+          "t": "2026-10-22T12:46:43Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T12:46:45Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
