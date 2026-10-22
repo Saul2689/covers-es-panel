@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T13:58:30Z",
+  "generado": "2026-10-22T14:02:43Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -40462,10 +40462,10 @@
       "originalTrackId": "",
       "titulo": "Hoy Me Ire De Casa",
       "artista": "Gloria Trevi",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T13:57:54Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: remapear alcanza (L12,16,32,36 w10) a 6ac5b358eb10045239e6a31f + WIT + reenviar ingles",
+      "actualizado": "2026-10-22T14:02:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40492,7 +40492,17 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T13:57:54Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "alcanza (lineas 12,16,32,36 palabra 10) ancla al item de sentido 'bastar'; existe item correcto 6ac5b358eb10045239e6a31f (alcanzar/atrapar)",
+            "t": "2026-10-22T14:02:40Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "alcanza (lineas 12,16,32,36 palabra 10) ancla al item de sentido 'bastar'; existe item correcto 6ac5b358eb10045239e6a31f (alcanzar/atrapar)",
+          "t": "2026-10-22T14:02:40Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -52105,10 +52115,10 @@
       "originalTrackId": "",
       "titulo": "Entrega Total",
       "artista": "Pablo Montero",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T13:57:55Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:02:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52135,7 +52145,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T13:57:55Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, ingles (pending_review), wit_dt_audit 0, audio SUENA_SIN_BLINDAR; solo notas de oido",
+            "t": "2026-10-22T14:02:12Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, ingles (pending_review), wit_dt_audit 0, audio SUENA_SIN_BLINDAR; solo notas de oido",
+          "t": "2026-10-22T14:02:12Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:02:14Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
