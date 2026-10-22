@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T14:26:55Z",
+  "generado": "2026-10-22T14:33:27Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -41460,9 +41460,9 @@
       "titulo": "Ojo Por Ojo",
       "artista": "Alejandro Fernandez",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:22:48Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T14:33:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41489,10 +41489,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:22:48Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L22 w3 misspelled token (s/z swap of verb) left unmapped; must be edited in LRC, mapped, English WIT added and draft resubmitted. Rest OK",
+            "t": "2026-10-22T14:27:50Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L22 w3 misspelled token (s/z swap of verb) left unmapped; must be edited in LRC, mapped, English WIT added and draft resubmitted. Rest OK",
+          "t": "2026-10-22T14:27:50Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa6cdd072ca57eb1aa64943",
@@ -41681,10 +41691,10 @@
       "originalTrackId": "",
       "titulo": "Tonto",
       "artista": "Myriam Hernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:22:50Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:30:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41711,7 +41721,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:22:49Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r1: qc_es reds justified, estructura, mapeo, ingles 38/38 y 240 WIT, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; nota de oido L38 ultima palabra",
+            "t": "2026-10-22T14:30:44Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r1: qc_es reds justified, estructura, mapeo, ingles 38/38 y 240 WIT, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; nota de oido L38 ultima palabra",
+          "t": "2026-10-22T14:30:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:30:45Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -41779,10 +41805,10 @@
       "originalTrackId": "",
       "titulo": "Amor Sin Cuenta",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:22:51Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: anclar phrase item 'tomar en cuenta' (6ac5c32deb10045239f1c76a) en L10 y L25 palabras 2-4 + PIT en el draft EN y reenviar a pending_review",
+      "actualizado": "2026-10-22T14:33:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41809,7 +41835,17 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:22:50Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "falta phrase insight 'tomar en cuenta' (item existente) en L10 y L25 palabras 2-4; resto correcto",
+            "t": "2026-10-22T14:33:18Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "falta phrase insight 'tomar en cuenta' (item existente) en L10 y L25 palabras 2-4; resto correcto",
+          "t": "2026-10-22T14:33:18Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -41911,10 +41947,10 @@
       "originalTrackId": "",
       "titulo": "A Mi Guitarra",
       "artista": "Juan Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:22:52Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:29:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41941,7 +41977,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:22:51Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: qc_es solo hallazgos justificados, 253/253 anclas, drift 0, ingles 66/66 en pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T14:29:33Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: qc_es solo hallazgos justificados, 253/253 anclas, drift 0, ingles 66/66 en pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T14:29:33Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:29:34Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
