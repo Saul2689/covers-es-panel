@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T12:37:22Z",
+  "generado": "2026-10-22T12:42:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -36434,10 +36434,10 @@
       "originalTrackId": "",
       "titulo": "La Vida Sigue Igual",
       "artista": "Sandro",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T12:36:58Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T12:40:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36466,15 +36466,21 @@
             "t": "2026-10-22T12:26:14Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "3 fixes: frase 'al final' sin anclar en 17 lineas, L16 ingles contradice texto/PIT, L8 t0 'y' sentido erroneo vs L20",
-            "t": "2026-10-22T12:33:41Z"
+            "v": "ok",
+            "nota": "r2: al final PIs on 17 lines, L16 merged and re-anchored, L8 t0 conjunction fixed; structure, EN draft pending_review, DT audit BAD 0, audio ok",
+            "t": "2026-10-22T12:40:07Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "3 fixes: frase 'al final' sin anclar en 17 lineas, L16 ingles contradice texto/PIT, L8 t0 'y' sentido erroneo vs L20",
-          "t": "2026-10-22T12:33:41Z"
+          "v": "VERDE",
+          "resumen": "r2: al final PIs on 17 lines, L16 merged and re-anchored, L8 t0 conjunction fixed; structure, EN draft pending_review, DT audit BAD 0, audio ok",
+          "t": "2026-10-22T12:40:07Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T12:40:08Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -36652,8 +36658,8 @@
       "artista": "Elvis Crespo, Milly Quezada",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:56:50Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T12:42:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36678,11 +36684,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:56:50Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T12:42:28Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa7301b72ca57eb1aaed42f",
@@ -36889,8 +36896,8 @@
       "artista": "Vicente Fernandez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:56:51Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T12:42:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36915,11 +36922,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:56:50Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T12:42:29Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa7033172ca57eb1aaa6656",
@@ -36991,8 +36999,8 @@
       "artista": "Joan Manuel Serrat",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:56:52Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T12:42:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37017,11 +37025,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:56:52Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T12:42:29Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa579cb42b8d1fdb0ce3c5c",
@@ -37206,8 +37215,8 @@
       "artista": "Paloma San Basilio",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:57:10Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T12:42:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37232,11 +37241,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:57:10Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T12:42:30Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa512e142b8d1fdb0c61ddf",
@@ -37411,8 +37421,8 @@
       "artista": "Lupillo Rivera",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:57:11Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T12:42:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37437,11 +37447,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:57:11Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T12:42:31Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa5982d42b8d1fdb0d0ff7f",
