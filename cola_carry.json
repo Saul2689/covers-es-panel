@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T14:40:31Z",
+  "generado": "2026-10-22T14:51:10Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -42016,10 +42016,10 @@
       "originalTrackId": "",
       "titulo": "Mi Ultimo Adios",
       "artista": "Marco Antonio Solis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:40:27Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:46:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42046,7 +42046,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:40:27Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 243/243, 0 fuera de rango, drift 0, mapeo y sentidos OK, items nuevos OK, ingles 55/55 + WIT 243/243 en pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR; residuos vs_original justificados (lineas 4,8,26,28,31,33,38,39 oido; 13 tildes correctas)",
+            "t": "2026-10-22T14:46:28Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 243/243, 0 fuera de rango, drift 0, mapeo y sentidos OK, items nuevos OK, ingles 55/55 + WIT 243/243 en pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR; residuos vs_original justificados (lineas 4,8,26,28,31,33,38,39 oido; 13 tildes correctas)",
+          "t": "2026-10-22T14:46:28Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:46:29Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -42223,9 +42239,9 @@
       "titulo": "Te Sigo Amando",
       "artista": "Juan Gabriel",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:40:29Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T14:51:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42252,10 +42268,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:40:29Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "Ronda 1: linea 9 y 17 palabra 1 es la exclamativa que sin tilde (LRC+richsync) y anclada al item sin tilde; hay que poner tilde, remapear al item con tilde en ambas, reabrir ingles y reenviar",
+            "t": "2026-10-22T14:46:45Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "Ronda 1: linea 9 y 17 palabra 1 es la exclamativa que sin tilde (LRC+richsync) y anclada al item sin tilde; hay que poner tilde, remapear al item con tilde en ambas, reabrir ingles y reenviar",
+          "t": "2026-10-22T14:46:45Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa5a1f442b8d1fdb0d1ef6d",
@@ -52399,10 +52425,10 @@
       "originalTrackId": "",
       "titulo": "Mi Banda Toca Rock",
       "artista": "Menudo",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:40:27Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:46:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52429,7 +52455,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:40:26Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, ingles pending_review, wit_dt_audit 0, audio SUENA_SIN_BLINDAR; notas de oido en review",
+            "t": "2026-10-22T14:46:37Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, ingles pending_review, wit_dt_audit 0, audio SUENA_SIN_BLINDAR; notas de oido en review",
+          "t": "2026-10-22T14:46:37Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:46:39Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
