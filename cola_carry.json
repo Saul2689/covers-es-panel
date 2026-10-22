@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T12:17:59Z",
+  "generado": "2026-10-22T12:19:42Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -37858,10 +37858,10 @@
       "originalTrackId": "",
       "titulo": "Rosa Marchita",
       "artista": "Roberto Jordan",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T12:13:22Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T12:18:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37888,7 +37888,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T12:13:21Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, mapeo (44 anclas revisadas), items nuevos, ingles (41/41 lineas, 174 WIT, BAD 0) y audio OK; dudas de oido L14/L28 t6 y L15-17/L29 t2-3 para Saul",
+            "t": "2026-10-22T12:18:48Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, mapeo (44 anclas revisadas), items nuevos, ingles (41/41 lineas, 174 WIT, BAD 0) y audio OK; dudas de oido L14/L28 t6 y L15-17/L29 t2-3 para Saul",
+          "t": "2026-10-22T12:18:48Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T12:18:49Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
