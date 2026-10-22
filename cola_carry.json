@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T15:31:14Z",
+  "generado": "2026-10-22T15:40:44Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -42950,9 +42950,9 @@
       "titulo": "Regreso A Casa",
       "artista": "Moenia",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T15:31:11Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T15:40:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42979,10 +42979,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T15:31:11Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ronda 1: cambio/cambió sin unificar en estribillo L26/L33 (tilde de pretérito), ancla de 'el' distinta en gemelas L26/L33 vs L12, WIT infinitivo en L13/27/34 w1",
+            "t": "2026-10-22T15:37:33Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ronda 1: cambio/cambió sin unificar en estribillo L26/L33 (tilde de pretérito), ancla de 'el' distinta en gemelas L26/L33 vs L12, WIT infinitivo en L13/27/34 w1",
+          "t": "2026-10-22T15:37:33Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa5076542b8d1fdb0c4c443",
@@ -42990,10 +43000,10 @@
       "originalTrackId": "",
       "titulo": "Callejero",
       "artista": "Alberto Cortez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T15:31:12Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:38:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43020,7 +43030,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T15:31:12Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, anclas, frases, ingles (pending_review) y WIT/DT limpios; notas: L21 w2 de oido, L9 w8 solo frase",
+            "t": "2026-10-22T15:38:13Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, anclas, frases, ingles (pending_review) y WIT/DT limpios; notas: L21 w2 de oido, L9 w8 solo frase",
+          "t": "2026-10-22T15:38:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:38:15Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -43031,10 +43057,10 @@
       "originalTrackId": "",
       "titulo": "Que Lastima",
       "artista": "Alejandro Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T15:31:13Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:35:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43061,7 +43087,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T15:31:13Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles pending_review y wit_dt_audit BAD 0 limpios; avisos de qc_es justificados",
+            "t": "2026-10-22T15:35:42Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles pending_review y wit_dt_audit BAD 0 limpios; avisos de qc_es justificados",
+          "t": "2026-10-22T15:35:42Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:35:45Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -53212,9 +53254,9 @@
       "titulo": "Inocente De Ti",
       "artista": "Juan Gabriel",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T15:31:10Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T15:40:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53241,10 +53283,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T15:31:10Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "2 fixes: L24 w2 s/z misspelling of future of ver; L22 w2 unjustified errata vs original; minor respeto primary casing",
+            "t": "2026-10-22T15:37:25Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "2 fixes: L24 w2 s/z misspelling of future of ver; L22 w2 unjustified errata vs original; minor respeto primary casing",
+          "t": "2026-10-22T15:37:25Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa6d3d272ca57eb1aa6f5ec",
