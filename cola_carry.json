@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T11:51:28Z",
+  "generado": "2026-10-22T11:55:05Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24894,10 +24894,10 @@
       "originalTrackId": "",
       "titulo": "La Pared",
       "artista": "Shakira",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T21:07:51Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T11:55:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24921,12 +24921,13 @@
             "t": "2026-10-06T21:07:51Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (42 lineas, 169 WIT), falta abrir borrador",
-            "t": "2026-10-06T21:07:51Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T11:55:02Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa6cda272ca57eb1aa644bd",
@@ -25057,10 +25058,10 @@
       "originalTrackId": "",
       "titulo": "Fresa Salvaje",
       "artista": "Camilo Sesto",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T21:13:18Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T11:55:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25084,12 +25085,13 @@
             "t": "2026-10-06T21:13:06Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (50 lineas + 77 WIT); falta abrir el borrador",
-            "t": "2026-10-06T21:13:06Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T11:55:03Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa83181d951e1665a822b76",
@@ -32609,10 +32611,10 @@
       "originalTrackId": "",
       "titulo": "Sin Cadenas",
       "artista": "Los Pericos",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T22:56:52Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T11:55:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -32636,12 +32638,13 @@
             "t": "2026-10-06T22:56:51Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (68 lineas, 215 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T22:56:51Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T11:55:04Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa6151a42b8d1fdb0db392f",
@@ -37722,9 +37725,9 @@
       "titulo": "Hoy",
       "artista": "Rosana",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T11:35:45Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T11:55:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37751,10 +37754,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T11:35:44Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "English draft: 2 WITs do not fit (line 24 word 5, line 43 word 4); rest clean",
+            "t": "2026-10-22T11:52:26Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "English draft: 2 WITs do not fit (line 24 word 5, line 43 word 4); rest clean",
+          "t": "2026-10-22T11:52:26Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa6be1672ca57eb1aa4b37d",
@@ -43824,10 +43837,10 @@
       "originalTrackId": "",
       "titulo": "Pablo Pueblo",
       "artista": "Ruben Blades",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T02:56:05Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T11:55:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43851,12 +43864,13 @@
             "t": "2026-10-07T02:52:13Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles de linea y WIT/PIT escrito en en_plan.json; falta abrir el borrador y volcarlo",
-            "t": "2026-10-07T02:56:04Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T11:55:00Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa683b972ca57eb1aa05275",
@@ -46277,10 +46291,10 @@
       "originalTrackId": "",
       "titulo": "Tu Nombre Me Sabe A Yerba",
       "artista": "Joan Manuel Serrat",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T03:38:06Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T11:55:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46304,12 +46318,13 @@
             "t": "2026-10-07T03:38:05Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (40 lineas, 175 WIT, 16 PIT); falta abrir el borrador",
-            "t": "2026-10-07T03:38:06Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T11:55:01Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa4f66e42b8d1fdb0c39739",
