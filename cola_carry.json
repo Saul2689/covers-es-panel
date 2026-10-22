@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T12:03:14Z",
+  "generado": "2026-10-22T12:08:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24894,10 +24894,10 @@
       "originalTrackId": "",
       "titulo": "La Pared",
       "artista": "Shakira",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T12:01:11Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T12:03:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24926,15 +24926,21 @@
             "t": "2026-10-22T11:55:02Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "1 defecto: ejemplo 1 del item nuevo faltes (6ac562770b0281c2677fc7ea) es un verso de la cancion (L7/11/21/25/35/39); cambiar por frase inventada. Resto OK",
-            "t": "2026-10-22T11:59:28Z"
+            "v": "ok",
+            "nota": "QC r2: fix del ejemplo de faltes OK; checklist completa sin cambios; ingles pending_review, BAD 0",
+            "t": "2026-10-22T12:03:57Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "1 defecto: ejemplo 1 del item nuevo faltes (6ac562770b0281c2677fc7ea) es un verso de la cancion (L7/11/21/25/35/39); cambiar por frase inventada. Resto OK",
-          "t": "2026-10-22T11:59:28Z"
+          "v": "VERDE",
+          "resumen": "QC r2: fix del ejemplo de faltes OK; checklist completa sin cambios; ingles pending_review, BAD 0",
+          "t": "2026-10-22T12:03:57Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T12:03:58Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -25068,10 +25074,10 @@
       "originalTrackId": "",
       "titulo": "Fresa Salvaje",
       "artista": "Camilo Sesto",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T12:03:14Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T12:06:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25100,15 +25106,21 @@
             "t": "2026-10-22T11:55:03Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: 3 sentidos mal anclados (l29 w1 que causal en vez de 'that', l22 w3 seguiré sin item 'follow', l24 w1 y intensificador en vez de copulativa); resto OK",
-            "t": "2026-10-22T12:01:18Z"
+            "v": "ok",
+            "nota": "r2: fixes de l22 w3, l24 w1, l29 w1 confirmados; estructura, ingles (pending_review), wit_dt BAD 0, sin hallazgos",
+            "t": "2026-10-22T12:06:09Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: 3 sentidos mal anclados (l29 w1 que causal en vez de 'that', l22 w3 seguiré sin item 'follow', l24 w1 y intensificador en vez de copulativa); resto OK",
-          "t": "2026-10-22T12:01:18Z"
+          "v": "VERDE",
+          "resumen": "r2: fixes de l22 w3, l24 w1, l29 w1 confirmados; estructura, ingles (pending_review), wit_dt BAD 0, sin hallazgos",
+          "t": "2026-10-22T12:06:09Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T12:06:10Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -32631,10 +32643,10 @@
       "originalTrackId": "",
       "titulo": "Sin Cadenas",
       "artista": "Los Pericos",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T11:55:04Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 DEVUELTO: remapear L17 w2 y L38 w5; quitar frases un dia L23/L43; PIT hace tiempo L8/L48 (ver reviews/)",
+      "actualizado": "2026-10-22T12:07:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -32661,7 +32673,17 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T11:55:04Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: L17 w2 sentido legal (hay gerundio correcto), L38 w5 verbo en vez de sustantivo, frases 'un dia' L23/L43 sentido equivocado, PIT 'hace tiempo' L8/L48 no encaja con WIT/linea",
+            "t": "2026-10-22T12:07:46Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: L17 w2 sentido legal (hay gerundio correcto), L38 w5 verbo en vez de sustantivo, frases 'un dia' L23/L43 sentido equivocado, PIT 'hace tiempo' L8/L48 no encaja con WIT/linea",
+          "t": "2026-10-22T12:07:46Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
