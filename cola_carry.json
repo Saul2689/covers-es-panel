@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T12:59:26Z",
+  "generado": "2026-10-22T13:04:58Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -37662,10 +37662,10 @@
       "originalTrackId": "",
       "titulo": "Todo Mi Corazon",
       "artista": "Yuri",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T12:58:57Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T13:04:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37692,7 +37692,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T12:58:57Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles (pending_review) y audio revisados; sin defectos; notas de oido en L26/L36/L47/L53",
+            "t": "2026-10-22T13:04:27Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles (pending_review) y audio revisados; sin defectos; notas de oido en L26/L36/L47/L53",
+          "t": "2026-10-22T13:04:27Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T13:04:29Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -37703,10 +37719,10 @@
       "originalTrackId": "",
       "titulo": "Lagrimas De Mi Barrio",
       "artista": "Cornelio Reyna",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T12:58:58Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T13:03:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37733,7 +37749,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T12:58:58Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: structure, anchors, new items, EN draft pending_review, dt audit BAD 0, audio SUENA_SIN_BLINDAR; all clean",
+            "t": "2026-10-22T13:03:35Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: structure, anchors, new items, EN draft pending_review, dt audit BAD 0, audio SUENA_SIN_BLINDAR; all clean",
+          "t": "2026-10-22T13:03:35Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T13:03:36Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
