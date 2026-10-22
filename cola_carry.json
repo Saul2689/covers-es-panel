@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T09:07:59Z",
+  "generado": "2026-10-22T09:13:25Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -33654,10 +33654,10 @@
       "originalTrackId": "",
       "titulo": "Escandalo",
       "artista": "Raphael",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-22T09:07:58Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T09:13:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -33681,10 +33681,26 @@
             "t": "2026-10-06T23:17:01Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan preparado en en_plan.json (52 lineas, 241 WIT); falta abrir el borrador",
-            "t": "2026-10-06T23:17:01Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 52/52 lineas, WIT sin huecos, wit_dt_audit BAD 0",
+            "t": "2026-10-22T09:13:06Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles (pending_review) y audio OK; hallazgos qc_es justificados",
+            "t": "2026-10-22T09:13:05Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles (pending_review) y audio OK; hallazgos qc_es justificados",
+          "t": "2026-10-22T09:13:05Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T09:13:07Z"
         }
       }
     },
@@ -35000,10 +35016,10 @@
       "originalTrackId": "",
       "titulo": "El Tamborilero",
       "artista": "Navidad",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-22T09:07:58Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T09:13:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35022,15 +35038,31 @@
             "t": "2026-10-06T23:32:16Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en .singit/es_map/payloads/<id>/en_plan.json: 23 lineas + 121 WIT con DT; falta abrir borrador",
-            "t": "2026-10-06T23:33:25Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 23/23 lineas, wit_dt_audit BAD 0",
+            "t": "2026-10-22T09:13:13Z"
           },
           "timing": {
             "v": "ok",
             "nota": "drift 0 en 23 lineas, ninguna palabra <40 ms; audio guard SUENA_SIN_BLINDAR (karaokeMp3, 206): no se toca",
             "t": "2026-10-06T23:33:43Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 130/130, 0 anclas malas, 11 items nuevos OK 19 idiomas, ingles draft pending_review 23/23, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR; qc_es restante justificado (nombre propio, vocables, cover canta otra cosa)",
+            "t": "2026-10-22T09:13:08Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 130/130, 0 anclas malas, 11 items nuevos OK 19 idiomas, ingles draft pending_review 23/23, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR; qc_es restante justificado (nombre propio, vocables, cover canta otra cosa)",
+          "t": "2026-10-22T09:13:08Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T09:13:15Z"
         }
       }
     },
