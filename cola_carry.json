@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T14:37:05Z",
+  "generado": "2026-10-22T14:40:31Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -41459,10 +41459,10 @@
       "originalTrackId": "",
       "titulo": "Ojo Por Ojo",
       "artista": "Alejandro Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T14:33:27Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:37:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41491,15 +41491,21 @@
             "t": "2026-10-22T14:22:48Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L22 w3 misspelled token (s/z swap of verb) left unmapped; must be edited in LRC, mapped, English WIT added and draft resubmitted. Rest OK",
-            "t": "2026-10-22T14:27:50Z"
+            "v": "ok",
+            "nota": "QC r2: arreglo de la linea 22 palabra 3 verificado (LRC, ancla, WIT en draft); estructura, gemelas, ingles y wit_dt_audit BAD 0 en orden",
+            "t": "2026-10-22T14:37:42Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L22 w3 misspelled token (s/z swap of verb) left unmapped; must be edited in LRC, mapped, English WIT added and draft resubmitted. Rest OK",
-          "t": "2026-10-22T14:27:50Z"
+          "v": "VERDE",
+          "resumen": "QC r2: arreglo de la linea 22 palabra 3 verificado (LRC, ancla, WIT en draft); estructura, gemelas, ingles y wit_dt_audit BAD 0 en orden",
+          "t": "2026-10-22T14:37:42Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:37:43Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -42012,8 +42018,8 @@
       "artista": "Marco Antonio Solis",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:47Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T14:40:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42038,11 +42044,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:02:47Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T14:40:27Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa592aa42b8d1fdb0d07ae1",
@@ -42176,8 +42183,8 @@
       "artista": "los Freddy's",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:48Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T14:40:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42202,11 +42209,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:02:48Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T14:40:28Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa81c4ad951e1665a800cf0",
@@ -42216,8 +42224,8 @@
       "artista": "Juan Gabriel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:49Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T14:40:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42242,11 +42250,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:02:48Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T14:40:29Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa5a1f442b8d1fdb0d1ef6d",
@@ -52392,8 +52401,8 @@
       "artista": "Menudo",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:46Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T14:40:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52418,11 +52427,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:02:45Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T14:40:26Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa5da1842b8d1fdb0d65a0f",
@@ -52432,8 +52442,8 @@
       "artista": "Jose Feliciano",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:49Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T14:40:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52458,11 +52468,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:02:49Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T14:40:30Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa5b97a42b8d1fdb0d34fec",
