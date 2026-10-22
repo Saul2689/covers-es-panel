@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T15:26:17Z",
+  "generado": "2026-10-22T15:31:14Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -42636,10 +42636,10 @@
       "originalTrackId": "",
       "titulo": "Yo No Te Pido",
       "artista": "Pablo Milanes",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T15:26:17Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:30:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42668,15 +42668,21 @@
             "t": "2026-10-22T15:09:32Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: line 10 word 5 missing tilde (future sense) + line 10 English; WIT of word 3 on lines 2/18/22/26/30 is an infinitive gloss on a finite verb. All else clean.",
-            "t": "2026-10-22T15:22:29Z"
+            "v": "ok",
+            "nota": "r2: tilde de futuro en L10 w5 con ancla y ingles al futuro; WIT 'you bring down' en gemelas L2/18/22/26/30; estructura, timing, gemelas, ingles y wit_dt_audit BAD 0 limpios",
+            "t": "2026-10-22T15:30:23Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: line 10 word 5 missing tilde (future sense) + line 10 English; WIT of word 3 on lines 2/18/22/26/30 is an infinitive gloss on a finite verb. All else clean.",
-          "t": "2026-10-22T15:22:29Z"
+          "v": "VERDE",
+          "resumen": "r2: tilde de futuro en L10 w5 con ancla y ingles al futuro; WIT 'you bring down' en gemelas L2/18/22/26/30; estructura, timing, gemelas, ingles y wit_dt_audit BAD 0 limpios",
+          "t": "2026-10-22T15:30:23Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:30:24Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -42789,10 +42795,10 @@
       "originalTrackId": "",
       "titulo": "Hoy Quiero Confesarme",
       "artista": "Isabel Pantoja",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T15:24:51Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:30:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42821,15 +42827,21 @@
             "t": "2026-10-22T15:09:33Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 1: falta insertar la 'a' personal en linea 12 y 38 (token 7), presente en las dos repeticiones del original y con hueco de 482 ms en el cover; resto OK (estructura, sentidos, frases, ingles pending_review, WIT/DT)",
-            "t": "2026-10-22T15:20:08Z"
+            "v": "ok",
+            "nota": "r2: personal a insertada en L12 y L38 (tokens 7), anclada y con WIT, tiempos dentro del hueco, estructura y ingles OK, wit_dt_audit BAD 0",
+            "t": "2026-10-22T15:30:24Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 1: falta insertar la 'a' personal en linea 12 y 38 (token 7), presente en las dos repeticiones del original y con hueco de 482 ms en el cover; resto OK (estructura, sentidos, frases, ingles pending_review, WIT/DT)",
-          "t": "2026-10-22T15:20:08Z"
+          "v": "VERDE",
+          "resumen": "r2: personal a insertada en L12 y L38 (tokens 7), anclada y con WIT, tiempos dentro del hueco, estructura y ingles OK, wit_dt_audit BAD 0",
+          "t": "2026-10-22T15:30:24Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:30:25Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -42840,10 +42852,10 @@
       "originalTrackId": "",
       "titulo": "Una Vez Mas",
       "artista": "Conjunto Primavera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T15:24:52Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:28:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42872,15 +42884,21 @@
             "t": "2026-10-22T15:09:34Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 1: 2 WIT del ingles: linea 9 palabra 4 sujeto duplicado, linea 12 palabra 4 repite su PIT; resto limpio",
-            "t": "2026-10-22T15:20:17Z"
+            "v": "ok",
+            "nota": "r2: fixes de WIT L9 w4 y L12 w4 verificados; qc_es VERDE, wit_dt_audit BAD 0, estructura/ingles/PI ok, borrador pending_review",
+            "t": "2026-10-22T15:28:05Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 1: 2 WIT del ingles: linea 9 palabra 4 sujeto duplicado, linea 12 palabra 4 repite su PIT; resto limpio",
-          "t": "2026-10-22T15:20:17Z"
+          "v": "VERDE",
+          "resumen": "r2: fixes de WIT L9 w4 y L12 w4 verificados; qc_es VERDE, wit_dt_audit BAD 0, estructura/ingles/PI ok, borrador pending_review",
+          "t": "2026-10-22T15:28:05Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:28:07Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -42933,8 +42951,8 @@
       "artista": "Moenia",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:04:48Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T15:31:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42959,11 +42977,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:04:48Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T15:31:11Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa5076542b8d1fdb0c4c443",
@@ -42973,8 +42992,8 @@
       "artista": "Alberto Cortez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:04:51Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T15:31:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42999,11 +43018,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:04:51Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T15:31:12Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa808ccd951e1665a7e81db",
@@ -43013,8 +43033,8 @@
       "artista": "Alejandro Fernandez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:04:52Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T15:31:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43039,11 +43059,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:04:51Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T15:31:13Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa741d972ca57eb1ab0d00f",
@@ -53192,8 +53213,8 @@
       "artista": "Juan Gabriel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:04:45Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T15:31:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53218,11 +53239,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:04:45Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T15:31:10Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa6d3d272ca57eb1aa6f5ec",
@@ -53310,8 +53332,8 @@
       "artista": "Jerry Rivera",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:04:52Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T15:31:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53336,11 +53358,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:04:52Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T15:31:13Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa581dd42b8d1fdb0ceff16",
