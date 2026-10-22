@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T13:57:57Z",
+  "generado": "2026-10-22T13:58:30Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -52007,10 +52007,10 @@
       "originalTrackId": "",
       "titulo": "En Cada Gota De Mi Sangre",
       "artista": "Conjunto Primavera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T13:55:03Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T13:58:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52039,15 +52039,21 @@
             "t": "2026-10-22T13:43:04Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L6 w1 missing accent on preterite (spelling, item_tilde_distinta); phrase insight 'my love' wrong sense on L11 and L19 words 7-8 (literal 'of my life')",
-            "t": "2026-10-22T13:53:25Z"
+            "v": "ok",
+            "nota": "r2: r1 fixes verified (L6 w1 accent, L11/L19 endearment PIT removed); qc_es leftovers justified, 188/188 anchors, drift 0, EN 24/24 pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T13:58:02Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L6 w1 missing accent on preterite (spelling, item_tilde_distinta); phrase insight 'my love' wrong sense on L11 and L19 words 7-8 (literal 'of my life')",
-          "t": "2026-10-22T13:53:25Z"
+          "v": "VERDE",
+          "resumen": "r2: r1 fixes verified (L6 w1 accent, L11/L19 endearment PIT removed); qc_es leftovers justified, 188/188 anchors, drift 0, EN 24/24 pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T13:58:02Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T13:58:03Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
