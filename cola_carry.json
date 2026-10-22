@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T14:12:14Z",
+  "generado": "2026-10-22T14:13:07Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -40381,10 +40381,10 @@
       "originalTrackId": "",
       "titulo": "Me Has Echado Al Olvido",
       "artista": "Jose Feliciano",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T14:08:20Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:12:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40413,15 +40413,21 @@
             "t": "2026-10-22T13:57:52Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 frases existentes sin anclar: L2 w6-8 (a mi lado, es 6ad0d95a) y L3 w3-4 (por fin, es 6acf9bd3); resto OK (estructura, mapeo, ingles, wit_dt 0, audio)",
-            "t": "2026-10-22T14:05:07Z"
+            "v": "ok",
+            "nota": "QC r2: los 2 anclas de locucion (L2, L3) verificadas, checklist completa limpia, wit_dt_audit 0, EN pending_review",
+            "t": "2026-10-22T14:12:21Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 frases existentes sin anclar: L2 w6-8 (a mi lado, es 6ad0d95a) y L3 w3-4 (por fin, es 6acf9bd3); resto OK (estructura, mapeo, ingles, wit_dt 0, audio)",
-          "t": "2026-10-22T14:05:07Z"
+          "v": "VERDE",
+          "resumen": "QC r2: los 2 anclas de locucion (L2, L3) verificadas, checklist completa limpia, wit_dt_audit 0, EN pending_review",
+          "t": "2026-10-22T14:12:21Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:12:23Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
