@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T11:25:06Z",
+  "generado": "2026-10-22T11:35:45Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -31766,10 +31766,10 @@
       "originalTrackId": "",
       "titulo": "Sueño De Morir",
       "artista": "Alex Campos",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T11:25:03Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:29:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31796,7 +31796,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T11:25:02Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles (draft pending_review), wit_dt BAD 0 y audio ok; 3 erratas del cover son notas de oido para Saul",
+            "t": "2026-10-22T11:29:00Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles (draft pending_review), wit_dt BAD 0 y audio ok; 3 erratas del cover son notas de oido para Saul",
+          "t": "2026-10-22T11:29:00Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:29:01Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -34892,10 +34908,10 @@
       "originalTrackId": "",
       "titulo": "Una Flor",
       "artista": "Juanes",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T11:25:04Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:30:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -34922,7 +34938,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T11:25:04Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1 verde: qc_es justificado, estructura y timing intactos, anclas y gemelas coherentes, items nuevos completos, ingles 71/71 en pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T11:30:00Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1 verde: qc_es justificado, estructura y timing intactos, anclas y gemelas coherentes, items nuevos completos, ingles 71/71 en pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T11:30:00Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:30:01Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -35587,10 +35619,10 @@
       "originalTrackId": "",
       "titulo": "Palomita Blanca",
       "artista": "Juan Luis Guerra 440",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T11:25:05Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1: remapear L1 w2 al item diré correcto; L19 w3 perdona 3a persona (item nuevo); reenviar inglés",
+      "actualizado": "2026-10-22T11:29:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35617,7 +35649,17 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T11:25:05Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ronda 1: L1 w2 diré apunta a item con definicion de otro sentido (existe 6ac5bfd8...); L19 w3 perdona item es 2a persona/imperativo y la linea es 3a persona (crear item PRES.3SG). Resto OK",
+            "t": "2026-10-22T11:29:18Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ronda 1: L1 w2 diré apunta a item con definicion de otro sentido (existe 6ac5bfd8...); L19 w3 perdona item es 2a persona/imperativo y la linea es 3a persona (crear item PRES.3SG). Resto OK",
+          "t": "2026-10-22T11:29:18Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -36342,10 +36384,10 @@
       "originalTrackId": "",
       "titulo": "Me Nace Del Corazon",
       "artista": "Juan Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T11:25:03Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:28:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36372,7 +36414,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T11:25:03Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 257/257, ingles 50/50 pending_review, wit_dt BAD 0, hallazgos qc_es justificados, items nuevos OK",
+            "t": "2026-10-22T11:28:45Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 257/257, ingles 50/50 pending_review, wit_dt BAD 0, hallazgos qc_es justificados, items nuevos OK",
+          "t": "2026-10-22T11:28:45Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:28:46Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -37641,10 +37699,10 @@
       "originalTrackId": "",
       "titulo": "Hoy",
       "artista": "Rosana",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T01:05:30Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T11:35:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37668,12 +37726,13 @@
             "t": "2026-10-07T01:05:29Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (71 lineas, 315 WIT con DT): falta abrir el borrador",
-            "t": "2026-10-07T01:05:29Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T11:35:44Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa6be1672ca57eb1aa4b37d",
@@ -38584,10 +38643,10 @@
       "originalTrackId": "",
       "titulo": "El Amor De Mi Vida",
       "artista": "Pablo Milanes",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T01:20:59Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T11:35:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38611,12 +38670,13 @@
             "t": "2026-10-07T01:20:59Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (55 lineas, 212 WIT); falta abrir el borrador",
-            "t": "2026-10-07T01:20:59Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T11:35:43Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa659f772ca57eb1a9c92e3",
@@ -40850,10 +40910,10 @@
       "originalTrackId": "",
       "titulo": "Sin Tu Amor (I'm Leaving It Up To You)",
       "artista": "Yndio",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T01:54:38Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T11:35:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40877,12 +40937,13 @@
             "t": "2026-10-07T01:54:38Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (38 lineas, 130 WIT); falta abrir borrador",
-            "t": "2026-10-07T01:54:38Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T11:35:41Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa742b872ca57eb1ab0e1f2",
@@ -44382,10 +44443,10 @@
       "originalTrackId": "",
       "titulo": "Dejarte De Amar",
       "artista": "Camila",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T03:03:02Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T11:35:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44409,12 +44470,13 @@
             "t": "2026-10-07T03:03:02Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
-            "t": "2026-10-07T03:03:02Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T11:35:42Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa7062a72ca57eb1aaa9f4d",
@@ -45241,10 +45303,10 @@
       "originalTrackId": "",
       "titulo": "Oxigeno",
       "artista": "Willy Chirino",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T03:25:22Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T11:35:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45268,12 +45330,13 @@
             "t": "2026-10-07T03:25:22Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (74 lineas, 327 WIT, 7 PIT); falta abrir el borrador",
-            "t": "2026-10-07T03:25:22Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T11:35:43Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa5b68742b8d1fdb0d2f1ab",
