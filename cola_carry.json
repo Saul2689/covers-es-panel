@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T13:51:20Z",
+  "generado": "2026-10-22T13:55:04Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -39660,10 +39660,10 @@
       "originalTrackId": "",
       "titulo": "Juguete",
       "artista": "Grupo Limite",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T13:51:08Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T13:54:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39692,15 +39692,21 @@
             "t": "2026-10-22T13:43:00Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "estructura, timing, ingles y mapeo OK; solo falta corregir el ejemplo 2 del item nuevo aferrarme (persona verbal)",
-            "t": "2026-10-22T13:47:48Z"
+            "v": "ok",
+            "nota": "r2: fix de ejemplo en aferrarme verificado; checklist completa limpia (estructura, mapeo, ingles draft pending_review, wit_dt_audit 0, 0 WIT vacios)",
+            "t": "2026-10-22T13:54:15Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "estructura, timing, ingles y mapeo OK; solo falta corregir el ejemplo 2 del item nuevo aferrarme (persona verbal)",
-          "t": "2026-10-22T13:47:48Z"
+          "v": "VERDE",
+          "resumen": "r2: fix de ejemplo en aferrarme verificado; checklist completa limpia (estructura, mapeo, ingles draft pending_review, wit_dt_audit 0, 0 WIT vacios)",
+          "t": "2026-10-22T13:54:15Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T13:54:17Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -39751,10 +39757,10 @@
       "originalTrackId": "",
       "titulo": "Me Voy",
       "artista": "Camila",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T13:51:07Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T13:55:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39783,15 +39789,21 @@
             "t": "2026-10-22T13:43:01Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "estructura/timing/audio/EN ok; L10 w4 y L11 w2 sentir debe ser sentí (errata, remap + EN L10/L11); L4 w2 WIT repite el PIT",
-            "t": "2026-10-22T13:46:46Z"
+            "v": "ok",
+            "nota": "r2: arreglos r1 verificados (L10/L11 pret, L4 w2 time), estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T13:55:00Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "estructura/timing/audio/EN ok; L10 w4 y L11 w2 sentir debe ser sentí (errata, remap + EN L10/L11); L4 w2 WIT repite el PIT",
-          "t": "2026-10-22T13:46:46Z"
+          "v": "VERDE",
+          "resumen": "r2: arreglos r1 verificados (L10/L11 pret, L4 w2 time), estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T13:55:00Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T13:55:02Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -51987,9 +51999,9 @@
       "titulo": "En Cada Gota De Mi Sangre",
       "artista": "Conjunto Primavera",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T13:43:04Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T13:55:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52016,10 +52028,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T13:43:04Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L6 w1 missing accent on preterite (spelling, item_tilde_distinta); phrase insight 'my love' wrong sense on L11 and L19 words 7-8 (literal 'of my life')",
+            "t": "2026-10-22T13:53:25Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L6 w1 missing accent on preterite (spelling, item_tilde_distinta); phrase insight 'my love' wrong sense on L11 and L19 words 7-8 (literal 'of my life')",
+          "t": "2026-10-22T13:53:25Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa5399242b8d1fdb0c9cf63",
