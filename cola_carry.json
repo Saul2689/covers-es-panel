@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T11:55:05Z",
+  "generado": "2026-10-22T11:58:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -37724,10 +37724,10 @@
       "originalTrackId": "",
       "titulo": "Hoy",
       "artista": "Rosana",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T11:55:00Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:58:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37756,15 +37756,21 @@
             "t": "2026-10-22T11:35:44Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "English draft: 2 WITs do not fit (line 24 word 5, line 43 word 4); rest clean",
-            "t": "2026-10-22T11:52:26Z"
+            "v": "ok",
+            "nota": "QC r2: fixes L24 w5 y L43 w4 verificados, checklist completa limpia, wit_dt BAD 0, ingles en pending_review",
+            "t": "2026-10-22T11:58:02Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "English draft: 2 WITs do not fit (line 24 word 5, line 43 word 4); rest clean",
-          "t": "2026-10-22T11:52:26Z"
+          "v": "VERDE",
+          "resumen": "QC r2: fixes L24 w5 y L43 w4 verificados, checklist completa limpia, wit_dt BAD 0, ingles en pending_review",
+          "t": "2026-10-22T11:58:02Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:58:04Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
