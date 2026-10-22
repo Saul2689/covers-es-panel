@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T10:10:59Z",
+  "generado": "2026-10-22T10:16:53Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -38775,9 +38775,9 @@
       "titulo": "La Cumbia De Los Aburridos",
       "artista": "Calle 13",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-22T10:00:37Z",
+      "vueltas": 1,
+      "motivo": "QC r2",
+      "actualizado": "2026-10-22T10:16:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38804,7 +38804,17 @@
             "v": "falta",
             "nota": "ingles preparado en en_plan.json (88 lineas, 488 WIT con DT, 1 PIT); falta abrir el borrador",
             "t": "2026-10-07T01:40:54Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: faltan phrase links (L68 w3-4 dar vueltas, L15 w3-4 oler a), compuesto L67 w2-3 sin PI/PIT, L25 w1 WIT no encaja con la linea inglesa",
+            "t": "2026-10-22T10:12:23Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: faltan phrase links (L68 w3-4 dar vueltas, L15 w3-4 oler a), compuesto L67 w2-3 sin PI/PIT, L25 w1 WIT no encaja con la linea inglesa",
+          "t": "2026-10-22T10:12:23Z"
         }
       }
     },
@@ -51944,10 +51954,10 @@
       "originalTrackId": "",
       "titulo": "No",
       "artista": "Ednita Nazario, Natalia Jimenez la 5ª Estacion, Natalia Jimenez la 5Ta Estacion",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-22T10:00:36Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "espera a Saúl: cover publicada, falta la tilde del futuro en la línea 26, 54 y 67 palabra 1 del LRC; el resto de QC r1 arreglado",
+      "actualizado": "2026-10-22T10:16:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51974,9 +51984,20 @@
             "v": "falta",
             "nota": "plan en en_plan.json (73 lineas, 428 WIT, 17 PIT); falta abrir el borrador",
             "t": "2026-10-07T06:11:00Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: accent missing on the future verb (lines 26, 54, 67 word 1); English WIT of/from wrong at line 2 and line 31 word 1; rest clean",
+            "t": "2026-10-22T10:11:48Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: accent missing on the future verb (lines 26, 54, 67 word 1); English WIT of/from wrong at line 2 and line 31 word 1; rest clean",
+          "t": "2026-10-22T10:11:48Z"
         }
-      }
+      },
+      "motivo_en": "Waiting for Saúl: published cover, the future-tense accent is missing at line 26, 54 and 67 word 1 of the LRC; the rest of QC r1 is fixed"
     },
     {
       "coverTrackId": "6aa54ebf42b8d1fdb0cb9488",
@@ -55069,10 +55090,10 @@
       "originalTrackId": "",
       "titulo": "Tu Amor",
       "artista": "Olga Tañón",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-22T10:00:36Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "espera a Saúl: cover publicada, las líneas 24, 32, 78, 86 y 93 palabras 3-4 parecen mal escritas en el LRC (hay que oírlo); el resto de QC r1 arreglado",
+      "actualizado": "2026-10-22T10:16:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55099,9 +55120,20 @@
             "v": "falta",
             "nota": "plan de ingles (lineas+WIT+PIT) en en_plan.json; falta abrir el borrador",
             "t": "2026-10-07T07:03:48Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "estructura, mapeo, items nuevos e ingles ok; devuelta: lineas 24/32/78/86/93 palabras 3-4 (texto del original, el cover canta singular+todo como en 40-41/100-101): editar, remapear, PI todo el mundo y reabrir ingles",
+            "t": "2026-10-22T10:13:05Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "estructura, mapeo, items nuevos e ingles ok; devuelta: lineas 24/32/78/86/93 palabras 3-4 (texto del original, el cover canta singular+todo como en 40-41/100-101): editar, remapear, PI todo el mundo y reabrir ingles",
+          "t": "2026-10-22T10:13:05Z"
         }
-      }
+      },
+      "motivo_en": "Waiting for Saúl: published cover, lines 24, 32, 78, 86 and 93 words 3-4 look miswritten in the LRC (needs an ear check); the rest of QC r1 is fixed"
     },
     {
       "coverTrackId": "6aa6963972ca57eb1aa1f5e6",
@@ -56821,10 +56853,10 @@
       "originalTrackId": "",
       "titulo": "Todo El Año",
       "artista": "Obie Bermudez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-22T10:00:37Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T10:15:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56848,10 +56880,26 @@
             "t": "2026-10-07T07:39:11Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan de ingles (45 lineas, 260 WIT con DT, 10 PIT) en en_plan.json; falta abrir el borrador",
-            "t": "2026-10-07T07:39:13Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 45/45 lineas, WIT sin vacios, wit_dt_audit BAD 0",
+            "t": "2026-10-22T10:15:46Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: qc_es remaining findings justified (ad-libs, month case, tilde by function); structure, anchors, twins, English draft pending_review 45/45, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T10:15:41Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: qc_es remaining findings justified (ad-libs, month case, tilde by function); structure, anchors, twins, English draft pending_review 45/45, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T10:15:41Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T10:15:47Z"
         }
       }
     },
