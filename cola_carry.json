@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T12:28:26Z",
+  "generado": "2026-10-22T12:32:38Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -36009,10 +36009,10 @@
       "originalTrackId": "",
       "titulo": "Tu Y Yo",
       "artista": "La Oreja de Van Gogh",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T12:26:12Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T12:31:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36041,10 +36041,21 @@
             "t": "2026-10-22T12:26:11Z"
           },
           "qc": {
-            "v": "na",
-            "nota": "reverificado tras corte: drift 0, 0 palabras <40 ms, 225/225 mapeadas, plan de ingles validado (0 DT malos)",
-            "t": "2026-10-07T00:34:48Z"
+            "v": "ok",
+            "nota": "QC r1: estructura, sentidos, items nuevos, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; sin defectos",
+            "t": "2026-10-22T12:31:28Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, sentidos, items nuevos, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; sin defectos",
+          "t": "2026-10-22T12:31:28Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T12:31:30Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -36124,9 +36135,9 @@
       "titulo": "Mirame",
       "artista": "Nikki Clan",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T12:26:12Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T12:32:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36153,10 +36164,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T12:26:12Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: L1 phrase insight on words 4-5 is the wrong phrase for that line (PIT contradicts the English); L8/L23/L42 PIT does not match the line English; rest verified",
+            "t": "2026-10-22T12:31:19Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: L1 phrase insight on words 4-5 is the wrong phrase for that line (PIT contradicts the English); L8/L23/L42 PIT does not match the line English; rest verified",
+          "t": "2026-10-22T12:31:19Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa62df772ca57eb1a9897d0",
@@ -36164,10 +36185,10 @@
       "originalTrackId": "",
       "titulo": "Amanecer",
       "artista": "Luis Miguel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T12:26:13Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T12:32:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36194,7 +36215,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T12:26:13Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing drift 0, mapeo/sentidos, items nuevos con 19 idiomas, ingles 22/22 + 135 WIT en pending_review, wit_dt_audit BAD 0; notas en reviews",
+            "t": "2026-10-22T12:31:59Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing drift 0, mapeo/sentidos, items nuevos con 19 idiomas, ingles 22/22 + 135 WIT en pending_review, wit_dt_audit BAD 0; notas en reviews",
+          "t": "2026-10-22T12:31:59Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T12:32:01Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
