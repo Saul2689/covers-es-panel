@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T15:40:44Z",
+  "generado": "2026-10-22T15:44:42Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -42949,10 +42949,10 @@
       "originalTrackId": "",
       "titulo": "Regreso A Casa",
       "artista": "Moenia",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T15:40:43Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:42:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42981,15 +42981,21 @@
             "t": "2026-10-22T15:31:11Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 1: cambio/cambió sin unificar en estribillo L26/L33 (tilde de pretérito), ancla de 'el' distinta en gemelas L26/L33 vs L12, WIT infinitivo en L13/27/34 w1",
-            "t": "2026-10-22T15:37:33Z"
+            "v": "ok",
+            "nota": "r2: fixes de r1 verificados (pretérito L26/33, el unificado, WIT de ando); BAD 0, estructura y audio OK, ingles pending_review",
+            "t": "2026-10-22T15:42:47Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 1: cambio/cambió sin unificar en estribillo L26/L33 (tilde de pretérito), ancla de 'el' distinta en gemelas L26/L33 vs L12, WIT infinitivo en L13/27/34 w1",
-          "t": "2026-10-22T15:37:33Z"
+          "v": "VERDE",
+          "resumen": "r2: fixes de r1 verificados (pretérito L26/33, el unificado, WIT de ando); BAD 0, estructura y audio OK, ingles pending_review",
+          "t": "2026-10-22T15:42:47Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:42:48Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -43127,8 +43133,8 @@
       "artista": "Jose Alfredo Jimenez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:05:06Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T15:44:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43153,11 +43159,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:05:06Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T15:44:38Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa5e23542b8d1fdb0d72785",
@@ -43167,8 +43174,8 @@
       "artista": "Juan Gabriel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:05:07Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T15:44:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43193,11 +43200,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:05:07Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T15:44:39Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aaf9c30614e46be21d21790",
@@ -43269,8 +43277,8 @@
       "artista": "Jose Jose",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:05:12Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T15:44:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43295,11 +43303,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:05:12Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T15:44:41Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa5462542b8d1fdb0caafa3",
@@ -53436,8 +53445,8 @@
       "artista": "Alejandra Guzmán",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:05:08Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T15:44:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53462,11 +53471,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:05:07Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T15:44:40Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa61ee372ca57eb1a96d370",
@@ -53476,8 +53486,8 @@
       "artista": "los Galos",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:05:08Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T15:44:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53502,11 +53512,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:05:08Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T15:44:41Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa51ed242b8d1fdb0c736c2",
