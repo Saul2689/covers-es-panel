@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T14:02:43Z",
+  "generado": "2026-10-22T14:05:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -40381,10 +40381,10 @@
       "originalTrackId": "",
       "titulo": "Me Has Echado Al Olvido",
       "artista": "Jose Feliciano",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T13:57:53Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "anclar phrase insights L2 w6-8 (a mi lado) y L3 w3-4 (por fin) con PIT en el draft y reenviar a pending_review",
+      "actualizado": "2026-10-22T14:05:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40411,7 +40411,17 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T13:57:52Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "2 frases existentes sin anclar: L2 w6-8 (a mi lado, es 6ad0d95a) y L3 w3-4 (por fin, es 6acf9bd3); resto OK (estructura, mapeo, ingles, wit_dt 0, audio)",
+            "t": "2026-10-22T14:05:07Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "2 frases existentes sin anclar: L2 w6-8 (a mi lado, es 6ad0d95a) y L3 w3-4 (por fin, es 6acf9bd3); resto OK (estructura, mapeo, ingles, wit_dt 0, audio)",
+          "t": "2026-10-22T14:05:07Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -40462,10 +40472,10 @@
       "originalTrackId": "",
       "titulo": "Hoy Me Ire De Casa",
       "artista": "Gloria Trevi",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC1: remapear alcanza (L12,16,32,36 w10) a 6ac5b358eb10045239e6a31f + WIT + reenviar ingles",
-      "actualizado": "2026-10-22T14:02:40Z",
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T14:05:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40505,7 +40515,7 @@
           "t": "2026-10-22T14:02:40Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa6d7a672ca57eb1aa73de3",
@@ -52074,10 +52084,10 @@
       "originalTrackId": "",
       "titulo": "Amor De Mujer",
       "artista": "Camilo Sesto",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T13:57:54Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:03:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52104,7 +52114,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T13:57:53Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles (draft pending_review), wit_dt_audit 0 y audio OK; errata 2 (l2 p2, l10 p4) justificada como palabra distinta cantada",
+            "t": "2026-10-22T14:03:46Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles (draft pending_review), wit_dt_audit 0 y audio OK; errata 2 (l2 p2, l10 p4) justificada como palabra distinta cantada",
+          "t": "2026-10-22T14:03:46Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:03:48Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
