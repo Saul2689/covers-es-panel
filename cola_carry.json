@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T12:19:42Z",
+  "generado": "2026-10-22T12:26:15Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -35444,10 +35444,10 @@
       "originalTrackId": "",
       "titulo": "Es El Amor Quien Llega",
       "artista": "Ana Gabriel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T12:13:20Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 DEVUELTO: L21/38/43 tok8 subjuntivo mal escrito + WIT; L32 tok2 sentido pega (golpear)",
+      "actualizado": "2026-10-22T12:22:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35474,7 +35474,17 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T12:13:20Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L21/38/43 tok8 verbo mal escrito (preterito por subjuntivo) y WIT que no encaja con el ingles; L32 tok2 item de otro sentido (pega=pegar/golpear); resto verde",
+            "t": "2026-10-22T12:22:50Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L21/38/43 tok8 verbo mal escrito (preterito por subjuntivo) y WIT que no encaja con el ingles; L32 tok2 item de otro sentido (pega=pegar/golpear); resto verde",
+          "t": "2026-10-22T12:22:50Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -35592,10 +35602,10 @@
       "originalTrackId": "",
       "titulo": "Ay Amor",
       "artista": "Myriam Hernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T12:17:58Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T12:20:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35624,15 +35634,21 @@
             "t": "2026-10-22T12:13:20Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "estructura, timing, ingles y items OK; 3 phrase items 'no se' (L14, L34, L47) contradicen el sentido 'no se + infinitivo' (saber hacer)",
-            "t": "2026-10-22T12:17:20Z"
+            "v": "ok",
+            "nota": "QC r2: r1 defect (3 wrong-sense phrase insights) removed; structure, anchors, English draft pending_review, dt audit BAD 0, audio SUENA_SIN_BLINDAR all OK",
+            "t": "2026-10-22T12:20:36Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "estructura, timing, ingles y items OK; 3 phrase items 'no se' (L14, L34, L47) contradicen el sentido 'no se + infinitivo' (saber hacer)",
-          "t": "2026-10-22T12:17:20Z"
+          "v": "VERDE",
+          "resumen": "QC r2: r1 defect (3 wrong-sense phrase insights) removed; structure, anchors, English draft pending_review, dt audit BAD 0, audio SUENA_SIN_BLINDAR all OK",
+          "t": "2026-10-22T12:20:36Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T12:20:37Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -35995,8 +36011,8 @@
       "artista": "La Oreja de Van Gogh",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:56:02Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T12:26:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36021,8 +36037,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:56:02Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T12:26:11Z"
           },
           "qc": {
             "v": "na",
@@ -36030,7 +36046,8 @@
             "t": "2026-10-07T00:34:48Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa56a0742b8d1fdb0ccc161",
@@ -36108,8 +36125,8 @@
       "artista": "Nikki Clan",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:56:08Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T12:26:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36134,11 +36151,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:56:08Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T12:26:12Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa62df772ca57eb1a9897d0",
@@ -36148,8 +36166,8 @@
       "artista": "Luis Miguel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:56:09Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T12:26:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36174,11 +36192,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:56:09Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T12:26:13Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa62f9472ca57eb1a98b7b7",
@@ -36368,8 +36387,8 @@
       "artista": "Sandro",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:56:35Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T12:26:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36394,11 +36413,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:56:34Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T12:26:14Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa641df72ca57eb1a9ac441",
@@ -36448,8 +36468,8 @@
       "artista": "Juan Gabriel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:56:35Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T12:26:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36474,11 +36494,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:56:35Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T12:26:14Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa81b1bd951e1665a8002f4",
@@ -39540,10 +39561,10 @@
       "originalTrackId": "",
       "titulo": "Magico Amor",
       "artista": "Timbiriche",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T12:13:22Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T12:22:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39570,7 +39591,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T12:13:22Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, items nuevos, ingles pending_review 49/49, wit_dt BAD 0, drift 0; hallazgos qc_es justificados (ear-notes/falsos positivos)",
+            "t": "2026-10-22T12:22:52Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, items nuevos, ingles pending_review 49/49, wit_dt BAD 0, drift 0; hallazgos qc_es justificados (ear-notes/falsos positivos)",
+          "t": "2026-10-22T12:22:52Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T12:22:53Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
