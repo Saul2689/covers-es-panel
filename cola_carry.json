@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T12:48:00Z",
+  "generado": "2026-10-22T12:48:21Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -37245,10 +37245,10 @@
       "originalTrackId": "",
       "titulo": "Juntos",
       "artista": "Paloma San Basilio",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T12:42:30Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T12:48:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37275,7 +37275,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T12:42:30Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing (deriva 0), mapeo 294/294, 11 items nuevos completos, ingles 39/39 en pending_review, wit_dt_audit BAD 0; notas de oido L3 tok4 y corte del coro final L34-39",
+            "t": "2026-10-22T12:48:05Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing (deriva 0), mapeo 294/294, 11 items nuevos completos, ingles 39/39 en pending_review, wit_dt_audit BAD 0; notas de oido L3 tok4 y corte del coro final L34-39",
+          "t": "2026-10-22T12:48:05Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T12:48:06Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
