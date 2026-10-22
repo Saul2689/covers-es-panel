@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T11:45:41Z",
+  "generado": "2026-10-22T11:51:28Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -35619,10 +35619,10 @@
       "originalTrackId": "",
       "titulo": "Palomita Blanca",
       "artista": "Juan Luis Guerra 440",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T11:38:11Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:50:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35651,15 +35651,21 @@
             "t": "2026-10-22T11:25:05Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 1: L1 w2 diré apunta a item con definicion de otro sentido (existe 6ac5bfd8...); L19 w3 perdona item es 2a persona/imperativo y la linea es 3a persona (crear item PRES.3SG). Resto OK",
-            "t": "2026-10-22T11:29:18Z"
+            "v": "ok",
+            "nota": "r2: L1 w2 y L19 w3 corregidos y verificados; estructura, timing, ingles (pending_review), wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T11:48:01Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 1: L1 w2 diré apunta a item con definicion de otro sentido (existe 6ac5bfd8...); L19 w3 perdona item es 2a persona/imperativo y la linea es 3a persona (crear item PRES.3SG). Resto OK",
-          "t": "2026-10-22T11:29:18Z"
+          "v": "VERDE",
+          "resumen": "r2: L1 w2 y L19 w3 corregidos y verificados; estructura, timing, ingles (pending_review), wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T11:48:01Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:50:08Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -35839,10 +35845,10 @@
       "originalTrackId": "",
       "titulo": "Perderte De Nuevo",
       "artista": "Camila",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T11:45:02Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:50:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35871,15 +35877,21 @@
             "t": "2026-10-22T11:25:06Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: linea 4 palabra 4 anclada al sentido 'permitir' en vez de 'dejar de' (existe item 6ac59bbd...); resto verde",
-            "t": "2026-10-22T11:43:32Z"
+            "v": "ok",
+            "nota": "ronda 2: defecto L4 w4 corregido (item dejé, WIT en su bolsa); estructura, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T11:49:03Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: linea 4 palabra 4 anclada al sentido 'permitir' en vez de 'dejar de' (existe item 6ac59bbd...); resto verde",
-          "t": "2026-10-22T11:43:32Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: defecto L4 w4 corregido (item dejé, WIT en su bolsa); estructura, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T11:49:03Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:50:03Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -45355,10 +45367,10 @@
       "originalTrackId": "",
       "titulo": "Oxigeno",
       "artista": "Willy Chirino",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T11:45:02Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:50:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45387,15 +45399,21 @@
             "t": "2026-10-22T11:35:43Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 1: faltan 3 tildes en el LRC (L10 w4, L22 w3, L72 w1, preterito) y WIT de L8 w6 equivocado (realize, debe ser see)",
-            "t": "2026-10-22T11:42:12Z"
+            "v": "ok",
+            "nota": "r2: tildes L10/L22/L72 y WIT L8 w6 verificados; qc_es justificado, wit_dt BAD 0, 74/74 ingles, pending_review",
+            "t": "2026-10-22T11:48:02Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 1: faltan 3 tildes en el LRC (L10 w4, L22 w3, L72 w1, preterito) y WIT de L8 w6 equivocado (realize, debe ser see)",
-          "t": "2026-10-22T11:42:12Z"
+          "v": "VERDE",
+          "resumen": "r2: tildes L10/L22/L72 y WIT L8 w6 verificados; qc_es justificado, wit_dt BAD 0, 74/74 ingles, pending_review",
+          "t": "2026-10-22T11:48:02Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:50:13Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
