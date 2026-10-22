@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T11:38:11Z",
+  "generado": "2026-10-22T11:41:12Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -40910,10 +40910,10 @@
       "originalTrackId": "",
       "titulo": "Sin Tu Amor (I'm Leaving It Up To You)",
       "artista": "Yndio",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T11:35:41Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:40:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40940,7 +40940,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T11:35:41Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles pending_review y timing OK; hallazgos qc_es justificados (4 tildes corregidas, ad-libs, hueco instrumental)",
+            "t": "2026-10-22T11:40:48Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles pending_review y timing OK; hallazgos qc_es justificados (4 tildes corregidas, ad-libs, hueco instrumental)",
+          "t": "2026-10-22T11:40:48Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:40:49Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
