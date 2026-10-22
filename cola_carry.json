@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T10:16:53Z",
+  "generado": "2026-10-22T10:21:20Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -38774,10 +38774,10 @@
       "originalTrackId": "",
       "titulo": "La Cumbia De Los Aburridos",
       "artista": "Calle 13",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2",
-      "actualizado": "2026-10-22T10:16:52Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T10:21:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38801,20 +38801,26 @@
             "t": "2026-10-07T01:36:20Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (88 lineas, 488 WIT con DT, 1 PIT); falta abrir el borrador",
-            "t": "2026-10-07T01:40:54Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 88/88 lineas, BAD 0, 0 WIT vacios",
+            "t": "2026-10-22T10:21:06Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "R1: faltan phrase links (L68 w3-4 dar vueltas, L15 w3-4 oler a), compuesto L67 w2-3 sin PI/PIT, L25 w1 WIT no encaja con la linea inglesa",
-            "t": "2026-10-22T10:12:23Z"
+            "v": "ok",
+            "nota": "ronda 2: 4 fixes de QC r1 verificados (PIs L15/L67/L68, WIT L25 w1), 88/88 ingles pending_review, BAD 0, 0 WIT vacios, drift 0, estructura limpia",
+            "t": "2026-10-22T10:20:53Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "R1: faltan phrase links (L68 w3-4 dar vueltas, L15 w3-4 oler a), compuesto L67 w2-3 sin PI/PIT, L25 w1 WIT no encaja con la linea inglesa",
-          "t": "2026-10-22T10:12:23Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: 4 fixes de QC r1 verificados (PIs L15/L67/L68, WIT L25 w1), 88/88 ingles pending_review, BAD 0, 0 WIT vacios, drift 0, estructura limpia",
+          "t": "2026-10-22T10:20:53Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T10:21:07Z"
         }
       }
     },
