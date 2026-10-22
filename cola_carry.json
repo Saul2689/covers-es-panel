@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T15:53:47Z",
+  "generado": "2026-10-22T16:00:51Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -43308,9 +43308,9 @@
       "titulo": "Nadie Simplemente Nadie",
       "artista": "Jose Jose",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T15:44:42Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T16:00:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43337,10 +43337,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T15:44:41Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "r1: L9/L12/L26 w9 falta tilde de preterito (anclas al subjuntivo, WIT/ingles en pasado); L8/L22 w1 una palabra 'because' donde el original tiene dos (interrogativo): partir y re-traducir. Resto OK",
+            "t": "2026-10-22T15:56:26Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "r1: L9/L12/L26 w9 falta tilde de preterito (anclas al subjuntivo, WIT/ingles en pasado); L8/L22 w1 una palabra 'because' donde el original tiene dos (interrogativo): partir y re-traducir. Resto OK",
+          "t": "2026-10-22T15:56:26Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa5462542b8d1fdb0caafa3",
@@ -53497,10 +53507,10 @@
       "originalTrackId": "",
       "titulo": "Tu Eres Mi Luz",
       "artista": "Alejandra Guzmán",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T15:44:40Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: insertar palabra de linea 33 pos 1 (como 11:1/24:1), reabrir EN, traducir linea 33 y WIT, reenviar a pending_review",
+      "actualizado": "2026-10-22T15:58:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53527,7 +53537,17 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T15:44:40Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 33 palabra 1: falta insert (presente en las 3 repeticiones del original y en lineas 11/24, hueco de timing en 32-33); resto ok",
+            "t": "2026-10-22T15:58:28Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 33 palabra 1: falta insert (presente en las 3 repeticiones del original y en lineas 11/24, hueco de timing en 32-33); resto ok",
+          "t": "2026-10-22T15:58:28Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -53538,10 +53558,10 @@
       "originalTrackId": "",
       "titulo": "Entrega Total",
       "artista": "los Galos",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T15:44:41Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:59:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53568,7 +53588,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T15:44:41Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ronda 1: 0 rojos, estructura y timing intactos, mapeo y 8 PI coherentes, ingles pending_review con wit_dt_audit BAD 0 y 0 WIT vacios, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T15:59:23Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "ronda 1: 0 rojos, estructura y timing intactos, mapeo y 8 PI coherentes, ingles pending_review con wit_dt_audit BAD 0 y 0 WIT vacios, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T15:59:23Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:59:24Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
