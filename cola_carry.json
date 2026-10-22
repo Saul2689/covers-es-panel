@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T13:55:04Z",
+  "generado": "2026-10-22T13:57:57Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -40383,8 +40383,8 @@
       "artista": "Jose Feliciano",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:26Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T13:57:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40409,11 +40409,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:02:25Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T13:57:52Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6ab230d0ca8a8ee8c446f94e",
@@ -40463,8 +40464,8 @@
       "artista": "Gloria Trevi",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:27Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T13:57:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40489,11 +40490,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:02:26Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T13:57:54Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa6d7a672ca57eb1aa73de3",
@@ -40701,8 +40703,8 @@
       "artista": "Juan Gabriel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:28Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T13:57:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40727,11 +40729,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:02:27Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T13:57:56Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa5d66842b8d1fdb0d619f5",
@@ -51828,10 +51831,10 @@
       "originalTrackId": "",
       "titulo": "Cuesta Abajo",
       "artista": "Carlos Gardel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T13:51:08Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T13:55:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51860,15 +51863,21 @@
             "t": "2026-10-22T13:43:03Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L14 palabra 4: ancla a querer-desear, existe item querer-amar (6a11d89dc9740e1ba06c409f); remapear y reabrir ingles WIT",
-            "t": "2026-10-22T13:47:27Z"
+            "v": "ok",
+            "nota": "QC r2: fix de la linea 14 palabra 4 verificado (item sentido amor, WIT love en su bolsa); estructura, sentidos, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T13:55:48Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L14 palabra 4: ancla a querer-desear, existe item querer-amar (6a11d89dc9740e1ba06c409f); remapear y reabrir ingles WIT",
-          "t": "2026-10-22T13:47:27Z"
+          "v": "VERDE",
+          "resumen": "QC r2: fix de la linea 14 palabra 4 verificado (item sentido amor, WIT love en su bolsa); estructura, sentidos, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T13:55:48Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T13:55:50Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -52051,8 +52060,8 @@
       "artista": "Camilo Sesto",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:26Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T13:57:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52077,11 +52086,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:02:25Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T13:57:53Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa677af72ca57eb1a9f39a0",
@@ -52091,8 +52101,8 @@
       "artista": "Pablo Montero",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:27Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T13:57:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52117,11 +52127,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:02:26Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T13:57:55Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa6595172ca57eb1a9c88ae",
