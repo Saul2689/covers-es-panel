@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T14:23:10Z",
+  "generado": "2026-10-22T14:26:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -40999,10 +40999,10 @@
       "originalTrackId": "",
       "titulo": "Querer Y Perder",
       "artista": "Dyango",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:12:12Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:26:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41029,7 +41029,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:12:11Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles (pending_review, WIT sin vacios, wit_dt_audit BAD 0) y audio OK; hallazgos justificados",
+            "t": "2026-10-22T14:26:06Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles (pending_review, WIT sin vacios, wit_dt_audit BAD 0) y audio OK; hallazgos justificados",
+          "t": "2026-10-22T14:26:06Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:26:07Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -41552,10 +41568,10 @@
       "originalTrackId": "",
       "titulo": "Para Toda La Vida",
       "artista": "Banda El Recodo",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:22:49Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:26:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41582,7 +41598,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:22:49Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura limpia, mapeo y sentidos OK, ingles en pending_review 28/28, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T14:26:19Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura limpia, mapeo y sentidos OK, ingles en pending_review 28/28, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T14:26:19Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:26:20Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
