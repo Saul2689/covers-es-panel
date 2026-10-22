@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T14:51:10Z",
+  "generado": "2026-10-22T14:55:11Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -42197,10 +42197,10 @@
       "originalTrackId": "",
       "titulo": "Dejenme Llorar",
       "artista": "los Freddy's",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:40:28Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:54:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42227,7 +42227,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:40:28Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, mapeo, items nuevos, ingles pending_review y wit_dt_audit BAD 0 sin defectos; residuos qc_es justificados",
+            "t": "2026-10-22T14:54:03Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, mapeo, items nuevos, ingles pending_review y wit_dt_audit BAD 0 sin defectos; residuos qc_es justificados",
+          "t": "2026-10-22T14:54:03Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:54:05Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -42238,10 +42254,10 @@
       "originalTrackId": "",
       "titulo": "Te Sigo Amando",
       "artista": "Juan Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T14:51:09Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:53:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42270,15 +42286,21 @@
             "t": "2026-10-22T14:40:29Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "Ronda 1: linea 9 y 17 palabra 1 es la exclamativa que sin tilde (LRC+richsync) y anclada al item sin tilde; hay que poner tilde, remapear al item con tilde en ambas, reabrir ingles y reenviar",
-            "t": "2026-10-22T14:46:45Z"
+            "v": "ok",
+            "nota": "r2: tilde exclamativa lineas 9/17 verificada (LRC, richsync, ancla, WIT); estructura, timing, ingles pending_review OK",
+            "t": "2026-10-22T14:53:13Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "Ronda 1: linea 9 y 17 palabra 1 es la exclamativa que sin tilde (LRC+richsync) y anclada al item sin tilde; hay que poner tilde, remapear al item con tilde en ambas, reabrir ingles y reenviar",
-          "t": "2026-10-22T14:46:45Z"
+          "v": "VERDE",
+          "resumen": "r2: tilde exclamativa lineas 9/17 verificada (LRC, richsync, ancla, WIT); estructura, timing, ingles pending_review OK",
+          "t": "2026-10-22T14:53:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:53:14Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -42291,8 +42313,8 @@
       "artista": "Gloria Trevi",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:03:24Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T14:55:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42317,11 +42339,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:03:23Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T14:55:09Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa82d5ed951e1665a81f521",
@@ -52580,8 +52603,8 @@
       "artista": "Banda El Recodo",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:50Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T14:55:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52606,11 +52629,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:02:50Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T14:55:07Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa7477e72ca57eb1ab15761",
@@ -52687,8 +52711,8 @@
       "artista": "Lola",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:51Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T14:55:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52713,11 +52737,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:02:50Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T14:55:08Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa6d2d272ca57eb1aa6d2e8",
@@ -52758,8 +52783,8 @@
       "artista": "Roberto Carlos, Vicente Fernandez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:03:35Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T14:55:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52784,11 +52809,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:03:35Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T14:55:10Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa6577c72ca57eb1a9c65e6",
@@ -52871,8 +52897,8 @@
       "artista": "Dyango",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:03:42Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T14:55:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52897,11 +52923,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:03:42Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T14:55:10Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa58fe242b8d1fdb0d04d79",
