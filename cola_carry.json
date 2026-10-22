@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T11:41:12Z",
+  "generado": "2026-10-22T11:45:03Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -35840,9 +35840,9 @@
       "titulo": "Perderte De Nuevo",
       "artista": "Camila",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T11:25:06Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T11:45:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35869,10 +35869,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T11:25:06Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: linea 4 palabra 4 anclada al sentido 'permitir' en vez de 'dejar de' (existe item 6ac59bbd...); resto verde",
+            "t": "2026-10-22T11:43:32Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: linea 4 palabra 4 anclada al sentido 'permitir' en vez de 'dejar de' (existe item 6ac59bbd...); resto verde",
+          "t": "2026-10-22T11:43:32Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa71ff872ca57eb1aad536c",
@@ -44459,10 +44469,10 @@
       "originalTrackId": "",
       "titulo": "Dejarte De Amar",
       "artista": "Camila",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T11:35:42Z",
+      "motivo": "espera a Saúl: timing, 8 líneas dobladas por el proveedor (8, 12, 14, 18, 27, 31, 33, 37); hay que colapsar los pares",
+      "actualizado": "2026-10-22T11:43:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44489,10 +44499,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T11:35:42Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC1 VERDE: estructura, mapeo, items nuevos, ingles pending_review, wit_dt BAD 0; queda timing en saul (lineas dobladas 8,12,14,18,27,31,33,37)",
+            "t": "2026-10-22T11:43:02Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC1 VERDE: estructura, mapeo, items nuevos, ingles pending_review, wit_dt BAD 0; queda timing en saul (lineas dobladas 8,12,14,18,27,31,33,37)",
+          "t": "2026-10-22T11:43:02Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "Waiting for Saul: timing, 8 provider-doubled lines (8, 12, 14, 18, 27, 31, 33, 37) need collapsing"
     },
     {
       "coverTrackId": "6aa7062a72ca57eb1aaa9f4d",
@@ -45320,9 +45340,9 @@
       "titulo": "Oxigeno",
       "artista": "Willy Chirino",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T11:35:43Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T11:45:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45349,10 +45369,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T11:35:43Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ronda 1: faltan 3 tildes en el LRC (L10 w4, L22 w3, L72 w1, preterito) y WIT de L8 w6 equivocado (realize, debe ser see)",
+            "t": "2026-10-22T11:42:12Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ronda 1: faltan 3 tildes en el LRC (L10 w4, L22 w3, L72 w1, preterito) y WIT de L8 w6 equivocado (realize, debe ser see)",
+          "t": "2026-10-22T11:42:12Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa5b68742b8d1fdb0d2f1ab",
