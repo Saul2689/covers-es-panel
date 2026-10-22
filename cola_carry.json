@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T15:44:42Z",
+  "generado": "2026-10-22T15:45:39Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -53262,10 +53262,10 @@
       "originalTrackId": "",
       "titulo": "Inocente De Ti",
       "artista": "Juan Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T15:40:43Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:45:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53294,15 +53294,21 @@
             "t": "2026-10-22T15:31:10Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 fixes: L24 w2 s/z misspelling of future of ver; L22 w2 unjustified errata vs original; minor respeto primary casing",
-            "t": "2026-10-22T15:37:25Z"
+            "v": "ok",
+            "nota": "QC r2: L24 w2 accent fixed, anchors/PIs/English/structure OK; ear-note L22 w2 article vs original preposition, respeto lowercase primary",
+            "t": "2026-10-22T15:45:08Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 fixes: L24 w2 s/z misspelling of future of ver; L22 w2 unjustified errata vs original; minor respeto primary casing",
-          "t": "2026-10-22T15:37:25Z"
+          "v": "VERDE",
+          "resumen": "QC r2: L24 w2 accent fixed, anchors/PIs/English/structure OK; ear-note L22 w2 article vs original preposition, respeto lowercase primary",
+          "t": "2026-10-22T15:45:08Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:45:10Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -53392,9 +53398,9 @@
       "titulo": "Muero",
       "artista": "Jerry Rivera",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T15:31:14Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T15:45:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53421,10 +53427,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T15:31:13Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "English: L4 w7 WIT does not match its line/PIT (needs the 'for' row); L16 line text drops 'next'. Everything else (structure, mapping, phrases, audio) clean",
+            "t": "2026-10-22T15:44:46Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "English: L4 w7 WIT does not match its line/PIT (needs the 'for' row); L16 line text drops 'next'. Everything else (structure, mapping, phrases, audio) clean",
+          "t": "2026-10-22T15:44:46Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa581dd42b8d1fdb0ceff16",
