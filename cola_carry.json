@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T09:23:58Z",
+  "generado": "2026-10-22T09:27:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -26498,10 +26498,10 @@
       "originalTrackId": "",
       "titulo": "Que Quieres De Mi",
       "artista": "Luis Fonsi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2",
-      "actualizado": "2026-10-22T09:23:57Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T09:27:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26525,20 +26525,26 @@
             "t": "2026-10-06T21:37:54Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (46 lineas, 260 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T21:37:55Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 46 lineas, WIT completos, wit_dt_audit BAD 0",
+            "t": "2026-10-22T09:27:14Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "3 arreglos: L2 w4 ancla a item de sentido equivocado (hay uno limpio 6ac5a498...); WIT de L8/21/35 w1 'so many' -> 'so much'; WIT L19 w4 glosa larga -> 'when'",
-            "t": "2026-10-22T09:16:21Z"
+            "v": "ok",
+            "nota": "r2: 3 fixes de r1 verificados (L2 w4 remap+WIT, L8/21/35 w1, L19 w4); estructura, mapeo, gemelas, homografos, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T09:27:08Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "3 arreglos: L2 w4 ancla a item de sentido equivocado (hay uno limpio 6ac5a498...); WIT de L8/21/35 w1 'so many' -> 'so much'; WIT L19 w4 glosa larga -> 'when'",
-          "t": "2026-10-22T09:16:21Z"
+          "v": "VERDE",
+          "resumen": "r2: 3 fixes de r1 verificados (L2 w4 remap+WIT, L8/21/35 w1, L19 w4); estructura, mapeo, gemelas, homografos, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T09:27:08Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T09:27:16Z"
         }
       }
     },
