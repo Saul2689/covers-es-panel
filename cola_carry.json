@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T12:55:32Z",
+  "generado": "2026-10-22T12:58:59Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -37483,10 +37483,10 @@
       "originalTrackId": "",
       "titulo": "Son Tus Perjumenes Mujer",
       "artista": "Lupillo Rivera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T12:55:26Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T12:58:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37515,15 +37515,21 @@
             "t": "2026-10-22T12:42:31Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "estructura, timing, ingles, WIT y items nuevos OK; faltan L21 t3 (diminutivo regular sin mapear) y tilde esdrujula en perjumenes x14",
-            "t": "2026-10-22T12:51:24Z"
+            "v": "ok",
+            "nota": "r2: L21 diminutive mapped + WIT in pending_review, title-noun accent on 14 lines, structure/timing/English/audio all clean",
+            "t": "2026-10-22T12:58:40Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "estructura, timing, ingles, WIT y items nuevos OK; faltan L21 t3 (diminutivo regular sin mapear) y tilde esdrujula en perjumenes x14",
-          "t": "2026-10-22T12:51:24Z"
+          "v": "VERDE",
+          "resumen": "r2: L21 diminutive mapped + WIT in pending_review, title-noun accent on 14 lines, structure/timing/English/audio all clean",
+          "t": "2026-10-22T12:58:40Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T12:58:41Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -37536,8 +37542,8 @@
       "artista": "Garibaldi",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:58:26Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T12:58:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37562,11 +37568,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:58:26Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T12:58:55Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa79d1b72ca57eb1acff9a3",
@@ -37616,8 +37623,8 @@
       "artista": "Gian Marco",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:58:27Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T12:58:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37642,11 +37649,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:58:26Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T12:58:56Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa715f872ca57eb1aac44c9",
@@ -37656,8 +37664,8 @@
       "artista": "Yuri",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:58:27Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T12:58:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37682,11 +37690,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:58:27Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T12:58:57Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa56b7542b8d1fdb0ccea32",
@@ -37696,8 +37705,8 @@
       "artista": "Cornelio Reyna",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:58:28Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T12:58:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37722,11 +37731,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:58:28Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T12:58:58Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa514c142b8d1fdb0c645c4",
@@ -37944,8 +37954,8 @@
       "artista": "Marco Antonio Solis",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:58:28Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T12:58:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37970,11 +37980,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:58:28Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T12:58:58Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa6c59f72ca57eb1aa5a862",
