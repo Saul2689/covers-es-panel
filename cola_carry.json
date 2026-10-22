@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T11:58:29Z",
+  "generado": "2026-10-22T12:01:12Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -24895,9 +24895,9 @@
       "titulo": "La Pared",
       "artista": "Shakira",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T11:55:02Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T12:01:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24924,10 +24924,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T11:55:02Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "1 defecto: ejemplo 1 del item nuevo faltes (6ac562770b0281c2677fc7ea) es un verso de la cancion (L7/11/21/25/35/39); cambiar por frase inventada. Resto OK",
+            "t": "2026-10-22T11:59:28Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "1 defecto: ejemplo 1 del item nuevo faltes (6ac562770b0281c2677fc7ea) es un verso de la cancion (L7/11/21/25/35/39); cambiar por frase inventada. Resto OK",
+          "t": "2026-10-22T11:59:28Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa6cda272ca57eb1aa644bd",
@@ -46297,10 +46307,10 @@
       "originalTrackId": "",
       "titulo": "Tu Nombre Me Sabe A Yerba",
       "artista": "Joan Manuel Serrat",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T11:55:02Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T12:00:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46327,7 +46337,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T11:55:01Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, 187 anclas, items nuevos, ingles pending_review, wit_dt BAD 0, 12 wit_pit manual ok",
+            "t": "2026-10-22T12:00:16Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, 187 anclas, items nuevos, ingles pending_review, wit_dt BAD 0, 12 wit_pit manual ok",
+          "t": "2026-10-22T12:00:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T12:00:17Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
