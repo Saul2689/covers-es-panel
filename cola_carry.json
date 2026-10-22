@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T18:34:18Z",
+  "generado": "2026-10-22T08:36:40Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -23105,10 +23105,10 @@
       "originalTrackId": "",
       "titulo": "Pequeña Y Fragil",
       "artista": "Sabu",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "set isPrimary on the 19 translations of ad-lib item used at line 29 word 1 (item 6ad8fbb38b097ed39e82df59), keep en row id",
-      "actualizado": "2026-10-21T18:03:28Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T08:36:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23132,20 +23132,26 @@
             "t": "2026-10-06T20:42:28Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (34 lineas, 167 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T20:43:43Z"
+            "v": "ok",
+            "nota": "draft en pending_review: 34/34 lineas, 0 WIT vacios, wit_dt BAD 0",
+            "t": "2026-10-22T08:36:26Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "new ad-lib item (line 29 word 1) has 19 translations but none isPrimary; rest of structure, mapping, English, audio OK",
-            "t": "2026-10-21T18:03:28Z"
+            "v": "ok",
+            "nota": "QC r2: primarias de rara (17/19, az/de aceptado) y diria (19/19) verificadas; WIT L29 w1 apunta a la fila principal; estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio ok",
+            "t": "2026-10-22T08:36:21Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "new ad-lib item (line 29 word 1) has 19 translations but none isPrimary; rest of structure, mapping, English, audio OK",
-          "t": "2026-10-21T18:03:28Z"
+          "v": "VERDE",
+          "resumen": "QC r2: primarias de rara (17/19, az/de aceptado) y diria (19/19) verificadas; WIT L29 w1 apunta a la fila principal; estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio ok",
+          "t": "2026-10-22T08:36:21Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T08:36:27Z"
         }
       }
     },
