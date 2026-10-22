@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T15:15:07Z",
+  "generado": "2026-10-22T15:19:09Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -53053,9 +53053,9 @@
       "titulo": "Corre Corre",
       "artista": "Flans",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T15:09:32Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T15:19:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53082,10 +53082,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T15:09:31Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: 4 tokens (lines 3 and 21 word 11, lines 6 and 24 word 1) lack the preterite tilde while anchored to the tilded preterite item; rest of structure, mapping, new items, English draft and audio OK",
+            "t": "2026-10-22T15:16:07Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: 4 tokens (lines 3 and 21 word 11, lines 6 and 24 word 1) lack the preterite tilde while anchored to the tilded preterite item; rest of structure, mapping, new items, English draft and audio OK",
+          "t": "2026-10-22T15:16:07Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa6d9b472ca57eb1aa79018",
