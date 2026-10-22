@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T13:38:59Z",
+  "generado": "2026-10-22T13:43:05Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -39254,10 +39254,10 @@
       "originalTrackId": "",
       "titulo": "Se Me Enamora El Alma",
       "artista": "Isabel Pantoja",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T13:37:20Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T13:41:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39286,15 +39286,21 @@
             "t": "2026-10-22T13:22:54Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "R1: L7 w6 article number error vs plural noun (unjustified errata), volaron item has wrong sense (L12/L24 w2,w6), twin article items differ (L6/L16 vs L18/L32); rest clean",
-            "t": "2026-10-22T13:28:25Z"
+            "v": "ok",
+            "nota": "r2: arreglos de r1 verificados (L7 w6 articulo plural, volaron L12/L24 item nuevo, articulos L18/L32 unificados); estructura, mapeo, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T13:41:27Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "R1: L7 w6 article number error vs plural noun (unjustified errata), volaron item has wrong sense (L12/L24 w2,w6), twin article items differ (L6/L16 vs L18/L32); rest clean",
-          "t": "2026-10-22T13:28:25Z"
+          "v": "VERDE",
+          "resumen": "r2: arreglos de r1 verificados (L7 w6 articulo plural, volaron L12/L24 item nuevo, articulos L18/L32 unificados); estructura, mapeo, ingles pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T13:41:27Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T13:41:29Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -39564,10 +39570,10 @@
       "originalTrackId": "",
       "titulo": "El Andariego",
       "artista": "Cornelio Reyna",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T13:38:59Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T13:41:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39596,15 +39602,21 @@
             "t": "2026-10-22T13:22:57Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "English WIT for the verb at L12 w4 and L20 w4 says first person but the line is third person; needs a 3SG item + reopen draft",
-            "t": "2026-10-22T13:37:16Z"
+            "v": "ok",
+            "nota": "r2: fix de L12/L20 w4 verificado (item 3SG, WIT y linea EN coinciden), BAD 0, 0 WIT vacios, drift 0, pending_review",
+            "t": "2026-10-22T13:41:31Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "English WIT for the verb at L12 w4 and L20 w4 says first person but the line is third person; needs a 3SG item + reopen draft",
-          "t": "2026-10-22T13:37:16Z"
+          "v": "VERDE",
+          "resumen": "r2: fix de L12/L20 w4 verificado (item 3SG, WIT y linea EN coinciden), BAD 0, 0 WIT vacios, drift 0, pending_review",
+          "t": "2026-10-22T13:41:31Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T13:41:32Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -39650,8 +39662,8 @@
       "artista": "Grupo Limite",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:59:46Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T13:43:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39676,11 +39688,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:59:46Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T13:43:00Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa8231ed951e1665a80d1b6",
@@ -39730,8 +39743,8 @@
       "artista": "Camila",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T08:59:56Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T13:43:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39756,11 +39769,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:59:56Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T13:43:01Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa62b1072ca57eb1a985cc1",
@@ -39821,8 +39835,8 @@
       "artista": "RBD",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:01:22Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T13:43:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39847,11 +39861,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:01:22Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T13:43:02Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa6254d72ca57eb1a979000",
@@ -51773,8 +51788,8 @@
       "artista": "Carlos Gardel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:23Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T13:43:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51799,11 +51814,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:02:23Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T13:43:03Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa6d42972ca57eb1aa6fa2c",
@@ -51932,8 +51948,8 @@
       "artista": "Conjunto Primavera",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:02:24Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T13:43:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51958,11 +51974,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:02:24Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T13:43:04Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC r1"
     },
     {
       "coverTrackId": "6aa5399242b8d1fdb0c9cf63",
