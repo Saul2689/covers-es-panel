@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T11:11:28Z",
+  "generado": "2026-10-22T11:13:20Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -20736,10 +20736,10 @@
       "originalTrackId": "",
       "titulo": "Fuiste Mia Un Verano",
       "artista": "Leonardo Favio",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T10:57:55Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:11:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20766,7 +20766,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T10:57:54Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing drift 0, mapeo, ingles draft pending_review, wit_dt BAD 0; solo ad-libs lineas 21 y 34-38 justificados",
+            "t": "2026-10-22T11:11:57Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing drift 0, mapeo, ingles draft pending_review, wit_dt BAD 0; solo ad-libs lineas 21 y 34-38 justificados",
+          "t": "2026-10-22T11:11:57Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:11:58Z"
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
@@ -31329,10 +31345,10 @@
       "originalTrackId": "",
       "titulo": "Mentiroso",
       "artista": "Enrique Iglesias",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto y corregido, QC r2",
-      "actualizado": "2026-10-22T11:11:20Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:13:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31361,15 +31377,21 @@
             "t": "2026-10-22T10:57:49Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L51 tok1: palabra de 1 letra donde el original y las lineas 25/50 llevan el ad-lib; sin mapear, qc_es rojo injustificado; arreglar LRC+ancla+ingles (reabrir draft)",
-            "t": "2026-10-22T11:09:45Z"
+            "v": "ok",
+            "nota": "r2: line 51 ad-lib fixed and anchored, English resubmitted pending_review, structure/DT audit/twins/timing all clean",
+            "t": "2026-10-22T11:13:07Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L51 tok1: palabra de 1 letra donde el original y las lineas 25/50 llevan el ad-lib; sin mapear, qc_es rojo injustificado; arreglar LRC+ancla+ingles (reabrir draft)",
-          "t": "2026-10-22T11:09:45Z"
+          "v": "VERDE",
+          "resumen": "r2: line 51 ad-lib fixed and anchored, English resubmitted pending_review, structure/DT audit/twins/timing all clean",
+          "t": "2026-10-22T11:13:07Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:13:09Z"
         }
       },
       "motivo_en": "QC r1 returned and fixed, QC r2"
@@ -38313,10 +38335,10 @@
       "originalTrackId": "",
       "titulo": "Mienteme",
       "artista": "David Bisbal, Elena Gadel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T10:57:51Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:13:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38343,7 +38365,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T10:57:50Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo (404 WI), items nuevos, ingles draft pending_review y wit_dt_audit OK; hallazgos qc_es justificados (vocables lineas 1-4, fragmento linea 14)",
+            "t": "2026-10-22T11:13:02Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo (404 WI), items nuevos, ingles draft pending_review y wit_dt_audit OK; hallazgos qc_es justificados (vocables lineas 1-4, fragmento linea 14)",
+          "t": "2026-10-22T11:13:02Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:13:03Z"
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
