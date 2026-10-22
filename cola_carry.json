@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T15:45:39Z",
+  "generado": "2026-10-22T15:53:47Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -43131,10 +43131,10 @@
       "originalTrackId": "",
       "titulo": "Gracias",
       "artista": "Jose Alfredo Jimenez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T15:44:38Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:52:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43159,9 +43159,25 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "borrador en pending_review",
-            "t": "2026-10-22T15:44:38Z"
+            "nota": "borrador en pending_review: 37 lineas, 0 WIT vacios, BAD 0",
+            "t": "2026-10-22T15:52:00Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura limpia, anclas/frases/items nuevos bien, ingles 37/37 pending_review, wit_dt BAD 0, restos qc_es justificados (L28,L31,L32)",
+            "t": "2026-10-22T15:51:59Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura limpia, anclas/frases/items nuevos bien, ingles 37/37 pending_review, wit_dt BAD 0, restos qc_es justificados (L28,L31,L32)",
+          "t": "2026-10-22T15:51:59Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:52:01Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -43172,10 +43188,10 @@
       "originalTrackId": "",
       "titulo": "Cosas De Enamorados",
       "artista": "Juan Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T15:44:39Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:50:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43202,7 +43218,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T15:44:39Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r1: estructura 95/95, 0 fuera de rango, ingles 23/23 + 95 WIT en pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR; nota: L5 posible palabra sin cantar (hueco 2,3 s, oido de Saul)",
+            "t": "2026-10-22T15:50:47Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r1: estructura 95/95, 0 fuera de rango, ingles 23/23 + 95 WIT en pending_review, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR; nota: L5 posible palabra sin cantar (hueco 2,3 s, oido de Saul)",
+          "t": "2026-10-22T15:50:47Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:50:49Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -53397,10 +53429,10 @@
       "originalTrackId": "",
       "titulo": "Muero",
       "artista": "Jerry Rivera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T15:45:39Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:48:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53429,15 +53461,21 @@
             "t": "2026-10-22T15:31:13Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "English: L4 w7 WIT does not match its line/PIT (needs the 'for' row); L16 line text drops 'next'. Everything else (structure, mapping, phrases, audio) clean",
-            "t": "2026-10-22T15:44:46Z"
+            "v": "ok",
+            "nota": "r2: L4 w7 WIT y L16 next corregidos; estructura, mapeo, ingles pending_review, wit_dt_audit BAD 0, drift 0",
+            "t": "2026-10-22T15:48:41Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "English: L4 w7 WIT does not match its line/PIT (needs the 'for' row); L16 line text drops 'next'. Everything else (structure, mapping, phrases, audio) clean",
-          "t": "2026-10-22T15:44:46Z"
+          "v": "VERDE",
+          "resumen": "r2: L4 w7 WIT y L16 next corregidos; estructura, mapeo, ingles pending_review, wit_dt_audit BAD 0, drift 0",
+          "t": "2026-10-22T15:48:41Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:48:43Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
