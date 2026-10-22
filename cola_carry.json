@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T09:30:19Z",
+  "generado": "2026-10-22T09:39:11Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -39687,10 +39687,10 @@
       "originalTrackId": "",
       "titulo": "Quitemonos La Ropa",
       "artista": "Alexandre Pires",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-22T09:30:17Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T09:38:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39714,10 +39714,26 @@
             "t": "2026-10-07T01:44:43Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
-            "t": "2026-10-07T01:44:43Z"
+            "v": "ok",
+            "nota": "draft en pending_review (64 lineas, 319 WIT, wit_dt BAD 0); falta solo la aprobacion de Saul",
+            "t": "2026-10-22T09:38:36Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles (draft pending_review), wit_dt BAD 0 y audio OK; hallazgos de qc_es justificados (tildes correctas, variantes del cover, scat/vocables); nota de oido en linea 12 tok 3",
+            "t": "2026-10-22T09:38:24Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles (draft pending_review), wit_dt BAD 0 y audio OK; hallazgos de qc_es justificados (tildes correctas, variantes del cover, scat/vocables); nota de oido en linea 12 tok 3",
+          "t": "2026-10-22T09:38:24Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T09:38:38Z"
         }
       }
     },
@@ -47394,10 +47410,10 @@
       "originalTrackId": "",
       "titulo": "Cheque En Blanco",
       "artista": "Paquita la Del Barrio",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-22T09:30:18Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T09:34:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47421,10 +47437,26 @@
             "t": "2026-10-07T04:01:40Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "preparado en en_plan.json (33 lineas, 158 WIT, 10 PIT); falta abrir el borrador",
-            "t": "2026-10-07T04:01:40Z"
+            "v": "ok",
+            "nota": "33 lineas + WIT + PIT en draft pending_review; wit_dt_audit BAD 0, WIT vacios 0",
+            "t": "2026-10-22T09:33:59Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles pending_review y timing OK; unico hallazgo (tilde L4p4) justificado",
+            "t": "2026-10-22T09:33:53Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles pending_review y timing OK; unico hallazgo (tilde L4p4) justificado",
+          "t": "2026-10-22T09:33:53Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T09:34:01Z"
         }
       }
     },
@@ -47576,10 +47608,10 @@
       "originalTrackId": "",
       "titulo": "Si Tu Te Alejas",
       "artista": "Elvis Crespo",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-22T09:30:17Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "espera a Saúl: cover publicada, la línea 32 palabra 22 necesita la tilde en el LRC (y la línea 32 dura 41 s); el resto de QC r1 arreglado",
+      "actualizado": "2026-10-22T09:39:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47606,9 +47638,20 @@
             "v": "falta",
             "nota": "ingles preparado en en_plan.json (53 lineas, 266 WIT con DT, 6 PIT); falta abrir el borrador",
             "t": "2026-10-07T04:09:59Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "r1: line 32 w22 misspelled+unmapped; WIT 'from' should be 'of' (line 30 w7, line 45 w1); tomalo wordForm BASE->FINITE; reopen EN draft and resubmit",
+            "t": "2026-10-22T09:37:45Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "r1: line 32 w22 misspelled+unmapped; WIT 'from' should be 'of' (line 30 w7, line 45 w1); tomalo wordForm BASE->FINITE; reopen EN draft and resubmit",
+          "t": "2026-10-22T09:37:45Z"
         }
-      }
+      },
+      "motivo_en": "Waiting for Saúl: published cover, line 32 word 22 needs its accent in the LRC (and line 32 runs 41 s); the rest of QC r1 is fixed"
     },
     {
       "coverTrackId": "6aa73f7c72ca57eb1ab078ab",
@@ -54404,10 +54447,10 @@
       "originalTrackId": "",
       "titulo": "Cisne Cuello Negro",
       "artista": "Basilio",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-22T09:30:18Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "espera a Saúl: cover publicada, la línea 17 palabra 4 está cortada y mal escrita en el LRC; el resto de QC r1 arreglado",
+      "actualizado": "2026-10-22T09:39:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54434,9 +54477,20 @@
             "v": "falta",
             "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
             "t": "2026-10-07T06:48:08Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L17 tok3 truncado (forma completa en gemelas 4/8/21); PI de L12/13/25/26 tok1-2 con sentido equivocado; reabrir ingles",
+            "t": "2026-10-22T09:35:23Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L17 tok3 truncado (forma completa en gemelas 4/8/21); PI de L12/13/25/26 tok1-2 con sentido equivocado; reabrir ingles",
+          "t": "2026-10-22T09:35:23Z"
         }
-      }
+      },
+      "motivo_en": "Waiting for Saúl: published cover, line 17 word 4 is truncated and misspelled in the LRC; the rest of QC r1 is fixed"
     },
     {
       "coverTrackId": "6aa8003e2367b69ab718369a",
