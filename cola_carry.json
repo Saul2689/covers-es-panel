@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T10:48:46Z",
+  "generado": "2026-10-22T10:57:55Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -20736,10 +20736,10 @@
       "originalTrackId": "",
       "titulo": "Fuiste Mia Un Verano",
       "artista": "Leonardo Favio",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T20:12:40Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T10:57:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -20763,12 +20763,13 @@
             "t": "2026-10-06T20:12:40Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (38 lineas, 129 WIT, 7 PIT); falta abrir el borrador",
-            "t": "2026-10-06T20:12:40Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T10:57:54Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa54e6742b8d1fdb0cb8f34",
@@ -31080,10 +31081,10 @@
       "originalTrackId": "",
       "titulo": "Masoquismo",
       "artista": "Lola",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2: LRC corregido (OK de Saúl)",
-      "actualizado": "2026-10-22T10:48:39Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T10:52:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31107,20 +31108,26 @@
             "t": "2026-10-06T22:40:32Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (36 lineas, 192 WIT con DT), falta abrir el borrador",
-            "t": "2026-10-06T22:40:32Z"
+            "v": "ok",
+            "nota": "draft en pending_review: 36 lineas, 0 WIT vacios, wit_dt_audit BAD 0",
+            "t": "2026-10-22T10:52:18Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "tilde faltante en la palabra interrogativa de la palabra 1 de 15 lineas (10-12,14-16,25-27,29-31,33-35); resto OK",
-            "t": "2026-10-21T18:29:01Z"
+            "v": "ok",
+            "nota": "r2: 15 tildes de cuánto + más/cómo corregidos y reanclados, estructura 195/195, inglés 36/36 WIT BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T10:52:13Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "tilde faltante en la palabra interrogativa de la palabra 1 de 15 lineas (10-12,14-16,25-27,29-31,33-35); resto OK",
-          "t": "2026-10-21T18:29:01Z"
+          "v": "VERDE",
+          "resumen": "r2: 15 tildes de cuánto + más/cómo corregidos y reanclados, estructura 195/195, inglés 36/36 WIT BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T10:52:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T10:52:19Z"
         }
       },
       "motivo_en": "QC round 2: LRC fixed (Saúl's OK)"
@@ -31322,10 +31329,10 @@
       "originalTrackId": "",
       "titulo": "Mentiroso",
       "artista": "Enrique Iglesias",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T22:40:55Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T10:57:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31349,12 +31356,13 @@
             "t": "2026-10-06T22:40:55Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan completo en es_map/payloads/6aa58c7342b8d1fdb0cfddc7/en_plan.json (51 lineas, 205 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T22:40:55Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T10:57:49Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa526bb42b8d1fdb0c7cffc",
@@ -33540,9 +33548,9 @@
       "titulo": "Ases Y Tercia De Reyes",
       "artista": "Juan Gabriel",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "QC r2: LRC corregido (OK de Saúl)",
-      "actualizado": "2026-10-22T10:48:40Z",
+      "vueltas": 2,
+      "motivo": "QC r3: línea 9 palabra 1 anclada",
+      "actualizado": "2026-10-22T10:56:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -33572,17 +33580,17 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "R1: tildes missing on 5 interrogatives (lines 3,21 / 7,17,25 w5); lines 8,18,26 w4-5 mis-split vs English; line 22 w8 differs from twins; 3 wrong-sense items with better ones available (line 11 w11,w12; lines 2,20 w6); line 9 w1 unmapped interjection",
-            "t": "2026-10-21T18:33:07Z"
+            "nota": "ronda 2: LRC, merges de L8/18/26, tildes, gemelas, DT e ingles OK; falta mapear L9 p1 (interjeccion, item existente) y su WIT en el borrador",
+            "t": "2026-10-22T10:54:01Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "R1: tildes missing on 5 interrogatives (lines 3,21 / 7,17,25 w5); lines 8,18,26 w4-5 mis-split vs English; line 22 w8 differs from twins; 3 wrong-sense items with better ones available (line 11 w11,w12; lines 2,20 w6); line 9 w1 unmapped interjection",
-          "t": "2026-10-21T18:33:07Z"
+          "resumen": "ronda 2: LRC, merges de L8/18/26, tildes, gemelas, DT e ingles OK; falta mapear L9 p1 (interjeccion, item existente) y su WIT en el borrador",
+          "t": "2026-10-22T10:54:01Z"
         }
       },
-      "motivo_en": "QC round 2: LRC fixed (Saúl's OK)"
+      "motivo_en": "QC round 3: line 9 word 1 anchored"
     },
     {
       "coverTrackId": "6aa5da7442b8d1fdb0d66847",
@@ -36450,10 +36458,10 @@
       "originalTrackId": "",
       "titulo": "Tu Cariño Se Me Va",
       "artista": "Buddy Richard",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2: LRC corregido (OK de Saúl)",
-      "actualizado": "2026-10-22T10:48:40Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T10:52:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36462,9 +36470,9 @@
             "t": "2026-10-06T19:51:11Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "linea 26: 'm e e' partido (3 palabras con tiempo, no se unen); resto limpio",
-            "t": "2026-10-07T00:40:22Z"
+            "v": "ok",
+            "nota": "linea 26 reconstruida con OK de Saul (22 oct), tildes L24/L38 corregidas; QC r2 verificado",
+            "t": "2026-10-22T10:52:15Z"
           },
           "timing": {
             "v": "ok",
@@ -36477,20 +36485,26 @@
             "t": "2026-10-07T00:40:22Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "preparado en es_map/payloads/<id>/en_plan.json; falta abrir el borrador",
-            "t": "2026-10-07T00:40:23Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 40/40 lineas, 0 WIT vacios, wit_dt BAD 0",
+            "t": "2026-10-22T10:52:15Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L26 tokens 3-5 garbled split word left unfixed and unmapped (unjustified letra_suelta/errata/sin_mapear); rest passes",
-            "t": "2026-10-21T15:00:41Z"
+            "v": "ok",
+            "nota": "r2: linea 26 reconstruida igual que su gemela L30 (items, WIT, ingles), 0 anclas fuera de rango, wit_dt BAD 0, draft pending_review",
+            "t": "2026-10-22T10:51:31Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L26 tokens 3-5 garbled split word left unfixed and unmapped (unjustified letra_suelta/errata/sin_mapear); rest passes",
-          "t": "2026-10-21T15:00:41Z"
+          "v": "VERDE",
+          "resumen": "r2: linea 26 reconstruida igual que su gemela L30 (items, WIT, ingles), 0 anclas fuera de rango, wit_dt BAD 0, draft pending_review",
+          "t": "2026-10-22T10:51:31Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T10:52:16Z"
         }
       },
       "motivo_en": "QC round 2: LRC fixed (Saúl's OK)"
@@ -37039,10 +37053,10 @@
       "originalTrackId": "",
       "titulo": "Solo Tu",
       "artista": "Jaci Velasquez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2: LRC corregido (OK de Saúl)",
-      "actualizado": "2026-10-22T10:48:41Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T10:53:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37066,20 +37080,26 @@
             "t": "2026-10-07T00:58:15Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (44 lineas, 194 WIT con DT, 2 PIT); falta abrir borrador",
-            "t": "2026-10-07T00:58:16Z"
+            "v": "ok",
+            "nota": "draft EN en pending_review: 44 lineas, 0 WIT vacios, wit_dt_audit BAD 0; L1/L2 WIT re-enviado",
+            "t": "2026-10-22T10:53:41Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "tilde de mas en 'cuando' (L1 w1, L2 w1; L1 w3 ya sin tilde): corregir LRC y remapear al item sin tilde; resto verificado OK",
-            "t": "2026-10-21T17:20:54Z"
+            "v": "ok",
+            "nota": "QC r2: fix de tilde L1/L2 correcto (cuando conj, WIT when), estructura/timing/ingles/DT OK; hallazgos qc_es justificados",
+            "t": "2026-10-22T10:53:36Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "tilde de mas en 'cuando' (L1 w1, L2 w1; L1 w3 ya sin tilde): corregir LRC y remapear al item sin tilde; resto verificado OK",
-          "t": "2026-10-21T17:20:54Z"
+          "v": "VERDE",
+          "resumen": "QC r2: fix de tilde L1/L2 correcto (cuando conj, WIT when), estructura/timing/ingles/DT OK; hallazgos qc_es justificados",
+          "t": "2026-10-22T10:53:36Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T10:53:43Z"
         }
       },
       "motivo_en": "QC round 2: LRC fixed (Saúl's OK)"
@@ -37481,10 +37501,10 @@
       "originalTrackId": "",
       "titulo": "Mi Arbol Y Yo",
       "artista": "Alberto Cortez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2: LRC corregido (OK de Saúl)",
-      "actualizado": "2026-10-22T10:48:41Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T10:56:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37508,20 +37528,26 @@
             "t": "2026-10-07T01:08:34Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "inglés preparado en en_plan.json (46 líneas + 232 WIT con DT de su bolsa); falta abrir el borrador",
-            "t": "2026-10-07T01:08:55Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 46/46 lineas, 0 WIT vacios, BAD 0",
+            "t": "2026-10-22T10:56:40Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L19 t4 errata (WIT surplus vs line shade), L26 t1 y L43 t1 tilde de ortografia vieja, ejemplo copiado en item veintitantos; resto OK",
-            "t": "2026-10-21T14:19:11Z"
+            "v": "ok",
+            "nota": "r2: LRC fix verificado (L19, L26, L43), anclas y WIT correctos, 0 BAD, 46/46 ingles en pending_review, hallazgos restantes justificados",
+            "t": "2026-10-22T10:56:33Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L19 t4 errata (WIT surplus vs line shade), L26 t1 y L43 t1 tilde de ortografia vieja, ejemplo copiado en item veintitantos; resto OK",
-          "t": "2026-10-21T14:19:11Z"
+          "v": "VERDE",
+          "resumen": "r2: LRC fix verificado (L19, L26, L43), anclas y WIT correctos, 0 BAD, 46/46 ingles en pending_review, hallazgos restantes justificados",
+          "t": "2026-10-22T10:56:33Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T10:56:41Z"
         }
       },
       "motivo_en": "QC round 2: LRC fixed (Saúl's OK)"
@@ -37663,10 +37689,10 @@
       "originalTrackId": "",
       "titulo": "Se Acabo",
       "artista": "Chino & Nacho, Sanluis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2: LRC corregido (OK de Saúl)",
-      "actualizado": "2026-10-22T10:48:42Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T10:57:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37690,20 +37716,26 @@
             "t": "2026-10-07T01:09:43Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "preparado en en_plan.json (63 lineas, 310 WIT); falta abrir el borrador",
-            "t": "2026-10-07T01:09:43Z"
+            "v": "ok",
+            "nota": "draft pending_review verificado: 63 lineas, 0 WIT vacios, BAD 0",
+            "t": "2026-10-22T10:57:51Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "estructura, timing, audio, ingles y items nuevos OK; faltan: L24 tok1 fragmento roto sin arreglar, L17 y L37 tok1 sin tilde (que->qué exclamativo) con remapeo",
-            "t": "2026-10-21T15:01:41Z"
+            "v": "ok",
+            "nota": "r2: L24 aux+verbo mapeado e ingles ok, L17/L37 tilde ok, 0 fuera de rango, BAD 0, 0 WIT vacios, draft pending_review; nota: L24 w1 solapa 380 ms con L23 w2",
+            "t": "2026-10-22T10:57:44Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "estructura, timing, audio, ingles y items nuevos OK; faltan: L24 tok1 fragmento roto sin arreglar, L17 y L37 tok1 sin tilde (que->qué exclamativo) con remapeo",
-          "t": "2026-10-21T15:01:41Z"
+          "v": "VERDE",
+          "resumen": "r2: L24 aux+verbo mapeado e ingles ok, L17/L37 tilde ok, 0 fuera de rango, BAD 0, 0 WIT vacios, draft pending_review; nota: L24 w1 solapa 380 ms con L23 w2",
+          "t": "2026-10-22T10:57:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T10:57:53Z"
         }
       },
       "motivo_en": "QC round 2: LRC fixed (Saúl's OK)"
@@ -38265,10 +38297,10 @@
       "originalTrackId": "",
       "titulo": "Mienteme",
       "artista": "David Bisbal, Elena Gadel",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T01:23:31Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T10:57:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38292,12 +38324,13 @@
             "t": "2026-10-07T01:23:30Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan completo en en_plan.json (62 lineas, 404 WIT con DT, wit_dt_audit BAD 0); falta abrir el borrador",
-            "t": "2026-10-07T01:23:31Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T10:57:50Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa66c7872ca57eb1a9e50c3",
@@ -47298,7 +47331,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "QC r2: LRC corregido (OK de Saúl)",
-      "actualizado": "2026-10-22T10:48:43Z",
+      "actualizado": "2026-10-22T10:57:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47327,15 +47360,15 @@
             "t": "2026-10-07T03:53:56Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "errata de ortografia en palabra 2 de lineas 13 y 31 (ancla ya al participio, texto sin arreglar); resto OK",
-            "t": "2026-10-21T14:24:01Z"
+            "v": "ok",
+            "nota": "r2: fix de LRC (L13/L31 w2) verificado, estructura, mapeo e ingles OK; nota de oido L22",
+            "t": "2026-10-22T10:57:51Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "errata de ortografia en palabra 2 de lineas 13 y 31 (ancla ya al participio, texto sin arreglar); resto OK",
-          "t": "2026-10-21T14:24:01Z"
+          "v": "VERDE",
+          "resumen": "r2: fix de LRC (L13/L31 w2) verificado, estructura, mapeo e ingles OK; nota de oido L22",
+          "t": "2026-10-22T10:57:51Z"
         }
       },
       "motivo_en": "QC round 2: LRC fixed (Saúl's OK)"
@@ -50092,10 +50125,10 @@
       "originalTrackId": "",
       "titulo": "Porque Te Quiero",
       "artista": "los Angeles Negros",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T05:33:24Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T10:57:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50119,12 +50152,13 @@
             "t": "2026-10-07T05:33:24Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (29 lineas, 150 WIT), falta abrir el borrador",
-            "t": "2026-10-07T05:33:24Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T10:57:53Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa5840442b8d1fdb0cf19f2",
@@ -50995,10 +51029,10 @@
       "originalTrackId": "",
       "titulo": "Que No Se Entere",
       "artista": "Alicia Villarreal",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T05:47:55Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-22T10:57:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51022,12 +51056,13 @@
             "t": "2026-10-07T05:47:54Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan de ingles en en_plan.json (24 lineas, 150 WIT); falta abrir el borrador",
-            "t": "2026-10-07T05:47:54Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-22T10:57:52Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa54f6642b8d1fdb0cba0cf",
