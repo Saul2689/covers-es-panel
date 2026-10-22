@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T15:02:37Z",
+  "generado": "2026-10-22T15:06:55Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -42311,10 +42311,10 @@
       "originalTrackId": "",
       "titulo": "Tu Angel De La Guarda",
       "artista": "Gloria Trevi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T15:02:37Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:05:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42343,15 +42343,21 @@
             "t": "2026-10-22T14:55:09Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "Linea 5 tokens 1-2: phrase insight apunta a item en-language sin traduccion ni PIT; hay item es 6acf9bd3. Resto verde",
-            "t": "2026-10-22T15:00:14Z"
+            "v": "ok",
+            "nota": "r2: linea 5 locucion es con PIT, corchete en frase propia, ingles pending_review, BAD 0, guard SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T15:05:14Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "Linea 5 tokens 1-2: phrase insight apunta a item en-language sin traduccion ni PIT; hay item es 6acf9bd3. Resto verde",
-          "t": "2026-10-22T15:00:14Z"
+          "v": "VERDE",
+          "resumen": "r2: linea 5 locucion es con PIT, corchete en frase propia, ingles pending_review, BAD 0, guard SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T15:05:14Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:05:10Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -52515,10 +52521,10 @@
       "originalTrackId": "",
       "titulo": "Concavo Y Convexo",
       "artista": "Jose Feliciano",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T15:02:35Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:05:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52547,15 +52553,21 @@
             "t": "2026-10-22T14:40:30Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 phrase-anchor defects: line 60 PI shifted by one and out of range; line 3 PI wrong sense (comparative, not the idiom)",
-            "t": "2026-10-22T14:56:07Z"
+            "v": "ok",
+            "nota": "ronda 2: anclas de frase L3 y L60 corregidas y verificadas; estructura, inglés (pending_review, 68/68, BAD 0, WIT vacíos 0), audio SUENA_SIN_BLINDAR ok",
+            "t": "2026-10-22T15:05:12Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 phrase-anchor defects: line 60 PI shifted by one and out of range; line 3 PI wrong sense (comparative, not the idiom)",
-          "t": "2026-10-22T14:56:07Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: anclas de frase L3 y L60 corregidas y verificadas; estructura, inglés (pending_review, 68/68, BAD 0, WIT vacíos 0), audio SUENA_SIN_BLINDAR ok",
+          "t": "2026-10-22T15:05:12Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:05:13Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -52621,10 +52633,10 @@
       "originalTrackId": "",
       "titulo": "Que Solo Estoy Sin Ti",
       "artista": "Banda El Recodo",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T15:02:36Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:05:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52653,15 +52665,21 @@
             "t": "2026-10-22T14:55:07Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "estructura, anclas, WIT/DT, audio OK; linea 6: phrase insight de afecto sobre uso literal (PIT no encaja con la linea)",
-            "t": "2026-10-22T14:59:25Z"
+            "v": "ok",
+            "nota": "r2: fix de L6 verificado (sin PI), checklist completa OK, ingles pending_review",
+            "t": "2026-10-22T15:05:40Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "estructura, anclas, WIT/DT, audio OK; linea 6: phrase insight de afecto sobre uso literal (PIT no encaja con la linea)",
-          "t": "2026-10-22T14:59:25Z"
+          "v": "VERDE",
+          "resumen": "r2: fix de L6 verificado (sin PI), checklist completa OK, ingles pending_review",
+          "t": "2026-10-22T15:05:40Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:05:42Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -52811,10 +52829,10 @@
       "originalTrackId": "",
       "titulo": "Aunque Mal Paguen Ellas",
       "artista": "Roberto Carlos, Vicente Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T15:02:36Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:05:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52843,15 +52861,21 @@
             "t": "2026-10-22T14:55:10Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "Un fallo: linea 13 palabras 2-3, phrase insight 'te quiero' (PIT 'I love you') contradice el sentido de la linea (querer + infinitivo); quitarlo y reabrir/reenviar el draft EN. Resto verificado OK.",
-            "t": "2026-10-22T14:59:53Z"
+            "v": "ok",
+            "nota": "r2: fix de la locucion de la linea 13 verificado; estructura, mapeo, ingles (pending_review, 55/55, WIT vacios 0, wit_dt BAD 0) y audio SUENA_SIN_BLINDAR ok",
+            "t": "2026-10-22T15:05:29Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "Un fallo: linea 13 palabras 2-3, phrase insight 'te quiero' (PIT 'I love you') contradice el sentido de la linea (querer + infinitivo); quitarlo y reabrir/reenviar el draft EN. Resto verificado OK.",
-          "t": "2026-10-22T14:59:53Z"
+          "v": "VERDE",
+          "resumen": "r2: fix de la locucion de la linea 13 verificado; estructura, mapeo, ingles (pending_review, 55/55, WIT vacios 0, wit_dt BAD 0) y audio SUENA_SIN_BLINDAR ok",
+          "t": "2026-10-22T15:05:29Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:05:30Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
