@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T14:05:17Z",
+  "generado": "2026-10-22T14:08:20Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -40381,10 +40381,10 @@
       "originalTrackId": "",
       "titulo": "Me Has Echado Al Olvido",
       "artista": "Jose Feliciano",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "anclar phrase insights L2 w6-8 (a mi lado) y L3 w3-4 (por fin) con PIT en el draft y reenviar a pending_review",
-      "actualizado": "2026-10-22T14:05:07Z",
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T14:08:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40424,7 +40424,7 @@
           "t": "2026-10-22T14:05:07Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6ab230d0ca8a8ee8c446f94e",
@@ -40472,10 +40472,10 @@
       "originalTrackId": "",
       "titulo": "Hoy Me Ire De Casa",
       "artista": "Gloria Trevi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T14:05:17Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T14:08:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40504,15 +40504,21 @@
             "t": "2026-10-22T13:57:54Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "alcanza (lineas 12,16,32,36 palabra 10) ancla al item de sentido 'bastar'; existe item correcto 6ac5b358eb10045239e6a31f (alcanzar/atrapar)",
-            "t": "2026-10-22T14:02:40Z"
+            "v": "ok",
+            "nota": "r2: fix de alcanza (L12/16/32/36 w10) verificado; checklist completa limpia, wit_dt_audit BAD 0, gemelas ok, EN pending_review 40/40",
+            "t": "2026-10-22T14:08:06Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "alcanza (lineas 12,16,32,36 palabra 10) ancla al item de sentido 'bastar'; existe item correcto 6ac5b358eb10045239e6a31f (alcanzar/atrapar)",
-          "t": "2026-10-22T14:02:40Z"
+          "v": "VERDE",
+          "resumen": "r2: fix de alcanza (L12/16/32/36 w10) verificado; checklist completa limpia, wit_dt_audit BAD 0, gemelas ok, EN pending_review 40/40",
+          "t": "2026-10-22T14:08:06Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T14:08:07Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
