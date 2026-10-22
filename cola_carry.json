@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T11:02:17Z",
+  "generado": "2026-10-22T11:06:39Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -33547,10 +33547,10 @@
       "originalTrackId": "",
       "titulo": "Ases Y Tercia De Reyes",
       "artista": "Juan Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "QC r3: línea 9 palabra 1 anclada",
-      "actualizado": "2026-10-22T10:56:16Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:04:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -33574,20 +33574,26 @@
             "t": "2026-10-06T23:13:52Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo, falta abrir el borrador",
-            "t": "2026-10-06T23:15:13Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 28 lineas, WIT sin huecos, BAD 0 (QC r3)",
+            "t": "2026-10-22T11:04:18Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 2: LRC, merges de L8/18/26, tildes, gemelas, DT e ingles OK; falta mapear L9 p1 (interjeccion, item existente) y su WIT en el borrador",
-            "t": "2026-10-22T10:54:01Z"
+            "v": "ok",
+            "nota": "r3: linea 9 pal 1 anclada (interjeccion), estructura, WIT BAD 0, 28/28 ingles pending_review, drift 0, sin regresiones",
+            "t": "2026-10-22T11:04:13Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 2: LRC, merges de L8/18/26, tildes, gemelas, DT e ingles OK; falta mapear L9 p1 (interjeccion, item existente) y su WIT en el borrador",
-          "t": "2026-10-22T10:54:01Z"
+          "v": "VERDE",
+          "resumen": "r3: linea 9 pal 1 anclada (interjeccion), estructura, WIT BAD 0, 28/28 ingles pending_review, drift 0, sin regresiones",
+          "t": "2026-10-22T11:04:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:04:20Z"
         }
       },
       "motivo_en": "QC round 3: line 9 word 1 anchored"
@@ -53811,10 +53817,10 @@
       "originalTrackId": "",
       "titulo": "Yo Quiero Ser",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2: LRC corregido (OK de Saúl)",
-      "actualizado": "2026-10-22T10:48:44Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:05:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53823,9 +53829,9 @@
             "t": "2026-10-07T06:35:58Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "lrc_plan_fix se niega (linea 33: palabra extra vacia con tiempo en el richsync, 7 vs 6 tokens); sin editar: tilde de quien en lineas 2 y 25 (relativo) y espacio final de la linea 33",
-            "t": "2026-10-07T06:35:58Z"
+            "v": "ok",
+            "nota": "LRC corregido 22 oct (OK Saul): lineas 2, 25 y 33; richsync=tokens",
+            "t": "2026-10-22T11:05:03Z"
           },
           "timing": {
             "v": "ok",
@@ -53844,14 +53850,20 @@
           },
           "qc": {
             "v": "ok",
-            "nota": "r2: punto de r1 (L5 w1) corregido; estructura, sentidos, ingles en borrador pending_review, timing y audio sin defectos",
-            "t": "2026-10-21T13:30:17Z"
+            "nota": "r2 post-fix: LRC lineas 2/25/33 correctas, richsync=tokens 156, timing 0, ingles 33/33 draft pending_review, BAD 0",
+            "t": "2026-10-22T11:04:55Z"
           }
         },
         "qc": {
           "v": "VERDE",
-          "resumen": "r2: punto de r1 (L5 w1) corregido; estructura, sentidos, ingles en borrador pending_review, timing y audio sin defectos",
-          "t": "2026-10-21T13:30:17Z"
+          "resumen": "r2 post-fix: LRC lineas 2/25/33 correctas, richsync=tokens 156, timing 0, ingles 33/33 draft pending_review, BAD 0",
+          "t": "2026-10-22T11:04:55Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:05:04Z"
         }
       },
       "motivo_en": "QC round 2: LRC fixed (Saúl's OK)"
@@ -54692,10 +54704,10 @@
       "originalTrackId": "",
       "titulo": "Amigo En El Baño",
       "artista": "Kany Garcia",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2: LRC corregido (OK de Saúl)",
-      "actualizado": "2026-10-22T10:48:45Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:06:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54719,20 +54731,26 @@
             "t": "2026-10-07T06:55:23Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
-            "t": "2026-10-07T06:55:23Z"
+            "v": "ok",
+            "nota": "draft pending_review verificado en QC r2 (50 lineas, 0 WIT vacios)",
+            "t": "2026-10-22T11:06:31Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "wrong-sense items for future/conditional of decir (l13/27/39 w3, l31 w4); misspelled one-word porque at l48 w4 must be two words",
-            "t": "2026-10-21T17:22:48Z"
+            "v": "ok",
+            "nota": "QC r2: linea 48 dividida bien, frase tener por qué completa, 0 anclas fuera de rango, ingles pending_review, BAD 0",
+            "t": "2026-10-22T11:06:26Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "wrong-sense items for future/conditional of decir (l13/27/39 w3, l31 w4); misspelled one-word porque at l48 w4 must be two words",
-          "t": "2026-10-21T17:22:48Z"
+          "v": "VERDE",
+          "resumen": "QC r2: linea 48 dividida bien, frase tener por qué completa, 0 anclas fuera de rango, ingles pending_review, BAD 0",
+          "t": "2026-10-22T11:06:26Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:06:32Z"
         }
       },
       "motivo_en": "QC round 2: LRC fixed (Saúl's OK)"
@@ -55005,10 +55023,10 @@
       "originalTrackId": "",
       "titulo": "Que No Te Daria Yo",
       "artista": "Alejandro Sanz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2: LRC corregido (OK de Saúl)",
-      "actualizado": "2026-10-22T10:48:45Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:04:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55037,15 +55055,21 @@
             "t": "2026-10-07T09:17:35Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "linea 20 palabra 1: tilde sobra (aun + gerundio = incluso); resto verificado: estructura, timing, mapeo, ingles pending_review, audio sin blindar",
-            "t": "2026-10-21T13:34:19Z"
+            "v": "ok",
+            "nota": "r2: tilde de mas en l20 w1 corregida (LRC+richsync), ancla a item aun, WIT even, BAD 0, estructura y timing OK",
+            "t": "2026-10-22T11:04:38Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "linea 20 palabra 1: tilde sobra (aun + gerundio = incluso); resto verificado: estructura, timing, mapeo, ingles pending_review, audio sin blindar",
-          "t": "2026-10-21T13:34:19Z"
+          "v": "VERDE",
+          "resumen": "r2: tilde de mas en l20 w1 corregida (LRC+richsync), ancla a item aun, WIT even, BAD 0, estructura y timing OK",
+          "t": "2026-10-22T11:04:38Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:04:39Z"
         }
       },
       "motivo_en": "QC round 2: LRC fixed (Saúl's OK)"
