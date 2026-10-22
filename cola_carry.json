@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T12:32:38Z",
+  "generado": "2026-10-22T12:37:22Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -35444,10 +35444,10 @@
       "originalTrackId": "",
       "titulo": "Es El Amor Quien Llega",
       "artista": "Ana Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T12:28:25Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T12:34:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35476,15 +35476,21 @@
             "t": "2026-10-22T12:13:20Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L21/38/43 tok8 verbo mal escrito (preterito por subjuntivo) y WIT que no encaja con el ingles; L32 tok2 item de otro sentido (pega=pegar/golpear); resto verde",
-            "t": "2026-10-22T12:22:50Z"
+            "v": "ok",
+            "nota": "r2: L21/38/43 t8 subjuntivo sin tilde + item atrapar y L32 t2 item nuevo pegar verificados; estructura, timing, EN pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T12:34:55Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L21/38/43 tok8 verbo mal escrito (preterito por subjuntivo) y WIT que no encaja con el ingles; L32 tok2 item de otro sentido (pega=pegar/golpear); resto verde",
-          "t": "2026-10-22T12:22:50Z"
+          "v": "VERDE",
+          "resumen": "r2: L21/38/43 t8 subjuntivo sin tilde + item atrapar y L32 t2 item nuevo pegar verificados; estructura, timing, EN pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T12:34:55Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T12:34:56Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -36134,10 +36140,10 @@
       "originalTrackId": "",
       "titulo": "Mirame",
       "artista": "Nikki Clan",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T12:32:37Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T12:35:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36166,15 +36172,21 @@
             "t": "2026-10-22T12:26:12Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "R1: L1 phrase insight on words 4-5 is the wrong phrase for that line (PIT contradicts the English); L8/L23/L42 PIT does not match the line English; rest verified",
-            "t": "2026-10-22T12:31:19Z"
+            "v": "ok",
+            "nota": "r2: r1 fixes confirmed (L1 w4-5 phrase insight removed; L8/L23/L42 PIT now matches line); full checklist clean, BAD 0, 0 empty WITs, draft pending_review",
+            "t": "2026-10-22T12:35:23Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "R1: L1 phrase insight on words 4-5 is the wrong phrase for that line (PIT contradicts the English); L8/L23/L42 PIT does not match the line English; rest verified",
-          "t": "2026-10-22T12:31:19Z"
+          "v": "VERDE",
+          "resumen": "r2: r1 fixes confirmed (L1 w4-5 phrase insight removed; L8/L23/L42 PIT now matches line); full checklist clean, BAD 0, 0 empty WITs, draft pending_review",
+          "t": "2026-10-22T12:35:23Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T12:35:25Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -36423,9 +36435,9 @@
       "titulo": "La Vida Sigue Igual",
       "artista": "Sandro",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T12:26:14Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-22T12:36:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36452,10 +36464,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T12:26:14Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "3 fixes: frase 'al final' sin anclar en 17 lineas, L16 ingles contradice texto/PIT, L8 t0 'y' sentido erroneo vs L20",
+            "t": "2026-10-22T12:33:41Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "3 fixes: frase 'al final' sin anclar en 17 lineas, L16 ingles contradice texto/PIT, L8 t0 'y' sentido erroneo vs L20",
+          "t": "2026-10-22T12:33:41Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa641df72ca57eb1a9ac441",
@@ -36503,10 +36525,10 @@
       "originalTrackId": "",
       "titulo": "No Discutamos",
       "artista": "Juan Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T12:26:15Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T12:35:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36533,7 +36555,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T12:26:14Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: 0 unmapped, BAD 0, 0 empty WIT, 26/26 EN lines pending_review, drift 0, guard SUENA_SIN_BLINDAR; qc_es leftovers are ear-notes (L4, L15, L17-22)",
+            "t": "2026-10-22T12:35:57Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: 0 unmapped, BAD 0, 0 empty WIT, 26/26 EN lines pending_review, drift 0, guard SUENA_SIN_BLINDAR; qc_es leftovers are ear-notes (L4, L15, L17-22)",
+          "t": "2026-10-22T12:35:57Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T12:35:58Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
