@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T10:27:48Z",
+  "generado": "2026-10-22T10:32:43Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -42778,10 +42778,10 @@
       "originalTrackId": "",
       "titulo": "Tu Y Yo",
       "artista": "Thalía",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2: LRC corregido",
-      "actualizado": "2026-10-22T10:27:47Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T10:32:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42805,20 +42805,26 @@
             "t": "2026-10-07T02:37:57Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "Inglés preparado en en_plan.json (62 líneas, 362 WIT, 21 PIT); falta abrir el borrador",
-            "t": "2026-10-07T02:37:58Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 62/62 lineas, WIT sin vacios, wit_dt BAD 0",
+            "t": "2026-10-22T10:32:31Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "tilde faltante en 'qué' exclamativo (l19 p6, l22 p2, l37 p6, l46 p6, l60 p3) y 'quién' (l26 p3) con remapeo; vivirlo wordForm BASE->INFINITIVE; justificar falta l42 p1",
-            "t": "2026-10-22T10:10:17Z"
+            "v": "ok",
+            "nota": "ronda 2: tildes qué/quién, vivirlo INFINITIVE y linea 42 verificados; estructura, mapeo, ingles draft pending_review, wit_dt BAD 0",
+            "t": "2026-10-22T10:32:26Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "tilde faltante en 'qué' exclamativo (l19 p6, l22 p2, l37 p6, l46 p6, l60 p3) y 'quién' (l26 p3) con remapeo; vivirlo wordForm BASE->INFINITIVE; justificar falta l42 p1",
-          "t": "2026-10-22T10:10:17Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: tildes qué/quién, vivirlo INFINITIVE y linea 42 verificados; estructura, mapeo, ingles draft pending_review, wit_dt BAD 0",
+          "t": "2026-10-22T10:32:26Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T10:32:33Z"
         }
       },
       "motivo_en": "QC round 2: LRC fixed"
@@ -47651,10 +47657,10 @@
       "originalTrackId": "",
       "titulo": "Si Tu Te Alejas",
       "artista": "Elvis Crespo",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2: LRC corregido",
-      "actualizado": "2026-10-22T10:27:47Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T10:31:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47678,20 +47684,26 @@
             "t": "2026-10-07T04:08:03Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (53 lineas, 266 WIT con DT, 6 PIT); falta abrir el borrador",
-            "t": "2026-10-07T04:09:59Z"
+            "v": "ok",
+            "nota": "53 lineas, 267 WIT, 10 PIT en borrador pending_review (reenviado tras fix L32 w22); wit_dt BAD 0",
+            "t": "2026-10-22T10:31:52Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r1: line 32 w22 misspelled+unmapped; WIT 'from' should be 'of' (line 30 w7, line 45 w1); tomalo wordForm BASE->FINITE; reopen EN draft and resubmit",
-            "t": "2026-10-22T09:37:45Z"
+            "v": "ok",
+            "nota": "QC r2: fixes de r1 y LRC verificados (L32 w22 con tilde y ancla, de=of L30/L45, tomalo FINITE), 273/273, ingles 53/53 pending_review, wit_dt BAD 0, drift 0",
+            "t": "2026-10-22T10:31:46Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r1: line 32 w22 misspelled+unmapped; WIT 'from' should be 'of' (line 30 w7, line 45 w1); tomalo wordForm BASE->FINITE; reopen EN draft and resubmit",
-          "t": "2026-10-22T09:37:45Z"
+          "v": "VERDE",
+          "resumen": "QC r2: fixes de r1 y LRC verificados (L32 w22 con tilde y ancla, de=of L30/L45, tomalo FINITE), 273/273, ingles 53/53 pending_review, wit_dt BAD 0, drift 0",
+          "t": "2026-10-22T10:31:46Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T10:31:53Z"
         }
       },
       "motivo_en": "QC round 2: LRC fixed"
@@ -51960,10 +51972,10 @@
       "originalTrackId": "",
       "titulo": "No",
       "artista": "Ednita Nazario, Natalia Jimenez la 5ª Estacion, Natalia Jimenez la 5Ta Estacion",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2: LRC corregido",
-      "actualizado": "2026-10-22T10:27:46Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T10:30:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51987,20 +51999,26 @@
             "t": "2026-10-07T06:09:11Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en en_plan.json (73 lineas, 428 WIT, 17 PIT); falta abrir el borrador",
-            "t": "2026-10-07T06:11:00Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 73/73 lineas, WIT sin vacios, wit_dt BAD 0",
+            "t": "2026-10-22T10:30:58Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "R1: accent missing on the future verb (lines 26, 54, 67 word 1); English WIT of/from wrong at line 2 and line 31 word 1; rest clean",
-            "t": "2026-10-22T10:11:48Z"
+            "v": "ok",
+            "nota": "r2: tilde futuro l26/54/67 y WIT l2/l31 arreglados; estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T10:30:53Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "R1: accent missing on the future verb (lines 26, 54, 67 word 1); English WIT of/from wrong at line 2 and line 31 word 1; rest clean",
-          "t": "2026-10-22T10:11:48Z"
+          "v": "VERDE",
+          "resumen": "r2: tilde futuro l26/54/67 y WIT l2/l31 arreglados; estructura, mapeo, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T10:30:53Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T10:30:59Z"
         }
       },
       "motivo_en": "QC round 2: LRC fixed"
@@ -54501,10 +54519,10 @@
       "originalTrackId": "",
       "titulo": "Cisne Cuello Negro",
       "artista": "Basilio",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2: LRC corregido",
-      "actualizado": "2026-10-22T10:27:46Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T10:32:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54528,20 +54546,26 @@
             "t": "2026-10-07T06:48:08Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
-            "t": "2026-10-07T06:48:08Z"
+            "v": "ok",
+            "nota": "28 lineas, borrador en pending_review, wit_dt_audit BAD 0",
+            "t": "2026-10-22T10:32:15Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L17 tok3 truncado (forma completa en gemelas 4/8/21); PI de L12/13/25/26 tok1-2 con sentido equivocado; reabrir ingles",
-            "t": "2026-10-22T09:35:23Z"
+            "v": "ok",
+            "nota": "ronda 2: L17 t3 y PIs de L12/13/25/26 corregidos; estructura, mapeo, ingles (pending_review, BAD 0) y audio OK",
+            "t": "2026-10-22T10:32:09Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L17 tok3 truncado (forma completa en gemelas 4/8/21); PI de L12/13/25/26 tok1-2 con sentido equivocado; reabrir ingles",
-          "t": "2026-10-22T09:35:23Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: L17 t3 y PIs de L12/13/25/26 corregidos; estructura, mapeo, ingles (pending_review, BAD 0) y audio OK",
+          "t": "2026-10-22T10:32:09Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T10:32:17Z"
         }
       },
       "motivo_en": "QC round 2: LRC fixed"
