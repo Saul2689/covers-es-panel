@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T15:09:35Z",
+  "generado": "2026-10-22T15:15:07Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -42448,10 +42448,10 @@
       "originalTrackId": "",
       "titulo": "Que Sabe Nadie",
       "artista": "Raphael",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T15:09:31Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:13:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42478,7 +42478,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T15:09:30Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, frases, ingles (draft pending_review, DT BAD 0), timing drift 0 y audio SUENA_SIN_BLINDAR ok; residuo qc_es justificado",
+            "t": "2026-10-22T15:13:23Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, frases, ingles (draft pending_review, DT BAD 0), timing drift 0 y audio SUENA_SIN_BLINDAR ok; residuo qc_es justificado",
+          "t": "2026-10-22T15:13:23Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:13:24Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -52761,10 +52777,10 @@
       "originalTrackId": "",
       "titulo": "Sapo Azul",
       "artista": "Lola",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:55:08Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:12:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52791,7 +52807,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:55:08Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura 0 defectos, mapeo y sentidos OK, ingles pending_review 39/39 lineas y 147/147 WIT con texto, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR; hallazgos qc_es justificados (ad-libs, fragmentos igual que el original, tilde correcta)",
+            "t": "2026-10-22T15:11:57Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura 0 defectos, mapeo y sentidos OK, ingles pending_review 39/39 lineas y 147/147 WIT con texto, wit_dt_audit BAD 0, audio SUENA_SIN_BLINDAR; hallazgos qc_es justificados (ad-libs, fragmentos igual que el original, tilde correcta)",
+          "t": "2026-10-22T15:11:57Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:12:01Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -52963,10 +52995,10 @@
       "originalTrackId": "",
       "titulo": "Hoy He Empezado A Quererte Otra Vez",
       "artista": "Dyango",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T14:55:11Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T15:12:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52993,7 +53025,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T14:55:10Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles (pending_review) y audio OK; notas de oido en lineas 6, 7, huecos antes de 17 y 32",
+            "t": "2026-10-22T15:12:18Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles (pending_review) y audio OK; notas de oido en lineas 6, 7, huecos antes de 17 y 32",
+          "t": "2026-10-22T15:12:18Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T15:12:19Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
