@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T10:00:38Z",
+  "generado": "2026-10-22T10:10:59Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -42762,10 +42762,10 @@
       "originalTrackId": "",
       "titulo": "Tu Y Yo",
       "artista": "Thalía",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "QC r1",
-      "actualizado": "2026-10-22T10:00:37Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "espera a Saúl: cover publicada, faltan tildes en el LRC (qué en las líneas 19, 22, 37, 46 y 60; quién en la 26); el resto de QC r1 arreglado",
+      "actualizado": "2026-10-22T10:10:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42792,9 +42792,20 @@
             "v": "falta",
             "nota": "Inglés preparado en en_plan.json (62 líneas, 362 WIT, 21 PIT); falta abrir el borrador",
             "t": "2026-10-07T02:37:58Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "tilde faltante en 'qué' exclamativo (l19 p6, l22 p2, l37 p6, l46 p6, l60 p3) y 'quién' (l26 p3) con remapeo; vivirlo wordForm BASE->INFINITIVE; justificar falta l42 p1",
+            "t": "2026-10-22T10:10:17Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "tilde faltante en 'qué' exclamativo (l19 p6, l22 p2, l37 p6, l46 p6, l60 p3) y 'quién' (l26 p3) con remapeo; vivirlo wordForm BASE->INFINITIVE; justificar falta l42 p1",
+          "t": "2026-10-22T10:10:17Z"
         }
-      }
+      },
+      "motivo_en": "Waiting for Saúl: published cover, the LRC is missing accents (qué on lines 19, 22, 37, 46 and 60; quién on line 26); the rest of QC r1 is fixed"
     },
     {
       "coverTrackId": "6aa6555d72ca57eb1a9c3432",
