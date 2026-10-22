@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T12:47:06Z",
+  "generado": "2026-10-22T12:48:00Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -36894,10 +36894,10 @@
       "originalTrackId": "",
       "titulo": "Niña Hechicera",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T12:42:29Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T12:47:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36924,7 +36924,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T12:42:29Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura 41/41, 190/190 anclas, drift 0, ingles pending_review 41 lineas 0 WIT vacios, BAD 0; duda de oido L2/L13/L21/L32 token 1 (nota para Saul)",
+            "t": "2026-10-22T12:47:43Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura 41/41, 190/190 anclas, drift 0, ingles pending_review 41 lineas 0 WIT vacios, BAD 0; duda de oido L2/L13/L21/L32 token 1 (nota para Saul)",
+          "t": "2026-10-22T12:47:43Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T12:47:44Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
