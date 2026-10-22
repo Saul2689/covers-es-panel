@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T13:04:58Z",
+  "generado": "2026-10-22T13:07:25Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -37540,10 +37540,10 @@
       "originalTrackId": "",
       "titulo": "Que Te La Pongo",
       "artista": "Garibaldi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T12:58:56Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T13:05:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37570,7 +37570,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T12:58:55Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ronda 1: estructura, timing, mapeo, items nuevos e ingles (pending_review) OK; restos qc_es justificados; nota de oido en lineas 23-24",
+            "t": "2026-10-22T13:05:16Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "ronda 1: estructura, timing, mapeo, items nuevos e ingles (pending_review) OK; restos qc_es justificados; nota de oido en lineas 23-24",
+          "t": "2026-10-22T13:05:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T13:05:17Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
@@ -37621,10 +37637,10 @@
       "originalTrackId": "",
       "titulo": "Lamento",
       "artista": "Gian Marco",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T12:58:56Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T13:05:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37651,7 +37667,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T12:58:56Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: structure, timing, anchors, new items, English draft pending_review all OK; remaining qc_es findings justified",
+            "t": "2026-10-22T13:05:30Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: structure, timing, anchors, new items, English draft pending_review all OK; remaining qc_es findings justified",
+          "t": "2026-10-22T13:05:30Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T13:05:31Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
