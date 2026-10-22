@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T11:45:03Z",
+  "generado": "2026-10-22T11:45:41Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -38653,10 +38653,10 @@
       "originalTrackId": "",
       "titulo": "El Amor De Mi Vida",
       "artista": "Pablo Milanes",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-22T11:35:44Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:45:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38683,7 +38683,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-22T11:35:43Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, ingles pending_review, WIT/DT limpios; resto de hallazgos qc_es justificados",
+            "t": "2026-10-22T11:45:09Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, ingles pending_review, WIT/DT limpios; resto de hallazgos qc_es justificados",
+          "t": "2026-10-22T11:45:09Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:45:12Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
