@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T10:57:55Z",
+  "generado": "2026-10-22T11:02:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -46707,10 +46707,10 @@
       "originalTrackId": "",
       "titulo": "Noche De Amantes",
       "artista": "Sandro",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2: LRC corregido (OK de Saúl)",
-      "actualizado": "2026-10-22T10:48:42Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:01:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46720,8 +46720,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "LRC limpio: 0 cambios; sin puntuacion final, sin mayusculas medias; linea 10 posible palabra ausente (nota de oido)",
-            "t": "2026-10-07T03:44:26Z"
+            "nota": "LRC corregido 22 oct con OK de Saul (linea 9 palabra 4, linea 10 palabra 1), verificado",
+            "t": "2026-10-22T11:01:31Z"
           },
           "timing": {
             "v": "ok",
@@ -46734,20 +46734,26 @@
             "t": "2026-10-07T03:44:26Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (25 lineas, 118 WIT, 1 PIT); falta abrir el borrador",
-            "t": "2026-10-07T03:44:26Z"
+            "v": "ok",
+            "nota": "borrador en pending_review (22 oct), 25 lineas y 119 WIT, BAD 0",
+            "t": "2026-10-22T11:01:30Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "linea 9 palabra 4 mal escrita (falta una letra) y mapeada al sustantivo equivocado; reabrir ingles de esa linea. Linea 10 palabra 1: decidir o lrc saul",
-            "t": "2026-10-21T14:18:29Z"
+            "v": "ok",
+            "nota": "ronda 2: lineas 9 y 10 corregidas y re-mapeadas, 119 anclas ok, BAD 0, ingles 25/25 pending_review",
+            "t": "2026-10-22T11:01:21Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "linea 9 palabra 4 mal escrita (falta una letra) y mapeada al sustantivo equivocado; reabrir ingles de esa linea. Linea 10 palabra 1: decidir o lrc saul",
-          "t": "2026-10-21T14:18:29Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: lineas 9 y 10 corregidas y re-mapeadas, 119 anclas ok, BAD 0, ingles 25/25 pending_review",
+          "t": "2026-10-22T11:01:21Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:01:32Z"
         }
       },
       "motivo_en": "QC round 2: LRC fixed (Saúl's OK)"
@@ -47328,10 +47334,10 @@
       "originalTrackId": "",
       "titulo": "El Dolor De Tu Presencia",
       "artista": "Jennifer Peña",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2: LRC corregido (OK de Saúl)",
-      "actualizado": "2026-10-22T10:57:51Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T10:57:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47355,9 +47361,9 @@
             "t": "2026-10-07T03:53:55Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (36 líneas, 188 WIT, 5 PIT); falta abrir borrador",
-            "t": "2026-10-07T03:53:56Z"
+            "v": "ok",
+            "nota": "draft en pending_review (reenviado), 36 lineas y 188 WIT, wit_dt_audit BAD 0",
+            "t": "2026-10-22T10:57:56Z"
           },
           "qc": {
             "v": "ok",
@@ -47369,6 +47375,12 @@
           "v": "VERDE",
           "resumen": "r2: fix de LRC (L13/L31 w2) verificado, estructura, mapeo e ingles OK; nota de oido L22",
           "t": "2026-10-22T10:57:51Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T10:57:57Z"
         }
       },
       "motivo_en": "QC round 2: LRC fixed (Saúl's OK)"
@@ -49039,10 +49051,10 @@
       "originalTrackId": "",
       "titulo": "Preguntale",
       "artista": "Julio Iglesias",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2: LRC corregido (OK de Saúl)",
-      "actualizado": "2026-10-22T10:48:43Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:01:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49052,8 +49064,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "5 tildes arregladas (lineas 7, 14, 26, 32, 33); 2 ear-notes de forma verbal (lineas 32, 33 palabra 7); sin puntuacion final",
-            "t": "2026-10-07T04:26:49Z"
+            "nota": "tildes L7,14,26,32,33 corregidas (OK Saul 22 oct)",
+            "t": "2026-10-22T11:01:27Z"
           },
           "timing": {
             "v": "ok",
@@ -49066,20 +49078,26 @@
             "t": "2026-10-07T04:26:49Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado: 38 lineas, 167 WIT, 4 PIT; falta abrir el borrador",
-            "t": "2026-10-07T04:26:50Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, reenviado 22 oct tras el arreglo de LRC; 38/38 lineas, 0 WIT vacios",
+            "t": "2026-10-22T11:01:27Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 palabras de verbo en pasado (lineas 32 y 33, palabra 7) sin tilde final; resto correcto",
-            "t": "2026-10-21T14:59:20Z"
+            "v": "ok",
+            "nota": "r2: tildes L32/L33 t7 corregidas, LRC/timing/mapeo/ingles pending_review OK",
+            "t": "2026-10-22T11:01:21Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 palabras de verbo en pasado (lineas 32 y 33, palabra 7) sin tilde final; resto correcto",
-          "t": "2026-10-21T14:59:20Z"
+          "v": "VERDE",
+          "resumen": "r2: tildes L32/L33 t7 corregidas, LRC/timing/mapeo/ingles pending_review OK",
+          "t": "2026-10-22T11:01:21Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:01:28Z"
         }
       },
       "motivo_en": "QC round 2: LRC fixed (Saúl's OK)"
@@ -49608,10 +49626,10 @@
       "originalTrackId": "",
       "titulo": "Digale",
       "artista": "David Bisbal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "QC r3: LRC corregido (OK de Saúl)",
-      "actualizado": "2026-10-22T10:48:43Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:01:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49621,8 +49639,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "secciones generadas 36/36; acento en dignáme, mayusculas medias, coma final linea 33, comas gemelas 15/31; sin lineas acabadas en signo",
-            "t": "2026-10-07T04:38:28Z"
+            "nota": "lineas 10 y 17 corregidas segun gemelas (OK Saul 22 oct)",
+            "t": "2026-10-22T11:01:00Z"
           },
           "timing": {
             "v": "ok",
@@ -49635,20 +49653,26 @@
             "t": "2026-10-07T04:38:29Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (36 lineas, 224 WIT, 11 PIT), falta abrir el borrador",
-            "t": "2026-10-07T04:38:30Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 36/36 lineas, BAD 0, lineas 10 y 17 re-traducidas",
+            "t": "2026-10-22T11:01:00Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 tokens (linea 10 palabra 5 anclada a item distinto del token; linea 17 palabra 3) son errores del proveedor segun las gemelas del propio cover y el original; corregir, reabrir ingles y reenviar. Resto OK",
-            "t": "2026-10-21T16:57:53Z"
+            "v": "ok",
+            "nota": "ronda 3: lineas 10 y 17 ya iguales a sus gemelas (letra, ancla, WIT, ingles); estructura, timing, ingles borrador pending_review y BAD 0 OK",
+            "t": "2026-10-22T11:00:52Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 tokens (linea 10 palabra 5 anclada a item distinto del token; linea 17 palabra 3) son errores del proveedor segun las gemelas del propio cover y el original; corregir, reabrir ingles y reenviar. Resto OK",
-          "t": "2026-10-21T16:57:53Z"
+          "v": "VERDE",
+          "resumen": "ronda 3: lineas 10 y 17 ya iguales a sus gemelas (letra, ancla, WIT, ingles); estructura, timing, ingles borrador pending_review y BAD 0 OK",
+          "t": "2026-10-22T11:00:52Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:01:01Z"
         }
       },
       "motivo_en": "QC round 3: LRC fixed (Saúl's OK)"
@@ -49659,10 +49683,10 @@
       "originalTrackId": "",
       "titulo": "Misterios Del Amor",
       "artista": "Luis Miguel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r2: LRC corregido (OK de Saúl)",
-      "actualizado": "2026-10-22T10:48:44Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-22T11:01:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49686,20 +49710,26 @@
             "t": "2026-10-07T04:38:26Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
-            "t": "2026-10-07T04:38:26Z"
+            "v": "ok",
+            "nota": "borrador en pending_review verificado en QC ronda 2",
+            "t": "2026-10-22T11:01:22Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 defectos: linea 1 palabra 2 sin tilde (preterito, el original la lleva); linea 23 palabras 2-3 ancla de locucion con sentido distinto al de la linea",
-            "t": "2026-10-21T17:03:52Z"
+            "v": "ok",
+            "nota": "ronda 2: tilde de linea 1 palabra 2 corregida en LRC, frase de linea 23 quitada, ingles pending_review, wit_dt_audit BAD 0, deriva 0, guard SUENA_SIN_BLINDAR",
+            "t": "2026-10-22T11:01:16Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 defectos: linea 1 palabra 2 sin tilde (preterito, el original la lleva); linea 23 palabras 2-3 ancla de locucion con sentido distinto al de la linea",
-          "t": "2026-10-21T17:03:52Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: tilde de linea 1 palabra 2 corregida en LRC, frase de linea 23 quitada, ingles pending_review, wit_dt_audit BAD 0, deriva 0, guard SUENA_SIN_BLINDAR",
+          "t": "2026-10-22T11:01:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-22T11:01:23Z"
         }
       },
       "motivo_en": "QC round 2: LRC fixed (Saúl's OK)"
