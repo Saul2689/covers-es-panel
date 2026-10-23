@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T16:03:18Z",
+  "generado": "2026-10-23T16:13:28Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -48050,10 +48050,10 @@
       "originalTrackId": "",
       "titulo": "Tu Sabes Quien",
       "artista": "Alejandro Fernandez",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T16:03:14Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-10-23T16:09:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48080,9 +48080,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T16:03:14Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "tilde missing on the interrogative who: lines 1,2,5,6,13-16,25-27,35-37 all words, 27/37 w3, plus lines 3,4,7,9,17,18,19,28 to decide; line 20 w1 interrogative how needs tilde",
+            "t": "2026-10-23T16:09:52Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "tilde missing on the interrogative who: lines 1,2,5,6,13-16,25-27,35-37 all words, 27/37 w3, plus lines 3,4,7,9,17,18,19,28 to decide; line 20 w1 interrogative how needs tilde",
+          "t": "2026-10-23T16:09:52Z"
         }
-      }
+      },
+      "motivo_en": "Missing tilde on the interrogative who (about 46 tokens: lines 1,2,5,6,13-16,25,26,35,36 all words; 27 and 37 word 3; lines 3,4,7,9,17,18,19,28 in context) and on the interrogative how at line 20 word 1; remap anchors to tilde items, reopen English draft, resubmit."
     },
     {
       "coverTrackId": "6aa792be72ca57eb1acec7b2",
@@ -48455,10 +48466,10 @@
       "originalTrackId": "",
       "titulo": "Por Mas Que Intento",
       "artista": "Gilberto Santa Rosa",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:17:09Z",
+      "motivo": "MUDA_ARREGLABLE: el pin a stemVoc (+110 ms, conf 1.8) lo bloquea el clasificador; necesita OK de Saul o que lo haga el",
+      "actualizado": "2026-10-23T16:05:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48487,7 +48498,8 @@
             "t": "2026-10-07T09:17:09Z"
           }
         }
-      }
+      },
+      "motivo_en": "MUDA_ARREGLABLE: stemVoc pin (+110 ms, conf 1.8) blocked by the classifier; needs Saul"
     },
     {
       "coverTrackId": "6aa71dfc72ca57eb1aad05e5",
@@ -57550,10 +57562,10 @@
       "originalTrackId": "",
       "titulo": "Hay Amores Y Amores",
       "artista": "Rocio Durcal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T16:03:15Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-23T16:08:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -57580,7 +57592,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T16:03:15Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, mapeo, ingles (draft pending_review), litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; hallazgos qc_es justificados (lineas 12,13,25,27,32,33,45)",
+            "t": "2026-10-23T16:08:34Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, mapeo, ingles (draft pending_review), litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; hallazgos qc_es justificados (lineas 12,13,25,27,32,33,45)",
+          "t": "2026-10-23T16:08:34Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T16:08:36Z"
         }
       }
     },
@@ -57755,10 +57783,10 @@
       "originalTrackId": "",
       "titulo": "Quinceañera",
       "artista": "Timbiriche",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T16:03:16Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-23T16:09:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -57785,7 +57813,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T16:03:15Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, tildes, gemelas, ingles (draft pending_review), WIT/PIT y audio OK; nota de oido L15/L28 w1",
+            "t": "2026-10-23T16:09:33Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, tildes, gemelas, ingles (draft pending_review), WIT/PIT y audio OK; nota de oido L15/L28 w1",
+          "t": "2026-10-23T16:09:33Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T16:09:35Z"
         }
       }
     },
@@ -57847,10 +57891,10 @@
       "originalTrackId": "",
       "titulo": "Santiago Querido",
       "artista": "Leo Dan",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T16:03:17Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-23T16:09:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -57877,7 +57921,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T16:03:16Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, mapeo, gemelas, tildes, ingles y audio OK; hallazgos qc_es justificados (nombre propio, nota final, errata del original)",
+            "t": "2026-10-23T16:09:01Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, mapeo, gemelas, tildes, ingles y audio OK; hallazgos qc_es justificados (nombre propio, nota final, errata del original)",
+          "t": "2026-10-23T16:09:01Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T16:09:02Z"
         }
       }
     },
