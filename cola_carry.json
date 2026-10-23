@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T12:41:00Z",
+  "generado": "2026-10-23T12:58:22Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -45712,10 +45712,10 @@
       "originalTrackId": "",
       "titulo": "Ven Con El Alma Desnuda",
       "artista": "Emmanuel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T12:40:54Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T12:48:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45742,7 +45742,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T12:40:53Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, items nuevos, ingles pending_review y litchk/wit_dt_audit a 0; hallazgos justificados",
+            "t": "2026-10-23T12:48:36Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, items nuevos, ingles pending_review y litchk/wit_dt_audit a 0; hallazgos justificados",
+          "t": "2026-10-23T12:48:36Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T12:48:38Z"
         }
       }
     },
@@ -45775,9 +45791,9 @@
       "titulo": "Anoche No Dormi",
       "artista": "Kumbia All Starz",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T12:40:58Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T12:58:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45804,9 +45820,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T12:40:57Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "doubled subject WIT on line 43 w1-2; exclamative que without tilde on lines 1/7 w1 (anchor/spelling disagree)",
+            "t": "2026-10-23T12:53:12Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "doubled subject WIT on line 43 w1-2; exclamative que without tilde on lines 1/7 w1 (anchor/spelling disagree)",
+          "t": "2026-10-23T12:53:12Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned: doubled subject WIT and exclamative tilde on 2 lines, fixed; QC r2"
     },
     {
       "coverTrackId": "6aa6be1772ca57eb1aa4b4db",
@@ -55766,9 +55793,9 @@
       "titulo": "Ahora Se Que Me Quieres",
       "artista": "Formula V",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T12:40:55Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T12:58:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55795,9 +55822,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T12:40:55Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "tilde missing on the estar verb token, word 3 of lines 15/19/35/39/43/47/51 (misspelling x7, anchor to be remapped); everything else checked OK",
+            "t": "2026-10-23T12:48:39Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "tilde missing on the estar verb token, word 3 of lines 15/19/35/39/43/47/51 (misspelling x7, anchor to be remapped); everything else checked OK",
+          "t": "2026-10-23T12:48:39Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned: missing tilde on 7 lines, fixed and remapped; QC r2"
     },
     {
       "coverTrackId": "6aa6c3e072ca57eb1aa582a8",
@@ -55872,10 +55910,10 @@
       "originalTrackId": "",
       "titulo": "Tristes Recuerdos",
       "artista": "Ramon Ayala",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T12:40:57Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T12:48:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55902,7 +55940,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T12:40:56Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r1: findings justified, estructura/timing/mapeo/ingles OK, wit_dt_audit 0, litchk 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-23T12:48:13Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r1: findings justified, estructura/timing/mapeo/ingles OK, wit_dt_audit 0, litchk 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-23T12:48:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T12:48:15Z"
         }
       }
     },
