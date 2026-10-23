@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T09:55:22Z",
+  "generado": "2026-10-23T10:08:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -43691,10 +43691,10 @@
       "originalTrackId": "",
       "titulo": "Siempre En Mi Mente",
       "artista": "Alex Ubago",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T09:47:48Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T10:02:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43723,15 +43723,21 @@
             "t": "2026-10-23T09:38:25Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT duplica a su vecino: verbo conjugado con 'you' seguido de tu (L3,L4,L7,L8,L14 w2); resto verde",
-            "t": "2026-10-23T09:45:28Z"
+            "v": "ok",
+            "nota": "r2: arreglos de WIT verificados, gemelas identicas, estructura y mapeo limpios, wit_dt_audit BAD 0, ingles pending_review",
+            "t": "2026-10-23T10:02:43Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT duplica a su vecino: verbo conjugado con 'you' seguido de tu (L3,L4,L7,L8,L14 w2); resto verde",
-          "t": "2026-10-23T09:45:28Z"
+          "v": "VERDE",
+          "resumen": "r2: arreglos de WIT verificados, gemelas identicas, estructura y mapeo limpios, wit_dt_audit BAD 0, ingles pending_review",
+          "t": "2026-10-23T10:02:43Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T10:02:45Z"
         }
       },
       "motivo_en": "QC r1 returned (doubled you on verb WITs), fixed, QC r2"
@@ -43884,8 +43890,8 @@
       "artista": "Lolita",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:06:54Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T10:08:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43910,8 +43916,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:06:53Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T10:08:10Z"
           }
         }
       }
@@ -43935,8 +43941,8 @@
       "artista": "Roberto Lutti",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:06:54Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T10:08:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43961,8 +43967,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:06:54Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T10:08:12Z"
           }
         }
       }
@@ -44317,8 +44323,8 @@
       "artista": "Jerry Rivera",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:08:35Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T10:08:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44343,8 +44349,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:08:34Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T10:08:15Z"
           }
         }
       },
@@ -54511,8 +54517,8 @@
       "artista": "Pepe Aguilar",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:08:34Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T10:08:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54537,8 +54543,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:08:34Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T10:08:13Z"
           }
         }
       }
@@ -54551,8 +54557,8 @@
       "artista": "Alberto Cortez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:08:35Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T10:08:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54577,8 +54583,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:08:34Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T10:08:16Z"
           }
         }
       }
