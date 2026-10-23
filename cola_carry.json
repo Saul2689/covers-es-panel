@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T13:07:21Z",
+  "generado": "2026-10-23T13:17:53Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -45946,10 +45946,10 @@
       "originalTrackId": "",
       "titulo": "El Que Mas Te Ha Querido",
       "artista": "Dyango",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T13:07:18Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T13:12:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45976,7 +45976,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T13:07:17Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, tildes, ingles pending_review, wit_dt 0, litchk 0 ok; dos notas menores",
+            "t": "2026-10-23T13:12:18Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, tildes, ingles pending_review, wit_dt 0, litchk 0 ok; dos notas menores",
+          "t": "2026-10-23T13:12:18Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T13:12:20Z"
         }
       }
     },
@@ -45986,10 +46002,10 @@
       "originalTrackId": "",
       "titulo": "Sabor A Miel",
       "artista": "Paulina Rubio",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T13:07:19Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T13:13:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46016,7 +46032,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T13:07:18Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, mapeo, frases nuevas, ingles draft pending_review, litchk 0, wit_dt 0, timing drift 0; solo notas de oido",
+            "t": "2026-10-23T13:13:33Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, mapeo, frases nuevas, ingles draft pending_review, litchk 0, wit_dt 0, timing drift 0; solo notas de oido",
+          "t": "2026-10-23T13:13:33Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T13:13:35Z"
         }
       }
     },
@@ -55995,10 +56027,10 @@
       "originalTrackId": "",
       "titulo": "Espiral",
       "artista": "Lola",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T13:07:19Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T13:12:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56025,7 +56057,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T13:07:19Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, ingles (draft pending_review), litchk 0, wit_dt BAD 0; notas de oido L25",
+            "t": "2026-10-23T13:12:45Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, ingles (draft pending_review), litchk 0, wit_dt BAD 0; notas de oido L25",
+          "t": "2026-10-23T13:12:45Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T13:12:46Z"
         }
       }
     },
@@ -56035,10 +56083,10 @@
       "originalTrackId": "",
       "titulo": "Tiro De Gracia",
       "artista": "Banda El Recodo",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T13:07:20Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T13:13:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56065,7 +56113,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T13:07:20Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura 33/33, 0 anclas fuera de rango, tildes correctas por item, gemelas iguales, EN 33 lineas + 150 WIT en pending_review, wit_dt_audit BAD 0, litchk 0, audio SUENA_SIN_BLINDAR; notas de oido L5 w4 y L18",
+            "t": "2026-10-23T13:13:57Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura 33/33, 0 anclas fuera de rango, tildes correctas por item, gemelas iguales, EN 33 lineas + 150 WIT en pending_review, wit_dt_audit BAD 0, litchk 0, audio SUENA_SIN_BLINDAR; notas de oido L5 w4 y L18",
+          "t": "2026-10-23T13:13:57Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T13:13:58Z"
         }
       }
     },
@@ -56075,10 +56139,10 @@
       "originalTrackId": "",
       "titulo": "Suceden",
       "artista": "Marc Anthony",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T13:07:21Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T13:17:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56105,7 +56169,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T13:07:21Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, timing y anclas ok; homografos ok; 2 items nuevos ok; ingles 34/34 pending_review; wit_dt_audit 0; litchk 0; audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-23T13:17:12Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, timing y anclas ok; homografos ok; 2 items nuevos ok; ingles 34/34 pending_review; wit_dt_audit 0; litchk 0; audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-23T13:17:12Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T13:17:13Z"
         }
       }
     },
