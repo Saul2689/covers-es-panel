@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T15:18:32Z",
+  "generado": "2026-10-23T15:46:50Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -47449,10 +47449,10 @@
       "originalTrackId": "",
       "titulo": "Que Te Quieran Mas Que Yo",
       "artista": "Marco Antonio Solis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T15:18:31Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-23T15:21:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47481,15 +47481,21 @@
             "t": "2026-10-23T15:02:16Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L3 w1 como lacks meaning-changing tilde (read as how); re-anchor to accented adverb; rest clean",
-            "t": "2026-10-23T15:14:24Z"
+            "v": "ok",
+            "nota": "QC r2: tilde fix on L3 w1 verified (LRC, richsync, item, WIT); structure, drift, English, wit_dt BAD 0, lit/lp 0, audio ok",
+            "t": "2026-10-23T15:21:15Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L3 w1 como lacks meaning-changing tilde (read as how); re-anchor to accented adverb; rest clean",
-          "t": "2026-10-23T15:14:24Z"
+          "v": "VERDE",
+          "resumen": "QC r2: tilde fix on L3 w1 verified (LRC, richsync, item, WIT); structure, drift, English, wit_dt BAD 0, lit/lp 0, audio ok",
+          "t": "2026-10-23T15:21:15Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T15:21:16Z"
         }
       },
       "motivo_en": "QC r1 returned L3 w1 missing accent; fixed and remapped, QC r2"
@@ -47502,8 +47508,8 @@
       "artista": "Francisco Céspedes",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:16:01Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T15:46:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47528,8 +47534,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:16:00Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T15:46:45Z"
           }
         }
       }
@@ -47660,8 +47666,8 @@
       "artista": "Gilberto Santa Rosa",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:16:01Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T15:46:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47686,8 +47692,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:16:01Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T15:46:46Z"
           }
         }
       }
@@ -47722,8 +47728,8 @@
       "artista": "los Astros",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:16:03Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T15:46:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47748,8 +47754,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:16:02Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T15:46:47Z"
           }
         }
       }
@@ -47813,8 +47819,8 @@
       "artista": "Camilo Sesto",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:16:03Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T15:46:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47839,8 +47845,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:16:03Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T15:46:48Z"
           }
         }
       }
@@ -47915,8 +47921,8 @@
       "artista": "Alejandra Guzmán",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:16:04Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T15:46:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47941,8 +47947,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:16:04Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T15:46:49Z"
           }
         }
       }
