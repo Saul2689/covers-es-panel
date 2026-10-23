@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T14:01:32Z",
+  "generado": "2026-10-23T14:08:21Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -46497,10 +46497,10 @@
       "originalTrackId": "",
       "titulo": "Flaca O Gordita",
       "artista": "Olga Tañon",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T14:01:31Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T14:04:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46529,15 +46529,21 @@
             "t": "2026-10-23T13:48:47Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "1 devolucion: ejemplo de reconquista (item 6ac5b6cc...0ed3) copia 4 palabras seguidas del verso (lineas 24/45/61); resto verde",
-            "t": "2026-10-23T13:56:55Z"
+            "v": "ok",
+            "nota": "QC r2: ejemplo de reconquista inventado (racha max 1), nada mas cambio, wit_dt BAD 0, litchk 0, deriva 0",
+            "t": "2026-10-23T14:04:57Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "1 devolucion: ejemplo de reconquista (item 6ac5b6cc...0ed3) copia 4 palabras seguidas del verso (lineas 24/45/61); resto verde",
-          "t": "2026-10-23T13:56:55Z"
+          "v": "VERDE",
+          "resumen": "QC r2: ejemplo de reconquista inventado (racha max 1), nada mas cambio, wit_dt BAD 0, litchk 0, deriva 0",
+          "t": "2026-10-23T14:04:57Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T14:04:58Z"
         }
       },
       "motivo_en": "QC r1 returned: a dictionary example copied the lyric; replaced with an invented one"
@@ -46548,10 +46554,10 @@
       "originalTrackId": "",
       "titulo": "Abrazar La Vida",
       "artista": "Luis Fonsi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, justificado, QC r2",
-      "actualizado": "2026-10-23T14:01:32Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T14:05:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46580,15 +46586,21 @@
             "t": "2026-10-23T13:48:48Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 phrase items nuevos (cada vez, una a una) sin traduccion primaria en los 19 idiomas; el resto OK (estructura, timing, litchk 0, wit_dt 0, ingles pending_review)",
-            "t": "2026-10-23T13:56:44Z"
+            "v": "ok",
+            "nota": "r2: faltan primarias en 2 phrase items (nota para Saul, el ingles no depende); resto igual que r1, litchk 0, wit_dt BAD 0",
+            "t": "2026-10-23T14:05:43Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 phrase items nuevos (cada vez, una a una) sin traduccion primaria en los 19 idiomas; el resto OK (estructura, timing, litchk 0, wit_dt 0, ingles pending_review)",
-          "t": "2026-10-23T13:56:44Z"
+          "v": "VERDE",
+          "resumen": "r2: faltan primarias en 2 phrase items (nota para Saul, el ingles no depende); resto igual que r1, litchk 0, wit_dt BAD 0",
+          "t": "2026-10-23T14:05:43Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T14:05:44Z"
         }
       },
       "motivo_en": "QC r1 returned: two phrase items have no primary row; setting primaries waits for Saul"
@@ -46680,10 +46692,10 @@
       "originalTrackId": "",
       "titulo": "Quien Te Cantara?",
       "artista": "Mocedades",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T14:01:32Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T14:04:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46712,15 +46724,21 @@
             "t": "2026-10-23T13:48:48Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L24 w7 anclado a item irás de sentido exhortativo (86cc); existe el item correcto de futuro 2SG 6ac5e1ec; remapear y reajustar WIT del draft. Resto OK",
-            "t": "2026-10-23T13:57:33Z"
+            "v": "ok",
+            "nota": "ronda 2: L24 w7 remapeado a irás FUT.2SG, WIT will go, wit_dt_audit BAD 0, litchk 0, nada mas cambiado",
+            "t": "2026-10-23T14:04:22Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L24 w7 anclado a item irás de sentido exhortativo (86cc); existe el item correcto de futuro 2SG 6ac5e1ec; remapear y reajustar WIT del draft. Resto OK",
-          "t": "2026-10-23T13:57:33Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: L24 w7 remapeado a irás FUT.2SG, WIT will go, wit_dt_audit BAD 0, litchk 0, nada mas cambiado",
+          "t": "2026-10-23T14:04:22Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T14:04:24Z"
         }
       },
       "motivo_en": "QC r1 returned: one word mapped to the wrong sense; remapped"
@@ -56600,8 +56618,8 @@
       "artista": "Floricienta",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:12:52Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T14:08:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56626,8 +56644,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:12:51Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T14:08:17Z"
           }
         }
       }
@@ -56651,8 +56669,8 @@
       "artista": "Ana Gabriel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:13:21Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T14:08:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56677,8 +56695,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:13:21Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T14:08:18Z"
           }
         }
       }
@@ -56747,8 +56765,8 @@
       "artista": "Alex Matos, Andy Andy",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:13:26Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T14:08:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56773,8 +56791,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:13:26Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T14:08:18Z"
           }
         }
       }
@@ -56798,8 +56816,8 @@
       "artista": "Alicia Villarreal",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:13:56Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T14:08:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56824,8 +56842,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:13:56Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T14:08:19Z"
           }
         }
       }
@@ -56838,8 +56856,8 @@
       "artista": "Paquita la Del Barrio",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:13:58Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T14:08:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56864,8 +56882,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:13:57Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T14:08:20Z"
           }
         }
       }
