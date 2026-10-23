@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T15:12:29Z",
+  "generado": "2026-10-23T15:18:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -46952,10 +46952,10 @@
       "originalTrackId": "",
       "titulo": "Amor No Me Ignores",
       "artista": "Camilo Sesto",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T15:12:28Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T15:15:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46984,15 +46984,21 @@
             "t": "2026-10-23T15:02:13Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L5 w3 falta tilde de cambio de sentido (pretérito vs subjuntivo); resto OK",
-            "t": "2026-10-23T15:07:26Z"
+            "v": "ok",
+            "nota": "ronda 2: arreglo L5 p3 verificado (tilde, item nuevo preterito 1sg, 19 idiomas, WIT); resto sin cambios; draft pending_review; litchk/lpchk/wit_dt 0",
+            "t": "2026-10-23T15:15:51Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L5 w3 falta tilde de cambio de sentido (pretérito vs subjuntivo); resto OK",
-          "t": "2026-10-23T15:07:26Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: arreglo L5 p3 verificado (tilde, item nuevo preterito 1sg, 19 idiomas, WIT); resto sin cambios; draft pending_review; litchk/lpchk/wit_dt 0",
+          "t": "2026-10-23T15:15:51Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T15:15:53Z"
         }
       },
       "motivo_en": "QC r1 returned a missing tense tilde; fixed with a new preterite item"
@@ -47070,10 +47076,10 @@
       "originalTrackId": "",
       "titulo": "Me Estoy Enamorando",
       "artista": "Alejandro Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T15:12:29Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T15:15:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47102,15 +47108,21 @@
             "t": "2026-10-23T15:02:15Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "estructura/LRC/timing/tildes/ingles OK; 2 anclas con sentido distinto de su gemela (L27 w3 sentido organo vs sentimiento L8; L24 w5 preposicion de volver a)",
-            "t": "2026-10-23T15:09:31Z"
+            "v": "ok",
+            "nota": "r2: remapeos L27 w3 y L24 w5 verificados; qc_es 0 rojos, litchk/lpchk 0, wit_dt BAD 0, ingles 36/36 pending_review, drift 0",
+            "t": "2026-10-23T15:15:51Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "estructura/LRC/timing/tildes/ingles OK; 2 anclas con sentido distinto de su gemela (L27 w3 sentido organo vs sentimiento L8; L24 w5 preposicion de volver a)",
-          "t": "2026-10-23T15:09:31Z"
+          "v": "VERDE",
+          "resumen": "r2: remapeos L27 w3 y L24 w5 verificados; qc_es 0 rojos, litchk/lpchk 0, wit_dt BAD 0, ingles 36/36 pending_review, drift 0",
+          "t": "2026-10-23T15:15:51Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T15:15:52Z"
         }
       },
       "motivo_en": "QC r1 returned two word senses that differed from their twins; remapped"
@@ -47318,10 +47330,10 @@
       "originalTrackId": "",
       "titulo": "Eternidad",
       "artista": "La Ley",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T15:12:29Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T15:15:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47350,15 +47362,21 @@
             "t": "2026-10-23T15:02:16Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L19 w2 French word misspelled (final letter missing, same as original); everything else checks 0 (litchk, lpchk, wit_dt BAD 0, structure, audio, English pending_review)",
-            "t": "2026-10-23T15:07:17Z"
+            "v": "ok",
+            "nota": "r2: arreglo L19 w2 verificado, todo igual y limpio (litchk 0, lpchk 0, BAD 0, drift 0, ingles pending_review)",
+            "t": "2026-10-23T15:15:10Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L19 w2 French word misspelled (final letter missing, same as original); everything else checks 0 (litchk, lpchk, wit_dt BAD 0, structure, audio, English pending_review)",
-          "t": "2026-10-23T15:07:17Z"
+          "v": "VERDE",
+          "resumen": "r2: arreglo L19 w2 verificado, todo igual y limpio (litchk 0, lpchk 0, BAD 0, drift 0, ingles pending_review)",
+          "t": "2026-10-23T15:15:10Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T15:15:11Z"
         }
       },
       "motivo_en": "QC r1 returned a misspelled token; fixed"
@@ -47432,9 +47450,9 @@
       "titulo": "Que Te Quieran Mas Que Yo",
       "artista": "Marco Antonio Solis",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T15:02:17Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T15:18:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47461,9 +47479,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T15:02:16Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L3 w1 como lacks meaning-changing tilde (read as how); re-anchor to accented adverb; rest clean",
+            "t": "2026-10-23T15:14:24Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L3 w1 como lacks meaning-changing tilde (read as how); re-anchor to accented adverb; rest clean",
+          "t": "2026-10-23T15:14:24Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned L3 w1 missing accent; fixed and remapped, QC r2"
     },
     {
       "coverTrackId": "6aa591cb42b8d1fdb0d064a9",
