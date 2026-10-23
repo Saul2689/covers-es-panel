@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T08:13:02Z",
+  "generado": "2026-10-23T08:17:10Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -43307,10 +43307,10 @@
       "originalTrackId": "",
       "titulo": "Nadie Simplemente Nadie",
       "artista": "Jose Jose",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "QC r2 devuelto, arreglado, QC r3",
-      "actualizado": "2026-10-23T08:13:01Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T08:14:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43339,15 +43339,21 @@
             "t": "2026-10-22T15:44:41Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r1 fixes verificados (tilde pretérito y partición L8/22 correctas); falta ¿ ? en L8/L22 w1/w2 (qc_es vs_original_puntuacion x4), sin justificar",
-            "t": "2026-10-23T08:11:20Z"
+            "v": "ok",
+            "nota": "r3: signos de interrogacion L8/L22 puestos, sin regresiones, borrador pending_review, wit_dt_audit BAD 0",
+            "t": "2026-10-23T08:14:34Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r1 fixes verificados (tilde pretérito y partición L8/22 correctas); falta ¿ ? en L8/L22 w1/w2 (qc_es vs_original_puntuacion x4), sin justificar",
-          "t": "2026-10-23T08:11:20Z"
+          "v": "VERDE",
+          "resumen": "r3: signos de interrogacion L8/L22 puestos, sin regresiones, borrador pending_review, wit_dt_audit BAD 0",
+          "t": "2026-10-23T08:14:34Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T08:14:36Z"
         }
       },
       "motivo_en": "QC r2 returned, fixed, QC r3"
