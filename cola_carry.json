@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T16:18:54Z",
+  "generado": "2026-10-23T16:43:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -48050,10 +48050,10 @@
       "originalTrackId": "",
       "titulo": "Tu Sabes Quien",
       "artista": "Alejandro Fernandez",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T16:18:53Z",
+      "estado": "hecha",
+      "vueltas": 0,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-23T16:22:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48082,15 +48082,21 @@
             "t": "2026-10-23T16:03:14Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "tilde missing on the interrogative who: lines 1,2,5,6,13-16,25-27,35-37 all words, 27/37 w3, plus lines 3,4,7,9,17,18,19,28 to decide; line 20 w1 interrogative how needs tilde",
-            "t": "2026-10-23T16:09:52Z"
+            "v": "ok",
+            "nota": "r2: 46 interrogative tildes + 1 more fixed (LRC, richsync, anchors, WITs); no regressions; litchk lpchk 0, wit_dt BAD 0, timings identical",
+            "t": "2026-10-23T16:22:31Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "tilde missing on the interrogative who: lines 1,2,5,6,13-16,25-27,35-37 all words, 27/37 w3, plus lines 3,4,7,9,17,18,19,28 to decide; line 20 w1 interrogative how needs tilde",
-          "t": "2026-10-23T16:09:52Z"
+          "v": "VERDE",
+          "resumen": "r2: 46 interrogative tildes + 1 more fixed (LRC, richsync, anchors, WITs); no regressions; litchk lpchk 0, wit_dt BAD 0, timings identical",
+          "t": "2026-10-23T16:22:31Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T16:22:32Z"
         }
       },
       "motivo_en": "QC r1 returned for missing interrogative tildes; fixed, QC r2"
@@ -48159,8 +48165,8 @@
       "artista": "Fanny LU",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:17:07Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T16:43:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48185,8 +48191,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:17:07Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T16:43:28Z"
           }
         }
       }
@@ -48344,8 +48350,8 @@
       "artista": "Calle 13",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:17:08Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T16:43:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48370,8 +48376,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:17:08Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T16:43:29Z"
           }
         }
       }
@@ -48395,8 +48401,8 @@
       "artista": "Rocío Dúrcal",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:17:09Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T16:43:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48421,8 +48427,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:17:08Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T16:43:30Z"
           }
         }
       }
@@ -48565,8 +48571,8 @@
       "artista": "Reik",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:17:10Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T16:43:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48591,8 +48597,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:17:10Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T16:43:31Z"
           }
         }
       }
@@ -48801,8 +48807,8 @@
       "artista": "Nicho Hinojosa",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:17:11Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T16:43:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48827,8 +48833,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:17:10Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T16:43:31Z"
           }
         }
       }
@@ -57947,10 +57953,10 @@
       "originalTrackId": "",
       "titulo": "Las Vias Del Amor",
       "artista": "Aracely Arambula",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T16:03:17Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-23T16:20:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -57977,7 +57983,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T16:03:17Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "qc_es only justified items (echo L12/L26, instrumental gap L18); structure, twins, litchk/lpchk/wit_dt 0, 33 EN lines, 0 empty WIT, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-23T16:20:50Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "qc_es only justified items (echo L12/L26, instrumental gap L18); structure, twins, litchk/lpchk/wit_dt 0, 33 EN lines, 0 empty WIT, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-23T16:20:50Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T16:20:52Z"
         }
       }
     },
