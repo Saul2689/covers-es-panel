@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T14:08:21Z",
+  "generado": "2026-10-23T14:23:14Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -56576,10 +56576,10 @@
       "originalTrackId": "",
       "titulo": "Te Voy A Olvidar",
       "artista": "Rocio Durcal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T13:48:50Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T14:08:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56606,7 +56606,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T13:48:49Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk 0, wit_dt 0, 222/222, drift 0, EN draft pending_review; ear notes lines 3/15/19/29/33",
+            "t": "2026-10-23T14:08:46Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk 0, wit_dt 0, 222/222, drift 0, EN draft pending_review; ear notes lines 3/15/19/29/33",
+          "t": "2026-10-23T14:08:46Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T14:08:48Z"
         }
       }
     },
@@ -56617,9 +56633,9 @@
       "titulo": "Ding Dong",
       "artista": "Floricienta",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T14:08:17Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T14:23:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56646,9 +56662,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T14:08:17Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L8 anchor de frase vocativa (mi vida = querido) sobre uso literal; resto estructura, mapeo, ingles, audio OK",
+            "t": "2026-10-23T14:15:02Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L8 anchor de frase vocativa (mi vida = querido) sobre uso literal; resto estructura, mapeo, ingles, audio OK",
+          "t": "2026-10-23T14:15:02Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned: a vocative phrase anchor on a literal word; removed"
     },
     {
       "coverTrackId": "6aa594bd42b8d1fdb0d0a90a",
@@ -56667,10 +56694,10 @@
       "originalTrackId": "",
       "titulo": "Huelo A Soledad",
       "artista": "Ana Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T14:08:18Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T14:15:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56697,7 +56724,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T14:08:18Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, timing, mapeo, litchk, wit_dt_audit 0 y ingles 48/48 + 242 WIT en pending_review; solo notas de oido",
+            "t": "2026-10-23T14:15:00Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, timing, mapeo, litchk, wit_dt_audit 0 y ingles 48/48 + 242 WIT en pending_review; solo notas de oido",
+          "t": "2026-10-23T14:15:00Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T14:15:01Z"
         }
       }
     },
@@ -56764,9 +56807,9 @@
       "titulo": "El Cariño Es Como Una Flor",
       "artista": "Alex Matos, Andy Andy",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T14:08:19Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T14:23:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56793,9 +56836,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T14:08:18Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ronda 1: falta ancla de locucion en linea 2 palabras 2-4 (el phrase item existe y la version hermana lo ancla); resto OK",
+            "t": "2026-10-23T14:15:43Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ronda 1: falta ancla de locucion en linea 2 palabras 2-4 (el phrase item existe y la version hermana lo ancla); resto OK",
+          "t": "2026-10-23T14:15:43Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned: an idiom was not anchored as a phrase; anchored"
     },
     {
       "coverTrackId": "6aa6545372ca57eb1a9c0c57",
@@ -56814,10 +56868,10 @@
       "originalTrackId": "",
       "titulo": "Te Quedo Grande La Yegua",
       "artista": "Alicia Villarreal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T14:08:20Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T14:16:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56844,7 +56898,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T14:08:19Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, anclas, gemelas, items nuevos, ingles pending_review, litchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; notas L11 y L45",
+            "t": "2026-10-23T14:16:09Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, anclas, gemelas, items nuevos, ingles pending_review, litchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; notas L11 y L45",
+          "t": "2026-10-23T14:16:09Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T14:16:10Z"
         }
       }
     },
