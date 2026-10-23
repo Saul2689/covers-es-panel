@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T16:53:59Z",
+  "generado": "2026-10-23T17:02:00Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -48164,9 +48164,9 @@
       "titulo": "Y Si Te Digo",
       "artista": "Fanny LU",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T16:43:29Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T17:01:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48193,9 +48193,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T16:43:28Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: one stale stored word text on a single anchor (line 22 word 10) with a stray mark; everything else clean",
+            "t": "2026-10-23T16:54:19Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: one stale stored word text on a single anchor (line 22 word 10) with a stray mark; everything else clean",
+          "t": "2026-10-23T16:54:19Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned; line 22 word 10 stored word refreshed; QC r2"
     },
     {
       "coverTrackId": "6aa765e372ca57eb1ab327dc",
@@ -48348,10 +48359,10 @@
       "originalTrackId": "",
       "titulo": "La Jirafa",
       "artista": "Calle 13",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-10-23T16:53:46Z",
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T17:01:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48391,7 +48402,7 @@
           "t": "2026-10-23T16:53:45Z"
         }
       },
-      "motivo_en": "L32 w1 needs interrogative tilde and item (how); L56 w3 WIT 'because of' wrong sense (use by/across)"
+      "motivo_en": "QC r1 returned; line 32 tilde, line 56 and 69 WITs fixed; QC r2"
     },
     {
       "coverTrackId": "6aa6cd7372ca57eb1aa64204",
