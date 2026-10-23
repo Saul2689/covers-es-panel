@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T10:08:17Z",
+  "generado": "2026-10-23T10:21:35Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -43837,10 +43837,10 @@
       "originalTrackId": "",
       "titulo": "Mudanzas",
       "artista": "Lupita D'alessio",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T09:55:21Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T10:11:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43869,15 +43869,21 @@
             "t": "2026-10-23T09:38:28Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: estructura, items nuevos, frases y audio bien; corregir WIT en draft L25 t2 (to can), L19 t4 y L21 t4 (de bajo dentro de), y palabra con coma guardada en L18 t3 y L44 t1",
-            "t": "2026-10-23T09:53:23Z"
+            "v": "ok",
+            "nota": "QC r2 fresh round: r1 fixes verified, structure/mapping/English clean, wit_dt BAD 0, 0 empty WIT, audio SUENA_SIN_BLINDAR; ear notes for Saul only",
+            "t": "2026-10-23T10:11:41Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: estructura, items nuevos, frases y audio bien; corregir WIT en draft L25 t2 (to can), L19 t4 y L21 t4 (de bajo dentro de), y palabra con coma guardada en L18 t3 y L44 t1",
-          "t": "2026-10-23T09:53:23Z"
+          "v": "VERDE",
+          "resumen": "QC r2 fresh round: r1 fixes verified, structure/mapping/English clean, wit_dt BAD 0, 0 empty WIT, audio SUENA_SIN_BLINDAR; ear notes for Saul only",
+          "t": "2026-10-23T10:11:41Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T10:11:43Z"
         }
       },
       "motivo_en": "QC r1 returned (3 WITs, 2 WI words), fixed, QC r2"
@@ -43889,9 +43895,9 @@
       "titulo": "No Renunciare",
       "artista": "Lolita",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T10:08:11Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T10:21:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43918,9 +43924,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T10:08:10Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "Frase carried 'a la fuerza' mal en lineas 14,19,32,37 (sentido erroneo, PIT ausente en la traduccion); resto verificado",
+            "t": "2026-10-23T10:13:25Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "Frase carried 'a la fuerza' mal en lineas 14,19,32,37 (sentido erroneo, PIT ausente en la traduccion); resto verificado",
+          "t": "2026-10-23T10:13:25Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned (wrong-sense phrase), fixed, QC r2"
     },
     {
       "coverTrackId": "6aa50f4a42b8d1fdb0c5de04",
@@ -43940,9 +43957,9 @@
       "titulo": "Celoso",
       "artista": "Roberto Lutti",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T10:08:12Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T10:21:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43969,9 +43986,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T10:08:12Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ronda 1: ortografia de por que escrito como una palabra (11/21/31 w4-5, 4/18 w7, 15 w1); definicion de media noche sin corchete; solo con tilde opcional",
+            "t": "2026-10-23T10:14:47Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ronda 1: ortografia de por que escrito como una palabra (11/21/31 w4-5, 4/18 w7, 15 w1); definicion de media noche sin corchete; solo con tilde opcional",
+          "t": "2026-10-23T10:14:47Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned (interrogative token split), fixed, QC r2"
     },
     {
       "coverTrackId": "6aa5471642b8d1fdb0cae5c4",
@@ -54515,10 +54543,10 @@
       "originalTrackId": "",
       "titulo": "Quien Entiende A Las Mujeres?",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T10:08:14Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T10:12:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54545,7 +54573,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T10:08:13Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, ingles (draft pending_review), wit_dt BAD 0, audio SUENA_SIN_BLINDAR; sin defectos",
+            "t": "2026-10-23T10:12:13Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, ingles (draft pending_review), wit_dt BAD 0, audio SUENA_SIN_BLINDAR; sin defectos",
+          "t": "2026-10-23T10:12:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T10:12:15Z"
         }
       }
     },
