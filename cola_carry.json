@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T11:36:37Z",
+  "generado": "2026-10-23T11:46:48Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -44614,10 +44614,10 @@
       "originalTrackId": "",
       "titulo": "En Medio De La Tempestad",
       "artista": "Gloria Trevi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T11:32:44Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T11:38:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44646,15 +44646,21 @@
             "t": "2026-10-23T11:14:04Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "2 defectos: PIT L30 w5-6 no literal en la LT inglesa; ejemplo 1 del item nuevo doblar es el verso L66 + 2 palabras",
-            "t": "2026-10-23T11:29:44Z"
+            "v": "ok",
+            "nota": "ronda 2: PIT L30 literal y ejemplo de doblar inventado corregidos; estructura, mapeo, ingles (pending_review), wit_dt_audit BAD 0, timing drift 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-23T11:38:18Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "2 defectos: PIT L30 w5-6 no literal en la LT inglesa; ejemplo 1 del item nuevo doblar es el verso L66 + 2 palabras",
-          "t": "2026-10-23T11:29:44Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: PIT L30 literal y ejemplo de doblar inventado corregidos; estructura, mapeo, ingles (pending_review), wit_dt_audit BAD 0, timing drift 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-23T11:38:18Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T11:38:20Z"
         }
       },
       "motivo_en": "QC r1 returned (PIT not literal, lyric example), fixed, QC r2"
@@ -44688,9 +44694,9 @@
       "titulo": "De Verdad",
       "artista": "Alejandra Guzmán",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T11:36:31Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T11:46:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44717,9 +44723,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T11:36:30Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "English draft: 14 phrase insights (L1,2,12,14,27,29,31,41,43,45,47,49,51,53) whose PIT text is not literal in the line translation; rest clean",
+            "t": "2026-10-23T11:42:55Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "English draft: 14 phrase insights (L1,2,12,14,27,29,31,41,43,45,47,49,51,53) whose PIT text is not literal in the line translation; rest clean",
+          "t": "2026-10-23T11:42:55Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned (PIT not literal in LT), fixed, QC r2"
     },
     {
       "coverTrackId": "6aa67e5b72ca57eb1a9ff2e3",
@@ -44750,9 +44767,9 @@
       "titulo": "Si Tu Te Vas",
       "artista": "Camilo Sesto",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T11:36:33Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T11:46:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44779,9 +44796,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T11:36:32Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L8 y L18: el PIT del phrase item del pedestal no aparece contiguo en la traduccion inglesa de la linea; el resto pasa (estructura, anclas, WIT, audio SUENA_SIN_BLINDAR)",
+            "t": "2026-10-23T11:43:23Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L8 y L18: el PIT del phrase item del pedestal no aparece contiguo en la traduccion inglesa de la linea; el resto pasa (estructura, anclas, WIT, audio SUENA_SIN_BLINDAR)",
+          "t": "2026-10-23T11:43:23Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned (PIT not literal in LT), fixed, QC r2"
     },
     {
       "coverTrackId": "6aa6bf5f72ca57eb1aa4de8d",
@@ -44869,9 +44897,9 @@
       "titulo": "La Distancia",
       "artista": "Roberto Carlos",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T11:36:34Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T11:46:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44898,9 +44926,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T11:36:33Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "PIT no literal en la traduccion de linea en L12, L21, L24; resto OK",
+            "t": "2026-10-23T11:42:59Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "PIT no literal en la traduccion de linea en L12, L21, L24; resto OK",
+          "t": "2026-10-23T11:42:59Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned (PIT not literal in LT), fixed, QC r2"
     },
     {
       "coverTrackId": "6aa59fad42b8d1fdb0d1d6ee",
