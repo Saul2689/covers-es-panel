@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T12:10:23Z",
+  "generado": "2026-10-23T12:16:57Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -45133,10 +45133,10 @@
       "originalTrackId": "",
       "titulo": "Se Que Me Va A Dejar",
       "artista": "Marco Antonio Solís",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T12:10:22Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T12:13:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45165,15 +45165,21 @@
             "t": "2026-10-23T11:59:24Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L1 w5 y L6 w5: fragmento de 1 letra sin corregir ni mapear (la preposicion 'a' de 'va a + inf'); el WIT de la palabra anterior ya no incluye 'to'; resto verde",
-            "t": "2026-10-23T12:06:02Z"
+            "v": "ok",
+            "nota": "r2: fragmento de una letra de lineas 1 y 6 corregido a la preposicion y anclado; qc_es letra_suelta 0 sin_mapear 0; wit_dt_audit BAD 0; litchk 0; ingles 33/33 pending_review",
+            "t": "2026-10-23T12:13:04Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L1 w5 y L6 w5: fragmento de 1 letra sin corregir ni mapear (la preposicion 'a' de 'va a + inf'); el WIT de la palabra anterior ya no incluye 'to'; resto verde",
-          "t": "2026-10-23T12:06:02Z"
+          "v": "VERDE",
+          "resumen": "r2: fragmento de una letra de lineas 1 y 6 corregido a la preposicion y anclado; qc_es letra_suelta 0 sin_mapear 0; wit_dt_audit BAD 0; litchk 0; ingles 33/33 pending_review",
+          "t": "2026-10-23T12:13:04Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T12:13:05Z"
         }
       },
       "motivo_en": "QC r1 returned: one-letter provider token at line 1 and 6 word 5; fixed in LRC, anchored and translated; QC r2"
@@ -45355,8 +45361,8 @@
       "artista": "Paulina Rubio",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:10:01Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T12:16:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45381,8 +45387,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:10:01Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T12:16:52Z"
           }
         }
       }
@@ -45406,8 +45412,8 @@
       "artista": "Paquita la Del Barrio",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:10:02Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T12:16:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45432,8 +45438,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:10:01Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T12:16:54Z"
           }
         }
       }
@@ -45502,8 +45508,8 @@
       "artista": "Jose Alfredo Jimenez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:10:02Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T12:16:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45528,8 +45534,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:10:02Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T12:16:55Z"
           }
         }
       }
@@ -45604,8 +45610,8 @@
       "artista": "Roberto Carlos",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:10:26Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T12:16:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45630,8 +45636,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:10:26Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T12:16:56Z"
           }
         }
       }
@@ -55532,10 +55538,10 @@
       "originalTrackId": "",
       "titulo": "Que Sera De Ti",
       "artista": "Melina Leon",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T11:59:27Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T12:13:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55562,7 +55568,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T11:59:27Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r1: estructura, mapeo, ingles pending_review, litchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; hallazgos restantes justificados (L43 partida, L1 tilde, L42 ad-lib)",
+            "t": "2026-10-23T12:13:27Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r1: estructura, mapeo, ingles pending_review, litchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; hallazgos restantes justificados (L43 partida, L1 tilde, L42 ad-lib)",
+          "t": "2026-10-23T12:13:27Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T12:13:28Z"
         }
       }
     },
@@ -55625,8 +55647,8 @@
       "artista": "Rocio Jurado",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:10:20Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T12:16:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55651,8 +55673,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:10:20Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T12:16:55Z"
           }
         }
       }
