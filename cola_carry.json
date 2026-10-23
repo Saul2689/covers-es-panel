@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T09:15:45Z",
+  "generado": "2026-10-23T09:21:18Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -44024,9 +44024,9 @@
       "titulo": "Aprendere",
       "artista": "Hector El Torito Acosta",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T09:15:44Z",
+      "vueltas": 2,
+      "motivo": "QC r2 devuelto, arreglado, QC r3 final",
+      "actualizado": "2026-10-23T09:21:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44056,17 +44056,17 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "estructura, mapeo, items nuevos e ingles ok; 1 defecto: WIT de la preposicion repite 'from' de su vecina arrancarte en L11 w5-6, L27-28, L44-45",
-            "t": "2026-10-23T09:14:38Z"
+            "nota": "r2: fix de r1 (L11 w6, L28 w1, L45 w1) verificado, sin regresiones; queda 1 WIT con 'to' doblado tras la frase de L4 (w5)",
+            "t": "2026-10-23T09:19:29Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "estructura, mapeo, items nuevos e ingles ok; 1 defecto: WIT de la preposicion repite 'from' de su vecina arrancarte en L11 w5-6, L27-28, L44-45",
-          "t": "2026-10-23T09:14:38Z"
+          "resumen": "r2: fix de r1 (L11 w6, L28 w1, L45 w1) verificado, sin regresiones; queda 1 WIT con 'to' doblado tras la frase de L4 (w5)",
+          "t": "2026-10-23T09:19:29Z"
         }
       },
-      "motivo_en": "QC r1 returned, fixed, QC r2"
+      "motivo_en": "QC r2 returned, fixed, final QC r3"
     },
     {
       "coverTrackId": "6aa80c68d951e1665a7eb579",
@@ -54264,9 +54264,9 @@
       "titulo": "Una Noche Mas",
       "artista": "Wisin Y Yandel",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T09:05:16Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T09:21:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54293,9 +54293,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T09:05:16Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L35 phrase insight on en-tagged phrase item (es item exists); 12 dejo-de words (L22,29,49,56,92,93,100,101,108,109,116,117) have WIT identical to PIT; note 62.6 de sense",
+            "t": "2026-10-23T09:16:40Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L35 phrase insight on en-tagged phrase item (es item exists); 12 dejo-de words (L22,29,49,56,92,93,100,101,108,109,116,117) have WIT identical to PIT; note 62.6 de sense",
+          "t": "2026-10-23T09:16:40Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa678a772ca57eb1a9f59a0",
@@ -54303,10 +54314,10 @@
       "originalTrackId": "",
       "titulo": "Un Muchacho Como Yo",
       "artista": "Palito Ortega",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T09:15:44Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T09:21:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54315,9 +54326,9 @@
             "t": "2026-10-07T06:13:59Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "linea 24 palabra 2 tu->tú (edicion bloqueada por el clasificador); linea 38 acaba en puntos (palabras de puntuacion con tiempo, no se borran); linea 1 seccion fijada",
-            "t": "2026-10-07T06:13:59Z"
+            "v": "ok",
+            "nota": "23 oct: linea 24 tilde y linea 38 sin puntos finales, arreglados en el fix de QC r1 (regla si corrigue 22 oct); QC r2 VERDE",
+            "t": "2026-10-23T09:21:14Z"
           },
           "timing": {
             "v": "ok",
@@ -54335,15 +54346,21 @@
             "t": "2026-10-23T09:05:17Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "linea 24 tok 2 sin tilde (tu->tu pronombre sujeto, falta remapear y repuntar WIT); linea 38 richsync 4 palabras vs 3 tokens (129 vs 128)",
-            "t": "2026-10-23T09:12:45Z"
+            "v": "ok",
+            "nota": "r2: tilde y ancla de la linea 24 y richsync de la 38 arreglados; 126=126, 39 EOL, drift 0, WIT_DT BAD 0, ingles 39/39 pending_review, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-23T09:18:24Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "linea 24 tok 2 sin tilde (tu->tu pronombre sujeto, falta remapear y repuntar WIT); linea 38 richsync 4 palabras vs 3 tokens (129 vs 128)",
-          "t": "2026-10-23T09:12:45Z"
+          "v": "VERDE",
+          "resumen": "r2: tilde y ancla de la linea 24 y richsync de la 38 arreglados; 126=126, 39 EOL, drift 0, WIT_DT BAD 0, ingles 39/39 pending_review, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-23T09:18:24Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T09:21:16Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
