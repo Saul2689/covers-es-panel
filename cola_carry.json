@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T10:49:55Z",
+  "generado": "2026-10-23T10:53:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -44075,10 +44075,10 @@
       "originalTrackId": "",
       "titulo": "Moño Negro",
       "artista": "Alejandro Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T10:49:53Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T10:53:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44107,15 +44107,21 @@
             "t": "2026-10-23T10:32:14Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "PIT no literal en la LT en 4 phrase insights (L7, L8, L11, L21); el resto limpio",
-            "t": "2026-10-23T10:39:32Z"
+            "v": "ok",
+            "nota": "r2: PITs literales en LT (20/20), estructura 150/150, 29/29 EN, BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-23T10:53:01Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "PIT no literal en la LT en 4 phrase insights (L7, L8, L11, L21); el resto limpio",
-          "t": "2026-10-23T10:39:32Z"
+          "v": "VERDE",
+          "resumen": "r2: PITs literales en LT (20/20), estructura 150/150, 29/29 EN, BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-23T10:53:01Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T10:53:03Z"
         }
       },
       "motivo_en": "QC r1 fixes applied, QC r2"
@@ -54733,9 +54739,9 @@
       "titulo": "Sufrir",
       "artista": "los Solitarios",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T10:32:17Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T10:53:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54762,9 +54768,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T10:32:16Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "tildes preterito/futuro en L1,L27 w3 y L19 w2 (ancla acentuada, token sin tilde); PIT 'to have to' no contiguo en LT en L9,16,17,35",
+            "t": "2026-10-23T10:51:38Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "tildes preterito/futuro en L1,L27 w3 y L19 w2 (ancla acentuada, token sin tilde); PIT 'to have to' no contiguo en LT en L9,16,17,35",
+          "t": "2026-10-23T10:51:38Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 fixes applied, QC r2"
     },
     {
       "coverTrackId": "6aa82c2ed951e1665a81c457",
@@ -54772,10 +54789,10 @@
       "originalTrackId": "",
       "titulo": "Vamos A Dejarlo",
       "artista": "Ricardo Montaner",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T10:32:18Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC1: PIT L13 y L38 no literales en LT; insertar palabra inicial del original en L12 y L24 (hueco de timing), remapear, re-traducir y reenviar EN",
+      "actualizado": "2026-10-23T10:52:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54802,7 +54819,17 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T10:32:17Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "R1: 2 PITs (L13, L38) not literal in LT; 2 original leading words missing at L12/L24 with timing hole (insert + re-map + EN). Rest clean.",
+            "t": "2026-10-23T10:52:31Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "R1: 2 PITs (L13, L38) not literal in LT; 2 original leading words missing at L12/L24 with timing hole (insert + re-map + EN). Rest clean.",
+          "t": "2026-10-23T10:52:31Z"
         }
       }
     },
