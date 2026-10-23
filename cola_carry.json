@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T13:48:50Z",
+  "generado": "2026-10-23T14:01:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -46498,9 +46498,9 @@
       "titulo": "Flaca O Gordita",
       "artista": "Olga Tañon",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T13:48:47Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T14:01:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46509,14 +46509,14 @@
             "t": "2026-10-06T21:11:27Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "22 ediciones de tilde/mayuscula hechas; falta poner seccion a la linea 1 (Intro) y idioma/excluida a la 66: la escritura lrc-only fue bloqueada por el clasificador; payload en .singit/es_map/payloads/6aa6722b72ca57eb1a9ed93d/sections_payload.json",
-            "t": "2026-10-07T03:09:46Z"
+            "v": "ok",
+            "nota": "secciones escritas, verificado por QC r1",
+            "t": "2026-10-23T14:01:30Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "deriva 0, ninguna palabra <40 ms; hueco de 21 s tras la linea 52 donde el original tiene 4 lineas habladas que el cover no trae; sin audio no se insertan. Audio: SUENA_SIN_BLINDAR (karaokeMp3, 206), no se toca",
-            "t": "2026-10-07T03:09:46Z"
+            "v": "ok",
+            "nota": "hueco antes de L53 = 4 líneas habladas del original que el cover no canta",
+            "t": "2026-10-23T14:01:31Z"
           },
           "mapeo": {
             "v": "ok",
@@ -46527,9 +46527,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T13:48:47Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "1 devolucion: ejemplo de reconquista (item 6ac5b6cc...0ed3) copia 4 palabras seguidas del verso (lineas 24/45/61); resto verde",
+            "t": "2026-10-23T13:56:55Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "1 devolucion: ejemplo de reconquista (item 6ac5b6cc...0ed3) copia 4 palabras seguidas del verso (lineas 24/45/61); resto verde",
+          "t": "2026-10-23T13:56:55Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned: a dictionary example copied the lyric; replaced with an invented one"
     },
     {
       "coverTrackId": "6aa62ab072ca57eb1a9858cf",
@@ -46538,9 +46549,9 @@
       "titulo": "Abrazar La Vida",
       "artista": "Luis Fonsi",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T13:48:48Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, justificado, QC r2",
+      "actualizado": "2026-10-23T14:01:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46567,9 +46578,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T13:48:48Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "2 phrase items nuevos (cada vez, una a una) sin traduccion primaria en los 19 idiomas; el resto OK (estructura, timing, litchk 0, wit_dt 0, ingles pending_review)",
+            "t": "2026-10-23T13:56:44Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "2 phrase items nuevos (cada vez, una a una) sin traduccion primaria en los 19 idiomas; el resto OK (estructura, timing, litchk 0, wit_dt 0, ingles pending_review)",
+          "t": "2026-10-23T13:56:44Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned: two phrase items have no primary row; setting primaries waits for Saul"
     },
     {
       "coverTrackId": "6aa61f2872ca57eb1a96d5a3",
@@ -46659,9 +46681,9 @@
       "titulo": "Quien Te Cantara?",
       "artista": "Mocedades",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T13:48:49Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T14:01:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46688,9 +46710,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T13:48:48Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L24 w7 anclado a item irás de sentido exhortativo (86cc); existe el item correcto de futuro 2SG 6ac5e1ec; remapear y reajustar WIT del draft. Resto OK",
+            "t": "2026-10-23T13:57:33Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L24 w7 anclado a item irás de sentido exhortativo (86cc); existe el item correcto de futuro 2SG 6ac5e1ec; remapear y reajustar WIT del draft. Resto OK",
+          "t": "2026-10-23T13:57:33Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned: one word mapped to the wrong sense; remapped"
     },
     {
       "coverTrackId": "6aa57a2342b8d1fdb0ce4039",
@@ -56349,10 +56382,10 @@
       "originalTrackId": "",
       "titulo": "Esta Soledad",
       "artista": "Kany Garcia",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T13:48:46Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T13:57:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56379,7 +56412,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T13:48:46Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing y audio OK; mapeo/homografos/ingles (draft pending_review) OK; solo vs_original_falta L11/26/39 (nota de oido) y notas de WIT opcionales",
+            "t": "2026-10-23T13:57:13Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing y audio OK; mapeo/homografos/ingles (draft pending_review) OK; solo vs_original_falta L11/26/39 (nota de oido) y notas de WIT opcionales",
+          "t": "2026-10-23T13:57:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T13:57:14Z"
         }
       }
     },
