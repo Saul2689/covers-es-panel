@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T13:24:34Z",
+  "generado": "2026-10-23T13:40:44Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -46059,9 +46059,9 @@
       "titulo": "Dama Del Amanecer",
       "artista": "Juan Bau",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T13:24:29Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T13:40:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46088,9 +46088,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T13:24:29Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L26 falta el signo de cierre de la pregunta abierta en L25 (el original lo lleva); resto estructura, mapeo, ingles, audio OK",
+            "t": "2026-10-23T13:32:07Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L26 falta el signo de cierre de la pregunta abierta en L25 (el original lo lleva); resto estructura, mapeo, ingles, audio OK",
+          "t": "2026-10-23T13:32:07Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned: missing closing question mark on one line, fixed; QC r2"
     },
     {
       "coverTrackId": "6aa6ce1372ca57eb1aa64bcd",
@@ -46098,10 +46109,10 @@
       "originalTrackId": "",
       "titulo": "Quiero Llenarme De Ti",
       "artista": "Sandro",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T13:24:30Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T13:31:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46128,7 +46139,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T13:24:30Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, tildes, ingles (draft pending_review), litchk/wit_dt 0; hallazgos qc_es justificados",
+            "t": "2026-10-23T13:31:13Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, tildes, ingles (draft pending_review), litchk/wit_dt 0; hallazgos qc_es justificados",
+          "t": "2026-10-23T13:31:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T13:31:14Z"
         }
       }
     },
@@ -46189,10 +46216,10 @@
       "originalTrackId": "",
       "titulo": "Veronica",
       "artista": "Victor Yturbe El Piruli",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T13:24:31Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T13:30:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46219,7 +46246,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T13:24:31Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: qc_es/litchk/dt_audit limpios, 36/36 inglés en pending_review, estructura y timing OK",
+            "t": "2026-10-23T13:30:21Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: qc_es/litchk/dt_audit limpios, 36/36 inglés en pending_review, estructura y timing OK",
+          "t": "2026-10-23T13:30:21Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T13:30:22Z"
         }
       }
     },
@@ -46336,10 +46379,10 @@
       "originalTrackId": "",
       "titulo": "Tu Voz",
       "artista": "Celia Cruz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T13:24:32Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T13:29:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46366,7 +46409,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T13:24:32Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, anclas, tildes, items nuevos, ingles draft pending_review y wit_dt BAD 0 correctos; avisos qc_es son notas de oido justificadas",
+            "t": "2026-10-23T13:29:35Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, anclas, tildes, items nuevos, ingles draft pending_review y wit_dt BAD 0 correctos; avisos qc_es son notas de oido justificadas",
+          "t": "2026-10-23T13:29:35Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T13:29:36Z"
         }
       }
     },
@@ -46376,10 +46435,10 @@
       "originalTrackId": "",
       "titulo": "Tomas",
       "artista": "Cepillin",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T13:24:33Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T13:39:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46406,7 +46465,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T13:24:33Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 0 fallos, litchk 0, wit_dt_audit BAD 0, ingles 34/34 en pending_review, hallazgos qc_es justificados (nombre propio, coro, tartamudeo L14)",
+            "t": "2026-10-23T13:39:07Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 0 fallos, litchk 0, wit_dt_audit BAD 0, ingles 34/34 en pending_review, hallazgos qc_es justificados (nombre propio, coro, tartamudeo L14)",
+          "t": "2026-10-23T13:39:07Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T13:39:08Z"
         }
       }
     },
@@ -56376,10 +56451,10 @@
       "originalTrackId": "",
       "titulo": "Provocame",
       "artista": "Chayanne",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:12:33Z",
+      "motivo": "audio_guard MUDA_PARADA: el audio servido no suena",
+      "actualizado": "2026-10-23T13:25:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56408,7 +56483,8 @@
             "t": "2026-10-07T09:12:32Z"
           }
         }
-      }
+      },
+      "motivo_en": "audio_guard MUDA_PARADA: the served audio is silent"
     },
     {
       "coverTrackId": "6aa82f3ed951e1665a8208b8",
