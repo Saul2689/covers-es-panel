@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T08:18:32Z",
+  "generado": "2026-10-23T08:33:44Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -43365,9 +43365,9 @@
       "titulo": "No Te Preocupes Por Mi",
       "artista": "Chayanne",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T08:18:22Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T08:33:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43394,10 +43394,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-23T08:18:21Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC1: glorias item example 3 copies lyric lines 11/23 (invent one); L5 w6 and L17 w6 WIT/DT starts with lowercase i. Rest clean (structure, timing, mapping, EN draft BAD 0)",
+            "t": "2026-10-23T08:27:16Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC1: glorias item example 3 copies lyric lines 11/23 (invent one); L5 w6 and L17 w6 WIT/DT starts with lowercase i. Rest clean (structure, timing, mapping, EN draft BAD 0)",
+          "t": "2026-10-23T08:27:16Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa1113564c9b8ff110cea79",
@@ -43428,9 +43438,9 @@
       "titulo": "Mi Querido Mi Viejo Mi Amigo",
       "artista": "Roberto Carlos",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T08:18:26Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T08:33:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43457,10 +43467,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-23T08:18:24Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: 1 correccion de ingles (L15 t3 WIT de dentro doble el PIT de dentro de); resto verde",
+            "t": "2026-10-23T08:26:48Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: 1 correccion de ingles (L15 t3 WIT de dentro doble el PIT de dentro de); resto verde",
+          "t": "2026-10-23T08:26:48Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa6862a72ca57eb1aa072db",
@@ -53928,9 +53948,9 @@
       "titulo": "Corazon De Poeta",
       "artista": "Jeanette",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T08:18:14Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T08:33:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53957,10 +53977,20 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-23T08:18:12Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "falta conjuncion inicial en lineas 16/33/38 (presente en las 3 repeticiones del original, hueco de 1.2 s en el cover): insert + reabrir ingles; resto OK",
+            "t": "2026-10-23T08:26:41Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "falta conjuncion inicial en lineas 16/33/38 (presente en las 3 repeticiones del original, hueco de 1.2 s en el cover): insert + reabrir ingles; resto OK",
+          "t": "2026-10-23T08:26:41Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa7677c72ca57eb1ab3414b",
@@ -54012,10 +54042,10 @@
       "originalTrackId": "",
       "titulo": "Siempre Tu A Mi Lado",
       "artista": "Marco Antonio Solis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T08:18:18Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T08:24:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54042,7 +54072,23 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-23T08:18:16Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: qc_es solo hallazgos justificados, estructura 0 fallos, wit_dt_audit BAD 0, ingles draft pending_review completo, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-23T08:24:45Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: qc_es solo hallazgos justificados, estructura 0 fallos, wit_dt_audit BAD 0, ingles draft pending_review completo, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-23T08:24:45Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T08:24:47Z"
         }
       },
       "motivo_en": "pre-QC done, QC r1"
