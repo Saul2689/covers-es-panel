@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T11:59:27Z",
+  "generado": "2026-10-23T12:10:23Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -45134,9 +45134,9 @@
       "titulo": "Se Que Me Va A Dejar",
       "artista": "Marco Antonio Solís",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T11:59:25Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T12:10:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45163,9 +45163,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T11:59:24Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L1 w5 y L6 w5: fragmento de 1 letra sin corregir ni mapear (la preposicion 'a' de 'va a + inf'); el WIT de la palabra anterior ya no incluye 'to'; resto verde",
+            "t": "2026-10-23T12:06:02Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L1 w5 y L6 w5: fragmento de 1 letra sin corregir ni mapear (la preposicion 'a' de 'va a + inf'); el WIT de la palabra anterior ya no incluye 'to'; resto verde",
+          "t": "2026-10-23T12:06:02Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned: one-letter provider token at line 1 and 6 word 5; fixed in LRC, anchored and translated; QC r2"
     },
     {
       "coverTrackId": "6aa5341142b8d1fdb0c92855",
@@ -45173,10 +45184,10 @@
       "originalTrackId": "",
       "titulo": "La Rosa",
       "artista": "Bobby Pulido",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T11:59:25Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T12:05:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45203,7 +45214,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T11:59:25Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ronda 1: estructura, timing, 176 anclas, gemelas, items nuevos, ingles pending_review; avisos de oido justificados",
+            "t": "2026-10-23T12:05:04Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "ronda 1: estructura, timing, 176 anclas, gemelas, items nuevos, ingles pending_review; avisos de oido justificados",
+          "t": "2026-10-23T12:05:04Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T12:05:06Z"
         }
       }
     },
@@ -55382,10 +55409,10 @@
       "originalTrackId": "",
       "titulo": "Amor Amor",
       "artista": "Lolita",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T11:59:24Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T12:03:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55394,9 +55421,9 @@
             "t": "2026-10-07T06:22:30Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "linea 13 palabra 2: falta tilde (errata ortografica), la escritura LRC fue denegada por el clasificador; plan listo en es_audit/tmp/6aa82009d951e1665a809104/plan.json",
-            "t": "2026-10-07T06:22:30Z"
+            "v": "ok",
+            "nota": "tilde L13 t2 aplicada (pre-QC orquestador); QC r1 verificado",
+            "t": "2026-10-23T12:03:45Z"
           },
           "timing": {
             "v": "ok",
@@ -55410,9 +55437,25 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "borrador EN en pending_review",
-            "t": "2026-10-23T11:59:23Z"
+            "nota": "draft pending_review enviado; 31/31 lineas, WIT=DT, BAD 0",
+            "t": "2026-10-23T12:03:45Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: qc_es solo tilde de mas (L13 t2, aceptado), litchk 0, wit_dt BAD 0, estructura/timing/ingles ok, items nuevos ok",
+            "t": "2026-10-23T12:03:36Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: qc_es solo tilde de mas (L13 t2, aceptado), litchk 0, wit_dt BAD 0, estructura/timing/ingles ok, items nuevos ok",
+          "t": "2026-10-23T12:03:36Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T12:03:47Z"
         }
       }
     },
@@ -55433,10 +55476,10 @@
       "originalTrackId": "",
       "titulo": "El Zacatecano",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T11:59:26Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T12:06:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55463,7 +55506,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T11:59:26Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r1: structure, mapping, English draft pending_review, litchk 0, wit_dt BAD 0; findings left are place names/accents/ear notes",
+            "t": "2026-10-23T12:06:31Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r1: structure, mapping, English draft pending_review, litchk 0, wit_dt BAD 0; findings left are place names/accents/ear notes",
+          "t": "2026-10-23T12:06:31Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T12:06:32Z"
         }
       }
     },
