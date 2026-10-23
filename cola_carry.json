@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T10:56:56Z",
+  "generado": "2026-10-23T11:02:07Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -54802,9 +54802,9 @@
       "titulo": "Vamos A Dejarlo",
       "artista": "Ricardo Montaner",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T10:56:54Z",
+      "vueltas": 2,
+      "motivo": "QC r2 devuelto, arreglado, QC r3",
+      "actualizado": "2026-10-23T11:02:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54834,17 +54834,17 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "R1: 2 PITs (L13, L38) not literal in LT; 2 original leading words missing at L12/L24 with timing hole (insert + re-map + EN). Rest clean.",
-            "t": "2026-10-23T10:52:31Z"
+            "nota": "R2: r1 defects fixed, but LRC start of L12/L24 not moved with inserted first word: timing drift -386/-393 ms, fix with lrc_update_timings",
+            "t": "2026-10-23T11:01:21Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "R1: 2 PITs (L13, L38) not literal in LT; 2 original leading words missing at L12/L24 with timing hole (insert + re-map + EN). Rest clean.",
-          "t": "2026-10-23T10:52:31Z"
+          "resumen": "R2: r1 defects fixed, but LRC start of L12/L24 not moved with inserted first word: timing drift -386/-393 ms, fix with lrc_update_timings",
+          "t": "2026-10-23T11:01:21Z"
         }
       },
-      "motivo_en": "QC r1 fixes applied, QC r2"
+      "motivo_en": "QC r2 fix applied, QC r3 (final)"
     },
     {
       "coverTrackId": "6aa6b12372ca57eb1aa3650d",
