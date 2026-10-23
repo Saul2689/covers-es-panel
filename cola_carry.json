@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T09:38:29Z",
+  "generado": "2026-10-23T09:43:57Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -43557,10 +43557,10 @@
       "originalTrackId": "",
       "titulo": "Mi Gran Amor",
       "artista": "Nino Bravo",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T09:38:24Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T09:43:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43587,7 +43587,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T09:38:23Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC1: estructura 0 fallos, timing intacto, mapeo y ingles OK, wit_dt BAD 0, items nuevos OK; nota oido L16 w1",
+            "t": "2026-10-23T09:43:35Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC1: estructura 0 fallos, timing intacto, mapeo y ingles OK, wit_dt BAD 0, items nuevos OK; nota oido L16 w1",
+          "t": "2026-10-23T09:43:35Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T09:43:37Z"
         }
       }
     },
@@ -43608,10 +43624,10 @@
       "originalTrackId": "",
       "titulo": "Si Tu Quisieras",
       "artista": "los Temerarios",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T09:38:25Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T09:43:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43638,7 +43654,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T09:38:24Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, ingles (draft pending_review), wit_dt BAD 0 y audio OK; findings qc_es justificados",
+            "t": "2026-10-23T09:43:30Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, ingles (draft pending_review), wit_dt BAD 0 y audio OK; findings qc_es justificados",
+          "t": "2026-10-23T09:43:30Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T09:43:32Z"
         }
       }
     },
@@ -43732,10 +43764,10 @@
       "originalTrackId": "",
       "titulo": "Que No Daria",
       "artista": "los Cardenales de Nuevo Leon",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T09:38:27Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T09:43:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43762,7 +43794,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T09:38:26Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, items nuevos, ingles pending_review y wit_dt_audit BAD 0 en orden; sin cambios de timing",
+            "t": "2026-10-23T09:43:52Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, items nuevos, ingles pending_review y wit_dt_audit BAD 0 en orden; sin cambios de timing",
+          "t": "2026-10-23T09:43:52Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T09:43:54Z"
         }
       }
     },
