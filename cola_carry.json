@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T15:02:17Z",
+  "generado": "2026-10-23T15:12:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -46953,9 +46953,9 @@
       "titulo": "Amor No Me Ignores",
       "artista": "Camilo Sesto",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T15:02:14Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T15:12:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46982,9 +46982,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T15:02:13Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L5 w3 falta tilde de cambio de sentido (pretérito vs subjuntivo); resto OK",
+            "t": "2026-10-23T15:07:26Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L5 w3 falta tilde de cambio de sentido (pretérito vs subjuntivo); resto OK",
+          "t": "2026-10-23T15:07:26Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned a missing tense tilde; fixed with a new preterite item"
     },
     {
       "coverTrackId": "6aa7037272ca57eb1aaa7fb2",
@@ -47003,10 +47014,10 @@
       "originalTrackId": "",
       "titulo": "Te Llame",
       "artista": "Cristian",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T15:02:14Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T15:08:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47033,7 +47044,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T15:02:14Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles pending_review, wit_dt_audit 0, litchk/lpchk 0; hallazgos qc_es justificados (notas de oido)",
+            "t": "2026-10-23T15:08:35Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles pending_review, wit_dt_audit 0, litchk/lpchk 0; hallazgos qc_es justificados (notas de oido)",
+          "t": "2026-10-23T15:08:35Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T15:08:36Z"
         }
       }
     },
@@ -47044,9 +47071,9 @@
       "titulo": "Me Estoy Enamorando",
       "artista": "Alejandro Fernandez",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T15:02:15Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T15:12:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47073,9 +47100,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T15:02:15Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "estructura/LRC/timing/tildes/ingles OK; 2 anclas con sentido distinto de su gemela (L27 w3 sentido organo vs sentimiento L8; L24 w5 preposicion de volver a)",
+            "t": "2026-10-23T15:09:31Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "estructura/LRC/timing/tildes/ingles OK; 2 anclas con sentido distinto de su gemela (L27 w3 sentido organo vs sentimiento L8; L24 w5 preposicion de volver a)",
+          "t": "2026-10-23T15:09:31Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned two word senses that differed from their twins; remapped"
     },
     {
       "coverTrackId": "6aa1111864c9b8ff110c807a",
@@ -47281,9 +47319,9 @@
       "titulo": "Eternidad",
       "artista": "La Ley",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T15:02:16Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T15:12:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47310,9 +47348,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T15:02:16Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L19 w2 French word misspelled (final letter missing, same as original); everything else checks 0 (litchk, lpchk, wit_dt BAD 0, structure, audio, English pending_review)",
+            "t": "2026-10-23T15:07:17Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L19 w2 French word misspelled (final letter missing, same as original); everything else checks 0 (litchk, lpchk, wit_dt BAD 0, structure, audio, English pending_review)",
+          "t": "2026-10-23T15:07:17Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned a misspelled token; fixed"
     },
     {
       "coverTrackId": "6aa5068142b8d1fdb0c4978e",
