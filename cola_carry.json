@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T09:27:55Z",
+  "generado": "2026-10-23T09:38:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -43559,8 +43559,8 @@
       "artista": "Nino Bravo",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:06:05Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T09:38:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43585,8 +43585,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:06:05Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T09:38:23Z"
           }
         }
       }
@@ -43610,8 +43610,8 @@
       "artista": "los Temerarios",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:06:06Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T09:38:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43636,8 +43636,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:06:06Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T09:38:24Z"
           }
         }
       }
@@ -43661,8 +43661,8 @@
       "artista": "Alex Ubago",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:06:07Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T09:38:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43687,8 +43687,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:06:06Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T09:38:25Z"
           }
         }
       }
@@ -43734,8 +43734,8 @@
       "artista": "los Cardenales de Nuevo Leon",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:06:17Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T09:38:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43760,8 +43760,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:06:16Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T09:38:26Z"
           }
         }
       }
@@ -43774,8 +43774,8 @@
       "artista": "Lupita D'alessio",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:06:53Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T09:38:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43800,8 +43800,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:06:53Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T09:38:28Z"
           }
         }
       }
@@ -54269,10 +54269,10 @@
       "originalTrackId": "",
       "titulo": "Una Noche Mas",
       "artista": "Wisin Y Yandel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T09:21:17Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T09:30:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54301,15 +54301,21 @@
             "t": "2026-10-23T09:05:16Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L35 phrase insight on en-tagged phrase item (es item exists); 12 dejo-de words (L22,29,49,56,92,93,100,101,108,109,116,117) have WIT identical to PIT; note 62.6 de sense",
-            "t": "2026-10-23T09:16:40Z"
+            "v": "ok",
+            "nota": "r2: arreglos r1 verificados (L35 PI es, 12 WIT dejo de, PI L8 borrado), sin regresiones, ingles pending_review 127/127, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-23T09:30:04Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L35 phrase insight on en-tagged phrase item (es item exists); 12 dejo-de words (L22,29,49,56,92,93,100,101,108,109,116,117) have WIT identical to PIT; note 62.6 de sense",
-          "t": "2026-10-23T09:16:40Z"
+          "v": "VERDE",
+          "resumen": "r2: arreglos r1 verificados (L35 PI es, 12 WIT dejo de, PI L8 borrado), sin regresiones, ingles pending_review 127/127, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-23T09:30:04Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T09:30:11Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
