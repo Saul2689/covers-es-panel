@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T16:43:32Z",
+  "generado": "2026-10-23T16:53:59Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -48348,10 +48348,10 @@
       "originalTrackId": "",
       "titulo": "La Jirafa",
       "artista": "Calle 13",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T16:43:29Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-10-23T16:53:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48378,9 +48378,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T16:43:29Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: L32w1 interrogative tilde+item, L56w3 WIT wrong sense; rest clean",
+            "t": "2026-10-23T16:53:45Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: L32w1 interrogative tilde+item, L56w3 WIT wrong sense; rest clean",
+          "t": "2026-10-23T16:53:45Z"
         }
-      }
+      },
+      "motivo_en": "L32 w1 needs interrogative tilde and item (how); L56 w3 WIT 'because of' wrong sense (use by/across)"
     },
     {
       "coverTrackId": "6aa6cd7372ca57eb1aa64204",
@@ -48400,9 +48411,9 @@
       "titulo": "Infiel",
       "artista": "Rocío Dúrcal",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T16:43:30Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T16:53:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48429,9 +48440,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T16:43:30Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: un item de sentido (linea 33 palabra 4); resto OK",
+            "t": "2026-10-23T16:50:31Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: un item de sentido (linea 33 palabra 4); resto OK",
+          "t": "2026-10-23T16:50:31Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned for a wrong-sense pronoun item; fixed, QC r2"
     },
     {
       "coverTrackId": "6aa5935142b8d1fdb0d08691",
@@ -48569,10 +48591,10 @@
       "originalTrackId": "",
       "titulo": "De Que Sirve",
       "artista": "Reik",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T16:43:31Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-23T16:49:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48599,7 +48621,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T16:43:31Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk 0, wit_dt BAD 0, structure and twins clean, 52/52 English, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-23T16:49:22Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk 0, wit_dt BAD 0, structure and twins clean, 52/52 English, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-23T16:49:22Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T16:49:23Z"
         }
       }
     },
@@ -48805,10 +48843,10 @@
       "originalTrackId": "",
       "titulo": "Coincidir",
       "artista": "Nicho Hinojosa",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T16:43:32Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-23T16:52:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48835,7 +48873,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T16:43:31Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk/wit_dt 0, estructura y timing intactos, ingles 30/30 en pending_review, hallazgos restantes justificados (oido)",
+            "t": "2026-10-23T16:52:26Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk/wit_dt 0, estructura y timing intactos, ingles 30/30 en pending_review, hallazgos restantes justificados (oido)",
+          "t": "2026-10-23T16:52:26Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T16:52:28Z"
         }
       }
     },
