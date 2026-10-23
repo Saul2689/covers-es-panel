@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T14:40:29Z",
+  "generado": "2026-10-23T14:51:26Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -57014,10 +57014,10 @@
       "originalTrackId": "",
       "titulo": "Mienteme",
       "artista": "Olga Tañón",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T14:40:18Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T14:47:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -57044,7 +57044,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T14:40:17Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, 316 anclas, tildes y homografos, ingles 96/96 y 316 WIT en pending_review, wit_dt_audit 0, litchk 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-23T14:47:44Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, 316 anclas, tildes y homografos, ingles 96/96 y 316 WIT en pending_review, wit_dt_audit 0, litchk 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-23T14:47:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T14:47:46Z"
         }
       }
     },
@@ -57055,9 +57071,9 @@
       "titulo": "Me Canse De Ti",
       "artista": "Obie Bermudez",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T14:40:19Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T14:51:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -57084,9 +57100,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T14:40:18Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L28 w4 line-final comma in LRC+richsync; L6 w2 anchor on wrong hacer sense (use hacer+noun item) and reopen EN to fix its WIT",
+            "t": "2026-10-23T14:47:13Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L28 w4 line-final comma in LRC+richsync; L6 w2 anchor on wrong hacer sense (use hacer+noun item) and reopen EN to fix its WIT",
+          "t": "2026-10-23T14:47:13Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned a line-final comma and one word sense; both fixed"
     },
     {
       "coverTrackId": "6aa724b672ca57eb1aada2b0",
@@ -57225,10 +57252,10 @@
       "originalTrackId": "",
       "titulo": "Lipstick",
       "artista": "Alejandra Guzmán",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T14:40:20Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T14:48:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -57255,7 +57282,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T14:40:19Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: structure, timing drift 0, litchk 0, wit_dt BAD 0, anchors/homographs/new items ok, EN draft pending_review 45/45",
+            "t": "2026-10-23T14:48:13Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: structure, timing drift 0, litchk 0, wit_dt BAD 0, anchors/homographs/new items ok, EN draft pending_review 45/45",
+          "t": "2026-10-23T14:48:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T14:48:14Z"
         }
       }
     },
@@ -57265,10 +57308,10 @@
       "originalTrackId": "",
       "titulo": "Dama Dama",
       "artista": "Cecilia",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T14:40:21Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T14:48:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -57295,7 +57338,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T14:40:20Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: 0 qc_es findings, litchk 0, wit_dt BAD 0, 263/263 anclas, timing sin cambios, EN 42/42 en pending_review",
+            "t": "2026-10-23T14:48:38Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: 0 qc_es findings, litchk 0, wit_dt BAD 0, 263/263 anclas, timing sin cambios, EN 42/42 en pending_review",
+          "t": "2026-10-23T14:48:38Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T14:48:39Z"
         }
       }
     },
