@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T09:43:57Z",
+  "generado": "2026-10-23T09:47:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -43692,9 +43692,9 @@
       "titulo": "Siempre En Mi Mente",
       "artista": "Alex Ubago",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T09:38:26Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T09:47:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43721,9 +43721,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T09:38:25Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT duplica a su vecino: verbo conjugado con 'you' seguido de tu (L3,L4,L7,L8,L14 w2); resto verde",
+            "t": "2026-10-23T09:45:28Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT duplica a su vecino: verbo conjugado con 'you' seguido de tu (L3,L4,L7,L8,L14 w2); resto verde",
+          "t": "2026-10-23T09:45:28Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned (doubled you on verb WITs), fixed, QC r2"
     },
     {
       "coverTrackId": "6aa691e372ca57eb1aa17e5f",
