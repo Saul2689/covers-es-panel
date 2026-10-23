@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T09:05:19Z",
+  "generado": "2026-10-23T09:11:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -44064,9 +44064,9 @@
       "titulo": "Besos Y Copas",
       "artista": "Alicia Villarreal",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T09:05:15Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T09:11:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44093,9 +44093,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T09:05:15Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 8 palabra 3: falta la tilde del preterito en el LRC/richsync (ancla PRET.3SG ya correcta); resto OK",
+            "t": "2026-10-23T09:09:53Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 8 palabra 3: falta la tilde del preterito en el LRC/richsync (ancla PRET.3SG ya correcta); resto OK",
+          "t": "2026-10-23T09:09:53Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa620c072ca57eb1a971bca",
