@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T10:37:11Z",
+  "generado": "2026-10-23T10:49:55Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -44019,10 +44019,10 @@
       "originalTrackId": "",
       "titulo": "Pienso En Ti",
       "artista": "Chayanne",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T10:32:13Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T10:42:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44049,7 +44049,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T10:32:12Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 0 defectos, timing 0 deriva, mapeo y homografos ok, pensar en y 34 PIs ok, ingles 38/38 y 240 WIT en pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-23T10:41:58Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 0 defectos, timing 0 deriva, mapeo y homografos ok, pensar en y 34 PIs ok, ingles 38/38 y 240 WIT en pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-23T10:41:58Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T10:42:00Z"
         }
       }
     },
@@ -44060,9 +44076,9 @@
       "titulo": "Moño Negro",
       "artista": "Alejandro Fernandez",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T10:32:14Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T10:49:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44089,9 +44105,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T10:32:14Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "PIT no literal en la LT en 4 phrase insights (L7, L8, L11, L21); el resto limpio",
+            "t": "2026-10-23T10:39:32Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "PIT no literal en la LT en 4 phrase insights (L7, L8, L11, L21); el resto limpio",
+          "t": "2026-10-23T10:39:32Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 fixes applied, QC r2"
     },
     {
       "coverTrackId": "6aa66f8e72ca57eb1a9ea798",
@@ -44100,9 +44127,9 @@
       "titulo": "Una Noche Mas",
       "artista": "Olga Tañon",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T10:32:15Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T10:49:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44129,9 +44156,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T10:32:15Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "PIT 'no acabar de' L54/L58 no aparece literal en la LT; LT de L18 termina en signo; resto OK",
+            "t": "2026-10-23T10:40:10Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "PIT 'no acabar de' L54/L58 no aparece literal en la LT; LT de L18 termina en signo; resto OK",
+          "t": "2026-10-23T10:40:10Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 fixes applied, QC r2"
     },
     {
       "coverTrackId": "6aa5ba1842b8d1fdb0d356f1",
@@ -44361,10 +44399,10 @@
       "originalTrackId": "",
       "titulo": "Herida Mortal",
       "artista": "Jerry Rivera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T10:37:10Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T10:40:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44393,15 +44431,21 @@
             "t": "2026-10-23T10:08:15Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 1: 3 PIT que no estan en la traduccion de linea (L10, L38, L44), 'you' duplicado por te reflexivo (L24 w4, L44 w11/w12), L44 w3 y w52 sin anclar (misma palabra anclada en L43)",
-            "t": "2026-10-23T10:32:05Z"
+            "v": "ok",
+            "nota": "QC r2: r1 fixes verified (3 PITs in LT, reflexive te yourself, L44 w3/w52 anchored); BAD 0; draft pending_review; 358 anchors ok",
+            "t": "2026-10-23T10:40:52Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 1: 3 PIT que no estan en la traduccion de linea (L10, L38, L44), 'you' duplicado por te reflexivo (L24 w4, L44 w11/w12), L44 w3 y w52 sin anclar (misma palabra anclada en L43)",
-          "t": "2026-10-23T10:32:05Z"
+          "v": "VERDE",
+          "resumen": "QC r2: r1 fixes verified (3 PITs in LT, reflexive te yourself, L44 w3/w52 anchored); BAD 0; draft pending_review; 358 anchors ok",
+          "t": "2026-10-23T10:40:52Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T10:40:53Z"
         }
       },
       "motivo_en": "QC r1 fixes applied, QC r2"
@@ -55006,10 +55050,10 @@
       "originalTrackId": "",
       "titulo": "Vamos A Platicar",
       "artista": "los Socios Del Ritmo",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:09:00Z",
+      "motivo": "audio_guard MUDA_PARADA: el cover no suena con voz",
+      "actualizado": "2026-10-23T10:49:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55038,7 +55082,8 @@
             "t": "2026-10-07T09:09:00Z"
           }
         }
-      }
+      },
+      "motivo_en": "audio_guard MUDA_PARADA: the cover has no sung audio"
     },
     {
       "coverTrackId": "6aa613cd42b8d1fdb0db0dad",
