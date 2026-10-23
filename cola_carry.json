@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T08:33:44Z",
+  "generado": "2026-10-23T08:45:02Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -43364,10 +43364,10 @@
       "originalTrackId": "",
       "titulo": "No Te Preocupes Por Mi",
       "artista": "Chayanne",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T08:33:44Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T08:36:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43396,15 +43396,21 @@
             "t": "2026-10-23T08:18:21Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC1: glorias item example 3 copies lyric lines 11/23 (invent one); L5 w6 and L17 w6 WIT/DT starts with lowercase i. Rest clean (structure, timing, mapping, EN draft BAD 0)",
-            "t": "2026-10-23T08:27:16Z"
+            "v": "ok",
+            "nota": "r2: glorias ejemplo 3 inventado y WIT L5/L17 w6 en mayuscula verificados; sin regresiones; ingles pending_review, BAD 0, drift 0",
+            "t": "2026-10-23T08:36:14Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC1: glorias item example 3 copies lyric lines 11/23 (invent one); L5 w6 and L17 w6 WIT/DT starts with lowercase i. Rest clean (structure, timing, mapping, EN draft BAD 0)",
-          "t": "2026-10-23T08:27:16Z"
+          "v": "VERDE",
+          "resumen": "r2: glorias ejemplo 3 inventado y WIT L5/L17 w6 en mayuscula verificados; sin regresiones; ingles pending_review, BAD 0, drift 0",
+          "t": "2026-10-23T08:36:14Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T08:36:16Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -43437,10 +43443,10 @@
       "originalTrackId": "",
       "titulo": "Mi Querido Mi Viejo Mi Amigo",
       "artista": "Roberto Carlos",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T08:33:43Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T08:36:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43469,15 +43475,21 @@
             "t": "2026-10-23T08:18:24Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: 1 correccion de ingles (L15 t3 WIT de dentro doble el PIT de dentro de); resto verde",
-            "t": "2026-10-23T08:26:48Z"
+            "v": "ok",
+            "nota": "r2: fix L15 t3 verificado (WIT within, pending_review); sin regresiones; estructura, anclas, ingles, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-23T08:36:50Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: 1 correccion de ingles (L15 t3 WIT de dentro doble el PIT de dentro de); resto verde",
-          "t": "2026-10-23T08:26:48Z"
+          "v": "VERDE",
+          "resumen": "r2: fix L15 t3 verificado (WIT within, pending_review); sin regresiones; estructura, anclas, ingles, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-23T08:36:50Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T08:36:52Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -43488,10 +43500,10 @@
       "originalTrackId": "",
       "titulo": "Sin Verte",
       "artista": "Pedro Fernandez",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T08:18:30Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T08:37:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43518,10 +43530,26 @@
             "v": "ok",
             "nota": "borrador en pending_review",
             "t": "2026-10-23T08:18:28Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r2: fix de linea 11 palabra 5 verificado (gemela de 28 identica en ficha, ancla, WIT e ingles); sin regresiones; wit_dt_audit BAD 0; ingles pending_review",
+            "t": "2026-10-23T08:37:22Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r2: fix de linea 11 palabra 5 verificado (gemela de 28 identica en ficha, ancla, WIT e ingles); sin regresiones; wit_dt_audit BAD 0; ingles pending_review",
+          "t": "2026-10-23T08:37:22Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T08:37:25Z"
         }
       },
-      "motivo_en": "pre-QC done, QC r1"
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa668c072ca57eb1a9e1917",
@@ -53947,10 +53975,10 @@
       "originalTrackId": "",
       "titulo": "Corazon De Poeta",
       "artista": "Jeanette",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T08:33:42Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T08:38:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53979,15 +54007,21 @@
             "t": "2026-10-23T08:18:12Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "falta conjuncion inicial en lineas 16/33/38 (presente en las 3 repeticiones del original, hueco de 1.2 s en el cover): insert + reabrir ingles; resto OK",
-            "t": "2026-10-23T08:26:41Z"
+            "v": "ok",
+            "nota": "r2: conjuncion insertada en lineas 16/33/38 con timing, ancla, WIT, PI y ingles correctos; resto justificado; draft pending_review",
+            "t": "2026-10-23T08:38:46Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "falta conjuncion inicial en lineas 16/33/38 (presente en las 3 repeticiones del original, hueco de 1.2 s en el cover): insert + reabrir ingles; resto OK",
-          "t": "2026-10-23T08:26:41Z"
+          "v": "VERDE",
+          "resumen": "r2: conjuncion insertada en lineas 16/33/38 con timing, ancla, WIT, PI y ingles correctos; resto justificado; draft pending_review",
+          "t": "2026-10-23T08:38:46Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T08:38:48Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
