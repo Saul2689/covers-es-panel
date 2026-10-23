@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T11:02:07Z",
+  "generado": "2026-10-23T11:14:06Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -44559,8 +44559,8 @@
       "artista": "David Bisbal",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:08:43Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T11:14:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44585,8 +44585,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:08:43Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T11:14:00Z"
           }
         }
       }
@@ -44599,8 +44599,8 @@
       "artista": "Gloria Trevi",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:09:17Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T11:14:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44625,8 +44625,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:09:17Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T11:14:04Z"
           }
         }
       },
@@ -54801,10 +54801,10 @@
       "originalTrackId": "",
       "titulo": "Vamos A Dejarlo",
       "artista": "Ricardo Montaner",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "QC r2 devuelto, arreglado, QC r3",
-      "actualizado": "2026-10-23T11:02:05Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T11:05:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54833,15 +54833,21 @@
             "t": "2026-10-23T10:32:17Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "R2: r1 defects fixed, but LRC start of L12/L24 not moved with inserted first word: timing drift -386/-393 ms, fix with lrc_update_timings",
-            "t": "2026-10-23T11:01:21Z"
+            "v": "ok",
+            "nota": "r3: LRC starts L12/L24 equal first word, drift 0 all lines; qc_es, wit_dt_audit BAD 0, structure, English draft pending_review all clean; note: L12/L24 durations not extended",
+            "t": "2026-10-23T11:04:57Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "R2: r1 defects fixed, but LRC start of L12/L24 not moved with inserted first word: timing drift -386/-393 ms, fix with lrc_update_timings",
-          "t": "2026-10-23T11:01:21Z"
+          "v": "VERDE",
+          "resumen": "r3: LRC starts L12/L24 equal first word, drift 0 all lines; qc_es, wit_dt_audit BAD 0, structure, English draft pending_review all clean; note: L12/L24 durations not extended",
+          "t": "2026-10-23T11:04:57Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T11:05:00Z"
         }
       },
       "motivo_en": "QC r2 fix applied, QC r3 (final)"
@@ -54854,8 +54860,8 @@
       "artista": "Rene Gonzalez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:08:37Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T11:13:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54880,8 +54886,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:08:37Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T11:13:55Z"
           }
         }
       }
@@ -55001,8 +55007,8 @@
       "artista": "Julio Preciado",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:08:37Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T11:13:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55027,8 +55033,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:08:37Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T11:13:58Z"
           }
         }
       }
@@ -55052,8 +55058,8 @@
       "artista": "Marco Antonio Solis",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:08:53Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T11:14:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55078,8 +55084,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:08:53Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T11:14:02Z"
           }
         }
       }
