@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T09:21:18Z",
+  "generado": "2026-10-23T09:27:55Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -44023,10 +44023,10 @@
       "originalTrackId": "",
       "titulo": "Aprendere",
       "artista": "Hector El Torito Acosta",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "QC r2 devuelto, arreglado, QC r3 final",
-      "actualizado": "2026-10-23T09:21:17Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T09:24:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44055,15 +44055,21 @@
             "t": "2026-10-23T09:05:14Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r2: fix de r1 (L11 w6, L28 w1, L45 w1) verificado, sin regresiones; queda 1 WIT con 'to' doblado tras la frase de L4 (w5)",
-            "t": "2026-10-23T09:19:29Z"
+            "v": "ok",
+            "nota": "r3: fix de L4 w5 verificado, solo cambia ese DT; estructura, ingles y WIT limpios",
+            "t": "2026-10-23T09:24:34Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r2: fix de r1 (L11 w6, L28 w1, L45 w1) verificado, sin regresiones; queda 1 WIT con 'to' doblado tras la frase de L4 (w5)",
-          "t": "2026-10-23T09:19:29Z"
+          "v": "VERDE",
+          "resumen": "r3: fix de L4 w5 verificado, solo cambia ese DT; estructura, ingles y WIT limpios",
+          "t": "2026-10-23T09:24:34Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T09:24:35Z"
         }
       },
       "motivo_en": "QC r2 returned, fixed, final QC r3"
@@ -54371,10 +54377,10 @@
       "originalTrackId": "",
       "titulo": "Tus Maletas En La Puerta",
       "artista": "Yolanda Del Rio",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T09:05:18Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T09:24:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54399,9 +54405,25 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "borrador EN en pending_review",
-            "t": "2026-10-23T09:05:18Z"
+            "nota": "borrador en pending_review, 19 lineas, 0 WIT vacios, BAD 0",
+            "t": "2026-10-23T09:24:14Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura 150/150, 0 sin mapear, twins ok, BAD 0, 0 WIT vacios, ingles pending_review; notas de oido L7/L10/L13/L17",
+            "t": "2026-10-23T09:24:08Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura 150/150, 0 sin mapear, twins ok, BAD 0, 0 WIT vacios, ingles pending_review; notas de oido L7/L10/L13/L17",
+          "t": "2026-10-23T09:24:08Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T09:24:16Z"
         }
       }
     },
