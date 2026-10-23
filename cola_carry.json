@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T09:11:17Z",
+  "generado": "2026-10-23T09:15:45Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -44024,9 +44024,9 @@
       "titulo": "Aprendere",
       "artista": "Hector El Torito Acosta",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T09:05:14Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T09:15:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44053,9 +44053,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T09:05:14Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "estructura, mapeo, items nuevos e ingles ok; 1 defecto: WIT de la preposicion repite 'from' de su vecina arrancarte en L11 w5-6, L27-28, L44-45",
+            "t": "2026-10-23T09:14:38Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "estructura, mapeo, items nuevos e ingles ok; 1 defecto: WIT de la preposicion repite 'from' de su vecina arrancarte en L11 w5-6, L27-28, L44-45",
+          "t": "2026-10-23T09:14:38Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa80c68d951e1665a7eb579",
@@ -44063,10 +44074,10 @@
       "originalTrackId": "",
       "titulo": "Besos Y Copas",
       "artista": "Alicia Villarreal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T09:11:16Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T09:15:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44095,15 +44106,21 @@
             "t": "2026-10-23T09:05:15Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "linea 8 palabra 3: falta la tilde del preterito en el LRC/richsync (ancla PRET.3SG ya correcta); resto OK",
-            "t": "2026-10-23T09:09:53Z"
+            "v": "ok",
+            "nota": "ronda 2: tilde pretérito línea 8 ficha 3 corregida y verificada; sin regresiones; inglés en pending_review, BAD 0",
+            "t": "2026-10-23T09:15:11Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "linea 8 palabra 3: falta la tilde del preterito en el LRC/richsync (ancla PRET.3SG ya correcta); resto OK",
-          "t": "2026-10-23T09:09:53Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: tilde pretérito línea 8 ficha 3 corregida y verificada; sin regresiones; inglés en pending_review, BAD 0",
+          "t": "2026-10-23T09:15:11Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T09:15:13Z"
         }
       },
       "motivo_en": "QC r1 returned, fixed, QC r2"
@@ -54287,9 +54304,9 @@
       "titulo": "Un Muchacho Como Yo",
       "artista": "Palito Ortega",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T09:05:17Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T09:15:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54316,9 +54333,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T09:05:17Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 24 tok 2 sin tilde (tu->tu pronombre sujeto, falta remapear y repuntar WIT); linea 38 richsync 4 palabras vs 3 tokens (129 vs 128)",
+            "t": "2026-10-23T09:12:45Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 24 tok 2 sin tilde (tu->tu pronombre sujeto, falta remapear y repuntar WIT); linea 38 richsync 4 palabras vs 3 tokens (129 vs 128)",
+          "t": "2026-10-23T09:12:45Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned, fixed, QC r2"
     },
     {
       "coverTrackId": "6aa7113e72ca57eb1aabbf94",
