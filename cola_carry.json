@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T11:14:06Z",
+  "generado": "2026-10-23T11:24:16Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -44558,9 +44558,9 @@
       "titulo": "Quien Me Iba A Decir",
       "artista": "David Bisbal",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T11:14:01Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T11:24:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44587,9 +44587,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T11:14:00Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "unica correccion: traduccion inglesa de la linea 66 termina en '!' (no permitido); reabrir draft, quitarlo y reenviar a pending_review. Resto verde",
+            "t": "2026-10-23T11:19:24Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "unica correccion: traduccion inglesa de la linea 66 termina en '!' (no permitido); reabrir draft, quitarlo y reenviar a pending_review. Resto verde",
+          "t": "2026-10-23T11:19:24Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned (line ending), fixed, QC r2"
     },
     {
       "coverTrackId": "6aa81624d951e1665a7faf6e",
@@ -54858,10 +54869,10 @@
       "originalTrackId": "",
       "titulo": "Despues De La Caida",
       "artista": "Rene Gonzalez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T11:13:57Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T11:23:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54888,7 +54899,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T11:13:55Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura 248/248, timing drift 0, sentidos y items nuevos OK, ingles 39/39 en pending_review, wit_dt BAD 0, guard SUENA_SIN_BLINDAR; solo notas (sólo con tilde, ear-notes)",
+            "t": "2026-10-23T11:23:29Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura 248/248, timing drift 0, sentidos y items nuevos OK, ingles 39/39 en pending_review, wit_dt BAD 0, guard SUENA_SIN_BLINDAR; solo notas (sólo con tilde, ear-notes)",
+          "t": "2026-10-23T11:23:29Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T11:23:31Z"
         }
       }
     },
@@ -55006,9 +55033,9 @@
       "titulo": "Por Amar Asi",
       "artista": "Julio Preciado",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T11:13:59Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-23T11:24:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55035,9 +55062,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T11:13:58Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L25 ultima palabra sin isEndOfLine (24 de 25 lineas); resto de estructura, mapeo, ingles, DT y audio OK",
+            "t": "2026-10-23T11:19:41Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L25 ultima palabra sin isEndOfLine (24 de 25 lineas); resto de estructura, mapeo, ingles, DT y audio OK",
+          "t": "2026-10-23T11:19:41Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned (end-of-line flag), fixed, QC r2"
     },
     {
       "coverTrackId": "6aa709bf72ca57eb1aab0609",
@@ -55056,10 +55094,10 @@
       "originalTrackId": "",
       "titulo": "No Molestar",
       "artista": "Marco Antonio Solis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T11:14:03Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T11:18:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55086,7 +55124,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T11:14:02Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles (pending_review), wit_dt BAD 0, audio SUENA_SIN_BLINDAR; hallazgos de tilde justificados",
+            "t": "2026-10-23T11:18:16Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles (pending_review), wit_dt BAD 0, audio SUENA_SIN_BLINDAR; hallazgos de tilde justificados",
+          "t": "2026-10-23T11:18:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T11:18:18Z"
         }
       }
     },
