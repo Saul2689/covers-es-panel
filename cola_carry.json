@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T12:58:22Z",
+  "generado": "2026-10-23T13:07:21Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -45790,10 +45790,10 @@
       "originalTrackId": "",
       "titulo": "Anoche No Dormi",
       "artista": "Kumbia All Starz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T12:58:22Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T13:04:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45822,15 +45822,21 @@
             "t": "2026-10-23T12:40:57Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "doubled subject WIT on line 43 w1-2; exclamative que without tilde on lines 1/7 w1 (anchor/spelling disagree)",
-            "t": "2026-10-23T12:53:12Z"
+            "v": "ok",
+            "nota": "ronda 2: arreglos L43 w2 y L1/L7 w1 verificados; litchk 0, wit_dt_audit BAD 0, estructura y ingles OK, draft pending_review",
+            "t": "2026-10-23T13:04:38Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "doubled subject WIT on line 43 w1-2; exclamative que without tilde on lines 1/7 w1 (anchor/spelling disagree)",
-          "t": "2026-10-23T12:53:12Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: arreglos L43 w2 y L1/L7 w1 verificados; litchk 0, wit_dt_audit BAD 0, estructura y ingles OK, draft pending_review",
+          "t": "2026-10-23T13:04:38Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T13:04:39Z"
         }
       },
       "motivo_en": "QC r1 returned: doubled subject WIT and exclamative tilde on 2 lines, fixed; QC r2"
@@ -45852,10 +45858,10 @@
       "originalTrackId": "",
       "titulo": "Como Poder Saber Si Te Amo",
       "artista": "Leo Dan",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T12:40:59Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T13:03:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45882,9 +45888,26 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T12:40:59Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ronda 2: fix de inglés L5/12/19 verificado (condicional presente), litchk 0, wit_dt_audit BAD 0, estructura y timing limpios",
+            "t": "2026-10-23T13:03:51Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "ronda 2: fix de inglés L5/12/19 verificado (condicional presente), litchk 0, wit_dt_audit BAD 0, estructura y timing limpios",
+          "t": "2026-10-23T13:03:51Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T13:03:52Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned: line translation dropped the conditional on 3 twin lines, fixed; QC r2"
     },
     {
       "coverTrackId": "6aa5fafc42b8d1fdb0d98ba9",
@@ -45925,8 +45948,8 @@
       "artista": "Dyango",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:11:03Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T13:07:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45951,8 +45974,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:11:02Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T13:07:17Z"
           }
         }
       }
@@ -45965,8 +45988,8 @@
       "artista": "Paulina Rubio",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:11:03Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T13:07:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45991,8 +46014,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:11:03Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T13:07:18Z"
           }
         }
       }
@@ -55792,10 +55815,10 @@
       "originalTrackId": "",
       "titulo": "Ahora Se Que Me Quieres",
       "artista": "Formula V",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T12:58:22Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T13:03:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55804,9 +55827,9 @@
             "t": "2026-10-07T06:29:13Z"
           },
           "lrc": {
-            "v": "falta",
-            "nota": "tildes tu/esta pendientes en lineas 4,15,19,35,39,43,47,51: lrc_plan_fix se niega (palabra vacia con tiempo al final de la linea 52); sin cambios en LRC",
-            "t": "2026-10-07T06:29:13Z"
+            "v": "ok",
+            "nota": "tildes corregidas en QC r1 fix",
+            "t": "2026-10-23T13:03:39Z"
           },
           "timing": {
             "v": "ok",
@@ -55824,15 +55847,21 @@
             "t": "2026-10-23T12:40:55Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "tilde missing on the estar verb token, word 3 of lines 15/19/35/39/43/47/51 (misspelling x7, anchor to be remapped); everything else checked OK",
-            "t": "2026-10-23T12:48:39Z"
+            "v": "ok",
+            "nota": "r2: tildes de esta->esta corregidas en 7 lineas, anclas y WIT al item de estar; litchk/vchk/pichk/xchk 0, wit_dt BAD 0, estructura y ingles OK",
+            "t": "2026-10-23T13:02:33Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "tilde missing on the estar verb token, word 3 of lines 15/19/35/39/43/47/51 (misspelling x7, anchor to be remapped); everything else checked OK",
-          "t": "2026-10-23T12:48:39Z"
+          "v": "VERDE",
+          "resumen": "r2: tildes de esta->esta corregidas en 7 lineas, anclas y WIT al item de estar; litchk/vchk/pichk/xchk 0, wit_dt BAD 0, estructura y ingles OK",
+          "t": "2026-10-23T13:02:33Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T13:03:40Z"
         }
       },
       "motivo_en": "QC r1 returned: missing tilde on 7 lines, fixed and remapped; QC r2"
@@ -55968,8 +55997,8 @@
       "artista": "Lola",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:11:16Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T13:07:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55994,8 +56023,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:11:16Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T13:07:19Z"
           }
         }
       }
@@ -56008,8 +56037,8 @@
       "artista": "Banda El Recodo",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:11:17Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T13:07:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56034,8 +56063,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:11:16Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T13:07:20Z"
           }
         }
       }
@@ -56048,8 +56077,8 @@
       "artista": "Marc Anthony",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:11:20Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T13:07:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56074,8 +56103,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:11:20Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T13:07:21Z"
           }
         }
       }
