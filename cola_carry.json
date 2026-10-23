@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T10:21:35Z",
+  "generado": "2026-10-23T10:32:18Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -43894,10 +43894,10 @@
       "originalTrackId": "",
       "titulo": "No Renunciare",
       "artista": "Lolita",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T10:21:34Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T10:25:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43926,15 +43926,21 @@
             "t": "2026-10-23T10:08:10Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "Frase carried 'a la fuerza' mal en lineas 14,19,32,37 (sentido erroneo, PIT ausente en la traduccion); resto verificado",
-            "t": "2026-10-23T10:13:25Z"
+            "v": "ok",
+            "nota": "r2: fix verificado (4 PI a-la-fuerza fuera), checklist completa limpia, wit_dt_audit BAD 0, 37/37 EN, drift 0",
+            "t": "2026-10-23T10:25:29Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "Frase carried 'a la fuerza' mal en lineas 14,19,32,37 (sentido erroneo, PIT ausente en la traduccion); resto verificado",
-          "t": "2026-10-23T10:13:25Z"
+          "v": "VERDE",
+          "resumen": "r2: fix verificado (4 PI a-la-fuerza fuera), checklist completa limpia, wit_dt_audit BAD 0, 37/37 EN, drift 0",
+          "t": "2026-10-23T10:25:29Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T10:25:30Z"
         }
       },
       "motivo_en": "QC r1 returned (wrong-sense phrase), fixed, QC r2"
@@ -43956,10 +43962,10 @@
       "originalTrackId": "",
       "titulo": "Celoso",
       "artista": "Roberto Lutti",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T10:21:35Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T10:29:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43988,15 +43994,21 @@
             "t": "2026-10-23T10:08:12Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "ronda 1: ortografia de por que escrito como una palabra (11/21/31 w4-5, 4/18 w7, 15 w1); definicion de media noche sin corchete; solo con tilde opcional",
-            "t": "2026-10-23T10:14:47Z"
+            "v": "ok",
+            "nota": "ronda 2: interrogativo partido en dos tokens (L11/15/21/31), conjuncion L4/L18, corchete de media noche, estructura, timing, mapeo e ingles ok; wit_dt_audit BAD 0; borrador en pending_review",
+            "t": "2026-10-23T10:29:15Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "ronda 1: ortografia de por que escrito como una palabra (11/21/31 w4-5, 4/18 w7, 15 w1); definicion de media noche sin corchete; solo con tilde opcional",
-          "t": "2026-10-23T10:14:47Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: interrogativo partido en dos tokens (L11/15/21/31), conjuncion L4/L18, corchete de media noche, estructura, timing, mapeo e ingles ok; wit_dt_audit BAD 0; borrador en pending_review",
+          "t": "2026-10-23T10:29:15Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T10:29:18Z"
         }
       },
       "motivo_en": "QC r1 returned (interrogative token split), fixed, QC r2"
@@ -44009,8 +44021,8 @@
       "artista": "Chayanne",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:06:58Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T10:32:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44035,8 +44047,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:06:58Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T10:32:12Z"
           }
         }
       }
@@ -44049,8 +44061,8 @@
       "artista": "Alejandro Fernandez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:06:59Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T10:32:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44075,8 +44087,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:06:58Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T10:32:14Z"
           }
         }
       }
@@ -44089,8 +44101,8 @@
       "artista": "Olga Tañon",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:07:41Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T10:32:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44115,8 +44127,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:07:40Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T10:32:15Z"
           }
         }
       }
@@ -44349,10 +44361,10 @@
       "originalTrackId": "",
       "titulo": "Herida Mortal",
       "artista": "Jerry Rivera",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T10:08:15Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1: PIT fuera de la LT (L10, L38, L44), you duplicado (L24 w4, L44 w11-12), L44 w3/w52 sin anclar; reabrir ingles y reenviar",
+      "actualizado": "2026-10-23T10:32:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44379,7 +44391,17 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T10:08:15Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "ronda 1: 3 PIT que no estan en la traduccion de linea (L10, L38, L44), 'you' duplicado por te reflexivo (L24 w4, L44 w11/w12), L44 w3 y w52 sin anclar (misma palabra anclada en L43)",
+            "t": "2026-10-23T10:32:05Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "ronda 1: 3 PIT que no estan en la traduccion de linea (L10, L38, L44), 'you' duplicado por te reflexivo (L24 w4, L44 w11/w12), L44 w3 y w52 sin anclar (misma palabra anclada en L43)",
+          "t": "2026-10-23T10:32:05Z"
         }
       },
       "motivo_en": "LRC, timing and mapping done; English staged in en_plan.json, draft still to be opened"
@@ -54599,10 +54621,10 @@
       "originalTrackId": "",
       "titulo": "Cuando Un Amigo Se Va",
       "artista": "Alberto Cortez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-23T10:08:17Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T10:25:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54629,7 +54651,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-23T10:08:16Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "qc_es 0 hallazgos, estructura y timing sin cambios, wit_dt_audit BAD 0, ingles en pending_review 32/32, items nuevos completos",
+            "t": "2026-10-23T10:25:02Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "qc_es 0 hallazgos, estructura y timing sin cambios, wit_dt_audit BAD 0, ingles en pending_review 32/32, items nuevos completos",
+          "t": "2026-10-23T10:25:02Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T10:25:04Z"
         }
       }
     },
@@ -54652,8 +54690,8 @@
       "artista": "los Solitarios",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:08:36Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T10:32:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54678,8 +54716,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:08:35Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T10:32:16Z"
           }
         }
       }
@@ -54692,8 +54730,8 @@
       "artista": "Ricardo Montaner",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:08:36Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-23T10:32:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54718,8 +54756,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:08:36Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-23T10:32:17Z"
           }
         }
       }
