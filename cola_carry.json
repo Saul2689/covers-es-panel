@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T16:02:35Z",
+  "generado": "2026-10-23T08:13:02Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -43308,9 +43308,9 @@
       "titulo": "Nadie Simplemente Nadie",
       "artista": "Jose Jose",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-22T16:00:51Z",
+      "vueltas": 2,
+      "motivo": "QC r2 devuelto, arreglado, QC r3",
+      "actualizado": "2026-10-23T08:13:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43340,17 +43340,17 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "r1: L9/L12/L26 w9 falta tilde de preterito (anclas al subjuntivo, WIT/ingles en pasado); L8/L22 w1 una palabra 'because' donde el original tiene dos (interrogativo): partir y re-traducir. Resto OK",
-            "t": "2026-10-22T15:56:26Z"
+            "nota": "r1 fixes verificados (tilde pretérito y partición L8/22 correctas); falta ¿ ? en L8/L22 w1/w2 (qc_es vs_original_puntuacion x4), sin justificar",
+            "t": "2026-10-23T08:11:20Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "r1: L9/L12/L26 w9 falta tilde de preterito (anclas al subjuntivo, WIT/ingles en pasado); L8/L22 w1 una palabra 'because' donde el original tiene dos (interrogativo): partir y re-traducir. Resto OK",
-          "t": "2026-10-22T15:56:26Z"
+          "resumen": "r1 fixes verificados (tilde pretérito y partición L8/22 correctas); falta ¿ ? en L8/L22 w1/w2 (qc_es vs_original_puntuacion x4), sin justificar",
+          "t": "2026-10-23T08:11:20Z"
         }
       },
-      "motivo_en": "QC r1 returned, fixed, QC r2"
+      "motivo_en": "QC r2 returned, fixed, QC r3"
     },
     {
       "coverTrackId": "6aa5462542b8d1fdb0caafa3",
@@ -53507,10 +53507,10 @@
       "originalTrackId": "",
       "titulo": "Tu Eres Mi Luz",
       "artista": "Alejandra Guzmán",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto, justificado, QC r2",
-      "actualizado": "2026-10-22T16:02:34Z",
+      "motivo": "auditada: carry, LRC, timing, mapeo, ingles y QC",
+      "actualizado": "2026-10-23T08:10:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53539,15 +53539,21 @@
             "t": "2026-10-22T15:44:40Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "linea 33 palabra 1: falta insert (presente en las 3 repeticiones del original y en lineas 11/24, hueco de timing en 32-33); resto ok",
-            "t": "2026-10-22T15:58:28Z"
+            "v": "ok",
+            "nota": "ronda 2: l33 w1 justificada con medidas verificadas (hueco 20 ms, 730 vs 783 ms, nota sostenida 387 ms); resto de r1 reconfirmado; ingles l33 coherente",
+            "t": "2026-10-23T08:10:50Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "linea 33 palabra 1: falta insert (presente en las 3 repeticiones del original y en lineas 11/24, hueco de timing en 32-33); resto ok",
-          "t": "2026-10-22T15:58:28Z"
+          "v": "VERDE",
+          "resumen": "ronda 2: l33 w1 justificada con medidas verificadas (hueco 20 ms, 730 vs 783 ms, nota sostenida 387 ms); resto de r1 reconfirmado; ingles l33 coherente",
+          "t": "2026-10-23T08:10:50Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-23T08:10:52Z"
         }
       },
       "motivo_en": "QC r1 returned, justified, QC r2"
