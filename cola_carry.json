@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T17:21:54Z",
+  "generado": "2026-10-27T17:34:19Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -61951,10 +61951,10 @@
       "originalTrackId": "",
       "titulo": "Si No Me Amas",
       "artista": "Ednita Nazario",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T01:00:19Z",
+      "motivo": "MUDA_ARREGLABLE: arreglo de audio bloqueado por el clasificador",
+      "actualizado": "2026-10-27T17:26:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -61963,7 +61963,8 @@
             "t": "2026-10-07T01:00:18Z"
           }
         }
-      }
+      },
+      "motivo_en": "Silent cover (MUDA_ARREGLABLE); the audio fix is classifier-blocked"
     },
     {
       "coverTrackId": "6aa80061d951e1665a7deb98",
@@ -62419,10 +62420,10 @@
       "originalTrackId": "",
       "titulo": "Cruz De Olvido",
       "artista": "Hermanos Zaizar",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T01:00:33Z",
+      "motivo": "MUDA_PARADA: la cover no suena",
+      "actualizado": "2026-10-27T17:27:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62431,7 +62432,8 @@
             "t": "2026-10-07T01:00:33Z"
           }
         }
-      }
+      },
+      "motivo_en": "Silent cover (MUDA_PARADA)"
     },
     {
       "coverTrackId": "6aa53c1b42b8d1fdb0c9f47f",
@@ -64073,10 +64075,10 @@
       "originalTrackId": "",
       "titulo": "La Misma",
       "artista": "Lupillo Rivera",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T17:20:12Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T17:33:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -64103,9 +64105,26 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T17:20:11Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r2: tilde de pretérito (línea 2 palabra 5) corregida y sincronizada; litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR, estructura y mapeo limpios",
+            "t": "2026-10-27T17:33:38Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r2: tilde de pretérito (línea 2 palabra 5) corregida y sincronizada; litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR, estructura y mapeo limpios",
+          "t": "2026-10-27T17:33:38Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T17:33:39Z"
         }
-      }
+      },
+      "motivo_en": "Line 2 word 5: add the missing tilde to the token (preterite reading used by anchor and English), keep richsync/word-insight word in step; reopen English draft only if line 2 English changes."
     },
     {
       "coverTrackId": "6aa572a642b8d1fdb0cda1cf",
@@ -64381,10 +64400,10 @@
       "originalTrackId": "",
       "titulo": "Yo No Naci Para Amar",
       "artista": "Elvis Martinez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T17:06:52Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T17:29:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -64411,7 +64430,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T17:06:52Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, mapeo, ingles pending_review, litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; hallazgos justificados; nota de oido linea 55 palabra 0",
+            "t": "2026-10-27T17:29:28Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, mapeo, ingles pending_review, litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR; hallazgos justificados; nota de oido linea 55 palabra 0",
+          "t": "2026-10-27T17:29:28Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T17:29:31Z"
         }
       }
     },
@@ -64562,9 +64597,9 @@
       "titulo": "Lo Dijo El Corazon",
       "artista": "Joan Sebastian",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T17:20:05Z",
+      "vueltas": 1,
+      "motivo": "QC r1 corregido, QC r2",
+      "actualizado": "2026-10-27T17:32:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -64591,9 +64626,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T17:20:04Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "Lineas 12 y 30 palabra 6: falta la tilde del futuro (token sin acento aunque el ancla es futuro). Resto limpio.",
+            "t": "2026-10-27T17:29:13Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "Lineas 12 y 30 palabra 6: falta la tilde del futuro (token sin acento aunque el ancla es futuro). Resto limpio.",
+          "t": "2026-10-27T17:29:13Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 fixed: future tilde on L12/L30 w6, QC r2"
     },
     {
       "coverTrackId": "6aa7260472ca57eb1aadea9d",
@@ -64754,10 +64800,10 @@
       "originalTrackId": "",
       "titulo": "Enamorada",
       "artista": "Julissa",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T17:20:07Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T17:28:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -64784,7 +64830,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T17:20:06Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, tildes, mapeo, items nuevos e ingles en pending_review correctos; solo quedan ear-notes (lineas 7, 14-35 repeticiones, 39-42)",
+            "t": "2026-10-27T17:28:45Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, tildes, mapeo, items nuevos e ingles en pending_review correctos; solo quedan ear-notes (lineas 7, 14-35 repeticiones, 39-42)",
+          "t": "2026-10-27T17:28:45Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T17:28:47Z"
         }
       }
     },
@@ -64964,9 +65026,9 @@
       "titulo": "La Cortina",
       "artista": "la Sonora Dinamita",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T17:20:10Z",
+      "vueltas": 1,
+      "motivo": "QC r1 corregido, QC r2",
+      "actualizado": "2026-10-27T17:32:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -64993,9 +65055,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T17:20:09Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: stale unaccented word field on the line 16 word 1 anchor (token has the tilde); everything else verified",
+            "t": "2026-10-27T17:28:45Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: stale unaccented word field on the line 16 word 1 anchor (token has the tilde); everything else verified",
+          "t": "2026-10-27T17:28:45Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 fixed: anchor word field L16 w1, QC r2"
     },
     {
       "coverTrackId": "6aa5503b42b8d1fdb0cbac53",
@@ -65003,10 +65076,10 @@
       "originalTrackId": "",
       "titulo": "No Que No",
       "artista": "Control",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 corregido, QC r2",
-      "actualizado": "2026-10-27T17:18:07Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T17:23:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -65035,15 +65108,21 @@
             "t": "2026-10-27T17:06:50Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: tilde de futuro puesta en LRC y item pero el campo word de 14 anclas sigue sin tilde (reupsertar); resto verde",
-            "t": "2026-10-27T17:13:43Z"
+            "v": "ok",
+            "nota": "QC r2: palabra de las 14 anclas de futuro con tilde, todo lo demas sin cambios; litchk/lpchk 0, wit_dt BAD 0, ingles en pending_review",
+            "t": "2026-10-27T17:23:45Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: tilde de futuro puesta en LRC y item pero el campo word de 14 anclas sigue sin tilde (reupsertar); resto verde",
-          "t": "2026-10-27T17:13:43Z"
+          "v": "VERDE",
+          "resumen": "QC r2: palabra de las 14 anclas de futuro con tilde, todo lo demas sin cambios; litchk/lpchk 0, wit_dt BAD 0, ingles en pending_review",
+          "t": "2026-10-27T17:23:45Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T17:23:47Z"
         }
       },
       "motivo_en": "Re-upsert the word field of the 14 future-tense anchors (lines 10, 12-15, 25, 27-34) with the accented LRC token, same item"
@@ -65595,10 +65674,10 @@
       "originalTrackId": "",
       "titulo": "Jurame",
       "artista": "Gisselle",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T17:06:55Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T17:30:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -65625,7 +65704,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T17:06:53Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, mapeo, ingles y gemelas OK; litchk/lpchk 0, wit_dt BAD 0; notas de oido L2 w3, L4 w1, L4 w3",
+            "t": "2026-10-27T17:30:26Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, mapeo, ingles y gemelas OK; litchk/lpchk 0, wit_dt BAD 0; notas de oido L2 w3, L4 w1, L4 w3",
+          "t": "2026-10-27T17:30:26Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T17:30:28Z"
         }
       }
     },
@@ -65766,10 +65861,10 @@
       "originalTrackId": "",
       "titulo": "En Cada Mujer",
       "artista": "Espinoza Paz",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-27T17:01:18Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T17:25:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -65793,9 +65888,9 @@
             "t": "2026-10-27T17:01:17Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json: 26 lineas, 131 WITs, 2 PITs; dry run limpio; falta abrir el borrador",
-            "t": "2026-10-27T17:01:18Z"
+            "v": "ok",
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T17:25:37Z"
           }
         }
       }
@@ -65846,10 +65941,10 @@
       "originalTrackId": "",
       "titulo": "Clavame Tu Amor",
       "artista": "Noelia",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-27T17:00:57Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T17:25:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -65873,9 +65968,9 @@
             "t": "2026-10-27T17:00:46Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 53 lineas, 289 WIT con DT, 25 PIT, litchk 0; falta abrir el borrador",
-            "t": "2026-10-27T17:00:56Z"
+            "v": "ok",
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T17:25:35Z"
           }
         }
       }
@@ -65886,10 +65981,10 @@
       "originalTrackId": "",
       "titulo": "Jamas Me Cansare De Ti",
       "artista": "Rocio Durcal",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-27T17:18:51Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-27T17:24:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -65901,6 +65996,21 @@
             "v": "ok",
             "nota": "lrc_plan_fix 6 tokens en 5 lineas: tilde L13 w3, L38 w4, L41 w5, L42 w3; L40 w1 pronombre sujeto con tilde y coma; coma vocativa L38 w3. ids/tiempos iguales, rs 216",
             "t": "2026-10-27T17:18:51Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "track_timing_report drift 0 en 43 lineas, palabra mas corta 93 ms; audio_guard SUENA_SIN_BLINDAR (servido karaokeMp3, stemVoc null, mixMp3V null), nada medido ni fijado",
+            "t": "2026-10-27T17:24:25Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "216/216 mapeados; item nuevo 6ae0dd3f9e7e6bb20bcaee79 (FUT.1SG cansar, 19 idiomas, missing 0) en 8 anclas; 12 huecos + 30 remapeos (gemelas y sentidos); 5 phrase insights (en verdad x4, por eso x1)",
+            "t": "2026-10-27T17:24:26Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 43/43 lineas, 216/216 WIT con DT de su bolsa, 5/5 PIT; apply_en_plan seco 0 saltados; falta abrir el borrador",
+            "t": "2026-10-27T17:24:26Z"
           }
         }
       }
@@ -65911,16 +66021,36 @@
       "originalTrackId": "",
       "titulo": "Esta Vida Tuya Y Mia",
       "artista": "Kany Garcia",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T01:01:02Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-27T17:28:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-07T01:01:02Z"
+            "nota": "aplicado previamente (lote 98%), no se re-proyecta",
+            "t": "2026-10-27T17:28:26Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L7 pal2 tilde; L4 pal2 y L7 pal6 borradas (sobran vs original, arbitro original); anclas desplazadas y 2 sobrantes fuera de rango borradas; del x3 se queda (original con errata)",
+            "t": "2026-10-27T17:28:27Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 61 lineas, palabra minima 63 ms, primeros ms intactos; audio SUENA_SIN_BLINDAR, sin medir",
+            "t": "2026-10-27T17:28:29Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 5 items nuevos traducidos a 19 idiomas; 8 anclas nuevas, 12 remapeos (gemelas, sentidos), 9 phrase insights",
+            "t": "2026-10-27T17:28:29Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 61 lineas, 334/334 WIT con DT de su bolsa, 9 PIT; lo aplica el orquestador",
+            "t": "2026-10-27T17:28:30Z"
           }
         }
       }
@@ -65931,10 +66061,10 @@
       "originalTrackId": "",
       "titulo": "Como Yo Te Ame",
       "artista": "Armando Manzanero",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC tras aplicar los planes (escrituras denegadas al worker)",
-      "actualizado": "2026-10-27T17:21:27Z",
+      "motivo": "escritura bloqueada por el clasificador (borrar palabra vacía de richsync, línea 19); planes listos sin aplicar",
+      "actualizado": "2026-10-27T17:22:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -65963,7 +66093,8 @@
             "t": "2026-10-27T17:21:26Z"
           }
         }
-      }
+      },
+      "motivo_en": "Classifier blocked the richsync delete of an empty word after line 19; LRC, anchor and English plans are ready but unapplied"
     },
     {
       "coverTrackId": "6aa6fc9b72ca57eb1aa9e361",
@@ -65971,16 +66102,36 @@
       "originalTrackId": "",
       "titulo": "Jamas Impediras",
       "artista": "Veronikha",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T01:02:50Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-27T17:24:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 100%",
             "t": "2026-10-07T01:02:49Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "lineas 6 y 10 palabra 4: tilde de mas quitada (subjuntivo tras impedir que; el original trae la misma errata); resto igual al original",
+            "t": "2026-10-27T17:24:12Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 44 lineas, ninguna palabra <40 ms; hueco antes de linea 29 = instrumental (el original no canta ahi); audio SUENA_SIN_BLINDAR, sin medir",
+            "t": "2026-10-27T17:24:13Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "268/268 mapeados; 2 items nuevos traducidos a 19 idiomas a mano; 11 remapeos (gemelas, sentido, homografo); 10 phrase insights",
+            "t": "2026-10-27T17:24:14Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo (44 lineas, 268 WIT con texto y DT propio, 10 PIT); wit_dt_audit BAD 0; lo aplica el orquestador (no hay draft)",
+            "t": "2026-10-27T17:24:14Z"
           }
         }
       }
@@ -65991,16 +66142,36 @@
       "originalTrackId": "",
       "titulo": "Botellita De Tequila",
       "artista": "Pepe Aguilar",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T01:01:55Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-27T17:29:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T01:01:55Z"
+            "nota": "ya aplicado, no se re-proyecta",
+            "t": "2026-10-27T17:29:17Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L45 richsync vacio borrado; L9-10 tilde; L12,34 minuscula; L36 palabra insertada del original",
+            "t": "2026-10-27T17:29:18Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 45 lineas, ninguna palabra <40ms; hueco L24 instrumental",
+            "t": "2026-10-27T17:29:19Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 2 items + 1 frase nuevos traducidos 19 idiomas; 3 remapeos de sentido; 5 gemelas unificadas; 6 phrase insights",
+            "t": "2026-10-27T17:29:20Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json a mano: 45 lineas, 227 WIT, 6 PIT; dry run limpio; lo aplica el orquestador",
+            "t": "2026-10-27T17:29:21Z"
           }
         }
       }
@@ -66044,10 +66215,10 @@
       "originalTrackId": "",
       "titulo": "Tenias Que Ser Tan Cruel",
       "artista": "Rocio Durcal",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-27T17:20:18Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-27T17:22:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -66069,6 +66240,11 @@
             "v": "ok",
             "nota": "170/170; item nuevo 6ae0dd209e7e6bb20bcae5df (L2 w7, 19 idiomas); remapeos L11 w1, L15 w3, L26 w3, L19 w5, L30 w5",
             "t": "2026-10-27T17:20:18Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 36 lineas, 170 WIT con texto y DT de su bolsa (dry run 170/170, 0 skipped); borrador lo abre el orquestador",
+            "t": "2026-10-27T17:22:17Z"
           }
         }
       }
@@ -66101,16 +66277,36 @@
       "originalTrackId": "",
       "titulo": "Las Mujeres Olvidadas",
       "artista": "Alicia Villarreal",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T01:03:37Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-27T17:24:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 100%",
-            "t": "2026-10-07T01:03:36Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-27T17:24:53Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "5 tildes repuestas: linea 6 palabra 2, lineas 7 y 20 palabra 5, lineas 8 y 21 palabra 3; ids y tiempos intactos",
+            "t": "2026-10-27T17:24:53Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 32 lineas, ninguna palabra < 40 ms, 165 rs = 165 tokens; audio SUENA_SIN_BLINDAR (karaokeMp3), sin medir",
+            "t": "2026-10-27T17:24:54Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, gemelas unificadas (lineas 7/20, 8/21, 14/27), 6 items nuevos con 19 idiomas",
+            "t": "2026-10-27T17:24:55Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json listo: 32 lineas + 155 WIT con DT de su propio item, 0 vacios; borrador lo abre el orquestador",
+            "t": "2026-10-27T17:24:56Z"
           }
         }
       }
@@ -66141,16 +66337,36 @@
       "originalTrackId": "",
       "titulo": "Eres Mia",
       "artista": "Pepe Aguilar",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T01:04:12Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-27T17:25:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T01:04:12Z"
+            "nota": "carry en lote ya aplicado (no se re-proyecta)",
+            "t": "2026-10-27T17:25:10Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 5 palabra 1 corregida al texto del original (regla original-arbitro; cover publicada); resto identico al original",
+            "t": "2026-10-27T17:25:10Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 29 lineas; palabra minima 50 ms; hueco antes de la linea 17 = instrumental (el original tampoco canta ahi); audio_guard SUENA_SIN_BLINDAR, sin medir",
+            "t": "2026-10-27T17:25:11Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "131/131 tokens; 2 items nuevos traducidos a 19 idiomas; 7 remapeos (gemelas y sentido de linea 1 palabra 1); 4 phrase insights",
+            "t": "2026-10-27T17:25:12Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 29 lineas, 131 WIT con DT propio (BAD 0), 4 PIT; lo aplica el orquestador",
+            "t": "2026-10-27T17:25:14Z"
           }
         }
       }
@@ -66161,16 +66377,36 @@
       "originalTrackId": "",
       "titulo": "Mama",
       "artista": "Timbiriche",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T00:58:57Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-27T17:23:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 89%",
-            "t": "2026-10-07T00:58:57Z"
+            "nota": "carry en lote ya aplicado; no re-proyectado",
+            "t": "2026-10-27T17:22:59Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "11 tokens: tilde en l9 w1, l14 w2, l17 w1, l20 w1, l23 w3, l24 w1, l28 w1, l33 w3, l35 w9, l37 w3; coma tras l35 w6; ids y timings conservados",
+            "t": "2026-10-27T17:23:14Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 38 lineas; 0 palabras <40 ms o >6 s; audio_guard SUENA_SIN_BLINDAR (timeline karaokeMp3, sirve vocx wav 206), sin medir",
+            "t": "2026-10-27T17:23:01Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "160/160 mapeados; 33 remapeos (5 al homografo con tilde, gemelas unificadas, sentidos) + 5 anclas nuevas; 1 phrase insight l4 w6-w7 (item existente); 0 items nuevos",
+            "t": "2026-10-27T17:23:15Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json: 38 lineas, 160 WIT con texto y DT del propio item, 1 PIT; dt_foreign 0; lo aplica el orquestador",
+            "t": "2026-10-27T17:23:03Z"
           }
         }
       }
@@ -66250,14 +66486,34 @@
       "artista": "Gilberto Santa Rosa",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T01:04:47Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-10-27T17:26:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 97%",
-            "t": "2026-10-07T01:04:47Z"
+            "nota": "carry en lote ya aplicado, no se toca",
+            "t": "2026-10-27T17:26:26Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "20 tokens corregidos en 16 lineas (tildes y erratas del mismo vocablo); 0 cambios de numero de tokens; ear-notes L12 w2, L37 w2, L27 w6, L30 w3 para Saul",
+            "t": "2026-10-27T17:26:26Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 50 lineas, palabra minima 100 ms; hueco L26 = instrumental (el original no canta ahi); audio SUENA_SIN_BLINDAR karaokeMp3 206, sin medir",
+            "t": "2026-10-27T17:26:27Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "274/274 mapeados; 40 anclas creadas/remapeadas; gemelas unificadas; item nuevo alumbrar 6ae0dd789e7e6bb20bcb060f (19 idiomas); phrase item nuevo 6ae0ddf91e7fe75ad7e810f9 (19 idiomas); 5 phrase anchors",
+            "t": "2026-10-27T17:26:28Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 50 lineas, 274 WITs con DT de su bolsa, 5 PITs; dry run 274/274, 0 skipped; falta abrir el borrador",
+            "t": "2026-10-27T17:26:29Z"
           }
         }
       }
@@ -66268,16 +66524,36 @@
       "originalTrackId": "",
       "titulo": "Suma",
       "artista": "Ricardo Montaner",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T01:02:15Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-27T17:25:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 90%",
-            "t": "2026-10-07T01:02:15Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-27T17:24:58Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "erratas L11/L33 p5, merge L22/L44/L57 p7-8 (como el original); coma final quitada L8 p6 y L27 p7 (regla 30 sep); falta/ad-libs entre parentesis justificados",
+            "t": "2026-10-27T17:24:58Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 58 lineas, 0 palabras <40 ms, hueco tras L23 = instrumental en el original; audio SUENA_SIN_BLINDAR stemVoc +0 ms conf 1.25, no se mide",
+            "t": "2026-10-27T17:24:59Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "319/319 mapeados; 7 items nuevos con 19 idiomas; L1/L5/L24 p1 remapeados de adjetivo a verbo; dejes x3 al sentido dejar de; gemelas L40 p2 y L44 p3 unificadas",
+            "t": "2026-10-27T17:25:01Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 58 lineas + 316/316 WIT con DT del propio item (apply_en_plan dry ok, 0 skipped); lo aplica el orquestador",
+            "t": "2026-10-27T17:25:03Z"
           }
         }
       }
@@ -66354,16 +66630,36 @@
       "originalTrackId": "",
       "titulo": "Tarde",
       "artista": "Rocio Durcal",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T01:02:35Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-27T17:30:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T01:02:35Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-27T17:30:02Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 9: falta conjuncion inicial (original de arbitro) insertada + minuscula palabra 2; linea 14: repeticion final de 2 palabras insertada (quita la coma final de linea)",
+            "t": "2026-10-27T17:30:03Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 32 lineas; linea 9 inicio movido a la palabra nueva (61650); linea 26 palabra 6 de 18 ms alargada a 520 ms; linea 14 palabras 4-7 repartidas; min palabra 63 ms; hueco de 22 s antes de linea 23 = instrumental (el original no canta ahi). Audio SUENA_SIN_BLINDAR stemVoc -50 ms, sin medir",
+            "t": "2026-10-27T17:30:04Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "260/260 mapeados; 2 items nuevos traducidos a 19 (6ae0de7d6657c678e23e3e50, 6ae0de7d2b762ac2ca0c7f41); 10 remapeos (gemelas lineas 6/20/22/23/26/30/32, sentido linea 10 palabra 7); 6 phrase insights hacer falta / dar pena",
+            "t": "2026-10-27T17:30:05Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo (32 lineas, 260 WIT con DT de su bolsa, 6 PIT); dry-run apply_en_plan limpio; lo aplica el orquestador",
+            "t": "2026-10-27T17:30:06Z"
           }
         }
       }
@@ -66374,10 +66670,10 @@
       "originalTrackId": "",
       "titulo": "Parece Que Fue Ayer",
       "artista": "Armando Manzanero",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-27T17:00:24Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T17:25:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -66401,9 +66697,9 @@
             "t": "2026-10-27T17:00:21Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "24 lineas + 146 WIT + 3 PIT en en_plan.json; falta abrir el borrador",
-            "t": "2026-10-27T17:00:23Z"
+            "v": "ok",
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T17:25:31Z"
           }
         }
       }
@@ -66454,10 +66750,10 @@
       "originalTrackId": "",
       "titulo": "Tan Facil Que Hubiera Sido",
       "artista": "Vicente Fernández",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T01:02:53Z",
+      "motivo": "MUDA_ARREGLABLE: arreglo de audio bloqueado por el clasificador",
+      "actualizado": "2026-10-27T17:26:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -66466,7 +66762,8 @@
             "t": "2026-10-07T01:02:53Z"
           }
         }
-      }
+      },
+      "motivo_en": "Silent cover (MUDA_ARREGLABLE); the audio fix is classifier-blocked"
     },
     {
       "coverTrackId": "6aa5865642b8d1fdb0cf3ccf",
@@ -66720,10 +67017,10 @@
       "originalTrackId": "",
       "titulo": "Para Amarnos Mas",
       "artista": "Manuel Mijares",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-27T17:01:15Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T17:25:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -66747,9 +67044,9 @@
             "t": "2026-10-27T17:01:13Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json: 50 lineas, 217 WIT con DT de su bolsa, 0 PIT; falta abrir el borrador",
-            "t": "2026-10-27T17:01:14Z"
+            "v": "ok",
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T17:25:39Z"
           }
         }
       }
