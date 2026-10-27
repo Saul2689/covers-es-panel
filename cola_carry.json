@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T12:46:43Z",
+  "generado": "2026-10-27T13:12:19Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -50682,10 +50682,10 @@
       "originalTrackId": "",
       "titulo": "El Shaddai",
       "artista": "Danny Berrios",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T12:46:32Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T12:59:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50712,7 +50712,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T12:46:32Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: struct, timing, accents/tenses, mapping, new items, EN draft pending_review, twins, litchk/lpchk/dt 0; only L49 w4 fragment (ear note for Saul)",
+            "t": "2026-10-27T12:59:16Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: struct, timing, accents/tenses, mapping, new items, EN draft pending_review, twins, litchk/lpchk/dt 0; only L49 w4 fragment (ear note for Saul)",
+          "t": "2026-10-27T12:59:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T12:59:22Z"
         }
       }
     },
@@ -50722,10 +50738,10 @@
       "originalTrackId": "",
       "titulo": "Perdoname En Silencio",
       "artista": "Reyli",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T12:46:33Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T12:55:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50752,7 +50768,23 @@
             "v": "ok",
             "nota": "drift 0 en 54 lineas, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (206, karaokeMp3), sin tocar",
             "t": "2026-10-07T04:11:47Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk 0, wit_dt BAD 0, structure and timing clean, anchors and twins ok, English draft pending_review; ad-lib fragments are ear notes",
+            "t": "2026-10-27T12:55:16Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk 0, wit_dt BAD 0, structure and timing clean, anchors and twins ok, English draft pending_review; ad-lib fragments are ear notes",
+          "t": "2026-10-27T12:55:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T12:55:19Z"
         }
       }
     },
@@ -50835,10 +50867,10 @@
       "originalTrackId": "",
       "titulo": "La Culpa Ha Sido Mia",
       "artista": "Camilo Sesto",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T12:46:35Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T12:58:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50865,7 +50897,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T12:46:34Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, timing 0, tildes, mapeo, gemelas, PIT literales, ingles 46/46 en pending_review; sin defectos",
+            "t": "2026-10-27T12:58:46Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, timing 0, tildes, mapeo, gemelas, PIT literales, ingles 46/46 en pending_review; sin defectos",
+          "t": "2026-10-27T12:58:46Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T12:58:48Z"
         }
       }
     },
@@ -50875,10 +50923,10 @@
       "originalTrackId": "",
       "titulo": "Regalame La Silla Donde Te Espere",
       "artista": "Alejandro Sanz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T12:46:38Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T13:07:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50905,9 +50953,26 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T12:46:37Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r2: trailing commas on twin lines fixed, pass-by remap verified (item word, own-bag DT, twins identical), all checks 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T13:07:24Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r2: trailing commas on twin lines fixed, pass-by remap verified (item word, own-bag DT, twins identical), all checks 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T13:07:24Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T13:07:27Z"
         }
-      }
+      },
+      "motivo_en": "QC round 1: the English line translation on lines 14 and 35 ends in a comma. Remove it on both lines, keep them identical and resubmit the draft."
     },
     {
       "coverTrackId": "6aa5d86542b8d1fdb0d63ef4",
@@ -50915,10 +50980,10 @@
       "originalTrackId": "",
       "titulo": "Lo Que Yo Tuve Contigo",
       "artista": "José Feliciano",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T12:46:41Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T13:03:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50945,7 +51010,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T12:46:40Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1 VERDE: estructura, timing, acentos, gemelas, ingles (draft pending_review) y audio OK; notas de oido L26 y L27",
+            "t": "2026-10-27T13:03:38Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1 VERDE: estructura, timing, acentos, gemelas, ingles (draft pending_review) y audio OK; notas de oido L26 y L27",
+          "t": "2026-10-27T13:03:38Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T13:03:39Z"
         }
       }
     },
@@ -50990,8 +51071,8 @@
       "artista": "Pimpinela",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:43:17Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T13:12:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51016,8 +51097,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:43:17Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T13:12:06Z"
           }
         }
       }
@@ -51030,8 +51111,8 @@
       "artista": "Monchy & Alexandra",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:43:52Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T13:12:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51056,8 +51137,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:43:52Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T13:12:08Z"
           }
         }
       },
@@ -51071,8 +51152,8 @@
       "artista": "Camilo Sesto",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:43:53Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T13:12:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51097,8 +51178,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:43:52Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T13:12:11Z"
           }
         }
       }
@@ -51200,8 +51281,8 @@
       "artista": "Isabel Pantoja",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:43:53Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T13:12:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51226,8 +51307,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:43:53Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T13:12:13Z"
           }
         }
       }
@@ -51307,8 +51388,8 @@
       "artista": "Angela Carrasco",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:44:02Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T13:12:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51333,8 +51414,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:44:02Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T13:12:16Z"
           }
         }
       }
