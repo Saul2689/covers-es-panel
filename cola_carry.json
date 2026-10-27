@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T10:54:56Z",
+  "generado": "2026-10-27T11:03:38Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -42518,8 +42518,8 @@
       "artista": "Myriam Hernandez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:35:35Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T11:03:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42544,8 +42544,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:35:34Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T11:03:33Z"
           }
         }
       }
@@ -42911,8 +42911,8 @@
       "artista": "Camilo Sesto",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:35:39Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T11:03:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42937,8 +42937,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:35:37Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T11:03:36Z"
           }
         }
       }
@@ -48929,10 +48929,10 @@
       "originalTrackId": "",
       "titulo": "No Llorare",
       "artista": "Ana Barbara",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T10:45:57Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T10:57:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48959,7 +48959,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T10:45:56Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, mapeo, gemelas, ingles pending_review, wit_dt BAD 0, guard SIN_BLINDAR",
+            "t": "2026-10-27T10:57:28Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, mapeo, gemelas, ingles pending_review, wit_dt BAD 0, guard SIN_BLINDAR",
+          "t": "2026-10-27T10:57:28Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T10:57:31Z"
         }
       },
       "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
@@ -49088,10 +49104,10 @@
       "originalTrackId": "",
       "titulo": "Morriñas",
       "artista": "Julio Iglesias",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T10:46:00Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T10:58:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49118,7 +49134,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T10:45:59Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: structure, anchors, accents, phrase items (all es), English draft, twins, wit_dt_audit 0, litchk/lpchk 0; only Galicia proper noun left unmapped; tail rows note for Saul",
+            "t": "2026-10-27T10:58:55Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: structure, anchors, accents, phrase items (all es), English draft, twins, wit_dt_audit 0, litchk/lpchk 0; only Galicia proper noun left unmapped; tail rows note for Saul",
+          "t": "2026-10-27T10:58:55Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T10:58:56Z"
         }
       }
     },
@@ -49286,10 +49318,10 @@
       "originalTrackId": "",
       "titulo": "Un Amor No Muere Asi Como Asi",
       "artista": "Camilo Sesto",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T10:46:06Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T11:01:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49316,7 +49348,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T10:46:04Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, gemelas, items nuevos, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T11:01:20Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, gemelas, items nuevos, ingles pending_review, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T11:01:20Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T11:01:22Z"
         }
       }
     },
@@ -49339,8 +49387,8 @@
       "artista": "Camilo Sesto",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:17:41Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T11:03:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49365,8 +49413,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:17:41Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T11:03:30Z"
           }
         }
       }
@@ -49508,8 +49556,8 @@
       "artista": "Alejandro Jaen",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:17:42Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T11:03:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49534,8 +49582,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:17:42Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T11:03:31Z"
           }
         }
       }
@@ -49559,8 +49607,8 @@
       "artista": "Rocio Durcal",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:17:43Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T11:03:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49585,8 +49633,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:17:42Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T11:03:32Z"
           }
         }
       }
@@ -58160,10 +58208,10 @@
       "originalTrackId": "",
       "titulo": "No Creo Que Tu",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T10:46:03Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T10:58:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -58190,7 +58238,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T10:46:02Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, tildes, gemelas, ingles de borrador, litchk/lpchk/wit_dt 0, audio ok; 4 hallazgos qc_es justificados como notas de oido",
+            "t": "2026-10-27T10:58:56Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, tildes, gemelas, ingles de borrador, litchk/lpchk/wit_dt 0, audio ok; 4 hallazgos qc_es justificados como notas de oido",
+          "t": "2026-10-27T10:58:56Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T10:58:58Z"
         }
       }
     },
