@@ -141,6 +141,23 @@ tailwind.config={theme:{extend:{
                         placeholder:text-accent/70 placeholder:font-semibold focus:outline-none">
         </div>
       </div>
+      <!-- Separar por nota: un boton con las tres bandas dentro. Solo sale en
+           la pestaña de calificadas, que es la unica con notas. -->
+      <div id="x-banda" hidden class="relative shrink-0">
+        <button type="button" id="x-banda-bot" aria-haspopup="true" aria-expanded="false"
+                class="flex w-full items-center gap-2 rounded-2xl border border-line/70 bg-surface
+                       px-3.5 py-2.5 text-[13px] font-medium text-zinc-400 transition-all duration-200
+                       hover:-translate-y-0.5 hover:border-accent/50 hover:text-zinc-100">
+          <span id="x-banda-tit"></span>
+          <span id="x-banda-ahora" class="font-semibold text-zinc-100"></span>
+          <svg class="ml-auto h-3.5 w-3.5 shrink-0 text-zinc-500 transition-transform duration-200"
+               id="x-banda-flecha" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2.4" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
+        </button>
+        <div id="x-cal-bandas" hidden
+             class="absolute right-0 z-30 mt-2 w-[230px] rounded-2xl border border-line bg-surface
+                    p-1.5 shadow-2xl shadow-black/60"></div>
+      </div>
     </div>
 
     <!-- ══ firma: el riel de la línea (solo pestaña Carry) ══ -->
@@ -178,25 +195,6 @@ tailwind.config={theme:{extend:{
       </div>
     </section>
 
-    <!-- ══ separar por nota (solo pestaña calificadas) ══
-         Tarjeta aparte y plegada: es un mando, no un dato, y dentro del
-         reparto de notas parecia parte del grafico. -->
-    <section id="x-banda" hidden class="mt-4">
-      <details id="x-banda-det" class="group rounded-2xl bg-surface shadow-xl shadow-black/40">
-        <summary class="cursor-pointer select-none list-none px-4 sm:px-5 py-3.5 flex items-center gap-3
-                        transition-colors duration-200 hover:bg-raised/40 rounded-2xl">
-          <svg class="shrink-0 text-zinc-500 transition-transform duration-200 group-open:rotate-90"
-               width="14" height="14" viewBox="0 0 12 12" fill="none" aria-hidden="true">
-            <path d="M4 2l4 4-4 4" stroke="currentColor" stroke-width="1.8"
-                  stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-          <span class="font-display font-semibold tracking-tight text-[15px] text-zinc-100"
-                id="x-banda-tit"></span>
-          <span class="ml-auto text-[12.5px] text-zinc-500" id="x-banda-ahora"></span>
-        </summary>
-        <div class="flex flex-wrap items-center gap-2 px-4 sm:px-5 pb-4 sm:pb-5" id="x-cal-bandas"></div>
-      </details>
-    </section>
 
     <!-- ══ el proceso (solo pestaña Pipeline) ══ -->
     <section id="x-proceso" hidden class="mt-6">
@@ -299,7 +297,7 @@ tailwind.config={theme:{extend:{
       paradaTxt:'{n} parada: alguien tiene que mirarla antes de que siga.',
       paradasTxt:'{n} paradas: alguien tiene que mirarlas antes de que sigan.',
       calTit:'Reparto de notas',
-      bandaTit:'Separar por nota', bandaAhora:'Viendo: {v}',
+      bandaTit:'Nota',
       calTodas:'Todas',
       calB12:'1-2 estrellas', calB3:'3 estrellas', calB45:'4-5 estrellas',
       e_sinorig:'Original por subir', e_cola:'En cola', e_carry:'Carry', e_traduccion:'Traduciendo',
@@ -374,7 +372,7 @@ tailwind.config={theme:{extend:{
       paradaTxt:'{n} stopped: someone has to look at it before it moves on.',
       paradasTxt:'{n} stopped: someone has to look at them before they move on.',
       calTit:'How the ratings fall',
-      bandaTit:'Split by rating', bandaAhora:'Showing: {v}',
+      bandaTit:'Rating',
       calTodas:'All',
       calB12:'1-2 stars', calB3:'3 stars', calB45:'4-5 stars',
       e_sinorig:'Original to import', e_cola:'Queued', e_carry:'Carry', e_traduccion:'Translating',
@@ -910,20 +908,31 @@ tailwind.config={theme:{extend:{
     c.innerHTML=BANDAS.map(function(b){
         var r=b[1], n=r?filas.filter(function(f){return r.indexOf(f[3]||0)>-1;}).length:filas.length,
             on=r?!!(banda&&banda[0]===r[0]):!banda,
-            col=r?QC[r[r.length-1]]:'#A1A1AA';
-        if(on) ahora=t(b[0]==='todas'?'calTodas':'calB'+b[0])+' · '+nf.format(n);
+            col=r?QC[r[r.length-1]]:'#A1A1AA',
+            nom=t(b[0]==='todas'?'calTodas':'calB'+b[0]);
+        /* Cerrado, el boton tiene que decir que tramo se esta viendo. */
+        if(on) ahora=nom;
         return '<button type="button" data-banda="'+b[0]+'" aria-pressed="'+on+'" '+
-          'class="inline-flex items-center gap-2 rounded-xl px-3 py-1.5 text-[12.5px] font-medium '+
-          'transition-all duration-200 '+
-          (on?'bg-accent text-white shadow-lg shadow-accent/20'
-             :'border border-line/70 bg-raised text-zinc-400 hover:-translate-y-0.5 hover:text-zinc-100')+'">'+
-          (r?'<span class="h-2 w-2 shrink-0 rounded-full" style="background:'+col+'"></span>':'')+
-          esc(t(b[0]==='todas'?'calTodas':'calB'+b[0]))+
-          '<span class="font-dot text-[13px] font-bold '+(on?'text-white/70':'text-zinc-500')+'">'+
-          nf.format(n)+'</span></button>';
+          'class="flex w-full items-center gap-2.5 rounded-xl px-2.5 py-2 text-left text-[13px] '+
+          'font-medium transition-colors duration-200 '+
+          (on?'bg-accent/15 text-accentsoft':'text-zinc-300 hover:bg-raised hover:text-zinc-100')+'">'+
+          '<span class="h-2 w-2 shrink-0 rounded-full" style="background:'+col+'"></span>'+
+          '<span class="min-w-0 truncate">'+esc(nom)+'</span>'+
+          '<span class="ml-auto font-dot text-[13px] font-bold '+
+          (on?'text-accentsoft':'text-zinc-500')+'">'+nf.format(n)+'</span></button>';
       }).join('');
-    /* Plegada, la tarjeta tiene que seguir diciendo que se esta viendo. */
-    document.getElementById('x-banda-ahora').textContent=t('bandaAhora',{v:ahora});
+    document.getElementById('x-banda-ahora').textContent=ahora;
+  }
+  /* Abrir y cerrar la lista del boton. */
+  function abreBanda(abrir){
+    var m=document.getElementById('x-cal-bandas'),
+        b=document.getElementById('x-banda-bot'),
+        f=document.getElementById('x-banda-flecha');
+    if(!m||!b) return;
+    if(abrir===undefined) abrir=m.hidden;
+    m.hidden=!abrir;
+    b.setAttribute('aria-expanded',abrir?'true':'false');
+    if(f) f.style.transform=abrir?'rotate(180deg)':'';
   }
 
   function tabs(){
@@ -1392,6 +1401,7 @@ tailwind.config={theme:{extend:{
     document.getElementById('x-linea').hidden=!lin;
     document.getElementById('x-calidad').hidden=(vista!=='cal');
     document.getElementById('x-banda').hidden=(vista!=='cal');
+    if(vista!=='cal') abreBanda(false);
     document.getElementById('x-proceso').hidden=!pro;
     /* La pestaña del proceso no es una lista de canciones: el buscador y la
        rejilla no pintan nada ahí. */
@@ -1438,11 +1448,20 @@ tailwind.config={theme:{extend:{
     lleva(document.querySelector('#x-lista [data-clave="'+b.dataset.paso+'"]'));
   });
   /* Los tres tramos de nota: dejan en la lista solo esas canciones. */
+  document.getElementById('x-banda-bot').addEventListener('click',function(){abreBanda();});
   document.getElementById('x-cal-bandas').addEventListener('click',function(e){
     var b=e.target.closest('button[data-banda]'); if(!b) return;
     BANDAS.forEach(function(x){ if(x[0]===b.dataset.banda) banda=x[1]; });
     tope=40; abierto={};               /* con pocas canciones se abren solas */
     todo();
+    abreBanda(false);
+  });
+  /* Pulsar fuera, o Escape, la cierra: es lo que hace cualquier desplegable. */
+  document.addEventListener('click',function(e){
+    if(!e.target.closest('#x-banda')) abreBanda(false);
+  });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape') abreBanda(false);
   });
   /* Pulsar un numero de "Donde se atascan" filtra la lista a esas canciones. */
   document.getElementById('x-pasos').addEventListener('click',function(e){
