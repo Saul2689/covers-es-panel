@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T14:01:30Z",
+  "generado": "2026-10-27T14:21:03Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -52007,10 +52007,10 @@
       "originalTrackId": "",
       "titulo": "Utopia",
       "artista": "Belinda",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T14:01:26Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T14:13:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52037,7 +52037,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T14:01:25Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, mapeo, tildes, gemelas, ingles (pending_review) y audio OK; restantes justificados",
+            "t": "2026-10-27T14:13:24Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, mapeo, tildes, gemelas, ingles (pending_review) y audio OK; restantes justificados",
+          "t": "2026-10-27T14:13:24Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T14:13:26Z"
         }
       }
     },
@@ -52047,10 +52063,10 @@
       "originalTrackId": "",
       "titulo": "Hablame",
       "artista": "Alejandro Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T14:01:26Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T14:19:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52077,9 +52093,26 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T14:01:26Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r2: interrogative tilde on line 28 word 3 fixed and remapped; only change vs r1; all checks 0/BAD 0; English pending_review",
+            "t": "2026-10-27T14:19:35Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r2: interrogative tilde on line 28 word 3 fixed and remapped; only change vs r1; all checks 0/BAD 0; English pending_review",
+          "t": "2026-10-27T14:19:35Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T14:19:38Z"
         }
-      }
+      },
+      "motivo_en": "Line 28 word 3 is an indirect interrogative and needs its tilde; remap to the interrogative item, fix the WIT and resubmit the English draft"
     },
     {
       "coverTrackId": "6aa4ef7742b8d1fdb0c26a16",
@@ -52145,10 +52178,10 @@
       "originalTrackId": "",
       "titulo": "Marcame La Piel",
       "artista": "Yahir",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T14:01:27Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T14:10:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52175,7 +52208,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T14:01:27Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: qc_es limpio, litchk/lpchk 0, BAD 0, estructura y gemelas OK, ingles pending_review completo, items nuevos OK",
+            "t": "2026-10-27T14:10:57Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: qc_es limpio, litchk/lpchk 0, BAD 0, estructura y gemelas OK, ingles pending_review completo, items nuevos OK",
+          "t": "2026-10-27T14:10:57Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T14:10:59Z"
         }
       }
     },
@@ -52274,10 +52323,10 @@
       "originalTrackId": "",
       "titulo": "Yo Perdi El Corazon",
       "artista": "los Kipus",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T14:01:28Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T14:10:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52304,7 +52353,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T14:01:28Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, mapeo (170/180 = original, 10 remaps listados), gemelas, PIs es, ingles pending_review, guards 0; hallazgos qc_es justificados",
+            "t": "2026-10-27T14:10:10Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, mapeo (170/180 = original, 10 remaps listados), gemelas, PIs es, ingles pending_review, guards 0; hallazgos qc_es justificados",
+          "t": "2026-10-27T14:10:10Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T14:10:13Z"
         }
       }
     },
@@ -52396,8 +52461,8 @@
       "artista": "Camilo Sesto",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:49:03Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T14:20:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52422,8 +52487,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:49:02Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T14:20:56Z"
           }
         }
       }
@@ -52476,8 +52541,8 @@
       "artista": "los Temerarios",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:49:04Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T14:20:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52502,8 +52567,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:49:04Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T14:20:57Z"
           }
         }
       }
@@ -52630,8 +52695,8 @@
       "artista": "Napoleon",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:49:05Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T14:20:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52656,8 +52721,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:49:05Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T14:20:59Z"
           }
         }
       }
@@ -52670,8 +52735,8 @@
       "artista": "Jose Jose",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:49:06Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T14:21:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52696,8 +52761,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:49:06Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T14:21:00Z"
           }
         }
       }
@@ -52710,8 +52775,8 @@
       "artista": "Daniela Romo",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:49:07Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T14:21:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52736,8 +52801,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:49:07Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T14:21:01Z"
           }
         }
       }
@@ -52759,10 +52824,10 @@
       "originalTrackId": "",
       "titulo": "A Donde Va Nuestro Amor",
       "artista": "Angelica Maria",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:49:08Z",
+      "motivo": "audio_guard MUDA_PARADA: sin audio cantado",
+      "actualizado": "2026-10-27T14:03:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52791,7 +52856,8 @@
             "t": "2026-10-14T07:49:07Z"
           }
         }
-      }
+      },
+      "motivo_en": "audio_guard says MUDA_PARADA: no sung audio to serve"
     },
     {
       "coverTrackId": "6aa714e872ca57eb1aac33d1",
