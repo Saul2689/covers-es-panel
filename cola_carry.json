@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T23:02:34Z",
+  "generado": "2026-10-27T23:17:02Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -55034,10 +55034,10 @@
       "originalTrackId": "",
       "titulo": "Te Digo Blanco Me Dices Negro",
       "artista": "Pimpinela",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 corregido, QC r2",
-      "actualizado": "2026-10-27T23:00:14Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T23:03:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55066,15 +55066,21 @@
             "t": "2026-10-14T07:52:46Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r1: faltan signos de apertura de interrogacion en lineas 18,25,48,55,62 palabra 1; palabra suelta al inicio de lineas 26 y 56 (pertenece a 27 y 57). Resto verificado OK",
-            "t": "2026-10-27T22:46:27Z"
+            "v": "ok",
+            "nota": "QC r2: arreglos de r1 confirmados (signos líneas 18/25/48/55/62, palabra movida 26/27 y 56/57); litchk 0, lpchk 0, BAD 0, drift 0, 400=400, gemelas ok, inglés pending_review",
+            "t": "2026-10-27T23:03:30Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r1: faltan signos de apertura de interrogacion en lineas 18,25,48,55,62 palabra 1; palabra suelta al inicio de lineas 26 y 56 (pertenece a 27 y 57). Resto verificado OK",
-          "t": "2026-10-27T22:46:27Z"
+          "v": "VERDE",
+          "resumen": "QC r2: arreglos de r1 confirmados (signos líneas 18/25/48/55/62, palabra movida 26/27 y 56/57); litchk 0, lpchk 0, BAD 0, drift 0, 400=400, gemelas ok, inglés pending_review",
+          "t": "2026-10-27T23:03:30Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T23:03:32Z"
         }
       },
       "motivo_en": "QC r1 fixes applied, QC round 2"
@@ -55085,10 +55091,10 @@
       "originalTrackId": "",
       "titulo": "Me Estoy Volviendo Loco",
       "artista": "Jordi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "QC r2 corregido, QC r3 final",
-      "actualizado": "2026-10-27T23:02:04Z",
+      "motivo": "QC r3 VERDE",
+      "actualizado": "2026-10-27T23:04:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55117,15 +55123,21 @@
             "t": "2026-10-14T07:52:48Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r2: r1 fixes confirmed; line 21 word 4 anchored to wrong volver sense (return vs become), remap to existing become item and redo WIT",
-            "t": "2026-10-27T22:53:25Z"
+            "v": "ok",
+            "nota": "QC r3: fix linea 21 palabra 4 confirmado; litchk/lpchk 0, wit_dt BAD 0, drift 0, gemelas iguales, ingles pending_review, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T23:04:56Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r2: r1 fixes confirmed; line 21 word 4 anchored to wrong volver sense (return vs become), remap to existing become item and redo WIT",
-          "t": "2026-10-27T22:53:25Z"
+          "v": "VERDE",
+          "resumen": "QC r3: fix linea 21 palabra 4 confirmado; litchk/lpchk 0, wit_dt BAD 0, drift 0, gemelas iguales, ingles pending_review, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T23:04:56Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T23:04:58Z"
         }
       },
       "motivo_en": "QC r2 fix applied, final QC round 3"
