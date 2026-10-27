@@ -223,11 +223,11 @@ Hecha = la letra está cerrada **y la canción suena**. Había tres números par
 mismo: la tarjeta "Con voz", la base de la barra de avance y el "Hecha" de la
 línea. Los dos primeros se juntaron haciendo que "Con voz" / "Sin audio" partan
 el censo entero (una cover calificada sigue siendo una cover que suena). El
-tercero se arregló con un estado que **el panel deduce**, no lo escribe nadie:
-`muda` ("Hecha, sin audio"). Si el parte da una canción por hecha pero la sonda
-`/audio` no sirve nada, sale a 0:00 en la app y el panel la saca de "Hecha" y la
-pone en `muda`, con el motivo escrito. El 27 oct 2026 eran 29 — la línea decía
-885 hechas y la barra 858.
+tercero: si el parte da una cancion por hecha pero la sonda `/audio` no sirve
+nada, sale a 0:00 en la app y **no esta hecha**. Esas filas salen de la linea:
+no se les inventa un estado ni un filtro, porque ya tienen el suyo, la pestana
+"Sin audio". El 27 oct 2026 eran 27, y por eso la linea decia 885 hechas y la
+barra 858.
 
 `cola_carry.json` no se toca: esto es solo cómo lo lee el panel.
 
