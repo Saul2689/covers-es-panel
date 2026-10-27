@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T11:41:24Z",
+  "generado": "2026-10-27T11:56:30Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -46855,10 +46855,10 @@
       "originalTrackId": "",
       "titulo": "Que Lloren",
       "artista": "Calle 13",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T11:33:24Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T11:50:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46885,7 +46885,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T11:33:24Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, mapeo, ingles y audio verificados; solo notas cosmeticas (nombres parcialmente mapeados)",
+            "t": "2026-10-27T11:50:21Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, mapeo, ingles y audio verificados; solo notas cosmeticas (nombres parcialmente mapeados)",
+          "t": "2026-10-27T11:50:21Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T11:50:23Z"
         }
       }
     },
@@ -47628,10 +47644,10 @@
       "originalTrackId": "",
       "titulo": "Directo Al Corazon",
       "artista": "Luis Miguel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T11:33:25Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T11:41:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47658,7 +47674,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T11:33:25Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1 VERDE: estructura, mapeo, ingles (draft pending_review), litchk/lpchk/dt 0, audio SUENA_SIN_BLINDAR; residuales qc_es justificados (L6, L7, L36)",
+            "t": "2026-10-27T11:41:33Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1 VERDE: estructura, mapeo, ingles (draft pending_review), litchk/lpchk/dt 0, audio SUENA_SIN_BLINDAR; residuales qc_es justificados (L6, L7, L36)",
+          "t": "2026-10-27T11:41:33Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T11:41:36Z"
         }
       }
     },
@@ -47880,10 +47912,10 @@
       "originalTrackId": "",
       "titulo": "Cuando Abras Los Ojos",
       "artista": "Jenni Rivera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T11:33:27Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T11:46:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47910,7 +47942,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T11:33:26Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, mapeo, tildes, gemelas, ingles (draft pending_review) y audio OK; hallazgos qc_es justificados",
+            "t": "2026-10-27T11:45:59Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, mapeo, tildes, gemelas, ingles (draft pending_review) y audio OK; hallazgos qc_es justificados",
+          "t": "2026-10-27T11:45:59Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T11:46:01Z"
         }
       }
     },
@@ -47989,8 +48037,8 @@
       "artista": "Nilton Cesar",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:41:12Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T11:56:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48015,8 +48063,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:41:12Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T11:56:15Z"
           }
         }
       }
@@ -49839,8 +49887,8 @@
       "artista": "Lolita",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:41:13Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T11:56:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49865,8 +49913,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:41:12Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T11:56:18Z"
           }
         }
       }
@@ -49890,8 +49938,8 @@
       "artista": "Rocio Durcal",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:41:13Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T11:56:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49916,8 +49964,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:41:13Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T11:56:21Z"
           }
         }
       }
@@ -49997,8 +50045,8 @@
       "artista": "David Bisbal",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:41:14Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T11:56:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50023,8 +50071,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:41:14Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T11:56:24Z"
           }
         }
       }
@@ -50037,8 +50085,8 @@
       "artista": "Rakim & Ken Y",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:41:15Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T11:56:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50063,8 +50111,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:41:14Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T11:56:27Z"
           }
         }
       }
