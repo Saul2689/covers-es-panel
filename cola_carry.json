@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T11:33:28Z",
+  "generado": "2026-10-27T11:41:24Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -46378,10 +46378,10 @@
       "originalTrackId": "",
       "titulo": "Me Esta Llorando El Corazon",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T11:33:23Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T11:41:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46408,7 +46408,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T11:33:22Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: 0 findings; structure, tildes, twins, items, English draft pending_review all clean; litchk/lpchk 0, wit_dt BAD 0; audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T11:41:05Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: 0 findings; structure, tildes, twins, items, English draft pending_review all clean; litchk/lpchk 0, wit_dt BAD 0; audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T11:41:05Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T11:41:07Z"
         }
       }
     },
@@ -46783,10 +46799,10 @@
       "originalTrackId": "",
       "titulo": "Hay Algo En Ella",
       "artista": "Dyango",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T11:33:23Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T11:40:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46813,7 +46829,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T11:33:23Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk/wit_dt 0, audio SUENA_SIN_BLINDAR, drift 0, 241/241, twins ok; nota de oido en 10 w11 y 18 w11, 16 w7",
+            "t": "2026-10-27T11:39:58Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk/wit_dt 0, audio SUENA_SIN_BLINDAR, drift 0, 241/241, twins ok; nota de oido en 10 w11 y 18 w11, 16 w7",
+          "t": "2026-10-27T11:39:58Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T11:40:00Z"
         }
       }
     },
