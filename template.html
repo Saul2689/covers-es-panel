@@ -248,7 +248,7 @@ tailwind.config={theme:{extend:{
       propuesta:'Barrido del {fecha}',
       h1:'Covers en español',
       rCon:'Con full song', rNo:'Sin audio utilizable', rCal:'Ya calificadas',
-      kSin:'Sin calificar', kSinPie:'covers esperando nota',
+      kTot:'Covers CrossClear', kTotPie:'todo el catálogo en español',
       kCon:'Con voz', kConPie:'suenan al darle al play',
       kNo:'Sin audio', kNoPie:'karaoke o 0:00',
       kCal:'Calificadas', kCalPie:'ya tienen estrellas',
@@ -320,7 +320,7 @@ tailwind.config={theme:{extend:{
       propuesta:'Swept on {fecha}',
       h1:'Spanish covers',
       rCon:'With full song', rNo:'No usable audio', rCal:'Already rated',
-      kSin:'Unrated', kSinPie:'covers awaiting a rating',
+      kTot:'CrossClear covers', kTotPie:'the whole Spanish catalogue',
       kCon:'With voice', kConPie:'play when you hit play',
       kNo:'No audio', kNoPie:'karaoke or 0:00',
       kCal:'Rated', kCalPie:'already have stars',
@@ -677,10 +677,14 @@ tailwind.config={theme:{extend:{
     /* Cada tarjeta lleva su color como una luz que sube desde el borde de
        abajo: mismo gesto en las cuatro, solo cambia el tono y la fuerza. */
     var censo=M.censo||((M.con||0)+(M.sin||0)+(M.calificadas||0))||1;
-    var c=[['kSin','kSinPie',M.total,'text-zinc-50','161,161,170',.20],
-           ['kCon','kConPie',M.con,'text-q5','34,197,94',.42],
-           ['kNo','kNoPie',M.sin,'text-zinc-50','161,161,170',.20],
-           ['kCal','kCalPie',M.calificadas,'text-accentsoft','139,92,246',.46]];
+    /* La primera es el total, el suelo contra el que se miden las otras tres:
+       no lleva porcentaje porque seria siempre 100. Antes decia «sin nota»,
+       y eso contaba como pendientes de escuchar 2.966 canciones que no suenan:
+       a una cover sin audio no se le pone nota, no espera a nadie. */
+    var c=[['kTot','kTotPie',censo,'text-zinc-50','161,161,170',.20,0],
+           ['kCon','kConPie',M.con,'text-q5','34,197,94',.42,1],
+           ['kNo','kNoPie',M.sin,'text-zinc-50','161,161,170',.20,1],
+           ['kCal','kCalPie',M.calificadas,'text-accentsoft','139,92,246',.46,1]];
     document.getElementById('x-cifras').innerHTML=c.map(function(x){
       return '<div class="relative overflow-hidden rounded-2xl bg-raised p-4 sm:p-5 '+
         'shadow-lg shadow-black/40">'+
@@ -692,8 +696,8 @@ tailwind.config={theme:{extend:{
         '<div class="relative flex items-baseline justify-between gap-2">'+
         '<span class="font-dot font-extrabold text-[36px] leading-none '+x[3]+'">'+
         nf.format(x[2])+'</span>'+
-        '<span class="font-dot text-[14px] font-extrabold leading-none rounded-lg px-2 py-1 '+
-        'bg-white/[0.06] '+x[3]+'">'+nf.format(pct1(x[2],censo))+'%</span></div>'+
+        (x[6]?'<span class="font-dot text-[14px] font-extrabold leading-none rounded-lg px-2 py-1 '+
+        'bg-white/[0.06] '+x[3]+'">'+nf.format(pct1(x[2],censo))+'%</span>':'')+'</div>'+
         '<div class="relative mt-2 text-[13px] font-medium text-zinc-200">'+t(x[0])+'</div>'+
         '<div class="relative mt-0.5 text-[12px] text-zinc-400">'+t(x[1])+'</div></div>';
     }).join('');
