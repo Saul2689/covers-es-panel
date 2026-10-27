@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T12:11:00Z",
+  "generado": "2026-10-27T12:22:28Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -49901,10 +49901,10 @@
       "originalTrackId": "",
       "titulo": "Lo Voy A Dividir",
       "artista": "Lolita",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-27T12:09:20Z",
+      "estado": "hecha",
+      "vueltas": 0,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T12:16:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49933,15 +49933,21 @@
             "t": "2026-10-27T11:56:18Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: faltan tildes en formas verbales de futuro y preterito y un adjetivo (linea 1 palabras 2 y 4, lineas 10/27 palabra 3, lineas 14/31 palabra 1); resto OK",
-            "t": "2026-10-27T12:04:32Z"
+            "v": "ok",
+            "nota": "QC r2: the 6 tildes restored and remapped, full re-run clean (litchk/lpchk/wit_dt_audit 0, twins identical, no overlap, audio SUENA_SIN_BLINDAR)",
+            "t": "2026-10-27T12:16:46Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: faltan tildes en formas verbales de futuro y preterito y un adjetivo (linea 1 palabras 2 y 4, lineas 10/27 palabra 3, lineas 14/31 palabra 1); resto OK",
-          "t": "2026-10-27T12:04:32Z"
+          "v": "VERDE",
+          "resumen": "QC r2: the 6 tildes restored and remapped, full re-run clean (litchk/lpchk/wit_dt_audit 0, twins identical, no overlap, audio SUENA_SIN_BLINDAR)",
+          "t": "2026-10-27T12:16:46Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T12:16:52Z"
         }
       },
       "motivo_en": "QC r1 returned for missing tildes; fixed, QC round 2"
@@ -50086,10 +50092,10 @@
       "originalTrackId": "",
       "titulo": "Quiero Perderme En Tu Cuerpo",
       "artista": "David Bisbal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T11:56:26Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T12:15:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50116,7 +50122,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T11:56:24Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, tildes, mapeo, gemelas, ingles (pending_review), litchk/lpchk 0, DT BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T12:15:57Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, tildes, mapeo, gemelas, ingles (pending_review), litchk/lpchk 0, DT BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T12:15:57Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T12:15:58Z"
         }
       }
     },
@@ -50126,10 +50148,10 @@
       "originalTrackId": "",
       "titulo": "Adios",
       "artista": "Rakim & Ken Y",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-27T12:10:39Z",
+      "estado": "hecha",
+      "vueltas": 0,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T12:13:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50158,15 +50180,21 @@
             "t": "2026-10-27T11:56:27Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "timing: last two words of line 39 overrun line end by 857 ms into line 40 (only defect)",
-            "t": "2026-10-27T12:06:23Z"
+            "v": "ok",
+            "nota": "QC r2: line 39 tail re-timed to end at line 40 start, no overlap; full re-run clean (litchk, lpchk, wit_dt 0, structure, twins, English, audio)",
+            "t": "2026-10-27T12:13:58Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "timing: last two words of line 39 overrun line end by 857 ms into line 40 (only defect)",
-          "t": "2026-10-27T12:06:23Z"
+          "v": "VERDE",
+          "resumen": "QC r2: line 39 tail re-timed to end at line 40 start, no overlap; full re-run clean (litchk, lpchk, wit_dt 0, structure, twins, English, audio)",
+          "t": "2026-10-27T12:13:58Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T12:13:59Z"
         }
       },
       "motivo_en": "QC r1 returned for a timing overlap on line 39; fixed, QC round 2"
@@ -50320,8 +50348,8 @@
       "artista": "Sandro",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:41:15Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T12:22:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50346,8 +50374,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:41:15Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T12:22:20Z"
           }
         }
       }
@@ -50360,8 +50388,8 @@
       "artista": "Marco Antonio Solis",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:41:16Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T12:22:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50386,8 +50414,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:41:16Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T12:22:21Z"
           }
         }
       }
@@ -50400,8 +50428,8 @@
       "artista": "Olga Tañon",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:41:17Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T12:22:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50426,8 +50454,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:41:16Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T12:22:23Z"
           }
         }
       }
@@ -50440,8 +50468,8 @@
       "artista": "Jose Jose",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:41:17Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T12:22:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50466,8 +50494,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:41:17Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T12:22:24Z"
           }
         }
       }
@@ -50480,8 +50508,8 @@
       "artista": "Luis Fonsi",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:41:33Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T12:22:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50506,8 +50534,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:41:33Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T12:22:25Z"
           }
         }
       }
