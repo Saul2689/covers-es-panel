@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T10:53:54Z",
+  "generado": "2026-10-27T10:54:56Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -48164,10 +48164,10 @@
       "originalTrackId": "",
       "titulo": "Y Si Te Digo",
       "artista": "Fanny LU",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "QC r1 devuelto, arreglado, QC r2",
-      "actualizado": "2026-10-23T17:01:59Z",
+      "estado": "hecha",
+      "vueltas": 0,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T10:54:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48196,15 +48196,21 @@
             "t": "2026-10-23T16:43:28Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: one stale stored word text on a single anchor (line 22 word 10) with a stray mark; everything else clean",
-            "t": "2026-10-23T16:54:19Z"
+            "v": "ok",
+            "nota": "QC r2: r1 defect fixed (L22 w10 WI word), litchk/lpchk/wit_dt 0, guard SUENA_SIN_BLINDAR, structure, accents, twins, PITs, English draft pending_review all clean",
+            "t": "2026-10-27T10:54:20Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: one stale stored word text on a single anchor (line 22 word 10) with a stray mark; everything else clean",
-          "t": "2026-10-23T16:54:19Z"
+          "v": "VERDE",
+          "resumen": "QC r2: r1 defect fixed (L22 w10 WI word), litchk/lpchk/wit_dt 0, guard SUENA_SIN_BLINDAR, structure, accents, twins, PITs, English draft pending_review all clean",
+          "t": "2026-10-27T10:54:20Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T10:54:22Z"
         }
       },
       "motivo_en": "QC r1 returned; line 22 word 10 stored word refreshed; QC r2"
