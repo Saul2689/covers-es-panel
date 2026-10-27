@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T13:33:36Z",
+  "generado": "2026-10-27T13:44:58Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -51599,9 +51599,9 @@
       "titulo": "Es Mentira",
       "artista": "Pimpinela",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T13:33:32Z",
+      "vueltas": 1,
+      "motivo": "QC r1 fix hecho, QC r2",
+      "actualizado": "2026-10-27T13:44:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51628,9 +51628,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T13:33:32Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 14 y 15 palabra 1: ay debe ser hay (homofono, verbo como en original y lineas 39/49/59); mapear y rehacer ingles de esas lineas",
+            "t": "2026-10-27T13:42:54Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 14 y 15 palabra 1: ay debe ser hay (homofono, verbo como en original y lineas 39/49/59); mapear y rehacer ingles de esas lineas",
+          "t": "2026-10-27T13:42:54Z"
         }
-      }
+      },
+      "motivo_en": "Lines 14 and 15 word 1: change 'ay' to 'hay' (verb, as in the original and lines 39/49/59), map it, re-translate both English lines and the word-1 WIT, resubmit to pending_review"
     },
     {
       "coverTrackId": "6aa68cb072ca57eb1aa10ab6",
@@ -51738,10 +51749,10 @@
       "originalTrackId": "",
       "titulo": "Un Amor Para La Historia (Balada)",
       "artista": "Gilberto Santa Rosa",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T13:33:33Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T13:41:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51768,7 +51779,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T13:33:33Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: lit/lp/dt 0, structure and timing clean, 230/230 WIT with text, twins identical, PITs es, draft pending_review; note: line 24 w2 ear doubt",
+            "t": "2026-10-27T13:41:54Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: lit/lp/dt 0, structure and timing clean, 230/230 WIT with text, twins identical, PITs es, draft pending_review; note: line 24 w2 ear doubt",
+          "t": "2026-10-27T13:41:54Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T13:41:57Z"
         }
       }
     },
@@ -51778,10 +51805,10 @@
       "originalTrackId": "",
       "titulo": "Una Estupida Mas",
       "artista": "Pimpinela",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T13:33:34Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T13:42:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51808,7 +51835,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T13:33:33Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, mapeo, twins, PIT literales, ingles pending_review, audio sin blindar OK; notas: solape con coro entre palabras 1-2 y 3 en 4 lineas, errata de oido en L47",
+            "t": "2026-10-27T13:42:49Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, mapeo, twins, PIT literales, ingles pending_review, audio sin blindar OK; notas: solape con coro entre palabras 1-2 y 3 en 4 lineas, errata de oido en L47",
+          "t": "2026-10-27T13:42:49Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T13:42:55Z"
         }
       }
     },
