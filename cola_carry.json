@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T11:12:36Z",
+  "generado": "2026-10-27T11:17:12Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -42516,10 +42516,10 @@
       "originalTrackId": "",
       "titulo": "La Fuerza Del Amor",
       "artista": "Myriam Hernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T11:03:35Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T11:16:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42546,7 +42546,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T11:03:33Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk 0, wit_dt BAD 0, estructura y timing ok, ingles pending_review 60/60 WIT 406/406, gemelas ok; notas de oido L18 w2 y L9 w7-8",
+            "t": "2026-10-27T11:16:45Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk 0, wit_dt BAD 0, estructura y timing ok, ingles pending_review 60/60 WIT 406/406, gemelas ok; notas de oido L18 w2 y L9 w7-8",
+          "t": "2026-10-27T11:16:45Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T11:16:48Z"
         }
       }
     },
