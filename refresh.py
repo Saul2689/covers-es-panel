@@ -430,6 +430,16 @@ def render(datos, plantilla, salida, fecha, log):
     cal = sorted([x for x in es if x['q'] is not None or x['lock']], key=orden)
     linea = parte_linea(datos, log)
     carry = movimiento_carry(linea['filas'], log)
+    # Avance: de las covers cuyo audio suena de verdad, cuantas ha dado la
+    # linea por hechas. El denominador es todo lo que se puede trabajar,
+    # este en la linea o no; lo que no suena no entra porque no hay nada
+    # que terminar ahi hasta que aparezca el audio.
+    hechas = {f[2] for f in linea['filas'] if f[4] == 'hecha' and f[2]}
+    voz = [x for x in es if x.get('ok')]
+    avance = {'voz': len(voz),
+              'hechas': sum(1 for x in voz if x['track'] in hechas)}
+    log('avance: %d de %d canciones con voz estan hechas'
+        % (avance['hechas'], avance['voz']))
     proceso = proceso_linea(log)
 
     def pack(items):
@@ -449,7 +459,7 @@ def render(datos, plantilla, salida, fecha, log):
         'meta': {
             'total': len(pend), 'con': len(con), 'sin': len(sin),
             'suenan': len(con), 'mudas': sum(1 for x in sin if x['fullSong']),
-            'calificadas': len(cal), 'censo': len(es),
+            'calificadas': len(cal), 'censo': len(es), 'avance': avance,
             'artCon': len({x['artist'] for x in con}),
             'artSin': len({x['artist'] for x in sin}),
             'cal': len(cal), 'artCal': len({x['artist'] for x in cal}),
@@ -523,8 +533,10 @@ def main():
                      if c.get('language') == args.idioma and c.get('publishedTrackId')]
         log('covers %s publicados: %d' % (args.idioma, len(canciones)))
         datos = fichas(api, canciones, log)
-        pend = [x for x in datos if x['arch'] is not None and x['q'] is None]
-        audios(api, pend, log)
+        # Se sondea el audio de todas, no solo de las que no tienen nota:
+        # la barra de avance cuenta cuantas de las que SUENAN estan hechas,
+        # y entre las calificadas tambien hay canciones con voz.
+        audios(api, [x for x in datos if x['arch'] is not None], log)
         if args.cache:
             json.dump(datos, open(args.cache, 'w', encoding='utf-8'),
                       ensure_ascii=False)

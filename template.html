@@ -113,6 +113,19 @@ tailwind.config={theme:{extend:{
     <!-- ══ cifras: el numero y, al lado, su peso en el censo ══ -->
     <section class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4" id="x-cifras"></section>
 
+    <!-- ══ avance: de lo que suena, cuanto esta hecho ══ -->
+    <section class="mt-4 rounded-2xl border border-line/70 bg-surface px-5 py-4" id="x-avance" hidden>
+      <div class="flex flex-wrap items-end justify-between gap-x-6 gap-y-1">
+        <p class="text-[13px] font-semibold tracking-tight text-zinc-200" id="x-avance-tit"></p>
+        <p class="font-dot text-[30px] font-extrabold leading-none text-q5" id="x-avance-pct"></p>
+      </div>
+      <div class="mt-3 h-3 w-full overflow-hidden rounded-full bg-raised">
+        <div class="h-full rounded-full bg-q5 transition-all duration-700"
+             id="x-avance-barra" style="width:0%"></div>
+      </div>
+      <p class="mt-2.5 text-[12.5px] leading-relaxed text-zinc-400" id="x-avance-pie"></p>
+    </section>
+
     <!-- ══ pestañas ══ -->
     <div class="mt-10 flex flex-col lg:flex-row lg:items-center gap-3">
       <div class="flex flex-wrap gap-2" id="x-tabs" role="tablist"></div>
@@ -240,6 +253,8 @@ tailwind.config={theme:{extend:{
       kNo:'Sin audio', kNoPie:'karaoke o 0:00',
       kCal:'Calificadas', kCalPie:'ya tienen estrellas',
       tCon:'Con FULL SONG', tSin:'Sin audio utilizable', tLin:'Carry', tCal:'Ya calificadas',
+      avTit:'Canciones con voz utilizable que ya están hechas',
+      avPie:'{h} de {t}. Las demás suenan, pero su letra todavía no está terminada.',
       buscar:'Buscar canción o artista',
       cancion:'canción', canciones:'canciones',
       artistas:'Artistas', pasos:'Pasos',
@@ -310,6 +325,8 @@ tailwind.config={theme:{extend:{
       kNo:'No audio', kNoPie:'karaoke or 0:00',
       kCal:'Rated', kCalPie:'already have stars',
       tCon:'With FULL SONG', tSin:'No usable audio', tLin:'Carry', tCal:'Rated & Locked',
+      avTit:'Songs with usable voice that are finished',
+      avPie:'{h} of {t}. The rest play, but their lyric is not finished yet.',
       buscar:'Search song or artist',
       cancion:'song', canciones:'songs',
       artistas:'Artists', pasos:'Steps',
@@ -849,12 +866,27 @@ tailwind.config={theme:{extend:{
     }).join('');
   }
 
+  function avance(){
+    var A=M.avance||{}, tot=A.voz||0, hechas=A.hechas||0,
+        caja=document.getElementById('x-avance');
+    if(!tot){ caja.hidden=true; return; }
+    caja.hidden=false;
+    var p=pct1(hechas,tot);
+    document.getElementById('x-avance-tit').textContent=t('avTit');
+    document.getElementById('x-avance-pct').textContent=nf.format(p)+'%';
+    /* Un hilo minimo: con 0,2% la barra seguiria pareciendo vacia del todo. */
+    document.getElementById('x-avance-barra').style.width=Math.max(0.8,p)+'%';
+    document.getElementById('x-avance-pie').textContent=
+      t('avPie',{h:nf.format(hechas),t:nf.format(tot)});
+  }
+
   function cabecera(){
     nf=new Intl.NumberFormat(T[L].loc);
     document.documentElement.lang=L;
     document.getElementById('x-eyebrow').textContent=t('eyebrow');
     document.getElementById('x-propuesta').textContent=t('propuesta',{fecha:fecha(M.iso)});
     document.getElementById('x-h1').textContent=t('h1');
+    avance();
     document.getElementById('x-refrescar').textContent=t('btn');
     pintaAviso();
     document.getElementById('x-q').placeholder=t('buscar');

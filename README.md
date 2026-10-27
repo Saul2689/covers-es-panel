@@ -60,6 +60,7 @@ también a mano desde la pestaña Actions. Necesita tres secrets:
 | `CLOUDFLARE_ACCOUNT_ID` | id de la cuenta |
 | `SLACK_WEBHOOK_URL` | webhook de Slack para el aviso de cada vuelta (opcional: sin el, los dos pasos de aviso se saltan) |
 | `PANEL_PASS` | la contraseña con la que se entra al panel (ver *El taller es público*) |
+| `GH_TOKEN` | el pase del botón de actualizar (ver *El boton de actualizar a mano*). Cada vuelta lo copia al proyecto de Cloudflare, así que se cambia **aquí** y solo aquí |
 
 ## El taller es público y el panel lleva contraseña
 
@@ -139,9 +140,19 @@ Cloudflare Pages** (no en GitHub):
 |---|---|
 | `GH_TOKEN` | token de GitHub con permiso de **escritura sobre Actions** en este repo |
 
+Esa variable **no se pone a mano**: el paso *Dejar puesto el pase del boton*
+la copia en cada vuelta desde el secret `GH_TOKEN` del repo, igual que hace con
+la contraseña. Para cambiar el pase basta con
+
 ```bash
-npx wrangler pages secret put GH_TOKEN --project-name covers-es-v2
+gh secret set GH_TOKEN --repo Saul2689/covers-es-panel
 ```
+
+y lanzar una vuelta. El token es *fine-grained*, solo sobre este repo, con
+**Actions: Read and write**; cuando caduca, el boton deja de ir sin avisar y
+`/api/estado` contesta `GitHub 401` (no `sin-token`, que es lo que contesta
+cuando la variable falta del todo). Esa diferencia es lo que distingue "no hay
+token" de "el token esta caducado".
 
 Sin esa variable las funciones devuelven `sin-token`, el boton sale apagado y la
 pagina sigue funcionando igual: los datos van dentro del HTML.
