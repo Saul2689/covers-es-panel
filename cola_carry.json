@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T12:30:03Z",
+  "generado": "2026-10-27T12:46:43Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -50346,10 +50346,10 @@
       "originalTrackId": "",
       "titulo": "Se Te Nota",
       "artista": "Sandro",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T12:22:20Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T12:30:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50376,7 +50376,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T12:22:20Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, mapeo, tildes, ingles (draft pending_review) y audio OK; hallazgos de qc_es justificados",
+            "t": "2026-10-27T12:30:07Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, mapeo, tildes, ingles (draft pending_review) y audio OK; hallazgos de qc_es justificados",
+          "t": "2026-10-27T12:30:07Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T12:30:10Z"
         }
       }
     },
@@ -50554,10 +50570,10 @@
       "originalTrackId": "",
       "titulo": "Gritar",
       "artista": "Luis Fonsi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T12:22:26Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T12:39:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50584,7 +50600,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T12:22:25Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk 0, wit_dt BAD 0, estructura y timing limpios, ingles pending_review completo, items nuevos ok, ad-libs justificados",
+            "t": "2026-10-27T12:39:42Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk 0, wit_dt BAD 0, estructura y timing limpios, ingles pending_review completo, items nuevos ok, ad-libs justificados",
+          "t": "2026-10-27T12:39:42Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T12:39:44Z"
         }
       }
     },
@@ -50652,8 +50684,8 @@
       "artista": "Danny Berrios",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:41:34Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T12:46:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50678,8 +50710,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:41:34Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T12:46:32Z"
           }
         }
       }
@@ -50692,8 +50724,8 @@
       "artista": "Reyli",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:41:45Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T12:46:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50713,8 +50745,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:41:44Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T12:46:33Z"
           },
           "timing": {
             "v": "ok",
@@ -50805,8 +50837,8 @@
       "artista": "Camilo Sesto",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:42:17Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T12:46:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50831,8 +50863,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:42:16Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T12:46:34Z"
           }
         }
       }
@@ -50845,8 +50877,8 @@
       "artista": "Alejandro Sanz",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:43:15Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T12:46:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50871,8 +50903,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:43:15Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T12:46:37Z"
           }
         }
       }
@@ -50885,8 +50917,8 @@
       "artista": "José Feliciano",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:43:16Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T12:46:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50911,8 +50943,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:43:16Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T12:46:40Z"
           }
         }
       }
