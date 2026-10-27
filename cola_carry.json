@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T19:35:12Z",
+  "generado": "2026-10-27T19:56:18Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -66468,10 +66468,10 @@
       "originalTrackId": "",
       "titulo": "Esta Vida Tuya Y Mia",
       "artista": "Kany Garcia",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 corregido, QC r2",
-      "actualizado": "2026-10-27T19:33:01Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T19:38:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -66500,15 +66500,21 @@
             "t": "2026-10-27T19:03:52Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "litchk 4: PIT no literal en el ingles de linea 15, 24, 33, 57 (palabras 3-4); resto limpio",
-            "t": "2026-10-27T19:22:23Z"
+            "v": "ok",
+            "nota": "QC r2: r1 PIT-literal defect fixed (litchk 0), WI words match tokens, wit_dt BAD 0, structure/twins/English/items ok, draft pending_review",
+            "t": "2026-10-27T19:38:51Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "litchk 4: PIT no literal en el ingles de linea 15, 24, 33, 57 (palabras 3-4); resto limpio",
-          "t": "2026-10-27T19:22:23Z"
+          "v": "VERDE",
+          "resumen": "QC r2: r1 PIT-literal defect fixed (litchk 0), WI words match tokens, wit_dt BAD 0, structure/twins/English/items ok, draft pending_review",
+          "t": "2026-10-27T19:38:51Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T19:38:52Z"
         }
       },
       "motivo_en": "QC r1 fixes applied, QC round 2"
@@ -66617,10 +66623,10 @@
       "originalTrackId": "",
       "titulo": "Botellita De Tequila",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 corregido, QC r2",
-      "actualizado": "2026-10-27T19:33:01Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T19:39:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -66649,15 +66655,21 @@
             "t": "2026-10-27T19:03:53Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r1: L42 w5 sin WIT en el borrador (gemelas L16/20/38 si); litchk 7: PIT no literal en el ingles de L6/8/28/30 w4-5, L33 w5-6, L35 w1-3, L37 w5-6",
-            "t": "2026-10-27T19:22:42Z"
+            "v": "ok",
+            "nota": "QC r2: defectos r1 corregidos (WIT L42, PIT literales); litchk/lpchk 0, BAD 0, audio SUENA_SIN_BLINDAR, mapeo e ingles ok",
+            "t": "2026-10-27T19:39:28Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r1: L42 w5 sin WIT en el borrador (gemelas L16/20/38 si); litchk 7: PIT no literal en el ingles de L6/8/28/30 w4-5, L33 w5-6, L35 w1-3, L37 w5-6",
-          "t": "2026-10-27T19:22:42Z"
+          "v": "VERDE",
+          "resumen": "QC r2: defectos r1 corregidos (WIT L42, PIT literales); litchk/lpchk 0, BAD 0, audio SUENA_SIN_BLINDAR, mapeo e ingles ok",
+          "t": "2026-10-27T19:39:28Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T19:39:30Z"
         }
       },
       "motivo_en": "QC r1 fixes applied, QC round 2"
@@ -67217,10 +67229,10 @@
       "originalTrackId": "",
       "titulo": "Tarde",
       "artista": "Rocio Durcal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 corregido, QC r2",
-      "actualizado": "2026-10-27T19:32:57Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T19:37:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -67249,15 +67261,21 @@
             "t": "2026-10-27T19:03:55Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "litchk 6: PIT english not literal in line english (lines 1, 15, 19, 21, 29, 31); rest of QC passed",
-            "t": "2026-10-27T19:19:58Z"
+            "v": "ok",
+            "nota": "QC r2: r1 defects fixed (litchk 0, lpchk 0, WIT-DT BAD 0, WI words equal tokens); all checks pass",
+            "t": "2026-10-27T19:37:35Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "litchk 6: PIT english not literal in line english (lines 1, 15, 19, 21, 29, 31); rest of QC passed",
-          "t": "2026-10-27T19:19:58Z"
+          "v": "VERDE",
+          "resumen": "QC r2: r1 defects fixed (litchk 0, lpchk 0, WIT-DT BAD 0, WI words equal tokens); all checks pass",
+          "t": "2026-10-27T19:37:35Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T19:37:36Z"
         }
       },
       "motivo_en": "QC r1 fixes applied, QC round 2"
@@ -67324,10 +67342,10 @@
       "originalTrackId": "",
       "titulo": "Se Me Olvido Tu Nombre",
       "artista": "Roberto Ledesma",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 corregido, QC r2",
-      "actualizado": "2026-10-27T19:32:59Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T19:37:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -67356,15 +67374,21 @@
             "t": "2026-10-27T19:03:56Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: 3 PITs not literal in line English (lines 3,12,22); 4 stale WI.word (lines 7 w3, 8 w1, 18 w3, 19 w1)",
-            "t": "2026-10-27T19:21:05Z"
+            "v": "ok",
+            "nota": "r2: litchk 0, WI words = LRC tokens, wit_dt BAD 0, twins identical, audio SUENA_SIN_BLINDAR, draft pending_review",
+            "t": "2026-10-27T19:37:49Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: 3 PITs not literal in line English (lines 3,12,22); 4 stale WI.word (lines 7 w3, 8 w1, 18 w3, 19 w1)",
-          "t": "2026-10-27T19:21:05Z"
+          "v": "VERDE",
+          "resumen": "r2: litchk 0, WI words = LRC tokens, wit_dt BAD 0, twins identical, audio SUENA_SIN_BLINDAR, draft pending_review",
+          "t": "2026-10-27T19:37:49Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T19:37:51Z"
         }
       },
       "motivo_en": "QC r1 fixes applied, QC round 2"
@@ -67500,10 +67524,10 @@
       "originalTrackId": "",
       "titulo": "Amor De Luna",
       "artista": "Alejandro Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 corregido, QC r2",
-      "actualizado": "2026-10-27T19:32:58Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T19:37:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -67532,15 +67556,21 @@
             "t": "2026-10-27T19:03:59Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "litchk 2: PIT on lines 13 and 27 words 4-5 not literal in line English; everything else clean",
-            "t": "2026-10-27T19:20:07Z"
+            "v": "ok",
+            "nota": "QC r2: PIT literal fix confirmed; litchk/lpchk/wit_dt 0; audio SUENA_SIN_BLINDAR; draft pending_review",
+            "t": "2026-10-27T19:37:45Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "litchk 2: PIT on lines 13 and 27 words 4-5 not literal in line English; everything else clean",
-          "t": "2026-10-27T19:20:07Z"
+          "v": "VERDE",
+          "resumen": "QC r2: PIT literal fix confirmed; litchk/lpchk/wit_dt 0; audio SUENA_SIN_BLINDAR; draft pending_review",
+          "t": "2026-10-27T19:37:45Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T19:37:46Z"
         }
       },
       "motivo_en": "QC r1 fixes applied, QC round 2"
@@ -67551,10 +67581,10 @@
       "originalTrackId": "",
       "titulo": "Yo Me Voy",
       "artista": "Selena",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T19:04:03Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T19:44:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -67581,7 +67611,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T19:04:01Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1 VERDE: structure, anchors, tildes, new items, English draft pending_review, audio SUENA_SIN_BLINDAR; errata L7/L26 w2 justified",
+            "t": "2026-10-27T19:44:52Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1 VERDE: structure, anchors, tildes, new items, English draft pending_review, audio SUENA_SIN_BLINDAR; errata L7/L26 w2 justified",
+          "t": "2026-10-27T19:44:52Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T19:44:53Z"
         }
       }
     },
@@ -67705,10 +67751,10 @@
       "originalTrackId": "",
       "titulo": "La Fiesta De Blas",
       "artista": "Formula V",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 corregido, QC r2",
-      "actualizado": "2026-10-27T19:33:02Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T19:36:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -67737,15 +67783,21 @@
             "t": "2026-10-27T19:04:00Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "13 word insights have a stale word field (not equal to LRC token): line 6 words 1-2, line 9 word 1, line 12 word 1, line 24 words 5-10, line 25 word 10, line 44 word 3, line 49 word 3. Everything else checks out.",
-            "t": "2026-10-27T19:29:21Z"
+            "v": "ok",
+            "nota": "r2: 13 stale WI word fields fixed; litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR, English 49/49 pending_review, twins identical",
+            "t": "2026-10-27T19:36:44Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "13 word insights have a stale word field (not equal to LRC token): line 6 words 1-2, line 9 word 1, line 12 word 1, line 24 words 5-10, line 25 word 10, line 44 word 3, line 49 word 3. Everything else checks out.",
-          "t": "2026-10-27T19:29:21Z"
+          "v": "VERDE",
+          "resumen": "r2: 13 stale WI word fields fixed; litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR, English 49/49 pending_review, twins identical",
+          "t": "2026-10-27T19:36:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T19:36:46Z"
         }
       },
       "motivo_en": "QC r1 fixes applied, QC round 2"
@@ -67756,10 +67808,10 @@
       "originalTrackId": "",
       "titulo": "Con Que Derecho",
       "artista": "Jeanette",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T19:04:06Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T19:45:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -67786,7 +67838,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T19:04:06Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, anclas, twins, ingles (draft pending_review), PIT es, audio SUENA_SIN_BLINDAR, litchk/lpchk 0, dt BAD 0",
+            "t": "2026-10-27T19:45:45Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, anclas, twins, ingles (draft pending_review), PIT es, audio SUENA_SIN_BLINDAR, litchk/lpchk 0, dt BAD 0",
+          "t": "2026-10-27T19:45:45Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T19:45:46Z"
         }
       }
     },
@@ -67807,10 +67875,10 @@
       "originalTrackId": "",
       "titulo": "Cada Dia Me Acuerdo Mas De Ti",
       "artista": "Dyango",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 corregido, QC r2",
-      "actualizado": "2026-10-27T19:33:00Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T19:37:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -67839,15 +67907,21 @@
             "t": "2026-10-27T19:03:57Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: 15 anclas con campo word obsoleto sin tilde (lineas 8-26) y litchk 1 en linea 16 (PIT no literal en la linea inglesa)",
-            "t": "2026-10-27T19:20:05Z"
+            "v": "ok",
+            "nota": "QC r2: litchk/lpchk 0, DT BAD 0, word fields = tokens, PIT literal, English draft pending_review, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T19:37:42Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: 15 anclas con campo word obsoleto sin tilde (lineas 8-26) y litchk 1 en linea 16 (PIT no literal en la linea inglesa)",
-          "t": "2026-10-27T19:20:05Z"
+          "v": "VERDE",
+          "resumen": "QC r2: litchk/lpchk 0, DT BAD 0, word fields = tokens, PIT literal, English draft pending_review, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T19:37:42Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T19:37:43Z"
         }
       },
       "motivo_en": "QC r1 fixes applied, QC round 2"
@@ -67858,10 +67932,10 @@
       "originalTrackId": "",
       "titulo": "Se Me Hizo Tarde La Vida",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T19:04:10Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T19:48:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -67888,7 +67962,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T19:04:10Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, LRC/tildes, mapeo, gemelas, ingles (pending_review), items nuevos y audio OK; hallazgos restantes justificados",
+            "t": "2026-10-27T19:48:28Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, LRC/tildes, mapeo, gemelas, ingles (pending_review), items nuevos y audio OK; hallazgos restantes justificados",
+          "t": "2026-10-27T19:48:28Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T19:48:29Z"
         }
       }
     },
@@ -67955,10 +68045,10 @@
       "originalTrackId": "",
       "titulo": "Quien Te Crees Tu",
       "artista": "Rocio Jurado",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T19:04:09Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-10-27T19:49:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -67985,9 +68075,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T19:04:09Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "gemelas 16/38/49: WIT y DT de palabras 3-4 distintos entre las tres, y mayuscula a mitad de linea en 38 y 49 palabra 3",
+            "t": "2026-10-27T19:49:51Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "gemelas 16/38/49: WIT y DT de palabras 3-4 distintos entre las tres, y mayuscula a mitad de linea en 38 y 49 palabra 3",
+          "t": "2026-10-27T19:49:51Z"
         }
-      }
+      },
+      "motivo_en": "Twin lines 16, 38 and 49 must have identical English WITs and DT rows for words 3 and 4 (lines 38 and 49 word 3 are capitalised mid-line, line 16 differs); fix, reopen draft and resubmit to pending_review."
     },
     {
       "coverTrackId": "6aa7274272ca57eb1aae075c",
@@ -67995,10 +68096,10 @@
       "originalTrackId": "",
       "titulo": "Jamas",
       "artista": "Kalimba",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T19:04:07Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T19:46:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -68025,7 +68126,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T19:04:07Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1 VERDE: qc_es justificado, litchk/lpchk 0, wit_dt BAD 0, tildes y estructura OK, ingles 43/43 pending_review, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T19:46:38Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1 VERDE: qc_es justificado, litchk/lpchk 0, wit_dt BAD 0, tildes y estructura OK, ingles 43/43 pending_review, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T19:46:38Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T19:46:41Z"
         }
       }
     },
@@ -71694,10 +71811,10 @@
       "originalTrackId": "",
       "titulo": "Cuando Termina Un Amor",
       "artista": "Yolandita Monge",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T19:04:21Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T19:55:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -71724,7 +71841,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T19:04:21Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: structure, tildes, mapping, new items, twins, PIs and English draft all clean; qc_es leftovers justified (L12/L23-26 tildes, L35-37 bridge, L40 split, L56 comma, L33 instrumental)",
+            "t": "2026-10-27T19:55:48Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: structure, tildes, mapping, new items, twins, PIs and English draft all clean; qc_es leftovers justified (L12/L23-26 tildes, L35-37 bridge, L40 split, L56 comma, L33 instrumental)",
+          "t": "2026-10-27T19:55:48Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T19:55:56Z"
         }
       }
     },
@@ -72377,10 +72510,10 @@
       "originalTrackId": "",
       "titulo": "Nostalgias",
       "artista": "E. Cadicamo",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 corregido, QC r2",
-      "actualizado": "2026-10-27T19:33:03Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T19:39:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72409,15 +72542,21 @@
             "t": "2026-10-27T19:20:04Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "lpchk 8: LRC lines 4,5,17,19,22,41,43,46 end in a comma; EN draft lines 17 and 41 end in a comma. Rest verified clean",
-            "t": "2026-10-27T19:27:58Z"
+            "v": "ok",
+            "nota": "r2: comas de LRC e ingles quitadas, litchk/lpchk 0, BAD 0, estructura y mapeo ok, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T19:39:51Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "lpchk 8: LRC lines 4,5,17,19,22,41,43,46 end in a comma; EN draft lines 17 and 41 end in a comma. Rest verified clean",
-          "t": "2026-10-27T19:27:58Z"
+          "v": "VERDE",
+          "resumen": "r2: comas de LRC e ingles quitadas, litchk/lpchk 0, BAD 0, estructura y mapeo ok, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T19:39:51Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T19:39:52Z"
         }
       },
       "motivo_en": "QC r1 fixes applied, QC round 2"
@@ -72439,10 +72578,10 @@
       "originalTrackId": "",
       "titulo": "El Daño",
       "artista": "Alicia Villarreal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T19:33:45Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T19:45:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72469,7 +72608,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T19:33:44Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: mapeo, tildes, timing, ingles (27/27, 149 WIT, BAD 0), litchk/lpchk 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T19:45:47Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: mapeo, tildes, timing, ingles (27/27, 149 WIT, BAD 0), litchk/lpchk 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T19:45:47Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T19:45:48Z"
         }
       }
     },
@@ -72490,10 +72645,10 @@
       "originalTrackId": "",
       "titulo": "Todo Basta",
       "artista": "Kany Garcia",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T19:33:46Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-10-27T19:44:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72520,9 +72675,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T19:33:46Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L8 w6: palabra con timing (140 ms) borrada contra regla 6 oct; restaurar en minuscula, remapear anclas 6-7 a 7-8, reabrir ingles de L8",
+            "t": "2026-10-27T19:44:55Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L8 w6: palabra con timing (140 ms) borrada contra regla 6 oct; restaurar en minuscula, remapear anclas 6-7 a 7-8, reabrir ingles de L8",
+          "t": "2026-10-27T19:44:55Z"
         }
-      }
+      },
+      "motivo_en": "L8 w6: a timed 140 ms provider word was deleted, against the 6 Oct rule; restore it (lowercase), move anchors back to 7-8, redo L8 English"
     },
     {
       "coverTrackId": "6aa572e842b8d1fdb0cda49d",
@@ -72585,10 +72751,10 @@
       "originalTrackId": "",
       "titulo": "Muevete",
       "artista": "Melody",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T19:33:49Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-10-27T19:46:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72615,9 +72781,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T19:33:48Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: un defecto: linea 25 palabra 4, WIT en minuscula de un nombre propio (debe ir en mayuscula); resto verde",
+            "t": "2026-10-27T19:46:04Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: un defecto: linea 25 palabra 4, WIT en minuscula de un nombre propio (debe ir en mayuscula); resto verde",
+          "t": "2026-10-27T19:46:04Z"
         }
-      }
+      },
+      "motivo_en": "QC round 1: one defect. Line 25 word 4 is a proper name (capitalised in the lyric and in the line English) but its English WIT is lowercase; reopen the draft, capitalise it, resubmit to pending_review. Everything else passes."
     },
     {
       "coverTrackId": "6aa6e56a72ca57eb1aa88e16",
@@ -72709,10 +72886,10 @@
       "originalTrackId": "",
       "titulo": "Cuidarte El Alma",
       "artista": "Chayanne",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T19:33:42Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T19:42:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72739,7 +72916,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T19:33:41Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: structure, anchors, twins, English draft pending_review, litchk/lpchk 0, BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T19:42:33Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: structure, anchors, twins, English draft pending_review, litchk/lpchk 0, BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T19:42:33Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T19:42:35Z"
         }
       }
     },
@@ -72749,10 +72942,10 @@
       "originalTrackId": "",
       "titulo": "Enredo",
       "artista": "Alicia Villarreal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T19:33:40Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T19:42:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72779,7 +72972,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T19:33:38Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, ingles (pending_review), litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T19:42:11Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, ingles (pending_review), litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T19:42:11Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T19:42:12Z"
         }
       }
     },
