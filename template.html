@@ -235,7 +235,7 @@ tailwind.config={theme:{extend:{
      traducción), luego lo que espera (en cola), luego lo terminado (hecha), y
      al final "sin original": el paso de subir el original por ISRC, que va
      antes del carry (nunca es una parada). */
-  var PASOS=['carry','revision','correccion','traduccion','cola','hecha','muda','sinorig'];
+  var PASOS=['carry','revision','correccion','traduccion','cola','hecha','sinorig'];
 
   var T={
     es:{loc:'es-ES',
@@ -254,7 +254,7 @@ tailwind.config={theme:{extend:{
       kCal:'Calificadas', kCalPie:'ya tienen estrellas',
       tCon:'Con FULL SONG', tSin:'Sin audio utilizable', tLin:'Carry', tCal:'Ya calificadas',
       avTit:'Canciones que suenan y ya están hechas',
-      avPie:'{h} de las {t} que suenan. Es el mismo recuento que «Hecha» en la línea: una canción que no suena no cuenta como hecha.',
+      avPie:'{h} de las {t} que suenan. Es el mismo número que «Hecha» en la línea: una canción que no suena no cuenta como hecha, y sale en «Sin audio».',
       buscar:'Buscar canción o artista',
       cancion:'canción', canciones:'canciones',
       artistas:'Artistas', pasos:'Pasos',
@@ -288,7 +288,6 @@ tailwind.config={theme:{extend:{
       procLeySub:'Son los símbolos del diagrama de flujo de siempre. Aquí se explica qué quiere decir cada uno en esta línea de trabajo.',
       procPie:'Cada caja es un paso que se ejecuta de verdad, con su herramienta y su condición de salida. Cuando el proceso cambie, cambia el dibujo.',
       e_revision:'En revisión', e_correccion:'Corrigiendo', e_hecha:'Hecha', e_parada:'Parada',
-      e_muda:'Hecha, sin audio',
       vuelta:'1 vuelta', vueltas:'{n} vueltas',
       gRate:'Calificadas', gLock:'Calificadas y bloqueadas',
       bloqueada:'bloqueada', desplegar:'Desplegar', plegar:'Plegar',
@@ -327,7 +326,7 @@ tailwind.config={theme:{extend:{
       kCal:'Rated', kCalPie:'already have stars',
       tCon:'With FULL SONG', tSin:'No usable audio', tLin:'Carry', tCal:'Rated & Locked',
       avTit:'Songs that play and are already finished',
-      avPie:'{h} of the {t} that play. Same count as “Done” on the line: a song that does not play does not count as done.',
+      avPie:'{h} of the {t} that play. Same number as “Done” on the line: a song that does not play does not count as done, and shows up under “No audio”.',
       buscar:'Search song or artist',
       cancion:'song', canciones:'songs',
       artistas:'Artists', pasos:'Steps',
@@ -361,7 +360,6 @@ tailwind.config={theme:{extend:{
       procLeySub:'These are the standard flowchart symbols. Here is what each one means in this particular line of work.',
       procPie:'Every box is a step that actually runs, with its tool and its exit condition. When the process changes, the chart changes with it.',
       e_revision:'Under review', e_correccion:'Being fixed', e_hecha:'Done', e_parada:'Stopped',
-      e_muda:'Done, no audio',
       vuelta:'1 pass', vueltas:'{n} passes',
       gRate:'Rated', gLock:'Rated & locked',
       bloqueada:'locked', desplegar:'Expand', plegar:'Collapse',
@@ -519,7 +517,7 @@ tailwind.config={theme:{extend:{
     return null;
   }
   function colorPaso(e){
-    return {parada:'#E11D48',muda:'#EA580C',correccion:'#F97316',revision:'#EAB308',carry:'#7C3AED',
+    return {parada:'#E11D48',correccion:'#F97316',revision:'#EAB308',carry:'#7C3AED',
             traduccion:'#84CC16',cola:'#A1A1AA',sinorig:'#52525B',hecha:'#22C55E'}[e]||'#52525B';
   }
 

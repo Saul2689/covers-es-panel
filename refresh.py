@@ -27,18 +27,8 @@ MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun',
 # repo; aqui solo se lee. Puede no existir, llegar a medias o venir mal: pase
 # lo que pase la build tiene que terminar, porque el panel no es suyo.
 COLA = os.path.join(AQUI, 'cola_carry.json')
-# 'muda' no lo escribe nadie: lo deduce el panel. Una cover que la linea da
-# por hecha pero cuyo /audio no sirve nada sale a 0:00, y contarla como hecha
-# era el tercer numero distinto para la misma cosa (el 27 oct: la linea decia
-# 873 hechas y la barra 844, porque 29 no sonaban).
-ESTADOS = ['parada', 'muda', 'correccion', 'revision', 'carry',
+ESTADOS = ['parada', 'correccion', 'revision', 'carry',
            'traduccion', 'cola', 'sinorig', 'hecha']
-
-
-MOTIVO_MUDA_ES = ('La letra esta terminada, pero el servidor no sirve ninguna '
-                  'version con voz: en la app sale a 0:00. Falta el audio.')
-MOTIVO_MUDA_EN = ('The lyric is finished, but the server serves no version with '
-                  'vocals: in the app it sits at 0:00. The audio is missing.')
 
 
 def ficha_de(c):
@@ -192,7 +182,7 @@ def parte_linea(datos, log):
     archivada y si el audio suena salen del barrido de esta misma vuelta, asi
     que no se le pregunta nada a nadie dos veces.
     """
-    vacio = {'filas': [], 'generado': None, 'fallo': None,
+    vacio = {'filas': [], 'generado': None, 'fallo': None, 'mudas': set(),
              'cuenta': {e: 0 for e in ESTADOS}}
     if not os.path.exists(COLA):
         log('linea ES: todavia no hay parte (%s)' % os.path.basename(COLA))
@@ -208,7 +198,7 @@ def parte_linea(datos, log):
 
     por_track = {x['track']: x for x in datos if x.get('track')}
     por_song = {x['song']: x for x in datos if x.get('song')}
-    filas = []
+    filas, mudas = [], set()
     for c in canciones:
         if not isinstance(c, dict):
             continue
@@ -221,11 +211,14 @@ def parte_linea(datos, log):
         # matcher). Si ya tiene ficha de pasos, esta trabajada: se queda.
         if sin_original(c, estado):
             estado = 'sinorig'
-        # Hecha es hecha Y suena. Si el audio no sirve, la cancion no esta
-        # terminada: le falta el audio, y asi lo dice en vez de inflar el
-        # recuento de hechas. No se toca el parte, solo como lo lee el panel.
+        # Hecha es hecha Y suena. Una cancion cuyo /audio no sirve nada sale a
+        # 0:00 en la app: contarla como hecha era el tercer numero distinto
+        # para lo mismo (el 27 oct la linea decia 885 y la barra 858). Sale de
+        # la linea, no de la vista: se sigue viendo en la pestana Sin audio,
+        # que es su filtro. El parte no se toca, solo como lo lee el panel.
         if estado == 'hecha' and adm.get('ok') is False:
-            estado = 'muda'
+            mudas.add(c.get('coverTrackId') or c.get('songId') or '')
+            continue
         try:
             vueltas = int(c.get('vueltas') or 0)
         except (TypeError, ValueError):
@@ -238,16 +231,14 @@ def parte_linea(datos, log):
             estado,
             vueltas,
             str(c.get('actualizado') or '')[:19],
-            (str(c.get('motivo') or '').strip() if estado == 'parada'
-             else MOTIVO_MUDA_ES if estado == 'muda' else ''),
+            str(c.get('motivo') or '').strip() if estado == 'parada' else '',
             # -1 = no lo hemos probado esta vuelta (solo se sondean las pendientes)
             (1 if adm.get('ok') else 0) if 'ok' in adm else -1,
             adm.get('q') or 0,
             1 if adm.get('arch') else 0,
             # El agente escribe el motivo en espanol; si ademas deja la version
             # inglesa, la pagina la usa cuando el visitante esta en EN.
-            (str(c.get('motivo_en') or '').strip() if estado == 'parada'
-             else MOTIVO_MUDA_EN if estado == 'muda' else ''),
+            str(c.get('motivo_en') or '').strip() if estado == 'parada' else '',
             # El candado lo echa una persona cuando da la cancion por cerrada:
             # es la senal de "esta hecha del todo" dentro de la linea.
             1 if adm.get('lock') else 0,
@@ -266,9 +257,13 @@ def parte_linea(datos, log):
     filas.sort(key=lambda f: (orden[f[4]], f[12]))
     cuenta = collections.Counter(f[4] for f in filas)
     log('linea ES: %d canciones  %s' % (len(filas), dict(cuenta)))
+    if mudas:
+        log('linea ES: %d dadas por hechas que no suenan, fuera de la linea '
+            '(se ven en Sin audio)' % len(mudas))
     return {'filas': filas,
             'generado': str(d.get('generado') or '')[:19] or None,
             'fallo': None,
+            'mudas': mudas,
             'lock': sum(1 for f in filas if f[12]),
             'cuenta': {e: cuenta.get(e, 0) for e in ESTADOS}}
 
@@ -301,7 +296,7 @@ def nota_bloqueo(c):
     return ''
 
 
-def proceso_linea(log):
+def proceso_linea(log, fuera_de_linea=()):
     """Los numeros que hacen vivo el diagrama del proceso.
 
     El estado de una cancion ("corrigiendo") dice en que caja esta, pero no en
@@ -334,6 +329,10 @@ def proceso_linea(log):
         # sitio; con ficha de pasos ya ha entrado en la linea.
         if sin_original(c, e):
             e = 'sinorig'
+        # Las dadas por hechas que no suenan tampoco cuentan aqui: si no, el
+        # diagrama volveria a dar un tercer numero de hechas.
+        if (c.get('coverTrackId') or c.get('songId') or '') in fuera_de_linea:
+            continue
         estados[e] += 1
         try:
             v = int(c.get('vueltas') or 0)
@@ -461,7 +460,7 @@ def render(datos, plantilla, salida, fecha, log):
               'hechas': sum(1 for x in voz if x['track'] in hechas)}
     log('avance: %d de %d canciones con voz estan hechas'
         % (avance['hechas'], avance['voz']))
-    proceso = proceso_linea(log)
+    proceso = proceso_linea(log, linea.get('mudas') or ())
 
     def pack(items):
         # El indice 7 es la nota: en estas dos listas ahora hay canciones ya
