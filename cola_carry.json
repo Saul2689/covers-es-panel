@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T22:13:39Z",
+  "generado": "2026-10-27T22:31:09Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -41814,10 +41814,10 @@
       "originalTrackId": "",
       "titulo": "Besela Ya",
       "artista": "Bacilos",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 corregido, QC r2",
-      "actualizado": "2026-10-27T22:13:25Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T22:16:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41846,15 +41846,21 @@
             "t": "2026-10-14T09:13:42Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: L24 w2 misspelt one-word conditional mapped to wrong item (split to two words, remap); L6 w6, L11 w2, L17 w6 deje item/WIT wrong person and sense (imperative of dejar de, WIT says first-person leave)",
-            "t": "2026-10-27T22:07:34Z"
+            "v": "ok",
+            "nota": "QC r2: L24 w2-3 split into two tokens and mapped, L6 w6 / L11 w2 / L17 w6 remapped to dejar-de sense; all checks pass",
+            "t": "2026-10-27T22:16:15Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: L24 w2 misspelt one-word conditional mapped to wrong item (split to two words, remap); L6 w6, L11 w2, L17 w6 deje item/WIT wrong person and sense (imperative of dejar de, WIT says first-person leave)",
-          "t": "2026-10-27T22:07:34Z"
+          "v": "VERDE",
+          "resumen": "QC r2: L24 w2-3 split into two tokens and mapped, L6 w6 / L11 w2 / L17 w6 remapped to dejar-de sense; all checks pass",
+          "t": "2026-10-27T22:16:15Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T22:16:17Z"
         }
       },
       "motivo_en": "QC r1 fixes applied, QC round 2"
@@ -43102,10 +43108,10 @@
       "originalTrackId": "",
       "titulo": "Hombres Malvados",
       "artista": "Paquita la Del Barrio",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T22:00:33Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T22:15:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43132,7 +43138,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:15:11Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: structure, tildes, anchors, items, English draft (pending_review) and twins checked; litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR. Notes for Saul: l5 w3 sense, no PI for l9 locution, l20/30 ear note",
+            "t": "2026-10-27T22:15:16Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: structure, tildes, anchors, items, English draft (pending_review) and twins checked; litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR. Notes for Saul: l5 w3 sense, no PI for l9 locution, l20/30 ear note",
+          "t": "2026-10-27T22:15:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T22:15:18Z"
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
@@ -43354,10 +43376,10 @@
       "originalTrackId": "",
       "titulo": "Perdoname Olvidalo",
       "artista": "Rocio Durcal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T22:00:33Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T22:14:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43384,7 +43406,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:15:12Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, anclas, gemelas, ingles (pending_review), items nuevos y audio OK; litchk/lpchk 0, wit_dt BAD 0",
+            "t": "2026-10-27T22:14:10Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, anclas, gemelas, ingles (pending_review), items nuevos y audio OK; litchk/lpchk 0, wit_dt BAD 0",
+          "t": "2026-10-27T22:14:10Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T22:14:11Z"
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
@@ -43396,9 +43434,9 @@
       "titulo": "Voy A Perder La Cabeza Por Tu Amor",
       "artista": "Jose Luis Rodriguez",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T22:00:34Z",
+      "vueltas": 1,
+      "motivo": "QC r1 corregido, QC r2",
+      "actualizado": "2026-10-27T22:29:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43425,10 +43463,20 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T09:03:41Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT del por en la locucion 'de una vez por siempre' (linea 16 palabra 7, linea 34 palabra 7, linea 48 palabra 4) usa 'because of' en vez de 'for'; resto verde",
+            "t": "2026-10-27T22:13:59Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT del por en la locucion 'de una vez por siempre' (linea 16 palabra 7, linea 34 palabra 7, linea 48 palabra 4) usa 'because of' en vez de 'for'; resto verde",
+          "t": "2026-10-27T22:13:59Z"
         }
       },
-      "motivo_en": "pre-QC done, QC round 1"
+      "motivo_en": "QC r1 fixes applied, QC round 2"
     },
     {
       "coverTrackId": "6aa695a372ca57eb1aa1ec71",
@@ -43562,8 +43610,8 @@
       "artista": "la Sonora Santanera",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T09:15:33Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T22:29:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43592,7 +43640,8 @@
             "t": "2026-10-14T09:15:32Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6ab2315eca8a8ee8c447134b",
@@ -43602,8 +43651,8 @@
       "artista": "Shakira",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T09:15:49Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T22:29:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43632,7 +43681,8 @@
             "t": "2026-10-14T09:15:48Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa675dd72ca57eb1a9f1d6a",
@@ -43710,8 +43760,8 @@
       "artista": "Los Hermanos Rosario",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T09:16:09Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T22:29:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43740,7 +43790,8 @@
             "t": "2026-10-14T09:16:09Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa54fba42b8d1fdb0cba453",
@@ -43761,8 +43812,8 @@
       "artista": "Joan Sebastian",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T09:16:10Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T22:29:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43791,7 +43842,8 @@
             "t": "2026-10-14T09:16:10Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa5c24242b8d1fdb0d3feb7",
@@ -44289,8 +44341,8 @@
       "artista": "Soraya",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T09:16:47Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T22:29:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44319,7 +44371,8 @@
             "t": "2026-10-14T09:16:46Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa806a1d951e1665a7e5221",
@@ -45988,8 +46041,8 @@
       "artista": "Gloria Trevi",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T09:16:47Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T22:29:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46018,7 +46071,8 @@
             "t": "2026-10-14T09:16:47Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa84a1ed951e1665a83ab47",
@@ -48459,8 +48513,8 @@
       "artista": "Agua Marina",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-07T09:15:59Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T22:29:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48489,7 +48543,8 @@
             "t": "2026-10-07T09:15:59Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa7488072ca57eb1ab1659e",
@@ -53522,8 +53577,8 @@
       "artista": "Pandora",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:49:04Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T22:29:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53552,7 +53607,8 @@
             "t": "2026-10-14T07:49:03Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa625f872ca57eb1a97c1f9",
@@ -54846,8 +54902,8 @@
       "artista": "Pimpinela",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:52:47Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T22:29:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54876,7 +54932,8 @@
             "t": "2026-10-14T07:52:46Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa5d55e42b8d1fdb0d60709",
@@ -54886,8 +54943,8 @@
       "artista": "Jordi",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:52:48Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T22:29:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54916,7 +54973,8 @@
             "t": "2026-10-14T07:52:48Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa6234d72ca57eb1a976896",
@@ -54926,8 +54984,8 @@
       "artista": "Los morochucos",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:52:50Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T22:29:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54956,7 +55014,8 @@
             "t": "2026-10-14T07:52:49Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa4f35542b8d1fdb0c2f506",
@@ -54977,8 +55036,8 @@
       "artista": "Luis Enrique",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:53:04Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T22:29:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55007,7 +55066,8 @@
             "t": "2026-10-14T07:53:03Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa59b2642b8d1fdb0d125cb",
