@@ -175,6 +175,8 @@ tailwind.config={theme:{extend:{
         <h2 class="font-display font-semibold tracking-tight text-[19px] text-zinc-100" id="x-cal-tit"></h2>
         <div class="mt-4 flex items-end gap-2 sm:gap-3" id="x-cal-barra"></div>
         <div class="mt-3 flex flex-wrap gap-x-5 gap-y-2" id="x-cal-leyenda"></div>
+        <!-- separar por nota: 1-2 / 3 / 4-5 -->
+        <div class="mt-5 flex flex-wrap items-center gap-2" id="x-cal-bandas"></div>
       </div>
     </section>
 
@@ -279,6 +281,8 @@ tailwind.config={theme:{extend:{
       paradaTxt:'{n} parada: alguien tiene que mirarla antes de que siga.',
       paradasTxt:'{n} paradas: alguien tiene que mirarlas antes de que sigan.',
       calTit:'Reparto de notas',
+      calBanda:'Ver solo', calTodas:'Todas',
+      calB12:'1-2 estrellas', calB3:'3 estrellas', calB45:'4-5 estrellas',
       e_sinorig:'Original por subir', e_cola:'En cola', e_carry:'Carry', e_traduccion:'Traduciendo',
       tProc:'Pipeline',
       procTit:'El proceso, paso a paso',
@@ -351,6 +355,8 @@ tailwind.config={theme:{extend:{
       paradaTxt:'{n} stopped: someone has to look at it before it moves on.',
       paradasTxt:'{n} stopped: someone has to look at them before they move on.',
       calTit:'How the ratings fall',
+      calBanda:'Show only', calTodas:'All',
+      calB12:'1-2 stars', calB3:'3 stars', calB45:'4-5 stars',
       e_sinorig:'Original to import', e_cola:'Queued', e_carry:'Carry', e_traduccion:'Translating',
       tProc:'Pipeline',
       procTit:'The process, step by step',
@@ -530,6 +536,17 @@ tailwind.config={theme:{extend:{
      La ficha viene en la fila como seis letras (indice 13), en el orden de
      PASOS_FICHA. */
   var LETRA_V={ok:'o',falta:'f',saul:'s',na:'n'};
+  /* ── el filtro por nota ──
+     El reparto de notas ensena cuantas hay de cada una pero no deja llegar a
+     ellas: con 245 calificadas, encontrar las malas era bajar a mano. Tres
+     tramos, que es como se habla de ellas: 1-2 (hay que volver), 3 (pasable),
+     4-5 (buena). La nota viene en la fila de calificadas en el indice 3. */
+  var BANDAS=[['todas',null],['12',[1,2]],['3',[3]],['45',[4,5]]];
+  var banda=null;                    /* null = todas */
+  function cumpleBanda(r){
+    if(!banda) return true;
+    return banda.indexOf(r[3]||0)>-1;
+  }
   var filtroFicha=null;              /* {paso:'ingles', v:'saul'} o null */
   function cumpleFicha(r){
     if(!filtroFicha) return true;
@@ -541,7 +558,9 @@ tailwind.config={theme:{extend:{
     var s=q.trim().toLowerCase();
     /* El filtro por paso solo tiene sentido en Carry: es la unica vista
        cuyas filas traen ficha. */
-    var base=(vista==='linea'&&filtroFicha)?fuente().filter(cumpleFicha):fuente();
+    var base=fuente();
+    if(vista==='linea'&&filtroFicha) base=base.filter(cumpleFicha);
+    if(vista==='cal'&&banda) base=base.filter(cumpleBanda);
     if(!s) return base;
     return base.filter(function(r){
       return (r[0]+' '+r[1]).toLowerCase().indexOf(s)>-1;
@@ -856,6 +875,30 @@ tailwind.config={theme:{extend:{
     barraApilada('x-cal-barra','x-cal-leyenda',[1,2,3,4,5].map(function(n){
       return {label:n+'/5 '+t('nota'+n),n:(M.q||{})[n]||0,color:QC[n]};
     }),tot,5);
+    bandas();
+  }
+  /* Los tres tramos, con su recuento y el color de la nota del medio: se
+     cuentan de las filas, no del reparto, para que el numero del boton sea
+     exactamente lo que va a quedar en la lista. */
+  function bandas(){
+    var c=document.getElementById('x-cal-bandas');
+    if(!c) return;
+    var filas=D.cal||[];
+    c.innerHTML='<span class="text-[12.5px] text-zinc-500">'+esc(t('calBanda'))+'</span>'+
+      BANDAS.map(function(b){
+        var r=b[1], n=r?filas.filter(function(f){return r.indexOf(f[3]||0)>-1;}).length:filas.length,
+            on=r?!!(banda&&banda[0]===r[0]):!banda,
+            col=r?QC[r[r.length-1]]:'#A1A1AA';
+        return '<button type="button" data-banda="'+b[0]+'" aria-pressed="'+on+'" '+
+          'class="inline-flex items-center gap-2 rounded-xl px-3 py-1.5 text-[12.5px] font-medium '+
+          'transition-all duration-200 '+
+          (on?'bg-accent text-white shadow-lg shadow-accent/20'
+             :'border border-line/70 bg-raised text-zinc-400 hover:-translate-y-0.5 hover:text-zinc-100')+'">'+
+          (r?'<span class="h-2 w-2 shrink-0 rounded-full" style="background:'+col+'"></span>':'')+
+          esc(t(b[0]==='todas'?'calTodas':'calB'+b[0]))+
+          '<span class="font-dot text-[13px] font-bold '+(on?'text-white/70':'text-zinc-500')+'">'+
+          nf.format(n)+'</span></button>';
+      }).join('');
   }
 
   function tabs(){
@@ -1339,7 +1382,7 @@ tailwind.config={theme:{extend:{
   /* ── eventos ── */
   document.getElementById('x-tabs').addEventListener('click',function(e){
     var b=e.target.closest('button[data-g]'); if(!b) return;
-    vista=b.dataset.g; tope=40; todo();
+    vista=b.dataset.g; tope=40; banda=null; todo();
     document.getElementById('x-lista').classList.add('fade-in');
     setTimeout(function(){document.getElementById('x-lista').classList.remove('fade-in');},420);
   });
@@ -1367,6 +1410,13 @@ tailwind.config={theme:{extend:{
   document.getElementById('x-linea-barra').addEventListener('click',function(e){
     var b=e.target.closest('button[data-paso]'); if(!b) return;
     lleva(document.querySelector('#x-lista [data-clave="'+b.dataset.paso+'"]'));
+  });
+  /* Los tres tramos de nota: dejan en la lista solo esas canciones. */
+  document.getElementById('x-cal-bandas').addEventListener('click',function(e){
+    var b=e.target.closest('button[data-banda]'); if(!b) return;
+    BANDAS.forEach(function(x){ if(x[0]===b.dataset.banda) banda=x[1]; });
+    tope=40; abierto={};               /* con pocas canciones se abren solas */
+    todo();
   });
   /* Pulsar un numero de "Donde se atascan" filtra la lista a esas canciones. */
   document.getElementById('x-pasos').addEventListener('click',function(e){
