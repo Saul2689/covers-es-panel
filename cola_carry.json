@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T13:44:58Z",
+  "generado": "2026-10-27T14:01:30Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -51518,10 +51518,10 @@
       "originalTrackId": "",
       "titulo": "Vueltas En El Aire",
       "artista": "Thalia",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T13:33:31Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T13:48:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51548,7 +51548,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T13:33:31Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk/wit_dt 0, estructura y timing intactos, tildes y ingles ok; notas de oido para Saul (hueco L41-42, signos en ad-libs)",
+            "t": "2026-10-27T13:48:24Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk/wit_dt 0, estructura y timing intactos, tildes y ingles ok; notas de oido para Saul (hueco L41-42, signos en ad-libs)",
+          "t": "2026-10-27T13:48:24Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T13:48:27Z"
         }
       }
     },
@@ -51598,10 +51614,10 @@
       "originalTrackId": "",
       "titulo": "Es Mentira",
       "artista": "Pimpinela",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "QC r1 fix hecho, QC r2",
-      "actualizado": "2026-10-27T13:44:36Z",
+      "estado": "hecha",
+      "vueltas": 0,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T13:51:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51630,15 +51646,21 @@
             "t": "2026-10-27T13:33:32Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "linea 14 y 15 palabra 1: ay debe ser hay (homofono, verbo como en original y lineas 39/49/59); mapear y rehacer ingles de esas lineas",
-            "t": "2026-10-27T13:42:54Z"
+            "v": "ok",
+            "nota": "QC r2: lines 14/15 word 1 fixed (verb, anchored, EN re-translated); all structure, WIT, PIT, twin, audio checks clean",
+            "t": "2026-10-27T13:51:18Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "linea 14 y 15 palabra 1: ay debe ser hay (homofono, verbo como en original y lineas 39/49/59); mapear y rehacer ingles de esas lineas",
-          "t": "2026-10-27T13:42:54Z"
+          "v": "VERDE",
+          "resumen": "QC r2: lines 14/15 word 1 fixed (verb, anchored, EN re-translated); all structure, WIT, PIT, twin, audio checks clean",
+          "t": "2026-10-27T13:51:18Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T13:51:21Z"
         }
       },
       "motivo_en": "Lines 14 and 15 word 1: change 'ay' to 'hay' (verb, as in the original and lines 39/49/59), map it, re-translate both English lines and the word-1 WIT, resubmit to pending_review"
@@ -51861,10 +51883,10 @@
       "originalTrackId": "",
       "titulo": "Porque Te Quiero Tanto?",
       "artista": "Manolo Galvan",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T13:33:35Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T13:49:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51891,7 +51913,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T13:33:34Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, tildes e interrogativas, mapeo, gemelas, PIT es e ingles draft correctos; restos de qc_es justificados (ni/y, aperturas lineas 18-19, ad-libs)",
+            "t": "2026-10-27T13:49:00Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, tildes e interrogativas, mapeo, gemelas, PIT es e ingles draft correctos; restos de qc_es justificados (ni/y, aperturas lineas 18-19, ad-libs)",
+          "t": "2026-10-27T13:49:00Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T13:49:02Z"
         }
       }
     },
@@ -51971,8 +52009,8 @@
       "artista": "Belinda",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:46:28Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T14:01:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51997,8 +52035,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:46:27Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T14:01:25Z"
           }
         }
       }
@@ -52011,8 +52049,8 @@
       "artista": "Alejandro Fernandez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:46:30Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T14:01:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52037,8 +52075,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:46:30Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T14:01:26Z"
           }
         }
       }
@@ -52109,8 +52147,8 @@
       "artista": "Yahir",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:46:33Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T14:01:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52135,8 +52173,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:46:32Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T14:01:27Z"
           }
         }
       }
@@ -52238,8 +52276,8 @@
       "artista": "los Kipus",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:46:40Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T14:01:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52264,8 +52302,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:46:40Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T14:01:28Z"
           }
         }
       }
@@ -52278,8 +52316,8 @@
       "artista": "El General",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:49:02Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T14:01:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52304,8 +52342,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:49:02Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T14:01:29Z"
           }
         }
       }
