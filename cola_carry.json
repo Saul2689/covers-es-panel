@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T14:21:03Z",
+  "generado": "2026-10-27T14:39:36Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -52379,10 +52379,10 @@
       "originalTrackId": "",
       "titulo": "Caramelo",
       "artista": "El General",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T14:01:29Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T14:26:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52409,9 +52409,26 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T14:01:29Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r2: L85 w8 remapeada a sentido vista, WIT y borrador pending_review OK; litchk/lpchk 0, wit_dt BAD 0",
+            "t": "2026-10-27T14:26:33Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r2: L85 w8 remapeada a sentido vista, WIT y borrador pending_review OK; litchk/lpchk 0, wit_dt BAD 0",
+          "t": "2026-10-27T14:26:33Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T14:26:36Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned: line 85 word 8 maps to the visit-a-person sense of ver; should be the sight sense (item 6a11dbd6c9740e1ba06eef5e, row see); re-set the draft WIT and resubmit"
     },
     {
       "coverTrackId": "6aa828b4d951e1665a815857",
@@ -52459,10 +52476,10 @@
       "originalTrackId": "",
       "titulo": "Devuelveme Mi Libertad",
       "artista": "Camilo Sesto",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T14:20:56Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T14:29:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52489,7 +52506,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T14:20:56Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, mapeo, ingles pending_review, twins, wit_dt BAD 0, litchk/lpchk 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T14:29:10Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, mapeo, ingles pending_review, twins, wit_dt BAD 0, litchk/lpchk 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T14:29:10Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T14:29:11Z"
         }
       }
     },
@@ -52539,10 +52572,10 @@
       "originalTrackId": "",
       "titulo": "Te Regalo Mi Tristeza",
       "artista": "los Temerarios",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T14:20:57Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T14:29:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52569,7 +52602,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T14:20:57Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, anclas, gemelas, PITs literales, inglés pending_review, wit_dt BAD 0, litchk/lpchk 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T14:29:53Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, anclas, gemelas, PITs literales, inglés pending_review, wit_dt BAD 0, litchk/lpchk 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T14:29:53Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T14:29:54Z"
         }
       }
     },
@@ -52693,10 +52742,10 @@
       "originalTrackId": "",
       "titulo": "Hombre",
       "artista": "Napoleon",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T14:20:59Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T14:31:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52723,7 +52772,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T14:20:59Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, sino merge L41/L46, anclas, ingles pending_review, litchk/lpchk/wit_dt 0; notas de oido L14, L56, L9",
+            "t": "2026-10-27T14:31:06Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, sino merge L41/L46, anclas, ingles pending_review, litchk/lpchk/wit_dt 0; notas de oido L14, L56, L9",
+          "t": "2026-10-27T14:31:06Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T14:31:08Z"
         }
       }
     },
@@ -52733,10 +52798,10 @@
       "originalTrackId": "",
       "titulo": "Del Altar A La Tumba",
       "artista": "Jose Jose",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T14:21:00Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T14:33:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52763,7 +52828,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T14:21:00Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, mapeo, gemelas, ingles (pending_review), PIs es, litchk/lpchk/wit_dt 0; hallazgos qc_es justificados",
+            "t": "2026-10-27T14:33:41Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, mapeo, gemelas, ingles (pending_review), PIs es, litchk/lpchk/wit_dt 0; hallazgos qc_es justificados",
+          "t": "2026-10-27T14:33:41Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T14:33:43Z"
         }
       }
     },
@@ -52867,8 +52948,8 @@
       "artista": "Yoskar Sarante",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:49:20Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T14:39:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52893,8 +52974,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:49:20Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T14:39:22Z"
           }
         }
       }
@@ -52929,8 +53010,8 @@
       "artista": "Camilo Sesto",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:49:32Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T14:39:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52955,8 +53036,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:49:32Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T14:39:23Z"
           }
         }
       }
@@ -53020,8 +53101,8 @@
       "artista": "Wilfrido Vargas",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:49:59Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T14:39:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53046,8 +53127,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:49:58Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T14:39:24Z"
           }
         }
       }
@@ -53060,8 +53141,8 @@
       "artista": "Mocedades",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:50:00Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T14:39:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53086,8 +53167,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:50:00Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T14:39:25Z"
           }
         }
       }
@@ -53179,8 +53260,8 @@
       "artista": "Carlos Vives",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:51:00Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T14:39:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53205,8 +53286,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:51:00Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T14:39:26Z"
           }
         }
       }
