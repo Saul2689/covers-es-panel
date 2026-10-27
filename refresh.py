@@ -348,10 +348,14 @@ def proceso_linea(log, fuera_de_linea=()):
     # "Trabajadas" son las que han entrado en la linea. Ni las que esperan
     # turno ni las que estan atascadas sin original cuentan como trabajo.
     trabajadas = sum(n for e, n in estados.items() if e not in ('cola', 'sinorig'))
+    # El total es lo contado, no lo leido: las dadas por hechas que no suenan
+    # salen del recuento igual que de la linea, y si no el diagrama diria
+    # "862 de 2.303" donde la linea dice "862 de 2.277".
+    contadas = sum(estados.values())
     log('proceso: %d en la cola, %d trabajadas, %d con ficha de pasos'
-        % (len(canciones), trabajadas, conficha))
+        % (contadas, trabajadas, conficha))
     return {
-        'total': len(canciones),
+        'total': contadas,
         'trabajadas': trabajadas,
         'conficha': conficha,
         'descartadas': int(d.get('descartadas') or 0),
