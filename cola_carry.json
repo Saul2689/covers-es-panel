@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T10:46:07Z",
+  "generado": "2026-10-27T10:48:35Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -44371,10 +44371,10 @@
       "originalTrackId": "",
       "titulo": "Hazme Sentir",
       "artista": "Maria Conchita Alonso",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:36:25Z",
+      "motivo": "audio_guard MUDA_PARADA: el cover no suena",
+      "actualizado": "2026-10-27T10:47:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44403,7 +44403,8 @@
             "t": "2026-10-14T07:36:24Z"
           }
         }
-      }
+      },
+      "motivo_en": "audio_guard MUDA_PARADA: the cover audio has no usable sung audio"
     },
     {
       "coverTrackId": "6aa5cf3242b8d1fdb0d55977",
@@ -48421,10 +48422,10 @@
       "originalTrackId": "",
       "titulo": "Infiel",
       "artista": "Rocío Dúrcal",
-      "estado": "revision",
-      "vueltas": 2,
-      "motivo": "QC r2 devuelto, arreglado, QC r3 final",
-      "actualizado": "2026-10-27T10:44:02Z",
+      "estado": "hecha",
+      "vueltas": 0,
+      "motivo": "QC r3 VERDE",
+      "actualizado": "2026-10-27T10:47:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48453,15 +48454,21 @@
             "t": "2026-10-23T16:43:30Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r2: r1 fix verified; interrogative que without tilde (WIT what) on L20/21/41/42/51/52/61/62 w1, inconsistent with L19-type qué",
-            "t": "2026-10-23T17:09:11Z"
+            "v": "ok",
+            "nota": "QC r3: r1 and r2 defects fixed (interrogative tilde on 8 tokens, mapped to que-interrogative, WIT consistent); all checks 0",
+            "t": "2026-10-27T10:47:56Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r2: r1 fix verified; interrogative que without tilde (WIT what) on L20/21/41/42/51/52/61/62 w1, inconsistent with L19-type qué",
-          "t": "2026-10-23T17:09:11Z"
+          "v": "VERDE",
+          "resumen": "QC r3: r1 and r2 defects fixed (interrogative tilde on 8 tokens, mapped to que-interrogative, WIT consistent); all checks 0",
+          "t": "2026-10-27T10:47:56Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T10:47:58Z"
         }
       },
       "motivo_en": "QC r2 returned; 8 interrogative tildes added and remapped; QC r3 (final)"
