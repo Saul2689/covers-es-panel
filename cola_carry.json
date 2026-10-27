@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T21:17:00Z",
+  "generado": "2026-10-27T21:33:55Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -37554,10 +37554,10 @@
       "originalTrackId": "",
       "titulo": "Solo Tengo Ojos Para Ti",
       "artista": "Juan Luis Guerra",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T21:16:32Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T21:30:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37584,10 +37584,26 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:07:37Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r2: line 10 w2, line 20 w2, line 4 w1 fixed; litchk/lpchk/xchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR, twins identical, draft pending_review",
+            "t": "2026-10-27T21:30:23Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r2: line 10 w2, line 20 w2, line 4 w1 fixed; litchk/lpchk/xchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR, twins identical, draft pending_review",
+          "t": "2026-10-27T21:30:23Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T21:30:24Z"
         }
       },
-      "motivo_en": "pre-QC done, QC round 1"
+      "motivo_en": "QC r1 fixes applied, QC round 2"
     },
     {
       "coverTrackId": "6aa5e7a242b8d1fdb0d7947c",
@@ -37606,10 +37622,10 @@
       "originalTrackId": "",
       "titulo": "America America",
       "artista": "Luis Miguel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T21:16:33Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T21:22:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37636,7 +37652,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:07:37Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk 0, wit_dt BAD 0, estructura y tiempos intactos, 37/37 ingles pending_review, mapeo y gemelas coherentes; notas de oido para Saul (lineas 7, 14, 32, 35)",
+            "t": "2026-10-27T21:22:22Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk 0, wit_dt BAD 0, estructura y tiempos intactos, 37/37 ingles pending_review, mapeo y gemelas coherentes; notas de oido para Saul (lineas 7, 14, 32, 35)",
+          "t": "2026-10-27T21:22:22Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T21:22:23Z"
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
@@ -37658,10 +37690,10 @@
       "originalTrackId": "",
       "titulo": "Que Mas Te Da",
       "artista": "Camilo Sesto",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T21:16:33Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T21:23:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37688,7 +37720,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:07:38Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, tildes, mapeo, items nuevos, ingles pending_review y gemelas OK; notas de oido para Saul (L2 w2, L23 w1, final del cover)",
+            "t": "2026-10-27T21:23:13Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, tildes, mapeo, items nuevos, ingles pending_review y gemelas OK; notas de oido para Saul (L2 w2, L23 w1, final del cover)",
+          "t": "2026-10-27T21:23:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T21:23:14Z"
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
@@ -38710,10 +38758,10 @@
       "originalTrackId": "",
       "titulo": "La Ultima Luna",
       "artista": "Emmanuel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T21:16:34Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T21:33:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38740,10 +38788,26 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:09:13Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r2: r1 example defect fixed (0 lyric overlaps), all checks re-run clean",
+            "t": "2026-10-27T21:33:16Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r2: r1 example defect fixed (0 lyric overlaps), all checks re-run clean",
+          "t": "2026-10-27T21:33:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T21:33:18Z"
         }
       },
-      "motivo_en": "pre-QC done, QC round 1"
+      "motivo_en": "QC r1 fixes applied, QC round 2"
     },
     {
       "coverTrackId": "6aa5160842b8d1fdb0c6533e",
@@ -39342,10 +39406,10 @@
       "originalTrackId": "",
       "titulo": "Hoy Platique Con Mi Gallo",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T21:16:34Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T21:30:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39372,10 +39436,26 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:09:56Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r2: PI de lineas 13 y 34 re-ancladas al item es; litchk/lpchk/xchk 0, wit_dt BAD 0, estructura e ingles igual que r1, sin diferencias",
+            "t": "2026-10-27T21:30:17Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r2: PI de lineas 13 y 34 re-ancladas al item es; litchk/lpchk/xchk 0, wit_dt BAD 0, estructura e ingles igual que r1, sin diferencias",
+          "t": "2026-10-27T21:30:17Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T21:30:19Z"
         }
       },
-      "motivo_en": "pre-QC done, QC round 1"
+      "motivo_en": "QC r1 fixes applied, QC round 2"
     },
     {
       "coverTrackId": "6aa5750f42b8d1fdb0cdd197",
@@ -40822,10 +40902,10 @@
       "originalTrackId": "",
       "titulo": "La Chica De La Boutique",
       "artista": "Heleno",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T21:16:35Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T21:23:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40852,7 +40932,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:12:03Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, anclas, gemelas, ingles en draft pending_review, items nuevos, litchk/lpchk/dt/audio OK; 4 notas de oido L13/15/29/31 tok1 aceptadas",
+            "t": "2026-10-27T21:23:08Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, anclas, gemelas, ingles en draft pending_review, items nuevos, litchk/lpchk/dt/audio OK; 4 notas de oido L13/15/29/31 tok1 aceptadas",
+          "t": "2026-10-27T21:23:08Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T21:23:09Z"
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
