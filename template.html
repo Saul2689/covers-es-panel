@@ -964,26 +964,27 @@ tailwind.config={theme:{extend:{
   ];
 
   /* El diagrama. v: 0 tronco, 1 carril de salidas. r: el paso que ya ha roto
-     algo y hay que mirar con lupa. n: queda de cuando las cajas llevaban el
-     recuento del día; no se pinta, esto dibuja el proceso, no la cola. */
+     algo y hay que mirar con lupa. Aquí NO hay ni un número en vivo: esta
+     pestaña explica el proceso, no cuenta canciones. Los números que quedan
+     son del proceso mismo (códigos HTTP, ms, confianza), no de la cola. */
   var NODOS=[
    {id:'a0',f:0,t:'ini',v:0,es:'Un cover del catálogo CrossClear',en:'A cover from the CrossClear catalogue'},
-   {id:'a1',f:0,t:'io',v:0,n:'total',es:'Leer el censo y la ficha del track',en:'Read the census and the track record',
-    ns:'El censo son 2.300 y pico canciones; la ficha dice estrellas, archivada y original.',
-    ne:'The census is 2,300-odd songs; the record gives stars, archived flag and original.'},
+   {id:'a1',f:0,t:'io',v:0,es:'Leer el censo y la ficha del track',en:'Read the census and the track record',
+    ns:'El censo es el catálogo de covers es; la ficha dice estrellas, archivada y original.',
+    ne:'The census is the es cover catalogue; the record gives stars, archived flag and original.'},
    {id:'a2',f:0,t:'dec',v:0,es:'¿Suena, y con voz?',en:'Does it play, with vocals?',
     ns:'GET /audio con Range 0-1: 206 sí, 404 no. Es la única señal fiable — el campo playbackKind sale nulo hasta en las que suenan.',
     ne:'GET /audio with Range 0-1: 206 yes, 404 no. It is the only reliable signal — playbackKind reads null even on songs that play.'},
    {id:'x1',f:0,t:'ini',v:1,es:'Fuera: muda o karaoke',en:'Out: silent or karaoke'},
    {id:'a3',f:0,t:'dec',v:0,es:'¿1 o 2 estrellas?',en:'One or two stars?'},
-   {id:'x2',f:0,t:'ini',v:1,n:'descartadas',es:'Descartada',en:'Discarded',
+   {id:'x2',f:0,t:'ini',v:1,es:'Descartada',en:'Discarded',
     ns:'Regla de Saúl del 23 sep: una canción de 1 o 2 estrellas nunca se queda en «parada», sale de la cola.',
     ne:'Saúl’s rule of 23 Sep: a 1- or 2-star song never sits in "stopped", it leaves the queue.'},
    {id:'a4',f:0,t:'dec',v:0,es:'¿Tiene original enlazado?',en:'Is an original linked?'},
-   {id:'x3',f:0,t:'proc',v:0,n:'e_sinorig',es:'Sin original: se sube por ISRC',en:'No original: import it by ISRC',
+   {id:'x3',f:0,t:'proc',v:0,es:'Sin original: se sube por ISRC',en:'No original: import it by ISRC',
     ns:'Es un paso más de la línea, nunca una parada: ISRC + comprobación de que no existe ya + letra de lrclib, se importa el original sin vídeo, se enlaza y entra en la cola.',
     ne:'It is one more step of the line, never a stop: ISRC + check it does not already exist + lrclib lyric, the original is imported without video, linked, and joins the queue.'},
-   {id:'a5',f:0,t:'proc',v:0,n:'e_cola',es:'Entra en la cola, por prioridad',en:'Joins the queue, by priority',
+   {id:'a5',f:0,t:'proc',v:0,es:'Entra en la cola, por prioridad',en:'Joins the queue, by priority',
     ns:'El orden es lo más popular y lo más enseñable primero, no lo más cómodo.',
     ne:'The order is most popular and most teachable first, not most convenient.'},
 
@@ -1001,7 +1002,7 @@ tailwind.config={theme:{extend:{
    {id:'b3',f:1,t:'proc',v:0,es:'Contestar las líneas marcadas',en:'Settle the flagged lines',
     ns:'Quince reglas. Ocho las contesta un agente (tilde, mayúscula, puntuación, contracción partida…) y siete necesitan persona.',
     ne:'Fifteen rules. An agent answers eight (accent, capital, punctuation, split contraction…) and seven need a person.'},
-   {id:'b4',f:1,t:'proc',v:0,n:'p_carry',es:'Aplicar y comparar con el original',en:'Apply and compare with the original',
+   {id:'b4',f:1,t:'proc',v:0,es:'Aplicar y comparar con el original',en:'Apply and compare with the original',
     ns:'Si el cover ya tenía carry, no se re-proyecta: se arregla encima. Reproyectar mueve las líneas.',
     ne:'If the cover already had a carry, it is not re-projected: it is fixed on top. Re-projecting moves the lines.'},
 
@@ -1013,7 +1014,7 @@ tailwind.config={theme:{extend:{
     ns:'Un plan por canción: borrados, inserciones, cambios, uniones y tildes, en ese orden y línea a línea.',
     ne:'One plan per song: deletes, inserts, edits, merges and accents, in that order, line by line.'},
    {id:'c3',f:2,t:'dec',v:0,es:'¿Cambió el número de fichas?',en:'Did the token count change?'},
-   {id:'c4',f:2,t:'proc',v:0,n:'p_lrc',es:'Mover las anclas, 0 fuera de rango',en:'Move the anchors, 0 out of range',
+   {id:'c4',f:2,t:'proc',v:0,es:'Mover las anclas, 0 fuera de rango',en:'Move the anchors, 0 out of range',
     ns:'Las anclas se guardan por posición. Unir o borrar una ficha descoloca todas las de detrás.',
     ne:'Anchors are stored by position. Merging or deleting a token shifts every anchor after it.'},
 
@@ -1029,10 +1030,10 @@ tailwind.config={theme:{extend:{
    {id:'d2',f:3,t:'proc',v:0,es:'Blindar: fijar stemVoc',en:'Shield it: pin stemVoc',
     ns:'Pre-autorizado por Saúl el 29 sep para ≤ 150 ms con confianza ≥ 1,2: ese retime no se oye. La letra pasa a vivir sobre la FULL SONG y ya no la tumba ninguna medición. Nunca karaoke, nunca mixMp3V con confianza < 1,2 (el servidor da 409), nunca un offset 0 a ciegas.',
     ne:'Pre-authorised by Saúl on 29 Sep for ≤ 150 ms at confidence ≥ 1.2: that retime is inaudible. The lyric moves onto the FULL SONG and no measurement can knock it out again. Never karaoke, never mixMp3V below 1.2 confidence (the server answers 409), never a blind zero offset.'},
-   {id:'xd3',f:3,t:'esp',v:1,n:'p_timing_saul',es:'Parada: muda y nada que fijar → Saúl',en:'Stopped: silent, nothing to pin → Saúl',
+   {id:'xd3',f:3,t:'esp',v:1,es:'Parada: muda y nada que fijar → Saúl',en:'Stopped: silent, nothing to pin → Saúl',
     ns:'Solo queda el mp3, o el desfase pasa de 150 ms, o la confianza no llega a 1,2. Se le manda cover_audio_list y la primera línea. No se pinea a ciegas.',
     ne:'Only the mp3 is left, or the offset goes past 150 ms, or confidence falls below 1.2. Send him cover_audio_list and the first line. Never pin blind.'},
-   {id:'d4',f:3,t:'proc',v:0,n:'p_timing',es:'Corregir las líneas que derivan',en:'Fix the lines that drift',
+   {id:'d4',f:3,t:'proc',v:0,es:'Corregir las líneas que derivan',en:'Fix the lines that drift',
     ns:'Con la deriva a 0 y la primera línea en 0 ms o más. Y no se vuelven a importar los timings de una cover blindada: eso deshace el retime y la deja frágil otra vez.',
     ne:'With drift at 0 and the first line at 0 ms or later. And never re-import the timings of a shielded cover: that undoes the retime and leaves it fragile again.'},
    {id:'e0',f:4,t:'proc',v:0,es:'Sueltos, gemelas y homógrafos',en:'Loose tokens, twins and homographs',
@@ -1040,7 +1041,7 @@ tailwind.config={theme:{extend:{
     ne:'The accented homographs (mi/mí, tu/tú, que/qué, el/él, si/sí, mas/más) are the defect QC sends back most often.'},
    {id:'e1',f:4,t:'dec',v:0,es:'¿Falta un item de diccionario?',en:'Is a dictionary item missing?'},
    {id:'e2',f:4,t:'sub',v:0,es:'DEV → comprobar → PROD → 19 idiomas',en:'DEV → check → PROD → 19 languages'},
-   {id:'e3',f:4,t:'proc',v:0,n:'p_mapeo',es:'Verificar con track_line_tokens_get',en:'Verify with track_line_tokens_get',
+   {id:'e3',f:4,t:'proc',v:0,es:'Verificar con track_line_tokens_get',en:'Verify with track_line_tokens_get',
     ns:'El campo que enseña la admin sirve el item viejo un rato después de un remapeo, y eso ya produjo devoluciones falsas.',
     ne:'The field the admin shows serves the old item for a while after a remap, and that has already caused false rejections.'},
 
@@ -1050,22 +1051,22 @@ tailwind.config={theme:{extend:{
     ne:'Its strategy blanks whatever it finds, so it is never fired at a song that already has English.'},
    {id:'f2',f:5,t:'proc',v:0,es:'Traducción de línea y WIT de cada ancla',en:'Line translation and a WIT per anchor'},
    {id:'f3',f:5,t:'sub',v:0,es:'wit_dt_audit: BAD 0 y 0 WIT vacíos',en:'wit_dt_audit: BAD 0 and 0 empty WITs',
-    ns:'Un WIT sin texto hace que la app caiga en la traducción genérica del item. El barrido del 25 sep encontró 990.',
-    ne:'A WIT with no text makes the app fall back to the item’s generic translation. The 25 Sep sweep found 990.'},
-   {id:'f4',f:5,t:'io',v:0,n:'p_ingles',es:'Enviar a revisión (borrador)',en:'Submit for review (draft)',
+    ns:'Un WIT sin texto hace que la app caiga en la traducción genérica del item.',
+    ne:'A WIT with no text makes the app fall back to the item’s generic translation.'},
+   {id:'f4',f:5,t:'io',v:0,es:'Enviar a revisión (borrador)',en:'Submit for review (draft)',
     ns:'Queda en pending_review. Aprobar no lo hace nunca un agente.',
     ne:'It sits in pending_review. An agent never approves.'},
 
-   {id:'g0',f:6,t:'proc',v:0,n:'e_revision',es:'QC: entra sin ver el razonamiento',en:'QC: comes in blind to the reasoning',
+   {id:'g0',f:6,t:'proc',v:0,es:'QC: entra sin ver el razonamiento',en:'QC: comes in blind to the reasoning',
     ns:'Solo ve la canción, el original y el informe. Su trabajo es encontrar el fallo, no confirmar el acierto.',
     ne:'It only sees the song, the original and the report. Its job is to find the fault, not to confirm the work.'},
    {id:'g1',f:6,t:'dec',v:0,es:'Veredicto',en:'Verdict'},
-   {id:'g2',f:6,t:'con',v:1,n:'e_correccion',es:'DEVUELTO → vuelve a la fase 2',en:'RETURNED → back to phase 2',
-    ns:'Máximo dos vueltas; a la tercera, parada. Hoy hay seis canciones que se saltaron ese límite.',
-    ne:'Two rounds at most; the third one stops the song. Six songs went past that limit.'},
+   {id:'g2',f:6,t:'con',v:1,es:'DEVUELTO → vuelve a la fase 2',en:'RETURNED → back to phase 2',
+    ns:'Máximo dos vueltas; a la tercera, parada.',
+    ne:'Two rounds at most; the third one stops the song.'},
    {id:'x4',f:6,t:'esp',v:1,es:'Parada: la mira Saúl',en:'Stopped: Saúl looks at it'},
 
-   {id:'h0',f:7,t:'db',v:0,n:'e_hecha',es:'parte.py → estado_cola.json',en:'parte.py → estado_cola.json',
+   {id:'h0',f:7,t:'db',v:0,es:'parte.py → estado_cola.json',en:'parte.py → estado_cola.json',
     ns:'Es la fuente de verdad. El script se niega a marcar «hecha» si algún paso no está cerrado, y el audio no se cierra sin un guard en BLINDADA o SUENA_SIN_BLINDAR. Se anota el veredicto y, si se blindó, los ms que se movió la letra.',
     ne:'This is the source of truth. The script refuses to mark "done" while a step is open, and audio does not close without a guard reading BLINDADA or SUENA_SIN_BLINDAR. The verdict is logged, and the milliseconds the lyric moved if it was shielded.'},
    {id:'h1',f:7,t:'io',v:0,es:'cola_carry.json → GitHub → Cloudflare',en:'cola_carry.json → GitHub → Cloudflare'},
