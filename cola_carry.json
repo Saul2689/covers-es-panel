@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T20:46:02Z",
+  "generado": "2026-10-27T21:01:19Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -34280,8 +34280,8 @@
       "artista": "La Ley",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T09:01:51Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T21:00:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -34310,7 +34310,8 @@
             "t": "2026-10-14T09:01:51Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa4eec842b8d1fdb0c25ba0",
@@ -34331,8 +34332,8 @@
       "artista": "Rocio Durcal",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T09:02:18Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T21:00:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -34361,7 +34362,8 @@
             "t": "2026-10-14T09:02:17Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa776e772ca57eb1ac6fe81",
@@ -34561,8 +34563,8 @@
       "artista": "Daniela Romo",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T09:03:02Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T21:00:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -34591,7 +34593,8 @@
             "t": "2026-10-14T09:03:01Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa7003072ca57eb1aaa2f40",
@@ -34984,8 +34987,8 @@
       "artista": "Ana Barbara",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T09:03:24Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T21:00:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35014,7 +35017,8 @@
             "t": "2026-10-14T09:03:23Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa77b2472ca57eb1accd45b",
@@ -35022,10 +35026,10 @@
       "originalTrackId": "",
       "titulo": "Par Mil",
       "artista": "Divididos",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T20:45:35Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T20:52:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35052,7 +35056,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:03:34Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: 0 defectos; litchk/lpchk 0, wit_dt BAD 0, ingles 22/22 pending_review, cobertura 124/124; notas: linea 5 palabra 2 al oido",
+            "t": "2026-10-27T20:52:55Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: 0 defectos; litchk/lpchk 0, wit_dt BAD 0, ingles 22/22 pending_review, cobertura 124/124; notas: linea 5 palabra 2 al oido",
+          "t": "2026-10-27T20:52:55Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T20:52:56Z"
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
@@ -35094,10 +35114,10 @@
       "originalTrackId": "",
       "titulo": "Desahogo",
       "artista": "Roberto Carlos",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T20:45:35Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T20:59:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35124,10 +35144,26 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:03:51Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r2: fixes L2 PI and L19 PIT confirmed; litchk 0, lpchk 0, wit_dt BAD 0, guard SUENA_SIN_BLINDAR, draft pending_review",
+            "t": "2026-10-27T20:59:41Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r2: fixes L2 PI and L19 PIT confirmed; litchk 0, lpchk 0, wit_dt BAD 0, guard SUENA_SIN_BLINDAR, draft pending_review",
+          "t": "2026-10-27T20:59:41Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T20:59:42Z"
         }
       },
-      "motivo_en": "pre-QC done, QC round 1"
+      "motivo_en": "QC r1 fixes applied, QC round 2"
     },
     {
       "coverTrackId": "6aa110ea64c9b8ff110be536",
@@ -36030,8 +36066,8 @@
       "artista": "Enanitos Verdes",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T09:05:12Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T21:00:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36060,7 +36096,8 @@
             "t": "2026-10-14T09:05:11Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa52b5f42b8d1fdb0c878a9",
@@ -36506,8 +36543,8 @@
       "artista": "Luis Miguel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T09:05:15Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T21:00:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36536,7 +36573,8 @@
             "t": "2026-10-14T09:05:14Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa81aaad951e1665a7ffdee",
@@ -36759,9 +36797,9 @@
       "titulo": "Que Pena Me Das",
       "artista": "Marco Antonio Solis",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T20:45:36Z",
+      "vueltas": 1,
+      "motivo": "QC r1 corregido, QC r2",
+      "actualizado": "2026-10-27T20:56:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36788,10 +36826,20 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:05:24Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "line 13 word 5 unanchored while twin line 9 word 5 is mapped; line 4 words 1-2 phrase insight has no draft PIT (plan text not applied)",
+            "t": "2026-10-27T20:53:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "line 13 word 5 unanchored while twin line 9 word 5 is mapped; line 4 words 1-2 phrase insight has no draft PIT (plan text not applied)",
+          "t": "2026-10-27T20:53:29Z"
         }
       },
-      "motivo_en": "pre-QC done, QC round 1"
+      "motivo_en": "QC r1 fixes applied, QC round 2"
     },
     {
       "coverTrackId": "6aa1113f64c9b8ff110d116b",
@@ -37246,10 +37294,10 @@
       "originalTrackId": "",
       "titulo": "Que Canten Los Niños",
       "artista": "Jose Luis Perales",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 corregido, QC r2",
-      "actualizado": "2026-10-27T20:44:58Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T20:47:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37278,15 +37326,21 @@
             "t": "2026-10-14T09:07:36Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "optative que mapped to relative-pronoun item: line 1 w5, line 25 w5, line 50 w1, line 65 w1 (WIT let, should be conjunction item); rest clean",
-            "t": "2026-10-27T20:43:41Z"
+            "v": "ok",
+            "nota": "QC r2: 4 optative que remapped to conjunction confirmed; all checks 0, structure/English/twins/PIs ok, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T20:47:56Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "optative que mapped to relative-pronoun item: line 1 w5, line 25 w5, line 50 w1, line 65 w1 (WIT let, should be conjunction item); rest clean",
-          "t": "2026-10-27T20:43:41Z"
+          "v": "VERDE",
+          "resumen": "QC r2: 4 optative que remapped to conjunction confirmed; all checks 0, structure/English/twins/PIs ok, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T20:47:56Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T20:47:58Z"
         }
       },
       "motivo_en": "QC r1 fixes applied, QC round 2"
@@ -38187,10 +38241,10 @@
       "originalTrackId": "",
       "titulo": "Zapatos Viejos",
       "artista": "Gloria Trevi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T20:45:37Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T20:57:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38217,7 +38271,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:08:16Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1 VERDE: estructura, tildes, mapeo, ingles (pending_review), litchk/lpchk 0, dt BAD 0, audio SUENA_SIN_BLINDAR. Nota Saul: 11 aperturas del estribillo (linea 9 palabra 2 y gemelas) el cover canta otra palabra que el original, ojo",
+            "t": "2026-10-27T20:57:29Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1 VERDE: estructura, tildes, mapeo, ingles (pending_review), litchk/lpchk 0, dt BAD 0, audio SUENA_SIN_BLINDAR. Nota Saul: 11 aperturas del estribillo (linea 9 palabra 2 y gemelas) el cover canta otra palabra que el original, ojo",
+          "t": "2026-10-27T20:57:29Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T20:57:33Z"
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
@@ -39109,10 +39179,10 @@
       "originalTrackId": "",
       "titulo": "Por El Amor A Mi Madre",
       "artista": "Antonio Aguilar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T20:45:38Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T20:51:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39139,7 +39209,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:09:16Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: structure, accents, mapping, twins, PIT, new items, English draft pending_review all clean; litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T20:51:46Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: structure, accents, mapping, twins, PIT, new items, English draft pending_review all clean; litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T20:51:46Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T20:51:48Z"
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
@@ -39371,10 +39457,10 @@
       "originalTrackId": "",
       "titulo": "Te Propongo",
       "artista": "Sandro",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T20:45:36Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T20:50:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39401,7 +39487,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:09:56Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1 VERDE: litchk/lpchk/wit_dt 0, estructura y timing intactos, ingles pending_review completo, items nuevos ok; notas de oido en linea 10 pal 1, 10/19 pal 5, 27 pal 3",
+            "t": "2026-10-27T20:50:14Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1 VERDE: litchk/lpchk/wit_dt 0, estructura y timing intactos, ingles pending_review completo, items nuevos ok; notas de oido en linea 10 pal 1, 10/19 pal 5, 27 pal 3",
+          "t": "2026-10-27T20:50:14Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T20:50:15Z"
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
@@ -40143,8 +40245,8 @@
       "artista": "Luis Enrique",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T09:11:00Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T21:00:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40173,7 +40275,8 @@
             "t": "2026-10-14T09:11:00Z"
           }
         }
-      }
+      },
+      "motivo_en": "pre-QC done, QC round 1"
     },
     {
       "coverTrackId": "6aa81187d951e1665a7f586b",
@@ -40929,10 +41032,10 @@
       "originalTrackId": "",
       "titulo": "Por Si No Te Vuelvo A Ver",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T20:38:47Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T20:51:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40959,10 +41062,26 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:12:45Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r2: linea 36 palabra 4 remapeada al item de futuro, PITs rellenados; litchk/lpchk/wit_dt 0, audio SUENA_SIN_BLINDAR, drift 0",
+            "t": "2026-10-27T20:51:31Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r2: linea 36 palabra 4 remapeada al item de futuro, PITs rellenados; litchk/lpchk/wit_dt 0, audio SUENA_SIN_BLINDAR, drift 0",
+          "t": "2026-10-27T20:51:31Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T20:51:33Z"
         }
       },
-      "motivo_en": "pre-QC done, QC round 1"
+      "motivo_en": "QC r1 fixes applied, QC round 2"
     },
     {
       "coverTrackId": "6aa56c4942b8d1fdb0ccf824",
