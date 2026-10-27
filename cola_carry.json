@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T13:23:07Z",
+  "generado": "2026-10-27T13:33:36Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -51069,10 +51069,10 @@
       "originalTrackId": "",
       "titulo": "Dimelo Delante De Ella",
       "artista": "Pimpinela",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "QC r1 fix hecho, QC r2",
-      "actualizado": "2026-10-27T13:22:41Z",
+      "estado": "hecha",
+      "vueltas": 0,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T13:28:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51101,15 +51101,21 @@
             "t": "2026-10-27T13:12:06Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: 1 errata de una letra sin corregir ni mapear (linea 21 palabra 7), mismo caso que linea 20 palabra 2 ya corregida; resto verde",
-            "t": "2026-10-27T13:20:30Z"
+            "v": "ok",
+            "nota": "QC r2: defecto de r1 (token de L21 w7) corregido y anclado al verbo ser; litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR, ingles 35/35 en pending_review, gemelas identicas",
+            "t": "2026-10-27T13:28:01Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: 1 errata de una letra sin corregir ni mapear (linea 21 palabra 7), mismo caso que linea 20 palabra 2 ya corregida; resto verde",
-          "t": "2026-10-27T13:20:30Z"
+          "v": "VERDE",
+          "resumen": "QC r2: defecto de r1 (token de L21 w7) corregido y anclado al verbo ser; litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR, ingles 35/35 en pending_review, gemelas identicas",
+          "t": "2026-10-27T13:28:01Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T13:28:03Z"
         }
       },
       "motivo_en": "Line 21 word 7 is a one-letter truncation of the copula that the original spells in full; fix the LRC token (timings kept), anchor it to the matching ser item, set its WIT in the English draft and resubmit to pending_review."
@@ -51445,10 +51451,10 @@
       "originalTrackId": "",
       "titulo": "Quiereme",
       "artista": "Angela Carrasco",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T13:12:17Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T13:27:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51475,7 +51481,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T13:12:16Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, tildes, mapeo, ingles y gemelas limpios; litchk/lpchk 0, BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T13:27:06Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, tildes, mapeo, ingles y gemelas limpios; litchk/lpchk 0, BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T13:27:06Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T13:27:08Z"
         }
       }
     },
@@ -51498,8 +51520,8 @@
       "artista": "Thalia",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:45:13Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T13:33:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51524,8 +51546,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:45:12Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T13:33:31Z"
           }
         }
       }
@@ -51578,8 +51600,8 @@
       "artista": "Pimpinela",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:45:13Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T13:33:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51604,8 +51626,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:45:13Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T13:33:32Z"
           }
         }
       }
@@ -51718,8 +51740,8 @@
       "artista": "Gilberto Santa Rosa",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:45:14Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T13:33:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51744,8 +51766,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:45:14Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T13:33:33Z"
           }
         }
       }
@@ -51758,8 +51780,8 @@
       "artista": "Pimpinela",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:45:38Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T13:33:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51784,8 +51806,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:45:37Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T13:33:33Z"
           }
         }
       }
@@ -51798,8 +51820,8 @@
       "artista": "Manolo Galvan",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:45:47Z",
+      "motivo": "pre-QC hecho, QC r1",
+      "actualizado": "2026-10-27T13:33:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51824,8 +51846,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:45:47Z"
+            "nota": "borrador EN en pending_review",
+            "t": "2026-10-27T13:33:34Z"
           }
         }
       }
