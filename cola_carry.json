@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T11:56:30Z",
+  "generado": "2026-10-27T12:11:00Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -48035,10 +48035,10 @@
       "originalTrackId": "",
       "titulo": "Amor Amor Amor",
       "artista": "Nilton Cesar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T11:56:17Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T12:06:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48065,7 +48065,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T11:56:15Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, mapeo, ingles pending_review, litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T12:06:26Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, mapeo, ingles pending_review, litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T12:06:26Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T12:06:28Z"
         }
       }
     },
@@ -49886,9 +49902,9 @@
       "titulo": "Lo Voy A Dividir",
       "artista": "Lolita",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T11:56:20Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-27T12:09:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49915,9 +49931,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T11:56:18Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: faltan tildes en formas verbales de futuro y preterito y un adjetivo (linea 1 palabras 2 y 4, lineas 10/27 palabra 3, lineas 14/31 palabra 1); resto OK",
+            "t": "2026-10-27T12:04:32Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: faltan tildes en formas verbales de futuro y preterito y un adjetivo (linea 1 palabras 2 y 4, lineas 10/27 palabra 3, lineas 14/31 palabra 1); resto OK",
+          "t": "2026-10-27T12:04:32Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned for missing tildes; fixed, QC round 2"
     },
     {
       "coverTrackId": "6aa78c2d72ca57eb1ace3a72",
@@ -49936,10 +49963,10 @@
       "originalTrackId": "",
       "titulo": "Cuando Te Vayas",
       "artista": "Rocio Durcal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T11:56:23Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T12:04:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49966,7 +49993,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T11:56:21Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk 0, wit_dt BAD 0, drift 0, 31/31 ingles pending_review, gemelas ok, tildes ok; 2 palabras vacias de proveedor en richsync L20/L31 como nota",
+            "t": "2026-10-27T12:04:29Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk 0, wit_dt BAD 0, drift 0, 31/31 ingles pending_review, gemelas ok, tildes ok; 2 palabras vacias de proveedor en richsync L20/L31 como nota",
+          "t": "2026-10-27T12:04:29Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T12:04:31Z"
         }
       }
     },
@@ -50084,9 +50127,9 @@
       "titulo": "Adios",
       "artista": "Rakim & Ken Y",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T11:56:29Z",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto, arreglado, QC r2",
+      "actualizado": "2026-10-27T12:10:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50113,9 +50156,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T11:56:27Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "timing: last two words of line 39 overrun line end by 857 ms into line 40 (only defect)",
+            "t": "2026-10-27T12:06:23Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "timing: last two words of line 39 overrun line end by 857 ms into line 40 (only defect)",
+          "t": "2026-10-27T12:06:23Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned for a timing overlap on line 39; fixed, QC round 2"
     },
     {
       "coverTrackId": "6aa65e4072ca57eb1a9ce71e",
