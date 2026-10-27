@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T13:12:19Z",
+  "generado": "2026-10-27T13:23:07Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -51070,9 +51070,9 @@
       "titulo": "Dimelo Delante De Ella",
       "artista": "Pimpinela",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T13:12:07Z",
+      "vueltas": 1,
+      "motivo": "QC r1 fix hecho, QC r2",
+      "actualizado": "2026-10-27T13:22:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51099,9 +51099,20 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T13:12:06Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: 1 errata de una letra sin corregir ni mapear (linea 21 palabra 7), mismo caso que linea 20 palabra 2 ya corregida; resto verde",
+            "t": "2026-10-27T13:20:30Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: 1 errata de una letra sin corregir ni mapear (linea 21 palabra 7), mismo caso que linea 20 palabra 2 ya corregida; resto verde",
+          "t": "2026-10-27T13:20:30Z"
         }
-      }
+      },
+      "motivo_en": "Line 21 word 7 is a one-letter truncation of the copula that the original spells in full; fix the LRC token (timings kept), anchor it to the matching ser item, set its WIT in the English draft and resubmit to pending_review."
     },
     {
       "coverTrackId": "6aa7a04272ca57eb1ad02e6d",
@@ -51109,10 +51120,10 @@
       "originalTrackId": "",
       "titulo": "Polo Opuesto",
       "artista": "Monchy & Alexandra",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T13:12:10Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T13:21:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51139,7 +51150,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T13:12:08Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, mapeo, gemelas, tildes, ingles pending_review y audio OK; solo notas de oido",
+            "t": "2026-10-27T13:21:43Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, mapeo, gemelas, tildes, ingles pending_review y audio OK; solo notas de oido",
+          "t": "2026-10-27T13:21:43Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T13:21:46Z"
         }
       },
       "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
@@ -51150,10 +51177,10 @@
       "originalTrackId": "",
       "titulo": "Enamorate De Mi",
       "artista": "Camilo Sesto",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T13:12:12Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T13:22:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51180,7 +51207,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T13:12:11Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: gates 0, estructura y timing ok, mapeo/ingles/tildes verificados, draft pending_review, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T13:22:49Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: gates 0, estructura y timing ok, mapeo/ingles/tildes verificados, draft pending_review, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T13:22:49Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T13:22:51Z"
         }
       }
     },
@@ -51279,10 +51322,10 @@
       "originalTrackId": "",
       "titulo": "Veneno",
       "artista": "Isabel Pantoja",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T13:12:15Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T13:18:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51309,7 +51352,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T13:12:13Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1 VERDE: estructura, tildes, gemelas, PIT literales, items nuevos e ingles pending_review OK; nota L8 p1 de oido",
+            "t": "2026-10-27T13:18:48Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1 VERDE: estructura, tildes, gemelas, PIT literales, items nuevos e ingles pending_review OK; nota L8 p1 de oido",
+          "t": "2026-10-27T13:18:48Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T13:18:50Z"
         }
       }
     },
