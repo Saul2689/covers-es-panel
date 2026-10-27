@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T15:09:39Z",
+  "generado": "2026-10-27T15:24:35Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -53390,10 +53390,10 @@
       "originalTrackId": "",
       "titulo": "Estelita",
       "artista": "Leo Dan",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T15:09:26Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T15:22:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53420,7 +53420,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T15:09:24Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, mapeo, ingles draft pending_review, gemelas, PITs es, litchk/lpchk/wit_dt 0, audio SUENA_SIN_BLINDAR; sin defectos",
+            "t": "2026-10-27T15:22:52Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, mapeo, ingles draft pending_review, gemelas, PITs es, litchk/lpchk/wit_dt 0, audio SUENA_SIN_BLINDAR; sin defectos",
+          "t": "2026-10-27T15:22:52Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T15:22:57Z"
         }
       }
     },
@@ -53553,10 +53569,10 @@
       "originalTrackId": "",
       "titulo": "Cuando Yo Amo",
       "artista": "Rudy la Scala",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T15:09:29Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T15:19:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53583,7 +53599,23 @@
             "v": "ok",
             "nota": "borrador EN en pending_review",
             "t": "2026-10-27T15:09:27Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, mapeo, gemelas, PITs es y ingles en pending_review correctos; audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T15:19:33Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, mapeo, gemelas, PITs es y ingles en pending_review correctos; audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T15:19:33Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T15:19:34Z"
         }
       }
     },
@@ -61516,13 +61548,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T01:00:11Z",
+      "actualizado": "2026-10-27T15:24:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 93%",
             "t": "2026-10-07T01:00:10Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "10 tokens: tildes L3/L18/L21/L27/L36/L39/L41, L20 minuscula+comas; sin cambiar n de tokens; ear-notes en informe",
+            "t": "2026-10-27T15:23:16Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 41 lineas, palabra minima 110 ms, primera linea 12896 ms; audio SUENA_SIN_BLINDAR stemVoc +0 ms conf 1.6",
+            "t": "2026-10-27T15:24:20Z"
           }
         }
       }
@@ -61536,13 +61578,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T01:03:54Z",
+      "actualizado": "2026-10-27T15:21:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T01:03:54Z"
+            "nota": "carry en lote ya aplicado; no re-ejecutado ni revertido",
+            "t": "2026-10-27T15:21:49Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 49 lineas, ninguna palabra <40 ms, sin solapes; audio_guard SUENA_SIN_BLINDAR (stemVoc -20 ms), no se mide ni fija nada",
+            "t": "2026-10-27T15:21:50Z"
           }
         }
       }
@@ -61745,13 +61792,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T01:00:49Z",
+      "actualizado": "2026-10-27T15:19:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-07T01:00:48Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-27T15:19:48Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tilde en lineas 16, 29, 31 palabra 1 (homografo, sentido 'todavia'); sin finales con puntuacion",
+            "t": "2026-10-27T15:19:50Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "palabras de 0 ms en linea 12 y 25 palabra 2 retimadas a 300 ms en el hueco; deriva 0; audio_guard SUENA_SIN_BLINDAR (timeline karaokeMp3, sin medir ni fijar)",
+            "t": "2026-10-27T15:19:52Z"
           }
         }
       }
@@ -61952,13 +62009,13 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T01:02:26Z",
+      "actualizado": "2026-10-27T15:16:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T01:02:26Z"
+            "nota": "carry en lote ya aplicado; audio_guard SUENA_SIN_BLINDAR (timeline karaokeMp3, 206), sin medir ni fijar",
+            "t": "2026-10-27T15:16:06Z"
           }
         }
       }
