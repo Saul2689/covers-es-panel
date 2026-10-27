@@ -27,8 +27,18 @@ MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun',
 # repo; aqui solo se lee. Puede no existir, llegar a medias o venir mal: pase
 # lo que pase la build tiene que terminar, porque el panel no es suyo.
 COLA = os.path.join(AQUI, 'cola_carry.json')
-ESTADOS = ['parada', 'correccion', 'revision', 'carry',
+# 'muda' no lo escribe nadie: lo deduce el panel. Una cover que la linea da
+# por hecha pero cuyo /audio no sirve nada sale a 0:00, y contarla como hecha
+# era el tercer numero distinto para la misma cosa (el 27 oct: la linea decia
+# 873 hechas y la barra 844, porque 29 no sonaban).
+ESTADOS = ['parada', 'muda', 'correccion', 'revision', 'carry',
            'traduccion', 'cola', 'sinorig', 'hecha']
+
+
+MOTIVO_MUDA_ES = ('La letra esta terminada, pero el servidor no sirve ninguna '
+                  'version con voz: en la app sale a 0:00. Falta el audio.')
+MOTIVO_MUDA_EN = ('The lyric is finished, but the server serves no version with '
+                  'vocals: in the app it sits at 0:00. The audio is missing.')
 
 
 def ficha_de(c):
@@ -211,6 +221,11 @@ def parte_linea(datos, log):
         # matcher). Si ya tiene ficha de pasos, esta trabajada: se queda.
         if sin_original(c, estado):
             estado = 'sinorig'
+        # Hecha es hecha Y suena. Si el audio no sirve, la cancion no esta
+        # terminada: le falta el audio, y asi lo dice en vez de inflar el
+        # recuento de hechas. No se toca el parte, solo como lo lee el panel.
+        if estado == 'hecha' and adm.get('ok') is False:
+            estado = 'muda'
         try:
             vueltas = int(c.get('vueltas') or 0)
         except (TypeError, ValueError):
@@ -223,14 +238,16 @@ def parte_linea(datos, log):
             estado,
             vueltas,
             str(c.get('actualizado') or '')[:19],
-            str(c.get('motivo') or '').strip() if estado == 'parada' else '',
+            (str(c.get('motivo') or '').strip() if estado == 'parada'
+             else MOTIVO_MUDA_ES if estado == 'muda' else ''),
             # -1 = no lo hemos probado esta vuelta (solo se sondean las pendientes)
             (1 if adm.get('ok') else 0) if 'ok' in adm else -1,
             adm.get('q') or 0,
             1 if adm.get('arch') else 0,
             # El agente escribe el motivo en espanol; si ademas deja la version
             # inglesa, la pagina la usa cuando el visitante esta en EN.
-            str(c.get('motivo_en') or '').strip() if estado == 'parada' else '',
+            (str(c.get('motivo_en') or '').strip() if estado == 'parada'
+             else MOTIVO_MUDA_EN if estado == 'muda' else ''),
             # El candado lo echa una persona cuando da la cancion por cerrada:
             # es la senal de "esta hecha del todo" dentro de la linea.
             1 if adm.get('lock') else 0,

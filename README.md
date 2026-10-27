@@ -217,6 +217,20 @@ horas. El contador de arriba cuenta las dos, borradores y publicadas.
 El número de lote (`L07`) no viene de la API: es la posición dentro del grupo
 dividida entre 50. La duración no existe en estos datos.
 
+### Un solo recuento de "hecha"
+
+Hecha = la letra está cerrada **y la canción suena**. Había tres números para lo
+mismo: la tarjeta "Con voz", la base de la barra de avance y el "Hecha" de la
+línea. Los dos primeros se juntaron haciendo que "Con voz" / "Sin audio" partan
+el censo entero (una cover calificada sigue siendo una cover que suena). El
+tercero se arregló con un estado que **el panel deduce**, no lo escribe nadie:
+`muda` ("Hecha, sin audio"). Si el parte da una canción por hecha pero la sonda
+`/audio` no sirve nada, sale a 0:00 en la app y el panel la saca de "Hecha" y la
+pone en `muda`, con el motivo escrito. El 27 oct 2026 eran 29 — la línea decía
+885 hechas y la barra 858.
+
+`cola_carry.json` no se toca: esto es solo cómo lo lee el panel.
+
 ## Autenticación — leer esto
 
 La admin **no tiene token de servicio ni API key**. Va por la cookie
