@@ -249,12 +249,12 @@ tailwind.config={theme:{extend:{
       h1:'Covers en español',
       rCon:'Con full song', rNo:'Sin audio utilizable', rCal:'Ya calificadas',
       kSin:'Sin calificar', kSinPie:'covers esperando nota',
-      kCon:'Con voz', kConPie:'suenan y aún no tienen nota',
+      kCon:'Con voz', kConPie:'suenan al darle al play',
       kNo:'Sin audio', kNoPie:'karaoke o 0:00',
       kCal:'Calificadas', kCalPie:'ya tienen estrellas',
       tCon:'Con FULL SONG', tSin:'Sin audio utilizable', tLin:'Carry', tCal:'Ya calificadas',
       avTit:'Canciones que suenan y ya están hechas',
-      avPie:'{h} de las {t} que suenan, tengan nota o no. El resto suena, pero su letra aún no está terminada.',
+      avPie:'{h} de las {t} que suenan. El resto suena, pero su letra todavía no está terminada.',
       buscar:'Buscar canción o artista',
       cancion:'canción', canciones:'canciones',
       artistas:'Artistas', pasos:'Pasos',
@@ -321,12 +321,12 @@ tailwind.config={theme:{extend:{
       h1:'Spanish covers',
       rCon:'With full song', rNo:'No usable audio', rCal:'Already rated',
       kSin:'Unrated', kSinPie:'covers awaiting a rating',
-      kCon:'With voice', kConPie:'play, and not rated yet',
+      kCon:'With voice', kConPie:'play when you hit play',
       kNo:'No audio', kNoPie:'karaoke or 0:00',
       kCal:'Rated', kCalPie:'already have stars',
       tCon:'With FULL SONG', tSin:'No usable audio', tLin:'Carry', tCal:'Rated & Locked',
       avTit:'Songs that play and are already finished',
-      avPie:'{h} of the {t} that play, rated or not. The rest play, but their lyric is not finished yet.',
+      avPie:'{h} of the {t} that play. The rest play, but their lyric is not finished yet.',
       buscar:'Search song or artist',
       cancion:'song', canciones:'songs',
       artistas:'Artists', pasos:'Steps',
@@ -477,7 +477,10 @@ tailwind.config={theme:{extend:{
       if(r[6]) meta='<span class="font-mono text-[11px] text-zinc-600">'+esc(fechaHora(r[6]))+'</span>';
     }else{
       var suena=r[4]===1;
-      acc=chip(suena?t('suena'):(r[6]===1?t('cero'):t('karaoke')), suena?'ok':(r[6]===1?'warn':'mute'));
+      /* Estas dos listas llevan el censo entero, calificadas incluidas: sin la
+         estrella delante, una ya escuchada pareceria estar aun por escuchar. */
+      if(r[7]) acc+=estrellas(r[7]);
+      acc+=chip(suena?t('suena'):(r[6]===1?t('cero'):t('karaoke')), suena?'ok':(r[6]===1?'warn':'mute'));
       acc+=idbtn(r[2]);
       if(suena) acc+='<a href="'+BASE+'/admin/api/cross-clear/migration/songs/'+r[3]+'/audio" target="_blank" rel="noopener" '+
         'class="rounded-lg border border-line/70 bg-raised px-2 py-0.5 text-[11px] font-medium text-zinc-400 '+

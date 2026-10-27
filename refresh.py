@@ -425,8 +425,12 @@ def render(datos, plantilla, salida, fecha, log):
     # las que ya suenan salian de la cola de escucha justo al ponerse en vivo.
     pend = [x for x in es if x['q'] is None]
     orden = lambda x: (x['artist'].lower(), x['title'].lower())
-    con = sorted([x for x in pend if x.get('ok')], key=orden)
-    sin = sorted([x for x in pend if not x.get('ok')], key=orden)
+    # Con voz / sin audio parten el censo ENTERO, no solo lo que no tiene nota:
+    # una cover calificada sigue siendo una cover que suena, y sacarla de la
+    # cuenta hacia que la tarjeta y la barra de avance dijeran numeros
+    # distintos para la misma cosa.
+    con = sorted([x for x in es if x.get('ok')], key=orden)
+    sin = sorted([x for x in es if not x.get('ok')], key=orden)
     cal = sorted([x for x in es if x['q'] is not None or x['lock']], key=orden)
     linea = parte_linea(datos, log)
     carry = movimiento_carry(linea['filas'], log)
@@ -443,8 +447,11 @@ def render(datos, plantilla, salida, fecha, log):
     proceso = proceso_linea(log)
 
     def pack(items):
+        # El indice 7 es la nota: en estas dos listas ahora hay canciones ya
+        # calificadas, y sin la estrella en la fila parecerian sin escuchar.
         return [[x['title'], x['artist'], x['track'], x['song'],
-                 1 if x.get('ok') else 0, i, 1 if x['fullSong'] else 0]
+                 1 if x.get('ok') else 0, i, 1 if x['fullSong'] else 0,
+                 x['q'] or 0]
                 for i, x in enumerate(items, 1)]
 
     payload = {
