@@ -171,13 +171,31 @@ tailwind.config={theme:{extend:{
 
     <!-- ══ reparto de notas (solo pestaña calificadas) ══ -->
     <section id="x-calidad" hidden class="mt-6">
-      <div class="rounded-2xl bg-surface p-5 sm:p-6 shadow-xl shadow-black/40">
-        <h2 class="font-display font-semibold tracking-tight text-[19px] text-zinc-100" id="x-cal-tit"></h2>
-        <div class="mt-4 flex items-end gap-2 sm:gap-3" id="x-cal-barra"></div>
+      <div class="rounded-2xl bg-surface p-4 sm:p-5 shadow-xl shadow-black/40">
+        <h2 class="font-display font-semibold tracking-tight text-[17px] text-zinc-100" id="x-cal-tit"></h2>
+        <div class="mt-3 flex items-end gap-2 sm:gap-3" id="x-cal-barra"></div>
         <div class="mt-3 flex flex-wrap gap-x-5 gap-y-2" id="x-cal-leyenda"></div>
-        <!-- separar por nota: 1-2 / 3 / 4-5 -->
-        <div class="mt-5 flex flex-wrap items-center gap-2" id="x-cal-bandas"></div>
       </div>
+    </section>
+
+    <!-- ══ separar por nota (solo pestaña calificadas) ══
+         Tarjeta aparte y plegada: es un mando, no un dato, y dentro del
+         reparto de notas parecia parte del grafico. -->
+    <section id="x-banda" hidden class="mt-4">
+      <details id="x-banda-det" class="group rounded-2xl bg-surface shadow-xl shadow-black/40">
+        <summary class="cursor-pointer select-none list-none px-4 sm:px-5 py-3.5 flex items-center gap-3
+                        transition-colors duration-200 hover:bg-raised/40 rounded-2xl">
+          <svg class="shrink-0 text-zinc-500 transition-transform duration-200 group-open:rotate-90"
+               width="14" height="14" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+            <path d="M4 2l4 4-4 4" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="font-display font-semibold tracking-tight text-[15px] text-zinc-100"
+                id="x-banda-tit"></span>
+          <span class="ml-auto text-[12.5px] text-zinc-500" id="x-banda-ahora"></span>
+        </summary>
+        <div class="flex flex-wrap items-center gap-2 px-4 sm:px-5 pb-4 sm:pb-5" id="x-cal-bandas"></div>
+      </details>
     </section>
 
     <!-- ══ el proceso (solo pestaña Pipeline) ══ -->
@@ -281,7 +299,8 @@ tailwind.config={theme:{extend:{
       paradaTxt:'{n} parada: alguien tiene que mirarla antes de que siga.',
       paradasTxt:'{n} paradas: alguien tiene que mirarlas antes de que sigan.',
       calTit:'Reparto de notas',
-      calBanda:'Ver solo', calTodas:'Todas',
+      bandaTit:'Separar por nota', bandaAhora:'Viendo: {v}',
+      calTodas:'Todas',
       calB12:'1-2 estrellas', calB3:'3 estrellas', calB45:'4-5 estrellas',
       e_sinorig:'Original por subir', e_cola:'En cola', e_carry:'Carry', e_traduccion:'Traduciendo',
       tProc:'Pipeline',
@@ -355,7 +374,8 @@ tailwind.config={theme:{extend:{
       paradaTxt:'{n} stopped: someone has to look at it before it moves on.',
       paradasTxt:'{n} stopped: someone has to look at them before they move on.',
       calTit:'How the ratings fall',
-      calBanda:'Show only', calTodas:'All',
+      bandaTit:'Split by rating', bandaAhora:'Showing: {v}',
+      calTodas:'All',
       calB12:'1-2 stars', calB3:'3 stars', calB45:'4-5 stars',
       e_sinorig:'Original to import', e_cola:'Queued', e_carry:'Carry', e_traduccion:'Translating',
       tProc:'Pipeline',
@@ -727,7 +747,7 @@ tailwind.config={theme:{extend:{
      contra el dato mayor, no contra el total, que si no los pequenos
      desaparecerian. */
   function pct1(v,tot){return Math.round(v/(tot||1)*1000)/10;}
-  function barraApilada(dst,leyenda,seg,tot){
+  function barraApilada(dst,leyenda,seg,tot,bajo){
     var vivos=seg.filter(function(s){return s.n>0;});
     var alto=Math.max.apply(null,vivos.map(function(s){return s.n;}).concat([1]));
     document.getElementById(dst).innerHTML=vivos.map(function(s){
@@ -742,16 +762,18 @@ tailwind.config={theme:{extend:{
         ' class="group flex min-w-0 flex-1 flex-col items-center'+
         (s.clave?' cursor-pointer transition-transform duration-200 hover:-translate-y-1':'')+
         '" title="'+esc(s.label)+': '+nf.format(s.n)+'">'+
-        '<div class="flex h-[132px] w-full flex-col justify-end">'+
+        '<div class="flex '+(bajo?'h-[68px]':'h-[132px]')+' w-full flex-col justify-end">'+
           '<div class="mb-1.5 text-center font-dot text-[12px] font-extrabold" style="color:'+
           s.color+'">'+txt+'</div>'+
           '<div class="mx-auto w-full max-w-[112px] shrink-0 rounded-xl transition-all duration-700'+
           (s.clave?' group-hover:brightness-125':'')+'" '+
           'style="height:'+h+'%;background:'+s.color+'"></div>'+
         '</div>'+
-        '<div class="mt-2.5 font-dot text-[22px] font-extrabold leading-none text-zinc-100">'+
+        '<div class="'+(bajo?'mt-1.5 text-[17px]':'mt-2.5 text-[22px]')+
+        ' font-dot font-extrabold leading-none text-zinc-100">'+
         nf.format(s.n)+'</div>'+
-        '<div class="mt-1.5 w-full truncate text-center text-[11.5px] leading-tight text-zinc-400">'+
+        '<div class="'+(bajo?'mt-1':'mt-1.5')+
+        ' w-full truncate text-center text-[11.5px] leading-tight text-zinc-400">'+
         esc(s.label)+'</div>'+
         '</'+tag+'>';
     }).join('');
@@ -864,7 +886,7 @@ tailwind.config={theme:{extend:{
     orden.forEach(function(e){totL+=(cu[e]||0);});
     barraApilada('x-linea-barra','x-linea-leyenda',orden.map(function(e){
       return {label:t('e_'+e),n:cu[e]||0,color:colorPaso(e),clave:e};
-    }),totL||1,5);
+    }),totL||1);
     pasosFicha();
 
   }
@@ -874,7 +896,7 @@ tailwind.config={theme:{extend:{
     var tot=M.calificadas||1;
     barraApilada('x-cal-barra','x-cal-leyenda',[1,2,3,4,5].map(function(n){
       return {label:n+'/5 '+t('nota'+n),n:(M.q||{})[n]||0,color:QC[n]};
-    }),tot,5);
+    }),tot,true);
     bandas();
   }
   /* Los tres tramos, con su recuento y el color de la nota del medio: se
@@ -883,12 +905,13 @@ tailwind.config={theme:{extend:{
   function bandas(){
     var c=document.getElementById('x-cal-bandas');
     if(!c) return;
-    var filas=D.cal||[];
-    c.innerHTML='<span class="text-[12.5px] text-zinc-500">'+esc(t('calBanda'))+'</span>'+
-      BANDAS.map(function(b){
+    var filas=D.cal||[], ahora='';
+    document.getElementById('x-banda-tit').textContent=t('bandaTit');
+    c.innerHTML=BANDAS.map(function(b){
         var r=b[1], n=r?filas.filter(function(f){return r.indexOf(f[3]||0)>-1;}).length:filas.length,
             on=r?!!(banda&&banda[0]===r[0]):!banda,
             col=r?QC[r[r.length-1]]:'#A1A1AA';
+        if(on) ahora=t(b[0]==='todas'?'calTodas':'calB'+b[0])+' · '+nf.format(n);
         return '<button type="button" data-banda="'+b[0]+'" aria-pressed="'+on+'" '+
           'class="inline-flex items-center gap-2 rounded-xl px-3 py-1.5 text-[12.5px] font-medium '+
           'transition-all duration-200 '+
@@ -899,6 +922,8 @@ tailwind.config={theme:{extend:{
           '<span class="font-dot text-[13px] font-bold '+(on?'text-white/70':'text-zinc-500')+'">'+
           nf.format(n)+'</span></button>';
       }).join('');
+    /* Plegada, la tarjeta tiene que seguir diciendo que se esta viendo. */
+    document.getElementById('x-banda-ahora').textContent=t('bandaAhora',{v:ahora});
   }
 
   function tabs(){
@@ -1366,6 +1391,7 @@ tailwind.config={theme:{extend:{
     var lin=(vista==='linea'), pro=(vista==='proc');
     document.getElementById('x-linea').hidden=!lin;
     document.getElementById('x-calidad').hidden=(vista!=='cal');
+    document.getElementById('x-banda').hidden=(vista!=='cal');
     document.getElementById('x-proceso').hidden=!pro;
     /* La pestaña del proceso no es una lista de canciones: el buscador y la
        rejilla no pintan nada ahí. */
