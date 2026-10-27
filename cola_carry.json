@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T22:31:09Z",
+  "generado": "2026-10-27T23:02:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 5,
   "canciones": [
@@ -43433,10 +43433,10 @@
       "originalTrackId": "",
       "titulo": "Voy A Perder La Cabeza Por Tu Amor",
       "artista": "Jose Luis Rodriguez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 corregido, QC r2",
-      "actualizado": "2026-10-27T22:29:11Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T22:33:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43465,15 +43465,21 @@
             "t": "2026-10-07T09:03:41Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT del por en la locucion 'de una vez por siempre' (linea 16 palabra 7, linea 34 palabra 7, linea 48 palabra 4) usa 'because of' en vez de 'for'; resto verde",
-            "t": "2026-10-27T22:13:59Z"
+            "v": "ok",
+            "nota": "QC r2: WIT fix on three twin lines confirmed; all checks clean; note: optional es phrase item for de-una-vez idiom not anchored (lines 16/34/48)",
+            "t": "2026-10-27T22:33:00Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT del por en la locucion 'de una vez por siempre' (linea 16 palabra 7, linea 34 palabra 7, linea 48 palabra 4) usa 'because of' en vez de 'for'; resto verde",
-          "t": "2026-10-27T22:13:59Z"
+          "v": "VERDE",
+          "resumen": "QC r2: WIT fix on three twin lines confirmed; all checks clean; note: optional es phrase item for de-una-vez idiom not anchored (lines 16/34/48)",
+          "t": "2026-10-27T22:33:00Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T22:33:02Z"
         }
       },
       "motivo_en": "QC r1 fixes applied, QC round 2"
@@ -43608,10 +43614,10 @@
       "originalTrackId": "",
       "titulo": "Donde Estas Yolanda",
       "artista": "la Sonora Santanera",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T22:29:05Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T22:48:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43638,10 +43644,26 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:15:32Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r2: tildes y linea 37 palabra 1 confirmados, litchk/lpchk/wit_dt 0, audio SUENA_SIN_BLINDAR, ingles pending_review",
+            "t": "2026-10-27T22:48:42Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r2: tildes y linea 37 palabra 1 confirmados, litchk/lpchk/wit_dt 0, audio SUENA_SIN_BLINDAR, ingles pending_review",
+          "t": "2026-10-27T22:48:42Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T22:48:44Z"
         }
       },
-      "motivo_en": "pre-QC done, QC round 1"
+      "motivo_en": "QC r1 fixes applied, QC round 2"
     },
     {
       "coverTrackId": "6ab2315eca8a8ee8c447134b",
@@ -43649,10 +43671,10 @@
       "originalTrackId": "",
       "titulo": "Escondite Ingles",
       "artista": "Shakira",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T22:29:06Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T22:34:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43679,7 +43701,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:15:48Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, tildes, items nuevos, ingles pending_review y audio OK; avisos menores como notas",
+            "t": "2026-10-27T22:34:51Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, tildes, items nuevos, ingles pending_review y audio OK; avisos menores como notas",
+          "t": "2026-10-27T22:34:51Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T22:34:53Z"
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
@@ -43758,10 +43796,10 @@
       "originalTrackId": "",
       "titulo": "Un Beso Y Una Flor",
       "artista": "Los Hermanos Rosario",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T22:29:06Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T22:35:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43788,7 +43826,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:16:09Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, mapeo, gemelas, ingles pending_review y audio OK; notas para Saul en review",
+            "t": "2026-10-27T22:35:06Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, mapeo, gemelas, ingles pending_review y audio OK; notas para Saul en review",
+          "t": "2026-10-27T22:35:06Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T22:35:08Z"
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
@@ -43810,10 +43864,10 @@
       "originalTrackId": "",
       "titulo": "Manantial De Llanto",
       "artista": "Joan Sebastian",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T22:29:07Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T22:49:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -43840,10 +43894,26 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:16:10Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r2: arreglos de r1 (linea 1 palabra 4; linea 21 palabras 4 y 8) confirmados; litchk/lpchk/wit_dt 0; draft pending_review; notas de oido: linea 2 palabra 2, linea 6 palabras 1-2",
+            "t": "2026-10-27T22:49:55Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r2: arreglos de r1 (linea 1 palabra 4; linea 21 palabras 4 y 8) confirmados; litchk/lpchk/wit_dt 0; draft pending_review; notas de oido: linea 2 palabra 2, linea 6 palabras 1-2",
+          "t": "2026-10-27T22:49:55Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T22:49:57Z"
         }
       },
-      "motivo_en": "pre-QC done, QC round 1"
+      "motivo_en": "QC r1 fixes applied, QC round 2"
     },
     {
       "coverTrackId": "6aa5c24242b8d1fdb0d3feb7",
@@ -44339,10 +44409,10 @@
       "originalTrackId": "",
       "titulo": "Solo Por Ti",
       "artista": "Soraya",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T22:29:07Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T22:49:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -44369,10 +44439,26 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:16:46Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r2: fixes de r1 confirmados (tilde l31 p6, PIT mi amor borrados); litchk/lpchk 0, wit_dt BAD 0, gemelas ok, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-27T22:49:11Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r2: fixes de r1 confirmados (tilde l31 p6, PIT mi amor borrados); litchk/lpchk 0, wit_dt BAD 0, gemelas ok, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-27T22:49:11Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T22:49:12Z"
         }
       },
-      "motivo_en": "pre-QC done, QC round 1"
+      "motivo_en": "QC r1 fixes applied, QC round 2"
     },
     {
       "coverTrackId": "6aa806a1d951e1665a7e5221",
@@ -46039,10 +46125,10 @@
       "originalTrackId": "",
       "titulo": "Si Me Llevas Contigo",
       "artista": "Gloria Trevi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T22:29:08Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T22:33:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -46069,7 +46155,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T09:16:47Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk 0, wit_dt BAD 0, drift 0, 198/198 anchors, twins ok, EN draft pending_review complete; notes line 3 word 4 (ear)",
+            "t": "2026-10-27T22:33:49Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk 0, wit_dt BAD 0, drift 0, 198/198 anchors, twins ok, EN draft pending_review complete; notes line 3 word 4 (ear)",
+          "t": "2026-10-27T22:33:49Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T22:33:50Z"
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
@@ -48511,10 +48613,10 @@
       "originalTrackId": "",
       "titulo": "Tu Amor Fue Una Mentira",
       "artista": "Agua Marina",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T22:29:08Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-27T22:33:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48541,7 +48643,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
             "t": "2026-10-07T09:15:59Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: structure, anchors, twins, English draft, new items, audio all OK; notes only (shared-item senses on lines 9/20 and 10/21)",
+            "t": "2026-10-27T22:33:38Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: structure, anchors, twins, English draft, new items, audio all OK; notes only (shared-item senses on lines 9/20 and 10/21)",
+          "t": "2026-10-27T22:33:38Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T22:33:39Z"
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
@@ -53575,10 +53693,10 @@
       "originalTrackId": "",
       "titulo": "Con Tu Amor",
       "artista": "Pandora",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T22:29:09Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-27T22:53:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53605,10 +53723,26 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:49:03Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r2: tilde en palabra 2 de lineas 15,30,38,46,54 confirmada; litchk/lpchk 0, wit_dt BAD 0, estructura y gemelas limpias, ingles pending_review; nota de oido para Saul en linea 3 palabra 1",
+            "t": "2026-10-27T22:53:16Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r2: tilde en palabra 2 de lineas 15,30,38,46,54 confirmada; litchk/lpchk 0, wit_dt BAD 0, estructura y gemelas limpias, ingles pending_review; nota de oido para Saul en linea 3 palabra 1",
+          "t": "2026-10-27T22:53:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-27T22:53:17Z"
         }
       },
-      "motivo_en": "pre-QC done, QC round 1"
+      "motivo_en": "QC r1 fixes applied, QC round 2"
     },
     {
       "coverTrackId": "6aa625f872ca57eb1a97c1f9",
@@ -54901,9 +55035,9 @@
       "titulo": "Te Digo Blanco Me Dices Negro",
       "artista": "Pimpinela",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T22:29:09Z",
+      "vueltas": 1,
+      "motivo": "QC r1 corregido, QC r2",
+      "actualizado": "2026-10-27T23:00:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54930,10 +55064,20 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:52:46Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "r1: faltan signos de apertura de interrogacion en lineas 18,25,48,55,62 palabra 1; palabra suelta al inicio de lineas 26 y 56 (pertenece a 27 y 57). Resto verificado OK",
+            "t": "2026-10-27T22:46:27Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "r1: faltan signos de apertura de interrogacion en lineas 18,25,48,55,62 palabra 1; palabra suelta al inicio de lineas 26 y 56 (pertenece a 27 y 57). Resto verificado OK",
+          "t": "2026-10-27T22:46:27Z"
         }
       },
-      "motivo_en": "pre-QC done, QC round 1"
+      "motivo_en": "QC r1 fixes applied, QC round 2"
     },
     {
       "coverTrackId": "6aa5d55e42b8d1fdb0d60709",
@@ -54942,9 +55086,9 @@
       "titulo": "Me Estoy Volviendo Loco",
       "artista": "Jordi",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T22:29:10Z",
+      "vueltas": 2,
+      "motivo": "QC r2 corregido, QC r3 final",
+      "actualizado": "2026-10-27T23:02:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54971,10 +55115,20 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:52:48Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "r2: r1 fixes confirmed; line 21 word 4 anchored to wrong volver sense (return vs become), remap to existing become item and redo WIT",
+            "t": "2026-10-27T22:53:25Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "r2: r1 fixes confirmed; line 21 word 4 anchored to wrong volver sense (return vs become), remap to existing become item and redo WIT",
+          "t": "2026-10-27T22:53:25Z"
         }
       },
-      "motivo_en": "pre-QC done, QC round 1"
+      "motivo_en": "QC r2 fix applied, final QC round 3"
     },
     {
       "coverTrackId": "6aa6234d72ca57eb1a976896",
@@ -54982,10 +55136,10 @@
       "originalTrackId": "",
       "titulo": "Todos Vuelven",
       "artista": "Los morochucos",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T22:29:10Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1: tildes corregidas; falta sentido nuevo en línea 3 palabra 6, en espera de créditos para traducirlo",
+      "actualizado": "2026-10-27T22:49:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55012,10 +55166,20 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:52:49Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: exclamativo sin tilde en lineas 18,19,21,22,33,34,36,37 palabra 1 (token+item+ingles); linea 3 palabra 6 item de sentido distinto (experimentar vs residir)",
+            "t": "2026-10-27T22:44:39Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: exclamativo sin tilde en lineas 18,19,21,22,33,34,36,37 palabra 1 (token+item+ingles); linea 3 palabra 6 item de sentido distinto (experimentar vs residir)",
+          "t": "2026-10-27T22:44:39Z"
         }
       },
-      "motivo_en": "pre-QC done, QC round 1"
+      "motivo_en": "QC r1: tildes fixed; line 3 word 6 needs a new sense item, waiting for credits to translate it"
     },
     {
       "coverTrackId": "6aa4f35542b8d1fdb0c2f506",
@@ -55034,10 +55198,10 @@
       "originalTrackId": "",
       "titulo": "Tu No Le Amas Le Temes",
       "artista": "Luis Enrique",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "pre-QC hecho, QC r1",
-      "actualizado": "2026-10-27T22:29:10Z",
+      "estado": "parada",
+      "vueltas": 1,
+      "motivo": "Clasificador bloqueó la corrección de 2 tildes en el LRC (líneas 13 y 27, palabra 1); decide Saúl",
+      "actualizado": "2026-10-27T22:46:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -55064,10 +55228,20 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:53:03Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "tilde missing on subject pronoun token: line 13 word 1 and line 27 word 1 (1-based); rest OK (litchk/lpchk 0, wit_dt BAD 0, twins identical, draft pending_review)",
+            "t": "2026-10-27T22:44:01Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "tilde missing on subject pronoun token: line 13 word 1 and line 27 word 1 (1-based); rest OK (litchk/lpchk 0, wit_dt BAD 0, twins identical, draft pending_review)",
+          "t": "2026-10-27T22:44:01Z"
         }
       },
-      "motivo_en": "pre-QC done, QC round 1"
+      "motivo_en": "Classifier blocked the 2-tilde LRC fix (lines 13 and 27 word 1); Saúl to decide"
     },
     {
       "coverTrackId": "6aa59b2642b8d1fdb0d125cb",
