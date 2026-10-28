@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T15:55:10Z",
+  "generado": "2026-10-28T16:00:48Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -70849,10 +70849,10 @@
       "originalTrackId": "",
       "titulo": "Basta Ya",
       "artista": "Conjunto Primavera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T15:50:31Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T15:56:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70876,10 +70876,26 @@
             "t": "2026-10-28T15:45:14Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 36 lineas, 218 WIT con DT de su bolsa, 16 PIT; lo aplica el orquestador",
-            "t": "2026-10-28T15:45:15Z"
+            "v": "ok",
+            "nota": "QC: 36 lineas EN, borrador pending_review, WIT 218 con texto",
+            "t": "2026-10-28T15:56:28Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk 0, BAD 0, 218/218 mapped, twins identical, 36 EN lines pending_review, PIT primaries ok, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-28T15:56:19Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk 0, BAD 0, 218/218 mapped, twins identical, 36 EN lines pending_review, PIT primaries ok, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-28T15:56:19Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T15:56:30Z"
         }
       },
       "motivo_en": "QC r1"
@@ -72248,10 +72264,10 @@
       "originalTrackId": "",
       "titulo": "Quitame A Ese Hombre Del Corazon",
       "artista": "Yolandita Monge",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T15:54:42Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T16:00:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72275,10 +72291,26 @@
             "t": "2026-10-28T15:46:57Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json: 42 lineas + 202 WIT con texto y DT de su bolsa; pendiente de aplicar por el orquestador",
-            "t": "2026-10-28T15:46:58Z"
+            "v": "ok",
+            "nota": "draft pending_review enviado por el orquestador, QC r1 verificado",
+            "t": "2026-10-28T16:00:21Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk 0, BAD 0, audio SUENA_SIN_BLINDAR, ingles pending_review completo, PIs ok; notas para Saul: oido l19, items imperativo l10/13/14 y venda l18",
+            "t": "2026-10-28T16:00:13Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk 0, BAD 0, audio SUENA_SIN_BLINDAR, ingles pending_review completo, PIs ok; notas para Saul: oido l19, items imperativo l10/13/14 y venda l18",
+          "t": "2026-10-28T16:00:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T16:00:23Z"
         }
       },
       "motivo_en": "QC r1"
@@ -72743,10 +72775,10 @@
       "originalTrackId": "",
       "titulo": "La Casa Del Sol Naciente",
       "artista": "Los Iracundos",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T15:54:42Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T15:58:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72770,10 +72802,26 @@
             "t": "2026-10-28T15:46:53Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo en es_map/payloads: 12 lineas, 62 WIT con DT de su bolsa, 3 PIT; dry run apply_en_plan limpio; lo aplica el orquestador",
-            "t": "2026-10-28T15:46:54Z"
+            "v": "ok",
+            "nota": "ingles ok: borrador pending_review, 12 lineas y 62 WIT con texto",
+            "t": "2026-10-28T15:58:27Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, tildes, ingles (draft pending_review) y audio OK; notas para Saul en review",
+            "t": "2026-10-28T15:58:15Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, tildes, ingles (draft pending_review) y audio OK; notas para Saul en review",
+          "t": "2026-10-28T15:58:15Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T15:58:28Z"
         }
       },
       "motivo_en": "QC r1"
