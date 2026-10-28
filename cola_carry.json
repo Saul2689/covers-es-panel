@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T16:00:48Z",
+  "generado": "2026-10-28T16:15:59Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -71915,19 +71915,40 @@
       "originalTrackId": "",
       "titulo": "Tu Carcel",
       "artista": "Lucero",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:20:56Z",
+      "motivo": "falta 1-2 items nuevos (sin créditos IA): futuro 2ª sg de salir (L16/28 p6); L14/26 p8 en item de sentido cercano; plan inglés listo",
+      "actualizado": "2026-10-28T16:05:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T02:20:56Z"
+            "nota": "carry ya aplicado (lote), no se toca",
+            "t": "2026-10-28T16:05:05Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "5 tildes: linea 2 palabra 5, lineas 8/10/20 palabra 5 (pronombre sujeto), linea 16 palabra 6; puntos suspensivos del original no se copian",
+            "t": "2026-10-28T16:05:06Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 28 lineas, ninguna palabra <40 ms, hueco de 42 s antes de linea 17 tambien en el original (instrumental); audio SUENA_SIN_BLINDAR stemVoc +0 ms conf 2.81, sirve vocx.wav",
+            "t": "2026-10-28T16:05:06Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "todo mapeado salvo linea 16 y 28 palabra 6: no existe item es FUT.2SG de salir; no se crea (API de traduccion sin credito)",
+            "t": "2026-10-28T16:05:30Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json: 28 lineas + 157 WIT con DT de su bolsa + 2 PIT; sin draft abierto (lo aplica el orquestador)",
+            "t": "2026-10-28T16:05:07Z"
           }
         }
-      }
+      },
+      "motivo_en": "needs 1-2 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa5be3d42b8d1fdb0d3b112",
@@ -72118,19 +72139,40 @@
       "originalTrackId": "",
       "titulo": "Nuestros Corazones",
       "artista": "Juan Gabriel",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:22:59Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T16:15:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T02:22:58Z"
+            "nota": "carry en lote ya aplicado; no se toca",
+            "t": "2026-10-28T16:12:39Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "3 edits: linea 4 palabra 4 y linea 5 palabra 6 coma de mas quitada; linea 16 palabra 1 homofono corregido segun original",
+            "t": "2026-10-28T16:12:39Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 16 lineas; ninguna palabra <40 ms ni >6 s; audio_guard SUENA_SIN_BLINDAR, nada que hacer",
+            "t": "2026-10-28T16:12:40Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "151/152 anclas; 3 gemelas unificadas (lineas 11,12,15); ancla nueva linea 16 palabra 1; 6 phrase insights de items existentes; linea 1 vocable sin mapear",
+            "t": "2026-10-28T16:12:40Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json: 16 lineas + 151 WIT con DT propio + 6 PIT; sin draft abierto (lo aplica el orquestador)",
+            "t": "2026-10-28T16:12:41Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5bfbd42b8d1fdb0d3cf19",
@@ -72520,19 +72562,40 @@
       "originalTrackId": "",
       "titulo": "Si Ya No Estas Conmigo",
       "artista": "Kany Garcia",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:18:35Z",
+      "motivo": "falta 1 item nuevo (sin créditos IA): matar imperfecto de subjuntivo sentido kill (L20 p2); plan inglés listo",
+      "actualizado": "2026-10-28T16:06:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 100%",
-            "t": "2026-10-07T02:18:35Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-28T16:06:01Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "5 tokens: linea 21 palabras 2 y 7, linea 33 palabra 1, linea 46 palabra 2, linea 49 palabra 6; timings intactos",
+            "t": "2026-10-28T16:06:02Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 49 lineas, ninguna palabra <40 ms; guard SUENA_SIN_BLINDAR, sin medir ni pin",
+            "t": "2026-10-28T16:06:02Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "271/272 anclas; linea 20 palabra 2 sin item del sentido (matar subj. imperfecto), no se crea: API sin credito; 9 gemelas unificadas, 4 huecos mapeados, 1 remapeo de sentido",
+            "t": "2026-10-28T16:06:03Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json a mano: 49 lineas + 271 WIT con DT de su bolsa; lo aplica el orquestador (sin draft abierto)",
+            "t": "2026-10-28T16:06:03Z"
           }
         }
-      }
+      },
+      "motivo_en": "needs 1 new dictionary item (no AI credits)"
     },
     {
       "coverTrackId": "6aa52b5042b8d1fdb0c87749",
@@ -73542,19 +73605,40 @@
       "originalTrackId": "",
       "titulo": "Te Metiste En Mi Cama",
       "artista": "Palomo",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:22:01Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T16:15:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T02:22:01Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-28T16:07:18Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC sin cambios: 0 erratas/tildes/mayusculas; linea 21 palabra 3: el original trae una palabra que el cover no canta (richsync sin evidencia), nota de oido para Saul; linea 30: el original abre con conjuncion que el cover no trae (cover manda)",
+            "t": "2026-10-28T16:07:18Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 32 lineas; 2 palabras <40 ms re-cronometradas (linea 3 palabra 6, linea 23 palabra 1); hueco antes de linea 17 = instrumental (el original tampoco canta ahi); audio SUENA_SIN_BLINDAR, sirve _vocx.wav",
+            "t": "2026-10-28T16:07:19Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "177/177 mapeados: lineas 6 y 22 palabra 3 enlazadas a item existente; lineas 10 y 26 palabra 2 remapeadas al sentido correcto; 9 gemelas unificadas; 0 items nuevos",
+            "t": "2026-10-28T16:07:27Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo en es_map/payloads: 32 lineas + 177 WIT con texto y DT de su propia bolsa; lo aplica el orquestador",
+            "t": "2026-10-28T16:07:20Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa655b372ca57eb1a9c3a2b",
@@ -73756,19 +73840,40 @@
       "originalTrackId": "",
       "titulo": "Que Mas Quieres De Mi",
       "artista": "Rocio Durcal",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:18:54Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T16:15:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 96%",
-            "t": "2026-10-07T02:18:54Z"
+            "nota": "carry en lote ya aplicado, no re-proyectado",
+            "t": "2026-10-28T16:06:30Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "11 tokens: tildes en lineas 5,6,7,20,21,34,35; signos de pregunta linea 5; minuscula linea 26 y 40 palabra 2. Lineas 6/20/34 palabra 4, 11/25/39 palabra 1 y linea 7 palabra falta: el cover canta otra cosa o duda de oido, se deja (nota oido)",
+            "t": "2026-10-28T16:06:30Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 41 lineas, ninguna palabra <40 ms; linea 41 palabra 6 nota final sostenida 6,2 s; audio_guard SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-10-28T16:06:31Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear, gemelas unificadas; 31 anclas remapeadas/reescritas (tildes, sentidos, homografos) y 8 phrase insights con items existentes; ningun item nuevo",
+            "t": "2026-10-28T16:06:32Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json, falta abrir el borrador (41 lineas, 193 WIT con DT de su bolsa, 8 PIT)",
+            "t": "2026-10-28T16:06:32Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6946572ca57eb1aa1bdc0",
@@ -73787,19 +73892,40 @@
       "originalTrackId": "",
       "titulo": "No Ha Sido Facil",
       "artista": "Ana Barbara",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:19:08Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T16:15:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 100%",
             "t": "2026-10-07T02:19:08Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC igual al original linea a linea; sin erratas, tildes ni mayusculas a corregir; sin cambios",
+            "t": "2026-10-28T16:06:25Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 41 lineas; ninguna palabra < 40 ms; hueco tras linea 23 = instrumental (el original tiene linea vacia ahi); audio_guard SUENA_SIN_BLINDAR, sirve vocx.wav 206",
+            "t": "2026-10-28T16:06:25Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; gemelas unificadas (l24 w4,9,11,12; l28 w1; l35 w3; l22/39/40 w2); l17 w1 y l35 w1 al item causal 696e504b; 10 phrase insights a items existentes 6a42479d x5, 6ac37a9e, 6a3c1252 x2, 6ac5af17 x2",
+            "t": "2026-10-28T16:06:33Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json listo: 41 lineas, 244 WIT con DT del propio bag, 10 PIT; dry run apply_en_plan limpio; draft lo abre el orquestador",
+            "t": "2026-10-28T16:06:26Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa67c1e72ca57eb1a9fa799",
