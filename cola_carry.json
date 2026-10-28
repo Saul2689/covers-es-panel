@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T15:35:45Z",
+  "generado": "2026-10-28T15:42:39Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -70712,19 +70712,40 @@
       "originalTrackId": "",
       "titulo": "De La Calle Soy",
       "artista": "Rakim & Ken Y",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:22:20Z",
+      "motivo": "falta varios items nuevos (sin créditos IA): 16 tokens sin item (lista en el job); plan inglés listo en wscratch/6aa693de",
+      "actualizado": "2026-10-28T15:37:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 97%",
-            "t": "2026-10-07T02:22:20Z"
+            "nota": "carry ya aplicado (lote 97%); no se re-proyecta",
+            "t": "2026-10-28T15:36:25Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "7 tildes: l3/27/54/59 w1, l19 w8, l40 w8, l44 w1; diferencias vs original = notas de oido (cover manda)",
+            "t": "2026-10-28T15:36:25Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 65 lineas; l24 w10 de 23 a 70 ms (richsync_set); 0 palabras <40 ms; audio_guard SUENA_SIN_BLINDAR, sin tocar",
+            "t": "2026-10-28T15:36:26Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "405/421; 16 tokens sin item es con ese sentido (sin credito para crear): l18w2 l20w9 l21w2 l21w3 l22w3 l24w4 l24w10 l35w1 l35w2 l38w9 l41w1 l42w1 l50w1 l50w4 l51w3 l51w7",
+            "t": "2026-10-28T15:36:26Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 65 lineas + 405 WIT con DT de su bolsa; lo aplica el orquestador",
+            "t": "2026-10-28T15:36:27Z"
           }
         }
-      }
+      },
+      "motivo_en": "needs new dictionary item(s) for 16 tokens (no AI credits)"
     },
     {
       "coverTrackId": "6aa5bc6e42b8d1fdb0d38d7d",
@@ -70754,19 +70775,40 @@
       "originalTrackId": "",
       "titulo": "Te Voy A Dejar",
       "artista": "Lolita",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:20:29Z",
+      "motivo": "falta 1 item nuevo (sin créditos IA): compensa (presente 3sg de compensar, L2); plan inglés listo en es_map/payloads",
+      "actualizado": "2026-10-28T15:41:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T02:20:29Z"
+            "nota": "carry en lote ya aplicado; no se toca",
+            "t": "2026-10-28T15:38:32Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "sin cambios: lineas 8 y 21 palabra 5 difieren del original pero el richsync dice lo mismo que el LRC; gana el cover (nota de oido para Saul)",
+            "t": "2026-10-28T15:38:33Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 30 lineas, ninguna palabra <40 ms; hueco antes de linea 18 = instrumental (linea vacia en el original); audio SUENA_SIN_BLINDAR stemVoc +0 ms conf 1.41",
+            "t": "2026-10-28T15:38:33Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "10 anclas del estribillo palabra 4 remapeadas al sentido de ruptura; gemelas unificadas (l19 p2, l8 p2, l23 p2); l2 p6 mapeada; 2 phrase insights en l15; queda l2 p4 sin item es (no se crean items sin credito)",
+            "t": "2026-10-28T15:38:34Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json a mano: 30 lineas, 188 WIT con DT de su propio item, 2 PIT; dry run 188/188; lo aplica el orquestador",
+            "t": "2026-10-28T15:38:34Z"
           }
         }
-      }
+      },
+      "motivo_en": "needs 1 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa7092b72ca57eb1aaaf15a",
@@ -70849,16 +70891,36 @@
       "originalTrackId": "",
       "titulo": "Hay Muchas Cosas Que Me Gustan De Ti",
       "artista": "Jose Luis Rodríguez",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:20:14Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-28T15:42:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-07T02:20:14Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-28T15:42:11Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 11 palabra 4 y linea 21 palabra 5: tilde anadida; erratas vs original en lineas 3, 7, 18, 20 se dejan: el cover canta otra version gramatical",
+            "t": "2026-10-28T15:42:12Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 28 lineas, ninguna palabra < 40 ms; hueco antes de linea 12 = instrumental (el original tampoco canta ahi); audio servido vocx, guard SUENA_SIN_BLINDAR",
+            "t": "2026-10-28T15:42:12Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "10 anclas nuevas, 9 remapeos (gemelas linea 11 y 13, homografo linea 11 palabra 4 y linea 21 palabra 5); 0 sin mapear; sin items nuevos",
+            "t": "2026-10-28T15:42:13Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "inglés escrito a mano en en_plan.json (28 lineas, 184 WIT); lo aplica el orquestador",
+            "t": "2026-10-28T15:42:13Z"
           }
         }
       }
@@ -71809,19 +71871,40 @@
       "originalTrackId": "",
       "titulo": "No Es Tan Facil",
       "artista": "Grupo Limite",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:19:47Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T15:41:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T02:19:46Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-28T15:37:37Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC sin cambios; lineas 7 y 21 palabra 3 difieren del original: se queda la palabra del cover (regla 6 oct), nota de oido para Saul",
+            "t": "2026-10-28T15:37:38Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 34 lineas, ninguna palabra <40 ms; hueco de linea 20 = instrumental (el original tiene linea vacia ahi); audio servido stemVoc -20 ms conf 1.66 SUENA_SIN_BLINDAR, nada que hacer",
+            "t": "2026-10-28T15:37:38Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "162/162 anclas: 3 creadas (l5 p3, l7 p3, l21 p3), 14 remapeadas (gemelas no/te, mas=anymore, ya=no longer, olvidarme sentido, de unificado, te reflexivo l2); 0 items nuevos; fila en 'going' no primaria anadida a irme",
+            "t": "2026-10-28T15:37:39Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 34 lineas + 162 WIT con DT de su bolsa; lo aplica el orquestador",
+            "t": "2026-10-28T15:37:39Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa7198b72ca57eb1aacace0",
