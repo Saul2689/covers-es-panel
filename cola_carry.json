@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T12:38:56Z",
+  "generado": "2026-10-28T12:53:41Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 34,
   "canciones": [
@@ -61215,10 +61215,10 @@
       "originalTrackId": "",
       "titulo": "Presion",
       "artista": "Wisin Y Yandel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida tras QC r1, a QC r2",
-      "actualizado": "2026-10-28T12:35:49Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T12:39:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -61247,15 +61247,21 @@
             "t": "2026-10-14T08:01:12Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: 3 tilde defects in LRC tokens (line 18 w2, lines 29 w3 / 33 w4, lines 27 w5-6 / 31 w4); rest clean",
-            "t": "2026-10-28T12:31:27Z"
+            "v": "ok",
+            "nota": "QC r2: tildes de r1 (L18 w2, L27 w5-6, L29 w3, L31 w4, L33 w4) corregidas en LRC, anclas e items; todos los checks a 0",
+            "t": "2026-10-28T12:39:36Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: 3 tilde defects in LRC tokens (line 18 w2, lines 29 w3 / 33 w4, lines 27 w5-6 / 31 w4); rest clean",
-          "t": "2026-10-28T12:31:27Z"
+          "v": "VERDE",
+          "resumen": "QC r2: tildes de r1 (L18 w2, L27 w5-6, L29 w3, L31 w4, L33 w4) corregidas en LRC, anclas e items; todos los checks a 0",
+          "t": "2026-10-28T12:39:36Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:39:37Z"
         }
       },
       "motivo_en": "QC r2"
@@ -61322,10 +61328,10 @@
       "originalTrackId": "",
       "titulo": "Parte De Ti",
       "artista": "Tranzas",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:01:14Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T12:39:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -61352,7 +61358,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:01:13Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, ingles (draft pending_review), gemelas, litchk/lpchk/BAD 0 y audio OK; notas de oido en lineas 22 y 59",
+            "t": "2026-10-28T12:39:27Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, ingles (draft pending_review), gemelas, litchk/lpchk/BAD 0 y audio OK; notas de oido en lineas 22 y 59",
+          "t": "2026-10-28T12:39:27Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:39:28Z"
         }
       }
     },
@@ -61419,10 +61441,10 @@
       "originalTrackId": "",
       "titulo": "Solo El Cielo Y Tu",
       "artista": "Camilo Sesto",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:01:18Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T12:41:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -61449,7 +61471,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:01:18Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, anclas, ingles pending_review, litchk/lpchk/BAD 0 ok; ear-notes para Saul (linea 3, 14, 18, 13)",
+            "t": "2026-10-28T12:41:41Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, anclas, ingles pending_review, litchk/lpchk/BAD 0 ok; ear-notes para Saul (linea 3, 14, 18, 13)",
+          "t": "2026-10-28T12:41:41Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:41:42Z"
         }
       }
     },
@@ -61593,10 +61631,10 @@
       "originalTrackId": "",
       "titulo": "En Carne Viva",
       "artista": "Raphael",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:02:17Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T12:43:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -61623,7 +61661,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:02:17Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1 VERDE: estructura, mapeo, tildes, inglés draft pending_review; notas de oído líneas 6, 14, 15, 39",
+            "t": "2026-10-28T12:43:50Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1 VERDE: estructura, mapeo, tildes, inglés draft pending_review; notas de oído líneas 6, 14, 15, 39",
+          "t": "2026-10-28T12:43:50Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:43:51Z"
         }
       }
     },
@@ -61711,10 +61765,10 @@
       "originalTrackId": "",
       "titulo": "Amame Hasta Con Los Dientes",
       "artista": "Timbiriche",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:02:57Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T12:40:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -61741,7 +61795,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:02:57Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk 0, wit_dt BAD 0, estructura y mapeo ok, ingles pending_review, SUENA_SIN_BLINDAR",
+            "t": "2026-10-28T12:40:23Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk 0, wit_dt BAD 0, estructura y mapeo ok, ingles pending_review, SUENA_SIN_BLINDAR",
+          "t": "2026-10-28T12:40:23Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:40:24Z"
         }
       }
     },
@@ -61751,10 +61821,10 @@
       "originalTrackId": "",
       "titulo": "En Un Rincon Del Alma",
       "artista": "Alberto Cortez",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:03:11Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T12:52:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -61781,9 +61851,26 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:03:11Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r2: fixes de r1 confirmados (L10 w1 pronombre, L17 w7 y L18 w3 participio de amar); litchk/lpchk 0, BAD 0, 205/205, gemelas ok; notas de oido para Saul",
+            "t": "2026-10-28T12:52:17Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r2: fixes de r1 confirmados (L10 w1 pronombre, L17 w7 y L18 w3 participio de amar); litchk/lpchk 0, BAD 0, 205/205, gemelas ok; notas de oido para Saul",
+          "t": "2026-10-28T12:52:17Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:52:18Z"
         }
-      }
+      },
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa5139842b8d1fdb0c6253e",
@@ -61802,10 +61889,10 @@
       "originalTrackId": "",
       "titulo": "Cuando Te Toque Llorar",
       "artista": "Jose Feliciano",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:03:12Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T12:52:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -61832,9 +61919,26 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:03:11Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r2: fix de tilde L3 w8 confirmado; litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR, gemelas identicas, ingles 32/32 en pending_review",
+            "t": "2026-10-28T12:52:42Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r2: fix de tilde L3 w8 confirmado; litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR, gemelas identicas, ingles 32/32 en pending_review",
+          "t": "2026-10-28T12:52:42Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:52:43Z"
         }
-      }
+      },
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa5336942b8d1fdb0c91ceb",
@@ -61864,10 +61968,10 @@
       "originalTrackId": "",
       "titulo": "Dame Valor",
       "artista": "Grupo Limite",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:03:12Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T12:49:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -61876,9 +61980,9 @@
             "t": "2026-10-06T23:37:18Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "lrc_plan_fix se niega (richsync 167 vs 166 tokens, palabra vacia con tiempo en la ultima linea); secciones puestas; pendiente: tu->tu con tilde en lineas 11/14/22, comas finales y puntos suspensivos finales",
-            "t": "2026-10-07T07:28:26Z"
+            "v": "ok",
+            "nota": "tildes y puntuación final arreglados con lrc_plan_fix_trail, tiempos iguales",
+            "t": "2026-10-28T12:41:30Z"
           },
           "timing": {
             "v": "ok",
@@ -61894,7 +61998,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:03:12Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk 0, BAD 0, estructura y timing intactos, tildes y mapeo correctos, ingles 24/24 pending_review; notas para Saul (PI con dos primarias EN, L24 oido, karaoke)",
+            "t": "2026-10-28T12:49:09Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk 0, BAD 0, estructura y timing intactos, tildes y mapeo correctos, ingles 24/24 pending_review; notas para Saul (PI con dos primarias EN, L24 oido, karaoke)",
+          "t": "2026-10-28T12:49:09Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:49:11Z"
         }
       }
     },
@@ -61904,10 +62024,10 @@
       "originalTrackId": "",
       "titulo": "Si La Vieras Con Mis Ojos",
       "artista": "Dyango",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:03:38Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T12:43:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -61934,7 +62054,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:03:38Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: lit/lpchk 0, BAD 0, 166/166 anclas, ingles pending_review, items nuevos con 19 idiomas; notas de oido L14 p1, L28 p5",
+            "t": "2026-10-28T12:43:14Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: lit/lpchk 0, BAD 0, 166/166 anclas, ingles pending_review, items nuevos con 19 idiomas; notas de oido L14 p1, L28 p5",
+          "t": "2026-10-28T12:43:14Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:43:15Z"
         }
       }
     },
@@ -62058,9 +62194,9 @@
       "titulo": "Mamacita",
       "artista": "Enrique Iglesias",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:04:08Z",
+      "vueltas": 1,
+      "motivo": "corregida tras QC r1, a QC r2",
+      "actualizado": "2026-10-28T12:51:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62087,9 +62223,20 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:04:08Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "Nuevo phrase item de lineas 11/26/34/44 palabras 2-3 sin traduccion primaria en los 19 idiomas; resto verificado OK",
+            "t": "2026-10-28T12:50:09Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "Nuevo phrase item de lineas 11/26/34/44 palabras 2-3 sin traduccion primaria en los 19 idiomas; resto verificado OK",
+          "t": "2026-10-28T12:50:09Z"
         }
-      }
+      },
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa6750f72ca57eb1a9f114a",
@@ -62186,10 +62333,10 @@
       "originalTrackId": "",
       "titulo": "Te Quiero Cada Dia Mas",
       "artista": "Juan Bau",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:04:09Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T12:44:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62216,7 +62363,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:04:09Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk 0, wit_dt BAD 0, estructura y gemelas OK, ingles pending_review 31/31; notas de oido para Saul (linea 5 palabra 4)",
+            "t": "2026-10-28T12:44:21Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk 0, wit_dt BAD 0, estructura y gemelas OK, ingles pending_review 31/31; notas de oido para Saul (linea 5 palabra 4)",
+          "t": "2026-10-28T12:44:21Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:44:22Z"
         }
       }
     },
@@ -62293,10 +62456,10 @@
       "originalTrackId": "",
       "titulo": "Para Que No Te Vayas",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T08:04:11Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1: L8 w5 necesita item nuevo (sentido acompañar); sin créditos de traducción",
+      "actualizado": "2026-10-28T12:48:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62323,9 +62486,20 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T08:04:10Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: linea 8 palabra 5 ancla a item de sentido equivocado (definicion adornar/complementar; la linea es hacer compania); resto limpio",
+            "t": "2026-10-28T12:47:55Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: linea 8 palabra 5 ancla a item de sentido equivocado (definicion adornar/complementar; la linea es hacer compania); resto limpio",
+          "t": "2026-10-28T12:47:55Z"
         }
-      }
+      },
+      "motivo_en": "créditos"
     },
     {
       "coverTrackId": "6aa595e242b8d1fdb0d0bb59",
@@ -73662,9 +73836,9 @@
       "titulo": "La Marcha De Las Letras",
       "artista": "Tradicional Infantil",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-27T19:11:33Z",
+      "vueltas": 1,
+      "motivo": "corregida tras QC r1, a QC r2",
+      "actualizado": "2026-10-28T12:52:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73691,9 +73865,20 @@
             "v": "ok",
             "nota": "en_plan.json 40 lineas + 155 WIT con DT de su bolsa (dry run apply_en_plan: 155/155, 0 skipped); draft lo abre el orquestador",
             "t": "2026-10-27T19:11:30Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: English draft is missing the WIT on line 28 word 1 (twin line 12 word 1 has one); everything else verified",
+            "t": "2026-10-28T12:49:43Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: English draft is missing the WIT on line 28 word 1 (twin line 12 word 1 has one); everything else verified",
+          "t": "2026-10-28T12:49:43Z"
         }
-      }
+      },
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa775a172ca57eb1abff923",
@@ -75034,10 +75219,10 @@
       "originalTrackId": "",
       "titulo": "Terrenal",
       "artista": "El Chapo de Sinaloa",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T09:52:28Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-10-28T12:52:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75064,9 +75249,20 @@
             "v": "falta",
             "nota": "en_plan.json listo (30 lineas, 162 WIT con DT de su bolsa, 7 PIT); lo aplica el orquestador",
             "t": "2026-10-28T09:51:58Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "English draft: line 23 word index 2 has no WIT (twins in 11/15/27 do); everything else clean",
+            "t": "2026-10-28T12:52:38Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "English draft: line 23 word index 2 has no WIT (twins in 11/15/27 do); everything else clean",
+          "t": "2026-10-28T12:52:38Z"
         }
-      }
+      },
+      "motivo_en": "In the English draft, the word at line 23, word index 2 (base 0) has no WIT; copy the WIT (same DT and text) from its twins in lines 11/15/27, then resubmit to pending_review."
     },
     {
       "coverTrackId": "6aa52ace42b8d1fdb0c84f8b",
@@ -75334,10 +75530,10 @@
       "originalTrackId": "",
       "titulo": "Me Voy A Quitar De En Medio",
       "artista": "Henry Castro",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T09:54:38Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto: línea 8 palabra 3 WIT de (usar la DT primaria); línea 7 palabra 1 ancla de y (usar la copulativa); reabrir el borrador de inglés y reenviar",
+      "actualizado": "2026-10-28T12:51:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75364,9 +75560,20 @@
             "v": "falta",
             "nota": "en_plan.json listo: 73 líneas, 272/272 WIT con DT propio, 10 PIT; dry run limpio; lo aplica el orquestador",
             "t": "2026-10-28T09:53:56Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: línea 8 palabra 3 WIT de 'with' debe ser 'of'; línea 7 palabra 1 ancla y con sentido enfático, usar la copulativa",
+            "t": "2026-10-28T12:51:33Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: línea 8 palabra 3 WIT de 'with' debe ser 'of'; línea 7 palabra 1 ancla y con sentido enfático, usar la copulativa",
+          "t": "2026-10-28T12:51:33Z"
         }
-      }
+      },
+      "motivo_en": "QC r1 returned: line 8 word 3 WIT for 'de' is the wrong secondary DT (use the primary); line 7 word 1 is anchored to the emphatic 'y' item (use the copulative one); reopen the English draft and resubmit"
     },
     {
       "coverTrackId": "6aa80fccd951e1665a7f1e1b",
@@ -75515,10 +75722,10 @@
       "originalTrackId": "",
       "titulo": "Cuando Te Acuerdes De Mi",
       "artista": "Tito Nieves",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T10:09:46Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T12:52:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75542,10 +75749,26 @@
             "t": "2026-10-28T10:09:45Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 62 lineas + 219 WIT con DT de su bolsa (dry run limpio); falta que el orquestador lo aplique",
-            "t": "2026-10-28T10:09:45Z"
+            "v": "ok",
+            "nota": "draft en pending_review, 62 lineas y 219 WIT",
+            "t": "2026-10-28T12:52:58Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, anclas, tildes, ingles draft pending_review y WIT/DT sin defectos; notas de oido para Saul (L54 w1 elision, L52 hueco instrumental)",
+            "t": "2026-10-28T12:52:51Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, anclas, tildes, ingles draft pending_review y WIT/DT sin defectos; notas de oido para Saul (L54 w1 elision, L52 hueco instrumental)",
+          "t": "2026-10-28T12:52:51Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:52:59Z"
         }
       }
     },
