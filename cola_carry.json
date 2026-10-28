@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T15:29:34Z",
+  "generado": "2026-10-28T15:35:45Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -70660,19 +70660,40 @@
       "originalTrackId": "",
       "titulo": "No No Y No",
       "artista": "Los Panchos",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:20:43Z",
+      "motivo": "falta 1-2 items nuevos (sin créditos IA): volviste (pretérito de volver, L18/32), y recuérdate (L17) si no existe; plan inglés listo en es_map/payloads",
+      "actualizado": "2026-10-28T15:35:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 91%",
-            "t": "2026-10-07T02:20:43Z"
+            "nota": "carry ya aplicado (lote), no re-proyectado",
+            "t": "2026-10-28T15:33:55Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L14 w2 minuscula; L31 w3 tilde. Notas de oido para Saul: L7 w2, L12 falta w1 del original, L14 w1 (cantada, gramatical), L31 w2-3",
+            "t": "2026-10-28T15:33:56Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 38 lineas, ninguna palabra <40 ms; audio SUENA_SIN_BLINDAR stemVoc 0 ms conf 1.56",
+            "t": "2026-10-28T15:33:57Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "7 anclas nuevas, 17 remapeos (gemelas unificadas); L17 w2 sin item (no se crean items); L18/L32 w7 item con sentido causativo, falta item nuevo",
+            "t": "2026-10-28T15:33:57Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json: 38 lineas + 157 WIT con DT propio; sin draft abierto (lo aplica el orquestador)",
+            "t": "2026-10-28T15:33:58Z"
           }
         }
-      }
+      },
+      "motivo_en": "needs 2 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa5f51e42b8d1fdb0d8ed2f",
@@ -71470,10 +71491,10 @@
       "originalTrackId": "",
       "titulo": "Salado",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T15:29:27Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T15:29:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -71497,9 +71518,9 @@
             "t": "2026-10-28T15:21:40Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (40 lineas, 187 WIT con texto, 10 PIT, DT del propio item); 3 filas en no primarias anadidas; falta abrir el borrador",
-            "t": "2026-10-28T15:21:41Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 40 lineas y 187 WIT completos",
+            "t": "2026-10-28T15:29:36Z"
           },
           "qc": {
             "v": "ok",
@@ -71511,6 +71532,12 @@
           "v": "VERDE",
           "resumen": "QC r1: all checks 0/BAD 0, 187/187 mapped, EN draft pending_review complete; cover-sung variants on lines 8/16/24/32/40 and 11/27 kept with ear note",
           "t": "2026-10-28T15:29:27Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T15:29:38Z"
         }
       },
       "motivo_en": "QC r1"
@@ -71606,19 +71633,40 @@
       "originalTrackId": "",
       "titulo": "No Puedo Dejar De Pensar En Ti",
       "artista": "Pandora",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:21:57Z",
+      "motivo": "falta 2 items nuevos (sin créditos IA): repasando, teledirigida; plan inglés listo en es_map/payloads",
+      "actualizado": "2026-10-28T15:34:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 92%",
-            "t": "2026-10-07T02:21:57Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-28T15:33:08Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "línea 1 palabra 2: tilde puesta. Resto de avisos qc justificados en jobs/ (el cover canta otra cosa en líneas 1, 22, 26, 39; puntuación de coros como el resto)",
+            "t": "2026-10-28T15:33:08Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en las 49 líneas; ninguna palabra < 40 ms; audio SUENA_SIN_BLINDAR (no se toca)",
+            "t": "2026-10-28T15:33:11Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "24 remapeos + 5 anclas nuevas + 16 phrase insights; sin item (no se crean, sin crédito): línea 4 palabra 1 (falta la forma gerundio) y líneas 15/32/44 palabra 2 (falta el adjetivo fem. sing.); línea 1 palabra 1 va al item tú del mismo verbo (forma voseo)",
+            "t": "2026-10-28T15:33:20Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 49 líneas, 221 WIT con DT de su bolsa, 16 PIT; lo aplica el orquestador",
+            "t": "2026-10-28T15:33:12Z"
           }
         }
-      }
+      },
+      "motivo_en": "needs 2 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa57d2542b8d1fdb0ce761d",
