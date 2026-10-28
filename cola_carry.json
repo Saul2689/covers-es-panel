@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T15:12:38Z",
+  "generado": "2026-10-28T15:21:43Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -70215,10 +70215,10 @@
       "originalTrackId": "",
       "titulo": "La Pareja Ideal",
       "artista": "Marco Antonio Solis, Marisela",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida tras QC r1, a QC r2",
-      "actualizado": "2026-10-28T15:11:26Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T15:15:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70247,15 +70247,21 @@
             "t": "2026-10-28T14:49:29Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: solo línea 1, la traducción inglesa termina en coma; resto verificado (221 tokens = original, 221/221 mapeadas, gemelas iguales, BAD 0)",
-            "t": "2026-10-28T15:05:58Z"
+            "v": "ok",
+            "nota": "QC r2: coma de la linea 1 quitada; litchk 0, lpchk 0, BAD 0, estructura y mapeo OK, ingles 63/63 en pending_review",
+            "t": "2026-10-28T15:15:44Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: solo línea 1, la traducción inglesa termina en coma; resto verificado (221 tokens = original, 221/221 mapeadas, gemelas iguales, BAD 0)",
-          "t": "2026-10-28T15:05:58Z"
+          "v": "VERDE",
+          "resumen": "QC r2: coma de la linea 1 quitada; litchk 0, lpchk 0, BAD 0, estructura y mapeo OK, ingles 63/63 en pending_review",
+          "t": "2026-10-28T15:15:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T15:15:46Z"
         }
       },
       "motivo_en": "QC r2"
@@ -70873,10 +70879,10 @@
       "originalTrackId": "",
       "titulo": "Te Dejo Un Pañuelo",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T15:11:25Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T15:15:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70900,10 +70906,26 @@
             "t": "2026-10-28T15:03:15Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 25 lineas + 129 WIT con DT de su bolsa (BAD 0, 0 sin texto); lo aplica el orquestador (sin draft abierto)",
-            "t": "2026-10-28T15:03:04Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 25 lineas y 129 WIT con texto",
+            "t": "2026-10-28T15:15:14Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, twins, WIT, litchk/lpchk/BAD 0, audio SUENA_SIN_BLINDAR; solo notas de oido l4, l7, l19",
+            "t": "2026-10-28T15:15:09Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, twins, WIT, litchk/lpchk/BAD 0, audio SUENA_SIN_BLINDAR; solo notas de oido l4, l7, l19",
+          "t": "2026-10-28T15:15:09Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T15:15:15Z"
         }
       },
       "motivo_en": "QC r1"
@@ -71068,8 +71090,8 @@
       "artista": "Bacilos",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T15:06:44Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T15:18:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -71098,7 +71120,8 @@
             "t": "2026-10-28T15:06:44Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa66ee072ca57eb1a9ea2bd",
@@ -71107,9 +71130,9 @@
       "titulo": "Se Nos Rompio El Amor",
       "artista": "Olga Tañon",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T15:11:24Z",
+      "vueltas": 1,
+      "motivo": "corregida tras QC r1, a QC r2",
+      "actualizado": "2026-10-28T15:20:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -71136,10 +71159,20 @@
             "v": "ok",
             "nota": "en_plan.json: 75 lineas + 244 WIT con DT de su propia bolsa (0 vacios); 8 anclas de vocalizacion sin WIT; sin draft abierto, lo aplica el orquestador",
             "t": "2026-10-28T15:03:26Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "Falta phrase insight de la locucion adverbial existente (phrase item 6ac5acc7ae7e228461ca678f) en linea 5 y linea 30, palabras 3-4; resto verificado OK (estructura, LRC, ingles, mapeo, audio)",
+            "t": "2026-10-28T15:18:12Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "Falta phrase insight de la locucion adverbial existente (phrase item 6ac5acc7ae7e228461ca678f) en linea 5 y linea 30, palabras 3-4; resto verificado OK (estructura, LRC, ingles, mapeo, audio)",
+          "t": "2026-10-28T15:18:12Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa6cf6972ca57eb1aa65d21",
@@ -71147,10 +71180,10 @@
       "originalTrackId": "",
       "titulo": "Eternamente",
       "artista": "Sentidos Opuestos",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-28T15:12:37Z",
+      "motivo": "falta 3 items nuevos (sin créditos IA): L8 palabra 1 así concesivo; L21 palabra 4 nacer 1pl presente; L22 palabra 6 roce plural. Inglés listo en wscratch/6aa6cf69/en_plan.json",
+      "actualizado": "2026-10-28T15:14:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -71179,7 +71212,8 @@
             "t": "2026-10-28T15:12:37Z"
           }
         }
-      }
+      },
+      "motivo_en": "needs 3 new dictionary items (no AI credits)"
     },
     {
       "coverTrackId": "6aa7926172ca57eb1acec2bf",
@@ -71372,16 +71406,36 @@
       "originalTrackId": "",
       "titulo": "Salado",
       "artista": "Pepe Aguilar",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:22:16Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-28T15:21:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 96%",
             "t": "2026-10-07T02:22:15Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "4 tokens: minuscula l8,16,24,32 w1; l11/l27 w1 y orden l8,16,24,32,40 w0-1 = lo que canta el cover (regla 6 oct), nota de oido",
+            "t": "2026-10-28T15:21:39Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 40 lineas; ninguna palabra <40 ms; hueco antes de l25 = instrumental (el original tiene linea vacia ahi); audio guard SUENA_SIN_BLINDAR, sirve vocx.wav",
+            "t": "2026-10-28T15:21:40Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "2 anclas nuevas l18,l34 w4; gemelas unificadas l5,13,21,29,37 w2, l22,38 w0, l22 w1, l26 w2, l11 w2, l20,36 w3; sentido y conjuncion l7,15,20,23,31,36,39 w0; 10 PI de mas (l5,6,13,14,21,22,29,30,37,38); 0 sin mapear; sin items nuevos",
+            "t": "2026-10-28T15:21:40Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json preparado (40 lineas, 187 WIT con texto, 10 PIT, DT del propio item); 3 filas en no primarias anadidas; falta abrir el borrador",
+            "t": "2026-10-28T15:21:41Z"
           }
         }
       }
@@ -71487,19 +71541,40 @@
       "originalTrackId": "",
       "titulo": "Dos Mares",
       "artista": "Alicia Villarreal",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:23:07Z",
+      "motivo": "falta 3 items nuevos (sin créditos IA): nublar (infinitivo), descolgando (gerundio), desgraciadamente (adverbio); plan inglés listo en wscratch/6aa73756",
+      "actualizado": "2026-10-28T15:21:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T02:23:06Z"
+            "nota": "carry en lote ya aplicado, no se toca",
+            "t": "2026-10-28T15:18:57Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "4 tildes (l5 p9, l14 p4, l16 p6, l21 p4); resto justificado en el informe",
+            "t": "2026-10-28T15:18:58Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 22 lineas, 0 palabras <40 ms; audio_guard SUENA_SIN_BLINDAR (karaokeMp3, sin stemVoc/mixMp3V)",
+            "t": "2026-10-28T15:18:58Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "8 anclas arregladas; 5 tokens sin item es (l2 p3, l6 p3, l8 p3, l13 p2, l20 p2): no se crean items sin credito",
+            "t": "2026-10-28T15:18:59Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json (22 lineas, 139 WIT con DT, 0 PIT); falta abrir el borrador",
+            "t": "2026-10-28T15:18:59Z"
           }
         }
-      }
+      },
+      "motivo_en": "needs 3 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa5bb1242b8d1fdb0d36567",
