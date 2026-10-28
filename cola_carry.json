@@ -1,7 +1,7 @@
 {
-  "generado": "2026-10-28T11:04:00Z",
+  "generado": "2026-10-28T11:38:12Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
-  "descartadas": 5,
+  "descartadas": 34,
   "canciones": [
     {
       "coverTrackId": "6a9d05aa5c27e49e116caefe",
@@ -1785,18 +1785,6 @@
         }
       },
       "motivo_en": "ready for QC: stray line 45 deleted; lines 44 and 49 are ear-doubt notices"
-    },
-    {
-      "coverTrackId": "6aa599fa42b8d1fdb0d117d0",
-      "songId": "6a992f43486eb0e888ea6f2c",
-      "originalTrackId": "",
-      "titulo": "Bamboleo",
-      "artista": "Gipsy Kings",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_PARADA: el cover no suena, sin carry",
-      "actualizado": "2026-10-27T18:01:58Z",
-      "motivo_en": "audio_guard MUDA_PARADA: cover is silent, no carry"
     },
     {
       "coverTrackId": "6aa799fe72ca57eb1acfc539",
@@ -8218,57 +8206,6 @@
       "actualizado": "2026-09-30T09:50:01Z"
     },
     {
-      "coverTrackId": "6aa5d2f442b8d1fdb0d5956a",
-      "songId": "6a992f44486eb0e888ea6fd5",
-      "originalTrackId": "",
-      "titulo": "Un Idiota",
-      "artista": "Joan Sebastian",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio MUDA_PARADA (404, stemVoc a +3040 ms, no pinear); tras decidir audio: PIs de te amo x18, L29 w2-5 idioma, L40 w5 tilde",
-      "actualizado": "2026-10-15T15:35:51Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "",
-            "t": "2026-09-30T09:50:03Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "linea 7 no en minuscula, linea 34 de->de con tilde x2, linea 36 coma final fuera; Y de la linea 7, fue/dijiste/es/Que/aun y el pero final de la linea 36: ear-notes",
-            "t": "2026-10-06T15:48:28Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "drift 0 en 56 lineas, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (karaokeMp3 206, sin tocar)",
-            "t": "2026-10-06T15:56:17Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "266/266 mapeadas: 8 items nuevos (19 idiomas), 11 anclas nuevas, 25 remapeos/unificaciones de gemelas, 3 filas EN primarias en items con bolsa vacia",
-            "t": "2026-10-06T15:56:17Z"
-          },
-          "ingles": {
-            "v": "falta",
-            "nota": "plan en .singit/es_map/payloads/6aa5d2f442b8d1fdb0d5956a/en_plan.json (56 lineas + 266 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T15:59:38Z"
-          },
-          "qc": {
-            "v": "falta",
-            "nota": "QC1 PARADA: audio MUDA_PARADA (404, stemVoc +3040 ms); ademas 3 defectos de mapeo/ingles en reviews",
-            "t": "2026-10-15T15:35:46Z"
-          }
-        },
-        "qc": {
-          "v": "PARADA",
-          "resumen": "QC1 PARADA: audio MUDA_PARADA (404, stemVoc +3040 ms); ademas 3 defectos de mapeo/ingles en reviews",
-          "t": "2026-10-15T15:35:46Z"
-        }
-      },
-      "motivo_en": "audio MUDA_PARADA (404, stemVoc at +3040 ms, do not pin); after the audio decision: te amo phrase anchors x18, L29 w2-5 idiom, L40 w5 tilde"
-    },
-    {
       "coverTrackId": "6aa4f0f942b8d1fdb0c280d2",
       "songId": "6a992f3c486eb0e888ea6cf2",
       "originalTrackId": "",
@@ -10479,47 +10416,6 @@
       "actualizado": "2026-09-22T13:23:56Z"
     },
     {
-      "coverTrackId": "6aa67aee72ca57eb1a9f96fd",
-      "songId": "6a992f4b486eb0e888ea7240",
-      "originalTrackId": "",
-      "titulo": "No Me Conoces Aun",
-      "artista": "Palomo",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_PARADA: el cover no suena",
-      "actualizado": "2026-10-21T18:01:55Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 100%",
-            "t": "2026-10-06T16:49:58Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "tildes aun/dias/abrazame/mi->mi con tilde (11 tokens); sin partidas ni puntuacion final",
-            "t": "2026-10-06T16:57:55Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "drift 0, ninguna palabra <40 ms; hueco largo = instrumental del original; audio SUENA_SIN_BLINDAR (206), sin tocar",
-            "t": "2026-10-06T17:03:08Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "167/167 ancladas; 3 items nuevos (pasional, pasionales, dejamos) 19 idiomas; remaps aun->aun con tilde, mi->mi con tilde, correr, la, por, vivir, el; phrase de verdad",
-            "t": "2026-10-06T17:03:08Z"
-          },
-          "ingles": {
-            "v": "falta",
-            "nota": "plan completo (50 lineas, 167 WIT con DT, 1 PIT) en payloads/en_plan.json; falta abrir el borrador",
-            "t": "2026-10-06T17:03:08Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard MUDA_PARADA: the cover plays no sung audio"
-    },
-    {
       "coverTrackId": "6aa58cdc42b8d1fdb0cfe4d8",
       "songId": "6a992f42486eb0e888ea6ef5",
       "originalTrackId": "",
@@ -12381,47 +12277,6 @@
       }
     },
     {
-      "coverTrackId": "6aa581c742b8d1fdb0cefba0",
-      "songId": "6a992f42486eb0e888ea6ebf",
-      "originalTrackId": "",
-      "titulo": "Ni Que Valieras Tanto",
-      "artista": "El Poder Del Norte",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio: la voz va 7 s desfasada (stemVoc +7040 ms), fuera del margen de 150 ms",
-      "actualizado": "2026-10-21T11:19:12Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "",
-            "t": "2026-10-06T10:58:15Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "L26 tilde, L28 puntuacion/tilde; resto limpio (tal vez = 2 palabras, es correcto)",
-            "t": "2026-10-06T16:34:42Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "drift 0, ninguna palabra <40 ms, hueco L16-17 es instrumental en el original; audio SUENA_SIN_BLINDAR (no tocar)",
-            "t": "2026-10-06T16:34:52Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "ofenden y brotan creados (19 idiomas), llorarte reutilizado, tal vez = phrase item, qué/que y gemelas unificadas; 0 sin mapear",
-            "t": "2026-10-06T16:37:04Z"
-          },
-          "ingles": {
-            "v": "falta",
-            "nota": "plan en_plan.json listo (36 lineas, 162 WIT con DT exacto, 1 PIT); falta abrir el borrador",
-            "t": "2026-10-06T16:38:36Z"
-          }
-        }
-      },
-      "motivo_en": "audio: vocals are 7 s out of sync (stemVoc +7040 ms), beyond the 150 ms pin margin"
-    },
-    {
       "coverTrackId": "6aa56e9342b8d1fdb0cd2d30",
       "songId": "6a992f41486eb0e888ea6e6f",
       "originalTrackId": "",
@@ -14076,47 +13931,6 @@
       }
     },
     {
-      "coverTrackId": "6aa54e2542b8d1fdb0cb8b68",
-      "songId": "6a992f40486eb0e888ea6e45",
-      "originalTrackId": "",
-      "titulo": "Mayonesa",
-      "artista": "Chocolate 2000",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio: la voz va 4,7 s desfasada (stemVoc -4710 ms), fuera del margen de 150 ms",
-      "actualizado": "2026-10-21T11:19:13Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 89%",
-            "t": "2026-10-06T16:44:53Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "linea 17 partida en 21 lineas (por richsync), tildes, mayusculas, parentesis sueltos; ver informe",
-            "t": "2026-10-06T17:28:40Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "drift 0, ninguna palabra <40 ms; audio SUENA_SIN_BLINDAR sin tocar",
-            "t": "2026-10-06T17:28:41Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "0 sin mapear salvo ad-lib; 11 items nuevos con 19 idiomas",
-            "t": "2026-10-06T17:28:41Z"
-          },
-          "ingles": {
-            "v": "falta",
-            "nota": "preparado en en_plan.json; falta abrir el borrador (no start_draft)",
-            "t": "2026-10-06T17:28:41Z"
-          }
-        }
-      },
-      "motivo_en": "audio: vocals are 4.7 s out of sync (stemVoc -4710 ms), beyond the 150 ms pin margin"
-    },
-    {
       "coverTrackId": "6aa3ea14b997bde8088df8a5",
       "songId": "6a992f2f486eb0e888ea68bf",
       "originalTrackId": "",
@@ -15429,57 +15243,6 @@
           "t": "2026-10-15T10:15:09Z"
         }
       }
-    },
-    {
-      "coverTrackId": "6aa5c18e42b8d1fdb0d3f618",
-      "songId": "6a992f44486eb0e888ea6f88",
-      "originalTrackId": "",
-      "titulo": "El Perdedor",
-      "artista": "Intocable",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio muda (404), stemVoc a +7010 ms, no pinable: Saul debe revisar stem vs XML; pendiente despues: anclar locuciones L11/L29, L19/L37, L14/L32/L40",
-      "actualizado": "2026-10-21T10:19:38Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry batch aplicado",
-            "t": "2026-10-06T17:41:50Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "Porque unido (L3); secciones puestas a mano; ear-notes: faltan es(L6,L24), Si(L21,L43), y(L32,L40) y siempre/siendo(L34) vs original; hueco 207-229s con 4 lineas del original sin letra del cover",
-            "t": "2026-10-06T17:41:50Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "drift 0, ninguna palabra <40 ms; hueco de 21s antes de L43 coincide con 4 lineas del original que el cover no trae (ver informe); audio SUENA_SIN_BLINDAR, sin tocar",
-            "t": "2026-10-06T17:41:50Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "0 sin mapear, gemelas unificadas, 4 items nuevos con 19 idiomas",
-            "t": "2026-10-06T17:41:50Z"
-          },
-          "ingles": {
-            "v": "ok",
-            "nota": "borrador en pending_review",
-            "t": "2026-10-21T10:13:30Z"
-          },
-          "qc": {
-            "v": "falta",
-            "nota": "audio MUDA_PARADA: /audio 404, stemVoc a +7010 ms (no pinable); ademas faltan 3 anclas de locucion (L11/L29, L19/L37, L14/L32/L40)",
-            "t": "2026-10-21T10:19:34Z"
-          }
-        },
-        "qc": {
-          "v": "PARADA",
-          "resumen": "audio MUDA_PARADA: /audio 404, stemVoc a +7010 ms (no pinable); ademas faltan 3 anclas de locucion (L11/L29, L19/L37, L14/L32/L40)",
-          "t": "2026-10-21T10:19:34Z"
-        }
-      },
-      "motivo_en": "audio is silent (404), stemVoc is +7010 ms off so it cannot be pinned: Saul must check stem vs XML; afterwards still to do: anchor idioms at L11/L29, L19/L37, L14/L32/L40"
     },
     {
       "coverTrackId": "6ab23f813369c68d83b673a7",
@@ -28245,57 +28008,6 @@
       }
     },
     {
-      "coverTrackId": "6aa58d1b42b8d1fdb0cfe894",
-      "songId": "6a992f42486eb0e888ea6ef6",
-      "originalTrackId": "",
-      "titulo": "Para Que La Vida",
-      "artista": "Enrique Iglesias",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio MUDA_PARADA: /audio 404, stemVoc a 6990 ms medido el 14 oct 08:22 (cover_audio_list); contenido pendiente en reviews/6aa58d1b42b8d1fdb0cfe894.md",
-      "actualizado": "2026-10-14T12:34:52Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 92%",
-            "t": "2026-10-06T16:45:45Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "LRC limpio: tildes, minusculas, dio, yendo, Ha; ear-notes aparte",
-            "t": "2026-10-06T21:47:12Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "0 sin mapear, gemelas unificadas, items nuevos sedativo/sedativos 19 idiomas, arranque remapeado",
-            "t": "2026-10-06T21:51:03Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "drift 0, ninguna palabra <40 ms; audio karaokeMp3 206, no se mide ni se fija",
-            "t": "2026-10-06T21:51:03Z"
-          },
-          "ingles": {
-            "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:47:41Z"
-          },
-          "qc": {
-            "v": "falta",
-            "nota": "audio MUDA_PARADA: /audio 404 y stemVoc a 6990 ms (medido 14 oct 08:22, despues del worker); ademas pendientes de contenido: WIT God L27 w7, PI no sé L8/L10 (saber+inf), PI dar vueltas L16/34/46, WI.word rancio L18/21/36/38/48/49",
-            "t": "2026-10-14T12:34:43Z"
-          }
-        },
-        "qc": {
-          "v": "PARADA",
-          "resumen": "audio MUDA_PARADA: /audio 404 y stemVoc a 6990 ms (medido 14 oct 08:22, despues del worker); ademas pendientes de contenido: WIT God L27 w7, PI no sé L8/L10 (saber+inf), PI dar vueltas L16/34/46, WI.word rancio L18/21/36/38/48/49",
-          "t": "2026-10-14T12:34:43Z"
-        }
-      },
-      "motivo_en": "audio MUDA_PARADA: /audio returns 404, stemVoc 6990 ms off, measured 14 Oct 08:22 (cover_audio_list); content defects pending in reviews/6aa58d1b42b8d1fdb0cfe894.md"
-    },
-    {
       "coverTrackId": "6aa534fa42b8d1fdb0c935ab",
       "songId": "6a992f3f486eb0e888ea6de8",
       "originalTrackId": "",
@@ -34265,47 +33977,6 @@
       "motivo_en": "Reopen the English draft: make the line English contain the PIT literally at L12/L23/L35 (for you, items 6a3d1f1a...) and L13/L24/L36 (what, item 6ac5b29f...) or fix/drop those phrase insights; make L7=L40 and L16=L28 line English identical; resubmit to pending_review"
     },
     {
-      "coverTrackId": "6aa6595d72ca57eb1a9c8b20",
-      "songId": "6a992f4a486eb0e888ea71af",
-      "originalTrackId": "",
-      "titulo": "Atado A Un Sentimiento",
-      "artista": "Miguel Mateos",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_PARADA: la cover no suena, no se hace QC ni carry",
-      "actualizado": "2026-10-27T15:26:14Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote aplicado, no tocado",
-            "t": "2026-10-06T23:17:07Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "5 tokens: mayusculas medias L25/27/29, coma final L32, errata arrastrarme L19; secciones puestas a mano (7); faltas/oh-no por oido en informe",
-            "t": "2026-10-06T23:17:07Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "drift 0, ninguna palabra <40 ms (min 53); audio 206 karaoke SUENA_SIN_BLINDAR, sin medir ni fijar",
-            "t": "2026-10-06T23:17:08Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "6 anclas nuevas, gemelas Y unificadas; 9 items nuevos 19 idiomas; deje con fila stop",
-            "t": "2026-10-06T23:17:08Z"
-          },
-          "ingles": {
-            "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T09:01:45Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard says MUDA_PARADA: the cover is silent, no QC or carry"
-    },
-    {
       "coverTrackId": "6aa78b2172ca57eb1ace253c",
       "songId": "6a992f53486eb0e888ea7592",
       "originalTrackId": "",
@@ -34934,47 +34605,6 @@
         }
       },
       "motivo_en": "pre-QC done, QC round 1"
-    },
-    {
-      "coverTrackId": "6aa3c986b997bde8088453dd",
-      "songId": "6a992f2d486eb0e888ea6841",
-      "originalTrackId": "",
-      "titulo": "Lastima Que Seas Ajena",
-      "artista": "Vicente Fernandez",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_ARREGLABLE: el cover no suena; cambiar el audio primario está bloqueado",
-      "actualizado": "2026-10-27T15:43:20Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-06T17:54:45Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "Qué x2 tildado; secciones 51/51 puestas del original; ear-notes: L9 con/todo, L32 estorban, no más partidas (timed, no fusionadas)",
-            "t": "2026-10-06T23:25:23Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "drift 0, min palabra 170 ms; hueco L26 = instrumental (original sin letra); audio karaokeMp3 206 SUENA_SIN_BLINDAR, no tocado",
-            "t": "2026-10-06T23:25:23Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "0 sin mapear; 7 items nuevos 19 idiomas; 11 remapeos/gemelas; 3 phrase anchors no más",
-            "t": "2026-10-06T23:25:24Z"
-          },
-          "ingles": {
-            "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T09:03:22Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard MUDA_ARREGLABLE: cover is silent; setting the primary audio is blocked by the classifier"
     },
     {
       "coverTrackId": "6aa7183f72ca57eb1aac8b19",
@@ -35932,47 +35562,6 @@
       "vueltas": 0,
       "motivo": "enlazada; carry al 12%: necesita hints a mano",
       "actualizado": "2026-10-07T04:27:05Z"
-    },
-    {
-      "coverTrackId": "6aa6cbf972ca57eb1aa6194c",
-      "songId": "6a992f4d486eb0e888ea7341",
-      "originalTrackId": "",
-      "titulo": "Trigal",
-      "artista": "Sandro",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_PARADA antes de QC",
-      "actualizado": "2026-10-27T20:18:57Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 93%",
-            "t": "2026-10-06T17:55:51Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "6 ediciones de puntuacion/mayuscula (lineas 4,8,9,16,25,26), sin cambio de nº de tokens; secciones 28/28 a mano; ear-notes: Pues vs Que (16,17,25,26,28), posible 'ay' ausente en 4 y 27",
-            "t": "2026-10-06T23:40:31Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "drift 0, ninguna palabra <40 ms; hueco de la linea 19 es instrumental tambien en el original; audio_guard SUENA_SIN_BLINDAR, servida desde karaokeMp3: no se mide ni se fija nada",
-            "t": "2026-10-06T23:40:31Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "157/157 tokens salvo ad-lib ay en 8; 2 items nuevos (dilatan, comprimen) 19 idiomas; trigal/robo/pues anclados; gemelas unificadas (10/19, 12/21, 15/24, 16-28, 7/8)",
-            "t": "2026-10-06T23:40:31Z"
-          },
-          "ingles": {
-            "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T09:04:33Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard says MUDA_PARADA before QC: the cover is silent, no QC"
     },
     {
       "coverTrackId": "6aa692f472ca57eb1aa1a70d",
@@ -39448,47 +39037,6 @@
       "motivo_en": "pre-QC done, QC round 1"
     },
     {
-      "coverTrackId": "6aa6889b72ca57eb1aa09414",
-      "songId": "6a992f4c486eb0e888ea7276",
-      "originalTrackId": "",
-      "titulo": "Comienza A Amanecer",
-      "artista": "Perla",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_PARADA: el cover no suena con voz",
-      "actualizado": "2026-10-22T13:11:32Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry batch aplicado, no tocado",
-            "t": "2026-10-07T01:13:15Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "lineas 10 y 24 con apertura de exclamacion; linea 37 sin dos puntos final; sin otros defectos",
-            "t": "2026-10-07T01:13:15Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "deriva 0, ninguna palabra bajo 40 ms; audio karaokeMp3 SUENA_SIN_BLINDAR, no medido ni fijado",
-            "t": "2026-10-07T01:13:16Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "169/169 ancladas; 5 nuevas (items nuevos con 19 idiomas); sentidos revisados",
-            "t": "2026-10-07T01:13:16Z"
-          },
-          "ingles": {
-            "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T08:59:03Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard MUDA_PARADA: cover has no sung audio"
-    },
-    {
       "coverTrackId": "6aa528bd42b8d1fdb0c80ec8",
       "songId": "6a992f3f486eb0e888ea6da8",
       "originalTrackId": "",
@@ -40643,10 +40191,10 @@
       "originalTrackId": "",
       "titulo": "Dame",
       "artista": "RBD",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida tras QC r1, a QC r2",
-      "actualizado": "2026-10-28T11:03:36Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "QC r2 devuelto",
+      "actualizado": "2026-10-28T11:09:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40676,17 +40224,17 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "1 defecto: concordancia en 7 repeticiones (lineas 21,22,59,60,81,82,97); resto OK",
-            "t": "2026-10-22T13:48:56Z"
+            "nota": "litchk 15: PIT del phrase item 'lo que' no sale literal en el ingles de 15 lineas (22,23,31,32,60,61,69,70,82,83,91,92,98,99,105); resto OK",
+            "t": "2026-10-28T11:09:23Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "1 defecto: concordancia en 7 repeticiones (lineas 21,22,59,60,81,82,97); resto OK",
-          "t": "2026-10-22T13:48:56Z"
+          "resumen": "litchk 15: PIT del phrase item 'lo que' no sale literal en el ingles de 15 lineas (22,23,31,32,60,61,69,70,82,83,91,92,98,99,105); resto OK",
+          "t": "2026-10-28T11:09:23Z"
         }
       },
-      "motivo_en": "fixed after QC r1, to QC r2"
+      "motivo_en": "The English line translations of 15 lines (22,23,31,32,60,61,69,70,82,83,91,92,98,99,105) do not contain the phrase-item translation of the 'lo que' phrase insight literally; reword those lines so it appears, keeping twin lines identical, then resubmit to pending_review"
     },
     {
       "coverTrackId": "6aa6254d72ca57eb1a979000",
@@ -40926,47 +40474,6 @@
       "actualizado": "2026-10-07T04:29:33Z"
     },
     {
-      "coverTrackId": "6aa6334772ca57eb1a9911c0",
-      "songId": "6a992f49486eb0e888ea7142",
-      "originalTrackId": "",
-      "titulo": "Inocente Pobre Amiga",
-      "artista": "Lupita D'alessio",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_PARADA: la cover no suena",
-      "actualizado": "2026-10-27T21:15:01Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 97%",
-            "t": "2026-10-06T19:55:39Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "LRC limpio: tildes, mayusculas, parentesis, homofona h; sin cambios de timing",
-            "t": "2026-10-07T01:33:23Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "drift 0, min 73 ms; audio SUENA_SIN_BLINDAR karaokeMp3, no se mide",
-            "t": "2026-10-07T01:33:49Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "263/263 ancladas, gemelas unificadas, sin items nuevos",
-            "t": "2026-10-07T01:33:49Z"
-          },
-          "ingles": {
-            "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T09:11:35Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard MUDA_PARADA: the cover plays no sung audio"
-    },
-    {
       "coverTrackId": "6aa6cc3e72ca57eb1aa61f28",
       "songId": "6a992f4e486eb0e888ea7343",
       "originalTrackId": "",
@@ -41033,47 +40540,6 @@
         }
       },
       "motivo_en": "QC r1 fixes applied, QC round 2"
-    },
-    {
-      "coverTrackId": "6aa68ed672ca57eb1aa137c3",
-      "songId": "6a992f4c486eb0e888ea7292",
-      "originalTrackId": "",
-      "titulo": "Por Ese Hombre",
-      "artista": "Dyango, Pimpinela",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_PARADA: el cover no suena con voz",
-      "actualizado": "2026-10-22T13:23:52Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry batch aplicado previamente; no tocado",
-            "t": "2026-10-07T01:39:12Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "12 tokens: tildes (robó x2, qué, así, sé x2, él x3, mintió x2), coma en l23; palabras con timing no tocadas; ear-notes en informe",
-            "t": "2026-10-07T01:39:12Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "drift 0, ninguna palabra <40 ms, sin solapes; audio SUENA_SIN_BLINDAR sobre karaokeMp3, no medido ni fijado",
-            "t": "2026-10-07T01:39:13Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "300/300 mapeados; 9 items nuevos con 19 idiomas; 7 remaps; ocupar completado",
-            "t": "2026-10-07T01:39:13Z"
-          },
-          "ingles": {
-            "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:02:24Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard MUDA_PARADA: cover has no sung audio"
     },
     {
       "coverTrackId": "6aa5bb8642b8d1fdb0d36ddc",
@@ -45585,47 +45051,6 @@
       "motivo_en": "QC round 2: LRC fixed"
     },
     {
-      "coverTrackId": "6aa6555d72ca57eb1a9c3432",
-      "songId": "6a992f49486eb0e888ea7197",
-      "originalTrackId": "",
-      "titulo": "Hazme Sentir",
-      "artista": "Maria Conchita Alonso",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_PARADA: el cover no suena",
-      "actualizado": "2026-10-27T10:47:45Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-06T21:09:32Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "L20 mayusculas medias, L39 tildes (quiéreme/más); resto limpio; ear-notes en informe",
-            "t": "2026-10-07T02:30:15Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "drift 0, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (karaokeMp3, 206): nada medido ni fijado",
-            "t": "2026-10-07T02:34:46Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "317/317 ancladas; 47 anclas nuevas/remapeadas (gemelas unificadas); 4 items de palabra y 5 de locucion nuevos con 19 idiomas; 9 PI",
-            "t": "2026-10-07T02:34:46Z"
-          },
-          "ingles": {
-            "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:36:24Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard MUDA_PARADA: the cover audio has no usable sung audio"
-    },
-    {
       "coverTrackId": "6aa5cf3242b8d1fdb0d55977",
       "songId": "6a992f44486eb0e888ea6fc1",
       "originalTrackId": "",
@@ -47859,88 +47284,6 @@
       "motivo_en": "QC r1 returned: two phrase items have no primary row; setting primaries waits for Saul"
     },
     {
-      "coverTrackId": "6aa61f2872ca57eb1a96d5a3",
-      "songId": "6a992f47486eb0e888ea70dd",
-      "originalTrackId": "",
-      "titulo": "Olvidarte Nunca",
-      "artista": "los Golpes",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "no suena (audio_guard MUDA_PARADA)",
-      "actualizado": "2026-10-27T11:07:01Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry aplicado en lote",
-            "t": "2026-10-07T03:04:41Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "LRC limpio, sin cambios necesarios",
-            "t": "2026-10-07T03:04:41Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "drift 0, ninguna palabra <40 ms; audio karaokeMp3 sin tocar",
-            "t": "2026-10-07T03:04:42Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "124/124 mapeadas; 1 item nuevo, 2 phrase items nuevos, 3 PIs",
-            "t": "2026-10-07T03:04:42Z"
-          },
-          "ingles": {
-            "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:36:30Z"
-          }
-        }
-      },
-      "motivo_en": "Cover audio does not play (audio_guard MUDA_PARADA)"
-    },
-    {
-      "coverTrackId": "6aa6c13572ca57eb1aa51c0e",
-      "songId": "6a992f4d486eb0e888ea7311",
-      "originalTrackId": "",
-      "titulo": "No Se Ha Dado Cuenta",
-      "artista": "Roberto Jordan",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_PARADA: la cover no suena",
-      "actualizado": "2026-10-21T16:11:38Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 96%",
-            "t": "2026-10-06T21:11:40Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "tildes/errata de forma y comas finales limpiados; sin palabras tocadas con tiempo; ver informe",
-            "t": "2026-10-07T03:05:39Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "deriva 0; 6 palabras de 0-13 ms ampliadas a >=60 ms en lineas 26-28; ninguna palabra <40 ms",
-            "t": "2026-10-07T03:05:40Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "0 sin mapear salvo ad-libs; gemelas unificadas; 3 items/frases nuevos; frases ancladas",
-            "t": "2026-10-07T03:05:40Z"
-          },
-          "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
-            "t": "2026-10-07T03:05:40Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard MUDA_PARADA: the cover plays no sung audio"
-    },
-    {
       "coverTrackId": "6aa65de372ca57eb1a9ce240",
       "songId": "6a992f4a486eb0e888ea71bf",
       "originalTrackId": "",
@@ -49867,47 +49210,6 @@
       "vueltas": 0,
       "motivo": "sin original: subir por ISRC antes del carry",
       "actualizado": "2026-09-22T13:23:56Z"
-    },
-    {
-      "coverTrackId": "6aa4f1ac42b8d1fdb0c2881d",
-      "songId": "6a992f3c486eb0e888ea6cf3",
-      "originalTrackId": "",
-      "titulo": "Por Mas Que Intento",
-      "artista": "Gilberto Santa Rosa",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "MUDA_ARREGLABLE: el pin a stemVoc (+110 ms, conf 1.8) lo bloquea el clasificador; necesita OK de Saul o que lo haga el",
-      "actualizado": "2026-10-23T16:05:04Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "batch aplicado",
-            "t": "2026-10-07T03:36:12Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "LRC limpio, secciones puestas a mano (43/43)",
-            "t": "2026-10-07T03:36:13Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "drift 0, sin palabras <40 ms; audio_guard SUENA_SIN_BLINDAR (206), sin pin",
-            "t": "2026-10-07T03:36:13Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "264/264 mapeadas, gemelas unificadas, 15 PIT anclados, 1 item nuevo",
-            "t": "2026-10-07T03:36:13Z"
-          },
-          "ingles": {
-            "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador y enviado a pending_review (lectura de vuelta limpia)",
-            "t": "2026-10-07T09:17:09Z"
-          }
-        }
-      },
-      "motivo_en": "MUDA_ARREGLABLE: stemVoc pin (+110 ms, conf 1.8) blocked by the classifier; needs Saul"
     },
     {
       "coverTrackId": "6aa71dfc72ca57eb1aad05e5",
@@ -52015,10 +51317,10 @@
       "originalTrackId": "",
       "titulo": "El Barzon",
       "artista": "Lupillo Rivera",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregida tras QC r1, a QC r2",
-      "actualizado": "2026-10-28T11:03:35Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "QC r2 devuelto",
+      "actualizado": "2026-10-28T11:11:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52048,17 +51350,17 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "item nuevo seguirle sin corchete, wordForm BASE, sin primario EN ni traducciones; L57 w7 WIT no encaja con la linea",
-            "t": "2026-10-21T14:25:32Z"
+            "nota": "QC r2: line 65 PIT not literal in line English (litchk 1); missing tilde line 60 word 4 and line 46 word 6; seguirle has no English primary; minor acabe primary lowercase, piscar bracket no lemma",
+            "t": "2026-10-28T11:11:06Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "item nuevo seguirle sin corchete, wordForm BASE, sin primario EN ni traducciones; L57 w7 WIT no encaja con la linea",
-          "t": "2026-10-21T14:25:32Z"
+          "resumen": "QC r2: line 65 PIT not literal in line English (litchk 1); missing tilde line 60 word 4 and line 46 word 6; seguirle has no English primary; minor acabe primary lowercase, piscar bracket no lemma",
+          "t": "2026-10-28T11:11:06Z"
         }
       },
-      "motivo_en": "fixed after QC r1, to QC r2"
+      "motivo_en": "QC r2 returned: PIT on line 65 words 2-3 must be literal in the line English; add missing tildes at line 60 word 4 and line 46 word 6; set an English primary on seguirle; fix acabe primary capital and piscar bracket lemma"
     },
     {
       "coverTrackId": "6aa73d0172ca57eb1ab030cf",
@@ -54152,47 +53454,6 @@
       "vueltas": 0,
       "motivo": "enlazada; carry al 61%: necesita hints a mano",
       "actualizado": "2026-10-07T04:32:46Z"
-    },
-    {
-      "coverTrackId": "6aa527d042b8d1fdb0c7e184",
-      "songId": "6a992f3f486eb0e888ea6da5",
-      "originalTrackId": "",
-      "titulo": "A Donde Va Nuestro Amor",
-      "artista": "Angelica Maria",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_PARADA: sin audio cantado",
-      "actualizado": "2026-10-27T14:03:09Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 92%",
-            "t": "2026-10-06T22:25:40Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "linea 2 palabra 1: tilde de pregunta por funcion; secciones puestas a mano (28/28); sin cierres en , . ; :",
-            "t": "2026-10-07T04:39:14Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "deriva 0 en 28 lineas, palabra mas corta 216 ms; audio SUENA_SIN_BLINDAR desde karaokeMp3, no se toca",
-            "t": "2026-10-07T04:39:15Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "114/114 mapeadas; 1 item nuevo (adverbio, 19 idiomas); 3 locuciones ancladas (4 anclas)",
-            "t": "2026-10-07T04:39:15Z"
-          },
-          "ingles": {
-            "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:49:07Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard says MUDA_PARADA: no sung audio to serve"
     },
     {
       "coverTrackId": "6aa714e872ca57eb1aac33d1",
@@ -58184,47 +57445,6 @@
       }
     },
     {
-      "coverTrackId": "6aa1111464c9b8ff110c75bd",
-      "songId": "6a992f48486eb0e888ea7107",
-      "originalTrackId": "",
-      "titulo": "Vamos A Platicar",
-      "artista": "los Socios Del Ritmo",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_PARADA: el cover no suena con voz",
-      "actualizado": "2026-10-23T10:49:43Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry aplicado en lote; no se toca",
-            "t": "2026-10-07T06:20:58Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "LRC revisado: sin cambios necesarios (sin partidas, tildes ni mayusculas; sin cierre con puntuacion); lineas 17 y 18 difieren del original = nota de oido",
-            "t": "2026-10-07T06:20:59Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "deriva 0 en las 34 lineas; ninguna palabra < 40 ms; hueco largo entre lineas 20 y 21 corresponde a instrumental del original; audio guard SUENA_SIN_BLINDAR (karaokeMp3, 206), no se mide",
-            "t": "2026-10-07T06:21:01Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "quieres mapeado (l17); gemelas unificadas (l27 tiene, l31 que); l12 que remapeado a relativo; 5 locuciones ancladas (8 anclas)",
-            "t": "2026-10-07T06:21:01Z"
-          },
-          "ingles": {
-            "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:09:00Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard MUDA_PARADA: the cover has no sung audio"
-    },
-    {
       "coverTrackId": "6aa613cd42b8d1fdb0db0dad",
       "songId": "6a992f46486eb0e888ea709d",
       "originalTrackId": "",
@@ -59182,47 +58402,6 @@
         }
       },
       "motivo_en": "QC round 2: LRC fixed (Saúl's OK)"
-    },
-    {
-      "coverTrackId": "6aa81111d951e1665a7f5154",
-      "songId": "6a992f59486eb0e888ea7795",
-      "originalTrackId": "",
-      "titulo": "Provocame",
-      "artista": "Chayanne",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_PARADA: el audio servido no suena",
-      "actualizado": "2026-10-23T13:25:34Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry aplicado en lote; no se toca",
-            "t": "2026-10-07T06:39:06Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "LRC limpio; igual que el original salvo linea 20 palabra 1 (nota de oido)",
-            "t": "2026-10-07T06:39:07Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "deriva 0, ninguna palabra <40 ms; hueco linea 39 es instrumental tambien en el original",
-            "t": "2026-10-07T06:39:07Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "249/249 mapeadas, gemelas unificadas, 13 items nuevos + 1 phrase item, 5 phrase anchors tipos",
-            "t": "2026-10-07T06:39:07Z"
-          },
-          "ingles": {
-            "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:12:32Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard MUDA_PARADA: the served audio is silent"
     },
     {
       "coverTrackId": "6aa82f3ed951e1665a8208b8",
@@ -60346,47 +59525,6 @@
       "actualizado": "2026-09-22T13:23:56Z"
     },
     {
-      "coverTrackId": "6aa6864c72ca57eb1aa075d6",
-      "songId": "6a992f4b486eb0e888ea726a",
-      "originalTrackId": "",
-      "titulo": "Lluvia De Plata",
-      "artista": "Pedro Fernandez",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_PARADA: la cover no suena con voz servible",
-      "actualizado": "2026-10-23T15:48:52Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 97%",
-            "t": "2026-10-06T23:38:57Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "sé x2, secciones 29/29, sin puntuacion final",
-            "t": "2026-10-07T06:53:15Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "deriva 0, ninguna palabra <40ms; audio karaokeMp3 SUENA_SIN_BLINDAR sin tocar",
-            "t": "2026-10-07T06:53:16Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "0 huecos salvo ad-libs; frase nueva sin parar; ear-notes amare/alejare y erratas sella/basta/moja",
-            "t": "2026-10-07T06:53:16Z"
-          },
-          "ingles": {
-            "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-07T09:16:35Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard MUDA_PARADA: no usable sung audio"
-    },
-    {
       "coverTrackId": "6aa6143942b8d1fdb0db2b24",
       "songId": "6a992f47486eb0e888ea70a0",
       "originalTrackId": "",
@@ -60829,10 +59967,10 @@
       "originalTrackId": "",
       "titulo": "Tu Amor",
       "artista": "Olga Tañón",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida tras QC r1, a QC r2",
-      "actualizado": "2026-10-28T11:03:37Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T11:09:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -60856,20 +59994,26 @@
             "t": "2026-10-07T07:03:48Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan de ingles (lineas+WIT+PIT) en en_plan.json; falta abrir el borrador",
-            "t": "2026-10-07T07:03:48Z"
+            "v": "ok",
+            "nota": "borrador en pending_review (QC r2)",
+            "t": "2026-10-28T11:09:41Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "estructura, mapeo, items nuevos e ingles ok; devuelta: lineas 24/32/78/86/93 palabras 3-4 (texto del original, el cover canta singular+todo como en 40-41/100-101): editar, remapear, PI todo el mundo y reabrir ingles",
-            "t": "2026-10-22T10:13:05Z"
+            "v": "ok",
+            "nota": "QC r2: todo verificado (estructura, anclas, tildes, ingles pending_review, gemelas, audio); notas de oido en lineas 24/32/78/86/93 palabras 3-4 y 40/100 palabra 3 para Saul",
+            "t": "2026-10-28T11:09:36Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "estructura, mapeo, items nuevos e ingles ok; devuelta: lineas 24/32/78/86/93 palabras 3-4 (texto del original, el cover canta singular+todo como en 40-41/100-101): editar, remapear, PI todo el mundo y reabrir ingles",
-          "t": "2026-10-22T10:13:05Z"
+          "v": "VERDE",
+          "resumen": "QC r2: todo verificado (estructura, anclas, tildes, ingles pending_review, gemelas, audio); notas de oido en lineas 24/32/78/86/93 palabras 3-4 y 40/100 palabra 3 para Saul",
+          "t": "2026-10-28T11:09:36Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T11:09:42Z"
         }
       },
       "motivo_en": "fixed after QC r1, to QC r2"
@@ -62963,47 +62107,6 @@
       "actualizado": "2026-09-23T10:34:26Z"
     },
     {
-      "coverTrackId": "6aa5f48742b8d1fdb0d8d2ca",
-      "songId": "6a992f46486eb0e888ea7064",
-      "originalTrackId": "",
-      "titulo": "Desde Que No Estas Aqui",
-      "artista": "Kumbia Kings",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_PARADA: el cover no suena",
-      "actualizado": "2026-10-21T13:08:46Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 88%",
-            "t": "2026-10-07T01:01:06Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "48 LRC edits via lrc_plan_fix, ids/ms identical, no line ends in punctuation",
-            "t": "2026-10-07T08:01:54Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "drift 0 on 55 lines; audio SUENA_SIN_BLINDAR 206 karaokeMp3, nothing measured or pinned",
-            "t": "2026-10-07T08:01:54Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "85 anchors written, twins unified, new items 19 langs, wit_dt_audit BAD 0, sin_mapear only ad-libs",
-            "t": "2026-10-07T08:01:55Z"
-          },
-          "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
-            "t": "2026-10-07T08:01:56Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard MUDA_PARADA: the cover plays no sung audio"
-    },
-    {
       "coverTrackId": "6aa80fe0d951e1665a7f20f9",
       "songId": "6a992f59486eb0e888ea7790",
       "originalTrackId": "",
@@ -63226,27 +62329,6 @@
       "vueltas": 0,
       "motivo": "sin original: subir por ISRC antes del carry",
       "actualizado": "2026-09-22T13:23:56Z"
-    },
-    {
-      "coverTrackId": "6aa5808642b8d1fdb0ceddcd",
-      "songId": "6a992f42486eb0e888ea6ebb",
-      "originalTrackId": "",
-      "titulo": "Si No Me Amas",
-      "artista": "Ednita Nazario",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "MUDA_ARREGLABLE: arreglo de audio bloqueado por el clasificador",
-      "actualizado": "2026-10-27T17:26:57Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 89%",
-            "t": "2026-10-07T01:00:18Z"
-          }
-        }
-      },
-      "motivo_en": "Silent cover (MUDA_ARREGLABLE); the audio fix is classifier-blocked"
     },
     {
       "coverTrackId": "6aa80061d951e1665a7deb98",
@@ -63695,27 +62777,6 @@
       "vueltas": 0,
       "motivo": "sin original: subir por ISRC antes del carry",
       "actualizado": "2026-09-22T13:23:56Z"
-    },
-    {
-      "coverTrackId": "6aa5bcee42b8d1fdb0d3973c",
-      "songId": "6a992f44486eb0e888ea6f75",
-      "originalTrackId": "",
-      "titulo": "Cruz De Olvido",
-      "artista": "Hermanos Zaizar",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "MUDA_PARADA: la cover no suena",
-      "actualizado": "2026-10-27T17:27:00Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 95%",
-            "t": "2026-10-07T01:00:33Z"
-          }
-        }
-      },
-      "motivo_en": "Silent cover (MUDA_PARADA)"
     },
     {
       "coverTrackId": "6aa53c1b42b8d1fdb0c9f47f",
@@ -68723,27 +67784,6 @@
       }
     },
     {
-      "coverTrackId": "6aa6ff6172ca57eb1aaa21af",
-      "songId": "6a992f4f486eb0e888ea73e2",
-      "originalTrackId": "",
-      "titulo": "Tan Facil Que Hubiera Sido",
-      "artista": "Vicente Fernández",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "MUDA_ARREGLABLE: arreglo de audio bloqueado por el clasificador",
-      "actualizado": "2026-10-27T17:26:59Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 100%",
-            "t": "2026-10-07T01:02:53Z"
-          }
-        }
-      },
-      "motivo_en": "Silent cover (MUDA_ARREGLABLE); the audio fix is classifier-blocked"
-    },
-    {
       "coverTrackId": "6aa5865642b8d1fdb0cf3ccf",
       "songId": "6a992f42486eb0e888ea6ed1",
       "originalTrackId": "",
@@ -70011,27 +69051,6 @@
           }
         }
       }
-    },
-    {
-      "coverTrackId": "6aa66df272ca57eb1a9e6910",
-      "songId": "6a992f4b486eb0e888ea7207",
-      "originalTrackId": "",
-      "titulo": "No Podras",
-      "artista": "Olga Tañón",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_PARADA: la cover no suena",
-      "actualizado": "2026-10-27T17:43:09Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 91%",
-            "t": "2026-10-07T02:21:34Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard MUDA_PARADA: the cover is silent"
     },
     {
       "coverTrackId": "6aa66d5f72ca57eb1a9e5f07",
@@ -72190,27 +71209,6 @@
       }
     },
     {
-      "coverTrackId": "6aa66be272ca57eb1a9e4615",
-      "songId": "6a992f4a486eb0e888ea71fd",
-      "originalTrackId": "",
-      "titulo": "Amor De Una Noche",
-      "artista": "N'klabe",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_ARREGLABLE: no suena; arreglo de audio bloqueado por el clasificador",
-      "actualizado": "2026-10-27T17:43:11Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 88%",
-            "t": "2026-10-07T02:21:26Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard MUDA_ARREGLABLE: silent; the audio fix is classifier-blocked"
-    },
-    {
       "coverTrackId": "6aa6798072ca57eb1a9f6a22",
       "songId": "6a992f4b486eb0e888ea723a",
       "originalTrackId": "",
@@ -72382,27 +71380,6 @@
           }
         }
       }
-    },
-    {
-      "coverTrackId": "6aa1112064c9b8ff110c9ef7",
-      "songId": "6a992f4c486eb0e888ea7297",
-      "originalTrackId": "",
-      "titulo": "Sobrevivire",
-      "artista": "Priscila Y Sus Balas de Plata",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_ARREGLABLE: no suena; arreglo de audio bloqueado por el clasificador",
-      "actualizado": "2026-10-27T17:43:13Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 97%",
-            "t": "2026-10-07T02:18:46Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard MUDA_ARREGLABLE: silent; the audio fix is classifier-blocked"
     },
     {
       "coverTrackId": "6aa1112064c9b8ff110c993d",
@@ -75651,27 +74628,6 @@
       "actualizado": "2026-10-07T04:35:42Z"
     },
     {
-      "coverTrackId": "6aa6653272ca57eb1a9da087",
-      "songId": "6a992f4a486eb0e888ea71e2",
-      "originalTrackId": "",
-      "titulo": "Los Peces En El Rio",
-      "artista": "Navidad",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "audio_guard MUDA_PARADA: sin audio cantado utilizable",
-      "actualizado": "2026-10-28T09:41:03Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 85%",
-            "t": "2026-10-07T03:45:41Z"
-          }
-        }
-      },
-      "motivo_en": "audio_guard MUDA_PARADA: no usable sung audio"
-    },
-    {
       "coverTrackId": "6aa110f764c9b8ff110c1172",
       "songId": "6a992f3e486eb0e888ea6d82",
       "originalTrackId": "",
@@ -77121,10 +76077,10 @@
       "originalTrackId": "",
       "titulo": "Caminito De La Escuela",
       "artista": "Tradicional Infantil",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T10:35:24Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T11:07:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -77148,10 +76104,26 @@
             "t": "2026-10-28T10:35:23Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 37 lineas, 146/146 WIT con DT de su bolsa, 5 PIT; sin borrador abierto (lo aplica el orquestador)",
-            "t": "2026-10-28T10:35:23Z"
+            "v": "ok",
+            "nota": "draft en pending_review (enviado), 37 lineas, 0 WIT vacios",
+            "t": "2026-10-28T11:07:16Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk 0, wit_dt BAD 0, structure and timing intact, new anchors/items/phrase items and English draft (pending_review) verified",
+            "t": "2026-10-28T11:07:12Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk 0, wit_dt BAD 0, structure and timing intact, new anchors/items/phrase items and English draft (pending_review) verified",
+          "t": "2026-10-28T11:07:12Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T11:07:18Z"
         }
       }
     },
