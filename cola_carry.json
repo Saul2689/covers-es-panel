@@ -1,7 +1,7 @@
 {
-  "generado": "2026-10-28T12:53:41Z",
+  "generado": "2026-10-28T13:15:02Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
-  "descartadas": 34,
+  "descartadas": 35,
   "canciones": [
     {
       "coverTrackId": "6a9d05aa5c27e49e116caefe",
@@ -49950,46 +49950,6 @@
       }
     },
     {
-      "coverTrackId": "6aa818bcd951e1665a7fd45c",
-      "songId": "6a992f5a486eb0e888ea77b5",
-      "originalTrackId": "",
-      "titulo": "El Ultimo Trago",
-      "artista": "Jose Alfredo Jimenez",
-      "estado": "carry",
-      "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T03:50:32Z",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry en lote 97%",
-            "t": "2026-10-06T22:22:12Z"
-          },
-          "lrc": {
-            "v": "ok",
-            "nota": "tildes y erratas arregladas (15 tokens), sin puntuacion final, 0 mayusculas a mitad",
-            "t": "2026-10-07T03:50:31Z"
-          },
-          "timing": {
-            "v": "ok",
-            "nota": "drift 0, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR (karaokeMp3), sin tocar",
-            "t": "2026-10-07T03:50:31Z"
-          },
-          "mapeo": {
-            "v": "ok",
-            "nota": "160/160 mapeadas, gemelas unificadas, 4 items nuevos + 1 phrase item nuevo, 11 phrase insights",
-            "t": "2026-10-07T03:50:32Z"
-          },
-          "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (26 lineas, 160 WIT, 11 PIT); falta abrir el borrador",
-            "t": "2026-10-07T03:50:32Z"
-          }
-        }
-      }
-    },
-    {
       "coverTrackId": "6aa6bd1b72ca57eb1aa4a595",
       "songId": "6a992f4d486eb0e888ea72fa",
       "originalTrackId": "",
@@ -62193,10 +62153,10 @@
       "originalTrackId": "",
       "titulo": "Mamacita",
       "artista": "Enrique Iglesias",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida tras QC r1, a QC r2",
-      "actualizado": "2026-10-28T12:51:18Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T12:58:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62225,15 +62185,21 @@
             "t": "2026-10-14T08:04:08Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "Nuevo phrase item de lineas 11/26/34/44 palabras 2-3 sin traduccion primaria en los 19 idiomas; resto verificado OK",
-            "t": "2026-10-28T12:50:09Z"
+            "v": "ok",
+            "nota": "QC r2: phrase item primaries fixed in 19 languages; all checks re-run clean (litchk, lpchk, BAD 0, structure, twins, 257 anchors read)",
+            "t": "2026-10-28T12:58:26Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "Nuevo phrase item de lineas 11/26/34/44 palabras 2-3 sin traduccion primaria en los 19 idiomas; resto verificado OK",
-          "t": "2026-10-28T12:50:09Z"
+          "v": "VERDE",
+          "resumen": "QC r2: phrase item primaries fixed in 19 languages; all checks re-run clean (litchk, lpchk, BAD 0, structure, twins, 257 anchors read)",
+          "t": "2026-10-28T12:58:26Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:58:27Z"
         }
       },
       "motivo_en": "QC r2"
@@ -73835,10 +73801,10 @@
       "originalTrackId": "",
       "titulo": "La Marcha De Las Letras",
       "artista": "Tradicional Infantil",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida tras QC r1, a QC r2",
-      "actualizado": "2026-10-28T12:52:10Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T13:08:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73867,15 +73833,21 @@
             "t": "2026-10-27T19:11:30Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: English draft is missing the WIT on line 28 word 1 (twin line 12 word 1 has one); everything else verified",
-            "t": "2026-10-28T12:49:43Z"
+            "v": "ok",
+            "nota": "QC r2: L28 w1 WIT fixed (same as twin L12 w1); all checks 0, BAD 0, draft pending_review",
+            "t": "2026-10-28T13:08:50Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: English draft is missing the WIT on line 28 word 1 (twin line 12 word 1 has one); everything else verified",
-          "t": "2026-10-28T12:49:43Z"
+          "v": "VERDE",
+          "resumen": "QC r2: L28 w1 WIT fixed (same as twin L12 w1); all checks 0, BAD 0, draft pending_review",
+          "t": "2026-10-28T13:08:50Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T13:08:51Z"
         }
       },
       "motivo_en": "QC r2"
@@ -75219,10 +75191,10 @@
       "originalTrackId": "",
       "titulo": "Terrenal",
       "artista": "El Chapo de Sinaloa",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-10-28T12:52:39Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T13:10:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75246,23 +75218,29 @@
             "t": "2026-10-28T09:51:57Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (30 lineas, 162 WIT con DT de su bolsa, 7 PIT); lo aplica el orquestador",
-            "t": "2026-10-28T09:51:58Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-28T13:10:00Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "English draft: line 23 word index 2 has no WIT (twins in 11/15/27 do); everything else clean",
-            "t": "2026-10-28T12:52:38Z"
+            "v": "ok",
+            "nota": "QC r2: L23 w3 WIT fixed and matches twins; lit/lpchk/wit_dt 0; 162/162 anclas y WIT; audio SUENA_SIN_BLINDAR; borrador pending_review",
+            "t": "2026-10-28T13:09:54Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "English draft: line 23 word index 2 has no WIT (twins in 11/15/27 do); everything else clean",
-          "t": "2026-10-28T12:52:38Z"
+          "v": "VERDE",
+          "resumen": "QC r2: L23 w3 WIT fixed and matches twins; lit/lpchk/wit_dt 0; 162/162 anclas y WIT; audio SUENA_SIN_BLINDAR; borrador pending_review",
+          "t": "2026-10-28T13:09:54Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T13:10:02Z"
         }
       },
-      "motivo_en": "In the English draft, the word at line 23, word index 2 (base 0) has no WIT; copy the WIT (same DT and text) from its twins in lines 11/15/27, then resubmit to pending_review."
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa52ace42b8d1fdb0c84f8b",
@@ -75490,10 +75468,10 @@
       "originalTrackId": "",
       "titulo": "Maldita Suerte",
       "artista": "Sin Bandera, Victor Manuelle",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T09:53:22Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T12:57:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75520,7 +75498,23 @@
             "v": "ok",
             "nota": "en_plan.json: 65 lineas + 342 WIT + 2 PIT, wit_dt_audit BAD 0; 1 WIT (l43 w4) necesita fila nueva --addrows",
             "t": "2026-10-28T09:53:21Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1 VERDE: litchk/lpchk 0, BAD 0, estructura y anclas ok, ingles pending_review, items nuevos completos, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-28T12:57:19Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1 VERDE: litchk/lpchk 0, BAD 0, estructura y anclas ok, ingles pending_review, items nuevos completos, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-28T12:57:19Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:57:21Z"
         }
       }
     },
@@ -75530,10 +75524,10 @@
       "originalTrackId": "",
       "titulo": "Me Voy A Quitar De En Medio",
       "artista": "Henry Castro",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto: línea 8 palabra 3 WIT de (usar la DT primaria); línea 7 palabra 1 ancla de y (usar la copulativa); reabrir el borrador de inglés y reenviar",
-      "actualizado": "2026-10-28T12:51:34Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T13:09:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75557,23 +75551,29 @@
             "t": "2026-10-28T09:53:55Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 73 líneas, 272/272 WIT con DT propio, 10 PIT; dry run limpio; lo aplica el orquestador",
-            "t": "2026-10-28T09:53:56Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-28T13:09:40Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: línea 8 palabra 3 WIT de 'with' debe ser 'of'; línea 7 palabra 1 ancla y con sentido enfático, usar la copulativa",
-            "t": "2026-10-28T12:51:33Z"
+            "v": "ok",
+            "nota": "QC r2: fixes L7 w1 y L8 w3 confirmados; checks litchk/lpchk/wit_dt/audio ok; 73/73 ingles; sin defectos",
+            "t": "2026-10-28T13:09:28Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: línea 8 palabra 3 WIT de 'with' debe ser 'of'; línea 7 palabra 1 ancla y con sentido enfático, usar la copulativa",
-          "t": "2026-10-28T12:51:33Z"
+          "v": "VERDE",
+          "resumen": "QC r2: fixes L7 w1 y L8 w3 confirmados; checks litchk/lpchk/wit_dt/audio ok; 73/73 ingles; sin defectos",
+          "t": "2026-10-28T13:09:28Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T13:09:41Z"
         }
       },
-      "motivo_en": "QC r1 returned: line 8 word 3 WIT for 'de' is the wrong secondary DT (use the primary); line 7 word 1 is anchored to the emphatic 'y' item (use the copulative one); reopen the English draft and resubmit"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa80fccd951e1665a7f1e1b",
@@ -75592,10 +75592,10 @@
       "originalTrackId": "",
       "titulo": "Mi Novia Y Mi Pueblo",
       "artista": "El Binomio de Oro",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T09:58:34Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T13:12:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75622,9 +75622,26 @@
             "v": "ok",
             "nota": "en_plan.json listo: 60 lineas + 383 WIT (DT de su propia bolsa, 0 vacios) + 11 PIT; dry run apply_en_plan 383/383 sin saltos; sin draft abierto, lo aplica el orquestador",
             "t": "2026-10-28T09:58:33Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r2: primarias del item de frase nuestro confirmadas (19/19); litchk 0, lpchk 0, BAD 0, estructura y timing ok, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-28T13:12:24Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r2: primarias del item de frase nuestro confirmadas (19/19); litchk 0, lpchk 0, BAD 0, estructura y timing ok, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-28T13:12:24Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T13:12:25Z"
         }
-      }
+      },
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa6e79972ca57eb1aa8c1a9",
@@ -76089,9 +76106,9 @@
       "titulo": "Vaina Loca",
       "artista": "Ozuna X Manuel Turizo",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T10:14:11Z",
+      "vueltas": 1,
+      "motivo": "corregida tras QC r1, a QC r2",
+      "actualizado": "2026-10-28T13:13:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -76118,9 +76135,20 @@
             "v": "falta",
             "nota": "plan a mano en es_map/payloads/<id>/en_plan.json: 56 lineas, 375/375 WIT con DT de su bolsa, 13 PIT; dry-run apply_en_plan limpio; sin draft abierto (lo aplica el orquestador)",
             "t": "2026-10-28T10:14:10Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: ortografia de un token en 2 lineas (23 y 27, palabra 4) por corregir; resto verde",
+            "t": "2026-10-28T12:57:47Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: ortografia de un token en 2 lineas (23 y 27, palabra 4) por corregir; resto verde",
+          "t": "2026-10-28T12:57:47Z"
         }
-      }
+      },
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa5b3fc42b8d1fdb0d2c24b",
@@ -76128,10 +76156,10 @@
       "originalTrackId": "",
       "titulo": "Embrujo De Amor",
       "artista": "Grupo Chevere",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T10:08:44Z",
+      "estado": "hecha",
+      "vueltas": 1,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T13:10:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -76155,12 +76183,29 @@
             "t": "2026-10-28T10:08:36Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json a mano: 59 lineas, 240/240 WIT con texto y DT de su bolsa, 9 PIT; apply_en_plan seco ok, wit_dt_audit BAD 0; sin draft abierto: lo aplica el orquestador",
-            "t": "2026-10-28T10:08:37Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-28T13:10:13Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r2: L43 w1 fix confirmed (capital I primary row); lit/lpchk/wit_dt 0, guard SUENA_SIN_BLINDAR, twins and English draft clean",
+            "t": "2026-10-28T13:10:04Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r2: L43 w1 fix confirmed (capital I primary row); lit/lpchk/wit_dt 0, guard SUENA_SIN_BLINDAR, twins and English draft clean",
+          "t": "2026-10-28T13:10:04Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T13:10:14Z"
         }
-      }
+      },
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa5f9bb42b8d1fdb0d95adb",
@@ -76169,9 +76214,9 @@
       "titulo": "Este Corazon",
       "artista": "la Secta All Star",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T10:11:33Z",
+      "vueltas": 2,
+      "motivo": "corregida tras QC r2, a QC r3 (ronda final)",
+      "actualizado": "2026-10-28T13:13:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -76198,9 +76243,20 @@
             "v": "falta",
             "nota": "en_plan.json listo: 51 lineas, 233 WIT con DT de su bolsa, 3 PIT; lo aplica el orquestador (no abro draft)",
             "t": "2026-10-28T10:11:32Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r2: R1 fix confirmed (L14 pronoun WIT); new defect: line 20 words 1 and 4 anchored to the intimate-act sense of the preposition instead of the beneficiary sense; everything else checks out",
+            "t": "2026-10-28T13:10:27Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r2: R1 fix confirmed (L14 pronoun WIT); new defect: line 20 words 1 and 4 anchored to the intimate-act sense of the preposition instead of the beneficiary sense; everything else checks out",
+          "t": "2026-10-28T13:10:27Z"
         }
-      }
+      },
+      "motivo_en": "QC r3"
     },
     {
       "coverTrackId": "6aa6763272ca57eb1a9f2322",
