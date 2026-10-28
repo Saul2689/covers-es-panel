@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T14:04:12Z",
+  "generado": "2026-10-28T14:19:44Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -7223,36 +7223,36 @@
       "originalTrackId": "",
       "titulo": "Nuestro Amor",
       "artista": "RBD",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T17:02:29Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-28T14:06:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 86%",
-            "t": "2026-10-06T16:50:41Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-28T14:06:45Z"
           },
           "lrc": {
             "v": "ok",
-            "nota": "acentos y tildes restauradas (48 tokens), sin puntuacion final, ear-notes en informe",
-            "t": "2026-10-06T17:01:13Z"
+            "nota": "30 tokens duplicados del join quitados en lineas 6,8,13,15,27,28,33,35,43,45,63; tildes asi x34; comas internas 2,11,31,52,57; mayusculas 28,60; linea 5 palabra 3 y linea 28 palabra 5 al texto del original",
+            "t": "2026-10-28T14:06:46Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "37 palabras de 0 ms alargadas con richsync_set; drift 0; ninguna palabra <40 ms",
-            "t": "2026-10-06T17:01:14Z"
+            "nota": "drift 0 en 65 lineas; 0 palabras <40 ms (32 richsync_set); audio_guard SUENA_SIN_BLINDAR stemVoc +0 ms conf 1.95, sin medir ni pin",
+            "t": "2026-10-28T14:06:47Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "144 anclas escritas/remapeadas; 0 sin mapear salvo ad-lib final; item nuevo hacerle (sentido 'hacer algo al respecto')",
-            "t": "2026-10-06T17:01:14Z"
+            "nota": "261/262 anclas (solo vocables linea 65); 83 nuevas, 15 remapeadas (hacerle x4 al sentido bueno, nada/mejor/es gemelas, como linea 1, no linea 23), 20 fuera de rango borradas; sin items nuevos",
+            "t": "2026-10-28T14:06:47Z"
           },
           "ingles": {
             "v": "falta",
-            "nota": "plan en es_map/payloads/6aa6b23c72ca57eb1aa38054/en_plan.json (106 lineas, 287 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T17:02:29Z"
+            "nota": "en_plan.json reescrito: 65 lineas + 257 WIT con DT de su bolsa; apply_en_plan seco: lines ok, 0 wi_gone; lo aplica el orquestador",
+            "t": "2026-10-28T14:06:48Z"
           }
         }
       }
@@ -9890,10 +9890,10 @@
       "originalTrackId": "",
       "titulo": "Bachata Rosa",
       "artista": "Juan Luis Guerra",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-28T14:02:59Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-28T14:05:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9918,8 +9918,8 @@
           },
           "ingles": {
             "v": "falta",
-            "nota": "Ingles preparado en en_plan.json (89 lineas, 268 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T16:55:38Z"
+            "nota": "en_plan.json reescrito para las anclas actuales: 79 lineas + 274 WIT con DT de su bolsa; apply_en_plan seco: lineas ok, 0 wi_gone; falta que el orquestador abra el borrador y lo aplique",
+            "t": "2026-10-28T14:05:14Z"
           }
         }
       }
@@ -9932,8 +9932,8 @@
       "artista": "Elvis Crespo",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T14:03:57Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T14:16:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9962,7 +9962,8 @@
             "t": "2026-10-28T14:03:56Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa110f464c9b8ff110c0756",
@@ -10026,10 +10027,10 @@
       "originalTrackId": "",
       "titulo": "Diseñame",
       "artista": "Joan Sebastian",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T17:02:25Z",
+      "motivo": "falta 1 item nuevo (sin créditos IA)",
+      "actualizado": "2026-10-28T14:17:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10039,26 +10040,27 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "acentos y tildes restauradas (23 tokens), sin merges",
-            "t": "2026-10-06T16:58:10Z"
+            "nota": "L14 tok4-5 errata proveedor corregida al original, L24 tok1 al original, L10 insert tok5 del original; drift 0",
+            "t": "2026-10-28T14:04:38Z"
           },
           "mapeo": {
-            "v": "ok",
-            "nota": "153/153 ancladas, 11 items nuevos (19 idiomas), sentidos remapeados",
-            "t": "2026-10-06T17:01:26Z"
+            "v": "saul",
+            "nota": "153/154 ancladas; 12 anclas nuevas + 6 remapeos de sentido; falta 1 item nuevo (L14 tok4, sentido sellar=estampar) sin creditos",
+            "t": "2026-10-28T14:04:39Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "drift 0, ninguna palabra <40 ms (min 64), huecos de 24 s coinciden con el original; audio 206 SUENA_SIN_BLINDAR sin tocar",
-            "t": "2026-10-06T17:02:25Z"
+            "nota": "drift 0 en 31 lineas, palabra minima 64 ms; huecos L22/L31 instrumentales en el original; audio SUENA_SIN_BLINDAR stemVoc -20 ms, sin tocar",
+            "t": "2026-10-28T14:04:38Z"
           },
           "ingles": {
             "v": "falta",
-            "nota": "plan en en_plan.json (51 lineas, 153 WIT con DT); falta abrir el borrador",
-            "t": "2026-10-06T17:02:25Z"
+            "nota": "en_plan.json reescrito: 31/31 lineas, 153/153 WIT con DT de su bolsa, dry run 0 wi_gone; lo aplica el orquestador",
+            "t": "2026-10-28T14:04:39Z"
           }
         }
-      }
+      },
+      "motivo_en": "needs 1 new item (no AI credits)"
     },
     {
       "coverTrackId": "6aa6fe9b72ca57eb1aaa1335",
@@ -10066,39 +10068,40 @@
       "originalTrackId": "",
       "titulo": "Aca Entre Nos",
       "artista": "Vicente Fernandez",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T17:02:13Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T14:16:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 91%",
-            "t": "2026-10-06T16:52:04Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-28T14:05:39Z"
           },
           "lrc": {
-            "v": "ok",
-            "nota": "18 tildes/acentos corregidos; 3 notas de oido para Saul",
-            "t": "2026-10-06T17:00:22Z"
+            "v": "saul",
+            "nota": "4 palabras corregidas al original (l13 y l27 palabra 6; l18 y l31 palabra 7), 1 palabra insertada al inicio de l2 (original), mayuscula l2 palabra 2; dudoso: hueco de 22 s entre l22 y l23 donde el original tiene 3 lineas habladas (interludio): Saul escucha si el cover las dice",
+            "t": "2026-10-28T14:05:39Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "0 sin mapear, 4 items nuevos, gemelas unificadas, sentidos remapeados",
-            "t": "2026-10-06T17:00:22Z"
+            "nota": "sin_mapear 12->0, gemelas 10->0; 12 anclas nuevas, 8 anclas de l2 desplazadas, 13 remapeos; 0 items nuevos",
+            "t": "2026-10-28T14:05:40Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "drift 0, audio SUENA_SIN_BLINDAR; hueco de 20s linea 47 anotado",
-            "t": "2026-10-06T17:00:23Z"
+            "nota": "drift 0 en las 35 lineas; l2 empieza en la palabra insertada (31681 ms); palabra minima 80 ms; audio_guard SUENA_SIN_BLINDAR, nada medido",
+            "t": "2026-10-28T14:05:40Z"
           },
           "ingles": {
             "v": "falta",
-            "nota": "plan en es_map/payloads/<id>/en_plan.json: 72 lineas + 215 WIT, falta abrir borrador",
-            "t": "2026-10-06T17:02:13Z"
+            "nota": "en_plan.json reescrito para las anclas actuales: 35 lineas, 216 WIT con texto y DT del propio item; dry run apply_en_plan limpio, wit_dt_audit BAD 0; lo aplica el orquestador",
+            "t": "2026-10-28T14:05:41Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6e7d472ca57eb1aa8c481",
@@ -10106,10 +10109,10 @@
       "originalTrackId": "",
       "titulo": "Te Quiero Asi",
       "artista": "Valentín Elizalde",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T17:01:39Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T14:16:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10119,26 +10122,27 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "30 tokens: tildes (estás, así, tú, escogí, daré, haré, jamás) y ¿? lineas 13-15 y 46-48",
-            "t": "2026-10-06T17:01:38Z"
+            "nota": "reanudado 28 oct: plan de tildes lineas 7/9/18/20 ya aplicado por el worker anterior (timings iguales al backup); no se reaplica",
+            "t": "2026-10-28T14:12:31Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "drift 0, ninguna palabra <40 ms, hueco de 25 s antes de la linea 34 es instrumental real del cover (la LRC del original esta desordenada)",
-            "t": "2026-10-06T17:01:38Z"
+            "nota": "drift 0 en 22 lineas, 0 palabras <40 ms; hueco antes de linea 12 = instrumental (el original tiene linea vacia y el mismo hueco); audio SUENA_SIN_BLINDAR stemVoc -20 ms, no se mide",
+            "t": "2026-10-28T14:12:32Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "212/212 ancladas, gemelas unificadas, 3 items nuevos con 19 idiomas",
-            "t": "2026-10-06T17:01:38Z"
+            "nota": "212/212 anclas, 0 fuera de rango, 0 duplicadas; gemelas 1-11 = 12-22 con items identicos; sin items nuevos",
+            "t": "2026-10-28T14:12:32Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json; falta abrir el borrador (start_draft)",
-            "t": "2026-10-06T17:01:38Z"
+            "v": "ok",
+            "nota": "en_plan.json reescrito para las anclas actuales: 22 lineas + 212 WIT con texto y DT de su bolsa; dry run apply_en_plan: lines ok, 0 wi_gone; lo aplica el orquestador",
+            "t": "2026-10-28T14:12:33Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa63f6f72ca57eb1a9a8143",
@@ -10146,36 +10150,36 @@
       "originalTrackId": "",
       "titulo": "Donde Estara Mi Primavera",
       "artista": "Marco Antonio Solís",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T16:57:28Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-28T14:04:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 92%",
-            "t": "2026-10-06T16:49:06Z"
+            "nota": "carry en lote ya aplicado (36 lineas); no re-proyectado",
+            "t": "2026-10-28T14:04:46Z"
           },
           "lrc": {
             "v": "ok",
-            "nota": "27 tildes/ortografia corregidas (21 lineas); sin cambios de nº de tokens; ear-notes aparte",
-            "t": "2026-10-06T16:51:57Z"
+            "nota": "28 oct: L5 tok2 y L14 tok1 a la forma del original; L24 y L34 tok4 extra borrado (original arbitra); L36 espacio final + palabra vacia de richsync quitados; rs 169 = tokens 169",
+            "t": "2026-10-28T14:04:47Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "drift 0, ninguna palabra <40 ms; hueco de 29 s tras la linea 35 = instrumental tambien en el original; audio_guard SUENA_SIN_BLINDAR (206), no se toca",
-            "t": "2026-10-06T16:57:28Z"
+            "nota": "drift 0 en 36 lineas, 0 palabras <40 ms; hueco L25-L26 instrumental (original sin linea cantada ahi); audio SUENA_SIN_BLINDAR stemVoc +0 ms conf 1.83, no medido",
+            "t": "2026-10-28T14:04:48Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "0 sin mapear, gemelas unificadas, 2 items nuevos (19 idiomas) + 1 phrase insight; ver informe",
-            "t": "2026-10-06T16:57:28Z"
+            "nota": "0 sin mapear: L15 tok6 y L23 tok5 anclados; L5/L14/L24/L34 remapeados; y L10/L29 y que L24/L34 al sentido correcto; 2 phrase insights (L29, L31). Falta item participio para L23/L33 tok5 (sin credito, no creado)",
+            "t": "2026-10-28T14:04:49Z"
           },
           "ingles": {
             "v": "falta",
-            "nota": "preparado en en_plan.json; falta abrir el borrador",
-            "t": "2026-10-06T16:57:28Z"
+            "nota": "en_plan.json reescrito para las anclas actuales: 36 lineas, 169/169 WIT con DT del bag propio, 2 PIT, dry run 0 wi_gone; lo aplica el orquestador",
+            "t": "2026-10-28T14:04:50Z"
           }
         }
       }
@@ -10370,10 +10374,10 @@
       "originalTrackId": "",
       "titulo": "Desde Cuando",
       "artista": "Alejandro Sanz",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T17:04:30Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-28T14:09:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10383,23 +10387,23 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "tildes/acentos corregidos (21 tokens), sin puntuacion final, 0 palabras <40ms",
-            "t": "2026-10-06T17:02:02Z"
+            "nota": "28 oct: LRC sin cambios (54 lineas tras union, 266 tokens = richsync); restos qc justificados: l9 p4 y l16 p3 variantes cantadas, l25/l27 ad-libs",
+            "t": "2026-10-28T14:08:58Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "drift 0; audio SUENA_SIN_BLINDAR sin accion",
-            "t": "2026-10-06T17:02:02Z"
+            "nota": "28 oct: drift 0 en las 54 lineas, primera linea 10420 ms; audio_guard SUENA_SIN_BLINDAR (audio 206, stemVoc -20 ms conf 1.13): sin accion",
+            "t": "2026-10-28T14:08:59Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "0 sin mapear, sentidos y gemelas unificadas, items nuevos con 19 idiomas",
-            "t": "2026-10-06T17:02:02Z"
+            "nota": "28 oct: 5 anclas recreadas (l20/l42/l51 p8, l23/l45 p3), 10 remapeos (sentido/gemelas), 11 phrase insights a items existentes; sin items nuevos (sin credito); l27 p2 ad-lib sin ancla; necesidad: item nuevo para l38 p4 / l47 p8 (sentido 'to drive/make')",
+            "t": "2026-10-28T14:09:31Z"
           },
           "ingles": {
             "v": "falta",
-            "nota": "plan de ingles (99 lineas, 262 WIT con DT) en payloads/en_plan.json; falta abrir el borrador",
-            "t": "2026-10-06T17:04:30Z"
+            "nota": "28 oct: en_plan.json reescrito para anclas actuales: 54 lineas ok, 259 WIT, 11 PIT, wi_gone 0; 2 WIT custom (l38 p4, l47 p8) piden --addrows; falta aplicar borrador (orquestador)",
+            "t": "2026-10-28T14:09:00Z"
           }
         }
       }
@@ -53676,10 +53680,10 @@
       "originalTrackId": "",
       "titulo": "Esperanzas",
       "artista": "Yuri",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "frase anclada y ejemplo reescrito, a QC r2",
-      "actualizado": "2026-10-28T14:01:07Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T14:07:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53703,20 +53707,26 @@
             "t": "2026-10-07T04:44:07Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (54 lineas, 176 WIT, 3 PIT); falta abrir el borrador",
-            "t": "2026-10-07T04:44:08Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, QC r2 verificado",
+            "t": "2026-10-28T14:07:01Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: frase por fin sin anclar (linea 15 palabras 2-3, ya existe phrase item es); ejemplo de item nuevo copiado de la letra (linea 22 palabra 4)",
-            "t": "2026-10-28T13:58:35Z"
+            "v": "ok",
+            "nota": "QC r2: fixes confirmed (line 15 words 2-3 phrase insight with PIT, example of item replaced); litchk/lpchk 0, BAD 0, structure and English clean",
+            "t": "2026-10-28T14:06:46Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: frase por fin sin anclar (linea 15 palabras 2-3, ya existe phrase item es); ejemplo de item nuevo copiado de la letra (linea 22 palabra 4)",
-          "t": "2026-10-28T13:58:35Z"
+          "v": "VERDE",
+          "resumen": "QC r2: fixes confirmed (line 15 words 2-3 phrase insight with PIT, example of item replaced); litchk/lpchk 0, BAD 0, structure and English clean",
+          "t": "2026-10-28T14:06:46Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T14:07:02Z"
         }
       },
       "motivo_en": "QC r2"
@@ -54043,10 +54053,10 @@
       "originalTrackId": "",
       "titulo": "Corazon De Bachata",
       "artista": "Juan Manuel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "tildes arregladas, a QC r2",
-      "actualizado": "2026-10-28T13:57:23Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T14:06:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54070,20 +54080,26 @@
             "t": "2026-10-07T05:38:22Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (40 lineas, 182 WIT, 3 PIT, wit_dt_audit BAD 0); falta abrir el borrador",
-            "t": "2026-10-07T05:38:23Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-28T14:06:00Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: 13 verb tokens lack the preterite tilde their anchor assumes (lines 3,4,14,15,17,18,21,24,34,36,38,40); rest passes",
-            "t": "2026-10-28T13:48:37Z"
+            "v": "ok",
+            "nota": "QC r2: 13 tildes de preterito confirmadas, timings iguales, vchk 0, litchk/lpchk 0, BAD 0, WIT vacios 0",
+            "t": "2026-10-28T14:05:54Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: 13 verb tokens lack the preterite tilde their anchor assumes (lines 3,4,14,15,17,18,21,24,34,36,38,40); rest passes",
-          "t": "2026-10-28T13:48:37Z"
+          "v": "VERDE",
+          "resumen": "QC r2: 13 tildes de preterito confirmadas, timings iguales, vchk 0, litchk/lpchk 0, BAD 0, WIT vacios 0",
+          "t": "2026-10-28T14:05:54Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T14:06:02Z"
         }
       },
       "motivo_en": "QC r2"
@@ -54260,10 +54276,10 @@
       "originalTrackId": "",
       "titulo": "Quiero Siento Y Pienso",
       "artista": "Alex Campos",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "tilde de subjuntivo arreglada, a QC r2",
-      "actualizado": "2026-10-28T13:59:05Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T14:04:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54287,20 +54303,26 @@
             "t": "2026-10-07T05:39:26Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (63 lineas, 195 WIT, 1 PIT); falta abrir borrador",
-            "t": "2026-10-07T05:39:26Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-28T14:04:55Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "tilde de pretérito en lugar de subjuntivo: línea 11, 30, 41, 43 palabra 3; resto verificado (estructura, WIT, inglés, audio, items nuevos)",
-            "t": "2026-10-28T13:57:39Z"
+            "v": "ok",
+            "nota": "QC r2: tilde fix on 4 anchors confirmed; litchk, lpchk, wit_dt BAD 0, audio SUENA_SIN_BLINDAR, 0 empty WIT, twins and primaries OK",
+            "t": "2026-10-28T14:04:49Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "tilde de pretérito en lugar de subjuntivo: línea 11, 30, 41, 43 palabra 3; resto verificado (estructura, WIT, inglés, audio, items nuevos)",
-          "t": "2026-10-28T13:57:39Z"
+          "v": "VERDE",
+          "resumen": "QC r2: tilde fix on 4 anchors confirmed; litchk, lpchk, wit_dt BAD 0, audio SUENA_SIN_BLINDAR, 0 empty WIT, twins and primaries OK",
+          "t": "2026-10-28T14:04:49Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T14:04:57Z"
         }
       },
       "motivo_en": "QC r2"
@@ -57416,10 +57438,10 @@
       "originalTrackId": "",
       "titulo": "Estigma De Amor",
       "artista": "Kany Garcia",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T13:52:23Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T14:07:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -57443,10 +57465,26 @@
             "t": "2026-10-07T06:20:27Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json-preparado-falta-abrir-borrador",
-            "t": "2026-10-07T06:20:28Z"
+            "v": "ok",
+            "nota": "borrador de ingles en pending_review, QC r1 verificado",
+            "t": "2026-10-28T14:07:40Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, anclas, tildes, gemelas, frases, ingles (pending_review) y audio OK; notas de oido L14, L7/L21",
+            "t": "2026-10-28T14:07:30Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, anclas, tildes, gemelas, frases, ingles (pending_review) y audio OK; notas de oido L14, L7/L21",
+          "t": "2026-10-28T14:07:30Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T14:07:41Z"
         }
       },
       "motivo_en": "QC r1"
@@ -60534,9 +60572,9 @@
       "titulo": "El Hombre Del Piano (Piano Man)",
       "artista": "Yuridia",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T13:54:52Z",
+      "vueltas": 1,
+      "motivo": "corregida tras QC r1, a QC r2",
+      "actualizado": "2026-10-28T14:12:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -60563,10 +60601,20 @@
             "v": "falta",
             "nota": "plan en en_plan.json, falta abrir el borrador",
             "t": "2026-10-07T07:09:09Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "twin lines 12/28/41/59 word 2 anchors differ; WIT line 25 word 2 and line 34 word 4 not the in-context row",
+            "t": "2026-10-28T14:09:45Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "twin lines 12/28/41/59 word 2 anchors differ; WIT line 25 word 2 and line 34 word 4 not the in-context row",
+          "t": "2026-10-28T14:09:45Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa5043942b8d1fdb0c47d41",
@@ -62209,10 +62257,10 @@
       "originalTrackId": "",
       "titulo": "Como Has Hecho",
       "artista": "Domenico Modugno",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T13:52:38Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-10-28T14:07:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62239,10 +62287,20 @@
             "v": "falta",
             "nota": "en_plan.json listo (75 lineas, 274 WIT, 9 PIT), falta abrir el borrador",
             "t": "2026-10-07T07:34:55Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: tokens mal escritos (lineas 52 p3-4 partida, 29 p3-4 de el, 53 p1 tilde interrogativa); resto verificado OK",
+            "t": "2026-10-28T14:07:29Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: tokens mal escritos (lineas 52 p3-4 partida, 29 p3-4 de el, 53 p1 tilde interrogativa); resto verificado OK",
+          "t": "2026-10-28T14:07:29Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "Line 52 words 3-4: merge the two split tokens into the single correct word and remap + English WIT. Line 53 word 1: interrogative needs a tilde, remap + WIT. Line 29 words 3-4: write the contraction as one word, merge and remap. Reopen the English draft, then resubmit to pending_review."
     },
     {
       "coverTrackId": "6aa820acd951e1665a809e1f",
