@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T15:42:39Z",
+  "generado": "2026-10-28T15:55:10Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -70849,19 +70849,40 @@
       "originalTrackId": "",
       "titulo": "Basta Ya",
       "artista": "Conjunto Primavera",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:23:31Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T15:50:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T02:23:31Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-28T15:45:13Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 11 y 26 palabra 3: errata ortografica corregida (misma palabra); lineas 4 palabra 1 y 8/23 palabra 4 = lo que canta el cover (richsync igual), nota de oido",
+            "t": "2026-10-28T15:45:13Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 36 lineas, ninguna palabra <40 ms ni >6 s; hueco antes de linea 20 = instrumental (el original no canta ahi); audio SUENA_SIN_BLINDAR karaokeMp3 206",
+            "t": "2026-10-28T15:45:14Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "218/218 mapeados; 7 huecos mapeados, 9 gemelas unificadas, corazon lineas 13/28 al sentido sentimientos, 16 phrase insights; 0 items nuevos",
+            "t": "2026-10-28T15:45:14Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 36 lineas, 218 WIT con DT de su bolsa, 16 PIT; lo aplica el orquestador",
+            "t": "2026-10-28T15:45:15Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5d9d842b8d1fdb0d656a1",
@@ -70891,10 +70912,10 @@
       "originalTrackId": "",
       "titulo": "Hay Muchas Cosas Que Me Gustan De Ti",
       "artista": "Jose Luis Rodríguez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T15:42:14Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T15:51:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70918,12 +70939,29 @@
             "t": "2026-10-28T15:42:13Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "inglés escrito a mano en en_plan.json (28 lineas, 184 WIT); lo aplica el orquestador",
-            "t": "2026-10-28T15:42:13Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-28T15:50:58Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, mapeo, ingles (28 lineas, 184 WIT), litchk/lpchk 0, BAD 0, guard SUENA_SIN_BLINDAR. Notas para Saul: linea 19 palabra 2 (cuanto/cuanto con tilde), linea 3 palabra 8, item linea 6 palabra 18 sin traducciones",
+            "t": "2026-10-28T15:50:46Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, mapeo, ingles (28 lineas, 184 WIT), litchk/lpchk 0, BAD 0, guard SUENA_SIN_BLINDAR. Notas para Saul: linea 19 palabra 2 (cuanto/cuanto con tilde), linea 3 palabra 8, item linea 6 palabra 18 sin traducciones",
+          "t": "2026-10-28T15:50:46Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T15:51:00Z"
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa7287172ca57eb1aae295c",
@@ -70942,19 +70980,40 @@
       "originalTrackId": "",
       "titulo": "Si Tu Quisieras",
       "artista": "Luis Fonsi",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:23:28Z",
+      "motivo": "falta 5 items nuevos (sin créditos IA): 3 condicionales, 1 sustantivo, 1 gerundio (8 tokens, lista en el job); plan inglés listo en es_map/payloads",
+      "actualizado": "2026-10-28T15:47:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-07T02:23:27Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-28T15:47:13Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC sin defectos; vs_original_falta L27/L28 justificado: el cover parte la linea 29 del original en dos, mismas palabras",
+            "t": "2026-10-28T15:47:14Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 33 lineas, ninguna palabra <40 ms ni >6 s; audio_guard SUENA_SIN_BLINDAR (karaokeMp3, 206): nada que hacer",
+            "t": "2026-10-28T15:47:14Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "7 remapeos (gemelas+sentido L28), 3 anclas nuevas, 2 phrase insights; quedan 8 tokens sin item es (L6 w0, L10 w0, L12 w0, L13 w1, L18 w0, L22 w0, L24 w0, L25 w1): crear items prohibido sin credito",
+            "t": "2026-10-28T15:47:15Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 33 lineas, 187/187 WIT con DT del bag (BAD 0), 2 PIT; lo aplica el orquestador",
+            "t": "2026-10-28T15:47:15Z"
           }
         }
-      }
+      },
+      "motivo_en": "needs 5 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa1112064c9b8ff110c9d00",
@@ -71871,10 +71930,10 @@
       "originalTrackId": "",
       "titulo": "No Es Tan Facil",
       "artista": "Grupo Limite",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T15:41:34Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T15:47:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -71898,10 +71957,26 @@
             "t": "2026-10-28T15:37:39Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 34 lineas + 162 WIT con DT de su bolsa; lo aplica el orquestador",
-            "t": "2026-10-28T15:37:39Z"
+            "v": "ok",
+            "nota": "borrador EN en pending_review; 34 lineas y 162 WIT",
+            "t": "2026-10-28T15:47:17Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: qc_es solo errata 2 (cover, nota de oido l7 p3 y l21 p3) y timing 1 (instrumental); litchk/lpchk/BAD 0; 162 anclas, 34 lineas EN, gemelas iguales, draft pending_review",
+            "t": "2026-10-28T15:47:10Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: qc_es solo errata 2 (cover, nota de oido l7 p3 y l21 p3) y timing 1 (instrumental); litchk/lpchk/BAD 0; 162 anclas, 34 lineas EN, gemelas iguales, draft pending_review",
+          "t": "2026-10-28T15:47:10Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T15:47:19Z"
         }
       },
       "motivo_en": "QC r1"
@@ -72173,19 +72248,40 @@
       "originalTrackId": "",
       "titulo": "Quitame A Ese Hombre Del Corazon",
       "artista": "Yolandita Monge",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:22:51Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T15:54:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 100%",
-            "t": "2026-10-07T02:22:51Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-28T15:46:56Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio, 0 cambios; nota de oido L19 entre palabra 3 y 4 (el original trae una palabra mas; el cover no la trae, no se inserta)",
+            "t": "2026-10-28T15:46:56Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 42 lineas, 0 palabras <40 ms, primera linea 23436 ms; audio SUENA_SIN_BLINDAR stemVoc +0 conf 1.40, sin medir ni pin",
+            "t": "2026-10-28T15:46:57Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "202/202 anclas; gemela L6/L23 w2 unificada; L24 w8 = L8 w4; 7 phrase insights a items existentes; 0 items nuevos",
+            "t": "2026-10-28T15:46:57Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json: 42 lineas + 202 WIT con texto y DT de su bolsa; pendiente de aplicar por el orquestador",
+            "t": "2026-10-28T15:46:58Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa1111164c9b8ff110c6a3f",
@@ -72264,19 +72360,40 @@
       "originalTrackId": "",
       "titulo": "Atrapado",
       "artista": "Camilo Sesto",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:23:03Z",
+      "motivo": "falta 2 items nuevos (sin créditos IA): L8 p3 y L36 p3 sin item con el sentido; plan inglés listo",
+      "actualizado": "2026-10-28T15:55:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T02:23:03Z"
+            "nota": "carry ya aplicado (lote 99%); no se re-proyecta",
+            "t": "2026-10-28T15:50:17Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "8 tokens: l25/l44 w1 signo de apertura; l26/l45 w1 apertura (+tilde en l26); l55/l57 w1 y l56/l58 w4 parentesis fuera; l36 falta w1 del original = nota de oido (cover manda); l39 puntos suspensivos = estilo",
+            "t": "2026-10-28T15:50:17Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 58 lineas; 0 palabras <40 ms; audio_guard SUENA_SIN_BLINDAR (karaokeMp3, audio 206), sin tocar",
+            "t": "2026-10-28T15:50:18Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "247/249; 2 creados (l11w6, l26w1), 20 remapeos/gemelas, 1 phrase insight l18 w3-5; 2 tokens sin item es con ese sentido (sin credito): l8w3 l36w3",
+            "t": "2026-10-28T15:50:18Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 58 lineas + 242 WIT con DT de su bolsa + 1 PIT; lo aplica el orquestador",
+            "t": "2026-10-28T15:50:19Z"
           }
         }
-      }
+      },
+      "motivo_en": "needs 2 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa82f6ed951e1665a820eae",
@@ -72626,19 +72743,40 @@
       "originalTrackId": "",
       "titulo": "La Casa Del Sol Naciente",
       "artista": "Los Iracundos",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:20:39Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T15:54:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 98%",
             "t": "2026-10-07T02:20:39Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "sin cambios: New Orleans nombre propio; signos de pregunta abren linea 5 y cierran linea 6 como el original; linea 8 palabra 0 que trae el original sin evidencia en richsync: se queda la letra del cover (nota de oido)",
+            "t": "2026-10-28T15:46:52Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 12 lineas, ninguna palabra bajo 40 ms; hueco antes de linea 9 instrumental (el original tampoco canta ahi); audio SUENA_SIN_BLINDAR karaokeMp3 206 ms, sin tocar",
+            "t": "2026-10-28T15:46:53Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "62/64; linea 2 palabra 0 remapeada a que relativo; phrase insights linea 8 palabras 0-1, linea 9 palabras 0-1, linea 12 palabras 1-2 (items existentes); linea 1 palabra 5 y linea 9 palabra 6 nombre propio sin ancla; 0 items nuevos",
+            "t": "2026-10-28T15:46:53Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo en es_map/payloads: 12 lineas, 62 WIT con DT de su bolsa, 3 PIT; dry run apply_en_plan limpio; lo aplica el orquestador",
+            "t": "2026-10-28T15:46:54Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5d3cb42b8d1fdb0d5d3a8",
@@ -72916,19 +73054,40 @@
       "originalTrackId": "",
       "titulo": "Sobre Tu Cruz",
       "artista": "Edith Marquez",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:18:32Z",
+      "motivo": "falta 1 item nuevo (sin créditos IA): pretérito 1ª persona de perdonar (L7 p2/p4); plan inglés listo",
+      "actualizado": "2026-10-28T15:55:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 94%",
-            "t": "2026-10-07T02:18:31Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-28T15:50:01Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "9 tokens: tilde l3 w1, l16 w3 y w6 (+coma), exclamativos l7 w1 w3, l17 w1, l19 w1 w4, coma l14 w3; nota de oido para Saul: l10 y l22 w5-w10 (el original dice otra cosa, richsync = LRC, se deja lo del cover)",
+            "t": "2026-10-28T15:50:01Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 23 lineas, ninguna palabra < 40 ms; hueco l14 = instrumental (el original no canta ahi); audio_guard SUENA_SIN_BLINDAR stemVoc +0 ms conf 2.85, audio 206",
+            "t": "2026-10-28T15:50:02Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "136/138 tokens ensenables mapeados (5 ad-libs fuera); 7 remapeos + 3 anclas nuevas + 14 phrase insights; l7 w2 y w4 sin mapear: falta item PRET.1SG de perdonar (sin credito, no se crea)",
+            "t": "2026-10-28T15:50:31Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo en es_map/payloads: 23 lineas, 136 WIT con DT (BAD 0), 14 PIT; lo aplica el orquestador",
+            "t": "2026-10-28T15:50:03Z"
           }
         }
-      }
+      },
+      "motivo_en": "needs 1 new dictionary item (no AI credits)"
     },
     {
       "coverTrackId": "6aa5921e42b8d1fdb0d07385",
@@ -72936,19 +73095,40 @@
       "originalTrackId": "",
       "titulo": "Busca Un Amor",
       "artista": "Formula V",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:19:39Z",
+      "motivo": "falta 1 item nuevo (sin créditos IA): adjetivo quemado m. pl. sentido físico (L13 p6); plan inglés listo",
+      "actualizado": "2026-10-28T15:55:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 95%",
-            "t": "2026-10-07T02:19:39Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-28T15:50:50Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "5 edits de tilde: L6 w1, L10 w3, L26 w1 y w6, L31 w2; L5 w6 se conserva (cover lo canta, nota de oido)",
+            "t": "2026-10-28T15:50:51Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 51 lineas, ninguna palabra <40 ms; audio guard SUENA_SIN_BLINDAR, sin accion",
+            "t": "2026-10-28T15:50:51Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "todo mapeado salvo L13 w6: ningun item es tiene el sentido (adj. quemado fisico, MASC.PLUR); no se crean items sin creditos de traduccion. 5 anclas nuevas + 22 remapeos hechos",
+            "t": "2026-10-28T15:51:00Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json: 51 lineas + 279 WIT con DT de su bolsa, 0 vacios; lo aplica el orquestador",
+            "t": "2026-10-28T15:50:52Z"
           }
         }
-      }
+      },
+      "motivo_en": "needs 1 new dictionary item (no AI credits)"
     },
     {
       "coverTrackId": "6aa5d42f42b8d1fdb0d5e3cd",
