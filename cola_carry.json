@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T11:56:34Z",
+  "generado": "2026-10-28T12:00:59Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 34,
   "canciones": [
@@ -76831,9 +76831,9 @@
       "titulo": "Contacto",
       "artista": "Yaviah",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T10:40:02Z",
+      "vueltas": 1,
+      "motivo": "corregida tras QC r1, a QC r2",
+      "actualizado": "2026-10-28T12:00:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -76860,9 +76860,20 @@
             "v": "ok",
             "nota": "en_plan.json listo: 73 lineas + 317 WIT, dry-run 317/317 ok, wit_dt_audit BAD 0; lo aplica el orquestador",
             "t": "2026-10-28T10:39:33Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: line 46 word 4 verb gloss is infinitive on a finite token (sense/WIT); twin English lines 12 and 65 differ by a comma",
+            "t": "2026-10-28T11:57:11Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: line 46 word 4 verb gloss is infinitive on a finite token (sense/WIT); twin English lines 12 and 65 differ by a comma",
+          "t": "2026-10-28T11:57:11Z"
         }
-      }
+      },
+      "motivo_en": "fixed after QC r1, to QC r2"
     },
     {
       "coverTrackId": "6aa844f8d951e1665a832625",
@@ -77298,10 +77309,10 @@
       "originalTrackId": "",
       "titulo": "Soleado",
       "artista": "Manolo Otero",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T10:51:06Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T11:57:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -77325,10 +77336,26 @@
             "t": "2026-10-28T10:51:05Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 56 lineas, 240 WIT con texto y DT de su bolsa, 4 PIT; dry run apply_en_plan limpio; falta abrir borrador (orquestador)",
-            "t": "2026-10-28T10:51:06Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 56 lineas, 240 WIT con texto",
+            "t": "2026-10-28T11:57:45Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1 VERDE: estructura, anclas, tildes, items nuevos, ingles y gemelas OK; notas de oido en el informe",
+            "t": "2026-10-28T11:57:32Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1 VERDE: estructura, anclas, tildes, items nuevos, ingles y gemelas OK; notas de oido en el informe",
+          "t": "2026-10-28T11:57:32Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T11:57:46Z"
         }
       }
     },
@@ -77483,9 +77510,9 @@
       "titulo": "Tu Corazon",
       "artista": "Alejandro Sanz, Lena",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T11:03:07Z",
+      "vueltas": 1,
+      "motivo": "corregida tras QC r1, a QC r2",
+      "actualizado": "2026-10-28T12:00:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -77512,9 +77539,20 @@
             "v": "ok",
             "nota": "en_plan.json listo para el orquestador: 104 lineas, 587/587 WIT con DT de su bolsa, 29 PIT; dry run 0 saltados; wit_dt_audit BAD 0",
             "t": "2026-10-28T11:03:06Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "tilde missing on interrogative token at line 100 word 0 (anchor is interrogative item); all other checks clean",
+            "t": "2026-10-28T11:57:24Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "tilde missing on interrogative token at line 100 word 0 (anchor is interrogative item); all other checks clean",
+          "t": "2026-10-28T11:57:24Z"
         }
-      }
+      },
+      "motivo_en": "fixed after QC r1, to QC r2"
     },
     {
       "coverTrackId": "6aa84517d951e1665a832e91",
@@ -77725,10 +77763,10 @@
       "originalTrackId": "",
       "titulo": "Viviendo",
       "artista": "Marc Anthony",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T10:56:50Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T11:56:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -77755,7 +77793,23 @@
             "v": "ok",
             "nota": "en_plan.json: 58 lineas, 242 WIT con DT de su bolsa, 25 PIT; dry run apply_en_plan limpio; lo aplica el orquestador",
             "t": "2026-10-28T10:56:50Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: structure, anchors, tildes, twins, English draft pending_review, new items and audio all clean",
+            "t": "2026-10-28T11:56:55Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: structure, anchors, tildes, twins, English draft pending_review, new items and audio all clean",
+          "t": "2026-10-28T11:56:55Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T11:56:56Z"
         }
       }
     },
