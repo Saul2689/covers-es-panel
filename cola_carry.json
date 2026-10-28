@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T13:15:02Z",
+  "generado": "2026-10-28T13:57:03Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -42727,10 +42727,10 @@
       "originalTrackId": "",
       "titulo": "Rosas En El Mar",
       "artista": "Massiel",
-      "estado": "carry",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T01:59:35Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T13:50:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42754,12 +42754,29 @@
             "t": "2026-10-07T01:59:34Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json preparado (62 lineas, 167 WIT); falta abrir el borrador",
-            "t": "2026-10-07T01:59:35Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 62 lineas y 206 WIT con texto",
+            "t": "2026-10-28T13:50:07Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, items nuevos, ingles (pending_review) y audio OK; notas en linea 20 palabra 4 y linea 48 palabra 2",
+            "t": "2026-10-28T13:50:00Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, items nuevos, ingles (pending_review) y audio OK; notas en linea 20 palabra 4 y linea 48 palabra 2",
+          "t": "2026-10-28T13:50:00Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T13:50:08Z"
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa61eb072ca57eb1a96cebd",
@@ -47831,10 +47848,10 @@
       "originalTrackId": "",
       "titulo": "Bailando",
       "artista": "Descemer Bueno, Enrique Iglesias, Gente de Zona",
-      "estado": "carry",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T03:19:19Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T13:51:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47858,12 +47875,29 @@
             "t": "2026-10-07T03:19:18Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "sin borrador abierto: en_plan.json preparado (87 lineas, 378 WIT, 21 PIT); falta abrir borrador",
-            "t": "2026-10-07T03:19:18Z"
+            "v": "ok",
+            "nota": "ingles en pending_review (QC r1)",
+            "t": "2026-10-28T13:51:38Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: structure, anchors, twins, PIT, English draft pending_review all clean; ear note lines 34/35/70/71 w3",
+            "t": "2026-10-28T13:51:33Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: structure, anchors, twins, PIT, English draft pending_review all clean; ear note lines 34/35/70/71 w3",
+          "t": "2026-10-28T13:51:33Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T13:51:39Z"
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa70c5472ca57eb1aab4e0b",
@@ -49915,10 +49949,10 @@
       "originalTrackId": "",
       "titulo": "Afinidad",
       "artista": "Axel",
-      "estado": "carry",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T03:47:49Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T13:47:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49942,12 +49976,29 @@
             "t": "2026-10-07T03:47:49Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "falta abrir el borrador: en_plan.json listo (42 lineas, 186 WIT con DT, 2 PIT)",
-            "t": "2026-10-07T03:47:49Z"
+            "v": "ok",
+            "nota": "borrador en pending_review enviado por el worker",
+            "t": "2026-10-28T13:47:25Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: structure, accents, anchors, new items, phrase item, English draft and audio all OK; ear notes for Saul in review",
+            "t": "2026-10-28T13:47:20Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: structure, accents, anchors, new items, phrase item, English draft and audio all OK; ear notes for Saul in review",
+          "t": "2026-10-28T13:47:20Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T13:47:26Z"
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6bd1b72ca57eb1aa4a595",
@@ -50178,10 +50229,10 @@
       "originalTrackId": "",
       "titulo": "Odio Por Amor",
       "artista": "Juanes",
-      "estado": "carry",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T03:55:44Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T13:51:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50205,12 +50256,29 @@
             "t": "2026-10-07T03:55:43Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan de ingles en es_map/payloads/<id>/en_plan.json (76 lineas, 242 WIT, 8 PIT); falta abrir el borrador",
-            "t": "2026-10-07T03:55:43Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, WIT y líneas completos",
+            "t": "2026-10-28T13:51:07Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk/eschk 0, BAD 0, estructura y timing intactos, mapeo y tildes revisados, inglés en pending_review",
+            "t": "2026-10-28T13:51:02Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk/eschk 0, BAD 0, estructura y timing intactos, mapeo y tildes revisados, inglés en pending_review",
+          "t": "2026-10-28T13:51:02Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T13:51:08Z"
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5147d42b8d1fdb0c64212",
@@ -52099,10 +52167,10 @@
       "originalTrackId": "",
       "titulo": "Por Ella",
       "artista": "Roberto Carlos",
-      "estado": "carry",
-      "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T04:20:57Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-10-28T13:52:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52129,9 +52197,20 @@
             "v": "falta",
             "nota": "ingles preparado en en_plan.json, falta abrir el borrador",
             "t": "2026-10-07T04:20:57Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "Linea 18 palabras 3-4 y 6-7: compuesto de dos palabras mal escrito en el LRC (debe ser una sola); sentido e ingles de la linea 18 literales y erroneos. Resto verificado OK (estructura, tildes, timing, gemelas, 313 WIT, 6 PIT)",
+            "t": "2026-10-28T13:52:54Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "Linea 18 palabras 3-4 y 6-7: compuesto de dos palabras mal escrito en el LRC (debe ser una sola); sentido e ingles de la linea 18 literales y erroneos. Resto verificado OK (estructura, tildes, timing, gemelas, 313 WIT, 6 PIT)",
+          "t": "2026-10-28T13:52:54Z"
         }
-      }
+      },
+      "motivo_en": "Line 18 words 3-4 and 6-7 are compound nouns split in two words in the LRC (should be single words); the mapping and the draft English/WITs for line 18 read them literally and lose the meaning. Merge, remap, reopen the English draft, re-translate line 18 and submit again."
     },
     {
       "coverTrackId": "6aa68ce272ca57eb1aa11bf8",
@@ -53597,10 +53676,10 @@
       "originalTrackId": "",
       "titulo": "Esperanzas",
       "artista": "Yuri",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T04:44:08Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T13:48:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53629,7 +53708,8 @@
             "t": "2026-10-07T04:44:08Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa571e542b8d1fdb0cd9b48",
@@ -53953,10 +54033,10 @@
       "originalTrackId": "",
       "titulo": "Corazon De Bachata",
       "artista": "Juan Manuel",
-      "estado": "carry",
-      "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T05:38:23Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-10-28T13:48:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53983,10 +54063,20 @@
             "v": "falta",
             "nota": "en_plan.json listo (40 lineas, 182 WIT, 3 PIT, wit_dt_audit BAD 0); falta abrir el borrador",
             "t": "2026-10-07T05:38:23Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: 13 verb tokens lack the preterite tilde their anchor assumes (lines 3,4,14,15,17,18,21,24,34,36,38,40); rest passes",
+            "t": "2026-10-28T13:48:37Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: 13 verb tokens lack the preterite tilde their anchor assumes (lines 3,4,14,15,17,18,21,24,34,36,38,40); rest passes",
+          "t": "2026-10-28T13:48:37Z"
         }
       },
-      "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
+      "motivo_en": "13 tokens miss the tilde required by the preterite anchors: add tildes in LRC and richsync, then re-upsert anchors"
     },
     {
       "coverTrackId": "6aa110f664c9b8ff110c0c4b",
@@ -54014,10 +54104,10 @@
       "originalTrackId": "",
       "titulo": "Corazones Al Viento",
       "artista": "Floricienta",
-      "estado": "carry",
-      "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T05:38:42Z",
+      "estado": "revision",
+      "vueltas": 1,
+      "motivo": "primarias del item de frase puestas, a QC r2",
+      "actualizado": "2026-10-28T13:54:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54044,9 +54134,20 @@
             "v": "falta",
             "nota": "plan en en_plan.json (72 lineas, 268 WIT, 1 PIT); falta abrir el borrador",
             "t": "2026-10-07T05:38:41Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "Phrase item used on line 15 words 3-5 has 19 translation rows but 0 primaries (needs exactly one per language); all else checked OK",
+            "t": "2026-10-28T13:53:30Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "Phrase item used on line 15 words 3-5 has 19 translation rows but 0 primaries (needs exactly one per language); all else checked OK",
+          "t": "2026-10-28T13:53:30Z"
         }
-      }
+      },
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa5e35842b8d1fdb0d74e27",
@@ -54143,10 +54244,10 @@
       "originalTrackId": "",
       "titulo": "Quiero Siento Y Pienso",
       "artista": "Alex Campos",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T05:39:27Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T13:48:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -54175,7 +54276,8 @@
             "t": "2026-10-07T05:39:26Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa71ade72ca57eb1aacc3bf",
@@ -57288,10 +57390,10 @@
       "originalTrackId": "",
       "titulo": "Estigma De Amor",
       "artista": "Kany Garcia",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T06:20:28Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T13:52:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -57320,7 +57422,8 @@
             "t": "2026-10-07T06:20:28Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5ef7c42b8d1fdb0d827b3",
@@ -57508,10 +57611,10 @@
       "originalTrackId": "",
       "titulo": "Corazon De Melao",
       "artista": "Emmanuel",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T06:27:55Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T13:52:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -57540,7 +57643,8 @@
             "t": "2026-10-07T06:27:54Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa82009d951e1665a809104",
@@ -59075,10 +59179,10 @@
       "originalTrackId": "",
       "titulo": "Me Voy Pa'l Pueblo",
       "artista": "Los Panchos",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T06:46:42Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T13:52:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -59107,7 +59211,8 @@
             "t": "2026-10-07T06:46:42Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa7316272ca57eb1aaf094a",
@@ -60376,10 +60481,10 @@
       "originalTrackId": "",
       "titulo": "El Hombre Del Piano (Piano Man)",
       "artista": "Yuridia",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T07:09:10Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T13:54:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -60408,7 +60513,8 @@
             "t": "2026-10-07T07:09:09Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5043942b8d1fdb0c47d41",
@@ -62051,10 +62157,10 @@
       "originalTrackId": "",
       "titulo": "Como Has Hecho",
       "artista": "Domenico Modugno",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T07:34:56Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T13:52:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62083,7 +62189,8 @@
             "t": "2026-10-07T07:34:55Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa820acd951e1665a809e1f",
@@ -62091,10 +62198,10 @@
       "originalTrackId": "",
       "titulo": "Chiquilina",
       "artista": "Los Iracundos",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T07:32:37Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T13:52:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62123,7 +62230,8 @@
             "t": "2026-10-07T07:32:36Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6624472ca57eb1a9d67da",
@@ -63644,10 +63752,10 @@
       "originalTrackId": "",
       "titulo": "En Esta Primavera",
       "artista": "Juan Gabriel",
-      "estado": "carry",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-27T15:37:28Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T13:21:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -63671,12 +63779,29 @@
             "t": "2026-10-27T15:37:26Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "59 lineas + 237 WIT con DT de su bolsa en en_plan.json; falta abrir el borrador",
-            "t": "2026-10-27T15:37:27Z"
+            "v": "ok",
+            "nota": "borrador en pending_review enviado por el worker; QC r1 OK",
+            "t": "2026-10-28T13:21:09Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, acentos, mapeo, ingles (draft pending_review) y gemelas OK; audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-28T13:21:04Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, acentos, mapeo, ingles (draft pending_review) y gemelas OK; audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-28T13:21:04Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T13:21:10Z"
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa76af472ca57eb1ab3a139",
@@ -63741,10 +63866,10 @@
       "originalTrackId": "",
       "titulo": "Alguien Llena Mi Lugar",
       "artista": "Pandora",
-      "estado": "carry",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-27T15:39:27Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T13:22:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -63768,12 +63893,29 @@
             "t": "2026-10-27T15:39:24Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "30 lineas + 155 WIT + 4 PIT en en_plan.json, DT de su bolsa (BAD 0); falta abrir el borrador",
-            "t": "2026-10-27T15:39:26Z"
+            "v": "ok",
+            "nota": "borrador en pending_review enviado, 30/30 lineas, 155/155 WIT con texto",
+            "t": "2026-10-28T13:22:43Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: 0 hallazgos, litchk/lpchk 0, BAD 0, 155 anclas con sentido correcto, ingles 30/30 y 155 WIT con texto, PIs es con 1 primaria por idioma, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-28T13:22:35Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: 0 hallazgos, litchk/lpchk 0, BAD 0, 155 anclas con sentido correcto, ingles 30/30 y 155 WIT con texto, PIs es con 1 primaria por idioma, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-28T13:22:35Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T13:22:44Z"
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa0555fedf059217a4f0bff",
@@ -76105,10 +76247,10 @@
       "originalTrackId": "",
       "titulo": "Vaina Loca",
       "artista": "Ozuna X Manuel Turizo",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida tras QC r1, a QC r2",
-      "actualizado": "2026-10-28T13:13:01Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T13:17:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -76132,20 +76274,26 @@
             "t": "2026-10-28T10:14:10Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan a mano en es_map/payloads/<id>/en_plan.json: 56 lineas, 375/375 WIT con DT de su bolsa, 13 PIT; dry-run apply_en_plan limpio; sin draft abierto (lo aplica el orquestador)",
-            "t": "2026-10-28T10:14:10Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-28T13:17:39Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: ortografia de un token en 2 lineas (23 y 27, palabra 4) por corregir; resto verde",
-            "t": "2026-10-28T12:57:47Z"
+            "v": "ok",
+            "nota": "QC r2: ortografia qu corregida en L23/L27 palabra 4; todos los checks a 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-28T13:17:34Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: ortografia de un token en 2 lineas (23 y 27, palabra 4) por corregir; resto verde",
-          "t": "2026-10-28T12:57:47Z"
+          "v": "VERDE",
+          "resumen": "QC r2: ortografia qu corregida en L23/L27 palabra 4; todos los checks a 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-28T13:17:34Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T13:17:40Z"
         }
       },
       "motivo_en": "QC r2"
@@ -76213,10 +76361,10 @@
       "originalTrackId": "",
       "titulo": "Este Corazon",
       "artista": "la Secta All Star",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "corregida tras QC r2, a QC r3 (ronda final)",
-      "actualizado": "2026-10-28T13:13:00Z",
+      "motivo": "QC r3 VERDE",
+      "actualizado": "2026-10-28T13:15:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -76240,20 +76388,26 @@
             "t": "2026-10-28T10:11:32Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 51 lineas, 233 WIT con DT de su bolsa, 3 PIT; lo aplica el orquestador (no abro draft)",
-            "t": "2026-10-28T10:11:32Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, QC r3 verificado",
+            "t": "2026-10-28T13:15:40Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r2: R1 fix confirmed (L14 pronoun WIT); new defect: line 20 words 1 and 4 anchored to the intimate-act sense of the preposition instead of the beneficiary sense; everything else checks out",
-            "t": "2026-10-28T13:10:27Z"
+            "v": "ok",
+            "nota": "r3: linea 20 palabras 1 y 4 corregidas; litchk/lpchk 0, BAD 0, 233/233 WITs con texto, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-28T13:15:30Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r2: R1 fix confirmed (L14 pronoun WIT); new defect: line 20 words 1 and 4 anchored to the intimate-act sense of the preposition instead of the beneficiary sense; everything else checks out",
-          "t": "2026-10-28T13:10:27Z"
+          "v": "VERDE",
+          "resumen": "r3: linea 20 palabras 1 y 4 corregidas; litchk/lpchk 0, BAD 0, 233/233 WITs con texto, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-28T13:15:30Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T13:15:41Z"
         }
       },
       "motivo_en": "QC r3"
