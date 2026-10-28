@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T14:55:58Z",
+  "generado": "2026-10-28T15:00:53Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -10541,10 +10541,10 @@
       "originalTrackId": "",
       "titulo": "Nunca Te Olvidare",
       "artista": "Enrique Iglesias",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida tras QC r1, a QC r2",
-      "actualizado": "2026-10-28T14:53:57Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T14:57:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -10568,20 +10568,26 @@
             "t": "2026-10-28T14:25:25Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json reescrito: 44/44 lineas, 188/188 WIT, 0 wi_gone, BAD 0; draft lo aplica el orquestador",
-            "t": "2026-10-28T14:25:26Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, QC r2 verificado",
+            "t": "2026-10-28T14:57:41Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: cover-word swaps/insert from the original without richsync evidence: line 11 word 2, line 26 word 2, line 29 word 1 (restore the cover's words, start of line 29 back to 163950, remap anchors, redo English). Rest verified OK.",
-            "t": "2026-10-28T14:39:59Z"
+            "v": "ok",
+            "nota": "QC r2: r1 fixes confirmed (L11 w2, L26 w2 cover tokens, L29 no insert, start back); litchk/lpchk 0, BAD 0, drift 0, SUENA_SIN_BLINDAR; ear notes for Saul",
+            "t": "2026-10-28T14:57:37Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: cover-word swaps/insert from the original without richsync evidence: line 11 word 2, line 26 word 2, line 29 word 1 (restore the cover's words, start of line 29 back to 163950, remap anchors, redo English). Rest verified OK.",
-          "t": "2026-10-28T14:39:59Z"
+          "v": "VERDE",
+          "resumen": "QC r2: r1 fixes confirmed (L11 w2, L26 w2 cover tokens, L29 no insert, start back); litchk/lpchk 0, BAD 0, drift 0, SUENA_SIN_BLINDAR; ear notes for Saul",
+          "t": "2026-10-28T14:57:37Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T14:57:42Z"
         }
       },
       "motivo_en": "QC r2"
@@ -70211,8 +70217,8 @@
       "artista": "Marco Antonio Solis, Marisela",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T14:49:30Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T14:57:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70241,7 +70247,8 @@
             "t": "2026-10-28T14:49:29Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6a9ec31beef2ad59f62927e2",
@@ -70271,8 +70278,8 @@
       "artista": "Vicente Fernández",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T14:42:01Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T14:58:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70301,7 +70308,8 @@
             "t": "2026-10-28T14:42:00Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa7155472ca57eb1aac3c84",
@@ -70354,9 +70362,9 @@
       "titulo": "Nostalgias",
       "artista": "Dyango",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T14:53:56Z",
+      "vueltas": 1,
+      "motivo": "corregida tras QC r1, a QC r2",
+      "actualizado": "2026-10-28T15:00:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70383,10 +70391,20 @@
             "v": "falta",
             "nota": "en_plan.json listo: 42 lineas + 184 WIT con DT de su bolsa; lo aplica el orquestador (sin draft abierto)",
             "t": "2026-10-28T14:41:57Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: line 15 and 30 words 3-4 have an existing es phrase item without a phrase insight (needs PIT and draft reopen); line 30 word 1 richsync case differs from LRC. Rest verified.",
+            "t": "2026-10-28T14:58:16Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: line 15 and 30 words 3-4 have an existing es phrase item without a phrase insight (needs PIT and draft reopen); line 30 word 1 richsync case differs from LRC. Rest verified.",
+          "t": "2026-10-28T14:58:16Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa62a0872ca57eb1a984d2b",
@@ -70481,8 +70499,8 @@
       "artista": "la 5ª Estacion",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T14:45:41Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T14:56:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70511,7 +70529,8 @@
             "t": "2026-10-28T14:45:34Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5dcff42b8d1fdb0d69a0a",
@@ -70532,8 +70551,8 @@
       "artista": "la 5ª Estacion",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T14:46:01Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T14:57:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70562,7 +70581,8 @@
             "t": "2026-10-28T14:46:01Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa622db72ca57eb1a9760e1",
