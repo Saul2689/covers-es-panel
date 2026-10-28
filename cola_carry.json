@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T16:15:59Z",
+  "generado": "2026-10-28T16:21:01Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -72139,10 +72139,10 @@
       "originalTrackId": "",
       "titulo": "Nuestros Corazones",
       "artista": "Juan Gabriel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T16:15:21Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T16:20:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72169,7 +72169,23 @@
             "v": "ok",
             "nota": "en_plan.json: 16 lineas + 151 WIT con DT propio + 6 PIT; sin draft abierto (lo aplica el orquestador)",
             "t": "2026-10-28T16:12:41Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, meca, acentos, gemelas, anclas, frases, ingles pending_review y audio OK; notas cosmeticas",
+            "t": "2026-10-28T16:20:27Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, meca, acentos, gemelas, anclas, frases, ingles pending_review y audio OK; notas cosmeticas",
+          "t": "2026-10-28T16:20:27Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T16:20:28Z"
         }
       },
       "motivo_en": "QC r1"
@@ -73605,10 +73621,10 @@
       "originalTrackId": "",
       "titulo": "Te Metiste En Mi Cama",
       "artista": "Palomo",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T16:15:20Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T16:19:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73632,10 +73648,26 @@
             "t": "2026-10-28T16:07:27Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo en es_map/payloads: 32 lineas + 177 WIT con texto y DT de su propia bolsa; lo aplica el orquestador",
-            "t": "2026-10-28T16:07:20Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 32 lineas y 177 WIT",
+            "t": "2026-10-28T16:19:09Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, ingles pending_review, WIT/DT, audio y timing OK; nota de oido en linea 21",
+            "t": "2026-10-28T16:18:56Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, ingles pending_review, WIT/DT, audio y timing OK; nota de oido en linea 21",
+          "t": "2026-10-28T16:18:56Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T16:19:10Z"
         }
       },
       "motivo_en": "QC r1"
@@ -73840,10 +73872,10 @@
       "originalTrackId": "",
       "titulo": "Que Mas Quieres De Mi",
       "artista": "Rocio Durcal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T16:15:19Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T16:20:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73867,10 +73899,26 @@
             "t": "2026-10-28T16:06:32Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json, falta abrir el borrador (41 lineas, 193 WIT con DT de su bolsa, 8 PIT)",
-            "t": "2026-10-28T16:06:32Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 41 lineas, 193 WITs con texto, 8 PITs",
+            "t": "2026-10-28T16:20:18Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk 0, BAD 0, estructura y timing ok, 193 WITs con texto, ingles pending_review, gemelas iguales, PIs es con 1 primaria; notas de oido para Saul",
+            "t": "2026-10-28T16:20:11Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk 0, BAD 0, estructura y timing ok, 193 WITs con texto, ingles pending_review, gemelas iguales, PIs es con 1 primaria; notas de oido para Saul",
+          "t": "2026-10-28T16:20:11Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T16:20:19Z"
         }
       },
       "motivo_en": "QC r1"
