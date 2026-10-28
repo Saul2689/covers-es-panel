@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T15:21:43Z",
+  "generado": "2026-10-28T15:25:26Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -71088,10 +71088,10 @@
       "originalTrackId": "",
       "titulo": "Feliz Conmigo",
       "artista": "Bacilos",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T15:18:06Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T15:22:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -71115,10 +71115,26 @@
             "t": "2026-10-28T15:06:43Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 54 lineas, 270 WIT con DT de su bolsa, 3 PIT; lo aplica el orquestador",
-            "t": "2026-10-28T15:06:44Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 54 lineas + 270 WIT",
+            "t": "2026-10-28T15:22:43Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: structure, accents, twins, English draft 54/54 + 270 WIT, PITs, audio all OK; notes for Saul on clitic/ponerse-a items (lines 20/40 w7, 41 w4, 53 w1)",
+            "t": "2026-10-28T15:22:35Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: structure, accents, twins, English draft 54/54 + 270 WIT, PITs, audio all OK; notes for Saul on clitic/ponerse-a items (lines 20/40 w7, 41 w4, 53 w1)",
+          "t": "2026-10-28T15:22:35Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T15:22:44Z"
         }
       },
       "motivo_en": "QC r1"
@@ -71129,10 +71145,10 @@
       "originalTrackId": "",
       "titulo": "Se Nos Rompio El Amor",
       "artista": "Olga Tañon",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida tras QC r1, a QC r2",
-      "actualizado": "2026-10-28T15:20:29Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T15:23:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -71161,15 +71177,21 @@
             "t": "2026-10-28T15:03:26Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "Falta phrase insight de la locucion adverbial existente (phrase item 6ac5acc7ae7e228461ca678f) en linea 5 y linea 30, palabras 3-4; resto verificado OK (estructura, LRC, ingles, mapeo, audio)",
-            "t": "2026-10-28T15:18:12Z"
+            "v": "ok",
+            "nota": "QC r2: phrase insight en l5/l30 confirmado; litchk, lpchk, BAD 0, audio SUENA_SIN_BLINDAR, ingles pending_review 75/75",
+            "t": "2026-10-28T15:23:07Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "Falta phrase insight de la locucion adverbial existente (phrase item 6ac5acc7ae7e228461ca678f) en linea 5 y linea 30, palabras 3-4; resto verificado OK (estructura, LRC, ingles, mapeo, audio)",
-          "t": "2026-10-28T15:18:12Z"
+          "v": "VERDE",
+          "resumen": "QC r2: phrase insight en l5/l30 confirmado; litchk, lpchk, BAD 0, audio SUENA_SIN_BLINDAR, ingles pending_review 75/75",
+          "t": "2026-10-28T15:23:07Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T15:23:08Z"
         }
       },
       "motivo_en": "QC r2"
@@ -71386,19 +71408,40 @@
       "originalTrackId": "",
       "titulo": "Mala Racha",
       "artista": "Conjunto Primavera",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:19:23Z",
+      "motivo": "falta 4-5 items nuevos (sin créditos IA): pisoteando, recaída, amargaste, lloviznando, + sentido 'pasarse' (L5/17); plan inglés listo en es_map/payloads",
+      "actualizado": "2026-10-28T15:25:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-07T02:19:23Z"
+            "nota": "carry en lote ya aplicado; no se toca",
+            "t": "2026-10-28T15:22:41Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "20 tokens en 12 lineas: tildes, minuscula media, signos de pregunta; linea 4 palabra 6 nota de oido",
+            "t": "2026-10-28T15:22:42Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0, ninguna palabra <40 ms, primera linea 28650; hueco antes de linea 17 es instrumental en el original; audio SUENA_SIN_BLINDAR stemVoc -20 ms",
+            "t": "2026-10-28T15:22:42Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "206/213; 7 tokens sin item (4 lemas sin entrada, prohibido crear); gemelas unificadas; 33 anclas remapeadas/creadas; 2 phrase insights",
+            "t": "2026-10-28T15:22:43Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json: 28 lineas + 206 WIT con DT de su bolsa + 2 PIT; sin draft (lo aplica el orquestador)",
+            "t": "2026-10-28T15:22:43Z"
           }
         }
-      }
+      },
+      "motivo_en": "needs 5 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa68a7f72ca57eb1aa0cad2",
@@ -71408,8 +71451,8 @@
       "artista": "Pepe Aguilar",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-28T15:21:41Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T15:24:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -71438,7 +71481,8 @@
             "t": "2026-10-28T15:21:41Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5b4c842b8d1fdb0d2ce5a",
