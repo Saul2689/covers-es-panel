@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T15:25:26Z",
+  "generado": "2026-10-28T15:29:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -71388,19 +71388,40 @@
       "originalTrackId": "",
       "titulo": "Stress",
       "artista": "Alvaro Torres",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:23:44Z",
+      "motivo": "falta 3 items nuevos (sin créditos IA): impaciencia, agobia, alarga; plan inglés listo en wscratch/6aa80cdd",
+      "actualizado": "2026-10-28T15:27:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 98%",
             "t": "2026-10-07T02:23:44Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "14 tildes en 12 lineas del outro (26-29,32,41,43-46,49,58) via lrc_plan_fix; lineas 2 tok9, 3 tok6, 24 tok1 = palabra del cover, se dejan (nota de oido)",
+            "t": "2026-10-28T15:25:53Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 58 lineas, ninguna palabra <40 ms ni >6 s; audio_guard SUENA_SIN_BLINDAR stemVoc 0 ms conf 1.56, sin tocar",
+            "t": "2026-10-28T15:25:54Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "59 anclas (17 nuevas, 42 remapeos): gemelas unificadas, tu->tú en 28/32/45/49, mas->más 26/43, dia->día 41/58; sin item: L21 w5, L21 w7, L22 w2 (no se crean items); Stress x6 ingles; L6 w7 en item del infinitivo",
+            "t": "2026-10-28T15:25:55Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json listo: 58 lineas + 247 WIT con DT de su bolsa; 3 filas en no primarias nuevas; lo aplica el orquestador",
+            "t": "2026-10-28T15:25:55Z"
           }
         }
-      }
+      },
+      "motivo_en": "needs 3 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa568dd42b8d1fdb0ccad5f",
@@ -71452,7 +71473,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T15:24:16Z",
+      "actualizado": "2026-10-28T15:29:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -71479,7 +71500,17 @@
             "v": "falta",
             "nota": "en_plan.json preparado (40 lineas, 187 WIT con texto, 10 PIT, DT del propio item); 3 filas en no primarias anadidas; falta abrir el borrador",
             "t": "2026-10-28T15:21:41Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: all checks 0/BAD 0, 187/187 mapped, EN draft pending_review complete; cover-sung variants on lines 8/16/24/32/40 and 11/27 kept with ear note",
+            "t": "2026-10-28T15:29:27Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: all checks 0/BAD 0, 187/187 mapped, EN draft pending_review complete; cover-sung variants on lines 8/16/24/32/40 and 11/27 kept with ear note",
+          "t": "2026-10-28T15:29:27Z"
         }
       },
       "motivo_en": "QC r1"
@@ -71534,19 +71565,40 @@
       "originalTrackId": "",
       "titulo": "Desde El Dia Que Te Fuiste",
       "artista": "Pandora",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:22:05Z",
+      "motivo": "falta 2 items nuevos (sin créditos IA): sonreían, desolador; plan inglés listo en es_map/payloads",
+      "actualizado": "2026-10-28T15:28:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 89%",
-            "t": "2026-10-07T02:22:04Z"
+            "nota": "carry ya aplicado (no re-proyectado)",
+            "t": "2026-10-28T15:26:54Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "24 tildes en 21 lineas (lrc_plan_fix, ids y timings intactos); desvios vs original justificados: cover canta otra cosa (l6 w5, l9 w4-5, l20 w3), original mal escrito (l23 w4), tildes de mas = original sin tildes",
+            "t": "2026-10-28T15:26:55Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 41 lineas, ninguna palabra <40 ms ni >6 s; audio_guard SUENA_SIN_BLINDAR (karaokeMp3 timeline, stemVoc/mixMp3V null), nada que hacer",
+            "t": "2026-10-28T15:26:55Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "20 remapeos + 5 anclas nuevas + 4 phrase insights; gemelas unificadas; faltan items que no existen y no se pueden crear (sin credito): l2 w3, l23 w4; l9 w2 solo con phrase insight hacer falta",
+            "t": "2026-10-28T15:26:56Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo (41 lineas, 157 WIT con DT de su bolsa, 4 PIT); dry-run apply_en_plan limpio; draft no abierto por instruccion",
+            "t": "2026-10-28T15:26:56Z"
           }
         }
-      }
+      },
+      "motivo_en": "needs 2 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa67a3b72ca57eb1a9f756d",
@@ -71637,19 +71689,40 @@
       "originalTrackId": "",
       "titulo": "Me Voy A Rio",
       "artista": "Chayanne",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:23:38Z",
+      "motivo": "falta 7 items nuevos (sin créditos IA): homenaje, contornean, tosta'o, celebras, rebelión, inspiró + nombre propio de la ciudad (hoy en el item río, 16 líneas); plan inglés listo en wscratch/6aa79a9b",
+      "actualizado": "2026-10-28T15:29:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T02:23:38Z"
+            "nota": "carry ya aplicado (lote 99%), no se re-proyecta",
+            "t": "2026-10-28T15:27:50Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 1: 4 tokens duplicados del proveedor borrados (richsync con tiempos repetidos y 0 ms); lineas 28/45 palabra 6 errata; lineas 29/46 palabras 1 y 7 tilde. Linea 10 palabra 1 nota de oido (original trae una palabra mas, sin richsync)",
+            "t": "2026-10-28T15:27:51Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 56 lineas, primera linea 26056 ms, ninguna palabra <40 ms; unica palabra >6 s = marcador Instrumental linea 22 (original con linea vacia). audio_guard SUENA_SIN_BLINDAR stemVoc -20 ms",
+            "t": "2026-10-28T15:27:51Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "479/493; gemelas unificadas; 6 tokens piden item nuevo (sin creditos): L6 p4, L8 p3, L11 p4, L23 p1, L25 p8, L27/44 p9; Rio ciudad anclado al item rio (no existe nombre propio): 15 anclas para Saul",
+            "t": "2026-10-28T15:27:52Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "sin draft; en_plan.json listo en wscratch/6aa79a9b: 56 lineas + 478 WIT con DT de su bolsa, 0 vacias; lo aplica el orquestador",
+            "t": "2026-10-28T15:27:52Z"
           }
         }
-      }
+      },
+      "motivo_en": "needs 7 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa6294472ca57eb1a9830c0",
