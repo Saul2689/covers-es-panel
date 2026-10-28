@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T12:04:34Z",
+  "generado": "2026-10-28T12:16:07Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 34,
   "canciones": [
@@ -60036,10 +60036,10 @@
       "originalTrackId": "",
       "titulo": "Que Tal Te Va Sin Mi",
       "artista": "Raphael",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:56:45Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T12:13:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -60066,7 +60066,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:56:45Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk/wit_dt 0, 304 anclas ok, gemelas 0, inglés pending_review 69/69, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-28T12:13:18Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk/wit_dt 0, 304 anclas ok, gemelas 0, inglés pending_review 69/69, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-28T12:13:18Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:13:19Z"
         }
       }
     },
@@ -60076,10 +60092,10 @@
       "originalTrackId": "",
       "titulo": "A Escondidas",
       "artista": "Jenni Rivera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:56:46Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T12:12:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -60106,7 +60122,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:56:46Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, twins, ingles y mapeo verificados; hallazgos qc_es justificados; notas de oido para Saul en lineas 9/10/23/24",
+            "t": "2026-10-28T12:12:37Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, twins, ingles y mapeo verificados; hallazgos qc_es justificados; notas de oido para Saul en lineas 9/10/23/24",
+          "t": "2026-10-28T12:12:37Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:12:38Z"
         }
       }
     },
@@ -60116,10 +60148,10 @@
       "originalTrackId": "",
       "titulo": "Y Seguir",
       "artista": "Thalia",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:57:32Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T12:09:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -60146,7 +60178,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:57:31Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk 0, BAD 0, estructura y timing intactos, mapeo y sentidos revisados, ingles pending_review; nota de oido linea 30 para Saul",
+            "t": "2026-10-28T12:09:49Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk 0, BAD 0, estructura y timing intactos, mapeo y sentidos revisados, ingles pending_review; nota de oido linea 30 para Saul",
+          "t": "2026-10-28T12:09:49Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:09:51Z"
         }
       }
     },
@@ -60156,10 +60204,10 @@
       "originalTrackId": "",
       "titulo": "Tu Regresaras",
       "artista": "Alejandro Fernandez",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:57:32Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-10-28T12:13:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -60186,9 +60234,20 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:57:32Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 17 palabras 3 y 8: falta partir en dos palabras con tilde (interrogativo indirecto); resto verificado OK",
+            "t": "2026-10-28T12:13:26Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 17 palabras 3 y 8: falta partir en dos palabras con tilde (interrogativo indirecto); resto verificado OK",
+          "t": "2026-10-28T12:13:26Z"
         }
-      }
+      },
+      "motivo_en": "Line 17 words 3 and 8: split the single token into two words with the accent on the second (indirect interrogative); everything else verified OK"
     },
     {
       "coverTrackId": "6aa7488372ca57eb1ab16857",
@@ -60196,10 +60255,10 @@
       "originalTrackId": "",
       "titulo": "La Señal",
       "artista": "Juanes",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:57:33Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T12:11:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -60226,7 +60285,23 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:57:33Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk/wit_dt 0, 227 anclas, gemelas identicas, ingles 44 pending_review; notas de oido para Saul",
+            "t": "2026-10-28T12:11:28Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk/wit_dt 0, 227 anclas, gemelas identicas, ingles 44 pending_review; notas de oido para Saul",
+          "t": "2026-10-28T12:11:28Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:11:29Z"
         }
       },
       "motivo_en": "LRC, timing and mapping done; English prepared in en_plan.json, draft still to be opened"
@@ -60249,9 +60324,9 @@
       "titulo": "El Aguajal",
       "artista": "Bareto",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:57:34Z",
+      "vueltas": 1,
+      "motivo": "corregida tras QC r1, a QC r2",
+      "actualizado": "2026-10-28T12:15:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -60278,9 +60353,20 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:57:33Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: mayuscula a mitad de linea sin justificar coherente en linea 10 palabra 2 y linea 24 palabra 2 (el mapeo la trata como nombre comun); resto en regla",
+            "t": "2026-10-28T12:08:00Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: mayuscula a mitad de linea sin justificar coherente en linea 10 palabra 2 y linea 24 palabra 2 (el mapeo la trata como nombre comun); resto en regla",
+          "t": "2026-10-28T12:08:00Z"
         }
-      }
+      },
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa73b2b72ca57eb1aaffddf",
@@ -60339,10 +60425,10 @@
       "originalTrackId": "",
       "titulo": "Un Alma Sentenciada",
       "artista": "Thalia",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:58:27Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-10-28T12:13:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -60369,9 +60455,20 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:58:27Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "English line twins differ: lines 20 and 49 vs lines 24 and 53 (one word); everything else verified",
+            "t": "2026-10-28T12:13:42Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "English line twins differ: lines 20 and 49 vs lines 24 and 53 (one word); everything else verified",
+          "t": "2026-10-28T12:13:42Z"
         }
-      }
+      },
+      "motivo_en": "Twin lines 20, 49, 24 and 53 have different English line translations (one word differs); unify them in the draft, run wit_dt_audit, submit to pending_review."
     },
     {
       "coverTrackId": "6aa6fe3272ca57eb1aa9f45b",
@@ -60380,9 +60477,9 @@
       "titulo": "Parece Que Fue Ayer",
       "artista": "Vicente Fernandez",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-14T07:58:28Z",
+      "vueltas": 1,
+      "motivo": "corregida tras QC r1, a QC r2",
+      "actualizado": "2026-10-28T12:15:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -60409,9 +60506,20 @@
             "v": "ok",
             "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
             "t": "2026-10-14T07:58:27Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 4 palabra 5 sin tilde (pretérito); resto en 0",
+            "t": "2026-10-28T12:07:04Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 4 palabra 5 sin tilde (pretérito); resto en 0",
+          "t": "2026-10-28T12:07:04Z"
         }
-      }
+      },
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa59b6c42b8d1fdb0d13de5",
@@ -73502,10 +73610,10 @@
       "originalTrackId": "",
       "titulo": "Como Me Haces Falta",
       "artista": "Marco Antonio Solis",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-10-28T09:55:34Z",
+      "motivo": "corregida tras QC r1, a QC r2",
+      "actualizado": "2026-10-28T12:09:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73545,7 +73653,7 @@
           "t": "2026-10-28T09:55:33Z"
         }
       },
-      "motivo_en": "QC round 1: add the missing phrase insights and English PITs for existing Spanish phrase items on lines 1, 2, 10, 12, 18 and 34; everything else verified OK"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa6849772ca57eb1aa05c5e",
@@ -73743,10 +73851,10 @@
       "originalTrackId": "",
       "titulo": "Atada",
       "artista": "Gisselle",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-10-28T09:57:24Z",
+      "motivo": "corregida tras QC r1, a QC r2",
+      "actualizado": "2026-10-28T12:08:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73786,7 +73894,7 @@
           "t": "2026-10-28T09:57:24Z"
         }
       },
-      "motivo_en": "Lines 5 and 19 word 8: use the untilded form and the 'even' item instead of the 'still' item, then fix the WITs and resubmit the draft"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa63d9d72ca57eb1a9a5e42",
@@ -77521,10 +77629,10 @@
       "originalTrackId": "",
       "titulo": "Tu Corazon",
       "artista": "Alejandro Sanz, Lena",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida tras QC r1, a QC r2",
-      "actualizado": "2026-10-28T12:00:36Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T12:06:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -77553,15 +77661,21 @@
             "t": "2026-10-28T11:03:06Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "tilde missing on interrogative token at line 100 word 0 (anchor is interrogative item); all other checks clean",
-            "t": "2026-10-28T11:57:24Z"
+            "v": "ok",
+            "nota": "QC r2: L100 w0 tilde+anchor fixed; litchk/lpchk/dt 0, structure, twins, English pending_review all OK",
+            "t": "2026-10-28T12:06:19Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "tilde missing on interrogative token at line 100 word 0 (anchor is interrogative item); all other checks clean",
-          "t": "2026-10-28T11:57:24Z"
+          "v": "VERDE",
+          "resumen": "QC r2: L100 w0 tilde+anchor fixed; litchk/lpchk/dt 0, structure, twins, English pending_review all OK",
+          "t": "2026-10-28T12:06:19Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:06:20Z"
         }
       },
       "motivo_en": "fixed after QC r1, to QC r2"
