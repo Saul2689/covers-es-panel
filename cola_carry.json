@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T12:00:59Z",
+  "generado": "2026-10-28T12:04:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 34,
   "canciones": [
@@ -75069,10 +75069,10 @@
       "originalTrackId": "",
       "titulo": "Asi Fue",
       "artista": "Elvis Martinez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida tras QC r1, a QC r2",
-      "actualizado": "2026-10-28T11:56:19Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T12:02:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75101,15 +75101,21 @@
             "t": "2026-10-28T10:01:13Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: L29 w3 item sense (seguir=continuar missing); English pronoun gender in L10-L14 (le)",
-            "t": "2026-10-28T11:50:09Z"
+            "v": "ok",
+            "nota": "QC r2: L29 w3 sense fixed with new item (19 langs), her in L10-14, all checks 0, audio SUENA_SIN_BLINDAR, draft pending_review",
+            "t": "2026-10-28T12:02:13Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: L29 w3 item sense (seguir=continuar missing); English pronoun gender in L10-L14 (le)",
-          "t": "2026-10-28T11:50:09Z"
+          "v": "VERDE",
+          "resumen": "QC r2: L29 w3 sense fixed with new item (19 langs), her in L10-14, all checks 0, audio SUENA_SIN_BLINDAR, draft pending_review",
+          "t": "2026-10-28T12:02:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:02:14Z"
         }
       },
       "motivo_en": "fixed after QC r1, to QC r2"
@@ -76830,10 +76836,10 @@
       "originalTrackId": "",
       "titulo": "Contacto",
       "artista": "Yaviah",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida tras QC r1, a QC r2",
-      "actualizado": "2026-10-28T12:00:36Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-28T12:03:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -76852,9 +76858,9 @@
             "t": "2026-10-28T10:39:32Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "317/326 anclados; 17 items nuevos + 19 idiomas; gemelas unificadas; 9 sin mapear justificados; significado de linea 26/28 palabra 3 (1-based) pendiente de Saul",
-            "t": "2026-10-28T10:40:02Z"
+            "v": "ok",
+            "nota": "nota para Saúl (regla 30 sep): significado de L26/L28 palabra 4, sin mapear",
+            "t": "2026-10-28T12:03:55Z"
           },
           "ingles": {
             "v": "ok",
@@ -76862,18 +76868,24 @@
             "t": "2026-10-28T10:39:33Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: line 46 word 4 verb gloss is infinitive on a finite token (sense/WIT); twin English lines 12 and 65 differ by a comma",
-            "t": "2026-10-28T11:57:11Z"
+            "v": "ok",
+            "nota": "QC r2: fixes de r1 confirmados (L46 p4 WIT a fila propia, L65 igual a gemela); litchk/lpchk 0, DT BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-28T12:03:07Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: line 46 word 4 verb gloss is infinitive on a finite token (sense/WIT); twin English lines 12 and 65 differ by a comma",
-          "t": "2026-10-28T11:57:11Z"
+          "v": "VERDE",
+          "resumen": "QC r2: fixes de r1 confirmados (L46 p4 WIT a fila propia, L65 igual a gemela); litchk/lpchk 0, DT BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-28T12:03:07Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T12:03:57Z"
         }
       },
-      "motivo_en": "fixed after QC r1, to QC r2"
+      "motivo_en": "Waiting for Saul: mapeo step is saul for the meaning of line 26 and 28 word 4 (left unmapped); QC r2 VERDE"
     },
     {
       "coverTrackId": "6aa844f8d951e1665a832625",
