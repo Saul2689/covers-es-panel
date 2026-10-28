@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T16:21:01Z",
+  "generado": "2026-10-28T16:44:11Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -7613,39 +7613,40 @@
       "originalTrackId": "",
       "titulo": "Almohada",
       "artista": "Jose Jose",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; WITs preparados en en_plan.json, faltan las 24 lineas de ingles y abrir el borrador",
-      "actualizado": "2026-10-06T15:36:59Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T16:43:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry batch aplicado (>=85%)",
-            "t": "2026-10-06T15:36:34Z"
+            "nota": "carry en lote ya aplicado; no se toca",
+            "t": "2026-10-28T16:25:37Z"
           },
           "lrc": {
             "v": "ok",
-            "nota": "linea 2: 2 palabras sin tilde corregidas; secciones generadas (generateSections); linea 6: el original trae una palabra inicial que el cover no canta (sin evidencia en richsync) -> nota de oido para Saul",
-            "t": "2026-10-06T15:36:34Z"
+            "nota": "28 oct: lineas 11 y 23 palabra 1 tilde de mas quitada (conjuncion adversativa); linea 6 palabra 1 del original no insertada (sin evidencia, nota de oido)",
+            "t": "2026-10-28T16:25:38Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "drift 0 en las 24 lineas; ninguna palabra <40 ms; linea 24 palabra final sostenida 7 s (cierre de la cancion, justificado); audio SUENA_SIN_BLINDAR (karaokeMp3, 206), sin stemVoc: no se toca",
-            "t": "2026-10-06T15:36:35Z"
+            "nota": "drift 0 en 24 lineas; ninguna palabra < 40 ms; linea 24 palabra 4 nota final 7 s sostenida; audio SUENA_SIN_BLINDAR, sirve stem vocal, offset 0",
+            "t": "2026-10-28T16:25:38Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "167/167 mapeados; 12 items nuevos en PROD con 19 idiomas (esconda, gritarte, reproche, callada/os/as, mustio/a/os/as, toditas, toditos); gemelas unificadas (lineas 20,21,23); mas->item adverbio comun",
-            "t": "2026-10-06T15:36:35Z"
+            "nota": "167/167; lineas 11 y 23 palabra 1 remapeadas a la conjuncion 6a58e69bcd31a03d5d0fca26; sin items nuevos",
+            "t": "2026-10-28T16:25:39Z"
           },
           "ingles": {
             "v": "falta",
-            "nota": "sin borrador abierto: no se llamo start_draft; plan de WITs (167, con DT) en es_map/payloads/6aa4f85a42b8d1fdb0c3b776/en_plan.json; falta abrir el borrador y las traducciones de linea",
-            "t": "2026-10-06T15:36:35Z"
+            "nota": "en_plan.json nuevo: 24 lineas + 167 WIT con DT de su bolsa; dry run lines=ok/24 wits=167/167 skipped 0; draft no abierto (instruccion)",
+            "t": "2026-10-28T16:25:39Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6ab240233369c68d83b686b8",
@@ -14889,39 +14890,40 @@
       "originalTrackId": "",
       "titulo": "Quizas",
       "artista": "Enrique Iglesias",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T17:35:08Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T16:43:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 96%",
-            "t": "2026-10-06T14:09:51Z"
+            "nota": "carry batch ya aplicado; no se toca",
+            "t": "2026-10-28T16:26:54Z"
           },
           "lrc": {
             "v": "ok",
-            "nota": "secciones intro puestas a mano, mayusculas/comas/tildes corregidas, tu->tu con tilde (l5,l34); ear-notes en informe",
-            "t": "2026-10-06T17:35:07Z"
+            "nota": "28 oct: LRC revisado contra original, sin cambios; avisos qc justificados (y ausente sin richsync en l4/26/33, Y cantada l9/22, coma l9 = original, linea 17-18 partida por el cover, tu cantado l5/34)",
+            "t": "2026-10-28T16:26:55Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "drift 0, ninguna palabra <40ms, audio SUENA_SIN_BLINDAR sin tocar; hueco l14-l15 instrumental en el original",
-            "t": "2026-10-06T17:35:08Z"
+            "nota": "drift 0 en 34 lineas, palabra minima 64 ms; hueco l14-l15 instrumental; audio_guard SUENA_SIN_BLINDAR stemVoc -40 ms, nada tocado",
+            "t": "2026-10-28T16:26:55Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "0 sin mapear, gemelas unificadas, 2 items nuevos (quejar, separe) con 19 idiomas",
-            "t": "2026-10-06T17:35:08Z"
+            "nota": "0 sin mapear (solo ad-libs l1-l2); gemelas ok; 8 phrase insights nuevos con items existentes; llevar l20 sin item de locucion",
+            "t": "2026-10-28T16:26:56Z"
           },
           "ingles": {
             "v": "falta",
-            "nota": "plan preparado en es_map/payloads/<id>/en_plan.json; falta abrir el borrador",
-            "t": "2026-10-06T17:35:08Z"
+            "nota": "en_plan.json nuevo: 34/34 lineas, 250/250 WIT, 8/8 PIT, dry run limpio; draft sin abrir por instruccion",
+            "t": "2026-10-28T16:26:56Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6ab23fbf3369c68d83b67b25",
@@ -16214,36 +16216,36 @@
       "originalTrackId": "",
       "titulo": "No Se Olvidar",
       "artista": "Alejandro Fernandez",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T17:56:23Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-28T16:27:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%; reparto L15/L16 del proveedor, sera->Sera con tilde",
-            "t": "2026-10-06T17:56:22Z"
+            "nota": "carry batch ya aplicado; no se toca",
+            "t": "2026-10-28T16:26:26Z"
           },
           "lrc": {
             "v": "ok",
-            "nota": "L16 tok1 sera->Será (tilde); sin puntuacion final, sin mayusculas medias, sin palabras <40ms",
-            "t": "2026-10-06T17:56:22Z"
+            "nota": "28 oct recheck: LRC igual al original salvo L15/L16 partida por el proveedor (se mantiene); sin erratas, tildes ni mayusculas medias",
+            "t": "2026-10-28T16:26:26Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "drift 0; hueco L14 instrumental en original; palabra final L28 10,7s sostenida; audio karaokeMp3 SUENA_SIN_BLINDAR, no se mide",
-            "t": "2026-10-06T17:56:22Z"
+            "nota": "drift 0 en 28 lineas; ninguna palabra < 40 ms; L28 pal3 10,7 s nota final; hueco L14 instrumental en el original; audio_guard SUENA_SIN_BLINDAR stemVoc -20 ms",
+            "t": "2026-10-28T16:26:27Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "176/176 mapeadas; 4 items nuevos; remaps L16,L23,L27; ancla daria L27 era sentido golpes",
-            "t": "2026-10-06T17:56:23Z"
+            "nota": "176/176; remaps 28 oct: L5 pal3, L19 pal2, L13 pal6, L27 pal6 (sentido/gemelas); 10 phrase insights de items existentes; 1 fila en no primaria en el item de L17 pal4",
+            "t": "2026-10-28T16:27:05Z"
           },
           "ingles": {
             "v": "falta",
-            "nota": "plan en es_map/payloads/6aa50c2142b8d1fdb0c522bd/en_plan.json (L15,L16 + 13 WIT); falta abrir el borrador",
-            "t": "2026-10-06T17:56:23Z"
+            "nota": "en_plan.json nuevo (28 lineas, 176 WIT, 10 PIT) dry run limpio; falta abrir borrador y aplicar (no se abre draft por orden)",
+            "t": "2026-10-28T16:26:28Z"
           }
         }
       }
@@ -19545,39 +19547,40 @@
       "originalTrackId": "",
       "titulo": "Que Hiciste",
       "artista": "Jennifer Lopez",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-06T19:59:18Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-28T16:43:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 100%",
-            "t": "2026-10-06T15:04:44Z"
+            "nota": "28 oct: carry por lote ya aplicado, no se toca",
+            "t": "2026-10-28T16:25:30Z"
           },
           "lrc": {
             "v": "ok",
-            "nota": "8 tokens: tildes en que(5 lineas) y olvido(3 lineas); sin signos finales ni mayusculas; el se extra (L18/38/46) lo canta el cover: se deja",
-            "t": "2026-10-06T19:52:52Z"
+            "nota": "28 oct: LRC re-revisado sin cambios; 8 tildes de mas y 3 se sobrantes justificados (cantados, con richsync)",
+            "t": "2026-10-28T16:25:30Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "drift 0, 0 palabras <40 ms, secciones 48/48 (generateSections); hueco L41 = instrumental (original igual); audio: karaokeMp3, 206, SUENA_SIN_BLINDAR: no se toca",
-            "t": "2026-10-06T19:59:17Z"
+            "nota": "28 oct: drift 0 en 48 lineas, 0 palabras <40 ms; hueco antes de linea 41 instrumental tambien en el original; audio_guard SUENA_SIN_BLINDAR",
+            "t": "2026-10-28T16:25:31Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "0 sin mapear; 14 items nuevos con 19 idiomas; 49 anclas escritas (items nuevos, que->que con tilde x5, olvido->olvido con tilde x3, gemelas unificadas); items se/se-intransitivador completados",
-            "t": "2026-10-06T19:59:18Z"
+            "nota": "28 oct: 329/329 anclas, gemelas iguales, homografos ok; 3 phrase insights nuevos con items existentes (lineas 7, 26, 28)",
+            "t": "2026-10-28T16:25:31Z"
           },
           "ingles": {
             "v": "falta",
-            "nota": "plan completo (48 lineas + 329 WIT con DT) en es_map/payloads/6aa7490372ca57eb1ab16cc4/en_plan.json; falta abrir el borrador",
-            "t": "2026-10-06T19:59:18Z"
+            "nota": "28 oct: plan nuevo en en_plan.json (48 lineas, 329 WIT, 3 PIT), dry run limpio; sin draft (no se abre)",
+            "t": "2026-10-28T16:25:32Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6fba772ca57eb1aa9bf11",
@@ -50951,36 +50954,36 @@
       "originalTrackId": "",
       "titulo": "Bye Mama",
       "artista": "Alejandra Guzmán",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T04:02:11Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-28T16:27:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 93%",
-            "t": "2026-10-06T22:23:01Z"
+            "nota": "carry batch ya aplicado (no re-proyectado)",
+            "t": "2026-10-28T16:27:07Z"
           },
           "lrc": {
             "v": "ok",
-            "nota": "Ortografia corregida en 6 tokens (lineas 5,7,10,34,35,37); sin signos finales; sin palabras <40 ms; notas de oido listadas en informe",
-            "t": "2026-10-07T04:02:10Z"
+            "nota": "28 oct: 4 tokens editados (l7 w3 coma, l13 w6 tilde, l37 w2 errata, l40 w9 tilde); ids y tiempos iguales",
+            "t": "2026-10-28T16:27:07Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "deriva 0 en las 59 lineas; ninguna palabra <40 ms; audio guard SUENA_SIN_BLINDAR (206, timeline karaokeMp3), no se toca",
-            "t": "2026-10-07T04:02:10Z"
+            "nota": "deriva 0 en 59 lineas, ninguna palabra <40 ms; audio SUENA_SIN_BLINDAR, nada medido",
+            "t": "2026-10-28T16:27:08Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "0 sin mapear salvo 5 'Bye' ingles; 11 items nuevos con 19 idiomas; 5 anclas de frase; gemelas unificadas; remaps de sentido",
-            "t": "2026-10-07T04:02:11Z"
+            "nota": "237/242 anclas; 5 sin mapear = ingles; 4 remapeos a items existentes (l1 w1, l13 w6, l37 w2, l40 w9); 0 items nuevos",
+            "t": "2026-10-28T16:27:08Z"
           },
           "ingles": {
             "v": "falta",
-            "nota": "plan escrito en en_plan.json (59 lineas, 227 WIT, 5 PIT); falta abrir el borrador",
-            "t": "2026-10-07T04:02:11Z"
+            "nota": "en_plan.json nuevo (formato actual): lines ok/59, wits 237/237, pits 5/5, skipped 0; draft sin abrir",
+            "t": "2026-10-28T16:27:09Z"
           }
         }
       }
@@ -53177,36 +53180,36 @@
       "originalTrackId": "",
       "titulo": "Vamos A Platicar",
       "artista": "Pedro Fernandez",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-07T04:32:35Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-28T16:24:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry batch ya aplicado, no tocado",
-            "t": "2026-10-07T04:32:33Z"
+            "nota": "aplicado en lote (sin re-proyectar)",
+            "t": "2026-10-28T16:24:24Z"
           },
           "lrc": {
             "v": "ok",
-            "nota": "5 ediciones de tilde/mayuscula sin cambiar tokens; ear-notes en linea 11 y 12 (ver informe)",
-            "t": "2026-10-07T04:32:34Z"
+            "nota": "28 oct: linea 11 palabra 9 tilde restaurada (subjuntivo de dar); resto de hallazgos vs original justificados en el informe",
+            "t": "2026-10-28T16:24:25Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "drift 0 en 20 lineas, ninguna palabra <40 ms; hueco de 47 s antes de la linea 13 es instrumental (el original tampoco canta); audio karaokeMp3 SUENA_SIN_BLINDAR, no se mide",
-            "t": "2026-10-07T04:32:34Z"
+            "nota": "drift 0 en 20 lineas, ninguna palabra <40 ms (minima 64); hueco antes de linea 13 instrumental tambien en el original; audio SUENA_SIN_BLINDAR karaokeMp3, nada medido ni fijado",
+            "t": "2026-10-28T16:24:25Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "0 sin mapear, gemelas unificadas, 14 PIT anclados, item de frase nuevo ir a; ear-note linea 11 palabra 9",
-            "t": "2026-10-07T04:32:34Z"
+            "nota": "136/136 anclas, 14 PIT, 0 gemelas, homografos revisados; 0 items nuevos",
+            "t": "2026-10-28T16:24:25Z"
           },
           "ingles": {
             "v": "falta",
-            "nota": "preparado en en_plan.json (20 lineas, 136 WIT, 14 PIT); falta abrir el borrador",
-            "t": "2026-10-07T04:32:34Z"
+            "nota": "en_plan.json nuevo formato listo: 20 lineas, 136 WIT, 14 PIT; dry run limpio (skipped 0); falta aplicarlo al draft (no se abre draft desde el worker)",
+            "t": "2026-10-28T16:24:37Z"
           }
         }
       }
@@ -73940,10 +73943,10 @@
       "originalTrackId": "",
       "titulo": "No Ha Sido Facil",
       "artista": "Ana Barbara",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T16:15:19Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-28T16:22:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73970,7 +73973,23 @@
             "v": "ok",
             "nota": "en_plan.json listo: 41 lineas, 244 WIT con DT del propio bag, 10 PIT; dry run apply_en_plan limpio; draft lo abre el orquestador",
             "t": "2026-10-28T16:06:26Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, anclas, gemelas, ingles en pending_review, WIT/PIT y audio OK; solo nota de sentido en 17/35 w1",
+            "t": "2026-10-28T16:21:59Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, anclas, gemelas, ingles en pending_review, WIT/PIT y audio OK; solo nota de sentido en 17/35 w1",
+          "t": "2026-10-28T16:21:59Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-28T16:22:07Z"
         }
       },
       "motivo_en": "QC r1"
