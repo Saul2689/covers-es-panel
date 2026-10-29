@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:30:17Z",
+  "generado": "2026-10-29T09:31:01Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -74790,20 +74790,40 @@
       "originalTrackId": "",
       "titulo": "Gata Salvaje",
       "artista": "Pablo Montero",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:22:24Z",
+      "motivo": "falta 4 items nuevos (sin créditos IA): líneas 2/23 palabra 8, 5/26 palabras 4 y 9, 12/33 palabra 5",
+      "actualizado": "2026-10-29T09:31:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T02:21:49Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:30:18Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "6 tokens: tilde en linea 3 y 24 palabra 7; errata linea 4 y 25 palabra 6; minuscula linea 13 palabra 7; errata linea 40 palabra 1. Palabras del cover que difieren del original se dejan (regla 6 oct): linea 13 p7, 21 p1, 26 p6 y p8, 42 p1",
+            "t": "2026-10-29T09:30:19Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 46 lineas; ninguna palabra <40 ms ni >6 s; audio SUENA_SIN_BLINDAR (no se mide)",
+            "t": "2026-10-29T09:30:20Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "29 anclas: 9 huecos mapeados, gemelas unificadas, tilde linea 3/24 p7 al item con tilde. Quedan 8 sin mapear por falta de item (sin credito, no se crean): linea 2/23 p8, 5/26 p4, 5/26 p9, 12/33 p5",
+            "t": "2026-10-29T09:30:21Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 46/46 lineas, 279/279 WIT con DT de su bolsa; 3 filas en nuevas no primarias; sin draft, lo aplica el orquestador",
+            "t": "2026-10-29T09:30:21Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 4 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa57a3e42b8d1fdb0ce439d",
