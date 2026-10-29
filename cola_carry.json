@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T08:55:27Z",
+  "generado": "2026-10-29T08:58:05Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -63088,10 +63088,10 @@
       "originalTrackId": "",
       "titulo": "Amor Descarado",
       "artista": "los Tucanes de Tijuana",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T17:00:05Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T08:57:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -63115,10 +63115,26 @@
             "t": "2026-10-28T16:50:59Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json nuevo formato: dry run lines ok/72, wits 282/282, pits 2/2, skipped 0; falta abrir borrador",
-            "t": "2026-10-28T16:50:59Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 72/72 lineas, 282 WIT sin vacios",
+            "t": "2026-10-29T08:57:36Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: litchk/lpchk 0, wit_dt BAD 0, estructura y timing sin cambios, ingles 72/72 pending_review, gemelas iguales, sin defectos",
+            "t": "2026-10-29T08:57:26Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: litchk/lpchk 0, wit_dt BAD 0, estructura y timing sin cambios, ingles 72/72 pending_review, gemelas iguales, sin defectos",
+          "t": "2026-10-29T08:57:26Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T08:57:38Z"
         }
       },
       "motivo_en": "QC r1"
@@ -72642,13 +72658,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T08:50:32Z",
+      "actualizado": "2026-10-29T08:56:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 97%",
-            "t": "2026-10-07T02:22:43Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T08:56:44Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "10 tokens: tilde l3 p2, l9/11/16/18 p1 signo+tilde, l10/12/17/19 p1 minuscula, l26 p4 tilde; sin cambio de n de tokens",
+            "t": "2026-10-29T08:56:45Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 26 lineas, ninguna palabra <40 ms ni >6 s; audio_guard SUENA_SIN_BLINDAR, sin medir",
+            "t": "2026-10-29T08:56:49Z"
           }
         }
       },
