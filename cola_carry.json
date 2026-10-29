@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:09:32Z",
+  "generado": "2026-10-29T09:10:38Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -73253,21 +73253,36 @@
       "originalTrackId": "",
       "titulo": "Se Te Olvido",
       "artista": "Pablo Montero",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:05:45Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T09:10:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 100%",
-            "t": "2026-10-07T02:21:38Z"
+            "nota": "carry en lote ya aplicado, no se re-proyecta",
+            "t": "2026-10-29T09:10:21Z"
           },
           "lrc": {
             "v": "ok",
             "nota": "15 tokens: comilla inicial linea 1; tildes en lineas 6,7,9,10,11,13,18,20,21,22; linea 15 palabra 8 se deja (nota de oido)",
             "t": "2026-10-29T09:05:45Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 22 lineas; ninguna palabra <40 ms; linea 22 palabra 6 nota final sostenida 6,4 s (justificada); audio SUENA_SIN_BLINDAR stemVoc -20 ms, no se mide",
+            "t": "2026-10-29T09:10:23Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "207/211 mapeados; 26 anclas remapeadas/creadas; faltan 4 tokens sin item es (linea 4 palabra 7, linea 8 palabra 3, linea 16 palabra 8, linea 19 palabra 3): item nuevo no permitido sin credito de traduccion",
+            "t": "2026-10-29T09:10:24Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "22 lineas + 207 WIT con DT de su bolsa en en_plan.json; sin borrador abierto (lo aplica el orquestador)",
+            "t": "2026-10-29T09:10:24Z"
           }
         }
       },
@@ -73372,10 +73387,10 @@
       "originalTrackId": "",
       "titulo": "Procuro Olvidarte",
       "artista": "Juan Bau",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:09:23Z",
+      "motivo": "falta 2 items nuevos (sin créditos IA): L5/L27 w2 enredarse PRES.1SG; L13/L37 w2 cansarse+me INF; plan inglés listo sin aplicar",
+      "actualizado": "2026-10-29T09:10:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73405,7 +73420,7 @@
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 2 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa792eb72ca57eb1aced17b",
@@ -73835,8 +73850,8 @@
       "artista": "Vagon Chicano",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:23:11Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:10:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73845,7 +73860,8 @@
             "t": "2026-10-07T02:23:11Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa765ac72ca57eb1ab31286",
