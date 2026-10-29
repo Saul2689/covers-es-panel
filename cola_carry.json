@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:18:11Z",
+  "generado": "2026-10-29T09:18:57Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -73968,10 +73968,10 @@
       "originalTrackId": "",
       "titulo": "Necesidad",
       "artista": "Vagon Chicano",
-      "estado": "revision",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-29T09:17:41Z",
+      "motivo": "falta 3 items nuevos (sin créditos IA): L2 w3 sustantivo; L3 w6 sustantivo; L15/L28 w3 verbo precisar; plan inglés listo sin aplicar",
+      "actualizado": "2026-10-29T09:18:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74001,7 +74001,7 @@
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 3 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa765ac72ca57eb1ab31286",
@@ -74212,7 +74212,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:17:18Z",
+      "actualizado": "2026-10-29T09:18:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74224,6 +74224,11 @@
             "v": "ok",
             "nota": "22 tokens: errata linea 1 palabra 7, tildes en 19 tokens (mas/el/lagrimas/volvere/asi/equivoque/esperandole), apertura de exclamacion linea 53",
             "t": "2026-10-29T09:17:18Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 59 lineas; 2 palabras de 7 ms (linea 51 palabra 2, linea 59 palabra 2) alargadas en el hueco, sin recortar",
+            "t": "2026-10-29T09:18:23Z"
           }
         }
       },
@@ -74552,8 +74557,8 @@
       "artista": "Mocedades",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:21:14Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:18:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74562,7 +74567,8 @@
             "t": "2026-10-07T02:21:13Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa6724972ca57eb1a9edccb",
