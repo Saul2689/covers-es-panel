@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T17:20:28Z",
+  "generado": "2026-10-29T18:37:58Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -16425,10 +16425,10 @@
       "originalTrackId": "",
       "titulo": "Se Parecio Tanto A Ti",
       "artista": "Grupo Niche",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-10-29T17:19:24Z",
+      "motivo": "espera a Saúl: escuchar coros del original ausentes en huecos antes de lineas 52 y 58 (QC r2 VERDE)",
+      "actualizado": "2026-10-29T18:29:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16452,23 +16452,23 @@
             "t": "2026-10-29T16:23:08Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json escrito: 61 lineas, 276 WIT, 6 PIT; falta que el orquestador lo aplique",
-            "t": "2026-10-29T16:23:09Z"
+            "v": "ok",
+            "nota": "draft pending_review 61/61 lineas, WIT linea 55 palabra 3 corregido, wit_dt BAD 0",
+            "t": "2026-10-29T18:28:54Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r1: L55 w3 sujeto doble en el WIT (usar fila am de la misma bolsa)",
-            "t": "2026-10-29T16:53:13Z"
+            "v": "ok",
+            "nota": "r2: L55 w3 WIT fixed, disgustar example reworded; all checks clean",
+            "t": "2026-10-29T18:28:05Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r1: L55 w3 sujeto doble en el WIT (usar fila am de la misma bolsa)",
-          "t": "2026-10-29T16:53:13Z"
+          "v": "VERDE",
+          "resumen": "r2: L55 w3 WIT fixed, disgustar example reworded; all checks clean",
+          "t": "2026-10-29T18:28:05Z"
         }
       },
-      "motivo_en": "QC r2"
+      "motivo_en": "waiting for Saúl: listen for the original's backing lines missing in the gaps before lines 52 and 58 (QC r2 VERDE)"
     },
     {
       "coverTrackId": "6aa58aa742b8d1fdb0cfb064",
@@ -23591,10 +23591,10 @@
       "originalTrackId": "",
       "titulo": "Dr. Psiquiatra",
       "artista": "Gloria Trevi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-10-29T17:19:23Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-29T18:34:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23623,15 +23623,21 @@
             "t": "2026-10-29T16:17:38Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r1: L22 w3 y w6 sujeto doble en el WIT (fila nueva sin sujeto en la misma bolsa)",
-            "t": "2026-10-29T16:55:07Z"
+            "v": "ok",
+            "nota": "QC r2: L22 doubled subject fixed, all checks pass",
+            "t": "2026-10-29T18:34:33Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r1: L22 w3 y w6 sujeto doble en el WIT (fila nueva sin sujeto en la misma bolsa)",
-          "t": "2026-10-29T16:55:07Z"
+          "v": "VERDE",
+          "resumen": "QC r2: L22 doubled subject fixed, all checks pass",
+          "t": "2026-10-29T18:34:33Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T18:34:37Z"
         }
       },
       "motivo_en": "QC r2"
@@ -28060,10 +28066,10 @@
       "originalTrackId": "",
       "titulo": "Sera",
       "artista": "Ricardo Montaner",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T16:42:10Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T18:27:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -28090,7 +28096,23 @@
             "v": "ok",
             "nota": "en_plan.json a mano: 59 lineas, 183/183 WITs, 1 PIT; dry run limpio",
             "t": "2026-10-29T16:30:08Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: checks pass, findings justified, ear-note L23",
+            "t": "2026-10-29T18:27:25Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: checks pass, findings justified, ear-note L23",
+          "t": "2026-10-29T18:27:25Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T18:27:28Z"
         }
       },
       "motivo_en": "QC r1"
@@ -33141,9 +33163,9 @@
       "titulo": "En Tus Pupilas",
       "artista": "Shakira",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T16:56:42Z",
+      "vueltas": 1,
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-10-29T18:37:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -33170,10 +33192,20 @@
             "v": "ok",
             "nota": "en_plan.json 44 lineas + 239 WITs, dry run limpio",
             "t": "2026-10-29T16:40:06Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: L26 w5 wrong-sense item (exhortative ir), repoint to plain future item",
+            "t": "2026-10-29T18:31:12Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: L26 w5 wrong-sense item (exhortative ir), repoint to plain future item",
+          "t": "2026-10-29T18:31:12Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa723a272ca57eb1aad90c9",
@@ -33845,9 +33877,9 @@
       "titulo": "Aunque Te Enamores",
       "artista": "Juan Gabriel",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T16:56:44Z",
+      "vueltas": 1,
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-10-29T18:37:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -33874,10 +33906,20 @@
             "v": "ok",
             "nota": "en_plan.json 27 lineas + 111 WITs, dry run limpio",
             "t": "2026-10-29T16:43:32Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: L12 w5 and L24 w5 on the vos object-pronoun item; repoint to tu object item",
+            "t": "2026-10-29T18:33:08Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: L12 w5 and L24 w5 on the vos object-pronoun item; repoint to tu object item",
+          "t": "2026-10-29T18:33:08Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa5112742b8d1fdb0c5f898",
@@ -38114,10 +38156,10 @@
       "originalTrackId": "",
       "titulo": "No Soy El Aire",
       "artista": "Carlos Rivera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T17:02:56Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T18:32:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38141,10 +38183,26 @@
             "t": "2026-10-29T16:33:04Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (42 lineas, 188 WIT, 8 PIT); falta abrir el borrador",
-            "t": "2026-10-29T16:33:05Z"
+            "v": "ok",
+            "nota": "draft pending_review 42/42 lineas, wit_dt BAD 0",
+            "t": "2026-10-29T18:32:57Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r1: all checks clean; qc_es leftovers justified",
+            "t": "2026-10-29T18:32:55Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r1: all checks clean; qc_es leftovers justified",
+          "t": "2026-10-29T18:32:55Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T18:32:59Z"
         }
       },
       "motivo_en": "QC r1"
@@ -45757,10 +45815,10 @@
       "originalTrackId": "",
       "titulo": "Puerto Rico",
       "artista": "Frankie Ruiz",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T17:02:57Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-10-29T18:37:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45787,10 +45845,20 @@
             "v": "falta",
             "nota": "en_plan.json listo (59 lineas, 233/233 WIT); falta abrir el borrador",
             "t": "2026-10-29T16:43:29Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 56 palabra 4: nombre propio anclado a item de otra persona",
+            "t": "2026-10-29T18:37:34Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 56 palabra 4: nombre propio anclado a item de otra persona",
+          "t": "2026-10-29T18:37:34Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "line 56 word 4: person name anchored to an item that defines a different person; new proper-noun item, remap keeping the WI id, fix the WIT and resubmit"
     },
     {
       "coverTrackId": "6aa6c4c972ca57eb1aa58e85",
@@ -48872,9 +48940,9 @@
       "titulo": "Casi",
       "artista": "Soraya",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T17:03:00Z",
+      "vueltas": 1,
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-10-29T18:37:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48901,10 +48969,20 @@
             "v": "falta",
             "nota": "en_plan.json listo (46 lineas, 275/275 WIT); falta abrir el borrador",
             "t": "2026-10-29T16:54:18Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 15 palabra 3: item nuevo con ejemplo 1 que copia el verso",
+            "t": "2026-10-29T18:28:58Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 15 palabra 3: item nuevo con ejemplo 1 que copia el verso",
+          "t": "2026-10-29T18:28:58Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa62d3472ca57eb1a987e01",
@@ -49725,10 +49803,10 @@
       "originalTrackId": "",
       "titulo": "Que Ganas",
       "artista": "Ricardo Montaner",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T17:20:02Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T18:31:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49752,10 +49830,26 @@
             "t": "2026-10-29T16:45:25Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 37 lineas, 195 WIT con DT de su bolsa, 11 PIT; falta abrir el borrador",
-            "t": "2026-10-29T16:45:26Z"
+            "v": "ok",
+            "nota": "draft en pending_review, 37/37 lineas, WIT completos",
+            "t": "2026-10-29T18:31:30Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, ingles y audio OK; notas de oido para Saul",
+            "t": "2026-10-29T18:31:17Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, ingles y audio OK; notas de oido para Saul",
+          "t": "2026-10-29T18:31:17Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T18:31:33Z"
         }
       },
       "motivo_en": "QC r1"
@@ -53116,9 +53210,9 @@
       "titulo": "Escapemonos",
       "artista": "Jennifer Lopez, Marc Anthony",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T17:20:03Z",
+      "vueltas": 1,
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-10-29T18:37:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -53145,10 +53239,20 @@
             "v": "falta",
             "nota": "en_plan.json listo 63/285/8; falta abrir el borrador",
             "t": "2026-10-29T16:58:17Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 58 palabra 2: token sin tilde anclado a item de futuro",
+            "t": "2026-10-29T18:33:42Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 58 palabra 2: token sin tilde anclado a item de futuro",
+          "t": "2026-10-29T18:33:42Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa68ad672ca57eb1aa0ebe4",
@@ -62473,8 +62577,8 @@
       "artista": "Luis Enrique",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-29T16:50:30Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T18:32:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62503,7 +62607,8 @@
             "t": "2026-10-29T16:50:29Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6d65b72ca57eb1aa73049",
@@ -62832,8 +62937,8 @@
       "artista": "Olga Tañon",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-29T16:58:17Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T18:34:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62862,7 +62967,8 @@
             "t": "2026-10-29T16:58:07Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5dacb42b8d1fdb0d6702c",
@@ -63580,8 +63686,8 @@
       "artista": "Julio Jaramillo",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-29T17:02:22Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T18:34:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -63610,7 +63716,8 @@
             "t": "2026-10-29T17:02:21Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa78df472ca57eb1ace5d2c",
@@ -64080,19 +64187,40 @@
       "originalTrackId": "",
       "titulo": "Volando Entre Tus Brazos",
       "artista": "Marc Anthony",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-29T16:42:34Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T18:32:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano: 11 hints, 82 %",
             "t": "2026-10-29T16:42:32Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "6 cambios: coma final x2, mayuscula media x2, tilde x2",
+            "t": "2026-10-29T17:22:48Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 54 lineas; palabra minima 63 ms; audio_guard SUENA_SIN_BLINDAR",
+            "t": "2026-10-29T17:22:48Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "solo vocablos sin mapear; 3 items nuevos; 7 anclas; 5 remapeos; frase a tu lado x2",
+            "t": "2026-10-29T17:22:49Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan listo (54 lineas, 266 WIT, 2 PIT); lo aplica el orquestador",
+            "t": "2026-10-29T17:22:50Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa79ca272ca57eb1acff14b",
@@ -77897,8 +78025,8 @@
       "artista": "Willy Chirino",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-29T17:01:25Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T18:34:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -77927,7 +78055,8 @@
             "t": "2026-10-29T17:01:24Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa65c7f72ca57eb1a9cd04e",
@@ -79425,16 +79554,36 @@
       "originalTrackId": "",
       "titulo": "Dime",
       "artista": "Victor Manuelle",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-29T16:45:38Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T18:33:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano: 6 hints, 82 %",
             "t": "2026-10-29T16:45:37Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "linea 37 palabra 5 errata del original corregida; tildes en 3.2, 8.6/24.6, 13.4/29.4, 15.1/31.1/39.1, 46.1, 46.3, 54.3; oido: hueco de 32 s antes de la linea 51 (el original repite ahi sus lineas 1-2)",
+            "t": "2026-10-29T18:33:51Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 61/61; hueco antes de la linea 38 instrumental tambien en el original; audio_guard SUENA_SIN_BLINDAR, nada medido",
+            "t": "2026-10-29T18:33:53Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "5 items nuevos (matarás matar, imagíname, manicomio/manicomios, alucinando alucinar; 19 idiomas); 11 anclas nuevas; 11 remapeos (gemelas, futuros, muero)",
+            "t": "2026-10-29T18:33:54Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json 61 lineas 260 WIT, dry run 0 saltados, wit_dt_audit BAD 0",
+            "t": "2026-10-29T18:33:54Z"
           }
         }
       }
