@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:05:15Z",
+  "generado": "2026-10-29T09:07:29Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -72286,20 +72286,40 @@
       "originalTrackId": "",
       "titulo": "O Me Voy O Te Vas",
       "artista": "Tito Nieves",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T08:50:29Z",
+      "motivo": "falta 1 item nuevo (sin créditos IA): L22 w4, L36 w4, L58 w0 infinitivo ridiculizar+me; plan inglés listo sin aplicar",
+      "actualizado": "2026-10-29T09:07:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 97%",
-            "t": "2026-10-07T02:22:36Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:05:55Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "18 tokens con tilde (L2,7,17,18,21,22,31,32,35,36,42,47,51,52,55,58), sin cambio de nº de tokens; richsync igual; ids y ms intactos",
+            "t": "2026-10-29T09:05:56Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 61 lineas; 0 palabras <40 ms o >6 s; hueco L45 en el puente propio de la cover (el original no tiene linea ahi); audio SUENA_SIN_BLINDAR, no medido",
+            "t": "2026-10-29T09:05:56Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "todo mapeado salvo L22 w4, L36 w4, L58 w0: no existe item es (infinitivo ridiculizar + me); no se crea (sin creditos). 36 anclas upsert + 6 phrase insights",
+            "t": "2026-10-29T09:06:07Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 61 lineas + 274 WIT con DT de su bolsa + 6 PIT; dry run 274/274, 0 saltados; sin draft abierto",
+            "t": "2026-10-29T09:05:58Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 1 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa6232b72ca57eb1a976619",
@@ -73220,13 +73240,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T08:59:14Z",
+      "actualizado": "2026-10-29T09:05:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 100%",
             "t": "2026-10-07T02:21:38Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "15 tokens: comilla inicial linea 1; tildes en lineas 6,7,9,10,11,13,18,20,21,22; linea 15 palabra 8 se deja (nota de oido)",
+            "t": "2026-10-29T09:05:45Z"
           }
         }
       },
@@ -73753,8 +73778,8 @@
       "artista": "Azul Azul, Laura Leon",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:23:18Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:07:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73763,7 +73788,8 @@
             "t": "2026-10-07T02:23:18Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa7423272ca57eb1ab0d3b8",
