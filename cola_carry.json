@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T18:43:18Z",
+  "generado": "2026-10-29T18:43:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -62973,10 +62973,10 @@
       "originalTrackId": "",
       "titulo": "Presencie Tu Amor",
       "artista": "Olga Tañon",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T18:34:11Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T18:43:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -63000,10 +63000,26 @@
             "t": "2026-10-29T16:58:17Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan listo (39 lineas, 185 WIT, 6 PIT); lo aplica el orquestador",
-            "t": "2026-10-29T16:58:07Z"
+            "v": "ok",
+            "nota": "borrador EN en pending_review, 39 lineas",
+            "t": "2026-10-29T18:43:25Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, ingles y audio OK; notas de oido para Saul",
+            "t": "2026-10-29T18:43:25Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, ingles y audio OK; notas de oido para Saul",
+          "t": "2026-10-29T18:43:25Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T18:43:27Z"
         }
       },
       "motivo_en": "QC r1"
@@ -79611,10 +79627,10 @@
       "originalTrackId": "",
       "titulo": "Dime",
       "artista": "Victor Manuelle",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-29T18:33:55Z",
+      "motivo": "espera a Saul: comas finales en 9 lineas de LRC publicado (pregunta F)",
+      "actualizado": "2026-10-29T18:43:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -79643,7 +79659,8 @@
             "t": "2026-10-29T18:33:54Z"
           }
         }
-      }
+      },
+      "motivo_en": "waiting for Saul: trailing commas on 9 lines of a published LRC (question F)"
     },
     {
       "coverTrackId": "6aa69a1572ca57eb1aa2683c",
