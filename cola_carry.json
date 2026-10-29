@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T10:29:39Z",
+  "generado": "2026-10-29T10:30:08Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 36,
   "canciones": [
@@ -46988,17 +46988,37 @@
       "originalTrackId": "",
       "titulo": "Tu Tu Tu",
       "artista": "la Nueva Banda Timbiriche",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:27:59Z",
-      "motivo_en": "worker: carry + clean-up",
+      "motivo": "carry aplicado; la letra del proveedor trae la voz duplicada (23 lineas + tokens en 10 lineas, con anclas): borrarla es decision de Saul",
+      "actualizado": "2026-10-29T10:29:46Z",
+      "motivo_en": "carry applied; vendor lyric has a duplicated vocal layer (23 lines + tokens in 10 lines, anchored): deleting it needs Saul's OK",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry aplicado 29 oct: 94% match, 14 decisiones por regla (tildes = Singit; linea 1 palabra 5 se queda la del cover, el original trae errata), 18 pins nuevos en los bloques tu-tu-tu",
             "t": "2026-10-29T10:27:59Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "capa de voz duplicada del proveedor: 23 lineas enteras duplicadas (17 con anclas) + tokens duplicados en 10 lineas; borrar anclas = regla dura, decide Saul. Plan exacto en jobs/6aa5fafc42b8d1fdb0d98ba9.md",
+            "t": "2026-10-29T10:29:43Z"
+          },
+          "timing": {
+            "v": "saul",
+            "nota": "ultima palabra a 0 ms en 23 lineas dobladas; el buen fin esta en la copia duplicada: se arregla junto con el borrado",
+            "t": "2026-10-29T10:29:44Z"
+          },
+          "mapeo": {
+            "v": "falta",
+            "nota": "pendiente de la limpieza de la capa duplicada; 4 anclas de mi desplazadas por el carry (lineas 8, 10, 38, 40)",
+            "t": "2026-10-29T10:29:45Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "sin ingles (original sin traduccion); en_plan tras la limpieza",
+            "t": "2026-10-29T10:29:45Z"
           }
         }
       }
@@ -49374,10 +49394,11 @@
       "originalTrackId": "",
       "titulo": "En El Silencio Negro De La Noche",
       "artista": "Alexandre Pires",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:27:24Z"
+      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T10:30:08Z",
+      "motivo_en": "worker: carry + clean-up"
     },
     {
       "coverTrackId": "6aa5bed342b8d1fdb0d3be23",
