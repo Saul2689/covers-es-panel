@@ -1,7 +1,7 @@
 {
-  "generado": "2026-10-29T09:52:55Z",
+  "generado": "2026-10-29T10:18:57Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
-  "descartadas": 35,
+  "descartadas": 36,
   "canciones": [
     {
       "coverTrackId": "6a9d05aa5c27e49e116caefe",
@@ -5590,17 +5590,6 @@
       "actualizado": "2026-09-22T15:17:03Z"
     },
     {
-      "coverTrackId": "6aa5d29e42b8d1fdb0d58ed9",
-      "songId": "6a992f44486eb0e888ea6fd1",
-      "originalTrackId": "",
-      "titulo": "Rumores",
-      "artista": "Joan Sebastian, Lisa Lopez",
-      "estado": "cola",
-      "vueltas": 0,
-      "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-06T13:37:18Z"
-    },
-    {
       "coverTrackId": "6aa6325372ca57eb1a99070c",
       "songId": "6a992f49486eb0e888ea713f",
       "originalTrackId": "",
@@ -6831,10 +6820,11 @@
       "originalTrackId": "",
       "titulo": "La Chica Del Bikini Azul",
       "artista": "Luis Miguel",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-09-30T09:48:45Z"
+      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T10:18:10Z",
+      "motivo_en": "worker: carry + clean-up"
     },
     {
       "coverTrackId": "6aa67bbd72ca57eb1a9fa441",
@@ -8244,11 +8234,11 @@
       "originalTrackId": "",
       "titulo": "La Botella",
       "artista": "Mach & Daddy",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 84%: necesita hints a mano (espera OK de Saúl para carry en publicadas)",
-      "actualizado": "2026-10-29T09:52:54Z",
-      "motivo_en": "waiting for Saúl's OK to carry published covers"
+      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T10:18:10Z",
+      "motivo_en": "worker: carry + clean-up"
     },
     {
       "coverTrackId": "6aa4f0f942b8d1fdb0c280d2",
@@ -20263,17 +20253,37 @@
       "originalTrackId": "",
       "titulo": "Cancion",
       "artista": "Sonora Ponceña",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:52:03Z",
-      "motivo_en": "worker running",
+      "motivo": "falta 2 items nuevos (sin créditos IA): adentra (adentrarse 3s pres), espiritual (adj)",
+      "actualizado": "2026-10-29T10:17:47Z",
+      "motivo_en": "needs 2 new dictionary item(s) (no AI credits)",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry aplicado 29 oct 09:50 UTC (84%); coordinador confirma: se queda, sin revert; 43 WIT de la cover conservados",
             "t": "2026-10-29T09:52:03Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "14 tokens: tildes de exclamativo en lineas 1,4,7,9,11,14,17,19; tilde de preterito l4/l14 palabra 7; tilde interrogativo l5/l15 palabra 1; minuscula l6 p2; coma final l20 fuera; l6 p1 y l2/l12 p2 son del cover (timed), se quedan",
+            "t": "2026-10-29T09:58:09Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 20/20, ninguna palabra <40 ms (min 147); hueco 76 s antes de l11 = solo vocalizaciones en el original (instrumental); audio_guard SUENA_SIN_BLINDAR, servido karaokeMp3 (render 206): no se mide ni se fija",
+            "t": "2026-10-29T09:58:09Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "31 anclas (re)mapeadas + 2 phrase insights en cambio; 157/163; quedan 6 sin item (sin credito IA, no se crean): l2/l9/l12/l19 adentra, l7/l17 espiritual",
+            "t": "2026-10-29T09:58:10Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 20 lineas, 157 WIT con texto y DT de su bolsa, 2 PIT; falta abrir borrador (orquestador)",
+            "t": "2026-10-29T09:58:10Z"
           }
         }
       }
@@ -23376,10 +23386,11 @@
       "originalTrackId": "",
       "titulo": "Ding Dong Ding Dong Estas Cosas Del Amor",
       "artista": "Leonardo Favio",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:34:04Z"
+      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T10:18:11Z",
+      "motivo_en": "worker: carry + clean-up"
     },
     {
       "coverTrackId": "6aa5f83942b8d1fdb0d93c65",
@@ -57849,14 +57860,14 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:51:14Z",
+      "actualizado": "2026-10-29T09:52:56Z",
       "motivo_en": "worker running",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "saul",
-            "nota": "NO aplicado: cover PUBLICADA; el carry pasa de 102 a 52 lineas y salta 126 mapeos existentes (skippedEdited). Hints+14 decisiones guardados (seco limpio, applyAllowed). Falta OK de Saul",
-            "t": "2026-10-29T09:51:14Z"
+            "v": "ok",
+            "nota": "APLICADO 29 oct 09:52Z tras correccion del orquestador (luego revertida la orden: HOLD, sin revertir). 102->52 lineas, verify OK, guard SUENA_SIN_BLINDAR stemVoc +0 conf 1.53. Pendiente OK de Saul; resto sin empezar",
+            "t": "2026-10-29T09:52:56Z"
           }
         }
       }
@@ -63040,11 +63051,11 @@
       "originalTrackId": "",
       "titulo": "Un Gran Amor Y Nada Mas",
       "artista": "Nicola di Bari",
-      "estado": "parada",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "publicada: carry cambiaria lineas 64->38 y saltaria 69 mapeos; espera OK de Saul para aplicar",
-      "actualizado": "2026-10-29T09:52:27Z",
-      "motivo_en": "published: carry would change lines 64->38 and skip 69 existing mappings; needs Saul's OK to apply",
+      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T10:18:10Z",
+      "motivo_en": "worker: carry + clean-up",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -64027,9 +64038,9 @@
       "artista": "Flex",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:51:23Z",
-      "motivo_en": "worker running",
+      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T10:18:09Z",
+      "motivo_en": "worker: carry + clean-up",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -69879,17 +69890,37 @@
       "originalTrackId": "",
       "titulo": "Impaciencia",
       "artista": "Gilberto Santa Rosa",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:52:19Z",
-      "motivo_en": "worker running",
+      "motivo": "falta 2 items nuevos (sin créditos IA): ordeno (ordenar 1s pres), impaciencia (n)",
+      "actualizado": "2026-10-29T10:17:48Z",
+      "motivo_en": "needs 2 new dictionary item(s) (no AI credits)",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry aplicado 29 oct 09:50Z; coordinador confirma conservarlo (70->54 lineas esperado en publicada)",
             "t": "2026-10-29T09:52:19Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "4 tokens: l22 w1 tilde exclamativa, l42 w1 tilde, l45 w6 parentesis suelto, l52 w5 tilde afirmativa; ids y timings iguales",
+            "t": "2026-10-29T09:58:14Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 54 lineas, ninguna palabra <40 ms ni >6 s; huecos l21 y l46 instrumentales (el original tiene huecos ahi)",
+            "t": "2026-10-29T09:58:14Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "8 remapeos + 1 ancla nueva; gemelas 0; 6 tokens sin item (l8 w1, l15/28/36/53 w1, l48 w4): crearlos no se permite, sin creditos de IA",
+            "t": "2026-10-29T09:58:14Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json: 54/54 lineas, 215 WIT con DT del propio bag (214 ok en dry run; l54 w3 necesita --addrows)",
+            "t": "2026-10-29T09:58:15Z"
           }
         }
       }
@@ -81073,14 +81104,14 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:51:40Z",
+      "actualizado": "2026-10-29T09:53:08Z",
       "motivo_en": "worker running",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "saul",
-            "nota": "STOP regla orquestador: cover publicada; apply cambiaria 48->24 lineas y saltaria 76 anclas existentes (skippedEdited) + 24 WIT dropped. Review set listo (lineas 5 y 15 useSingitWord por 3a fuente, linea 5 token 3 spell original). Falta OK de Saul para aplicar",
-            "t": "2026-10-29T09:51:40Z"
+            "v": "ok",
+            "nota": "carry aplicado 29 oct 09:52 UTC (48->24 lineas, 171 WIT carried, 24 dropped, 0 skipped); verify OK. Resto en HOLD esperando OK de Saul",
+            "t": "2026-10-29T09:53:08Z"
           }
         }
       }
