@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T15:19:22Z",
+  "generado": "2026-10-29T15:22:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -11233,16 +11233,36 @@
       "originalTrackId": "",
       "titulo": "Tu Carcel",
       "artista": "los Bukis",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-29T15:10:28Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T15:21:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano: 43 hints, 82 %",
             "t": "2026-10-29T15:10:27Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "30 lineas = original (0 erratas/tildes/mayusculas). Duda: el proveedor acaba en 173.6 s y el audio dura 206 s; el original canta 6 versos mas (sus lineas 36-41) despues de la linea 30 del cover. Por tempo (cover 0.91x) cabrian hasta ~204 s. Hay que oir si el cover los canta antes de anadirlos con su tiempo",
+            "t": "2026-10-29T15:21:08Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 30/30 lineas, ninguna palabra <40 ms ni >6 s; hueco 23 s antes de linea 17 = instrumental (el original solo trae un ad-lib entre parentesis y marca INSTRUMENTAL). Audio: SUENA_SIN_BLINDAR, stemVoc +0 ms conf 3.27, karaokeMp3 +0 conf 5.81; no se mide",
+            "t": "2026-10-29T15:20:59Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "168/168 mapeadas; 6 gemelas unificadas (lineas 7, 8, 20, 22 y 11, 23); homografos tu/tú, que/qué, si revisados; 0 items nuevos",
+            "t": "2026-10-29T15:20:59Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json escrito (30 lineas + 168 WIT con DT de su propia bolsa; dry run apply_en_plan limpio 168/168). No hay draft: lo aplica el orquestador",
+            "t": "2026-10-29T15:21:00Z"
           }
         }
       }
@@ -70533,7 +70553,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T15:19:04Z",
+      "actualizado": "2026-10-29T15:22:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70560,7 +70580,17 @@
             "v": "falta",
             "nota": "en_plan.json listo: 32 lineas, 112 WIT con DT de su propio item, 7 PIT; lo aplica el orquestador",
             "t": "2026-10-28T14:28:25Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, mapeo, items nuevos 19 idiomas, ingles pending_review, guard OK",
+            "t": "2026-10-29T15:22:06Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, mapeo, items nuevos 19 idiomas, ingles pending_review, guard OK",
+          "t": "2026-10-29T15:22:06Z"
         }
       },
       "motivo_en": "QC r1"
@@ -75682,10 +75712,10 @@
       "originalTrackId": "",
       "titulo": "Dime Como",
       "artista": "Luis Fonsi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T15:13:29Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T15:21:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75712,7 +75742,23 @@
             "v": "ok",
             "nota": "en_plan.json: 42 lineas + 206 WIT con DT del propio item; sin draft, lo aplica el orquestador",
             "t": "2026-10-29T09:24:53Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1 VERDE: estructura, tildes, gemelas, ingles, items nuevos y audio ok",
+            "t": "2026-10-29T15:21:44Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1 VERDE: estructura, tildes, gemelas, ingles, items nuevos y audio ok",
+          "t": "2026-10-29T15:21:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T15:21:45Z"
         }
       },
       "motivo_en": "QC r1"
