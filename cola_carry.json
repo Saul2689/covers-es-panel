@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T11:12:00Z",
+  "generado": "2026-10-29T11:21:23Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 36,
   "canciones": [
@@ -51338,10 +51338,10 @@
       "originalTrackId": "",
       "titulo": "Bye Mama",
       "artista": "Alejandra Guzmán",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "falta 3 items nuevos (sin créditos IA): L14 p1 volar imperfecto 2sg sentido volar; L38 p5 llegar imperfecto 2sg sentido llegar; L39 p2 venir imperfecto 2sg sentido venir",
-      "actualizado": "2026-10-28T16:54:24Z",
+      "motivo": "items creados, lista para QC",
+      "actualizado": "2026-10-29T11:19:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51361,8 +51361,8 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "237/242 anclas; 5 sin mapear = ingles; 4 remapeos a items existentes (l1 w1, l13 w6, l37 w2, l40 w9); 0 items nuevos",
-            "t": "2026-10-28T16:27:08Z"
+            "nota": "",
+            "t": "2026-10-29T11:19:28Z"
           },
           "ingles": {
             "v": "falta",
@@ -70509,10 +70509,10 @@
       "originalTrackId": "",
       "titulo": "Si Yo Me Vuelvo A Enamorar",
       "artista": "Jennifer Peña",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "falta 3 items + 1 frase nuevos (sin créditos IA)",
-      "actualizado": "2026-10-28T14:34:52Z",
+      "motivo": "items creados, lista para QC",
+      "actualizado": "2026-10-29T11:17:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70531,9 +70531,9 @@
             "t": "2026-10-28T14:30:11Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "268/271; 63 anclas remapeadas/creadas, 7 phrase insights; 3 sin item del sentido (l1 w4, l3 w3, l8 w1) + locucion l12 w5-6 sin phrase item: no se crean (sin credito de traduccion)",
-            "t": "2026-10-28T14:30:11Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-29T11:17:02Z"
           },
           "ingles": {
             "v": "falta",
@@ -70761,10 +70761,10 @@
       "originalTrackId": "",
       "titulo": "No Podras",
       "artista": "Olga Tañón",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "falta 3 items nuevos (sin créditos IA)",
-      "actualizado": "2026-10-28T14:50:11Z",
+      "motivo": "items creados, lista para QC",
+      "actualizado": "2026-10-29T11:16:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70783,9 +70783,9 @@
             "t": "2026-10-28T14:43:01Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "21 anclas remapeadas (homografos, gemelas, sentidos) + 6 nuevas; quedan 13 sin item es: linea 7 palabra 2, borrarme x9 (palabra 3 de 14,19,26,35,40,43,48,55; linea 59 palabra 1), desangres x3 (palabra 3 de 27,41,56): items nuevos vetados (sin credito)",
-            "t": "2026-10-28T14:43:02Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-29T11:16:36Z"
           },
           "ingles": {
             "v": "falta",
@@ -71725,10 +71725,10 @@
       "originalTrackId": "",
       "titulo": "El Ultimo Romantico",
       "artista": "Alvaro Torres",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T11:11:47Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T11:17:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -71755,7 +71755,23 @@
             "v": "ok",
             "nota": "",
             "t": "2026-10-29T11:01:24Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "litchk 0, lpchk 0, BAD 0, structure and mapping clean, EN pending_review",
+            "t": "2026-10-29T11:17:48Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "litchk 0, lpchk 0, BAD 0, structure and mapping clean, EN pending_review",
+          "t": "2026-10-29T11:17:48Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T11:17:49Z"
         }
       },
       "motivo_en": "QC r1"
@@ -71947,10 +71963,10 @@
       "originalTrackId": "",
       "titulo": "Eternamente",
       "artista": "Sentidos Opuestos",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "falta 3 items nuevos (sin créditos IA): L8 palabra 1 así concesivo; L21 palabra 4 nacer 1pl presente; L22 palabra 6 roce plural. Inglés listo en wscratch/6aa6cf69/en_plan.json",
-      "actualizado": "2026-10-28T15:14:00Z",
+      "motivo": "items creados, lista para QC",
+      "actualizado": "2026-10-29T11:16:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -71969,9 +71985,9 @@
             "t": "2026-10-28T15:03:32Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "6 anclas nuevas (l3 w5, l4 w1, l8 w3-4, l57 w2, l62 w1); remapeos: mi->mí l14,31,46,60 w1; tú l61 w0; hasta l57 w0; gemelas l17 w0/w6, l48 w3, l65 w3; 6 PI (l3, l4, l8, l11, l28, l43). Sin item es (no se crean): l8 w0 (sentido concesivo), l21 w3, l22 w5 quedan sin mapear",
-            "t": "2026-10-28T15:12:37Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-29T11:16:39Z"
           },
           "ingles": {
             "v": "falta",
@@ -72409,10 +72425,10 @@
       "originalTrackId": "",
       "titulo": "Dos Mares",
       "artista": "Alicia Villarreal",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "falta 3 items nuevos (sin créditos IA): nublar (infinitivo), descolgando (gerundio), desgraciadamente (adverbio); plan inglés listo en wscratch/6aa73756",
-      "actualizado": "2026-10-28T15:21:02Z",
+      "motivo": "items creados, lista para QC",
+      "actualizado": "2026-10-29T11:19:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72431,9 +72447,9 @@
             "t": "2026-10-28T15:18:58Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "8 anclas arregladas; 5 tokens sin item es (l2 p3, l6 p3, l8 p3, l13 p2, l20 p2): no se crean items sin credito",
-            "t": "2026-10-28T15:18:59Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-29T11:19:27Z"
           },
           "ingles": {
             "v": "falta",
@@ -73693,10 +73709,10 @@
       "originalTrackId": "",
       "titulo": "Se Te Olvido",
       "artista": "Pablo Montero",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "falta 3 items nuevos (sin créditos IA): L4 w7 desgastar 3SG; L8/L19 w3 entregarse IMPF.2SG; L16 w8 desgarrar 3PL; plan inglés listo sin aplicar",
-      "actualizado": "2026-10-29T09:11:12Z",
+      "motivo": "items creados, lista para QC",
+      "actualizado": "2026-10-29T11:16:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73715,9 +73731,9 @@
             "t": "2026-10-29T09:10:23Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "207/211 mapeados; 26 anclas remapeadas/creadas; faltan 4 tokens sin item es (linea 4 palabra 7, linea 8 palabra 3, linea 16 palabra 8, linea 19 palabra 3): item nuevo no permitido sin credito de traduccion",
-            "t": "2026-10-29T09:10:24Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-29T11:16:37Z"
           },
           "ingles": {
             "v": "falta",
@@ -73943,9 +73959,9 @@
       "titulo": "Bendita Tu",
       "artista": "Dyango",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T11:11:44Z",
+      "vueltas": 1,
+      "motivo": "QC r1 corregida, a QC r2",
+      "actualizado": "2026-10-29T11:19:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73972,10 +73988,20 @@
             "v": "falta",
             "nota": "44 lineas y 167 WIT en en_plan.json; falta abrir el borrador",
             "t": "2026-10-29T09:11:34Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WI word field stale (no tilde) on 8 WIs: line 1,3,5,7,20,22,24,26 word 1",
+            "t": "2026-10-29T11:15:14Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WI word field stale (no tilde) on 8 WIs: line 1,3,5,7,20,22,24,26 word 1",
+          "t": "2026-10-29T11:15:14Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa57b6342b8d1fdb0ce5fe8",
@@ -74367,10 +74393,10 @@
       "originalTrackId": "",
       "titulo": "El Hombre Es Como El Oso",
       "artista": "Azul Azul, Laura Leon",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "falta 3 items nuevos (sin créditos IA): adjetivo final L4/22/41/49/53; L17 w3; L33/37 w1. Líneas 28 y 30 duplicadas de 29 y 31 (borrarlas quita anclas: OK de Saúl). Plan inglés listo sin aplicar",
-      "actualizado": "2026-10-29T09:17:55Z",
+      "motivo": "items creados, lista para QC",
+      "actualizado": "2026-10-29T11:19:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74389,9 +74415,9 @@
             "t": "2026-10-29T09:16:50Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "204/209; 46 anclas escritas; sin item: última palabra de líneas 4,22,41,49,53 (no se crean items: sin crédito); línea 17 palabra 3 y líneas 33/37 palabra 1 en el item más cercano",
-            "t": "2026-10-29T09:16:50Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-29T11:19:30Z"
           },
           "ingles": {
             "v": "ok",
@@ -74408,10 +74434,10 @@
       "originalTrackId": "",
       "titulo": "Necesidad",
       "artista": "Vagon Chicano",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "falta 3 items nuevos (sin créditos IA): L2 w3 sustantivo; L3 w6 sustantivo; L15/L28 w3 verbo precisar; plan inglés listo sin aplicar",
-      "actualizado": "2026-10-29T09:18:34Z",
+      "motivo": "items creados, lista para QC",
+      "actualizado": "2026-10-29T11:19:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74430,9 +74456,9 @@
             "t": "2026-10-29T09:17:38Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "4 tokens sin item es (no se crean items: API de traduccion sin credito): linea 2 palabra 3, linea 3 palabra 6, lineas 15 y 28 palabra 3; resto mapeado, gemelas unificadas, 6 phrase insights",
-            "t": "2026-10-29T09:17:39Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-29T11:19:29Z"
           },
           "ingles": {
             "v": "falta",
@@ -74461,9 +74487,9 @@
       "titulo": "Brindemos",
       "artista": "Greeicy",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T11:11:46Z",
+      "vueltas": 1,
+      "motivo": "QC r1 corregida, a QC r2",
+      "actualizado": "2026-10-29T11:19:20Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74490,10 +74516,20 @@
             "v": "ok",
             "nota": "en_plan.json listo: 56 lineas, 244/244 WIT con DT de su bolsa, 6 PIT; 2 filas en no primarias; draft lo abre el orquestador",
             "t": "2026-10-29T09:20:58Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "litchk 1 (PIT line 35 words 1-2); stale WI word field line 6 w1-2, line 40 w1, line 55 w1-2",
+            "t": "2026-10-29T11:16:31Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "litchk 1 (PIT line 35 words 1-2); stale WI word field line 6 w1-2, line 40 w1, line 55 w1-2",
+          "t": "2026-10-29T11:16:31Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa1112064c9b8ff110c993d",
@@ -74659,10 +74695,10 @@
       "originalTrackId": "",
       "titulo": "Dile Que Vuelva",
       "artista": "Marisol",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "falta 3 items nuevos (sin créditos IA): L7 w2 GER+CL esperar; L1/5/18/22 w1 IMP.2SG correr; w2 IMP.2SG ir; plan inglés listo sin aplicar",
-      "actualizado": "2026-10-29T09:22:23Z",
+      "motivo": "items creados, lista para QC",
+      "actualizado": "2026-10-29T11:17:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74682,8 +74718,8 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "28 anclas remapeadas (gemelas, tildes el/mas, sentidos va/a/ya/le), 8 nuevas, 2 phrase insights; sin item: linea 7 palabra 2 (ningun item es), vocables lineas 42-59",
-            "t": "2026-10-29T09:19:46Z"
+            "nota": "",
+            "t": "2026-10-29T11:17:03Z"
           },
           "ingles": {
             "v": "ok",
@@ -74886,10 +74922,10 @@
       "originalTrackId": "",
       "titulo": "Dime Como",
       "artista": "Luis Fonsi",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "falta 3 items nuevos (sin créditos IA): línea 7 palabras 1 y 7, línea 23 palabra 8",
-      "actualizado": "2026-10-29T09:26:43Z",
+      "motivo": "items creados, lista para QC",
+      "actualizado": "2026-10-29T11:17:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74908,9 +74944,9 @@
             "t": "2026-10-29T09:24:52Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "8 anclas nuevas, 13 remapeos (gemelas 0, se reflexivo L23). Sin item es (sin credito, no se crean): L7 pal 1 y pal 7, L23 pal 8. Ad-libs L32, L41 sin mapear",
-            "t": "2026-10-29T09:24:53Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-29T11:17:02Z"
           },
           "ingles": {
             "v": "ok",
@@ -75380,10 +75416,10 @@
       "originalTrackId": "",
       "titulo": "4:30 Am",
       "artista": "Obie Bermudez",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "falta 3 items nuevos (sin créditos IA): línea 23 palabra 7, línea 44 palabra 5, y una frase; Saúl: escuchar línea 51 (190,7–192,6 s)",
-      "actualizado": "2026-10-29T09:40:39Z",
+      "motivo": "items creados, lista para QC",
+      "actualizado": "2026-10-29T11:17:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75402,9 +75438,9 @@
             "t": "2026-10-29T09:39:47Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "365/372: 64 anclas upsert (tildes, gemelas, estrella astro, sentidos) + 2 PI; sin mapear: 2 tokens que piden item nuevo (línea 23 palabra 7, línea 44 palabra 5; creación congelada sin crédito IA), numeral 4:30 x2, 3 ad-libs línea 21",
-            "t": "2026-10-29T09:39:48Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-29T11:17:04Z"
           },
           "ingles": {
             "v": "falta",
@@ -81429,10 +81465,10 @@
       "originalTrackId": "",
       "titulo": "Hay Amores",
       "artista": "Pablo Montero",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "falta 3 items nuevos (sin créditos IA): concedido (part.), cuestan (costar 3pl), parten (partir 3pl 'romperse')",
-      "actualizado": "2026-10-29T10:25:37Z",
+      "motivo": "items creados, lista para QC",
+      "actualizado": "2026-10-29T11:16:39Z",
       "motivo_en": "needs 3 new dictionary item(s) (no AI credits)",
       "auditoria": {
         "pasos": {
@@ -81452,9 +81488,9 @@
             "t": "2026-10-29T10:24:54Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "API sin credito: 3 tokens sin item (linea 3 palabra 3 conceder PAST_PARTICIPLE 'granted'; lineas 9 y 19 palabra 4 costar PRES.3PL 'cost'); lineas 10 y 20 palabra 3: el unico item de esa forma es el sentido 'morir', falta partir PRES.3PL 'romper/partir en trozos'. Gemelas unificadas (18.7, 19.6, 11.3)",
-            "t": "2026-10-29T10:24:54Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-29T11:16:38Z"
           },
           "ingles": {
             "v": "ok",
