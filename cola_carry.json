@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T11:57:41Z",
+  "generado": "2026-10-29T12:13:36Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 36,
   "canciones": [
@@ -9123,10 +9123,10 @@
       "originalTrackId": "",
       "titulo": "En Cambio No",
       "artista": "Laura Pausini",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T11:53:18Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:00:02Z",
       "motivo_en": "QC r1",
       "auditoria": {
         "pasos": {
@@ -9151,10 +9151,26 @@
             "t": "2026-10-29T11:34:50Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo en es_map/payloads/<id>: 36 lineas, 176/176 WIT con DT propio (wit_dt_audit BAD 0), 8 PIT; lo aplica el orquestador",
-            "t": "2026-10-29T10:33:10Z"
+            "v": "ok",
+            "nota": "borrador pending_review",
+            "t": "2026-10-29T12:00:01Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles pending_review y audio OK; L14 ad-lib sin mapear",
+            "t": "2026-10-29T12:00:01Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles pending_review y audio OK; L14 ad-lib sin mapear",
+          "t": "2026-10-29T12:00:01Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:00:02Z"
         }
       }
     },
@@ -23506,11 +23522,11 @@
       "originalTrackId": "",
       "titulo": "Ding Dong Ding Dong Estas Cosas Del Amor",
       "artista": "Leonardo Favio",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T11:53:21Z",
-      "motivo_en": "QC r1",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-10-29T12:03:19Z",
+      "motivo_en": "Wrong-sense anchors left on a vocable and on proper names: line 4 word 0, line 18 words 7-8, line 42 words 4,5,8,9 (0-based). Unmap per D-1/D-3/D-4, then fix the English draft and resubmit.",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23537,7 +23553,17 @@
             "v": "falta",
             "nota": "en_plan.json hecho a mano: 73 líneas, 318/320 WITs (línea 47 palabra 7 y línea 55 palabra 9 sin bolsa en); lo aplica el orquestador",
             "t": "2026-10-29T10:39:03Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "anclas de sentido erroneo en vocal/nombres propios: l4 w0, l18 w7-8, l42 w4,5,8,9 (D-1/D-3/D-4)",
+            "t": "2026-10-29T12:03:18Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "anclas de sentido erroneo en vocal/nombres propios: l4 w0, l18 w7-8, l42 w4,5,8,9 (D-1/D-3/D-4)",
+          "t": "2026-10-29T12:03:18Z"
         }
       }
     },
@@ -58192,10 +58218,10 @@
       "originalTrackId": "",
       "titulo": "Amor Pirata",
       "artista": "Willie Gonzalez",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "falta 9 items nuevos (sin créditos IA): ver job md",
-      "actualizado": "2026-10-29T10:26:12Z",
+      "motivo": "items creados, lista para QC",
+      "actualizado": "2026-10-29T12:06:11Z",
       "motivo_en": "needs 9 new dictionary item(s) (no AI credits)",
       "auditoria": {
         "pasos": {
@@ -58215,9 +58241,9 @@
             "t": "2026-10-29T10:25:29Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "9 posiciones sin item (7 palabras; sin creditos IA, no se crean): l2w2 l4w6 l10w5 l19w6 l24w1 l33w1 l40w6 l43w2 l45w1; compartimos l44w3 sin fila en ingles. Resto: 10 remapeos + 12 anclas nuevas, gemelas unificadas",
-            "t": "2026-10-29T10:25:30Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-29T12:06:11Z"
           },
           "ingles": {
             "v": "ok",
@@ -70272,9 +70298,9 @@
       "artista": "Gilberto Santa Rosa",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:08:52Z",
-      "motivo_en": "needs 2 new dictionary item(s) (no AI credits)",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T11:57:59Z",
+      "motivo_en": "QC r1",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70646,10 +70672,10 @@
       "originalTrackId": "",
       "titulo": "Presumida",
       "artista": "Enrique Guzman",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "falta ~14 items nuevos (sin créditos IA)",
-      "actualizado": "2026-10-28T14:34:52Z",
+      "motivo": "items creados, lista para QC",
+      "actualizado": "2026-10-29T12:06:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70668,9 +70694,9 @@
             "t": "2026-10-28T14:31:48Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "13 anclas nuevas, 10 remapeos, 6 phrase insights, 2 filas en no primarias; 14 tokens necesitan item nuevo (sin credito de traduccion), lista en jobs",
-            "t": "2026-10-28T14:31:49Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-29T12:06:12Z"
           },
           "ingles": {
             "v": "falta",
@@ -71128,8 +71154,8 @@
       "artista": "Pablo Montero",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:04:29Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T11:57:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -71159,7 +71185,7 @@
           }
         }
       },
-      "motivo_en": "needs 2 new items (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6567072ca57eb1a9c4653",
@@ -71693,10 +71719,10 @@
       "originalTrackId": "",
       "titulo": "Si Tu Quisieras",
       "artista": "Luis Fonsi",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T11:54:25Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:04:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -71720,10 +71746,26 @@
             "t": "2026-10-29T11:39:58Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 33 lineas, 187/187 WIT con DT del bag (BAD 0), 2 PIT; lo aplica el orquestador",
-            "t": "2026-10-28T15:47:15Z"
+            "v": "ok",
+            "nota": "borrador pending_review",
+            "t": "2026-10-29T12:04:09Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+            "t": "2026-10-29T12:04:09Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+          "t": "2026-10-29T12:04:09Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:04:10Z"
         }
       },
       "motivo_en": "QC r1"
@@ -72125,10 +72167,10 @@
       "originalTrackId": "",
       "titulo": "Si No Te Hubieras Ido",
       "artista": "Tito Nieves",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T11:57:28Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T11:57:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72152,9 +72194,9 @@
             "t": "2026-10-29T11:04:18Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 41 lineas + 233 WIT con DT de su propio item; lo aplica el orquestador",
-            "t": "2026-10-28T15:08:29Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 41 lineas",
+            "t": "2026-10-29T11:57:44Z"
           },
           "qc": {
             "v": "ok",
@@ -72166,6 +72208,12 @@
           "v": "VERDE",
           "resumen": "estructura, mapeo, ingles pending_review, audio y chequeos OK",
           "t": "2026-10-29T11:57:28Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T11:57:46Z"
         }
       },
       "motivo_en": "QC r1"
@@ -72326,10 +72374,10 @@
       "originalTrackId": "",
       "titulo": "Mala Racha",
       "artista": "Conjunto Primavera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T11:53:20Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:00:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72354,9 +72402,25 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan.json: 28 lineas + 206 WIT con DT de su bolsa + 2 PIT; sin draft (lo aplica el orquestador)",
-            "t": "2026-10-28T15:22:43Z"
+            "nota": "borrador pending_review",
+            "t": "2026-10-29T12:00:57Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+            "t": "2026-10-29T12:00:56Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+          "t": "2026-10-29T12:00:56Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:00:58Z"
         }
       },
       "motivo_en": "QC r1"
@@ -72869,10 +72933,10 @@
       "originalTrackId": "",
       "titulo": "Dame Lo Que Quieras",
       "artista": "la Secta Allstar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T11:54:27Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:05:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72896,10 +72960,26 @@
             "t": "2026-10-29T11:39:59Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 66 lineas, 258 WIT con DT de su bolsa, 11 PIT; lo aplica el orquestador",
-            "t": "2026-10-29T09:02:47Z"
+            "v": "ok",
+            "nota": "borrador pending_review",
+            "t": "2026-10-29T12:05:38Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+            "t": "2026-10-29T12:05:38Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+          "t": "2026-10-29T12:05:38Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:05:40Z"
         }
       },
       "motivo_en": "QC r1"
@@ -73084,10 +73164,10 @@
       "originalTrackId": "",
       "titulo": "No Hay Quinto Malo",
       "artista": "Paquita la Del Barrio",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T11:54:30Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:07:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73111,10 +73191,26 @@
             "t": "2026-10-29T11:40:01Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 38 lineas + 187 WIT con DT de su bolsa (dry run limpio, 0 saltados); fila en no primaria nueva en item engañé; lo aplica el orquestador",
-            "t": "2026-10-29T09:01:03Z"
+            "v": "ok",
+            "nota": "borrador pending_review",
+            "t": "2026-10-29T12:07:53Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+            "t": "2026-10-29T12:07:53Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+          "t": "2026-10-29T12:07:53Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:07:54Z"
         }
       },
       "motivo_en": "QC r1"
@@ -75032,10 +75128,10 @@
       "originalTrackId": "",
       "titulo": "Causa Y Efecto",
       "artista": "Paulina Rubio",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T11:53:17Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T11:58:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75059,10 +75155,26 @@
             "t": "2026-10-29T11:24:52Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 38 lineas, 227 WIT con DT de su bolsa, 3 PIT; dry run apply_en_plan limpio; sin draft abierto (lo aplica el orquestador)",
-            "t": "2026-10-29T09:22:54Z"
+            "v": "ok",
+            "nota": "borrador pending_review",
+            "t": "2026-10-29T11:58:50Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+            "t": "2026-10-29T11:58:50Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+          "t": "2026-10-29T11:58:50Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T11:58:51Z"
         }
       },
       "motivo_en": "QC r1"
@@ -75073,10 +75185,10 @@
       "originalTrackId": "",
       "titulo": "De Carton Piedra",
       "artista": "Joan Manuel Serrat",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "falta 14 items nuevos (sin créditos IA): 14 tokens sin item es, 4 anclas en sentido equivocado",
-      "actualizado": "2026-10-29T09:26:43Z",
+      "motivo": "items creados, lista para QC",
+      "actualizado": "2026-10-29T12:06:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75095,9 +75207,9 @@
             "t": "2026-10-29T09:24:20Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "2 anclas nuevas, 17 remapeos (1 sentido + 16 ad-libs); 14 tokens sin item es (credito IA agotado, no se crean items) + 1 nombre propio; 3 anclas en item de sentido equivocado sin alternativa; 5 filas en no primarias anadidas",
-            "t": "2026-10-29T09:24:21Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-29T12:06:13Z"
           },
           "ingles": {
             "v": "falta",
@@ -75635,10 +75747,10 @@
       "originalTrackId": "",
       "titulo": "Felicidades",
       "artista": "Dyango",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "falta ~9 items nuevos (sin créditos IA): 8 tokens sin item (L3w2, L5w8, L13w8, L6w4, L14w4, L8w8, L16w8, L12w11) y una interjección para las 7 aperturas de línea",
-      "actualizado": "2026-10-29T09:34:25Z",
+      "motivo": "items creados, lista para QC",
+      "actualizado": "2026-10-29T12:06:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75657,9 +75769,9 @@
             "t": "2026-10-29T09:33:33Z"
           },
           "mapeo": {
-            "v": "saul",
-            "nota": "6 remapeos (gemelas L13/L14/L15/L16, sentido L2 w8 y L10 w6), 2 phrase anchors (L1, L2), 3 filas en nuevas; 8 tokens sin item exacto y sin creditos para crear: L3w3 L5w9 L6w5 L8w9 L12w12 L13w9 L14w5 L16w9",
-            "t": "2026-10-29T09:33:34Z"
+            "v": "ok",
+            "nota": "",
+            "t": "2026-10-29T12:06:10Z"
           },
           "ingles": {
             "v": "ok",
@@ -75687,10 +75799,10 @@
       "originalTrackId": "",
       "titulo": "Me Duele La Cabeza",
       "artista": "Hector El Torito Acosta",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T11:54:28Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:07:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75715,9 +75827,25 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan.json en es_map/payloads: 52/52 lineas, 333/336 WIT con DT de su bolsa, 7 PIT; faltan 3 WIT (botes, bolsa vacia); sin draft abierto",
-            "t": "2026-10-29T09:32:52Z"
+            "nota": "borrador pending_review",
+            "t": "2026-10-29T12:07:12Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+            "t": "2026-10-29T12:07:12Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+          "t": "2026-10-29T12:07:12Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:07:13Z"
         }
       },
       "motivo_en": "QC r1"
