@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T16:58:07Z",
+  "generado": "2026-10-29T17:20:28Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -16425,10 +16425,10 @@
       "originalTrackId": "",
       "titulo": "Se Parecio Tanto A Ti",
       "artista": "Grupo Niche",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-10-29T16:53:13Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-10-29T17:19:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -16468,7 +16468,7 @@
           "t": "2026-10-29T16:53:13Z"
         }
       },
-      "motivo_en": "QC r1 returned: line 55 word 3 doubled subject in the WIT; point it to the existing row am (same item bag) and resubmit"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa58aa742b8d1fdb0cfb064",
@@ -23591,10 +23591,10 @@
       "originalTrackId": "",
       "titulo": "Dr. Psiquiatra",
       "artista": "Gloria Trevi",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-10-29T16:55:08Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-10-29T17:19:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23634,7 +23634,7 @@
           "t": "2026-10-29T16:55:07Z"
         }
       },
-      "motivo_en": "QC r1 returned: line 22 words 3 and 6 doubled subject in the WIT; add a bare-verb en row to the same item and point both WITs to it"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa6cc9972ca57eb1aa62376",
@@ -26392,10 +26392,10 @@
       "originalTrackId": "",
       "titulo": "Loca",
       "artista": "Ana Barbara",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T16:42:06Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T16:59:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -26419,10 +26419,26 @@
             "t": "2026-10-29T16:15:23Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 39 lineas, 191 WIT con DT de su bolsa, 4 PIT; falta abrir el borrador",
-            "t": "2026-10-29T16:15:23Z"
+            "v": "ok",
+            "nota": "borrador en pending_review enviado por el worker, 39/39 lineas, QC r1",
+            "t": "2026-10-29T16:59:00Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r1: todo limpio; item nuevo completo; nota de oido L11/L22 w1",
+            "t": "2026-10-29T16:58:49Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r1: todo limpio; item nuevo completo; nota de oido L11/L22 w1",
+          "t": "2026-10-29T16:58:49Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T16:59:02Z"
         }
       },
       "motivo_en": "QC r1"
@@ -26977,10 +26993,10 @@
       "originalTrackId": "",
       "titulo": "Estar Enamorado",
       "artista": "Raphael",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T16:42:08Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T17:01:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -27004,10 +27020,26 @@
             "t": "2026-10-29T16:20:02Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 40 lineas, 321 WIT, 10 PIT; falta abrir el borrador",
-            "t": "2026-10-29T16:20:02Z"
+            "v": "ok",
+            "nota": "borrador en pending_review enviado por el worker",
+            "t": "2026-10-29T17:01:39Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, sentidos e items nuevos OK; sin defectos",
+            "t": "2026-10-29T17:01:31Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, sentidos e items nuevos OK; sin defectos",
+          "t": "2026-10-29T17:01:31Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T17:01:41Z"
         }
       },
       "motivo_en": "QC r1"
@@ -31111,10 +31143,10 @@
       "originalTrackId": "",
       "titulo": "Necesito Una Compañera",
       "artista": "los Bukis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T16:56:39Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T16:59:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31138,10 +31170,26 @@
             "t": "2026-10-29T16:25:55Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json escrito: 43 lineas + 212 WIT con DT de su propia bolsa; sin draft, lo aplica el orquestador",
-            "t": "2026-10-29T16:25:55Z"
+            "v": "ok",
+            "nota": "draft pending_review 43/43 lineas, 212 WIT",
+            "t": "2026-10-29T16:59:50Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, gemelas, ingles y audio OK; L9-14 nota de oido",
+            "t": "2026-10-29T16:59:42Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, gemelas, ingles y audio OK; L9-14 nota de oido",
+          "t": "2026-10-29T16:59:42Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T16:59:51Z"
         }
       },
       "motivo_en": "QC r1"
@@ -32643,10 +32691,10 @@
       "originalTrackId": "",
       "titulo": "Llorare Las Penas",
       "artista": "David Bisbal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T16:56:40Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T17:02:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -32670,10 +32718,26 @@
             "t": "2026-10-29T16:31:45Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json escrito: 58 lineas + 324 WIT con DT de su propia bolsa; sin draft, lo aplica el orquestador",
-            "t": "2026-10-29T16:31:46Z"
+            "v": "ok",
+            "nota": "draft pending_review 58/58 lineas, 324 WIT",
+            "t": "2026-10-29T17:02:10Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, items nuevos, gemelas, ingles y audio OK; notas de oido L1/L55",
+            "t": "2026-10-29T17:02:10Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, items nuevos, gemelas, ingles y audio OK; notas de oido L1/L55",
+          "t": "2026-10-29T17:02:10Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T17:02:12Z"
         }
       },
       "motivo_en": "QC r1"
@@ -38052,8 +38116,8 @@
       "artista": "Carlos Rivera",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-29T16:33:06Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T17:02:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38082,7 +38146,8 @@
             "t": "2026-10-29T16:33:05Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa110fa64c9b8ff110c1bce",
@@ -45694,8 +45759,8 @@
       "artista": "Frankie Ruiz",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-29T16:43:30Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T17:02:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45724,7 +45789,8 @@
             "t": "2026-10-29T16:43:29Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6c4c972ca57eb1aa58e85",
@@ -47798,8 +47864,8 @@
       "artista": "Roberto Jordan",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-29T16:48:55Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T17:02:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47828,7 +47894,8 @@
             "t": "2026-10-29T16:48:54Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa612bc42b8d1fdb0daf84e",
@@ -48806,8 +48873,8 @@
       "artista": "Soraya",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-29T16:54:19Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T17:03:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48836,7 +48903,8 @@
             "t": "2026-10-29T16:54:18Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa62d3472ca57eb1a987e01",
@@ -49657,10 +49725,10 @@
       "originalTrackId": "",
       "titulo": "Que Ganas",
       "artista": "Ricardo Montaner",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-10-29T16:45:26Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T17:20:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -49689,7 +49757,8 @@
             "t": "2026-10-29T16:45:26Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6836072ca57eb1aa04ec4",
@@ -53046,19 +53115,40 @@
       "originalTrackId": "",
       "titulo": "Escapemonos",
       "artista": "Jennifer Lopez, Marc Anthony",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-29T16:31:34Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T17:20:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano: 21 hints nuevos/cambiados (37 en total), 20 decisiones, 83 %",
-            "t": "2026-10-29T16:31:34Z"
+            "nota": "hand carry ya aplicado; no tocado",
+            "t": "2026-10-29T16:58:45Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "9 arreglos de tilde/caja + insert line 22 word 8; vendor duplicates listed",
+            "t": "2026-10-29T16:58:15Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "12 palabras de 0 ms corregidas; drift 0; ninguna bajo 40 ms; line 45 vendor 18.8 s listed",
+            "t": "2026-10-29T16:58:16Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "6 items nuevos + 1 phrase item nuevo; 287/288, solo line 45 vendor sin mapear",
+            "t": "2026-10-29T16:58:17Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo 63/285/8; falta abrir el borrador",
+            "t": "2026-10-29T16:58:17Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa68ad672ca57eb1aa0ebe4",
@@ -62740,10 +62830,10 @@
       "originalTrackId": "",
       "titulo": "Presencie Tu Amor",
       "artista": "Olga Tañon",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-29T16:58:06Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T16:58:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62760,6 +62850,16 @@
             "v": "ok",
             "nota": "drift 0 en 39 lineas; audio_guard SUENA_SIN_BLINDAR",
             "t": "2026-10-29T16:58:06Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 3 items nuevos + permanecera traducido; 2 frases",
+            "t": "2026-10-29T16:58:17Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan listo (39 lineas, 185 WIT, 6 PIT); lo aplica el orquestador",
+            "t": "2026-10-29T16:58:07Z"
           }
         }
       }
@@ -63478,16 +63578,36 @@
       "originalTrackId": "",
       "titulo": "Interrogacion",
       "artista": "Julio Jaramillo",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-29T16:40:55Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T17:02:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano: 23 hints, 85 %",
             "t": "2026-10-29T16:40:55Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "letra limpia; sin cambios necesarios",
+            "t": "2026-10-29T17:02:19Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 29 lineas; palabra minima 143 ms; audio_guard SUENA_SIN_BLINDAR",
+            "t": "2026-10-29T17:02:20Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 5 items nuevos; 7 remapeos de gemelas; frase por que x3",
+            "t": "2026-10-29T17:02:21Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan listo (29 lineas, 144 WIT, 3 PIT); lo aplica el orquestador",
+            "t": "2026-10-29T17:02:21Z"
           }
         }
       }
@@ -77775,16 +77895,36 @@
       "originalTrackId": "",
       "titulo": "Soy",
       "artista": "Willy Chirino",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-29T16:41:13Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T17:01:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano: 5 hints, 83 %",
-            "t": "2026-10-29T16:41:12Z"
+            "nota": "carry a mano aplicado 29 oct (69 lineas; 53-69 solo del cover)",
+            "t": "2026-10-29T17:01:22Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 34 palabra 7 coma final quitada; lineas 54/63 palabra 4 coma quitada y 55/64 palabra 3 coma puesta como el resto del estribillo; notas de oido del carry (lineas 3, 5, 12, 26 y palabras no cantadas) se dejan como canta el cover",
+            "t": "2026-10-29T17:01:22Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "tiempos intactos; palabra minima 67 ms; audio SUENA_SIN_BLINDAR sin medir",
+            "t": "2026-10-29T17:01:23Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "items nuevos ruisenor 6ae37b4ca13cd7ecd450f31f + plural 6ae37b4d8a6aa522cc066a69 (19 idiomas); rejas mapeada; 16 remapeos (estribillo 35-68 unificado a 15-20, linea 24 palabra 1)",
+            "t": "2026-10-29T17:01:24Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json: 69 lineas + 287 WIT con DT de su bolsa (incluidas 53-69)",
+            "t": "2026-10-29T17:01:24Z"
           }
         }
       }
@@ -78325,16 +78465,36 @@
       "originalTrackId": "",
       "titulo": "El Rey",
       "artista": "Lupillo Rivera",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-29T16:42:33Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T17:20:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano: 8 hints, 83 %",
-            "t": "2026-10-29T16:42:32Z"
+            "nota": "carry a mano aplicado 29 oct (25 lineas)",
+            "t": "2026-10-29T17:20:05Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 3 palabra 1 coma heredada del original quitada (el cover canta la palabra una vez); lineas 8/21 palabra 2 y 12/25 palabra 5 a minuscula; linea 17 palabra 1 tilde; formas dialectales y palabras del cover (lineas 6, 8, 11, 13, 15-17, 21, 24) se dejan como canta",
+            "t": "2026-10-29T17:20:06Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "tiempos intactos; palabra minima 150 ms; audio SUENA_SIN_BLINDAR sin medir",
+            "t": "2026-10-29T17:20:06Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "4 items nuevos (naiden, arriero, arrieros, futuro 2SG de decir; 19 idiomas); 12 anclas nuevas; 9 remapeos (gemelas 22-25, linea 4 palabra 1 sentido decir, linea 6 palabra 1)",
+            "t": "2026-10-29T17:20:19Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json: 25 lineas + 131 WIT con DT de su bolsa",
+            "t": "2026-10-29T17:20:07Z"
           }
         }
       }
