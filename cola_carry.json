@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T18:47:02Z",
+  "generado": "2026-10-29T18:49:15Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -67694,10 +67694,10 @@
       "originalTrackId": "",
       "titulo": "Kumbala",
       "artista": "la Maldita Vecindad",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T18:46:51Z",
+      "motivo": "espera a Saúl: oido linea 8 palabra 1 y hueco antes de linea 17 (paso lrc saul); QC r1 VERDE",
+      "actualizado": "2026-10-29T18:47:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -67737,7 +67737,7 @@
           "t": "2026-10-29T18:46:51Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "Waiting for Saúl: ear check line 8 word 1 and the gap before line 17 (lrc step saul); QC r1 green"
     },
     {
       "coverTrackId": "6aa5861e42b8d1fdb0cf372d",
@@ -78139,10 +78139,10 @@
       "originalTrackId": "",
       "titulo": "Soy",
       "artista": "Willy Chirino",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T18:34:15Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T18:48:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -78167,9 +78167,25 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan.json: 69 lineas + 287 WIT con DT de su bolsa (incluidas 53-69)",
-            "t": "2026-10-29T17:01:24Z"
+            "nota": "borrador EN en pending_review, 69 lineas",
+            "t": "2026-10-29T18:48:42Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, ingles y audio OK; notas de oido para Saul",
+            "t": "2026-10-29T18:48:41Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, ingles y audio OK; notas de oido para Saul",
+          "t": "2026-10-29T18:48:41Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T18:48:45Z"
         }
       },
       "motivo_en": "QC r1"
