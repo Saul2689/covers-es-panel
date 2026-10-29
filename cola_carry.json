@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:28:37Z",
+  "generado": "2026-10-29T09:30:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -74727,20 +74727,40 @@
       "originalTrackId": "",
       "titulo": "Sin Tu Amor",
       "artista": "Napoleon",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:21:47Z",
+      "motivo": "falta 1 item nuevo (sin créditos IA): línea 7 palabra 7 (inventar, pretérito 1sg)",
+      "actualizado": "2026-10-29T09:30:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 100%",
-            "t": "2026-10-07T03:45:37Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:29:33Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 6 palabra 2 tilde del preterito; linea 34 palabra 2 coma como sus gemelas; linea 36 palabra 3 tilde. Linea 3 palabra 8 se conserva: el cover la canta (richsync 150 ms); nota de oido para Saul",
+            "t": "2026-10-29T09:29:33Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 46 lineas, ninguna palabra bajo 40 ms; audio_guard SUENA_SIN_BLINDAR, sin medir",
+            "t": "2026-10-29T09:29:34Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "15 remapeos (gemelas y sentidos) + 1 ancla nueva + 6 phrase insights; linea 7 palabra 7 sin item es con ese sentido (preterito 1sg de inventar); no se crea: API de traduccion sin credito",
+            "t": "2026-10-29T09:29:34Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "46 lineas + 236 WIT + 6 PIT a mano en en_plan.json; dry run apply_en_plan limpio; lo aplica el orquestador",
+            "t": "2026-10-29T09:29:35Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 1 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa61df972ca57eb1a96b2b5",
@@ -74826,13 +74846,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:24:11Z",
+      "actualizado": "2026-10-29T09:30:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 97%",
-            "t": "2026-10-07T02:19:51Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:30:02Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "24 tildes en 19 lineas (lrc_plan_fix edits); linea 19 palabra 2 nota de oido",
+            "t": "2026-10-29T09:30:02Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 52 lineas; 0 palabras <40ms; hueco linea 22 = tag del artista en el original; audio SUENA_SIN_BLINDAR sin medir",
+            "t": "2026-10-29T09:30:03Z"
           }
         }
       },
