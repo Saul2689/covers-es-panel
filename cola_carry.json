@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T18:37:58Z",
+  "generado": "2026-10-29T18:43:18Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -45815,10 +45815,10 @@
       "originalTrackId": "",
       "titulo": "Puerto Rico",
       "artista": "Frankie Ruiz",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-10-29T18:37:35Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-10-29T18:41:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45858,7 +45858,7 @@
           "t": "2026-10-29T18:37:34Z"
         }
       },
-      "motivo_en": "line 56 word 4: person name anchored to an item that defines a different person; new proper-noun item, remap keeping the WI id, fix the WIT and resubmit"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa6c4c972ca57eb1aa58e85",
@@ -47930,10 +47930,10 @@
       "originalTrackId": "",
       "titulo": "Hazme Una Señal",
       "artista": "Roberto Jordan",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T17:02:59Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T18:39:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47957,10 +47957,26 @@
             "t": "2026-10-29T16:48:54Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (45 lineas, 214/214 WIT); falta abrir el borrador",
-            "t": "2026-10-29T16:48:54Z"
+            "v": "ok",
+            "nota": "draft pending_review 45/45 lineas, wit_dt BAD 0",
+            "t": "2026-10-29T18:39:47Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r1: all checks clean; qc_es leftovers justified",
+            "t": "2026-10-29T18:39:45Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r1: all checks clean; qc_es leftovers justified",
+          "t": "2026-10-29T18:39:45Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T18:39:49Z"
         }
       },
       "motivo_en": "QC r1"
@@ -48939,10 +48955,10 @@
       "originalTrackId": "",
       "titulo": "Casi",
       "artista": "Soraya",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-10-29T18:37:51Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-29T18:42:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48966,20 +48982,26 @@
             "t": "2026-10-29T16:54:18Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (46 lineas, 275/275 WIT); falta abrir el borrador",
-            "t": "2026-10-29T16:54:18Z"
+            "v": "ok",
+            "nota": "draft en pending_review 46/46 lineas, 275 WIT (enviado 29 oct)",
+            "t": "2026-10-29T18:42:19Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "linea 15 palabra 3: item nuevo con ejemplo 1 que copia el verso",
-            "t": "2026-10-29T18:28:58Z"
+            "v": "ok",
+            "nota": "r2: ejemplo de rendí inventado, chequeos limpios",
+            "t": "2026-10-29T18:41:48Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "linea 15 palabra 3: item nuevo con ejemplo 1 que copia el verso",
-          "t": "2026-10-29T18:28:58Z"
+          "v": "VERDE",
+          "resumen": "r2: ejemplo de rendí inventado, chequeos limpios",
+          "t": "2026-10-29T18:41:48Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T18:42:21Z"
         }
       },
       "motivo_en": "QC r2"
@@ -62575,10 +62597,10 @@
       "originalTrackId": "",
       "titulo": "Comprendelo",
       "artista": "Luis Enrique",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T18:32:29Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T18:38:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62602,10 +62624,26 @@
             "t": "2026-10-29T16:50:29Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (45 lineas, 184 WIT, 1 PIT); lo aplica el orquestador",
-            "t": "2026-10-29T16:50:29Z"
+            "v": "ok",
+            "nota": "draft en pending_review: 45/45 lineas, 184 WIT, 1 PIT (verificado en QC r1)",
+            "t": "2026-10-29T18:38:35Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, acentos, mapeo, ingles y audio OK; notas de oido L20/L45",
+            "t": "2026-10-29T18:38:03Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, acentos, mapeo, ingles y audio OK; notas de oido L20/L45",
+          "t": "2026-10-29T18:38:03Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T18:38:37Z"
         }
       },
       "motivo_en": "QC r1"
@@ -64187,10 +64225,10 @@
       "originalTrackId": "",
       "titulo": "Volando Entre Tus Brazos",
       "artista": "Marc Anthony",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T18:32:30Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T18:42:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -64214,10 +64252,26 @@
             "t": "2026-10-29T17:22:49Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan listo (54 lineas, 266 WIT, 2 PIT); lo aplica el orquestador",
-            "t": "2026-10-29T17:22:50Z"
+            "v": "ok",
+            "nota": "draft en pending_review: 54/54 lineas, 266 WIT, 2 PIT (verificado en QC r1)",
+            "t": "2026-10-29T18:42:12Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, acentos, mapeo, ingles y audio OK; notas de oido para Saul",
+            "t": "2026-10-29T18:42:04Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, acentos, mapeo, ingles y audio OK; notas de oido para Saul",
+          "t": "2026-10-29T18:42:04Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T18:42:15Z"
         }
       },
       "motivo_en": "QC r1"
@@ -67592,8 +67646,8 @@
       "artista": "la Maldita Vecindad",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-29T16:51:54Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T18:43:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -67622,7 +67676,8 @@
             "t": "2026-10-29T16:51:54Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5861e42b8d1fdb0cf372d",
@@ -70334,8 +70389,8 @@
       "artista": "Jose Feliciano",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-29T16:56:28Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T18:43:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70364,7 +70419,8 @@
             "t": "2026-10-29T16:56:27Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6c52672ca57eb1aa59573",
@@ -78596,8 +78652,8 @@
       "artista": "Lupillo Rivera",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-29T17:20:19Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T18:43:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -78626,7 +78682,8 @@
             "t": "2026-10-29T17:20:07Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5777442b8d1fdb0ce0615",
