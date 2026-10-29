@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:15:20Z",
+  "generado": "2026-10-29T09:16:50Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -73875,20 +73875,40 @@
       "originalTrackId": "",
       "titulo": "Mas Alla",
       "artista": "Gloria Estefan",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:04:55Z",
+      "motivo": "falta 3 items nuevos (sin créditos IA): L4 w2 PRES.2SG brindar; L45 w2 PRES.2SG prodigar; L51 w3 INF forjar; plan inglés listo sin aplicar",
+      "actualizado": "2026-10-29T09:16:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 89%",
-            "t": "2026-10-07T02:19:42Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:15:32Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes L12 tok1-2, L54 tok1-2, L63 tok2 (lrc_plan_fix, 5 tokens, timings iguales). L2 tok3 se queda (errata del original). Notas de oido para Saul: posible linea que falta entre L35 y L36 (ultima palabra L35 dura 4,4 s) y posibles 2 palabras antes de L61 (ultima palabra L60 dura 2,8 s); sin prueba en richsync, se deja la letra del cover",
+            "t": "2026-10-29T09:15:32Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 63 lineas; 0 palabras <40 ms, 0 >6 s, 0 solapes; audio SUENA_SIN_BLINDAR, sin medir",
+            "t": "2026-10-29T09:15:33Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "4 anclas nuevas, 13 remapeos (gemelas unificadas, mas->mas con tilde, voz, manana sustantivo, y), 8 phrase insights; 3 tokens sin item (L4 tok2, L45 tok2, L51 tok3): no se crean items (sin credito), listados en el informe",
+            "t": "2026-10-29T09:15:34Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json a mano: 63 lineas, 231 WIT con DT de su bolsa, 8 PIT; 1 fila en no primaria nueva en esperar; lo aplica el orquestador",
+            "t": "2026-10-29T09:15:35Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 3 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa659a272ca57eb1a9c8def",
@@ -73910,13 +73930,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:07:15Z",
+      "actualizado": "2026-10-29T09:16:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 91%",
-            "t": "2026-10-07T02:23:18Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:16:48Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "33 tokens en 30 líneas: tildes (más x8, mí x5, tú x8, corazón x2, bombón x3, está x2, muévela/s x3, menéalo x2); 0 cambios de nº de tokens",
+            "t": "2026-10-29T09:16:48Z"
+          },
+          "timing": {
+            "v": "saul",
+            "nota": "drift 0; líneas 28 y 30 son duplicados (3 ms) de 29 y 31 con palabra 3 de 0 ms: arreglo = lrc_delete_line idx 27 y 29, que borra anclas (prohibido al agente)",
+            "t": "2026-10-29T09:16:50Z"
           }
         }
       },
@@ -73963,13 +73993,23 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:11:26Z",
+      "actualizado": "2026-10-29T09:15:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 94%",
-            "t": "2026-10-07T02:18:28Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:15:37Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "8 tokens en 6 lineas (5,6,11,18,40,55): coma final x2, tildes si x4, tilde L18 w6, tilde L40 w1; secciones 56/56 desde el original",
+            "t": "2026-10-29T09:15:37Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 56 lineas; ninguna palabra <40 ms ni >6 s; audio SUENA_SIN_BLINDAR, sin medir",
+            "t": "2026-10-29T09:15:38Z"
           }
         }
       },
@@ -74288,8 +74328,8 @@
       "artista": "Luis Fonsi",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:21:00Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:16:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74298,7 +74338,8 @@
             "t": "2026-10-07T02:20:59Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa6783e72ca57eb1a9f41cf",
