@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T08:58:05Z",
+  "generado": "2026-10-29T08:59:15Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -72582,16 +72582,36 @@
       "originalTrackId": "",
       "titulo": "Infidelidad Es Tu Traicion",
       "artista": "Los Iracundos",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T08:50:31Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T08:58:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T02:20:36Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T08:58:30Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 16 palabra 1 tilde, palabra 2 minuscula; linea 14 palabra 6 y linea 17 palabra 3 se dejan como canta el cover (nota de oido)",
+            "t": "2026-10-29T08:58:32Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 30 lineas, palabra minima 177 ms; huecos lineas 17 y 29 = instrumental (original sin linea cantada); audio SUENA_SIN_BLINDAR, sin medir",
+            "t": "2026-10-29T08:58:32Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "10 anclas nuevas, 5 remapeos, 1 phrase insight; 3 tokens sin item es (linea 2 palabra 4, lineas 12 y 24 palabra 1): hace falta item nuevo, sin credito de traduccion",
+            "t": "2026-10-29T08:58:33Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json: 30 lineas, 186 WIT con DT de su bolsa, 1 PIT; lo aplica el orquestador",
+            "t": "2026-10-29T08:58:33Z"
           }
         }
       },
@@ -72655,10 +72675,10 @@
       "originalTrackId": "",
       "titulo": "Te Pido Y Te Ruego",
       "artista": "Victor Yturbe El Piruli",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T08:56:49Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T08:59:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72675,6 +72695,16 @@
             "v": "ok",
             "nota": "drift 0 en 26 lineas, ninguna palabra <40 ms ni >6 s; audio_guard SUENA_SIN_BLINDAR, sin medir",
             "t": "2026-10-29T08:56:49Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "127/127 anclados; l4 p3 a derrumbar (item derrumbarse no existe, sin credito: fila en no primaria nueva); 5 gemelas unificadas; homografos l3 p2, l26 p4; l9/11/16/18 p1 a sera FUT; ningun item nuevo",
+            "t": "2026-10-29T08:58:46Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 26 lineas + 127 WIT con DT de su bolsa (dry run apply_en_plan ok); falta abrir el borrador",
+            "t": "2026-10-29T08:58:47Z"
           }
         }
       },
@@ -72783,20 +72813,40 @@
       "originalTrackId": "",
       "titulo": "Si Me Faltas Tu",
       "artista": "Armando Manzanero",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T08:50:33Z",
+      "motivo": "falta 1 item nuevo (sin créditos IA): L12 w3 infinitivo 'distinguir'; plan inglés listo sin aplicar",
+      "actualizado": "2026-10-29T08:58:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T02:19:12Z"
+            "nota": "carry en lote ya aplicado; no re-proyectado",
+            "t": "2026-10-29T08:58:11Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 10 palabra 2 a minuscula; linea 9 palabra 2 y linea 10 palabra 1 se quedan como canta el cover (regla 6 oct), nota de oido para Saul",
+            "t": "2026-10-29T08:58:11Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 28 lineas, ninguna palabra bajo 40 ms; audio SUENA_SIN_BLINDAR stemVoc +0 ms, sin medir",
+            "t": "2026-10-29T08:58:12Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "108/109 anclas ok; linea 10 palabra 1 remapeada al y conjuncion; linea 12 palabra 3 sin item es (diferenciar), no se crean items sin credito de traduccion",
+            "t": "2026-10-29T08:58:12Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json listo: 28 lineas + 109 WIT con DT de su bolsa, wit_dt_audit BAD 0; lo aplica el orquestador",
+            "t": "2026-10-29T08:58:13Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 1 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa043a31db6d36fd09fada3",
@@ -73089,8 +73139,8 @@
       "artista": "Pablo Montero",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:21:38Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T08:59:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73099,7 +73149,8 @@
             "t": "2026-10-07T02:21:38Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6a9df15eb2bcebe66c27fa20",
