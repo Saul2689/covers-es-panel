@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T08:51:16Z",
+  "generado": "2026-10-29T08:54:35Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -31661,10 +31661,10 @@
       "originalTrackId": "",
       "titulo": "Guajira",
       "artista": "Santana",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T08:47:19Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T08:53:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31688,10 +31688,26 @@
             "t": "2026-10-29T08:47:18Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan nuevo en_plan.json formato actual: dry run lines ok/59, wits 152/152, skipped 0; sin draft (no se abre por orden)",
-            "t": "2026-10-28T16:49:32Z"
+            "v": "ok",
+            "nota": "borrador pending_review: 59 lineas y 92 WIT",
+            "t": "2026-10-29T08:53:56Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, ingles pending_review, gemelas, audio SUENA_SIN_BLINDAR; solo ad-libs sin mapear",
+            "t": "2026-10-29T08:53:50Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, ingles pending_review, gemelas, audio SUENA_SIN_BLINDAR; solo ad-libs sin mapear",
+          "t": "2026-10-29T08:53:50Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T08:53:57Z"
         }
       },
       "motivo_en": "QC r1"
