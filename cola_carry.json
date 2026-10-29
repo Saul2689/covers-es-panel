@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T10:18:57Z",
+  "generado": "2026-10-29T10:21:20Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 36,
   "canciones": [
@@ -8234,11 +8234,20 @@
       "originalTrackId": "",
       "titulo": "La Botella",
       "artista": "Mach & Daddy",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:18:10Z",
-      "motivo_en": "worker: carry + clean-up"
+      "motivo": "carry sin aplicar: 53 decisiones de 85 lineas, coros solapados que piden oido (keepBreak/join/descartar)",
+      "actualizado": "2026-10-29T10:20:22Z",
+      "motivo_en": "carry not applied: 53 of 85 lines need a decision; overlapping backing-vocal rows need an ear",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "carry NO aplicado: preview 84%, 53 decisiones en 85 lineas (>1/3), 19 lineas solo-cover y 15 lineas que arrancan <0,6 s tras la anterior (coros/eco solapados: L10,14,16,19,23,27,31,43,47,55,59,63,67,71,75); 21 propuestas join que fundirian voz y eco; palabras distintas en L4,L7,L9 sin tercera fuente. Necesita oido.",
+            "t": "2026-10-29T10:20:22Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa4f0f942b8d1fdb0c280d2",
@@ -9059,10 +9068,11 @@
       "originalTrackId": "",
       "titulo": "En Cambio No",
       "artista": "Laura Pausini",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-09-30T09:50:19Z"
+      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T10:20:55Z",
+      "motivo_en": "worker: carry + clean-up"
     },
     {
       "coverTrackId": "6aa1110e64c9b8ff110c5c54",
@@ -51921,10 +51931,11 @@
       "originalTrackId": "",
       "titulo": "Tan Solo Tu",
       "artista": "Laura Pausini, Nek",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-06T22:16:41Z"
+      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T10:21:06Z",
+      "motivo_en": "worker: carry + clean-up"
     },
     {
       "coverTrackId": "6aa6c92b72ca57eb1aa5ef2c",
@@ -63051,17 +63062,22 @@
       "originalTrackId": "",
       "titulo": "Un Gran Amor Y Nada Mas",
       "artista": "Nicola di Bari",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:18:10Z",
-      "motivo_en": "worker: carry + clean-up",
+      "motivo": "carry no limpio: lineas proyectadas 24-25 y 34-38 mezclan proveedor y original y el estribillo final tiene otro orden; necesita oido de Saul antes de aplicar",
+      "actualizado": "2026-10-29T10:20:30Z",
+      "motivo_en": "carry dry run not clean: projected lines 24-25 and 34-38 mix vendor and original text and the final chorus is arranged differently; needs Saul's ear before applying",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "saul",
-            "nota": "NO aplicado: cover publicada; carry_preview cambia lineas 64->38 y salta 69 mapeos existentes (skippedEdited), 29 dropped; necesita OK de Saul",
-            "t": "2026-10-29T09:52:21Z"
+            "nota": "dry run no limpio: 23 lineas piden decision; LRCLIB (12 fuentes) da la razon al original en las palabras distintas, pero lineas 24-25 y el final 34-38 mezclan proveedor y original y el arreglo del estribillo final difiere (faltan 2 repeticiones de una linea del original): hace falta oido. Carry NO aplicado",
+            "t": "2026-10-29T10:20:29Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "64 lineas, drift 0 (informe previo); audio_guard SUENA_SIN_BLINDAR, audio 206, timeline karaokeMp3, sin stemVoc/mixMp3V medidos; no se mide",
+            "t": "2026-10-29T10:20:29Z"
           }
         }
       }
