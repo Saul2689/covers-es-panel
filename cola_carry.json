@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:38:36Z",
+  "generado": "2026-10-29T09:40:39Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -74934,20 +74934,40 @@
       "originalTrackId": "",
       "titulo": "4:30 Am",
       "artista": "Obie Bermudez",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:28:16Z",
+      "motivo": "falta 3 items nuevos (sin créditos IA): línea 23 palabra 7, línea 44 palabra 5, y una frase; Saúl: escuchar línea 51 (190,7–192,6 s)",
+      "actualizado": "2026-10-29T09:40:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 90%",
             "t": "2026-10-07T02:21:22Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "26 ediciones (tildes, pertenezco, mayúscula media en 12 y 27) + 'que' insertado en 15/36/47 (está en todas las repeticiones del original); resto de avisos vs original justificados en el informe",
+            "t": "2026-10-29T09:39:47Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 58 líneas, 0 palabras <40 ms, primer ms de cada línea igual al backup; audio_guard SUENA_SIN_BLINDAR stemVoc 0 ms: sin medir ni fijar",
+            "t": "2026-10-29T09:39:47Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "365/372: 64 anclas upsert (tildes, gemelas, estrella astro, sentidos) + 2 PI; sin mapear: 2 tokens que piden item nuevo (línea 23 palabra 7, línea 44 palabra 5; creación congelada sin crédito IA), numeral 4:30 x2, 3 ad-libs línea 21",
+            "t": "2026-10-29T09:39:48Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 58 líneas, 354 WIT con DT de su bolsa, 2 PIT, 11 anclas ad-lib sin texto; lo aplica el orquestador",
+            "t": "2026-10-29T09:39:48Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 3 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa6691572ca57eb1a9e1e90",
