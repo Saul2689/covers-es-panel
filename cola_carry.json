@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:34:26Z",
+  "generado": "2026-10-29T09:38:36Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -74676,9 +74676,9 @@
       "titulo": "Desde Que Tu Te Has Ido",
       "artista": "Mocedades",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T09:28:16Z",
+      "vueltas": 1,
+      "motivo": "corregida tras QC r1, a QC r2",
+      "actualizado": "2026-10-29T09:36:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74705,10 +74705,20 @@
             "v": "falta",
             "nota": "en_plan.json listo (30 lineas, 149 WIT con DT del propio item, 1 PIT); lo aplica el orquestador; sin draft abierto",
             "t": "2026-10-29T09:24:54Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 25 palabra 5: la linea LRC termina en coma (lpchk 1 [25]); el resto verificado OK",
+            "t": "2026-10-29T09:35:06Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 25 palabra 5: la linea LRC termina en coma (lpchk 1 [25]); el resto verificado OK",
+          "t": "2026-10-29T09:35:06Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa6724972ca57eb1a9edccb",
@@ -74956,20 +74966,40 @@
       "originalTrackId": "",
       "titulo": "Que Sera De Ti",
       "artista": "los Villacorta",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:28:17Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T09:38:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 89%",
             "t": "2026-10-07T02:20:52Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "11 tokens: tildes L17/L28/L43 (2 c/u), L8 (2), L33, L25, L26 tilde+coma; resto justificado",
+            "t": "2026-10-29T09:34:40Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 44 lineas, ninguna palabra <40 ms; audio SUENA_SIN_BLINDAR stemVoc -20 ms, sin medir",
+            "t": "2026-10-29T09:34:40Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "188/188; 6 huecos mapeados, 29 remapeos (homografos, gemelas, sentidos); 0 items nuevos",
+            "t": "2026-10-29T09:34:41Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "ingles preparado en en_plan.json (44 lineas, 188 WIT con DT de su bolsa, 0 PIT); lo aplica el orquestador",
+            "t": "2026-10-29T09:36:13Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa67dec72ca57eb1a9feb7d",
