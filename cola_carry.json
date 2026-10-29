@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T10:30:08Z",
+  "generado": "2026-10-29T10:55:38Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 36,
   "canciones": [
@@ -7822,11 +7822,20 @@
       "originalTrackId": "",
       "titulo": "Busca Por Dentro",
       "artista": "Grupo Niche",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:27:55Z",
-      "motivo_en": "worker: carry + clean-up"
+      "motivo": "carry sin aplicar: línea 42 (el cover canta otra línea entera, 4 tokens contra 3 del original) y líneas 47-48 (mitad cover/mitad original) piden oído; resto resoluble por regla",
+      "actualizado": "2026-10-29T10:31:26Z",
+      "motivo_en": "carry not applied: line 42 (cover sings a whole different line, 4 tokens vs the original's 3) and lines 47-48 (half cover, half original) need an ear; everything else is settleable by rule",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "carry NO aplicado: dry run 84%, 9 preguntas; 7 se resuelven por regla (tildes/pins; L22 vez correcto; L23/L38 tercera fuente=original), pero L42 (linea entera distinta del original, 4 vs 3 tokens) y L47-48 (mitad vendor/mitad original) necesitan oido. Audio SUENA_SIN_BLINDAR stemVoc -50 ms",
+            "t": "2026-10-29T10:31:20Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa4f6ce42b8d1fdb0c39c18",
@@ -9098,11 +9107,11 @@
       "originalTrackId": "",
       "titulo": "En Cambio No",
       "artista": "Laura Pausini",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:26:45Z",
-      "motivo_en": "worker: carry + clean-up",
+      "motivo": "falta 5 items nuevos (sin créditos IA): bastar, sumergir, hacer+las, posarse",
+      "actualizado": "2026-10-29T10:52:04Z",
+      "motivo_en": "needs 5 new dictionary item(s) (no AI credits)",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9114,6 +9123,21 @@
             "v": "ok",
             "nota": "tras el carry: L15 insert palabra 2 (pregunta del original, tiempo partido de la palabra 1), L23 palabra 5 a minuscula; anclas L15 movidas",
             "t": "2026-10-29T10:26:45Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 36 lineas, ninguna palabra <40 ms ni >6 s; audio servido = stem vocal (vocx.wav, 206), stemVoc -20 ms conf 1.25, guard SUENA_SIN_BLINDAR (no medir)",
+            "t": "2026-10-29T10:33:09Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "4 anclas mapeadas a items existentes (L6 w5, L17 w5, L22 w1, L24 w4), 8 phrase insights (en cambio x4, tener sentido, por que, frente a, junto a), L36 w2 unificado; sin item (creacion vetada, sin credito): L1/L33 w2, L18 w3, L19 w1, L22 w4",
+            "t": "2026-10-29T10:33:10Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo en es_map/payloads/<id>: 36 lineas, 176/176 WIT con DT propio (wit_dt_audit BAD 0), 8 PIT; lo aplica el orquestador",
+            "t": "2026-10-29T10:33:10Z"
           }
         }
       }
@@ -23440,17 +23464,37 @@
       "originalTrackId": "",
       "titulo": "Ding Dong Ding Dong Estas Cosas Del Amor",
       "artista": "Leonardo Favio",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:24:48Z",
-      "motivo_en": "worker: carry + clean-up",
+      "motivo": "falta 4 items nuevos (sin créditos IA): ver job md",
+      "actualizado": "2026-10-29T10:52:06Z",
+      "motivo_en": "needs 4 new dictionary item(s) (no AI credits)",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry aplicado 29 oct: 88% tras pins/spell; dudas resueltas con el original de arbitro",
             "t": "2026-10-29T10:24:48Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "carry de oído con el original de árbitro; ding dong al inicio de 7 líneas, línea 12 palabras 1 y 7, línea 63 palabra 2, línea 23 borrado; faltan 4 líneas del original sin fila del vendor (orig 35, 68, 70, 71) para Saúl",
+            "t": "2026-10-29T10:39:02Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 73 líneas; 3 palabras de 0 ms y 1 de 30 ms arregladas; sección Intro en líneas 1-4",
+            "t": "2026-10-29T10:39:02Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "sin item (créditos IA agotados): línea 6 palabra 2, línea 7 palabra 2, línea 16 palabra 5, línea 29 palabra 2; sentido malo sin sustituto: vocables de líneas 1 y 3 al item de nombre artístico, línea 4 palabra 1, línea 18 palabras 8-9 (nombre de calle)",
+            "t": "2026-10-29T10:39:03Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json hecho a mano: 73 líneas, 318/320 WITs (línea 47 palabra 7 y línea 55 palabra 9 sin bolsa en); lo aplica el orquestador",
+            "t": "2026-10-29T10:39:03Z"
           }
         }
       }
@@ -24677,11 +24721,40 @@
       "originalTrackId": "",
       "titulo": "Bailando",
       "artista": "Frankie Ruiz",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:27:57Z",
-      "motivo_en": "worker: carry + clean-up"
+      "motivo": "falta 7 items nuevos (sin créditos IA): ver job md",
+      "actualizado": "2026-10-29T10:52:05Z",
+      "motivo_en": "needs 7 new dictionary item(s) (no AI credits)",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry aplicado 29 oct: 3 pins nuevos (l4, l17, l20) por tercera fuente lrclib + 14 decisiones useSingitWord; 85%; guard SUENA_SIN_BLINDAR antes y despues",
+            "t": "2026-10-29T10:31:26Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "l20: palabra 6 sobrante del proveedor fusionada en la 5 (merge, tercera fuente); anclas l20 recolocadas; resto = original tras carry",
+            "t": "2026-10-29T10:38:58Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 39 lineas, ninguna palabra < 40 ms; huecos l29/l33/l36 = instrumental + coros entre parentesis que el proveedor no transcribe",
+            "t": "2026-10-29T10:38:58Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "7 tokens sin item del sentido correcto (creditos IA agotados, no se crean): l5 p4, l6 p2/p4/p6, l7 p6, l8 p3, l31 p6; l39 p1 item de sentido equivocado sin alternativa. Resto: 14 remapeos/anclas + 10 phrase insights",
+            "t": "2026-10-29T10:38:59Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo (39 lineas, 222 WIT con DT de su bolsa, 10 PIT); dry run apply_en_plan limpio; lo aplica el orquestador",
+            "t": "2026-10-29T10:38:59Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5d53642b8d1fdb0d602ad",
@@ -25984,11 +26057,40 @@
       "originalTrackId": "",
       "titulo": "La Llave De Mi Corazon",
       "artista": "Juan Luis Guerra",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:26:14Z",
-      "motivo_en": "worker: carry + clean-up"
+      "motivo": "falta 5 items nuevos (sin créditos IA): ver job md",
+      "actualizado": "2026-10-29T10:52:05Z",
+      "motivo_en": "needs 5 new dictionary item(s) (no AI credits)",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry aplicado 29 oct (85%, 41 hints, 26 decisiones useSingitWord por regla; 60 lineas)",
+            "t": "2026-10-29T10:30:36Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "3 inserts por el original (L11 w3, L37 w0, L51 w3-4) + minuscula L37 w1 hechos; faltan 3 tramos enteros que el proveedor no transcribio (huecos ~0:26, ~0:50, ~1:25 donde el original canta lineas 4, 13, 24-25): no hay herramienta para insertar lineas a mitad, y hay que oirlo",
+            "t": "2026-10-29T10:36:22Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 60 lineas; 0 palabras <40 ms (L13 w0 alargada); audio SUENA_SIN_BLINDAR stemVoc +0",
+            "t": "2026-10-29T10:36:22Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "15 anclas nuevas/movidas + 10 gemelas unificadas + 1 desanclada (L51 w3, sobrante de mi insert); sin item es (creditos IA agotados): L2 w8, L3 w6, L12 w2, L36 w2, L39 w0; item de L13 w1 sin traduccion en; L19 w1, L20 w1, L50 w1 son ingles anclados a item es (vienen del original)",
+            "t": "2026-10-29T10:38:53Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 60 lineas + 222 WIT con DT de su bolsa; falta solo L13 w1 (item sin fila en); lo aplica el orquestador",
+            "t": "2026-10-29T10:38:53Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa59fb642b8d1fdb0d1d862",
@@ -26633,11 +26735,20 @@
       "originalTrackId": "",
       "titulo": "Angel",
       "artista": "Cristian",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:29:26Z",
-      "motivo_en": "worker: carry + clean-up"
+      "motivo": "carry sin aplicar: línea 12-13 a medias proveedor/original, el join recomendado sale revuelto; necesita oído",
+      "actualizado": "2026-10-29T10:33:09Z",
+      "motivo_en": "carry not applied: line 12-13 half vendor/half original, recommended join comes out scrambled; needs an ear",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "no aplicado: dry run no limpio. Línea 12-13 (vendor 18-20): el cover parte la línea 13 del original y canta 3 palabras distintas donde el original tiene 2; join sugerido da línea revuelta (bug aligner), keepBreak deja media línea del proveedor. Pins de que en 11/23/33 y spells de tildes ya puestos en el set de hints (15). Falta oído de Saúl",
+            "t": "2026-10-29T10:33:09Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa110ea64c9b8ff110be53a",
@@ -30911,11 +31022,20 @@
       "originalTrackId": "",
       "titulo": "Me Estoy Enloqueciendo Por Ti",
       "artista": "Jerry Rivera",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:27:37Z",
-      "motivo_en": "worker: carry + clean-up"
+      "motivo": "carry sin aplicar: dry run no limpio, lineas 30, 49 y 54 necesitan oido (palabra de mas / palabras sin token cantado)",
+      "actualizado": "2026-10-29T10:32:11Z",
+      "motivo_en": "carry not applied: dry run not clean, lines 30, 49 and 54 need an ear (extra word / original words with no sung token)",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "dry run 85% sin aplicar: 4 lineas marcadas; L26 resuelta por LRCLIB (2 pins); quedan L30 palabra de mas, L49 cover solo 1 de 2 palabras de la voz principal, L54 2 palabras del original sin token sung (mitad vendor/mitad original): necesitan oido",
+            "t": "2026-10-29T10:32:10Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa71f2e72ca57eb1aad452f",
@@ -49394,11 +49514,20 @@
       "originalTrackId": "",
       "titulo": "En El Silencio Negro De La Noche",
       "artista": "Alexandre Pires",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:30:08Z",
-      "motivo_en": "worker: carry + clean-up"
+      "motivo": "carry no aplicable sin oído: coda líneas 50-52 del preview mitad proveedor/mitad original; línea 30 palabra 3 distinta del original",
+      "actualizado": "2026-10-29T10:32:31Z",
+      "motivo_en": "carry cannot be applied without an ear: outro lines 50-52 of the preview are half vendor/half original; line 30 word 3 differs from the original",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "carry sin aplicar: dry run 84%, 22 decisiones; coda (líneas 50-52 del preview) el proveedor canta otras palabras que el original (mitad proveedor/mitad original, la 52 recomienda poner un paréntesis del coro sobre una palabra cantada); línea 30 palabra 3 otra palabra que el original. Necesita oído.",
+            "t": "2026-10-29T10:32:30Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5bed342b8d1fdb0d3be23",
@@ -54031,17 +54160,37 @@
       "originalTrackId": "",
       "titulo": "Entre Tu Y Yo",
       "artista": "Jyve V",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:29:12Z",
-      "motivo_en": "worker: carry + clean-up",
+      "motivo": "falta 2 items nuevos (sin créditos IA): grabada, exista 1s",
+      "actualizado": "2026-10-29T10:52:04Z",
+      "motivo_en": "needs 2 new dictionary item(s) (no AI credits)",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry aplicado 29 oct: 36 hints (Saul + 7 nuevos), 25 decisiones por regla; 74 filas vendor -> 41 lineas; 86%",
             "t": "2026-10-29T10:29:12Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "carry + L19 insert idx1, L41 espacio final y palabra vacia de richsync quitados; falta la linea 33 del original entre las lineas 32 y 33 del cover (hueco de 5,4 s, tempo igual al original, ~174,2 s): necesita oido para confirmar y cronometrar",
+            "t": "2026-10-29T10:38:18Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 41 lineas, ninguna palabra < 40 ms, primera linea 22013 ms; audio SUENA_SIN_BLINDAR (sirve _vocx.wav, 206)",
+            "t": "2026-10-29T10:38:19Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "0 fuera de rango; 5 gemelas unificadas (L11 i2, L25 i2, L14 i4, L28 i2, L41 i0); L19 6 anclas movidas + el; sin item: L21 palabra 5 (grabar, participio fem. sing., 'engraved'); exista L15/28/39 palabra 4 solo tiene item 3SG, la linea pide 1SG",
+            "t": "2026-10-29T10:38:19Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 41 lineas + 209 WIT con DT de su bolsa (apply_en_plan seco: 0 saltados); lo aplica el orquestador",
+            "t": "2026-10-29T10:38:20Z"
           }
         }
       }
