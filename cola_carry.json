@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T16:08:08Z",
+  "generado": "2026-10-29T16:08:59Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -60135,10 +60135,10 @@
       "originalTrackId": "",
       "titulo": "Que Tentacion",
       "artista": "Braulio",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-10-29T16:06:22Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-10-29T16:08:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -60178,7 +60178,7 @@
           "t": "2026-10-29T16:06:21Z"
         }
       },
-      "motivo_en": "Line 38 word 2 WIT differs from twin line 8 word 2 (use row 6a71fce3d58e92f34b7a4774); new item 6ac5e9925f41a10082845d90 (lines 27/49 word 6) lacks the definition bracket"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa623ee72ca57eb1a97763d",
@@ -75314,10 +75314,10 @@
       "originalTrackId": "",
       "titulo": "El Hombre Es Como El Oso",
       "artista": "Azul Azul, Laura Leon",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T15:56:52Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-10-29T16:08:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75344,10 +75344,20 @@
             "v": "ok",
             "nota": "en_plan.json 53 líneas + 204/204 WIT con DT propio (dry run limpio); lo aplica el orquestador",
             "t": "2026-10-29T09:16:51Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: L28/L29 p1 item con sentido negativo, falta item nuevo con el sentido positivo; L28/L30 duplicadas siguen para Saul",
+            "t": "2026-10-29T16:08:10Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: L28/L29 p1 item con sentido negativo, falta item nuevo con el sentido positivo; L28/L30 duplicadas siguen para Saul",
+          "t": "2026-10-29T16:08:10Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "Lines 28/29 word 1: item 6967ef7e83f15c8fa6b6a3b0 has only the negative sense; create a positive-sense FEM_SING item, remap both, WITs from its bag, resubmit. Duplicate lines 28/30 still need Saul's OK"
     },
     {
       "coverTrackId": "6aa7423272ca57eb1ab0d3b8",
