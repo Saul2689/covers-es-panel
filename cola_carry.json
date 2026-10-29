@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T10:27:58Z",
+  "generado": "2026-10-29T10:29:39Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 36,
   "canciones": [
@@ -26633,10 +26633,11 @@
       "originalTrackId": "",
       "titulo": "Angel",
       "artista": "Cristian",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:28:43Z"
+      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T10:29:26Z",
+      "motivo_en": "worker: carry + clean-up"
     },
     {
       "coverTrackId": "6aa110ea64c9b8ff110be53a",
@@ -46990,8 +46991,17 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:22:54Z",
-      "motivo_en": "worker: carry + clean-up"
+      "actualizado": "2026-10-29T10:27:59Z",
+      "motivo_en": "worker: carry + clean-up",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry aplicado 29 oct: 94% match, 14 decisiones por regla (tildes = Singit; linea 1 palabra 5 se queda la del cover, el original trae errata), 18 pins nuevos en los bloques tu-tu-tu",
+            "t": "2026-10-29T10:27:59Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa1112664c9b8ff110caf06",
@@ -54003,8 +54013,17 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:25:39Z",
-      "motivo_en": "worker: carry + clean-up"
+      "actualizado": "2026-10-29T10:29:12Z",
+      "motivo_en": "worker: carry + clean-up",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry aplicado 29 oct: 36 hints (Saul + 7 nuevos), 25 decisiones por regla; 74 filas vendor -> 41 lineas; 86%",
+            "t": "2026-10-29T10:29:12Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5a2a542b8d1fdb0d20eaf",
@@ -64155,17 +64174,37 @@
       "originalTrackId": "",
       "titulo": "Te Quiero",
       "artista": "Flex",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:21:23Z",
-      "motivo_en": "worker: carry + clean-up",
+      "motivo": "falta 3 items nuevos (sin créditos IA): monarquía, regalarle, vital",
+      "actualizado": "2026-10-29T10:29:24Z",
+      "motivo_en": "needs 3 new dictionary item(s) (no AI credits)",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry aplicado 29 oct (OK Saul publicadas): 103->75 lineas, 87%, 29 hints; decisiones = recomendadas (tildes/una letra), keepBreak intro; wit 175/16/0/48",
             "t": "2026-10-29T10:21:23Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "lrc_plan_fix: L6 w4 y L73 w5 tildes, L8 w4 tilde, L74 w2-3 orden del original, L75 w2-5 minusculas, L2 w3 coma final fuera; ids y tiempos intactos",
+            "t": "2026-10-29T10:28:35Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 75/75, ninguna palabra <40 ms ni >6 s; audio SUENA_SIN_BLINDAR (karaokeMp3, stemVoc null): no se mide",
+            "t": "2026-10-29T10:28:35Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "11 remapeos (homografos L6/L8/L73, orden L74, gemelas L22/37/42/57/62); faltan items sin credito IA: L2 w3, L26 w6, L47 w4",
+            "t": "2026-10-29T10:28:36Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json 75/75 lineas, 283/283 WIT con DT del propio item, wit_dt_audit BAD 0; draft no abierto (lo aplica el orquestador)",
+            "t": "2026-10-29T10:28:36Z"
           }
         }
       }
