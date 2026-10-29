@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:03:14Z",
+  "generado": "2026-10-29T09:05:15Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -72193,20 +72193,40 @@
       "originalTrackId": "",
       "titulo": "Razon De Sobra",
       "artista": "Marco Antonio Solis",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T08:50:28Z",
+      "motivo": "falta items nuevos (sin créditos IA): L18/L28 w2 sin item es; L6 w5, L15 w11, L25 w12, L17/L27 w2 en el item más cercano; plan inglés listo sin aplicar",
+      "actualizado": "2026-10-29T09:04:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T02:22:55Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:03:27Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "9 tildes restauradas: L3 p2, L7 p7-8, L9 p2, L11 p1, L13 p7, L17 p6, L23 p7, L27 p6 (base 1); L14/L24 p1 se deja como canta el cover, nota de oído",
+            "t": "2026-10-29T09:03:28Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 31 líneas, ninguna palabra <40 ms; hueco L23 = instrumental (el original también lo tiene); audio SUENA_SIN_BLINDAR stemVoc -20 ms, sin medir",
+            "t": "2026-10-29T09:03:30Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "11 huecos mapeados, 12 remapeos de sentido/gemelas, 7 PI; quedan L18/L28 p2 sin item es y 5 anclas al lema (L6 p5, L15 p11, L25 p12, L17/L27 p2): sin crédito para items nuevos",
+            "t": "2026-10-29T09:03:32Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 31/31 líneas, 213/213 WIT con DT de su bolsa, 7 PIT; sin draft, lo aplica el orquestador",
+            "t": "2026-10-29T09:03:33Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa6c10372ca57eb1aa507f5",
@@ -72225,10 +72245,10 @@
       "originalTrackId": "",
       "titulo": "Dame Lo Que Quieras",
       "artista": "la Secta Allstar",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:02:47Z",
+      "motivo": "falta 5 items nuevos (sin créditos IA): L19 w3, L19 w4 IMP.2SG sentar+me, L21 w1 GER azotar, romper IMP.2SG (L10 w1/w4), frase 2ª persona; plan inglés listo sin aplicar",
+      "actualizado": "2026-10-29T09:04:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72258,7 +72278,7 @@
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 5 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa6ddba72ca57eb1aa7c66c",
@@ -73629,8 +73649,8 @@
       "artista": "Pandora",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:21:52Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:04:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73639,7 +73659,8 @@
             "t": "2026-10-07T02:21:52Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa04649edf059217a4b9832",
@@ -73700,8 +73721,8 @@
       "artista": "Gloria Estefan",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:19:43Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:04:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73710,7 +73731,8 @@
             "t": "2026-10-07T02:19:42Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa659a272ca57eb1a9c8def",
