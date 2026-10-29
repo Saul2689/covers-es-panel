@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T10:24:34Z",
+  "generado": "2026-10-29T10:25:53Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 36,
   "canciones": [
@@ -9080,8 +9080,17 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:20:55Z",
-      "motivo_en": "worker: carry + clean-up"
+      "actualizado": "2026-10-29T10:25:07Z",
+      "motivo_en": "worker: carry + clean-up",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry aplicado 88% (38 hints: 15 pins+spells de tildes/letras con lrclib como arbitro, 13 decisiones useSingitWord); 74 filas vendor -> 36 lineas",
+            "t": "2026-10-29T10:25:07Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa1110e64c9b8ff110c5c54",
@@ -23408,8 +23417,17 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:18:11Z",
-      "motivo_en": "worker: carry + clean-up"
+      "actualizado": "2026-10-29T10:24:48Z",
+      "motivo_en": "worker: carry + clean-up",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry aplicado 29 oct: 88% tras pins/spell; dudas resueltas con el original de arbitro",
+            "t": "2026-10-29T10:24:48Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5f83942b8d1fdb0d93c65",
@@ -53944,10 +53962,11 @@
       "originalTrackId": "",
       "titulo": "Entre Tu Y Yo",
       "artista": "Jyve V",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:32:35Z"
+      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T10:25:39Z",
+      "motivo_en": "worker: carry + clean-up"
     },
     {
       "coverTrackId": "6aa5a2a542b8d1fdb0d20eaf",
@@ -57894,10 +57913,10 @@
       "originalTrackId": "",
       "titulo": "Amor Pirata",
       "artista": "Willie Gonzalez",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:52:56Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T10:25:31Z",
       "motivo_en": "worker running",
       "auditoria": {
         "pasos": {
@@ -57905,6 +57924,26 @@
             "v": "ok",
             "nota": "APLICADO 29 oct 09:52Z tras correccion del orquestador (luego revertida la orden: HOLD, sin revertir). 102->52 lineas, verify OK, guard SUENA_SIN_BLINDAR stemVoc +0 conf 1.53. Pendiente OK de Saul; resto sin empezar",
             "t": "2026-10-29T09:52:56Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "5 tokens editados (l6 w6, l30 w3, l43 w5, l50 w2, l50 w4) + 1 insert (l24 w2) con el original de arbitro; ancla movida",
+            "t": "2026-10-29T10:25:29Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 52 lineas, ninguna palabra <40 ms; hueco l49 = coros entre parentesis del original",
+            "t": "2026-10-29T10:25:29Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "9 posiciones sin item (7 palabras; sin creditos IA, no se crean): l2w2 l4w6 l10w5 l19w6 l24w1 l33w1 l40w6 l43w2 l45w1; compartimos l44w3 sin fila en ingles. Resto: 10 remapeos + 12 anclas nuevas, gemelas unificadas",
+            "t": "2026-10-29T10:25:30Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json listo: 52 lineas + 303/304 WIT con DT de su bolsa (falta l44w3 sin fila en). Lo aplica el orquestador",
+            "t": "2026-10-29T10:25:31Z"
           }
         }
       }
@@ -81143,17 +81182,37 @@
       "originalTrackId": "",
       "titulo": "Hay Amores",
       "artista": "Pablo Montero",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:53:08Z",
-      "motivo_en": "worker running",
+      "motivo": "falta 3 items nuevos (sin créditos IA): concedido (part.), cuestan (costar 3pl), parten (partir 3pl 'romperse')",
+      "actualizado": "2026-10-29T10:25:37Z",
+      "motivo_en": "needs 3 new dictionary item(s) (no AI credits)",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry aplicado 29 oct 09:52 UTC (48->24 lineas, 171 WIT carried, 24 dropped, 0 skipped); verify OK. Resto en HOLD esperando OK de Saul",
             "t": "2026-10-29T09:53:08Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 10 y 20 palabra 1 insertada (original y LRCLIB de arbitro), mayuscula de palabra 2 bajada; linea 5 palabra 3 ya con la grafia del original tras el carry",
+            "t": "2026-10-29T10:24:53Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 24 lineas; inicio de lineas 10 y 20 movido a la nueva 1a palabra (79690 / 138197 ms); 0 palabras < 40 ms; hueco antes de linea 15 = interludio del original (solo un grito hablado)",
+            "t": "2026-10-29T10:24:54Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "API sin credito: 3 tokens sin item (linea 3 palabra 3 conceder PAST_PARTICIPLE 'granted'; lineas 9 y 19 palabra 4 costar PRES.3PL 'cost'); lineas 10 y 20 palabra 3: el unico item de esa forma es el sentido 'morir', falta partir PRES.3PL 'romper/partir en trozos'. Gemelas unificadas (18.7, 19.6, 11.3)",
+            "t": "2026-10-29T10:24:54Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json: 24/24 lineas + 171/173 WIT con DT de su bolsa (dry run apply_en_plan limpio); sin WIT lineas 10 y 20 palabra 3 (item de sentido erroneo). Draft sin abrir: lo aplica el orquestador",
+            "t": "2026-10-29T10:24:55Z"
           }
         }
       }
