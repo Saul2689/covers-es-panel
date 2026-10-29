@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:18:57Z",
+  "generado": "2026-10-29T09:22:01Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -74020,10 +74020,10 @@
       "originalTrackId": "",
       "titulo": "Brindemos",
       "artista": "Greeicy",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:15:38Z",
+      "motivo": "falta 2 items nuevos (sin créditos IA): w6 de L9/14/27/31/43/47 detenerse 2SG; L21 w2 envolverse 1SG; plan inglés listo sin aplicar",
+      "actualizado": "2026-10-29T09:21:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74040,10 +74040,20 @@
             "v": "ok",
             "nota": "drift 0 en 56 lineas; ninguna palabra <40 ms ni >6 s; audio SUENA_SIN_BLINDAR, sin medir",
             "t": "2026-10-29T09:15:38Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "12 remapeos (si x4 a item con tilde, gemelas unificadas L7 L12 L22 L27 L31 L40x2 L49, que L23 L39), vaivén anclado, 6 phrase insights; 7 tokens sin item es (sin crédito: no se crean)",
+            "t": "2026-10-29T09:20:57Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json listo: 56 lineas, 244/244 WIT con DT de su bolsa, 6 PIT; 2 filas en no primarias; draft lo abre el orquestador",
+            "t": "2026-10-29T09:20:58Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 2 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa1112064c9b8ff110c993d",
@@ -74209,10 +74219,10 @@
       "originalTrackId": "",
       "titulo": "Dile Que Vuelva",
       "artista": "Marisol",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:18:23Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T09:21:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74229,6 +74239,16 @@
             "v": "ok",
             "nota": "drift 0 en 59 lineas; 2 palabras de 7 ms (linea 51 palabra 2, linea 59 palabra 2) alargadas en el hueco, sin recortar",
             "t": "2026-10-29T09:18:23Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "28 anclas remapeadas (gemelas, tildes el/mas, sentidos va/a/ya/le), 8 nuevas, 2 phrase insights; sin item: linea 7 palabra 2 (ningun item es), vocables lineas 42-59",
+            "t": "2026-10-29T09:19:46Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json listo: 59 lineas + 223/228 WIT con DT de su bolsa + 2 PIT; 5 anclas de vocables sin WIT; sin draft (lo aplica el orquestador)",
+            "t": "2026-10-29T09:21:23Z"
           }
         }
       },
@@ -74589,8 +74609,8 @@
       "artista": "Napoleon",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T03:45:38Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:21:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74599,7 +74619,8 @@
             "t": "2026-10-07T03:45:37Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa61df972ca57eb1a96b2b5",
