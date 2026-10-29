@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T10:23:05Z",
+  "generado": "2026-10-29T10:24:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 36,
   "canciones": [
@@ -32818,10 +32818,11 @@
       "originalTrackId": "",
       "titulo": "Nunca Voy A Olvidarte",
       "artista": "La India",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:32:50Z"
+      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T10:24:19Z",
+      "motivo_en": "worker: carry + clean-up"
     },
     {
       "coverTrackId": "6aa77f5772ca57eb1acd2159",
@@ -51947,11 +51948,20 @@
       "originalTrackId": "",
       "titulo": "Tan Solo Tu",
       "artista": "Laura Pausini, Nek",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:21:06Z",
-      "motivo_en": "worker: carry + clean-up"
+      "motivo": "carry sin aplicar: el outro mezcla verso principal y coros (lineas originales 29-31); el proveedor solo transcribe coros en capas solapadas; necesita oido",
+      "actualizado": "2026-10-29T10:23:35Z",
+      "motivo_en": "carry not applied: outro mixes lead verse and backing vocals (original lines 29-31); vendor transcribes only overlapping backing layers; needs an ear",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "sin aplicar: dry run 84%, 26 lineas con decision; outro (lineas originales 29-31 = verso principal + coros en parentesis) el proveedor solo transcribe los coros con filas duplicadas solapadas (capas de voz): hace falta oido para saber si el cover canta el verso principal; audio SUENA_SIN_BLINDAR stemVoc 0 ms conf 1.67",
+            "t": "2026-10-29T10:23:34Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6c92b72ca57eb1aa5ef2c",
