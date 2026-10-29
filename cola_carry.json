@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T10:21:20Z",
+  "generado": "2026-10-29T10:22:30Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 36,
   "canciones": [
@@ -6820,11 +6820,20 @@
       "originalTrackId": "",
       "titulo": "La Chica Del Bikini Azul",
       "artista": "Luis Miguel",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:18:10Z",
-      "motivo_en": "worker: carry + clean-up"
+      "motivo": "carry sin aplicar: lineas UI 43-45 el cover canta otra variante del estribillo (necesita oido); vocables 16,17,35,36 sin regla",
+      "actualizado": "2026-10-29T10:22:12Z",
+      "motivo_en": "carry not applied: UI lines 43-45 the cover sings a different chorus variant than the original (needs an ear); vocable lines 16,17,35,36 have no rule",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "preview 83.9%, 10 preguntas: lineas 43-45 (UI) el cover canta otra variante del estribillo que el original (3 tokens + 2 cortes); responder Singit deja la linea mitad proveedor/mitad original; necesita oido. Vocables 15-19 y 35-40 sin regla. No aplicado.",
+            "t": "2026-10-29T10:22:12Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa67bbd72ca57eb1a9fa441",
@@ -50067,10 +50076,10 @@
       "originalTrackId": "",
       "titulo": "Acompañame",
       "artista": "Enrique Guzman",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregida r1, QC r2",
-      "actualizado": "2026-10-21T14:18:38Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-29T10:22:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50094,20 +50103,26 @@
             "t": "2026-10-07T03:45:36Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (36 lineas, 124 WIT, 6 PIT); falta abrir el borrador",
-            "t": "2026-10-07T03:45:36Z"
+            "v": "ok",
+            "nota": "borrador pending_review, 36/36 lineas, QC r2",
+            "t": "2026-10-29T10:21:57Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "Frase 'todo el mundo' anclada en lineas 7 y 22 (palabras 5-7) con sentido 'everyone' que contradice la linea y los WIT; quitarla, reabrir el ingles y reenviar. Resto en orden",
-            "t": "2026-10-21T14:17:58Z"
+            "v": "ok",
+            "nota": "QC r2: defecto PI r1 arreglado; litchk/lpchk 0, wit_dt BAD 0, estructura y timing iguales al backup, ingles 36/36 pending_review",
+            "t": "2026-10-29T10:21:45Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "Frase 'todo el mundo' anclada en lineas 7 y 22 (palabras 5-7) con sentido 'everyone' que contradice la linea y los WIT; quitarla, reabrir el ingles y reenviar. Resto en orden",
-          "t": "2026-10-21T14:17:58Z"
+          "v": "VERDE",
+          "resumen": "QC r2: defecto PI r1 arreglado; litchk/lpchk 0, wit_dt BAD 0, estructura y timing iguales al backup, ingles 36/36 pending_review",
+          "t": "2026-10-29T10:21:45Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T10:22:00Z"
         }
       }
     },
@@ -64055,14 +64070,14 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:18:09Z",
+      "actualizado": "2026-10-29T10:21:23Z",
       "motivo_en": "worker: carry + clean-up",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "saul",
-            "nota": "NO aplicado: cover publicada; carry cambia 103->75 lineas y salta 112 mapeos existentes (skippedEdited). Hints listos (29, preview 87%, applyAllowed). Falta OK de Saul",
-            "t": "2026-10-29T09:51:23Z"
+            "v": "ok",
+            "nota": "carry aplicado 29 oct (OK Saul publicadas): 103->75 lineas, 87%, 29 hints; decisiones = recomendadas (tildes/una letra), keepBreak intro; wit 175/16/0/48",
+            "t": "2026-10-29T10:21:23Z"
           }
         }
       }
