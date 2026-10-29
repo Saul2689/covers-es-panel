@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:48:18Z",
+  "generado": "2026-10-29T09:51:13Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -20256,8 +20256,17 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:47:27Z",
-      "motivo_en": "worker running"
+      "actualizado": "2026-10-29T09:51:12Z",
+      "motivo_en": "worker running",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "carry YA aplicado 09:50 UTC antes de llegar la regla de parada: cover publicada, lineas 58->20, 43 WIT existentes skippedEdited (conservados), 10 WIT del original dropped; falta OK de Saul; worker parado sin revertir",
+            "t": "2026-10-29T09:51:12Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa58b5b42b8d1fdb0cfcb8d",
@@ -45689,11 +45698,20 @@
       "originalTrackId": "",
       "titulo": "Que El Ritmo No Pare",
       "artista": "Patricia Manterola",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:47:27Z",
-      "motivo_en": "worker running"
+      "motivo": "carry al 84%: el outro (líneas 57-77) y las líneas 10/12/29/30/32/44-46 necesitan hints a mano y oído; aplicar bajaría de 132 a 77 líneas y saltaría 223 mapeos en una cover publicada",
+      "actualizado": "2026-10-29T09:50:33Z",
+      "motivo_en": "carry needs hand hints and an ear check; applying would drop 223 mappings on a published cover",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "carry NO aplicado: 84% match, 22 lineas en revision; L10 L12 L29 L30 L32 (palabra distinta/orden), L44-46 (join/keepBreak) y outro L61-L77 (proyeccion parte v106 en dos, vendor canta otra estructura) son casos de persona por regla; solo L11 L41 L63-77 Asi son de agente. Cover publicada, 463 anclas en 132 lineas que pasarian a 77",
+            "t": "2026-10-29T09:49:59Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa622b772ca57eb1a975e14",
@@ -63003,10 +63021,11 @@
       "originalTrackId": "",
       "titulo": "Un Gran Amor Y Nada Mas",
       "artista": "Nicola di Bari",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:36:01Z"
+      "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:51:03Z",
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa70bc772ca57eb1aab44b2",
@@ -69817,8 +69836,17 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:47:25Z",
-      "motivo_en": "worker running"
+      "actualizado": "2026-10-29T09:50:38Z",
+      "motivo_en": "worker running",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry aplicado 29 oct: 17 decisiones useSingitWord (tildes, l38 sin, l46 Ya por original), 85% match; audio SUENA_SIN_BLINDAR tras apply",
+            "t": "2026-10-29T09:50:38Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5237c42b8d1fdb0c7a01b",
