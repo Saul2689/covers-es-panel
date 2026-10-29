@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T15:24:19Z",
+  "generado": "2026-10-29T16:08:08Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -2927,19 +2927,40 @@
       "originalTrackId": "",
       "titulo": "Otro Trago",
       "artista": "Sech feat. Darrell",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-29T15:12:48Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T16:04:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano: 36 hints, 83 %",
-            "t": "2026-10-29T15:12:47Z"
+            "nota": "carry ya aplicado (36 hints, 83 %); no se re-proyecta",
+            "t": "2026-10-29T15:28:03Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "5 tokens: l27 w4, l36 w3, l52 w1, l70 w4, l72 w2 (coma final); conteo y tiempos iguales",
+            "t": "2026-10-29T15:28:03Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 78/78; ninguna palabra < 40 ms; audio_guard SUENA_SIN_BLINDAR, nada medido",
+            "t": "2026-10-29T15:28:05Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "77 anclas escritas (49 nuevas/remapeadas + gemelas unificadas); 14 items nuevos con 19 idiomas; quedan 20 sin mapear justificados (ingles, nombres, ad-libs, l32 w5 dudosa)",
+            "t": "2026-10-29T15:34:18Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json 78/78 lineas y 472/472 WIT con DT propio; BAD 0; draft sin abrir (lo aplica el orquestador)",
+            "t": "2026-10-29T15:34:18Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa505f142b8d1fdb0c48e91",
@@ -2947,19 +2968,40 @@
       "originalTrackId": "",
       "titulo": "Persona Ideal",
       "artista": "Adolescent's Orquesta",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-29T15:15:13Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T16:04:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano: 34 hints, 84 %",
             "t": "2026-10-29T15:15:12Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "4 tokens: 2 colons at line end removed, 1 tilde, line 39 word 1 split in two with opening question mark (richsync cut 303/304 ms, 3 anchors re-placed)",
+            "t": "2026-10-29T15:46:42Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 on 48/48, min word 40 ms; audio SUENA_SIN_BLINDAR, nothing measured or pinned; gaps at lines 37 and 41 are instrumental in the original",
+            "t": "2026-10-29T15:46:43Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 unmapped (285/285); 9 new items with 19 langs; 5 twins unified; senses fixed on lines 4, 8, 19, 23, 32, 36",
+            "t": "2026-10-29T15:46:43Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json by hand: 48/48 lines, 285/285 WITs, BAD 0; orchestrator applies",
+            "t": "2026-10-29T15:46:43Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6a9eccf9eef2ad59f642d458",
@@ -4841,19 +4883,40 @@
       "originalTrackId": "",
       "titulo": "Intocable",
       "artista": "Aleks Syntek",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-29T15:16:48Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T16:04:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano: 19 hints, 82 %",
             "t": "2026-10-29T15:16:48Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "line 31 word 8: open parenthesis closed and line-final comma removed (LRC + richsync)",
+            "t": "2026-10-29T15:50:15Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 on 39/39, min word 70 ms; audio SUENA_SIN_BLINDAR, nothing measured or pinned",
+            "t": "2026-10-29T15:50:15Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "2 gaps mapped to existing items, 11 twin positions unified; only ad-libs unmapped (lines 7, 19 word 1)",
+            "t": "2026-10-29T15:50:16Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json by hand: 39/39 lines, 185/185 WITs, BAD 0; orchestrator applies",
+            "t": "2026-10-29T15:50:16Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa7ce512367b69ab7096d96",
@@ -14379,10 +14442,19 @@
       "originalTrackId": "",
       "titulo": "Perdoname",
       "artista": "Gilberto Santa Rosa",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: linea 1 palabra 5 el cover canta otra palabra (una letra, otra palabra), necesita oido; cover publicada, sin aplicar",
-      "actualizado": "2026-10-29T15:11:20Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T15:58:39Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 35 hints, 82 %",
+            "t": "2026-10-29T15:58:38Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa1113d64c9b8ff110d03d9",
@@ -15701,8 +15773,8 @@
       "artista": "Marc Anthony",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-06T14:10:49Z"
+      "motivo": "carry a mano no cuadra: 21 lineas con decision a mano (limite 20), una pregunta de union de lineas (linea 41) y dos palabras distintas (linea 40, linea 50)",
+      "actualizado": "2026-10-29T15:59:15Z"
     },
     {
       "coverTrackId": "6aa5df5d42b8d1fdb0d6bd18",
@@ -16280,10 +16352,19 @@
       "originalTrackId": "",
       "titulo": "Se Parecio Tanto A Ti",
       "artista": "Grupo Niche",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-06T14:11:41Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T16:00:26Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 41 hints, 82 %",
+            "t": "2026-10-29T16:00:25Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa58aa742b8d1fdb0cfb064",
@@ -18669,8 +18750,8 @@
       "artista": "Mecano",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-06T15:03:10Z"
+      "motivo": "carry a mano no cuadra: 24 lineas con decision a mano (limite 20), una pregunta de union de lineas (linea 59) y palabras del cover distintas del original en lineas 10, 47-58",
+      "actualizado": "2026-10-29T16:00:52Z"
     },
     {
       "coverTrackId": "6aa80a3dd951e1665a7e933b",
@@ -20533,8 +20614,8 @@
       "artista": "Fonseca, Silvestre Dangond",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-06T15:05:43Z"
+      "motivo": "carry a mano no cuadra: 23 lineas con decision a mano (limite 20), cuatro preguntas de union de lineas (16, 33, 37, 55) y el vendor pega palabras en un solo token en muchas lineas",
+      "actualizado": "2026-10-29T16:01:23Z"
     },
     {
       "coverTrackId": "6aa800e1d951e1665a7df312",
@@ -22126,8 +22207,8 @@
       "artista": "Marc Anthony",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:26:38Z"
+      "motivo": "carry a mano no cuadra: 34 lineas con decision a mano (limite 20); autohints rechazado por el servidor (pin en conflicto en la linea 3); palabras distintas del cover en lineas 3, 49, 54, 56, 66, 75",
+      "actualizado": "2026-10-29T16:02:07Z"
     },
     {
       "coverTrackId": "6aa7808272ca57eb1acd36ef",
@@ -22381,10 +22462,19 @@
       "originalTrackId": "",
       "titulo": "El Tiempo De Ti",
       "artista": "Playa Limbo",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:40:57Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T15:58:12Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 16 hints, 83 %",
+            "t": "2026-10-29T15:58:12Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa8128bd951e1665a7f68ed",
@@ -23377,10 +23467,19 @@
       "originalTrackId": "",
       "titulo": "Dr. Psiquiatra",
       "artista": "Gloria Trevi",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:40:54Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T16:00:03Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 26 hints, 82 %",
+            "t": "2026-10-29T16:00:02Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6cc9972ca57eb1aa62376",
@@ -23668,10 +23767,19 @@
       "originalTrackId": "",
       "titulo": "Muevan Las Industrias",
       "artista": "Los Prisioneros",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:34:23Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T16:01:16Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 27 hints, 83 %",
+            "t": "2026-10-29T16:01:16Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5882842b8d1fdb0cf63af",
@@ -23882,8 +23990,8 @@
       "artista": "Gloria Estefan",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:30:24Z"
+      "motivo": "carry a mano no cuadra: pregunta de forma de linea (join) en linea 38 y vocable distinto en linea 37 palabra 2, decision de persona",
+      "actualizado": "2026-10-29T16:01:38Z"
     },
     {
       "coverTrackId": "6aa80d34d951e1665a7ecc2a",
@@ -24274,8 +24382,8 @@
       "artista": "Chino & Nacho",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-06T15:50:29Z"
+      "motivo": "carry a mano no cuadra: 30 lineas con decision y 67 en revision (mas de 20 a mano), 261 palabras solo del cover, 16 preguntas de palabra distinta",
+      "actualizado": "2026-10-29T16:02:08Z"
     },
     {
       "coverTrackId": "6aa52dec42b8d1fdb0c8b67a",
@@ -24484,10 +24592,19 @@
       "originalTrackId": "",
       "titulo": "No Controles",
       "artista": "Flans",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-06T15:50:40Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T16:02:59Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 0 hints, 83 %",
+            "t": "2026-10-29T16:02:59Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa746db72ca57eb1ab141b9",
@@ -26058,10 +26175,19 @@
       "originalTrackId": "",
       "titulo": "Loca",
       "artista": "Ana Barbara",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:27:37Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T16:01:41Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 32 hints, 86 %",
+            "t": "2026-10-29T16:01:40Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa8055bd951e1665a7e2b6c",
@@ -26613,10 +26739,19 @@
       "originalTrackId": "",
       "titulo": "Estar Enamorado",
       "artista": "Raphael",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:36:57Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T16:02:54Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 31 hints, 82 %",
+            "t": "2026-10-29T16:02:53Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6ab23082ca8a8ee8c446f123",
@@ -27491,8 +27626,8 @@
       "artista": "Jerry Rivera",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:31:41Z"
+      "motivo": "carry a mano no cuadra: 30 preguntas, 42 de 89 lineas en revision; desde la linea 64 la cover canta un final que no esta en el original; 6 preguntas de unir/cortar lineas",
+      "actualizado": "2026-10-29T16:03:31Z"
     },
     {
       "coverTrackId": "6aa5cfad42b8d1fdb0d55ecd",
@@ -27634,10 +27769,19 @@
       "originalTrackId": "",
       "titulo": "Sera",
       "artista": "Ricardo Montaner",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:37:25Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T16:06:30Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 18 hints, 83 %",
+            "t": "2026-10-29T16:06:30Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5e36742b8d1fdb0d750c0",
@@ -29202,8 +29346,8 @@
       "artista": "Calle 13",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:28:24Z"
+      "motivo": "carry a mano no cuadra: 36 preguntas abiertas (mas de 20); 15 no son solo tilde: cambios l/r de pronunciacion, elisiones, del/de y el/al, lineas 4 14 19 20 21 25 36 38 42 47 48 55 61 62 67",
+      "actualizado": "2026-10-29T16:07:09Z"
     },
     {
       "coverTrackId": "6aa81f0fd951e1665a8082b0",
@@ -29683,8 +29827,8 @@
       "artista": "Grupo 5",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:30:30Z"
+      "motivo": "carry a mano no cuadra: 47 preguntas abiertas (mas de 20), 17 de ellas de unir/cortar lineas; 49 de 113 lineas en revision; 88 palabras solo de la cover (coros y elisiones)",
+      "actualizado": "2026-10-29T16:07:45Z"
     },
     {
       "coverTrackId": "6aa528fb42b8d1fdb0c81135",
@@ -29917,8 +30061,8 @@
       "artista": "Sin Bandera",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:26:22Z"
+      "motivo": "carry a mano no cuadra: 24 lineas marcadas (>20) y 26 filas de una palabra solo-cover que repiten una palabra del original sin enlazar (necesitan pin a mano); 5 preguntas de union de lineas",
+      "actualizado": "2026-10-29T16:05:02Z"
     },
     {
       "coverTrackId": "6aa5266742b8d1fdb0c7caed",
@@ -30687,10 +30831,19 @@
       "originalTrackId": "",
       "titulo": "Necesito Una Compañera",
       "artista": "los Bukis",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:48:26Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T16:07:36Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 10 hints, 84 %",
+            "t": "2026-10-29T16:07:35Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7329472ca57eb1aaf16e2",
@@ -51462,10 +51615,10 @@
       "originalTrackId": "",
       "titulo": "Bye Mama",
       "artista": "Alejandra Guzmán",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:19:29Z",
+      "estado": "hecha",
+      "vueltas": 0,
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T16:03:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51489,23 +51642,29 @@
             "t": "2026-10-29T11:19:28Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json nuevo (formato actual): lines ok/59, wits 237/237, pits 5/5, skipped 0; draft sin abrir",
-            "t": "2026-10-28T16:27:09Z"
+            "v": "ok",
+            "nota": "fx 29 oct: en_plan L14 PIT a fila literal + linea literal; spanishWIT L9 w2 = cognado (falso positivo); BAD 0",
+            "t": "2026-10-29T15:35:30Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "3 anclas con item de otra acepcion (l14 p1, l38 p5, l39 p2): crear items nuevos y remapear; resto OK",
-            "t": "2026-10-28T16:53:43Z"
+            "v": "ok",
+            "nota": "QC r1: 3 items nuevos L14/L38/L39 OK, estructura, timing, mapeo, ingles pending_review y audio OK",
+            "t": "2026-10-29T16:03:44Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "3 anclas con item de otra acepcion (l14 p1, l38 p5, l39 p2): crear items nuevos y remapear; resto OK",
-          "t": "2026-10-28T16:53:43Z"
+          "v": "VERDE",
+          "resumen": "QC r1: 3 items nuevos L14/L38/L39 OK, estructura, timing, mapeo, ingles pending_review y audio OK",
+          "t": "2026-10-29T16:03:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T16:03:46Z"
         }
       },
-      "motivo_en": "needs 3 new dictionary item(s) (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5850342b8d1fdb0cf2af3",
@@ -59976,10 +60135,10 @@
       "originalTrackId": "",
       "titulo": "Que Tentacion",
       "artista": "Braulio",
-      "estado": "revision",
+      "estado": "correccion",
       "vueltas": 1,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:04:24Z",
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-10-29T16:06:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -60004,22 +60163,22 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T07:56:43Z"
+            "nota": "fx 29 oct: 21 PIT NOTLIT -> filas literales existentes en en_plan.json; 7 WIT del plan alineados al draft vivo (DT del item actual); dry run limpio",
+            "t": "2026-10-29T15:29:13Z"
           },
           "qc": {
             "v": "falta",
-            "nota": "QC r1: items de sentido equivocado: l6/36 w2, l12 w2, l10 w1, l25/47/63/73 w2 y w4, l1/9/31 w1; ver review",
-            "t": "2026-10-28T09:19:29Z"
+            "nota": "QC r1: L38 p2 WIT distinta de su gemela L8 p2; item nuevo de L27/L49 p6 sin corchete",
+            "t": "2026-10-29T16:06:21Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "QC r1: items de sentido equivocado: l6/36 w2, l12 w2, l10 w1, l25/47/63/73 w2 y w4, l1/9/31 w1; ver review",
-          "t": "2026-10-28T09:19:29Z"
+          "resumen": "QC r1: L38 p2 WIT distinta de su gemela L8 p2; item nuevo de L27/L49 p6 sin corchete",
+          "t": "2026-10-29T16:06:21Z"
         }
       },
-      "motivo_en": "créditos"
+      "motivo_en": "Line 38 word 2 WIT differs from twin line 8 word 2 (use row 6a71fce3d58e92f34b7a4774); new item 6ac5e9925f41a10082845d90 (lines 27/49 word 6) lacks the definition bracket"
     },
     {
       "coverTrackId": "6aa623ee72ca57eb1a97763d",
@@ -64501,10 +64660,10 @@
       "titulo": "Te Quiero",
       "artista": "Flex",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:24:50Z",
-      "motivo_en": "needs 3 new dictionary item(s) (no AI credits)",
+      "vueltas": 1,
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-10-29T16:08:07Z",
+      "motivo_en": "QC r2",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -64524,14 +64683,24 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-10-29T11:24:50Z"
+            "nota": "fx 29 oct: sin_mapear 22 re-verificado token a token = ingles (lineas 1, 10, 75), apodo (linea 5 palabra 2), vocablos (65, 68, 69)",
+            "t": "2026-10-29T15:35:46Z"
           },
           "ingles": {
+            "v": "ok",
+            "nota": "fx 29 oct: spanishWIT 11 justificado (tokens ingleses/cognados identicos); en_plan dry run limpio 286/286",
+            "t": "2026-10-29T15:35:46Z"
+          },
+          "qc": {
             "v": "falta",
-            "nota": "en_plan.json 75/75 lineas, 283/283 WIT con DT del propio item, wit_dt_audit BAD 0; draft no abierto (lo aplica el orquestador)",
-            "t": "2026-10-29T10:28:36Z"
+            "nota": "lines 63-64 word 1 vocable on placeholder proper-noun item",
+            "t": "2026-10-29T16:03:15Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "lines 63-64 word 1 vocable on placeholder proper-noun item",
+          "t": "2026-10-29T16:03:15Z"
         }
       }
     },
@@ -72290,9 +72459,9 @@
       "titulo": "Eternamente",
       "artista": "Sentidos Opuestos",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:16:40Z",
+      "vueltas": 1,
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-10-29T16:08:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72316,13 +72485,23 @@
             "t": "2026-10-29T11:16:39Z"
           },
           "ingles": {
+            "v": "ok",
+            "nota": "fx 29 oct: en_plan L8 linea literal; L11/L28/L43 PIT a fila literal + linea literal (gemelas iguales); BAD 0",
+            "t": "2026-10-29T15:36:55Z"
+          },
+          "qc": {
             "v": "falta",
-            "nota": "en_plan.json preparado (67 lineas, 247 WIT, 6 PIT); falta abrir el borrador",
-            "t": "2026-10-28T15:12:37Z"
+            "nota": "lines 18 20 35 50 52 66 word 1 vocable on nada/no contraction item",
+            "t": "2026-10-29T16:07:24Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "lines 18 20 35 50 52 66 word 1 vocable on nada/no contraction item",
+          "t": "2026-10-29T16:07:24Z"
         }
       },
-      "motivo_en": "needs 3 new dictionary items (no AI credits)"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa7926172ca57eb1acec2bf",
@@ -75137,8 +75316,8 @@
       "artista": "Azul Azul, Laura Leon",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:19:30Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T15:56:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75158,8 +75337,8 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-10-29T11:19:30Z"
+            "nota": "fx 29 oct: 21 anclas con word sin tilde re-escritas con el token del LRC, mismo item (sentido correcto), ids conservados; spanishWIT 1 justificado (linea 18 palabra 1)",
+            "t": "2026-10-29T15:34:08Z"
           },
           "ingles": {
             "v": "ok",
@@ -75168,7 +75347,7 @@
           }
         }
       },
-      "motivo_en": "needs 3 new dictionary item(s) (no AI credits); duplicate lines 28/30 need Saúl's OK"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa7423272ca57eb1ab0d3b8",
@@ -75459,10 +75638,10 @@
       "originalTrackId": "",
       "titulo": "Dile Que Vuelva",
       "artista": "Marisol",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:17:04Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T16:00:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75482,17 +75661,33 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-10-29T11:17:03Z"
+            "nota": "fx 29 oct: 14 anclas con word viejo (13 del prep + linea 53 palabra 3) re-escritas con el token del LRC, mismo item, ids conservados",
+            "t": "2026-10-29T15:31:37Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan.json listo: 59 lineas + 223/228 WIT con DT de su bolsa + 2 PIT; 5 anclas de vocables sin WIT; sin draft (lo aplica el orquestador)",
-            "t": "2026-10-29T09:21:23Z"
+            "nota": "fx 29 oct: 2 PIT NOTLIT (lineas 25, 26) -> fila literal existente en en_plan.json; dry run limpio",
+            "t": "2026-10-29T15:31:37Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "remaining qc_es justified; litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-29T16:00:50Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "remaining qc_es justified; litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-29T16:00:50Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T16:00:51Z"
         }
       },
-      "motivo_en": "needs 3 new dictionary item(s) (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa827d7d951e1665a814c33",
@@ -75557,10 +75752,10 @@
       "originalTrackId": "",
       "titulo": "De Carton Piedra",
       "artista": "Joan Manuel Serrat",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T12:06:13Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T16:01:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75575,22 +75770,38 @@
           },
           "timing": {
             "v": "ok",
-            "nota": "drift 0; 4 palabras <40 ms arregladas en lineas 51, 52, 53 dentro de su linea; audio SUENA_SIN_BLINDAR, sin medir",
-            "t": "2026-10-29T09:24:20Z"
+            "nota": "drift 0 en 53 lineas; audio SUENA_SIN_BLINDAR karaokeMp3 206, sin medir",
+            "t": "2026-10-29T15:31:09Z"
           },
           "mapeo": {
             "v": "ok",
-            "nota": "",
-            "t": "2026-10-29T12:06:13Z"
+            "nota": "fx 29 oct: L12 w4 nombre propio anclado a item nuevo 6ae366288a6aa522ccfb07ab (19 idiomas); 0 sin mapear",
+            "t": "2026-10-29T15:31:09Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 53 lineas + 294 WIT con DT de su bolsa; lo aplica el orquestador",
-            "t": "2026-10-29T09:24:22Z"
+            "v": "ok",
+            "nota": "fx 29 oct: en_plan L44 reescrita literal para el PIT; WIT nueva L12 w4; spanishWIT 16 = ad-libs L50-53 (falso positivo); BAD 0",
+            "t": "2026-10-29T15:31:09Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, timing, mapeo, items nuevos, ingles pending_review y audio OK; notas de oido L30/L46",
+            "t": "2026-10-29T16:01:35Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, timing, mapeo, items nuevos, ingles pending_review y audio OK; notas de oido L30/L46",
+          "t": "2026-10-29T16:01:35Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T16:01:36Z"
         }
       },
-      "motivo_en": "needs 14 new dictionary item(s) (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa110f464c9b8ff110c0769",
@@ -76276,10 +76487,10 @@
       "originalTrackId": "",
       "titulo": "4:30 Am",
       "artista": "Obie Bermudez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T12:18:09Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T16:05:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -76289,13 +76500,13 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "26 ediciones (tildes, pertenezco, mayúscula media en 12 y 27) + 'que' insertado en 15/36/47 (está en todas las repeticiones del original); resto de avisos vs original justificados en el informe",
-            "t": "2026-10-29T09:39:47Z"
+            "nota": "fx 29 oct: L53 coma final quitada (lrc_plan_fix, 0 anclas movidas, tiempos iguales)",
+            "t": "2026-10-29T15:33:42Z"
           },
           "timing": {
             "v": "ok",
-            "nota": "deriva 0 en 58 líneas, 0 palabras <40 ms, primer ms de cada línea igual al backup; audio_guard SUENA_SIN_BLINDAR stemVoc 0 ms: sin medir ni fijar",
-            "t": "2026-10-29T09:39:47Z"
+            "nota": "drift 0; audio SUENA_SIN_BLINDAR stemVoc +0 ms, sin medir",
+            "t": "2026-10-29T15:33:43Z"
           },
           "mapeo": {
             "v": "ok",
@@ -76303,13 +76514,29 @@
             "t": "2026-10-29T12:18:08Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 58 líneas, 354 WIT con DT de su bolsa, 2 PIT, 11 anclas ad-lib sin texto; lo aplica el orquestador",
-            "t": "2026-10-29T09:39:48Z"
+            "v": "ok",
+            "nota": "fx 29 oct: en_plan L4 PIT a fila literal, L42 y L53 linea literal sin signo final; BAD 0",
+            "t": "2026-10-29T15:33:42Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "remaining qc_es justified; litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-29T16:05:43Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "remaining qc_es justified; litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-29T16:05:43Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T16:05:45Z"
         }
       },
-      "motivo_en": "needs 3 new dictionary item(s) (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6691572ca57eb1a9e1e90",
