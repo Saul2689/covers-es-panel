@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T11:21:23Z",
+  "generado": "2026-10-29T11:24:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 36,
   "canciones": [
@@ -73958,10 +73958,10 @@
       "originalTrackId": "",
       "titulo": "Bendita Tu",
       "artista": "Dyango",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 corregida, a QC r2",
-      "actualizado": "2026-10-29T11:19:19Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-29T11:23:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73985,20 +73985,26 @@
             "t": "2026-10-29T11:01:19Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "44 lineas y 167 WIT en en_plan.json; falta abrir el borrador",
-            "t": "2026-10-29T09:11:34Z"
+            "v": "ok",
+            "nota": "QC r2: borrador en pending_review, 44 lineas y 170 WIT",
+            "t": "2026-10-29T11:23:04Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WI word field stale (no tilde) on 8 WIs: line 1,3,5,7,20,22,24,26 word 1",
-            "t": "2026-10-29T11:15:14Z"
+            "v": "ok",
+            "nota": "QC r2: tilde WI word fix confirmed; all checks clean",
+            "t": "2026-10-29T11:22:57Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WI word field stale (no tilde) on 8 WIs: line 1,3,5,7,20,22,24,26 word 1",
-          "t": "2026-10-29T11:15:14Z"
+          "v": "VERDE",
+          "resumen": "QC r2: tilde WI word fix confirmed; all checks clean",
+          "t": "2026-10-29T11:22:57Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T11:23:07Z"
         }
       },
       "motivo_en": "QC r2"
@@ -74486,10 +74492,10 @@
       "originalTrackId": "",
       "titulo": "Brindemos",
       "artista": "Greeicy",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 corregida, a QC r2",
-      "actualizado": "2026-10-29T11:19:20Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-29T11:24:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74518,15 +74524,21 @@
             "t": "2026-10-29T09:20:58Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "litchk 1 (PIT line 35 words 1-2); stale WI word field line 6 w1-2, line 40 w1, line 55 w1-2",
-            "t": "2026-10-29T11:16:31Z"
+            "v": "ok",
+            "nota": "QC r2: litchk and tilde WI fixes confirmed; all checks clean",
+            "t": "2026-10-29T11:24:11Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "litchk 1 (PIT line 35 words 1-2); stale WI word field line 6 w1-2, line 40 w1, line 55 w1-2",
-          "t": "2026-10-29T11:16:31Z"
+          "v": "VERDE",
+          "resumen": "QC r2: litchk and tilde WI fixes confirmed; all checks clean",
+          "t": "2026-10-29T11:24:11Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T11:24:12Z"
         }
       },
       "motivo_en": "QC r2"
