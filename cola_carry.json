@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T12:13:36Z",
+  "generado": "2026-10-29T12:26:14Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 36,
   "canciones": [
@@ -23522,11 +23522,11 @@
       "originalTrackId": "",
       "titulo": "Ding Dong Ding Dong Estas Cosas Del Amor",
       "artista": "Leonardo Favio",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-10-29T12:03:19Z",
-      "motivo_en": "Wrong-sense anchors left on a vocable and on proper names: line 4 word 0, line 18 words 7-8, line 42 words 4,5,8,9 (0-based). Unmap per D-1/D-3/D-4, then fix the English draft and resubmit.",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-29T12:17:24Z",
+      "motivo_en": "QC r2",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23550,20 +23550,26 @@
             "t": "2026-10-29T11:30:34Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json hecho a mano: 73 líneas, 318/320 WITs (línea 47 palabra 7 y línea 55 palabra 9 sin bolsa en); lo aplica el orquestador",
-            "t": "2026-10-29T10:39:03Z"
+            "v": "ok",
+            "nota": "borrador EN en pending_review, 73/73 lineas",
+            "t": "2026-10-29T12:17:23Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "anclas de sentido erroneo en vocal/nombres propios: l4 w0, l18 w7-8, l42 w4,5,8,9 (D-1/D-3/D-4)",
-            "t": "2026-10-29T12:03:18Z"
+            "v": "ok",
+            "nota": "r2: 7 anclas erroneas desmapeadas, resto sin cambios; chequeos y audio OK",
+            "t": "2026-10-29T12:17:16Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "anclas de sentido erroneo en vocal/nombres propios: l4 w0, l18 w7-8, l42 w4,5,8,9 (D-1/D-3/D-4)",
-          "t": "2026-10-29T12:03:18Z"
+          "v": "VERDE",
+          "resumen": "r2: 7 anclas erroneas desmapeadas, resto sin cambios; chequeos y audio OK",
+          "t": "2026-10-29T12:17:16Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:17:24Z"
         }
       }
     },
@@ -24789,11 +24795,11 @@
       "originalTrackId": "",
       "titulo": "Bailando",
       "artista": "Frankie Ruiz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:44:59Z",
-      "motivo_en": "needs 7 new dictionary item(s) (no AI credits)",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:25:07Z",
+      "motivo_en": "QC r1",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -24817,10 +24823,26 @@
             "t": "2026-10-29T11:44:59Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (39 lineas, 222 WIT con DT de su bolsa, 10 PIT); dry run apply_en_plan limpio; lo aplica el orquestador",
-            "t": "2026-10-29T10:38:59Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-29T12:25:05Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles pending_review, guard y chequeos OK",
+            "t": "2026-10-29T12:25:05Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles pending_review, guard y chequeos OK",
+          "t": "2026-10-29T12:25:05Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:25:07Z"
         }
       }
     },
@@ -26128,7 +26150,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:34:49Z",
+      "actualizado": "2026-10-29T12:18:07Z",
       "motivo_en": "needs 5 new dictionary item(s) (no AI credits)",
       "auditoria": {
         "pasos": {
@@ -26150,7 +26172,7 @@
           "mapeo": {
             "v": "ok",
             "nota": "",
-            "t": "2026-10-29T11:34:49Z"
+            "t": "2026-10-29T12:18:07Z"
           },
           "ingles": {
             "v": "falta",
@@ -58220,9 +58242,9 @@
       "artista": "Willie Gonzalez",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T12:06:11Z",
-      "motivo_en": "needs 9 new dictionary item(s) (no AI credits)",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T12:25:08Z",
+      "motivo_en": "QC r1",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -63370,10 +63392,10 @@
       "originalTrackId": "",
       "titulo": "Para Que No Te Vayas",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:44:32Z",
+      "estado": "hecha",
+      "vueltas": 0,
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:22:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -63398,22 +63420,28 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "plan en_plan.json escrito en borrador (filas nuevas no primarias donde faltaban) y enviado a pending_review",
-            "t": "2026-10-14T08:04:10Z"
+            "nota": "borrador en pending_review",
+            "t": "2026-10-29T12:22:33Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: linea 8 palabra 5 ancla a item de sentido equivocado (definicion adornar/complementar; la linea es hacer compania); resto limpio",
-            "t": "2026-10-28T12:47:55Z"
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles pending_review, guard y chequeos OK",
+            "t": "2026-10-29T12:22:32Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: linea 8 palabra 5 ancla a item de sentido equivocado (definicion adornar/complementar; la linea es hacer compania); resto limpio",
-          "t": "2026-10-28T12:47:55Z"
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles pending_review, guard y chequeos OK",
+          "t": "2026-10-29T12:22:32Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:22:34Z"
         }
       },
-      "motivo_en": "créditos"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa595e242b8d1fdb0d0bb59",
@@ -70296,11 +70324,11 @@
       "originalTrackId": "",
       "titulo": "Impaciencia",
       "artista": "Gilberto Santa Rosa",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T11:57:59Z",
-      "motivo_en": "QC r1",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-10-29T12:22:16Z",
+      "motivo_en": "Line 8 word 1: draft WIT starts with lowercase i; capitalise and reapply",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70327,7 +70355,17 @@
             "v": "ok",
             "nota": "en_plan.json: 54/54 lineas, 215 WIT con DT del propio bag (214 ok en dry run; l54 w3 necesita --addrows)",
             "t": "2026-10-29T09:58:15Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "r1: line 8 word 1 WIT starts lowercase i",
+            "t": "2026-10-29T12:22:16Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "r1: line 8 word 1 WIT starts lowercase i",
+          "t": "2026-10-29T12:22:16Z"
         }
       }
     },
@@ -70674,8 +70712,8 @@
       "artista": "Enrique Guzman",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T12:06:12Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T12:25:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70705,7 +70743,7 @@
           }
         }
       },
-      "motivo_en": "needs about 14 new items (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa663a572ca57eb1a9d8cdd",
@@ -70747,9 +70785,9 @@
       "titulo": "Popurri Navideño",
       "artista": "Hector Lavoe",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-10-29T11:57:34Z",
+      "vueltas": 2,
+      "motivo": "corregido QC r2, a QC r3",
+      "actualizado": "2026-10-29T12:25:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70779,17 +70817,17 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "WIT linea 24 palabra 3 con pronombre en minuscula; hay fila en mayuscula en la bolsa",
-            "t": "2026-10-29T11:55:31Z"
+            "nota": "r2: line 24 word 3 WIT still lowercase in draft",
+            "t": "2026-10-29T12:17:51Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "WIT linea 24 palabra 3 con pronombre en minuscula; hay fila en mayuscula en la bolsa",
-          "t": "2026-10-29T11:55:31Z"
+          "resumen": "r2: line 24 word 3 WIT still lowercase in draft",
+          "t": "2026-10-29T12:17:51Z"
         }
       },
-      "motivo_en": "QC r2"
+      "motivo_en": "QC r3"
     },
     {
       "coverTrackId": "6aa50cc342b8d1fdb0c549f1",
@@ -70808,10 +70846,10 @@
       "originalTrackId": "",
       "titulo": "No Se Si Pa' Bien O Pa' Mal",
       "artista": "Pepe Aguilar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:44:27Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:18:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70835,13 +70873,29 @@
             "t": "2026-10-29T11:44:26Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 34 lineas, 175 WIT con DT de su bolsa, 7 PIT; lo aplica el orquestador",
-            "t": "2026-10-28T14:44:38Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 34 lineas, 186 WIT",
+            "t": "2026-10-29T12:18:44Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles pending_review, guard y chequeos OK",
+            "t": "2026-10-29T12:18:36Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles pending_review, guard y chequeos OK",
+          "t": "2026-10-29T12:18:36Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:18:45Z"
         }
       },
-      "motivo_en": "needs 6 new items (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa66d5f72ca57eb1a9e5f07",
@@ -71153,9 +71207,9 @@
       "titulo": "Cuando Ya No Me Quieras",
       "artista": "Pablo Montero",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T11:57:58Z",
+      "vueltas": 1,
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-10-29T12:25:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -71180,12 +71234,28 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan.json: 64 lineas + 300 WIT con texto y DT de su bolsa + 2 PIT; sin draft abierto (lo aplica el orquestador)",
-            "t": "2026-10-28T14:43:17Z"
+            "nota": "borrador en pending_review, QC ok",
+            "t": "2026-10-29T12:20:39Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "r1: lowercase i WITs on lines 2,10,31,34,42,63 word 2",
+            "t": "2026-10-29T12:22:15Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "r1: lowercase i WITs on lines 2,10,31,34,42,63 word 2",
+          "t": "2026-10-29T12:22:15Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:20:40Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa6567072ca57eb1a9c4653",
@@ -71419,10 +71489,10 @@
       "originalTrackId": "",
       "titulo": "De La Calle Soy",
       "artista": "Rakim & Ken Y",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:44:28Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:20:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -71446,13 +71516,29 @@
             "t": "2026-10-29T11:44:27Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 65 lineas + 405 WIT con DT de su bolsa; lo aplica el orquestador",
-            "t": "2026-10-28T15:36:27Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-29T12:20:26Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles pending_review, guard y chequeos OK",
+            "t": "2026-10-29T12:20:26Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles pending_review, guard y chequeos OK",
+          "t": "2026-10-29T12:20:26Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:20:27Z"
         }
       },
-      "motivo_en": "needs new dictionary item(s) for 16 tokens (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5bc6e42b8d1fdb0d38d7d",
@@ -72226,8 +72312,8 @@
       "artista": "Jose Jose",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:08:54Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T12:19:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72257,7 +72343,7 @@
           }
         }
       },
-      "motivo_en": "needs 2 new dictionary items (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa61cd072ca57eb1a96a7ef",
@@ -72532,10 +72618,10 @@
       "originalTrackId": "",
       "titulo": "Desde El Dia Que Te Fuiste",
       "artista": "Pandora",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:04:33Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:20:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72559,13 +72645,29 @@
             "t": "2026-10-29T11:04:32Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (41 lineas, 157 WIT con DT de su bolsa, 4 PIT); dry-run apply_en_plan limpio; draft no abierto por instruccion",
-            "t": "2026-10-28T15:26:56Z"
+            "v": "ok",
+            "nota": "borrador EN en pending_review, 41/41 lineas",
+            "t": "2026-10-29T12:20:21Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+            "t": "2026-10-29T12:20:21Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+          "t": "2026-10-29T12:20:21Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:20:22Z"
         }
       },
-      "motivo_en": "needs 2 new dictionary item(s) (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa67a3b72ca57eb1a9f756d",
@@ -72573,10 +72675,10 @@
       "originalTrackId": "",
       "titulo": "No Puedo Dejar De Pensar En Ti",
       "artista": "Pandora",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:04:31Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:19:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72600,13 +72702,29 @@
             "t": "2026-10-29T11:04:30Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 49 líneas, 221 WIT con DT de su bolsa, 16 PIT; lo aplica el orquestador",
-            "t": "2026-10-28T15:33:12Z"
+            "v": "ok",
+            "nota": "borrador EN en pending_review, 49/49 lineas",
+            "t": "2026-10-29T12:19:37Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+            "t": "2026-10-29T12:19:27Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+          "t": "2026-10-29T12:19:27Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:19:38Z"
         }
       },
-      "motivo_en": "needs 2 new dictionary item(s) (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa57d2542b8d1fdb0ce761d",
@@ -72881,10 +72999,10 @@
       "originalTrackId": "",
       "titulo": "Razon De Sobra",
       "artista": "Marco Antonio Solis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:44:57Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:23:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72908,13 +73026,29 @@
             "t": "2026-10-29T11:44:56Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 31/31 líneas, 213/213 WIT con DT de su bolsa, 7 PIT; sin draft, lo aplica el orquestador",
-            "t": "2026-10-29T09:03:33Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-29T12:23:20Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles pending_review, guard y chequeos OK",
+            "t": "2026-10-29T12:23:19Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles pending_review, guard y chequeos OK",
+          "t": "2026-10-29T12:23:19Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:23:21Z"
         }
       },
-      "motivo_en": "needs new dictionary item(s) (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6c10372ca57eb1aa507f5",
@@ -72990,10 +73124,10 @@
       "originalTrackId": "",
       "titulo": "O Me Voy O Te Vas",
       "artista": "Tito Nieves",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-10-29T11:57:33Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-29T12:16:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73017,20 +73151,26 @@
             "t": "2026-10-29T11:04:16Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 61 lineas + 274 WIT con DT de su bolsa + 6 PIT; dry run 274/274, 0 saltados; sin draft abierto",
-            "t": "2026-10-29T09:05:58Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, QC r2 ok",
+            "t": "2026-10-29T12:16:36Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT ausente en linea 31 palabra 1; WIT gemelos distintos 14/28 palabra 3 y 18/32 palabra 5",
-            "t": "2026-10-29T11:54:29Z"
+            "v": "ok",
+            "nota": "r2: three r1 defects fixed, all checks pass",
+            "t": "2026-10-29T12:16:23Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT ausente en linea 31 palabra 1; WIT gemelos distintos 14/28 palabra 3 y 18/32 palabra 5",
-          "t": "2026-10-29T11:54:29Z"
+          "v": "VERDE",
+          "resumen": "r2: three r1 defects fixed, all checks pass",
+          "t": "2026-10-29T12:16:23Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:16:37Z"
         }
       },
       "motivo_en": "QC r2"
@@ -73660,10 +73800,10 @@
       "originalTrackId": "",
       "titulo": "Si Ya No Estas Conmigo",
       "artista": "Kany Garcia",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:08:21Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:22:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73688,12 +73828,28 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan.json a mano: 49 lineas + 271 WIT con DT de su bolsa; lo aplica el orquestador (sin draft abierto)",
-            "t": "2026-10-28T16:06:03Z"
+            "nota": "borrador EN en pending_review, 49 lineas",
+            "t": "2026-10-29T12:22:09Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+            "t": "2026-10-29T12:22:08Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+          "t": "2026-10-29T12:22:08Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:22:10Z"
         }
       },
-      "motivo_en": "needs 1 new dictionary item (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa52b5042b8d1fdb0c87749",
@@ -73701,10 +73857,10 @@
       "originalTrackId": "",
       "titulo": "Si Me Faltas Tu",
       "artista": "Armando Manzanero",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:08:22Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:22:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73729,12 +73885,28 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan.json listo: 28 lineas + 109 WIT con DT de su bolsa, wit_dt_audit BAD 0; lo aplica el orquestador",
-            "t": "2026-10-29T08:58:13Z"
+            "nota": "borrador EN en pending_review, 28 lineas",
+            "t": "2026-10-29T12:22:45Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+            "t": "2026-10-29T12:22:45Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+          "t": "2026-10-29T12:22:45Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:22:47Z"
         }
       },
-      "motivo_en": "needs 1 new dictionary item(s) (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa043a31db6d36fd09fada3",
@@ -74243,10 +74415,10 @@
       "originalTrackId": "",
       "titulo": "Tampoco Fuiste Tu",
       "artista": "Daniela Romo",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:44:58Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:24:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74270,13 +74442,29 @@
             "t": "2026-10-29T11:44:58Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 22/22 lineas, 157/157 WIT con DT de su bolsa, 4 PIT; dry run limpio, wit_dt BAD 0; sin aplicar (lo aplica el orquestador)",
-            "t": "2026-10-29T09:14:12Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-29T12:24:13Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles pending_review, guard y chequeos OK",
+            "t": "2026-10-29T12:24:12Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles pending_review, guard y chequeos OK",
+          "t": "2026-10-29T12:24:12Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:24:15Z"
         }
       },
-      "motivo_en": "needs new dictionary item(s) (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa1110564c9b8ff110c44db",
@@ -74363,10 +74551,10 @@
       "originalTrackId": "",
       "titulo": "Devuelveme",
       "artista": "Ednita Nazario",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:08:55Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:23:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74390,13 +74578,29 @@
             "t": "2026-10-29T11:08:55Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 31/31 lineas, 198/198 WIT con DT del propio bag; lo aplica el orquestador",
-            "t": "2026-10-29T09:12:47Z"
+            "v": "ok",
+            "nota": "borrador EN en pending_review, 31 lineas",
+            "t": "2026-10-29T12:23:31Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+            "t": "2026-10-29T12:23:30Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+          "t": "2026-10-29T12:23:30Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:23:32Z"
         }
       },
-      "motivo_en": "needs 3 new dictionary item(s) (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa4f42042b8d1fdb0c31f50",
@@ -74437,10 +74641,10 @@
       "originalTrackId": "",
       "titulo": "Sobre Tu Cruz",
       "artista": "Edith Marquez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:08:20Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:21:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74464,13 +74668,29 @@
             "t": "2026-10-29T11:08:19Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo en es_map/payloads: 23 lineas, 136 WIT con DT (BAD 0), 14 PIT; lo aplica el orquestador",
-            "t": "2026-10-28T15:50:03Z"
+            "v": "ok",
+            "nota": "borrador EN en pending_review, 23 lineas",
+            "t": "2026-10-29T12:21:08Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+            "t": "2026-10-29T12:21:07Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, items nuevos, ingles pending_review y audio OK",
+          "t": "2026-10-29T12:21:07Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:21:09Z"
         }
       },
-      "motivo_en": "needs 1 new dictionary item (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5921e42b8d1fdb0d07385",
@@ -74728,9 +74948,9 @@
       "titulo": "Mas Alla",
       "artista": "Gloria Estefan",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:08:57Z",
+      "vueltas": 1,
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-10-29T12:26:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74757,10 +74977,20 @@
             "v": "ok",
             "nota": "en_plan.json a mano: 63 lineas, 231 WIT con DT de su bolsa, 8 PIT; 1 fila en no primaria nueva en esperar; lo aplica el orquestador",
             "t": "2026-10-29T09:15:35Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "item nuevo forjar (l51 w3) con wordForm BASE en vez de INFINITIVE; resto OK",
+            "t": "2026-10-29T12:24:42Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "item nuevo forjar (l51 w3) con wordForm BASE en vez de INFINITIVE; resto OK",
+          "t": "2026-10-29T12:24:42Z"
         }
       },
-      "motivo_en": "needs 3 new dictionary item(s) (no AI credits)"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa659a272ca57eb1a9c8def",
@@ -75289,10 +75519,10 @@
       "originalTrackId": "",
       "titulo": "Extraño Sentimiento",
       "artista": "Ricardo Montaner",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:44:30Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T12:21:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75316,13 +75546,29 @@
             "t": "2026-10-29T11:44:29Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 62 lineas, 195/195 WIT con DT de su bolsa, 1 PIT; falta abrir el borrador (orquestador)",
-            "t": "2026-10-29T09:23:11Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-29T12:21:37Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles pending_review, guard y chequeos OK",
+            "t": "2026-10-29T12:21:36Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles pending_review, guard y chequeos OK",
+          "t": "2026-10-29T12:21:36Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T12:21:38Z"
         }
       },
-      "motivo_en": "needs new dictionary item(s) (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa62beb72ca57eb1a986b91",
@@ -75749,8 +75995,8 @@
       "artista": "Dyango",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T12:06:10Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T12:25:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75780,7 +76026,7 @@
           }
         }
       },
-      "motivo_en": "needs 9 new dictionary item(s) (no AI credits)"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5bc1642b8d1fdb0d38712",
@@ -75859,7 +76105,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "items creados, lista para QC",
-      "actualizado": "2026-10-29T11:17:05Z",
+      "actualizado": "2026-10-29T12:18:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75880,7 +76126,7 @@
           "mapeo": {
             "v": "ok",
             "nota": "",
-            "t": "2026-10-29T11:17:04Z"
+            "t": "2026-10-29T12:18:08Z"
           },
           "ingles": {
             "v": "falta",
