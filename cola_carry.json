@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T11:54:31Z",
+  "generado": "2026-10-29T11:57:41Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 36,
   "canciones": [
@@ -70721,9 +70721,9 @@
       "titulo": "Popurri Navideño",
       "artista": "Hector Lavoe",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T11:45:18Z",
+      "vueltas": 1,
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-10-29T11:57:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70750,10 +70750,20 @@
             "v": "falta",
             "nota": "en_plan.json listo: 24 lineas + 171 WIT con DT de su bolsa; lo aplica el orquestador",
             "t": "2026-10-28T14:31:49Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT linea 24 palabra 3 con pronombre en minuscula; hay fila en mayuscula en la bolsa",
+            "t": "2026-10-29T11:55:31Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT linea 24 palabra 3 con pronombre en minuscula; hay fila en mayuscula en la bolsa",
+          "t": "2026-10-29T11:55:31Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa50cc342b8d1fdb0c549f1",
@@ -72118,7 +72128,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T11:53:15Z",
+      "actualizado": "2026-10-29T11:57:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72145,7 +72155,17 @@
             "v": "falta",
             "nota": "en_plan.json listo: 41 lineas + 233 WIT con DT de su propio item; lo aplica el orquestador",
             "t": "2026-10-28T15:08:29Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, mapeo, ingles pending_review, audio y chequeos OK",
+            "t": "2026-10-29T11:57:28Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, mapeo, ingles pending_review, audio y chequeos OK",
+          "t": "2026-10-29T11:57:28Z"
         }
       },
       "motivo_en": "QC r1"
@@ -72541,10 +72561,10 @@
       "originalTrackId": "",
       "titulo": "Dos Mares",
       "artista": "Alicia Villarreal",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T11:43:07Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T11:55:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72568,10 +72588,26 @@
             "t": "2026-10-29T11:19:27Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "ingles preparado en en_plan.json (22 lineas, 139 WIT con DT, 0 PIT); falta abrir el borrador",
-            "t": "2026-10-28T15:18:59Z"
+            "v": "ok",
+            "nota": "borrador en pending_review",
+            "t": "2026-10-29T11:55:08Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "estructura, gemelas, ingles draft, WIT-DT 0 y audio ok",
+            "t": "2026-10-29T11:55:07Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "estructura, gemelas, ingles draft, WIT-DT 0 y audio ok",
+          "t": "2026-10-29T11:55:07Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T11:55:09Z"
         }
       },
       "motivo_en": "QC r1"
@@ -72874,10 +72910,10 @@
       "originalTrackId": "",
       "titulo": "O Me Voy O Te Vas",
       "artista": "Tito Nieves",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-10-29T11:54:30Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-10-29T11:57:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72917,7 +72953,7 @@
           "t": "2026-10-29T11:54:29Z"
         }
       },
-      "motivo_en": "Draft English: line 31 word 1 has no WIT; twin WITs differ at lines 14/28 word 3 and lines 18/32 word 5. Reopen the draft, fix, resubmit."
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa6232b72ca57eb1a976619",
