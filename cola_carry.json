@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T10:26:27Z",
+  "generado": "2026-10-29T10:27:58Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 36,
   "canciones": [
@@ -3706,17 +3706,37 @@
       "originalTrackId": "",
       "titulo": "Tu Sin Mi",
       "artista": "Dread Mar-I",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:52:38Z",
-      "motivo_en": "worker running",
+      "motivo": "falta 4 items nuevos (sin créditos IA): percibir, servía, queríamos 'amar', despertamos pret.",
+      "actualizado": "2026-10-29T10:27:36Z",
+      "motivo_en": "needs 4 new dictionary item(s) (no AI credits)",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry aplicado 29 oct (run 6ae31757...): 86%, 55 hints, 235 carried/34 dropped/28 skippedEdited; 80->60 lineas",
             "t": "2026-10-29T09:52:38Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "carry dejo la letra del original; restos justificados: coros entre parentesis no cantados, comas de final de linea, vocables del outro, linea 11 palabra 9 vocable",
+            "t": "2026-10-29T10:26:44Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 60 lineas; 7 palabras finales de 15-18 ms alargadas a 265 ms dentro del hueco (lineas 17,21,24,40,43,47,50)",
+            "t": "2026-10-29T10:26:45Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "309/312, gemelas 0; sin item (creditos IA agotados): linea 1 palabra 3 (percibir INF), linea 34 palabra 4 (servia IMPF.3SG servir); sentidos que faltan: queriamos=amar (lineas 10 y 11), despertamos preterito (linea 9)",
+            "t": "2026-10-29T10:26:45Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo en es_map/payloads/6aa76c4872ca57eb1ab3de56: 60 lineas + 308 WIT con DT de su bolsa; dry run limpio; lo aplica el orquestador",
+            "t": "2026-10-29T10:26:46Z"
           }
         }
       }
@@ -7802,10 +7822,11 @@
       "originalTrackId": "",
       "titulo": "Busca Por Dentro",
       "artista": "Grupo Niche",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-09-30T09:49:40Z"
+      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T10:27:55Z",
+      "motivo_en": "worker: carry + clean-up"
     },
     {
       "coverTrackId": "6aa4f6ce42b8d1fdb0c39c18",
@@ -9080,7 +9101,7 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:25:07Z",
+      "actualizado": "2026-10-29T10:26:45Z",
       "motivo_en": "worker: carry + clean-up",
       "auditoria": {
         "pasos": {
@@ -9088,6 +9109,11 @@
             "v": "ok",
             "nota": "carry aplicado 88% (38 hints: 15 pins+spells de tildes/letras con lrclib como arbitro, 13 decisiones useSingitWord); 74 filas vendor -> 36 lineas",
             "t": "2026-10-29T10:25:07Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tras el carry: L15 insert palabra 2 (pregunta del original, tiempo partido de la palabra 1), L23 palabra 5 a minuscula; anclas L15 movidas",
+            "t": "2026-10-29T10:26:45Z"
           }
         }
       }
@@ -24651,10 +24677,11 @@
       "originalTrackId": "",
       "titulo": "Bailando",
       "artista": "Frankie Ruiz",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-06T15:50:42Z"
+      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T10:27:57Z",
+      "motivo_en": "worker: carry + clean-up"
     },
     {
       "coverTrackId": "6aa5d53642b8d1fdb0d602ad",
@@ -30883,10 +30910,11 @@
       "originalTrackId": "",
       "titulo": "Me Estoy Enloqueciendo Por Ti",
       "artista": "Jerry Rivera",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-10-06T17:49:00Z"
+      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T10:27:37Z",
+      "motivo_en": "worker: carry + clean-up"
     },
     {
       "coverTrackId": "6aa71f2e72ca57eb1aad452f",
@@ -32837,11 +32865,20 @@
       "originalTrackId": "",
       "titulo": "Nunca Voy A Olvidarte",
       "artista": "La India",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry (OK de Saúl en publicadas), limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T10:24:19Z",
-      "motivo_en": "worker: carry + clean-up"
+      "motivo": "carry no aplicado: L2/L23 y L6/L27 palabra distinta sin tercera fuente; puente L49-L52 mitad proveedor/mitad original y coros del original sin transcribir: necesita oido",
+      "actualizado": "2026-10-29T10:27:15Z",
+      "motivo_en": "carry not applied: lines 2/23 and 6/27 differ by a whole word with no third source; bridge lines 49-52 half vendor/half original and original backing lines missing from vendor: needs an ear",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "NO aplicado: preview 84% (268/318), 19 lineas en revision; L2/L23 y L6/L27 el proveedor escribe otra palabra en las dos repeticiones (sin tercera fuente, LRCLIB 503); puente L49-L52 mitad proveedor/mitad original (join+respell) y el original trae coros (orig L42-L44, L47-L48, L51-L52, L55-L56) que el proveedor no transcribe: hace falta oido",
+            "t": "2026-10-29T10:27:15Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa77f5772ca57eb1acd2159",
