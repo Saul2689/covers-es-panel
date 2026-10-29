@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:12:30Z",
+  "generado": "2026-10-29T09:14:17Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -73439,16 +73439,36 @@
       "originalTrackId": "",
       "titulo": "Tampoco Fuiste Tu",
       "artista": "Daniela Romo",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:02:42Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T09:14:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 94%",
-            "t": "2026-10-07T02:23:21Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:14:08Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L1 y L12: 4 tildes + 3 comas cada una (como el original). Nota de oido para Saul: L22 fin de linea, el original trae una palabra mas; richsync sin evidencia, no se inserta",
+            "t": "2026-10-29T09:14:09Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en las 22 lineas; palabra minima 113 ms; hueco L11-L12 instrumental (el original no canta ahi). audio_guard SUENA_SIN_BLINDAR: sin medir",
+            "t": "2026-10-29T09:14:11Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "157/159 anclas. 8 anclas nuevas L1/L12; 7 remapeos (gemelas L13 w4, L14 w6, L17 w2, L20 w2-3; sentido L8 w1, L22 w3); L5/L16 w1 al gerundio mas cercano; L5/L16 w3 sin item es (creacion bloqueada sin credito IA). 4 phrase insights",
+            "t": "2026-10-29T09:14:11Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 22/22 lineas, 157/157 WIT con DT de su bolsa, 4 PIT; dry run limpio, wit_dt BAD 0; sin aplicar (lo aplica el orquestador)",
+            "t": "2026-10-29T09:14:12Z"
           }
         }
       },
@@ -73523,20 +73543,40 @@
       "originalTrackId": "",
       "titulo": "Devuelveme",
       "artista": "Ednita Nazario",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:02:45Z",
+      "motivo": "falta 3 items nuevos (sin créditos IA): L11/22 w6 PRES.2SG sanar; L13/24/28 w4 IMP.2SG invadir+me; L14/25/29 w1 IMP.2SG devolver+me+lo (ahora en el item más cercano); plan inglés listo sin aplicar",
+      "actualizado": "2026-10-29T09:13:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 88%",
-            "t": "2026-10-07T02:19:31Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:12:45Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "lrc_plan_fix: L7 merge w2-3; L8/L19 coma final fuera; L14/L25 abre exclamacion; L18 w2-3 tildes. Diferencias de oido L4 L8 L9 L19 L20 L29 para Saul",
+            "t": "2026-10-29T09:12:46Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 31 lineas, ninguna palabra <40 ms; audio SUENA_SIN_BLINDAR stemVoc 0 ms conf 2.71, sin medir",
+            "t": "2026-10-29T09:12:46Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "198/198; 22 anclas nuevas o remapeadas; sin items nuevos (sin credito): 4 formas en el item mas cercano, listadas",
+            "t": "2026-10-29T09:12:47Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 31/31 lineas, 198/198 WIT con DT del propio bag; lo aplica el orquestador",
+            "t": "2026-10-29T09:12:47Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 3 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa4f42042b8d1fdb0c31f50",
@@ -73743,20 +73783,40 @@
       "originalTrackId": "",
       "titulo": "No Lastimes Mas",
       "artista": "Pandora",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:04:54Z",
+      "motivo": "falta 1 item nuevo (sin créditos IA): L8 w4 participio corresponder; plan inglés listo sin aplicar",
+      "actualizado": "2026-10-29T09:13:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 96%",
-            "t": "2026-10-07T02:21:52Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:12:47Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "3 tokens: L5 w4 tilde (pronombre sujeto), L24 w1 y L39 w1 tilde de mas (1SG presente); el original trae las mismas erratas",
+            "t": "2026-10-29T09:12:48Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 45 lineas, ninguna palabra <40 ms ni >6 s; hueco antes de L28 = instrumental (el original tiene linea vacia ahi); audio_guard SUENA_SIN_BLINDAR, sin medir",
+            "t": "2026-10-29T09:12:48Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "217/218; L8 w4 sin item (participio no existe, no se crean items: sin credito); 2 anclas nuevas, 10 remapeos, 1 phrase insight; gemelas unificadas",
+            "t": "2026-10-29T09:12:50Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 45 lineas + 217 WIT con DT del bag + 1 PIT; sin draft, lo aplica el orquestador",
+            "t": "2026-10-29T09:12:52Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 1 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa04649edf059217a4b9832",
@@ -74102,8 +74162,8 @@
       "artista": "Paulina Rubio",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:23:52Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:13:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74112,7 +74172,8 @@
             "t": "2026-10-07T02:23:52Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa5d22e42b8d1fdb0d5860f",
@@ -74122,8 +74183,8 @@
       "artista": "Joan Manuel Serrat",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:20:08Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:13:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74132,7 +74193,8 @@
             "t": "2026-10-07T02:20:08Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa110f464c9b8ff110c0769",
