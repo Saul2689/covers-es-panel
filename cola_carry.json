@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:22:38Z",
+  "generado": "2026-10-29T09:23:53Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -74260,20 +74260,40 @@
       "originalTrackId": "",
       "titulo": "Causa Y Efecto",
       "artista": "Paulina Rubio",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:13:40Z",
+      "motivo": "falta 3 items nuevos (sin créditos IA): L1 w2 verbo gobernar; L13/24/33 w6 verbo espiar; L28 w1 otro sentido; plan inglés listo sin aplicar",
+      "actualizado": "2026-10-29T09:23:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 97%",
-            "t": "2026-10-07T02:23:52Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:22:52Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "lineas 14 y 25 palabra 5: coma final quitada; lineas 2 palabra 3 y 34 palabra 4 difieren del original: se deja lo del cover, nota de oido para Saul",
+            "t": "2026-10-29T09:22:53Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 38 lineas, ninguna palabra bajo 40 ms; audio_guard SUENA_SIN_BLINDAR (audio 206, sin stemVoc/mixMp3V), no se mide",
+            "t": "2026-10-29T09:22:53Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "23 anclas remapeadas (gemelas unificadas, sentidos), 2 anclas nuevas, 3 phrase insights; 5 tokens sin item es del sentido (linea 1 palabra 2, lineas 13/24/33 palabra 6, linea 28 palabra 1): no se crean items (sin credito de traduccion)",
+            "t": "2026-10-29T09:22:54Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 38 lineas, 227 WIT con DT de su bolsa, 3 PIT; dry run apply_en_plan limpio; sin draft abierto (lo aplica el orquestador)",
+            "t": "2026-10-29T09:22:54Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 3 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa5d22e42b8d1fdb0d5860f",
@@ -74365,16 +74385,36 @@
       "originalTrackId": "",
       "titulo": "Extraño Sentimiento",
       "artista": "Ricardo Montaner",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:15:06Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T09:23:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 98%",
-            "t": "2026-10-07T02:22:23Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:23:09Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes: linea 1 palabra 2, linea 25 palabra 2, linea 62 palabra 2; resto del original justificado en el informe",
+            "t": "2026-10-29T09:23:09Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 62 lineas, ninguna palabra <40 ms ni >6 s; audio SUENA_SIN_BLINDAR stemVoc -20 ms, sin medir",
+            "t": "2026-10-29T09:23:10Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "195/208 mapeados; 13 tokens (5 palabras) sin item es y sin credito para crear: lineas 9, 14, 15, 26 y la palabra 2 de las 9 lineas del estribillo; 14 anclas creadas/remapeadas + 1 phrase insight",
+            "t": "2026-10-29T09:23:10Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 62 lineas, 195/195 WIT con DT de su bolsa, 1 PIT; falta abrir el borrador (orquestador)",
+            "t": "2026-10-29T09:23:11Z"
           }
         }
       },
@@ -74673,8 +74713,8 @@
       "artista": "Dyango",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:19:27Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:23:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74683,7 +74723,8 @@
             "t": "2026-10-07T02:19:27Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa5bc1642b8d1fdb0d38712",
