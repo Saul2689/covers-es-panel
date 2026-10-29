@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T16:08:59Z",
+  "generado": "2026-10-29T16:15:26Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -14442,16 +14442,36 @@
       "originalTrackId": "",
       "titulo": "Perdoname",
       "artista": "Gilberto Santa Rosa",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-29T15:58:39Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T16:10:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano: 35 hints, 82 %",
-            "t": "2026-10-29T15:58:38Z"
+            "nota": "carry ya aplicado (35 hints, 82 %); no se re-proyecta",
+            "t": "2026-10-29T16:10:52Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "linea 1 palabra 5 errata corregida al original; linea 49 insertada conjuncion en idx 7 (original). Saul: el original canta 2 lineas de estribillo (pido la paz / amor perdoname) que el cover no trae en los huecos antes de L36 y L41, tras L37, tras L42 y 4 lineas finales tras L49; no se puede oir si el cover las canta",
+            "t": "2026-10-29T16:10:52Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 49 lineas, ninguna palabra <40 ms; audio SUENA_SIN_BLINDAR stemVoc 0 ms conf 1.75, karaokeMp3 0 ms conf 2.46; no se mide",
+            "t": "2026-10-29T16:10:53Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "260/260 anclas; 4 items nuevos (hostilidad, hostilidades, tregua, treguas) traducidos 19 idiomas; inocentes reutilizado; gemelas L26/L32 idx0 y L29 idx4-5 unificadas; L21 idx0 y L37 idx0 remapeadas a y copulativa; 2 phrase insights (L46 idx1-2, L48 idx4-6)",
+            "t": "2026-10-29T16:10:53Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json escrito: 49 lineas + 260 WIT con DT de su bolsa + 2 PIT; lo aplica el orquestador",
+            "t": "2026-10-29T16:10:54Z"
           }
         }
       }
@@ -22462,16 +22482,36 @@
       "originalTrackId": "",
       "titulo": "El Tiempo De Ti",
       "artista": "Playa Limbo",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-29T15:58:12Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T16:11:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano: 16 hints, 83 %",
             "t": "2026-10-29T15:58:12Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC = original linea a linea; restos qc justificados (vocales ad-lib 40-42/53-57, Y inicial 43/46/49 igual que original)",
+            "t": "2026-10-29T16:11:36Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 58 lineas, palabra minima 97 ms; audio_guard SUENA_SIN_BLINDAR (stemVoc -20 ms conf 1.38), nada que fijar",
+            "t": "2026-10-29T16:11:37Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "6 items nuevos (impar, impares, extiendas, vendre, supo, mojes) traducidos 19 idiomas; 4 anclas nuevas, 23 remapeos; 0 sin mapear salvo ad-libs",
+            "t": "2026-10-29T16:11:37Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json escrito: 58 lineas + 204 WIT con DT de su bolsa; lo aplica el orquestador",
+            "t": "2026-10-29T16:11:38Z"
           }
         }
       }
@@ -26175,16 +26215,36 @@
       "originalTrackId": "",
       "titulo": "Loca",
       "artista": "Ana Barbara",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-29T16:01:41Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T16:15:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano: 32 hints, 86 %",
-            "t": "2026-10-29T16:01:40Z"
+            "nota": "carry ya aplicado, no se toca",
+            "t": "2026-10-29T16:15:21Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 29: coma final quitada",
+            "t": "2026-10-29T16:15:22Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40ms; hueco linea 26 = instrumental tambien en el original; audio SUENA_SIN_BLINDAR stemVoc +0",
+            "t": "2026-10-29T16:15:22Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear (salvo ad-libs ah lineas 33,35); 1 item nuevo 6ae37076f7ce98a9465b2294 (19 idiomas); gemelas unificadas lineas 15,31,33,34,38; 4 phrase insights",
+            "t": "2026-10-29T16:15:23Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 39 lineas, 191 WIT con DT de su bolsa, 4 PIT; falta abrir el borrador",
+            "t": "2026-10-29T16:15:23Z"
           }
         }
       }
@@ -32342,10 +32402,19 @@
       "originalTrackId": "",
       "titulo": "Llorare Las Penas",
       "artista": "David Bisbal",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:28:55Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T16:11:51Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 64 hints, 86 %",
+            "t": "2026-10-29T16:11:50Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa684e672ca57eb1aa05fd7",
@@ -32745,10 +32814,19 @@
       "originalTrackId": "",
       "titulo": "En Tus Pupilas",
       "artista": "Shakira",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:44:23Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T16:13:41Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 28 hints, 82 %",
+            "t": "2026-10-29T16:13:40Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa723a272ca57eb1aad90c9",
@@ -33419,10 +33497,19 @@
       "originalTrackId": "",
       "titulo": "Aunque Te Enamores",
       "artista": "Juan Gabriel",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:31:57Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T16:15:18Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 34 hints, 82 %",
+            "t": "2026-10-29T16:15:17Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5112742b8d1fdb0c5f898",
@@ -36815,8 +36902,9 @@
       "artista": "Don Omar, Rakim & Ken Y",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:40:32Z"
+      "motivo": "carry a mano no cuadra: 31 líneas con decisión (>20), 3 uniones de línea, 75 palabras skippedEdited, 83%",
+      "actualizado": "2026-10-29T16:13:27Z",
+      "motivo_en": "hand carry does not fit: 31 lines need a decision (>20), 3 line joins, 75 words skippedEdited, 83%"
     },
     {
       "coverTrackId": "6aa6103b42b8d1fdb0dabe9a",
@@ -64659,10 +64747,10 @@
       "originalTrackId": "",
       "titulo": "Te Quiero",
       "artista": "Flex",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-10-29T16:08:07Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-29T16:11:20Z",
       "motivo_en": "QC r2",
       "auditoria": {
         "pasos": {
@@ -64692,15 +64780,21 @@
             "t": "2026-10-29T15:35:46Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "lines 63-64 word 1 vocable on placeholder proper-noun item",
-            "t": "2026-10-29T16:03:15Z"
+            "v": "ok",
+            "nota": "r2: anclas de vocablo con sentido equivocado (lineas 63-64 palabra 1) borradas; resto de chequeos limpios",
+            "t": "2026-10-29T16:11:19Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "lines 63-64 word 1 vocable on placeholder proper-noun item",
-          "t": "2026-10-29T16:03:15Z"
+          "v": "VERDE",
+          "resumen": "r2: anclas de vocablo con sentido equivocado (lineas 63-64 palabra 1) borradas; resto de chequeos limpios",
+          "t": "2026-10-29T16:11:19Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T16:11:20Z"
         }
       }
     },
@@ -72458,10 +72552,10 @@
       "originalTrackId": "",
       "titulo": "Eternamente",
       "artista": "Sentidos Opuestos",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-10-29T16:08:08Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-10-29T16:13:37Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72490,15 +72584,21 @@
             "t": "2026-10-29T15:36:55Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "lines 18 20 35 50 52 66 word 1 vocable on nada/no contraction item",
-            "t": "2026-10-29T16:07:24Z"
+            "v": "ok",
+            "nota": "r2: anclas de ad-lib con sentido equivocado (lineas 18, 20, 35, 50, 52, 66 palabra 1) borradas; resto limpio",
+            "t": "2026-10-29T16:13:36Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "lines 18 20 35 50 52 66 word 1 vocable on nada/no contraction item",
-          "t": "2026-10-29T16:07:24Z"
+          "v": "VERDE",
+          "resumen": "r2: anclas de ad-lib con sentido equivocado (lineas 18, 20, 35, 50, 52, 66 palabra 1) borradas; resto limpio",
+          "t": "2026-10-29T16:13:36Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T16:13:37Z"
         }
       },
       "motivo_en": "QC r2"
@@ -75314,10 +75414,10 @@
       "originalTrackId": "",
       "titulo": "El Hombre Es Como El Oso",
       "artista": "Azul Azul, Laura Leon",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-10-29T16:08:10Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-10-29T16:15:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75357,7 +75457,7 @@
           "t": "2026-10-29T16:08:10Z"
         }
       },
-      "motivo_en": "Lines 28/29 word 1: item 6967ef7e83f15c8fa6b6a3b0 has only the negative sense; create a positive-sense FEM_SING item, remap both, WITs from its bag, resubmit. Duplicate lines 28/30 still need Saul's OK"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa7423272ca57eb1ab0d3b8",
