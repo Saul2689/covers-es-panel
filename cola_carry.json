@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:31:01Z",
+  "generado": "2026-10-29T09:33:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -74834,13 +74834,28 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:23:39Z",
+      "actualizado": "2026-10-29T09:33:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 95%",
-            "t": "2026-10-07T02:19:27Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:33:32Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "LRC limpio; lineas 8/16 palabras 6-8 y linea 10 palabra 10 difieren del original sin evidencia en richsync: se deja lo que canta el cover (regla 6 oct), nota de oido para Saul",
+            "t": "2026-10-29T09:33:32Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 16 lineas; ninguna palabra <40 ms ni >6 s; audio_guard SUENA_SIN_BLINDAR stemVoc -40 ms conf 1.24, no se mide",
+            "t": "2026-10-29T09:33:33Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "6 remapeos (gemelas L13/L14/L15/L16, sentido L2 w8 y L10 w6), 2 phrase anchors (L1, L2), 3 filas en nuevas; 8 tokens sin item exacto y sin creditos para crear: L3w3 L5w9 L6w5 L8w9 L12w12 L13w9 L14w5 L16w9",
+            "t": "2026-10-29T09:33:34Z"
           }
         }
       },
@@ -74863,10 +74878,10 @@
       "originalTrackId": "",
       "titulo": "Me Duele La Cabeza",
       "artista": "Hector El Torito Acosta",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:30:03Z",
+      "motivo": "falta 6 items nuevos (sin créditos IA): línea 2 palabra 8, líneas 19/40/50 palabra 1, línea 19 palabra 2, líneas 22 y 23 palabra 8, y el sentido 'throw away' para líneas 17/38/48 palabra 8 (item 6a11db69 sin fila en)",
+      "actualizado": "2026-10-29T09:33:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74883,10 +74898,20 @@
             "v": "ok",
             "nota": "drift 0 en 52 lineas; 0 palabras <40ms; hueco linea 22 = tag del artista en el original; audio SUENA_SIN_BLINDAR sin medir",
             "t": "2026-10-29T09:30:03Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "336/343; 27 remapeos + 11 anclas nuevas + 7 phrase insights; 7 tokens sin item es (lineas 2,19,22,23,40,50) y botes (lineas 17,38,48) con sentido equivocado y bolsa en vacia: hacen falta items nuevos (sin credito, no se crean)",
+            "t": "2026-10-29T09:32:52Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json en es_map/payloads: 52/52 lineas, 333/336 WIT con DT de su bolsa, 7 PIT; faltan 3 WIT (botes, bolsa vacia); sin draft abierto",
+            "t": "2026-10-29T09:32:52Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 6 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa66a8972ca57eb1a9e404e",
