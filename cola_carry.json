@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:23:53Z",
+  "generado": "2026-10-29T09:24:24Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -74304,13 +74304,33 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:13:56Z",
+      "actualizado": "2026-10-29T09:24:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T02:20:08Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:24:19Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 30 palabra 2: coma quitada; notas de oido: linea 30 (el original repite una vez mas la palabra 2) y linea 46 palabra 4 (otra palabra que el original); manda el cover",
+            "t": "2026-10-29T09:24:20Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; 4 palabras <40 ms arregladas en lineas 51, 52, 53 dentro de su linea; audio SUENA_SIN_BLINDAR, sin medir",
+            "t": "2026-10-29T09:24:20Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "2 anclas nuevas, 17 remapeos (1 sentido + 16 ad-libs); 14 tokens sin item es (credito IA agotado, no se crean items) + 1 nombre propio; 3 anclas en item de sentido equivocado sin alternativa; 5 filas en no primarias anadidas",
+            "t": "2026-10-29T09:24:21Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 53 lineas + 294 WIT con DT de su bolsa; lo aplica el orquestador",
+            "t": "2026-10-29T09:24:22Z"
           }
         }
       },
@@ -74385,10 +74405,10 @@
       "originalTrackId": "",
       "titulo": "Extraño Sentimiento",
       "artista": "Ricardo Montaner",
-      "estado": "revision",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-29T09:23:42Z",
+      "motivo": "falta items nuevos (sin créditos IA): 13 tokens (L9 w2, L14 w0, L15 w3, L26 w1, w2 de las 9 líneas del estribillo); plan inglés listo sin aplicar",
+      "actualizado": "2026-10-29T09:24:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74418,7 +74438,7 @@
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa62beb72ca57eb1a986b91",
@@ -74745,8 +74765,8 @@
       "artista": "Hector El Torito Acosta",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:19:51Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:24:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74755,7 +74775,8 @@
             "t": "2026-10-07T02:19:51Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa66a8972ca57eb1a9e404e",
