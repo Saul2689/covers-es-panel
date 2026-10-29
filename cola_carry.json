@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T16:15:26Z",
+  "generado": "2026-10-29T16:21:39Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -2927,10 +2927,10 @@
       "originalTrackId": "",
       "titulo": "Otro Trago",
       "artista": "Sech feat. Darrell",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T16:04:44Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-10-29T16:20:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2957,10 +2957,20 @@
             "v": "ok",
             "nota": "en_plan.json 78/78 lineas y 472/472 WIT con DT propio; BAD 0; draft sin abrir (lo aplica el orquestador)",
             "t": "2026-10-29T15:34:18Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "linea 71 palabra 3 y linea 68 palabra 2: anclas de sentido equivocado en nombres propios; linea 32 palabra 5 sin mapear y sin traducir en el ingles",
+            "t": "2026-10-29T16:20:51Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "linea 71 palabra 3 y linea 68 palabra 2: anclas de sentido equivocado en nombres propios; linea 32 palabra 5 sin mapear y sin traducir en el ingles",
+          "t": "2026-10-29T16:20:51Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "Line 71 word 3 and line 68 word 2: wrong-sense anchors on proper names (remove or map to a proper-noun item); line 32 word 5: teachable token unmapped and left untranslated in the line English (map it, add WIT, re-translate line 32)"
     },
     {
       "coverTrackId": "6aa505f142b8d1fdb0c48e91",
@@ -2968,10 +2978,10 @@
       "originalTrackId": "",
       "titulo": "Persona Ideal",
       "artista": "Adolescent's Orquesta",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T16:04:46Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T16:16:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2998,7 +3008,23 @@
             "v": "ok",
             "nota": "en_plan.json by hand: 48/48 lines, 285/285 WITs, BAD 0; orchestrator applies",
             "t": "2026-10-29T15:46:43Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r1: estructura, mapeo, items nuevos e ingles limpios; hallazgos qc justificados",
+            "t": "2026-10-29T16:15:59Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r1: estructura, mapeo, items nuevos e ingles limpios; hallazgos qc justificados",
+          "t": "2026-10-29T16:15:59Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T16:16:00Z"
         }
       },
       "motivo_en": "QC r1"
@@ -4883,10 +4909,10 @@
       "originalTrackId": "",
       "titulo": "Intocable",
       "artista": "Aleks Syntek",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T16:04:50Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T16:17:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4913,7 +4939,23 @@
             "v": "ok",
             "nota": "en_plan.json by hand: 39/39 lines, 185/185 WITs, BAD 0; orchestrator applies",
             "t": "2026-10-29T15:50:16Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r1: estructura, mapeo, vocablos e ingles limpios; hallazgos qc justificados",
+            "t": "2026-10-29T16:17:09Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r1: estructura, mapeo, vocablos e ingles limpios; hallazgos qc justificados",
+          "t": "2026-10-29T16:17:09Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T16:17:11Z"
         }
       },
       "motivo_en": "QC r1"
@@ -23507,16 +23549,36 @@
       "originalTrackId": "",
       "titulo": "Dr. Psiquiatra",
       "artista": "Gloria Trevi",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-29T16:00:03Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T16:17:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano: 26 hints, 82 %",
             "t": "2026-10-29T16:00:02Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "sin cambios: LRC = original salvo palabras de mas cantadas con timing (linea 21 p2, 23 p5, 52 p8) y coros entre parentesis no cantados; nombres propios 35/38",
+            "t": "2026-10-29T16:17:37Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 59 lineas, palabra minima 56 ms; audio_guard SUENA_SIN_BLINDAR (stemVoc -10 ms conf 1.6)",
+            "t": "2026-10-29T16:17:37Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "5 items nuevos (trajeron, rastras, salon+salones aula, corrio=echar) 19 idiomas; 5 anclas nuevas, ~38 remapeos (gemelas, le=usted, y inicial, vuelvo=volverse); restan 10 truncados mi- (cantados cortados)",
+            "t": "2026-10-29T16:17:38Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json escrito: 59 lineas + 357 WIT con DT de su bolsa",
+            "t": "2026-10-29T16:17:38Z"
           }
         }
       }
@@ -26799,16 +26861,36 @@
       "originalTrackId": "",
       "titulo": "Estar Enamorado",
       "artista": "Raphael",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-29T16:02:54Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T16:20:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano: 31 hints, 82 %",
-            "t": "2026-10-29T16:02:53Z"
+            "nota": "carry ya aplicado, no se toca",
+            "t": "2026-10-29T16:20:00Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "sin cambios: LRC limpio; linea 40 sin puntos suspensivos (estilo, no defecto)",
+            "t": "2026-10-29T16:20:01Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40ms; audio SUENA_SIN_BLINDAR stemVoc +0",
+            "t": "2026-10-29T16:20:01Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 2 items nuevos 6ae3717df7ce98a9465b76ae 6ae3717d5b327edbde40172c (19 idiomas); 42 anclas unificadas por gemelas/sentido; 10 phrase insights",
+            "t": "2026-10-29T16:20:02Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 40 lineas, 321 WIT, 10 PIT; falta abrir el borrador",
+            "t": "2026-10-29T16:20:02Z"
           }
         }
       }
@@ -36770,10 +36852,19 @@
       "originalTrackId": "",
       "titulo": "Ya Viene Amaneciendo",
       "artista": "Antonio Aguilar",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:27:49Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T16:18:08Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 8 hints, 81 %",
+            "t": "2026-10-29T16:18:07Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa1110864c9b8ff110c4cae",
@@ -37717,10 +37808,19 @@
       "originalTrackId": "",
       "titulo": "No Soy El Aire",
       "artista": "Carlos Rivera",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:42:13Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T16:15:43Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 9 hints, 82 %",
+            "t": "2026-10-29T16:15:42Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa110fa64c9b8ff110c1bce",
@@ -45330,10 +45430,19 @@
       "originalTrackId": "",
       "titulo": "Puerto Rico",
       "artista": "Frankie Ruiz",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-06T21:00:57Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T16:17:17Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 4 hints, 82 %",
+            "t": "2026-10-29T16:17:16Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6c4c972ca57eb1aa58e85",
@@ -47405,10 +47514,19 @@
       "originalTrackId": "",
       "titulo": "Hazme Una Señal",
       "artista": "Roberto Jordan",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:37:34Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T16:18:12Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 32 hints, 82 %",
+            "t": "2026-10-29T16:18:11Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa612bc42b8d1fdb0daf84e",
@@ -48384,10 +48502,19 @@
       "originalTrackId": "",
       "titulo": "Casi",
       "artista": "Soraya",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:38:10Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-10-29T16:19:32Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 30 hints, 84 %",
+            "t": "2026-10-29T16:19:31Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa62d3472ca57eb1a987e01",
@@ -49029,8 +49156,9 @@
       "artista": "Willy Chirino",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 82%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:44:11Z"
+      "motivo": "carry a mano no cuadra: 22 líneas con decisión (>20); el original escribe un nombre propio en grafía inglesa y le faltan tildes que la cover sí tiene, 82%",
+      "actualizado": "2026-10-29T16:19:55Z",
+      "motivo_en": "hand carry does not fit: 22 lines need a decision (>20); the original spells a proper noun the English way and lacks accents the cover has, 82%"
     },
     {
       "coverTrackId": "6aa8252ad951e1665a810aac",
