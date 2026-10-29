@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T08:54:35Z",
+  "generado": "2026-10-29T08:55:27Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -17973,10 +17973,10 @@
       "originalTrackId": "",
       "titulo": "11 Y 6",
       "artista": "Fito Paez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-28T17:00:04Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T08:54:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -18000,10 +18000,26 @@
             "t": "2026-10-28T16:51:02Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "28 oct: en_plan.json nuevo formato, dry run lines ok/24 wits 150/150 skipped 0; falta abrir draft y aplicar",
-            "t": "2026-10-28T16:51:02Z"
+            "v": "ok",
+            "nota": "borrador en pending_review, 24 lineas y 150 WIT, QC r1",
+            "t": "2026-10-29T08:54:55Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: structure, timing, mapping, new items, twins and draft English (pending_review) all clean; litchk/lpchk 0, BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-10-29T08:54:44Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: structure, timing, mapping, new items, twins and draft English (pending_review) all clean; litchk/lpchk 0, BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-10-29T08:54:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T08:54:56Z"
         }
       },
       "motivo_en": "QC r1"
