@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T08:59:51Z",
+  "generado": "2026-10-29T09:03:14Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -72228,13 +72228,33 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T08:50:29Z",
+      "actualizado": "2026-10-29T09:02:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 94%",
-            "t": "2026-10-07T02:23:34Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:02:36Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "6 tildes (lineas 1, 9 x2, 31, 33, 45); notas de oido lineas 19, 21, 22, 46 para Saul",
+            "t": "2026-10-29T09:02:37Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 66 lineas; ninguna palabra < 40 ms; audio_guard SUENA_SIN_BLINDAR (stemVoc -20 ms), sin medir",
+            "t": "2026-10-29T09:02:43Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "38 anclas + 11 phrase insights; 3 tokens sin item es (linea 19 palabras 3-4, linea 21 palabra 1) y rompe imperativo (linea 10) piden item nuevo: sin credito de traduccion",
+            "t": "2026-10-29T09:02:45Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 66 lineas, 258 WIT con DT de su bolsa, 11 PIT; lo aplica el orquestador",
+            "t": "2026-10-29T09:02:47Z"
           }
         }
       },
@@ -72390,20 +72410,40 @@
       "originalTrackId": "",
       "titulo": "No Hay Quinto Malo",
       "artista": "Paquita la Del Barrio",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T08:50:30Z",
+      "motivo": "falta items nuevos (sin créditos IA): 5 tokens L6 w1, L10/L30 w5, L14/L34 w1; plan inglés listo sin aplicar",
+      "actualizado": "2026-10-29T09:02:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T02:22:08Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:01:01Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 38 palabras 1 y 4: tilde de afirmacion repuesta (igual que el original); resto igual al original",
+            "t": "2026-10-29T09:01:02Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 38 lineas, 0 palabras <40 ms; audio_guard SUENA_SIN_BLINDAR (karaokeMp3, audio 206), no se mide",
+            "t": "2026-10-29T09:01:02Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "187/192 anclados; lineas 38 p1 y p4 anclados a si afirmativo; linea 17 p8 unificada con 37; linea 28 p1 a la y conjuncion. Faltan items es para linea 6 p1, lineas 10/30 p5, lineas 14/34 p1: crear items vetado (API de traduccion sin credito)",
+            "t": "2026-10-29T09:01:03Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 38 lineas + 187 WIT con DT de su bolsa (dry run limpio, 0 saltados); fila en no primaria nueva en item engañé; lo aplica el orquestador",
+            "t": "2026-10-29T09:01:03Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 3 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa57c4e42b8d1fdb0ce68c7",
@@ -72422,20 +72462,40 @@
       "originalTrackId": "",
       "titulo": "Miento",
       "artista": "Soraya",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T08:50:30Z",
+      "motivo": "falta 2 items nuevos (sin créditos IA): L6 w2 pretérito 1sg ahogar(se); L25 w4 infinitivo 'saborear'; plan inglés listo sin aplicar",
+      "actualizado": "2026-10-29T09:02:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 97%",
             "t": "2026-10-07T02:22:32Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 2 palabra 2 a minuscula; linea 28 palabra 1 sin tilde (conjuncion); notas de oido en el informe",
+            "t": "2026-10-29T09:01:49Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 56 lineas, 0 palabras < 40 ms; hueco antes de linea 47 = instrumental como el original; audio SUENA_SIN_BLINDAR sin medir",
+            "t": "2026-10-29T09:01:50Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "gemelas 0, homografo linea 28 y sentidos pero/por corregidos, 3 anclas + 1 frase nuevas; quedan linea 6 palabra 2 y linea 25 palabra 4 sin item es (sin credito para crear)",
+            "t": "2026-10-29T09:01:50Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 56 lineas, 209/209 WIT con DT de su bolsa, 1 PIT; sin borrador abierto",
+            "t": "2026-10-29T09:01:51Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 2 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa110f664c9b8ff110c0c56",
@@ -72677,8 +72737,8 @@
       "artista": "Victor Yturbe El Piruli",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-10-29T08:59:13Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T09:02:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72708,7 +72768,7 @@
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa1111a64c9b8ff110c89ba",
@@ -73285,8 +73345,8 @@
       "artista": "Daniela Romo",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:23:21Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:02:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73295,7 +73355,8 @@
             "t": "2026-10-07T02:23:21Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa1110564c9b8ff110c44db",
@@ -73327,8 +73388,8 @@
       "artista": "Dyango",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:23:49Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:02:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73337,7 +73398,8 @@
             "t": "2026-10-07T02:23:49Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa57b6342b8d1fdb0ce5fe8",
@@ -73347,8 +73409,8 @@
       "artista": "Ednita Nazario",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:19:31Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:02:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73357,7 +73419,8 @@
             "t": "2026-10-07T02:19:31Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa4f42042b8d1fdb0c31f50",
