@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:16:50Z",
+  "generado": "2026-10-29T09:18:11Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -73927,10 +73927,10 @@
       "originalTrackId": "",
       "titulo": "El Hombre Es Como El Oso",
       "artista": "Azul Azul, Laura Leon",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:16:50Z",
+      "motivo": "falta 3 items nuevos (sin créditos IA): adjetivo final L4/22/41/49/53; L17 w3; L33/37 w1. Líneas 28 y 30 duplicadas de 29 y 31 (borrarlas quita anclas: OK de Saúl). Plan inglés listo sin aplicar",
+      "actualizado": "2026-10-29T09:17:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73947,10 +73947,20 @@
             "v": "saul",
             "nota": "drift 0; líneas 28 y 30 son duplicados (3 ms) de 29 y 31 con palabra 3 de 0 ms: arreglo = lrc_delete_line idx 27 y 29, que borra anclas (prohibido al agente)",
             "t": "2026-10-29T09:16:50Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "204/209; 46 anclas escritas; sin item: última palabra de líneas 4,22,41,49,53 (no se crean items: sin crédito); línea 17 palabra 3 y líneas 33/37 palabra 1 en el item más cercano",
+            "t": "2026-10-29T09:16:50Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json 53 líneas + 204/204 WIT con DT propio (dry run limpio); lo aplica el orquestador",
+            "t": "2026-10-29T09:16:51Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 3 new dictionary item(s) (no AI credits); duplicate lines 28/30 need Saúl's OK"
     },
     {
       "coverTrackId": "6aa7423272ca57eb1ab0d3b8",
@@ -73958,16 +73968,36 @@
       "originalTrackId": "",
       "titulo": "Necesidad",
       "artista": "Vagon Chicano",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:10:25Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-10-29T09:17:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T02:23:11Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:17:37Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 26 palabra 4 tilde (pronombre sujeto, igual que linea 13); linea 1 palabra 5 se deja: el cover la canta y es correcta",
+            "t": "2026-10-29T09:17:38Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 30 lineas, ninguna palabra < 40 ms; hueco 40 s antes de linea 18 instrumental (el original tampoco canta ahi); audio SUENA_SIN_BLINDAR, no se mide",
+            "t": "2026-10-29T09:17:38Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "4 tokens sin item es (no se crean items: API de traduccion sin credito): linea 2 palabra 3, linea 3 palabra 6, lineas 15 y 28 palabra 3; resto mapeado, gemelas unificadas, 6 phrase insights",
+            "t": "2026-10-29T09:17:39Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 30 lineas, 189/189 WIT con DT de su bolsa, 6 PIT; sin draft abierto, lo aplica el orquestador",
+            "t": "2026-10-29T09:17:39Z"
           }
         }
       },
@@ -74182,13 +74212,18 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:12:29Z",
+      "actualizado": "2026-10-29T09:17:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry en lote 90%",
             "t": "2026-10-07T02:21:10Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "22 tokens: errata linea 1 palabra 7, tildes en 19 tokens (mas/el/lagrimas/volvere/asi/equivoque/esperandole), apertura de exclamacion linea 53",
+            "t": "2026-10-29T09:17:18Z"
           }
         }
       },
@@ -74349,8 +74384,8 @@
       "artista": "Pablo Milanes",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:21:45Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:17:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74359,7 +74394,8 @@
             "t": "2026-10-07T02:21:45Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa656fc72ca57eb1a9c5f3a",
