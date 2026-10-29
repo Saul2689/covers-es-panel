@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:07:29Z",
+  "generado": "2026-10-29T09:09:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -72775,10 +72775,10 @@
       "originalTrackId": "",
       "titulo": "Te Pido Y Te Ruego",
       "artista": "Victor Yturbe El Piruli",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T09:02:01Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-10-29T09:08:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72802,10 +72802,26 @@
             "t": "2026-10-29T08:58:46Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 26 lineas + 127 WIT con DT de su bolsa (dry run apply_en_plan ok); falta abrir el borrador",
-            "t": "2026-10-29T08:58:47Z"
+            "v": "ok",
+            "nota": "borrador en pending_review: 26 lineas + 127 WIT con texto, verificado en QC r1",
+            "t": "2026-10-29T09:08:55Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, mapeo vs original, gemelas, ingles en pending_review y audio OK; notas para Saul: item derrumbarse, wordForm de sentido",
+            "t": "2026-10-29T09:08:29Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, mapeo vs original, gemelas, ingles en pending_review y audio OK; notas para Saul: item derrumbarse, wordForm de sentido",
+          "t": "2026-10-29T09:08:29Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-10-29T09:08:57Z"
         }
       },
       "motivo_en": "QC r1"
@@ -73359,13 +73375,33 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T08:59:32Z",
+      "actualizado": "2026-10-29T09:09:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 99%",
-            "t": "2026-10-07T02:20:17Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:09:20Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes: línea 32 palabra 4, línea 36 palabra 3, línea 42 palabra 2 (homógrafo se/sé), línea 44 palabra 3; erratas/faltas restantes justificadas en jobs/",
+            "t": "2026-10-29T09:09:21Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 51 líneas, ninguna palabra <40 ms; hueco tras línea 22 = instrumental (el original tiene línea vacía ahí); audio SUENA_SIN_BLINDAR stemVoc +0 ms",
+            "t": "2026-10-29T09:09:21Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "35 anclas escritas (gemelas unificadas, sentidos, 7 huecos); 2 phrase insights; quedan 4 tokens sin item: línea 5 y 27 palabra 2, línea 13 y 37 palabra 2 (hace falta item nuevo, sin crédito de traducción)",
+            "t": "2026-10-29T09:09:22Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 51 líneas, 204/204 WIT con DT de su bolsa, 2 PIT; wit_dt_audit BAD 0; lo aplica el orquestador",
+            "t": "2026-10-29T09:09:23Z"
           }
         }
       },
