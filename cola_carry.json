@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:24:24Z",
+  "generado": "2026-10-29T09:28:37Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -74301,10 +74301,10 @@
       "originalTrackId": "",
       "titulo": "De Carton Piedra",
       "artista": "Joan Manuel Serrat",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:24:22Z",
+      "motivo": "falta 14 items nuevos (sin créditos IA): 14 tokens sin item es, 4 anclas en sentido equivocado",
+      "actualizado": "2026-10-29T09:26:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74314,8 +74314,8 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "linea 30 palabra 2: coma quitada; notas de oido: linea 30 (el original repite una vez mas la palabra 2) y linea 46 palabra 4 (otra palabra que el original); manda el cover",
-            "t": "2026-10-29T09:24:20Z"
+            "nota": "linea 30 palabra 3: coma quitada; notas de oido: linea 30 (el original canta una vez mas la palabra 2) y linea 46 palabra 4 (otra palabra que el original); manda el cover",
+            "t": "2026-10-29T09:25:07Z"
           },
           "timing": {
             "v": "ok",
@@ -74334,7 +74334,7 @@
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 14 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa110f464c9b8ff110c0769",
@@ -74446,20 +74446,40 @@
       "originalTrackId": "",
       "titulo": "Dime Como",
       "artista": "Luis Fonsi",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:16:34Z",
+      "motivo": "falta 3 items nuevos (sin créditos IA): línea 7 palabras 1 y 7, línea 23 palabra 8",
+      "actualizado": "2026-10-29T09:26:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 93%",
-            "t": "2026-10-07T02:20:59Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:24:50Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L3 tilde; L12/L28 3 tokens punto borrados + tilde; L18 palabra partida unida; L31 coma final fuera. Notas de oido: L3 pal 5, L18 pal 5, L36 pal 8 (cover canta otra cosa o solapa)",
+            "t": "2026-10-29T09:24:51Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 42 lineas, palabra mas corta 120 ms, 1a linea 14390 ms; audio SUENA_SIN_BLINDAR stemVoc 0 ms, sin medir",
+            "t": "2026-10-29T09:24:52Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "8 anclas nuevas, 13 remapeos (gemelas 0, se reflexivo L23). Sin item es (sin credito, no se crean): L7 pal 1 y pal 7, L23 pal 8. Ad-libs L32, L41 sin mapear",
+            "t": "2026-10-29T09:24:53Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json: 42 lineas + 206 WIT con DT del propio item; sin draft, lo aplica el orquestador",
+            "t": "2026-10-29T09:24:53Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 3 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa6783e72ca57eb1a9f41cf",
@@ -74467,20 +74487,40 @@
       "originalTrackId": "",
       "titulo": "Despertar",
       "artista": "Pablo Milanes",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:17:57Z",
+      "motivo": "falta 5 items nuevos (sin créditos IA): línea 8 palabra 3, línea 9 palabra 4, líneas 17/29 palabras 2 y 4; 're' de líneas 1 y 4 en sentido equivocado",
+      "actualizado": "2026-10-29T09:27:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 100%",
-            "t": "2026-10-07T02:21:45Z"
+            "nota": "carry en lote ya aplicado; no re-proyectado",
+            "t": "2026-10-29T09:26:12Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 6 y 22 palabra 4 tilde; linea 8 palabra 2 tilde (pronombre sujeto). Resto = original; 1-4 vocalizacion excluida",
+            "t": "2026-10-29T09:26:13Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 36 lineas; linea 3 palabra 7 duraba 0 ms -> 220 ms; ninguna palabra < 40 ms; audio_guard SUENA_SIN_BLINDAR, sin medir",
+            "t": "2026-10-29T09:26:14Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "16 anclas remapeadas, 4 nuevas, 2 phrase insights; sin item: linea 8 palabra 3, 9.4, 17.2, 17.4, 29.2, 29.4 (sin creditos para items nuevos); 6 anclas re en vocalizacion excluida sin item ADLIB",
+            "t": "2026-10-29T09:26:14Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json: 36 lineas, 165 WIT con DT del propio bag, 2 PIT; sin draft (lo aplica el orquestador)",
+            "t": "2026-10-29T09:26:15Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 5 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa656fc72ca57eb1a9c5f3a",
@@ -74635,20 +74675,40 @@
       "originalTrackId": "",
       "titulo": "Desde Que Tu Te Has Ido",
       "artista": "Mocedades",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:18:38Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-10-29T09:28:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 85%",
-            "t": "2026-10-07T02:21:13Z"
+            "nota": "carry en lote ya aplicado; no se re-proyecta",
+            "t": "2026-10-29T09:24:51Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "linea 19 palabras 2 y 8 tilde; linea 26 palabra 1 tilde y palabra 2 minuscula; salto de linea 25/26 distinto del original justificado (la palabra se canta pegada a la 26)",
+            "t": "2026-10-29T09:24:51Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en las 30 lineas, 0 palabras <40 ms; hueco antes de linea 25 = instrumental (original tiene linea vacia); audio_guard SUENA_SIN_BLINDAR, no se mide",
+            "t": "2026-10-29T09:24:52Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "3 anclas nuevas (linea 19 x2, linea 26 p1) a items existentes; gemela linea 13 p4 unificada; linea 6 p1 y p4 unificadas; phrase insight linea 18 p1-2; 0 sin mapear; sin items nuevos",
+            "t": "2026-10-29T09:24:53Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo (30 lineas, 149 WIT con DT del propio item, 1 PIT); lo aplica el orquestador; sin draft abierto",
+            "t": "2026-10-29T09:24:54Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6724972ca57eb1a9edccb",
@@ -74786,8 +74846,8 @@
       "artista": "Obie Bermudez",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:21:23Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:28:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74796,7 +74856,8 @@
             "t": "2026-10-07T02:21:22Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa6691572ca57eb1a9e1e90",
@@ -74817,8 +74878,8 @@
       "artista": "los Villacorta",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:20:52Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:28:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74827,7 +74888,8 @@
             "t": "2026-10-07T02:20:52Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa67dec72ca57eb1a9feb7d",
