@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:11:27Z",
+  "generado": "2026-10-29T09:12:30Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -73482,20 +73482,40 @@
       "originalTrackId": "",
       "titulo": "Bendita Tu",
       "artista": "Dyango",
-      "estado": "carry",
+      "estado": "correccion",
       "vueltas": 0,
-      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:02:44Z",
+      "motivo": "falta 1 item nuevo (sin créditos IA): L17/L36/L40 w5 sustantivo MASC.PLUR quebradero; plan inglés listo sin aplicar",
+      "actualizado": "2026-10-29T09:12:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry en lote 93%",
-            "t": "2026-10-07T02:23:49Z"
+            "nota": "carry en lote ya aplicado; no se toca",
+            "t": "2026-10-29T09:11:30Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tilde del pronombre en lineas 1,3,5,7,20,22,24,26 palabra 1; ear-notes lineas 31, 32, 35, 39",
+            "t": "2026-10-29T09:11:31Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 44 lineas; palabra minima 87 ms; hueco tras linea 19 instrumental (original sin verso); audio_guard SUENA_SIN_BLINDAR",
+            "t": "2026-10-29T09:11:31Z"
+          },
+          "mapeo": {
+            "v": "saul",
+            "nota": "167/170; falta item nuevo para lineas 17, 36, 40 palabra 5 (sin creditos IA, no se crea); 9 phrase insights",
+            "t": "2026-10-29T09:11:32Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "44 lineas y 167 WIT en en_plan.json; falta abrir el borrador",
+            "t": "2026-10-29T09:11:34Z"
           }
         }
       },
-      "motivo_en": "worker running"
+      "motivo_en": "needs 1 new dictionary item(s) (no AI credits)"
     },
     {
       "coverTrackId": "6aa57b6342b8d1fdb0ce5fe8",
@@ -74061,8 +74081,8 @@
       "artista": "Marisol",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado en lote; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-10-07T02:21:10Z",
+      "motivo": "worker 29 oct: limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:12:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74071,7 +74091,8 @@
             "t": "2026-10-07T02:21:10Z"
           }
         }
-      }
+      },
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa827d7d951e1665a814c33",
