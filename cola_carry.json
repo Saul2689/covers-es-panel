@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:51:13Z",
+  "generado": "2026-10-29T09:52:30Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 35,
   "canciones": [
@@ -3709,8 +3709,17 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:47:25Z",
-      "motivo_en": "worker running"
+      "actualizado": "2026-10-29T09:51:33Z",
+      "motivo_en": "worker running",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "cover publicada: el carry pasaria de 80 a 60 lineas y saltaria 140 mapeos existentes (skippedEdited); no aplicado, espera OK de Saul. Hints listos (55), dry run 86%, applyAllowed",
+            "t": "2026-10-29T09:51:33Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa737aa72ca57eb1aaf8e72",
@@ -8235,10 +8244,11 @@
       "originalTrackId": "",
       "titulo": "La Botella",
       "artista": "Mach & Daddy",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 84%: necesita hints a mano",
-      "actualizado": "2026-09-30T09:50:01Z"
+      "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
+      "actualizado": "2026-10-29T09:52:29Z",
+      "motivo_en": "worker running"
     },
     {
       "coverTrackId": "6aa4f0f942b8d1fdb0c280d2",
@@ -20256,14 +20266,14 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:51:12Z",
+      "actualizado": "2026-10-29T09:52:03Z",
       "motivo_en": "worker running",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "saul",
-            "nota": "carry YA aplicado 09:50 UTC antes de llegar la regla de parada: cover publicada, lineas 58->20, 43 WIT existentes skippedEdited (conservados), 10 WIT del original dropped; falta OK de Saul; worker parado sin revertir",
-            "t": "2026-10-29T09:51:12Z"
+            "v": "ok",
+            "nota": "carry aplicado 29 oct 09:50 UTC (84%); coordinador confirma: se queda, sin revert; 43 WIT de la cover conservados",
+            "t": "2026-10-29T09:52:03Z"
           }
         }
       }
@@ -57839,8 +57849,17 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:47:26Z",
-      "motivo_en": "worker running"
+      "actualizado": "2026-10-29T09:51:14Z",
+      "motivo_en": "worker running",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "NO aplicado: cover PUBLICADA; el carry pasa de 102 a 52 lineas y salta 126 mapeos existentes (skippedEdited). Hints+14 decisiones guardados (seco limpio, applyAllowed). Falta OK de Saul",
+            "t": "2026-10-29T09:51:14Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6424572ca57eb1a9aca68",
@@ -63021,11 +63040,20 @@
       "originalTrackId": "",
       "titulo": "Un Gran Amor Y Nada Mas",
       "artista": "Nicola di Bari",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:51:03Z",
-      "motivo_en": "worker running"
+      "motivo": "publicada: carry cambiaria lineas 64->38 y saltaria 69 mapeos; espera OK de Saul para aplicar",
+      "actualizado": "2026-10-29T09:52:27Z",
+      "motivo_en": "published: carry would change lines 64->38 and skip 69 existing mappings; needs Saul's OK to apply",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "NO aplicado: cover publicada; carry_preview cambia lineas 64->38 y salta 69 mapeos existentes (skippedEdited), 29 dropped; necesita OK de Saul",
+            "t": "2026-10-29T09:52:21Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa70bc772ca57eb1aab44b2",
@@ -64000,8 +64028,17 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:47:24Z",
-      "motivo_en": "worker running"
+      "actualizado": "2026-10-29T09:51:23Z",
+      "motivo_en": "worker running",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "NO aplicado: cover publicada; carry cambia 103->75 lineas y salta 112 mapeos existentes (skippedEdited). Hints listos (29, preview 87%, applyAllowed). Falta OK de Saul",
+            "t": "2026-10-29T09:51:23Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa73fb772ca57eb1ab07de8",
@@ -66918,11 +66955,20 @@
       "originalTrackId": "",
       "titulo": "Locos Los 2",
       "artista": "Luis Enrique",
-      "estado": "carry",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:47:26Z",
-      "motivo_en": "worker running"
+      "motivo": "carry al 84%: faltan en la cover las líneas 24-28 y 40-43 del original (cantadas), 9 decisiones; necesita oído de Saúl antes del carry",
+      "actualizado": "2026-10-29T09:52:27Z",
+      "motivo_en": "carry: original lines 24-28 and 40-43 missing on the cover; needs an ear check",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "PARADA por regla del orquestador: cover publicada; el carry pasaria de 83 a 35 lineas y saltaria 88 WIT editados (39 caidos, 155 llevados); 240 anclas mapeadas hoy. Matched 84%. Necesita OK de Saul antes de aplicar. No se aplico nada.",
+            "t": "2026-10-29T09:51:38Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa726fb72ca57eb1aae030a",
@@ -69836,14 +69882,14 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:50:38Z",
+      "actualizado": "2026-10-29T09:52:19Z",
       "motivo_en": "worker running",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry aplicado 29 oct: 17 decisiones useSingitWord (tildes, l38 sin, l46 Ya por original), 85% match; audio SUENA_SIN_BLINDAR tras apply",
-            "t": "2026-10-29T09:50:38Z"
+            "nota": "carry aplicado 29 oct 09:50Z; coordinador confirma conservarlo (70->54 lineas esperado en publicada)",
+            "t": "2026-10-29T09:52:19Z"
           }
         }
       }
@@ -81027,8 +81073,17 @@
       "estado": "carry",
       "vueltas": 0,
       "motivo": "worker 29 oct: carry, limpiar letra, mapeo e inglés",
-      "actualizado": "2026-10-29T09:47:07Z",
-      "motivo_en": "worker running"
+      "actualizado": "2026-10-29T09:51:40Z",
+      "motivo_en": "worker running",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "saul",
+            "nota": "STOP regla orquestador: cover publicada; apply cambiaria 48->24 lineas y saltaria 76 anclas existentes (skippedEdited) + 24 WIT dropped. Review set listo (lineas 5 y 15 useSingitWord por 3a fuente, linea 5 token 3 spell original). Falta OK de Saul para aplicar",
+            "t": "2026-10-29T09:51:40Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa76f2472ca57eb1ab41da2",
