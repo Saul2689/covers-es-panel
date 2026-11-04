@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T12:19:32Z",
+  "generado": "2026-11-04T12:55:23Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -1932,9 +1932,9 @@
       "titulo": "Verano Rosa",
       "artista": "Feid, Karol G",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T11:29:21Z",
+      "vueltas": 1,
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T12:53:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -1958,12 +1958,23 @@
             "t": "2026-11-04T11:29:20Z"
           },
           "ingles": {
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T12:28:56Z"
+          },
+          "qc": {
             "v": "falta",
-            "nota": "44 lineas + 382 WIT con DT de su bolsa en es_map/payloads/6a9ec98beef2ad59f63a2916/en_plan.json; falta abrir el borrador",
-            "t": "2026-11-04T11:29:20Z"
+            "nota": "twins L3/24 w4,w13 and L5 w5 WIT differ; L1/22/37 w2-4 idiom read word-by-word, needs es phrase item",
+            "t": "2026-11-04T12:35:36Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "twins L3/24 w4,w13 and L5 w5 WIT differ; L1/22/37 w2-4 idiom read word-by-word, needs es phrase item",
+          "t": "2026-11-04T12:35:36Z"
         }
-      }
+      },
+      "motivo_en": "QC r1: twin WITs unified (L24 w4, L3 w13, L5 w5); new es phrase item 6aeb2a5dee9091b0f91bf682 (19 langs) with PIs on L1/L22/L37 w2-4, identical PITs; resubmitted"
     },
     {
       "coverTrackId": "6a9bb74351e7bdc81598150b",
@@ -2021,10 +2032,10 @@
       "originalTrackId": "",
       "titulo": "La Bamba",
       "artista": "Los Lobos",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T11:58:46Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-11-04T12:50:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -2048,12 +2059,43 @@
             "t": "2026-11-04T11:58:44Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json a mano (39 líneas, 164 WITs) revisado contra el inglés aprobado que vino con el carry; falta que el orquestador lo aplique",
-            "t": "2026-11-04T11:58:45Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T12:30:57Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, tildes de futuro, gemelas e ingles OK; BAD 0, lit 0, lp 0; audio SUENA_SIN_BLINDAR",
+            "t": "2026-11-04T12:49:38Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, tildes de futuro, gemelas e ingles OK; BAD 0, lit 0, lp 0; audio SUENA_SIN_BLINDAR",
+          "t": "2026-11-04T12:49:38Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T12:50:50Z"
+        },
+        "sync": {
+          "songId": "6a992f47486eb0e888ea70ea",
+          "trackId": "6aa6227172ca57eb1a975998",
+          "src": "richsync",
+          "matched": 61,
+          "words": 166,
+          "median": 40,
+          "halves": [
+            32,
+            64
+          ],
+          "v": "OK",
+          "t": "2026-11-04T12:50:50Z"
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6a9be97b51e7bdc815ad159d",
@@ -4099,9 +4141,9 @@
       "titulo": "Propuesta Indecente",
       "artista": "Romeo Santos",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T11:32:39Z",
+      "vueltas": 1,
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T12:53:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4125,12 +4167,23 @@
             "t": "2026-11-04T11:32:37Z"
           },
           "ingles": {
+            "v": "ok",
+            "nota": "aplicado; 44 tokens ingleses sin mapear (justificado)",
+            "t": "2026-11-04T12:29:56Z"
+          },
+          "qc": {
             "v": "falta",
-            "nota": "59 lineas + 258 WIT con DT de su bolsa en es_map/payloads/6a9a2e709bc1eb137252853d/en_plan.json; 6 PIT ya traducidos; falta abrir el borrador",
-            "t": "2026-11-04T11:32:38Z"
+            "nota": "twin WITs differ: L12/29 w1, L15/32 w4, L17/34 w6, L9/26 w2, L14/31 w3",
+            "t": "2026-11-04T12:40:59Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "twin WITs differ: L12/29 w1, L15/32 w4, L17/34 w6, L9/26 w2, L14/31 w3",
+          "t": "2026-11-04T12:40:59Z"
         }
-      }
+      },
+      "motivo_en": "QC r1: twin WITs unified (L29 w1, L15 w4, L34 w6, L9/L26 w2, L14/L31 w3); all twin lines match; resubmitted"
     },
     {
       "coverTrackId": "6aa804a3d951e1665a7e1e7c",
@@ -8812,10 +8865,10 @@
       "originalTrackId": "",
       "titulo": "Te Llore Un Rio",
       "artista": "Mana",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T11:55:43Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-04T12:48:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8839,12 +8892,23 @@
             "t": "2026-11-04T11:55:41Z"
           },
           "ingles": {
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T12:30:56Z"
+          },
+          "qc": {
             "v": "falta",
-            "nota": "en_plan.json a mano (38 líneas, 182 WITs); falta que el orquestador lo aplique",
-            "t": "2026-11-04T11:55:42Z"
+            "nota": "L38 w1/3/5: item PRES.3SG pero es imperativo (WIT imperativo); falta item IMP.2SG",
+            "t": "2026-11-04T12:48:38Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L38 w1/3/5: item PRES.3SG pero es imperativo (WIT imperativo); falta item IMP.2SG",
+          "t": "2026-11-04T12:48:38Z"
         }
-      }
+      },
+      "motivo_en": "L38 w1/3/5 mapped to the PRES.3SG item but used as the tu imperative (WIT imperative); create IMP.2SG item and remap"
     },
     {
       "coverTrackId": "6aa7341e72ca57eb1aaf530a",
@@ -21173,8 +21237,8 @@
       "artista": "Fonseca, Silvestre Dangond",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T11:56:50Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T12:37:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -21198,17 +21262,43 @@
             "t": "2026-11-04T11:56:49Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan ready: 55 lines + 366 WITs, dry run 366/366, foreign 0; orchestrator applies",
-            "t": "2026-11-04T11:56:49Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T12:28:57Z"
           },
           "qc": {
-            "v": "saul",
-            "nota": "ear-notes: Saul hints line 7 + word 1 of lines 30/31/34/35 leave one short sung word missing; mixMp3V manual offset 0 to check",
-            "t": "2026-11-04T11:56:50Z"
+            "v": "ok",
+            "nota": "structure, timing, mapping, English OK; notes for Saul: mixMp3V manual 0, hints, island name L19/40/48 w3",
+            "t": "2026-11-04T12:37:35Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "structure, timing, mapping, English OK; notes for Saul: mixMp3V manual 0, hints, island name L19/40/48 w3",
+          "t": "2026-11-04T12:37:35Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T12:38:36Z"
+        },
+        "sync": {
+          "songId": "6a992ef7486eb0e888ea4a11",
+          "trackId": "6a9ca7193b4b553874679386",
+          "src": "richsync",
+          "matched": 193,
+          "words": 376,
+          "median": -7790,
+          "halves": [
+            -7788,
+            -7796
+          ],
+          "v": "FALLA",
+          "t": "2026-11-04T12:38:36Z"
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa800e1d951e1665a7df312",
@@ -22860,8 +22950,8 @@
       "artista": "Marc Anthony",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T11:42:11Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T12:40:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -22885,12 +22975,43 @@
             "t": "2026-11-04T11:42:10Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json a mano: 77 lineas + 380 WIT con DT de su bolsa; falta que el orquestador lo aplique",
-            "t": "2026-11-04T11:42:10Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T12:30:55Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, mapeo, tildes, gemelas e ingles OK; BAD 0, lit 0, lp 0; audio SUENA_SIN_BLINDAR",
+            "t": "2026-11-04T12:40:31Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, mapeo, tildes, gemelas e ingles OK; BAD 0, lit 0, lp 0; audio SUENA_SIN_BLINDAR",
+          "t": "2026-11-04T12:40:31Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T12:41:27Z"
+        },
+        "sync": {
+          "songId": "6a992f3c486eb0e888ea6ceb",
+          "trackId": "6aa4eeda42b8d1fdb0c25e8b",
+          "src": "richsync",
+          "matched": 46,
+          "words": 383,
+          "median": 9148,
+          "halves": [
+            54,
+            11053
+          ],
+          "v": "FALLA",
+          "t": "2026-11-04T12:41:27Z"
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa7808272ca57eb1acd36ef",
@@ -23133,19 +23254,40 @@
       "originalTrackId": "",
       "titulo": "Te Necesito",
       "artista": "Luis Miguel",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T11:56:21Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T12:53:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano v2 (60-75, base original): 75 hints, 88 %",
             "t": "2026-11-04T11:56:21Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "accents line 16 words 1-2 (2 tokens); published: line 43 punctuation and lines 12/40 word 14 capital listed for Saúl",
+            "t": "2026-11-04T12:23:41Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, no word under 40 ms, 47/47 groups; audio_guard SUENA_SIN_BLINDAR before/after",
+            "t": "2026-11-04T12:23:41Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "26 anchors (gaps, qué/tú line 16, twins lines 23 26 37 39 40 44) + 34 WI word refresh; 5 new items 19 langs",
+            "t": "2026-11-04T12:24:08Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T12:47:10Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa72e1672ca57eb1aaeae97",
@@ -25384,10 +25526,10 @@
       "originalTrackId": "",
       "titulo": "Ella Es",
       "artista": "Tony Vega",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T11:49:31Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-04T12:46:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25411,12 +25553,23 @@
             "t": "2026-11-04T11:49:30Z"
           },
           "ingles": {
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T12:30:56Z"
+          },
+          "qc": {
             "v": "falta",
-            "nota": "en_plan.json a mano (44 líneas, 278 WITs); falta que el orquestador lo aplique",
-            "t": "2026-11-04T11:49:30Z"
+            "nota": "L16/34 w7 wordForm FINITE->GERUND; L11/29 w9 sentido esperanza vs WIT/ingles esperar; L9/27 w7-8 y L41 w4-7 locuciones sin phrase item (WIT partidos)",
+            "t": "2026-11-04T12:46:38Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L16/34 w7 wordForm FINITE->GERUND; L11/29 w9 sentido esperanza vs WIT/ingles esperar; L9/27 w7-8 y L41 w4-7 locuciones sin phrase item (WIT partidos)",
+          "t": "2026-11-04T12:46:38Z"
         }
-      }
+      },
+      "motivo_en": "L16/34 w7 new item wordForm must be GERUND; L11/29 w9 item sense (hope) disagrees with WIT and line English (wait); L9/27 w7-8 and L41 w4-7 locutions need Spanish phrase items, WITs split"
     },
     {
       "coverTrackId": "6aa6df2272ca57eb1aa801ca",
@@ -30443,16 +30596,36 @@
       "originalTrackId": "",
       "titulo": "El Tango Del Pecado",
       "artista": "Calle 13",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T11:47:51Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T12:33:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano v2 (80+, normal): 70 hints, 84 %",
             "t": "2026-11-04T11:47:50Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "W12: LRC ya limpio tras carry; sin cambios (publicada). Diferencias con el original = ear-notes del carry (lineas 4/42/67 w4, 14 w5, 25 w2) y lineas 20/76 no cantadas",
+            "t": "2026-11-04T12:33:01Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "W12: drift 0 en 78/78, ninguna palabra <40 ms; audio_guard SUENA_SIN_BLINDAR, karaokeMp3 0 ms conf 2.43, stemVoc 0 ms conf 1.24; nada medido",
+            "t": "2026-11-04T12:33:02Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "W12: 80 anclas (60 huecos + gemelas + sentidos), 60 items nuevos traducidos 19 idiomas, frase cordon umbilical L30; sin mapear solo nombres propios (7)",
+            "t": "2026-11-04T12:33:02Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json a mano (78 lineas, 463 WIT, DT de su bolsa, foreign 0); falta que el orquestador lo aplique",
+            "t": "2026-11-04T12:33:03Z"
           }
         }
       }
@@ -38245,10 +38418,10 @@
       "originalTrackId": "",
       "titulo": "Cuerpo Sensual",
       "artista": "Don Omar, Rakim & Ken Y",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T11:49:38Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T12:48:42Z",
       "motivo_en": "hand carry does not fit: 31 lines need a decision (>20), 3 line joins, 75 words skippedEdited, 83%",
       "auditoria": {
         "pasos": {
@@ -38256,6 +38429,26 @@
             "v": "ok",
             "nota": "carry a mano v2 (80+, normal): 38 hints, 83 %",
             "t": "2026-11-04T11:49:38Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "10 tildes/erratas corregidas (publicada: solo tilde/errata); puntuacion y mayusculas listadas para Saul",
+            "t": "2026-11-04T12:48:40Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "27 palabras retocadas; drift 0, ninguna <40 ms",
+            "t": "2026-11-04T12:48:41Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "25 items nuevos + 108 anclas; sin mapear solo ingles/ad-lib",
+            "t": "2026-11-04T12:48:41Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en_plan.json 89 lineas 359 WITs listo; lo aplica el orquestador",
+            "t": "2026-11-04T12:48:41Z"
           }
         }
       }
@@ -41776,8 +41969,8 @@
       "artista": "Michael Stuart",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T12:15:53Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T12:52:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41801,12 +41994,13 @@
             "t": "2026-11-04T12:15:46Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo a mano: 73 lineas, 425 WIT con DT de su bolsa; falta abrir draft y aplicar (orquestador)",
-            "t": "2026-11-04T12:15:53Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T12:52:31Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa8015bd951e1665a7dfa50",
@@ -51302,16 +51496,36 @@
       "originalTrackId": "",
       "titulo": "No Son Palabritas",
       "artista": "Heleno",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T11:52:21Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T12:21:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano v2 (>=80, normal): 48 hints, 83 %; 2 palabras de 0 ms ya venian del proveedor (linea 33 palabra 2, linea 50 palabra 7)",
             "t": "2026-11-04T11:52:21Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "4 accent/spelling fixes (lines 11, 32, 43, 50); case/punct items listed for Saúl (published)",
+            "t": "2026-11-04T12:21:54Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, 0 words <40 ms (line 33 w2 and line 50 w6-9 retimed via richsync_set; durations 33/50 fixed)",
+            "t": "2026-11-04T12:21:55Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "298/300 anchored (line 30 ad-lib left), 4 new items translated x19, twins unified",
+            "t": "2026-11-04T12:21:55Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json 50 lines + 298 WITs by hand, DT from own bag, foreign 0",
+            "t": "2026-11-04T12:21:55Z"
           }
         }
       }
@@ -57764,16 +57978,36 @@
       "originalTrackId": "",
       "titulo": "Dime Quienes Son",
       "artista": "Wisin Y Yandel",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T11:54:49Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T12:43:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano v2 (>=80, normal): 82 hints, 82 %; 12 palabras < 40 ms ya venian del proveedor",
             "t": "2026-11-04T11:54:49Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "W10: splits/merge + tildes (publicada: solo tildes/erratas)",
+            "t": "2026-11-04T12:43:28Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "W10: 31 palabras retimadas (0 ms vendor), drift 0, ninguna <40 ms",
+            "t": "2026-11-04T12:43:28Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "W10: 20 items nuevos, twins unificados; 1 WI sobrante fuera de rango linea 32 (borrado denegado) -> Saul",
+            "t": "2026-11-04T12:43:29Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "W10: en_plan 133 lineas + 528 WITs a mano",
+            "t": "2026-11-04T12:43:30Z"
           }
         }
       }
@@ -67374,10 +67608,10 @@
       "originalTrackId": "",
       "titulo": "Buenos Dias Tristeza",
       "artista": "Isabel Pantoja",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto: WIT reflexivo en L4 w3, L22 w1, L29/38 w4",
-      "actualizado": "2026-11-04T12:14:31Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T12:54:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -67406,18 +67640,38 @@
             "t": "2026-11-04T11:30:34Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT reflexivo verdadero en se/te/me pronominal: L4 w3, L22 w1, L29 w4, L38 w4",
-            "t": "2026-11-04T12:14:31Z"
+            "v": "ok",
+            "nota": "QC r2: los 4 WIT reflexivos ya en fila marcador; BAD 0, lit 0, lp 0; estructura, gemelas, PI es e ingles OK",
+            "t": "2026-11-04T12:52:51Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT reflexivo verdadero en se/te/me pronominal: L4 w3, L22 w1, L29 w4, L38 w4",
-          "t": "2026-11-04T12:14:31Z"
+          "v": "VERDE",
+          "resumen": "QC r2: los 4 WIT reflexivos ya en fila marcador; BAD 0, lit 0, lp 0; estructura, gemelas, PI es e ingles OK",
+          "t": "2026-11-04T12:52:51Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T12:54:10Z"
+        },
+        "sync": {
+          "songId": "6a992f44486eb0e888ea6f87",
+          "trackId": "6aa5c13842b8d1fdb0d3f30d",
+          "src": "richsync",
+          "matched": 57,
+          "words": 196,
+          "median": -50,
+          "halves": [
+            -20,
+            -107
+          ],
+          "v": "OK",
+          "t": "2026-11-04T12:54:10Z"
         }
       },
-      "motivo_en": "QC r1 returned: true-reflexive WITs on pronominal verbs at line 4 word 3, line 22 word 1, lines 29/38 word 4; move to the marker row"
+      "motivo_en": "fixed QC r1, to QC r2"
     },
     {
       "coverTrackId": "6aa78fca72ca57eb1ace733a",
@@ -68451,16 +68705,36 @@
       "originalTrackId": "",
       "titulo": "Como Tu",
       "artista": "Basilio",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T11:57:42Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T12:28:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano v2 (>=80, normal): 62 hints, 99 %",
             "t": "2026-11-04T11:57:41Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "6 accent/misspelling fixes (lines 4, 15, 26, 27, 31); line 2 word 3 mid-line capital left for Saul (published)",
+            "t": "2026-11-04T12:28:27Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 on 39 lines, 0 words under 40 ms; audio_guard SUENA_SIN_BLINDAR, nothing measured",
+            "t": "2026-11-04T12:28:27Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "243/243 mapped; 6 new items; 14 anchors; 6 PITs; twin line 24 word 2 unified",
+            "t": "2026-11-04T12:28:28Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json by hand: 39 lines, 243 WITs, 6 PITs, 0 probs",
+            "t": "2026-11-04T12:28:28Z"
           }
         }
       }
@@ -74253,19 +74527,40 @@
       "originalTrackId": "",
       "titulo": "Asi Es La Vida",
       "artista": "Luis Enrique",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T11:59:55Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T12:53:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano v2 (80+, normal): 46 hints, 87 %",
             "t": "2026-11-04T11:59:54Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "13 accent/misspelling token edits (published: case/punctuation listed for Saúl)",
+            "t": "2026-11-04T12:37:20Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, no word under 40 ms, 53/53 groups; gaps before lines 28 and 40 = original's instrumental breaks; audio_guard SUENA_SIN_BLINDAR before/after",
+            "t": "2026-11-04T12:37:20Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "40 anchors + 10 WI word refresh + 3 phrase insights a cuestas; 16 new items 19 langs; 0 unmapped",
+            "t": "2026-11-04T12:37:21Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T12:52:32Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6769372ca57eb1a9f26bf",
@@ -74861,16 +75156,36 @@
       "originalTrackId": "",
       "titulo": "La Realeza",
       "artista": "Rakim & Ken Y",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T11:58:47Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T12:44:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano v2 (>=80, normal): 48 hints, 84 %; 2 palabras de 0 ms ya venian del proveedor",
             "t": "2026-11-04T11:58:46Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "accent/misspelling fixes lines 14, 17, 62; vendor name tails merged lines 55, 58, 67; case/punct and duplicate words on line 5 listed for Saul",
+            "t": "2026-11-04T12:44:04Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "line 5: 10 words retimed inside its own span (2 zero-ms vendor words, overlap fixed); drift 0 on 67 lines, monotonic",
+            "t": "2026-11-04T12:44:05Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "419/431 mapped; 12 left: proper names, 3 unknown slang tokens lines 28/34/52, garbled place name line 39; 33 new items + 3 phrase items; 67 anchors; 14 PITs",
+            "t": "2026-11-04T12:44:05Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json by hand: 67 lines, 419 WITs, 14 PITs, 0 probs",
+            "t": "2026-11-04T12:44:06Z"
           }
         }
       }
