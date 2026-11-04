@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T14:31:40Z",
+  "generado": "2026-11-04T14:32:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 40,
   "canciones": [
@@ -28404,17 +28404,17 @@
       "originalTrackId": "",
       "titulo": "Angel",
       "artista": "Cristian",
-      "estado": "parada",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry sin aplicar: línea 12-13 a medias proveedor/original, el join recomendado sale revuelto; necesita oído",
-      "actualizado": "2026-10-29T10:33:09Z",
+      "motivo": "carry v2 aplicado (paradas)",
+      "actualizado": "2026-11-04T14:32:49Z",
       "motivo_en": "carry not applied: line 12-13 half vendor/half original, recommended join comes out scrambled; needs an ear",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "saul",
-            "nota": "no aplicado: dry run no limpio. Línea 12-13 (vendor 18-20): el cover parte la línea 13 del original y canta 3 palabras distintas donde el original tiene 2; join sugerido da línea revuelta (bug aligner), keepBreak deja media línea del proveedor. Pins de que en 11/23/33 y spells de tildes ya puestos en el set de hints (15). Falta oído de Saúl",
-            "t": "2026-10-29T10:33:09Z"
+            "v": "ok",
+            "nota": "carry a mano v2 (80+, normal): 21 hints, 85 %",
+            "t": "2026-11-04T14:32:48Z"
           }
         }
       }
@@ -30923,7 +30923,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T14:16:36Z",
+      "actualizado": "2026-11-04T14:32:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30952,15 +30952,15 @@
             "t": "2026-11-04T13:42:41Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L58 w9 WIT de nombre de pais en minuscula (existe fila con mayuscula)",
-            "t": "2026-11-04T14:02:11Z"
+            "v": "ok",
+            "nota": "QC r2: L58w9 WIT on capitalised row; all checks pass",
+            "t": "2026-11-04T14:32:44Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L58 w9 WIT de nombre de pais en minuscula (existe fila con mayuscula)",
-          "t": "2026-11-04T14:02:11Z"
+          "v": "VERDE",
+          "resumen": "QC r2: L58w9 WIT on capitalised row; all checks pass",
+          "t": "2026-11-04T14:32:44Z"
         }
       },
       "motivo_en": "QC r1 fixed: line 58 word 9 country-name WIT moved to the capitalised row"
