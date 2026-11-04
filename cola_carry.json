@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T14:25:22Z",
+  "generado": "2026-11-04T14:29:24Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 40,
   "canciones": [
@@ -5553,7 +5553,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T14:10:57Z",
+      "actualizado": "2026-11-04T14:29:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5580,7 +5580,17 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T14:10:32Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, mapeo, ingles, audio y sync OK; pendientes de Saul listados",
+            "t": "2026-11-04T14:29:21Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, mapeo, ingles, audio y sync OK; pendientes de Saul listados",
+          "t": "2026-11-04T14:29:21Z"
         }
       },
       "motivo_en": "QC r1"
@@ -7307,17 +7317,17 @@
       "originalTrackId": "",
       "titulo": "La Chica Del Bikini Azul",
       "artista": "Luis Miguel",
-      "estado": "parada",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry sin aplicar: lineas UI 43-45 el cover canta otra variante del estribillo (necesita oido); vocables 16,17,35,36 sin regla",
-      "actualizado": "2026-10-29T10:22:12Z",
+      "motivo": "carry v2 aplicado (paradas)",
+      "actualizado": "2026-11-04T14:29:10Z",
       "motivo_en": "carry not applied: UI lines 43-45 the cover sings a different chorus variant than the original (needs an ear); vocable lines 16,17,35,36 have no rule",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "saul",
-            "nota": "preview 83.9%, 10 preguntas: lineas 43-45 (UI) el cover canta otra variante del estribillo que el original (3 tokens + 2 cortes); responder Singit deja la linea mitad proveedor/mitad original; necesita oido. Vocables 15-19 y 35-40 sin regla. No aplicado.",
-            "t": "2026-10-29T10:22:12Z"
+            "v": "ok",
+            "nota": "carry a mano v2 (80+, normal): 14 hints, 84 %",
+            "t": "2026-11-04T14:29:09Z"
           }
         }
       }
@@ -25564,7 +25574,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T14:15:24Z",
+      "actualizado": "2026-11-04T14:25:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25593,15 +25603,15 @@
             "t": "2026-11-04T13:42:41Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L40 w3 WIT dia en minuscula; L26/55/96 w10 verbo sin tilde en item de errata; item bateo primary en con i minuscula",
-            "t": "2026-11-04T13:52:52Z"
+            "v": "ok",
+            "nota": "QC r2: L40w3 WIT capitalised and bateo primary fixed; all checks pass; L26/55/96 w10 left for Saul",
+            "t": "2026-11-04T14:25:23Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L40 w3 WIT dia en minuscula; L26/55/96 w10 verbo sin tilde en item de errata; item bateo primary en con i minuscula",
-          "t": "2026-11-04T13:52:52Z"
+          "v": "VERDE",
+          "resumen": "QC r2: L40w3 WIT capitalised and bateo primary fixed; all checks pass; L26/55/96 w10 left for Saul",
+          "t": "2026-11-04T14:25:23Z"
         }
       },
       "motivo_en": "QC r1 fixed: line 40 word 3 day-name WIT capitalised, new item bateo gets a capitalised primary row; lines 26/55/96 word 10 tilde waits for Saul (his carry hint)"
