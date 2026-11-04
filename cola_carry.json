@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T14:36:57Z",
+  "generado": "2026-11-04T14:38:03Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 40,
   "canciones": [
@@ -19606,10 +19606,10 @@
       "originalTrackId": "",
       "titulo": "Maquillaje",
       "artista": "Mecano",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T14:10:58Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-04T14:37:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19636,10 +19636,20 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T14:10:32Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: linea 10 palabras 7-9 locucion sin phrase insight (item es 6acf904fdfee4042bfb9e0d8 existe); WITs no casan con el ingles de linea",
+            "t": "2026-11-04T14:37:14Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: linea 10 palabras 7-9 locucion sin phrase insight (item es 6acf904fdfee4042bfb9e0d8 existe); WITs no casan con el ingles de linea",
+          "t": "2026-11-04T14:37:14Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r1: line 10 words 7-9 are a fixed locution with an existing es phrase item (6acf904fdfee4042bfb9e0d8) but no phrase insight; the word WITs do not match the line English. Anchor the phrase, add a literal PIT, resubmit the draft."
     },
     {
       "coverTrackId": "6aa80a3dd951e1665a7e933b",
@@ -36932,7 +36942,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T14:25:15Z",
+      "actualizado": "2026-11-04T14:37:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36961,15 +36971,15 @@
             "t": "2026-11-04T14:07:14Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT/line English: L26w9+L32w9 WIT wrong sense; L26w5+L32w5 word untranslated in line English, WIT mismatch",
-            "t": "2026-11-04T14:13:34Z"
+            "v": "ok",
+            "nota": "r2: L26/L32 w5 y w9 corregidos, sin regresiones; checks 0",
+            "t": "2026-11-04T14:37:46Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT/line English: L26w9+L32w9 WIT wrong sense; L26w5+L32w5 word untranslated in line English, WIT mismatch",
-          "t": "2026-11-04T14:13:34Z"
+          "v": "VERDE",
+          "resumen": "r2: L26/L32 w5 y w9 corregidos, sin regresiones; checks 0",
+          "t": "2026-11-04T14:37:46Z"
         }
       },
       "motivo_en": "QC r1 fixed: line 26/32 word 9 WIT set to the having-fun row; line 26/32 word 5 WIT set to the joint row and both twin line Englishes now translate that word; resubmitted to pending_review"
@@ -52554,17 +52564,17 @@
       "originalTrackId": "",
       "titulo": "En El Silencio Negro De La Noche",
       "artista": "Alexandre Pires",
-      "estado": "parada",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry no aplicable sin oído: coda líneas 50-52 del preview mitad proveedor/mitad original; línea 30 palabra 3 distinta del original",
-      "actualizado": "2026-10-29T10:32:31Z",
+      "motivo": "carry v2 aplicado (paradas)",
+      "actualizado": "2026-11-04T14:38:01Z",
       "motivo_en": "carry cannot be applied without an ear: outro lines 50-52 of the preview are half vendor/half original; line 30 word 3 differs from the original",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "saul",
-            "nota": "carry sin aplicar: dry run 84%, 22 decisiones; coda (líneas 50-52 del preview) el proveedor canta otras palabras que el original (mitad proveedor/mitad original, la 52 recomienda poner un paréntesis del coro sobre una palabra cantada); línea 30 palabra 3 otra palabra que el original. Necesita oído.",
-            "t": "2026-10-29T10:32:30Z"
+            "v": "ok",
+            "nota": "carry a mano v2 (80+, normal): 36 hints, 84 %",
+            "t": "2026-11-04T14:37:59Z"
           }
         }
       }
@@ -62487,10 +62497,10 @@
       "originalTrackId": "",
       "titulo": "Cuentale A El",
       "artista": "El Jeffrey",
-      "estado": "correccion",
+      "estado": "parada",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-11-04T14:24:51Z",
+      "motivo": "espera a Saúl: sync_gate FALLA en la segunda mitad (+43.8 s), probable falso positivo por estribillos repetidos; contenido sin defectos",
+      "actualizado": "2026-11-04T14:37:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62550,7 +62560,7 @@
           "t": "2026-11-04T14:21:12Z"
         }
       },
-      "motivo_en": "QC r1: content clean, but 'hecha' refused by sync_gate FALLA (second half +43.8 s). Per-line rerun: lines 5-7 in sync, lines 8-21 matched to later chorus repeats (+100 to +144 s), likely a matching artefact on repeated choruses. Needs a sync check; any block move only with Saul's OK."
+      "motivo_en": "waiting for Saúl: sync_gate FAIL on second half (+43.8 s), likely false positive from repeated choruses; content clean"
     },
     {
       "coverTrackId": "6aa5dc1842b8d1fdb0d68453",
