@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T14:07:56Z",
+  "generado": "2026-11-04T14:12:20Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -5552,8 +5552,8 @@
       "artista": "Juan Luis Guerra 440",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T13:43:07Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T14:10:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5577,12 +5577,13 @@
             "t": "2026-11-04T13:43:06Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json ready: 65 lines, 255 WIT with DT, 5 PIT; orchestrator applies it",
-            "t": "2026-11-04T13:43:06Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T14:10:32Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa7ffcd2367b69ab71824b7",
@@ -19528,8 +19529,8 @@
       "artista": "Mecano",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T13:52:16Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T14:10:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19553,12 +19554,13 @@
             "t": "2026-11-04T13:52:14Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan ready: 64 lines, 286/286 WIT",
-            "t": "2026-11-04T13:52:15Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T14:10:32Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa80a3dd951e1665a7e933b",
@@ -40015,10 +40017,10 @@
       "originalTrackId": "",
       "titulo": "No Voy A Trabaja",
       "artista": "Bermudas",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T13:43:17Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-04T14:11:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40045,10 +40047,20 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T13:42:42Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WITs de dias en minuscula L7/11/15/19/37/41 w1 y L33 w2; L33 w4 nombre con minuscula inicial",
+            "t": "2026-11-04T14:11:13Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WITs de dias en minuscula L7/11/15/19/37/41 w1 y L33 w2; L33 w4 nombre con minuscula inicial",
+          "t": "2026-11-04T14:11:13Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r1 returned: day-name WITs lowercase on lines 7/11/15/19/37/41 word 1 and line 33 word 2; line 33 word 4 name WIT starts lowercase (capitalised row exists)"
     },
     {
       "coverTrackId": "6aa5eade42b8d1fdb0d7e67d",
@@ -62288,8 +62300,8 @@
       "artista": "El Jeffrey",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T13:36:00Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T14:10:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62313,12 +62325,13 @@
             "t": "2026-11-04T13:35:59Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json ready: 31 lines, 263 WIT with DT, 1 PIT; orchestrator applies it",
-            "t": "2026-11-04T13:35:59Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T14:10:31Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5dc1842b8d1fdb0d68453",
@@ -82505,16 +82518,36 @@
       "originalTrackId": "",
       "titulo": "Lento",
       "artista": "Luny Tunes, Rbd",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T13:55:54Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T14:12:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano v2 (80+,_normal): 33 hints, 80.6 %",
-            "t": "2026-11-04T13:55:53Z"
+            "nota": "carry v2 ya aplicado (V2e); no se toca",
+            "t": "2026-11-04T14:12:12Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "16 tildes corregidas (L11,15,22,23,27,31,36,38,39,41,45,47,51,55,59,60); pegadas y mayusculas/signos para Saul (ver informe)",
+            "t": "2026-11-04T14:12:12Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 65 lineas; ninguna palabra bajo 40 ms; audio_guard SUENA_SIN_BLINDAR antes y despues",
+            "t": "2026-11-04T14:12:13Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "26 anclas nuevas + 37 remapeos; gemelas unificadas; 5 items nuevos 19 idiomas; 1 PI; sin mapear restantes = pegadas, nombres propios, ingles",
+            "t": "2026-11-04T14:12:14Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json: 65 lineas, 409 WIT con DT propio, 1 PIT; sin draft abierto (lo aplica el orquestador)",
+            "t": "2026-11-04T14:12:14Z"
           }
         }
       }
