@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T11:10:18Z",
+  "generado": "2026-11-04T11:20:20Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -1931,10 +1931,19 @@
       "originalTrackId": "",
       "titulo": "Verano Rosa",
       "artista": "Feid, Karol G",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "original enlazado hoy (KAROL G 6a843713cfe6e8b60687e679, 45 lineas, en 44/45); pendiente de carry",
-      "actualizado": "2026-09-22T14:54:57Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T11:10:45Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 92 hints, 98 %",
+            "t": "2026-11-04T11:10:43Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6a9bb74351e7bdc81598150b",
@@ -4040,10 +4049,19 @@
       "originalTrackId": "695598f26a05f13ba2677aaf",
       "titulo": "Propuesta Indecente",
       "artista": "Romeo Santos",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "",
-      "actualizado": "2026-09-22T12:49:30Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T11:12:49Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 34 hints, 92 %",
+            "t": "2026-11-04T11:12:49Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa804a3d951e1665a7e1e7c",
@@ -6249,10 +6267,10 @@
       "originalTrackId": "",
       "titulo": "Hasta Que Salga El Sol",
       "artista": "Don Omar",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-11-04T10:34:14Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T11:19:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -6276,12 +6294,13 @@
             "t": "2026-11-04T10:34:10Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (60 lineas, 316 WIT, 3 PIT); falta abrir el borrador",
-            "t": "2026-11-04T10:34:13Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T11:19:36Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa698bd72ca57eb1aa25034",
@@ -7426,10 +7445,19 @@
       "originalTrackId": "",
       "titulo": "Abrazame",
       "artista": "Camila",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: 23 decisiones y 49 lineas en revision (mas de 20 a mano); 6 uniones de linea (juntar/partir) y palabras distintas en lineas 23 y 39 que piden oido; lineas 52, 54, 55 y 58 sin cantar la mayor parte del original; 83 %",
-      "actualizado": "2026-10-29T15:09:34Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T11:14:29Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 63 hints, 83 %",
+            "t": "2026-11-04T11:14:28Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6b23c72ca57eb1aa38054",
@@ -11493,10 +11521,10 @@
       "originalTrackId": "",
       "titulo": "Decisiones",
       "artista": "Ruben Blades",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T10:58:09Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-04T11:17:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11523,10 +11551,20 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T10:57:56Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: sentido L9w9 L43w6 L19w7 (PATH B), WIT nombre propio minuscula L10w2 L33w6",
+            "t": "2026-11-04T11:17:21Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: sentido L9w9 L43w6 L19w7 (PATH B), WIT nombre propio minuscula L10w2 L33w6",
+          "t": "2026-11-04T11:17:21Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r1 returned: wrong-sense anchors on line 9 word 9, line 43 word 6, line 19 word 7 need new sense items (PATH B); proper-noun WITs lowercase on line 10 word 2 and line 33 word 6"
     },
     {
       "coverTrackId": "6aa67fb572ca57eb1aa01264",
@@ -15038,10 +15076,10 @@
       "originalTrackId": "",
       "titulo": "Bazar",
       "artista": "Flans",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T10:58:10Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-04T11:17:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15068,10 +15106,20 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T10:57:58Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: WIT dia minuscula L2w2/L28w2; definicion del item nuevo de L23w1 cita la linea",
+            "t": "2026-11-04T11:17:22Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: WIT dia minuscula L2w2/L28w2; definicion del item nuevo de L23w1 cita la linea",
+          "t": "2026-11-04T11:17:22Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r1 returned: lines 2 and 28 word 2 WIT must use the capitalised row (DT 6a7dc54adf004081c5c3d0a0); new item for line 23 word 1 quotes the lyric line in its definition"
     },
     {
       "coverTrackId": "6aa822d2d951e1665a80cde3",
@@ -17401,10 +17449,10 @@
       "originalTrackId": "",
       "titulo": "No Me Compares",
       "artista": "Alejandro Sanz",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-11-04T10:08:00Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T11:19:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17428,12 +17476,13 @@
             "t": "2026-11-04T10:07:58Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "inglés de 62 líneas y 336 WIT preparado en en_plan.json; falta abrir el borrador",
-            "t": "2026-11-04T10:07:59Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T11:19:34Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa82462d951e1665a80e7b5",
@@ -20874,10 +20923,19 @@
       "originalTrackId": "",
       "titulo": "Cartagena",
       "artista": "Fonseca, Silvestre Dangond",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: 23 lineas con decision a mano (limite 20), cuatro preguntas de union de lineas (16, 33, 37, 55) y el vendor pega palabras en un solo token en muchas lineas",
-      "actualizado": "2026-10-29T16:01:23Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T11:17:22Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 71 hints, 87 %",
+            "t": "2026-11-04T11:17:21Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa800e1d951e1665a7df312",
@@ -22775,8 +22833,8 @@
       "artista": "Luis Miguel",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 74%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:34:46Z"
+      "motivo": "carry a mano no cuadra: match 74 % con las 16 hints de Saúl (suelo 80 %); el cover parte en 7 filas la línea larga del original en 3 estribillos y subirlo pide pins a mano en 21 líneas (límite 20)",
+      "actualizado": "2026-11-04T11:17:54Z"
     },
     {
       "coverTrackId": "6aa72e1672ca57eb1aaeae97",
@@ -29192,10 +29250,10 @@
       "originalTrackId": "",
       "titulo": "Y Nos Amamos",
       "artista": "David Pabon",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T10:58:11Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-11-04T11:18:30Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29222,7 +29280,37 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T10:57:58Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1 VERDE: estructura, mapeo, PITs es, ingles pending_review; notas de oido para Saul",
+            "t": "2026-11-04T11:17:23Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1 VERDE: estructura, mapeo, PITs es, ingles pending_review; notas de oido para Saul",
+          "t": "2026-11-04T11:17:23Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T11:18:30Z"
+        },
+        "sync": {
+          "songId": "6a992f41486eb0e888ea6e90",
+          "trackId": "6aa576e642b8d1fdb0cdfb44",
+          "src": "richsync",
+          "matched": 119,
+          "words": 243,
+          "median": 47,
+          "halves": [
+            54,
+            32
+          ],
+          "v": "OK",
+          "t": "2026-11-04T11:18:30Z"
         }
       },
       "motivo_en": "QC r1"
@@ -29426,8 +29514,8 @@
       "artista": "Federico Villa",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T10:23:16Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T11:18:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29452,11 +29540,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan 38 lineas + 147/147 WIT + 3 PIT; wit_dt_audit BAD 0; sin abrir borrador",
-            "t": "2026-11-04T10:23:15Z"
+            "nota": "aplicado",
+            "t": "2026-11-04T11:18:46Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6ff1072ca57eb1aaa1abe",
@@ -41242,8 +41331,8 @@
       "artista": "Marc Anthony",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T10:29:30Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T11:18:57Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41268,11 +41357,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan 64 lineas + 390/390 WIT; wit_dt_audit BAD 0; sin abrir borrador",
-            "t": "2026-11-04T10:29:29Z"
+            "nota": "aplicado",
+            "t": "2026-11-04T11:18:48Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa71da072ca57eb1aacffb2",
@@ -48321,8 +48411,8 @@
       "artista": "Ruben Blades",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T10:57:22Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T11:19:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -48347,11 +48437,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan a mano 67 líneas + 346/346 WITs, wit_dt_audit BAD 0",
-            "t": "2026-11-04T10:57:21Z"
+            "nota": "aplicado",
+            "t": "2026-11-04T11:18:50Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa58b0042b8d1fdb0cfb7f6",
@@ -51129,10 +51220,10 @@
       "originalTrackId": "",
       "titulo": "Yo Quiero",
       "artista": "Camila",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-11-04T10:44:25Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T11:19:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51156,9 +51247,9 @@
             "t": "2026-11-04T10:44:23Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 56 lineas, 288 WITs, 1 PIT; dry run OK; falta abrir el borrador",
-            "t": "2026-11-04T10:44:24Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T11:19:36Z"
           },
           "qc": {
             "v": "ok",
@@ -51166,7 +51257,8 @@
             "t": "2026-11-04T10:44:24Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa82ffdd951e1665a8215f3",
@@ -51345,8 +51437,8 @@
       "artista": "NG2",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T10:38:00Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T11:18:59Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51371,11 +51463,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan 67 lineas + 356/356 WITs, BAD 0",
-            "t": "2026-11-04T10:38:00Z"
+            "nota": "aplicado",
+            "t": "2026-11-04T11:18:49Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa4f39542b8d1fdb0c2f8c8",
@@ -57857,8 +57950,8 @@
       "artista": "Jose Feliciano, Jose Jose",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: 68 lineas a revisar (mas de 20), 188 palabras solo del cover (281 frente a 114), LRC del cover vuelve atras en la linea 53; 82 %",
-      "actualizado": "2026-10-29T16:32:32Z"
+      "motivo": "carry a mano no cuadra (4 nov): 68 de 85 lineas a revisar (limite 20), 188 palabras solo del cover; el LRC del cover vuelve atras en la linea 53; 82 %",
+      "actualizado": "2026-11-04T11:12:10Z"
     },
     {
       "coverTrackId": "6aa725e272ca57eb1aade666",
@@ -58985,16 +59078,36 @@
       "originalTrackId": "",
       "titulo": "Si Nos Quedara Poco Tiempo",
       "artista": "Chayanne",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T11:08:46Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T11:19:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano: 29 hints, 99 %",
             "t": "2026-11-04T11:08:44Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "lineas 10, 27, 38: signo de apertura de pregunta en la palabra 1 (palabra cantada se queda, nota de oido)",
+            "t": "2026-11-04T11:18:57Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 45 lineas, palabra mas corta >= 40 ms; audio_guard SUENA_SIN_BLINDAR stemVoc -10 ms, nada medido ni fijado",
+            "t": "2026-11-04T11:18:58Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "260/260 mapeado; 3 items nuevos traducidos 19 idiomas; 9 anclas nuevas, 12 remapeos (gemelas unificadas)",
+            "t": "2026-11-04T11:18:58Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "45 lineas + 260 WIT con DT de su bolsa en es_map/payloads/6aa5497342b8d1fdb0cb2b25/en_plan.json; falta abrir el borrador",
+            "t": "2026-11-04T11:18:59Z"
           }
         }
       }
@@ -60718,8 +60831,8 @@
       "artista": "El Jeffrey",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: el original tiene 15 lineas largas (hasta 26 palabras) y faltas; el carry juntaria 81 filas del cover en 23 lineas, una de 56 palabras y 65 s; arreglar el original primero; 83 %",
-      "actualizado": "2026-10-29T16:33:00Z"
+      "motivo": "carry a mano no cuadra (4 nov): el original sigue con 15 lineas largas (hasta 26 palabras); el carry juntaria 81 filas del cover en 23 lineas, una de 56 palabras; 89 palabras solo del cover; arreglar el original primero; 83 %",
+      "actualizado": "2026-11-04T11:11:21Z"
     },
     {
       "coverTrackId": "6aa5dc1842b8d1fdb0d68453",
@@ -66523,10 +66636,19 @@
       "originalTrackId": "",
       "titulo": "Buenos Dias Tristeza",
       "artista": "Isabel Pantoja",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al -1%: necesita hints a mano",
-      "actualizado": "2026-10-07T00:53:25Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T11:10:19Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 47 hints, 99 %",
+            "t": "2026-11-04T11:10:18Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa78fca72ca57eb1ace733a",
@@ -66784,10 +66906,10 @@
       "originalTrackId": "",
       "titulo": "Republica De La Alegria",
       "artista": "Ricardo Montaner",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-11-04T10:22:02Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T11:19:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -66811,12 +66933,13 @@
             "t": "2026-11-04T10:22:02Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (41 lineas, 236 WIT, 11 PIT); falta abrir el borrador",
-            "t": "2026-11-04T10:21:07Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T11:19:36Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5372942b8d1fdb0c96d39",
@@ -72846,7 +72969,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "lista para QC",
-      "actualizado": "2026-11-04T10:45:32Z",
+      "actualizado": "2026-11-04T11:18:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72871,8 +72994,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan 38 lineas + 138/138 WITs, BAD 0",
-            "t": "2026-11-04T10:45:31Z"
+            "nota": "aplicado",
+            "t": "2026-11-04T11:18:50Z"
           }
         }
       }
@@ -73324,8 +73447,8 @@
       "artista": "Luis Enrique",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: 28 lineas piden decision (limite 20), 83 %; 3 preguntas de union de lineas y la misma palabra sin tilde repetida sin enlazar",
-      "actualizado": "2026-10-29T16:39:18Z"
+      "motivo": "carry a mano no cuadra (4 nov): 28 lineas con pregunta (limite 20), 3 preguntas de union de lineas; 83 %",
+      "actualizado": "2026-11-04T11:11:50Z"
     },
     {
       "coverTrackId": "6aa6769372ca57eb1a9f26bf",
