@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T11:41:34Z",
+  "generado": "2026-11-04T11:46:59Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -7554,16 +7554,36 @@
       "originalTrackId": "",
       "titulo": "Abrazame",
       "artista": "Camila",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T11:14:29Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T11:44:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano: 63 hints, 83 %",
             "t": "2026-11-04T11:14:28Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "publicada: solo tildes (22 tokens); fuera de alcance anotado para Saúl",
+            "t": "2026-11-04T11:44:18Z"
+          },
+          "timing": {
+            "v": "saul",
+            "nota": "drift 0 pero 27 palabras de 0 ms y líneas duplicadas casi simultáneas (no monotónico); publicada, necesita OK de Saúl",
+            "t": "2026-11-04T11:44:18Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "35 anclas nuevas, 29 remapeos, 1 item nuevo 6aeb1951b840a3ca47881dae (línea 11/28 palabra 3); sin mapear solo vocablos",
+            "t": "2026-11-04T11:44:26Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en_plan.json listo: 72 líneas + 298 WITs, dry-run 298/298",
+            "t": "2026-11-04T11:44:19Z"
           }
         }
       }
@@ -22753,16 +22773,36 @@
       "originalTrackId": "",
       "titulo": "Si Te Vas",
       "artista": "Marc Anthony",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T11:20:50Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T11:42:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano v2 (80+, normal): 54 hints, 88 %",
             "t": "2026-11-04T11:20:49Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "publicada: solo ortografia. lineas 18/34/42 palabras 1-2 unidas (palabra partida); linea 49 palabra 3 y linea 56 palabra 1 tilde; linea 64 palabra 3 minuscula; linea 65 coma final quitada",
+            "t": "2026-11-04T11:42:09Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 77 lineas, ninguna palabra < 40 ms; hueco antes de linea 56 tambien en el original (linea vacia, instrumental); audio_guard SUENA_SIN_BLINDAR",
+            "t": "2026-11-04T11:42:10Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "383/383 mapeado; 0 items nuevos; 14 anclas nuevas, 29 remapeos (gemelas + sentidos), 3 anclas fuera de rango borradas tras mis uniones",
+            "t": "2026-11-04T11:42:10Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json a mano: 77 lineas + 380 WIT con DT de su bolsa; falta que el orquestador lo aplique",
+            "t": "2026-11-04T11:42:10Z"
           }
         }
       }
@@ -25031,10 +25071,19 @@
       "originalTrackId": "",
       "titulo": "Lo Que No Sabes Tu",
       "artista": "Chino & Nacho",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: 30 lineas con decision y 67 en revision (mas de 20 a mano), 261 palabras solo del cover, 16 preguntas de palabra distinta",
-      "actualizado": "2026-10-29T16:02:08Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T11:46:25Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (80+, normal): 24 hints, 82 %",
+            "t": "2026-11-04T11:46:24Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa52dec42b8d1fdb0c8b67a",
@@ -59359,10 +59408,10 @@
       "originalTrackId": "",
       "titulo": "Si Nos Quedara Poco Tiempo",
       "artista": "Chayanne",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T11:30:37Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-11-04T11:46:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -59389,7 +59438,37 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T11:30:33Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: 3 errata justificadas (cover canta otra palabra, linea 10/27/38 palabra 1); estructura, mapeo 260/260, gemelas, WIT 0 vacios, wit_dt BAD 0, ingles pending_review",
+            "t": "2026-11-04T11:45:18Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: 3 errata justificadas (cover canta otra palabra, linea 10/27/38 palabra 1); estructura, mapeo 260/260, gemelas, WIT 0 vacios, wit_dt BAD 0, ingles pending_review",
+          "t": "2026-11-04T11:45:18Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T11:46:17Z"
+        },
+        "sync": {
+          "songId": "6a992f40486eb0e888ea6e37",
+          "trackId": "6aa5497342b8d1fdb0cb2b25",
+          "src": "richsync",
+          "matched": 77,
+          "words": 260,
+          "median": 70,
+          "halves": [
+            90,
+            24
+          ],
+          "v": "OK",
+          "t": "2026-11-04T11:46:17Z"
         }
       },
       "motivo_en": "QC r1"
