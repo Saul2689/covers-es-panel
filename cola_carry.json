@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T13:43:43Z",
+  "generado": "2026-11-04T13:56:59Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -8789,10 +8789,19 @@
       "originalTrackId": "",
       "titulo": "Permitame",
       "artista": "Tony Dize, Yandel",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: 33 decisiones y 23 lineas en revision (mas de 20 a mano); 5 uniones de linea (juntar/partir) en lineas 13, 22, 36, 55 y 61; palabras de una letra distinta que piden oido en lineas 19, 33, 43 y 52; 83 %",
-      "actualizado": "2026-10-29T15:10:05Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T13:55:51Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (80+,_normal): 64 hints, 87.3 %",
+            "t": "2026-11-04T13:55:50Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6e10372ca57eb1aa82e0d",
@@ -9486,16 +9495,36 @@
       "originalTrackId": "",
       "titulo": "Apiadate De Mi",
       "artista": "Victor Manuelle",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T13:14:59Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T13:48:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano v2 (80+, normal): 38 hints, 82.9 %",
-            "t": "2026-11-04T13:14:58Z"
+            "nota": "aplicado antes; no tocado",
+            "t": "2026-11-04T13:48:17Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "sin tildes/erratas que arreglar; comas para Saúl: L12w4 (no en L27w4/L33w4), L22w4 (no en L7w4)",
+            "t": "2026-11-04T13:48:18Z"
+          },
+          "timing": {
+            "v": "saul",
+            "nota": "drift 0, nada <40 ms; huecos L36->L37 22 s y L40->L41 39 s: el original canta repeticiones del estribillo ahí; también faltan repeticiones del outro. Escuchar",
+            "t": "2026-11-04T13:48:18Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear; 5 items nuevos (19 idiomas); 3 filas EN nuevas no primarias",
+            "t": "2026-11-04T13:48:19Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 48 líneas + 280 WIT, dry run 280/280 skipped 0; falta abrir borrador y aplicar",
+            "t": "2026-11-04T13:48:19Z"
           }
         }
       }
@@ -11564,10 +11593,19 @@
       "originalTrackId": "",
       "titulo": "Te Aviso Te Anuncio",
       "artista": "Shakira",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 79%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:44:18Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T13:56:00Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (75-80,_manda_el_cover): 46 hints, 86.6 %",
+            "t": "2026-11-04T13:55:58Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa77a6472ca57eb1accb810",
@@ -19469,16 +19507,36 @@
       "originalTrackId": "",
       "titulo": "Maquillaje",
       "artista": "Mecano",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T13:15:54Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T13:52:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano v2 (80+, normal): 58 hints, 83.2 %",
             "t": "2026-11-04T13:15:54Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "10 accent/misspelling edits; punctuation/case listed for Saul",
+            "t": "2026-11-04T13:52:12Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 on 64/64, no word under 40 ms",
+            "t": "2026-11-04T13:52:13Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "8 new items, 70 anchor upserts, 0 unmapped except ad-libs",
+            "t": "2026-11-04T13:52:14Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan ready: 64 lines, 286/286 WIT",
+            "t": "2026-11-04T13:52:15Z"
           }
         }
       }
@@ -25444,10 +25502,10 @@
       "originalTrackId": "",
       "titulo": "Lo Que No Sabes Tu",
       "artista": "Chino & Nacho",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T13:43:13Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-04T13:52:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25474,10 +25532,20 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T13:42:41Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L40 w3 WIT dia en minuscula; L26/55/96 w10 verbo sin tilde en item de errata; item bateo primary en con i minuscula",
+            "t": "2026-11-04T13:52:52Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L40 w3 WIT dia en minuscula; L26/55/96 w10 verbo sin tilde en item de errata; item bateo primary en con i minuscula",
+          "t": "2026-11-04T13:52:52Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r1 returned: line 40 word 3 day-name WIT lowercase; lines 26/55/96 word 10 verb missing tilde on a misspelling item; new item bateo primary English row has lowercase i"
     },
     {
       "coverTrackId": "6aa52dec42b8d1fdb0c8b67a",
@@ -31265,10 +31333,19 @@
       "originalTrackId": "",
       "titulo": "La Culebritica",
       "artista": "Grupo 5",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: 47 preguntas abiertas (mas de 20), 17 de ellas de unir/cortar lineas; 49 de 113 lineas en revision; 88 palabras solo de la cover (coros y elisiones)",
-      "actualizado": "2026-10-29T16:07:45Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T13:55:49Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (80+,_normal): 59 hints, 82.6 %",
+            "t": "2026-11-04T13:55:47Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa528fb42b8d1fdb0c81135",
@@ -51765,10 +51842,10 @@
       "originalTrackId": "",
       "titulo": "No Son Palabritas",
       "artista": "Heleno",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T13:32:05Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-11-04T13:45:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51795,7 +51872,37 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T13:31:19Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, mapeo, items nuevos e ingles OK; puntuacion LRC publicado para Saul",
+            "t": "2026-11-04T13:44:25Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, mapeo, items nuevos e ingles OK; puntuacion LRC publicado para Saul",
+          "t": "2026-11-04T13:44:25Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T13:45:35Z"
+        },
+        "sync": {
+          "songId": "6a992f50486eb0e888ea7445",
+          "trackId": "6aa71e5f72ca57eb1aad0db1",
+          "src": "richsync",
+          "matched": 165,
+          "words": 300,
+          "median": 10,
+          "halves": [
+            6,
+            13
+          ],
+          "v": "OK",
+          "t": "2026-11-04T13:45:35Z"
         }
       },
       "motivo_en": "QC r1"
@@ -58248,10 +58355,10 @@
       "originalTrackId": "",
       "titulo": "Dime Quienes Son",
       "artista": "Wisin Y Yandel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T13:32:06Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-11-04T13:56:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -58278,7 +58385,37 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T13:31:19Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, mapeo, items nuevos e ingles OK; WI fuera de rango L32 y ad-libs L57/L68 esperan a Saul",
+            "t": "2026-11-04T13:51:19Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, mapeo, items nuevos e ingles OK; WI fuera de rango L32 y ad-libs L57/L68 esperan a Saul",
+          "t": "2026-11-04T13:51:19Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T13:56:24Z"
+        },
+        "sync": {
+          "songId": "6a992f50486eb0e888ea7434",
+          "trackId": "6aa718db72ca57eb1aaca38c",
+          "src": "richsync",
+          "matched": 137,
+          "words": 553,
+          "median": 70,
+          "halves": [
+            74,
+            70
+          ],
+          "v": "OK",
+          "t": "2026-11-04T13:56:24Z"
         }
       },
       "motivo_en": "QC r1"
@@ -61012,10 +61149,10 @@
       "originalTrackId": "",
       "titulo": "Te Hice Mujer",
       "artista": "Wisin Y Yandel",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-11-04T13:30:26Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T13:50:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -61044,18 +61181,38 @@
             "t": "2026-11-04T13:20:58Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT en minuscula de nombres propios L6w9 L71w5 L80w3 L72w1 y adjetivo L78w6; ingles de linea 39 distinto de sus gemelas 12/60/63",
-            "t": "2026-11-04T13:30:26Z"
+            "v": "ok",
+            "nota": "r1 fixes confirmed (proper-name WITs, line 39 twin English); no regressions",
+            "t": "2026-11-04T13:48:20Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT en minuscula de nombres propios L6w9 L71w5 L80w3 L72w1 y adjetivo L78w6; ingles de linea 39 distinto de sus gemelas 12/60/63",
-          "t": "2026-11-04T13:30:26Z"
+          "v": "VERDE",
+          "resumen": "r1 fixes confirmed (proper-name WITs, line 39 twin English); no regressions",
+          "t": "2026-11-04T13:48:20Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T13:50:24Z"
+        },
+        "sync": {
+          "songId": "6a992f50486eb0e888ea7426",
+          "trackId": "6aa7147872ca57eb1aac2bc2",
+          "src": "richsync",
+          "matched": 100,
+          "words": 449,
+          "median": 38,
+          "halves": [
+            42,
+            26
+          ],
+          "v": "OK",
+          "t": "2026-11-04T13:50:24Z"
         }
       },
-      "motivo_en": "QC r1 returned: proper-name WITs lowercase (line 6 word 9, line 71 word 5, line 80 word 3, line 72 word 1) and line 78 word 6 adjective; line 39 English differs from its twins 12/60/63"
+      "motivo_en": "QC r1: 5 proper-name WITs moved to capitalised rows; line 39 English aligned with its twins; resubmitted"
     },
     {
       "coverTrackId": "6aa5f3d142b8d1fdb0d8c448",
@@ -61582,10 +61739,19 @@
       "originalTrackId": "",
       "titulo": "El Peor De Mis Fracasos",
       "artista": "Tito Nieves",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: match 79,8 % (174 de 218), bajo el 80 %; 10 preguntas decididas en el review set, sin aplicar",
-      "actualizado": "2026-11-04T09:35:13Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T13:55:57Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (75-80,_manda_el_cover): 10 hints, 79.8 %",
+            "t": "2026-11-04T13:55:56Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5c42842b8d1fdb0d43e46",
@@ -67353,10 +67519,19 @@
       "originalTrackId": "",
       "titulo": "Tu Cumpleaños",
       "artista": "Willy Chirino",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 73%: necesita hints a mano",
-      "actualizado": "2026-10-07T00:52:44Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T13:55:43Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (60-75,_base_original): 29 hints, 74.1 %",
+            "t": "2026-11-04T13:55:42Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa56d2642b8d1fdb0cd1724",
@@ -69016,10 +69191,10 @@
       "originalTrackId": "",
       "titulo": "Como Tu",
       "artista": "Basilio",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-11-04T13:32:38Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T13:53:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -69048,18 +69223,38 @@
             "t": "2026-11-04T13:20:59Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT del dia de la semana en minuscula, linea 33 palabra 2",
-            "t": "2026-11-04T13:32:37Z"
+            "v": "ok",
+            "nota": "r1 fix confirmed (weekday WIT line 33 word 2); no regressions",
+            "t": "2026-11-04T13:51:28Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT del dia de la semana en minuscula, linea 33 palabra 2",
-          "t": "2026-11-04T13:32:37Z"
+          "v": "VERDE",
+          "resumen": "r1 fix confirmed (weekday WIT line 33 word 2); no regressions",
+          "t": "2026-11-04T13:51:28Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T13:53:15Z"
+        },
+        "sync": {
+          "songId": "6a992f3f486eb0e888ea6dd4",
+          "trackId": "6aa531ce42b8d1fdb0c8f4c8",
+          "src": "richsync",
+          "matched": 75,
+          "words": 243,
+          "median": 14,
+          "halves": [
+            -10,
+            30
+          ],
+          "v": "OK",
+          "t": "2026-11-04T13:53:15Z"
         }
       },
-      "motivo_en": "QC r1 returned: weekday-name WIT lowercase on line 33 word 2 (capitalised en row exists)"
+      "motivo_en": "QC r1: weekday-name WIT moved to the capitalised row; resubmitted"
     },
     {
       "coverTrackId": "6aa67d9472ca57eb1a9fe5ca",
@@ -75508,10 +75703,10 @@
       "originalTrackId": "",
       "titulo": "La Realeza",
       "artista": "Rakim & Ken Y",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-11-04T13:37:55Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T13:55:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75540,18 +75735,18 @@
             "t": "2026-11-04T13:21:00Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT en minuscula de nombres propios: L3/L57/L63 palabras 1-2, L39 palabras 5 y 9",
-            "t": "2026-11-04T13:37:54Z"
+            "v": "ok",
+            "nota": "r1 fixes confirmed (proper-name WITs lines 3/57/63/39); no regressions",
+            "t": "2026-11-04T13:55:32Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT en minuscula de nombres propios: L3/L57/L63 palabras 1-2, L39 palabras 5 y 9",
-          "t": "2026-11-04T13:37:54Z"
+          "v": "VERDE",
+          "resumen": "r1 fixes confirmed (proper-name WITs lines 3/57/63/39); no regressions",
+          "t": "2026-11-04T13:55:32Z"
         }
       },
-      "motivo_en": "QC r1 returned: proper-name WITs lowercase on lines 3, 57, 63 words 1-2 and line 39 words 5 and 9 (capitalised en rows exist)"
+      "motivo_en": "QC r1: 8 proper-name WITs moved to capitalised rows; resubmitted"
     },
     {
       "coverTrackId": "6aa769e272ca57eb1ab380fa",
@@ -81308,10 +81503,19 @@
       "originalTrackId": "",
       "titulo": "La Piragua",
       "artista": "Carlos Vives",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 79%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:43:00Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T13:55:46Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (75-80,_manda_el_cover): 15 hints, 79.3 %",
+            "t": "2026-11-04T13:55:45Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7382272ca57eb1aaf945d",
@@ -82179,10 +82383,19 @@
       "originalTrackId": "",
       "titulo": "Lento",
       "artista": "Luny Tunes, Rbd",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: 42 lineas con decision (33 a mano tras regla de tildes), mas de 20; match 80 %; no aplicado",
-      "actualizado": "2026-11-04T09:35:14Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T13:55:54Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (80+,_normal): 33 hints, 80.6 %",
+            "t": "2026-11-04T13:55:53Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa1111264c9b8ff110c6fbc",
