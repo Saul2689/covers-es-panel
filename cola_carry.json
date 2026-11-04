@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T09:26:32Z",
+  "generado": "2026-11-04T10:12:43Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -6249,10 +6249,19 @@
       "originalTrackId": "",
       "titulo": "Hasta Que Salga El Sol",
       "artista": "Don Omar",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 80%: necesita hints a mano",
-      "actualizado": "2026-09-30T09:48:03Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T09:32:48Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 25 hints, 80 %",
+            "t": "2026-11-04T09:32:46Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa698bd72ca57eb1aa25034",
@@ -11434,10 +11443,39 @@
       "originalTrackId": "",
       "titulo": "Decisiones",
       "artista": "Ruben Blades",
-      "estado": "cola",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-06T10:54:59Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T10:11:52Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 13 hints, 81 %; sync OK mediana -94 ms",
+            "t": "2026-11-04T09:41:12Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "13 tokens en 8 lineas (12,29,30,31,36,46,47,49): puntuacion final, parentesis, dizque unido, el/el intercambiado, tildes l47, mayuscula nombre l12; ear-notes para Saul en el informe",
+            "t": "2026-11-04T10:11:43Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 49 lineas; l16 palabra 6 de 0 ms a 190 ms; audio SUENA_SIN_BLINDAR stemVoc -20 ms, nada medido",
+            "t": "2026-11-04T10:11:46Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "29 anclas nuevas/remapeadas, 18 items nuevos (19 idiomas), 0 sin mapear salvo nombres propios, ingles y onomatopeya",
+            "t": "2026-11-04T10:11:48Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 49 lineas + 325 WIT con DT de su bolsa; falta abrir el borrador (orquestador)",
+            "t": "2026-11-04T10:11:50Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa67fb572ca57eb1aa01264",
@@ -14949,10 +14987,19 @@
       "originalTrackId": "",
       "titulo": "Bazar",
       "artista": "Flans",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:29:54Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T09:57:08Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 7 hints, 81 %; sync OK mediana 123 ms",
+            "t": "2026-11-04T09:57:06Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa822d2d951e1665a80cde3",
@@ -16403,10 +16450,19 @@
       "originalTrackId": "",
       "titulo": "Como Te Deseo",
       "artista": "Mana",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 80%: necesita hints a mano",
-      "actualizado": "2026-10-06T14:11:38Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T10:11:21Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 17 hints, 80 %",
+            "t": "2026-11-04T10:11:19Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5f9ac42b8d1fdb0d958c2",
@@ -17272,10 +17328,39 @@
       "originalTrackId": "",
       "titulo": "No Me Compares",
       "artista": "Alejandro Sanz",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-06T14:12:35Z"
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-11-04T10:08:00Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano ya aplicado (27 hints, 81 %), no se re-proyecta",
+            "t": "2026-11-04T10:07:53Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "línea 42 palabra 2 a minúscula; líneas 60-61 paréntesis sueltos quitados; resto justificado en informe",
+            "t": "2026-11-04T10:07:55Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 62 líneas, ninguna palabra < 40 ms; audio SUENA_SIN_BLINDAR (stemVoc -20 ms), sirve stem vocal (206)",
+            "t": "2026-11-04T10:07:56Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "22 anclas nuevas, 7 remapeos (gemelas y donde relativo), 22 items nuevos traducidos a 19 idiomas, 3 bolsas vacías con fila primaria nueva",
+            "t": "2026-11-04T10:07:58Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "inglés de 62 líneas y 336 WIT preparado en en_plan.json; falta abrir el borrador",
+            "t": "2026-11-04T10:07:59Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa82462d951e1665a80e7b5",
@@ -19620,8 +19705,8 @@
       "artista": "Wisin & Yandel",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-06T15:04:06Z"
+      "motivo": "carry a mano no cuadra: 31 lineas con decision (24 a mano tras regla de tildes, 5 de ellas uniones de linea), mas de 20; match 81 %; no aplicado",
+      "actualizado": "2026-11-04T09:29:10Z"
     },
     {
       "coverTrackId": "6aa6d53172ca57eb1aa70b9c",
@@ -21310,10 +21395,40 @@
       "originalTrackId": "",
       "titulo": "Payaso De Rodeo",
       "artista": "Caballo Dorado",
-      "estado": "cola",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:25:56Z"
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T10:12:22Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry ya aplicado (no re-proyectado); sync_gate OK mediana 52 ms (88/222)",
+            "t": "2026-11-04T10:02:26Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "L3 palabra fundida partida (al), L10/21/25 y+verás partidas, L14/L15 tildes, L8/12/19/23/27 merge rodeo-oh; palabras del cover que difieren del original se quedan (nota de oido)",
+            "t": "2026-11-04T10:02:27Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; 3 palabras <40 ms ensanchadas (L10/21/25 palabra 9); sin solapes",
+            "t": "2026-11-04T10:02:29Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "221/221 anclas; 7 items nuevos con 19 idiomas; sentidos corregidos (rodeo, listo, anda, su, medio, que por funcion); gemelas unificadas",
+            "t": "2026-11-04T10:02:31Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan aplicado, 27 lineas y 221 WIT",
+            "t": "2026-11-04T10:11:49Z"
+          }
+        }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6d89c72ca57eb1aa74f2a",
@@ -22300,8 +22415,8 @@
       "artista": "Willie González",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 80%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:40:04Z"
+      "motivo": "carry a mano no cuadra: match 79,5 % (bajo el 80 %) con las 18 preguntas decididas (4 a mano); hints guardados, no aplicado",
+      "actualizado": "2026-11-04T09:34:54Z"
     },
     {
       "coverTrackId": "6aa4eeda42b8d1fdb0c25e8b",
@@ -28974,10 +29089,19 @@
       "originalTrackId": "",
       "titulo": "Y Nos Amamos",
       "artista": "David Pabon",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:28:58Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T09:30:02Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 26 hints, 81 %",
+            "t": "2026-11-04T09:30:01Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa71fa772ca57eb1aad501a",
@@ -29176,10 +29300,19 @@
       "originalTrackId": "",
       "titulo": "Caminos De Michoacan",
       "artista": "Federico Villa",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:29:48Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T09:36:04Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 21 hints, 81 %",
+            "t": "2026-11-04T09:36:02Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6ff1072ca57eb1aaa1abe",
@@ -35471,8 +35604,8 @@
       "artista": "Rakim & Ken Y",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 80%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:36:52Z"
+      "motivo": "carry a mano no cuadra: match 79,5 % (bajo el 80 %) y 35 lineas por decidir a mano (limite 20); la letra del original trae varias faltas de ortografia",
+      "actualizado": "2026-11-04T09:35:36Z"
     },
     {
       "coverTrackId": "6aa6918072ca57eb1aa17b46",
@@ -35649,10 +35782,19 @@
       "originalTrackId": "",
       "titulo": "Tu Camino Y El Mio",
       "artista": "Vicente Fernandez",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:39:27Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T09:37:34Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 1 hint, 81 %; sync OK mediana -54 ms",
+            "t": "2026-11-04T09:37:32Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa807efd951e1665a7e75e7",
@@ -38589,8 +38731,8 @@
       "artista": "Bermudas",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:28:16Z"
+      "motivo": "carry a mano no cuadra: 47 lineas con pregunta, 35 a mano (mas de 20); 81 %",
+      "actualizado": "2026-11-04T09:36:50Z"
     },
     {
       "coverTrackId": "6aa5eade42b8d1fdb0d7e67d",
@@ -39440,8 +39582,8 @@
       "artista": "Thalia",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 80%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:38:29Z"
+      "motivo": "carry a mano no cuadra: match 79,5 % (bajo 80 %), 13 lineas con pregunta",
+      "actualizado": "2026-11-04T09:39:13Z"
     },
     {
       "coverTrackId": "6aa68d6272ca57eb1aa124ea",
@@ -40864,8 +41006,8 @@
       "artista": "Michael Stuart",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:35:33Z"
+      "motivo": "carry a mano no cuadra: 24 lineas con decision, 22 a mano (mas de 20); 81 %",
+      "actualizado": "2026-11-04T09:28:53Z"
     },
     {
       "coverTrackId": "6aa8015bd951e1665a7dfa50",
@@ -40873,10 +41015,19 @@
       "originalTrackId": "",
       "titulo": "Se Me Sigue Olvidando",
       "artista": "Marc Anthony",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 80%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:42:50Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T09:38:07Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 53 hints, 80 %",
+            "t": "2026-11-04T09:38:04Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa71da072ca57eb1aacffb2",
@@ -40895,10 +41046,39 @@
       "originalTrackId": "",
       "titulo": "En El Ultimo Lugar Del Mundo",
       "artista": "Ricardo Montaner",
-      "estado": "cola",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:37:19Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T10:03:46Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano ya aplicado (15 hints, 81 %); no se re-proyecta",
+            "t": "2026-11-04T10:03:32Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "l12p5 tilde; l41p2 al texto del original; l26-29 el cover canta otra versión de la estrofa (se queda); paréntesis l39-42 como en el original",
+            "t": "2026-11-04T10:03:33Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 47 líneas; 0 palabras < 40 ms; audio SUENA_SIN_BLINDAR sin tocar; hueco antes de l38 anotado para oído de Saúl",
+            "t": "2026-11-04T10:03:39Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "219/222 anclados (sin anclar: nombre propio l5p5 y ad-libs l38p1, l47p2); 19 anclas creadas/remapeadas; gemelas unificadas; 4 items nuevos con 19 idiomas",
+            "t": "2026-11-04T10:03:43Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json a mano: 47 líneas, 219 WIT con DT de su bolsa; dry run apply_en_plan limpio; lo aplica el orquestador",
+            "t": "2026-11-04T10:03:44Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5c46b42b8d1fdb0d44493",
@@ -47863,10 +48043,19 @@
       "originalTrackId": "",
       "titulo": "El Padre Antonio Y El Monaguillo Andres",
       "artista": "Ruben Blades",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:37:53Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T09:32:06Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 38 hints, 81 %",
+            "t": "2026-11-04T09:32:05Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa58b0042b8d1fdb0cfb7f6",
@@ -50644,10 +50833,19 @@
       "originalTrackId": "",
       "titulo": "Yo Quiero",
       "artista": "Camila",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:26:56Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T09:31:28Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 2 hints, 81 %",
+            "t": "2026-11-04T09:31:26Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa82ffdd951e1665a8215f3",
@@ -50824,10 +51022,19 @@
       "originalTrackId": "",
       "titulo": "Quitemonos La Ropa",
       "artista": "NG2",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:35:56Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T09:34:35Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 69 hints, 81 %",
+            "t": "2026-11-04T09:34:34Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa4f39542b8d1fdb0c2f8c8",
@@ -56515,10 +56722,19 @@
       "originalTrackId": "",
       "titulo": "Ayudame",
       "artista": "Paulina Rubio",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:36:35Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T09:41:33Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 7 hints, 82 %; sync OK mediana 34 ms",
+            "t": "2026-11-04T09:41:31Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6147842b8d1fdb0db2e4e",
@@ -57752,8 +57968,8 @@
       "artista": "Thalia",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 80%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:38:22Z"
+      "motivo": "carry a mano no cuadra: match 79,9 % (bajo 80) con todas las preguntas decididas; no aplicado",
+      "actualizado": "2026-11-04T09:34:05Z"
     },
     {
       "coverTrackId": "6aa81f67d951e1665a80871a",
@@ -59650,8 +59866,8 @@
       "artista": "Tito Nieves",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 80%: necesita hints a mano",
-      "actualizado": "2026-10-06T23:30:25Z"
+      "motivo": "carry a mano no cuadra: match 79,8 % (174 de 218), bajo el 80 %; 10 preguntas decididas en el review set, sin aplicar",
+      "actualizado": "2026-11-04T09:35:13Z"
     },
     {
       "coverTrackId": "6aa5c42842b8d1fdb0d43e46",
@@ -66157,10 +66373,19 @@
       "originalTrackId": "",
       "titulo": "Republica De La Alegria",
       "artista": "Ricardo Montaner",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-07T00:53:37Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T09:28:18Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 17 hints, 81 %",
+            "t": "2026-11-04T09:28:16Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5372942b8d1fdb0c96d39",
@@ -66729,10 +66954,19 @@
       "originalTrackId": "",
       "titulo": "Atado A Tu Amor",
       "artista": "Chayanne",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-07T00:54:12Z"
+      "motivo": "carry aplicado a mano; audio 404 tras el carry (MUDA_ARREGLABLE, stemVoc -60 ms): pin pendiente de OK; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T09:37:37Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 2 hints, 80 %; tras el carry audio_guard MUDA_ARREGLABLE (audio 404, stemVoc -60 ms), sin pin; sync_gate no corre (404)",
+            "t": "2026-11-04T09:37:35Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa53ac542b8d1fdb0c9e26c",
@@ -68953,7 +69187,7 @@
       "estado": "parada",
       "vueltas": 0,
       "motivo": "espera a Saúl: línea 45 fusionada (~46 s), hay que recortarla",
-      "actualizado": "2026-10-27T17:50:44Z",
+      "actualizado": "2026-11-04T09:47:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -68977,9 +69211,9 @@
             "t": "2026-10-27T16:55:35Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 53 lineas, 361 WITs, 8 PITs; dry run limpio",
-            "t": "2026-10-27T16:55:37Z"
+            "v": "ok",
+            "nota": "borrador EN pending_review desde 27 oct (53/53 lineas, nuestro), wit_dt_audit BAD 0; parte estaba desfasado",
+            "t": "2026-11-04T09:47:21Z"
           }
         }
       },
@@ -69324,10 +69558,40 @@
       "originalTrackId": "",
       "titulo": "Botecito De Vela",
       "artista": "la Sonora Santanera",
-      "estado": "cola",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:32:59Z"
+      "motivo": "limpia y mapeada, ingles en en_plan sin aplicar; el audio servido es un stem de voz muy bajo y sync_gate no reconoce ninguna palabra (0 de 263): que Saul escuche si se oye la voz",
+      "actualizado": "2026-11-04T10:12:35Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry ya aplicado (no re-proyectado)",
+            "t": "2026-11-04T10:07:23Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes: L24/30/36 palabra 4, L25/31/37 palabra 3, interrogativo indirecto en L4/10/14/20/25/31/37 palabra 4; coma final quitada en L23",
+            "t": "2026-11-04T10:07:25Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0; ninguna palabra <40 ms; hueco L11 = instrumental (el original tampoco canta ahi)",
+            "t": "2026-11-04T10:07:28Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "263/263; sé remapeado desde item DEPRECATED; dónde, compás, un, de, lleve, lejos, muy, y, solos unificados; gemelas iguales",
+            "t": "2026-11-04T10:07:29Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo (dry run limpio); falta aplicarlo al draft: orquestador",
+            "t": "2026-11-04T10:07:44Z"
+          }
+        }
+      },
+      "motivo_en": "cleaned and mapped, English plan ready but not applied; the served audio is a very quiet vocal stem and sync_gate matched 0 of 263 words: Saul to listen whether the voice is audible"
     },
     {
       "coverTrackId": "6aa5f1f042b8d1fdb0d8a3cf",
@@ -70211,10 +70475,19 @@
       "originalTrackId": "",
       "titulo": "Te Echo De Menos",
       "artista": "Chayanne",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:28:29Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T09:38:49Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 34 hints, 81 %; sync_gate OK median 73 ms",
+            "t": "2026-11-04T09:38:49Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa110fd64c9b8ff110c2779",
@@ -72088,10 +72361,19 @@
       "originalTrackId": "",
       "titulo": "Adeste Fideles",
       "artista": "Navidad",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 80%: necesita hints a mano",
-      "actualizado": "2026-10-07T02:11:52Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles; sync DUDA median n/a",
+      "actualizado": "2026-11-04T09:53:08Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 12 hints, 80 %",
+            "t": "2026-11-04T09:41:05Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7690772ca57eb1ab36e17",
@@ -73785,8 +74067,8 @@
       "artista": "Vicente Fernandez",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 80%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:44:08Z"
+      "motivo": "carry a mano no cuadra: match 80 % baja a 77 % al dejar las palabras que la cover canta distinto (lineas 4-6, 8, 11, 14, 15); bajo el 80 %",
+      "actualizado": "2026-11-04T09:34:00Z"
     },
     {
       "coverTrackId": "6aa80cddd951e1665a7ec719",
@@ -79770,8 +80052,8 @@
       "artista": "Luny Tunes, Rbd",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 80%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:37:05Z"
+      "motivo": "carry a mano no cuadra: 42 lineas con decision (33 a mano tras regla de tildes), mas de 20; match 80 %; no aplicado",
+      "actualizado": "2026-11-04T09:35:14Z"
     },
     {
       "coverTrackId": "6aa1111264c9b8ff110c6fbc",
@@ -81987,10 +82269,39 @@
       "originalTrackId": "",
       "titulo": "Despues De Ti Que?",
       "artista": "Cristian",
-      "estado": "cola",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 81%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:43:05Z"
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T10:07:31Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano ya aplicado (no se tocó)",
+            "t": "2026-11-04T10:07:24Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "L43/L45 tilde+signos, L44 tilde arreglados. L33 palabra 1 keepSungWord. Duda: hueco 129-173 s, el original canta 4 líneas cortas ahí; Whisper da un bucle repetido, no se puede probar",
+            "t": "2026-11-04T10:07:26Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 45 líneas; L35 palabra 5 de 0 a 600 ms; audio SUENA_SIN_BLINDAR stemVoc 0 ms conf 2.36, sin medir",
+            "t": "2026-11-04T10:07:26Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "3 items nuevos (19 idiomas), 11 remapeos de gemelas/homógrafos, 2 anclas nuevas; solo quedan vocables L35",
+            "t": "2026-11-04T10:07:27Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json: 45 líneas + 197 WIT con DT de su bolsa, wit_dt_audit BAD 0; lo aplica el orquestador",
+            "t": "2026-11-04T10:07:29Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa72bc072ca57eb1aae7dfc",
@@ -82856,16 +83167,36 @@
       "originalTrackId": "",
       "titulo": "Y Ahora Te Vas",
       "artista": "Marco Antonio Solis",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T09:25:46Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T09:58:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano: 27 hints, 83 %",
-            "t": "2026-11-04T09:25:45Z"
+            "nota": "carry a mano ya aplicado (27 hints, 83 %); no se re-proyecta",
+            "t": "2026-11-04T09:58:04Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes l2p1, l7p3, l19p3, l15p2, l27p2, l36p2, l35p4; posesivo sin tilde l4p4; l8p1 y l20p1 al texto del original; l13, l25, l33 palabra 3 al texto del original (2 tokens, +1 al final de línea, sin desplazar anclas)",
+            "t": "2026-11-04T09:58:26Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0 en 36 líneas; 2 palabras de 18 ms (l27,l36 palabra 4) alargadas a 250 ms; 0 palabras < 40 ms; hueco l17 = interjecciones habladas del original; audio SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-11-04T09:58:09Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "211/211 anclados; 32 anclas creadas/remapeadas; gemelas unificadas; 1 item nuevo 6aeb00d0d81cdfd68b00f474 (19 idiomas); 2 phrase insights l6 y l18 palabras 2-3",
+            "t": "2026-11-04T09:58:28Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json a mano: 36 líneas, 211 WIT con DT de su bolsa, 2 PIT; dry run apply_en_plan limpio; lo aplica el orquestador",
+            "t": "2026-11-04T09:58:13Z"
           }
         }
       }
