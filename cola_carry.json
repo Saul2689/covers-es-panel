@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T14:38:11Z",
+  "generado": "2026-11-04T14:38:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 40,
   "canciones": [
@@ -55322,9 +55322,9 @@
       "artista": "Laura Pausini, Nek",
       "estado": "parada",
       "vueltas": 0,
-      "motivo": "carry sin aplicar: el outro mezcla verso principal y coros (lineas originales 29-31); el proveedor solo transcribe coros en capas solapadas; necesita oido",
-      "actualizado": "2026-10-29T10:23:35Z",
-      "motivo_en": "carry not applied: outro mixes lead verse and backing vocals (original lines 29-31); vendor transcribes only overlapping backing layers; needs an ear",
+      "motivo": "carry v2 no aplicado: el richsync del proveedor trae 8 palabras de 0 ms (fin de linea, segunda mitad); el verify tras aplicar no pasaria (palabra < 40 ms). Dry run 84 %, 26 decisiones abiertas, audio SUENA_SIN_BLINDAR",
+      "actualizado": "2026-11-04T14:38:47Z",
+      "motivo_en": "carry v2 not applied: the vendor richsync has 8 zero-length words (line ends, second half); the post-apply verify would fail (word < 40 ms). Dry run 84 %, 26 open decisions, audio SUENA_SIN_BLINDAR",
       "auditoria": {
         "pasos": {
           "carry": {
