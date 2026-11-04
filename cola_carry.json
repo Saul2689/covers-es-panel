@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T14:46:23Z",
+  "generado": "2026-11-04T14:52:13Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 40,
   "canciones": [
@@ -7337,17 +7337,37 @@
       "originalTrackId": "",
       "titulo": "La Chica Del Bikini Azul",
       "artista": "Luis Miguel",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry v2 aplicado (paradas)",
-      "actualizado": "2026-11-04T14:29:10Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T14:51:55Z",
       "motivo_en": "carry not applied: UI lines 43-45 the cover sings a different chorus variant than the original (needs an ear); vocable lines 16,17,35,36 have no rule",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano v2 (80+, normal): 14 hints, 84 %",
-            "t": "2026-11-04T14:29:09Z"
+            "nota": "carry v2 aplicado; no se toca",
+            "t": "2026-11-04T14:51:49Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "publicada: solo tilde L44w1; puntuacion/mayusculas listadas para Saul",
+            "t": "2026-11-04T14:51:50Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40ms; L49w4 nota final sostenida 6.4s",
+            "t": "2026-11-04T14:51:52Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "11 anclas (4 nuevas, 7 remap/gemelas), 7 phrase insights; 0 items nuevos; vocales y flash sin mapear",
+            "t": "2026-11-04T14:51:53Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json: 49 lineas, 160 WIT, 7 PIT, BAD 0; falta abrir borrador",
+            "t": "2026-11-04T14:51:55Z"
           }
         }
       }
@@ -8788,17 +8808,17 @@
       "originalTrackId": "",
       "titulo": "La Botella",
       "artista": "Mach & Daddy",
-      "estado": "parada",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry v2 no aplicado: el richsync del proveedor trae 49 palabras de 0 ms (fin de linea); el verify tras aplicar no pasaria (palabra < 40 ms). Dry run 84 %, 53 decisiones abiertas, audio SUENA_SIN_BLINDAR",
-      "actualizado": "2026-11-04T14:31:39Z",
+      "motivo": "carry v2 aplicado (paradas)",
+      "actualizado": "2026-11-04T14:48:59Z",
       "motivo_en": "carry v2 not applied: the vendor richsync has 49 zero-length words (line ends); the post-apply verify would fail (word < 40 ms). Dry run 84 %, 53 open decisions, audio SUENA_SIN_BLINDAR",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "saul",
-            "nota": "carry NO aplicado: preview 84%, 53 decisiones en 85 lineas (>1/3), 19 lineas solo-cover y 15 lineas que arrancan <0,6 s tras la anterior (coros/eco solapados: L10,14,16,19,23,27,31,43,47,55,59,63,67,71,75); 21 propuestas join que fundirian voz y eco; palabras distintas en L4,L7,L9 sin tercera fuente. Necesita oido.",
-            "t": "2026-10-29T10:20:22Z"
+            "v": "ok",
+            "nota": "carry a mano v2 (80+, normal): 20 hints nuevos (15 split keepBreak, 4 spell, 1 pin), 53 decisiones, 84,19 %; 49 palabras de 0 ms ensanchadas a 40 ms dentro de su línea",
+            "t": "2026-11-04T14:48:58Z"
           }
         }
       }
@@ -19606,10 +19626,10 @@
       "originalTrackId": "",
       "titulo": "Maquillaje",
       "artista": "Mecano",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T14:45:54Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T14:51:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19647,9 +19667,29 @@
           "v": "VERDE",
           "resumen": "QC r2: phrase insight linea 10 palabras 7-9 OK, sin regresiones",
           "t": "2026-11-04T14:45:54Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T14:51:55Z"
+        },
+        "sync": {
+          "songId": "6a992f4a486eb0e888ea71a3",
+          "trackId": "6aa656fb72ca57eb1a9c5d63",
+          "src": "richsync",
+          "matched": 48,
+          "words": 293,
+          "median": 76,
+          "halves": [
+            78,
+            56
+          ],
+          "v": "OK",
+          "t": "2026-11-04T14:51:55Z"
         }
       },
-      "motivo_en": "QC r1 fix: phrase insight on line 10 words 7-9 to the existing phrase item, PIT from the line English, word 9 WIT aligned; English resubmitted to pending_review"
+      "motivo_en": "QC r2 VERDE"
     },
     {
       "coverTrackId": "6aa80a3dd951e1665a7e933b",
@@ -36795,16 +36835,36 @@
       "originalTrackId": "",
       "titulo": "Me Voy A Regalar",
       "artista": "Marc Anthony",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T14:04:20Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T14:49:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano v2 (75-80,cover-priority): 18 hints, 80.0 %",
-            "t": "2026-11-04T14:04:19Z"
+            "nota": "carry v2 ya aplicado (V2f); no re-proyectado; hints intactos",
+            "t": "2026-11-04T14:49:38Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "publicada: solo errata L3 w6 (palabra pegada, partida en 2 tokens como el original). Para Saúl: falta palabra L2 entre w3 y w4; mayúsculas L30 w4, L44 w4, L47 w2; puntuación L15 w7, L22 w3, L22 w6, L23 w7, L27 w7, L42 w3; oído L3 w6, L22 w3, L23 w5, L30 w4, L37 w2, L42 w5, L44 w4, L46 w3, L47 w1",
+            "t": "2026-11-04T14:49:52Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 47 líneas; L46 w3 ensanchada de 37 a 57 ms; 0 palabras < 40 ms; huecos L29/L32 = coros entre paréntesis del original",
+            "t": "2026-11-04T14:49:41Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "389/389 mapeados; 17 huecos + 16 gemelas unificadas; items nuevos 6aeb4410ee9091b0f92f9b51, 6aeb4411b840a3ca47a3b58b (19 idiomas, faltan 0)",
+            "t": "2026-11-04T14:49:42Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 47 líneas, 384 WIT, DT 0 malos; lo aplica el orquestador",
+            "t": "2026-11-04T14:49:43Z"
           }
         }
       }
@@ -55362,9 +55422,9 @@
       "artista": "Laura Pausini, Nek",
       "estado": "parada",
       "vueltas": 0,
-      "motivo": "carry v2 no aplicado: el richsync del proveedor trae 8 palabras de 0 ms (fin de linea, segunda mitad); el verify tras aplicar no pasaria (palabra < 40 ms). Dry run 84 %, 26 decisiones abiertas, audio SUENA_SIN_BLINDAR",
-      "actualizado": "2026-11-04T14:38:47Z",
-      "motivo_en": "carry v2 not applied: the vendor richsync has 8 zero-length words (line ends, second half); the post-apply verify would fail (word < 40 ms). Dry run 84 %, 26 open decisions, audio SUENA_SIN_BLINDAR",
+      "motivo": "carry v2 sin aplicar: la palabra 1 de la línea proyectada 36 (fila 55 del proveedor, línea de una sola palabra) dura 0 ms y la línea 37 empieza 7 ms después; darle 40 ms exige mover el inicio de una línea o juntar filas, y el join posible tira un pin de Saúl en la línea 34. Las otras 7 palabras de 0 ms sí se pueden ensanchar. Decisiones (26) y 18 hints nuevos guardados, sin contenido escrito",
+      "actualizado": "2026-11-04T14:50:56Z",
+      "motivo_en": "v2 carry not applied: projected line 36 word 1 (vendor row 55, a one-word line) lasts 0 ms and line 37 starts 7 ms later; giving it 40 ms needs a line start moved or rows joined, and the only join drops one of Saúl's pins on line 34. The other 7 zero-ms words can be widened. 26 decisions and 18 new hints saved, no content written",
       "auditoria": {
         "pasos": {
           "carry": {
