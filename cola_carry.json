@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T12:06:30Z",
+  "generado": "2026-11-04T12:15:14Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -41774,10 +41774,10 @@
       "originalTrackId": "",
       "titulo": "Se Me Sigue Olvidando",
       "artista": "Marc Anthony",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 2,
-      "motivo": "QC r2 devuelto",
-      "actualizado": "2026-11-04T11:56:06Z",
+      "motivo": "corregido QC r2, a QC r3",
+      "actualizado": "2026-11-04T12:10:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41817,7 +41817,7 @@
           "t": "2026-11-04T11:56:05Z"
         }
       },
-      "motivo_en": "Line 58 word 4: accent missing (verb know), anchored to the se marker, line English is a broken fragment. Fix token, remap to 6a11dba5c9740e1ba06ec6de, WIT DT 6a3cf56487df8dded1d93069, re-translate the line, resubmit"
+      "motivo_en": "fixed QC r2, to QC r3"
     },
     {
       "coverTrackId": "6aa71da072ca57eb1aacffb2",
@@ -50718,10 +50718,10 @@
       "originalTrackId": "",
       "titulo": "Jinetera",
       "artista": "Willy Chirino",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T11:50:32Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T12:11:33Z",
       "motivo_en": "hand carry does not fit: 22 lines need a decision (>20); the original spells a proper noun the English way and lacks accents the cover has, 82%",
       "auditoria": {
         "pasos": {
@@ -50729,6 +50729,26 @@
             "v": "ok",
             "nota": "carry a mano v2 (>=80, normal): 35 hints, 83 %",
             "t": "2026-11-04T11:50:32Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "published: solo tildes/ortografia (12 tokens en 9 lineas) + cola partida L12 unida; puntuacion/mayusculas para Saul (L45, L47/50 parentesis, L51, L23)",
+            "t": "2026-11-04T12:11:31Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, 0 palabras <40 ms; audio_guard SUENA_SIN_BLINDAR, nada medido",
+            "t": "2026-11-04T12:11:32Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "312/325; 19 items nuevos traducidos 19 idiomas; resto nombres propios y vocablo",
+            "t": "2026-11-04T12:11:32Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json 52 lineas + 312 WIT con DT; sin draft abierto",
+            "t": "2026-11-04T12:11:33Z"
           }
         }
       }
@@ -51724,10 +51744,10 @@
       "originalTrackId": "",
       "titulo": "Yo Quiero",
       "artista": "Camila",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T11:57:09Z",
+      "motivo": "espera a Saúl: timing linea 48 palabra 4 (0 ms, orden revuelto lineas 48-49, del proveedor); QC r2 VERDE",
+      "actualizado": "2026-11-04T12:11:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51756,18 +51776,18 @@
             "t": "2026-11-04T11:19:36Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: linea 30 palabra 5 WIT con i minuscula; linea 11 palabra 6 WIT repite sentido de vecinas",
-            "t": "2026-11-04T11:38:10Z"
+            "v": "ok",
+            "nota": "r2: fallos r1 arreglados (L30 w5, L11 w6, WI word), chequeos 0; L48 timing para Saul",
+            "t": "2026-11-04T12:08:19Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: linea 30 palabra 5 WIT con i minuscula; linea 11 palabra 6 WIT repite sentido de vecinas",
-          "t": "2026-11-04T11:38:10Z"
+          "v": "VERDE",
+          "resumen": "r2: fallos r1 arreglados (L30 w5, L11 w6, WI word), chequeos 0; L48 timing para Saul",
+          "t": "2026-11-04T12:08:19Z"
         }
       },
-      "motivo_en": "fixed QC r1, to QC r2"
+      "motivo_en": "waits for Saúl: timing line 48 word 4 (0 ms, word order scrambled across lines 48-49, vendor data); QC r2 GREEN"
     },
     {
       "coverTrackId": "6aa82ffdd951e1665a8215f3",
@@ -67274,10 +67294,10 @@
       "originalTrackId": "",
       "titulo": "Buenos Dias Tristeza",
       "artista": "Isabel Pantoja",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T11:30:38Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto: WIT reflexivo en L4 w3, L22 w1, L29/38 w4",
+      "actualizado": "2026-11-04T12:14:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -67304,10 +67324,20 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T11:30:34Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT reflexivo verdadero en se/te/me pronominal: L4 w3, L22 w1, L29 w4, L38 w4",
+            "t": "2026-11-04T12:14:31Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT reflexivo verdadero en se/te/me pronominal: L4 w3, L22 w1, L29 w4, L38 w4",
+          "t": "2026-11-04T12:14:31Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r1 returned: true-reflexive WITs on pronominal verbs at line 4 word 3, line 22 word 1, lines 29/38 word 4; move to the marker row"
     },
     {
       "coverTrackId": "6aa78fca72ca57eb1ace733a",
@@ -67565,10 +67595,10 @@
       "originalTrackId": "",
       "titulo": "Republica De La Alegria",
       "artista": "Ricardo Montaner",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T12:05:49Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T12:07:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -67606,6 +67636,26 @@
           "v": "VERDE",
           "resumen": "r2: fallos r1 arreglados (L35 w1, L40 w5, WI word L30/34), chequeos 0",
           "t": "2026-11-04T12:05:49Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T12:07:15Z"
+        },
+        "sync": {
+          "songId": "6a992f4d486eb0e888ea72eb",
+          "trackId": "6aa6ba5972ca57eb1aa44e55",
+          "src": "richsync",
+          "matched": 86,
+          "words": 236,
+          "median": -103,
+          "halves": [
+            -113,
+            -93
+          ],
+          "v": "OK",
+          "t": "2026-11-04T12:07:15Z"
         }
       },
       "motivo_en": "fixed QC r1, to QC r2"
