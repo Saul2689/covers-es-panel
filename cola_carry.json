@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T14:52:28Z",
+  "generado": "2026-11-04T14:57:07Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 40,
   "canciones": [
@@ -11687,7 +11687,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "lista para QC",
-      "actualizado": "2026-11-04T14:33:14Z",
+      "actualizado": "2026-11-04T14:57:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11712,8 +11712,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan 49 lineas, 283/283 WIT",
-            "t": "2026-11-04T14:33:01Z"
+            "nota": "aplicado",
+            "t": "2026-11-04T14:57:02Z"
           }
         }
       }
@@ -35227,10 +35227,10 @@
       "originalTrackId": "",
       "titulo": "Nunca Voy A Olvidarte",
       "artista": "La India",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry v2 aplicado (paradas)",
-      "actualizado": "2026-11-04T14:34:58Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T14:54:43Z",
       "motivo_en": "carry not applied: lines 2/23 and 6/27 differ by a whole word with no third source; bridge lines 49-52 half vendor/half original and original backing lines missing from vendor: needs an ear",
       "auditoria": {
         "pasos": {
@@ -35238,6 +35238,26 @@
             "v": "ok",
             "nota": "carry a mano v2 (80+, normal): 39 hints, 84 %",
             "t": "2026-11-04T14:34:56Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "publicada: sin cambios de letra (no hay tildes ni erratas); mayuscula linea 45 palabra 2 y coma linea 50 palabra 1 para Saul",
+            "t": "2026-11-04T14:54:37Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0, ninguna palabra <40 ms; huecos lineas 43 y 56 = coros del original no transcritos (nota de oido)",
+            "t": "2026-11-04T14:54:38Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "6 anclas nuevas, 10 gemelas unificadas, 1 item nuevo 6aeb465eee9091b0f930a995 (19 idiomas)",
+            "t": "2026-11-04T14:54:40Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 67 lineas, 280 WIT con DT de su bolsa; falta abrir borrador",
+            "t": "2026-11-04T14:54:41Z"
           }
         }
       }
@@ -62100,7 +62120,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "lista para QC",
-      "actualizado": "2026-11-04T14:20:18Z",
+      "actualizado": "2026-11-04T14:57:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62125,8 +62145,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan 46 lineas, 219/219 WIT",
-            "t": "2026-11-04T14:20:17Z"
+            "nota": "aplicado",
+            "t": "2026-11-04T14:57:01Z"
           }
         }
       }
@@ -62599,8 +62619,8 @@
       "artista": "El Jeffrey",
       "estado": "parada",
       "vueltas": 1,
-      "motivo": "espera a Saúl: sync_gate FALLA en la segunda mitad (+43.8 s), probable falso positivo por estribillos repetidos; contenido sin defectos",
-      "actualizado": "2026-11-04T14:37:50Z",
+      "motivo": "espera a Saúl: QC VERDE; sync_gate FALLA otra vez (primera mitad en sitio, segunda +43.7 s): escuchar la segunda mitad",
+      "actualizado": "2026-11-04T14:57:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62629,38 +62649,38 @@
             "t": "2026-11-04T14:10:31Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: contenido OK, pero hecha rechazada por sync_gate FALLA (mitad 2 +43,8 s); probable falso positivo por coros repetidos, mirar con OK de Saul",
-            "t": "2026-11-04T14:24:51Z"
+            "v": "ok",
+            "nota": "QC r1: contenido sin defectos; el DEVUELTO fue solo por sync_gate, se reintenta",
+            "t": "2026-11-04T14:55:34Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: contenido OK, pero hecha rechazada por sync_gate FALLA (mitad 2 +43,8 s); probable falso positivo por coros repetidos, mirar con OK de Saul",
-          "t": "2026-11-04T14:24:51Z"
+          "v": "VERDE",
+          "resumen": "QC r1: contenido sin defectos; el DEVUELTO fue solo por sync_gate, se reintenta",
+          "t": "2026-11-04T14:55:34Z"
         },
         "audio": {
           "v": "SUENA_SIN_BLINDAR",
           "audio": 206,
           "timeline": "karaokeMp3",
-          "t": "2026-11-04T14:21:12Z"
+          "t": "2026-11-04T14:57:00Z"
         },
         "sync": {
           "songId": "6a992f42486eb0e888ea6ec5",
           "trackId": "6aa5836f42b8d1fdb0cf10af",
           "src": "richsync",
-          "matched": 91,
+          "matched": 102,
           "words": 272,
-          "median": 57,
+          "median": 14952,
           "halves": [
-            -13,
-            43797
+            -10,
+            43670
           ],
           "v": "FALLA",
-          "t": "2026-11-04T14:21:12Z"
+          "t": "2026-11-04T14:57:00Z"
         }
       },
-      "motivo_en": "waiting for Saúl: sync_gate FAIL on second half (+43.8 s), likely false positive from repeated choruses; content clean"
+      "motivo_en": "waiting for Saúl: QC VERDE; sync_gate FAIL again (first half in sync, second half +43.7 s): listen to the second half"
     },
     {
       "coverTrackId": "6aa5dc1842b8d1fdb0d68453",
@@ -76864,16 +76884,36 @@
       "originalTrackId": "",
       "titulo": "Dos Almas",
       "artista": "Vicente Fernandez",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T14:04:21Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T14:54:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano v2 (75-80,cover-priority): 15 hints, 77.3 %",
-            "t": "2026-11-04T14:04:20Z"
+            "nota": "carry v2 ya aplicado (V2f); respuestas e hints de Saúl intactos",
+            "t": "2026-11-04T14:54:03Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "publicada: 3 tildes (L6 w8, L11 w6, L12 w2). Para Saúl: mayúscula L14 w2; la palabra que falta en L1 tras w2 queda bajo su respuesta de línea 1 (no se toca); oído ya respondido por Saúl L4 w8, L5 w6, L6 w8, L8 w5, L14 w1, L14 w6, L15 w5",
+            "t": "2026-11-04T14:54:04Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 15 líneas, primera 22430 ms; 0 palabras < 40 ms; hueco antes de L9 = instrumental (línea vacía en el original)",
+            "t": "2026-11-04T14:54:05Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "106/106; 14 huecos rellenados, gemelas unificadas, L4 w2 y L11 w6 al sentido correcto, L12 w2 a la forma con tilde; sin items nuevos",
+            "t": "2026-11-04T14:54:06Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 15 líneas, 106 WIT, DT 0 malos; lo aplica el orquestador",
+            "t": "2026-11-04T14:54:07Z"
           }
         }
       }
@@ -82890,7 +82930,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "lista para QC",
-      "actualizado": "2026-11-04T14:12:42Z",
+      "actualizado": "2026-11-04T14:57:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -82915,8 +82955,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan.json: 65 lineas, 409 WIT con DT propio, 1 PIT; sin draft abierto (lo aplica el orquestador)",
-            "t": "2026-11-04T14:12:14Z"
+            "nota": "aplicado",
+            "t": "2026-11-04T14:57:01Z"
           }
         }
       }
