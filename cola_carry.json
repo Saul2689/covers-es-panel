@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T14:12:20Z",
+  "generado": "2026-11-04T14:20:08Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -9505,10 +9505,10 @@
       "originalTrackId": "",
       "titulo": "Apiadate De Mi",
       "artista": "Victor Manuelle",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T14:07:40Z",
+      "motivo": "espera a Saúl: comas L12w4 y L22w4 frente a sus gemelas; escuchar huecos L36->L37, L40->L41 y repeticiones del outro",
+      "actualizado": "2026-11-04T14:19:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9535,10 +9535,20 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T14:07:15Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: all checks pass; notes only (commas, gaps, resisto primary for Saul)",
+            "t": "2026-11-04T14:16:13Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: all checks pass; notes only (commas, gaps, resisto primary for Saul)",
+          "t": "2026-11-04T14:16:13Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r1 VERDE; waiting for Saúl: commas at line 12 word 4 and line 22 word 4 vs their twins; listen to the gaps line 36 to 37 and line 40 to 41 and the missing outro repeats"
     },
     {
       "coverTrackId": "6aa5eabe42b8d1fdb0d7e2c5",
@@ -25131,16 +25141,36 @@
       "originalTrackId": "",
       "titulo": "Ayer",
       "artista": "Gloria Estefan",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T14:04:16Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T14:17:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano v2 (80+,normal): 35 hints, 81.7 %",
-            "t": "2026-11-04T14:04:15Z"
+            "nota": "carry v2f ya aplicado; no se toca",
+            "t": "2026-11-04T14:17:26Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "W18: 3 ortografía (L38w1, L39w2, L42w1); puntuación/mayúsculas sin tocar (para Saúl: coma tras L13w4 y L23w4)",
+            "t": "2026-11-04T14:17:37Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0, ninguna palabra <40 ms; huecos L29 y L38 = posibles líneas del original sin LRC, nota de oído",
+            "t": "2026-11-04T14:17:27Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "13 anclas nuevas + 13 remapeos, 13 items nuevos (19 idiomas), 3 phrase insights; sin mapear solo 2 vocablos L37",
+            "t": "2026-11-04T14:17:28Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 44 líneas, 287 WIT, 3 PIT; draft sin abrir (lo aplica el orquestador)",
+            "t": "2026-11-04T14:17:28Z"
           }
         }
       }
@@ -25532,10 +25562,10 @@
       "originalTrackId": "",
       "titulo": "Lo Que No Sabes Tu",
       "artista": "Chino & Nacho",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-11-04T13:52:53Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T14:15:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25544,9 +25574,9 @@
             "t": "2026-11-04T11:46:24Z"
           },
           "lrc": {
-            "v": "ok",
-            "nota": "publicada: solo tildes/erratas (97 tokens, 44 líneas; 5 tokens partidos: L29/30/34/38 por qué, L40 hay juego). Mayúsculas L63/L70 para Saúl",
-            "t": "2026-11-04T12:17:22Z"
+            "v": "saul",
+            "nota": "lineas 26/55/96 palabra 10: verbo sin tilde por la pista spell-original de Saul; mapeo y LRC sin tocar, decide Saul",
+            "t": "2026-11-04T14:15:23Z"
           },
           "timing": {
             "v": "ok",
@@ -25575,7 +25605,7 @@
           "t": "2026-11-04T13:52:52Z"
         }
       },
-      "motivo_en": "QC r1 returned: line 40 word 3 day-name WIT lowercase; lines 26/55/96 word 10 verb missing tilde on a misspelling item; new item bateo primary English row has lowercase i"
+      "motivo_en": "QC r1 fixed: line 40 word 3 day-name WIT capitalised, new item bateo gets a capitalised primary row; lines 26/55/96 word 10 tilde waits for Saul (his carry hint)"
     },
     {
       "coverTrackId": "6aa52dec42b8d1fdb0c8b67a",
@@ -30861,10 +30891,10 @@
       "originalTrackId": "",
       "titulo": "El Tango Del Pecado",
       "artista": "Calle 13",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-11-04T14:02:11Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T14:16:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30904,7 +30934,7 @@
           "t": "2026-11-04T14:02:11Z"
         }
       },
-      "motivo_en": "QC r1 returned: line 58 word 9 country-name WIT is lowercase; point it at the item's capitalised row and resubmit"
+      "motivo_en": "QC r1 fixed: line 58 word 9 country-name WIT moved to the capitalised row"
     },
     {
       "coverTrackId": "6aa81f0fd951e1665a8082b0",
@@ -36770,10 +36800,10 @@
       "originalTrackId": "",
       "titulo": "Dame Lo Que Quiero",
       "artista": "Rakim & Ken Y",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T14:07:39Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-04T14:13:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36800,10 +36830,20 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T14:07:14Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT/line English: L26w9+L32w9 WIT wrong sense; L26w5+L32w5 word untranslated in line English, WIT mismatch",
+            "t": "2026-11-04T14:13:34Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT/line English: L26w9+L32w9 WIT wrong sense; L26w5+L32w5 word untranslated in line English, WIT mismatch",
+          "t": "2026-11-04T14:13:34Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r1: line 26 word 9 and line 32 word 9 WIT uses the wrong sense (line English means having fun); line 26 word 5 and line 32 word 5 left untranslated in the line English and the WIT does not match. Reopen the English draft, fix, resubmit."
     },
     {
       "coverTrackId": "6aa6918072ca57eb1aa17b46",
@@ -38742,11 +38782,11 @@
       "originalTrackId": "",
       "titulo": "Cuerpo Sensual",
       "artista": "Don Omar, Rakim & Ken Y",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-11-04T14:06:32Z",
-      "motivo_en": "QC r1 returned: proper-name WITs lowercase on lines 9/53/76/86/89 word 1, 29 word 1, 77 word 1, 84 word 2, 85 words 4-5; new name items Rakim and Omar need a capitalised primary row",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T14:18:02Z",
+      "motivo_en": "QC r1 fixed: proper-name WITs moved to capitalised rows; new name items Rakim and Omar get capitalised primary rows; trailing commas on lines 36 and 85 still wait for Saul",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40017,10 +40057,10 @@
       "originalTrackId": "",
       "titulo": "No Voy A Trabaja",
       "artista": "Bermudas",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-11-04T14:11:14Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T14:19:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40060,7 +40100,7 @@
           "t": "2026-11-04T14:11:13Z"
         }
       },
-      "motivo_en": "QC r1 returned: day-name WITs lowercase on lines 7/11/15/19/37/41 word 1 and line 33 word 2; line 33 word 4 name WIT starts lowercase (capitalised row exists)"
+      "motivo_en": "QC r1 fixed: day-name WITs on lines 7/11/15/19/37/41 word 1 and line 33 word 2, and the name WIT on line 33 word 4, moved to capitalised rows"
     },
     {
       "coverTrackId": "6aa5eade42b8d1fdb0d7e67d",
@@ -62301,7 +62341,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T14:10:56Z",
+      "actualizado": "2026-11-04T14:19:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62328,7 +62368,17 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T14:10:31Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, mapeo, ingles, audio OK; pendientes de Saul listados",
+            "t": "2026-11-04T14:19:42Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, mapeo, ingles, audio OK; pendientes de Saul listados",
+          "t": "2026-11-04T14:19:42Z"
         }
       },
       "motivo_en": "QC r1"
@@ -81638,16 +81688,36 @@
       "originalTrackId": "",
       "titulo": "La Piragua",
       "artista": "Carlos Vives",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T13:55:46Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T14:17:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano v2 (75-80,_manda_el_cover): 15 hints, 79.3 %",
-            "t": "2026-11-04T13:55:45Z"
+            "nota": "carry intacto; pistas de Saúl sin tocar",
+            "t": "2026-11-04T14:17:04Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "1 tilde (L7w3); mayúsculas/puntuación para Saúl",
+            "t": "2026-11-04T14:17:05Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna <40 ms, secciones 32/32; hueco antes de L27 instrumental como el original",
+            "t": "2026-11-04T14:17:06Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "24 items nuevos (19 idiomas), 46 anclas; 28 sin mapear = nombres propios + 1 regional",
+            "t": "2026-11-04T14:17:07Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "plan 32 líneas + 163 WIT, dry run limpio",
+            "t": "2026-11-04T14:17:07Z"
           }
         }
       }
@@ -82521,7 +82591,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "lista para QC",
-      "actualizado": "2026-11-04T14:12:14Z",
+      "actualizado": "2026-11-04T14:12:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -82541,8 +82611,8 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "26 anclas nuevas + 37 remapeos; gemelas unificadas; 5 items nuevos 19 idiomas; 1 PI; sin mapear restantes = pegadas, nombres propios, ingles",
-            "t": "2026-11-04T14:12:14Z"
+            "nota": "27 anclas nuevas + 33 remapeos; gemelas unificadas; 5 items nuevos 19 idiomas; 1 PI; sin mapear restantes = pegadas (Saul), nombres propios, ingles",
+            "t": "2026-11-04T14:12:42Z"
           },
           "ingles": {
             "v": "ok",
