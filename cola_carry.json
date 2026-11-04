@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T14:31:01Z",
+  "generado": "2026-11-04T14:31:40Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 40,
   "canciones": [
@@ -5550,10 +5550,10 @@
       "originalTrackId": "",
       "titulo": "Burbujas De Amor",
       "artista": "Juan Luis Guerra 440",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T14:29:21Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-11-04T14:31:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -5591,6 +5591,26 @@
           "v": "VERDE",
           "resumen": "QC r1: estructura, tildes, mapeo, ingles, audio y sync OK; pendientes de Saul listados",
           "t": "2026-11-04T14:29:21Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T14:31:27Z"
+        },
+        "sync": {
+          "songId": "6a992f45486eb0e888ea7031",
+          "trackId": "6aa5e60542b8d1fdb0d77fbd",
+          "src": "richsync",
+          "matched": 78,
+          "words": 257,
+          "median": 54,
+          "halves": [
+            14,
+            87
+          ],
+          "v": "OK",
+          "t": "2026-11-04T14:31:27Z"
         }
       },
       "motivo_en": "QC r1"
@@ -8770,9 +8790,9 @@
       "artista": "Mach & Daddy",
       "estado": "parada",
       "vueltas": 0,
-      "motivo": "carry sin aplicar: 53 decisiones de 85 lineas, coros solapados que piden oido (keepBreak/join/descartar)",
-      "actualizado": "2026-10-29T10:20:22Z",
-      "motivo_en": "carry not applied: 53 of 85 lines need a decision; overlapping backing-vocal rows need an ear",
+      "motivo": "carry v2 no aplicado: el richsync del proveedor trae 49 palabras de 0 ms (fin de linea); el verify tras aplicar no pasaria (palabra < 40 ms). Dry run 84 %, 53 decisiones abiertas, audio SUENA_SIN_BLINDAR",
+      "actualizado": "2026-11-04T14:31:39Z",
+      "motivo_en": "carry v2 not applied: the vendor richsync has 49 zero-length words (line ends); the post-apply verify would fail (word < 40 ms). Dry run 84 %, 53 open decisions, audio SUENA_SIN_BLINDAR",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25571,10 +25591,10 @@
       "originalTrackId": "",
       "titulo": "Lo Que No Sabes Tu",
       "artista": "Chino & Nacho",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T14:25:23Z",
+      "motivo": "espera a Saúl: lineas 26/55/96 palabra 10 (verbo sin tilde por su pista spell-original); QC r2 VERDE",
+      "actualizado": "2026-11-04T14:31:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25614,7 +25634,7 @@
           "t": "2026-11-04T14:25:23Z"
         }
       },
-      "motivo_en": "QC r1 fixed: line 40 word 3 day-name WIT capitalised, new item bateo gets a capitalised primary row; lines 26/55/96 word 10 tilde waits for Saul (his carry hint)"
+      "motivo_en": "waiting for Saúl: lines 26/55/96 word 10 (verb without tilde under his spell-original hint); QC r2 VERDE"
     },
     {
       "coverTrackId": "6aa52dec42b8d1fdb0c8b67a",
