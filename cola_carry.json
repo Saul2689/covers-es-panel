@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T09:22:04Z",
+  "generado": "2026-11-04T09:26:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -78736,10 +78736,10 @@
       "originalTrackId": "",
       "titulo": "El Rey",
       "artista": "Lupillo Rivera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T09:17:06Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T09:25:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -78768,15 +78768,35 @@
             "t": "2026-10-29T17:20:07Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: 4 WIT en el borrador en: linea 1 palabra 2, lineas 7/20 palabra 5, linea 19 palabra 2",
-            "t": "2026-11-04T09:15:46Z"
+            "v": "ok",
+            "nota": "r2: los 4 WIT de r1 corregidos (L1w2, L7w5, L20w5, L19w2 = gemela); litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+            "t": "2026-11-04T09:24:33Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: 4 WIT en el borrador en: linea 1 palabra 2, lineas 7/20 palabra 5, linea 19 palabra 2",
-          "t": "2026-11-04T09:15:46Z"
+          "v": "VERDE",
+          "resumen": "r2: los 4 WIT de r1 corregidos (L1w2, L7w5, L20w5, L19w2 = gemela); litchk/lpchk 0, wit_dt BAD 0, audio SUENA_SIN_BLINDAR",
+          "t": "2026-11-04T09:24:33Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T09:25:21Z"
+        },
+        "sync": {
+          "songId": "6a992f49486eb0e888ea7149",
+          "trackId": "6aa6350572ca57eb1a99575e",
+          "src": "richsync",
+          "matched": 75,
+          "words": 131,
+          "median": 7,
+          "halves": [
+            20,
+            -22
+          ],
+          "v": "OK",
+          "t": "2026-11-04T09:25:21Z"
         }
       },
       "motivo_en": "QC r2"
@@ -82836,10 +82856,19 @@
       "originalTrackId": "",
       "titulo": "Y Ahora Te Vas",
       "artista": "Marco Antonio Solis",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 83%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:26:11Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T09:25:46Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 27 hints, 83 %",
+            "t": "2026-11-04T09:25:45Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6ce7072ca57eb1aa653d5",
