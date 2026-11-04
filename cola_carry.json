@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T13:16:52Z",
+  "generado": "2026-11-04T13:25:04Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -4160,10 +4160,10 @@
       "originalTrackId": "695598f26a05f13ba2677aaf",
       "titulo": "Propuesta Indecente",
       "artista": "Romeo Santos",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "corregido QC r2, a QC r3",
-      "actualizado": "2026-11-04T13:12:39Z",
+      "motivo": "QC r3 VERDE",
+      "actualizado": "2026-11-04T13:23:03Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4192,15 +4192,35 @@
             "t": "2026-11-04T12:29:56Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r2: r1 twins fixed; line 58 word 2 mapped to wrong-sense item (ad-lib on a noun item)",
-            "t": "2026-11-04T13:08:50Z"
+            "v": "ok",
+            "nota": "r3 final: fix linea 58 palabra 2 confirmado; todos los chequeos pasan",
+            "t": "2026-11-04T13:19:52Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r2: r1 twins fixed; line 58 word 2 mapped to wrong-sense item (ad-lib on a noun item)",
-          "t": "2026-11-04T13:08:50Z"
+          "v": "VERDE",
+          "resumen": "r3 final: fix linea 58 palabra 2 confirmado; todos los chequeos pasan",
+          "t": "2026-11-04T13:19:52Z"
+        },
+        "audio": {
+          "v": "BLINDADA",
+          "audio": 206,
+          "timeline": "mixMp3V",
+          "t": "2026-11-04T13:23:03Z"
+        },
+        "sync": {
+          "songId": "6a992ef4486eb0e888ea453f",
+          "trackId": "6a9a2e709bc1eb137252853d",
+          "src": "richsync",
+          "matched": 125,
+          "words": 318,
+          "median": 97,
+          "halves": [
+            92,
+            117
+          ],
+          "v": "OK",
+          "t": "2026-11-04T13:23:03Z"
         }
       },
       "motivo_en": "QC r2 fix: line 58 word 2 ad-lib re-anchored to the interjection item (same word insight), WIT on a new non-primary row matching the line English; checks clean, resubmitted to pending_review"
@@ -15163,8 +15183,8 @@
       "artista": "Ov7",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: mas de 20 lineas a mano (52 en revision, 3 joins de persona, etiquetas de seccion y tokens rotos del proveedor en lineas 5 26 33 34 60, lineas 14 y 40 proyectan 1 de 9 palabras); necesita oido, sin aplicar",
-      "actualizado": "2026-10-29T15:11:48Z"
+      "motivo": "carry a mano no cuadra (v2, 4 nov): richsync del vendor con 52 palabras de 0 ms y 46 arranques hacia atras (lineas 22-142); verify no puede pasar",
+      "actualizado": "2026-11-04T13:20:14Z"
     },
     {
       "coverTrackId": "6aa686b572ca57eb1aa07bde",
@@ -23321,10 +23341,10 @@
       "originalTrackId": "",
       "titulo": "Te Necesito",
       "artista": "Luis Miguel",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-11-04T13:07:35Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T13:18:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23364,7 +23384,7 @@
           "t": "2026-11-04T13:07:34Z"
         }
       },
-      "motivo_en": "QC r1 returned: lines 8 and 22 words 2-4 are a fixed locution with no phrase insight (es phrase item 6ac5ea665f41a10082847d62 exists); word 4 on the wrong relative-pronoun sense; WITs do not fit the line English"
+      "motivo_en": "QC r1 fixed: phrase insights added on twin lines 8 and 22 words 2-4 with an identical PIT from the line English; word 4 moved off the relative-pronoun item to the comparative item; resubmitted to pending_review"
     },
     {
       "coverTrackId": "6aa72e1672ca57eb1aaeae97",
@@ -42093,10 +42113,10 @@
       "originalTrackId": "",
       "titulo": "Mayor Que Yo",
       "artista": "Michael Stuart",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-11-04T13:05:01Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T13:16:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42136,7 +42156,7 @@
           "t": "2026-11-04T13:05:01Z"
         }
       },
-      "motivo_en": "QC r1 returned: line 59 word 1 missing interrogative tilde (re-anchor to accented item); line 70 word 10 WIT for the name of God lowercase (point to existing capitalised row)"
+      "motivo_en": "QC r1 fixed: line 59 word 1 accent added (LRC, timing kept) and re-anchored to the interrogative item; line 70 word 10 WIT on the capitalised row; resubmitted to pending_review"
     },
     {
       "coverTrackId": "6aa8015bd951e1665a7dfa50",
@@ -58968,8 +58988,8 @@
       "artista": "Jose Feliciano, Jose Jose",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra (4 nov): 68 de 85 lineas a revisar (limite 20), 188 palabras solo del cover; el LRC del cover vuelve atras en la linea 53; 82 %",
-      "actualizado": "2026-11-04T11:12:10Z"
+      "motivo": "carry a mano no cuadra (v2, 4 nov): la LRC propia del cover vuelve atras en la fila 53; la proyeccion vuelve atras en la linea 43",
+      "actualizado": "2026-11-04T13:20:14Z"
     },
     {
       "coverTrackId": "6aa725e272ca57eb1aade666",
@@ -60879,8 +60899,8 @@
       "artista": "Wisin Y Yandel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T12:19:23Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T13:21:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -60905,11 +60925,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan.json by hand: 83 lines, 447 WITs, 32 PITs, 0 probs",
-            "t": "2026-11-04T12:19:23Z"
+            "nota": "aplicado",
+            "t": "2026-11-04T13:20:58Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5f3d142b8d1fdb0d8c448",
@@ -61907,10 +61928,19 @@
       "originalTrackId": "",
       "titulo": "Cuentale A El",
       "artista": "El Jeffrey",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra (4 nov): el original sigue con 15 lineas largas (hasta 26 palabras); el carry juntaria 81 filas del cover en 23 lineas, una de 56 palabras; 89 palabras solo del cover; arreglar el original primero; 83 %",
-      "actualizado": "2026-11-04T11:11:21Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T13:19:54Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (80+, normal): 28 hints (3 splits para lineas de mas de 20 palabras), 87.3 %",
+            "t": "2026-11-04T13:19:53Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5dc1842b8d1fdb0d68453",
@@ -68843,8 +68873,8 @@
       "artista": "Basilio",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T12:28:28Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T13:21:41Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -68869,11 +68899,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan.json by hand: 39 lines, 243 WITs, 6 PITs, 0 probs",
-            "t": "2026-11-04T12:28:28Z"
+            "nota": "aplicado",
+            "t": "2026-11-04T13:20:59Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa67d9472ca57eb1a9fe5ca",
@@ -74663,10 +74694,10 @@
       "originalTrackId": "",
       "titulo": "Asi Es La Vida",
       "artista": "Luis Enrique",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-11-04T13:10:58Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T13:25:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74706,7 +74737,7 @@
           "t": "2026-11-04T13:10:57Z"
         }
       },
-      "motivo_en": "QC r1 returned: lowercase English WITs for proper/divine names on line 3 word 2, line 4 word 2, line 24 words 4, 5, 7, line 47 word 3; line 41 words 1-2 causal conjunction split in two (merge and re-anchor)"
+      "motivo_en": "QC r1 fixed: capitalised English rows (primary) on the four new name items and name/divine-name WITs on lines 3, 4, 24, 47; line 41 words 1-2 merged into the causal conjunction with timing kept, anchors shifted, one out-of-range anchor deleted; resubmitted to pending_review"
     },
     {
       "coverTrackId": "6aa6769372ca57eb1a9f26bf",
@@ -75304,8 +75335,8 @@
       "artista": "Rakim & Ken Y",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T12:44:06Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T13:21:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75330,11 +75361,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan.json by hand: 67 lines, 419 WITs, 14 PITs, 0 probs",
-            "t": "2026-11-04T12:44:06Z"
+            "nota": "aplicado",
+            "t": "2026-11-04T13:21:00Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa769e272ca57eb1ab380fa",
