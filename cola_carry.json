@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T13:09:28Z",
+  "generado": "2026-11-04T13:16:52Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -4160,10 +4160,10 @@
       "originalTrackId": "695598f26a05f13ba2677aaf",
       "titulo": "Propuesta Indecente",
       "artista": "Romeo Santos",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 2,
-      "motivo": "QC r2 devuelto",
-      "actualizado": "2026-11-04T13:08:51Z",
+      "motivo": "corregido QC r2, a QC r3",
+      "actualizado": "2026-11-04T13:12:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4203,7 +4203,7 @@
           "t": "2026-11-04T13:08:50Z"
         }
       },
-      "motivo_en": "Line 58 word 2 is mapped to the baby-milk noun item; the word is an ad-lib here. Remap to interjection item 6ac51495ae7e2284617de954 (keep the WI id), fix its WIT, reopen and resubmit the en draft."
+      "motivo_en": "QC r2 fix: line 58 word 2 ad-lib re-anchored to the interjection item (same word insight), WIT on a new non-primary row matching the line English; checks clean, resubmitted to pending_review"
     },
     {
       "coverTrackId": "6aa804a3d951e1665a7e1e7c",
@@ -5530,10 +5530,19 @@
       "originalTrackId": "",
       "titulo": "Burbujas De Amor",
       "artista": "Juan Luis Guerra 440",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: 79,7 % (248/311) y no sube a 80 con las reglas; 3 lineas cantan otra palabra y no hay pares",
-      "actualizado": "2026-11-04T10:15:23Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T13:10:32Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (75-80, prioridad cover): 8 hints, 79.7 %",
+            "t": "2026-11-04T13:10:31Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7ffcd2367b69ab71824b7",
@@ -8885,10 +8894,10 @@
       "originalTrackId": "",
       "titulo": "Te Llore Un Rio",
       "artista": "Mana",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T13:03:52Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T13:16:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8917,15 +8926,35 @@
             "t": "2026-11-04T12:30:56Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L38 w1/3/5: item PRES.3SG pero es imperativo (WIT imperativo); falta item IMP.2SG",
-            "t": "2026-11-04T12:48:38Z"
+            "v": "ok",
+            "nota": "QC r2: defecto de r1 arreglado; checks 0",
+            "t": "2026-11-04T13:13:27Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L38 w1/3/5: item PRES.3SG pero es imperativo (WIT imperativo); falta item IMP.2SG",
-          "t": "2026-11-04T12:48:38Z"
+          "v": "VERDE",
+          "resumen": "QC r2: defecto de r1 arreglado; checks 0",
+          "t": "2026-11-04T13:13:27Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T13:16:18Z"
+        },
+        "sync": {
+          "songId": "6a992f5a486eb0e888ea77ea",
+          "trackId": "6aa1114764c9b8ff110d3538",
+          "src": "richsync",
+          "matched": 95,
+          "words": 182,
+          "median": -26,
+          "halves": [
+            -37,
+            20
+          ],
+          "v": "OK",
+          "t": "2026-11-04T13:16:18Z"
         }
       },
       "motivo_en": "QC r1 fixed: new tu-imperative item created with 19 languages, line 38 words 1/3/5 remapped to it with matching WITs; English resubmitted to pending_review"
@@ -9417,10 +9446,19 @@
       "originalTrackId": "",
       "titulo": "Apiadate De Mi",
       "artista": "Victor Manuelle",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: 23 decisiones abiertas (mas de 20 a mano) y 12 lineas en revision; palabra distinta que pide oido en lineas 40 y 46 palabra 1; lineas 46 y 47 comparten fila del vendor; 83 %",
-      "actualizado": "2026-10-29T15:10:37Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T13:14:59Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (80+, normal): 38 hints, 82.9 %",
+            "t": "2026-11-04T13:14:58Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5eabe42b8d1fdb0d7e2c5",
@@ -19391,10 +19429,19 @@
       "originalTrackId": "",
       "titulo": "Maquillaje",
       "artista": "Mecano",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: 24 lineas con decision a mano (limite 20), una pregunta de union de lineas (linea 59) y palabras del cover distintas del original en lineas 10, 47-58",
-      "actualizado": "2026-10-29T16:00:52Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T13:15:54Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (80+, normal): 58 hints, 83.2 %",
+            "t": "2026-11-04T13:15:54Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa80a3dd951e1665a7e933b",
@@ -25556,10 +25603,10 @@
       "originalTrackId": "",
       "titulo": "Ella Es",
       "artista": "Tony Vega",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T13:09:26Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T13:11:56Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25597,6 +25644,26 @@
           "v": "VERDE",
           "resumen": "QC r2: los 4 defectos de r1 arreglados; checks 0",
           "t": "2026-11-04T13:09:26Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T13:11:56Z"
+        },
+        "sync": {
+          "songId": "6a992f4e486eb0e888ea739e",
+          "trackId": "6aa6e1f972ca57eb1aa83bf1",
+          "src": "richsync",
+          "matched": 137,
+          "words": 278,
+          "median": 67,
+          "halves": [
+            68,
+            67
+          ],
+          "v": "OK",
+          "t": "2026-11-04T13:11:56Z"
         }
       },
       "motivo_en": "QC r1 fixed: gerund wordForm set, wait-sense restored on twin lines 11/29 word 9, phrase insights added on lines 9/27 and 41 with PITs and literal word WITs; English resubmitted to pending_review"
@@ -36506,10 +36573,19 @@
       "originalTrackId": "",
       "titulo": "Dame Lo Que Quiero",
       "artista": "Rakim & Ken Y",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: match 79,5 % (bajo el 80 %) y 35 lineas por decidir a mano (limite 20); la letra del original trae varias faltas de ortografia",
-      "actualizado": "2026-11-04T09:35:36Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T13:14:10Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (75-80, prioridad cover): 28 hints, 80.2 %; linea 1 sin seccion",
+            "t": "2026-11-04T13:14:09Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa6918072ca57eb1aa17b46",
@@ -74587,10 +74663,10 @@
       "originalTrackId": "",
       "titulo": "Asi Es La Vida",
       "artista": "Luis Enrique",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T12:53:03Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-04T13:10:58Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74617,10 +74693,20 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T12:52:32Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT de nombres propios/divinos en minuscula L3w2 L4w2 L24w4 L24w5 L24w7 L47w3; L41 w1-2 conjuncion causal partida",
+            "t": "2026-11-04T13:10:57Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT de nombres propios/divinos en minuscula L3w2 L4w2 L24w4 L24w5 L24w7 L47w3; L41 w1-2 conjuncion causal partida",
+          "t": "2026-11-04T13:10:57Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r1 returned: lowercase English WITs for proper/divine names on line 3 word 2, line 4 word 2, line 24 words 4, 5, 7, line 47 word 3; line 41 words 1-2 causal conjunction split in two (merge and re-anchor)"
     },
     {
       "coverTrackId": "6aa6769372ca57eb1a9f26bf",
