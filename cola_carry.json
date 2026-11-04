@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T14:52:13Z",
+  "generado": "2026-11-04T14:52:28Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 40,
   "canciones": [
@@ -81654,8 +81654,8 @@
       "artista": "Cafe Tacuba, Calle 13",
       "estado": "parada",
       "vueltas": 0,
-      "motivo": "letra del proveedor duplicada línea a línea (karaoke Party Tyme); hay que re-cortar la cover antes de mapear e inglés; plan listo sin aplicar",
-      "actualizado": "2026-10-27T17:59:31Z",
+      "motivo": "el re-corte por hints no sirve: el carry proyecta todas las fichas del proveedor (884 = 884) y ningún hint quita una; la copia doble de cada fila sigue saliendo. No se tocó nada (ni hints, ni revert, ni recut). Hace falta el plan de borrado de líneas (restructure_plan.json) con OK de Saúl",
+      "actualizado": "2026-11-04T14:52:21Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -81685,7 +81685,7 @@
           }
         }
       },
-      "motivo_en": "vendor lyric duplicated line by line (Party Tyme karaoke); cover needs a re-cut before mapping and English; plan ready, not applied"
+      "motivo_en": "the hint re-cut cannot work: the carry projects every vendor token (884 = 884) and no hint removes one, so the doubled copy of each row still comes out. Nothing touched (no hints, revert or recut). Needs the line-delete plan (restructure_plan.json) with Saúl's OK"
     },
     {
       "coverTrackId": "6aa5fabc42b8d1fdb0d9870f",
