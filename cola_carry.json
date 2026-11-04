@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T11:35:18Z",
+  "generado": "2026-11-04T11:39:47Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -6316,10 +6316,10 @@
       "originalTrackId": "",
       "titulo": "Hasta Que Salga El Sol",
       "artista": "Don Omar",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T11:33:30Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-11-04T11:37:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -6357,6 +6357,26 @@
           "v": "VERDE",
           "resumen": "QC r1 VERDE: estructura, mapeo, ingles y audio ok; notas menores para Saul",
           "t": "2026-11-04T11:33:30Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T11:37:33Z"
+        },
+        "sync": {
+          "songId": "6a992f52486eb0e888ea74f7",
+          "trackId": "6aa7494d72ca57eb1ab172ca",
+          "src": "richsync",
+          "matched": 190,
+          "words": 316,
+          "median": 64,
+          "halves": [
+            67,
+            43
+          ],
+          "v": "OK",
+          "t": "2026-11-04T11:37:33Z"
         }
       },
       "motivo_en": "QC r1"
@@ -6479,10 +6499,10 @@
       "originalTrackId": "",
       "titulo": "Desnudate Mujer",
       "artista": "Frankie Ruiz",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T11:27:12Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T11:39:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -6511,15 +6531,35 @@
             "t": "2026-11-04T11:03:40Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT con i minuscula lineas 22/46/56/57; WIT mayuscula a media linea 43 p3",
-            "t": "2026-11-04T11:21:06Z"
+            "v": "ok",
+            "nota": "r2: fixes de r1 confirmados; L22/L46 w3 sin sujeto correcto (w1 ya es el sujeto); chequeos limpios",
+            "t": "2026-11-04T11:37:32Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT con i minuscula lineas 22/46/56/57; WIT mayuscula a media linea 43 p3",
-          "t": "2026-11-04T11:21:06Z"
+          "v": "VERDE",
+          "resumen": "r2: fixes de r1 confirmados; L22/L46 w3 sin sujeto correcto (w1 ya es el sujeto); chequeos limpios",
+          "t": "2026-11-04T11:37:32Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T11:39:33Z"
+        },
+        "sync": {
+          "songId": "6a992f43486eb0e888ea6f23",
+          "trackId": "6aa597ce42b8d1fdb0d0f9df",
+          "src": "richsync",
+          "matched": 111,
+          "words": 336,
+          "median": 7,
+          "halves": [
+            -33,
+            45
+          ],
+          "v": "OK",
+          "t": "2026-11-04T11:39:33Z"
         }
       },
       "motivo_en": "fixed QC r1, to QC r2"
@@ -15174,10 +15214,10 @@
       "originalTrackId": "",
       "titulo": "Bazar",
       "artista": "Flans",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T11:33:11Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T11:37:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15215,6 +15255,26 @@
           "v": "VERDE",
           "resumen": "r1 fixes confirmed (twin WIT capitalised, invented definition), all checks 0, draft pending_review",
           "t": "2026-11-04T11:33:11Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T11:37:17Z"
+        },
+        "sync": {
+          "songId": "6a992f43486eb0e888ea6f03",
+          "trackId": "6aa58fa142b8d1fdb0d04916",
+          "src": "richsync",
+          "matched": 71,
+          "words": 259,
+          "median": 120,
+          "halves": [
+            80,
+            145
+          ],
+          "v": "OK",
+          "t": "2026-11-04T11:37:17Z"
         }
       },
       "motivo_en": "fixed QC r1, to QC r2"
@@ -32263,7 +32323,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T11:27:11Z",
+      "actualizado": "2026-11-04T11:39:47Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -32292,15 +32352,15 @@
             "t": "2026-11-04T11:03:39Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "stale WI word lineas 12/15/20; WIT linea 23 p4 mayuscula; lineas 26/30 p5 mayuscula; linea 27 p3-4 sentido de locucion",
-            "t": "2026-11-04T11:21:06Z"
+            "v": "ok",
+            "nota": "r2: fixes de r1 confirmados (3 word, L23/L26/L30/L27 DTs); chequeos limpios",
+            "t": "2026-11-04T11:39:47Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "stale WI word lineas 12/15/20; WIT linea 23 p4 mayuscula; lineas 26/30 p5 mayuscula; linea 27 p3-4 sentido de locucion",
-          "t": "2026-11-04T11:21:06Z"
+          "v": "VERDE",
+          "resumen": "r2: fixes de r1 confirmados (3 word, L23/L26/L30/L27 DTs); chequeos limpios",
+          "t": "2026-11-04T11:39:47Z"
         }
       },
       "motivo_en": "fixed QC r1, to QC r2"
@@ -51386,10 +51446,10 @@
       "originalTrackId": "",
       "titulo": "Yo Quiero",
       "artista": "Camila",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T11:19:48Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-04T11:38:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51418,13 +51478,18 @@
             "t": "2026-11-04T11:19:36Z"
           },
           "qc": {
-            "v": "ok",
-            "nota": "ROJO solo por diferencias justificadas con el original e ingles_falta",
-            "t": "2026-11-04T10:44:24Z"
+            "v": "falta",
+            "nota": "QC r1: linea 30 palabra 5 WIT con i minuscula; linea 11 palabra 6 WIT repite sentido de vecinas",
+            "t": "2026-11-04T11:38:10Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: linea 30 palabra 5 WIT con i minuscula; linea 11 palabra 6 WIT repite sentido de vecinas",
+          "t": "2026-11-04T11:38:10Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r1 returned: line 30 word 5 WIT with lowercase i (and wrong tense); line 11 word 6 WIT repeats its neighbours' meaning"
     },
     {
       "coverTrackId": "6aa82ffdd951e1665a8215f3",
