@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T11:39:47Z",
+  "generado": "2026-11-04T11:41:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -32320,10 +32320,10 @@
       "originalTrackId": "",
       "titulo": "Si Me Recuerdas",
       "artista": "los Bukis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T11:39:47Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T11:40:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -32361,6 +32361,26 @@
           "v": "VERDE",
           "resumen": "r2: fixes de r1 confirmados (3 word, L23/L26/L30/L27 DTs); chequeos limpios",
           "t": "2026-11-04T11:39:47Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T11:40:45Z"
+        },
+        "sync": {
+          "songId": "6a992f47486eb0e888ea70c3",
+          "trackId": "6aa61acc72ca57eb1a966384",
+          "src": "richsync",
+          "matched": 106,
+          "words": 181,
+          "median": 76,
+          "halves": [
+            77,
+            60
+          ],
+          "v": "OK",
+          "t": "2026-11-04T11:40:45Z"
         }
       },
       "motivo_en": "fixed QC r1, to QC r2"
