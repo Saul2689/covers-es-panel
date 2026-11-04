@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T14:35:00Z",
+  "generado": "2026-11-04T14:36:57Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 40,
   "canciones": [
@@ -30980,10 +30980,10 @@
       "originalTrackId": "",
       "titulo": "El Tango Del Pecado",
       "artista": "Calle 13",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T14:32:44Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T14:36:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -31021,6 +31021,26 @@
           "v": "VERDE",
           "resumen": "QC r2: L58w9 WIT on capitalised row; all checks pass",
           "t": "2026-11-04T14:32:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T14:36:17Z"
+        },
+        "sync": {
+          "songId": "6a992f40486eb0e888ea6dfe",
+          "trackId": "6aa539f742b8d1fdb0c9d4f3",
+          "src": "richsync",
+          "matched": 225,
+          "words": 470,
+          "median": 117,
+          "halves": [
+            127,
+            103
+          ],
+          "v": "OK",
+          "t": "2026-11-04T14:36:17Z"
         }
       },
       "motivo_en": "QC r1 fixed: line 58 word 9 country-name WIT moved to the capitalised row"
@@ -40169,7 +40189,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T14:19:11Z",
+      "actualizado": "2026-11-04T14:36:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40198,15 +40218,15 @@
             "t": "2026-11-04T13:42:42Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WITs de dias en minuscula L7/11/15/19/37/41 w1 y L33 w2; L33 w4 nombre con minuscula inicial",
-            "t": "2026-11-04T14:11:13Z"
+            "v": "ok",
+            "nota": "QC r2: day-name WITs lines 7/11/15/19/37/41 w1, 33 w2 and L33w4 on capitalised rows; all checks pass",
+            "t": "2026-11-04T14:36:33Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WITs de dias en minuscula L7/11/15/19/37/41 w1 y L33 w2; L33 w4 nombre con minuscula inicial",
-          "t": "2026-11-04T14:11:13Z"
+          "v": "VERDE",
+          "resumen": "QC r2: day-name WITs lines 7/11/15/19/37/41 w1, 33 w2 and L33w4 on capitalised rows; all checks pass",
+          "t": "2026-11-04T14:36:33Z"
         }
       },
       "motivo_en": "QC r1 fixed: day-name WITs on lines 7/11/15/19/37/41 word 1 and line 33 word 2, and the name WIT on line 33 word 4, moved to capitalised rows"
@@ -48618,17 +48638,17 @@
       "originalTrackId": "",
       "titulo": "Que El Ritmo No Pare",
       "artista": "Patricia Manterola",
-      "estado": "parada",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry al 84%: el outro (líneas 57-77) y las líneas 10/12/29/30/32/44-46 necesitan hints a mano y oído; aplicar bajaría de 132 a 77 líneas y saltaría 223 mapeos en una cover publicada",
-      "actualizado": "2026-10-29T09:50:33Z",
+      "motivo": "carry v2 aplicado (paradas)",
+      "actualizado": "2026-11-04T14:36:56Z",
       "motivo_en": "carry needs hand hints and an ear check; applying would drop 223 mappings on a published cover",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "saul",
-            "nota": "carry NO aplicado: 84% match, 22 lineas en revision; L10 L12 L29 L30 L32 (palabra distinta/orden), L44-46 (join/keepBreak) y outro L61-L77 (proyeccion parte v106 en dos, vendor canta otra estructura) son casos de persona por regla; solo L11 L41 L63-77 Asi son de agente. Cover publicada, 463 anclas en 132 lineas que pasarian a 77",
-            "t": "2026-10-29T09:49:59Z"
+            "v": "ok",
+            "nota": "carry a mano v2 (80+, normal): 12 hints, 84 % (85 % tras hints)",
+            "t": "2026-11-04T14:36:55Z"
           }
         }
       }
