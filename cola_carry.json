@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T14:41:54Z",
+  "generado": "2026-11-04T14:43:48Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 40,
   "canciones": [
@@ -19606,10 +19606,10 @@
       "originalTrackId": "",
       "titulo": "Maquillaje",
       "artista": "Mecano",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-11-04T14:37:15Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T14:42:18Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19649,7 +19649,7 @@
           "t": "2026-11-04T14:37:14Z"
         }
       },
-      "motivo_en": "QC r1: line 10 words 7-9 are a fixed locution with an existing es phrase item (6acf904fdfee4042bfb9e0d8) but no phrase insight; the word WITs do not match the line English. Anchor the phrase, add a literal PIT, resubmit the draft."
+      "motivo_en": "QC r1 fix: phrase insight on line 10 words 7-9 to the existing phrase item, PIT from the line English, word 9 WIT aligned; English resubmitted to pending_review"
     },
     {
       "coverTrackId": "6aa80a3dd951e1665a7e933b",
@@ -36939,10 +36939,10 @@
       "originalTrackId": "",
       "titulo": "Dame Lo Que Quiero",
       "artista": "Rakim & Ken Y",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T14:37:46Z",
+      "motivo": "espera a Saúl: QC r2 VERDE; paso lrc pendiente de sus pistas spell-original, L29w9, L35w9 y mayúsculas a mitad de línea L26/32/45/50 w2",
+      "actualizado": "2026-11-04T14:43:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36982,7 +36982,7 @@
           "t": "2026-11-04T14:37:46Z"
         }
       },
-      "motivo_en": "QC r1 fixed: line 26/32 word 9 WIT set to the having-fun row; line 26/32 word 5 WIT set to the joint row and both twin line Englishes now translate that word; resubmitted to pending_review"
+      "motivo_en": "waiting for Saúl: QC r2 VERDE; lrc step pending his spell-original hints, L29w9, L35w9 and mid-line capitals L26/32/45/50 w2"
     },
     {
       "coverTrackId": "6aa6918072ca57eb1aa17b46",
@@ -38924,7 +38924,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T14:18:02Z",
+      "actualizado": "2026-11-04T14:43:35Z",
       "motivo_en": "QC r1 fixed: proper-name WITs moved to capitalised rows; new name items Rakim and Omar get capitalised primary rows; trailing commas on lines 36 and 85 still wait for Saul",
       "auditoria": {
         "pasos": {
@@ -38954,15 +38954,15 @@
             "t": "2026-11-04T13:42:42Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WITs de nombres propios en minuscula: L9/53/76/86/89 w1, L29 w1, L77 w1, L84 w2, L85 w4-5",
-            "t": "2026-11-04T14:06:32Z"
+            "v": "ok",
+            "nota": "QC r2: proper-name WITs lines 9/53/76/86/89 w1, 85 w4-5, 29 w1, 77 w1, 84 w2 on capitalised rows; all checks pass",
+            "t": "2026-11-04T14:43:35Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WITs de nombres propios en minuscula: L9/53/76/86/89 w1, L29 w1, L77 w1, L84 w2, L85 w4-5",
-          "t": "2026-11-04T14:06:32Z"
+          "v": "VERDE",
+          "resumen": "QC r2: proper-name WITs lines 9/53/76/86/89 w1, 85 w4-5, 29 w1, 77 w1, 84 w2 on capitalised rows; all checks pass",
+          "t": "2026-11-04T14:43:35Z"
         }
       }
     },
@@ -40196,10 +40196,10 @@
       "originalTrackId": "",
       "titulo": "No Voy A Trabaja",
       "artista": "Bermudas",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T14:36:33Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T14:42:50Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -40237,6 +40237,26 @@
           "v": "VERDE",
           "resumen": "QC r2: day-name WITs lines 7/11/15/19/37/41 w1, 33 w2 and L33w4 on capitalised rows; all checks pass",
           "t": "2026-11-04T14:36:33Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T14:42:50Z"
+        },
+        "sync": {
+          "songId": "6a992f3f486eb0e888ea6dd9",
+          "trackId": "6aa532fc42b8d1fdb0c9167e",
+          "src": "richsync",
+          "matched": 36,
+          "words": 396,
+          "median": 60,
+          "halves": [
+            67,
+            36
+          ],
+          "v": "OK",
+          "t": "2026-11-04T14:42:50Z"
         }
       },
       "motivo_en": "QC r1 fixed: day-name WITs on lines 7/11/15/19/37/41 word 1 and line 33 word 2, and the name WIT on line 33 word 4, moved to capitalised rows"
@@ -66514,16 +66534,36 @@
       "originalTrackId": "",
       "titulo": "Gata Celosa",
       "artista": "Hector & Tito",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T14:04:19Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T14:43:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano v2 (75-80,cover-priority): 11 hints, 78.5 %",
-            "t": "2026-11-04T14:04:18Z"
+            "nota": "carry ya aplicado, no tocado; pistas de Saúl intactas",
+            "t": "2026-11-04T14:43:31Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "25 tildes (L1 L2 L4 L5 L6 L7 L9 L14 L16 L17 L25 L27 L30 L34 L38 L44 L50 L54); signos y mayúsculas para Saúl",
+            "t": "2026-11-04T14:43:31Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "L44w7 ensanchada a 186 ms dentro de su línea; drift 0, ninguna <40 ms",
+            "t": "2026-11-04T14:43:32Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "33 huecos mapeados, 17 items nuevos; L11w2-3 ambos al mismo item; L15w6 sin mapear para Saúl",
+            "t": "2026-11-04T14:43:32Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan 56 líneas, 339/339 WIT; sin borrador",
+            "t": "2026-11-04T14:43:33Z"
           }
         }
       }
