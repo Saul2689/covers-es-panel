@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T10:39:51Z",
+  "generado": "2026-11-04T11:04:31Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -2242,8 +2242,8 @@
       "artista": "Daddy Yankee",
       "estado": "cola",
       "vueltas": 0,
-      "motivo": "sin original: subir por ISRC antes del carry",
-      "actualizado": "2026-09-22T13:23:56Z"
+      "motivo": "original enlazado 6aeb0c24ee9091b0f911b393, falta carry",
+      "actualizado": "2026-11-04T10:44:20Z"
     },
     {
       "coverTrackId": "6a9ae8c803cb4155d3d552fb",
@@ -6401,19 +6401,40 @@
       "originalTrackId": "",
       "titulo": "Desnudate Mujer",
       "artista": "Frankie Ruiz",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T10:18:45Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T11:03:46Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano: 45 hints, 80 %",
             "t": "2026-11-04T10:18:44Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "lrc_plan_fix: 44 tokens en 24 lineas (4 merges de fragmentos L11/L12/L15/L18, L1/L20 w4 partida en dos, tildes, mayusculas, parentesis sueltos, coma final L71); L71 re-cortada en 3 lineas (split_lines + lrc_add_line), 73 lineas; L17w1 y L22w1 al texto del original (no se prueba otra cosa)",
+            "t": "2026-11-04T10:53:47Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 73/73, monotono, ninguna palabra < 40 ms, sin huecos > 15 s; audio_guard SUENA_SIN_BLINDAR (stemVoc +0 ms), sin medir",
+            "t": "2026-11-04T10:53:48Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "7 items nuevos (19 idiomas, missing 0); ~75 anclas nuevas/movidas, 6 fuera de rango borradas tras mi cambio de tokens; gemelas unificadas; 9 phrase insights; solo queda sin mapear el ad-lib de L59",
+            "t": "2026-11-04T10:53:48Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T11:03:40Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa7a19072ca57eb1ad043a3",
@@ -11474,8 +11495,8 @@
       "artista": "Ruben Blades",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T10:11:52Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T10:58:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -11499,12 +11520,13 @@
             "t": "2026-11-04T10:11:48Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 49 lineas + 325 WIT con DT de su bolsa; falta abrir el borrador (orquestador)",
-            "t": "2026-11-04T10:11:50Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T10:57:56Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa67fb572ca57eb1aa01264",
@@ -15018,8 +15040,8 @@
       "artista": "Flans",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T10:28:04Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T10:58:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15043,12 +15065,13 @@
             "t": "2026-11-04T10:28:03Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (61 líneas, 253/253 WIT, dry run limpio); lo aplica el orquestador",
-            "t": "2026-11-04T10:28:03Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T10:57:58Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa822d2d951e1665a80cde3",
@@ -29169,10 +29192,10 @@
       "originalTrackId": "",
       "titulo": "Y Nos Amamos",
       "artista": "David Pabon",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
-      "actualizado": "2026-11-04T10:28:38Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T10:58:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -29196,12 +29219,13 @@
             "t": "2026-11-04T10:28:37Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (40 lineas, 243 WIT, 5 PIT); falta abrir el borrador",
-            "t": "2026-11-04T10:28:38Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T10:57:58Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa71fa772ca57eb1aad501a",
@@ -32013,8 +32037,8 @@
       "artista": "los Bukis",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T10:38:42Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T11:03:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -32039,11 +32063,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan.json a mano: 32 lineas, 181/181 WIT con DT de su bolsa, 3 PIT; wit_dt_audit BAD 0; sin abrir draft",
-            "t": "2026-11-04T10:38:42Z"
+            "nota": "aplicado",
+            "t": "2026-11-04T11:03:39Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6ca9172ca57eb1aa6078c",
@@ -35931,10 +35956,10 @@
       "originalTrackId": "",
       "titulo": "Tu Camino Y El Mio",
       "artista": "Vicente Fernandez",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T10:39:47Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-11-04T10:49:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -35961,7 +35986,37 @@
             "v": "ok",
             "nota": "en_plan aplicado",
             "t": "2026-11-04T10:39:39Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: checks pass, twins identical, new items complete, audio SUENA_SIN_BLINDAR",
+            "t": "2026-11-04T10:48:15Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: checks pass, twins identical, new items complete, audio SUENA_SIN_BLINDAR",
+          "t": "2026-11-04T10:48:15Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T10:49:02Z"
+        },
+        "sync": {
+          "songId": "6a992f4f486eb0e888ea73e4",
+          "trackId": "6aa7003072ca57eb1aaa2f40",
+          "src": "richsync",
+          "matched": 58,
+          "words": 126,
+          "median": -54,
+          "halves": [
+            -56,
+            -50
+          ],
+          "v": "OK",
+          "t": "2026-11-04T10:49:02Z"
         }
       },
       "motivo_en": "QC r1"
@@ -41236,10 +41291,10 @@
       "originalTrackId": "",
       "titulo": "En El Ultimo Lugar Del Mundo",
       "artista": "Ricardo Montaner",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-11-04T10:30:48Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T10:44:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41279,7 +41334,7 @@
           "t": "2026-11-04T10:30:46Z"
         }
       },
-      "motivo_en": "Lowercase I in WITs on line 11 w2, line 12 w2, lines 16/32/41 w1, lines 20/36/45 w1 and in the en primaries of new items 0128ef and 965914; doubled I on line 11 w2-3 and lines 20/36/45 w1-2; mid-line capital To on line 6 w6"
+      "motivo_en": "fixed QC r1, to QC r2"
     },
     {
       "coverTrackId": "6aa5c46b42b8d1fdb0d44493",
@@ -48244,16 +48299,36 @@
       "originalTrackId": "",
       "titulo": "El Padre Antonio Y El Monaguillo Andres",
       "artista": "Ruben Blades",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T09:32:06Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T10:57:22Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano: 38 hints, 81 %",
-            "t": "2026-11-04T09:32:05Z"
+            "nota": "carry ya aplicado (38 hints), no tocado",
+            "t": "2026-11-04T10:42:18Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "25 token edits (tildes, mayusculas de nombres, linea 27 palabra 6 como el original); ear-notes del carry como se cantan",
+            "t": "2026-11-04T10:42:18Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "2 palabras de 0 ms arregladas (richsync 18, 73, solo el final); hueco antes de linea 47 instrumental (whisper nada entre 238 y 259 s, outro solo del cover)",
+            "t": "2026-11-04T10:42:51Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "346/365 mapeados; 19 sin mapear = nombres propios y ad-libs; 28 items nuevos + 5 items con 19 idiomas añadidos; gemelas 0",
+            "t": "2026-11-04T10:57:21Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan a mano 67 líneas + 346/346 WITs, wit_dt_audit BAD 0",
+            "t": "2026-11-04T10:57:21Z"
           }
         }
       }
@@ -51036,14 +51111,39 @@
       "artista": "Camila",
       "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T09:31:28Z",
+      "motivo": "LRC, tiempos y mapeo hechos; ingles preparado en en_plan.json, falta abrir el borrador",
+      "actualizado": "2026-11-04T10:44:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano: 2 hints, 81 %",
-            "t": "2026-11-04T09:31:26Z"
+            "nota": "carry ya aplicado; gate OK mediana 90 ms con solo 67/303 palabras casadas; tiempos sin mover",
+            "t": "2026-11-04T10:44:22Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "31 tildes restauradas (19 lineas), parentesis del nombre linea 26 quitados; ids y tiempos intactos",
+            "t": "2026-11-04T10:44:22Z"
+          },
+          "timing": {
+            "v": "saul",
+            "nota": "drift 0; SUENA_SIN_BLINDAR; linea 48 palabra 4 dura <=0 ms y hueco 21 s antes de linea 3: sin tocar, para Saul",
+            "t": "2026-11-04T10:44:23Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 sin mapear salvo ad-libs; 22 anclas nuevas, 14 remapeos (tildes y gemelas), 4 items y 1 frase nuevos",
+            "t": "2026-11-04T10:44:23Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 56 lineas, 288 WITs, 1 PIT; dry run OK; falta abrir el borrador",
+            "t": "2026-11-04T10:44:24Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "ROJO solo por diferencias justificadas con el original e ingles_falta",
+            "t": "2026-11-04T10:44:24Z"
           }
         }
       }
@@ -56944,9 +57044,9 @@
       "titulo": "Ayudame",
       "artista": "Paulina Rubio",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T10:39:49Z",
+      "vueltas": 1,
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T11:00:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -56973,10 +57073,20 @@
             "v": "ok",
             "nota": "en_plan aplicado",
             "t": "2026-11-04T10:39:40Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: line 1 word 7 WIT doubles the negation of word 8",
+            "t": "2026-11-04T10:49:03Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: line 1 word 7 WIT doubles the negation of word 8",
+          "t": "2026-11-04T10:49:03Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "fixed QC r1, to QC r2"
     },
     {
       "coverTrackId": "6aa6147842b8d1fdb0db2e4e",
@@ -62284,8 +62394,8 @@
       "artista": "Junior & Jorge",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T10:31:10Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T11:03:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62310,11 +62420,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan.json a mano: 39 lineas, 216/216 WIT con DT de su bolsa, 2 PIT; wit_dt_audit BAD 0; sin abrir draft",
-            "t": "2026-11-04T10:31:08Z"
+            "nota": "aplicado",
+            "t": "2026-11-04T11:03:38Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa67dfb72ca57eb1a9fed1a",
@@ -70766,10 +70877,10 @@
       "originalTrackId": "",
       "titulo": "Te Echo De Menos",
       "artista": "Chayanne",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-11-04T10:33:27Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T10:46:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70809,7 +70920,7 @@
           "t": "2026-11-04T10:33:26Z"
         }
       },
-      "motivo_en": "Lowercase I in the WIT on line 6 w9 and in the en primary of new item 01580b; double gloss on line 1 w3-4 and line 1 w6-7; mid-line capital To on line 8 w3"
+      "motivo_en": "fixed QC r1, to QC r2"
     },
     {
       "coverTrackId": "6aa110fd64c9b8ff110c2779",
@@ -72683,16 +72794,36 @@
       "originalTrackId": "",
       "titulo": "Adeste Fideles",
       "artista": "Navidad",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles; sync DUDA median n/a",
-      "actualizado": "2026-11-04T09:53:08Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T10:45:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano: 12 hints, 80 %",
-            "t": "2026-11-04T09:41:05Z"
+            "nota": "carry ya aplicado (12 hints), no tocado",
+            "t": "2026-11-04T10:45:27Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "19 token edits (tildes y mayusculas como el original); ear-notes del carry como se cantan",
+            "t": "2026-11-04T10:45:29Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 38/38, sin palabra <40 ms; sync DUDA 0/141 casadas (el reconocedor no casa nada): sin mover, medir ni fijar",
+            "t": "2026-11-04T10:45:30Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "138/141; 4 anclas + 32 remaps (gemelas unificadas, campanas=bells); sin mapear solo el nombre propio de lugar (lineas 3, 12, 21)",
+            "t": "2026-11-04T10:45:31Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan 38 lineas + 138/138 WITs, BAD 0",
+            "t": "2026-11-04T10:45:31Z"
           }
         }
       }
@@ -83499,10 +83630,10 @@
       "originalTrackId": "",
       "titulo": "Y Ahora Te Vas",
       "artista": "Marco Antonio Solis",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-11-04T10:28:17Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T10:43:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -83542,7 +83673,7 @@
           "t": "2026-11-04T10:28:15Z"
         }
       },
-      "motivo_en": "Interrogative pronoun missing its tilde on lines 13/25/33 word 2 and 15/27/36 word 1 (remap to the interrogative item); WIT on line 8/20 word 1 should be the of-the row; line 1 word 5 WIT duplicates word 4"
+      "motivo_en": "fixed QC r1, to QC r2"
     },
     {
       "coverTrackId": "6aa6ce7072ca57eb1aa653d5",
