@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T18:51:31Z",
+  "generado": "2026-11-04T09:22:04Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -45827,10 +45827,10 @@
       "originalTrackId": "",
       "titulo": "Puerto Rico",
       "artista": "Frankie Ruiz",
-      "estado": "revision",
+      "estado": "parada",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-10-29T18:41:47Z",
+      "motivo": "espera a Saúl: escuchar posibles estribillos no transcritos tras lineas 36, 39 y 41 (paso lrc saul); QC r2 VERDE",
+      "actualizado": "2026-11-04T09:15:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -45854,23 +45854,23 @@
             "t": "2026-10-29T16:43:28Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (59 lineas, 233/233 WIT); falta abrir el borrador",
-            "t": "2026-10-29T16:43:29Z"
+            "v": "ok",
+            "nota": "borrador en pending_review 29 oct 18:41Z, 59/59 lineas, WIT BAD 0",
+            "t": "2026-11-04T09:15:08Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "linea 56 palabra 4: nombre propio anclado a item de otra persona",
-            "t": "2026-10-29T18:37:34Z"
+            "v": "ok",
+            "nota": "r2: L56 w4 now on new name item, 19 langs, WIT own bag; all checks 0, guard SUENA_SIN_BLINDAR",
+            "t": "2026-11-04T09:14:43Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "linea 56 palabra 4: nombre propio anclado a item de otra persona",
-          "t": "2026-10-29T18:37:34Z"
+          "v": "VERDE",
+          "resumen": "r2: L56 w4 now on new name item, 19 langs, WIT own bag; all checks 0, guard SUENA_SIN_BLINDAR",
+          "t": "2026-11-04T09:14:43Z"
         }
       },
-      "motivo_en": "QC r2"
+      "motivo_en": "Waiting for Saul: listen for possibly untranscribed chorus repeats after lines 36, 39 and 41 (lrc step = saul); QC r2 VERDE"
     },
     {
       "coverTrackId": "6aa6c4c972ca57eb1aa58e85",
@@ -78737,9 +78737,9 @@
       "titulo": "El Rey",
       "artista": "Lupillo Rivera",
       "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-10-29T18:43:03Z",
+      "vueltas": 1,
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T09:17:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -78766,10 +78766,20 @@
             "v": "ok",
             "nota": "en_plan.json: 25 lineas + 131 WIT con DT de su bolsa",
             "t": "2026-10-29T17:20:07Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: 4 WIT en el borrador en: linea 1 palabra 2, lineas 7/20 palabra 5, linea 19 palabra 2",
+            "t": "2026-11-04T09:15:46Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: 4 WIT en el borrador en: linea 1 palabra 2, lineas 7/20 palabra 5, linea 19 palabra 2",
+          "t": "2026-11-04T09:15:46Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r2"
     },
     {
       "coverTrackId": "6aa5777442b8d1fdb0ce0615",
