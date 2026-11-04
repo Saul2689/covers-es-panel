@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T12:55:23Z",
+  "generado": "2026-11-04T13:09:28Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -1931,10 +1931,10 @@
       "originalTrackId": "",
       "titulo": "Verano Rosa",
       "artista": "Feid, Karol G",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T12:53:02Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T13:04:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -1963,15 +1963,35 @@
             "t": "2026-11-04T12:28:56Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "twins L3/24 w4,w13 and L5 w5 WIT differ; L1/22/37 w2-4 idiom read word-by-word, needs es phrase item",
-            "t": "2026-11-04T12:35:36Z"
+            "v": "ok",
+            "nota": "QC r2: twin WITs L3/L24/L5 fixed, phrase insight L1/L22/L37 w2-4 ok; all checks pass",
+            "t": "2026-11-04T13:01:53Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "twins L3/24 w4,w13 and L5 w5 WIT differ; L1/22/37 w2-4 idiom read word-by-word, needs es phrase item",
-          "t": "2026-11-04T12:35:36Z"
+          "v": "VERDE",
+          "resumen": "QC r2: twin WITs L3/L24/L5 fixed, phrase insight L1/L22/L37 w2-4 ok; all checks pass",
+          "t": "2026-11-04T13:01:53Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T13:04:15Z"
+        },
+        "sync": {
+          "songId": "6a992eff486eb0e888ea52d6",
+          "trackId": "6a9ec98beef2ad59f63a2916",
+          "src": "richsync",
+          "matched": 201,
+          "words": 388,
+          "median": -170,
+          "halves": [
+            -170,
+            -170
+          ],
+          "v": "OK",
+          "t": "2026-11-04T13:04:15Z"
         }
       },
       "motivo_en": "QC r1: twin WITs unified (L24 w4, L3 w13, L5 w5); new es phrase item 6aeb2a5dee9091b0f91bf682 (19 langs) with PIs on L1/L22/L37 w2-4, identical PITs; resubmitted"
@@ -4140,10 +4160,10 @@
       "originalTrackId": "695598f26a05f13ba2677aaf",
       "titulo": "Propuesta Indecente",
       "artista": "Romeo Santos",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T12:53:03Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "QC r2 devuelto",
+      "actualizado": "2026-11-04T13:08:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -4173,17 +4193,17 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "twin WITs differ: L12/29 w1, L15/32 w4, L17/34 w6, L9/26 w2, L14/31 w3",
-            "t": "2026-11-04T12:40:59Z"
+            "nota": "QC r2: r1 twins fixed; line 58 word 2 mapped to wrong-sense item (ad-lib on a noun item)",
+            "t": "2026-11-04T13:08:50Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "twin WITs differ: L12/29 w1, L15/32 w4, L17/34 w6, L9/26 w2, L14/31 w3",
-          "t": "2026-11-04T12:40:59Z"
+          "resumen": "QC r2: r1 twins fixed; line 58 word 2 mapped to wrong-sense item (ad-lib on a noun item)",
+          "t": "2026-11-04T13:08:50Z"
         }
       },
-      "motivo_en": "QC r1: twin WITs unified (L29 w1, L15 w4, L34 w6, L9/L26 w2, L14/L31 w3); all twin lines match; resubmitted"
+      "motivo_en": "Line 58 word 2 is mapped to the baby-milk noun item; the word is an ad-lib here. Remap to interjection item 6ac51495ae7e2284617de954 (keep the WI id), fix its WIT, reopen and resubmit the en draft."
     },
     {
       "coverTrackId": "6aa804a3d951e1665a7e1e7c",
@@ -8865,10 +8885,10 @@
       "originalTrackId": "",
       "titulo": "Te Llore Un Rio",
       "artista": "Mana",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-11-04T12:48:39Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T13:03:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -8908,7 +8928,7 @@
           "t": "2026-11-04T12:48:38Z"
         }
       },
-      "motivo_en": "L38 w1/3/5 mapped to the PRES.3SG item but used as the tu imperative (WIT imperative); create IMP.2SG item and remap"
+      "motivo_en": "QC r1 fixed: new tu-imperative item created with 19 languages, line 38 words 1/3/5 remapped to it with matching WITs; English resubmitted to pending_review"
     },
     {
       "coverTrackId": "6aa7341e72ca57eb1aaf530a",
@@ -23254,10 +23274,10 @@
       "originalTrackId": "",
       "titulo": "Te Necesito",
       "artista": "Luis Miguel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T12:53:01Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-04T13:07:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23284,10 +23304,20 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T12:47:10Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L8 y L22 w2-4 locucion sin phrase insight (item es 6ac5ea665f41a10082847d62 existe); w4 sentido equivocado",
+            "t": "2026-11-04T13:07:34Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L8 y L22 w2-4 locucion sin phrase insight (item es 6ac5ea665f41a10082847d62 existe); w4 sentido equivocado",
+          "t": "2026-11-04T13:07:34Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r1 returned: lines 8 and 22 words 2-4 are a fixed locution with no phrase insight (es phrase item 6ac5ea665f41a10082847d62 exists); word 4 on the wrong relative-pronoun sense; WITs do not fit the line English"
     },
     {
       "coverTrackId": "6aa72e1672ca57eb1aaeae97",
@@ -25526,10 +25556,10 @@
       "originalTrackId": "",
       "titulo": "Ella Es",
       "artista": "Tony Vega",
-      "estado": "correccion",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "QC r1 devuelto",
-      "actualizado": "2026-11-04T12:46:39Z",
+      "motivo": "corregido QC r1, a QC r2",
+      "actualizado": "2026-11-04T13:09:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25558,18 +25588,18 @@
             "t": "2026-11-04T12:30:56Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L16/34 w7 wordForm FINITE->GERUND; L11/29 w9 sentido esperanza vs WIT/ingles esperar; L9/27 w7-8 y L41 w4-7 locuciones sin phrase item (WIT partidos)",
-            "t": "2026-11-04T12:46:38Z"
+            "v": "ok",
+            "nota": "QC r2: los 4 defectos de r1 arreglados; checks 0",
+            "t": "2026-11-04T13:09:26Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L16/34 w7 wordForm FINITE->GERUND; L11/29 w9 sentido esperanza vs WIT/ingles esperar; L9/27 w7-8 y L41 w4-7 locuciones sin phrase item (WIT partidos)",
-          "t": "2026-11-04T12:46:38Z"
+          "v": "VERDE",
+          "resumen": "QC r2: los 4 defectos de r1 arreglados; checks 0",
+          "t": "2026-11-04T13:09:26Z"
         }
       },
-      "motivo_en": "L16/34 w7 new item wordForm must be GERUND; L11/29 w9 item sense (hope) disagrees with WIT and line English (wait); L9/27 w7-8 and L41 w4-7 locutions need Spanish phrase items, WITs split"
+      "motivo_en": "QC r1 fixed: gerund wordForm set, wait-sense restored on twin lines 11/29 word 9, phrase insights added on lines 9/27 and 41 with PITs and literal word WITs; English resubmitted to pending_review"
     },
     {
       "coverTrackId": "6aa6df2272ca57eb1aa801ca",
@@ -39683,16 +39713,36 @@
       "originalTrackId": "",
       "titulo": "No Voy A Trabaja",
       "artista": "Bermudas",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T11:51:28Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T13:04:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano v2 (80+, normal): 119 hints, 95 %",
             "t": "2026-11-04T11:51:27Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "lineas 37-38: palabra compuesta partida en dos (errata, el original lo escribe asi); puntuacion para Saul",
+            "t": "2026-11-04T13:04:23Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna <40 ms; 6 palabras retimadas en 37-38; hueco 6->7 de 21 s a escuchar",
+            "t": "2026-11-04T13:04:23Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "26 items nuevos + 208 anclas; gemelas unificadas; sin mapear solo ad-libs y nombre propio",
+            "t": "2026-11-04T13:04:24Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "plan en_plan.json 62 lineas 387 WITs listo; lo aplica el orquestador",
+            "t": "2026-11-04T13:04:24Z"
           }
         }
       }
@@ -41967,10 +42017,10 @@
       "originalTrackId": "",
       "titulo": "Mayor Que Yo",
       "artista": "Michael Stuart",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T12:52:59Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-04T13:05:01Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41997,10 +42047,20 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T12:52:31Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L59 w1 falta tilde interrogativa (+ancla al item acentuado); L70 w10 WIT del nombre de Dios en minuscula (fila mayuscula existe)",
+            "t": "2026-11-04T13:05:01Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L59 w1 falta tilde interrogativa (+ancla al item acentuado); L70 w10 WIT del nombre de Dios en minuscula (fila mayuscula existe)",
+          "t": "2026-11-04T13:05:01Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r1 returned: line 59 word 1 missing interrogative tilde (re-anchor to accented item); line 70 word 10 WIT for the name of God lowercase (point to existing capitalised row)"
     },
     {
       "coverTrackId": "6aa8015bd951e1665a7dfa50",
