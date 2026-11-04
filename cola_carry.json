@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T13:58:26Z",
+  "generado": "2026-11-04T14:07:56Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -8876,10 +8876,19 @@
       "originalTrackId": "",
       "titulo": "Quieres Ser Mi Amante?",
       "artista": "Camilo Sesto",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 80%: necesita hints a mano",
-      "actualizado": "2026-09-30T09:50:09Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T14:04:22Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (80+,normal): 9 hints, 80.3 %",
+            "t": "2026-11-04T14:04:21Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa52c1c42b8d1fdb0c88598",
@@ -9497,8 +9506,8 @@
       "artista": "Victor Manuelle",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T13:48:41Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T14:07:40Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9522,12 +9531,13 @@
             "t": "2026-11-04T13:48:19Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 48 líneas + 280 WIT, dry run 280/280 skipped 0; falta abrir borrador y aplicar",
-            "t": "2026-11-04T13:48:19Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T14:07:15Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5eabe42b8d1fdb0d7e2c5",
@@ -12471,10 +12481,19 @@
       "originalTrackId": "",
       "titulo": "Detalles",
       "artista": "Oscar D'leon",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 79%: necesita hints a mano",
-      "actualizado": "2026-10-06T10:56:22Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T14:04:17Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (75-80,cover-priority): 20 hints, 78.8 %",
+            "t": "2026-11-04T14:04:16Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa56e3f42b8d1fdb0cd289f",
@@ -25110,10 +25129,19 @@
       "originalTrackId": "",
       "titulo": "Ayer",
       "artista": "Gloria Estefan",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: pregunta de forma de linea (join) en linea 38 y vocable distinto en linea 37 palabra 2, decision de persona",
-      "actualizado": "2026-10-29T16:01:38Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T14:04:16Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (80+,normal): 35 hints, 81.7 %",
+            "t": "2026-11-04T14:04:15Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa80d34d951e1665a7ecc2a",
@@ -28945,10 +28973,19 @@
       "originalTrackId": "",
       "titulo": "Vuela Muy Alto",
       "artista": "Jerry Rivera",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: 30 preguntas, 42 de 89 lineas en revision; desde la linea 64 la cover canta un final que no esta en el original; 6 preguntas de unir/cortar lineas",
-      "actualizado": "2026-10-29T16:03:31Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T14:04:18Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (80+,normal): 42 hints, 83.5 %",
+            "t": "2026-11-04T14:04:17Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5cfad42b8d1fdb0d55ecd",
@@ -30822,10 +30859,10 @@
       "originalTrackId": "",
       "titulo": "El Tango Del Pecado",
       "artista": "Calle 13",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T13:43:14Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-04T14:02:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30852,10 +30889,20 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T13:42:41Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "L58 w9 WIT de nombre de pais en minuscula (existe fila con mayuscula)",
+            "t": "2026-11-04T14:02:11Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "L58 w9 WIT de nombre de pais en minuscula (existe fila con mayuscula)",
+          "t": "2026-11-04T14:02:11Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r1 returned: line 58 word 9 country-name WIT is lowercase; point it at the item's capitalised row and resubmit"
     },
     {
       "coverTrackId": "6aa81f0fd951e1665a8082b0",
@@ -36577,10 +36624,19 @@
       "originalTrackId": "",
       "titulo": "Me Voy A Regalar",
       "artista": "Marc Anthony",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 80%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:26:35Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T14:04:20Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (75-80,cover-priority): 18 hints, 80.0 %",
+            "t": "2026-11-04T14:04:19Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa7d3ac2367b69ab70b3dd3",
@@ -36714,8 +36770,8 @@
       "artista": "Rakim & Ken Y",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T13:41:49Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T14:07:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -36739,12 +36795,13 @@
             "t": "2026-11-04T13:40:55Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo: 87 lineas + 382 WIT con DT de su propio item; sin draft abierto",
-            "t": "2026-11-04T13:40:55Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T14:07:14Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa6918072ca57eb1aa17b46",
@@ -38683,11 +38740,11 @@
       "originalTrackId": "",
       "titulo": "Cuerpo Sensual",
       "artista": "Don Omar, Rakim & Ken Y",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T13:43:16Z",
-      "motivo_en": "QC r1",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-04T14:06:32Z",
+      "motivo_en": "QC r1 returned: proper-name WITs lowercase on lines 9/53/76/86/89 word 1, 29 word 1, 77 word 1, 84 word 2, 85 words 4-5; new name items Rakim and Omar need a capitalised primary row",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38714,7 +38771,17 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T13:42:42Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WITs de nombres propios en minuscula: L9/53/76/86/89 w1, L29 w1, L77 w1, L84 w2, L85 w4-5",
+            "t": "2026-11-04T14:06:32Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WITs de nombres propios en minuscula: L9/53/76/86/89 w1, L29 w1, L77 w1, L84 w2, L85 w4-5",
+          "t": "2026-11-04T14:06:32Z"
         }
       }
     },
@@ -66205,10 +66272,19 @@
       "originalTrackId": "",
       "titulo": "Gata Celosa",
       "artista": "Hector & Tito",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al 78%: necesita hints a mano",
-      "actualizado": "2026-10-07T04:30:52Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T14:04:19Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (75-80,cover-priority): 11 hints, 78.5 %",
+            "t": "2026-11-04T14:04:18Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa5b42042b8d1fdb0d2c48d",
@@ -67519,16 +67595,36 @@
       "originalTrackId": "",
       "titulo": "Tu Cumpleaños",
       "artista": "Willy Chirino",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T13:55:43Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T14:07:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano v2 (60-75,_base_original): 29 hints, 74.1 %",
-            "t": "2026-11-04T13:55:42Z"
+            "nota": "carry v2 ya aplicado; no se toca",
+            "t": "2026-11-04T14:07:24Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "8 tildes (L11w10 L15w6 L19w6 L27w10 L31w6 L35w6 L49w3 L51w1); puntuacion/mayusculas para Saul",
+            "t": "2026-11-04T14:07:25Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "deriva 0, ninguna palabra <40 ms, secciones 53/53",
+            "t": "2026-11-04T14:07:25Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "41 anclas; 2 items nuevos 6aeb3b38c37f7be20f940404 6aeb3b38b840a3ca479c49fe (19 idiomas); 1 fila EN nueva",
+            "t": "2026-11-04T14:07:26Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json 53 lineas + 259 WIT, sin draft abierto",
+            "t": "2026-11-04T14:07:26Z"
           }
         }
       }
@@ -76406,10 +76502,19 @@
       "originalTrackId": "",
       "titulo": "Dos Almas",
       "artista": "Vicente Fernandez",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: match 80 % baja a 77 % al dejar las palabras que la cover canta distinto (lineas 4-6, 8, 11, 14, 15); bajo el 80 %",
-      "actualizado": "2026-11-04T09:34:00Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T14:04:21Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (75-80,cover-priority): 15 hints, 77.3 %",
+            "t": "2026-11-04T14:04:20Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa80cddd951e1665a7ec719",
