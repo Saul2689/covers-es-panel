@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T13:39:33Z",
+  "generado": "2026-11-04T13:43:43Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -5550,16 +5550,36 @@
       "originalTrackId": "",
       "titulo": "Burbujas De Amor",
       "artista": "Juan Luis Guerra 440",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T13:10:32Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T13:43:07Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano v2 (75-80, prioridad cover): 8 hints, 79.7 %",
             "t": "2026-11-04T13:10:31Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "3 vendor-split compound merges (lines 12, 33, 50 words 7-8); no case/punctuation touched (published)",
+            "t": "2026-11-04T13:43:05Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 on 65/65; line 18 word 1 lengthened 20->50 ms into word 2 (line start unchanged); no word under 40 ms; audio_guard SUENA_SIN_BLINDAR before/after",
+            "t": "2026-11-04T13:43:05Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "50 anchors upserted/remapped, twins unified, 5 phrase insights; 5 new items 19 langs; 0 unmapped except the two vocable runs (lines 5, 26)",
+            "t": "2026-11-04T13:43:06Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json ready: 65 lines, 255 WIT with DT, 5 PIT; orchestrator applies it",
+            "t": "2026-11-04T13:43:06Z"
           }
         }
       }
@@ -25426,8 +25446,8 @@
       "artista": "Chino & Nacho",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T12:17:24Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T13:43:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25451,12 +25471,13 @@
             "t": "2026-11-04T12:17:23Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json a mano (112 líneas, 587 WITs, DT de su bolsa, 0 foráneas); falta que el orquestador lo aplique",
-            "t": "2026-11-04T12:17:23Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T13:42:41Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa52dec42b8d1fdb0c8b67a",
@@ -30735,8 +30756,8 @@
       "artista": "Calle 13",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T12:33:03Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T13:43:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -30760,12 +30781,13 @@
             "t": "2026-11-04T12:33:02Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json a mano (78 lineas, 463 WIT, DT de su bolsa, foreign 0); falta que el orquestador lo aplique",
-            "t": "2026-11-04T12:33:03Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T13:42:41Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa81f0fd951e1665a8082b0",
@@ -36613,16 +36635,36 @@
       "originalTrackId": "",
       "titulo": "Dame Lo Que Quiero",
       "artista": "Rakim & Ken Y",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T13:14:10Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T13:41:49Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano v2 (75-80, prioridad cover): 28 hints, 80.2 %; linea 1 sin seccion",
-            "t": "2026-11-04T13:14:09Z"
+            "nota": "carry v2d ya aplicado; no se toca",
+            "t": "2026-11-04T13:40:52Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "22 arreglos de tilde/ortografia (19 lineas); quedan para Saul: palabras de sus hints (L7w5 L22w8 L45w3 L47w6 L52w2 L68w4), L74w5, L29w9/L35w9, mayusculas L26w2 L32w2 L45w2 L50w2",
+            "t": "2026-11-04T13:40:53Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "L18w4 ensanchada a 105 ms dentro de su linea; drift 0; ninguna palabra < 40 ms",
+            "t": "2026-11-04T13:40:54Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "68 sin mapear -> 7 justificados; 14 items nuevos 19 idiomas; 16 remapeos (gemelas, sentidos, tildes)",
+            "t": "2026-11-04T13:40:55Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo: 87 lineas + 382 WIT con DT de su propio item; sin draft abierto",
+            "t": "2026-11-04T13:40:55Z"
           }
         }
       }
@@ -38566,9 +38608,9 @@
       "artista": "Don Omar, Rakim & Ken Y",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T12:48:42Z",
-      "motivo_en": "hand carry does not fit: 31 lines need a decision (>20), 3 line joins, 75 words skippedEdited, 83%",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T13:43:16Z",
+      "motivo_en": "QC r1",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -38592,9 +38634,9 @@
             "t": "2026-11-04T12:48:41Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en_plan.json 89 lineas 359 WITs listo; lo aplica el orquestador",
-            "t": "2026-11-04T12:48:41Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T13:42:42Z"
           }
         }
       }
@@ -39831,8 +39873,8 @@
       "artista": "Bermudas",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T13:04:25Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T13:43:17Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -39856,12 +39898,13 @@
             "t": "2026-11-04T13:04:24Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "plan en_plan.json 62 lineas 387 WITs listo; lo aplica el orquestador",
-            "t": "2026-11-04T13:04:24Z"
+            "v": "ok",
+            "nota": "aplicado",
+            "t": "2026-11-04T13:42:42Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5eade42b8d1fdb0d7e67d",
@@ -51168,10 +51211,10 @@
       "originalTrackId": "",
       "titulo": "Jinetera",
       "artista": "Willy Chirino",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T13:32:03Z",
+      "motivo": "QC r1 VERDE",
+      "actualizado": "2026-11-04T13:41:38Z",
       "motivo_en": "QC r1",
       "auditoria": {
         "pasos": {
@@ -51199,7 +51242,37 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T13:31:18Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "QC r1: estructura, tildes, mapeo, items nuevos e ingles OK; puntuacion LRC publicado para Saul",
+            "t": "2026-11-04T13:40:23Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "QC r1: estructura, tildes, mapeo, items nuevos e ingles OK; puntuacion LRC publicado para Saul",
+          "t": "2026-11-04T13:40:23Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T13:41:38Z"
+        },
+        "sync": {
+          "songId": "6a992f5b486eb0e888ea7837",
+          "trackId": "6aa845f6d951e1665a833e21",
+          "src": "richsync",
+          "matched": 138,
+          "words": 325,
+          "median": 23,
+          "halves": [
+            70,
+            -33
+          ],
+          "v": "OK",
+          "t": "2026-11-04T13:41:38Z"
         }
       }
     },
