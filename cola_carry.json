@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T14:43:48Z",
+  "generado": "2026-11-04T14:46:23Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 40,
   "canciones": [
@@ -19609,7 +19609,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T14:42:18Z",
+      "actualizado": "2026-11-04T14:45:54Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -19638,15 +19638,15 @@
             "t": "2026-11-04T14:10:32Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "QC r1: linea 10 palabras 7-9 locucion sin phrase insight (item es 6acf904fdfee4042bfb9e0d8 existe); WITs no casan con el ingles de linea",
-            "t": "2026-11-04T14:37:14Z"
+            "v": "ok",
+            "nota": "QC r2: phrase insight linea 10 palabras 7-9 OK, sin regresiones",
+            "t": "2026-11-04T14:45:54Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "QC r1: linea 10 palabras 7-9 locucion sin phrase insight (item es 6acf904fdfee4042bfb9e0d8 existe); WITs no casan con el ingles de linea",
-          "t": "2026-11-04T14:37:14Z"
+          "v": "VERDE",
+          "resumen": "QC r2: phrase insight linea 10 palabras 7-9 OK, sin regresiones",
+          "t": "2026-11-04T14:45:54Z"
         }
       },
       "motivo_en": "QC r1 fix: phrase insight on line 10 words 7-9 to the existing phrase item, PIT from the line English, word 9 WIT aligned; English resubmitted to pending_review"
@@ -38921,10 +38921,10 @@
       "originalTrackId": "",
       "titulo": "Cuerpo Sensual",
       "artista": "Don Omar, Rakim & Ken Y",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T14:43:35Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T14:45:32Z",
       "motivo_en": "QC r1 fixed: proper-name WITs moved to capitalised rows; new name items Rakim and Omar get capitalised primary rows; trailing commas on lines 36 and 85 still wait for Saul",
       "auditoria": {
         "pasos": {
@@ -38963,6 +38963,26 @@
           "v": "VERDE",
           "resumen": "QC r2: proper-name WITs lines 9/53/76/86/89 w1, 85 w4-5, 29 w1, 77 w1, 84 w2 on capitalised rows; all checks pass",
           "t": "2026-11-04T14:43:35Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T14:45:32Z"
+        },
+        "sync": {
+          "songId": "6a992f50486eb0e888ea744b",
+          "trackId": "6aa71ff872ca57eb1aad536c",
+          "src": "richsync",
+          "matched": 84,
+          "words": 370,
+          "median": 46,
+          "halves": [
+            60,
+            13
+          ],
+          "v": "OK",
+          "t": "2026-11-04T14:45:32Z"
         }
       }
     },
