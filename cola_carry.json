@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T11:04:31Z",
+  "generado": "2026-11-04T11:10:18Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -41291,10 +41291,10 @@
       "originalTrackId": "",
       "titulo": "En El Ultimo Lugar Del Mundo",
       "artista": "Ricardo Montaner",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T10:44:45Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T11:08:31Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41323,15 +41323,35 @@
             "t": "2026-11-04T10:20:15Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT con i minuscula L11w2 L12w2 L16/32/41w1 L20/36/45w1 (+items nuevos); sujeto doble L11 y L20/36/45; To mayuscula L6w6",
-            "t": "2026-11-04T10:30:46Z"
+            "v": "ok",
+            "nota": "QC r2: arreglos de r1 confirmados; estructura, mapeo, ingles y audio OK",
+            "t": "2026-11-04T11:07:44Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT con i minuscula L11w2 L12w2 L16/32/41w1 L20/36/45w1 (+items nuevos); sujeto doble L11 y L20/36/45; To mayuscula L6w6",
-          "t": "2026-11-04T10:30:46Z"
+          "v": "VERDE",
+          "resumen": "QC r2: arreglos de r1 confirmados; estructura, mapeo, ingles y audio OK",
+          "t": "2026-11-04T11:07:44Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T11:08:31Z"
+        },
+        "sync": {
+          "songId": "6a992f4d486eb0e888ea72e6",
+          "trackId": "6aa6b99972ca57eb1aa4410b",
+          "src": "richsync",
+          "matched": 112,
+          "words": 222,
+          "median": 72,
+          "halves": [
+            75,
+            63
+          ],
+          "v": "OK",
+          "t": "2026-11-04T11:08:31Z"
         }
       },
       "motivo_en": "fixed QC r1, to QC r2"
@@ -58965,10 +58985,19 @@
       "originalTrackId": "",
       "titulo": "Si Nos Quedara Poco Tiempo",
       "artista": "Chayanne",
-      "estado": "cola",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "enlazada; carry al -1%: necesita hints a mano",
-      "actualizado": "2026-10-06T23:36:55Z"
+      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
+      "actualizado": "2026-11-04T11:08:46Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano: 29 hints, 99 %",
+            "t": "2026-11-04T11:08:44Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa82540d951e1665a810c54",
@@ -70877,10 +70906,10 @@
       "originalTrackId": "",
       "titulo": "Te Echo De Menos",
       "artista": "Chayanne",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T10:46:13Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T11:09:34Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70909,15 +70938,35 @@
             "t": "2026-11-04T10:20:16Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT i minuscula L6w9 (+item nuevo); glosa doble L1w3-4 y L1w6-7; To mayuscula L8w3",
-            "t": "2026-11-04T10:33:26Z"
+            "v": "ok",
+            "nota": "QC r2: arreglos de r1 confirmados; estructura, mapeo, ingles y audio OK",
+            "t": "2026-11-04T11:08:32Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT i minuscula L6w9 (+item nuevo); glosa doble L1w3-4 y L1w6-7; To mayuscula L8w3",
-          "t": "2026-11-04T10:33:26Z"
+          "v": "VERDE",
+          "resumen": "QC r2: arreglos de r1 confirmados; estructura, mapeo, ingles y audio OK",
+          "t": "2026-11-04T11:08:32Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T11:09:34Z"
+        },
+        "sync": {
+          "songId": "6a992f40486eb0e888ea6e31",
+          "trackId": "6aa547a142b8d1fdb0cb04d9",
+          "src": "richsync",
+          "matched": 112,
+          "words": 243,
+          "median": 100,
+          "halves": [
+            76,
+            206
+          ],
+          "v": "OK",
+          "t": "2026-11-04T11:09:34Z"
         }
       },
       "motivo_en": "fixed QC r1, to QC r2"
@@ -83630,10 +83679,10 @@
       "originalTrackId": "",
       "titulo": "Y Ahora Te Vas",
       "artista": "Marco Antonio Solis",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T10:43:08Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T11:07:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -83662,15 +83711,35 @@
             "t": "2026-11-04T10:20:13Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "interrogativo sin tilde L13/25/33 w2 y L15/27/36 w1; WIT del L8/20 w1; WIT doble L1 w5",
-            "t": "2026-11-04T10:28:15Z"
+            "v": "ok",
+            "nota": "QC r2: arreglos de r1 confirmados; estructura, mapeo, ingles y audio OK",
+            "t": "2026-11-04T11:06:47Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "interrogativo sin tilde L13/25/33 w2 y L15/27/36 w1; WIT del L8/20 w1; WIT doble L1 w5",
-          "t": "2026-11-04T10:28:15Z"
+          "v": "VERDE",
+          "resumen": "QC r2: arreglos de r1 confirmados; estructura, mapeo, ingles y audio OK",
+          "t": "2026-11-04T11:06:47Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T11:07:44Z"
+        },
+        "sync": {
+          "songId": "6a992f49486eb0e888ea718c",
+          "trackId": "6aa1111a64c9b8ff110c82a4",
+          "src": "richsync",
+          "matched": 58,
+          "words": 211,
+          "median": 30,
+          "halves": [
+            14,
+            77
+          ],
+          "v": "OK",
+          "t": "2026-11-04T11:07:44Z"
         }
       },
       "motivo_en": "fixed QC r1, to QC r2"
