@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T13:25:04Z",
+  "generado": "2026-11-04T13:39:33Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -23341,10 +23341,10 @@
       "originalTrackId": "",
       "titulo": "Te Necesito",
       "artista": "Luis Miguel",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T13:18:49Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T13:34:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -23373,15 +23373,35 @@
             "t": "2026-11-04T12:47:10Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L8 y L22 w2-4 locucion sin phrase insight (item es 6ac5ea665f41a10082847d62 existe); w4 sentido equivocado",
-            "t": "2026-11-04T13:07:34Z"
+            "v": "ok",
+            "nota": "r2: phrase insight lineas 8 y 22 palabras 2-4 con PIT y palabra 4 en item comparativo; chequeos limpios",
+            "t": "2026-11-04T13:33:48Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L8 y L22 w2-4 locucion sin phrase insight (item es 6ac5ea665f41a10082847d62 existe); w4 sentido equivocado",
-          "t": "2026-11-04T13:07:34Z"
+          "v": "VERDE",
+          "resumen": "r2: phrase insight lineas 8 y 22 palabras 2-4 con PIT y palabra 4 en item comparativo; chequeos limpios",
+          "t": "2026-11-04T13:33:48Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T13:34:39Z"
+        },
+        "sync": {
+          "songId": "6a992f49486eb0e888ea713c",
+          "trackId": "6aa631ac72ca57eb1a98e9a4",
+          "src": "richsync",
+          "matched": 118,
+          "words": 308,
+          "median": 127,
+          "halves": [
+            120,
+            137
+          ],
+          "v": "OK",
+          "t": "2026-11-04T13:34:39Z"
         }
       },
       "motivo_en": "QC r1 fixed: phrase insights added on twin lines 8 and 22 words 2-4 with an identical PIT from the line English; word 4 moved off the relative-pronoun item to the comparative item; resubmitted to pending_review"
@@ -42113,10 +42133,10 @@
       "originalTrackId": "",
       "titulo": "Mayor Que Yo",
       "artista": "Michael Stuart",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T13:16:52Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T13:33:09Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -42145,15 +42165,35 @@
             "t": "2026-11-04T12:52:31Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "L59 w1 falta tilde interrogativa (+ancla al item acentuado); L70 w10 WIT del nombre de Dios en minuscula (fila mayuscula existe)",
-            "t": "2026-11-04T13:05:01Z"
+            "v": "ok",
+            "nota": "r2: linea 59 palabra 1 tilde + item interrogativo y linea 70 palabra 10 fila mayuscula arreglados; chequeos limpios",
+            "t": "2026-11-04T13:28:47Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "L59 w1 falta tilde interrogativa (+ancla al item acentuado); L70 w10 WIT del nombre de Dios en minuscula (fila mayuscula existe)",
-          "t": "2026-11-04T13:05:01Z"
+          "v": "VERDE",
+          "resumen": "r2: linea 59 palabra 1 tilde + item interrogativo y linea 70 palabra 10 fila mayuscula arreglados; chequeos limpios",
+          "t": "2026-11-04T13:28:47Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T13:33:09Z"
+        },
+        "sync": {
+          "songId": "6a992f4a486eb0e888ea71b1",
+          "trackId": "6aa659f772ca57eb1a9c92e3",
+          "src": "richsync",
+          "matched": 85,
+          "words": 435,
+          "median": 77,
+          "halves": [
+            64,
+            77
+          ],
+          "v": "OK",
+          "t": "2026-11-04T13:33:09Z"
         }
       },
       "motivo_en": "QC r1 fixed: line 59 word 1 accent added (LRC, timing kept) and re-anchored to the interrogative item; line 70 word 10 WIT on the capitalised row; resubmitted to pending_review"
@@ -51130,9 +51170,9 @@
       "artista": "Willy Chirino",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T12:11:33Z",
-      "motivo_en": "hand carry does not fit: 22 lines need a decision (>20); the original spells a proper noun the English way and lacks accents the cover has, 82%",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T13:32:03Z",
+      "motivo_en": "QC r1",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51157,8 +51197,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan.json 52 lineas + 312 WIT con DT; sin draft abierto",
-            "t": "2026-11-04T12:11:33Z"
+            "nota": "aplicado",
+            "t": "2026-11-04T13:31:18Z"
           }
         }
       }
@@ -51654,8 +51694,8 @@
       "artista": "Heleno",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T12:21:56Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T13:32:05Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -51680,11 +51720,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan.json 50 lines + 298 WITs by hand, DT from own bag, foreign 0",
-            "t": "2026-11-04T12:21:55Z"
+            "nota": "aplicado",
+            "t": "2026-11-04T13:31:19Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5385c42b8d1fdb0c99726",
@@ -58136,8 +58177,8 @@
       "artista": "Wisin Y Yandel",
       "estado": "revision",
       "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-04T12:43:30Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-04T13:32:06Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -58162,11 +58203,12 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "W10: en_plan 133 lineas + 528 WITs a mano",
-            "t": "2026-11-04T12:43:30Z"
+            "nota": "aplicado",
+            "t": "2026-11-04T13:31:19Z"
           }
         }
-      }
+      },
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa682f572ca57eb1aa04b41",
@@ -60897,10 +60939,10 @@
       "originalTrackId": "",
       "titulo": "Te Hice Mujer",
       "artista": "Wisin Y Yandel",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T13:21:38Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-04T13:30:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -60927,10 +60969,20 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T13:20:58Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT en minuscula de nombres propios L6w9 L71w5 L80w3 L72w1 y adjetivo L78w6; ingles de linea 39 distinto de sus gemelas 12/60/63",
+            "t": "2026-11-04T13:30:26Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT en minuscula de nombres propios L6w9 L71w5 L80w3 L72w1 y adjetivo L78w6; ingles de linea 39 distinto de sus gemelas 12/60/63",
+          "t": "2026-11-04T13:30:26Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r1 returned: proper-name WITs lowercase (line 6 word 9, line 71 word 5, line 80 word 3, line 72 word 1) and line 78 word 6 adjective; line 39 English differs from its twins 12/60/63"
     },
     {
       "coverTrackId": "6aa5f3d142b8d1fdb0d8c448",
@@ -61928,16 +61980,36 @@
       "originalTrackId": "",
       "titulo": "Cuentale A El",
       "artista": "El Jeffrey",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T13:19:54Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T13:36:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano v2 (80+, normal): 28 hints (3 splits para lineas de mas de 20 palabras), 87.3 %",
             "t": "2026-11-04T13:19:53Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "29 accent/misspelling token edits (published: punctuation/case only listed for Saúl)",
+            "t": "2026-11-04T13:35:58Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, no word under 40 ms, 31/31 groups; gaps before lines 15, 25, 30 = instrumental breaks; audio_guard SUENA_SIN_BLINDAR before/after",
+            "t": "2026-11-04T13:35:59Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "48 anchors upserted/remapped, twins unified, 1 phrase insight; 1 new item 19 langs; 0 unmapped except ad-libs and line 31 word 4 (name)",
+            "t": "2026-11-04T13:35:59Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json ready: 31 lines, 263 WIT with DT, 1 PIT; orchestrator applies it",
+            "t": "2026-11-04T13:35:59Z"
           }
         }
       }
@@ -68871,10 +68943,10 @@
       "originalTrackId": "",
       "titulo": "Como Tu",
       "artista": "Basilio",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T13:21:41Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-04T13:32:38Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -68901,10 +68973,20 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T13:20:59Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT del dia de la semana en minuscula, linea 33 palabra 2",
+            "t": "2026-11-04T13:32:37Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT del dia de la semana en minuscula, linea 33 palabra 2",
+          "t": "2026-11-04T13:32:37Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r1 returned: weekday-name WIT lowercase on line 33 word 2 (capitalised en row exists)"
     },
     {
       "coverTrackId": "6aa67d9472ca57eb1a9fe5ca",
@@ -74694,10 +74776,10 @@
       "originalTrackId": "",
       "titulo": "Asi Es La Vida",
       "artista": "Luis Enrique",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "corregido QC r1, a QC r2",
-      "actualizado": "2026-11-04T13:25:00Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-04T13:38:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -74726,15 +74808,35 @@
             "t": "2026-11-04T12:52:32Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "WIT de nombres propios/divinos en minuscula L3w2 L4w2 L24w4 L24w5 L24w7 L47w3; L41 w1-2 conjuncion causal partida",
-            "t": "2026-11-04T13:10:57Z"
+            "v": "ok",
+            "nota": "r2: WIT de nombres en mayuscula lineas 3/4/24/47 y union linea 41 al conector causal con anclas desplazadas; chequeos limpios",
+            "t": "2026-11-04T13:36:54Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "WIT de nombres propios/divinos en minuscula L3w2 L4w2 L24w4 L24w5 L24w7 L47w3; L41 w1-2 conjuncion causal partida",
-          "t": "2026-11-04T13:10:57Z"
+          "v": "VERDE",
+          "resumen": "r2: WIT de nombres en mayuscula lineas 3/4/24/47 y union linea 41 al conector causal con anclas desplazadas; chequeos limpios",
+          "t": "2026-11-04T13:36:54Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T13:38:12Z"
+        },
+        "sync": {
+          "songId": "6a992f48486eb0e888ea7116",
+          "trackId": "6aa62a0872ca57eb1a984d2b",
+          "src": "richsync",
+          "matched": 218,
+          "words": 385,
+          "median": 23,
+          "halves": [
+            20,
+            27
+          ],
+          "v": "OK",
+          "t": "2026-11-04T13:38:12Z"
         }
       },
       "motivo_en": "QC r1 fixed: capitalised English rows (primary) on the four new name items and name/divine-name WITs on lines 3, 4, 24, 47; line 41 words 1-2 merged into the causal conjunction with timing kept, anchors shifted, one out-of-range anchor deleted; resubmitted to pending_review"
@@ -75333,10 +75435,10 @@
       "originalTrackId": "",
       "titulo": "La Realeza",
       "artista": "Rakim & Ken Y",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-04T13:21:43Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-04T13:37:55Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -75363,10 +75465,20 @@
             "v": "ok",
             "nota": "aplicado",
             "t": "2026-11-04T13:21:00Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "WIT en minuscula de nombres propios: L3/L57/L63 palabras 1-2, L39 palabras 5 y 9",
+            "t": "2026-11-04T13:37:54Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "WIT en minuscula de nombres propios: L3/L57/L63 palabras 1-2, L39 palabras 5 y 9",
+          "t": "2026-11-04T13:37:54Z"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r1 returned: proper-name WITs lowercase on lines 3, 57, 63 words 1-2 and line 39 words 5 and 9 (capitalised en rows exist)"
     },
     {
       "coverTrackId": "6aa769e272ca57eb1ab380fa",
