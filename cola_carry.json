@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T12:15:14Z",
+  "generado": "2026-11-04T12:19:32Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 38,
   "canciones": [
@@ -25165,16 +25165,36 @@
       "originalTrackId": "",
       "titulo": "Lo Que No Sabes Tu",
       "artista": "Chino & Nacho",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T11:46:25Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T12:17:24Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano v2 (80+, normal): 24 hints, 82 %",
             "t": "2026-11-04T11:46:24Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "publicada: solo tildes/erratas (97 tokens, 44 líneas; 5 tokens partidos: L29/30/34/38 por qué, L40 hay juego). Mayúsculas L63/L70 para Saúl",
+            "t": "2026-11-04T12:17:22Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 112/112; 14 palabras <40 ms alargadas con richsync_set; quedan líneas dobladas del proveedor (bridge) para Saúl",
+            "t": "2026-11-04T12:17:23Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "588/637; 49 sin mapear = inglés, ad-lib, nombre propio y L31 palabra 1 (pista de Saúl); 13 items nuevos traducidos 19 idiomas; frase por qué en 4 líneas; gemelas unificadas",
+            "t": "2026-11-04T12:17:23Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json a mano (112 líneas, 587 WITs, DT de su bolsa, 0 foráneas); falta que el orquestador lo aplique",
+            "t": "2026-11-04T12:17:23Z"
           }
         }
       }
@@ -41754,16 +41774,36 @@
       "originalTrackId": "",
       "titulo": "Mayor Que Yo",
       "artista": "Michael Stuart",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T11:53:45Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T12:15:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano v2 (80+, normal): 7 hints, 81 %",
             "t": "2026-11-04T11:53:45Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "30 tokens corregidos (tildes y erratas) en 23 lineas; publicada: mayusculas L62 w8 y L70 w10 para Saul",
+            "t": "2026-11-04T12:15:45Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra < 40 ms; audio_guard SUENA_SIN_BLINDAR sin tocar",
+            "t": "2026-11-04T12:15:45Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "78 anclas + 1 phrase insight; 14 items nuevos con 19 idiomas; quedan blin x3 y Prrr (ad-libs)",
+            "t": "2026-11-04T12:15:46Z"
+          },
+          "ingles": {
+            "v": "falta",
+            "nota": "en_plan.json listo a mano: 73 lineas, 425 WIT con DT de su bolsa; falta abrir draft y aplicar (orquestador)",
+            "t": "2026-11-04T12:15:53Z"
           }
         }
       }
@@ -41774,10 +41814,10 @@
       "originalTrackId": "",
       "titulo": "Se Me Sigue Olvidando",
       "artista": "Marc Anthony",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "corregido QC r2, a QC r3",
-      "actualizado": "2026-11-04T12:10:18Z",
+      "motivo": "QC r3 VERDE",
+      "actualizado": "2026-11-04T12:19:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -41806,15 +41846,35 @@
             "t": "2026-11-04T11:18:48Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r2: fallos r1 corregidos; linea 58 palabra 4 sin tilde, mal mapeada, ingles roto",
-            "t": "2026-11-04T11:56:05Z"
+            "v": "ok",
+            "nota": "r3: L58w4 tilde, remap, WIT y ingles OK; todos los chequeos limpios",
+            "t": "2026-11-04T12:17:28Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r2: fallos r1 corregidos; linea 58 palabra 4 sin tilde, mal mapeada, ingles roto",
-          "t": "2026-11-04T11:56:05Z"
+          "v": "VERDE",
+          "resumen": "r3: L58w4 tilde, remap, WIT y ingles OK; todos los chequeos limpios",
+          "t": "2026-11-04T12:17:28Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-04T12:19:11Z"
+        },
+        "sync": {
+          "songId": "6a992f59486eb0e888ea7754",
+          "trackId": "6aa8015bd951e1665a7dfa50",
+          "src": "richsync",
+          "matched": 118,
+          "words": 390,
+          "median": 26,
+          "halves": [
+            24,
+            40
+          ],
+          "v": "OK",
+          "t": "2026-11-04T12:19:11Z"
         }
       },
       "motivo_en": "fixed QC r2, to QC r3"
@@ -60447,16 +60507,36 @@
       "originalTrackId": "",
       "titulo": "Te Hice Mujer",
       "artista": "Wisin Y Yandel",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T11:56:33Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T12:19:23Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
             "nota": "carry a mano v2 (>=80, normal): 62 hints, 84 %; 10 palabras < 40 ms ya venian del proveedor",
             "t": "2026-11-04T11:56:33Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "accent and split fixes on published cover (allowed types only); case/punct items listed for Saul",
+            "t": "2026-11-04T12:19:22Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "27 words widened to >=40 ms; drift 0 on 83 lines",
+            "t": "2026-11-04T12:19:22Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "0 unmapped except proper name line 75 word 3 and English line 76 word 3; 20 new items + 1 phrase item; 32 PITs",
+            "t": "2026-11-04T12:19:23Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan.json by hand: 83 lines, 447 WITs, 32 PITs, 0 probs",
+            "t": "2026-11-04T12:19:23Z"
           }
         }
       }
