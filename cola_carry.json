@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T14:32:49Z",
+  "generado": "2026-11-04T14:33:53Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 40,
   "canciones": [
@@ -8820,16 +8820,36 @@
       "originalTrackId": "",
       "titulo": "Permitame",
       "artista": "Tony Dize, Yandel",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T13:55:51Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T14:33:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano v2 (80+,_normal): 64 hints, 87.3 %",
-            "t": "2026-11-04T13:55:50Z"
+            "nota": "carry v2e intacto; pistas de Saúl sin tocar",
+            "t": "2026-11-04T14:33:07Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "7 tildes (L17/29/46 w1, L24w6, L50w4, L52w4, L53w1); resto para Saúl",
+            "t": "2026-11-04T14:33:08Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "L32w6 y L52w2 ensanchadas dentro de su línea (richsync_set); drift 0, ninguna <40 ms",
+            "t": "2026-11-04T14:33:10Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "10 items nuevos (19 idiomas), 51 anclas, gemelas unificadas; 11 sin mapear = nombres propios + 2 tokens pegados",
+            "t": "2026-11-04T14:33:11Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "plan 56 líneas + 277 WIT, dry run limpio",
+            "t": "2026-11-04T14:33:13Z"
           }
         }
       }
@@ -11644,16 +11664,36 @@
       "originalTrackId": "",
       "titulo": "Te Aviso Te Anuncio",
       "artista": "Shakira",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T13:56:00Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T14:33:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano v2 (75-80,_manda_el_cover): 46 hints, 86.6 %",
-            "t": "2026-11-04T13:55:58Z"
+            "nota": "carry v2 aplicado antes; no tocado",
+            "t": "2026-11-04T14:32:57Z"
+          },
+          "lrc": {
+            "v": "saul",
+            "nota": "13 tildes arregladas; mayusculas y puntuacion para Saul",
+            "t": "2026-11-04T14:32:58Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0 en 49/49, ninguna palabra <40 ms",
+            "t": "2026-11-04T14:32:59Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "286/292; 23 items nuevos; sin mapear: token pegado L9/23/38 w6, Instrumental x3, ad-lib L48",
+            "t": "2026-11-04T14:33:12Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan 49 lineas, 283/283 WIT",
+            "t": "2026-11-04T14:33:01Z"
           }
         }
       }
@@ -29034,16 +29074,36 @@
       "originalTrackId": "",
       "titulo": "Vuela Muy Alto",
       "artista": "Jerry Rivera",
-      "estado": "carry",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry aplicado a mano; falta limpiar letra, mapeo e ingles",
-      "actualizado": "2026-11-04T14:04:18Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-04T14:33:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
             "v": "ok",
-            "nota": "carry a mano v2 (80+,normal): 42 hints, 83.5 %",
-            "t": "2026-11-04T14:04:17Z"
+            "nota": "carry ya aplicado, no tocado; pistas de Saúl intactas",
+            "t": "2026-11-04T14:33:01Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "tildes L61w1 L70w2 L75w1 L77w2 L86w1; puntuación final L82 y coma L79w1 para Saúl",
+            "t": "2026-11-04T14:33:01Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "drift 0, ninguna palabra <40 ms",
+            "t": "2026-11-04T14:33:02Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "22 huecos mapeados, 10 items nuevos, sentidos y gemelas unificados, 5 PI",
+            "t": "2026-11-04T14:33:27Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "en_plan 89 líneas, 393/393 WIT, 5/5 PIT; sin borrador",
+            "t": "2026-11-04T14:33:05Z"
           }
         }
       }
@@ -32981,17 +33041,17 @@
       "originalTrackId": "",
       "titulo": "Me Estoy Enloqueciendo Por Ti",
       "artista": "Jerry Rivera",
-      "estado": "parada",
+      "estado": "carry",
       "vueltas": 0,
-      "motivo": "carry sin aplicar: dry run no limpio, lineas 30, 49 y 54 necesitan oido (palabra de mas / palabras sin token cantado)",
-      "actualizado": "2026-10-29T10:32:11Z",
+      "motivo": "carry v2 aplicado (paradas)",
+      "actualizado": "2026-11-04T14:33:51Z",
       "motivo_en": "carry not applied: dry run not clean, lines 30, 49 and 54 need an ear (extra word / original words with no sung token)",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "saul",
-            "nota": "dry run 85% sin aplicar: 4 lineas marcadas; L26 resuelta por LRCLIB (2 pins); quedan L30 palabra de mas, L49 cover solo 1 de 2 palabras de la voz principal, L54 2 palabras del original sin token sung (mitad vendor/mitad original): necesitan oido",
-            "t": "2026-10-29T10:32:10Z"
+            "v": "ok",
+            "nota": "carry a mano v2 (80+, normal): 18 hints, 85 %",
+            "t": "2026-11-04T14:33:50Z"
           }
         }
       }
