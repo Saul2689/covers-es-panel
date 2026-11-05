@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T11:47:30Z",
+  "generado": "2026-11-05T12:08:38Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 44,
   "canciones": [
@@ -63841,9 +63841,9 @@
       "titulo": "Codigo Postal",
       "artista": "Ha-Ash",
       "estado": "revision",
-      "vueltas": 1,
-      "motivo": "Saúl: estructura arreglada (34 líneas duplicadas borradas, líneas ordenadas por tiempo, 1 línea real activada)",
-      "actualizado": "2026-11-05T11:32:53Z",
+      "vueltas": 2,
+      "motivo": "devuelto r2 corregido: exclusión de 9 líneas de ad-libs restaurada",
+      "actualizado": "2026-11-05T12:08:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -63872,18 +63872,18 @@
             "t": "2026-10-21T13:13:36Z"
           },
           "qc": {
-            "v": "ok",
-            "nota": "agente: todo cerrado salvo estructura doblada del proveedor (L48-51 desordenadas, L52-98 copia); ingles pending_review, BAD 0, drift 0",
-            "t": "2026-10-21T13:13:26Z"
+            "v": "falta",
+            "nota": "r2: exclusion perdida en lineas 41-45, 53, 54, 58, 59 (ad-libs ahora cantadas en track publicado); resto OK",
+            "t": "2026-11-05T11:48:10Z"
           }
         },
         "qc": {
-          "v": "VERDE",
-          "resumen": "agente: todo cerrado salvo estructura doblada del proveedor (L48-51 desordenadas, L52-98 copia); ingles pending_review, BAD 0, drift 0",
-          "t": "2026-10-21T13:13:26Z"
+          "v": "DEVUELTO",
+          "resumen": "r2: exclusion perdida en lineas 41-45, 53, 54, 58, 59 (ad-libs ahora cantadas en track publicado); resto OK",
+          "t": "2026-11-05T11:48:10Z"
         }
       },
-      "motivo_en": "Saúl: structure fixed (34 duplicate lines deleted, lines in time order, 1 real line enabled)"
+      "motivo_en": "QC r2 returned, fixed: exclusion restored on 9 ad-lib lines"
     },
     {
       "coverTrackId": "6aa80d97d951e1665a7ed32c",
@@ -82204,50 +82204,70 @@
       "originalTrackId": "",
       "titulo": "No Hay Nadie Como Tu",
       "artista": "Cafe Tacuba, Calle 13",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "devuelto r1 corregido",
-      "actualizado": "2026-11-05T11:36:52Z",
+      "estado": "hecha",
+      "vueltas": 2,
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-05T12:08:16Z",
       "auditoria": {
         "pasos": {
           "carry": {
-            "v": "saul",
-            "nota": "carry aplicado pero proyectó las líneas dobles del karaoke del proveedor: 884 tokens para ~530 cantados, 138 líneas para ~97; hace falta re-corte",
-            "t": "2026-10-27T17:59:25Z"
+            "v": "ok",
+            "nota": "original nuevo 6aec4fc1 subido (encargo Saúl 5 nov); re-corte 82 líneas",
+            "t": "2026-11-05T12:04:30Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "354 tokens duplicados y 37 líneas duplicadas; plan en es_map/payloads/6aa7170b72ca57eb1aac524b/restructure_plan.json, sin aplicar: borrar líneas arrastra anclas y la cover está publicada",
-            "t": "2026-10-27T17:59:26Z"
+            "v": "ok",
+            "nota": "duplicados quitados; QC r2 limpio (puntuación/mayúsculas = notas Saúl)",
+            "t": "2026-11-05T12:04:31Z"
           },
           "timing": {
-            "v": "falta",
-            "nota": "deriva de línea 0, pero 73 palabras de 40 ms o menos y palabras solapadas por la duplicación; se arregla tras el re-corte",
-            "t": "2026-10-27T17:59:29Z"
+            "v": "ok",
+            "nota": "drift 0 en 82/82, 0 palabras <=40 ms, sync_gate OK",
+            "t": "2026-11-05T12:04:33Z"
           },
           "mapeo": {
-            "v": "falta",
-            "nota": "229 sin mapear, la mayoría copias duplicadas; unos 30 lemas reales sin item (también sin mapear en el original); bloqueado hasta el re-corte",
-            "t": "2026-10-27T17:59:30Z"
+            "v": "ok",
+            "nota": "519/519 anclas, 0 fuera de rango",
+            "t": "2026-11-05T12:04:34Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "sin inglés; las 97 líneas del original traducidas a mano en en_lines_by_original.json; WIT pendientes del re-corte",
-            "t": "2026-10-27T17:59:31Z"
+            "v": "ok",
+            "nota": "82/82 líneas, pending_review",
+            "t": "2026-11-05T12:04:34Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "drift L11 L20 L26 L38 L46 L61; L74 hueco 11.5 s entre w5 y w6; L48 w1-2 ortografia; L25 w7-8 palabra partida + WIT sentido; qc_es sin justificar (sobra/minuscula L29 L31 L35 L49 L51, falta L66 L68, punt L70); sync_gate DUDA",
-            "t": "2026-11-05T11:15:10Z"
+            "v": "ok",
+            "nota": "QC r2: contenido limpio; solo faltaba cerrar pasos",
+            "t": "2026-11-05T12:04:36Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "drift L11 L20 L26 L38 L46 L61; L74 hueco 11.5 s entre w5 y w6; L48 w1-2 ortografia; L25 w7-8 palabra partida + WIT sentido; qc_es sin justificar (sobra/minuscula L29 L31 L35 L49 L51, falta L66 L68, punt L70); sync_gate DUDA",
-          "t": "2026-11-05T11:15:10Z"
+          "v": "VERDE",
+          "resumen": "QC r2: contenido limpio; solo faltaba cerrar pasos",
+          "t": "2026-11-05T12:04:36Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-05T12:08:16Z"
+        },
+        "sync": {
+          "songId": "6a992f50486eb0e888ea742e",
+          "trackId": "6aa7170b72ca57eb1aac524b",
+          "src": "richsync",
+          "matched": 293,
+          "words": 519,
+          "median": 123,
+          "halves": [
+            122,
+            123
+          ],
+          "v": "OK",
+          "t": "2026-11-05T12:08:16Z"
         }
       },
-      "motivo_en": "QC r1 returned, fixed"
+      "motivo_en": "QC r2: content checks all pass, but parte.py refuses hecha because the carry/lrc/timing/mapeo/ingles steps were never closed by the worker (still saul/falta from 27 Oct). Worker must record the steps; no track change needed."
     },
     {
       "coverTrackId": "6aa5fabc42b8d1fdb0d9870f",
