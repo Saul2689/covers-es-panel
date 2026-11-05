@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T09:37:46Z",
+  "generado": "2026-11-05T09:45:54Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 43,
   "canciones": [
@@ -9639,7 +9639,7 @@
       "estado": "parada",
       "vueltas": 0,
       "motivo": "espera a Saúl: comas L12w4 y L22w4 frente a sus gemelas; escuchar huecos L36->L37, L40->L41 y repeticiones del outro",
-      "actualizado": "2026-11-04T14:19:04Z",
+      "actualizado": "2026-11-05T09:44:26Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9648,14 +9648,14 @@
             "t": "2026-11-04T13:48:17Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "sin tildes/erratas que arreglar; comas para Saúl: L12w4 (no en L27w4/L33w4), L22w4 (no en L7w4)",
-            "t": "2026-11-04T13:48:18Z"
+            "v": "ok",
+            "nota": "solo notas para Saul: comas L12w4 y L22w4 frente a gemelas y mayuscula L8w2/L23w2 (publicada, su decision); sin nada que arreglar",
+            "t": "2026-11-05T09:44:24Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "drift 0, nada <40 ms; huecos L36->L37 22 s y L40->L41 39 s: el original canta repeticiones del estribillo ahí; también faltan repeticiones del outro. Escuchar",
-            "t": "2026-11-04T13:48:18Z"
+            "v": "ok",
+            "nota": "drift 0, nada <40 ms; huecos L36->L37 y L40->L41 y outro = nota de oido para Saul, no parada; sync_gate OK",
+            "t": "2026-11-05T09:44:26Z"
           },
           "mapeo": {
             "v": "ok",
@@ -15234,7 +15234,7 @@
       "estado": "parada",
       "vueltas": 0,
       "motivo": "espera a Saul: oir lineas de estribillo que faltan (huecos antes de L36 y L41, tras L37, L42, L49) (QC r1 VERDE)",
-      "actualizado": "2026-10-29T16:49:16Z",
+      "actualizado": "2026-11-05T09:44:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15243,9 +15243,9 @@
             "t": "2026-10-29T16:10:52Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "linea 1 palabra 5 errata corregida al original; linea 49 insertada conjuncion en idx 7 (original). Saul: el original canta 2 lineas de estribillo (pido la paz / amor perdoname) que el cover no trae en los huecos antes de L36 y L41, tras L37, tras L42 y 4 lineas finales tras L49; no se puede oir si el cover las canta",
-            "t": "2026-10-29T16:10:52Z"
+            "v": "ok",
+            "nota": "solo notas de oido para Saul: estribillo en huecos antes de L36 y L41, tras L37, L42 y L49; L1w5 forma cantada; sync_gate OK",
+            "t": "2026-11-05T09:44:27Z"
           },
           "timing": {
             "v": "ok",
@@ -17224,7 +17224,7 @@
       "estado": "parada",
       "vueltas": 1,
       "motivo": "espera a Saúl: escuchar coros del original ausentes en huecos antes de lineas 52 y 58 (QC r2 VERDE)",
-      "actualizado": "2026-10-29T18:29:12Z",
+      "actualizado": "2026-11-05T09:44:28Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17233,9 +17233,9 @@
             "t": "2026-10-29T16:23:06Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "11 tokens corregidos + 1 inserto; faltan coros entre parentesis del original (huecos antes de lineas 52 y 58) sin poder oirlos",
-            "t": "2026-10-29T16:23:07Z"
+            "v": "ok",
+            "nota": "solo notas de oido para Saul: coros en huecos antes de L52 y L58; forma cantada L38w4 L45w1 L47w3 L59w2; sync_gate OK",
+            "t": "2026-11-05T09:44:28Z"
           },
           "timing": {
             "v": "ok",
@@ -25773,10 +25773,10 @@
       "originalTrackId": "",
       "titulo": "Lo Que No Sabes Tu",
       "artista": "Chino & Nacho",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "espera a Saúl: lineas 26/55/96 palabra 10 (verbo sin tilde por su pista spell-original); QC r2 VERDE",
-      "actualizado": "2026-11-04T14:31:33Z",
+      "motivo": "Saúl: letra según el original con tildes; sync bien",
+      "actualizado": "2026-11-05T09:40:51Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25816,7 +25816,7 @@
           "t": "2026-11-04T14:25:23Z"
         }
       },
-      "motivo_en": "waiting for Saúl: lines 26/55/96 word 10 (verb without tilde under his spell-original hint); QC r2 VERDE"
+      "motivo_en": "Saúl: lyric per original with accents fixed; sync OK"
     },
     {
       "coverTrackId": "6aa52dec42b8d1fdb0c8b67a",
@@ -47920,7 +47920,7 @@
       "estado": "parada",
       "vueltas": 1,
       "motivo": "espera a Saúl: escuchar posibles estribillos no transcritos tras lineas 36, 39 y 41 (paso lrc saul); QC r2 VERDE",
-      "actualizado": "2026-11-04T09:15:44Z",
+      "actualizado": "2026-11-05T09:44:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47929,9 +47929,9 @@
             "t": "2026-10-29T16:17:16Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "21 tildes/erratas corregidas (ids y tiempos intactos); posible estribillo no transcrito en los huecos tras lineas 36, 39 y 41 (hay que escuchar)",
-            "t": "2026-10-29T16:43:27Z"
+            "v": "ok",
+            "nota": "solo notas de oido para Saul: posibles estribillos en huecos tras L36, L39 y L41; sync_gate OK",
+            "t": "2026-11-05T09:44:29Z"
           },
           "timing": {
             "v": "ok",
@@ -52956,7 +52956,7 @@
       "estado": "parada",
       "vueltas": 1,
       "motivo": "espera a Saúl: timing linea 48 palabra 4 (0 ms, orden revuelto lineas 48-49, del proveedor); QC r2 VERDE",
-      "actualizado": "2026-11-04T12:11:05Z",
+      "actualizado": "2026-11-05T09:44:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52970,9 +52970,9 @@
             "t": "2026-11-04T10:44:22Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "drift 0; SUENA_SIN_BLINDAR; linea 48 palabra 4 dura <=0 ms y hueco 21 s antes de linea 3: sin tocar, para Saul",
-            "t": "2026-11-04T10:44:23Z"
+            "v": "ok",
+            "nota": "L48w4 de 0 ms a 40 ms dentro de su linea (richsync 252-253), sin mover inicios, drift 0; orden revuelto L48-L49 del proveedor = nota para Saul; sync_gate OK",
+            "t": "2026-11-05T09:44:33Z"
           },
           "mapeo": {
             "v": "ok",
@@ -57633,7 +57633,7 @@
       "estado": "parada",
       "vueltas": 0,
       "motivo": "espera a Saúl: oído en la línea 32-33; la letra original trae una línea entre ellas que la cover quizá canta y el LRC no tiene (hueco de 5 s); QC r1 VERDE en lo demás",
-      "actualizado": "2026-10-29T11:48:39Z",
+      "actualizado": "2026-11-05T09:44:31Z",
       "motivo_en": "Waiting for Saúl: ear check between lines 32 and 33; the original has a line there that the cover may sing and the LRC lacks (5 s gap); QC r1 GREEN on everything else",
       "auditoria": {
         "pasos": {
@@ -57643,9 +57643,9 @@
             "t": "2026-10-29T10:29:12Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "carry + L19 insert idx1, L41 espacio final y palabra vacia de richsync quitados; falta la linea 33 del original entre las lineas 32 y 33 del cover (hueco de 5,4 s, tempo igual al original, ~174,2 s): necesita oido para confirmar y cronometrar",
-            "t": "2026-10-29T10:38:18Z"
+            "v": "ok",
+            "nota": "solo nota de oido para Saul: linea del original entre L32 y L33 (hueco 5 s); sync_gate OK",
+            "t": "2026-11-05T09:44:31Z"
           },
           "timing": {
             "v": "ok",
@@ -70738,7 +70738,7 @@
       "estado": "parada",
       "vueltas": 0,
       "motivo": "espera a Saúl: oido linea 8 palabra 1 y hueco antes de linea 17 (paso lrc saul); QC r1 VERDE",
-      "actualizado": "2026-10-29T18:47:21Z",
+      "actualizado": "2026-11-05T09:44:32Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70747,9 +70747,9 @@
             "t": "2026-10-29T16:51:52Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "LRC limpio; linea 8 palabra 1 nota de oido (cover canta otra forma, se deja); hueco 51 s antes de linea 17: el original canta ahi un estribillo repetido (lineas 18-22 del original), el proveedor no trae nada: comprobar de oido",
-            "t": "2026-10-29T16:51:53Z"
+            "v": "ok",
+            "nota": "solo notas de oido para Saul: L8w1 forma cantada; hueco 51 s antes de L17; sync_gate OK",
+            "t": "2026-11-05T09:44:32Z"
           },
           "timing": {
             "v": "ok",
@@ -72394,10 +72394,10 @@
       "originalTrackId": "",
       "titulo": "Botecito De Vela",
       "artista": "la Sonora Santanera",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "limpia y mapeada, ingles en en_plan sin aplicar; el audio servido es un stem de voz muy bajo y sync_gate no reconoce ninguna palabra (0 de 263): que Saul escuche si se oye la voz",
-      "actualizado": "2026-11-04T10:12:35Z",
+      "motivo": "inglés escrito y limpio, a QC r1",
+      "actualizado": "2026-11-05T09:44:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72421,13 +72421,13 @@
             "t": "2026-11-04T10:07:29Z"
           },
           "ingles": {
-            "v": "falta",
-            "nota": "en_plan.json listo (dry run limpio); falta aplicarlo al draft: orquestador",
-            "t": "2026-11-04T10:07:44Z"
+            "v": "ok",
+            "nota": "aplicado (en_plan)",
+            "t": "2026-11-05T09:44:10Z"
           }
         }
       },
-      "motivo_en": "cleaned and mapped, English plan ready but not applied; the served audio is a very quiet vocal stem and sync_gate matched 0 of 263 words: Saul to listen whether the voice is audible"
+      "motivo_en": "QC r1"
     },
     {
       "coverTrackId": "6aa5f1f042b8d1fdb0d8a3cf",
