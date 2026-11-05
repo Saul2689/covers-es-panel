@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T12:08:38Z",
+  "generado": "2026-11-05T12:19:04Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 44,
   "canciones": [
@@ -63840,10 +63840,10 @@
       "originalTrackId": "",
       "titulo": "Codigo Postal",
       "artista": "Ha-Ash",
-      "estado": "revision",
-      "vueltas": 2,
-      "motivo": "devuelto r2 corregido: exclusión de 9 líneas de ad-libs restaurada",
-      "actualizado": "2026-11-05T12:08:36Z",
+      "estado": "parada",
+      "vueltas": 3,
+      "motivo": "QC r3: la exclusión de 9 líneas de ad-libs no se guardó; rehecha como manual 12:17, verificada 3 veces. Falta OK de Saúl para cerrarla",
+      "actualizado": "2026-11-05T12:19:04Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -63873,17 +63873,17 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "r2: exclusion perdida en lineas 41-45, 53, 54, 58, 59 (ad-libs ahora cantadas en track publicado); resto OK",
-            "t": "2026-11-05T11:48:10Z"
+            "nota": "QC r3: re-exclusion not on PROD, lines 41-45 53 54 58 59 still not excluded",
+            "t": "2026-11-05T12:17:05Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "r2: exclusion perdida en lineas 41-45, 53, 54, 58, 59 (ad-libs ahora cantadas en track publicado); resto OK",
-          "t": "2026-11-05T11:48:10Z"
+          "resumen": "QC r3: re-exclusion not on PROD, lines 41-45 53 54 58 59 still not excluded",
+          "t": "2026-11-05T12:17:05Z"
         }
       },
-      "motivo_en": "QC r2 returned, fixed: exclusion restored on 9 ad-lib lines"
+      "motivo_en": "QC r3: the exclusion of 9 ad-lib lines did not stick; redone as manual at 12:17 and verified 3 times. Waiting for Saúl's OK to close it"
     },
     {
       "coverTrackId": "6aa80d97d951e1665a7ed32c",
