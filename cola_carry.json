@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T11:14:21Z",
+  "generado": "2026-11-05T11:21:20Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 44,
   "canciones": [
@@ -50621,10 +50621,10 @@
       "originalTrackId": "",
       "titulo": "Dejarte De Amar",
       "artista": "Camila",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "Saúl: estructura arreglada (8 líneas duplicadas borradas y frases dobles quitadas en 8, 15, 23 y 30; 36 líneas)",
-      "actualizado": "2026-11-05T10:52:43Z",
+      "motivo": "QC r2 VERDE (estructura arreglada)",
+      "actualizado": "2026-11-05T11:20:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50638,9 +50638,9 @@
             "t": "2026-10-07T03:03:01Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "drift 0 y ninguna palabra <40 ms; quedan 8 lineas dobladas por el proveedor (8,12,14,18,27,31,33,37) con palabras cronometradas solapadas que no se pueden borrar",
-            "t": "2026-10-07T03:03:01Z"
+            "v": "ok",
+            "nota": "QC struct: drift 0, inicios sin mover, sync_gate OK",
+            "t": "2026-11-05T11:19:15Z"
           },
           "mapeo": {
             "v": "ok",
@@ -50654,14 +50654,34 @@
           },
           "qc": {
             "v": "ok",
-            "nota": "QC1 VERDE: estructura, mapeo, items nuevos, ingles pending_review, wit_dt BAD 0; queda timing en saul (lineas dobladas 8,12,14,18,27,31,33,37)",
-            "t": "2026-10-22T11:43:02Z"
+            "nota": "estructura: 36 lineas, 210 palabras, drift 0, anclas desplazadas ok, 15 PI ok, ingles 36/36 (8/15/23/30 retraducidas), checks 0, sync_gate OK",
+            "t": "2026-11-05T11:15:09Z"
           }
         },
         "qc": {
           "v": "VERDE",
-          "resumen": "QC1 VERDE: estructura, mapeo, items nuevos, ingles pending_review, wit_dt BAD 0; queda timing en saul (lineas dobladas 8,12,14,18,27,31,33,37)",
-          "t": "2026-10-22T11:43:02Z"
+          "resumen": "estructura: 36 lineas, 210 palabras, drift 0, anclas desplazadas ok, 15 PI ok, ingles 36/36 (8/15/23/30 retraducidas), checks 0, sync_gate OK",
+          "t": "2026-11-05T11:15:09Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-05T11:20:13Z"
+        },
+        "sync": {
+          "songId": "6a992f50486eb0e888ea744f",
+          "trackId": "6aa7213872ca57eb1aad6474",
+          "src": "richsync",
+          "matched": 62,
+          "words": 210,
+          "median": 47,
+          "halves": [
+            44,
+            67
+          ],
+          "v": "OK",
+          "t": "2026-11-05T11:20:13Z"
         }
       },
       "motivo_en": "Saúl: structure fixed (8 duplicate lines deleted, doubled phrases removed in 8, 15, 23 and 30; 36 lines)"
@@ -60396,10 +60416,10 @@
       "originalTrackId": "",
       "titulo": "Accion Y Reaccion",
       "artista": "Thalia",
-      "estado": "cola",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "carry a mano no cuadra: match 79,9 % (bajo 80) con todas las preguntas decididas; no aplicado",
-      "actualizado": "2026-11-05T10:51:19Z",
+      "motivo": "lista para QC",
+      "actualizado": "2026-11-05T11:16:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -60409,13 +60429,23 @@
           },
           "lrc": {
             "v": "ok",
-            "nota": "lrc_plan_fix 5 nov: tildes L26w1, L31/L43 w4 y w7; palabra partida del vendor unida L11w7 y L42w7 (anclas de detrás movidas, 2 sobrantes propias borradas); ms intactos, drift 0, 351 tokens = richsync. Mayúsculas/estilo NO tocados (publicada): lista en el job",
-            "t": "2026-11-05T10:51:17Z"
+            "nota": "tilde de pronombre sujeto en L60w3 y L64w3 (lrc_plan_fix, ids y ms iguales; backup pre_finish_fixp5)",
+            "t": "2026-11-05T11:16:17Z"
           },
           "timing": {
             "v": "ok",
             "nota": "sin retime: 0 palabras < 40 ms, drift 0, ningún inicio de línea movido; audio_guard SUENA_SIN_BLINDAR",
             "t": "2026-11-05T10:51:19Z"
+          },
+          "mapeo": {
+            "v": "ok",
+            "nota": "9 items nuevos PROD (19 idiomas, missing 0); 14 anclas nuevas; gemelas unificadas (L20 L37 L41 L49 w1-2, L51w3, L42w1, L62w7); L2w1 L8w2 remapeadas por sentido; 44 sin mapear = nombres propios, palabras inglesas y prestamo ingles L25w4",
+            "t": "2026-11-05T11:16:18Z"
+          },
+          "ingles": {
+            "v": "ok",
+            "nota": "65/65 lineas, 307/307 WIT con texto, BAD 0, litchk 0, lpchk 0, sin PIs; 8 filas nuevas de bolsa denegadas por el clasificador (lista en el informe); enviada pending_review",
+            "t": "2026-11-05T11:16:18Z"
           }
         }
       }
@@ -62436,7 +62466,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "Saúl: sync ajustada (+120 ms en bloque); orden de líneas ya correcto contra audio y original",
-      "actualizado": "2026-11-05T10:45:19Z",
+      "actualizado": "2026-11-05T11:15:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62466,14 +62496,14 @@
           },
           "qc": {
             "v": "ok",
-            "nota": "chequeos pasados; comas finales publicadas y notas de oido para Saul",
-            "t": "2026-11-04T15:11:50Z"
+            "nota": "+120 ms uniforme en 46 lineas/219 palabras; drift 0; sync ventana +-1.5 s mediana -26 (sync_gate global FALLA por repeticion de estribillo); checks 0; notas comas L17 L23 L45, lineas cantadas sin LRC para Saul",
+            "t": "2026-11-05T11:15:10Z"
           }
         },
         "qc": {
           "v": "VERDE",
-          "resumen": "chequeos pasados; comas finales publicadas y notas de oido para Saul",
-          "t": "2026-11-04T15:11:50Z"
+          "resumen": "+120 ms uniforme en 46 lineas/219 palabras; drift 0; sync ventana +-1.5 s mediana -26 (sync_gate global FALLA por repeticion de estribillo); checks 0; notas comas L17 L23 L45, lineas cantadas sin LRC para Saul",
+          "t": "2026-11-05T11:15:10Z"
         }
       },
       "motivo_en": "Saúl: sync adjusted (+120 ms block); line order already correct against audio and original"
@@ -79957,10 +79987,10 @@
       "originalTrackId": "",
       "titulo": "El Hombre Es Como El Oso",
       "artista": "Azul Azul, Laura Leon",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "Saúl: estructura arreglada (líneas duplicadas 28 y 30 borradas)",
-      "actualizado": "2026-11-05T10:41:29Z",
+      "motivo": "QC r2 VERDE (estructura arreglada)",
+      "actualizado": "2026-11-05T11:19:13Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -79974,9 +80004,9 @@
             "t": "2026-10-29T09:16:48Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "drift 0; líneas 28 y 30 son duplicados (3 ms) de 29 y 31 con palabra 3 de 0 ms: arreglo = lrc_delete_line idx 27 y 29, que borra anclas (prohibido al agente)",
-            "t": "2026-10-29T09:16:50Z"
+            "v": "ok",
+            "nota": "QC struct: drift 0, inicios sin mover, sync_gate OK",
+            "t": "2026-11-05T11:18:01Z"
           },
           "mapeo": {
             "v": "ok",
@@ -79990,14 +80020,34 @@
           },
           "qc": {
             "v": "ok",
-            "nota": "r3: item nuevo FEM_SING con 19 idiomas y fan-out; todo limpio; L28/30 duplicadas esperan a Saul",
-            "t": "2026-10-29T16:45:33Z"
+            "nota": "estructura: 51 lineas, 203 palabras, drift 0, 0 oor/dup, ingles 51/51 reindexado ok, checks 0, sync_gate OK; notas: WIT mayuscula L45w1 L49w1",
+            "t": "2026-11-05T11:15:08Z"
           }
         },
         "qc": {
           "v": "VERDE",
-          "resumen": "r3: item nuevo FEM_SING con 19 idiomas y fan-out; todo limpio; L28/30 duplicadas esperan a Saul",
-          "t": "2026-10-29T16:45:33Z"
+          "resumen": "estructura: 51 lineas, 203 palabras, drift 0, 0 oor/dup, ingles 51/51 reindexado ok, checks 0, sync_gate OK; notas: WIT mayuscula L45w1 L49w1",
+          "t": "2026-11-05T11:15:08Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-05T11:19:13Z"
+        },
+        "sync": {
+          "songId": "6a992f52486eb0e888ea74e6",
+          "trackId": "6aa7445372ca57eb1ab10266",
+          "src": "richsync",
+          "matched": 95,
+          "words": 203,
+          "median": 60,
+          "halves": [
+            84,
+            -114
+          ],
+          "v": "OK",
+          "t": "2026-11-05T11:19:13Z"
         }
       },
       "motivo_en": "Saúl: structure fixed (duplicate lines 28 and 30 removed)"
@@ -82116,7 +82166,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "original real importado y re-enlazado; filas duplicadas quitadas",
-      "actualizado": "2026-11-05T10:37:25Z",
+      "actualizado": "2026-11-05T11:15:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -82143,7 +82193,17 @@
             "v": "falta",
             "nota": "sin inglés; las 97 líneas del original traducidas a mano en en_lines_by_original.json; WIT pendientes del re-corte",
             "t": "2026-10-27T17:59:31Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "drift L11 L20 L26 L38 L46 L61; L74 hueco 11.5 s entre w5 y w6; L48 w1-2 ortografia; L25 w7-8 palabra partida + WIT sentido; qc_es sin justificar (sobra/minuscula L29 L31 L35 L49 L51, falta L66 L68, punt L70); sync_gate DUDA",
+            "t": "2026-11-05T11:15:10Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "drift L11 L20 L26 L38 L46 L61; L74 hueco 11.5 s entre w5 y w6; L48 w1-2 ortografia; L25 w7-8 palabra partida + WIT sentido; qc_es sin justificar (sobra/minuscula L29 L31 L35 L49 L51, falta L66 L68, punt L70); sync_gate DUDA",
+          "t": "2026-11-05T11:15:10Z"
         }
       },
       "motivo_en": "real original imported and re-linked; duplicate rows removed"
