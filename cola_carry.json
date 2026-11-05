@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T10:11:42Z",
+  "generado": "2026-11-05T10:26:49Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 44,
   "canciones": [
@@ -4982,10 +4982,10 @@
       "originalTrackId": "6ab3aa054d09fbf129f42ded",
       "titulo": "Mi Verdad",
       "artista": "Maná",
-      "estado": "parada",
-      "vueltas": 2,
-      "motivo": "LRC a medias: 2 de 49 líneas sobrantes borradas; el resto espera el OK de Saúl (el classifier lo bloqueó). Sigue pendiente el desfase de audio de +4,8 s",
-      "actualizado": "2026-09-29T14:34:18Z",
+      "estado": "revision",
+      "vueltas": 1,
+      "motivo": "Saúl: letra corregida con la original; sync movida en bloque",
+      "actualizado": "2026-11-05T10:12:57Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -5025,7 +5025,7 @@
           "t": "2026-09-25T08:57:04Z"
         }
       },
-      "motivo_en": "LRC half fixed: 2 of 49 extra lines removed; the rest needs Saul's OK (blocked by the classifier). The +4.8 s audio offset is still pending"
+      "motivo_en": "Saúl: lyric corrected against the original; sync shifted in block"
     },
     {
       "coverTrackId": "6aa58a8742b8d1fdb0cfac91",
@@ -62878,7 +62878,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "Saúl: sync bien por oído; líneas largas partidas, tildes y mayúsculas",
-      "actualizado": "2026-11-05T09:50:48Z",
+      "actualizado": "2026-11-05T10:26:27Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62908,14 +62908,14 @@
           },
           "qc": {
             "v": "ok",
-            "nota": "QC r1: contenido sin defectos; el DEVUELTO fue solo por sync_gate, se reintenta",
-            "t": "2026-11-04T14:55:34Z"
+            "nota": "r2: sync_gate OK y Saúl lo da por bueno; 43 líneas partidas, tildes y mayúsculas OK; anclas, WIT e inglés intactos; notas: L15 sin signos, L4w2 oído",
+            "t": "2026-11-05T10:26:27Z"
           }
         },
         "qc": {
           "v": "VERDE",
-          "resumen": "QC r1: contenido sin defectos; el DEVUELTO fue solo por sync_gate, se reintenta",
-          "t": "2026-11-04T14:55:34Z"
+          "resumen": "r2: sync_gate OK y Saúl lo da por bueno; 43 líneas partidas, tildes y mayúsculas OK; anclas, WIT e inglés intactos; notas: L15 sin signos, L4w2 oído",
+          "t": "2026-11-05T10:26:27Z"
         },
         "audio": {
           "v": "SUENA_SIN_BLINDAR",
@@ -68010,8 +68010,8 @@
       "artista": "Luis Miguel",
       "estado": "parada",
       "vueltas": 2,
-      "motivo": "suena en FULL SONG desde el 25 sep; falta rehacer el timing a oído (la versión dura 9 s menos que la letra)",
-      "actualizado": "2026-09-25T15:23:05Z",
+      "motivo": "sync medida con Whisper: mediana +35 ms, sync_gate OK; por tramos ruidoso (36 de 101 palabras, richsync sintético por sílabas); no hay corrección clara, no se ha movido nada; decide Saúl por oído",
+      "actualizado": "2026-11-05T10:15:39Z",
       "auditoria": {
         "prioridad": 14,
         "pasos": {
@@ -68052,7 +68052,7 @@
           "t": "2026-09-25T14:14:33Z"
         }
       },
-      "motivo_en": "plays FULL SONG since 25 Sep; timing must be redone by ear (render is 9 s shorter than the lyric)"
+      "motivo_en": "Whisper sync check: median +35 ms, sync_gate OK; per-stretch noisy (36/101 words, syllable-synthetic richsync); no clear correction, nothing moved; Saúl to decide by ear"
     },
     {
       "coverTrackId": "6aa724df72ca57eb1aadb6e9",
@@ -72513,10 +72513,10 @@
       "originalTrackId": "",
       "titulo": "Botecito De Vela",
       "artista": "la Sonora Santanera",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-05T09:53:02Z",
+      "motivo": "QC r1 VERDE; sync bien por oído de Saúl",
+      "actualizado": "2026-11-05T10:24:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72559,7 +72559,7 @@
           "v": "SUENA_SIN_BLINDAR",
           "audio": 206,
           "timeline": "karaokeMp3",
-          "t": "2026-11-05T09:53:48Z"
+          "t": "2026-11-05T10:24:45Z"
         },
         "sync": {
           "songId": "6a992f46486eb0e888ea708d",
@@ -72570,10 +72570,11 @@
           "v": "DUDA",
           "median": null,
           "halves": null,
-          "t": "2026-11-05T09:53:48Z"
+          "t": "2026-11-05T10:24:45Z",
+          "saul": "Saúl 5 nov 2026: sincronización, letra y audio bien"
         }
       },
-      "motivo_en": "QC r1"
+      "motivo_en": "QC r1 GREEN; sync OK by Saúl's ear"
     },
     {
       "coverTrackId": "6aa5f1f042b8d1fdb0d8a3cf",
