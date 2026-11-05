@@ -1,7 +1,7 @@
 {
-  "generado": "2026-11-05T09:45:54Z",
+  "generado": "2026-11-05T09:47:10Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
-  "descartadas": 43,
+  "descartadas": 44,
   "canciones": [
     {
       "coverTrackId": "6a9d05aa5c27e49e116caefe",
@@ -50219,47 +50219,6 @@
         }
       },
       "motivo_en": "QC r1 returned: line translation dropped the conditional on 3 twin lines, fixed; QC r2"
-    },
-    {
-      "coverTrackId": "6aa5fafc42b8d1fdb0d98ba9",
-      "songId": "6a992f46486eb0e888ea7089",
-      "originalTrackId": "",
-      "titulo": "Tu Tu Tu",
-      "artista": "la Nueva Banda Timbiriche",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "carry aplicado; la letra del proveedor trae la voz duplicada (23 lineas + tokens en 10 lineas, con anclas): borrarla es decision de Saul",
-      "actualizado": "2026-10-29T10:29:46Z",
-      "motivo_en": "carry applied; vendor lyric has a duplicated vocal layer (23 lines + tokens in 10 lines, anchored): deleting it needs Saul's OK",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "ok",
-            "nota": "carry aplicado 29 oct: 94% match, 14 decisiones por regla (tildes = Singit; linea 1 palabra 5 se queda la del cover, el original trae errata), 18 pins nuevos en los bloques tu-tu-tu",
-            "t": "2026-10-29T10:27:59Z"
-          },
-          "lrc": {
-            "v": "saul",
-            "nota": "capa de voz duplicada del proveedor: 23 lineas enteras duplicadas (17 con anclas) + tokens duplicados en 10 lineas; borrar anclas = regla dura, decide Saul. Plan exacto en jobs/6aa5fafc42b8d1fdb0d98ba9.md",
-            "t": "2026-10-29T10:29:43Z"
-          },
-          "timing": {
-            "v": "saul",
-            "nota": "ultima palabra a 0 ms en 23 lineas dobladas; el buen fin esta en la copia duplicada: se arregla junto con el borrado",
-            "t": "2026-10-29T10:29:44Z"
-          },
-          "mapeo": {
-            "v": "falta",
-            "nota": "pendiente de la limpieza de la capa duplicada; 4 anclas de mi desplazadas por el carry (lineas 8, 10, 38, 40)",
-            "t": "2026-10-29T10:29:45Z"
-          },
-          "ingles": {
-            "v": "falta",
-            "nota": "sin ingles (original sin traduccion); en_plan tras la limpieza",
-            "t": "2026-10-29T10:29:45Z"
-          }
-        }
-      }
     },
     {
       "coverTrackId": "6aa1112664c9b8ff110caf06",
