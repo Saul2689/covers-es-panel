@@ -1,7 +1,7 @@
 {
-  "generado": "2026-11-04T15:31:31Z",
+  "generado": "2026-11-05T09:37:46Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
-  "descartadas": 42,
+  "descartadas": 43,
   "canciones": [
     {
       "coverTrackId": "6a9d05aa5c27e49e116caefe",
@@ -50514,8 +50514,8 @@
       "artista": "Camila",
       "estado": "parada",
       "vueltas": 0,
-      "motivo": "espera a Saúl: timing, 8 líneas dobladas por el proveedor (8, 12, 14, 18, 27, 31, 33, 37); hay que colapsar los pares",
-      "actualizado": "2026-10-22T11:43:07Z",
+      "motivo": "publicada: voz doblada del proveedor; plan: borrar líneas 9, 13, 15, 19, 28, 32, 34, 38 y palabras copiadas en 8, 18, 27, 37 (44 a 36 líneas, sin mover inicios); necesita OK de Saúl; los hints no lo resuelven",
+      "actualizado": "2026-11-05T09:31:12Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50555,7 +50555,7 @@
           "t": "2026-10-22T11:43:02Z"
         }
       },
-      "motivo_en": "Waiting for Saul: timing, 8 provider-doubled lines (8, 12, 14, 18, 27, 31, 33, 37) need collapsing"
+      "motivo_en": "published: provider doubled vocal; plan: delete lines 9, 13, 15, 19, 28, 32, 34, 38 and the copied words in 8, 18, 27, 37 (44 to 36 lines, no line start moved); needs Saul's OK; hints cannot fix it"
     },
     {
       "coverTrackId": "6aa7062a72ca57eb1aaa9f4d",
@@ -55611,27 +55611,6 @@
           "audio": 206,
           "timeline": "karaokeMp3",
           "t": "2026-10-27T13:03:39Z"
-        }
-      }
-    },
-    {
-      "coverTrackId": "6aa611d442b8d1fdb0dae59f",
-      "songId": "6a992f46486eb0e888ea7093",
-      "originalTrackId": "",
-      "titulo": "Tan Solo Tu",
-      "artista": "Laura Pausini, Nek",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "carry v2 sin aplicar: la palabra 1 de la línea proyectada 36 (fila 55 del proveedor, línea de una sola palabra) dura 0 ms y la línea 37 empieza 7 ms después; darle 40 ms exige mover el inicio de una línea o juntar filas, y el join posible tira un pin de Saúl en la línea 34. Las otras 7 palabras de 0 ms sí se pueden ensanchar. Decisiones (26) y 18 hints nuevos guardados, sin contenido escrito",
-      "actualizado": "2026-11-04T14:50:56Z",
-      "motivo_en": "v2 carry not applied: projected line 36 word 1 (vendor row 55, a one-word line) lasts 0 ms and line 37 starts 7 ms later; giving it 40 ms needs a line start moved or rows joined, and the only join drops one of Saúl's pins on line 34. The other 7 zero-ms words can be widened. 26 decisions and 18 new hints saved, no content written",
-      "auditoria": {
-        "pasos": {
-          "carry": {
-            "v": "saul",
-            "nota": "sin aplicar: dry run 84%, 26 lineas con decision; outro (lineas originales 29-31 = verso principal + coros en parentesis) el proveedor solo transcribe los coros con filas duplicadas solapadas (capas de voz): hace falta oido para saber si el cover canta el verso principal; audio SUENA_SIN_BLINDAR stemVoc 0 ms conf 1.67",
-            "t": "2026-10-29T10:23:34Z"
-          }
         }
       }
     },
@@ -63634,8 +63613,8 @@
       "artista": "Ha-Ash",
       "estado": "parada",
       "vueltas": 0,
-      "motivo": "espera a Saul: letra del proveedor en dos pasadas; L48-51 desordenadas en el tiempo (suenan a 32-41 s), L52-98 copia excluida con letra real no ensenada (p. ej. L62); decidir re-corte o borrado",
-      "actualizado": "2026-10-21T13:13:44Z",
+      "motivo": "publicada: dos pasadas del proveedor; 34 líneas de la 2a pasada son duplicado exacto (borrar), 48-50, 62, 77-81, 89, 97-98 son letra única (des-excluir y ordenar), 88 y 93-96 segunda voz; los hints no pueden; necesita OK de Saúl",
+      "actualizado": "2026-11-05T09:31:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -63675,7 +63654,7 @@
           "t": "2026-10-21T13:13:26Z"
         }
       },
-      "motivo_en": "waiting for Saul: the provider lyric has two overlapping passes; lines 48-51 are out of chronological order (they sound at 32-41 s), lines 52-98 are an excluded duplicate pass that holds real lyric that is not taught (e.g. line 62); decide between a re-cut and deleting the duplicates"
+      "motivo_en": "published: two provider passes; 34 second-pass lines are exact duplicates (delete), 48-50, 62, 77-81, 89, 97-98 are unique lyric (un-exclude and reorder), 88 and 93-96 are a second voice; hints cannot do it; needs Saul's OK"
     },
     {
       "coverTrackId": "6aa80d97d951e1665a7ed32c",
@@ -72034,8 +72013,8 @@
       "artista": "Rakim & Ken Y",
       "estado": "parada",
       "vueltas": 0,
-      "motivo": "espera a Saúl: línea 45 fusionada (~46 s), hay que recortarla",
-      "actualizado": "2026-11-04T09:47:21Z",
+      "motivo": "publicada: línea 45 = 22 filas del proveedor; 17 hints split puestos (filas 80-96), dry run 53 a 71 líneas sin ninguna >20 palabras; aplicar necesita OK de Saúl (mejor split_lines encima para no perder arreglos)",
+      "actualizado": "2026-11-05T09:31:14Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72065,7 +72044,7 @@
           }
         }
       },
-      "motivo_en": "waiting for Saul: line 45 is a merged line of about 46 s that needs a recut"
+      "motivo_en": "published: line 45 holds 22 provider rows; 17 split hints staged (rows 80-96), dry run 53 to 71 lines, none over 20 words; applying needs Saul's OK (split_lines on top preferred, keeps post-apply fixes)"
     },
     {
       "coverTrackId": "6aa6775b72ca57eb1a9f3440",
@@ -79764,8 +79743,8 @@
       "artista": "Azul Azul, Laura Leon",
       "estado": "parada",
       "vueltas": 2,
-      "motivo": "espera a Saul: borrar lineas duplicadas 28 y 30 (QC r3 VERDE)",
-      "actualizado": "2026-10-29T16:45:42Z",
+      "motivo": "publicada: borrar líneas 28 y 30 (copias con palabra 3 de 0 ms; quedan 29 y 31) necesita OK de Saúl; los hints no pueden quitar palabras del proveedor; plan exacto en el informe",
+      "actualizado": "2026-11-05T09:31:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -79805,7 +79784,7 @@
           "t": "2026-10-29T16:45:33Z"
         }
       },
-      "motivo_en": "Waiting for Saul: delete duplicate lines 28 and 30 (QC r3 green)"
+      "motivo_en": "published: deleting lines 28 and 30 (copies whose word 3 lasts 0 ms; 29 and 31 stay) needs Saul's OK; hints cannot remove provider words; exact plan in the job report"
     },
     {
       "coverTrackId": "6aa7423272ca57eb1ab0d3b8",
@@ -83113,10 +83092,10 @@
       "originalTrackId": "",
       "titulo": "Dime",
       "artista": "Victor Manuelle",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "espera a Saul: comas finales en 9 lineas de LRC publicado (pregunta F)",
-      "actualizado": "2026-10-29T18:43:34Z",
+      "estado": "revision",
+      "vueltas": 1,
+      "motivo": "nunca paso por QC; 4 WIT con i minuscula pasados a fila con I (L37w3 L53w1 L54w5 L61w1), borrador enviado a pending_review; comas finales publicadas para Saul",
+      "actualizado": "2026-11-05T09:34:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -83146,7 +83125,7 @@
           }
         }
       },
-      "motivo_en": "waiting for Saul: trailing commas on 9 lines of a published LRC (question F)"
+      "motivo_en": "never went through QC; 4 lowercase-i WITs moved to the capital-I row (L37w3 L53w1 L54w5 L61w1), draft submitted to pending_review; published line-final commas for Saul"
     },
     {
       "coverTrackId": "6aa69a1572ca57eb1aa2683c",
