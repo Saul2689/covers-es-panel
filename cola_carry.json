@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T09:47:10Z",
+  "generado": "2026-11-05T10:11:42Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 44,
   "canciones": [
@@ -7844,10 +7844,10 @@
       "originalTrackId": "",
       "titulo": "Vete Ya",
       "artista": "Valentin Elizalde",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 0,
-      "motivo": "falta el ingles: el clasificador bloqueo abrir el borrador EN (start_draft); letra, timing y mapeo hechos",
-      "actualizado": "2026-10-06T13:27:54Z",
+      "motivo": "inglés escrito, a QC r1",
+      "actualizado": "2026-11-05T09:53:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -7871,13 +7871,13 @@
             "t": "2026-10-06T13:27:31Z"
           },
           "ingles": {
-            "v": "saul",
-            "nota": "start_draft bloqueado por el clasificador; faltan lineas 1-30 y WIT texto con DT correcto (ver informe)",
-            "t": "2026-10-06T13:27:32Z"
+            "v": "ok",
+            "nota": "escrito (Saúl 5 nov)",
+            "t": "2026-11-05T09:53:31Z"
           }
         }
       },
-      "motivo_en": "English missing: the classifier blocked opening the EN draft (start_draft); lyric, timing and mapping done"
+      "motivo_en": "English written, to QC r1"
     },
     {
       "coverTrackId": "6aa77e6972ca57eb1acd0a7b",
@@ -9636,10 +9636,10 @@
       "originalTrackId": "",
       "titulo": "Apiadate De Mi",
       "artista": "Victor Manuelle",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "espera a Saúl: comas L12w4 y L22w4 frente a sus gemelas; escuchar huecos L36->L37, L40->L41 y repeticiones del outro",
-      "actualizado": "2026-11-05T09:44:26Z",
+      "motivo": "QC VERDE; notas de oído para Saúl (paradas 5 nov)",
+      "actualizado": "2026-11-05T09:59:00Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -9677,9 +9677,29 @@
           "v": "VERDE",
           "resumen": "QC r1: all checks pass; notes only (commas, gaps, resisto primary for Saul)",
           "t": "2026-11-04T14:16:13Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-05T09:59:00Z"
+        },
+        "sync": {
+          "songId": "6a992f5b486eb0e888ea7835",
+          "trackId": "6aa845f2d951e1665a833c68",
+          "src": "richsync",
+          "matched": 129,
+          "words": 280,
+          "median": -27,
+          "halves": [
+            -15,
+            -53
+          ],
+          "v": "OK",
+          "t": "2026-11-05T09:59:00Z"
         }
       },
-      "motivo_en": "QC r1 VERDE; waiting for Saúl: commas at line 12 word 4 and line 22 word 4 vs their twins; listen to the gaps line 36 to 37 and line 40 to 41 and the missing outro repeats"
+      "motivo_en": "QC GREEN; ear notes for Saúl"
     },
     {
       "coverTrackId": "6aa5eabe42b8d1fdb0d7e2c5",
@@ -15231,10 +15251,10 @@
       "originalTrackId": "",
       "titulo": "Perdoname",
       "artista": "Gilberto Santa Rosa",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "espera a Saul: oir lineas de estribillo que faltan (huecos antes de L36 y L41, tras L37, L42, L49) (QC r1 VERDE)",
-      "actualizado": "2026-11-05T09:44:27Z",
+      "motivo": "QC VERDE; notas de oído para Saúl (paradas 5 nov)",
+      "actualizado": "2026-11-05T10:00:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -15272,9 +15292,29 @@
           "v": "VERDE",
           "resumen": "r1: todo limpio; 4 items nuevos completos; lineas del estribillo que faltan = oido de Saul",
           "t": "2026-10-29T16:48:45Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-05T10:00:43Z"
+        },
+        "sync": {
+          "songId": "6a992f3c486eb0e888ea6cf8",
+          "trackId": "6aa4f31a42b8d1fdb0c2f08e",
+          "src": "richsync",
+          "matched": 87,
+          "words": 260,
+          "median": 140,
+          "halves": [
+            210,
+            118
+          ],
+          "v": "OK",
+          "t": "2026-11-05T10:00:43Z"
         }
       },
-      "motivo_en": "Waiting for Saul: listen for missing refrain lines (gaps before L36 and L41, after L37, L42, L49) (QC r1 green)"
+      "motivo_en": "QC GREEN; ear notes for Saúl"
     },
     {
       "coverTrackId": "6aa1113d64c9b8ff110d03d9",
@@ -17221,10 +17261,10 @@
       "originalTrackId": "",
       "titulo": "Se Parecio Tanto A Ti",
       "artista": "Grupo Niche",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "espera a Saúl: escuchar coros del original ausentes en huecos antes de lineas 52 y 58 (QC r2 VERDE)",
-      "actualizado": "2026-11-05T09:44:28Z",
+      "motivo": "QC VERDE; notas de oído para Saúl (paradas 5 nov)",
+      "actualizado": "2026-11-05T10:01:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -17262,9 +17302,29 @@
           "v": "VERDE",
           "resumen": "r2: L55 w3 WIT fixed, disgustar example reworded; all checks clean",
           "t": "2026-10-29T18:28:05Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-05T10:01:52Z"
+        },
+        "sync": {
+          "songId": "6a992f43486eb0e888ea6f5b",
+          "trackId": "6aa5b68642b8d1fdb0d2effc",
+          "src": "richsync",
+          "matched": 87,
+          "words": 277,
+          "median": -6,
+          "halves": [
+            30,
+            -42
+          ],
+          "v": "OK",
+          "t": "2026-11-05T10:01:52Z"
         }
       },
-      "motivo_en": "waiting for Saúl: listen for the original's backing lines missing in the gaps before lines 52 and 58 (QC r2 VERDE)"
+      "motivo_en": "QC GREEN; ear notes for Saúl"
     },
     {
       "coverTrackId": "6aa58aa742b8d1fdb0cfb064",
@@ -37171,10 +37231,10 @@
       "originalTrackId": "",
       "titulo": "Dame Lo Que Quiero",
       "artista": "Rakim & Ken Y",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "espera a Saúl: QC r2 VERDE; paso lrc pendiente de sus pistas spell-original, L29w9, L35w9 y mayúsculas a mitad de línea L26/32/45/50 w2",
-      "actualizado": "2026-11-04T14:43:13Z",
+      "motivo": "QC VERDE; notas de oído para Saúl (paradas 5 nov)",
+      "actualizado": "2026-11-05T10:11:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -37183,9 +37243,9 @@
             "t": "2026-11-04T13:40:52Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "22 arreglos de tilde/ortografia (19 lineas); quedan para Saul: palabras de sus hints (L7w5 L22w8 L45w3 L47w6 L52w2 L68w4), L74w5, L29w9/L35w9, mayusculas L26w2 L32w2 L45w2 L50w2",
-            "t": "2026-11-04T13:40:53Z"
+            "v": "ok",
+            "nota": "solo notas para Saul: palabras de sus hints L7w5 L22w8 L45w3 L47w6 L52w2 L68w4, L74w5, L29w9/L35w9, mayusculas publicadas L26w2 L32w2 L45w2 L50w2; sync_gate OK",
+            "t": "2026-11-05T09:55:08Z"
           },
           "timing": {
             "v": "ok",
@@ -37212,9 +37272,29 @@
           "v": "VERDE",
           "resumen": "r2: L26/L32 w5 y w9 corregidos, sin regresiones; checks 0",
           "t": "2026-11-04T14:37:46Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-05T10:11:15Z"
+        },
+        "sync": {
+          "songId": "6a992f4c486eb0e888ea72a6",
+          "trackId": "6aa693b772ca57eb1aa1b427",
+          "src": "richsync",
+          "matched": 123,
+          "words": 390,
+          "median": 87,
+          "halves": [
+            70,
+            98
+          ],
+          "v": "OK",
+          "t": "2026-11-05T10:11:15Z"
         }
       },
-      "motivo_en": "waiting for Saúl: QC r2 VERDE; lrc step pending his spell-original hints, L29w9, L35w9 and mid-line capitals L26/32/45/50 w2"
+      "motivo_en": "QC GREEN; ear notes for Saúl"
     },
     {
       "coverTrackId": "6aa6918072ca57eb1aa17b46",
@@ -47917,10 +47997,10 @@
       "originalTrackId": "",
       "titulo": "Puerto Rico",
       "artista": "Frankie Ruiz",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "espera a Saúl: escuchar posibles estribillos no transcritos tras lineas 36, 39 y 41 (paso lrc saul); QC r2 VERDE",
-      "actualizado": "2026-11-05T09:44:29Z",
+      "motivo": "QC VERDE; notas de oído para Saúl (paradas 5 nov)",
+      "actualizado": "2026-11-05T10:03:42Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -47958,9 +48038,29 @@
           "v": "VERDE",
           "resumen": "r2: L56 w4 now on new name item, 19 langs, WIT own bag; all checks 0, guard SUENA_SIN_BLINDAR",
           "t": "2026-11-04T09:14:43Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-05T10:03:42Z"
+        },
+        "sync": {
+          "songId": "6a992f43486eb0e888ea6f17",
+          "trackId": "6aa5953542b8d1fdb0d0af1d",
+          "src": "richsync",
+          "matched": 96,
+          "words": 247,
+          "median": -2,
+          "halves": [
+            -21,
+            15
+          ],
+          "v": "OK",
+          "t": "2026-11-05T10:03:42Z"
         }
       },
-      "motivo_en": "Waiting for Saul: listen for possibly untranscribed chorus repeats after lines 36, 39 and 41 (lrc step = saul); QC r2 VERDE"
+      "motivo_en": "QC GREEN; ear notes for Saúl"
     },
     {
       "coverTrackId": "6aa6c4c972ca57eb1aa58e85",
@@ -52912,10 +53012,10 @@
       "originalTrackId": "",
       "titulo": "Yo Quiero",
       "artista": "Camila",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "espera a Saúl: timing linea 48 palabra 4 (0 ms, orden revuelto lineas 48-49, del proveedor); QC r2 VERDE",
-      "actualizado": "2026-11-05T09:44:33Z",
+      "motivo": "QC VERDE; notas de oído para Saúl (paradas 5 nov)",
+      "actualizado": "2026-11-05T10:08:44Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -52953,9 +53053,29 @@
           "v": "VERDE",
           "resumen": "r2: fallos r1 arreglados (L30 w5, L11 w6, WI word), chequeos 0; L48 timing para Saul",
           "t": "2026-11-04T12:08:19Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-05T10:08:44Z"
+        },
+        "sync": {
+          "songId": "6a992f3d486eb0e888ea6d03",
+          "trackId": "6aa4f66e42b8d1fdb0c39739",
+          "src": "richsync",
+          "matched": 67,
+          "words": 303,
+          "median": 90,
+          "halves": [
+            150,
+            -35
+          ],
+          "v": "OK",
+          "t": "2026-11-05T10:08:44Z"
         }
       },
-      "motivo_en": "waits for Saúl: timing line 48 word 4 (0 ms, word order scrambled across lines 48-49, vendor data); QC r2 GREEN"
+      "motivo_en": "QC GREEN; ear notes for Saúl"
     },
     {
       "coverTrackId": "6aa82ffdd951e1665a8215f3",
@@ -57589,11 +57709,11 @@
       "originalTrackId": "",
       "titulo": "Entre Tu Y Yo",
       "artista": "Jyve V",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "espera a Saúl: oído en la línea 32-33; la letra original trae una línea entre ellas que la cover quizá canta y el LRC no tiene (hueco de 5 s); QC r1 VERDE en lo demás",
-      "actualizado": "2026-11-05T09:44:31Z",
-      "motivo_en": "Waiting for Saúl: ear check between lines 32 and 33; the original has a line there that the cover may sing and the LRC lacks (5 s gap); QC r1 GREEN on everything else",
+      "motivo": "QC VERDE; notas de oído para Saúl (paradas 5 nov)",
+      "actualizado": "2026-11-05T10:05:04Z",
+      "motivo_en": "QC GREEN; ear notes for Saúl",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -57631,6 +57751,26 @@
           "v": "VERDE",
           "resumen": "QC r1: all checks clean; one open LRC ear question for Saul between lines 32 and 33",
           "t": "2026-10-29T11:48:29Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-05T10:05:04Z"
+        },
+        "sync": {
+          "songId": "6a992f46486eb0e888ea7054",
+          "trackId": "6aa5f07342b8d1fdb0d88406",
+          "src": "richsync",
+          "matched": 107,
+          "words": 210,
+          "median": -33,
+          "halves": [
+            7,
+            -58
+          ],
+          "v": "OK",
+          "t": "2026-11-05T10:05:04Z"
         }
       }
     },
@@ -62226,8 +62366,8 @@
       "artista": "Tito Nieves",
       "estado": "parada",
       "vueltas": 0,
-      "motivo": "espera a Saúl: QC r1 VERDE; paso lrc pendiente de las comas finales publicadas en L17w1, L23w8, L45w4",
-      "actualizado": "2026-11-04T15:14:39Z",
+      "motivo": "sync_gate FALLA: mediana 300 ms (57 palabras casadas) en el audio servido; no se mueve nada, Saul decide; comas finales publicadas L17 L23 L45",
+      "actualizado": "2026-11-05T09:55:10Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62236,9 +62376,9 @@
             "t": "2026-11-04T14:20:15Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "17 tildes arregladas; puntuacion final L17 L23 L45 para Saul",
-            "t": "2026-11-04T14:20:16Z"
+            "v": "ok",
+            "nota": "solo notas para Saul: puntuacion final publicada L17w1 L23w8 L45w4",
+            "t": "2026-11-05T09:55:10Z"
           },
           "timing": {
             "v": "ok",
@@ -62267,7 +62407,7 @@
           "t": "2026-11-04T15:11:50Z"
         }
       },
-      "motivo_en": "waiting for Saúl: QC r1 VERDE; lrc step pending published trailing commas at L17w1, L23w8, L45w4"
+      "motivo_en": "sync_gate FAIL: median 300 ms (57 words matched) on the served audio; nothing shifted, Saul decides; published line-final commas L17 L23 L45"
     },
     {
       "coverTrackId": "6aa5c42842b8d1fdb0d43e46",
@@ -62735,10 +62875,10 @@
       "originalTrackId": "",
       "titulo": "Cuentale A El",
       "artista": "El Jeffrey",
-      "estado": "parada",
+      "estado": "revision",
       "vueltas": 1,
-      "motivo": "espera a Saúl: QC VERDE; sync_gate FALLA otra vez (primera mitad en sitio, segunda +43.7 s): escuchar la segunda mitad",
-      "actualizado": "2026-11-04T14:57:07Z",
+      "motivo": "Saúl: sync bien por oído; líneas largas partidas, tildes y mayúsculas",
+      "actualizado": "2026-11-05T09:50:48Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62798,7 +62938,7 @@
           "t": "2026-11-04T14:57:00Z"
         }
       },
-      "motivo_en": "waiting for Saúl: QC VERDE; sync_gate FAIL again (first half in sync, second half +43.7 s): listen to the second half"
+      "motivo_en": "Saúl: sync OK by ear; long lines split, accents and capitals fixed"
     },
     {
       "coverTrackId": "6aa5dc1842b8d1fdb0d68453",
@@ -70694,10 +70834,10 @@
       "originalTrackId": "",
       "titulo": "Kumbala",
       "artista": "la Maldita Vecindad",
-      "estado": "parada",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "espera a Saúl: oido linea 8 palabra 1 y hueco antes de linea 17 (paso lrc saul); QC r1 VERDE",
-      "actualizado": "2026-11-05T09:44:32Z",
+      "motivo": "QC VERDE; notas de oído para Saúl (paradas 5 nov)",
+      "actualizado": "2026-11-05T10:06:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -70735,9 +70875,29 @@
           "v": "VERDE",
           "resumen": "QC r1: estructura, mapeo, ingles y audio ok; notas de oido L8, L17, L16/L20 w2",
           "t": "2026-10-29T18:46:51Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-05T10:06:43Z"
+        },
+        "sync": {
+          "songId": "6a992f54486eb0e888ea75ac",
+          "trackId": "6aa790fc72ca57eb1acea8e0",
+          "src": "richsync",
+          "matched": 49,
+          "words": 111,
+          "median": 33,
+          "halves": [
+            42,
+            33
+          ],
+          "v": "OK",
+          "t": "2026-11-05T10:06:43Z"
         }
       },
-      "motivo_en": "Waiting for Saúl: ear check line 8 word 1 and the gap before line 17 (lrc step saul); QC r1 green"
+      "motivo_en": "QC GREEN; ear notes for Saúl"
     },
     {
       "coverTrackId": "6aa5861e42b8d1fdb0cf372d",
@@ -72356,7 +72516,7 @@
       "estado": "revision",
       "vueltas": 0,
       "motivo": "inglés escrito y limpio, a QC r1",
-      "actualizado": "2026-11-05T09:44:29Z",
+      "actualizado": "2026-11-05T09:53:02Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72383,7 +72543,34 @@
             "v": "ok",
             "nota": "aplicado (en_plan)",
             "t": "2026-11-05T09:44:10Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r1: estructura, mapeo, gemelas, ingles y chequeos OK; sync/audio OK por oido de Saul",
+            "t": "2026-11-05T09:53:02Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r1: estructura, mapeo, gemelas, ingles y chequeos OK; sync/audio OK por oido de Saul",
+          "t": "2026-11-05T09:53:02Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-05T09:53:48Z"
+        },
+        "sync": {
+          "songId": "6a992f46486eb0e888ea708d",
+          "trackId": "6aa6105c42b8d1fdb0dac09c",
+          "src": "richsync",
+          "matched": 0,
+          "words": 263,
+          "v": "DUDA",
+          "median": null,
+          "halves": null,
+          "t": "2026-11-05T09:53:48Z"
         }
       },
       "motivo_en": "QC r1"
@@ -73568,8 +73755,8 @@
       "artista": "Jose Feliciano",
       "estado": "parada",
       "vueltas": 0,
-      "motivo": "espera a Saúl: oido linea 3 palabras 4-5, linea 4 palabra 3 y hueco antes de linea 17 (paso lrc saul); QC r1 VERDE",
-      "actualizado": "2026-10-29T18:49:34Z",
+      "motivo": "sync_gate DUDA: 0 de 130 palabras casadas en el audio servido (_vocx.wav); escuchar sincronia; oido L3w4-5, L4w3, hueco antes de L17",
+      "actualizado": "2026-11-05T09:55:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -73578,9 +73765,9 @@
             "t": "2026-10-29T16:56:25Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "lineas 8 y 20 palabra 1 tilde de preterito anadida; linea 31 palabra 2 y linea 34 palabra 1 tilde anadida; linea 3 palabras 4-5 y linea 4 palabra 3 notas de oido del carry, se dejan; hueco 28 s antes de linea 17: el original repite ahi la primera estrofa, el proveedor no trae filas: comprobar de oido",
-            "t": "2026-10-29T16:56:25Z"
+            "v": "ok",
+            "nota": "solo notas de oido para Saul: L3w4-5, L4w3, hueco antes de L17",
+            "t": "2026-11-05T09:55:11Z"
           },
           "timing": {
             "v": "ok",
@@ -73609,7 +73796,7 @@
           "t": "2026-10-29T18:49:21Z"
         }
       },
-      "motivo_en": "Waiting for Saúl: ear check line 3 words 4-5, line 4 word 3 and the gap before line 17 (lrc step saul); QC r1 green"
+      "motivo_en": "sync_gate DUDA: 0 of 130 words matched on the served audio (_vocx.wav); listen to the sync; ear notes L3w4-5, L4w3, gap before L17"
     },
     {
       "coverTrackId": "6aa6c52672ca57eb1aa59573",
