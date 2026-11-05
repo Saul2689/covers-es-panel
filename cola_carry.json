@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T10:58:21Z",
+  "generado": "2026-11-05T11:14:21Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 44,
   "canciones": [
@@ -4984,8 +4984,8 @@
       "artista": "Maná",
       "estado": "revision",
       "vueltas": 1,
-      "motivo": "Saúl: letra corregida con la original; sync movida en bloque",
-      "actualizado": "2026-11-05T10:38:13Z",
+      "motivo": "devuelto r1 corregido",
+      "actualizado": "2026-11-05T11:01:09Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -5005,8 +5005,8 @@
           },
           "ingles": {
             "v": "ok",
-            "nota": "13 WIT tú sujeto → you con DT de su bag; BAD 0; 0 sin texto; pending_review",
-            "t": "2026-09-25T08:54:33Z"
+            "nota": "QC r1: lineas 8 20 32 33 35 44 reescritas a la linea actual; litchk 0 lpchk 0 BAD 0 midcap 0 (L48 nombre divino); reenviada pending_review",
+            "t": "2026-11-05T11:01:08Z"
           },
           "carry": {
             "v": "ok",
@@ -72199,10 +72199,10 @@
       "originalTrackId": "",
       "titulo": "No Tengo Nada (Paris)",
       "artista": "Rakim & Ken Y",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "publicada: línea 45 = 22 filas del proveedor; 17 hints split puestos (filas 80-96), dry run 53 a 71 líneas sin ninguna >20 palabras; aplicar necesita OK de Saúl (mejor split_lines encima para no perder arreglos)",
-      "actualizado": "2026-11-05T09:31:14Z",
+      "estado": "revision",
+      "vueltas": 1,
+      "motivo": "Saúl: estructura arreglada (línea 45 partida en 19), anclajes movidos, inglés completo en pending_review",
+      "actualizado": "2026-11-05T11:14:08Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72232,7 +72232,7 @@
           }
         }
       },
-      "motivo_en": "published: line 45 holds 22 provider rows; 17 split hints staged (rows 80-96), dry run 53 to 71 lines, none over 20 words; applying needs Saul's OK (split_lines on top preferred, keeps post-apply fixes)"
+      "motivo_en": "Saúl: structure fixed (line 45 split into 19), anchors moved, English complete in pending_review"
     },
     {
       "coverTrackId": "6aa6775b72ca57eb1a9f3440",
@@ -83310,8 +83310,8 @@
       "artista": "Victor Manuelle",
       "estado": "revision",
       "vueltas": 1,
-      "motivo": "nunca paso por QC; 4 WIT con i minuscula pasados a fila con I (L37w3 L53w1 L54w5 L61w1), borrador enviado a pending_review; comas finales publicadas para Saul",
-      "actualizado": "2026-11-05T10:42:45Z",
+      "motivo": "devuelto r1 corregido",
+      "actualizado": "2026-11-05T11:03:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -83320,9 +83320,9 @@
             "t": "2026-10-29T16:45:37Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "linea 37 palabra 5 errata del original corregida; tildes en 3.2, 8.6/24.6, 13.4/29.4, 15.1/31.1/39.1, 46.1, 46.3, 54.3; oido: hueco de 32 s antes de la linea 51 (el original repite ahi sus lineas 1-2)",
-            "t": "2026-10-29T18:33:51Z"
+            "v": "ok",
+            "nota": "QC r1: tilde en L5w1 y L21w1 (pronombre sujeto), lrc_plan_fix solo tilde, ids y ms iguales; backup pre_audit3",
+            "t": "2026-11-05T11:03:28Z"
           },
           "timing": {
             "v": "ok",
@@ -83331,13 +83331,13 @@
           },
           "mapeo": {
             "v": "ok",
-            "nota": "5 items nuevos (matarás matar, imagíname, manicomio/manicomios, alucinando alucinar; 19 idiomas); 11 anclas nuevas; 11 remapeos (gemelas, futuros, muero)",
-            "t": "2026-10-29T18:33:54Z"
+            "nota": "QC r1: L5w1 L21w1 remapeadas al pronombre con tilde 6a11d8fec9740e1ba06cb03d (upsert, mismo WI id)",
+            "t": "2026-11-05T11:03:28Z"
           },
           "ingles": {
             "v": "ok",
-            "nota": "en_plan.json 61 lineas 260 WIT, dry run 0 saltados, wit_dt_audit BAD 0",
-            "t": "2026-10-29T18:33:54Z"
+            "nota": "QC r1: L45w2 WIT = gemelas 18/34 (DT 6abce158817637b6cf49a8d2); L5w1 L21w1 WIT you DT 6a412b0f0d46889f7049095e; BAD 0 litchk 0; reenviada pending_review",
+            "t": "2026-11-05T11:03:29Z"
           },
           "qc": {
             "v": "falta",
