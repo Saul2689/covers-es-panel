@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T10:26:49Z",
+  "generado": "2026-11-05T10:58:21Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 44,
   "canciones": [
@@ -4985,7 +4985,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "Saúl: letra corregida con la original; sync movida en bloque",
-      "actualizado": "2026-11-05T10:12:57Z",
+      "actualizado": "2026-11-05T10:38:13Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -5014,15 +5014,15 @@
             "t": "2026-09-25T08:35:24Z"
           },
           "qc": {
-            "v": "ok",
-            "nota": "wit_dt_audit BAD 0 confirmado (13 lineas incl 21/66), linea 81 se con tilde verificada en LRC vivo",
-            "t": "2026-09-25T08:57:04Z"
+            "v": "falta",
+            "nota": "inglés de línea sin rehacer tras quitar frases dobladas: L20/L44, L32 (y mayúscula media), L33, L35 repiten la frase; L8 concordancia y no casa con WIT w3. Resto limpio, sync_gate OK",
+            "t": "2026-11-05T10:38:13Z"
           }
         },
         "qc": {
-          "v": "VERDE",
-          "resumen": "wit_dt_audit BAD 0 confirmado (13 lineas incl 21/66), linea 81 se con tilde verificada en LRC vivo",
-          "t": "2026-09-25T08:57:04Z"
+          "v": "DEVUELTO",
+          "resumen": "inglés de línea sin rehacer tras quitar frases dobladas: L20/L44, L32 (y mayúscula media), L33, L35 repiten la frase; L8 concordancia y no casa con WIT w3. Resto limpio, sync_gate OK",
+          "t": "2026-11-05T10:38:13Z"
         }
       },
       "motivo_en": "Saúl: lyric corrected against the original; sync shifted in block"
@@ -7844,10 +7844,10 @@
       "originalTrackId": "",
       "titulo": "Vete Ya",
       "artista": "Valentin Elizalde",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 0,
-      "motivo": "inglés escrito, a QC r1",
-      "actualizado": "2026-11-05T09:53:33Z",
+      "motivo": "QC VERDE r1: traducida al inglés",
+      "actualizado": "2026-11-05T10:55:15Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -7874,7 +7874,37 @@
             "v": "ok",
             "nota": "escrito (Saúl 5 nov)",
             "t": "2026-11-05T09:53:31Z"
+          },
+          "qc": {
+            "v": "ok",
+            "nota": "r1: qc_es VERDE, chequeos limpios, inglés nuevo 30/30 y 162 WIT bien; notas: L10/L25 w6 reflexivo con WIT itself (defendible), L3/L18 w2 fila stay",
+            "t": "2026-11-05T10:39:27Z"
           }
+        },
+        "qc": {
+          "v": "VERDE",
+          "resumen": "r1: qc_es VERDE, chequeos limpios, inglés nuevo 30/30 y 162 WIT bien; notas: L10/L25 w6 reflexivo con WIT itself (defendible), L3/L18 w2 fila stay",
+          "t": "2026-11-05T10:39:27Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-05T10:55:15Z"
+        },
+        "sync": {
+          "songId": "6a992f4f486eb0e888ea73c7",
+          "trackId": "6aa1112f64c9b8ff110cc951",
+          "src": "richsync",
+          "matched": 89,
+          "words": 162,
+          "median": 63,
+          "halves": [
+            60,
+            63
+          ],
+          "v": "OK",
+          "t": "2026-11-05T10:55:15Z"
         }
       },
       "motivo_en": "English written, to QC r1"
@@ -25833,10 +25863,10 @@
       "originalTrackId": "",
       "titulo": "Lo Que No Sabes Tu",
       "artista": "Chino & Nacho",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "Saúl: letra según el original con tildes; sync bien",
-      "actualizado": "2026-11-05T09:40:51Z",
+      "motivo": "QC VERDE r2: letra según la original con tildes",
+      "actualizado": "2026-11-05T10:58:11Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -25845,9 +25875,9 @@
             "t": "2026-11-04T11:46:24Z"
           },
           "lrc": {
-            "v": "saul",
-            "nota": "lineas 26/55/96 palabra 10: verbo sin tilde por la pista spell-original de Saul; mapeo y LRC sin tocar, decide Saul",
-            "t": "2026-11-04T14:15:23Z"
+            "v": "ok",
+            "nota": "líneas 26/55/96 palabra 10 con tilde (Saúl 5 nov: arreglar acentos); la pista spell-original de Saúl sigue sin tilde, no se toca",
+            "t": "2026-11-05T10:55:48Z"
           },
           "timing": {
             "v": "ok",
@@ -25866,14 +25896,34 @@
           },
           "qc": {
             "v": "ok",
-            "nota": "QC r2: L40w3 WIT capitalised and bateo primary fixed; all checks pass; L26/55/96 w10 left for Saul",
-            "t": "2026-11-04T14:25:23Z"
+            "nota": "r2 tras PARADAS3: 3 tildes L26/55/96 w10 + anclas a estar acentuado OK; chequeos limpios; nota: sync_gate FALLA por coros repetidos (inicios sin mover), hints de Saúl sin tocar",
+            "t": "2026-11-05T10:31:11Z"
           }
         },
         "qc": {
           "v": "VERDE",
-          "resumen": "QC r2: L40w3 WIT capitalised and bateo primary fixed; all checks pass; L26/55/96 w10 left for Saul",
-          "t": "2026-11-04T14:25:23Z"
+          "resumen": "r2 tras PARADAS3: 3 tildes L26/55/96 w10 + anclas a estar acentuado OK; chequeos limpios; nota: sync_gate FALLA por coros repetidos (inicios sin mover), hints de Saúl sin tocar",
+          "t": "2026-11-05T10:31:11Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-05T10:58:11Z"
+        },
+        "sync": {
+          "songId": "6a992f40486eb0e888ea6e3e",
+          "trackId": "6aa54b4942b8d1fdb0cb4b07",
+          "src": "richsync",
+          "matched": 47,
+          "words": 637,
+          "median": -37,
+          "halves": [
+            104,
+            -144
+          ],
+          "v": "OK",
+          "t": "2026-11-05T10:58:11Z"
         }
       },
       "motivo_en": "Saúl: lyric per original with accents fixed; sync OK"
@@ -50571,10 +50621,10 @@
       "originalTrackId": "",
       "titulo": "Dejarte De Amar",
       "artista": "Camila",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "publicada: voz doblada del proveedor; plan: borrar líneas 9, 13, 15, 19, 28, 32, 34, 38 y palabras copiadas en 8, 18, 27, 37 (44 a 36 líneas, sin mover inicios); necesita OK de Saúl; los hints no lo resuelven",
-      "actualizado": "2026-11-05T09:31:12Z",
+      "estado": "revision",
+      "vueltas": 1,
+      "motivo": "Saúl: estructura arreglada (8 líneas duplicadas borradas y frases dobles quitadas en 8, 15, 23 y 30; 36 líneas)",
+      "actualizado": "2026-11-05T10:52:43Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -50614,7 +50664,7 @@
           "t": "2026-10-22T11:43:02Z"
         }
       },
-      "motivo_en": "published: provider doubled vocal; plan: delete lines 9, 13, 15, 19, 28, 32, 34, 38 and the copied words in 8, 18, 27, 37 (44 to 36 lines, no line start moved); needs Saul's OK; hints cannot fix it"
+      "motivo_en": "Saúl: structure fixed (8 duplicate lines deleted, doubled phrases removed in 8, 15, 23 and 30; 36 lines)"
     },
     {
       "coverTrackId": "6aa7062a72ca57eb1aaa9f4d",
@@ -60349,7 +60399,26 @@
       "estado": "cola",
       "vueltas": 0,
       "motivo": "carry a mano no cuadra: match 79,9 % (bajo 80) con todas las preguntas decididas; no aplicado",
-      "actualizado": "2026-11-04T09:34:05Z"
+      "actualizado": "2026-11-05T10:51:19Z",
+      "auditoria": {
+        "pasos": {
+          "carry": {
+            "v": "ok",
+            "nota": "carry a mano v2 (75-80, prioridad letra del cover): 54 hints + 32 decisiones del 4 nov, sin hints nuevos, 80 %; 65 líneas, drift 0, 0 fuera de rango, 0 duplicadas",
+            "t": "2026-11-05T10:34:57Z"
+          },
+          "lrc": {
+            "v": "ok",
+            "nota": "lrc_plan_fix 5 nov: tildes L26w1, L31/L43 w4 y w7; palabra partida del vendor unida L11w7 y L42w7 (anclas de detrás movidas, 2 sobrantes propias borradas); ms intactos, drift 0, 351 tokens = richsync. Mayúsculas/estilo NO tocados (publicada): lista en el job",
+            "t": "2026-11-05T10:51:17Z"
+          },
+          "timing": {
+            "v": "ok",
+            "nota": "sin retime: 0 palabras < 40 ms, drift 0, ningún inicio de línea movido; audio_guard SUENA_SIN_BLINDAR",
+            "t": "2026-11-05T10:51:19Z"
+          }
+        }
+      }
     },
     {
       "coverTrackId": "6aa81f67d951e1665a80871a",
@@ -62364,10 +62433,10 @@
       "originalTrackId": "",
       "titulo": "El Peor De Mis Fracasos",
       "artista": "Tito Nieves",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "sync_gate FALLA: mediana 300 ms (57 palabras casadas) en el audio servido; no se mueve nada, Saul decide; comas finales publicadas L17 L23 L45",
-      "actualizado": "2026-11-05T09:55:10Z",
+      "estado": "revision",
+      "vueltas": 1,
+      "motivo": "Saúl: sync ajustada (+120 ms en bloque); orden de líneas ya correcto contra audio y original",
+      "actualizado": "2026-11-05T10:45:19Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62407,7 +62476,7 @@
           "t": "2026-11-04T15:11:50Z"
         }
       },
-      "motivo_en": "sync_gate FAIL: median 300 ms (57 words matched) on the served audio; nothing shifted, Saul decides; published line-final commas L17 L23 L45"
+      "motivo_en": "Saúl: sync adjusted (+120 ms block); line order already correct against audio and original"
     },
     {
       "coverTrackId": "6aa5c42842b8d1fdb0d43e46",
@@ -62875,10 +62944,10 @@
       "originalTrackId": "",
       "titulo": "Cuentale A El",
       "artista": "El Jeffrey",
-      "estado": "revision",
+      "estado": "hecha",
       "vueltas": 1,
-      "motivo": "Saúl: sync bien por oído; líneas largas partidas, tildes y mayúsculas",
-      "actualizado": "2026-11-05T10:26:27Z",
+      "motivo": "QC VERDE r2: líneas largas partidas, tildes y mayúsculas",
+      "actualizado": "2026-11-05T10:54:35Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -62921,21 +62990,21 @@
           "v": "SUENA_SIN_BLINDAR",
           "audio": 206,
           "timeline": "karaokeMp3",
-          "t": "2026-11-04T14:57:00Z"
+          "t": "2026-11-05T10:54:35Z"
         },
         "sync": {
           "songId": "6a992f42486eb0e888ea6ec5",
           "trackId": "6aa5836f42b8d1fdb0cf10af",
           "src": "richsync",
-          "matched": 102,
+          "matched": 89,
           "words": 272,
-          "median": 14952,
+          "median": 27,
           "halves": [
-            -10,
-            43670
+            7,
+            30
           ],
-          "v": "FALLA",
-          "t": "2026-11-04T14:57:00Z"
+          "v": "OK",
+          "t": "2026-11-05T10:54:35Z"
         }
       },
       "motivo_en": "Saúl: sync OK by ear; long lines split, accents and capitals fixed"
@@ -79888,10 +79957,10 @@
       "originalTrackId": "",
       "titulo": "El Hombre Es Como El Oso",
       "artista": "Azul Azul, Laura Leon",
-      "estado": "parada",
-      "vueltas": 2,
-      "motivo": "publicada: borrar líneas 28 y 30 (copias con palabra 3 de 0 ms; quedan 29 y 31) necesita OK de Saúl; los hints no pueden quitar palabras del proveedor; plan exacto en el informe",
-      "actualizado": "2026-11-05T09:31:11Z",
+      "estado": "revision",
+      "vueltas": 1,
+      "motivo": "Saúl: estructura arreglada (líneas duplicadas 28 y 30 borradas)",
+      "actualizado": "2026-11-05T10:41:29Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -79931,7 +80000,7 @@
           "t": "2026-10-29T16:45:33Z"
         }
       },
-      "motivo_en": "published: deleting lines 28 and 30 (copies whose word 3 lasts 0 ms; 29 and 31 stay) needs Saul's OK; hints cannot remove provider words; exact plan in the job report"
+      "motivo_en": "Saúl: structure fixed (duplicate lines 28 and 30 removed)"
     },
     {
       "coverTrackId": "6aa7423272ca57eb1ab0d3b8",
@@ -82044,10 +82113,10 @@
       "originalTrackId": "",
       "titulo": "No Hay Nadie Como Tu",
       "artista": "Cafe Tacuba, Calle 13",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "el re-corte por hints no sirve: el carry proyecta todas las fichas del proveedor (884 = 884) y ningún hint quita una; la copia doble de cada fila sigue saliendo. No se tocó nada (ni hints, ni revert, ni recut). Hace falta el plan de borrado de líneas (restructure_plan.json) con OK de Saúl",
-      "actualizado": "2026-11-04T14:52:21Z",
+      "estado": "revision",
+      "vueltas": 1,
+      "motivo": "original real importado y re-enlazado; filas duplicadas quitadas",
+      "actualizado": "2026-11-05T10:37:25Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -82077,7 +82146,7 @@
           }
         }
       },
-      "motivo_en": "the hint re-cut cannot work: the carry projects every vendor token (884 = 884) and no hint removes one, so the doubled copy of each row still comes out. Nothing touched (no hints, revert or recut). Needs the line-delete plan (restructure_plan.json) with Saúl's OK"
+      "motivo_en": "real original imported and re-linked; duplicate rows removed"
     },
     {
       "coverTrackId": "6aa5fabc42b8d1fdb0d9870f",
@@ -83242,7 +83311,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "nunca paso por QC; 4 WIT con i minuscula pasados a fila con I (L37w3 L53w1 L54w5 L61w1), borrador enviado a pending_review; comas finales publicadas para Saul",
-      "actualizado": "2026-11-05T09:34:25Z",
+      "actualizado": "2026-11-05T10:42:45Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -83269,7 +83338,17 @@
             "v": "ok",
             "nota": "en_plan.json 61 lineas 260 WIT, dry run 0 saltados, wit_dt_audit BAD 0",
             "t": "2026-10-29T18:33:54Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "QC r1: L45w2 WIT distinto de sus gemelas L18/L34 (poner la misma fila 'to forget'); L5w1 y L21w1 pronombre sujeto sin tilde mapeado al item sin tilde: tilde + remapear. Resto limpio: sync_gate OK, drift 0, BAD 0, litchk 0, casechk 0. Comas finales (lpchk 9) = decisión de Saúl, nota.",
+            "t": "2026-11-05T10:42:45Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "QC r1: L45w2 WIT distinto de sus gemelas L18/L34 (poner la misma fila 'to forget'); L5w1 y L21w1 pronombre sujeto sin tilde mapeado al item sin tilde: tilde + remapear. Resto limpio: sync_gate OK, drift 0, BAD 0, litchk 0, casechk 0. Comas finales (lpchk 9) = decisión de Saúl, nota.",
+          "t": "2026-11-05T10:42:45Z"
         }
       },
       "motivo_en": "never went through QC; 4 lowercase-i WITs moved to the capital-I row (L37w3 L53w1 L54w5 L61w1), draft submitted to pending_review; published line-final commas for Saul"
