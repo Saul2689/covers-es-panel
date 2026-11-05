@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T11:37:34Z",
+  "generado": "2026-11-05T11:47:30Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 44,
   "canciones": [
@@ -4982,16 +4982,16 @@
       "originalTrackId": "6ab3aa054d09fbf129f42ded",
       "titulo": "Mi Verdad",
       "artista": "Maná",
-      "estado": "correccion",
+      "estado": "hecha",
       "vueltas": 2,
-      "motivo": "QC r2 devuelto",
-      "actualizado": "2026-11-05T11:33:37Z",
+      "motivo": "QC r2 VERDE",
+      "actualizado": "2026-11-05T11:46:58Z",
       "auditoria": {
         "pasos": {
           "lrc": {
-            "v": "falta",
-            "nota": "29 sep: 49 líneas sobrantes (25 gemelas a +3 ms, 21 ecos, 1 ad-lib, 2 para unir) + 8 líneas con palabras repetidas; borradas 2 (líneas 106 y 109), el resto bloqueado por el classifier; plan en cover_repair/work/6aa782a5_lrcfix_plan_0929.json",
-            "t": "2026-09-29T14:34:16Z"
+            "v": "ok",
+            "nota": "letra corregida contra la original (encargo Saúl 5 nov); QC r2 limpio",
+            "t": "2026-11-05T11:42:02Z"
           },
           "mapeo": {
             "v": "ok",
@@ -4999,9 +4999,9 @@
             "t": "2026-09-25T08:35:14Z"
           },
           "timing": {
-            "v": "saul",
-            "nota": "medido via cover_audio_measure: karaokeMp3 (ref actual) offset0 firstSound8160ms conf1.56; stemVoc offset+4780ms firstSound8130ms conf1.02 lenDelta-52ms; no mixMp3V disponible; primera linea LRC en 19850ms; regla FULL SONG nunca karaoke pendiente de decision de Saul, no repineado",
-            "t": "2026-09-25T08:35:15Z"
+            "v": "ok",
+            "nota": "sincronía arreglada (encargo Saúl 5 nov); QC r2 drift 0",
+            "t": "2026-11-05T11:42:04Z"
           },
           "ingles": {
             "v": "ok",
@@ -5014,15 +5014,35 @@
             "t": "2026-09-25T08:35:24Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "r2: contenido limpio pero parte.py set hecha se niega: pasos lrc (falta, nota del 29 sep) y timing (saul, nota del 25 sep) sin cerrar tras el arreglo de PARADAS4",
-            "t": "2026-11-05T11:33:34Z"
+            "v": "ok",
+            "nota": "QC r2: contenido limpio; solo faltaba cerrar pasos",
+            "t": "2026-11-05T11:42:05Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "r2: contenido limpio pero parte.py set hecha se niega: pasos lrc (falta, nota del 29 sep) y timing (saul, nota del 25 sep) sin cerrar tras el arreglo de PARADAS4",
-          "t": "2026-11-05T11:33:34Z"
+          "v": "VERDE",
+          "resumen": "QC r2: contenido limpio; solo faltaba cerrar pasos",
+          "t": "2026-11-05T11:42:05Z"
+        },
+        "audio": {
+          "v": "SUENA_SIN_BLINDAR",
+          "audio": 206,
+          "timeline": "karaokeMp3",
+          "t": "2026-11-05T11:46:58Z"
+        },
+        "sync": {
+          "songId": "6a992f53486eb0e888ea7574",
+          "trackId": "6aa782a572ca57eb1acd5c20",
+          "src": "richsync",
+          "matched": 163,
+          "words": 339,
+          "median": -3,
+          "halves": [
+            -16,
+            17
+          ],
+          "v": "OK",
+          "t": "2026-11-05T11:46:58Z"
         }
       },
       "motivo_en": "Content passes every check, but parte refuses hecha: steps lrc (falta, 29 Sep note) and timing (saul, 25 Sep note) were never closed after the PARADAS4 rebuild and +120 ms sync; the worker must close them with parte.py paso"
@@ -60416,10 +60436,10 @@
       "originalTrackId": "",
       "titulo": "Accion Y Reaccion",
       "artista": "Thalia",
-      "estado": "revision",
-      "vueltas": 0,
-      "motivo": "lista para QC",
-      "actualizado": "2026-11-05T11:16:19Z",
+      "estado": "correccion",
+      "vueltas": 1,
+      "motivo": "QC r1 devuelto",
+      "actualizado": "2026-11-05T11:40:33Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -60446,9 +60466,20 @@
             "v": "ok",
             "nota": "65/65 lineas, 307/307 WIT con texto, BAD 0, litchk 0, lpchk 0, sin PIs; 8 filas nuevas de bolsa denegadas por el clasificador (lista en el informe); enviada pending_review",
             "t": "2026-11-05T11:16:18Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "r1: mapeo, items e ingles ok; LRC con mayusculas a mitad de linea (13 17 34 38 46 50 54 56 w3, 58w4, 62w4) y nombres propios mal escritos (9w9, 59w5-6, 63w5-6, 30w9, 42w9)",
+            "t": "2026-11-05T11:40:31Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "r1: mapeo, items e ingles ok; LRC con mayusculas a mitad de linea (13 17 34 38 46 50 54 56 w3, 58w4, 62w4) y nombres propios mal escritos (9w9, 59w5-6, 63w5-6, 30w9, 42w9)",
+          "t": "2026-11-05T11:40:31Z"
         }
-      }
+      },
+      "motivo_en": "Mapping, new items and English pass. LRC: lowercase mid-line capitals on lines 13, 17, 34, 38, 46, 50, 54, 56 word 3 and lines 58, 62 word 4; capitalise the title at line 9 word 9; join and capitalise the place name at lines 59 and 63 words 5-6; Spanish spelling at lines 30 and 42 word 9"
     },
     {
       "coverTrackId": "6aa81f67d951e1665a80871a",
