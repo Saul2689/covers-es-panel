@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T11:32:57Z",
+  "generado": "2026-11-05T11:37:34Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 44,
   "canciones": [
@@ -4982,10 +4982,10 @@
       "originalTrackId": "6ab3aa054d09fbf129f42ded",
       "titulo": "Mi Verdad",
       "artista": "Maná",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "devuelto r1 corregido",
-      "actualizado": "2026-11-05T11:29:53Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "QC r2 devuelto",
+      "actualizado": "2026-11-05T11:33:37Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -5014,18 +5014,18 @@
             "t": "2026-09-25T08:35:24Z"
           },
           "qc": {
-            "v": "ok",
-            "nota": "r2: ingles de lineas 8 20 32 33 35 44 corregido; todos los checks en verde",
-            "t": "2026-11-05T11:29:53Z"
+            "v": "falta",
+            "nota": "r2: contenido limpio pero parte.py set hecha se niega: pasos lrc (falta, nota del 29 sep) y timing (saul, nota del 25 sep) sin cerrar tras el arreglo de PARADAS4",
+            "t": "2026-11-05T11:33:34Z"
           }
         },
         "qc": {
-          "v": "VERDE",
-          "resumen": "r2: ingles de lineas 8 20 32 33 35 44 corregido; todos los checks en verde",
-          "t": "2026-11-05T11:29:53Z"
+          "v": "DEVUELTO",
+          "resumen": "r2: contenido limpio pero parte.py set hecha se niega: pasos lrc (falta, nota del 29 sep) y timing (saul, nota del 25 sep) sin cerrar tras el arreglo de PARADAS4",
+          "t": "2026-11-05T11:33:34Z"
         }
       },
-      "motivo_en": "Saúl: lyric corrected against the original; sync shifted in block"
+      "motivo_en": "Content passes every check, but parte refuses hecha: steps lrc (falta, 29 Sep note) and timing (saul, 25 Sep note) were never closed after the PARADAS4 rebuild and +120 ms sync; the worker must close them with parte.py paso"
     },
     {
       "coverTrackId": "6aa58a8742b8d1fdb0cfac91",
@@ -82175,8 +82175,8 @@
       "artista": "Cafe Tacuba, Calle 13",
       "estado": "revision",
       "vueltas": 1,
-      "motivo": "original real importado y re-enlazado; filas duplicadas quitadas",
-      "actualizado": "2026-11-05T11:15:10Z",
+      "motivo": "devuelto r1 corregido",
+      "actualizado": "2026-11-05T11:36:52Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -82216,7 +82216,7 @@
           "t": "2026-11-05T11:15:10Z"
         }
       },
-      "motivo_en": "real original imported and re-linked; duplicate rows removed"
+      "motivo_en": "QC r1 returned, fixed"
     },
     {
       "coverTrackId": "6aa5fabc42b8d1fdb0d9870f",
@@ -83378,10 +83378,10 @@
       "originalTrackId": "",
       "titulo": "Dime",
       "artista": "Victor Manuelle",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "devuelto r1 corregido",
-      "actualizado": "2026-11-05T11:03:29Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "QC r2 devuelto",
+      "actualizado": "2026-11-05T11:36:36Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -83411,17 +83411,17 @@
           },
           "qc": {
             "v": "falta",
-            "nota": "QC r1: L45w2 WIT distinto de sus gemelas L18/L34 (poner la misma fila 'to forget'); L5w1 y L21w1 pronombre sujeto sin tilde mapeado al item sin tilde: tilde + remapear. Resto limpio: sync_gate OK, drift 0, BAD 0, litchk 0, casechk 0. Comas finales (lpchk 9) = decisión de Saúl, nota.",
-            "t": "2026-11-05T10:42:45Z"
+            "nota": "r2: arreglos r1 ok; lpchk 9, coma final en lineas 1 2 7 11 12 23 27 28 43",
+            "t": "2026-11-05T11:36:35Z"
           }
         },
         "qc": {
           "v": "DEVUELTO",
-          "resumen": "QC r1: L45w2 WIT distinto de sus gemelas L18/L34 (poner la misma fila 'to forget'); L5w1 y L21w1 pronombre sujeto sin tilde mapeado al item sin tilde: tilde + remapear. Resto limpio: sync_gate OK, drift 0, BAD 0, litchk 0, casechk 0. Comas finales (lpchk 9) = decisión de Saúl, nota.",
-          "t": "2026-11-05T10:42:45Z"
+          "resumen": "r2: arreglos r1 ok; lpchk 9, coma final en lineas 1 2 7 11 12 23 27 28 43",
+          "t": "2026-11-05T11:36:35Z"
         }
       },
-      "motivo_en": "never went through QC; 4 lowercase-i WITs moved to the capital-I row (L37w3 L53w1 L54w5 L61w1), draft submitted to pending_review; published line-final commas for Saul"
+      "motivo_en": "r1 fixes verified; lpchk 9: lines 1, 2, 7, 11, 12, 23, 27, 28, 43 end with a comma; remove them (punctuation only, richsync too) or ask Saul if the published-LRC OK does not cover punctuation"
     },
     {
       "coverTrackId": "6aa69a1572ca57eb1aa2683c",
