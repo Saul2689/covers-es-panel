@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T11:21:20Z",
+  "generado": "2026-11-05T11:32:57Z",
   "hilo": "🔁🇪🇸 Línea ES — carry, revisión y traducción",
   "descartadas": 44,
   "canciones": [
@@ -4985,7 +4985,7 @@
       "estado": "revision",
       "vueltas": 1,
       "motivo": "devuelto r1 corregido",
-      "actualizado": "2026-11-05T11:01:09Z",
+      "actualizado": "2026-11-05T11:29:53Z",
       "auditoria": {
         "pasos": {
           "lrc": {
@@ -5014,15 +5014,15 @@
             "t": "2026-09-25T08:35:24Z"
           },
           "qc": {
-            "v": "falta",
-            "nota": "inglés de línea sin rehacer tras quitar frases dobladas: L20/L44, L32 (y mayúscula media), L33, L35 repiten la frase; L8 concordancia y no casa con WIT w3. Resto limpio, sync_gate OK",
-            "t": "2026-11-05T10:38:13Z"
+            "v": "ok",
+            "nota": "r2: ingles de lineas 8 20 32 33 35 44 corregido; todos los checks en verde",
+            "t": "2026-11-05T11:29:53Z"
           }
         },
         "qc": {
-          "v": "DEVUELTO",
-          "resumen": "inglés de línea sin rehacer tras quitar frases dobladas: L20/L44, L32 (y mayúscula media), L33, L35 repiten la frase; L8 concordancia y no casa con WIT w3. Resto limpio, sync_gate OK",
-          "t": "2026-11-05T10:38:13Z"
+          "v": "VERDE",
+          "resumen": "r2: ingles de lineas 8 20 32 33 35 44 corregido; todos los checks en verde",
+          "t": "2026-11-05T11:29:53Z"
         }
       },
       "motivo_en": "Saúl: lyric corrected against the original; sync shifted in block"
@@ -63809,10 +63809,10 @@
       "originalTrackId": "",
       "titulo": "Codigo Postal",
       "artista": "Ha-Ash",
-      "estado": "parada",
-      "vueltas": 0,
-      "motivo": "publicada: dos pasadas del proveedor; 34 líneas de la 2a pasada son duplicado exacto (borrar), 48-50, 62, 77-81, 89, 97-98 son letra única (des-excluir y ordenar), 88 y 93-96 segunda voz; los hints no pueden; necesita OK de Saúl",
-      "actualizado": "2026-11-05T09:31:15Z",
+      "estado": "revision",
+      "vueltas": 1,
+      "motivo": "Saúl: estructura arreglada (34 líneas duplicadas borradas, líneas ordenadas por tiempo, 1 línea real activada)",
+      "actualizado": "2026-11-05T11:32:53Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -63852,7 +63852,7 @@
           "t": "2026-10-21T13:13:26Z"
         }
       },
-      "motivo_en": "published: two provider passes; 34 second-pass lines are exact duplicates (delete), 48-50, 62, 77-81, 89, 97-98 are unique lyric (un-exclude and reorder), 88 and 93-96 are a second voice; hints cannot do it; needs Saul's OK"
+      "motivo_en": "Saúl: structure fixed (34 duplicate lines deleted, lines in time order, 1 real line enabled)"
     },
     {
       "coverTrackId": "6aa80d97d951e1665a7ed32c",
@@ -72229,10 +72229,10 @@
       "originalTrackId": "",
       "titulo": "No Tengo Nada (Paris)",
       "artista": "Rakim & Ken Y",
-      "estado": "revision",
-      "vueltas": 1,
-      "motivo": "Saúl: estructura arreglada (línea 45 partida en 19), anclajes movidos, inglés completo en pending_review",
-      "actualizado": "2026-11-05T11:14:08Z",
+      "estado": "correccion",
+      "vueltas": 2,
+      "motivo": "QC r2 devuelto",
+      "actualizado": "2026-11-05T11:27:39Z",
       "auditoria": {
         "pasos": {
           "carry": {
@@ -72259,10 +72259,20 @@
             "v": "ok",
             "nota": "borrador EN pending_review desde 27 oct (53/53 lineas, nuestro), wit_dt_audit BAD 0; parte estaba desfasado",
             "t": "2026-11-04T09:47:21Z"
+          },
+          "qc": {
+            "v": "falta",
+            "nota": "r2: split ok; linea 55 palabras 1-2 sin signos de pregunta y su ingles distinto de las gemelas 9/71",
+            "t": "2026-11-05T11:27:37Z"
           }
+        },
+        "qc": {
+          "v": "DEVUELTO",
+          "resumen": "r2: split ok; linea 55 palabras 1-2 sin signos de pregunta y su ingles distinto de las gemelas 9/71",
+          "t": "2026-11-05T11:27:37Z"
         }
       },
-      "motivo_en": "Saúl: structure fixed (line 45 split into 19), anchors moved, English complete in pending_review"
+      "motivo_en": "Line 55 words 1-2 lack the Spanish question marks its twins lines 9 and 71 have; set line 55 English equal to line 9"
     },
     {
       "coverTrackId": "6aa6775b72ca57eb1a9f3440",
